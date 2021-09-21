@@ -29,20 +29,20 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: MainEffectSO
     MainEffectSO() noexcept {}
-    // public System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x238D690
-    bool get_hasPostProcessEffect();
     // public System.Void PreRender()
-    // Offset: 0x238D684
+    // Offset: 0x2587F90
     void PreRender();
     // public System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
-    // Offset: 0x238D688
+    // Offset: 0x2587F94
     void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, float fade);
     // public System.Void PostRender(System.Single fade)
-    // Offset: 0x238D68C
+    // Offset: 0x2587F98
     void PostRender(float fade);
+    // public System.Boolean get_hasPostProcessEffect()
+    // Offset: 0x2587F9C
+    bool get_hasPostProcessEffect();
     // public System.Void .ctor()
-    // Offset: 0x238CD0C
+    // Offset: 0x2587618
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -58,14 +58,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectSO*, "", "MainEffectSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::MainEffectSO::get_hasPostProcessEffect
-// Il2CppName: get_hasPostProcessEffect
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MainEffectSO::*)()>(&GlobalNamespace::MainEffectSO::get_hasPostProcessEffect)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectSO*), "get_hasPostProcessEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectSO::PreRender
 // Il2CppName: PreRender
 template<>
@@ -92,6 +84,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* fade = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectSO*), "PostRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fade});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MainEffectSO::get_hasPostProcessEffect
+// Il2CppName: get_hasPostProcessEffect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MainEffectSO::*)()>(&GlobalNamespace::MainEffectSO::get_hasPostProcessEffect)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectSO*), "get_hasPostProcessEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectSO::New_ctor

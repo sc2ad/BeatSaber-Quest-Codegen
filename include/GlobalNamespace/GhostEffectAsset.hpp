@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GhostEffectBehaviour::GhostEffectType ghostEffectType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GhostEffectBehaviour::GhostEffectType) == 0x4);
-    // [NullAllowed] Offset: 0xE4B860
+    // [NullAllowed] Offset: 0xF1446C
     // public UnityEngine.ExposedReference`1<TimelineArrayReference> arrayReference
     // Size: 0xFFFFFFFF
     // Offset: 0x20
@@ -82,10 +82,15 @@ namespace GlobalNamespace {
     // Get instance field reference: public GhostEffectBehaviour template
     GlobalNamespace::GhostEffectBehaviour*& dyn_template();
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x1105138
+    // Offset: 0x113FF54
     UnityEngine::Timeline::ClipCaps get_clipCaps();
+    // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
+    // Offset: 0x113FF5C
+    // Implemented from: UnityEngine.Playables.PlayableAsset
+    // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
+    UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go);
     // public System.Void .ctor()
-    // Offset: 0x1105274
+    // Offset: 0x1140090
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Void PlayableAsset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -96,11 +101,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GhostEffectAsset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GhostEffectAsset*, creationType>()));
     }
-    // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x1105140
-    // Implemented from: UnityEngine.Playables.PlayableAsset
-    // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go);
   }; // GhostEffectAsset
   // WARNING Not writing size check since size may be invalid!
 }
@@ -114,10 +114,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GhostEffectAsset*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GhostEffectAsset::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GhostEffectAsset::CreatePlayable
 // Il2CppName: CreatePlayable
 template<>
@@ -128,3 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GhostEffectAsset*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{graph, go});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::GhostEffectAsset::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

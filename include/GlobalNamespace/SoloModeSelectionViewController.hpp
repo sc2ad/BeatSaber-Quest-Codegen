@@ -115,6 +115,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* dismissButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF12008
     // private System.Action`2<SoloModeSelectionViewController,SoloModeSelectionViewController/MenuType> didFinishEvent
     // Size: 0x8
     // Offset: 0x90
@@ -134,28 +135,33 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<SoloModeSelectionViewController,SoloModeSelectionViewController/MenuType> didFinishEvent
     System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<SoloModeSelectionViewController,SoloModeSelectionViewController/MenuType> value)
-    // Offset: 0x109B598
+    // Offset: 0x1109FCC
     void add_didFinishEvent(System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<SoloModeSelectionViewController,SoloModeSelectionViewController/MenuType> value)
-    // Offset: 0x109B63C
+    // Offset: 0x110A070
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>* value);
     // private System.Void HandleMenuButton(SoloModeSelectionViewController/MenuType subMenuType)
-    // Offset: 0x109B864
+    // Offset: 0x110A298
     void HandleMenuButton(GlobalNamespace::SoloModeSelectionViewController::MenuType subMenuType);
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0x109B8E4
+    // Offset: 0x110A318
     void $DidActivate$b__8_0();
     // private System.Void <DidActivate>b__8_1()
-    // Offset: 0x109B8EC
+    // Offset: 0x110A320
     void $DidActivate$b__8_1();
     // private System.Void <DidActivate>b__8_2()
-    // Offset: 0x109B8F4
+    // Offset: 0x110A328
     void $DidActivate$b__8_2();
     // private System.Void <DidActivate>b__8_3()
-    // Offset: 0x109B8FC
+    // Offset: 0x110A330
     void $DidActivate$b__8_3();
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x110A114
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x109B8DC
+    // Offset: 0x110A310
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -168,11 +174,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SoloModeSelectionViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SoloModeSelectionViewController*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x109B6E0
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
   }; // SoloModeSelectionViewController
   #pragma pack(pop)
   static check_size<sizeof(SoloModeSelectionViewController), 144 + sizeof(System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>*)> __GlobalNamespace_SoloModeSelectionViewControllerSizeCheck;
@@ -240,10 +241,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SoloModeSelectionViewController*), "<DidActivate>b__8_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SoloModeSelectionViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SoloModeSelectionViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -255,3 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SoloModeSelectionViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{firstActivation, addedToHierarchy, screenSystemEnabling});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SoloModeSelectionViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

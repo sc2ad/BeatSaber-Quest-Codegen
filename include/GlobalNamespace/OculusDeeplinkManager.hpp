@@ -46,6 +46,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OculusDeeplinkManager : public ::Il2CppObject/*, public GlobalNamespace::IDeeplinkManager*/ {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xF015A4
     // private System.Action`1<Deeplink> didReceiveDeeplinkEvent
     // Size: 0x8
     // Offset: 0x10
@@ -76,35 +77,35 @@ namespace GlobalNamespace {
     GlobalNamespace::Deeplink*& dyn__currentDeeplink();
     // Get instance field reference: private System.Boolean _oculusPlatformWasInitialized
     bool& dyn__oculusPlatformWasInitialized();
-    // public Deeplink get_currentDeeplink()
-    // Offset: 0x1256EE0
-    GlobalNamespace::Deeplink* get_currentDeeplink();
     // public System.Void add_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0x1256D98
+    // Offset: 0x1362DFC
     void add_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
     // public System.Void remove_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0x1256E3C
+    // Offset: 0x1362EA0
     void remove_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
+    // public Deeplink get_currentDeeplink()
+    // Offset: 0x1362F44
+    GlobalNamespace::Deeplink* get_currentDeeplink();
     // public System.Void Init()
-    // Offset: 0x1256EE8
+    // Offset: 0x1362F4C
     void Init();
     // public System.Void OculusPlatformWasInitialized()
-    // Offset: 0x1256F64
+    // Offset: 0x1362FC8
     void OculusPlatformWasInitialized();
     // private System.Void SetJoinIntentReceivedNotificationCallback(Oculus.Platform.Message`1<Oculus.Platform.Models.GroupPresenceJoinIntent> message)
-    // Offset: 0x1256F7C
+    // Offset: 0x1362FE0
     void SetJoinIntentReceivedNotificationCallback(Oculus::Platform::Message_1<Oculus::Platform::Models::GroupPresenceJoinIntent*>* message);
     // private System.Void UpdateDeeplinkMessage(Oculus.Platform.Models.GroupPresenceJoinIntent joinIntent, Oculus.Platform.Models.LaunchDetails launchDetails)
-    // Offset: 0x125709C
+    // Offset: 0x1363100
     void UpdateDeeplinkMessage(Oculus::Platform::Models::GroupPresenceJoinIntent* joinIntent, Oculus::Platform::Models::LaunchDetails* launchDetails);
     // private System.Boolean IsAtLeastOneFieldPopulated(Deeplink deeplink)
-    // Offset: 0x125725C
+    // Offset: 0x13632C0
     bool IsAtLeastOneFieldPopulated(GlobalNamespace::Deeplink* deeplink);
     // static public System.Void Log(System.String message)
-    // Offset: 0x1257034
+    // Offset: 0x1363098
     static void Log(::Il2CppString* message);
     // public System.Void .ctor()
-    // Offset: 0x12572DC
+    // Offset: 0x1363340
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -119,14 +120,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusDeeplinkManager*, "", "OculusDeeplinkManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::OculusDeeplinkManager::get_currentDeeplink
-// Il2CppName: get_currentDeeplink
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::Deeplink* (GlobalNamespace::OculusDeeplinkManager::*)()>(&GlobalNamespace::OculusDeeplinkManager::get_currentDeeplink)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeeplinkManager*), "get_currentDeeplink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::OculusDeeplinkManager::add_didReceiveDeeplinkEvent
 // Il2CppName: add_didReceiveDeeplinkEvent
 template<>
@@ -143,6 +136,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "Deeplink")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeeplinkManager*), "remove_didReceiveDeeplinkEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OculusDeeplinkManager::get_currentDeeplink
+// Il2CppName: get_currentDeeplink
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::Deeplink* (GlobalNamespace::OculusDeeplinkManager::*)()>(&GlobalNamespace::OculusDeeplinkManager::get_currentDeeplink)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeeplinkManager*), "get_currentDeeplink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OculusDeeplinkManager::Init

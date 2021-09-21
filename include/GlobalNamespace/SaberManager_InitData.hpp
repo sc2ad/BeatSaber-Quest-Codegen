@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly SaberType oneSaberType
     GlobalNamespace::SaberType& dyn_oneSaberType();
     // public System.Void .ctor(System.Boolean oneSaberMode, SaberType oneSaberType)
-    // Offset: 0x1130AC4
+    // Offset: 0x11CA104
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberManager::InitData* New_ctor(bool oneSaberMode, GlobalNamespace::SaberType oneSaberType) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SaberManager::InitData::.ctor");

@@ -46,45 +46,45 @@ namespace Org::BouncyCastle::Asn1 {
     }
     // Get instance field reference: private readonly System.String time
     ::Il2CppString*& dyn_time();
-    // public System.String get_TimeString()
-    // Offset: 0x17415D4
-    ::Il2CppString* get_TimeString();
-    // public System.String get_AdjustedTimeString()
-    // Offset: 0x1741488
-    ::Il2CppString* get_AdjustedTimeString();
     // System.Void .ctor(System.Byte[] bytes)
-    // Offset: 0x1730CE8
+    // Offset: 0x18E24C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerUtcTime* New_ctor(::Array<uint8_t>* bytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerUtcTime::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerUtcTime*, creationType>(bytes)));
     }
     // public System.DateTime ToAdjustedDateTime()
-    // Offset: 0x1741430
+    // Offset: 0x18F2C08
     System::DateTime ToAdjustedDateTime();
     // private System.DateTime ParseDateString(System.String dateStr, System.String formatStr)
-    // Offset: 0x1741510
+    // Offset: 0x18F2CE8
     System::DateTime ParseDateString(::Il2CppString* dateStr, ::Il2CppString* formatStr);
+    // public System.String get_TimeString()
+    // Offset: 0x18F2DAC
+    ::Il2CppString* get_TimeString();
+    // public System.String get_AdjustedTimeString()
+    // Offset: 0x18F2C60
+    ::Il2CppString* get_AdjustedTimeString();
     // private System.Byte[] GetOctets()
-    // Offset: 0x174198C
+    // Offset: 0x18F3164
     ::Array<uint8_t>* GetOctets();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x1741998
+    // Offset: 0x18F3170
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x17419D4
+    // Offset: 0x18F31AC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x1741A88
+    // Offset: 0x18F3260
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1741AA4
+    // Offset: 0x18F327C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -95,22 +95,6 @@ namespace Org::BouncyCastle::Asn1 {
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerUtcTime*, "Org.BouncyCastle.Asn1", "DerUtcTime");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerUtcTime::get_TimeString
-// Il2CppName: get_TimeString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::DerUtcTime::*)()>(&Org::BouncyCastle::Asn1::DerUtcTime::get_TimeString)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerUtcTime*), "get_TimeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerUtcTime::get_AdjustedTimeString
-// Il2CppName: get_AdjustedTimeString
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::DerUtcTime::*)()>(&Org::BouncyCastle::Asn1::DerUtcTime::get_AdjustedTimeString)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerUtcTime*), "get_AdjustedTimeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerUtcTime::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -131,6 +115,22 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
     static auto* dateStr = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* formatStr = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerUtcTime*), "ParseDateString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dateStr, formatStr});
+  }
+};
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerUtcTime::get_TimeString
+// Il2CppName: get_TimeString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::DerUtcTime::*)()>(&Org::BouncyCastle::Asn1::DerUtcTime::get_TimeString)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerUtcTime*), "get_TimeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerUtcTime::get_AdjustedTimeString
+// Il2CppName: get_AdjustedTimeString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::DerUtcTime::*)()>(&Org::BouncyCastle::Asn1::DerUtcTime::get_AdjustedTimeString)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerUtcTime*), "get_AdjustedTimeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerUtcTime::GetOctets

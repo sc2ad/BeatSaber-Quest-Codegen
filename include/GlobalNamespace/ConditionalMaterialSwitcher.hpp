@@ -34,21 +34,21 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConditionalMaterialSwitcher : public UnityEngine::MonoBehaviour {
     public:
-    // [HeaderAttribute] Offset: 0xE42FBC
+    // [HeaderAttribute] Offset: 0xF0B950
     // private UnityEngine.Material _material0
     // Size: 0x8
     // Offset: 0x18
     UnityEngine::Material* material0;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE43008
+    // [HeaderAttribute] Offset: 0xF0B99C
     // private UnityEngine.Material _material1
     // Size: 0x8
     // Offset: 0x20
     UnityEngine::Material* material1;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE43054
+    // [SpaceAttribute] Offset: 0xF0B9E8
     // private BoolSO _value
     // Size: 0x8
     // Offset: 0x28
@@ -74,10 +74,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Renderer _renderer
     UnityEngine::Renderer*& dyn__renderer();
     // public System.Void Awake()
-    // Offset: 0x10E6020
+    // Offset: 0x119DA6C
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x10E609C
+    // Offset: 0x119DAE8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

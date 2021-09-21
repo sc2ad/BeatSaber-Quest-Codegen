@@ -88,6 +88,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ConnectedPlayerManager*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xED9FE0
     // private PartyMessageHandler/ConnectToMasterServerDelegate connectToMasterServerEvent
     // Size: 0x8
     // Offset: 0x20
@@ -106,27 +107,27 @@ namespace GlobalNamespace {
     GlobalNamespace::ConnectedPlayerManager*& dyn__connectedPlayerManager();
     // Get instance field reference: private PartyMessageHandler/ConnectToMasterServerDelegate connectToMasterServerEvent
     GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*& dyn_connectToMasterServerEvent();
-    // public System.Void add_connectToMasterServerEvent(PartyMessageHandler/ConnectToMasterServerDelegate value)
-    // Offset: 0x16F85F4
-    void add_connectToMasterServerEvent(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* value);
-    // public System.Void remove_connectToMasterServerEvent(PartyMessageHandler/ConnectToMasterServerDelegate value)
-    // Offset: 0x16F8698
-    void remove_connectToMasterServerEvent(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* value);
     // public System.Void .ctor(ConnectedPlayerManager connectedPlayerManager)
-    // Offset: 0x16F8444
+    // Offset: 0x18D1F44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PartyMessageHandler* New_ctor(GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PartyMessageHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PartyMessageHandler*, creationType>(connectedPlayerManager)));
     }
     // public System.Void Dispose()
-    // Offset: 0x16F85CC
+    // Offset: 0x18D20CC
     void Dispose();
+    // public System.Void add_connectToMasterServerEvent(PartyMessageHandler/ConnectToMasterServerDelegate value)
+    // Offset: 0x18D20F4
+    void add_connectToMasterServerEvent(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* value);
+    // public System.Void remove_connectToMasterServerEvent(PartyMessageHandler/ConnectToMasterServerDelegate value)
+    // Offset: 0x18D2198
+    void remove_connectToMasterServerEvent(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* value);
     // public System.Void ConnectToMasterServer(System.String secret)
-    // Offset: 0x16F873C
+    // Offset: 0x18D223C
     void ConnectToMasterServer(::Il2CppString* secret);
     // private System.Void HandleConnectToMasterServer(PartyMessageHandler/ConnectToMasterServerMessage packet)
-    // Offset: 0x16F87D0
+    // Offset: 0x18D22D0
     void HandleConnectToMasterServer(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage* packet);
   }; // PartyMessageHandler
   #pragma pack(pop)
@@ -136,6 +137,18 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler*, "", "PartyMessageHandler");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::MessageType, "", "PartyMessageHandler/MessageType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::*)()>(&GlobalNamespace::PartyMessageHandler::Dispose)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::add_connectToMasterServerEvent
 // Il2CppName: add_connectToMasterServerEvent
 template<>
@@ -152,18 +165,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "PartyMessageHandler/ConnectToMasterServerDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler*), "remove_connectToMasterServerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::Dispose
-// Il2CppName: Dispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::*)()>(&GlobalNamespace::PartyMessageHandler::Dispose)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::ConnectToMasterServer

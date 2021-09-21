@@ -40,16 +40,21 @@ namespace GlobalNamespace {
     // Get instance field reference: System.Action`1<System.Single> m_OnUpdateDelegate
     System::Action_1<float>*& dyn_m_OnUpdateDelegate();
     // public System.Void add_OnUpdateDelegate(System.Action`1<System.Single> value)
-    // Offset: 0x19E9868
+    // Offset: 0x1B5E710
     void add_OnUpdateDelegate(System::Action_1<float>* value);
     // public System.Void remove_OnUpdateDelegate(System.Action`1<System.Single> value)
-    // Offset: 0x19E98E8
+    // Offset: 0x1B5E790
     void remove_OnUpdateDelegate(System::Action_1<float>* value);
     // System.Void Update()
-    // Offset: 0x19E99B0
+    // Offset: 0x1B5E858
     void Update();
+    // protected override System.String GetGameObjectName()
+    // Offset: 0x1B5E810
+    // Implemented from: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
+    // Base method: System.String ComponentSingleton_1::GetGameObjectName()
+    ::Il2CppString* GetGameObjectName();
     // public System.Void .ctor()
-    // Offset: 0x19E9A1C
+    // Offset: 0x1B5E8C4
     // Implemented from: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
     // Base method: System.Void ComponentSingleton_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -62,11 +67,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MonoBehaviourCallbackHooks::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoBehaviourCallbackHooks*, creationType>()));
     }
-    // protected override System.String GetGameObjectName()
-    // Offset: 0x19E9968
-    // Implemented from: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
-    // Base method: System.String ComponentSingleton_1::GetGameObjectName()
-    ::Il2CppString* GetGameObjectName();
   }; // MonoBehaviourCallbackHooks
   // WARNING Not writing size check since size may be invalid!
 }
@@ -98,10 +98,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MonoBehaviourCallbackHooks*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MonoBehaviourCallbackHooks::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MonoBehaviourCallbackHooks::GetGameObjectName
 // Il2CppName: GetGameObjectName
 template<>
@@ -110,3 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MonoBehaviourCallbackHooks*), "GetGameObjectName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MonoBehaviourCallbackHooks::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

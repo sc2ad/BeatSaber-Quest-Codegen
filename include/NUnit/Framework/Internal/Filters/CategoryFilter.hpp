@@ -29,13 +29,8 @@ namespace NUnit::Framework::Internal::Filters {
     public:
     // Creating value type constructor for type: CategoryFilter
     CategoryFilter() noexcept {}
-    // protected override System.String get_ElementName()
-    // Offset: 0x1781F14
-    // Implemented from: NUnit.Framework.Internal.Filters.ValueMatchFilter
-    // Base method: System.String ValueMatchFilter::get_ElementName()
-    ::Il2CppString* get_ElementName();
     // public System.Void .ctor(System.String name)
-    // Offset: 0x1781B20
+    // Offset: 0x1940B6C
     // Implemented from: NUnit.Framework.Internal.Filters.ValueMatchFilter
     // Base method: System.Void ValueMatchFilter::.ctor(System.String name)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -44,23 +39,20 @@ namespace NUnit::Framework::Internal::Filters {
       return THROW_UNLESS((::il2cpp_utils::New<CategoryFilter*, creationType>(name)));
     }
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1781B28
+    // Offset: 0x1940B74
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Boolean TestFilter::Match(NUnit.Framework.Interfaces.ITest test)
     bool Match(NUnit::Framework::Interfaces::ITest* test);
+    // protected override System.String get_ElementName()
+    // Offset: 0x1940F60
+    // Implemented from: NUnit.Framework.Internal.Filters.ValueMatchFilter
+    // Base method: System.String ValueMatchFilter::get_ElementName()
+    ::Il2CppString* get_ElementName();
   }; // NUnit.Framework.Internal.Filters.CategoryFilter
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Filters::CategoryFilter*, "NUnit.Framework.Internal.Filters", "CategoryFilter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CategoryFilter::get_ElementName
-// Il2CppName: get_ElementName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::Filters::CategoryFilter::*)()>(&NUnit::Framework::Internal::Filters::CategoryFilter::get_ElementName)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::CategoryFilter*), "get_ElementName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CategoryFilter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -72,5 +64,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
   static const MethodInfo* get() {
     static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::CategoryFilter*), "Match", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});
+  }
+};
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CategoryFilter::get_ElementName
+// Il2CppName: get_ElementName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::Filters::CategoryFilter::*)()>(&NUnit::Framework::Internal::Filters::CategoryFilter::get_ElementName)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::CategoryFilter*), "get_ElementName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

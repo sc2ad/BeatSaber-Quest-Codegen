@@ -37,24 +37,14 @@ namespace Mono::Security::Cryptography {
     static ::Array<System::Security::Cryptography::KeySizes*>* _get_s_legalKeySizes();
     // Set static field: static private System.Security.Cryptography.KeySizes[] s_legalKeySizes
     static void _set_s_legalKeySizes(::Array<System::Security::Cryptography::KeySizes*>* value);
-    // static private System.Void .cctor()
-    // Offset: 0x1E02F14
-    static void _cctor();
     // static public Mono.Security.Cryptography.RC4 Create()
-    // Offset: 0x1DFE3D0
+    // Offset: 0x1F9A938
     static Mono::Security::Cryptography::RC4* Create();
-    // public override System.Byte[] get_IV()
-    // Offset: 0x1E02EC4
-    // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
-    // Base method: System.Byte[] SymmetricAlgorithm::get_IV()
-    ::Array<uint8_t>* get_IV();
-    // public override System.Void set_IV(System.Byte[] value)
-    // Offset: 0x1E02F10
-    // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
-    // Base method: System.Void SymmetricAlgorithm::set_IV(System.Byte[] value)
-    void set_IV(::Array<uint8_t>* value);
+    // static private System.Void .cctor()
+    // Offset: 0x1F9F47C
+    static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1DFEC08
+    // Offset: 0x1F9B170
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -63,19 +53,21 @@ namespace Mono::Security::Cryptography {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Cryptography::RC4::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RC4*, creationType>()));
     }
+    // public override System.Byte[] get_IV()
+    // Offset: 0x1F9F42C
+    // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
+    // Base method: System.Byte[] SymmetricAlgorithm::get_IV()
+    ::Array<uint8_t>* get_IV();
+    // public override System.Void set_IV(System.Byte[] value)
+    // Offset: 0x1F9F478
+    // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
+    // Base method: System.Void SymmetricAlgorithm::set_IV(System.Byte[] value)
+    void set_IV(::Array<uint8_t>* value);
   }; // Mono.Security.Cryptography.RC4
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::RC4*, "Mono.Security.Cryptography", "RC4");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: Mono::Security::Cryptography::RC4::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Security::Cryptography::RC4::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::RC4*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: Mono::Security::Cryptography::RC4::Create
 // Il2CppName: Create
 template<>
@@ -84,6 +76,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::RC4*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: Mono::Security::Cryptography::RC4::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Security::Cryptography::RC4::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::RC4*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Mono::Security::Cryptography::RC4::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Security::Cryptography::RC4::get_IV
 // Il2CppName: get_IV
 template<>
@@ -101,7 +105,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::RC4*), "set_IV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: Mono::Security::Cryptography::RC4::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

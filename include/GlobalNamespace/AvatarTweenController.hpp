@@ -25,8 +25,8 @@ namespace UnityEngine {
 }
 // Forward declaring namespace: Tweening
 namespace Tweening {
-  // Forward declaring type: TweeningManager
-  class TweeningManager;
+  // Forward declaring type: TimeTweeningManager
+  class TimeTweeningManager;
   // Forward declaring type: Tween`1<T>
   template<typename T>
   class Tween_1;
@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     class $AppearAnimation$d__53;
     // Nested type: GlobalNamespace::AvatarTweenController::$DisappearAnimation$d__58
     class $DisappearAnimation$d__58;
-    // [HeaderAttribute] Offset: 0xE381D4
+    // [HeaderAttribute] Offset: 0xF00978
     // private UnityEngine.Transform _avatarTransform
     // Size: 0x8
     // Offset: 0x18
@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform* bodyTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE38260
+    // [HeaderAttribute] Offset: 0xF00A04
     // private UnityEngine.Transform _headInnerTransform
     // Size: 0x8
     // Offset: 0x40
@@ -107,8 +107,8 @@ namespace GlobalNamespace {
     UnityEngine::Transform* bodyInnerTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE382DC
-    // [RangeAttribute] Offset: 0xE382DC
+    // [HeaderAttribute] Offset: 0xF00A80
+    // [RangeAttribute] Offset: 0xF00A80
     // private System.Single _popDuration
     // Size: 0x4
     // Offset: 0x60
@@ -145,15 +145,15 @@ namespace GlobalNamespace {
     float allPopAmount;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xE38390
-    // [RangeAttribute] Offset: 0xE38390
+    // [HeaderAttribute] Offset: 0xF00B34
+    // [RangeAttribute] Offset: 0xF00B34
     // private System.Single _appearDuration
     // Size: 0x4
     // Offset: 0x78
     float appearDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE383F4
+    // [RangeAttribute] Offset: 0xF00B98
     // private System.Single _appearSpacing
     // Size: 0x4
     // Offset: 0x7C
@@ -166,15 +166,15 @@ namespace GlobalNamespace {
     float appearHeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [MinAttribute] Offset: 0xE38444
+    // [MinAttribute] Offset: 0xF00BE8
     // private UnityEngine.Vector3 _squashFactor
     // Size: 0xC
     // Offset: 0x84
     UnityEngine::Vector3 squashFactor;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [HeaderAttribute] Offset: 0xE38480
-    // [RangeAttribute] Offset: 0xE38480
+    // [HeaderAttribute] Offset: 0xF00C24
+    // [RangeAttribute] Offset: 0xF00C24
     // private System.Single _disappearDuration
     // Size: 0x4
     // Offset: 0x90
@@ -207,13 +207,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(Tweening::EaseType) == 0x4);
     // Padding between fields: disappearPositionEase and: tweeningManager
     char __padding23[0x4] = {};
-    // [InjectAttribute] Offset: 0xE38528
-    // private readonly Tweening.TweeningManager _tweeningManager
+    // [InjectAttribute] Offset: 0xF00CCC
+    // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0xB0
-    Tweening::TweeningManager* tweeningManager;
+    Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
-    static_assert(sizeof(Tweening::TweeningManager*) == 0x8);
+    static_assert(sizeof(Tweening::TimeTweeningManager*) == 0x8);
     // private Tweening.Tween`1<System.Single> _popHeadTween
     // Size: 0x8
     // Offset: 0xB8
@@ -311,7 +311,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: AvatarTweenController
-    AvatarTweenController(UnityEngine::Transform* avatarTransform_ = {}, UnityEngine::Transform* headParent_ = {}, UnityEngine::Transform* leftHandTransform_ = {}, UnityEngine::Transform* rightHandTransform_ = {}, UnityEngine::Transform* bodyTransform_ = {}, UnityEngine::Transform* headInnerTransform_ = {}, UnityEngine::Transform* leftHandInnerTransform_ = {}, UnityEngine::Transform* rightHandInnerTransform_ = {}, UnityEngine::Transform* bodyInnerTransform_ = {}, float popDuration_ = {}, Tweening::EaseType popEaseType_ = {}, float headPopAmount_ = {}, float handsPopAmount_ = {}, float clothesPopAmount_ = {}, float allPopAmount_ = {}, float appearDuration_ = {}, float appearSpacing_ = {}, float appearHeight_ = {}, UnityEngine::Vector3 squashFactor_ = {}, float disappearDuration_ = {}, float disappearHeight_ = {}, UnityEngine::Vector3 disappearSquash_ = {}, Tweening::EaseType disappearScaleEase_ = {}, Tweening::EaseType disappearPositionEase_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, Tweening::Tween_1<float>* popHeadTween_ = {}, Tweening::Tween_1<float>* popLeftHandTween_ = {}, Tweening::Tween_1<float>* popRightHandTween_ = {}, Tweening::Tween_1<float>* popClothesTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearHeadPositionTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearHeadScaleTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearBodyPositionTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearBodyScaleTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearRightHandPositionTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearRightHandScaleTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearLeftHandPositionTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearLeftHandScaleTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* disappearScaleTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* disappearPositionTween_ = {}, UnityEngine::Vector3 avatarLocalPosition_ = {}, UnityEngine::Vector3 avatarLocalScale_ = {}) noexcept : avatarTransform{avatarTransform_}, headParent{headParent_}, leftHandTransform{leftHandTransform_}, rightHandTransform{rightHandTransform_}, bodyTransform{bodyTransform_}, headInnerTransform{headInnerTransform_}, leftHandInnerTransform{leftHandInnerTransform_}, rightHandInnerTransform{rightHandInnerTransform_}, bodyInnerTransform{bodyInnerTransform_}, popDuration{popDuration_}, popEaseType{popEaseType_}, headPopAmount{headPopAmount_}, handsPopAmount{handsPopAmount_}, clothesPopAmount{clothesPopAmount_}, allPopAmount{allPopAmount_}, appearDuration{appearDuration_}, appearSpacing{appearSpacing_}, appearHeight{appearHeight_}, squashFactor{squashFactor_}, disappearDuration{disappearDuration_}, disappearHeight{disappearHeight_}, disappearSquash{disappearSquash_}, disappearScaleEase{disappearScaleEase_}, disappearPositionEase{disappearPositionEase_}, tweeningManager{tweeningManager_}, popHeadTween{popHeadTween_}, popLeftHandTween{popLeftHandTween_}, popRightHandTween{popRightHandTween_}, popClothesTween{popClothesTween_}, appearHeadPositionTween{appearHeadPositionTween_}, appearHeadScaleTween{appearHeadScaleTween_}, appearBodyPositionTween{appearBodyPositionTween_}, appearBodyScaleTween{appearBodyScaleTween_}, appearRightHandPositionTween{appearRightHandPositionTween_}, appearRightHandScaleTween{appearRightHandScaleTween_}, appearLeftHandPositionTween{appearLeftHandPositionTween_}, appearLeftHandScaleTween{appearLeftHandScaleTween_}, disappearScaleTween{disappearScaleTween_}, disappearPositionTween{disappearPositionTween_}, avatarLocalPosition{avatarLocalPosition_}, avatarLocalScale{avatarLocalScale_} {}
+    AvatarTweenController(UnityEngine::Transform* avatarTransform_ = {}, UnityEngine::Transform* headParent_ = {}, UnityEngine::Transform* leftHandTransform_ = {}, UnityEngine::Transform* rightHandTransform_ = {}, UnityEngine::Transform* bodyTransform_ = {}, UnityEngine::Transform* headInnerTransform_ = {}, UnityEngine::Transform* leftHandInnerTransform_ = {}, UnityEngine::Transform* rightHandInnerTransform_ = {}, UnityEngine::Transform* bodyInnerTransform_ = {}, float popDuration_ = {}, Tweening::EaseType popEaseType_ = {}, float headPopAmount_ = {}, float handsPopAmount_ = {}, float clothesPopAmount_ = {}, float allPopAmount_ = {}, float appearDuration_ = {}, float appearSpacing_ = {}, float appearHeight_ = {}, UnityEngine::Vector3 squashFactor_ = {}, float disappearDuration_ = {}, float disappearHeight_ = {}, UnityEngine::Vector3 disappearSquash_ = {}, Tweening::EaseType disappearScaleEase_ = {}, Tweening::EaseType disappearPositionEase_ = {}, Tweening::TimeTweeningManager* tweeningManager_ = {}, Tweening::Tween_1<float>* popHeadTween_ = {}, Tweening::Tween_1<float>* popLeftHandTween_ = {}, Tweening::Tween_1<float>* popRightHandTween_ = {}, Tweening::Tween_1<float>* popClothesTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearHeadPositionTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearHeadScaleTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearBodyPositionTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearBodyScaleTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearRightHandPositionTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearRightHandScaleTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearLeftHandPositionTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* appearLeftHandScaleTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* disappearScaleTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* disappearPositionTween_ = {}, UnityEngine::Vector3 avatarLocalPosition_ = {}, UnityEngine::Vector3 avatarLocalScale_ = {}) noexcept : avatarTransform{avatarTransform_}, headParent{headParent_}, leftHandTransform{leftHandTransform_}, rightHandTransform{rightHandTransform_}, bodyTransform{bodyTransform_}, headInnerTransform{headInnerTransform_}, leftHandInnerTransform{leftHandInnerTransform_}, rightHandInnerTransform{rightHandInnerTransform_}, bodyInnerTransform{bodyInnerTransform_}, popDuration{popDuration_}, popEaseType{popEaseType_}, headPopAmount{headPopAmount_}, handsPopAmount{handsPopAmount_}, clothesPopAmount{clothesPopAmount_}, allPopAmount{allPopAmount_}, appearDuration{appearDuration_}, appearSpacing{appearSpacing_}, appearHeight{appearHeight_}, squashFactor{squashFactor_}, disappearDuration{disappearDuration_}, disappearHeight{disappearHeight_}, disappearSquash{disappearSquash_}, disappearScaleEase{disappearScaleEase_}, disappearPositionEase{disappearPositionEase_}, tweeningManager{tweeningManager_}, popHeadTween{popHeadTween_}, popLeftHandTween{popLeftHandTween_}, popRightHandTween{popRightHandTween_}, popClothesTween{popClothesTween_}, appearHeadPositionTween{appearHeadPositionTween_}, appearHeadScaleTween{appearHeadScaleTween_}, appearBodyPositionTween{appearBodyPositionTween_}, appearBodyScaleTween{appearBodyScaleTween_}, appearRightHandPositionTween{appearRightHandPositionTween_}, appearRightHandScaleTween{appearRightHandScaleTween_}, appearLeftHandPositionTween{appearLeftHandPositionTween_}, appearLeftHandScaleTween{appearLeftHandScaleTween_}, disappearScaleTween{disappearScaleTween_}, disappearPositionTween{disappearPositionTween_}, avatarLocalPosition{avatarLocalPosition_}, avatarLocalScale{avatarLocalScale_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _avatarTransform
@@ -362,8 +362,8 @@ namespace GlobalNamespace {
     Tweening::EaseType& dyn__disappearScaleEase();
     // Get instance field reference: private Tweening.EaseType _disappearPositionEase
     Tweening::EaseType& dyn__disappearPositionEase();
-    // Get instance field reference: private readonly Tweening.TweeningManager _tweeningManager
-    Tweening::TweeningManager*& dyn__tweeningManager();
+    // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
+    Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private Tweening.Tween`1<System.Single> _popHeadTween
     Tweening::Tween_1<float>*& dyn__popHeadTween();
     // Get instance field reference: private Tweening.Tween`1<System.Single> _popLeftHandTween
@@ -397,94 +397,94 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _avatarLocalScale
     UnityEngine::Vector3& dyn__avatarLocalScale();
     // protected System.Void Awake()
-    // Offset: 0x117D2BC
+    // Offset: 0x124D644
     void Awake();
     // protected System.Void OnDisable()
-    // Offset: 0x117D314
+    // Offset: 0x124D69C
     void OnDisable();
     // public System.Void PresentAvatar()
-    // Offset: 0x117D3BC
+    // Offset: 0x124D744
     void PresentAvatar();
     // public System.Void HideAvatar()
-    // Offset: 0x117D460
+    // Offset: 0x124D7E8
     void HideAvatar();
     // public System.Void PopAll()
-    // Offset: 0x117D504
+    // Offset: 0x124D88C
     void PopAll();
     // public System.Void PopHead()
-    // Offset: 0x117D6C8
+    // Offset: 0x124DA50
     void PopHead();
     // public System.Void PopHands()
-    // Offset: 0x117D6D0
+    // Offset: 0x124DA58
     void PopHands();
     // public System.Void PopClothes()
-    // Offset: 0x117D6D8
+    // Offset: 0x124DA60
     void PopClothes();
     // private System.Void PopHead(System.Single popAmount)
-    // Offset: 0x117D53C
+    // Offset: 0x124D8C4
     void PopHead(float popAmount);
     // private System.Void PopHands(System.Single popAmount)
-    // Offset: 0x117D614
+    // Offset: 0x124D99C
     void PopHands(float popAmount);
     // private System.Void PopClothes(System.Single popAmount)
-    // Offset: 0x117D5A8
+    // Offset: 0x124D930
     void PopClothes(float popAmount);
     // private Tweening.Tween`1<System.Single> CreatePopTween(UnityEngine.Transform partTransform, System.Single popAmount)
-    // Offset: 0x117D6E0
+    // Offset: 0x124DA68
     Tweening::Tween_1<float>* CreatePopTween(UnityEngine::Transform* partTransform, float popAmount);
     // private System.Collections.IEnumerator AppearAnimation()
-    // Offset: 0x117D3F0
+    // Offset: 0x124D778
     System::Collections::IEnumerator* AppearAnimation();
     // private System.Void AppearBody()
-    // Offset: 0x117D820
+    // Offset: 0x124DBA8
     void AppearBody();
     // private System.Void AppearHead()
-    // Offset: 0x117DB04
+    // Offset: 0x124DE8C
     void AppearHead();
     // private System.Void AppearLeftHand()
-    // Offset: 0x117DDE8
+    // Offset: 0x124E170
     void AppearLeftHand();
     // private System.Void AppearRightHand()
-    // Offset: 0x117E0D4
+    // Offset: 0x124E45C
     void AppearRightHand();
     // private System.Collections.IEnumerator DisappearAnimation()
-    // Offset: 0x117D494
+    // Offset: 0x124D81C
     System::Collections::IEnumerator* DisappearAnimation();
     // private System.Void StopAll()
-    // Offset: 0x117D318
+    // Offset: 0x124D6A0
     void StopAll();
     // private System.Void <AppearBody>b__54_0(UnityEngine.Vector3 val)
-    // Offset: 0x117E4D0
+    // Offset: 0x124E858
     void $AppearBody$b__54_0(UnityEngine::Vector3 val);
     // private System.Void <AppearBody>b__54_1(UnityEngine.Vector3 val)
-    // Offset: 0x117E4EC
+    // Offset: 0x124E874
     void $AppearBody$b__54_1(UnityEngine::Vector3 val);
     // private System.Void <AppearHead>b__55_0(UnityEngine.Vector3 val)
-    // Offset: 0x117E508
+    // Offset: 0x124E890
     void $AppearHead$b__55_0(UnityEngine::Vector3 val);
     // private System.Void <AppearHead>b__55_1(UnityEngine.Vector3 val)
-    // Offset: 0x117E524
+    // Offset: 0x124E8AC
     void $AppearHead$b__55_1(UnityEngine::Vector3 val);
     // private System.Void <AppearLeftHand>b__56_0(UnityEngine.Vector3 val)
-    // Offset: 0x117E540
+    // Offset: 0x124E8C8
     void $AppearLeftHand$b__56_0(UnityEngine::Vector3 val);
     // private System.Void <AppearLeftHand>b__56_1(UnityEngine.Vector3 val)
-    // Offset: 0x117E55C
+    // Offset: 0x124E8E4
     void $AppearLeftHand$b__56_1(UnityEngine::Vector3 val);
     // private System.Void <AppearRightHand>b__57_0(UnityEngine.Vector3 val)
-    // Offset: 0x117E578
+    // Offset: 0x124E900
     void $AppearRightHand$b__57_0(UnityEngine::Vector3 val);
     // private System.Void <AppearRightHand>b__57_1(UnityEngine.Vector3 val)
-    // Offset: 0x117E594
+    // Offset: 0x124E91C
     void $AppearRightHand$b__57_1(UnityEngine::Vector3 val);
     // private System.Void <DisappearAnimation>b__58_0(UnityEngine.Vector3 val)
-    // Offset: 0x117E5B0
+    // Offset: 0x124E938
     void $DisappearAnimation$b__58_0(UnityEngine::Vector3 val);
     // private System.Void <DisappearAnimation>b__58_1(UnityEngine.Vector3 val)
-    // Offset: 0x117E5CC
+    // Offset: 0x124E954
     void $DisappearAnimation$b__58_1(UnityEngine::Vector3 val);
     // public System.Void .ctor()
-    // Offset: 0x117E3EC
+    // Offset: 0x124E774
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

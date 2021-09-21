@@ -32,10 +32,10 @@ namespace GlobalNamespace {
 namespace UnityEngine {
   // Forward declaring type: GameObject
   class GameObject;
-  // Forward declaring type: Transform
-  class Transform;
   // Skipping declaration: Vector3 because it is already included!
   // Skipping declaration: Quaternion because it is already included!
+  // Forward declaring type: Transform
+  class Transform;
 }
 // Completed forward declares
 // Type namespace: 
@@ -105,40 +105,55 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _cutAngleTolerance
     float& dyn__cutAngleTolerance();
     // public NoteMovement get_noteMovement()
-    // Offset: 0x1077C3C
+    // Offset: 0x11662C0
     GlobalNamespace::NoteMovement* get_noteMovement();
     // public GameNoteController/GameNoteType get_gameNoteType()
-    // Offset: 0x1077C44
+    // Offset: 0x11662C8
     GlobalNamespace::GameNoteController_GameNoteType get_gameNoteType();
-    // private UnityEngine.Transform INoteMirrorable.get_transform()
-    // Offset: 0x10782F8
-    UnityEngine::Transform* INoteMirrorable_get_transform();
     // public System.Void Init(NoteData noteData, System.Single worldRotation, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single moveDuration, System.Single jumpDuration, System.Single jumpGravity, System.Single cutDirectionAngleOffset, System.Single cutAngleTolerance, System.Single uniformScale)
-    // Offset: 0x1075C40
+    // Offset: 0x11645C8
     void Init(GlobalNamespace::NoteData* noteData, float worldRotation, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float moveDuration, float jumpDuration, float jumpGravity, float cutDirectionAngleOffset, float cutAngleTolerance, float uniformScale);
     // private System.Void HandleBeforeNoteWasCutBySaber(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x1077ECC
+    // Offset: 0x1166550
     void HandleBeforeNoteWasCutBySaber(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // private System.Void HandleCoreWasCutBySaber(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x1077FDC
+    // Offset: 0x1166660
     void HandleCoreWasCutBySaber(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
-    // public override System.Boolean get_hide()
-    // Offset: 0x1077C24
-    // Implemented from: NoteController
-    // Base method: System.Boolean NoteController::get_hide()
-    bool get_hide();
+    // private UnityEngine.Transform INoteMirrorable.get_transform()
+    // Offset: 0x116697C
+    UnityEngine::Transform* INoteMirrorable_get_transform();
     // public override System.Void set_hide(System.Boolean value)
-    // Offset: 0x1077BE0
+    // Offset: 0x1166264
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_hide(System.Boolean value)
     void set_hide(bool value);
+    // public override System.Boolean get_hide()
+    // Offset: 0x11662A8
+    // Implemented from: NoteController
+    // Base method: System.Boolean NoteController::get_hide()
+    bool get_hide();
     // public override System.Void set_pause(System.Boolean value)
-    // Offset: 0x1077C2C
+    // Offset: 0x11662B0
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_pause(System.Boolean value)
     void set_pause(bool value);
+    // protected override System.Void Awake()
+    // Offset: 0x11662D0
+    // Implemented from: NoteController
+    // Base method: System.Void NoteController::Awake()
+    void Awake();
+    // protected override System.Void OnDestroy()
+    // Offset: 0x11663A4
+    // Implemented from: NoteController
+    // Base method: System.Void NoteController::OnDestroy()
+    void OnDestroy();
+    // protected override System.Void NoteDidPassMissedMarker()
+    // Offset: 0x11664F8
+    // Implemented from: NoteController
+    // Base method: System.Void NoteController::NoteDidPassMissedMarker()
+    void NoteDidPassMissedMarker();
     // public System.Void .ctor()
-    // Offset: 0x10782F0
+    // Offset: 0x1166974
     // Implemented from: NoteController
     // Base method: System.Void NoteController::.ctor()
     // Base method: System.Void NoteControllerBase::.ctor()
@@ -152,21 +167,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TutorialNoteController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TutorialNoteController*, creationType>()));
     }
-    // protected override System.Void Awake()
-    // Offset: 0x1077C4C
-    // Implemented from: NoteController
-    // Base method: System.Void NoteController::Awake()
-    void Awake();
-    // protected override System.Void OnDestroy()
-    // Offset: 0x1077D20
-    // Implemented from: NoteController
-    // Base method: System.Void NoteController::OnDestroy()
-    void OnDestroy();
-    // protected override System.Void NoteDidPassMissedMarker()
-    // Offset: 0x1077E74
-    // Implemented from: NoteController
-    // Base method: System.Void NoteController::NoteDidPassMissedMarker()
-    void NoteDidPassMissedMarker();
   }; // TutorialNoteController
   #pragma pack(pop)
   static check_size<sizeof(TutorialNoteController), 148 + sizeof(float)> __GlobalNamespace_TutorialNoteControllerSizeCheck;
@@ -188,14 +188,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameNoteController_GameNoteType (GlobalNamespace::TutorialNoteController::*)()>(&GlobalNamespace::TutorialNoteController::get_gameNoteType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialNoteController*), "get_gameNoteType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::TutorialNoteController::INoteMirrorable_get_transform
-// Il2CppName: INoteMirrorable.get_transform
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::TutorialNoteController::*)()>(&GlobalNamespace::TutorialNoteController::INoteMirrorable_get_transform)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialNoteController*), "INoteMirrorable.get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::TutorialNoteController::Init
@@ -241,12 +233,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialNoteController*), "HandleCoreWasCutBySaber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saber, cutPoint, orientation, cutDirVec});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TutorialNoteController::get_hide
-// Il2CppName: get_hide
+// Writing MetadataGetter for method: GlobalNamespace::TutorialNoteController::INoteMirrorable_get_transform
+// Il2CppName: INoteMirrorable.get_transform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::TutorialNoteController::*)()>(&GlobalNamespace::TutorialNoteController::get_hide)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::TutorialNoteController::*)()>(&GlobalNamespace::TutorialNoteController::INoteMirrorable_get_transform)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialNoteController*), "get_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialNoteController*), "INoteMirrorable.get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::TutorialNoteController::set_hide
@@ -258,6 +250,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialNoteController*), "set_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::TutorialNoteController::get_hide
+// Il2CppName: get_hide
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::TutorialNoteController::*)()>(&GlobalNamespace::TutorialNoteController::get_hide)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialNoteController*), "get_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::TutorialNoteController::set_pause
 // Il2CppName: set_pause
 template<>
@@ -267,10 +267,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialNoteController*), "set_pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TutorialNoteController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TutorialNoteController::Awake
 // Il2CppName: Awake
 template<>
@@ -295,3 +291,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialNoteController*), "NoteDidPassMissedMarker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::TutorialNoteController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

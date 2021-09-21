@@ -34,20 +34,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: HighlighterDelegate
     HighlighterDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x117EF08
+    // Offset: 0x124F290
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarVisualController::HighlighterDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarVisualController::HighlighterDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarVisualController::HighlighterDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Boolean highlighted, System.Int32 uvSegmentNumber)
-    // Offset: 0x117F778
+    // Offset: 0x124FB00
     void Invoke(bool highlighted, int uvSegmentNumber);
     // public System.IAsyncResult BeginInvoke(System.Boolean highlighted, System.Int32 uvSegmentNumber, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x117FAB8
+    // Offset: 0x124FE40
     System::IAsyncResult* BeginInvoke(bool highlighted, int uvSegmentNumber, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x117FB68
+    // Offset: 0x124FEF0
     void EndInvoke(System::IAsyncResult* result);
   }; // AvatarVisualController/HighlighterDelegate
   #pragma pack(pop)

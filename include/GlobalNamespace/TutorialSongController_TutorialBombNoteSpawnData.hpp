@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TutorialBombNoteSpawnData
     TutorialBombNoteSpawnData() noexcept {}
     // public System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x1293118
+    // Offset: 0x133CE34
     // Implemented from: TutorialSongController/TutorialJumpingNoteSpawnData
     // Base method: System.Void TutorialJumpingNoteSpawnData::.ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, NoteLineLayer noteLineLayer)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

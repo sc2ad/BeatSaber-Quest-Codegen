@@ -9,9 +9,9 @@
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: BeatmapEventType
 #include "GlobalNamespace/BeatmapEventType.hpp"
-// Including type: UnityEngine.ParticleSystem/UnityEngine.MainModule
+// Including type: UnityEngine.ParticleSystem/MainModule
 #include "UnityEngine/ParticleSystem_MainModule.hpp"
-// Including type: UnityEngine.ParticleSystem/UnityEngine.ShapeModule
+// Including type: UnityEngine.ParticleSystem/ShapeModule
 #include "UnityEngine/ParticleSystem_ShapeModule.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
@@ -55,26 +55,26 @@ namespace GlobalNamespace {
     UnityEngine::ParticleSystem* particleSystem;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3E018
+    // [InjectAttribute] Offset: 0xF0699C
     // private BeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectCallbackController*) == 0x8);
-    // private UnityEngine.ParticleSystem/UnityEngine.MainModule _mainModule
+    // private UnityEngine.ParticleSystem/MainModule _mainModule
     // Size: 0x8
     // Offset: 0x30
     UnityEngine::ParticleSystem::MainModule mainModule;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::MainModule) == 0x8);
-    // private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _shapeModule
+    // private UnityEngine.ParticleSystem/ShapeModule _shapeModule
     // Size: 0x8
     // Offset: 0x38
     UnityEngine::ParticleSystem::ShapeModule shapeModule;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::ShapeModule) == 0x8);
-    // private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
+    // private UnityEngine.ParticleSystem/Particle[] _particles
     // Size: 0x8
     // Offset: 0x40
     ::Array<UnityEngine::ParticleSystem::Particle>* particles;
@@ -102,23 +102,23 @@ namespace GlobalNamespace {
     UnityEngine::ParticleSystem*& dyn__particleSystem();
     // Get instance field reference: private BeatmapObjectCallbackController _beatmapObjectCallbackController
     GlobalNamespace::BeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.MainModule _mainModule
+    // Get instance field reference: private UnityEngine.ParticleSystem/MainModule _mainModule
     UnityEngine::ParticleSystem::MainModule& dyn__mainModule();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _shapeModule
+    // Get instance field reference: private UnityEngine.ParticleSystem/ShapeModule _shapeModule
     UnityEngine::ParticleSystem::ShapeModule& dyn__shapeModule();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
+    // Get instance field reference: private UnityEngine.ParticleSystem/Particle[] _particles
     ::Array<UnityEngine::ParticleSystem::Particle>*& dyn__particles();
     // protected System.Void Start()
-    // Offset: 0x10754E0
+    // Offset: 0x1163E68
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x10755BC
+    // Offset: 0x1163F44
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x1075694
+    // Offset: 0x116401C
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x1075874
+    // Offset: 0x11641FC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

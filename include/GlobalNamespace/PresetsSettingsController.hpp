@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: limitNumberOfElements and: numberOfElementsLimit
     char __padding2[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xE46B7C
+    // [DrawIfAttribute] Offset: 0xF0F540
     // private System.Int32 _numberOfElementsLimit
     // Size: 0x4
     // Offset: 0x3C
@@ -66,8 +66,23 @@ namespace GlobalNamespace {
     bool& dyn__limitNumberOfElements();
     // Get instance field reference: private System.Int32 _numberOfElementsLimit
     int& dyn__numberOfElementsLimit();
+    // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
+    // Offset: 0x11BD688
+    // Implemented from: ListSettingsController
+    // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
+    bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
+    // protected override System.Void ApplyValue(System.Int32 idx)
+    // Offset: 0x11BD7B4
+    // Implemented from: ListSettingsController
+    // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
+    void ApplyValue(int idx);
+    // protected override System.String TextForValue(System.Int32 idx)
+    // Offset: 0x11BD81C
+    // Implemented from: ListSettingsController
+    // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
+    ::Il2CppString* TextForValue(int idx);
     // public System.Void .ctor()
-    // Offset: 0x11FEAB4
+    // Offset: 0x11BD880
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -81,21 +96,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PresetsSettingsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PresetsSettingsController*, creationType>()));
     }
-    // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x11FE8BC
-    // Implemented from: ListSettingsController
-    // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
-    // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x11FE9E8
-    // Implemented from: ListSettingsController
-    // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
-    void ApplyValue(int idx);
-    // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x11FEA50
-    // Implemented from: ListSettingsController
-    // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
-    ::Il2CppString* TextForValue(int idx);
   }; // PresetsSettingsController
   #pragma pack(pop)
   static check_size<sizeof(PresetsSettingsController), 60 + sizeof(int)> __GlobalNamespace_PresetsSettingsControllerSizeCheck;
@@ -103,10 +103,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PresetsSettingsController*, "", "PresetsSettingsController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::PresetsSettingsController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PresetsSettingsController::GetInitValues
 // Il2CppName: GetInitValues
 template<>
@@ -135,3 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PresetsSettingsController*), "TextForValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{idx});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PresetsSettingsController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

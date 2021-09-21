@@ -7,7 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: UnityEngine.ParticleSystem/UnityEngine.EmissionModule
+// Including type: UnityEngine.ParticleSystem/EmissionModule
 #include "UnityEngine/ParticleSystem_EmissionModule.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     ::Array<UnityEngine::ParticleSystem*>* particleSystems;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::ParticleSystem*>*) == 0x8);
-    // private UnityEngine.ParticleSystem/UnityEngine.EmissionModule[] _emmisionModules
+    // private UnityEngine.ParticleSystem/EmissionModule[] _emmisionModules
     // Size: 0x8
     // Offset: 0x20
     ::Array<UnityEngine::ParticleSystem::EmissionModule>* emmisionModules;
@@ -46,19 +46,19 @@ namespace GlobalNamespace {
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem[] _particleSystems
     ::Array<UnityEngine::ParticleSystem*>*& dyn__particleSystems();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule[] _emmisionModules
+    // Get instance field reference: private UnityEngine.ParticleSystem/EmissionModule[] _emmisionModules
     ::Array<UnityEngine::ParticleSystem::EmissionModule>*& dyn__emmisionModules();
     // protected System.Void Awake()
-    // Offset: 0x1262000
+    // Offset: 0x137E808
     void Awake();
     // protected System.Void OnBecameVisible()
-    // Offset: 0x12620F8
+    // Offset: 0x137E900
     void OnBecameVisible();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0x1262180
+    // Offset: 0x137E988
     void OnBecameInvisible();
     // public System.Void .ctor()
-    // Offset: 0x1262208
+    // Offset: 0x137EA10
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

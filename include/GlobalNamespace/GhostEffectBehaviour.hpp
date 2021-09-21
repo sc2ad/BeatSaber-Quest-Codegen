@@ -161,15 +161,15 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 distanceMultiplier;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [SpaceAttribute] Offset: 0xE4B870
-    // [TooltipAttribute] Offset: 0xE4B870
+    // [SpaceAttribute] Offset: 0xF1447C
+    // [TooltipAttribute] Offset: 0xF1447C
     // public System.Boolean _useStartTransform
     // Size: 0x1
     // Offset: 0x34
     bool useStartTransform;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xE4B8BC
+    // [TooltipAttribute] Offset: 0xF144C8
     // public System.Boolean _useEndTransform
     // Size: 0x1
     // Offset: 0x35
@@ -178,8 +178,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useEndTransform and: startLocalPosition
     char __padding5[0x2] = {};
-    // [SpaceAttribute] Offset: 0xE4B8F4
-    // [DrawIfAttribute] Offset: 0xE4B8F4
+    // [SpaceAttribute] Offset: 0xF14500
+    // [DrawIfAttribute] Offset: 0xF14500
     // public UnityEngine.Vector3 _startLocalPosition
     // Size: 0xC
     // Offset: 0x38
@@ -188,15 +188,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: startLocalPosition and: startTransform
     char __padding6[0x4] = {};
-    // [DrawIfAttribute] Offset: 0xE4B998
-    // [NullAllowed] Offset: 0xE4B998
+    // [DrawIfAttribute] Offset: 0xF145A4
+    // [NullAllowed] Offset: 0xF145A4
     // public UnityEngine.Transform _startTransform
     // Size: 0x8
     // Offset: 0x48
     UnityEngine::Transform* startTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [DrawIfAttribute] Offset: 0xE4BA40
+    // [DrawIfAttribute] Offset: 0xF1464C
     // public UnityEngine.Vector3 _endLocalPosition
     // Size: 0xC
     // Offset: 0x50
@@ -205,8 +205,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: endLocalPosition and: endTransform
     char __padding8[0x4] = {};
-    // [DrawIfAttribute] Offset: 0xE4BAD4
-    // [NullAllowed] Offset: 0xE4BAD4
+    // [DrawIfAttribute] Offset: 0xF146E0
+    // [NullAllowed] Offset: 0xF146E0
     // public UnityEngine.Transform _endTransform
     // Size: 0x8
     // Offset: 0x60
@@ -219,7 +219,7 @@ namespace GlobalNamespace {
     Tweening::EaseType positionEasing;
     // Field size check
     static_assert(sizeof(Tweening::EaseType) == 0x4);
-    // [SpaceAttribute] Offset: 0xE4BB7C
+    // [SpaceAttribute] Offset: 0xF14788
     // public GhostEffectBehaviour/EndBehavior _endBehavior
     // Size: 0x4
     // Offset: 0x6C
@@ -234,20 +234,23 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: progress and: textMeshPros
     char __padding12[0x4] = {};
-    // [NullAllowed] Offset: 0xE4BB8C
+    // [HideInInspector] Offset: 0xF14798
+    // [NullAllowed] Offset: 0xF14798
     // public TMPro.TextMeshPro[] textMeshPros
     // Size: 0x8
     // Offset: 0x78
     ::Array<TMPro::TextMeshPro*>* textMeshPros;
     // Field size check
     static_assert(sizeof(::Array<TMPro::TextMeshPro*>*) == 0x8);
-    // [NullAllowed] Offset: 0xE4BBC4
+    // [HideInInspector] Offset: 0xF147D0
+    // [NullAllowed] Offset: 0xF147D0
     // public UnityEngine.CanvasGroup[] _canvasGroups
     // Size: 0x8
     // Offset: 0x80
     ::Array<UnityEngine::CanvasGroup*>* canvasGroups;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::CanvasGroup*>*) == 0x8);
+    // [HideInInspector] Offset: 0xF14808
     // public GhostEffectBehaviour/GhostEffectType _ghostEffectType
     // Size: 0x4
     // Offset: 0x88
@@ -256,7 +259,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GhostEffectBehaviour::GhostEffectType) == 0x4);
     // Padding between fields: ghostEffectType and: ghostEffectTransform
     char __padding15[0x4] = {};
-    // [NullAllowed] Offset: 0xE4BC0C
+    // [HideInInspector] Offset: 0xF14818
+    // [NullAllowed] Offset: 0xF14818
     // public UnityEngine.Transform _ghostEffectTransform
     // Size: 0x8
     // Offset: 0x90
@@ -316,10 +320,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _finished
     bool& dyn__finished();
     // private System.Void EnableObjects(System.Boolean on)
-    // Offset: 0x11053D8
+    // Offset: 0x11401F4
     void EnableObjects(bool on);
+    // public override System.Void OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
+    // Offset: 0x1140098
+    // Implemented from: UnityEngine.Playables.PlayableBehaviour
+    // Base method: System.Void PlayableBehaviour::OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
+    void OnBehaviourPlay(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
+    // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
+    // Offset: 0x114031C
+    // Implemented from: UnityEngine.Playables.PlayableBehaviour
+    // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
+    void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
     // public System.Void .ctor()
-    // Offset: 0x11059A0
+    // Offset: 0x11407BC
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -328,16 +342,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GhostEffectBehaviour::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GhostEffectBehaviour*, creationType>()));
     }
-    // public override System.Void OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x110527C
-    // Implemented from: UnityEngine.Playables.PlayableBehaviour
-    // Base method: System.Void PlayableBehaviour::OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    void OnBehaviourPlay(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
-    // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x1105500
-    // Implemented from: UnityEngine.Playables.PlayableBehaviour
-    // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
   }; // GhostEffectBehaviour
   #pragma pack(pop)
   static check_size<sizeof(GhostEffectBehaviour), 164 + sizeof(bool)> __GlobalNamespace_GhostEffectBehaviourSizeCheck;
@@ -356,10 +360,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GhostEffectBehaviour*), "EnableObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{on});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GhostEffectBehaviour::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GhostEffectBehaviour::OnBehaviourPlay
 // Il2CppName: OnBehaviourPlay
 template<>
@@ -381,3 +381,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GhostEffectBehaviour*), "ProcessFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playable, info, playerData});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::GhostEffectBehaviour::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

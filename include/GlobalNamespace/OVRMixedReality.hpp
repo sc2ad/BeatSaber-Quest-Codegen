@@ -66,32 +66,24 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRComposition* _get_currentComposition();
     // Set static field: static public OVRComposition currentComposition
     static void _set_currentComposition(GlobalNamespace::OVRComposition* value);
-    // static private System.Void .cctor()
-    // Offset: 0x134BEDC
-    static void _cctor();
     // static public System.Void Update(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration, OVRManager/TrackingOrigin trackingOrigin)
-    // Offset: 0x134B3AC
+    // Offset: 0x14619EC
     static void Update(UnityEngine::GameObject* parentObject, UnityEngine::Camera* mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration, GlobalNamespace::OVRManager_TrackingOrigin trackingOrigin);
     // static public System.Void Cleanup()
-    // Offset: 0x134BC34
+    // Offset: 0x1462274
     static void Cleanup();
     // static public System.Void RecenterPose()
-    // Offset: 0x134BE30
+    // Offset: 0x1462470
     static void RecenterPose();
+    // static private System.Void .cctor()
+    // Offset: 0x146251C
+    static void _cctor();
   }; // OVRMixedReality
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedReality*, "", "OVRMixedReality");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::OVRMixedReality::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRMixedReality::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedReality*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedReality::Update
 // Il2CppName: Update
 template<>
@@ -118,5 +110,13 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRMixedReality::RecenterPose)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedReality*), "RecenterPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OVRMixedReality::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRMixedReality::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedReality*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

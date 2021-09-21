@@ -61,6 +61,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* okButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0FCE0
     // private System.Action`2<EnterTextViewController,System.String> didFinishEvent
     // Size: 0x8
     // Offset: 0x88
@@ -78,19 +79,24 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<EnterTextViewController,System.String> didFinishEvent
     System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<EnterTextViewController,System.String> value)
-    // Offset: 0x1056EE8
+    // Offset: 0x11AFB94
     void add_didFinishEvent(System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<EnterTextViewController,System.String> value)
-    // Offset: 0x1056F8C
+    // Offset: 0x11AFC38
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>* value);
     // public System.Void Init(System.String titleText)
-    // Offset: 0x1057030
+    // Offset: 0x11AFCDC
     void Init(::Il2CppString* titleText);
     // public System.Void OkButtonPressed()
-    // Offset: 0x1057128
+    // Offset: 0x11AFDD4
     void OkButtonPressed();
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x11AFCF8
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x10571C8
+    // Offset: 0x11AFE74
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -103,11 +109,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnterTextViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnterTextViewController*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x105704C
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
   }; // EnterTextViewController
   #pragma pack(pop)
   static check_size<sizeof(EnterTextViewController), 136 + sizeof(System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>*)> __GlobalNamespace_EnterTextViewControllerSizeCheck;
@@ -150,10 +151,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnterTextViewController*), "OkButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::EnterTextViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EnterTextViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -165,3 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnterTextViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{firstActivation, addedToHierarchy, screenSystemEnabling});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::EnterTextViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRControllerLTouch
     OVRControllerLTouch() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1540578
+    // Offset: 0x16C92C0
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -35,32 +35,32 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRInput::OVRControllerLTouch*, creationType>()));
     }
     // public override System.Void ConfigureButtonMap()
-    // Offset: 0x154727C
+    // Offset: 0x16CFFC4
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureButtonMap()
     void ConfigureButtonMap();
     // public override System.Void ConfigureTouchMap()
-    // Offset: 0x1547454
+    // Offset: 0x16D019C
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureTouchMap()
     void ConfigureTouchMap();
     // public override System.Void ConfigureNearTouchMap()
-    // Offset: 0x1547518
+    // Offset: 0x16D0260
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureNearTouchMap()
     void ConfigureNearTouchMap();
     // public override System.Void ConfigureAxis1DMap()
-    // Offset: 0x1547570
+    // Offset: 0x16D02B8
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureAxis1DMap()
     void ConfigureAxis1DMap();
     // public override System.Void ConfigureAxis2DMap()
-    // Offset: 0x15475C8
+    // Offset: 0x16D0310
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureAxis2DMap()
     void ConfigureAxis2DMap();
     // public override System.Byte GetBatteryPercentRemaining()
-    // Offset: 0x154761C
+    // Offset: 0x16D0364
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Byte OVRControllerBase::GetBatteryPercentRemaining()
     uint8_t GetBatteryPercentRemaining();

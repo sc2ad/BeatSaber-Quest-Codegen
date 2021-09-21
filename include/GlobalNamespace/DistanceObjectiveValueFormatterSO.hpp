@@ -22,8 +22,13 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: DistanceObjectiveValueFormatterSO
     DistanceObjectiveValueFormatterSO() noexcept {}
+    // public override System.String FormatValue(System.Int32 value)
+    // Offset: 0x11A8978
+    // Implemented from: ObjectiveValueFormatterSO
+    // Base method: System.String ObjectiveValueFormatterSO::FormatValue(System.Int32 value)
+    ::Il2CppString* FormatValue(int value);
     // public System.Void .ctor()
-    // Offset: 0x10EFF68
+    // Offset: 0x11A89F4
     // Implemented from: ObjectiveValueFormatterSO
     // Base method: System.Void ObjectiveValueFormatterSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -35,20 +40,11 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DistanceObjectiveValueFormatterSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DistanceObjectiveValueFormatterSO*, creationType>()));
     }
-    // public override System.String FormatValue(System.Int32 value)
-    // Offset: 0x10EFEEC
-    // Implemented from: ObjectiveValueFormatterSO
-    // Base method: System.String ObjectiveValueFormatterSO::FormatValue(System.Int32 value)
-    ::Il2CppString* FormatValue(int value);
   }; // DistanceObjectiveValueFormatterSO
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DistanceObjectiveValueFormatterSO*, "", "DistanceObjectiveValueFormatterSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::DistanceObjectiveValueFormatterSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::DistanceObjectiveValueFormatterSO::FormatValue
 // Il2CppName: FormatValue
 template<>
@@ -58,3 +54,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DistanceObjectiveValueFormatterSO*), "FormatValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::DistanceObjectiveValueFormatterSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

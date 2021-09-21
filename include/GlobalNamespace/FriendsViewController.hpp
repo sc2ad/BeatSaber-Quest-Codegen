@@ -47,14 +47,14 @@ namespace GlobalNamespace {
     UnityEngine::UI::Toggle* enableOpenPartyToggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
-    // [InjectAttribute] Offset: 0xE47414
+    // [InjectAttribute] Offset: 0xF0FDD8
     // private readonly PlatformNetworkPlayerModel _networkPlayerModel
     // Size: 0x8
     // Offset: 0x98
     GlobalNamespace::PlatformNetworkPlayerModel* networkPlayerModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlatformNetworkPlayerModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE47424
+    // [InjectAttribute] Offset: 0xF0FDE8
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0xA0
@@ -86,28 +86,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _allowAnyoneToJoin
     bool& dyn__allowAnyoneToJoin();
     // private System.Void HandleOpenPartyToggleChanged(System.Boolean openParty)
-    // Offset: 0x1062ED4
+    // Offset: 0x11D2FC0
     void HandleOpenPartyToggleChanged(bool openParty);
     // private System.Void RefreshParty(System.Boolean overrideHide)
-    // Offset: 0x1062CCC
+    // Offset: 0x11D2DB8
     void RefreshParty(bool overrideHide);
     // public override System.String get_myPartyTitle()
-    // Offset: 0x1062B28
+    // Offset: 0x11D2C14
     // Implemented from: NetworkPlayersViewController
     // Base method: System.String NetworkPlayersViewController::get_myPartyTitle()
     ::Il2CppString* get_myPartyTitle();
     // public override System.String get_otherPlayersTitle()
-    // Offset: 0x1062B70
+    // Offset: 0x11D2C5C
     // Implemented from: NetworkPlayersViewController
     // Base method: System.String NetworkPlayersViewController::get_otherPlayersTitle()
     ::Il2CppString* get_otherPlayersTitle();
     // public override INetworkPlayerModel get_networkPlayerModel()
-    // Offset: 0x1062BB8
+    // Offset: 0x11D2CA4
     // Implemented from: NetworkPlayersViewController
     // Base method: INetworkPlayerModel NetworkPlayersViewController::get_networkPlayerModel()
     GlobalNamespace::INetworkPlayerModel* get_networkPlayerModel();
+    // protected override System.Void NetworkPlayersViewControllerDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
+    // Offset: 0x11D2CAC
+    // Implemented from: NetworkPlayersViewController
+    // Base method: System.Void NetworkPlayersViewController::NetworkPlayersViewControllerDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
+    void NetworkPlayersViewControllerDidActivate(bool firstActivation, bool addedToHierarchy);
+    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Offset: 0x11D2F38
+    // Implemented from: NetworkPlayersViewController
+    // Base method: System.Void NetworkPlayersViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
+    // protected override System.Void OnDestroy()
+    // Offset: 0x11D2F8C
+    // Implemented from: NetworkPlayersViewController
+    // Base method: System.Void NetworkPlayersViewController::OnDestroy()
+    void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1062EE4
+    // Offset: 0x11D2FD0
     // Implemented from: NetworkPlayersViewController
     // Base method: System.Void NetworkPlayersViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()
@@ -121,21 +136,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FriendsViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FriendsViewController*, creationType>()));
     }
-    // protected override System.Void NetworkPlayersViewControllerDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
-    // Offset: 0x1062BC0
-    // Implemented from: NetworkPlayersViewController
-    // Base method: System.Void NetworkPlayersViewController::NetworkPlayersViewControllerDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
-    void NetworkPlayersViewControllerDidActivate(bool firstActivation, bool addedToHierarchy);
-    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1062E4C
-    // Implemented from: NetworkPlayersViewController
-    // Base method: System.Void NetworkPlayersViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
-    // protected override System.Void OnDestroy()
-    // Offset: 0x1062EA0
-    // Implemented from: NetworkPlayersViewController
-    // Base method: System.Void NetworkPlayersViewController::OnDestroy()
-    void OnDestroy();
   }; // FriendsViewController
   #pragma pack(pop)
   static check_size<sizeof(FriendsViewController), 176 + sizeof(bool)> __GlobalNamespace_FriendsViewControllerSizeCheck;
@@ -185,10 +185,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FriendsViewController*), "get_networkPlayerModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FriendsViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FriendsViewController::NetworkPlayersViewControllerDidActivate
 // Il2CppName: NetworkPlayersViewControllerDidActivate
 template<>
@@ -217,3 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FriendsViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::FriendsViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

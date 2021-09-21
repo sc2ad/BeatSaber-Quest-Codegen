@@ -69,13 +69,14 @@ namespace GlobalNamespace {
     GlobalNamespace::LocalizedTextAsset* eulaLocalizedTextAsset;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalizedTextAsset*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0FD30
     // private System.Action`1<System.Boolean> didFinishEvent
     // Size: 0x8
     // Offset: 0x90
     System::Action_1<bool>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<bool>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE4737C
+    // [InjectAttribute] Offset: 0xF0FD40
     // private EulaViewController/InitData _initData
     // Size: 0x8
     // Offset: 0x98
@@ -97,19 +98,24 @@ namespace GlobalNamespace {
     // Get instance field reference: private EulaViewController/InitData _initData
     GlobalNamespace::EulaViewController::InitData*& dyn__initData();
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1059A9C
+    // Offset: 0x11B2748
     void add_didFinishEvent(System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1059B40
+    // Offset: 0x11B27EC
     void remove_didFinishEvent(System::Action_1<bool>* value);
     // private System.Void <DidActivate>b__9_0()
-    // Offset: 0x1059D38
+    // Offset: 0x11B29E4
     void $DidActivate$b__9_0();
     // private System.Void <DidActivate>b__9_1()
-    // Offset: 0x1059D9C
+    // Offset: 0x11B2A48
     void $DidActivate$b__9_1();
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x11B2890
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x1059D30
+    // Offset: 0x11B29DC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -122,11 +128,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EulaViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EulaViewController*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1059BE4
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
   }; // EulaViewController
   #pragma pack(pop)
   static check_size<sizeof(EulaViewController), 152 + sizeof(GlobalNamespace::EulaViewController::InitData*)> __GlobalNamespace_EulaViewControllerSizeCheck;
@@ -168,10 +169,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EulaViewController*), "<DidActivate>b__9_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::EulaViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EulaViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -183,3 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EulaViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{firstActivation, addedToHierarchy, screenSystemEnabling});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::EulaViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

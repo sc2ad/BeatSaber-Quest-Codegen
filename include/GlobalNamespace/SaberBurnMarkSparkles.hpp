@@ -9,9 +9,9 @@
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Plane
 #include "UnityEngine/Plane.hpp"
-// Including type: UnityEngine.ParticleSystem/UnityEngine.EmissionModule
+// Including type: UnityEngine.ParticleSystem/EmissionModule
 #include "UnityEngine/ParticleSystem_EmissionModule.hpp"
-// Including type: UnityEngine.ParticleSystem/UnityEngine.EmitParams
+// Including type: UnityEngine.ParticleSystem/EmitParams
 #include "UnityEngine/ParticleSystem_EmitParams.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
@@ -61,14 +61,14 @@ namespace GlobalNamespace {
     UnityEngine::BoxCollider* boxCollider;
     // Field size check
     static_assert(sizeof(UnityEngine::BoxCollider*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3D790
+    // [InjectAttribute] Offset: 0xF05F74
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3D7A0
+    // [InjectAttribute] Offset: 0xF05F84
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x38
@@ -105,13 +105,13 @@ namespace GlobalNamespace {
     ::Array<UnityEngine::ParticleSystem*>* burnMarksPS;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::ParticleSystem*>*) == 0x8);
-    // private UnityEngine.ParticleSystem/UnityEngine.EmissionModule[] _burnMarksEmissionModules
+    // private UnityEngine.ParticleSystem/EmissionModule[] _burnMarksEmissionModules
     // Size: 0x8
     // Offset: 0x70
     ::Array<UnityEngine::ParticleSystem::EmissionModule>* burnMarksEmissionModules;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::ParticleSystem::EmissionModule>*) == 0x8);
-    // private UnityEngine.ParticleSystem/UnityEngine.EmitParams _sparklesEmitParams
+    // private UnityEngine.ParticleSystem/EmitParams _sparklesEmitParams
     // Size: 0x8F
     // Offset: 0x78
     UnityEngine::ParticleSystem::EmitParams sparklesEmitParams;
@@ -141,30 +141,30 @@ namespace GlobalNamespace {
     ::Array<bool>*& dyn__prevBurnMarkPosValid();
     // Get instance field reference: private UnityEngine.ParticleSystem[] _burnMarksPS
     ::Array<UnityEngine::ParticleSystem*>*& dyn__burnMarksPS();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule[] _burnMarksEmissionModules
+    // Get instance field reference: private UnityEngine.ParticleSystem/EmissionModule[] _burnMarksEmissionModules
     ::Array<UnityEngine::ParticleSystem::EmissionModule>*& dyn__burnMarksEmissionModules();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _sparklesEmitParams
+    // Get instance field reference: private UnityEngine.ParticleSystem/EmitParams _sparklesEmitParams
     UnityEngine::ParticleSystem::EmitParams& dyn__sparklesEmitParams();
     // protected System.Void Start()
-    // Offset: 0x112EE74
+    // Offset: 0x11C84B4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x112F2FC
+    // Offset: 0x11C893C
     void OnDestroy();
     // protected System.Void OnEnable()
-    // Offset: 0x112F408
+    // Offset: 0x11C8A48
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x112F4F8
+    // Offset: 0x11C8B38
     void OnDisable();
     // private System.Boolean GetBurnMarkPos(UnityEngine.Vector3 bladeBottomPos, UnityEngine.Vector3 bladeTopPos, out UnityEngine.Vector3 burnMarkPos)
-    // Offset: 0x112F5E8
+    // Offset: 0x11C8C28
     bool GetBurnMarkPos(UnityEngine::Vector3 bladeBottomPos, UnityEngine::Vector3 bladeTopPos, ByRef<UnityEngine::Vector3> burnMarkPos);
     // protected System.Void LateUpdate()
-    // Offset: 0x112F880
+    // Offset: 0x11C8EC0
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x112FD30
+    // Offset: 0x11C9370
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

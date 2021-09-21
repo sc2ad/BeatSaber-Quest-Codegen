@@ -79,18 +79,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: allowBlank and: textDidChangeEvent
     char __padding4[0x3] = {};
+    // [CompilerGeneratedAttribute] Offset: 0xF0D7B4
     // private System.Action`1<System.String> textDidChangeEvent
     // Size: 0x8
     // Offset: 0x38
     System::Action_1<::Il2CppString*>* textDidChangeEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0D7C4
     // private System.Action okButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x40
     System::Action* okButtonWasPressedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0D7D4
     // private System.Action cancelButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x48
@@ -125,59 +128,59 @@ namespace GlobalNamespace {
     System::Action*& dyn_cancelButtonWasPressedEvent();
     // Get instance field reference: private System.Boolean _stopBlinkingCursor
     bool& dyn__stopBlinkingCursor();
-    // public System.Void set_hideCancelButton(System.Boolean value)
-    // Offset: 0x12A09B8
-    void set_hideCancelButton(bool value);
-    // public System.String get_text()
-    // Offset: 0x12A09D4
-    ::Il2CppString* get_text();
-    // public System.Void set_text(System.String value)
-    // Offset: 0x12A09F0
-    void set_text(::Il2CppString* value);
     // public System.Void add_textDidChangeEvent(System.Action`1<System.String> value)
-    // Offset: 0x12A05E0
+    // Offset: 0x134AD98
     void add_textDidChangeEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_textDidChangeEvent(System.Action`1<System.String> value)
-    // Offset: 0x12A0684
+    // Offset: 0x134AE3C
     void remove_textDidChangeEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x12A0728
+    // Offset: 0x134AEE0
     void add_okButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x12A07CC
+    // Offset: 0x134AF84
     void remove_okButtonWasPressedEvent(System::Action* value);
     // public System.Void add_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0x12A0870
+    // Offset: 0x134B028
     void add_cancelButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0x12A0914
+    // Offset: 0x134B0CC
     void remove_cancelButtonWasPressedEvent(System::Action* value);
+    // public System.Void set_hideCancelButton(System.Boolean value)
+    // Offset: 0x134B170
+    void set_hideCancelButton(bool value);
+    // public System.String get_text()
+    // Offset: 0x134B18C
+    ::Il2CppString* get_text();
+    // public System.Void set_text(System.String value)
+    // Offset: 0x134B1A8
+    void set_text(::Il2CppString* value);
     // protected System.Void Awake()
-    // Offset: 0x12A0AB4
+    // Offset: 0x134B26C
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x12A0C04
+    // Offset: 0x134B3BC
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x12A0CA4
+    // Offset: 0x134B45C
     void OnDisable();
     // private System.Collections.IEnumerator BlinkCursor()
-    // Offset: 0x12A0C34
+    // Offset: 0x134B3EC
     System::Collections::IEnumerator* BlinkCursor();
     // private System.Void HandleUIKeyboardTextKeyWasPressed(System.Char key)
-    // Offset: 0x12A0CDC
+    // Offset: 0x134B494
     void HandleUIKeyboardTextKeyWasPressed(::Il2CppChar key);
     // private System.Void HandleUIKeyboardDeleteButtonWasPressed()
-    // Offset: 0x12A0DB8
+    // Offset: 0x134B570
     void HandleUIKeyboardDeleteButtonWasPressed();
     // private System.Void <Awake>b__20_0()
-    // Offset: 0x12A0E9C
+    // Offset: 0x134B654
     void $Awake$b__20_0();
     // private System.Void <Awake>b__20_1()
-    // Offset: 0x12A0EB0
+    // Offset: 0x134B668
     void $Awake$b__20_1();
     // public System.Void .ctor()
-    // Offset: 0x12A0E8C
+    // Offset: 0x134B644
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -196,32 +199,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTextEntryController*, "", "VRTextEntryController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::VRTextEntryController::set_hideCancelButton
-// Il2CppName: set_hideCancelButton
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRTextEntryController::*)(bool)>(&GlobalNamespace::VRTextEntryController::set_hideCancelButton)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRTextEntryController*), "set_hideCancelButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::VRTextEntryController::get_text
-// Il2CppName: get_text
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::VRTextEntryController::*)()>(&GlobalNamespace::VRTextEntryController::get_text)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRTextEntryController*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::VRTextEntryController::set_text
-// Il2CppName: set_text
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRTextEntryController::*)(::Il2CppString*)>(&GlobalNamespace::VRTextEntryController::set_text)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRTextEntryController*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::VRTextEntryController::add_textDidChangeEvent
 // Il2CppName: add_textDidChangeEvent
 template<>
@@ -274,6 +251,32 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRTextEntryController*), "remove_cancelButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::VRTextEntryController::set_hideCancelButton
+// Il2CppName: set_hideCancelButton
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRTextEntryController::*)(bool)>(&GlobalNamespace::VRTextEntryController::set_hideCancelButton)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRTextEntryController*), "set_hideCancelButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::VRTextEntryController::get_text
+// Il2CppName: get_text
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::VRTextEntryController::*)()>(&GlobalNamespace::VRTextEntryController::get_text)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRTextEntryController*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::VRTextEntryController::set_text
+// Il2CppName: set_text
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRTextEntryController::*)(::Il2CppString*)>(&GlobalNamespace::VRTextEntryController::set_text)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRTextEntryController*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::VRTextEntryController::Awake

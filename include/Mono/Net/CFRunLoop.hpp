@@ -29,38 +29,38 @@ namespace Mono::Net {
     public:
     // Creating value type constructor for type: CFRunLoop
     CFRunLoop() noexcept {}
-    // static public Mono.Net.CFRunLoop get_CurrentRunLoop()
-    // Offset: 0x15EBC94
-    static Mono::Net::CFRunLoop* get_CurrentRunLoop();
     // static private System.Void CFRunLoopAddSource(System.IntPtr rl, System.IntPtr source, System.IntPtr mode)
-    // Offset: 0x15EE218
+    // Offset: 0x17B9DC0
     static void CFRunLoopAddSource(System::IntPtr rl, System::IntPtr source, System::IntPtr mode);
     // static private System.Void CFRunLoopRemoveSource(System.IntPtr rl, System.IntPtr source, System.IntPtr mode)
-    // Offset: 0x15EE2B0
+    // Offset: 0x17B9E58
     static void CFRunLoopRemoveSource(System::IntPtr rl, System::IntPtr source, System::IntPtr mode);
     // static private System.Int32 CFRunLoopRunInMode(System.IntPtr mode, System.Double seconds, System.Boolean returnAfterSourceHandled)
-    // Offset: 0x15EE348
+    // Offset: 0x17B9EF0
     static int CFRunLoopRunInMode(System::IntPtr mode, double seconds, bool returnAfterSourceHandled);
     // static private System.IntPtr CFRunLoopGetCurrent()
-    // Offset: 0x15EE3E8
+    // Offset: 0x17B9F90
     static System::IntPtr CFRunLoopGetCurrent();
     // static private System.Void CFRunLoopStop(System.IntPtr rl)
-    // Offset: 0x15EE45C
+    // Offset: 0x17BA004
     static void CFRunLoopStop(System::IntPtr rl);
+    // static public Mono.Net.CFRunLoop get_CurrentRunLoop()
+    // Offset: 0x17B783C
+    static Mono::Net::CFRunLoop* get_CurrentRunLoop();
     // public System.Void AddSource(System.IntPtr source, Mono.Net.CFString mode)
-    // Offset: 0x15EBDE0
+    // Offset: 0x17B7988
     void AddSource(System::IntPtr source, Mono::Net::CFString* mode);
     // public System.Void RemoveSource(System.IntPtr source, Mono.Net.CFString mode)
-    // Offset: 0x15EBE18
+    // Offset: 0x17B79C0
     void RemoveSource(System::IntPtr source, Mono::Net::CFString* mode);
     // public System.Int32 RunInMode(Mono.Net.CFString mode, System.Double seconds, System.Boolean returnAfterSourceHandled)
-    // Offset: 0x15EBDFC
+    // Offset: 0x17B79A4
     int RunInMode(Mono::Net::CFString* mode, double seconds, bool returnAfterSourceHandled);
     // public System.Void Stop()
-    // Offset: 0x15EC688
+    // Offset: 0x17B8230
     void Stop();
     // public System.Void .ctor(System.IntPtr handle, System.Boolean own)
-    // Offset: 0x15EE4DC
+    // Offset: 0x17BA084
     // Implemented from: Mono.Net.CFObject
     // Base method: System.Void CFObject::.ctor(System.IntPtr handle, System.Boolean own)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -73,14 +73,6 @@ namespace Mono::Net {
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFRunLoop*, "Mono.Net", "CFRunLoop");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: Mono::Net::CFRunLoop::get_CurrentRunLoop
-// Il2CppName: get_CurrentRunLoop
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFRunLoop* (*)()>(&Mono::Net::CFRunLoop::get_CurrentRunLoop)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFRunLoop*), "get_CurrentRunLoop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: Mono::Net::CFRunLoop::CFRunLoopAddSource
 // Il2CppName: CFRunLoopAddSource
 template<>
@@ -129,6 +121,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
   static const MethodInfo* get() {
     static auto* rl = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFRunLoop*), "CFRunLoopStop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rl});
+  }
+};
+// Writing MetadataGetter for method: Mono::Net::CFRunLoop::get_CurrentRunLoop
+// Il2CppName: get_CurrentRunLoop
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFRunLoop* (*)()>(&Mono::Net::CFRunLoop::get_CurrentRunLoop)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFRunLoop*), "get_CurrentRunLoop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Mono::Net::CFRunLoop::AddSource

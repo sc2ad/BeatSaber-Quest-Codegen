@@ -77,11 +77,11 @@ namespace GlobalNamespace {
       // Get instance field reference: public readonly UnityEngine.Quaternion rot
       UnityEngine::Quaternion& dyn_rot();
       // public System.Void .ctor(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-      // Offset: 0x129FC08
+      // Offset: 0x134A3C0
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  PositionAndRotation(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot)
       // static public VRControllersRecorderData/PositionAndRotation Lerp(VRControllersRecorderData/PositionAndRotation a, VRControllersRecorderData/PositionAndRotation b, System.Single t)
-      // Offset: 0x129F9A4
+      // Offset: 0x134A15C
       static GlobalNamespace::VRControllersRecorderData::PositionAndRotation Lerp(GlobalNamespace::VRControllersRecorderData::PositionAndRotation a, GlobalNamespace::VRControllersRecorderData::PositionAndRotation b, float t);
     }; // VRControllersRecorderData/PositionAndRotation
     #pragma pack(pop)
@@ -105,28 +105,28 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::VRControllersRecorderData::NodeInfo*>*& dyn_nodesInfo();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<VRControllersRecorderData/Keyframe> _keyframes
     System::Collections::Generic::List_1<GlobalNamespace::VRControllersRecorderData::Keyframe*>*& dyn__keyframes();
-    // public System.Int32 get_numberOfKeyframes()
-    // Offset: 0x129FB80
-    int get_numberOfKeyframes();
     // public System.Void .ctor(VRControllersRecorderData/NodeInfo[] nodesInfo)
-    // Offset: 0x129F67C
+    // Offset: 0x1349E34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorderData* New_ctor(::Array<GlobalNamespace::VRControllersRecorderData::NodeInfo*>* nodesInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRControllersRecorderData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersRecorderData*, creationType>(nodesInfo)));
     }
     // public System.Void AddKeyFrame(VRControllersRecorderData/PositionAndRotation[] positionsAndRotations, System.Single time)
-    // Offset: 0x129F700
+    // Offset: 0x1349EB8
     void AddKeyFrame(::Array<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>* positionsAndRotations, float time);
     // public VRControllersRecorderData/PositionAndRotation GetPositionAndRotation(System.Int32 frameIdx, UnityEngine.XR.XRNode nodeType, System.Int32 nodeIdx)
-    // Offset: 0x129F7D8
+    // Offset: 0x1349F90
     GlobalNamespace::VRControllersRecorderData::PositionAndRotation GetPositionAndRotation(int frameIdx, UnityEngine::XR::XRNode nodeType, int nodeIdx);
     // public VRControllersRecorderData/PositionAndRotation GetLerpedPositionAndRotation(System.Int32 frameIdx, System.Single t, UnityEngine.XR.XRNode nodeType, System.Int32 nodeIdx)
-    // Offset: 0x129F904
+    // Offset: 0x134A0BC
     GlobalNamespace::VRControllersRecorderData::PositionAndRotation GetLerpedPositionAndRotation(int frameIdx, float t, UnityEngine::XR::XRNode nodeType, int nodeIdx);
     // public System.Single GetFrameTime(System.Int32 frameIdx)
-    // Offset: 0x129FB00
+    // Offset: 0x134A2B8
     float GetFrameTime(int frameIdx);
+    // public System.Int32 get_numberOfKeyframes()
+    // Offset: 0x134A338
+    int get_numberOfKeyframes();
   }; // VRControllersRecorderData
   #pragma pack(pop)
   static check_size<sizeof(VRControllersRecorderData), 24 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::VRControllersRecorderData::Keyframe*>*)> __GlobalNamespace_VRControllersRecorderDataSizeCheck;
@@ -135,14 +135,6 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData*, "", "VRControllersRecorderData");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData::PositionAndRotation, "", "VRControllersRecorderData/PositionAndRotation");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorderData::get_numberOfKeyframes
-// Il2CppName: get_numberOfKeyframes
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::VRControllersRecorderData::*)()>(&GlobalNamespace::VRControllersRecorderData::get_numberOfKeyframes)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorderData*), "get_numberOfKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorderData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -187,5 +179,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
   static const MethodInfo* get() {
     static auto* frameIdx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorderData*), "GetFrameTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{frameIdx});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorderData::get_numberOfKeyframes
+// Il2CppName: get_numberOfKeyframes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::VRControllersRecorderData::*)()>(&GlobalNamespace::VRControllersRecorderData::get_numberOfKeyframes)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorderData*), "get_numberOfKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

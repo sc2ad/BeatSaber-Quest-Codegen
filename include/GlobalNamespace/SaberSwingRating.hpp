@@ -55,13 +55,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single kAfterCutAngleFor1Rating
     static void _set_kAfterCutAngleFor1Rating(float value);
     // static private System.Single NormalRating(System.Single normalDiff)
-    // Offset: 0x1131A44
+    // Offset: 0x11CB084
     static float NormalRating(float normalDiff);
     // static public System.Single BeforeCutStepRating(System.Single angleDiff, System.Single normalDiff)
-    // Offset: 0x113179C
+    // Offset: 0x11CADDC
     static float BeforeCutStepRating(float angleDiff, float normalDiff);
     // static public System.Single AfterCutStepRating(System.Single angleDiff, System.Single normalDiff)
-    // Offset: 0x1131AD8
+    // Offset: 0x11CB118
     static float AfterCutStepRating(float angleDiff, float normalDiff);
   }; // SaberSwingRating
   #pragma pack(pop)

@@ -39,32 +39,24 @@ namespace Mono::Security::Cryptography {
     static ::Array<uint8_t>* _get_emptySHA512();
     // Set static field: static private System.Byte[] emptySHA512
     static void _set_emptySHA512(::Array<uint8_t>* value);
-    // static private System.Void .cctor()
-    // Offset: 0x1E01D3C
-    static void _cctor();
     // static System.String HashNameFromOid(System.String oid, System.Boolean throwOnError)
-    // Offset: 0x1E01688
+    // Offset: 0x1F9DBF0
     static ::Il2CppString* HashNameFromOid(::Il2CppString* oid, bool throwOnError);
     // static System.Security.Cryptography.HashAlgorithm CreateFromOid(System.String oid)
-    // Offset: 0x1E01958
+    // Offset: 0x1F9DEC0
     static System::Security::Cryptography::HashAlgorithm* CreateFromOid(::Il2CppString* oid);
     // static System.Security.Cryptography.HashAlgorithm CreateFromName(System.String name)
-    // Offset: 0x1E019C4
+    // Offset: 0x1F9DF2C
     static System::Security::Cryptography::HashAlgorithm* CreateFromName(::Il2CppString* name);
+    // static private System.Void .cctor()
+    // Offset: 0x1F9E2A4
+    static void _cctor();
   }; // Mono.Security.Cryptography.PKCS1
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::PKCS1*, "Mono.Security.Cryptography", "PKCS1");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS1::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Security::Cryptography::PKCS1::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::PKCS1*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS1::HashNameFromOid
 // Il2CppName: HashNameFromOid
 template<>
@@ -91,5 +83,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::PKCS1*), "CreateFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
+  }
+};
+// Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS1::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Security::Cryptography::PKCS1::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::PKCS1*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -47,40 +47,40 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.IntPtr Handle
     System::IntPtr& dyn_Handle();
     // public System.Void SetApiName(System.String value)
-    // Offset: 0x23B40C8
+    // Offset: 0x25B8FEC
     void SetApiName(::Il2CppString* value);
     // public System.Void SetCurrentCapacity(System.UInt32 value)
-    // Offset: 0x23B4144
+    // Offset: 0x25B9068
     void SetCurrentCapacity(uint value);
     // public System.Void SetDeeplinkMessageOverride(System.String value)
-    // Offset: 0x23B41C0
+    // Offset: 0x25B90E4
     void SetDeeplinkMessageOverride(::Il2CppString* value);
     // public System.Void SetEndTime(System.DateTime value)
-    // Offset: 0x23B423C
+    // Offset: 0x25B9160
     void SetEndTime(System::DateTime value);
     // public System.Void SetExtraContext(Oculus.Platform.RichPresenceExtraContext value)
-    // Offset: 0x23B42B8
+    // Offset: 0x25B91DC
     void SetExtraContext(Oculus::Platform::RichPresenceExtraContext value);
     // public System.Void SetInstanceId(System.String value)
-    // Offset: 0x23B4334
+    // Offset: 0x25B9258
     void SetInstanceId(::Il2CppString* value);
     // public System.Void SetIsIdle(System.Boolean value)
-    // Offset: 0x23B43B0
+    // Offset: 0x25B92D4
     void SetIsIdle(bool value);
     // public System.Void SetIsJoinable(System.Boolean value)
-    // Offset: 0x23B442C
+    // Offset: 0x25B9350
     void SetIsJoinable(bool value);
     // public System.Void SetMaxCapacity(System.UInt32 value)
-    // Offset: 0x23B44A8
+    // Offset: 0x25B93CC
     void SetMaxCapacity(uint value);
     // public System.Void SetStartTime(System.DateTime value)
-    // Offset: 0x23B4524
+    // Offset: 0x25B9448
     void SetStartTime(System::DateTime value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.RichPresenceOptions options)
-    // Offset: 0x23B3E84
+    // Offset: 0x25B8DA8
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x23B4050
+    // Offset: 0x25B8F74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -89,7 +89,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<RichPresenceOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x23B45A0
+    // Offset: 0x25B94C4
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

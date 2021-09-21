@@ -7,7 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: UnityEngine.ParticleSystem/UnityEngine.EmitParams
+// Including type: UnityEngine.ParticleSystem/EmitParams
 #include "UnityEngine/ParticleSystem_EmitParams.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     UnityEngine::ParticleSystem* particleSystem;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem*) == 0x8);
-    // private UnityEngine.ParticleSystem/UnityEngine.EmitParams _emitParams
+    // private UnityEngine.ParticleSystem/EmitParams _emitParams
     // Size: 0x8F
     // Offset: 0x20
     UnityEngine::ParticleSystem::EmitParams emitParams;
@@ -47,16 +47,16 @@ namespace GlobalNamespace {
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem _particleSystem
     UnityEngine::ParticleSystem*& dyn__particleSystem();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _emitParams
+    // Get instance field reference: private UnityEngine.ParticleSystem/EmitParams _emitParams
     UnityEngine::ParticleSystem::EmitParams& dyn__emitParams();
     // protected System.Void Awake()
-    // Offset: 0x124E588
+    // Offset: 0x135A604
     void Awake();
     // public System.Void Emit(UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Int32 count)
-    // Offset: 0x124E404
+    // Offset: 0x135A480
     void Emit(UnityEngine::Vector3 startPos, UnityEngine::Vector3 endPos, int count);
     // public System.Void .ctor()
-    // Offset: 0x124E598
+    // Offset: 0x135A614
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::OculusMRCManager::$$c__DisplayClass1_0
     class $$c__DisplayClass1_0;
-    // [InjectAttribute] Offset: 0xE086A0
+    // [InjectAttribute] Offset: 0xEC9CE0
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x18
@@ -54,10 +54,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private IVRPlatformHelper _vrPlatformHelper
     GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // public System.Void Init(System.Func`2<UnityEngine.GameObject,UnityEngine.GameObject> instantiateMixedRealityBackgroundCameraGameObject, System.Func`2<UnityEngine.GameObject,UnityEngine.GameObject> instantiateMixedRealityForegroundCameraGameObject)
-    // Offset: 0x126B054
+    // Offset: 0x138785C
     void Init(System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>* instantiateMixedRealityBackgroundCameraGameObject, System::Func_2<UnityEngine::GameObject*, UnityEngine::GameObject*>* instantiateMixedRealityForegroundCameraGameObject);
     // public System.Void .ctor()
-    // Offset: 0x126B338
+    // Offset: 0x1387B40
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

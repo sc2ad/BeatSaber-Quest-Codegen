@@ -19,6 +19,7 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class PingResult : public ::Il2CppObject {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xEEAFBC
     // private System.UInt64 <ID>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -35,30 +36,34 @@ namespace Oculus::Platform::Models {
     uint64_t& dyn_$ID$k__BackingField();
     // Get instance field reference: private System.Nullable`1<System.UInt64> pingTimeUsec
     System::Nullable_1<uint64_t>& dyn_pingTimeUsec();
-    // public System.UInt64 get_ID()
-    // Offset: 0x1536CDC
-    uint64_t get_ID();
-    // private System.Void set_ID(System.UInt64 value)
-    // Offset: 0x1536CE4
-    void set_ID(uint64_t value);
-    // public System.UInt64 get_PingTimeUsec()
-    // Offset: 0x1536CEC
-    uint64_t get_PingTimeUsec();
-    // public System.Boolean get_IsTimeout()
-    // Offset: 0x1536D54
-    bool get_IsTimeout();
     // public System.Void .ctor(System.UInt64 id, System.Nullable`1<System.UInt64> pingTimeUsec)
-    // Offset: 0x1533958
+    // Offset: 0x16BC6A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PingResult* New_ctor(uint64_t id, System::Nullable_1<uint64_t> pingTimeUsec) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::PingResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PingResult*, creationType>(id, pingTimeUsec)));
     }
+    // public System.UInt64 get_ID()
+    // Offset: 0x16BFA24
+    uint64_t get_ID();
+    // private System.Void set_ID(System.UInt64 value)
+    // Offset: 0x16BFA2C
+    void set_ID(uint64_t value);
+    // public System.UInt64 get_PingTimeUsec()
+    // Offset: 0x16BFA34
+    uint64_t get_PingTimeUsec();
+    // public System.Boolean get_IsTimeout()
+    // Offset: 0x16BFA9C
+    bool get_IsTimeout();
   }; // Oculus.Platform.Models.PingResult
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::PingResult*, "Oculus.Platform.Models", "PingResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Oculus::Platform::Models::PingResult::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Oculus::Platform::Models::PingResult::get_ID
 // Il2CppName: get_ID
 template<>
@@ -92,7 +97,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Oculu
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Models::PingResult*), "get_IsTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Oculus::Platform::Models::PingResult::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

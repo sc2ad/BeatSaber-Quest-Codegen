@@ -29,8 +29,13 @@ namespace GlobalNamespace {
     BoolWithDefaultValueSO(bool defaultValue_ = {}) noexcept : defaultValue{defaultValue_} {}
     // Get instance field reference: private System.Boolean _defaultValue
     bool& dyn__defaultValue();
+    // protected override System.Void OnEnable()
+    // Offset: 0x1378F30
+    // Implemented from: PersistentScriptableObject
+    // Base method: System.Void PersistentScriptableObject::OnEnable()
+    void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x125C7C8
+    // Offset: 0x1378FD0
     // Implemented from: BoolSO
     // Base method: System.Void BoolSO::.ctor()
     // Base method: System.Void ObservableVariableSO_1::.ctor()
@@ -43,20 +48,11 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BoolWithDefaultValueSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BoolWithDefaultValueSO*, creationType>()));
     }
-    // protected override System.Void OnEnable()
-    // Offset: 0x125C728
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::OnEnable()
-    void OnEnable();
   }; // BoolWithDefaultValueSO
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoolWithDefaultValueSO*, "", "BoolWithDefaultValueSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::BoolWithDefaultValueSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BoolWithDefaultValueSO::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -65,3 +61,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BoolWithDefaultValueSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BoolWithDefaultValueSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

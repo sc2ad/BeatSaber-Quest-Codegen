@@ -36,18 +36,18 @@ namespace Org::BouncyCastle::Asn1 {
     ::Il2CppString*& dyn_oid();
     // Get instance field reference: private System.Int32 index
     int& dyn_index();
-    // public System.Boolean get_HasMoreTokens()
-    // Offset: 0x17B5D90
-    bool get_HasMoreTokens();
     // public System.Void .ctor(System.String oid)
-    // Offset: 0x17B5D64
+    // Offset: 0x196E5CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OidTokenizer* New_ctor(::Il2CppString* oid) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::OidTokenizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OidTokenizer*, creationType>(oid)));
     }
+    // public System.Boolean get_HasMoreTokens()
+    // Offset: 0x196E5F8
+    bool get_HasMoreTokens();
     // public System.String NextToken()
-    // Offset: 0x17B5DA0
+    // Offset: 0x196E608
     ::Il2CppString* NextToken();
   }; // Org.BouncyCastle.Asn1.OidTokenizer
   #pragma pack(pop)
@@ -56,6 +56,10 @@ namespace Org::BouncyCastle::Asn1 {
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::OidTokenizer*, "Org.BouncyCastle.Asn1", "OidTokenizer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::OidTokenizer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::OidTokenizer::get_HasMoreTokens
 // Il2CppName: get_HasMoreTokens
 template<>
@@ -64,10 +68,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::OidTokenizer*), "get_HasMoreTokens", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::OidTokenizer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::OidTokenizer::NextToken
 // Il2CppName: NextToken
 template<>

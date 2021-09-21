@@ -29,7 +29,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Creating value type constructor for type: Asn1OutputStream
     Asn1OutputStream() noexcept {}
     // public System.Void .ctor(System.IO.Stream os)
-    // Offset: 0x172C8B0
+    // Offset: 0x18DE088
     // Implemented from: Org.BouncyCastle.Asn1.DerOutputStream
     // Base method: System.Void DerOutputStream::.ctor(System.IO.Stream os)
     // Base method: System.Void FilterStream::.ctor(System.IO.Stream os)

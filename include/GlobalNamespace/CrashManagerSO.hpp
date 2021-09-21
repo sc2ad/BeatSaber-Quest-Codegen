@@ -48,22 +48,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _stackTrace
     ::Il2CppString*& dyn__stackTrace();
     // public System.String get_logString()
-    // Offset: 0x10E7458
+    // Offset: 0x119EDC8
     ::Il2CppString* get_logString();
     // public System.String get_stackTrace()
-    // Offset: 0x10E7460
+    // Offset: 0x119EDD0
     ::Il2CppString* get_stackTrace();
     // public System.Void StartCatchingExceptions()
-    // Offset: 0x10E7468
+    // Offset: 0x119EDD8
     void StartCatchingExceptions();
     // protected System.Void OnDisable()
-    // Offset: 0x10E74DC
+    // Offset: 0x119EE4C
     void OnDisable();
     // private System.Void HandleLog(System.String logString, System.String stackTrace, UnityEngine.LogType type)
-    // Offset: 0x10E7550
+    // Offset: 0x119EEC0
     void HandleLog(::Il2CppString* logString, ::Il2CppString* stackTrace, UnityEngine::LogType type);
     // public System.Void .ctor()
-    // Offset: 0x10E75F4
+    // Offset: 0x119EF64
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

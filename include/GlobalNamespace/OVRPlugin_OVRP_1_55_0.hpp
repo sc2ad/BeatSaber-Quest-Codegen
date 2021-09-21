@@ -29,35 +29,27 @@ namespace GlobalNamespace {
     static System::Version* _get_version();
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
-    // static private System.Void .cctor()
-    // Offset: 0x16385F8
-    static void _cctor();
     // static public OVRPlugin/Result ovrp_GetSkeleton2(OVRPlugin/SkeletonType skeletonType, out OVRPlugin/Skeleton2Internal skeleton)
-    // Offset: 0x1638394
+    // Offset: 0x1804FF4
     static GlobalNamespace::OVRPlugin::Result ovrp_GetSkeleton2(GlobalNamespace::OVRPlugin::SkeletonType skeletonType, ByRef<GlobalNamespace::OVRPlugin::Skeleton2Internal> skeleton);
     // static public OVRPlugin/Result ovrp_PollEvent(ref OVRPlugin/EventDataBuffer eventDataBuffer)
-    // Offset: 0x1638424
+    // Offset: 0x1805084
     static GlobalNamespace::OVRPlugin::Result ovrp_PollEvent(ByRef<GlobalNamespace::OVRPlugin::EventDataBuffer> eventDataBuffer);
     // static public OVRPlugin/Result ovrp_GetNativeXrApiType(out OVRPlugin/XrApi xrApi)
-    // Offset: 0x16384E8
+    // Offset: 0x1805148
     static GlobalNamespace::OVRPlugin::Result ovrp_GetNativeXrApiType(ByRef<GlobalNamespace::OVRPlugin::XrApi> xrApi);
     // static public OVRPlugin/Result ovrp_GetNativeOpenXRHandles(out System.UInt64 xrInstance, out System.UInt64 xrSession)
-    // Offset: 0x1638568
+    // Offset: 0x18051C8
     static GlobalNamespace::OVRPlugin::Result ovrp_GetNativeOpenXRHandles(ByRef<uint64_t> xrInstance, ByRef<uint64_t> xrSession);
+    // static private System.Void .cctor()
+    // Offset: 0x1805258
+    static void _cctor();
   }; // OVRPlugin/OVRP_1_55_0
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_55_0*, "", "OVRPlugin/OVRP_1_55_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_55_0::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_55_0::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_55_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_55_0::ovrp_GetSkeleton2
 // Il2CppName: ovrp_GetSkeleton2
 template<>
@@ -94,5 +86,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
     static auto* xrInstance = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
     static auto* xrSession = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_55_0*), "ovrp_GetNativeOpenXRHandles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{xrInstance, xrSession});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_55_0::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_55_0::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_55_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -42,12 +42,6 @@ namespace GlobalNamespace {
   // Forward declaring type: BeatmapEventCallback
   class BeatmapEventCallback;
 }
-// Forward declaring namespace: System::Collections::Generic
-namespace System::Collections::Generic {
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
-}
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action
@@ -55,6 +49,12 @@ namespace System {
   // Forward declaring type: Action`1<T>
   template<typename T>
   class Action_1;
+}
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: List`1<T>
+  template<typename T>
+  class List_1;
 }
 // Completed forward declares
 // Type namespace: 
@@ -65,42 +65,42 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameplayFacade : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::IAudioTimeSource*/ {
     public:
-    // [InjectAttribute] Offset: 0xE436BC
+    // [InjectAttribute] Offset: 0xF0C060
     // private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE436CC
+    // [InjectAttribute] Offset: 0xF0C070
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE436DC
+    // [InjectAttribute] Offset: 0xF0C080
     // private readonly BasicSpectrogramData _spectrogramData
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::BasicSpectrogramData* spectrogramData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BasicSpectrogramData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE436EC
+    // [InjectAttribute] Offset: 0xF0C090
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE436FC
+    // [InjectAttribute] Offset: 0xF0C0A0
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xE4370C
+    // [InjectOptionalAttribute] Offset: 0xF0C0B0
     // private readonly IDifficultyBeatmap _difficultyBeatmap
     // Size: 0x8
     // Offset: 0x40
@@ -128,61 +128,64 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IDifficultyBeatmap _difficultyBeatmap
     GlobalNamespace::IDifficultyBeatmap*& dyn__difficultyBeatmap();
     // public IDifficultyBeatmap get_difficultyBeatmap()
-    // Offset: 0x10FFA48
+    // Offset: 0x11E4314
     GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
     // public System.Single get_songTime()
-    // Offset: 0x10FFA50
+    // Offset: 0x11E431C
     float get_songTime();
+    // public System.Single get_lastFrameDeltaSongTime()
+    // Offset: 0x11E4338
+    float get_lastFrameDeltaSongTime();
     // public System.Single get_songEndTime()
-    // Offset: 0x10FFA6C
+    // Offset: 0x11E4354
     float get_songEndTime();
     // public System.Boolean get_isReady()
-    // Offset: 0x10FFA88
+    // Offset: 0x11E4370
     bool get_isReady();
     // public System.Boolean get_isInitialized()
-    // Offset: 0x10FFAA4
+    // Offset: 0x11E438C
     bool get_isInitialized();
     // public System.Single get_moveDuration()
-    // Offset: 0x10FFAC0
+    // Offset: 0x11E43A8
     float get_moveDuration();
     // public System.Single get_jumpDuration()
-    // Offset: 0x10FFADC
+    // Offset: 0x11E43C4
     float get_jumpDuration();
-    // public System.Collections.Generic.List`1<System.Single> get_ProcessedSamples()
-    // Offset: 0x10FFB30
-    System::Collections::Generic::List_1<float>* get_ProcessedSamples();
-    // public Saber get_leftSaber()
-    // Offset: 0x10FFB4C
-    GlobalNamespace::Saber* get_leftSaber();
-    // public Saber get_rightSaber()
-    // Offset: 0x10FFB68
-    GlobalNamespace::Saber* get_rightSaber();
     // public System.Void add_didInitEvent(System.Action value)
-    // Offset: 0x10FFAF8
+    // Offset: 0x11E43E0
     void add_didInitEvent(System::Action* value);
     // public System.Void remove_didInitEvent(System.Action value)
-    // Offset: 0x10FFB14
+    // Offset: 0x11E43FC
     void remove_didInitEvent(System::Action* value);
+    // public System.Collections.Generic.List`1<System.Single> get_ProcessedSamples()
+    // Offset: 0x11E4418
+    System::Collections::Generic::List_1<float>* get_ProcessedSamples();
+    // public Saber get_leftSaber()
+    // Offset: 0x11E4434
+    GlobalNamespace::Saber* get_leftSaber();
+    // public Saber get_rightSaber()
+    // Offset: 0x11E4450
+    GlobalNamespace::Saber* get_rightSaber();
     // public System.Void add_beatmapEventDidTriggerEvent(System.Action`1<BeatmapEventData> value)
-    // Offset: 0x10FFB84
+    // Offset: 0x11E446C
     void add_beatmapEventDidTriggerEvent(System::Action_1<GlobalNamespace::BeatmapEventData*>* value);
     // public System.Void remove_beatmapEventDidTriggerEvent(System.Action`1<BeatmapEventData> value)
-    // Offset: 0x10FFC44
+    // Offset: 0x11E452C
     void remove_beatmapEventDidTriggerEvent(System::Action_1<GlobalNamespace::BeatmapEventData*>* value);
     // public BeatmapObjectCallbackData AddBeatmapObjectCallback(BeatmapObjectCallback callback, System.Single aheadTime)
-    // Offset: 0x10FFD08
+    // Offset: 0x11E45F0
     GlobalNamespace::BeatmapObjectCallbackData* AddBeatmapObjectCallback(GlobalNamespace::BeatmapObjectCallback* callback, float aheadTime);
     // public System.Void RemoveBeatmapObjectCallback(BeatmapObjectCallbackData callbackData)
-    // Offset: 0x10FFDDC
+    // Offset: 0x11E46C4
     void RemoveBeatmapObjectCallback(GlobalNamespace::BeatmapObjectCallbackData* callbackData);
     // public BeatmapEventCallbackData AddBeatmapEventCallback(BeatmapEventCallback callback, System.Single aheadTime)
-    // Offset: 0x10FFEA0
+    // Offset: 0x11E4788
     GlobalNamespace::BeatmapEventCallbackData* AddBeatmapEventCallback(GlobalNamespace::BeatmapEventCallback* callback, float aheadTime);
     // public System.Void RemoveBeatmapEventCallback(BeatmapEventCallbackData callbackData)
-    // Offset: 0x10FFF74
+    // Offset: 0x11E485C
     void RemoveBeatmapEventCallback(GlobalNamespace::BeatmapEventCallbackData* callbackData);
     // public System.Void .ctor()
-    // Offset: 0x1100038
+    // Offset: 0x11E4920
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -215,6 +218,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::GameplayFacade::*)()>(&GlobalNamespace::GameplayFacade::get_songTime)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayFacade*), "get_songTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::GameplayFacade::get_lastFrameDeltaSongTime
+// Il2CppName: get_lastFrameDeltaSongTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::GameplayFacade::*)()>(&GlobalNamespace::GameplayFacade::get_lastFrameDeltaSongTime)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayFacade*), "get_lastFrameDeltaSongTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::GameplayFacade::get_songEndTime
@@ -257,6 +268,24 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayFacade*), "get_jumpDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::GameplayFacade::add_didInitEvent
+// Il2CppName: add_didInitEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayFacade::*)(System::Action*)>(&GlobalNamespace::GameplayFacade::add_didInitEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayFacade*), "add_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::GameplayFacade::remove_didInitEvent
+// Il2CppName: remove_didInitEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayFacade::*)(System::Action*)>(&GlobalNamespace::GameplayFacade::remove_didInitEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayFacade*), "remove_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GameplayFacade::get_ProcessedSamples
 // Il2CppName: get_ProcessedSamples
 template<>
@@ -279,24 +308,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::Saber* (GlobalNamespace::GameplayFacade::*)()>(&GlobalNamespace::GameplayFacade::get_rightSaber)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayFacade*), "get_rightSaber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::GameplayFacade::add_didInitEvent
-// Il2CppName: add_didInitEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayFacade::*)(System::Action*)>(&GlobalNamespace::GameplayFacade::add_didInitEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayFacade*), "add_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::GameplayFacade::remove_didInitEvent
-// Il2CppName: remove_didInitEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayFacade::*)(System::Action*)>(&GlobalNamespace::GameplayFacade::remove_didInitEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayFacade*), "remove_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::GameplayFacade::add_beatmapEventDidTriggerEvent

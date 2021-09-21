@@ -53,8 +53,23 @@ namespace GlobalNamespace {
     GlobalNamespace::FloatSO*& dyn__smoothCameraRotationSmooth();
     // Get instance field reference: private System.Single[] _smoothnesses
     ::Array<float>*& dyn__smoothnesses();
+    // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
+    // Offset: 0x110967C
+    // Implemented from: ListSettingsController
+    // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
+    bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
+    // protected override System.Void ApplyValue(System.Int32 idx)
+    // Offset: 0x1109798
+    // Implemented from: ListSettingsController
+    // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
+    void ApplyValue(int idx);
+    // protected override System.String TextForValue(System.Int32 idx)
+    // Offset: 0x1109854
+    // Implemented from: ListSettingsController
+    // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
+    ::Il2CppString* TextForValue(int idx);
     // public System.Void .ctor()
-    // Offset: 0x109AEF0
+    // Offset: 0x1109924
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -68,21 +83,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SmoothCameraSmoothnessSettingsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SmoothCameraSmoothnessSettingsController*, creationType>()));
     }
-    // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x109AC48
-    // Implemented from: ListSettingsController
-    // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
-    // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x109AD64
-    // Implemented from: ListSettingsController
-    // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
-    void ApplyValue(int idx);
-    // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x109AE20
-    // Implemented from: ListSettingsController
-    // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
-    ::Il2CppString* TextForValue(int idx);
   }; // SmoothCameraSmoothnessSettingsController
   #pragma pack(pop)
   static check_size<sizeof(SmoothCameraSmoothnessSettingsController), 56 + sizeof(::Array<float>*)> __GlobalNamespace_SmoothCameraSmoothnessSettingsControllerSizeCheck;
@@ -90,10 +90,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SmoothCameraSmoothnessSettingsController*, "", "SmoothCameraSmoothnessSettingsController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::SmoothCameraSmoothnessSettingsController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SmoothCameraSmoothnessSettingsController::GetInitValues
 // Il2CppName: GetInitValues
 template<>
@@ -122,3 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SmoothCameraSmoothnessSettingsController*), "TextForValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{idx});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SmoothCameraSmoothnessSettingsController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

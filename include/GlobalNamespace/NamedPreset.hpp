@@ -18,7 +18,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NamedPreset : public ::Il2CppObject {
     public:
-    // [LocalizationKeyAttribute] Offset: 0xE3A210
+    // [LocalizationKeyAttribute] Offset: 0xF029F4
     // private System.String _presetNameLocalizationKey
     // Size: 0x8
     // Offset: 0x10
@@ -34,10 +34,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _presetNameLocalizationKey
     ::Il2CppString*& dyn__presetNameLocalizationKey();
     // public System.String get_presetNameLocalizationKey()
-    // Offset: 0x1045FA0
+    // Offset: 0x1134F40
     ::Il2CppString* get_presetNameLocalizationKey();
     // public System.Void .ctor()
-    // Offset: 0x1045FA8
+    // Offset: 0x1134F48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

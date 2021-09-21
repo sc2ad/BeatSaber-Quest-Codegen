@@ -62,24 +62,24 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::DerInteger*& dyn_g();
     // Get instance field reference: Org.BouncyCastle.Asn1.DerInteger l
     Org::BouncyCastle::Asn1::DerInteger*& dyn_l();
-    // public Org.BouncyCastle.Math.BigInteger get_P()
-    // Offset: 0x17B764C
-    Org::BouncyCastle::Math::BigInteger* get_P();
-    // public Org.BouncyCastle.Math.BigInteger get_G()
-    // Offset: 0x17B7668
-    Org::BouncyCastle::Math::BigInteger* get_G();
-    // public Org.BouncyCastle.Math.BigInteger get_L()
-    // Offset: 0x17B7684
-    Org::BouncyCastle::Math::BigInteger* get_L();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x17B72D4
+    // Offset: 0x196FB3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHParameter* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::DHParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHParameter*, creationType>(seq)));
     }
+    // public Org.BouncyCastle.Math.BigInteger get_P()
+    // Offset: 0x196FEB4
+    Org::BouncyCastle::Math::BigInteger* get_P();
+    // public Org.BouncyCastle.Math.BigInteger get_G()
+    // Offset: 0x196FED0
+    Org::BouncyCastle::Math::BigInteger* get_G();
+    // public Org.BouncyCastle.Math.BigInteger get_L()
+    // Offset: 0x196FEEC
+    Org::BouncyCastle::Math::BigInteger* get_L();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x17B7698
+    // Offset: 0x196FF00
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
@@ -90,6 +90,10 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::DHParameter*, "Org.BouncyCastle.Asn1.Pkcs", "DHParameter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::DHParameter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::DHParameter::get_P
 // Il2CppName: get_P
 template<>
@@ -114,10 +118,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::DHParameter*), "get_L", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::DHParameter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::DHParameter::ToAsn1Object
 // Il2CppName: ToAsn1Object
 template<>

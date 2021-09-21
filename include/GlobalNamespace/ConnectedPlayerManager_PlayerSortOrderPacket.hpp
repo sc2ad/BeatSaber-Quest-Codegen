@@ -66,22 +66,22 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 sortIndex
     int& dyn_sortIndex();
     // static public PacketPool`1<ConnectedPlayerManager/PlayerSortOrderPacket> get_pool()
-    // Offset: 0x13399C0
+    // Offset: 0x1451000
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket*>* get_pool();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x133CCF0
+    // Offset: 0x1454330
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x133CD34
+    // Offset: 0x1454374
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x133C280
+    // Offset: 0x14538C0
     void Release();
     // public ConnectedPlayerManager/PlayerSortOrderPacket Init(System.String userId, System.Int32 sortIndex)
-    // Offset: 0x133C7C4
+    // Offset: 0x1453E04
     GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket* Init(::Il2CppString* userId, int sortIndex);
     // public System.Void .ctor()
-    // Offset: 0x133CD7C
+    // Offset: 0x14543BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

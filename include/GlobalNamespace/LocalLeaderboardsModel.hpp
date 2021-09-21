@@ -99,6 +99,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: maxNumberOfScoresInLeaderboard and: newScoreWasAddedToLeaderboardEvent
     char __padding0[0x4] = {};
+    // [CompilerGeneratedAttribute] Offset: 0xF019EC
     // private System.Action`2<System.String,LocalLeaderboardsModel/LeaderboardType> newScoreWasAddedToLeaderboardEvent
     // Size: 0x8
     // Offset: 0x20
@@ -158,73 +159,78 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> _dailyLeaderboardsData
     System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*& dyn__dailyLeaderboardsData();
     // public System.Void add_newScoreWasAddedToLeaderboardEvent(System.Action`2<System.String,LocalLeaderboardsModel/LeaderboardType> value)
-    // Offset: 0x11974F4
+    // Offset: 0x1256DF8
     void add_newScoreWasAddedToLeaderboardEvent(System::Action_2<::Il2CppString*, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType>* value);
     // public System.Void remove_newScoreWasAddedToLeaderboardEvent(System.Action`2<System.String,LocalLeaderboardsModel/LeaderboardType> value)
-    // Offset: 0x1197598
+    // Offset: 0x1257110
     void remove_newScoreWasAddedToLeaderboardEvent(System::Action_2<::Il2CppString*, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType>* value);
     // protected System.Void OnDisable()
-    // Offset: 0x1197728
+    // Offset: 0x1257724
     void OnDisable();
     // static private System.Void LoadLeaderboardsData(System.String filename, out System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> leaderboardsData)
-    // Offset: 0x1197790
+    // Offset: 0x125778C
     static void LoadLeaderboardsData(::Il2CppString* filename, ByRef<System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*> leaderboardsData);
     // static private System.Void SaveLeaderboardsData(System.String filename, System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> leaderboardsData)
-    // Offset: 0x1197884
+    // Offset: 0x1257880
     static void SaveLeaderboardsData(::Il2CppString* filename, System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>* leaderboardsData);
     // public System.Void Load()
-    // Offset: 0x1197664
+    // Offset: 0x1257660
     void Load();
     // public System.Void Save()
-    // Offset: 0x119772C
+    // Offset: 0x1257728
     void Save();
     // private System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> GetLeaderboardsData(LocalLeaderboardsModel/LeaderboardType leaderboardType)
-    // Offset: 0x1197A44
+    // Offset: 0x1257A40
     System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>* GetLeaderboardsData(GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType);
     // private LocalLeaderboardsModel/LeaderboardData GetLeaderboardData(System.String leaderboardId, LocalLeaderboardsModel/LeaderboardType leaderboardType)
-    // Offset: 0x1197A6C
+    // Offset: 0x1257A68
     GlobalNamespace::LocalLeaderboardsModel::LeaderboardData* GetLeaderboardData(::Il2CppString* leaderboardId, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType);
     // private System.Int64 GetCurrentTimestamp()
-    // Offset: 0x1197B3C
+    // Offset: 0x1257B38
     int64_t GetCurrentTimestamp();
     // protected System.Void UpdateDailyLeaderboard(System.String leaderboardId)
-    // Offset: 0x119794C
+    // Offset: 0x1257948
     void UpdateDailyLeaderboard(::Il2CppString* leaderboardId);
     // private System.Void AddScore(System.String leaderboardId, LocalLeaderboardsModel/LeaderboardType leaderboardType, System.String playerName, System.Int32 score, System.Boolean fullCombo)
-    // Offset: 0x1197C18
+    // Offset: 0x1257C14
     void AddScore(::Il2CppString* leaderboardId, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType, ::Il2CppString* playerName, int score, bool fullCombo);
     // private System.Boolean WillScoreGoIntoLeaderboard(System.String leaderboardId, LocalLeaderboardsModel/LeaderboardType leaderboardType, System.Int32 score)
-    // Offset: 0x1197E9C
+    // Offset: 0x1257E98
     bool WillScoreGoIntoLeaderboard(::Il2CppString* leaderboardId, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType, int score);
     // public System.Collections.Generic.List`1<LocalLeaderboardsModel/ScoreData> GetScores(System.String leaderboardId, LocalLeaderboardsModel/LeaderboardType leaderboardType)
-    // Offset: 0x1197F70
+    // Offset: 0x1257458
     System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>* GetScores(::Il2CppString* leaderboardId, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType);
     // public System.Int32 GetHighScore(System.String leaderboardId, LocalLeaderboardsModel/LeaderboardType leaderboardType)
-    // Offset: 0x1197F8C
+    // Offset: 0x1257F6C
     int GetHighScore(::Il2CppString* leaderboardId, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType);
     // public System.Int32 GetPositionInLeaderboard(System.String leaderboardId, LocalLeaderboardsModel/LeaderboardType leaderboardType, System.Int32 score)
-    // Offset: 0x1198020
+    // Offset: 0x1258000
     int GetPositionInLeaderboard(::Il2CppString* leaderboardId, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType, int score);
     // public System.Int32 GetLastScorePosition(System.String leaderboardId, LocalLeaderboardsModel/LeaderboardType leaderboardType)
-    // Offset: 0x11980FC
+    // Offset: 0x1257474
     int GetLastScorePosition(::Il2CppString* leaderboardId, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType);
     // public System.Void ClearLastScorePosition()
-    // Offset: 0x11981A4
+    // Offset: 0x1257380
     void ClearLastScorePosition();
     // public System.Void AddScore(System.String leaderboardId, System.String playerName, System.Int32 score, System.Boolean fullCombo)
-    // Offset: 0x1198204
+    // Offset: 0x12580DC
     void AddScore(::Il2CppString* leaderboardId, ::Il2CppString* playerName, int score, bool fullCombo);
     // public System.Boolean WillScoreGoIntoLeaderboard(System.String leaderboardId, System.Int32 score)
-    // Offset: 0x119826C
+    // Offset: 0x1258144
     bool WillScoreGoIntoLeaderboard(::Il2CppString* leaderboardId, int score);
     // public System.Void ClearLeaderboard(System.String leaderboardId)
-    // Offset: 0x11982CC
+    // Offset: 0x12581A4
     void ClearLeaderboard(::Il2CppString* leaderboardId);
     // public System.Void ClearAllLeaderboards(System.Boolean deleteLeaderboardFile)
-    // Offset: 0x1198404
+    // Offset: 0x12572B0
     void ClearAllLeaderboards(bool deleteLeaderboardFile);
+    // protected override System.Void OnEnable()
+    // Offset: 0x1257638
+    // Implemented from: PersistentScriptableObject
+    // Base method: System.Void PersistentScriptableObject::OnEnable()
+    void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x11984D4
+    // Offset: 0x12582DC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -235,11 +241,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalLeaderboardsModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalLeaderboardsModel*, creationType>()));
     }
-    // protected override System.Void OnEnable()
-    // Offset: 0x119763C
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::OnEnable()
-    void OnEnable();
   }; // LocalLeaderboardsModel
   #pragma pack(pop)
   static check_size<sizeof(LocalLeaderboardsModel), 64 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*)> __GlobalNamespace_LocalLeaderboardsModelSizeCheck;
@@ -459,10 +460,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalLeaderboardsModel*), "ClearAllLeaderboards", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deleteLeaderboardFile});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LocalLeaderboardsModel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LocalLeaderboardsModel::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -471,3 +468,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalLeaderboardsModel*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LocalLeaderboardsModel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

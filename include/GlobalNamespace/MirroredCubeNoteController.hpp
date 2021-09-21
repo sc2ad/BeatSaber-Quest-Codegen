@@ -54,13 +54,14 @@ namespace GlobalNamespace {
     GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MaterialPropertyBlockController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3C1FC
+    // [InjectAttribute] Offset: 0xF049E0
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x60
     GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorManager*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF049F0
     // private System.Action`1<MirroredCubeNoteController> cubeNoteControllerDidInitEvent
     // Size: 0x8
     // Offset: 0x68
@@ -81,7 +82,7 @@ namespace GlobalNamespace {
     operator GlobalNamespace::INoteMovementProvider() noexcept {
       return *reinterpret_cast<GlobalNamespace::INoteMovementProvider*>(this);
     }
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE3C21C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF04A00
     // Get static field: static private readonly System.Int32 _colorId
     static int _get__colorId();
     // Set static field: static private readonly System.Int32 _colorId
@@ -92,23 +93,23 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorManager*& dyn__colorManager();
     // Get instance field reference: private System.Action`1<MirroredCubeNoteController> cubeNoteControllerDidInitEvent
     System::Action_1<GlobalNamespace::MirroredCubeNoteController*>*& dyn_cubeNoteControllerDidInitEvent();
-    // public NoteMovement get_noteMovement()
-    // Offset: 0x113C4FC
-    GlobalNamespace::NoteMovement* get_noteMovement();
-    // public GameNoteController/GameNoteType get_gameNoteType()
-    // Offset: 0x113C5B8
-    GlobalNamespace::GameNoteController_GameNoteType get_gameNoteType();
     // public System.Void add_cubeNoteControllerDidInitEvent(System.Action`1<MirroredCubeNoteController> value)
-    // Offset: 0x113C3B4
+    // Offset: 0x1183540
     void add_cubeNoteControllerDidInitEvent(System::Action_1<GlobalNamespace::MirroredCubeNoteController*>* value);
     // public System.Void remove_cubeNoteControllerDidInitEvent(System.Action`1<MirroredCubeNoteController> value)
-    // Offset: 0x113C458
+    // Offset: 0x11835E4
     void remove_cubeNoteControllerDidInitEvent(System::Action_1<GlobalNamespace::MirroredCubeNoteController*>* value);
+    // public NoteMovement get_noteMovement()
+    // Offset: 0x1183688
+    GlobalNamespace::NoteMovement* get_noteMovement();
+    // public GameNoteController/GameNoteType get_gameNoteType()
+    // Offset: 0x1183744
+    GlobalNamespace::GameNoteController_GameNoteType get_gameNoteType();
     // public System.Void Mirror(ICubeNoteMirrorable noteController)
-    // Offset: 0x113C66C
+    // Offset: 0x11837F8
     void Mirror(GlobalNamespace::ICubeNoteMirrorable* noteController);
     // public System.Void .ctor()
-    // Offset: 0x113C834
+    // Offset: 0x11839C0
     // Implemented from: MirroredNoteController`1
     // Base method: System.Void MirroredNoteController_1::.ctor()
     // Base method: System.Void NoteControllerBase::.ctor()
@@ -123,7 +124,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MirroredCubeNoteController*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x113C884
+    // Offset: 0x1183A10
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
@@ -132,22 +133,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirroredCubeNoteController*, "", "MirroredCubeNoteController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::MirroredCubeNoteController::get_noteMovement
-// Il2CppName: get_noteMovement
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteMovement* (GlobalNamespace::MirroredCubeNoteController::*)()>(&GlobalNamespace::MirroredCubeNoteController::get_noteMovement)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredCubeNoteController*), "get_noteMovement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MirroredCubeNoteController::get_gameNoteType
-// Il2CppName: get_gameNoteType
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameNoteController_GameNoteType (GlobalNamespace::MirroredCubeNoteController::*)()>(&GlobalNamespace::MirroredCubeNoteController::get_gameNoteType)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredCubeNoteController*), "get_gameNoteType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::MirroredCubeNoteController::add_cubeNoteControllerDidInitEvent
 // Il2CppName: add_cubeNoteControllerDidInitEvent
 template<>
@@ -164,6 +149,22 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MirroredCubeNoteController")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredCubeNoteController*), "remove_cubeNoteControllerDidInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MirroredCubeNoteController::get_noteMovement
+// Il2CppName: get_noteMovement
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteMovement* (GlobalNamespace::MirroredCubeNoteController::*)()>(&GlobalNamespace::MirroredCubeNoteController::get_noteMovement)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredCubeNoteController*), "get_noteMovement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MirroredCubeNoteController::get_gameNoteType
+// Il2CppName: get_gameNoteType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameNoteController_GameNoteType (GlobalNamespace::MirroredCubeNoteController::*)()>(&GlobalNamespace::MirroredCubeNoteController::get_gameNoteType)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredCubeNoteController*), "get_gameNoteType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MirroredCubeNoteController::Mirror

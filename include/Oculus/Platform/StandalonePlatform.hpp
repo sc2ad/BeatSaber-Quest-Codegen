@@ -36,13 +36,13 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: StandalonePlatform
     StandalonePlatform() noexcept {}
     // public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> InitializeInEditor()
-    // Offset: 0x23B683C
+    // Offset: 0x25BB760
     Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize*>* InitializeInEditor();
     // public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> AsyncInitialize(System.UInt64 appID, System.String accessToken)
-    // Offset: 0x23B3294
+    // Offset: 0x25B81B8
     Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(uint64_t appID, ::Il2CppString* accessToken);
     // public System.Void .ctor()
-    // Offset: 0x23B328C
+    // Offset: 0x25B81B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

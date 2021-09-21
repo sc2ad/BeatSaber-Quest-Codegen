@@ -31,35 +31,27 @@ namespace GlobalNamespace {
     static System::Version* _get_version();
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
-    // static private System.Void .cctor()
-    // Offset: 0x1635AE8
-    static void _cctor();
     // static public OVRPlugin/Result ovrp_GetLayerAndroidSurfaceObject(System.Int32 layerId, ref System.IntPtr surfaceObject)
-    // Offset: 0x1635890
+    // Offset: 0x18024F0
     static GlobalNamespace::OVRPlugin::Result ovrp_GetLayerAndroidSurfaceObject(int layerId, ByRef<System::IntPtr> surfaceObject);
     // static public OVRPlugin/Result ovrp_SetHeadPoseModifier(ref OVRPlugin/Quatf relativeRotation, ref OVRPlugin/Vector3f relativeTranslation)
-    // Offset: 0x1635920
+    // Offset: 0x1802580
     static GlobalNamespace::OVRPlugin::Result ovrp_SetHeadPoseModifier(ByRef<GlobalNamespace::OVRPlugin::Quatf> relativeRotation, ByRef<GlobalNamespace::OVRPlugin::Vector3f> relativeTranslation);
     // static public OVRPlugin/Result ovrp_GetHeadPoseModifier(out OVRPlugin/Quatf relativeRotation, out OVRPlugin/Vector3f relativeTranslation)
-    // Offset: 0x16359B0
+    // Offset: 0x1802610
     static GlobalNamespace::OVRPlugin::Result ovrp_GetHeadPoseModifier(ByRef<GlobalNamespace::OVRPlugin::Quatf> relativeRotation, ByRef<GlobalNamespace::OVRPlugin::Vector3f> relativeTranslation);
     // static public OVRPlugin/Result ovrp_GetNodePoseStateRaw(OVRPlugin/Step stepId, System.Int32 frameIndex, OVRPlugin/Node nodeId, out OVRPlugin/PoseStatef nodePoseState)
-    // Offset: 0x1635A40
+    // Offset: 0x18026A0
     static GlobalNamespace::OVRPlugin::Result ovrp_GetNodePoseStateRaw(GlobalNamespace::OVRPlugin::Step stepId, int frameIndex, GlobalNamespace::OVRPlugin::Node nodeId, ByRef<GlobalNamespace::OVRPlugin::PoseStatef> nodePoseState);
+    // static private System.Void .cctor()
+    // Offset: 0x1802748
+    static void _cctor();
   }; // OVRPlugin/OVRP_1_29_0
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_29_0*, "", "OVRPlugin/OVRP_1_29_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_29_0::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_29_0::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_29_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_29_0::ovrp_GetLayerAndroidSurfaceObject
 // Il2CppName: ovrp_GetLayerAndroidSurfaceObject
 template<>
@@ -100,5 +92,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     static auto* nodePoseState = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/PoseStatef")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_29_0*), "ovrp_GetNodePoseStateRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stepId, frameIndex, nodeId, nodePoseState});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_29_0::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_29_0::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_29_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

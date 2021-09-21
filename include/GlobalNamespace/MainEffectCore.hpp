@@ -20,24 +20,24 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: MainEffectCore
     MainEffectCore() noexcept {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE24088
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEB860
     // Get static field: static private readonly System.Int32 _baseColorBoostID
     static int _get__baseColorBoostID();
     // Set static field: static private readonly System.Int32 _baseColorBoostID
     static void _set__baseColorBoostID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE24098
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEB870
     // Get static field: static private readonly System.Int32 _baseColorBoostThresholdID
     static int _get__baseColorBoostThresholdID();
     // Set static field: static private readonly System.Int32 _baseColorBoostThresholdID
     static void _set__baseColorBoostThresholdID(int value);
-    // static private System.Void .cctor()
-    // Offset: 0x238D600
-    static void _cctor();
     // static public System.Void SetGlobalShaderValues(System.Single baseColorBoost, System.Single baseColorBoostThreshold)
-    // Offset: 0x238C9B8
+    // Offset: 0x25872C4
     static void SetGlobalShaderValues(float baseColorBoost, float baseColorBoostThreshold);
+    // static private System.Void .cctor()
+    // Offset: 0x2587F0C
+    static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x238D5F8
+    // Offset: 0x2587F04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -50,14 +50,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectCore*, "", "MainEffectCore");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::MainEffectCore::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::MainEffectCore::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectCore*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectCore::SetGlobalShaderValues
 // Il2CppName: SetGlobalShaderValues
 template<>
@@ -66,6 +58,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
     static auto* baseColorBoost = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* baseColorBoostThreshold = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectCore*), "SetGlobalShaderValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{baseColorBoost, baseColorBoostThreshold});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MainEffectCore::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::MainEffectCore::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectCore*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectCore::New_ctor

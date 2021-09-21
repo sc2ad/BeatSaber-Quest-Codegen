@@ -53,25 +53,30 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _canBeCut
     bool& dyn__canBeCut();
     // protected System.Void Awake()
-    // Offset: 0x10A0C6C
+    // Offset: 0x110F950
     void Awake();
     // public override System.Single get_radius()
-    // Offset: 0x10A0C0C
+    // Offset: 0x110F8F0
     // Implemented from: CuttableBySaber
     // Base method: System.Single CuttableBySaber::get_radius()
     float get_radius();
-    // public override System.Boolean get_canBeCut()
-    // Offset: 0x10A0C64
-    // Implemented from: CuttableBySaber
-    // Base method: System.Boolean CuttableBySaber::get_canBeCut()
-    bool get_canBeCut();
     // public override System.Void set_canBeCut(System.Boolean value)
-    // Offset: 0x10A0C28
+    // Offset: 0x110F90C
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::set_canBeCut(System.Boolean value)
     void set_canBeCut(bool value);
+    // public override System.Boolean get_canBeCut()
+    // Offset: 0x110F948
+    // Implemented from: CuttableBySaber
+    // Base method: System.Boolean CuttableBySaber::get_canBeCut()
+    bool get_canBeCut();
+    // public override System.Void Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
+    // Offset: 0x110F988
+    // Implemented from: CuttableBySaber
+    // Base method: System.Void CuttableBySaber::Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
+    void Cut(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // public System.Void .ctor()
-    // Offset: 0x10A0CC8
+    // Offset: 0x110F9AC
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -84,11 +89,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SphereCuttableBySaber::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SphereCuttableBySaber*, creationType>()));
     }
-    // public override System.Void Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x10A0CA4
-    // Implemented from: CuttableBySaber
-    // Base method: System.Void CuttableBySaber::Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    void Cut(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
   }; // SphereCuttableBySaber
   #pragma pack(pop)
   static check_size<sizeof(SphereCuttableBySaber), 40 + sizeof(bool)> __GlobalNamespace_SphereCuttableBySaberSizeCheck;
@@ -112,14 +112,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SphereCuttableBySaber*), "get_radius", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SphereCuttableBySaber::get_canBeCut
-// Il2CppName: get_canBeCut
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SphereCuttableBySaber::*)()>(&GlobalNamespace::SphereCuttableBySaber::get_canBeCut)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SphereCuttableBySaber*), "get_canBeCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::SphereCuttableBySaber::set_canBeCut
 // Il2CppName: set_canBeCut
 template<>
@@ -129,10 +121,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SphereCuttableBySaber*), "set_canBeCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SphereCuttableBySaber::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::SphereCuttableBySaber::get_canBeCut
+// Il2CppName: get_canBeCut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SphereCuttableBySaber::*)()>(&GlobalNamespace::SphereCuttableBySaber::get_canBeCut)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SphereCuttableBySaber*), "get_canBeCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SphereCuttableBySaber::Cut
 // Il2CppName: Cut
 template<>
@@ -145,3 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SphereCuttableBySaber*), "Cut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saber, cutPoint, orientation, cutDirVec});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SphereCuttableBySaber::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

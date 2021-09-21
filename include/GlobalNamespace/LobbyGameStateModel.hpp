@@ -28,12 +28,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LobbyGameStateModel : public ::Il2CppObject {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xF02FEC
     // private System.Action`1<MultiplayerGameState> gameStateDidChangeEvent
     // Size: 0x8
     // Offset: 0x10
     System::Action_1<GlobalNamespace::MultiplayerGameState>* gameStateDidChangeEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::MultiplayerGameState>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF02FFC
     // private System.Action`1<MultiplayerGameState> gameStateDidChangeAlwaysSentEvent
     // Size: 0x8
     // Offset: 0x18
@@ -55,31 +57,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private MultiplayerGameState _gameState
     GlobalNamespace::MultiplayerGameState& dyn__gameState();
     // public MultiplayerGameState get_gameState()
-    // Offset: 0x120DA5C
+    // Offset: 0x131A3DC
     GlobalNamespace::MultiplayerGameState get_gameState();
     // public System.Void add_gameStateDidChangeEvent(System.Action`1<MultiplayerGameState> value)
-    // Offset: 0x120DA64
+    // Offset: 0x131A3E4
     void add_gameStateDidChangeEvent(System::Action_1<GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void remove_gameStateDidChangeEvent(System.Action`1<MultiplayerGameState> value)
-    // Offset: 0x120DB08
+    // Offset: 0x131A488
     void remove_gameStateDidChangeEvent(System::Action_1<GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void add_gameStateDidChangeAlwaysSentEvent(System.Action`1<MultiplayerGameState> value)
-    // Offset: 0x120DBAC
+    // Offset: 0x131A52C
     void add_gameStateDidChangeAlwaysSentEvent(System::Action_1<GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void remove_gameStateDidChangeAlwaysSentEvent(System.Action`1<MultiplayerGameState> value)
-    // Offset: 0x120DC50
+    // Offset: 0x131A5D0
     void remove_gameStateDidChangeAlwaysSentEvent(System::Action_1<GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void SetGameState(MultiplayerGameState newGameState)
-    // Offset: 0x120D0A8
+    // Offset: 0x1319A28
     void SetGameState(GlobalNamespace::MultiplayerGameState newGameState);
     // public System.Void SetGameStateWithoutNotification(MultiplayerGameState newGameState)
-    // Offset: 0x120B1D4
+    // Offset: 0x1317B54
     void SetGameStateWithoutNotification(GlobalNamespace::MultiplayerGameState newGameState);
     // private System.Void SetGameState(MultiplayerGameState newGameState, System.Boolean sendNotification)
-    // Offset: 0x120DCF4
+    // Offset: 0x131A674
     void SetGameState(GlobalNamespace::MultiplayerGameState newGameState, bool sendNotification);
     // public System.Void .ctor()
-    // Offset: 0x120DD9C
+    // Offset: 0x131A71C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

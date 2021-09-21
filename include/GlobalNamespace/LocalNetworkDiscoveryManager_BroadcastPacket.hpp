@@ -102,13 +102,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public GameplayServerConfiguration configuration
     GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x119BB30
+    // Offset: 0x125B938
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x119BBCC
+    // Offset: 0x125B9D4
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x1199874
+    // Offset: 0x125967C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -37,10 +37,15 @@ namespace MasterServer {
       return *reinterpret_cast<MasterServer::IDedicatedServerMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.DedicatedServerMultipartMessage> get_pool()
-    // Offset: 0x121C6B0
+    // Offset: 0x12DBA50
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerMultipartMessage*>* get_pool();
+    // public override System.Void Release()
+    // Offset: 0x12DBA98
+    // Implemented from: BaseMasterServerReliableRequest
+    // Base method: System.Void BaseMasterServerReliableRequest::Release()
+    void Release();
     // public System.Void .ctor()
-    // Offset: 0x121C754
+    // Offset: 0x12DBAF4
     // Implemented from: MasterServer.BaseMasterServerMultipartMessage
     // Base method: System.Void BaseMasterServerMultipartMessage::.ctor()
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
@@ -50,11 +55,6 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::DedicatedServerMultipartMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DedicatedServerMultipartMessage*, creationType>()));
     }
-    // public override System.Void Release()
-    // Offset: 0x121C6F8
-    // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Release()
-    void Release();
   }; // MasterServer.DedicatedServerMultipartMessage
   #pragma pack(pop)
 }
@@ -68,10 +68,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
     return ::il2cpp_utils::FindMethod(classof(MasterServer::DedicatedServerMultipartMessage*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MasterServer::DedicatedServerMultipartMessage::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: MasterServer::DedicatedServerMultipartMessage::Release
 // Il2CppName: Release
 template<>
@@ -80,3 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
     return ::il2cpp_utils::FindMethod(classof(MasterServer::DedicatedServerMultipartMessage*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: MasterServer::DedicatedServerMultipartMessage::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

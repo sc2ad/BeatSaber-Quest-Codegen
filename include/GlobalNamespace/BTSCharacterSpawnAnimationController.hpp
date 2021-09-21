@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     UnityEngine::Playables::PlayableDirector* spawnCharacterPlayableDirector;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE36040
+    // [SpaceAttribute] Offset: 0xEFE794
     // private JumpReceiver _jumpReceiver
     // Size: 0x8
     // Offset: 0x20
@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     float disappearAnimationStartTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xE36098
+    // [SpaceAttribute] Offset: 0xEFE7EC
     // private MaterialPropertyBlockColorSetter _rimLightColorSetter
     // Size: 0x8
     // Offset: 0x30
@@ -94,7 +94,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MaterialPropertyBlockFloatAnimator* rimLightEdgeStartAnimator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MaterialPropertyBlockFloatAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0xE360F0
+    // [InjectAttribute] Offset: 0xEFE844
     // private readonly SongSpeedData _songSpeedData
     // Size: 0x8
     // Offset: 0x48
@@ -170,37 +170,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _animatorNormalizedTimeBeforePause
     float& dyn__animatorNormalizedTimeBeforePause();
     // public System.Boolean get_isCharacterVisible()
-    // Offset: 0x1180484
+    // Offset: 0x125080C
     bool get_isCharacterVisible();
     // public System.Single get_duration()
-    // Offset: 0x11804B0
+    // Offset: 0x1250838
     float get_duration();
     // private UnityEngine.Timeline.ActivationTrack get_characterActivationTrack()
-    // Offset: 0x11804F4
+    // Offset: 0x125087C
     UnityEngine::Timeline::ActivationTrack* get_characterActivationTrack();
     // public System.Void PlayAnimation()
-    // Offset: 0x1180844
+    // Offset: 0x1250BCC
     void PlayAnimation();
     // public System.Void EndEarlyAnimation()
-    // Offset: 0x1180918
+    // Offset: 0x1250CA0
     void EndEarlyAnimation();
     // public System.Void StopAnimation()
-    // Offset: 0x118099C
+    // Offset: 0x1250D24
     void StopAnimation();
     // public System.Void SetCharacter(BTSCharacter btsCharacter)
-    // Offset: 0x11809B8
+    // Offset: 0x1250D40
     void SetCharacter(GlobalNamespace::BTSCharacter* btsCharacter);
     // public System.Void WillResumeAnimation()
-    // Offset: 0x1180A54
+    // Offset: 0x1250DDC
     void WillResumeAnimation();
     // public System.Void ResumeAnimation()
-    // Offset: 0x1180AC0
+    // Offset: 0x1250E48
     void ResumeAnimation();
     // public System.Void PauseAnimation()
-    // Offset: 0x1180B2C
+    // Offset: 0x1250EB4
     void PauseAnimation();
     // public System.Void .ctor()
-    // Offset: 0x1180BD4
+    // Offset: 0x1250F5C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

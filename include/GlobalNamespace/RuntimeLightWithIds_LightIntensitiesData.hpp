@@ -14,12 +14,6 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Begin forward declares
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Skipping declaration: Color because it is already included!
-}
-// Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x2C
@@ -45,13 +39,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _intensity
     float& dyn__intensity();
     // public System.Single get_intensity()
-    // Offset: 0x1E1F51C
+    // Offset: 0x1E2FF28
     float get_intensity();
     // public System.Void set_intensity(System.Single value)
-    // Offset: 0x1E1F524
+    // Offset: 0x1E2FF30
     void set_intensity(float value);
     // public System.Void .ctor()
-    // Offset: 0x1E1F544
+    // Offset: 0x1E2FF38
     // Implemented from: LightWithIds/LightData
     // Base method: System.Void LightData::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -60,11 +54,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeLightWithIds::LightIntensitiesData*, creationType>()));
     }
-    // protected override UnityEngine.Color ProcessColor(UnityEngine.Color newColor)
-    // Offset: 0x1E1F52C
-    // Implemented from: LightWithIds/LightData
-    // Base method: UnityEngine.Color LightData::ProcessColor(UnityEngine.Color newColor)
-    UnityEngine::Color ProcessColor(UnityEngine::Color newColor);
   }; // RuntimeLightWithIds/LightIntensitiesData
   #pragma pack(pop)
   static check_size<sizeof(RuntimeLightWithIds::LightIntensitiesData), 40 + sizeof(float)> __GlobalNamespace_RuntimeLightWithIds_LightIntensitiesDataSizeCheck;
@@ -93,12 +82,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData::ProcessColor
-// Il2CppName: ProcessColor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData::*)(UnityEngine::Color)>(&GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData::ProcessColor)> {
-  static const MethodInfo* get() {
-    static auto* newColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData*), "ProcessColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newColor});
-  }
-};

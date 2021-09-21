@@ -40,22 +40,22 @@ namespace GlobalNamespace {
     operator MasterServer::ITimeProvider() noexcept {
       return *reinterpret_cast<MasterServer::ITimeProvider*>(this);
     }
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE14FB8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDA0F0
     // Get static field: static private readonly System.DateTime _epoch
     static System::DateTime _get__epoch();
     // Set static field: static private readonly System.DateTime _epoch
     static void _set__epoch(System::DateTime value);
-    // static private System.Void .cctor()
-    // Offset: 0x1701168
-    static void _cctor();
     // public System.Int64 GetTimeMs()
-    // Offset: 0x1701010
+    // Offset: 0x18DAA94
     int64_t GetTimeMs();
     // public System.Threading.Tasks.Task DelayMs(System.Int32 millis, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x17010E8
+    // Offset: 0x18DAB6C
     System::Threading::Tasks::Task* DelayMs(int millis, System::Threading::CancellationToken cancellationToken);
+    // static private System.Void .cctor()
+    // Offset: 0x18DABEC
+    static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1701160
+    // Offset: 0x18DABE4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -68,14 +68,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UtcTimeProvider*, "", "UtcTimeProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::UtcTimeProvider::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::UtcTimeProvider::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UtcTimeProvider*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::UtcTimeProvider::GetTimeMs
 // Il2CppName: GetTimeMs
 template<>
@@ -92,6 +84,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
     static auto* millis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UtcTimeProvider*), "DelayMs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{millis, cancellationToken});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::UtcTimeProvider::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::UtcTimeProvider::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UtcTimeProvider*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::UtcTimeProvider::New_ctor

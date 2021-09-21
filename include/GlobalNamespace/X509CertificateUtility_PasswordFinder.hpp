@@ -41,21 +41,21 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Char[] _password
     ::Array<::Il2CppChar>*& dyn__password();
     // public System.Void .ctor(System.Byte[] password)
-    // Offset: 0x1702760
+    // Offset: 0x18DC1E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateUtility::PasswordFinder* New_ctor(::Array<uint8_t>* password) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::X509CertificateUtility::PasswordFinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateUtility::PasswordFinder*, creationType>(password)));
     }
     // public System.Void .ctor(System.String password)
-    // Offset: 0x1701274
+    // Offset: 0x18DACF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateUtility::PasswordFinder* New_ctor(::Il2CppString* password) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::X509CertificateUtility::PasswordFinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateUtility::PasswordFinder*, creationType>(password)));
     }
     // public System.Char[] GetPassword()
-    // Offset: 0x1702828
+    // Offset: 0x18DC2AC
     ::Array<::Il2CppChar>* GetPassword();
   }; // X509CertificateUtility/PasswordFinder
   #pragma pack(pop)

@@ -11,7 +11,7 @@
 #include "GlobalNamespace/BeatmapEventType.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-// Including type: UnityEngine.ParticleSystem/UnityEngine.MainModule
+// Including type: UnityEngine.ParticleSystem/MainModule
 #include "UnityEngine/ParticleSystem_MainModule.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
@@ -79,14 +79,14 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapEventType colorEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0xE3DF50
+    // [SpaceAttribute] Offset: 0xF068D4
     // private UnityEngine.ParticleSystem _particleSystem
     // Size: 0x8
     // Offset: 0x40
     UnityEngine::ParticleSystem* particleSystem;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3DF88
+    // [InjectAttribute] Offset: 0xF0690C
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x48
@@ -137,13 +137,13 @@ namespace GlobalNamespace {
     float particleSpeedMultiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // private UnityEngine.ParticleSystem/UnityEngine.MainModule _mainModule
+    // private UnityEngine.ParticleSystem/MainModule _mainModule
     // Size: 0x8
     // Offset: 0x90
     UnityEngine::ParticleSystem::MainModule mainModule;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::MainModule) == 0x8);
-    // private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
+    // private UnityEngine.ParticleSystem/Particle[] _particles
     // Size: 0x8
     // Offset: 0x98
     ::Array<UnityEngine::ParticleSystem::Particle>* particles;
@@ -195,31 +195,31 @@ namespace GlobalNamespace {
     float& dyn_kFadeSpeed();
     // Get instance field reference: private System.Single _particleSpeedMultiplier
     float& dyn__particleSpeedMultiplier();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.MainModule _mainModule
+    // Get instance field reference: private UnityEngine.ParticleSystem/MainModule _mainModule
     UnityEngine::ParticleSystem::MainModule& dyn__mainModule();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
+    // Get instance field reference: private UnityEngine.ParticleSystem/Particle[] _particles
     ::Array<UnityEngine::ParticleSystem::Particle>*& dyn__particles();
     // Get instance field reference: private UnityEngine.Color _particleColor
     UnityEngine::Color& dyn__particleColor();
     // Get instance field reference: private System.Single _particleSpeed
     float& dyn__particleSpeed();
     // protected System.Void Start()
-    // Offset: 0x1036368
+    // Offset: 0x112605C
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x1036660
+    // Offset: 0x1126354
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1036760
+    // Offset: 0x1126454
     void Update();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x1036884
+    // Offset: 0x1126578
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void RefreshParticles()
-    // Offset: 0x1036524
+    // Offset: 0x1126218
     void RefreshParticles();
     // public System.Void .ctor()
-    // Offset: 0x1036A6C
+    // Offset: 0x1126760
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

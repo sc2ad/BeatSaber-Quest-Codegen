@@ -76,36 +76,36 @@ namespace Mono::Security::X509 {
     bool& dyn__crl();
     // Get instance field reference: private System.Boolean _newFormat
     bool& dyn__newFormat();
-    // public Mono.Security.X509.X509CertificateCollection get_Certificates()
-    // Offset: 0x23DB768
-    Mono::Security::X509::X509CertificateCollection* get_Certificates();
-    // public System.Collections.ArrayList get_Crls()
-    // Offset: 0x23DB96C
-    System::Collections::ArrayList* get_Crls();
     // System.Void .ctor(System.String path, System.Boolean crl, System.Boolean newFormat)
-    // Offset: 0x23DB71C
+    // Offset: 0x25E0EF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Store* New_ctor(::Il2CppString* path, bool crl, bool newFormat) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Store::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Store*, creationType>(path, crl, newFormat)));
     }
+    // public Mono.Security.X509.X509CertificateCollection get_Certificates()
+    // Offset: 0x25E0F44
+    Mono::Security::X509::X509CertificateCollection* get_Certificates();
+    // public System.Collections.ArrayList get_Crls()
+    // Offset: 0x25E1148
+    System::Collections::ArrayList* get_Crls();
     // private System.Byte[] Load(System.String filename)
-    // Offset: 0x23DBBC4
+    // Offset: 0x25E13A0
     ::Array<uint8_t>* Load(::Il2CppString* filename);
     // private Mono.Security.X509.X509Certificate LoadCertificate(System.String filename)
-    // Offset: 0x23DBD3C
+    // Offset: 0x25E1518
     Mono::Security::X509::X509Certificate* LoadCertificate(::Il2CppString* filename);
     // private Mono.Security.X509.X509Crl LoadCrl(System.String filename)
-    // Offset: 0x23DBDAC
+    // Offset: 0x25E1588
     Mono::Security::X509::X509Crl* LoadCrl(::Il2CppString* filename);
     // private System.Boolean CheckStore(System.String path, System.Boolean throwException)
-    // Offset: 0x23DBE1C
+    // Offset: 0x25E15F8
     bool CheckStore(::Il2CppString* path, bool throwException);
     // private Mono.Security.X509.X509CertificateCollection BuildCertificatesCollection(System.String storeName)
-    // Offset: 0x23DB79C
+    // Offset: 0x25E0F78
     Mono::Security::X509::X509CertificateCollection* BuildCertificatesCollection(::Il2CppString* storeName);
     // private System.Collections.ArrayList BuildCrlsCollection(System.String storeName)
-    // Offset: 0x23DB9FC
+    // Offset: 0x25E11D8
     System::Collections::ArrayList* BuildCrlsCollection(::Il2CppString* storeName);
   }; // Mono.Security.X509.X509Store
   #pragma pack(pop)
@@ -114,6 +114,10 @@ namespace Mono::Security::X509 {
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Store*, "Mono.Security.X509", "X509Store");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Mono::Security::X509::X509Store::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Security::X509::X509Store::get_Certificates
 // Il2CppName: get_Certificates
 template<>
@@ -130,10 +134,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Store*), "get_Crls", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Mono::Security::X509::X509Store::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Security::X509::X509Store::Load
 // Il2CppName: Load
 template<>

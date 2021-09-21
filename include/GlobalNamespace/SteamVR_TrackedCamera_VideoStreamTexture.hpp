@@ -40,6 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_TrackedCamera::VideoStreamTexture : public ::Il2CppObject {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xEB6BA8
     // private System.Boolean <undistorted>k__BackingField
     // Size: 0x1
     // Offset: 0x10
@@ -48,6 +49,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: undistorted and: frameBounds
     char __padding0[0x3] = {};
+    // [CompilerGeneratedAttribute] Offset: 0xEB6BB8
     // private Valve.VR.VRTextureBounds_t <frameBounds>k__BackingField
     // Size: 0x10
     // Offset: 0x14
@@ -102,63 +104,63 @@ namespace GlobalNamespace {
     GlobalNamespace::SteamVR_TrackedCamera::VideoStream*& dyn_videostream();
     // Get instance field reference: private Valve.VR.CameraVideoStreamFrameHeader_t header
     Valve::VR::CameraVideoStreamFrameHeader_t& dyn_header();
-    // public System.Boolean get_undistorted()
-    // Offset: 0x1704090
-    bool get_undistorted();
-    // private System.Void set_undistorted(System.Boolean value)
-    // Offset: 0x1704098
-    void set_undistorted(bool value);
-    // public System.UInt32 get_deviceIndex()
-    // Offset: 0x17040A4
-    uint get_deviceIndex();
-    // public System.Boolean get_hasCamera()
-    // Offset: 0x17040C0
-    bool get_hasCamera();
-    // public System.Boolean get_hasTracking()
-    // Offset: 0x17040DC
-    bool get_hasTracking();
-    // public System.UInt32 get_frameId()
-    // Offset: 0x1704460
-    uint get_frameId();
-    // public Valve.VR.VRTextureBounds_t get_frameBounds()
-    // Offset: 0x1704484
-    Valve::VR::VRTextureBounds_t get_frameBounds();
-    // private System.Void set_frameBounds(Valve.VR.VRTextureBounds_t value)
-    // Offset: 0x1704490
-    void set_frameBounds(Valve::VR::VRTextureBounds_t value);
-    // public Valve.VR.EVRTrackedCameraFrameType get_frameType()
-    // Offset: 0x170449C
-    Valve::VR::EVRTrackedCameraFrameType get_frameType();
-    // public UnityEngine.Texture2D get_texture()
-    // Offset: 0x17044A4
-    UnityEngine::Texture2D* get_texture();
-    // public SteamVR_Utils/RigidTransform get_transform()
-    // Offset: 0x17044C8
-    GlobalNamespace::SteamVR_Utils::RigidTransform get_transform();
-    // public UnityEngine.Vector3 get_velocity()
-    // Offset: 0x170473C
-    UnityEngine::Vector3 get_velocity();
-    // public UnityEngine.Vector3 get_angularVelocity()
-    // Offset: 0x170478C
-    UnityEngine::Vector3 get_angularVelocity();
     // public System.Void .ctor(System.UInt32 deviceIndex, System.Boolean undistorted)
-    // Offset: 0x1703B38
+    // Offset: 0x187F534
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_TrackedCamera::VideoStreamTexture* New_ctor(uint deviceIndex, bool undistorted) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_TrackedCamera::VideoStreamTexture*, creationType>(deviceIndex, undistorted)));
     }
+    // public System.Boolean get_undistorted()
+    // Offset: 0x187FA8C
+    bool get_undistorted();
+    // private System.Void set_undistorted(System.Boolean value)
+    // Offset: 0x187FA94
+    void set_undistorted(bool value);
+    // public System.UInt32 get_deviceIndex()
+    // Offset: 0x187FAA0
+    uint get_deviceIndex();
+    // public System.Boolean get_hasCamera()
+    // Offset: 0x187FABC
+    bool get_hasCamera();
+    // public System.Boolean get_hasTracking()
+    // Offset: 0x187FAD8
+    bool get_hasTracking();
+    // public System.UInt32 get_frameId()
+    // Offset: 0x187FE5C
+    uint get_frameId();
+    // public Valve.VR.VRTextureBounds_t get_frameBounds()
+    // Offset: 0x187FE80
+    Valve::VR::VRTextureBounds_t get_frameBounds();
+    // private System.Void set_frameBounds(Valve.VR.VRTextureBounds_t value)
+    // Offset: 0x187FE8C
+    void set_frameBounds(Valve::VR::VRTextureBounds_t value);
+    // public Valve.VR.EVRTrackedCameraFrameType get_frameType()
+    // Offset: 0x187FE98
+    Valve::VR::EVRTrackedCameraFrameType get_frameType();
+    // public UnityEngine.Texture2D get_texture()
+    // Offset: 0x187FEA0
+    UnityEngine::Texture2D* get_texture();
+    // public SteamVR_Utils/RigidTransform get_transform()
+    // Offset: 0x187FEC4
+    GlobalNamespace::SteamVR_Utils::RigidTransform get_transform();
+    // public UnityEngine.Vector3 get_velocity()
+    // Offset: 0x1880138
+    UnityEngine::Vector3 get_velocity();
+    // public UnityEngine.Vector3 get_angularVelocity()
+    // Offset: 0x1880188
+    UnityEngine::Vector3 get_angularVelocity();
     // public Valve.VR.TrackedDevicePose_t GetPose()
-    // Offset: 0x17047E0
+    // Offset: 0x18801DC
     Valve::VR::TrackedDevicePose_t GetPose();
     // public System.UInt64 Acquire()
-    // Offset: 0x1704810
+    // Offset: 0x188020C
     uint64_t Acquire();
     // public System.UInt64 Release()
-    // Offset: 0x1704828
+    // Offset: 0x1880224
     uint64_t Release();
     // private System.Void Update()
-    // Offset: 0x1704100
+    // Offset: 0x187FAFC
     void Update();
   }; // SteamVR_TrackedCamera/VideoStreamTexture
   #pragma pack(pop)
@@ -167,6 +169,10 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*, "", "SteamVR_TrackedCamera/VideoStreamTexture");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::get_undistorted
 // Il2CppName: get_undistorted
 template<>
@@ -273,10 +279,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*), "get_angularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture::GetPose
 // Il2CppName: GetPose
 template<>

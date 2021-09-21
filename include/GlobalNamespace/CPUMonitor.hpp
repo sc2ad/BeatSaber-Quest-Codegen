@@ -80,14 +80,14 @@ namespace GlobalNamespace {
     int64_t& dyn__lastSampleTime();
     // Get instance field reference: private System.Int64 _lastSampleValue
     int64_t& dyn__lastSampleValue();
-    // public System.Single get_utilization()
-    // Offset: 0x13364FC
-    float get_utilization();
     // public System.Void PollUpdate()
-    // Offset: 0x13363F4
+    // Offset: 0x144DA34
     void PollUpdate();
+    // public System.Single get_utilization()
+    // Offset: 0x144DB3C
+    float get_utilization();
     // public System.Void .ctor()
-    // Offset: 0x1336524
+    // Offset: 0x144DB64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -102,20 +102,20 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CPUMonitor*, "", "CPUMonitor");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::CPUMonitor::get_utilization
-// Il2CppName: get_utilization
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::CPUMonitor::*)()>(&GlobalNamespace::CPUMonitor::get_utilization)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CPUMonitor*), "get_utilization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::CPUMonitor::PollUpdate
 // Il2CppName: PollUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CPUMonitor::*)()>(&GlobalNamespace::CPUMonitor::PollUpdate)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CPUMonitor*), "PollUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::CPUMonitor::get_utilization
+// Il2CppName: get_utilization
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::CPUMonitor::*)()>(&GlobalNamespace::CPUMonitor::get_utilization)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CPUMonitor*), "get_utilization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::CPUMonitor::New_ctor

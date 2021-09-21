@@ -44,6 +44,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FilteredBeatmapLevel::FilteredBeatmapLevelData : public ::Il2CppObject/*, public GlobalNamespace::IBeatmapLevelData*/ {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xF160DC
     // private IDifficultyBeatmapSet[] <difficultyBeatmapSets>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -67,16 +68,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IBeatmapLevelData _beatmapLevelData
     GlobalNamespace::IBeatmapLevelData*& dyn__beatmapLevelData();
     // public UnityEngine.AudioClip get_audioClip()
-    // Offset: 0x105DF84
+    // Offset: 0x11B6DB8
     UnityEngine::AudioClip* get_audioClip();
     // public IDifficultyBeatmapSet[] get_difficultyBeatmapSets()
-    // Offset: 0x105E034
+    // Offset: 0x11B6E68
     ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
     // private System.Void set_difficultyBeatmapSets(IDifficultyBeatmapSet[] value)
-    // Offset: 0x105E03C
+    // Offset: 0x11B6E70
     void set_difficultyBeatmapSets(::Array<GlobalNamespace::IDifficultyBeatmapSet*>* value);
     // public System.Void .ctor(IBeatmapLevelData beatmapLevelData, BeatmapDifficultyMask allowedBeatmapDifficultyMask, System.Collections.Generic.HashSet`1<BeatmapCharacteristicSO> notAllowedCharacteristics)
-    // Offset: 0x105DB28
+    // Offset: 0x11B6960
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FilteredBeatmapLevel::FilteredBeatmapLevelData* New_ctor(GlobalNamespace::IBeatmapLevelData* beatmapLevelData, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO*>* notAllowedCharacteristics) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData::.ctor");

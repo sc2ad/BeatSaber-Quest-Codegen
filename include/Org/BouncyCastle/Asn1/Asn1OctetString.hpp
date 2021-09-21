@@ -52,37 +52,37 @@ namespace Org::BouncyCastle::Asn1 {
     }
     // Get instance field reference: System.Byte[] str
     ::Array<uint8_t>*& dyn_str();
+    // static public Org.BouncyCastle.Asn1.Asn1OctetString GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean isExplicit)
+    // Offset: 0x18E2970
+    static Org::BouncyCastle::Asn1::Asn1OctetString* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
+    // static public Org.BouncyCastle.Asn1.Asn1OctetString GetInstance(System.Object obj)
+    // Offset: 0x18E2A6C
+    static Org::BouncyCastle::Asn1::Asn1OctetString* GetInstance(::Il2CppObject* obj);
     // System.Void .ctor(System.Byte[] str)
-    // Offset: 0x1731A00
+    // Offset: 0x18E31D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1OctetString* New_ctor(::Array<uint8_t>* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1OctetString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1OctetString*, creationType>(str)));
     }
-    // static public Org.BouncyCastle.Asn1.Asn1OctetString GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean isExplicit)
-    // Offset: 0x1731198
-    static Org::BouncyCastle::Asn1::Asn1OctetString* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
-    // static public Org.BouncyCastle.Asn1.Asn1OctetString GetInstance(System.Object obj)
-    // Offset: 0x1731294
-    static Org::BouncyCastle::Asn1::Asn1OctetString* GetInstance(::Il2CppObject* obj);
     // public System.IO.Stream GetOctetStream()
-    // Offset: 0x1731A9C
+    // Offset: 0x18E3274
     System::IO::Stream* GetOctetStream();
     // public System.Byte[] GetOctets()
-    // Offset: 0x1731B08
+    // Offset: 0x18E32E0
     ::Array<uint8_t>* GetOctets();
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x1731B10
+    // Offset: 0x18E32E8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x1731B90
+    // Offset: 0x18E3368
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // public override System.String ToString()
-    // Offset: 0x1731C8C
+    // Offset: 0x18E3464
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -93,10 +93,6 @@ namespace Org::BouncyCastle::Asn1 {
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1OctetString*, "Org.BouncyCastle.Asn1", "Asn1OctetString");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1OctetString::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1OctetString::GetInstance
 // Il2CppName: GetInstance
 template<>
@@ -116,6 +112,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1OctetString*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1OctetString::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1OctetString::GetOctetStream
 // Il2CppName: GetOctetStream
 template<>

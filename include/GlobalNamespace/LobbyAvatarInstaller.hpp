@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LobbyAvatarInstaller : public Zenject::MonoInstaller {
     public:
-    // [InjectAttribute] Offset: 0xE386A0
+    // [InjectAttribute] Offset: 0xF00E44
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x20
@@ -38,8 +38,13 @@ namespace GlobalNamespace {
     LobbyAvatarInstaller(GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}) noexcept : connectedPlayer{connectedPlayer_} {}
     // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
     GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
+    // public override System.Void InstallBindings()
+    // Offset: 0x13154BC
+    // Implemented from: Zenject.MonoInstallerBase
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
+    void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1208B98
+    // Offset: 0x1315518
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -53,11 +58,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LobbyAvatarInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LobbyAvatarInstaller*, creationType>()));
     }
-    // public override System.Void InstallBindings()
-    // Offset: 0x1208B3C
-    // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings()
-    void InstallBindings();
   }; // LobbyAvatarInstaller
   #pragma pack(pop)
   static check_size<sizeof(LobbyAvatarInstaller), 32 + sizeof(GlobalNamespace::IConnectedPlayer*)> __GlobalNamespace_LobbyAvatarInstallerSizeCheck;
@@ -65,10 +65,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyAvatarInstaller*, "", "LobbyAvatarInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::LobbyAvatarInstaller::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LobbyAvatarInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>
@@ -77,3 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyAvatarInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LobbyAvatarInstaller::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

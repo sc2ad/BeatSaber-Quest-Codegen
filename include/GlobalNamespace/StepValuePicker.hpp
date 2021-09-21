@@ -55,12 +55,14 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* valueText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0D1A4
     // private System.Action decButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x30
     System::Action* decButtonWasPressedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0D1B4
     // private System.Action incButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x38
@@ -81,44 +83,44 @@ namespace GlobalNamespace {
     System::Action*& dyn_decButtonWasPressedEvent();
     // Get instance field reference: private System.Action incButtonWasPressedEvent
     System::Action*& dyn_incButtonWasPressedEvent();
-    // public System.String get_text()
-    // Offset: 0x106C0AC
-    ::Il2CppString* get_text();
-    // public System.Void set_text(System.String value)
-    // Offset: 0x106C0C8
-    void set_text(::Il2CppString* value);
-    // public System.Void set_decButtonInteractable(System.Boolean value)
-    // Offset: 0x106C0E4
-    void set_decButtonInteractable(bool value);
-    // public System.Void set_incButtonInteractable(System.Boolean value)
-    // Offset: 0x106C104
-    void set_incButtonInteractable(bool value);
     // public System.Void add_decButtonWasPressedEvent(System.Action value)
-    // Offset: 0x106BE1C
+    // Offset: 0x115A7A4
     void add_decButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_decButtonWasPressedEvent(System.Action value)
-    // Offset: 0x106BEC0
+    // Offset: 0x115A848
     void remove_decButtonWasPressedEvent(System::Action* value);
     // public System.Void add_incButtonWasPressedEvent(System.Action value)
-    // Offset: 0x106BF64
+    // Offset: 0x115A8EC
     void add_incButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_incButtonWasPressedEvent(System.Action value)
-    // Offset: 0x106C008
+    // Offset: 0x115A990
     void remove_incButtonWasPressedEvent(System::Action* value);
+    // public System.String get_text()
+    // Offset: 0x115AA34
+    ::Il2CppString* get_text();
+    // public System.Void set_text(System.String value)
+    // Offset: 0x115AA50
+    void set_text(::Il2CppString* value);
+    // public System.Void set_decButtonInteractable(System.Boolean value)
+    // Offset: 0x115AA6C
+    void set_decButtonInteractable(bool value);
+    // public System.Void set_incButtonInteractable(System.Boolean value)
+    // Offset: 0x115AA8C
+    void set_incButtonInteractable(bool value);
     // protected System.Void OnEnable()
-    // Offset: 0x106C124
+    // Offset: 0x115AAAC
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x106C1FC
+    // Offset: 0x115AB84
     void OnDisable();
     // private System.Void IncButtonPressed()
-    // Offset: 0x106C2D4
+    // Offset: 0x115AC5C
     void IncButtonPressed();
     // private System.Void DecButtonPressed()
-    // Offset: 0x106C2E8
+    // Offset: 0x115AC70
     void DecButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x106C2FC
+    // Offset: 0x115AC84
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -137,41 +139,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StepValuePicker*, "", "StepValuePicker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::get_text
-// Il2CppName: get_text
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StepValuePicker::*)()>(&GlobalNamespace::StepValuePicker::get_text)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::set_text
-// Il2CppName: set_text
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StepValuePicker::*)(::Il2CppString*)>(&GlobalNamespace::StepValuePicker::set_text)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::set_decButtonInteractable
-// Il2CppName: set_decButtonInteractable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StepValuePicker::*)(bool)>(&GlobalNamespace::StepValuePicker::set_decButtonInteractable)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), "set_decButtonInteractable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::set_incButtonInteractable
-// Il2CppName: set_incButtonInteractable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StepValuePicker::*)(bool)>(&GlobalNamespace::StepValuePicker::set_incButtonInteractable)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), "set_incButtonInteractable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::add_decButtonWasPressedEvent
 // Il2CppName: add_decButtonWasPressedEvent
 template<>
@@ -206,6 +173,41 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), "remove_incButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::get_text
+// Il2CppName: get_text
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StepValuePicker::*)()>(&GlobalNamespace::StepValuePicker::get_text)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::set_text
+// Il2CppName: set_text
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StepValuePicker::*)(::Il2CppString*)>(&GlobalNamespace::StepValuePicker::set_text)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::set_decButtonInteractable
+// Il2CppName: set_decButtonInteractable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StepValuePicker::*)(bool)>(&GlobalNamespace::StepValuePicker::set_decButtonInteractable)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), "set_decButtonInteractable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::set_incButtonInteractable
+// Il2CppName: set_incButtonInteractable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StepValuePicker::*)(bool)>(&GlobalNamespace::StepValuePicker::set_incButtonInteractable)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), "set_incButtonInteractable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::OnEnable

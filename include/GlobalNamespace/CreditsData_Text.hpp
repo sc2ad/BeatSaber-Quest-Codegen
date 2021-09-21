@@ -51,10 +51,15 @@ namespace GlobalNamespace {
     // Get instance field reference: public CreditsData/TextStyle style
     GlobalNamespace::CreditsData::TextStyle& dyn_style();
     // public System.Boolean IsEmpty()
-    // Offset: 0x10E87D8
+    // Offset: 0x11A0148
     bool IsEmpty();
+    // public override System.String ToString()
+    // Offset: 0x11A0168
+    // Implemented from: System.Object
+    // Base method: System.String Object::ToString()
+    ::Il2CppString* ToString();
     // public System.Void .ctor()
-    // Offset: 0x10E88A4
+    // Offset: 0x11A0214
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -62,11 +67,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CreditsData::Text::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CreditsData::Text*, creationType>()));
     }
-    // public override System.String ToString()
-    // Offset: 0x10E87F8
-    // Implemented from: System.Object
-    // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
   }; // CreditsData/Text
   #pragma pack(pop)
   static check_size<sizeof(CreditsData::Text), 28 + sizeof(GlobalNamespace::CreditsData::TextStyle)> __GlobalNamespace_CreditsData_TextSizeCheck;
@@ -82,10 +82,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsData::Text*), "IsEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CreditsData::Text::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CreditsData::Text::ToString
 // Il2CppName: ToString
 template<>
@@ -94,3 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsData::Text*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::CreditsData::Text::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

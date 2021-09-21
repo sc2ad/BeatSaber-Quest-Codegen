@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Pool
     Pool() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x109F558
+    // Offset: 0x110E23C
     // Implemented from: Zenject.MonoMemoryPool`1
     // Base method: System.Void MonoMemoryPool_1::.ctor()
     // Base method: System.Void MemoryPool_1::.ctor()

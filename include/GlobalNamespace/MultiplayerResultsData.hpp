@@ -75,19 +75,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> _allPlayersSortedData
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*& dyn__allPlayersSortedData();
     // public System.String get_gameId()
-    // Offset: 0x103C21C
+    // Offset: 0x112B1D4
     ::Il2CppString* get_gameId();
     // public MultiplayerPlayerResultsData get_localPlayerResultData()
-    // Offset: 0x103C224
+    // Offset: 0x112B1DC
     GlobalNamespace::MultiplayerPlayerResultsData* get_localPlayerResultData();
     // public System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> get_otherPlayersData()
-    // Offset: 0x103C22C
+    // Offset: 0x112B1E4
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* get_otherPlayersData();
     // public System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> get_allPlayersSortedData()
-    // Offset: 0x103C234
+    // Offset: 0x112B1EC
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* get_allPlayersSortedData();
     // public System.Void .ctor(System.String gameId, MultiplayerLevelCompletionResults localPlayerResultData, System.Collections.Generic.Dictionary`2<System.String,MultiplayerLevelCompletionResults> otherPlayersResultData, MultiplayerBadgesProvider badgesProvider, IMultiplayerSessionManager multiplayerSessionManager)
-    // Offset: 0x103C23C
+    // Offset: 0x112B1F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerResultsData* New_ctor(::Il2CppString* gameId, GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResultData, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayersResultData, GlobalNamespace::MultiplayerBadgesProvider* badgesProvider, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerResultsData::.ctor");

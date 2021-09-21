@@ -46,8 +46,18 @@ namespace HMUI {
     bool& dyn__ignoreHighlight();
     // Get instance field reference: private System.Boolean _isToggled
     bool& dyn__isToggled();
+    // protected override System.Void OnEnable()
+    // Offset: 0x1481E90
+    // Implemented from: HMUI.ButtonSpriteSwap
+    // Base method: System.Void ButtonSpriteSwap::OnEnable()
+    void OnEnable();
+    // protected override System.Void HandleButtonSelectionStateDidChange(HMUI.NoTransitionsButton/SelectionState state)
+    // Offset: 0x1481EC0
+    // Implemented from: HMUI.ButtonSpriteSwap
+    // Base method: System.Void ButtonSpriteSwap::HandleButtonSelectionStateDidChange(HMUI.NoTransitionsButton/SelectionState state)
+    void HandleButtonSelectionStateDidChange(HMUI::NoTransitionsButton::SelectionState state);
     // public System.Void .ctor()
-    // Offset: 0x136C9D4
+    // Offset: 0x1482014
     // Implemented from: HMUI.ButtonSpriteSwap
     // Base method: System.Void ButtonSpriteSwap::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -60,16 +70,6 @@ namespace HMUI {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ButtonSpriteSwapToggle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ButtonSpriteSwapToggle*, creationType>()));
     }
-    // protected override System.Void OnEnable()
-    // Offset: 0x136C850
-    // Implemented from: HMUI.ButtonSpriteSwap
-    // Base method: System.Void ButtonSpriteSwap::OnEnable()
-    void OnEnable();
-    // protected override System.Void HandleButtonSelectionStateDidChange(HMUI.NoTransitionsButton/HMUI.SelectionState state)
-    // Offset: 0x136C880
-    // Implemented from: HMUI.ButtonSpriteSwap
-    // Base method: System.Void ButtonSpriteSwap::HandleButtonSelectionStateDidChange(HMUI.NoTransitionsButton/HMUI.SelectionState state)
-    void HandleButtonSelectionStateDidChange(HMUI::NoTransitionsButton::SelectionState state);
   }; // HMUI.ButtonSpriteSwapToggle
   #pragma pack(pop)
   static check_size<sizeof(ButtonSpriteSwapToggle), 75 + sizeof(bool)> __HMUI_ButtonSpriteSwapToggleSizeCheck;
@@ -77,10 +77,6 @@ namespace HMUI {
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ButtonSpriteSwapToggle*, "HMUI", "ButtonSpriteSwapToggle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: HMUI::ButtonSpriteSwapToggle::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::ButtonSpriteSwapToggle::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -98,3 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::ButtonSpriteSwapToggle*), "HandleButtonSelectionStateDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }
 };
+// Writing MetadataGetter for method: HMUI::ButtonSpriteSwapToggle::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

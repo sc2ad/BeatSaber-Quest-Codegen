@@ -46,7 +46,7 @@ namespace Mono::Net {
     // Get instance field reference: public System.IntPtr Length
     System::IntPtr& dyn_Length();
     // public System.Void .ctor(System.Int32 loc, System.Int32 len)
-    // Offset: 0x15EE1D8
+    // Offset: 0x17B9D80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     CFRange(int loc, int len) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::CFRange::.ctor");

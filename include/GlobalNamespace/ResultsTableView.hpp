@@ -7,7 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: HMUI.TableView/HMUI.IDataSource
+// Including type: HMUI.TableView/IDataSource
 #include "HMUI/TableView_IDataSource.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
@@ -97,19 +97,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> _dataList
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*& dyn__dataList();
     // public System.Single CellSize()
-    // Offset: 0x11288EC
+    // Offset: 0x11C1F64
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x11288F4
+    // Offset: 0x11C1F6C
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x11289A4
+    // Offset: 0x11C201C
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
     // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> dataList)
-    // Offset: 0x1128B6C
+    // Offset: 0x11C21E4
     void SetData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* dataList);
     // public System.Void .ctor()
-    // Offset: 0x1128B98
+    // Offset: 0x11C2210
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

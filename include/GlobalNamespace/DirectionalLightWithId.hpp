@@ -60,8 +60,13 @@ namespace GlobalNamespace {
     float& dyn__intensity();
     // Get instance field reference: private System.Single _minIntensity
     float& dyn__minIntensity();
+    // public override System.Void ColorWasSet(UnityEngine.Color color)
+    // Offset: 0x1E26974
+    // Implemented from: LightWithIdMonoBehaviour
+    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
+    void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1E16AEC
+    // Offset: 0x1E26A30
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -74,11 +79,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DirectionalLightWithId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DirectionalLightWithId*, creationType>()));
     }
-    // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1E16A30
-    // Implemented from: LightWithIdMonoBehaviour
-    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
-    void ColorWasSet(UnityEngine::Color color);
   }; // DirectionalLightWithId
   #pragma pack(pop)
   static check_size<sizeof(DirectionalLightWithId), 60 + sizeof(float)> __GlobalNamespace_DirectionalLightWithIdSizeCheck;
@@ -86,10 +86,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DirectionalLightWithId*, "", "DirectionalLightWithId");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::DirectionalLightWithId::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::DirectionalLightWithId::ColorWasSet
 // Il2CppName: ColorWasSet
 template<>
@@ -99,3 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DirectionalLightWithId*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::DirectionalLightWithId::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

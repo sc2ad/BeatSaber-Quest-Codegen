@@ -125,8 +125,23 @@ namespace GlobalNamespace {
     float& dyn__min();
     // Get instance field reference: private System.Single _max
     float& dyn__max();
+    // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
+    // Offset: 0x11D2910
+    // Implemented from: ListSettingsController
+    // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
+    bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
+    // protected override System.Void ApplyValue(System.Int32 idx)
+    // Offset: 0x11D2A38
+    // Implemented from: ListSettingsController
+    // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
+    void ApplyValue(int idx);
+    // protected override System.String TextForValue(System.Int32 idx)
+    // Offset: 0x11D2AC4
+    // Implemented from: ListSettingsController
+    // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
+    ::Il2CppString* TextForValue(int idx);
     // public System.Void .ctor()
-    // Offset: 0x1062AC4
+    // Offset: 0x11D2BB0
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -140,21 +155,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FormattedFloatListSettingsValueController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FormattedFloatListSettingsValueController*, creationType>()));
     }
-    // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x1062824
-    // Implemented from: ListSettingsController
-    // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
-    // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x106294C
-    // Implemented from: ListSettingsController
-    // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
-    void ApplyValue(int idx);
-    // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x10629D8
-    // Implemented from: ListSettingsController
-    // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
-    ::Il2CppString* TextForValue(int idx);
   }; // FormattedFloatListSettingsValueController
   #pragma pack(pop)
   static check_size<sizeof(FormattedFloatListSettingsValueController), 72 + sizeof(float)> __GlobalNamespace_FormattedFloatListSettingsValueControllerSizeCheck;
@@ -163,10 +163,6 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FormattedFloatListSettingsValueController*, "", "FormattedFloatListSettingsValueController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FormattedFloatListSettingsValueController::ValueType, "", "FormattedFloatListSettingsValueController/ValueType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::FormattedFloatListSettingsValueController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FormattedFloatListSettingsValueController::GetInitValues
 // Il2CppName: GetInitValues
 template<>
@@ -195,3 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FormattedFloatListSettingsValueController*), "TextForValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{idx});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::FormattedFloatListSettingsValueController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

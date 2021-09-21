@@ -72,6 +72,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSchemeColorToggleController* obstaclesColorToggleController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorSchemeColorToggleController*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0C4B0
     // private System.Action`1<UnityEngine.Color> selectedColorDidChangeEvent
     // Size: 0x8
     // Offset: 0x40
@@ -118,50 +119,50 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSchemeColorToggleController*& dyn__selectedColorToggleController();
     // Get instance field reference: private ColorScheme _colorScheme
     GlobalNamespace::ColorScheme*& dyn__colorScheme();
-    // public UnityEngine.Color get_color()
-    // Offset: 0x10E2890
-    UnityEngine::Color get_color();
-    // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x10E28A8
-    void set_color(UnityEngine::Color value);
     // public System.Void add_selectedColorDidChangeEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x10E2748
+    // Offset: 0x119A1A8
     void add_selectedColorDidChangeEvent(System::Action_1<UnityEngine::Color>* value);
     // public System.Void remove_selectedColorDidChangeEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x10E27EC
+    // Offset: 0x119A24C
     void remove_selectedColorDidChangeEvent(System::Action_1<UnityEngine::Color>* value);
+    // public UnityEngine.Color get_color()
+    // Offset: 0x119A2F0
+    UnityEngine::Color get_color();
+    // public System.Void set_color(UnityEngine.Color value)
+    // Offset: 0x119A308
+    void set_color(UnityEngine::Color value);
     // public System.Void SetColorScheme(ColorScheme colorScheme)
-    // Offset: 0x10E28C0
+    // Offset: 0x119A320
     void SetColorScheme(GlobalNamespace::ColorScheme* colorScheme);
     // protected System.Void Awake()
-    // Offset: 0x10E29B0
+    // Offset: 0x119A410
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x10E2BC8
+    // Offset: 0x119A628
     void OnDestroy();
     // private System.Void HandleToggleWasSelected(ColorSchemeColorToggleController toggleController, System.Boolean isOn)
-    // Offset: 0x10E2BE4
+    // Offset: 0x119A644
     void HandleToggleWasSelected(GlobalNamespace::ColorSchemeColorToggleController* toggleController, bool isOn);
     // public ColorScheme CreateColorSchemeFromEditedColors()
-    // Offset: 0x10E2C74
+    // Offset: 0x119A6D4
     GlobalNamespace::ColorScheme* CreateColorSchemeFromEditedColors();
     // private System.Void <Awake>b__15_0(System.Boolean isOn)
-    // Offset: 0x10E2E5C
+    // Offset: 0x119A8BC
     void $Awake$b__15_0(bool isOn);
     // private System.Void <Awake>b__15_1(System.Boolean isOn)
-    // Offset: 0x10E2E6C
+    // Offset: 0x119A8CC
     void $Awake$b__15_1(bool isOn);
     // private System.Void <Awake>b__15_2(System.Boolean isOn)
-    // Offset: 0x10E2E7C
+    // Offset: 0x119A8DC
     void $Awake$b__15_2(bool isOn);
     // private System.Void <Awake>b__15_3(System.Boolean isOn)
-    // Offset: 0x10E2E8C
+    // Offset: 0x119A8EC
     void $Awake$b__15_3(bool isOn);
     // private System.Void <Awake>b__15_4(System.Boolean isOn)
-    // Offset: 0x10E2E9C
+    // Offset: 0x119A8FC
     void $Awake$b__15_4(bool isOn);
     // public System.Void .ctor()
-    // Offset: 0x10E2E54
+    // Offset: 0x119A8B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -180,23 +181,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeColorsToggleGroup*, "", "ColorSchemeColorsToggleGroup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeColorsToggleGroup::get_color
-// Il2CppName: get_color
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorSchemeColorsToggleGroup::*)()>(&GlobalNamespace::ColorSchemeColorsToggleGroup::get_color)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeColorsToggleGroup*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeColorsToggleGroup::set_color
-// Il2CppName: set_color
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorSchemeColorsToggleGroup::*)(UnityEngine::Color)>(&GlobalNamespace::ColorSchemeColorsToggleGroup::set_color)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeColorsToggleGroup*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeColorsToggleGroup::add_selectedColorDidChangeEvent
 // Il2CppName: add_selectedColorDidChangeEvent
 template<>
@@ -213,6 +197,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Color")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeColorsToggleGroup*), "remove_selectedColorDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeColorsToggleGroup::get_color
+// Il2CppName: get_color
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorSchemeColorsToggleGroup::*)()>(&GlobalNamespace::ColorSchemeColorsToggleGroup::get_color)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeColorsToggleGroup*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeColorsToggleGroup::set_color
+// Il2CppName: set_color
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorSchemeColorsToggleGroup::*)(UnityEngine::Color)>(&GlobalNamespace::ColorSchemeColorsToggleGroup::set_color)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeColorsToggleGroup*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeColorsToggleGroup::SetColorScheme

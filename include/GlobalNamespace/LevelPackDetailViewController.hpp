@@ -105,28 +105,28 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* requireInternetContainer;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE47A9C
+    // [SpaceAttribute] Offset: 0xF104B0
     // private KawaseBlurRendererSO _kawaseBlurRenderer
     // Size: 0x8
     // Offset: 0xA0
     GlobalNamespace::KawaseBlurRendererSO* kawaseBlurRenderer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::KawaseBlurRendererSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE47AD4
+    // [InjectAttribute] Offset: 0xF104E8
     // private AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0xA8
     GlobalNamespace::AdditionalContentModel* additionalContentModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AdditionalContentModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE47AE4
+    // [InjectAttribute] Offset: 0xF104F8
     // private DlcPromoExperimentModel _dlcPromoExperimentModel
     // Size: 0x8
     // Offset: 0xB0
     GlobalNamespace::DlcPromoExperimentModel* dlcPromoExperimentModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DlcPromoExperimentModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE47AF4
+    // [InjectAttribute] Offset: 0xF10508
     // private IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0xB8
@@ -188,28 +188,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Sprite _blurredPackArtwork
     UnityEngine::Sprite*& dyn__blurredPackArtwork();
     // public System.Void SetData(IBeatmapLevelPack pack)
-    // Offset: 0x11FF8EC
+    // Offset: 0x130B9A8
     void SetData(GlobalNamespace::IBeatmapLevelPack* pack);
     // private System.Void RefreshAvailabilityAsync()
-    // Offset: 0x11FFCE0
+    // Offset: 0x130BD9C
     void RefreshAvailabilityAsync();
     // private System.Void BuyPackButtonWasPressed()
-    // Offset: 0x1200100
+    // Offset: 0x130C1BC
     void BuyPackButtonWasPressed();
     // private System.Void OpenLevelPackProductStoreAsync()
-    // Offset: 0x1200204
+    // Offset: 0x130C2C0
     void OpenLevelPackProductStoreAsync();
     // private System.Void ShowContent(LevelPackDetailViewController/ContentType contentType, System.String errorText)
-    // Offset: 0x12002C4
+    // Offset: 0x130C380
     void ShowContent(GlobalNamespace::LevelPackDetailViewController::ContentType contentType, ::Il2CppString* errorText);
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x12006D4
+    // Offset: 0x130C790
     void HandleAdditionalContentModelDidInvalidateData();
     // private System.Void <DidActivate>b__16_0()
-    // Offset: 0x1200740
+    // Offset: 0x130C7FC
     void $DidActivate$b__16_0();
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x130BE5C
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Offset: 0x130C004
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
+    // protected override System.Void OnDestroy()
+    // Offset: 0x130C0B0
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::OnDestroy()
+    void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x12006D8
+    // Offset: 0x130C794
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -222,21 +237,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LevelPackDetailViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelPackDetailViewController*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x11FFDA0
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x11FFF48
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
-    // protected override System.Void OnDestroy()
-    // Offset: 0x11FFFF4
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::OnDestroy()
-    void OnDestroy();
   }; // LevelPackDetailViewController
   #pragma pack(pop)
   static check_size<sizeof(LevelPackDetailViewController), 216 + sizeof(UnityEngine::Sprite*)> __GlobalNamespace_LevelPackDetailViewControllerSizeCheck;
@@ -303,10 +303,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelPackDetailViewController*), "<DidActivate>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LevelPackDetailViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LevelPackDetailViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -336,3 +332,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelPackDetailViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LevelPackDetailViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

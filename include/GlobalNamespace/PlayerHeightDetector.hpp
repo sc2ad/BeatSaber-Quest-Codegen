@@ -43,34 +43,35 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::PlayerHeightDetector::InitData
     class InitData;
-    // [InjectAttribute] Offset: 0xE41EA8
+    // [InjectAttribute] Offset: 0xF0A83C
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0xE41EB8
+    // [InjectAttribute] Offset: 0xF0A84C
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE41EC8
+    // [InjectAttribute] Offset: 0xF0A85C
     // private readonly IAudioTimeSource _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IAudioTimeSource* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0xE41ED8
+    // [InjectAttribute] Offset: 0xF0A86C
     // private readonly PlayerHeightDetector/InitData _initData
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::PlayerHeightDetector::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerHeightDetector::InitData*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0A87C
     // private System.Action`1<System.Single> playerHeightDidChangeEvent
     // Size: 0x8
     // Offset: 0x38
@@ -131,29 +132,29 @@ namespace GlobalNamespace {
     float& dyn__changeWeight();
     // Get instance field reference: private System.Single _lastReportedHeight
     float& dyn__lastReportedHeight();
-    // public System.Single get_playerHeight()
-    // Offset: 0x11F982C
-    float get_playerHeight();
     // public System.Void add_playerHeightDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x11F96E4
+    // Offset: 0x12B9400
     void add_playerHeightDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_playerHeightDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x11F9788
+    // Offset: 0x12B94A4
     void remove_playerHeightDidChangeEvent(System::Action_1<float>* value);
+    // public System.Single get_playerHeight()
+    // Offset: 0x12B9548
+    float get_playerHeight();
     // protected System.Void Start()
-    // Offset: 0x11F9834
+    // Offset: 0x12B9550
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11F99D4
+    // Offset: 0x12B96F0
     void OnDestroy();
     // protected System.Void LateUpdate()
-    // Offset: 0x11F9A98
+    // Offset: 0x12B97B4
     void LateUpdate();
     // private System.Void BeatmapObjectSpawnCallback(BeatmapObjectData beatmapObjectData)
-    // Offset: 0x11F9C88
+    // Offset: 0x12B99A4
     void BeatmapObjectSpawnCallback(GlobalNamespace::BeatmapObjectData* beatmapObjectData);
     // public System.Void .ctor()
-    // Offset: 0x11F9D94
+    // Offset: 0x12B9AB0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -172,14 +173,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerHeightDetector*, "", "PlayerHeightDetector");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::PlayerHeightDetector::get_playerHeight
-// Il2CppName: get_playerHeight
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::PlayerHeightDetector::*)()>(&GlobalNamespace::PlayerHeightDetector::get_playerHeight)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeightDetector*), "get_playerHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerHeightDetector::add_playerHeightDidChangeEvent
 // Il2CppName: add_playerHeightDidChangeEvent
 template<>
@@ -196,6 +189,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeightDetector*), "remove_playerHeightDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::PlayerHeightDetector::get_playerHeight
+// Il2CppName: get_playerHeight
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::PlayerHeightDetector::*)()>(&GlobalNamespace::PlayerHeightDetector::get_playerHeight)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeightDetector*), "get_playerHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PlayerHeightDetector::Start

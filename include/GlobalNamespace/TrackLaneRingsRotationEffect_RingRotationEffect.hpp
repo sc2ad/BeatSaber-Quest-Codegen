@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 progressPos
     int& dyn_progressPos();
     // public System.Void .ctor()
-    // Offset: 0x10733E4
+    // Offset: 0x1161D6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single rotationAngle
     float& dyn_rotationAngle();
     // public System.Void .ctor()
-    // Offset: 0x12052B0
+    // Offset: 0x13114B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

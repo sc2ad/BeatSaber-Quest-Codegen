@@ -77,32 +77,26 @@ namespace GlobalNamespace {
       static GlobalNamespace::SelectLevelCategoryViewController::LevelCategory _get_None();
       // Set static field: static public SelectLevelCategoryViewController/LevelCategory None
       static void _set_None(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory value);
-      // static field const value: static public SelectLevelCategoryViewController/LevelCategory OstAndExtras
-      static constexpr const int OstAndExtras = 1;
-      // Get static field: static public SelectLevelCategoryViewController/LevelCategory OstAndExtras
-      static GlobalNamespace::SelectLevelCategoryViewController::LevelCategory _get_OstAndExtras();
-      // Set static field: static public SelectLevelCategoryViewController/LevelCategory OstAndExtras
-      static void _set_OstAndExtras(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory value);
       // static field const value: static public SelectLevelCategoryViewController/LevelCategory MusicPacks
-      static constexpr const int MusicPacks = 2;
+      static constexpr const int MusicPacks = 1;
       // Get static field: static public SelectLevelCategoryViewController/LevelCategory MusicPacks
       static GlobalNamespace::SelectLevelCategoryViewController::LevelCategory _get_MusicPacks();
       // Set static field: static public SelectLevelCategoryViewController/LevelCategory MusicPacks
       static void _set_MusicPacks(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory value);
       // static field const value: static public SelectLevelCategoryViewController/LevelCategory CustomSongs
-      static constexpr const int CustomSongs = 3;
+      static constexpr const int CustomSongs = 2;
       // Get static field: static public SelectLevelCategoryViewController/LevelCategory CustomSongs
       static GlobalNamespace::SelectLevelCategoryViewController::LevelCategory _get_CustomSongs();
       // Set static field: static public SelectLevelCategoryViewController/LevelCategory CustomSongs
       static void _set_CustomSongs(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory value);
       // static field const value: static public SelectLevelCategoryViewController/LevelCategory Favorites
-      static constexpr const int Favorites = 4;
+      static constexpr const int Favorites = 3;
       // Get static field: static public SelectLevelCategoryViewController/LevelCategory Favorites
       static GlobalNamespace::SelectLevelCategoryViewController::LevelCategory _get_Favorites();
       // Set static field: static public SelectLevelCategoryViewController/LevelCategory Favorites
       static void _set_Favorites(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory value);
       // static field const value: static public SelectLevelCategoryViewController/LevelCategory All
-      static constexpr const int All = 5;
+      static constexpr const int All = 4;
       // Get static field: static public SelectLevelCategoryViewController/LevelCategory All
       static GlobalNamespace::SelectLevelCategoryViewController::LevelCategory _get_All();
       // Set static field: static public SelectLevelCategoryViewController/LevelCategory All
@@ -125,13 +119,14 @@ namespace GlobalNamespace {
     HMUI::IconSegmentedControl* levelFilterCategoryIconSegmentedControl;
     // Field size check
     static_assert(sizeof(HMUI::IconSegmentedControl*) == 0x8);
-    // [InjectAttribute] Offset: 0xE47CB4
+    // [InjectAttribute] Offset: 0xF106C8
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x80
     GlobalNamespace::IAnalyticsModel* analyticsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAnalyticsModel*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF106D8
     // private System.Action`2<SelectLevelCategoryViewController,SelectLevelCategoryViewController/LevelCategory> didSelectLevelCategoryEvent
     // Size: 0x8
     // Offset: 0x88
@@ -166,23 +161,33 @@ namespace GlobalNamespace {
     GlobalNamespace::SelectLevelCategoryViewController::LevelCategory& dyn__prevSelectedLevelCategory();
     // Get instance field reference: private SelectLevelCategoryViewController/LevelCategoryInfo[] _levelCategoryInfos
     ::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*>*& dyn__levelCategoryInfos();
-    // public SelectLevelCategoryViewController/LevelCategory get_selectedLevelCategory()
-    // Offset: 0x1139FCC
-    GlobalNamespace::SelectLevelCategoryViewController::LevelCategory get_selectedLevelCategory();
     // public System.Void add_didSelectLevelCategoryEvent(System.Action`2<SelectLevelCategoryViewController,SelectLevelCategoryViewController/LevelCategory> value)
-    // Offset: 0x1139E84
+    // Offset: 0x11002E4
     void add_didSelectLevelCategoryEvent(System::Action_2<GlobalNamespace::SelectLevelCategoryViewController*, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* value);
     // public System.Void remove_didSelectLevelCategoryEvent(System.Action`2<SelectLevelCategoryViewController,SelectLevelCategoryViewController/LevelCategory> value)
-    // Offset: 0x1139F28
+    // Offset: 0x1100388
     void remove_didSelectLevelCategoryEvent(System::Action_2<GlobalNamespace::SelectLevelCategoryViewController*, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* value);
+    // public SelectLevelCategoryViewController/LevelCategory get_selectedLevelCategory()
+    // Offset: 0x110042C
+    GlobalNamespace::SelectLevelCategoryViewController::LevelCategory get_selectedLevelCategory();
     // public System.Void Setup(SelectLevelCategoryViewController/LevelCategory selectedCategory, SelectLevelCategoryViewController/LevelCategory[] enabledLevelCategories)
-    // Offset: 0x113A030
+    // Offset: 0x1100490
     void Setup(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory selectedCategory, ::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* enabledLevelCategories);
     // private System.Void LevelFilterCategoryIconSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 index)
-    // Offset: 0x113A42C
+    // Offset: 0x1100894
     void LevelFilterCategoryIconSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int index);
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x110073C
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Offset: 0x11007E8
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x113A630
+    // Offset: 0x1100A98
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -195,16 +200,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SelectLevelCategoryViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectLevelCategoryViewController*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x113A2D4
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x113A380
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
   }; // SelectLevelCategoryViewController
   #pragma pack(pop)
   static check_size<sizeof(SelectLevelCategoryViewController), 152 + sizeof(::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*>*)> __GlobalNamespace_SelectLevelCategoryViewControllerSizeCheck;
@@ -213,14 +208,6 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController*, "", "SelectLevelCategoryViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory, "", "SelectLevelCategoryViewController/LevelCategory");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::SelectLevelCategoryViewController::get_selectedLevelCategory
-// Il2CppName: get_selectedLevelCategory
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory (GlobalNamespace::SelectLevelCategoryViewController::*)()>(&GlobalNamespace::SelectLevelCategoryViewController::get_selectedLevelCategory)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectLevelCategoryViewController*), "get_selectedLevelCategory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::SelectLevelCategoryViewController::add_didSelectLevelCategoryEvent
 // Il2CppName: add_didSelectLevelCategoryEvent
 template<>
@@ -237,6 +224,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "SelectLevelCategoryViewController"), ::il2cpp_utils::GetClassFromName("", "SelectLevelCategoryViewController/LevelCategory")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectLevelCategoryViewController*), "remove_didSelectLevelCategoryEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::SelectLevelCategoryViewController::get_selectedLevelCategory
+// Il2CppName: get_selectedLevelCategory
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory (GlobalNamespace::SelectLevelCategoryViewController::*)()>(&GlobalNamespace::SelectLevelCategoryViewController::get_selectedLevelCategory)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectLevelCategoryViewController*), "get_selectedLevelCategory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SelectLevelCategoryViewController::Setup
@@ -259,10 +254,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectLevelCategoryViewController*), "LevelFilterCategoryIconSegmentedControlDidSelectCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{segmentedControl, index});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SelectLevelCategoryViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SelectLevelCategoryViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -284,3 +275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectLevelCategoryViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{removedFromHierarchy, screenSystemDisabling});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SelectLevelCategoryViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

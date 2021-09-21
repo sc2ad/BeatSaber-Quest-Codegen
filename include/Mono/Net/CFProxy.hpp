@@ -95,40 +95,40 @@ namespace Mono::Net {
     static void _set_kCFProxyTypeSOCKS(System::IntPtr value);
     // Get instance field reference: private Mono.Net.CFDictionary settings
     Mono::Net::CFDictionary*& dyn_settings();
-    // public System.IntPtr get_AutoConfigurationJavaScript()
-    // Offset: 0x15ED470
-    System::IntPtr get_AutoConfigurationJavaScript();
-    // public System.IntPtr get_AutoConfigurationUrl()
-    // Offset: 0x15ED530
-    System::IntPtr get_AutoConfigurationUrl();
-    // public System.String get_HostName()
-    // Offset: 0x15ECDD4
-    ::Il2CppString* get_HostName();
-    // public System.String get_Password()
-    // Offset: 0x15ECD10
-    ::Il2CppString* get_Password();
-    // public System.Int32 get_Port()
-    // Offset: 0x15ECE98
-    int get_Port();
-    // public Mono.Net.CFProxyType get_ProxyType()
-    // Offset: 0x15ECB88
-    Mono::Net::CFProxyType get_ProxyType();
-    // public System.String get_Username()
-    // Offset: 0x15ECC4C
-    ::Il2CppString* get_Username();
     // static private System.Void .cctor()
-    // Offset: 0x15EDB74
+    // Offset: 0x17B971C
     static void _cctor();
     // System.Void .ctor(Mono.Net.CFDictionary settings)
-    // Offset: 0x15EB848
+    // Offset: 0x17B73F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CFProxy* New_ctor(Mono::Net::CFDictionary* settings) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::CFProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CFProxy*, creationType>(settings)));
     }
     // static private Mono.Net.CFProxyType CFProxyTypeToEnum(System.IntPtr type)
-    // Offset: 0x15EDD70
+    // Offset: 0x17B9918
     static Mono::Net::CFProxyType CFProxyTypeToEnum(System::IntPtr type);
+    // public System.IntPtr get_AutoConfigurationJavaScript()
+    // Offset: 0x17B9018
+    System::IntPtr get_AutoConfigurationJavaScript();
+    // public System.IntPtr get_AutoConfigurationUrl()
+    // Offset: 0x17B90D8
+    System::IntPtr get_AutoConfigurationUrl();
+    // public System.String get_HostName()
+    // Offset: 0x17B897C
+    ::Il2CppString* get_HostName();
+    // public System.String get_Password()
+    // Offset: 0x17B88B8
+    ::Il2CppString* get_Password();
+    // public System.Int32 get_Port()
+    // Offset: 0x17B8A40
+    int get_Port();
+    // public Mono.Net.CFProxyType get_ProxyType()
+    // Offset: 0x17B8730
+    Mono::Net::CFProxyType get_ProxyType();
+    // public System.String get_Username()
+    // Offset: 0x17B87F4
+    ::Il2CppString* get_Username();
   }; // Mono.Net.CFProxy
   #pragma pack(pop)
   static check_size<sizeof(CFProxy), 16 + sizeof(Mono::Net::CFDictionary*)> __Mono_Net_CFProxySizeCheck;
@@ -136,6 +136,27 @@ namespace Mono::Net {
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFProxy*, "Mono.Net", "CFProxy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Mono::Net::CFProxy::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Net::CFProxy::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxy*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Mono::Net::CFProxy::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: Mono::Net::CFProxy::CFProxyTypeToEnum
+// Il2CppName: CFProxyTypeToEnum
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFProxyType (*)(System::IntPtr)>(&Mono::Net::CFProxy::CFProxyTypeToEnum)> {
+  static const MethodInfo* get() {
+    static auto* type = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxy*), "CFProxyTypeToEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
+  }
+};
 // Writing MetadataGetter for method: Mono::Net::CFProxy::get_AutoConfigurationJavaScript
 // Il2CppName: get_AutoConfigurationJavaScript
 template<>
@@ -190,26 +211,5 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Net::CFProxy::*)()>(&Mono::Net::CFProxy::get_Username)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxy*), "get_Username", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Mono::Net::CFProxy::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Net::CFProxy::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxy*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Mono::Net::CFProxy::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: Mono::Net::CFProxy::CFProxyTypeToEnum
-// Il2CppName: CFProxyTypeToEnum
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFProxyType (*)(System::IntPtr)>(&Mono::Net::CFProxy::CFProxyTypeToEnum)> {
-  static const MethodInfo* get() {
-    static auto* type = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxy*), "CFProxyTypeToEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
 };

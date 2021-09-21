@@ -114,7 +114,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean lastCellInParty
     bool& dyn_lastCellInParty();
     // public System.Void .ctor()
-    // Offset: 0x104C318
+    // Offset: 0x113B2B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

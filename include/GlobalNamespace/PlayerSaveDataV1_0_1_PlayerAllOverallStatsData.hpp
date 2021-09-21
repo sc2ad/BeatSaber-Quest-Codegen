@@ -47,14 +47,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public PlayerSaveDataV1_0_1/PlayerOverallStatsData partyFreePlayOverallStatsData
     GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*& dyn_partyFreePlayOverallStatsData();
     // public System.Void .ctor(PlayerSaveDataV1_0_1/PlayerOverallStatsData campaignOverallStatsData, PlayerSaveDataV1_0_1/PlayerOverallStatsData soloFreePlayOverallStatsData, PlayerSaveDataV1_0_1/PlayerOverallStatsData partyFreePlayOverallStatsData)
-    // Offset: 0x11FAC00
+    // Offset: 0x12BA8E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveDataV1_0_1::PlayerAllOverallStatsData* New_ctor(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* campaignOverallStatsData, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* soloFreePlayOverallStatsData, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* partyFreePlayOverallStatsData) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSaveDataV1_0_1::PlayerAllOverallStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveDataV1_0_1::PlayerAllOverallStatsData*, creationType>(campaignOverallStatsData, soloFreePlayOverallStatsData, partyFreePlayOverallStatsData)));
     }
     // public System.Void .ctor()
-    // Offset: 0x11FAB54
+    // Offset: 0x12BA83C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

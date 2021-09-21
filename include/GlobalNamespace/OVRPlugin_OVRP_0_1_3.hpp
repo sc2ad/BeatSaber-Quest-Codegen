@@ -29,29 +29,21 @@ namespace GlobalNamespace {
     static System::Version* _get_version();
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
-    // static private System.Void .cctor()
-    // Offset: 0x1631EE0
-    static void _cctor();
     // static public OVRPlugin/Posef ovrp_GetNodeVelocity(OVRPlugin/Node nodeId)
-    // Offset: 0x1631DC0
+    // Offset: 0x17FEA20
     static GlobalNamespace::OVRPlugin::Posef ovrp_GetNodeVelocity(GlobalNamespace::OVRPlugin::Node nodeId);
     // static public OVRPlugin/Posef ovrp_GetNodeAcceleration(OVRPlugin/Node nodeId)
-    // Offset: 0x1631E50
+    // Offset: 0x17FEAB0
     static GlobalNamespace::OVRPlugin::Posef ovrp_GetNodeAcceleration(GlobalNamespace::OVRPlugin::Node nodeId);
+    // static private System.Void .cctor()
+    // Offset: 0x17FEB40
+    static void _cctor();
   }; // OVRPlugin/OVRP_0_1_3
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_0_1_3*, "", "OVRPlugin/OVRP_0_1_3");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_0_1_3::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_0_1_3::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_0_1_3*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_0_1_3::ovrp_GetNodeVelocity
 // Il2CppName: ovrp_GetNodeVelocity
 template<>
@@ -68,5 +60,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
   static const MethodInfo* get() {
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_0_1_3*), "ovrp_GetNodeAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeId});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_0_1_3::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_0_1_3::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_0_1_3*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

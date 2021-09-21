@@ -39,13 +39,13 @@ namespace Mono::Security::Protocol::Ntlm {
     // Get instance field reference: private System.String _domain
     ::Il2CppString*& dyn__domain();
     // public System.Void set_Domain(System.String value)
-    // Offset: 0x1E08484
+    // Offset: 0x1FA49EC
     void set_Domain(::Il2CppString* value);
     // public System.Void set_Host(System.String value)
-    // Offset: 0x1E0850C
+    // Offset: 0x1FA4A74
     void set_Host(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1E083F0
+    // Offset: 0x1FA4958
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -54,12 +54,12 @@ namespace Mono::Security::Protocol::Ntlm {
       return THROW_UNLESS((::il2cpp_utils::New<Type1Message*, creationType>()));
     }
     // protected override System.Void Decode(System.Byte[] message)
-    // Offset: 0x1E08594
+    // Offset: 0x1FA4AFC
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Void MessageBase::Decode(System.Byte[] message)
     void Decode(::Array<uint8_t>* message);
     // public override System.Byte[] GetBytes()
-    // Offset: 0x1E08688
+    // Offset: 0x1FA4BF0
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Byte[] MessageBase::GetBytes()
     ::Array<uint8_t>* GetBytes();

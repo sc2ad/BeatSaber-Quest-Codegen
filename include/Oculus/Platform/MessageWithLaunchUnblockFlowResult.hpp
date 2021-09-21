@@ -29,10 +29,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithLaunchUnblockFlowResult
     MessageWithLaunchUnblockFlowResult() noexcept {}
     // protected Oculus.Platform.Models.LaunchUnblockFlowResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x152FE34
+    // Offset: 0x16B8B7C
     Oculus::Platform::Models::LaunchUnblockFlowResult* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x152FD90
+    // Offset: 0x16B8AD8
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -42,7 +42,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithLaunchUnblockFlowResult*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.LaunchUnblockFlowResult GetLaunchUnblockFlowResult()
-    // Offset: 0x152FDF0
+    // Offset: 0x16B8B38
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.LaunchUnblockFlowResult Message::GetLaunchUnblockFlowResult()
     Oculus::Platform::Models::LaunchUnblockFlowResult* GetLaunchUnblockFlowResult();

@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FadeOutInstantly : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xE23E60
+    // [InjectAttribute] Offset: 0xEEB53C
     // private FadeInOutController _fadeInOut
     // Size: 0x8
     // Offset: 0x18
@@ -41,10 +41,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private FadeInOutController _fadeInOut
     GlobalNamespace::FadeInOutController*& dyn__fadeInOut();
     // protected System.Void Start()
-    // Offset: 0x238C404
+    // Offset: 0x2586C4C
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x238C420
+    // Offset: 0x2586C68
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

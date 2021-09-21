@@ -63,8 +63,13 @@ namespace GlobalNamespace {
     GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
     // Get instance field reference: private BloomFogSO _bloomFog
     GlobalNamespace::BloomFogSO*& dyn__bloomFog();
+    // public override System.Void InstallBindings()
+    // Offset: 0x11D3EAC
+    // Implemented from: Zenject.MonoInstallerBase
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
+    void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x10641A8
+    // Offset: 0x11D4294
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -78,11 +83,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameCoreSceneSetup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameCoreSceneSetup*, creationType>()));
     }
-    // public override System.Void InstallBindings()
-    // Offset: 0x1063DC0
-    // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings()
-    void InstallBindings();
   }; // GameCoreSceneSetup
   #pragma pack(pop)
   static check_size<sizeof(GameCoreSceneSetup), 48 + sizeof(GlobalNamespace::BloomFogSO*)> __GlobalNamespace_GameCoreSceneSetupSizeCheck;
@@ -90,10 +90,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameCoreSceneSetup*, "", "GameCoreSceneSetup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::GameCoreSceneSetup::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameCoreSceneSetup::InstallBindings
 // Il2CppName: InstallBindings
 template<>
@@ -102,3 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameCoreSceneSetup*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::GameCoreSceneSetup::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

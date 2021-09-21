@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassBloomTextureEffectSO : public GlobalNamespace::BloomPrePassEffectSO {
     public:
-    // [SpaceAttribute] Offset: 0xE244A0
+    // [SpaceAttribute] Offset: 0xEEBC78
     // private System.Single _radius
     // Size: 0x4
     // Offset: 0x2C
@@ -104,7 +104,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PyramidBloomRendererSO::Pass finalUpsamplePass;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PyramidBloomRendererSO::Pass) == 0x4);
-    // [SpaceAttribute] Offset: 0xE24578
+    // [SpaceAttribute] Offset: 0xEEBD50
     // private PyramidBloomRendererSO _bloomRenderer
     // Size: 0x8
     // Offset: 0x58
@@ -138,12 +138,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private PyramidBloomRendererSO _bloomRenderer
     GlobalNamespace::PyramidBloomRendererSO*& dyn__bloomRenderer();
     // public override ToneMapping get_toneMapping()
-    // Offset: 0x238AF60
+    // Offset: 0x25857A8
     // Implemented from: BloomPrePassEffectSO
     // Base method: ToneMapping BloomPrePassEffectSO::get_toneMapping()
     GlobalNamespace::ToneMapping get_toneMapping();
+    // public override System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
+    // Offset: 0x25857B8
+    // Implemented from: TextureEffectSO
+    // Base method: System.Void TextureEffectSO::Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
+    void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
     // public System.Void .ctor()
-    // Offset: 0x238AFC8
+    // Offset: 0x2585810
     // Implemented from: BloomPrePassEffectSO
     // Base method: System.Void BloomPrePassEffectSO::.ctor()
     // Base method: System.Void TextureEffectSO::.ctor()
@@ -156,11 +161,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomPrePassBloomTextureEffectSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBloomTextureEffectSO*, creationType>()));
     }
-    // public override System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x238AF70
-    // Implemented from: TextureEffectSO
-    // Base method: System.Void TextureEffectSO::Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
   }; // BloomPrePassBloomTextureEffectSO
   #pragma pack(pop)
   static check_size<sizeof(BloomPrePassBloomTextureEffectSO), 88 + sizeof(GlobalNamespace::PyramidBloomRendererSO*)> __GlobalNamespace_BloomPrePassBloomTextureEffectSOSizeCheck;
@@ -176,10 +176,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassBloomTextureEffectSO*), "get_toneMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBloomTextureEffectSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBloomTextureEffectSO::Render
 // Il2CppName: Render
 template<>
@@ -190,3 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassBloomTextureEffectSO*), "Render", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, dest});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBloomTextureEffectSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -68,20 +68,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Byte[] _publicKey
     ::Array<uint8_t>*& dyn__publicKey();
     // public System.Byte[] get_publicKey()
-    // Offset: 0x133DD70
+    // Offset: 0x14553B0
     ::Array<uint8_t>* get_publicKey();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters privateKeyParameters, System.Byte[] publicKey)
-    // Offset: 0x133D6E8
+    // Offset: 0x1454D28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiffieHellmanUtility::ElipticalCurveKeyPair* New_ctor(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privateKeyParameters, ::Array<uint8_t>* publicKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiffieHellmanUtility::ElipticalCurveKeyPair*, creationType>(privateKeyParameters, publicKey)));
     }
     // public System.Threading.Tasks.Task`1<System.Byte[]> GetPreMasterSecretAsync(System.Byte[] clientPublicKey)
-    // Offset: 0x133DD78
+    // Offset: 0x14553B8
     System::Threading::Tasks::Task_1<::Array<uint8_t>*>* GetPreMasterSecretAsync(::Array<uint8_t>* clientPublicKey);
     // public System.Byte[] GetPreMasterSecret(System.Byte[] clientPublicKey)
-    // Offset: 0x133DE58
+    // Offset: 0x1455498
     ::Array<uint8_t>* GetPreMasterSecret(::Array<uint8_t>* clientPublicKey);
   }; // DiffieHellmanUtility/ElipticalCurveKeyPair
   #pragma pack(pop)

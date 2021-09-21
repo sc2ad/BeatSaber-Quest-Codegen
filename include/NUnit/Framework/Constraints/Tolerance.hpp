@@ -41,34 +41,34 @@ namespace NUnit::Framework::Constraints {
     // Get instance field reference: private readonly System.Object amount
     ::Il2CppObject*& dyn_amount();
     // static public NUnit.Framework.Constraints.Tolerance get_Default()
-    // Offset: 0x176A6E0
+    // Offset: 0x192972C
     static NUnit::Framework::Constraints::Tolerance* get_Default();
     // static public NUnit.Framework.Constraints.Tolerance get_Exact()
-    // Offset: 0x1772DAC
+    // Offset: 0x1931DF8
     static NUnit::Framework::Constraints::Tolerance* get_Exact();
-    // public NUnit.Framework.Constraints.ToleranceMode get_Mode()
-    // Offset: 0x176CC7C
-    NUnit::Framework::Constraints::ToleranceMode get_Mode();
-    // public System.Object get_Value()
-    // Offset: 0x176CC74
-    ::Il2CppObject* get_Value();
-    // public System.Boolean get_IsUnsetOrDefault()
-    // Offset: 0x176CC64
-    bool get_IsUnsetOrDefault();
     // public System.Void .ctor(System.Object amount)
-    // Offset: 0x1775B28
+    // Offset: 0x1934B74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tolerance* New_ctor(::Il2CppObject* amount) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::Tolerance::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tolerance*, creationType>(amount)));
     }
     // private System.Void .ctor(System.Object amount, NUnit.Framework.Constraints.ToleranceMode mode)
-    // Offset: 0x177638C
+    // Offset: 0x19353D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tolerance* New_ctor(::Il2CppObject* amount, NUnit::Framework::Constraints::ToleranceMode mode) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::Tolerance::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tolerance*, creationType>(amount, mode)));
     }
+    // public NUnit.Framework.Constraints.ToleranceMode get_Mode()
+    // Offset: 0x192BCC8
+    NUnit::Framework::Constraints::ToleranceMode get_Mode();
+    // public System.Object get_Value()
+    // Offset: 0x192BCC0
+    ::Il2CppObject* get_Value();
+    // public System.Boolean get_IsUnsetOrDefault()
+    // Offset: 0x192BCB0
+    bool get_IsUnsetOrDefault();
   }; // NUnit.Framework.Constraints.Tolerance
   #pragma pack(pop)
   static check_size<sizeof(Tolerance), 24 + sizeof(::Il2CppObject*)> __NUnit_Framework_Constraints_ToleranceSizeCheck;
@@ -92,6 +92,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Tolerance*), "get_Exact", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Tolerance::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Tolerance::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::Tolerance::get_Mode
 // Il2CppName: get_Mode
 template<>
@@ -116,11 +124,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Tolerance*), "get_IsUnsetOrDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Constraints::Tolerance::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: NUnit::Framework::Constraints::Tolerance::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

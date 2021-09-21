@@ -47,12 +47,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightWithIdManager : public UnityEngine::MonoBehaviour {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xEDEDE0
     // private System.Action didChangeSomeColorsThisFrameEvent
     // Size: 0x8
     // Offset: 0x18
     System::Action* didChangeSomeColorsThisFrameEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xEDEDF0
     // private System.Action`2<System.Int32,UnityEngine.Color> didSetColorForIdEvent
     // Size: 0x8
     // Offset: 0x20
@@ -105,38 +107,38 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>*& dyn__lightsToUnregister();
     // Get instance field reference: private System.Boolean _didChangeSomeColorsThisFrame
     bool& dyn__didChangeSomeColorsThisFrame();
-    // public System.Nullable`1<UnityEngine.Color>[] get_colors()
-    // Offset: 0x1E19940
-    ::Array<System::Nullable_1<UnityEngine::Color>>* get_colors();
     // public System.Void add_didChangeSomeColorsThisFrameEvent(System.Action value)
-    // Offset: 0x1E196B0
+    // Offset: 0x1E295EC
     void add_didChangeSomeColorsThisFrameEvent(System::Action* value);
     // public System.Void remove_didChangeSomeColorsThisFrameEvent(System.Action value)
-    // Offset: 0x1E19754
+    // Offset: 0x1E29690
     void remove_didChangeSomeColorsThisFrameEvent(System::Action* value);
     // public System.Void add_didSetColorForIdEvent(System.Action`2<System.Int32,UnityEngine.Color> value)
-    // Offset: 0x1E197F8
+    // Offset: 0x1E29734
     void add_didSetColorForIdEvent(System::Action_2<int, UnityEngine::Color>* value);
     // public System.Void remove_didSetColorForIdEvent(System.Action`2<System.Int32,UnityEngine.Color> value)
-    // Offset: 0x1E1989C
+    // Offset: 0x1E297D8
     void remove_didSetColorForIdEvent(System::Action_2<int, UnityEngine::Color>* value);
+    // public System.Nullable`1<UnityEngine.Color>[] get_colors()
+    // Offset: 0x1E2987C
+    ::Array<System::Nullable_1<UnityEngine::Color>>* get_colors();
     // protected System.Void LateUpdate()
-    // Offset: 0x1E19948
+    // Offset: 0x1E29884
     void LateUpdate();
     // public System.Void RegisterLight(ILightWithId lightWithId)
-    // Offset: 0x1E19B38
+    // Offset: 0x1E29A74
     void RegisterLight(GlobalNamespace::ILightWithId* lightWithId);
     // public System.Void UnregisterLight(ILightWithId lightWithId)
-    // Offset: 0x1E19EA8
+    // Offset: 0x1E29DE4
     void UnregisterLight(GlobalNamespace::ILightWithId* lightWithId);
     // public System.Void SetColorForId(System.Int32 lightId, UnityEngine.Color color)
-    // Offset: 0x1E1A08C
+    // Offset: 0x1E29FC8
     void SetColorForId(int lightId, UnityEngine::Color color);
     // public UnityEngine.Color GetColorForId(System.Int32 lightId)
-    // Offset: 0x1E1A2F0
+    // Offset: 0x1E2A22C
     UnityEngine::Color GetColorForId(int lightId);
     // public System.Void .ctor()
-    // Offset: 0x1E1A3A0
+    // Offset: 0x1E2A2DC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -155,14 +157,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIdManager*, "", "LightWithIdManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::LightWithIdManager::get_colors
-// Il2CppName: get_colors
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Nullable_1<UnityEngine::Color>>* (GlobalNamespace::LightWithIdManager::*)()>(&GlobalNamespace::LightWithIdManager::get_colors)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "get_colors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIdManager::add_didChangeSomeColorsThisFrameEvent
 // Il2CppName: add_didChangeSomeColorsThisFrameEvent
 template<>
@@ -197,6 +191,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32"), ::il2cpp_utils::GetClassFromName("UnityEngine", "Color")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "remove_didSetColorForIdEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::LightWithIdManager::get_colors
+// Il2CppName: get_colors
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Nullable_1<UnityEngine::Color>>* (GlobalNamespace::LightWithIdManager::*)()>(&GlobalNamespace::LightWithIdManager::get_colors)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "get_colors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIdManager::LateUpdate

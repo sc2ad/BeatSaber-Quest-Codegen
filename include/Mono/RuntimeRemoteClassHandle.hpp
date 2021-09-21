@@ -26,7 +26,7 @@ namespace Mono {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RuntimeRemoteClassHandle/*, public System::ValueType*/ {
     public:
-    // private Mono.RuntimeStructs/Mono.RemoteClass* value
+    // private Mono.RuntimeStructs/RemoteClass* value
     // Size: 0x8
     // Offset: 0x0
     Mono::RuntimeStructs::RemoteClass* value;
@@ -42,10 +42,10 @@ namespace Mono {
     constexpr operator Mono::RuntimeStructs::RemoteClass*() const noexcept {
       return value;
     }
-    // Get instance field reference: private Mono.RuntimeStructs/Mono.RemoteClass* value
+    // Get instance field reference: private Mono.RuntimeStructs/RemoteClass* value
     Mono::RuntimeStructs::RemoteClass*& dyn_value();
     // Mono.RuntimeClassHandle get_ProxyClass()
-    // Offset: 0x1A776C8
+    // Offset: 0x1C40098
     Mono::RuntimeClassHandle get_ProxyClass();
   }; // Mono.RuntimeRemoteClassHandle
   #pragma pack(pop)

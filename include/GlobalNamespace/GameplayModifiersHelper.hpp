@@ -5,7 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
-// Including type: BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers
+// Including type: BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers
 #include "BeatSaberAPI/DataTransferObjects/LevelScoreResult.hpp"
 // Completed includes
 // Begin forward declares
@@ -25,11 +25,11 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: GameplayModifiersHelper
     GameplayModifiersHelper() noexcept {}
-    // static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] ToDTO(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1101314
+    // static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers[] ToDTO(GameplayModifiers gameplayModifiers)
+    // Offset: 0x11E5BFC
     static ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* ToDTO(GlobalNamespace::GameplayModifiers* gameplayModifiers);
-    // static public GameplayModifiers FromDTO(BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiersDTOs)
-    // Offset: 0x1101620
+    // static public GameplayModifiers FromDTO(BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers[] gameplayModifiersDTOs)
+    // Offset: 0x11E5F08
     static GlobalNamespace::GameplayModifiers* FromDTO(::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* gameplayModifiersDTOs);
   }; // GameplayModifiersHelper
   #pragma pack(pop)

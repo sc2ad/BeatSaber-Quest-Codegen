@@ -78,25 +78,25 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly SongPackMask songPacks
     GlobalNamespace::SongPackMask& dyn_songPacks();
     // public System.Void .ctor(BeatmapDifficultyMask difficulties, GameplayModifierMask modifiers, SongPackMask songPacks)
-    // Offset: 0x1335AB0
+    // Offset: 0x144D0F0
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  BeatmapLevelSelectionMask(GlobalNamespace::BeatmapDifficultyMask difficulties, GlobalNamespace::GameplayModifierMask modifiers, GlobalNamespace::SongPackMask songPacks)
     // public System.Boolean Equals(BeatmapLevelSelectionMask other)
-    // Offset: 0x1335B60
+    // Offset: 0x144D1A0
     bool Equals(GlobalNamespace::BeatmapLevelSelectionMask other);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer, System.UInt32 version)
-    // Offset: 0x1335CCC
+    // Offset: 0x144D30C
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer, uint version);
     // static public BeatmapLevelSelectionMask Deserialize(LiteNetLib.Utils.NetDataReader reader, System.UInt32 version)
-    // Offset: 0x1335D20
+    // Offset: 0x144D360
     static GlobalNamespace::BeatmapLevelSelectionMask Deserialize(LiteNetLib::Utils::NetDataReader* reader, uint version);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1335AC0
+    // Offset: 0x144D100
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1335C98
+    // Offset: 0x144D2D8
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -105,10 +105,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapLevelSelectionMask), 8 + sizeof(GlobalNamespace::SongPackMask)> __GlobalNamespace_BeatmapLevelSelectionMaskSizeCheck;
   static_assert(sizeof(BeatmapLevelSelectionMask) == 0x18);
   // static public System.Boolean op_Equality(BeatmapLevelSelectionMask l, BeatmapLevelSelectionMask r)
-  // Offset: 0x1335D88
+  // Offset: 0x144D3C8
   bool operator ==(const GlobalNamespace::BeatmapLevelSelectionMask& l, const GlobalNamespace::BeatmapLevelSelectionMask& r);
   // static public System.Boolean op_Inequality(BeatmapLevelSelectionMask l, BeatmapLevelSelectionMask r)
-  // Offset: 0x1335DC8
+  // Offset: 0x144D408
   bool operator !=(const GlobalNamespace::BeatmapLevelSelectionMask& l, const GlobalNamespace::BeatmapLevelSelectionMask& r);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSelectionMask, "", "BeatmapLevelSelectionMask");

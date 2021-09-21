@@ -48,10 +48,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapLevelSO[] _beatmapLevels
     ::Array<GlobalNamespace::BeatmapLevelSO*>*& dyn__beatmapLevels();
     // public IPreviewBeatmapLevel[] get_beatmapLevels()
-    // Offset: 0x11EC0C4
+    // Offset: 0x127C700
     ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels();
     // public System.Void .ctor()
-    // Offset: 0x11EC0CC
+    // Offset: 0x127C708
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

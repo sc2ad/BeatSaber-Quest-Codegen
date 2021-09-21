@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     float smooth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xE3E048
+    // [InjectAttribute] Offset: 0xF069CC
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x20
@@ -80,7 +80,7 @@ namespace GlobalNamespace {
     EnvironmentSpawnRotation(float aheadTime_ = {}, float smooth_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::SpawnRotationProcessor* spawnRotationProcessor_ = {}, GlobalNamespace::BeatmapEventCallbackData* eventCallbackData_ = {}, float currentRotation_ = {}, float prevRotation_ = {}) noexcept : aheadTime{aheadTime_}, smooth{smooth_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, spawnRotationProcessor{spawnRotationProcessor_}, eventCallbackData{eventCallbackData_}, currentRotation{currentRotation_}, prevRotation{prevRotation_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE3E058
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF069DC
     // Get static field: static private readonly System.Int32 _spawnRotationID
     static int _get__spawnRotationID();
     // Set static field: static private readonly System.Int32 _spawnRotationID
@@ -104,34 +104,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _prevRotation
     float& dyn__prevRotation();
     // public System.Single get_targetRotation()
-    // Offset: 0x1059150
+    // Offset: 0x11B1DFC
     float get_targetRotation();
     // protected System.Void Awake()
-    // Offset: 0x105916C
+    // Offset: 0x11B1E18
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x105918C
+    // Offset: 0x11B1E38
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x10591FC
+    // Offset: 0x11B1EA8
     void OnDisable();
     // protected System.Void Start()
-    // Offset: 0x105926C
+    // Offset: 0x11B1F18
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1059410
+    // Offset: 0x11B20BC
     void OnDestroy();
     // private System.Void BeatmapEventAtNoteSpawnCallback(BeatmapEventData beatmapEventData)
-    // Offset: 0x10594CC
+    // Offset: 0x11B2178
     void BeatmapEventAtNoteSpawnCallback(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // protected System.Void FixedUpdate()
-    // Offset: 0x1059634
+    // Offset: 0x11B22E0
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0x1059710
+    // Offset: 0x11B23BC
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x10598AC
+    // Offset: 0x11B2558
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -144,7 +144,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentSpawnRotation*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1059914
+    // Offset: 0x11B25C0
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

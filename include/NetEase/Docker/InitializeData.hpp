@@ -16,7 +16,8 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   struct InitializeData/*, public System::ValueType*/ {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xE27494
+    // [CompilerGeneratedAttribute] Offset: 0xEEDC6C
+    // [DebuggerBrowsableAttribute] Offset: 0xEEDC6C
     // private System.Boolean <InitializeSuccessful>k__BackingField
     // Size: 0x1
     // Offset: 0x0
@@ -25,7 +26,8 @@ namespace NetEase::Docker {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: InitializeSuccessful and: InitializeCode
     char __padding0[0x3] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0xE274D0
+    // [CompilerGeneratedAttribute] Offset: 0xEEDCA8
+    // [DebuggerBrowsableAttribute] Offset: 0xEEDCA8
     // private System.Int32 <InitializeCode>k__BackingField
     // Size: 0x4
     // Offset: 0x4
@@ -43,13 +45,13 @@ namespace NetEase::Docker {
     // Get instance field reference: private System.Int32 <InitializeCode>k__BackingField
     int& dyn_$InitializeCode$k__BackingField();
     // public System.Boolean get_InitializeSuccessful()
-    // Offset: 0x24158DC
+    // Offset: 0x261FFA8
     bool get_InitializeSuccessful();
     // public System.Void set_InitializeSuccessful(System.Boolean value)
-    // Offset: 0x24158E4
+    // Offset: 0x261FFB0
     void set_InitializeSuccessful(bool value);
     // public System.Void set_InitializeCode(System.Int32 value)
-    // Offset: 0x24158F0
+    // Offset: 0x261FFBC
     void set_InitializeCode(int value);
   }; // NetEase.Docker.InitializeData
   #pragma pack(pop)

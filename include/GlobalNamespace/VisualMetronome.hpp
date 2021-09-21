@@ -171,34 +171,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _dontTickThisFrame
     bool& dyn__dontTickThisFrame();
     // public System.Void set_tickerColor(UnityEngine.Color value)
-    // Offset: 0x12A2FF8
+    // Offset: 0x134D7AC
     void set_tickerColor(UnityEngine::Color value);
     // public System.Void set_movingTickerColor(UnityEngine.Color value)
-    // Offset: 0x12A301C
+    // Offset: 0x134D7D0
     void set_movingTickerColor(UnityEngine::Color value);
-    // public System.Single get_zeroOffset()
-    // Offset: 0x12A3050
-    float get_zeroOffset();
     // public System.Void set_zeroOffset(System.Single value)
-    // Offset: 0x12A3040
+    // Offset: 0x134D7F4
     void set_zeroOffset(float value);
+    // public System.Single get_zeroOffset()
+    // Offset: 0x134D804
+    float get_zeroOffset();
     // protected System.Void Awake()
-    // Offset: 0x12A3058
+    // Offset: 0x134D80C
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x12A3168
+    // Offset: 0x134D91C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x12A31BC
+    // Offset: 0x134D970
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0x12A3210
+    // Offset: 0x134D9C4
     void Update();
     // private System.Void SetMovingTickerNormalizedPosition(System.Single t)
-    // Offset: 0x12A33D4
+    // Offset: 0x134DB88
     void SetMovingTickerNormalizedPosition(float t);
     // public System.Void .ctor()
-    // Offset: 0x12A34B8
+    // Offset: 0x134DC6C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -235,14 +235,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VisualMetronome*), "set_movingTickerColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::VisualMetronome::get_zeroOffset
-// Il2CppName: get_zeroOffset
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::VisualMetronome::*)()>(&GlobalNamespace::VisualMetronome::get_zeroOffset)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VisualMetronome*), "get_zeroOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::VisualMetronome::set_zeroOffset
 // Il2CppName: set_zeroOffset
 template<>
@@ -250,6 +242,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VisualMetronome*), "set_zeroOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::VisualMetronome::get_zeroOffset
+// Il2CppName: get_zeroOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::VisualMetronome::*)()>(&GlobalNamespace::VisualMetronome::get_zeroOffset)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VisualMetronome*), "get_zeroOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::VisualMetronome::Awake

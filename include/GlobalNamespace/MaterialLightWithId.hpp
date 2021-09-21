@@ -39,39 +39,49 @@ namespace GlobalNamespace {
     UnityEngine::MeshRenderer* meshRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshRenderer*) == 0x8);
-    // private System.Boolean _alphaIntoColor
+    // private System.Boolean _setAlphaOnly
     // Size: 0x1
     // Offset: 0x38
+    bool setAlphaOnly;
+    // Field size check
+    static_assert(sizeof(bool) == 0x1);
+    // [DrawIfAttribute] Offset: 0xEDEED8
+    // private System.Boolean _alphaIntoColor
+    // Size: 0x1
+    // Offset: 0x39
     bool alphaIntoColor;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    // [DrawIfAttribute] Offset: 0xEDEF7C
     // private System.Boolean _setColorOnly
     // Size: 0x1
-    // Offset: 0x39
+    // Offset: 0x3A
     bool setColorOnly;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: setColorOnly and: colorProperty
-    char __padding2[0x6] = {};
+    char __padding3[0x5] = {};
     // private System.String _colorProperty
     // Size: 0x8
     // Offset: 0x40
     ::Il2CppString* colorProperty;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DrawIfAttribute] Offset: 0xE19D30
+    // [DrawIfAttribute] Offset: 0xEDF030
     // private System.Single _alphaIntensity
     // Size: 0x4
     // Offset: 0x48
     float alphaIntensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    // [DrawIfAttribute] Offset: 0xEDF0D4
     // private System.Boolean _multiplyColorWithAlpha
     // Size: 0x1
     // Offset: 0x4C
     bool multiplyColorWithAlpha;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    // [DrawIfAttribute] Offset: 0xEDF178
     // private System.Boolean _multiplyColor
     // Size: 0x1
     // Offset: 0x4D
@@ -79,8 +89,8 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: multiplyColor and: colorMultiplier
-    char __padding6[0x2] = {};
-    // [DrawIfAttribute] Offset: 0xE19DF4
+    char __padding7[0x2] = {};
+    // [DrawIfAttribute] Offset: 0xEDF21C
     // private System.Single _colorMultiplier
     // Size: 0x4
     // Offset: 0x50
@@ -106,14 +116,16 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: MaterialLightWithId
-    MaterialLightWithId(UnityEngine::MeshRenderer* meshRenderer_ = {}, bool alphaIntoColor_ = {}, bool setColorOnly_ = {}, ::Il2CppString* colorProperty_ = {}, float alphaIntensity_ = {}, bool multiplyColorWithAlpha_ = {}, bool multiplyColor_ = {}, float colorMultiplier_ = {}, UnityEngine::Color color_ = {}, float alpha_ = {}, int propertyId_ = {}) noexcept : meshRenderer{meshRenderer_}, alphaIntoColor{alphaIntoColor_}, setColorOnly{setColorOnly_}, colorProperty{colorProperty_}, alphaIntensity{alphaIntensity_}, multiplyColorWithAlpha{multiplyColorWithAlpha_}, multiplyColor{multiplyColor_}, colorMultiplier{colorMultiplier_}, color{color_}, alpha{alpha_}, propertyId{propertyId_} {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE19E9C
+    MaterialLightWithId(UnityEngine::MeshRenderer* meshRenderer_ = {}, bool setAlphaOnly_ = {}, bool alphaIntoColor_ = {}, bool setColorOnly_ = {}, ::Il2CppString* colorProperty_ = {}, float alphaIntensity_ = {}, bool multiplyColorWithAlpha_ = {}, bool multiplyColor_ = {}, float colorMultiplier_ = {}, UnityEngine::Color color_ = {}, float alpha_ = {}, int propertyId_ = {}) noexcept : meshRenderer{meshRenderer_}, setAlphaOnly{setAlphaOnly_}, alphaIntoColor{alphaIntoColor_}, setColorOnly{setColorOnly_}, colorProperty{colorProperty_}, alphaIntensity{alphaIntensity_}, multiplyColorWithAlpha{multiplyColorWithAlpha_}, multiplyColor{multiplyColor_}, colorMultiplier{colorMultiplier_}, color{color_}, alpha{alpha_}, propertyId{propertyId_} {}
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDF2C4
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
     // Get instance field reference: private UnityEngine.MeshRenderer _meshRenderer
     UnityEngine::MeshRenderer*& dyn__meshRenderer();
+    // Get instance field reference: private System.Boolean _setAlphaOnly
+    bool& dyn__setAlphaOnly();
     // Get instance field reference: private System.Boolean _alphaIntoColor
     bool& dyn__alphaIntoColor();
     // Get instance field reference: private System.Boolean _setColorOnly
@@ -135,13 +147,18 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _propertyId
     int& dyn__propertyId();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1E1B9FC
+    // Offset: 0x1E2BCA4
     UnityEngine::Color get_color();
     // protected System.Void Awake()
-    // Offset: 0x1E1BA08
+    // Offset: 0x1E2BCB0
     void Awake();
+    // public override System.Void ColorWasSet(UnityEngine.Color color)
+    // Offset: 0x1E2BD3C
+    // Implemented from: LightWithIdMonoBehaviour
+    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
+    void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1E1BC48
+    // Offset: 0x1E2BF34
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -155,15 +172,10 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialLightWithId*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E1BCB4
+    // Offset: 0x1E2BFA0
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
-    // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1E1BA64
-    // Implemented from: LightWithIdMonoBehaviour
-    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
-    void ColorWasSet(UnityEngine::Color color);
   }; // MaterialLightWithId
   #pragma pack(pop)
   static check_size<sizeof(MaterialLightWithId), 104 + sizeof(int)> __GlobalNamespace_MaterialLightWithIdSizeCheck;
@@ -187,6 +199,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialLightWithId*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MaterialLightWithId::ColorWasSet
+// Il2CppName: ColorWasSet
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MaterialLightWithId::*)(UnityEngine::Color)>(&GlobalNamespace::MaterialLightWithId::ColorWasSet)> {
+  static const MethodInfo* get() {
+    static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialLightWithId*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MaterialLightWithId::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -197,14 +218,5 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::MaterialLightWithId::_cctor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialLightWithId*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MaterialLightWithId::ColorWasSet
-// Il2CppName: ColorWasSet
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MaterialLightWithId::*)(UnityEngine::Color)>(&GlobalNamespace::MaterialLightWithId::ColorWasSet)> {
-  static const MethodInfo* get() {
-    static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialLightWithId*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
   }
 };

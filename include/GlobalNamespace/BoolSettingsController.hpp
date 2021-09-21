@@ -39,8 +39,18 @@ namespace GlobalNamespace {
     BoolSettingsController(GlobalNamespace::BoolSO* settingsValue_ = {}) noexcept : settingsValue{settingsValue_} {}
     // Get instance field reference: private BoolSO _settingsValue
     GlobalNamespace::BoolSO*& dyn__settingsValue();
+    // protected override System.Boolean GetInitValue()
+    // Offset: 0x11933F8
+    // Implemented from: SwitchSettingsController
+    // Base method: System.Boolean SwitchSettingsController::GetInitValue()
+    bool GetInitValue();
+    // protected override System.Void ApplyValue(System.Boolean value)
+    // Offset: 0x1193448
+    // Implemented from: SwitchSettingsController
+    // Base method: System.Void SwitchSettingsController::ApplyValue(System.Boolean value)
+    void ApplyValue(bool value);
     // public System.Void .ctor()
-    // Offset: 0x10DAA9C
+    // Offset: 0x11934B0
     // Implemented from: SwitchSettingsController
     // Base method: System.Void SwitchSettingsController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -53,16 +63,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BoolSettingsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BoolSettingsController*, creationType>()));
     }
-    // protected override System.Boolean GetInitValue()
-    // Offset: 0x10DA9E4
-    // Implemented from: SwitchSettingsController
-    // Base method: System.Boolean SwitchSettingsController::GetInitValue()
-    bool GetInitValue();
-    // protected override System.Void ApplyValue(System.Boolean value)
-    // Offset: 0x10DAA34
-    // Implemented from: SwitchSettingsController
-    // Base method: System.Void SwitchSettingsController::ApplyValue(System.Boolean value)
-    void ApplyValue(bool value);
   }; // BoolSettingsController
   #pragma pack(pop)
   static check_size<sizeof(BoolSettingsController), 40 + sizeof(GlobalNamespace::BoolSO*)> __GlobalNamespace_BoolSettingsControllerSizeCheck;
@@ -70,10 +70,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoolSettingsController*, "", "BoolSettingsController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::BoolSettingsController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BoolSettingsController::GetInitValue
 // Il2CppName: GetInitValue
 template<>
@@ -91,3 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BoolSettingsController*), "ApplyValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BoolSettingsController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

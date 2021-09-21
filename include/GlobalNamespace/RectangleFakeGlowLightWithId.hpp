@@ -63,10 +63,15 @@ namespace GlobalNamespace {
     // Get instance field reference: private RectangleFakeGlow _rectangleFakeGlow
     GlobalNamespace::RectangleFakeGlow*& dyn__rectangleFakeGlow();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1127614
+    // Offset: 0x11C0C8C
     UnityEngine::Color get_color();
+    // public override System.Void ColorWasSet(UnityEngine.Color color)
+    // Offset: 0x11C0CAC
+    // Implemented from: LightWithIdMonoBehaviour
+    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
+    void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1127660
+    // Offset: 0x11C0CD8
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -79,11 +84,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RectangleFakeGlowLightWithId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RectangleFakeGlowLightWithId*, creationType>()));
     }
-    // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1127634
-    // Implemented from: LightWithIdMonoBehaviour
-    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
-    void ColorWasSet(UnityEngine::Color color);
   }; // RectangleFakeGlowLightWithId
   #pragma pack(pop)
   static check_size<sizeof(RectangleFakeGlowLightWithId), 56 + sizeof(GlobalNamespace::RectangleFakeGlow*)> __GlobalNamespace_RectangleFakeGlowLightWithIdSizeCheck;
@@ -99,10 +99,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RectangleFakeGlowLightWithId*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::RectangleFakeGlowLightWithId::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::RectangleFakeGlowLightWithId::ColorWasSet
 // Il2CppName: ColorWasSet
 template<>
@@ -112,3 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RectangleFakeGlowLightWithId*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::RectangleFakeGlowLightWithId::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

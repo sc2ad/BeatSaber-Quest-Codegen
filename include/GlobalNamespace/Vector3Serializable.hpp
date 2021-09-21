@@ -21,10 +21,10 @@
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
 namespace LiteNetLib::Utils {
-  // Forward declaring type: NetDataReader
-  class NetDataReader;
   // Forward declaring type: NetDataWriter
   class NetDataWriter;
+  // Forward declaring type: NetDataReader
+  class NetDataReader;
 }
 // Completed forward declares
 // Type namespace: 
@@ -74,8 +74,23 @@ namespace GlobalNamespace {
     int& dyn__y();
     // Get instance field reference: private System.Int32 _z
     int& dyn__z();
+    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x2572000
+    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
+    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x2571E0C
+    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
+    // public System.Boolean Equals(Vector3Serializable other)
+    // Offset: 0x2572E74
+    bool Equals(GlobalNamespace::Vector3Serializable other);
+    // public System.Boolean Approximately(Vector3Serializable other)
+    // Offset: 0x2574A10
+    bool Approximately(GlobalNamespace::Vector3Serializable other);
+    // public System.Int32 GetSize()
+    // Offset: 0x25730E4
+    int GetSize();
     // public System.Void .ctor(UnityEngine.Vector3 v)
-    // Offset: 0x23794B0
+    // Offset: 0x2574D10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Vector3Serializable(UnityEngine::Vector3 v) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::Vector3Serializable::.ctor");
@@ -83,40 +98,25 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, v);
     }
     // public System.Void .ctor(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2379564
+    // Offset: 0x2574DC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Vector3Serializable(LiteNetLib::Utils::NetDataReader* reader) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::Vector3Serializable::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader)})));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, reader);
     }
-    // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x23767A0
-    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
-    // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x23765AC
-    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
-    // public System.Boolean Equals(Vector3Serializable other)
-    // Offset: 0x2377614
-    bool Equals(GlobalNamespace::Vector3Serializable other);
-    // public System.Boolean Approximately(Vector3Serializable other)
-    // Offset: 0x23791B0
-    bool Approximately(GlobalNamespace::Vector3Serializable other);
-    // public System.Int32 GetSize()
-    // Offset: 0x2377884
-    int GetSize();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2379220
+    // Offset: 0x2574A80
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2377760
+    // Offset: 0x2572FC0
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x23792C8
+    // Offset: 0x2574B28
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -125,22 +125,14 @@ namespace GlobalNamespace {
   static check_size<sizeof(Vector3Serializable), 8 + sizeof(int)> __GlobalNamespace_Vector3SerializableSizeCheck;
   static_assert(sizeof(Vector3Serializable) == 0xC);
   // static public Vector3Serializable op_Addition(Vector3Serializable a, Vector3Serializable b)
-  // Offset: 0x2377B6C
+  // Offset: 0x25733CC
   GlobalNamespace::Vector3Serializable operator+(const GlobalNamespace::Vector3Serializable& a, const GlobalNamespace::Vector3Serializable& b);
   // static public Vector3Serializable op_Subtraction(Vector3Serializable a, Vector3Serializable b)
-  // Offset: 0x2377C08
+  // Offset: 0x2573468
   GlobalNamespace::Vector3Serializable operator-(const GlobalNamespace::Vector3Serializable& a, const GlobalNamespace::Vector3Serializable& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector3Serializable, "", "Vector3Serializable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::Vector3Serializable::Vector3Serializable
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::Vector3Serializable::Vector3Serializable
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::Vector3Serializable::Serialize
 // Il2CppName: Serialize
 template<>
@@ -185,6 +177,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Vector3Serializable), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::Vector3Serializable::Vector3Serializable
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::Vector3Serializable::Vector3Serializable
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::Vector3Serializable::Equals
 // Il2CppName: Equals
 template<>

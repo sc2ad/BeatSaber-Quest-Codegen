@@ -121,15 +121,6 @@ namespace GlobalNamespace {
       auto ___instance_arg = this;
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, o);
     }
-    // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PacketPool_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketPool_1::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<PacketPool_1<T>*, creationType>()));
-    }
     // public override System.Int32 GetHashCode()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
@@ -139,6 +130,15 @@ namespace GlobalNamespace {
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       auto ___instance_arg = this;
       return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method);
+    }
+    // public System.Void .ctor()
+    // Offset: 0xFFFFFFFF
+    // Implemented from: System.Object
+    // Base method: System.Void Object::.ctor()
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static PacketPool_1<T>* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketPool_1::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<PacketPool_1<T>*, creationType>()));
     }
   }; // PacketPool`1
   // Could not write size check! Type: PacketPool`1 is generic, or has no fields that are valid for size checks!

@@ -24,37 +24,29 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: StringBuilderExtension
     StringBuilderExtension() noexcept {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE082C0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEC9900
     // Get static field: static private System.Char[] charToInt
     static ::Array<::Il2CppChar>* _get_charToInt();
     // Set static field: static private System.Char[] charToInt
     static void _set_charToInt(::Array<::Il2CppChar>* value);
-    // static private System.Void .cctor()
-    // Offset: 0x2394F80
-    static void _cctor();
     // static public System.Void Swap(System.Text.StringBuilder sb, System.Int32 startIndex, System.Int32 endIndex)
-    // Offset: 0x2394C54
+    // Offset: 0x259AB4C
     static void Swap(System::Text::StringBuilder* sb, int startIndex, int endIndex);
     // static public System.Void AppendNumber(System.Text.StringBuilder sb, System.Int32 number)
-    // Offset: 0x2394D0C
+    // Offset: 0x259AC04
     static void AppendNumber(System::Text::StringBuilder* sb, int number);
     // static public System.Void AppendNumber(System.Text.StringBuilder sb, System.UInt32 unumber)
-    // Offset: 0x2394E54
+    // Offset: 0x259AD4C
     static void AppendNumber(System::Text::StringBuilder* sb, uint unumber);
+    // static private System.Void .cctor()
+    // Offset: 0x259AE78
+    static void _cctor();
   }; // StringBuilderExtension
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StringBuilderExtension*, "", "StringBuilderExtension");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::StringBuilderExtension::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::StringBuilderExtension::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StringBuilderExtension*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::StringBuilderExtension::Swap
 // Il2CppName: Swap
 template<>
@@ -84,5 +76,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* unumber = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StringBuilderExtension*), "AppendNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sb, unumber});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::StringBuilderExtension::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::StringBuilderExtension::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StringBuilderExtension*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

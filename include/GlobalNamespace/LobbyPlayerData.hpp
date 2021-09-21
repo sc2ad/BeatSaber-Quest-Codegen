@@ -22,24 +22,28 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LobbyPlayerData : public GlobalNamespace::LevelGameplaySetupData/*, public GlobalNamespace::ILobbyPlayerData*/ {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xF0300C
     // private System.Boolean <isPartyOwner>k__BackingField
     // Size: 0x1
     // Offset: 0x2C
     bool isPartyOwner;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    // [CompilerGeneratedAttribute] Offset: 0xF0301C
     // private System.Boolean <isActive>k__BackingField
     // Size: 0x1
     // Offset: 0x2D
     bool isActive;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    // [CompilerGeneratedAttribute] Offset: 0xF0302C
     // private System.Boolean <isReady>k__BackingField
     // Size: 0x1
     // Offset: 0x2E
     bool isReady;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    // [CompilerGeneratedAttribute] Offset: 0xF0303C
     // private System.Boolean <isInLobby>k__BackingField
     // Size: 0x1
     // Offset: 0x2F
@@ -61,31 +65,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <isInLobby>k__BackingField
     bool& dyn_$isInLobby$k__BackingField();
     // public System.Boolean get_isPartyOwner()
-    // Offset: 0x120DDA4
+    // Offset: 0x131A724
     bool get_isPartyOwner();
     // public System.Void set_isPartyOwner(System.Boolean value)
-    // Offset: 0x120DDAC
+    // Offset: 0x131A72C
     void set_isPartyOwner(bool value);
     // public System.Boolean get_isActive()
-    // Offset: 0x120DDB8
+    // Offset: 0x131A738
     bool get_isActive();
     // public System.Void set_isActive(System.Boolean value)
-    // Offset: 0x120DDC0
+    // Offset: 0x131A740
     void set_isActive(bool value);
     // public System.Boolean get_isReady()
-    // Offset: 0x120DDCC
+    // Offset: 0x131A74C
     bool get_isReady();
     // public System.Void set_isReady(System.Boolean value)
-    // Offset: 0x120DDD4
+    // Offset: 0x131A754
     void set_isReady(bool value);
     // public System.Boolean get_isInLobby()
-    // Offset: 0x120DDE0
+    // Offset: 0x131A760
     bool get_isInLobby();
     // public System.Void set_isInLobby(System.Boolean value)
-    // Offset: 0x120DDE8
+    // Offset: 0x131A768
     void set_isInLobby(bool value);
     // public System.Void .ctor()
-    // Offset: 0x120DDF4
+    // Offset: 0x131A774
     // Implemented from: LevelGameplaySetupData
     // Base method: System.Void LevelGameplaySetupData::.ctor()
     // Base method: System.Void Object::.ctor()

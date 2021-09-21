@@ -42,19 +42,19 @@ namespace GlobalNamespace {
     // Set static field: static private SteamVR_TrackedCamera/VideoStream[] videostreams
     static void _set_videostreams(::Array<GlobalNamespace::SteamVR_TrackedCamera::VideoStream*>* value);
     // static public SteamVR_TrackedCamera/VideoStreamTexture Distorted(System.Int32 deviceIndex)
-    // Offset: 0x17039E8
+    // Offset: 0x187F3E4
     static GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture* Distorted(int deviceIndex);
     // static public SteamVR_TrackedCamera/VideoStreamTexture Undistorted(System.Int32 deviceIndex)
-    // Offset: 0x1703B88
+    // Offset: 0x187F584
     static GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture* Undistorted(int deviceIndex);
     // static public SteamVR_TrackedCamera/VideoStreamTexture Source(System.Boolean undistorted, System.Int32 deviceIndex)
-    // Offset: 0x1703CD8
+    // Offset: 0x187F6D4
     static GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture* Source(bool undistorted, int deviceIndex);
     // static private SteamVR_TrackedCamera/VideoStream Stream(System.UInt32 deviceIndex)
-    // Offset: 0x1703CEC
+    // Offset: 0x187F6E8
     static GlobalNamespace::SteamVR_TrackedCamera::VideoStream* Stream(uint deviceIndex);
     // public System.Void .ctor()
-    // Offset: 0x1703EC0
+    // Offset: 0x187F8BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

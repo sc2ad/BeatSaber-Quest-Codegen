@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean failOnSaberClash
     bool& dyn_failOnSaberClash();
     // public System.Void .ctor(GameplayModifiers/EnergyType energyType, System.Boolean noFail, System.Boolean instaFail, System.Boolean failOnSaberClash)
-    // Offset: 0x1064AD8
+    // Offset: 0x11D4D14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameEnergyCounter::InitData* New_ctor(GlobalNamespace::GameplayModifiers::EnergyType energyType, bool noFail, bool instaFail, bool failOnSaberClash) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameEnergyCounter::InitData::.ctor");

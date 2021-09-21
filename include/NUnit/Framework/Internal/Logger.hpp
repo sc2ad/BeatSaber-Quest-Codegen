@@ -73,23 +73,20 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.IO.TextWriter writer
     System::IO::TextWriter*& dyn_writer();
     // public System.Void .ctor(System.String name, NUnit.Framework.Internal.InternalTraceLevel level, System.IO.TextWriter writer)
-    // Offset: 0x2294AA8
+    // Offset: 0x249CDF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Logger* New_ctor(::Il2CppString* name, NUnit::Framework::Internal::InternalTraceLevel level, System::IO::TextWriter* writer) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Logger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Logger*, creationType>(name, level, writer)));
     }
-    // static private System.Void .cctor()
-    // Offset: 0x229512C
-    static void _cctor();
     // public System.Void Error(System.String message)
-    // Offset: 0x2294DD4
+    // Offset: 0x249D11C
     void Error(::Il2CppString* message);
     // public System.Void Debug(System.String message)
-    // Offset: 0x2294E14
+    // Offset: 0x249D15C
     void Debug(::Il2CppString* message);
     // public System.Void Debug(System.String message, params System.Object[] args)
-    // Offset: 0x2294E38
+    // Offset: 0x249D180
     void Debug(::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void Debug(System.String message, params System.Object[] args)
     void Debug(::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
@@ -99,10 +96,10 @@ namespace NUnit::Framework::Internal {
       Debug(message, {args...});
     }
     // private System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String message)
-    // Offset: 0x2294DF8
+    // Offset: 0x249D140
     void Log(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* message);
     // private System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String format, params System.Object[] args)
-    // Offset: 0x2294E48
+    // Offset: 0x249D190
     void Log(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String format, params System.Object[] args)
     void Log(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
@@ -112,8 +109,11 @@ namespace NUnit::Framework::Internal {
       Log(level, format, {args...});
     }
     // private System.Void WriteLog(NUnit.Framework.Internal.InternalTraceLevel level, System.String message)
-    // Offset: 0x2294E94
+    // Offset: 0x249D1DC
     void WriteLog(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* message);
+    // static private System.Void .cctor()
+    // Offset: 0x249D474
+    static void _cctor();
   }; // NUnit.Framework.Internal.Logger
   #pragma pack(pop)
   static check_size<sizeof(Logger), 40 + sizeof(System::IO::TextWriter*)> __NUnit_Framework_Internal_LoggerSizeCheck;
@@ -125,14 +125,6 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Logger*, "NUnit.Framework.Int
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: NUnit::Framework::Internal::Logger::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::Internal::Logger::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Logger*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Logger::Error
 // Il2CppName: Error
 template<>
@@ -190,5 +182,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
     static auto* level = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "InternalTraceLevel")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Logger*), "WriteLog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{level, message});
+  }
+};
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Logger::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::Internal::Logger::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Logger*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

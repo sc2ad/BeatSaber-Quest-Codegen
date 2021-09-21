@@ -102,12 +102,14 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionObjectiveTypeSO* missionObjectiveType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionObjectiveTypeSO*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF08128
     // private System.Action`1<MissionObjectiveChecker> statusDidChangeEvent
     // Size: 0x8
     // Offset: 0x20
     System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* statusDidChangeEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF08138
     // private System.Action`1<MissionObjectiveChecker> checkedValueDidChangeEvent
     // Size: 0x8
     // Offset: 0x28
@@ -156,50 +158,50 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionObjective*& dyn__missionObjective();
     // Get instance field reference: private System.Boolean _disableChecking
     bool& dyn__disableChecking();
-    // public MissionObjectiveTypeSO get_missionObjectiveType()
-    // Offset: 0x11449EC
-    GlobalNamespace::MissionObjectiveTypeSO* get_missionObjectiveType();
-    // public MissionObjective get_missionObjective()
-    // Offset: 0x11449F4
-    GlobalNamespace::MissionObjective* get_missionObjective();
-    // public System.Boolean get_disableChecking()
-    // Offset: 0x11449FC
-    bool get_disableChecking();
-    // public System.Void set_disableChecking(System.Boolean value)
-    // Offset: 0x1144A04
-    void set_disableChecking(bool value);
-    // public MissionObjectiveChecker/Status get_status()
-    // Offset: 0x1144A10
-    GlobalNamespace::MissionObjectiveChecker::Status get_status();
-    // protected System.Void set_status(MissionObjectiveChecker/Status value)
-    // Offset: 0x113CD3C
-    void set_status(GlobalNamespace::MissionObjectiveChecker::Status value);
-    // public System.Int32 get_checkedValue()
-    // Offset: 0x1144A18
-    int get_checkedValue();
-    // protected System.Void set_checkedValue(System.Int32 value)
-    // Offset: 0x113CEC8
-    void set_checkedValue(int value);
     // public System.Void add_statusDidChangeEvent(System.Action`1<MissionObjectiveChecker> value)
-    // Offset: 0x114475C
+    // Offset: 0x118B2AC
     void add_statusDidChangeEvent(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* value);
     // public System.Void remove_statusDidChangeEvent(System.Action`1<MissionObjectiveChecker> value)
-    // Offset: 0x1144800
+    // Offset: 0x118B350
     void remove_statusDidChangeEvent(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* value);
     // public System.Void add_checkedValueDidChangeEvent(System.Action`1<MissionObjectiveChecker> value)
-    // Offset: 0x11448A4
+    // Offset: 0x118B3F4
     void add_checkedValueDidChangeEvent(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* value);
     // public System.Void remove_checkedValueDidChangeEvent(System.Action`1<MissionObjectiveChecker> value)
-    // Offset: 0x1144948
+    // Offset: 0x118B498
     void remove_checkedValueDidChangeEvent(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>* value);
+    // public MissionObjectiveTypeSO get_missionObjectiveType()
+    // Offset: 0x118B53C
+    GlobalNamespace::MissionObjectiveTypeSO* get_missionObjectiveType();
+    // public MissionObjective get_missionObjective()
+    // Offset: 0x118B544
+    GlobalNamespace::MissionObjective* get_missionObjective();
+    // public System.Boolean get_disableChecking()
+    // Offset: 0x118B54C
+    bool get_disableChecking();
+    // public System.Void set_disableChecking(System.Boolean value)
+    // Offset: 0x118B554
+    void set_disableChecking(bool value);
+    // public MissionObjectiveChecker/Status get_status()
+    // Offset: 0x118B560
+    GlobalNamespace::MissionObjectiveChecker::Status get_status();
+    // protected System.Void set_status(MissionObjectiveChecker/Status value)
+    // Offset: 0x1183EC8
+    void set_status(GlobalNamespace::MissionObjectiveChecker::Status value);
+    // public System.Int32 get_checkedValue()
+    // Offset: 0x118B568
+    int get_checkedValue();
+    // protected System.Void set_checkedValue(System.Int32 value)
+    // Offset: 0x1184054
+    void set_checkedValue(int value);
     // public System.Void SetCheckedMissionObjective(MissionObjective missionObjective)
-    // Offset: 0x1144A20
+    // Offset: 0x118B570
     void SetCheckedMissionObjective(GlobalNamespace::MissionObjective* missionObjective);
     // protected System.Void Init()
     // Offset: 0xFFFFFFFF
     void Init();
     // protected System.Void .ctor()
-    // Offset: 0x1144A30
+    // Offset: 0x118B580
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -219,6 +221,42 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveChecker*, "", "MissionObjectiveChecker");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveChecker::Status, "", "MissionObjectiveChecker/Status");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::add_statusDidChangeEvent
+// Il2CppName: add_statusDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*)>(&GlobalNamespace::MissionObjectiveChecker::add_statusDidChangeEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MissionObjectiveChecker")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "add_statusDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::remove_statusDidChangeEvent
+// Il2CppName: remove_statusDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*)>(&GlobalNamespace::MissionObjectiveChecker::remove_statusDidChangeEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MissionObjectiveChecker")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "remove_statusDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::add_checkedValueDidChangeEvent
+// Il2CppName: add_checkedValueDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*)>(&GlobalNamespace::MissionObjectiveChecker::add_checkedValueDidChangeEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MissionObjectiveChecker")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "add_checkedValueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::remove_checkedValueDidChangeEvent
+// Il2CppName: remove_checkedValueDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*)>(&GlobalNamespace::MissionObjectiveChecker::remove_checkedValueDidChangeEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MissionObjectiveChecker")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "remove_checkedValueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::get_missionObjectiveType
 // Il2CppName: get_missionObjectiveType
 template<>
@@ -284,42 +322,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "set_checkedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::add_statusDidChangeEvent
-// Il2CppName: add_statusDidChangeEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*)>(&GlobalNamespace::MissionObjectiveChecker::add_statusDidChangeEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MissionObjectiveChecker")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "add_statusDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::remove_statusDidChangeEvent
-// Il2CppName: remove_statusDidChangeEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*)>(&GlobalNamespace::MissionObjectiveChecker::remove_statusDidChangeEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MissionObjectiveChecker")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "remove_statusDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::add_checkedValueDidChangeEvent
-// Il2CppName: add_checkedValueDidChangeEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*)>(&GlobalNamespace::MissionObjectiveChecker::add_checkedValueDidChangeEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MissionObjectiveChecker")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "add_checkedValueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::remove_checkedValueDidChangeEvent
-// Il2CppName: remove_checkedValueDidChangeEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*)>(&GlobalNamespace::MissionObjectiveChecker::remove_checkedValueDidChangeEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MissionObjectiveChecker")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "remove_checkedValueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::SetCheckedMissionObjective

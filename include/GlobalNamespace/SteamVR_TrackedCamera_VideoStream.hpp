@@ -20,6 +20,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_TrackedCamera::VideoStream : public ::Il2CppObject {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xEB6BC8
     // private System.UInt32 <deviceIndex>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -58,30 +59,30 @@ namespace GlobalNamespace {
     bool& dyn__hasCamera();
     // Get instance field reference: private System.UInt64 refCount
     uint64_t& dyn_refCount();
-    // public System.UInt32 get_deviceIndex()
-    // Offset: 0x1703EE8
-    uint get_deviceIndex();
-    // private System.Void set_deviceIndex(System.UInt32 value)
-    // Offset: 0x1703EF0
-    void set_deviceIndex(uint value);
-    // public System.UInt64 get_handle()
-    // Offset: 0x1703EF8
-    uint64_t get_handle();
-    // public System.Boolean get_hasCamera()
-    // Offset: 0x1703F00
-    bool get_hasCamera();
     // public System.Void .ctor(System.UInt32 deviceIndex)
-    // Offset: 0x1703E20
+    // Offset: 0x187F81C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_TrackedCamera::VideoStream* New_ctor(uint deviceIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_TrackedCamera::VideoStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_TrackedCamera::VideoStream*, creationType>(deviceIndex)));
     }
+    // public System.UInt32 get_deviceIndex()
+    // Offset: 0x187F8E4
+    uint get_deviceIndex();
+    // private System.Void set_deviceIndex(System.UInt32 value)
+    // Offset: 0x187F8EC
+    void set_deviceIndex(uint value);
+    // public System.UInt64 get_handle()
+    // Offset: 0x187F8F4
+    uint64_t get_handle();
+    // public System.Boolean get_hasCamera()
+    // Offset: 0x187F8FC
+    bool get_hasCamera();
     // public System.UInt64 Acquire()
-    // Offset: 0x1703F08
+    // Offset: 0x187F904
     uint64_t Acquire();
     // public System.UInt64 Release()
-    // Offset: 0x1703FC4
+    // Offset: 0x187F9C0
     uint64_t Release();
   }; // SteamVR_TrackedCamera/VideoStream
   #pragma pack(pop)
@@ -90,6 +91,10 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TrackedCamera::VideoStream*, "", "SteamVR_TrackedCamera/VideoStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStream::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStream::get_deviceIndex
 // Il2CppName: get_deviceIndex
 template<>
@@ -123,10 +128,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStream*), "get_hasCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStream::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStream::Acquire
 // Il2CppName: Acquire
 template<>

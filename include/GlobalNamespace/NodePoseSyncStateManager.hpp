@@ -43,49 +43,49 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::INodePoseSyncStateManager*>(this);
     }
     // protected IPacketPool`1<NodePoseSyncStateNetSerializable> get_serializablePool()
-    // Offset: 0x104D584
+    // Offset: 0x113C524
     GlobalNamespace::IPacketPool_1<GlobalNamespace::NodePoseSyncStateNetSerializable*>* get_serializablePool();
     // protected IPacketPool`1<NodePoseSyncStateDeltaNetSerializable> get_deltaSerializablePool()
-    // Offset: 0x104D58C
+    // Offset: 0x113C52C
     GlobalNamespace::IPacketPool_1<GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>* get_deltaSerializablePool();
     // protected PoseSerializable Interpolate(PoseSerializable prev, System.Single prevTime, PoseSerializable curr, System.Single currTime, System.Single time)
-    // Offset: 0x104D604
+    // Offset: 0x113C5A4
     GlobalNamespace::PoseSerializable Interpolate(GlobalNamespace::PoseSerializable prev, float prevTime, GlobalNamespace::PoseSerializable curr, float currTime, float time);
     // protected PoseSerializable Smooth(PoseSerializable a, PoseSerializable b, System.Single smooth)
-    // Offset: 0x104D64C
+    // Offset: 0x113C5EC
     GlobalNamespace::PoseSerializable Smooth(GlobalNamespace::PoseSerializable a, GlobalNamespace::PoseSerializable b, float smooth);
     // protected override System.Single get_deltaUpdateFrequency()
-    // Offset: 0x104D55C
+    // Offset: 0x113C4FC
     // Implemented from: MultiplayerSyncStateManager`5
     // Base method: System.Single MultiplayerSyncStateManager_5::get_deltaUpdateFrequency()
     float get_deltaUpdateFrequency();
     // protected override System.Single get_fullStateUpdateFrequency()
-    // Offset: 0x104D568
+    // Offset: 0x113C508
     // Implemented from: MultiplayerSyncStateManager`5
     // Base method: System.Single MultiplayerSyncStateManager_5::get_fullStateUpdateFrequency()
     float get_fullStateUpdateFrequency();
     // protected override System.Int32 get_localBufferSize()
-    // Offset: 0x104D574
+    // Offset: 0x113C514
     // Implemented from: MultiplayerSyncStateManager`5
     // Base method: System.Int32 MultiplayerSyncStateManager_5::get_localBufferSize()
     int get_localBufferSize();
     // protected override System.Int32 get_remoteBufferSize()
-    // Offset: 0x104D57C
+    // Offset: 0x113C51C
     // Implemented from: MultiplayerSyncStateManager`5
     // Base method: System.Int32 MultiplayerSyncStateManager_5::get_remoteBufferSize()
     int get_remoteBufferSize();
     // protected override MultiplayerSessionManager/MessageType get_messageType()
-    // Offset: 0x104D5F4
+    // Offset: 0x113C594
     // Implemented from: MultiplayerSyncStateManager`5
     // Base method: MultiplayerSessionManager/MessageType MultiplayerSyncStateManager_5::get_messageType()
     GlobalNamespace::MultiplayerSessionManager_MessageType get_messageType();
     // protected override MultiplayerSessionManager/MessageType get_deltaMessageType()
-    // Offset: 0x104D5FC
+    // Offset: 0x113C59C
     // Implemented from: MultiplayerSyncStateManager`5
     // Base method: MultiplayerSessionManager/MessageType MultiplayerSyncStateManager_5::get_deltaMessageType()
     GlobalNamespace::MultiplayerSessionManager_MessageType get_deltaMessageType();
     // public System.Void .ctor()
-    // Offset: 0x104D694
+    // Offset: 0x113C634
     // Implemented from: MultiplayerSyncStateManager`5
     // Base method: System.Void MultiplayerSyncStateManager_5::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

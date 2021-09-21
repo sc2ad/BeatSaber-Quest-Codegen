@@ -41,20 +41,21 @@ namespace GlobalNamespace {
     char ___base_padding[0x4] = {};
     // Nested type: GlobalNamespace::MissionSelectionNavigationController::$$c__DisplayClass11_0
     class $$c__DisplayClass11_0;
-    // [InjectAttribute] Offset: 0xE4840C
+    // [InjectAttribute] Offset: 0xF10E20
     // private MissionSelectionMapViewController _missionSelectionMapViewController
     // Size: 0x8
     // Offset: 0x98
     GlobalNamespace::MissionSelectionMapViewController* missionSelectionMapViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionSelectionMapViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE4841C
+    // [InjectAttribute] Offset: 0xF10E30
     // private MissionLevelDetailViewController _missionLevelDetailViewController
     // Size: 0x8
     // Offset: 0xA0
     GlobalNamespace::MissionLevelDetailViewController* missionLevelDetailViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionLevelDetailViewController*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF10E40
     // private System.Action`1<MissionSelectionNavigationController> didPressPlayButtonEvent
     // Size: 0x8
     // Offset: 0xA8
@@ -69,26 +70,36 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionLevelDetailViewController*& dyn__missionLevelDetailViewController();
     // Get instance field reference: private System.Action`1<MissionSelectionNavigationController> didPressPlayButtonEvent
     System::Action_1<GlobalNamespace::MissionSelectionNavigationController*>*& dyn_didPressPlayButtonEvent();
-    // public MissionNode get_selectedMissionNode()
-    // Offset: 0x11470F4
-    GlobalNamespace::MissionNode* get_selectedMissionNode();
     // public System.Void add_didPressPlayButtonEvent(System.Action`1<MissionSelectionNavigationController> value)
-    // Offset: 0x1146FAC
+    // Offset: 0x118DAFC
     void add_didPressPlayButtonEvent(System::Action_1<GlobalNamespace::MissionSelectionNavigationController*>* value);
     // public System.Void remove_didPressPlayButtonEvent(System.Action`1<MissionSelectionNavigationController> value)
-    // Offset: 0x1147050
+    // Offset: 0x118DBA0
     void remove_didPressPlayButtonEvent(System::Action_1<GlobalNamespace::MissionSelectionNavigationController*>* value);
+    // public MissionNode get_selectedMissionNode()
+    // Offset: 0x118DC44
+    GlobalNamespace::MissionNode* get_selectedMissionNode();
     // private System.Void HandleMissionSelectionMapViewControllerDidSelectMissionLevel(MissionSelectionMapViewController viewController, MissionNode _missionNode)
-    // Offset: 0x114735C
+    // Offset: 0x118DEAC
     void HandleMissionSelectionMapViewControllerDidSelectMissionLevel(GlobalNamespace::MissionSelectionMapViewController* viewController, GlobalNamespace::MissionNode* _missionNode);
     // private System.Void HandleMissionLevelDetailViewControllerDidPressPlayButton(MissionLevelDetailViewController viewController)
-    // Offset: 0x11473D4
+    // Offset: 0x118DF24
     void HandleMissionLevelDetailViewControllerDidPressPlayButton(GlobalNamespace::MissionLevelDetailViewController* viewController);
     // public System.Void PresentMissionClearedIfNeeded(System.Action`1<System.Boolean> finishedCallback)
-    // Offset: 0x1147438
+    // Offset: 0x118DF88
     void PresentMissionClearedIfNeeded(System::Action_1<bool>* finishedCallback);
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x118DC60
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Offset: 0x118DDBC
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x1147540
+    // Offset: 0x118E090
     // Implemented from: HMUI.NavigationController
     // Base method: System.Void NavigationController::.ctor()
     // Base method: System.Void ContainerViewController::.ctor()
@@ -103,16 +114,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionSelectionNavigationController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionSelectionNavigationController*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1147110
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x114726C
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
   }; // MissionSelectionNavigationController
   #pragma pack(pop)
   static check_size<sizeof(MissionSelectionNavigationController), 168 + sizeof(System::Action_1<GlobalNamespace::MissionSelectionNavigationController*>*)> __GlobalNamespace_MissionSelectionNavigationControllerSizeCheck;
@@ -120,14 +121,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionSelectionNavigationController*, "", "MissionSelectionNavigationController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::MissionSelectionNavigationController::get_selectedMissionNode
-// Il2CppName: get_selectedMissionNode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionNode* (GlobalNamespace::MissionSelectionNavigationController::*)()>(&GlobalNamespace::MissionSelectionNavigationController::get_selectedMissionNode)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionSelectionNavigationController*), "get_selectedMissionNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::MissionSelectionNavigationController::add_didPressPlayButtonEvent
 // Il2CppName: add_didPressPlayButtonEvent
 template<>
@@ -144,6 +137,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MissionSelectionNavigationController")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionSelectionNavigationController*), "remove_didPressPlayButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MissionSelectionNavigationController::get_selectedMissionNode
+// Il2CppName: get_selectedMissionNode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionNode* (GlobalNamespace::MissionSelectionNavigationController::*)()>(&GlobalNamespace::MissionSelectionNavigationController::get_selectedMissionNode)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionSelectionNavigationController*), "get_selectedMissionNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MissionSelectionNavigationController::HandleMissionSelectionMapViewControllerDidSelectMissionLevel
@@ -174,10 +175,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionSelectionNavigationController*), "PresentMissionClearedIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{finishedCallback});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MissionSelectionNavigationController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionSelectionNavigationController::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -199,3 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionSelectionNavigationController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{removedFromHierarchy, screenSystemDisabling});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MissionSelectionNavigationController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -270,40 +270,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly LazyCopyHashSet`1<INoteCutSoundEffectDidFinishEvent> _didFinishEvent
     GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>*& dyn__didFinishEvent();
     // public ILazyCopyHashSet`1<INoteCutSoundEffectDidFinishEvent> get_didFinishEvent()
-    // Offset: 0x104FD04
+    // Offset: 0x1352698
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>* get_didFinishEvent();
-    // public System.Single get_volumeMultiplier()
-    // Offset: 0x104FD14
-    float get_volumeMultiplier();
     // public System.Void set_volumeMultiplier(System.Single value)
-    // Offset: 0x104FD0C
+    // Offset: 0x13526A0
     void set_volumeMultiplier(float value);
+    // public System.Single get_volumeMultiplier()
+    // Offset: 0x13526A8
+    float get_volumeMultiplier();
     // public System.Single get_time()
-    // Offset: 0x104FD1C
+    // Offset: 0x13526B0
     float get_time();
     // protected System.Void Awake()
-    // Offset: 0x104FD4C
+    // Offset: 0x13526E0
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x104FDCC
+    // Offset: 0x1352760
     void Start();
     // public System.Void Init(UnityEngine.AudioClip audioClip, NoteController noteController, System.Double noteDSPTime, System.Single aheadTime, System.Single missedTimeOffset, System.Single timeToPrevNote, System.Single timeToNextNote, Saber saber, System.Boolean handleWrongSaberTypeAsGood, System.Single volumeMultiplier, System.Boolean ignoreSaberSpeed, System.Boolean ignoreBadCuts)
-    // Offset: 0x104FDEC
+    // Offset: 0x1352780
     void Init(UnityEngine::AudioClip* audioClip, GlobalNamespace::NoteController* noteController, double noteDSPTime, float aheadTime, float missedTimeOffset, float timeToPrevNote, float timeToNextNote, GlobalNamespace::Saber* saber, bool handleWrongSaberTypeAsGood, float volumeMultiplier, bool ignoreSaberSpeed, bool ignoreBadCuts);
     // private System.Void ComputeDSPTimes(System.Double noteDSPTime, System.Single aheadTime, System.Single timeToPrevNote, System.Single timeToNextNote)
-    // Offset: 0x104FF70
+    // Offset: 0x1352904
     void ComputeDSPTimes(double noteDSPTime, float aheadTime, float timeToPrevNote, float timeToNextNote);
     // protected System.Void LateUpdate()
-    // Offset: 0x1050060
+    // Offset: 0x13529F4
     void LateUpdate();
     // public System.Void StopPlayingAndFinish()
-    // Offset: 0x105028C
+    // Offset: 0x1352C20
     void StopPlayingAndFinish();
     // public System.Void NoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x1050428
+    // Offset: 0x1352DBC
     void NoteWasCut(GlobalNamespace::NoteController* noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0x105065C
+    // Offset: 0x1352FF0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -330,14 +330,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutSoundEffect*), "get_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffect::get_volumeMultiplier
-// Il2CppName: get_volumeMultiplier
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::NoteCutSoundEffect::*)()>(&GlobalNamespace::NoteCutSoundEffect::get_volumeMultiplier)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutSoundEffect*), "get_volumeMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffect::set_volumeMultiplier
 // Il2CppName: set_volumeMultiplier
 template<>
@@ -345,6 +337,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutSoundEffect*), "set_volumeMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffect::get_volumeMultiplier
+// Il2CppName: get_volumeMultiplier
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::NoteCutSoundEffect::*)()>(&GlobalNamespace::NoteCutSoundEffect::get_volumeMultiplier)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutSoundEffect*), "get_volumeMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffect::get_time

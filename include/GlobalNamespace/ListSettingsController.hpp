@@ -48,16 +48,26 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* TextForValue(int idx);
     // protected System.Void OnEnable()
-    // Offset: 0x12087E8
+    // Offset: 0x1315168
     void OnEnable();
     // private System.Void RefreshUI()
-    // Offset: 0x120882C
+    // Offset: 0x13151AC
     void RefreshUI();
     // public System.Void Refresh(System.Boolean applyValue)
-    // Offset: 0x1208898
+    // Offset: 0x1315218
     void Refresh(bool applyValue);
+    // protected override System.Void IncButtonPressed()
+    // Offset: 0x1315278
+    // Implemented from: IncDecSettingsController
+    // Base method: System.Void IncDecSettingsController::IncButtonPressed()
+    void IncButtonPressed();
+    // protected override System.Void DecButtonPressed()
+    // Offset: 0x13152C4
+    // Implemented from: IncDecSettingsController
+    // Base method: System.Void IncDecSettingsController::DecButtonPressed()
+    void DecButtonPressed();
     // protected System.Void .ctor()
-    // Offset: 0x1208988
+    // Offset: 0x1315308
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -70,16 +80,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ListSettingsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListSettingsController*, creationType>()));
     }
-    // protected override System.Void IncButtonPressed()
-    // Offset: 0x12088F8
-    // Implemented from: IncDecSettingsController
-    // Base method: System.Void IncDecSettingsController::IncButtonPressed()
-    void IncButtonPressed();
-    // protected override System.Void DecButtonPressed()
-    // Offset: 0x1208944
-    // Implemented from: IncDecSettingsController
-    // Base method: System.Void IncDecSettingsController::DecButtonPressed()
-    void DecButtonPressed();
   }; // ListSettingsController
   #pragma pack(pop)
   static check_size<sizeof(ListSettingsController), 36 + sizeof(int)> __GlobalNamespace_ListSettingsControllerSizeCheck;
@@ -140,10 +140,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ListSettingsController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{applyValue});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ListSettingsController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ListSettingsController::IncButtonPressed
 // Il2CppName: IncButtonPressed
 template<>
@@ -160,3 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ListSettingsController*), "DecButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ListSettingsController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

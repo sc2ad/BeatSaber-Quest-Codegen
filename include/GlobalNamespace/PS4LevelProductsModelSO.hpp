@@ -64,16 +64,21 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,PS4LevelProductsModelSO/LevelPackProductData> _levelPackIdToProductData
     System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>*& dyn__levelPackIdToProductData();
     // public PS4LevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
-    // Offset: 0x10359F0
+    // Offset: 0x1124E60
     ::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>* get_levelPackProductsData();
     // public PS4LevelProductsModelSO/LevelProductData GetLevelProductData(System.String levelId)
-    // Offset: 0x1035B50
+    // Offset: 0x1124FC0
     GlobalNamespace::PS4LevelProductsModelSO::LevelProductData* GetLevelProductData(::Il2CppString* levelId);
     // public PS4LevelProductsModelSO/LevelPackProductData GetLevelPackProductData(System.String levelPackId)
-    // Offset: 0x1035BD0
+    // Offset: 0x1125040
     GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::Il2CppString* levelPackId);
+    // protected override System.Void OnEnable()
+    // Offset: 0x1124E68
+    // Implemented from: PersistentScriptableObject
+    // Base method: System.Void PersistentScriptableObject::OnEnable()
+    void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x1035C50
+    // Offset: 0x11250C0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -84,11 +89,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PS4LevelProductsModelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PS4LevelProductsModelSO*, creationType>()));
     }
-    // protected override System.Void OnEnable()
-    // Offset: 0x10359F8
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::OnEnable()
-    void OnEnable();
   }; // PS4LevelProductsModelSO
   #pragma pack(pop)
   static check_size<sizeof(PS4LevelProductsModelSO), 40 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>*)> __GlobalNamespace_PS4LevelProductsModelSOSizeCheck;
@@ -122,10 +122,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4LevelProductsModelSO*), "GetLevelPackProductData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelPackId});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PS4LevelProductsModelSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PS4LevelProductsModelSO::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -134,3 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4LevelProductsModelSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PS4LevelProductsModelSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

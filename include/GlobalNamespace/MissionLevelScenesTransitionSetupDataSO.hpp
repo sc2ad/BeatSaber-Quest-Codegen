@@ -59,18 +59,21 @@ namespace GlobalNamespace {
     GlobalNamespace::SceneInfo* gameCoreSceneInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SceneInfo*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF14FBC
     // private System.Action`2<MissionLevelScenesTransitionSetupDataSO,MissionCompletionResults> didFinishEvent
     // Size: 0x8
     // Offset: 0x38
     System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF14FCC
     // private System.String <missionId>k__BackingField
     // Size: 0x8
     // Offset: 0x40
     ::Il2CppString* missionId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF14FDC
     // private IDifficultyBeatmap <difficultyBeatmap>k__BackingField
     // Size: 0x8
     // Offset: 0x48
@@ -89,32 +92,32 @@ namespace GlobalNamespace {
     ::Il2CppString*& dyn_$missionId$k__BackingField();
     // Get instance field reference: private IDifficultyBeatmap <difficultyBeatmap>k__BackingField
     GlobalNamespace::IDifficultyBeatmap*& dyn_$difficultyBeatmap$k__BackingField();
-    // public System.String get_missionId()
-    // Offset: 0x1140FC8
-    ::Il2CppString* get_missionId();
-    // private System.Void set_missionId(System.String value)
-    // Offset: 0x1140FD0
-    void set_missionId(::Il2CppString* value);
-    // public IDifficultyBeatmap get_difficultyBeatmap()
-    // Offset: 0x1140FD8
-    GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
-    // private System.Void set_difficultyBeatmap(IDifficultyBeatmap value)
-    // Offset: 0x1140FE0
-    void set_difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
     // public System.Void add_didFinishEvent(System.Action`2<MissionLevelScenesTransitionSetupDataSO,MissionCompletionResults> value)
-    // Offset: 0x113E714
+    // Offset: 0x1180DD0
     void add_didFinishEvent(System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<MissionLevelScenesTransitionSetupDataSO,MissionCompletionResults> value)
-    // Offset: 0x113E848
+    // Offset: 0x1180D2C
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* value);
+    // public System.String get_missionId()
+    // Offset: 0x1187B1C
+    ::Il2CppString* get_missionId();
+    // private System.Void set_missionId(System.String value)
+    // Offset: 0x1187B24
+    void set_missionId(::Il2CppString* value);
+    // public IDifficultyBeatmap get_difficultyBeatmap()
+    // Offset: 0x1187B2C
+    GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
+    // private System.Void set_difficultyBeatmap(IDifficultyBeatmap value)
+    // Offset: 0x1187B34
+    void set_difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
     // public System.Void Init(System.String missionId, IDifficultyBeatmap difficultyBeatmap, IPreviewBeatmapLevel previewBeatmapLevel, MissionObjective[] missionObjectives, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, System.String backButtonText)
-    // Offset: 0x1140964
+    // Offset: 0x1180E74
     void Init(::Il2CppString* missionId, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::Array<GlobalNamespace::MissionObjective*>* missionObjectives, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::Il2CppString* backButtonText);
     // public System.Void Finish(MissionCompletionResults levelCompletionResults)
-    // Offset: 0x113F748
+    // Offset: 0x1186790
     void Finish(GlobalNamespace::MissionCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0x1140FE8
+    // Offset: 0x1187B3C
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -133,6 +136,24 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, "", "MissionLevelScenesTransitionSetupDataSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::add_didFinishEvent
+// Il2CppName: add_didFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>*)>(&GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::add_didFinishEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MissionLevelScenesTransitionSetupDataSO"), ::il2cpp_utils::GetClassFromName("", "MissionCompletionResults")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::remove_didFinishEvent
+// Il2CppName: remove_didFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>*)>(&GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::remove_didFinishEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MissionLevelScenesTransitionSetupDataSO"), ::il2cpp_utils::GetClassFromName("", "MissionCompletionResults")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::get_missionId
 // Il2CppName: get_missionId
 template<>
@@ -165,24 +186,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*), "set_difficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::add_didFinishEvent
-// Il2CppName: add_didFinishEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>*)>(&GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::add_didFinishEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MissionLevelScenesTransitionSetupDataSO"), ::il2cpp_utils::GetClassFromName("", "MissionCompletionResults")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::remove_didFinishEvent
-// Il2CppName: remove_didFinishEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>*)>(&GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::remove_didFinishEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MissionLevelScenesTransitionSetupDataSO"), ::il2cpp_utils::GetClassFromName("", "MissionCompletionResults")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::Init

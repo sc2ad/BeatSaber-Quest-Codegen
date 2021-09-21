@@ -27,6 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker : public ::Il2CppObject {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xEB3830
     // private System.Int32 <ReadCount>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -35,6 +36,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: ReadCount and: Clip
     char __padding0[0x4] = {};
+    // [CompilerGeneratedAttribute] Offset: 0xEB3840
     // private OVRHapticsClip <Clip>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -48,19 +50,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private OVRHapticsClip <Clip>k__BackingField
     GlobalNamespace::OVRHapticsClip*& dyn_$Clip$k__BackingField();
     // public System.Int32 get_ReadCount()
-    // Offset: 0x153F198
+    // Offset: 0x16C7EE0
     int get_ReadCount();
     // public System.Void set_ReadCount(System.Int32 value)
-    // Offset: 0x153F1A0
+    // Offset: 0x16C7EE8
     void set_ReadCount(int value);
     // public OVRHapticsClip get_Clip()
-    // Offset: 0x153F1A8
+    // Offset: 0x16C7EF0
     GlobalNamespace::OVRHapticsClip* get_Clip();
     // public System.Void set_Clip(OVRHapticsClip value)
-    // Offset: 0x153F1B0
+    // Offset: 0x16C7EF8
     void set_Clip(GlobalNamespace::OVRHapticsClip* value);
     // public System.Void .ctor(OVRHapticsClip clip)
-    // Offset: 0x153EF1C
+    // Offset: 0x16C7C64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker* New_ctor(GlobalNamespace::OVRHapticsClip* clip) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::.ctor");

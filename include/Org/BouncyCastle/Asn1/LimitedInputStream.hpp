@@ -46,18 +46,18 @@ namespace Org::BouncyCastle::Asn1 {
     System::IO::Stream*& dyn__in();
     // Get instance field reference: private System.Int32 _limit
     int& dyn__limit();
-    // System.Int32 get_Limit()
-    // Offset: 0x17B3A58
-    int get_Limit();
     // System.Void .ctor(System.IO.Stream inStream, System.Int32 limit)
-    // Offset: 0x17B2F90
+    // Offset: 0x196B7F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LimitedInputStream* New_ctor(System::IO::Stream* inStream, int limit) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::LimitedInputStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LimitedInputStream*, creationType>(inStream, limit)));
     }
+    // System.Int32 get_Limit()
+    // Offset: 0x196C2C0
+    int get_Limit();
     // protected System.Void SetParentEofDetect(System.Boolean on)
-    // Offset: 0x17B3A60
+    // Offset: 0x196C2C8
     void SetParentEofDetect(bool on);
   }; // Org.BouncyCastle.Asn1.LimitedInputStream
   #pragma pack(pop)
@@ -66,6 +66,10 @@ namespace Org::BouncyCastle::Asn1 {
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::LimitedInputStream*, "Org.BouncyCastle.Asn1", "LimitedInputStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::LimitedInputStream::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::LimitedInputStream::get_Limit
 // Il2CppName: get_Limit
 template<>
@@ -74,10 +78,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::LimitedInputStream*), "get_Limit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::LimitedInputStream::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::LimitedInputStream::SetParentEofDetect
 // Il2CppName: SetParentEofDetect
 template<>

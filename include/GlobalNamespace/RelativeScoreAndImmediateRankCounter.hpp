@@ -44,32 +44,35 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3EA74
+    // [InjectAttribute] Offset: 0xF073F8
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3EA84
+    // [InjectAttribute] Offset: 0xF07408
     // private readonly GameplayModifiers _gameplayModifiers
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF07418
     // private System.Action relativeScoreOrImmediateRankDidChangeEvent
     // Size: 0x8
     // Offset: 0x30
     System::Action* relativeScoreOrImmediateRankDidChangeEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF07428
     // private System.Single <relativeScore>k__BackingField
     // Size: 0x4
     // Offset: 0x38
     float relativeScore;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    // [CompilerGeneratedAttribute] Offset: 0xF07438
     // private RankModel/Rank <immediateRank>k__BackingField
     // Size: 0x4
     // Offset: 0x3C
@@ -92,38 +95,38 @@ namespace GlobalNamespace {
     float& dyn_$relativeScore$k__BackingField();
     // Get instance field reference: private RankModel/Rank <immediateRank>k__BackingField
     GlobalNamespace::RankModel::Rank& dyn_$immediateRank$k__BackingField();
-    // public System.Single get_relativeScore()
-    // Offset: 0x11277E0
-    float get_relativeScore();
-    // private System.Void set_relativeScore(System.Single value)
-    // Offset: 0x11277E8
-    void set_relativeScore(float value);
-    // public RankModel/Rank get_immediateRank()
-    // Offset: 0x11277F0
-    GlobalNamespace::RankModel::Rank get_immediateRank();
-    // private System.Void set_immediateRank(RankModel/Rank value)
-    // Offset: 0x11277F8
-    void set_immediateRank(GlobalNamespace::RankModel::Rank value);
     // public System.Void add_relativeScoreOrImmediateRankDidChangeEvent(System.Action value)
-    // Offset: 0x1127698
+    // Offset: 0x11C0D10
     void add_relativeScoreOrImmediateRankDidChangeEvent(System::Action* value);
     // public System.Void remove_relativeScoreOrImmediateRankDidChangeEvent(System.Action value)
-    // Offset: 0x112773C
+    // Offset: 0x11C0DB4
     void remove_relativeScoreOrImmediateRankDidChangeEvent(System::Action* value);
+    // public System.Single get_relativeScore()
+    // Offset: 0x11C0E58
+    float get_relativeScore();
+    // private System.Void set_relativeScore(System.Single value)
+    // Offset: 0x11C0E60
+    void set_relativeScore(float value);
+    // public RankModel/Rank get_immediateRank()
+    // Offset: 0x11C0E68
+    GlobalNamespace::RankModel::Rank get_immediateRank();
+    // private System.Void set_immediateRank(RankModel/Rank value)
+    // Offset: 0x11C0E70
+    void set_immediateRank(GlobalNamespace::RankModel::Rank value);
     // protected System.Void Start()
-    // Offset: 0x1127800
+    // Offset: 0x11C0E78
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1127938
+    // Offset: 0x11C0FB0
     void OnDestroy();
     // private System.Void HandleScoreControllerImmediateMaxPossibleScoreDidChange(System.Int32 immediateMaxPossibleScore, System.Int32 immediateMaxPossibleModifiedScore)
-    // Offset: 0x1127A38
+    // Offset: 0x11C10B0
     void HandleScoreControllerImmediateMaxPossibleScoreDidChange(int immediateMaxPossibleScore, int immediateMaxPossibleModifiedScore);
     // private System.Void UpdateRelativeScoreAndImmediateRank(System.Int32 score, System.Int32 modifiedScore, System.Int32 maxPossibleScore, System.Int32 maxPossibleModifiedScore)
-    // Offset: 0x1127B8C
+    // Offset: 0x11C1204
     void UpdateRelativeScoreAndImmediateRank(int score, int modifiedScore, int maxPossibleScore, int maxPossibleModifiedScore);
     // public System.Void .ctor()
-    // Offset: 0x1127C14
+    // Offset: 0x11C128C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -142,6 +145,24 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RelativeScoreAndImmediateRankCounter*, "", "RelativeScoreAndImmediateRankCounter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::RelativeScoreAndImmediateRankCounter::add_relativeScoreOrImmediateRankDidChangeEvent
+// Il2CppName: add_relativeScoreOrImmediateRankDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)(System::Action*)>(&GlobalNamespace::RelativeScoreAndImmediateRankCounter::add_relativeScoreOrImmediateRankDidChangeEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RelativeScoreAndImmediateRankCounter*), "add_relativeScoreOrImmediateRankDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::RelativeScoreAndImmediateRankCounter::remove_relativeScoreOrImmediateRankDidChangeEvent
+// Il2CppName: remove_relativeScoreOrImmediateRankDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)(System::Action*)>(&GlobalNamespace::RelativeScoreAndImmediateRankCounter::remove_relativeScoreOrImmediateRankDidChangeEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RelativeScoreAndImmediateRankCounter*), "remove_relativeScoreOrImmediateRankDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::RelativeScoreAndImmediateRankCounter::get_relativeScore
 // Il2CppName: get_relativeScore
 template<>
@@ -174,24 +195,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "RankModel/Rank")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RelativeScoreAndImmediateRankCounter*), "set_immediateRank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::RelativeScoreAndImmediateRankCounter::add_relativeScoreOrImmediateRankDidChangeEvent
-// Il2CppName: add_relativeScoreOrImmediateRankDidChangeEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)(System::Action*)>(&GlobalNamespace::RelativeScoreAndImmediateRankCounter::add_relativeScoreOrImmediateRankDidChangeEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RelativeScoreAndImmediateRankCounter*), "add_relativeScoreOrImmediateRankDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::RelativeScoreAndImmediateRankCounter::remove_relativeScoreOrImmediateRankDidChangeEvent
-// Il2CppName: remove_relativeScoreOrImmediateRankDidChangeEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)(System::Action*)>(&GlobalNamespace::RelativeScoreAndImmediateRankCounter::remove_relativeScoreOrImmediateRankDidChangeEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RelativeScoreAndImmediateRankCounter*), "remove_relativeScoreOrImmediateRankDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::RelativeScoreAndImmediateRankCounter::Start

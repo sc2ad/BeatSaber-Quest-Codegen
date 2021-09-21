@@ -38,12 +38,14 @@ namespace MasterServer {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
     char ___base_padding[0x4] = {};
+    // [CompilerGeneratedAttribute] Offset: 0xEDA220
     // private System.String <userId>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* userId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xEDA230
     // private System.String <userName>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -79,22 +81,37 @@ namespace MasterServer {
     // Get instance field reference: public readonly ByteArrayNetSerializable publicKey
     GlobalNamespace::ByteArrayNetSerializable*& dyn_publicKey();
     // public System.String get_userId()
-    // Offset: 0x121A450
+    // Offset: 0x12D97F0
     ::Il2CppString* get_userId();
     // protected System.Void set_userId(System.String value)
-    // Offset: 0x121A458
+    // Offset: 0x12D97F8
     void set_userId(::Il2CppString* value);
     // public System.String get_userName()
-    // Offset: 0x121A460
+    // Offset: 0x12D9800
     ::Il2CppString* get_userName();
     // protected System.Void set_userName(System.String value)
-    // Offset: 0x121A468
+    // Offset: 0x12D9808
     void set_userName(::Il2CppString* value);
     // public MasterServer.BaseConnectToServerRequest WithEncryptionParams(System.Byte[] random, System.Byte[] publicKey)
-    // Offset: 0x121A470
+    // Offset: 0x12D9810
     MasterServer::BaseConnectToServerRequest* WithEncryptionParams(::Array<uint8_t>* random, ::Array<uint8_t>* publicKey);
+    // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x12D985C
+    // Implemented from: BaseMasterServerReliableRequest
+    // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
+    // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x12D98D0
+    // Implemented from: BaseMasterServerReliableRequest
+    // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
+    // public override System.Void Release()
+    // Offset: 0x12D9948
+    // Implemented from: BaseMasterServerReliableRequest
+    // Base method: System.Void BaseMasterServerReliableRequest::Release()
+    void Release();
     // protected System.Void .ctor()
-    // Offset: 0x121A5E4
+    // Offset: 0x12D9984
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -103,21 +120,6 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::BaseConnectToServerRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseConnectToServerRequest*, creationType>()));
     }
-    // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x121A4BC
-    // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
-    // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x121A530
-    // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
-    // public override System.Void Release()
-    // Offset: 0x121A5A8
-    // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Release()
-    void Release();
   }; // MasterServer.BaseConnectToServerRequest
   #pragma pack(pop)
   static check_size<sizeof(BaseConnectToServerRequest), 48 + sizeof(GlobalNamespace::ByteArrayNetSerializable*)> __MasterServer_BaseConnectToServerRequestSizeCheck;
@@ -169,10 +171,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseConnectToServerRequest*), "WithEncryptionParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{random, publicKey});
   }
 };
-// Writing MetadataGetter for method: MasterServer::BaseConnectToServerRequest::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: MasterServer::BaseConnectToServerRequest::Serialize
 // Il2CppName: Serialize
 template<>
@@ -199,3 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseConnectToServerRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: MasterServer::BaseConnectToServerRequest::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

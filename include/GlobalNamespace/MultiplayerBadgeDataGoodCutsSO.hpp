@@ -29,8 +29,13 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: MultiplayerBadgeDataGoodCutsSO
     MultiplayerBadgeDataGoodCutsSO() noexcept {}
+    // protected override System.Int32 GetValue(MultiplayerPlayerResultsData result)
+    // Offset: 0x120A3A0
+    // Implemented from: MultiplayerBadgeDataMinMaxIntSO
+    // Base method: System.Int32 MultiplayerBadgeDataMinMaxIntSO::GetValue(MultiplayerPlayerResultsData result)
+    int GetValue(GlobalNamespace::MultiplayerPlayerResultsData* result);
     // public System.Void .ctor()
-    // Offset: 0x11C3D4C
+    // Offset: 0x120A3CC
     // Implemented from: MultiplayerBadgeDataMinMaxIntSO
     // Base method: System.Void MultiplayerBadgeDataMinMaxIntSO::.ctor()
     // Base method: System.Void MultiplayerBadgeDataSO::.ctor()
@@ -42,20 +47,11 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerBadgeDataGoodCutsSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerBadgeDataGoodCutsSO*, creationType>()));
     }
-    // protected override System.Int32 GetValue(MultiplayerPlayerResultsData result)
-    // Offset: 0x11C3D20
-    // Implemented from: MultiplayerBadgeDataMinMaxIntSO
-    // Base method: System.Int32 MultiplayerBadgeDataMinMaxIntSO::GetValue(MultiplayerPlayerResultsData result)
-    int GetValue(GlobalNamespace::MultiplayerPlayerResultsData* result);
   }; // MultiplayerBadgeDataGoodCutsSO
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgeDataGoodCutsSO*, "", "MultiplayerBadgeDataGoodCutsSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeDataGoodCutsSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeDataGoodCutsSO::GetValue
 // Il2CppName: GetValue
 template<>
@@ -65,3 +61,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgeDataGoodCutsSO*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeDataGoodCutsSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

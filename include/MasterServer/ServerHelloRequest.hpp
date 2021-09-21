@@ -70,13 +70,28 @@ namespace MasterServer {
     // Get instance field reference: public readonly ByteArrayNetSerializable signature
     GlobalNamespace::ByteArrayNetSerializable*& dyn_signature();
     // static public PacketPool`1<MasterServer.ServerHelloRequest> get_pool()
-    // Offset: 0x121E378
+    // Offset: 0x12DD718
     static GlobalNamespace::PacketPool_1<MasterServer::ServerHelloRequest*>* get_pool();
     // public MasterServer.ServerHelloRequest Init(System.Byte[] random, System.Byte[] publicKey, System.Byte[] signature)
-    // Offset: 0x1225504
+    // Offset: 0x12E48B8
     MasterServer::ServerHelloRequest* Init(::Array<uint8_t>* random, ::Array<uint8_t>* publicKey, ::Array<uint8_t>* signature);
+    // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x12E4924
+    // Implemented from: BaseMasterServerReliableResponse
+    // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
+    // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x12E4988
+    // Implemented from: BaseMasterServerReliableResponse
+    // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
+    // public override System.Void Release()
+    // Offset: 0x12E49EC
+    // Implemented from: BaseMasterServerReliableResponse
+    // Base method: System.Void BaseMasterServerReliableResponse::Release()
+    void Release();
     // public System.Void .ctor()
-    // Offset: 0x12256C4
+    // Offset: 0x12E4A78
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -85,21 +100,6 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::ServerHelloRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerHelloRequest*, creationType>()));
     }
-    // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1225570
-    // Implemented from: BaseMasterServerReliableResponse
-    // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
-    // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12255D4
-    // Implemented from: BaseMasterServerReliableResponse
-    // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
-    // public override System.Void Release()
-    // Offset: 0x1225638
-    // Implemented from: BaseMasterServerReliableResponse
-    // Base method: System.Void BaseMasterServerReliableResponse::Release()
-    void Release();
   }; // MasterServer.ServerHelloRequest
   #pragma pack(pop)
   static check_size<sizeof(ServerHelloRequest), 40 + sizeof(GlobalNamespace::ByteArrayNetSerializable*)> __MasterServer_ServerHelloRequestSizeCheck;
@@ -126,10 +126,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerHelloRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{random, publicKey, signature});
   }
 };
-// Writing MetadataGetter for method: MasterServer::ServerHelloRequest::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: MasterServer::ServerHelloRequest::Serialize
 // Il2CppName: Serialize
 template<>
@@ -156,3 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerHelloRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: MasterServer::ServerHelloRequest::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

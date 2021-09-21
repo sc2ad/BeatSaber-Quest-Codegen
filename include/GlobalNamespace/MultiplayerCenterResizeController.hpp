@@ -43,19 +43,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: platformWidth and: layoutProvider
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0xE407F4
+    // [InjectAttribute] Offset: 0xF09188
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF09198
     // private System.Action`1<System.Single> edgeDistanceFromCenterWasCalculatedEvent
     // Size: 0x8
     // Offset: 0x28
     System::Action_1<float>* edgeDistanceFromCenterWasCalculatedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<float>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF091A8
     // private System.Boolean <isEdgeDistanceFromCenterCalculated>k__BackingField
     // Size: 0x1
     // Offset: 0x30
@@ -64,6 +66,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isEdgeDistanceFromCenterCalculated and: edgeDistanceFromCenter
     char __padding3[0x3] = {};
+    // [CompilerGeneratedAttribute] Offset: 0xF091B8
     // private System.Single <edgeDistanceFromCenter>k__BackingField
     // Size: 0x4
     // Offset: 0x34
@@ -84,35 +87,35 @@ namespace GlobalNamespace {
     bool& dyn_$isEdgeDistanceFromCenterCalculated$k__BackingField();
     // Get instance field reference: private System.Single <edgeDistanceFromCenter>k__BackingField
     float& dyn_$edgeDistanceFromCenter$k__BackingField();
-    // public System.Boolean get_isEdgeDistanceFromCenterCalculated()
-    // Offset: 0x11C71F8
-    bool get_isEdgeDistanceFromCenterCalculated();
-    // private System.Void set_isEdgeDistanceFromCenterCalculated(System.Boolean value)
-    // Offset: 0x11C7200
-    void set_isEdgeDistanceFromCenterCalculated(bool value);
-    // public System.Single get_edgeDistanceFromCenter()
-    // Offset: 0x11C720C
-    float get_edgeDistanceFromCenter();
-    // private System.Void set_edgeDistanceFromCenter(System.Single value)
-    // Offset: 0x11C7214
-    void set_edgeDistanceFromCenter(float value);
     // public System.Void add_edgeDistanceFromCenterWasCalculatedEvent(System.Action`1<System.Single> value)
-    // Offset: 0x11C70B0
+    // Offset: 0x120D730
     void add_edgeDistanceFromCenterWasCalculatedEvent(System::Action_1<float>* value);
     // public System.Void remove_edgeDistanceFromCenterWasCalculatedEvent(System.Action`1<System.Single> value)
-    // Offset: 0x11C7154
+    // Offset: 0x120D7D4
     void remove_edgeDistanceFromCenterWasCalculatedEvent(System::Action_1<float>* value);
+    // public System.Boolean get_isEdgeDistanceFromCenterCalculated()
+    // Offset: 0x120D878
+    bool get_isEdgeDistanceFromCenterCalculated();
+    // private System.Void set_isEdgeDistanceFromCenterCalculated(System.Boolean value)
+    // Offset: 0x120D880
+    void set_isEdgeDistanceFromCenterCalculated(bool value);
+    // public System.Single get_edgeDistanceFromCenter()
+    // Offset: 0x120D88C
+    float get_edgeDistanceFromCenter();
+    // private System.Void set_edgeDistanceFromCenter(System.Single value)
+    // Offset: 0x120D894
+    void set_edgeDistanceFromCenter(float value);
     // protected System.Void Start()
-    // Offset: 0x11C721C
+    // Offset: 0x120D89C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11C7450
+    // Offset: 0x120DA30
     void OnDestroy();
     // private System.Void HandlePlayersLayoutWasCalculated(MultiplayerPlayerLayout layout, System.Int32 numberOfPlayers)
-    // Offset: 0x11C72CC
+    // Offset: 0x120D950
     void HandlePlayersLayoutWasCalculated(GlobalNamespace::MultiplayerPlayerLayout layout, int numberOfPlayers);
     // public System.Void .ctor()
-    // Offset: 0x11C7590
+    // Offset: 0x120DAD0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -131,6 +134,24 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerCenterResizeController*, "", "MultiplayerCenterResizeController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterResizeController::add_edgeDistanceFromCenterWasCalculatedEvent
+// Il2CppName: add_edgeDistanceFromCenterWasCalculatedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterResizeController::*)(System::Action_1<float>*)>(&GlobalNamespace::MultiplayerCenterResizeController::add_edgeDistanceFromCenterWasCalculatedEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerCenterResizeController*), "add_edgeDistanceFromCenterWasCalculatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterResizeController::remove_edgeDistanceFromCenterWasCalculatedEvent
+// Il2CppName: remove_edgeDistanceFromCenterWasCalculatedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterResizeController::*)(System::Action_1<float>*)>(&GlobalNamespace::MultiplayerCenterResizeController::remove_edgeDistanceFromCenterWasCalculatedEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerCenterResizeController*), "remove_edgeDistanceFromCenterWasCalculatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterResizeController::get_isEdgeDistanceFromCenterCalculated
 // Il2CppName: get_isEdgeDistanceFromCenterCalculated
 template<>
@@ -163,24 +184,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerCenterResizeController*), "set_edgeDistanceFromCenter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterResizeController::add_edgeDistanceFromCenterWasCalculatedEvent
-// Il2CppName: add_edgeDistanceFromCenterWasCalculatedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterResizeController::*)(System::Action_1<float>*)>(&GlobalNamespace::MultiplayerCenterResizeController::add_edgeDistanceFromCenterWasCalculatedEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerCenterResizeController*), "add_edgeDistanceFromCenterWasCalculatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterResizeController::remove_edgeDistanceFromCenterWasCalculatedEvent
-// Il2CppName: remove_edgeDistanceFromCenterWasCalculatedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerCenterResizeController::*)(System::Action_1<float>*)>(&GlobalNamespace::MultiplayerCenterResizeController::remove_edgeDistanceFromCenterWasCalculatedEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerCenterResizeController*), "remove_edgeDistanceFromCenterWasCalculatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterResizeController::Start

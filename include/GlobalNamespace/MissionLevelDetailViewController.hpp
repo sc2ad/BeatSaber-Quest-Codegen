@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE48174
+    // [SpaceAttribute] Offset: 0xF10B88
     // private UnityEngine.UI.Button _playButton
     // Size: 0x8
     // Offset: 0x78
@@ -90,6 +90,7 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* modifiersPanelGO;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF10C00
     // private System.Action`1<MissionLevelDetailViewController> didPressPlayButtonEvent
     // Size: 0x8
     // Offset: 0xA0
@@ -120,26 +121,31 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::MissionLevelDetailViewController*>*& dyn_didPressPlayButtonEvent();
     // Get instance field reference: private MissionNode _missionNode
     GlobalNamespace::MissionNode*& dyn__missionNode();
-    // public MissionNode get_missionNode()
-    // Offset: 0x113EC2C
-    GlobalNamespace::MissionNode* get_missionNode();
     // public System.Void add_didPressPlayButtonEvent(System.Action`1<MissionLevelDetailViewController> value)
-    // Offset: 0x113EAE4
+    // Offset: 0x1185B2C
     void add_didPressPlayButtonEvent(System::Action_1<GlobalNamespace::MissionLevelDetailViewController*>* value);
     // public System.Void remove_didPressPlayButtonEvent(System.Action`1<MissionLevelDetailViewController> value)
-    // Offset: 0x113EB88
+    // Offset: 0x1185BD0
     void remove_didPressPlayButtonEvent(System::Action_1<GlobalNamespace::MissionLevelDetailViewController*>* value);
+    // public MissionNode get_missionNode()
+    // Offset: 0x1185C74
+    GlobalNamespace::MissionNode* get_missionNode();
     // public System.Void Setup(MissionNode missionNode)
-    // Offset: 0x113EC34
+    // Offset: 0x1185C7C
     void Setup(GlobalNamespace::MissionNode* missionNode);
     // public System.Void RefreshContent()
-    // Offset: 0x113EC70
+    // Offset: 0x1185CB8
     void RefreshContent();
     // private System.Void PlayButtonPressed()
-    // Offset: 0x113EEC0
+    // Offset: 0x1185F08
     void PlayButtonPressed();
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x1185E5C
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x113EF24
+    // Offset: 0x1185F6C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -152,11 +158,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionLevelDetailViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelDetailViewController*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x113EE14
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
   }; // MissionLevelDetailViewController
   #pragma pack(pop)
   static check_size<sizeof(MissionLevelDetailViewController), 168 + sizeof(GlobalNamespace::MissionNode*)> __GlobalNamespace_MissionLevelDetailViewControllerSizeCheck;
@@ -164,14 +165,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelDetailViewController*, "", "MissionLevelDetailViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::MissionLevelDetailViewController::get_missionNode
-// Il2CppName: get_missionNode
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionNode* (GlobalNamespace::MissionLevelDetailViewController::*)()>(&GlobalNamespace::MissionLevelDetailViewController::get_missionNode)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionLevelDetailViewController*), "get_missionNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelDetailViewController::add_didPressPlayButtonEvent
 // Il2CppName: add_didPressPlayButtonEvent
 template<>
@@ -188,6 +181,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MissionLevelDetailViewController")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionLevelDetailViewController*), "remove_didPressPlayButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MissionLevelDetailViewController::get_missionNode
+// Il2CppName: get_missionNode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionNode* (GlobalNamespace::MissionLevelDetailViewController::*)()>(&GlobalNamespace::MissionLevelDetailViewController::get_missionNode)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionLevelDetailViewController*), "get_missionNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelDetailViewController::Setup
@@ -215,10 +216,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionLevelDetailViewController*), "PlayButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MissionLevelDetailViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelDetailViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -230,3 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionLevelDetailViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{firstActivation, addedToHierarchy, screenSystemEnabling});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MissionLevelDetailViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

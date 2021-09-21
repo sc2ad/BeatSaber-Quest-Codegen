@@ -45,14 +45,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: setColorOnly and: intensity
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xE19B28
+    // [DrawIfAttribute] Offset: 0xEDEC98
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x3C
     float intensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0xE19BCC
+    // [DrawIfAttribute] Offset: 0xEDED3C
     // private System.Single _minAlpha
     // Size: 0x4
     // Offset: 0x40
@@ -85,8 +85,13 @@ namespace GlobalNamespace {
     UnityEngine::Color& dyn__color();
     // Get instance field reference: private System.Boolean _startColorWasSet
     bool& dyn__startColorWasSet();
+    // public override System.Void ColorWasSet(UnityEngine.Color newColor)
+    // Offset: 0x1E26F3C
+    // Implemented from: LightWithIdMonoBehaviour
+    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color newColor)
+    void ColorWasSet(UnityEngine::Color newColor);
     // public System.Void .ctor()
-    // Offset: 0x1E17100
+    // Offset: 0x1E2703C
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -99,11 +104,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::InstancedMaterialLightWithId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InstancedMaterialLightWithId*, creationType>()));
     }
-    // public override System.Void ColorWasSet(UnityEngine.Color newColor)
-    // Offset: 0x1E17000
-    // Implemented from: LightWithIdMonoBehaviour
-    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color newColor)
-    void ColorWasSet(UnityEngine::Color newColor);
   }; // InstancedMaterialLightWithId
   #pragma pack(pop)
   static check_size<sizeof(InstancedMaterialLightWithId), 84 + sizeof(bool)> __GlobalNamespace_InstancedMaterialLightWithIdSizeCheck;
@@ -111,10 +111,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InstancedMaterialLightWithId*, "", "InstancedMaterialLightWithId");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::InstancedMaterialLightWithId::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::InstancedMaterialLightWithId::ColorWasSet
 // Il2CppName: ColorWasSet
 template<>
@@ -124,3 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InstancedMaterialLightWithId*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newColor});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::InstancedMaterialLightWithId::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

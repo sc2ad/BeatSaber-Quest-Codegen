@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AudioPitchGainEffect* failAudioPitchGainEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioPitchGainEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0xE42688
+    // [InjectAttribute] Offset: 0xF0B01C
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x30
@@ -78,28 +78,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _songDidFinish
     bool& dyn__songDidFinish();
     // public System.Single get_songLength()
-    // Offset: 0x10FDE28
+    // Offset: 0x11E26A8
     float get_songLength();
     // public UnityEngine.WaitUntil get_waitUntilIsReadyToStartTheSong()
-    // Offset: 0x10FDE44
+    // Offset: 0x11E26C4
     UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
     // protected System.Void LateUpdate()
-    // Offset: 0x10FDE60
+    // Offset: 0x11E26E0
     void LateUpdate();
     // public System.Void StartSong(System.Single songTimeOffset)
-    // Offset: 0x10FDED8
+    // Offset: 0x11E2758
     void StartSong(float songTimeOffset);
     // public System.Void FailStopSong()
-    // Offset: 0x10FE0A0
+    // Offset: 0x11E2920
     void FailStopSong();
     // public System.Void SeekTo(System.Single songTime)
-    // Offset: 0x10FE264
+    // Offset: 0x11E2AF4
     void SeekTo(float songTime);
     // private System.Void <FailStopSong>b__13_0()
-    // Offset: 0x10FE288
+    // Offset: 0x11E2B18
     void $FailStopSong$b__13_0();
+    // public override System.Void StopSong()
+    // Offset: 0x11E277C
+    // Implemented from: SongController
+    // Base method: System.Void SongController::StopSong()
+    void StopSong();
+    // public override System.Void PauseSong()
+    // Offset: 0x11E2798
+    // Implemented from: SongController
+    // Base method: System.Void SongController::PauseSong()
+    void PauseSong();
+    // public override System.Void ResumeSong()
+    // Offset: 0x11E285C
+    // Implemented from: SongController
+    // Base method: System.Void SongController::ResumeSong()
+    void ResumeSong();
     // public System.Void .ctor()
-    // Offset: 0x10FE280
+    // Offset: 0x11E2B10
     // Implemented from: SongController
     // Base method: System.Void SongController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -112,21 +127,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameSongController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameSongController*, creationType>()));
     }
-    // public override System.Void StopSong()
-    // Offset: 0x10FDEFC
-    // Implemented from: SongController
-    // Base method: System.Void SongController::StopSong()
-    void StopSong();
-    // public override System.Void PauseSong()
-    // Offset: 0x10FDF18
-    // Implemented from: SongController
-    // Base method: System.Void SongController::PauseSong()
-    void PauseSong();
-    // public override System.Void ResumeSong()
-    // Offset: 0x10FDFDC
-    // Implemented from: SongController
-    // Base method: System.Void SongController::ResumeSong()
-    void ResumeSong();
   }; // GameSongController
   #pragma pack(pop)
   static check_size<sizeof(GameSongController), 56 + sizeof(bool)> __GlobalNamespace_GameSongControllerSizeCheck;
@@ -192,10 +192,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameSongController*), "<FailStopSong>b__13_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameSongController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameSongController::StopSong
 // Il2CppName: StopSong
 template<>
@@ -220,3 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameSongController*), "ResumeSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::GameSongController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

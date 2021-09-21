@@ -18,7 +18,7 @@ namespace NUnit::Framework::Constraints {
     public:
     // Creating value type constructor for type: ConstraintOperator
     ConstraintOperator() noexcept {}
-    // public System.Void Reduce(NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.ConstraintStack stack)
+    // public System.Void Reduce(NUnit.Framework.Constraints.ConstraintBuilder/ConstraintStack stack)
     // Offset: 0xFFFFFFFF
     void Reduce(NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack* stack);
   }; // NUnit.Framework.Constraints.ConstraintOperator

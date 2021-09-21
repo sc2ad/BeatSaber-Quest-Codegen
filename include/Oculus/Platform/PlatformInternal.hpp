@@ -42,13 +42,13 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: PlatformInternal
     PlatformInternal() noexcept {}
     // static public System.Void CrashApplication()
-    // Offset: 0x23B2748
+    // Offset: 0x25B766C
     static void CrashApplication();
-    // static Oculus.Platform.Message ParseMessageHandle(System.IntPtr messageHandle, Oculus.Platform.Message/Oculus.Platform.MessageType messageType)
-    // Offset: 0x23B27A8
+    // static Oculus.Platform.Message ParseMessageHandle(System.IntPtr messageHandle, Oculus.Platform.Message/MessageType messageType)
+    // Offset: 0x25B76CC
     static Oculus::Platform::Message* ParseMessageHandle(System::IntPtr messageHandle, Oculus::Platform::Message::MessageType messageType);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> InitializeStandaloneAsync(System.UInt64 appID, System.String accessToken)
-    // Offset: 0x23B3160
+    // Offset: 0x25B8084
     static Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize*>* InitializeStandaloneAsync(uint64_t appID, ::Il2CppString* accessToken);
   }; // Oculus.Platform.PlatformInternal
   #pragma pack(pop)

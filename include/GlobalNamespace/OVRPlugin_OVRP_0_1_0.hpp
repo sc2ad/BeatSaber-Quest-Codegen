@@ -29,26 +29,18 @@ namespace GlobalNamespace {
     static System::Version* _get_version();
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
-    // static private System.Void .cctor()
-    // Offset: 0x1631A48
-    static void _cctor();
     // static public OVRPlugin/Sizei ovrp_GetEyeTextureSize(OVRPlugin/Eye eyeId)
-    // Offset: 0x16319C8
+    // Offset: 0x17FE628
     static GlobalNamespace::OVRPlugin::Sizei ovrp_GetEyeTextureSize(GlobalNamespace::OVRPlugin::Eye eyeId);
+    // static private System.Void .cctor()
+    // Offset: 0x17FE6A8
+    static void _cctor();
   }; // OVRPlugin/OVRP_0_1_0
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_0_1_0*, "", "OVRPlugin/OVRP_0_1_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_0_1_0::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_0_1_0::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_0_1_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_0_1_0::ovrp_GetEyeTextureSize
 // Il2CppName: ovrp_GetEyeTextureSize
 template<>
@@ -56,5 +48,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
   static const MethodInfo* get() {
     static auto* eyeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Eye")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_0_1_0*), "ovrp_GetEyeTextureSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eyeId});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_0_1_0::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_0_1_0::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_0_1_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -95,12 +95,14 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* backToMenuButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF11620
     // private System.Action`1<MultiplayerResultsViewController> backToLobbyPressedEvent
     // Size: 0x8
     // Offset: 0xA8
     System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* backToLobbyPressedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF11630
     // private System.Action`1<MultiplayerResultsViewController> backToMenuPressedEvent
     // Size: 0x8
     // Offset: 0xB0
@@ -128,28 +130,33 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<MultiplayerResultsViewController> backToMenuPressedEvent
     System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>*& dyn_backToMenuPressedEvent();
     // public System.Void add_backToLobbyPressedEvent(System.Action`1<MultiplayerResultsViewController> value)
-    // Offset: 0x103F5DC
+    // Offset: 0x112E58C
     void add_backToLobbyPressedEvent(System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* value);
     // public System.Void remove_backToLobbyPressedEvent(System.Action`1<MultiplayerResultsViewController> value)
-    // Offset: 0x103F680
+    // Offset: 0x112E630
     void remove_backToLobbyPressedEvent(System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* value);
     // public System.Void add_backToMenuPressedEvent(System.Action`1<MultiplayerResultsViewController> value)
-    // Offset: 0x103F724
+    // Offset: 0x112E6D4
     void add_backToMenuPressedEvent(System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* value);
     // public System.Void remove_backToMenuPressedEvent(System.Action`1<MultiplayerResultsViewController> value)
-    // Offset: 0x103F7C8
+    // Offset: 0x112E778
     void remove_backToMenuPressedEvent(System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* value);
     // public System.Void Init(MultiplayerResultsData multiplayerResultsData, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.Boolean showBackToLobbyButton, System.Boolean showBackToMenuButton)
-    // Offset: 0x103F86C
+    // Offset: 0x112E81C
     void Init(GlobalNamespace::MultiplayerResultsData* multiplayerResultsData, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool showBackToLobbyButton, bool showBackToMenuButton);
     // private System.Void BackToLobbyPressed()
-    // Offset: 0x103FAEC
+    // Offset: 0x112EA9C
     void BackToLobbyPressed();
     // private System.Void BackToMenuPressed()
-    // Offset: 0x103FB50
+    // Offset: 0x112EB00
     void BackToMenuPressed();
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x112E9A0
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x103FBB4
+    // Offset: 0x112EB64
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -162,11 +169,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerResultsViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsViewController*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x103F9F0
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
   }; // MultiplayerResultsViewController
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerResultsViewController), 176 + sizeof(System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>*)> __GlobalNamespace_MultiplayerResultsViewControllerSizeCheck;
@@ -240,10 +242,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsViewController*), "BackToMenuPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -255,3 +253,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{firstActivation, addedToHierarchy, screenSystemEnabling});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

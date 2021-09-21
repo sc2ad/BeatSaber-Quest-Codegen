@@ -36,13 +36,15 @@ namespace LiteNetLib {
     class OnNatIntroductionRequest;
     // Nested type: LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess
     class OnNatIntroductionSuccess;
-    // private LiteNetLib.EventBasedNatPunchListener/LiteNetLib.OnNatIntroductionRequest NatIntroductionRequest
+    // [CompilerGeneratedAttribute] Offset: 0xEAF3AC
+    // private LiteNetLib.EventBasedNatPunchListener/OnNatIntroductionRequest NatIntroductionRequest
     // Size: 0x8
     // Offset: 0x10
     LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest* NatIntroductionRequest;
     // Field size check
     static_assert(sizeof(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest*) == 0x8);
-    // private LiteNetLib.EventBasedNatPunchListener/LiteNetLib.OnNatIntroductionSuccess NatIntroductionSuccess
+    // [CompilerGeneratedAttribute] Offset: 0xEAF3BC
+    // private LiteNetLib.EventBasedNatPunchListener/OnNatIntroductionSuccess NatIntroductionSuccess
     // Size: 0x8
     // Offset: 0x18
     LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess* NatIntroductionSuccess;
@@ -54,30 +56,30 @@ namespace LiteNetLib {
     operator LiteNetLib::INatPunchListener() noexcept {
       return *reinterpret_cast<LiteNetLib::INatPunchListener*>(this);
     }
-    // Get instance field reference: private LiteNetLib.EventBasedNatPunchListener/LiteNetLib.OnNatIntroductionRequest NatIntroductionRequest
+    // Get instance field reference: private LiteNetLib.EventBasedNatPunchListener/OnNatIntroductionRequest NatIntroductionRequest
     LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest*& dyn_NatIntroductionRequest();
-    // Get instance field reference: private LiteNetLib.EventBasedNatPunchListener/LiteNetLib.OnNatIntroductionSuccess NatIntroductionSuccess
+    // Get instance field reference: private LiteNetLib.EventBasedNatPunchListener/OnNatIntroductionSuccess NatIntroductionSuccess
     LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess*& dyn_NatIntroductionSuccess();
-    // public System.Void add_NatIntroductionRequest(LiteNetLib.EventBasedNatPunchListener/LiteNetLib.OnNatIntroductionRequest value)
-    // Offset: 0x1C18290
+    // public System.Void add_NatIntroductionRequest(LiteNetLib.EventBasedNatPunchListener/OnNatIntroductionRequest value)
+    // Offset: 0x1DD00F8
     void add_NatIntroductionRequest(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest* value);
-    // public System.Void remove_NatIntroductionRequest(LiteNetLib.EventBasedNatPunchListener/LiteNetLib.OnNatIntroductionRequest value)
-    // Offset: 0x1C18334
+    // public System.Void remove_NatIntroductionRequest(LiteNetLib.EventBasedNatPunchListener/OnNatIntroductionRequest value)
+    // Offset: 0x1DD019C
     void remove_NatIntroductionRequest(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest* value);
-    // public System.Void add_NatIntroductionSuccess(LiteNetLib.EventBasedNatPunchListener/LiteNetLib.OnNatIntroductionSuccess value)
-    // Offset: 0x1C183D8
+    // public System.Void add_NatIntroductionSuccess(LiteNetLib.EventBasedNatPunchListener/OnNatIntroductionSuccess value)
+    // Offset: 0x1DD0240
     void add_NatIntroductionSuccess(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess* value);
-    // public System.Void remove_NatIntroductionSuccess(LiteNetLib.EventBasedNatPunchListener/LiteNetLib.OnNatIntroductionSuccess value)
-    // Offset: 0x1C1847C
+    // public System.Void remove_NatIntroductionSuccess(LiteNetLib.EventBasedNatPunchListener/OnNatIntroductionSuccess value)
+    // Offset: 0x1DD02E4
     void remove_NatIntroductionSuccess(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess* value);
     // private System.Void LiteNetLib.INatPunchListener.OnNatIntroductionRequest(System.Net.IPEndPoint localEndPoint, System.Net.IPEndPoint remoteEndPoint, System.String token)
-    // Offset: 0x1C18520
+    // Offset: 0x1DD0388
     void LiteNetLib_INatPunchListener_OnNatIntroductionRequest(System::Net::IPEndPoint* localEndPoint, System::Net::IPEndPoint* remoteEndPoint, ::Il2CppString* token);
     // private System.Void LiteNetLib.INatPunchListener.OnNatIntroductionSuccess(System.Net.IPEndPoint targetEndPoint, LiteNetLib.NatAddressType type, System.String token)
-    // Offset: 0x1C18940
+    // Offset: 0x1DD07A8
     void LiteNetLib_INatPunchListener_OnNatIntroductionSuccess(System::Net::IPEndPoint* targetEndPoint, LiteNetLib::NatAddressType type, ::Il2CppString* token);
     // public System.Void .ctor()
-    // Offset: 0x1C18D84
+    // Offset: 0x1DD0BEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

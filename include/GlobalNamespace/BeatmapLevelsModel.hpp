@@ -117,7 +117,7 @@ namespace GlobalNamespace {
       // Get instance field reference: public readonly IBeatmapLevel beatmapLevel
       GlobalNamespace::IBeatmapLevel*& dyn_beatmapLevel();
       // public System.Void .ctor(System.Boolean isError, IBeatmapLevel beatmapLevel)
-      // Offset: 0x10CC4F0
+      // Offset: 0x129DAC4
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  GetBeatmapLevelResult(bool isError, GlobalNamespace::IBeatmapLevel* beatmapLevel)
     }; // BeatmapLevelsModel/GetBeatmapLevelResult
@@ -218,7 +218,7 @@ namespace GlobalNamespace {
       // Get instance field reference: public readonly BeatmapLevelsModel/LevelDownloadingUpdate/DownloadingState downloadingState
       GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState& dyn_downloadingState();
       // public System.Void .ctor(System.String levelID, System.UInt32 bytesTotal, System.UInt32 bytesTransferred, BeatmapLevelsModel/LevelDownloadingUpdate/DownloadingState downloadingState)
-      // Offset: 0x10CBCD4
+      // Offset: 0x129D2A8
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  LevelDownloadingUpdate(::Il2CppString* levelID, uint bytesTotal, uint bytesTransferred, GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState downloadingState)
     }; // BeatmapLevelsModel/LevelDownloadingUpdate
@@ -251,20 +251,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: maxCachedBeatmapLevels and: additionalContentModel
     char __padding3[0x4] = {};
-    // [InjectAttribute] Offset: 0xE39688
+    // [InjectAttribute] Offset: 0xF01E4C
     // private AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::AdditionalContentModel* additionalContentModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AdditionalContentModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE39698
+    // [InjectAttribute] Offset: 0xF01E5C
     // private IBeatmapDataAssetFileModel _beatmapDataAssetFileModel
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::IBeatmapDataAssetFileModel* beatmapDataAssetFileModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapDataAssetFileModel*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF01E6C
     // private System.Action`1<BeatmapLevelsModel/LevelDownloadingUpdate> levelDownloadingUpdateEvent
     // Size: 0x8
     // Offset: 0x48
@@ -337,71 +338,71 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::IPreviewBeatmapLevel*>*& dyn__loadedPreviewBeatmapLevels();
     // Get instance field reference: private BeatmapLevelLoader _beatmapLevelLoader
     GlobalNamespace::BeatmapLevelLoader*& dyn__beatmapLevelLoader();
-    // public BeatmapLevelPackCollectionSO get_ostAndExtrasPackCollection()
-    // Offset: 0x10CAC44
-    GlobalNamespace::BeatmapLevelPackCollectionSO* get_ostAndExtrasPackCollection();
-    // public IBeatmapLevelPackCollection get_dlcBeatmapLevelPackCollection()
-    // Offset: 0x10CAC4C
-    GlobalNamespace::IBeatmapLevelPackCollection* get_dlcBeatmapLevelPackCollection();
-    // public IBeatmapLevelPackCollection get_allLoadedBeatmapLevelPackCollection()
-    // Offset: 0x10CAC68
-    GlobalNamespace::IBeatmapLevelPackCollection* get_allLoadedBeatmapLevelPackCollection();
-    // public IBeatmapLevelPackCollection get_allLoadedBeatmapLevelWithoutCustomLevelPackCollection()
-    // Offset: 0x10CAC70
-    GlobalNamespace::IBeatmapLevelPackCollection* get_allLoadedBeatmapLevelWithoutCustomLevelPackCollection();
-    // public IBeatmapLevelPackCollection get_customLevelPackCollection()
-    // Offset: 0x10CAC78
-    GlobalNamespace::IBeatmapLevelPackCollection* get_customLevelPackCollection();
     // public System.Void add_levelDownloadingUpdateEvent(System.Action`1<BeatmapLevelsModel/LevelDownloadingUpdate> value)
-    // Offset: 0x10CAAFC
+    // Offset: 0x129C0D0
     void add_levelDownloadingUpdateEvent(System::Action_1<GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>* value);
     // public System.Void remove_levelDownloadingUpdateEvent(System.Action`1<BeatmapLevelsModel/LevelDownloadingUpdate> value)
-    // Offset: 0x10CABA0
+    // Offset: 0x129C174
     void remove_levelDownloadingUpdateEvent(System::Action_1<GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>* value);
+    // public BeatmapLevelPackCollectionSO get_ostAndExtrasPackCollection()
+    // Offset: 0x129C218
+    GlobalNamespace::BeatmapLevelPackCollectionSO* get_ostAndExtrasPackCollection();
+    // public IBeatmapLevelPackCollection get_dlcBeatmapLevelPackCollection()
+    // Offset: 0x129C220
+    GlobalNamespace::IBeatmapLevelPackCollection* get_dlcBeatmapLevelPackCollection();
+    // public IBeatmapLevelPackCollection get_allLoadedBeatmapLevelPackCollection()
+    // Offset: 0x129C23C
+    GlobalNamespace::IBeatmapLevelPackCollection* get_allLoadedBeatmapLevelPackCollection();
+    // public IBeatmapLevelPackCollection get_allLoadedBeatmapLevelWithoutCustomLevelPackCollection()
+    // Offset: 0x129C244
+    GlobalNamespace::IBeatmapLevelPackCollection* get_allLoadedBeatmapLevelWithoutCustomLevelPackCollection();
+    // public IBeatmapLevelPackCollection get_customLevelPackCollection()
+    // Offset: 0x129C24C
+    GlobalNamespace::IBeatmapLevelPackCollection* get_customLevelPackCollection();
     // private System.Void Init()
-    // Offset: 0x10CAC80
+    // Offset: 0x129C254
     void Init();
     // protected System.Void Start()
-    // Offset: 0x10CAFF0
+    // Offset: 0x129C5C4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10CB0E0
+    // Offset: 0x129C6B4
     void OnDestroy();
     // public System.Void ClearLoadedBeatmapLevelsCaches()
-    // Offset: 0x10CB1D4
+    // Offset: 0x129C7A8
     void ClearLoadedBeatmapLevelsCaches();
     // public System.Threading.Tasks.Task`1<IBeatmapLevelPackCollection> ReloadCustomLevelPackCollectionAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x10CB22C
+    // Offset: 0x129C800
     System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevelPackCollection*>* ReloadCustomLevelPackCollectionAsync(System::Threading::CancellationToken cancellationToken);
     // public IBeatmapLevelPack GetLevelPackForLevelId(System.String levelId)
-    // Offset: 0x10CB32C
+    // Offset: 0x129C900
     GlobalNamespace::IBeatmapLevelPack* GetLevelPackForLevelId(::Il2CppString* levelId);
     // public IBeatmapLevelPack GetLevelPack(System.String levePacklId)
-    // Offset: 0x10CB5E4
+    // Offset: 0x129CBB8
     GlobalNamespace::IBeatmapLevelPack* GetLevelPack(::Il2CppString* levePacklId);
     // public IPreviewBeatmapLevel GetLevelPreviewForLevelId(System.String levelId)
-    // Offset: 0x10CB774
+    // Offset: 0x129CD48
     GlobalNamespace::IPreviewBeatmapLevel* GetLevelPreviewForLevelId(::Il2CppString* levelId);
     // public System.Boolean IsBeatmapLevelLoaded(System.String levelId)
-    // Offset: 0x10CB96C
+    // Offset: 0x129CF40
     bool IsBeatmapLevelLoaded(::Il2CppString* levelId);
     // public IBeatmapLevel GetBeatmapLevelIfLoaded(System.String levelId)
-    // Offset: 0x10CBA38
+    // Offset: 0x129D00C
     GlobalNamespace::IBeatmapLevel* GetBeatmapLevelIfLoaded(::Il2CppString* levelId);
     // public System.Threading.Tasks.Task`1<BeatmapLevelsModel/GetBeatmapLevelResult> GetBeatmapLevelAsync(System.String levelID, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x10CBB2C
+    // Offset: 0x129D100
     System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult>* GetBeatmapLevelAsync(::Il2CppString* levelID, System::Threading::CancellationToken cancellationToken);
     // private System.Void HandleLevelDataAssetDownloadUpdate(LevelDataAssetDownloadUpdate update)
-    // Offset: 0x10CBC44
+    // Offset: 0x129D218
     void HandleLevelDataAssetDownloadUpdate(GlobalNamespace::LevelDataAssetDownloadUpdate update);
     // private System.Void UpdateLoadedPreviewLevels()
-    // Offset: 0x10CAD28
+    // Offset: 0x129C2FC
     void UpdateLoadedPreviewLevels();
     // private System.Void UpdateAllLoadedBeatmapLevelPacks()
-    // Offset: 0x10CBCE4
+    // Offset: 0x129D2B8
     void UpdateAllLoadedBeatmapLevelPacks();
     // public System.Void .ctor()
-    // Offset: 0x10CBE28
+    // Offset: 0x129D3FC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -423,6 +424,24 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResul
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate, "", "BeatmapLevelsModel/LevelDownloadingUpdate");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState, "", "BeatmapLevelsModel/LevelDownloadingUpdate/DownloadingState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::add_levelDownloadingUpdateEvent
+// Il2CppName: add_levelDownloadingUpdateEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)(System::Action_1<GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>*)>(&GlobalNamespace::BeatmapLevelsModel::add_levelDownloadingUpdateEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "BeatmapLevelsModel/LevelDownloadingUpdate")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "add_levelDownloadingUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::remove_levelDownloadingUpdateEvent
+// Il2CppName: remove_levelDownloadingUpdateEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)(System::Action_1<GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>*)>(&GlobalNamespace::BeatmapLevelsModel::remove_levelDownloadingUpdateEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "BeatmapLevelsModel/LevelDownloadingUpdate")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "remove_levelDownloadingUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::get_ostAndExtrasPackCollection
 // Il2CppName: get_ostAndExtrasPackCollection
 template<>
@@ -461,24 +480,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPackCollection* (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::get_customLevelPackCollection)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "get_customLevelPackCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::add_levelDownloadingUpdateEvent
-// Il2CppName: add_levelDownloadingUpdateEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)(System::Action_1<GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>*)>(&GlobalNamespace::BeatmapLevelsModel::add_levelDownloadingUpdateEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "BeatmapLevelsModel/LevelDownloadingUpdate")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "add_levelDownloadingUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::remove_levelDownloadingUpdateEvent
-// Il2CppName: remove_levelDownloadingUpdateEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)(System::Action_1<GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>*)>(&GlobalNamespace::BeatmapLevelsModel::remove_levelDownloadingUpdateEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "BeatmapLevelsModel/LevelDownloadingUpdate")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "remove_levelDownloadingUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::Init

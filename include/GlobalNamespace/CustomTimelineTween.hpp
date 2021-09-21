@@ -33,6 +33,7 @@ namespace GlobalNamespace {
     ::Array<UnityEngine::Transform*>* transforms;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
+    // [HideInInspector] Offset: 0xF14370
     // public UnityEngine.Vector3[] startPositions
     // Size: 0x8
     // Offset: 0x20
@@ -48,10 +49,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Vector3[] startPositions
     ::Array<UnityEngine::Vector3>*& dyn_startPositions();
     // private System.Void OnValidate()
-    // Offset: 0x10EAA68
+    // Offset: 0x11A23EC
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0x10EAB4C
+    // Offset: 0x11A24D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

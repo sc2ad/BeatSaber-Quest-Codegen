@@ -37,20 +37,20 @@ namespace NUnit::Framework::Internal {
     operator NUnit::Framework::Interfaces::ITestListener() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestListener*>(this);
     }
-    // static public NUnit.Framework.Interfaces.ITestListener get_NULL()
-    // Offset: 0x2299568
-    static NUnit::Framework::Interfaces::ITestListener* get_NULL();
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x229A5A0
+    // Offset: 0x24A28E8
     void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x229A5A4
+    // Offset: 0x24A28EC
     void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void TestOutput(NUnit.Framework.Interfaces.TestOutput output)
-    // Offset: 0x229A5A8
+    // Offset: 0x24A28F0
     void TestOutput(NUnit::Framework::Interfaces::TestOutput* output);
+    // static public NUnit.Framework.Interfaces.ITestListener get_NULL()
+    // Offset: 0x24A18B0
+    static NUnit::Framework::Interfaces::ITestListener* get_NULL();
     // private System.Void .ctor()
-    // Offset: 0x229A5AC
+    // Offset: 0x24A28F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -63,14 +63,6 @@ namespace NUnit::Framework::Internal {
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestListener*, "NUnit.Framework.Internal", "TestListener");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: NUnit::Framework::Internal::TestListener::get_NULL
-// Il2CppName: get_NULL
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITestListener* (*)()>(&NUnit::Framework::Internal::TestListener::get_NULL)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestListener*), "get_NULL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestListener::TestStarted
 // Il2CppName: TestStarted
 template<>
@@ -96,6 +88,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
   static const MethodInfo* get() {
     static auto* output = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "TestOutput")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestListener*), "TestOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{output});
+  }
+};
+// Writing MetadataGetter for method: NUnit::Framework::Internal::TestListener::get_NULL
+// Il2CppName: get_NULL
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITestListener* (*)()>(&NUnit::Framework::Internal::TestListener::get_NULL)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestListener*), "get_NULL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestListener::New_ctor

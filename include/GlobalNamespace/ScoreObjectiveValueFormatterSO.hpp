@@ -22,8 +22,13 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: ScoreObjectiveValueFormatterSO
     ScoreObjectiveValueFormatterSO() noexcept {}
+    // public override System.String FormatValue(System.Int32 value)
+    // Offset: 0x10FEB64
+    // Implemented from: ObjectiveValueFormatterSO
+    // Base method: System.String ObjectiveValueFormatterSO::FormatValue(System.Int32 value)
+    ::Il2CppString* FormatValue(int value);
     // public System.Void .ctor()
-    // Offset: 0x11388B8
+    // Offset: 0x10FEBCC
     // Implemented from: ObjectiveValueFormatterSO
     // Base method: System.Void ObjectiveValueFormatterSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -35,20 +40,11 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ScoreObjectiveValueFormatterSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScoreObjectiveValueFormatterSO*, creationType>()));
     }
-    // public override System.String FormatValue(System.Int32 value)
-    // Offset: 0x1138854
-    // Implemented from: ObjectiveValueFormatterSO
-    // Base method: System.String ObjectiveValueFormatterSO::FormatValue(System.Int32 value)
-    ::Il2CppString* FormatValue(int value);
   }; // ScoreObjectiveValueFormatterSO
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreObjectiveValueFormatterSO*, "", "ScoreObjectiveValueFormatterSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::ScoreObjectiveValueFormatterSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ScoreObjectiveValueFormatterSO::FormatValue
 // Il2CppName: FormatValue
 template<>
@@ -58,3 +54,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreObjectiveValueFormatterSO*), "FormatValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ScoreObjectiveValueFormatterSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

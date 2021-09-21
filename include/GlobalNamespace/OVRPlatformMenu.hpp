@@ -116,22 +116,22 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Func`1<System.Boolean> OnShortPress
     System::Func_1<bool>*& dyn_OnShortPress();
     // private OVRPlatformMenu/eBackButtonAction HandleBackButtonState()
-    // Offset: 0x135B784
+    // Offset: 0x1471DC4
     GlobalNamespace::OVRPlatformMenu::eBackButtonAction HandleBackButtonState();
     // private System.Void Awake()
-    // Offset: 0x135B7FC
+    // Offset: 0x1471E3C
     void Awake();
     // private System.Void ShowConfirmQuitMenu()
-    // Offset: 0x135B95C
+    // Offset: 0x1471F9C
     void ShowConfirmQuitMenu();
     // static private System.Boolean RetreatOneLevel()
-    // Offset: 0x135BA30
+    // Offset: 0x1472070
     static bool RetreatOneLevel();
     // private System.Void Update()
-    // Offset: 0x135BB24
+    // Offset: 0x1472164
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x135BB9C
+    // Offset: 0x14721DC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -144,7 +144,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRPlatformMenu*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x135BBAC
+    // Offset: 0x14721EC
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

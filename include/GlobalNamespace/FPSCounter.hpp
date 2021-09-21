@@ -20,24 +20,28 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FPSCounter : public UnityEngine::MonoBehaviour {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xF0BC10
     // private System.Int32 <currentFPS>k__BackingField
     // Size: 0x4
     // Offset: 0x18
     int currentFPS;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    // [CompilerGeneratedAttribute] Offset: 0xF0BC20
     // private System.Int32 <lowestFPS>k__BackingField
     // Size: 0x4
     // Offset: 0x1C
     int lowestFPS;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    // [CompilerGeneratedAttribute] Offset: 0xF0BC30
     // private System.Int32 <highestFPS>k__BackingField
     // Size: 0x4
     // Offset: 0x20
     int highestFPS;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    // [CompilerGeneratedAttribute] Offset: 0xF0BC40
     // private System.Int32 <droppedFrames>k__BackingField
     // Size: 0x4
     // Offset: 0x24
@@ -81,37 +85,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _minDeltaTime
     float& dyn__minDeltaTime();
     // public System.Int32 get_currentFPS()
-    // Offset: 0x105AD34
+    // Offset: 0x11B3BD4
     int get_currentFPS();
     // private System.Void set_currentFPS(System.Int32 value)
-    // Offset: 0x105AD3C
+    // Offset: 0x11B3BDC
     void set_currentFPS(int value);
     // public System.Int32 get_lowestFPS()
-    // Offset: 0x105AD44
+    // Offset: 0x11B3BE4
     int get_lowestFPS();
     // private System.Void set_lowestFPS(System.Int32 value)
-    // Offset: 0x105AD4C
+    // Offset: 0x11B3BEC
     void set_lowestFPS(int value);
     // public System.Int32 get_highestFPS()
-    // Offset: 0x105AD54
+    // Offset: 0x11B3BF4
     int get_highestFPS();
     // private System.Void set_highestFPS(System.Int32 value)
-    // Offset: 0x105AD5C
+    // Offset: 0x11B3BFC
     void set_highestFPS(int value);
     // public System.Int32 get_droppedFrames()
-    // Offset: 0x105AD64
+    // Offset: 0x11B3C04
     int get_droppedFrames();
     // private System.Void set_droppedFrames(System.Int32 value)
-    // Offset: 0x105AD6C
+    // Offset: 0x11B3C0C
     void set_droppedFrames(int value);
     // protected System.Void Awake()
-    // Offset: 0x105AD74
+    // Offset: 0x11B3C14
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x105AD84
+    // Offset: 0x11B3C24
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x105AEE4
+    // Offset: 0x11B3D84
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

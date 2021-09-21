@@ -63,83 +63,83 @@ namespace Org::BouncyCastle::Asn1 {
     ::Il2CppString*& dyn_identifier();
     // Get instance field reference: private System.Byte[] body
     ::Array<uint8_t>*& dyn_body();
-    // public System.String get_Id()
-    // Offset: 0x173FC98
-    ::Il2CppString* get_Id();
+    // static public Org.BouncyCastle.Asn1.DerObjectIdentifier GetInstance(System.Object obj)
+    // Offset: 0x18F0E88
+    static Org::BouncyCastle::Asn1::DerObjectIdentifier* GetInstance(::Il2CppObject* obj);
+    // static public Org.BouncyCastle.Asn1.DerObjectIdentifier GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
+    // Offset: 0x18F1068
+    static Org::BouncyCastle::Asn1::DerObjectIdentifier* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // public System.Void .ctor(System.String identifier)
-    // Offset: 0x172C6CC
+    // Offset: 0x18DDEA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerObjectIdentifier* New_ctor(::Il2CppString* identifier) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerObjectIdentifier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerObjectIdentifier*, creationType>(identifier)));
     }
     // System.Void .ctor(Org.BouncyCastle.Asn1.DerObjectIdentifier oid, System.String branchID)
-    // Offset: 0x173FA78
+    // Offset: 0x18F1250
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerObjectIdentifier* New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Il2CppString* branchID) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerObjectIdentifier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerObjectIdentifier*, creationType>(oid, branchID)));
     }
+    // public System.String get_Id()
+    // Offset: 0x18F1470
+    ::Il2CppString* get_Id();
+    // public Org.BouncyCastle.Asn1.DerObjectIdentifier Branch(System.String branchID)
+    // Offset: 0x18F1478
+    Org::BouncyCastle::Asn1::DerObjectIdentifier* Branch(::Il2CppString* branchID);
     // System.Void .ctor(System.Byte[] bytes)
-    // Offset: 0x173FD10
+    // Offset: 0x18F14E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerObjectIdentifier* New_ctor(::Array<uint8_t>* bytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerObjectIdentifier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerObjectIdentifier*, creationType>(bytes)));
     }
-    // static private System.Void .cctor()
-    // Offset: 0x174069C
-    static void _cctor();
-    // static public Org.BouncyCastle.Asn1.DerObjectIdentifier GetInstance(System.Object obj)
-    // Offset: 0x173F6B0
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* GetInstance(::Il2CppObject* obj);
-    // static public Org.BouncyCastle.Asn1.DerObjectIdentifier GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x173F890
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
-    // public Org.BouncyCastle.Asn1.DerObjectIdentifier Branch(System.String branchID)
-    // Offset: 0x173FCA0
-    Org::BouncyCastle::Asn1::DerObjectIdentifier* Branch(::Il2CppString* branchID);
     // private System.Void WriteField(System.IO.Stream outputStream, System.Int64 fieldValue)
-    // Offset: 0x1740060
+    // Offset: 0x18F1838
     void WriteField(System::IO::Stream* outputStream, int64_t fieldValue);
     // private System.Void WriteField(System.IO.Stream outputStream, Org.BouncyCastle.Math.BigInteger fieldValue)
-    // Offset: 0x1740150
+    // Offset: 0x18F1928
     void WriteField(System::IO::Stream* outputStream, Org::BouncyCastle::Math::BigInteger* fieldValue);
     // private System.Void DoOutput(System.IO.MemoryStream bOut)
-    // Offset: 0x17402DC
+    // Offset: 0x18F1AB4
     void DoOutput(System::IO::MemoryStream* bOut);
     // System.Byte[] GetBody()
-    // Offset: 0x17404A4
+    // Offset: 0x18F1C7C
     ::Array<uint8_t>* GetBody();
     // static private System.Boolean IsValidBranchID(System.String branchID, System.Int32 start)
-    // Offset: 0x173FB9C
+    // Offset: 0x18F1374
     static bool IsValidBranchID(::Il2CppString* branchID, int start);
     // static private System.Boolean IsValidIdentifier(System.String identifier)
-    // Offset: 0x173F9B0
+    // Offset: 0x18F1188
     static bool IsValidIdentifier(::Il2CppString* identifier);
     // static private System.String MakeOidStringFromBytes(System.Byte[] bytes)
-    // Offset: 0x173FDC8
+    // Offset: 0x18F15A0
     static ::Il2CppString* MakeOidStringFromBytes(::Array<uint8_t>* bytes);
     // static Org.BouncyCastle.Asn1.DerObjectIdentifier FromOctetString(System.Byte[] enc)
-    // Offset: 0x17305FC
+    // Offset: 0x18E1DD4
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* FromOctetString(::Array<uint8_t>* enc);
+    // static private System.Void .cctor()
+    // Offset: 0x18F1E74
+    static void _cctor();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x1740590
+    // Offset: 0x18F1D68
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x17405C4
+    // Offset: 0x18F1D9C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x17405E0
+    // Offset: 0x18F1DB8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // public override System.String ToString()
-    // Offset: 0x1740694
+    // Offset: 0x18F1E6C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -150,34 +150,6 @@ namespace Org::BouncyCastle::Asn1 {
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerObjectIdentifier*, "Org.BouncyCastle.Asn1", "DerObjectIdentifier");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::get_Id
-// Il2CppName: get_Id
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::DerObjectIdentifier::*)()>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::get_Id)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), "get_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::GetInstance
 // Il2CppName: GetInstance
 template<>
@@ -197,6 +169,22 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, explicitly});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::get_Id
+// Il2CppName: get_Id
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::DerObjectIdentifier::*)()>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::get_Id)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), "get_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::Branch
 // Il2CppName: Branch
 template<>
@@ -206,6 +194,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), "Branch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{branchID});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::WriteField
 // Il2CppName: WriteField
 template<>
@@ -278,6 +270,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
   static const MethodInfo* get() {
     static auto* enc = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), "FromOctetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enc});
+  }
+};
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::Encode

@@ -26,8 +26,8 @@ namespace GlobalNamespace {
 namespace Tweening {
   // Forward declaring type: FloatTween
   class FloatTween;
-  // Forward declaring type: TweeningManager
-  class TweeningManager;
+  // Forward declaring type: TimeTweeningManager
+  class TimeTweeningManager;
 }
 // Forward declaring namespace: TMPro
 namespace TMPro {
@@ -122,7 +122,7 @@ namespace GlobalNamespace {
     UnityEngine::Color leadingBackgroundColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // [SpaceAttribute] Offset: 0xE3FECC
+    // [SpaceAttribute] Offset: 0xF08850
     // private TMPro.TextMeshPro _onPlatformText
     // Size: 0x8
     // Offset: 0x48
@@ -135,21 +135,21 @@ namespace GlobalNamespace {
     UnityEngine::SpriteRenderer* backgroundSpriteRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::SpriteRenderer*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3FF14
-    // private readonly Tweening.TweeningManager _tweeningManager
+    // [InjectAttribute] Offset: 0xF08898
+    // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x58
-    Tweening::TweeningManager* tweeningManager;
+    Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
-    static_assert(sizeof(Tweening::TweeningManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3FF24
+    static_assert(sizeof(Tweening::TimeTweeningManager*) == 0x8);
+    // [InjectAttribute] Offset: 0xF088A8
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x60
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3FF34
+    // [InjectAttribute] Offset: 0xF088B8
     // private readonly MultiplayerLeadPlayerProvider _leadPlayerProvider
     // Size: 0x8
     // Offset: 0x68
@@ -177,7 +177,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(Tweening::FloatTween*) == 0x8);
     // Creating value type constructor for type: MultiplayerConnectedPlayerScoreDiffText
-    MultiplayerConnectedPlayerScoreDiffText(UnityEngine::Color activeTextColor_ = {}, UnityEngine::Color normalBackgroundColor_ = {}, UnityEngine::Color leadingBackgroundColor_ = {}, TMPro::TextMeshPro* onPlatformText_ = {}, UnityEngine::SpriteRenderer* backgroundSpriteRenderer_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}, GlobalNamespace::MultiplayerLeadPlayerProvider* leadPlayerProvider_ = {}, UnityEngine::Color currentBackgroundColor_ = {}, GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::State state_ = {}, Tweening::FloatTween* onPlatformTextAlphaTween_ = {}) noexcept : activeTextColor{activeTextColor_}, normalBackgroundColor{normalBackgroundColor_}, leadingBackgroundColor{leadingBackgroundColor_}, onPlatformText{onPlatformText_}, backgroundSpriteRenderer{backgroundSpriteRenderer_}, tweeningManager{tweeningManager_}, connectedPlayer{connectedPlayer_}, leadPlayerProvider{leadPlayerProvider_}, currentBackgroundColor{currentBackgroundColor_}, state{state_}, onPlatformTextAlphaTween{onPlatformTextAlphaTween_} {}
+    MultiplayerConnectedPlayerScoreDiffText(UnityEngine::Color activeTextColor_ = {}, UnityEngine::Color normalBackgroundColor_ = {}, UnityEngine::Color leadingBackgroundColor_ = {}, TMPro::TextMeshPro* onPlatformText_ = {}, UnityEngine::SpriteRenderer* backgroundSpriteRenderer_ = {}, Tweening::TimeTweeningManager* tweeningManager_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}, GlobalNamespace::MultiplayerLeadPlayerProvider* leadPlayerProvider_ = {}, UnityEngine::Color currentBackgroundColor_ = {}, GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::State state_ = {}, Tweening::FloatTween* onPlatformTextAlphaTween_ = {}) noexcept : activeTextColor{activeTextColor_}, normalBackgroundColor{normalBackgroundColor_}, leadingBackgroundColor{leadingBackgroundColor_}, onPlatformText{onPlatformText_}, backgroundSpriteRenderer{backgroundSpriteRenderer_}, tweeningManager{tweeningManager_}, connectedPlayer{connectedPlayer_}, leadPlayerProvider{leadPlayerProvider_}, currentBackgroundColor{currentBackgroundColor_}, state{state_}, onPlatformTextAlphaTween{onPlatformTextAlphaTween_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Color _activeTextColor
@@ -190,8 +190,8 @@ namespace GlobalNamespace {
     TMPro::TextMeshPro*& dyn__onPlatformText();
     // Get instance field reference: private UnityEngine.SpriteRenderer _backgroundSpriteRenderer
     UnityEngine::SpriteRenderer*& dyn__backgroundSpriteRenderer();
-    // Get instance field reference: private readonly Tweening.TweeningManager _tweeningManager
-    Tweening::TweeningManager*& dyn__tweeningManager();
+    // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
+    Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
     GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // Get instance field reference: private readonly MultiplayerLeadPlayerProvider _leadPlayerProvider
@@ -203,34 +203,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private Tweening.FloatTween _onPlatformTextAlphaTween
     Tweening::FloatTween*& dyn__onPlatformTextAlphaTween();
     // private System.Void Start()
-    // Offset: 0x11CD414
+    // Offset: 0x1213964
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11CD5DC
+    // Offset: 0x1213A8C
     void OnDestroy();
     // public System.Void SetHorizontalPositionRelativeToLocalPlayer(MultiplayerConnectedPlayerScoreDiffText/HorizontalPosition relativePosition)
-    // Offset: 0x11CD79C
+    // Offset: 0x1213BAC
     void SetHorizontalPositionRelativeToLocalPlayer(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::HorizontalPosition relativePosition);
     // public System.Void AnimateScoreDiff(System.Int32 scoreDiff)
-    // Offset: 0x11CD8B4
+    // Offset: 0x1213CC4
     void AnimateScoreDiff(int scoreDiff);
     // public System.Void AnimateHide()
-    // Offset: 0x11CDA68
+    // Offset: 0x1213E78
     void AnimateHide();
     // private System.Void HandleNewLeaderWasSelected(System.String userId)
-    // Offset: 0x11CDB58
+    // Offset: 0x1213F68
     void HandleNewLeaderWasSelected(::Il2CppString* userId);
     // private System.Void <Start>b__13_0(System.Single val)
-    // Offset: 0x11CDCE8
+    // Offset: 0x12140F8
     void $Start$b__13_0(float val);
     // private System.Void <AnimateScoreDiff>b__16_0()
-    // Offset: 0x11CDD6C
+    // Offset: 0x121417C
     void $AnimateScoreDiff$b__16_0();
     // private System.Void <AnimateHide>b__17_0()
-    // Offset: 0x11CDD78
+    // Offset: 0x1214188
     void $AnimateHide$b__17_0();
     // public System.Void .ctor()
-    // Offset: 0x11CDC94
+    // Offset: 0x12140A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

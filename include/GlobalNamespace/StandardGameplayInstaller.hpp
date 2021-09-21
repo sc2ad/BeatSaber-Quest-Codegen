@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StandardGameplayInstaller : public Zenject::MonoInstaller {
     public:
-    // [InjectAttribute] Offset: 0xE43834
+    // [InjectAttribute] Offset: 0xF0C1D8
     // private readonly StandardGameplaySceneSetupData _standardSceneSetupData
     // Size: 0x8
     // Offset: 0x20
@@ -38,8 +38,13 @@ namespace GlobalNamespace {
     StandardGameplayInstaller(GlobalNamespace::StandardGameplaySceneSetupData* standardSceneSetupData_ = {}) noexcept : standardSceneSetupData{standardSceneSetupData_} {}
     // Get instance field reference: private readonly StandardGameplaySceneSetupData _standardSceneSetupData
     GlobalNamespace::StandardGameplaySceneSetupData*& dyn__standardSceneSetupData();
+    // public override System.Void InstallBindings()
+    // Offset: 0x110FCEC
+    // Implemented from: Zenject.MonoInstallerBase
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
+    void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x10A1214
+    // Offset: 0x110FEF8
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -53,11 +58,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardGameplayInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardGameplayInstaller*, creationType>()));
     }
-    // public override System.Void InstallBindings()
-    // Offset: 0x10A1008
-    // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings()
-    void InstallBindings();
   }; // StandardGameplayInstaller
   #pragma pack(pop)
   static check_size<sizeof(StandardGameplayInstaller), 32 + sizeof(GlobalNamespace::StandardGameplaySceneSetupData*)> __GlobalNamespace_StandardGameplayInstallerSizeCheck;
@@ -65,10 +65,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardGameplayInstaller*, "", "StandardGameplayInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::StandardGameplayInstaller::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::StandardGameplayInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>
@@ -77,3 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardGameplayInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::StandardGameplayInstaller::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

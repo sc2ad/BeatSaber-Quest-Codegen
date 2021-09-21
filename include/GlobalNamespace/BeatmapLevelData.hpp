@@ -55,13 +55,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private IDifficultyBeatmapSet[] _difficultyBeatmapSets
     ::Array<GlobalNamespace::IDifficultyBeatmapSet*>*& dyn__difficultyBeatmapSets();
     // public UnityEngine.AudioClip get_audioClip()
-    // Offset: 0x11EC0D4
+    // Offset: 0x127C710
     UnityEngine::AudioClip* get_audioClip();
     // public IDifficultyBeatmapSet[] get_difficultyBeatmapSets()
-    // Offset: 0x11EC0DC
+    // Offset: 0x127C718
     ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
     // public System.Void .ctor(UnityEngine.AudioClip audioClip, IDifficultyBeatmapSet[] difficultyBeatmapSets)
-    // Offset: 0x11EC0E4
+    // Offset: 0x127C720
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelData* New_ctor(UnityEngine::AudioClip* audioClip, ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* difficultyBeatmapSets) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelData::.ctor");

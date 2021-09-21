@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* progressSecondsText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3EBA4
+    // [InjectAttribute] Offset: 0xF07528
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x48
@@ -143,13 +143,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.RectTransform _progressImageRectTransform
     UnityEngine::RectTransform*& dyn__progressImageRectTransform();
     // protected System.Void Start()
-    // Offset: 0x109E71C
+    // Offset: 0x110CFFC
     void Start();
     // protected System.Void Update()
-    // Offset: 0x109E834
+    // Offset: 0x110D114
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x109EA18
+    // Offset: 0x110D2F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

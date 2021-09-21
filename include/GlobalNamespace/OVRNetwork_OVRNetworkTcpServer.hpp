@@ -67,25 +67,25 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Collections.Generic.List`1<System.Net.Sockets.TcpClient> clients
     System::Collections::Generic::List_1<System::Net::Sockets::TcpClient*>*& dyn_clients();
     // public System.Void StartListening(System.Int32 listeningPort)
-    // Offset: 0x1350BFC
+    // Offset: 0x146723C
     void StartListening(int listeningPort);
     // public System.Void StopListening()
-    // Offset: 0x13510E4
+    // Offset: 0x1467724
     void StopListening();
     // private System.Void DoAcceptTcpClientCallback(System.IAsyncResult ar)
-    // Offset: 0x1351238
+    // Offset: 0x1467878
     void DoAcceptTcpClientCallback(System::IAsyncResult* ar);
     // public System.Boolean HasConnectedClient()
-    // Offset: 0x13516EC
+    // Offset: 0x1467D2C
     bool HasConnectedClient();
     // public System.Void Broadcast(System.Int32 payloadType, System.Byte[] payload)
-    // Offset: 0x13518D8
+    // Offset: 0x1467F18
     void Broadcast(int payloadType, ::Array<uint8_t>* payload);
     // private System.Void DoWriteDataCallback(System.IAsyncResult ar)
-    // Offset: 0x1351DDC
+    // Offset: 0x146841C
     void DoWriteDataCallback(System::IAsyncResult* ar);
     // public System.Void .ctor()
-    // Offset: 0x1351ED4
+    // Offset: 0x1468514
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

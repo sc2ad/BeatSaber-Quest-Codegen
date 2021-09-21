@@ -89,17 +89,27 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image*& dyn__arrowImage();
     // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
     System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
-    // public System.String get_text()
-    // Offset: 0x1036258
-    ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x103623C
+    // Offset: 0x11256AC
     void set_text(::Il2CppString* value);
+    // public System.String get_text()
+    // Offset: 0x11256C8
+    ::Il2CppString* get_text();
     // private System.Void RefreshVisuals()
-    // Offset: 0x1036278
+    // Offset: 0x11256E8
     void RefreshVisuals();
+    // protected override System.Void SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
+    // Offset: 0x11256E4
+    // Implemented from: HMUI.SelectableCell
+    // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
+    void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
+    // protected override System.Void HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
+    // Offset: 0x1125778
+    // Implemented from: HMUI.SelectableCell
+    // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
+    void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0x103630C
+    // Offset: 0x112577C
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
@@ -114,16 +124,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PackLevelListHeaderTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PackLevelListHeaderTableCell*, creationType>()));
     }
-    // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x1036274
-    // Implemented from: HMUI.SelectableCell
-    // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
-    // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x1036308
-    // Implemented from: HMUI.SelectableCell
-    // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
   }; // PackLevelListHeaderTableCell
   #pragma pack(pop)
   static check_size<sizeof(PackLevelListHeaderTableCell), 128 + sizeof(System::Threading::CancellationTokenSource*)> __GlobalNamespace_PackLevelListHeaderTableCellSizeCheck;
@@ -131,14 +131,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PackLevelListHeaderTableCell*, "", "PackLevelListHeaderTableCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::PackLevelListHeaderTableCell::get_text
-// Il2CppName: get_text
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PackLevelListHeaderTableCell::*)()>(&GlobalNamespace::PackLevelListHeaderTableCell::get_text)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PackLevelListHeaderTableCell*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::PackLevelListHeaderTableCell::set_text
 // Il2CppName: set_text
 template<>
@@ -146,6 +138,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PackLevelListHeaderTableCell*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::PackLevelListHeaderTableCell::get_text
+// Il2CppName: get_text
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PackLevelListHeaderTableCell::*)()>(&GlobalNamespace::PackLevelListHeaderTableCell::get_text)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PackLevelListHeaderTableCell*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PackLevelListHeaderTableCell::RefreshVisuals
@@ -156,10 +156,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PackLevelListHeaderTableCell*), "RefreshVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PackLevelListHeaderTableCell::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PackLevelListHeaderTableCell::SelectionDidChange
 // Il2CppName: SelectionDidChange
 template<>
@@ -178,3 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PackLevelListHeaderTableCell*), "HighlightDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transitionType});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PackLevelListHeaderTableCell::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

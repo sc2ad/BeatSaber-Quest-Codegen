@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     UnityEngine::MeshRenderer* progressImage;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshRenderer*) == 0x8);
-    // [RangeAttribute] Offset: 0xDF5990
+    // [RangeAttribute] Offset: 0xEB2EB4
     // public System.Single currentProgress
     // Size: 0x4
     // Offset: 0x20
@@ -49,13 +49,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single currentProgress
     float& dyn_currentProgress();
     // private System.Void Awake()
-    // Offset: 0x163B540
+    // Offset: 0x18081A0
     void Awake();
     // private System.Void Update()
-    // Offset: 0x163B560
+    // Offset: 0x18081C0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x163B5D4
+    // Offset: 0x1808234
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

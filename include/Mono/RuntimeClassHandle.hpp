@@ -32,7 +32,7 @@ namespace Mono {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RuntimeClassHandle/*, public System::ValueType*/ {
     public:
-    // private Mono.RuntimeStructs/Mono.MonoClass* value
+    // private Mono.RuntimeStructs/MonoClass* value
     // Size: 0x8
     // Offset: 0x0
     Mono::RuntimeStructs::MonoClass* value;
@@ -48,36 +48,36 @@ namespace Mono {
     constexpr operator Mono::RuntimeStructs::MonoClass*() const noexcept {
       return value;
     }
-    // Get instance field reference: private Mono.RuntimeStructs/Mono.MonoClass* value
+    // Get instance field reference: private Mono.RuntimeStructs/MonoClass* value
     Mono::RuntimeStructs::MonoClass*& dyn_value();
-    // Mono.RuntimeStructs/Mono.MonoClass* get_Value()
-    // Offset: 0x1A76D50
-    Mono::RuntimeStructs::MonoClass* get_Value();
-    // System.Void .ctor(Mono.RuntimeStructs/Mono.MonoClass* value)
-    // Offset: 0x1A76D1C
+    // System.Void .ctor(Mono.RuntimeStructs/MonoClass* value)
+    // Offset: 0x1C3F6EC
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  RuntimeClassHandle(Mono::RuntimeStructs::MonoClass* value)
     // System.Void .ctor(System.IntPtr ptr)
-    // Offset: 0x1A76D24
+    // Offset: 0x1C3F6F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RuntimeClassHandle(System::IntPtr ptr) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::RuntimeClassHandle::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ptr)})));
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ptr);
     }
-    // static System.IntPtr GetTypeFromClass(Mono.RuntimeStructs/Mono.MonoClass* klass)
-    // Offset: 0x1A76E9C
+    // Mono.RuntimeStructs/MonoClass* get_Value()
+    // Offset: 0x1C3F720
+    Mono::RuntimeStructs::MonoClass* get_Value();
+    // static System.IntPtr GetTypeFromClass(Mono.RuntimeStructs/MonoClass* klass)
+    // Offset: 0x1C3F86C
     static System::IntPtr GetTypeFromClass(Mono::RuntimeStructs::MonoClass* klass);
     // System.RuntimeTypeHandle GetTypeHandle()
-    // Offset: 0x1A76EA0
+    // Offset: 0x1C3F870
     System::RuntimeTypeHandle GetTypeHandle();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1A76D58
+    // Offset: 0x1C3F728
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1A76E68
+    // Offset: 0x1C3F838
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -88,6 +88,14 @@ namespace Mono {
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeClassHandle, "Mono", "RuntimeClassHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Mono::RuntimeClassHandle::RuntimeClassHandle
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: Mono::RuntimeClassHandle::RuntimeClassHandle
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::RuntimeClassHandle::get_Value
 // Il2CppName: get_Value
 template<>
@@ -96,14 +104,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Runti
     return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeClassHandle), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Mono::RuntimeClassHandle::RuntimeClassHandle
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: Mono::RuntimeClassHandle::RuntimeClassHandle
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::RuntimeClassHandle::GetTypeFromClass
 // Il2CppName: GetTypeFromClass
 template<>

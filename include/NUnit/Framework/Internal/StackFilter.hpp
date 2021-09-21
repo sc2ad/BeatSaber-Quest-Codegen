@@ -27,26 +27,18 @@ namespace NUnit::Framework::Internal {
     static System::Text::RegularExpressions::Regex* _get_assertOrAssumeRegex();
     // Set static field: static private readonly System.Text.RegularExpressions.Regex assertOrAssumeRegex
     static void _set_assertOrAssumeRegex(System::Text::RegularExpressions::Regex* value);
-    // static private System.Void .cctor()
-    // Offset: 0x2297CF0
-    static void _cctor();
     // static public System.String Filter(System.String rawTrace)
-    // Offset: 0x2297AD8
+    // Offset: 0x249FE20
     static ::Il2CppString* Filter(::Il2CppString* rawTrace);
+    // static private System.Void .cctor()
+    // Offset: 0x24A0038
+    static void _cctor();
   }; // NUnit.Framework.Internal.StackFilter
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::StackFilter*, "NUnit.Framework.Internal", "StackFilter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: NUnit::Framework::Internal::StackFilter::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::Internal::StackFilter::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::StackFilter*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::StackFilter::Filter
 // Il2CppName: Filter
 template<>
@@ -54,5 +46,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
   static const MethodInfo* get() {
     static auto* rawTrace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::StackFilter*), "Filter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawTrace});
+  }
+};
+// Writing MetadataGetter for method: NUnit::Framework::Internal::StackFilter::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::Internal::StackFilter::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::StackFilter*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

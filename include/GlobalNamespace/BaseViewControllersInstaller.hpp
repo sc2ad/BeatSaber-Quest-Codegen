@@ -37,8 +37,13 @@ namespace GlobalNamespace {
     BaseViewControllersInstaller(GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewControllerPrefab_ = {}) noexcept : simpleDialogPromptViewControllerPrefab{simpleDialogPromptViewControllerPrefab_} {}
     // Get instance field reference: private SimpleDialogPromptViewController _simpleDialogPromptViewControllerPrefab
     GlobalNamespace::SimpleDialogPromptViewController*& dyn__simpleDialogPromptViewControllerPrefab();
+    // public override System.Void InstallBindings()
+    // Offset: 0x126C3F4
+    // Implemented from: Zenject.ScriptableObjectInstallerBase
+    // Base method: System.Void ScriptableObjectInstallerBase::InstallBindings()
+    void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x11DBE7C
+    // Offset: 0x126C468
     // Implemented from: Zenject.ScriptableObjectInstaller
     // Base method: System.Void ScriptableObjectInstaller::.ctor()
     // Base method: System.Void ScriptableObjectInstallerBase::.ctor()
@@ -50,11 +55,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BaseViewControllersInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseViewControllersInstaller*, creationType>()));
     }
-    // public override System.Void InstallBindings()
-    // Offset: 0x11DBE08
-    // Implemented from: Zenject.ScriptableObjectInstallerBase
-    // Base method: System.Void ScriptableObjectInstallerBase::InstallBindings()
-    void InstallBindings();
   }; // BaseViewControllersInstaller
   #pragma pack(pop)
   static check_size<sizeof(BaseViewControllersInstaller), 32 + sizeof(GlobalNamespace::SimpleDialogPromptViewController*)> __GlobalNamespace_BaseViewControllersInstallerSizeCheck;
@@ -62,10 +62,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseViewControllersInstaller*, "", "BaseViewControllersInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::BaseViewControllersInstaller::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BaseViewControllersInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>
@@ -74,3 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseViewControllersInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BaseViewControllersInstaller::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

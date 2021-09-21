@@ -65,32 +65,32 @@ namespace GlobalNamespace {
     static void _set_cachedGeometryManagedBuffer(::Array<float>* value);
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Vector3> cachedGeometryList
     System::Collections::Generic::List_1<UnityEngine::Vector3>*& dyn_cachedGeometryList();
-    // static private System.Void .cctor()
-    // Offset: 0x12AC71C
-    static void _cctor();
     // public System.Boolean GetConfigured()
-    // Offset: 0x12ABDB4
+    // Offset: 0x13B50C8
     bool GetConfigured();
     // public OVRBoundary/BoundaryTestResult TestNode(OVRBoundary/Node node, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x12ABE58
+    // Offset: 0x13B516C
     GlobalNamespace::OVRBoundary::BoundaryTestResult TestNode(GlobalNamespace::OVRBoundary::Node node, GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public OVRBoundary/BoundaryTestResult TestPoint(UnityEngine.Vector3 point, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x12ABF34
+    // Offset: 0x13B5248
     GlobalNamespace::OVRBoundary::BoundaryTestResult TestPoint(UnityEngine::Vector3 point, GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public UnityEngine.Vector3[] GetGeometry(OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x12AC034
+    // Offset: 0x13B5348
     ::Array<UnityEngine::Vector3>* GetGeometry(GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public UnityEngine.Vector3 GetDimensions(OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x12AC454
+    // Offset: 0x13B5768
     UnityEngine::Vector3 GetDimensions(GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public System.Boolean GetVisible()
-    // Offset: 0x12AC558
+    // Offset: 0x13B586C
     bool GetVisible();
     // public System.Void SetVisible(System.Boolean value)
-    // Offset: 0x12AC5FC
+    // Offset: 0x13B5910
     void SetVisible(bool value);
+    // static private System.Void .cctor()
+    // Offset: 0x13B5A30
+    static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x12AC6AC
+    // Offset: 0x13B59C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -105,14 +105,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBoundary*, "", "OVRBoundary");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::OVRBoundary::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRBoundary::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoundary*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoundary::GetConfigured
 // Il2CppName: GetConfigured
 template<>
@@ -174,6 +166,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoundary*), "SetVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OVRBoundary::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRBoundary::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoundary*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoundary::New_ctor

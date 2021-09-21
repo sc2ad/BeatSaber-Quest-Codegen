@@ -27,6 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class Signal : public UnityEngine::ScriptableObject {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xEC9B20
     // private System.Action _event
     // Size: 0x8
     // Offset: 0x18
@@ -40,22 +41,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action _event
     System::Action*& dyn__event();
     // private System.Void add__event(System.Action value)
-    // Offset: 0x2393A80
+    // Offset: 0x2599978
     void add__event(System::Action* value);
     // private System.Void remove__event(System.Action value)
-    // Offset: 0x2393B24
+    // Offset: 0x2599A1C
     void remove__event(System::Action* value);
     // public System.Void Raise()
-    // Offset: 0x2393BC8
+    // Offset: 0x2599AC0
     void Raise();
     // public System.Void Subscribe(System.Action foo)
-    // Offset: 0x2393BDC
+    // Offset: 0x2599AD4
     void Subscribe(System::Action* foo);
     // public System.Void Unsubscribe(System.Action foo)
-    // Offset: 0x2393C08
+    // Offset: 0x2599B00
     void Unsubscribe(System::Action* foo);
     // public System.Void .ctor()
-    // Offset: 0x2393C0C
+    // Offset: 0x2599B04
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

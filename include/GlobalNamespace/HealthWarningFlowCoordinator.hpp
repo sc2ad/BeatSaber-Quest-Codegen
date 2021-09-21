@@ -55,21 +55,21 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::HealthWarningFlowCoordinator::InitData
     class InitData;
-    // [InjectAttribute] Offset: 0xE45308
+    // [InjectAttribute] Offset: 0xF0DCCC
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xA8
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE45318
+    // [InjectAttribute] Offset: 0xF0DCDC
     // private readonly DlcPromoExperimentModel _dlcPromoExperimentModel
     // Size: 0x8
     // Offset: 0xB0
     GlobalNamespace::DlcPromoExperimentModel* dlcPromoExperimentModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DlcPromoExperimentModel*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE45328
+    // [SpaceAttribute] Offset: 0xF0DCEC
     // private EulaViewController _eulaViewController
     // Size: 0x8
     // Offset: 0xB8
@@ -100,35 +100,35 @@ namespace GlobalNamespace {
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE453A0
+    // [SpaceAttribute] Offset: 0xF0DD64
     // private AppInitScenesTransitionSetupDataContainerSO _appInitScenesTransitionSetupDataContainer
     // Size: 0x8
     // Offset: 0xE0
     GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* appInitScenesTransitionSetupDataContainer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE453D8
+    // [InjectAttribute] Offset: 0xF0DD9C
     // private readonly SimpleDialogPromptViewController _simpleDialogPromptViewController
     // Size: 0x8
     // Offset: 0xE8
     GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SimpleDialogPromptViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE453E8
+    // [InjectAttribute] Offset: 0xF0DDAC
     // private readonly FadeInOutController _fadeInOut
     // Size: 0x8
     // Offset: 0xF0
     GlobalNamespace::FadeInOutController* fadeInOut;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FadeInOutController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE453F8
+    // [InjectAttribute] Offset: 0xF0DDBC
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0xF8
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE45408
+    // [InjectAttribute] Offset: 0xF0DDCC
     // private readonly HealthWarningFlowCoordinator/InitData _initData
     // Size: 0x8
     // Offset: 0x100
@@ -170,37 +170,57 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<HMUI.ViewController,System.String> _viewControllerTitles
     System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::Il2CppString*>*& dyn__viewControllerTitles();
     // private HMUI.ViewController GetEulaOrHealthWarningViewController()
-    // Offset: 0x1186258
+    // Offset: 0x1144934
     HMUI::ViewController* GetEulaOrHealthWarningViewController();
     // protected System.Void Update()
-    // Offset: 0x11866AC
+    // Offset: 0x1144D88
     void Update();
     // private System.Void HandleSelectLanguageViewControllerDidChangeLanguage()
-    // Offset: 0x11866EC
+    // Offset: 0x1144DC8
     void HandleSelectLanguageViewControllerDidChangeLanguage();
     // private System.Void HandleSelectLanguageViewControllerDidPressContinueButton()
-    // Offset: 0x1186774
+    // Offset: 0x1144E50
     void HandleSelectLanguageViewControllerDidPressContinueButton();
     // private System.Void HandleEulaViewControllerDidFinish(System.Boolean agreed)
-    // Offset: 0x11867CC
+    // Offset: 0x1144EA8
     void HandleEulaViewControllerDidFinish(bool agreed);
     // private System.Void HandleHealthWarningViewControllerPrivacyPolicyButtonPressed()
-    // Offset: 0x1186840
+    // Offset: 0x1144F1C
     void HandleHealthWarningViewControllerPrivacyPolicyButtonPressed();
     // private System.Void HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed()
-    // Offset: 0x1186858
+    // Offset: 0x1144F34
     void HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed();
     // private System.Void HandleHealthWarningViewControllerDidFinish()
-    // Offset: 0x11866E8
+    // Offset: 0x1144DC4
     void HandleHealthWarningViewControllerDidFinish();
     // private System.Void GoToNextScene()
-    // Offset: 0x118692C
+    // Offset: 0x1145008
     void GoToNextScene();
     // private System.Void <HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed>b__23_0(System.Int32 button)
-    // Offset: 0x1186A3C
+    // Offset: 0x1145118
     void $HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed$b__23_0(int button);
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x1144400
+    // Implemented from: HMUI.FlowCoordinator
+    // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Offset: 0x114496C
+    // Implemented from: HMUI.FlowCoordinator
+    // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
+    // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
+    // Offset: 0x1144CB4
+    // Implemented from: HMUI.FlowCoordinator
+    // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
+    void TopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, HMUI::ViewController::AnimationType animationType);
+    // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
+    // Offset: 0x1145064
+    // Implemented from: HMUI.FlowCoordinator
+    // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
+    void BackButtonWasPressed(HMUI::ViewController* topViewController);
     // public System.Void .ctor()
-    // Offset: 0x1186A34
+    // Offset: 0x1145110
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -213,26 +233,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HealthWarningFlowCoordinator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningFlowCoordinator*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1185D24
-    // Implemented from: HMUI.FlowCoordinator
-    // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1186290
-    // Implemented from: HMUI.FlowCoordinator
-    // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
-    // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/HMUI.AnimationType animationType)
-    // Offset: 0x11865D8
-    // Implemented from: HMUI.FlowCoordinator
-    // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/HMUI.AnimationType animationType)
-    void TopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, HMUI::ViewController::AnimationType animationType);
-    // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0x1186988
-    // Implemented from: HMUI.FlowCoordinator
-    // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
-    void BackButtonWasPressed(HMUI::ViewController* topViewController);
   }; // HealthWarningFlowCoordinator
   #pragma pack(pop)
   static check_size<sizeof(HealthWarningFlowCoordinator), 264 + sizeof(System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::Il2CppString*>*)> __GlobalNamespace_HealthWarningFlowCoordinatorSizeCheck;
@@ -322,10 +322,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningFlowCoordinator*), "<HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed>b__23_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{button});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::HealthWarningFlowCoordinator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::HealthWarningFlowCoordinator::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -367,3 +363,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningFlowCoordinator*), "BackButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{topViewController});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::HealthWarningFlowCoordinator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -64,14 +64,14 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerHeightDetector*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE4C208
+    // [SpaceAttribute] Offset: 0xF14E14
     // private AudioManagerSO _audioMixer
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::AudioManagerSO* audioMixer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioManagerSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE4C240
+    // [InjectAttribute] Offset: 0xF14E4C
     // private PatternFightSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x48
@@ -92,8 +92,13 @@ namespace GlobalNamespace {
     GlobalNamespace::AudioManagerSO*& dyn__audioMixer();
     // Get instance field reference: private PatternFightSceneSetupData _sceneSetupData
     GlobalNamespace::PatternFightSceneSetupData*& dyn__sceneSetupData();
+    // public override System.Void InstallBindings()
+    // Offset: 0x12AD2EC
+    // Implemented from: Zenject.MonoInstallerBase
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
+    void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1037E38
+    // Offset: 0x12ADAE8
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -107,11 +112,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PatternFightSceneSetup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PatternFightSceneSetup*, creationType>()));
     }
-    // public override System.Void InstallBindings()
-    // Offset: 0x1037674
-    // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings()
-    void InstallBindings();
   }; // PatternFightSceneSetup
   #pragma pack(pop)
   static check_size<sizeof(PatternFightSceneSetup), 72 + sizeof(GlobalNamespace::PatternFightSceneSetupData*)> __GlobalNamespace_PatternFightSceneSetupSizeCheck;
@@ -119,10 +119,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightSceneSetup*, "", "PatternFightSceneSetup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::PatternFightSceneSetup::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PatternFightSceneSetup::InstallBindings
 // Il2CppName: InstallBindings
 template<>
@@ -131,3 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PatternFightSceneSetup*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PatternFightSceneSetup::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

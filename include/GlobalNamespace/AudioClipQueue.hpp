@@ -64,16 +64,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _delay
     float& dyn__delay();
     // protected System.Void Awake()
-    // Offset: 0x1177094
+    // Offset: 0x1247404
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x11770B4
+    // Offset: 0x1247424
     void Update();
     // public System.Void PlayAudioClipWithDelay(UnityEngine.AudioClip audioClip, System.Single delay)
-    // Offset: 0x11771E0
+    // Offset: 0x1247550
     void PlayAudioClipWithDelay(UnityEngine::AudioClip* audioClip, float delay);
     // public System.Void .ctor()
-    // Offset: 0x117729C
+    // Offset: 0x124760C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

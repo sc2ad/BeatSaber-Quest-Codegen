@@ -45,6 +45,7 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::PromoViewController::ButtonPromoTypePair*>* elements;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::PromoViewController::ButtonPromoTypePair*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF11C20
     // private System.Action`3<PromoViewController,IAnnotatedBeatmapLevelCollection,IPreviewBeatmapLevel> promoButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x78
@@ -58,13 +59,18 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`3<PromoViewController,IAnnotatedBeatmapLevelCollection,IPreviewBeatmapLevel> promoButtonWasPressedEvent
     System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>*& dyn_promoButtonWasPressedEvent();
     // public System.Void add_promoButtonWasPressedEvent(System.Action`3<PromoViewController,IAnnotatedBeatmapLevelCollection,IPreviewBeatmapLevel> value)
-    // Offset: 0x11253DC
+    // Offset: 0x11BEA54
     void add_promoButtonWasPressedEvent(System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public System.Void remove_promoButtonWasPressedEvent(System.Action`3<PromoViewController,IAnnotatedBeatmapLevelCollection,IPreviewBeatmapLevel> value)
-    // Offset: 0x1125480
+    // Offset: 0x11BEAF8
     void remove_promoButtonWasPressedEvent(System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>* value);
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x11BEB9C
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x1125658
+    // Offset: 0x11BECD0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -77,11 +83,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PromoViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PromoViewController*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1125524
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
   }; // PromoViewController
   #pragma pack(pop)
   static check_size<sizeof(PromoViewController), 120 + sizeof(System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>*)> __GlobalNamespace_PromoViewControllerSizeCheck;
@@ -107,10 +108,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PromoViewController*), "remove_promoButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PromoViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PromoViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -122,3 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PromoViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{firstActivation, addedToHierarchy, screenSystemEnabling});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PromoViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

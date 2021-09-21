@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Creating value type constructor for type: KeyDerivationFunc
     KeyDerivationFunc() noexcept {}
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x17B7F10
+    // Offset: 0x1970778
     // Implemented from: Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier
     // Base method: System.Void AlgorithmIdentifier::.ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -42,7 +42,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
       return THROW_UNLESS((::il2cpp_utils::New<KeyDerivationFunc*, creationType>(seq)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerObjectIdentifier id, Org.BouncyCastle.Asn1.Asn1Encodable parameters)
-    // Offset: 0x17B7F18
+    // Offset: 0x1970780
     // Implemented from: Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier
     // Base method: System.Void AlgorithmIdentifier::.ctor(Org.BouncyCastle.Asn1.DerObjectIdentifier id, Org.BouncyCastle.Asn1.Asn1Encodable parameters)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

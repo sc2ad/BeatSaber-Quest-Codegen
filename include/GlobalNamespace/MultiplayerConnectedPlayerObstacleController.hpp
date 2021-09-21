@@ -45,8 +45,13 @@ namespace GlobalNamespace {
     MultiplayerConnectedPlayerObstacleController(GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController* multiplayerConnectedPlayerObstacleClippingController_ = {}) noexcept : multiplayerConnectedPlayerObstacleClippingController{multiplayerConnectedPlayerObstacleClippingController_} {}
     // Get instance field reference: private MultiplayerConnectedPlayerObstacleClippingController _multiplayerConnectedPlayerObstacleClippingController
     GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController*& dyn__multiplayerConnectedPlayerObstacleClippingController();
+    // public override System.Void Init(ObstacleData obstacleData, System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 midPos, UnityEngine.Vector3 endPos, System.Single move1Duration, System.Single move2Duration, System.Single singleLineWidth, System.Single height)
+    // Offset: 0x12136E0
+    // Implemented from: ObstacleController
+    // Base method: System.Void ObstacleController::Init(ObstacleData obstacleData, System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 midPos, UnityEngine.Vector3 endPos, System.Single move1Duration, System.Single move2Duration, System.Single singleLineWidth, System.Single height)
+    void Init(GlobalNamespace::ObstacleData* obstacleData, float worldRotation, UnityEngine::Vector3 startPos, UnityEngine::Vector3 midPos, UnityEngine::Vector3 endPos, float move1Duration, float move2Duration, float singleLineWidth, float height);
     // public System.Void .ctor()
-    // Offset: 0x11CD3BC
+    // Offset: 0x121390C
     // Implemented from: ObstacleController
     // Base method: System.Void ObstacleController::.ctor()
     // Base method: System.Void ObstacleControllerBase::.ctor()
@@ -60,11 +65,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerConnectedPlayerObstacleController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerObstacleController*, creationType>()));
     }
-    // public override System.Void Init(ObstacleData obstacleData, System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 midPos, UnityEngine.Vector3 endPos, System.Single move1Duration, System.Single move2Duration, System.Single singleLineWidth, System.Single height)
-    // Offset: 0x11CD190
-    // Implemented from: ObstacleController
-    // Base method: System.Void ObstacleController::Init(ObstacleData obstacleData, System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 midPos, UnityEngine.Vector3 endPos, System.Single move1Duration, System.Single move2Duration, System.Single singleLineWidth, System.Single height)
-    void Init(GlobalNamespace::ObstacleData* obstacleData, float worldRotation, UnityEngine::Vector3 startPos, UnityEngine::Vector3 midPos, UnityEngine::Vector3 endPos, float move1Duration, float move2Duration, float singleLineWidth, float height);
   }; // MultiplayerConnectedPlayerObstacleController
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerObstacleController), 288 + sizeof(GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController*)> __GlobalNamespace_MultiplayerConnectedPlayerObstacleControllerSizeCheck;
@@ -72,10 +72,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerObstacleController*, "", "MultiplayerConnectedPlayerObstacleController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerObstacleController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Init
 // Il2CppName: Init
 template<>
@@ -93,3 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerObstacleController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obstacleData, worldRotation, startPos, midPos, endPos, move1Duration, move2Duration, singleLineWidth, height});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerObstacleController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

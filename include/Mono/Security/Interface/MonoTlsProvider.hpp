@@ -78,9 +78,6 @@ namespace Mono::Security::Interface {
     // public System.Security.Authentication.SslProtocols get_SupportedProtocols()
     // Offset: 0xFFFFFFFF
     System::Security::Authentication::SslProtocols get_SupportedProtocols();
-    // System.Boolean get_SupportsCleanShutdown()
-    // Offset: 0xFFFFFFFF
-    bool get_SupportsCleanShutdown();
     // public Mono.Security.Interface.IMonoSslStream CreateSslStream(System.IO.Stream innerStream, System.Boolean leaveInnerStreamOpen, Mono.Security.Interface.MonoTlsSettings settings)
     // Offset: 0xFFFFFFFF
     Mono::Security::Interface::IMonoSslStream* CreateSslStream(System::IO::Stream* innerStream, bool leaveInnerStreamOpen, Mono::Security::Interface::MonoTlsSettings* settings);
@@ -90,8 +87,11 @@ namespace Mono::Security::Interface {
     // System.Boolean ValidateCertificate(Mono.Security.Interface.ICertificateValidator2 validator, System.String targetHost, System.Boolean serverMode, System.Security.Cryptography.X509Certificates.X509CertificateCollection certificates, System.Boolean wantsChain, ref System.Security.Cryptography.X509Certificates.X509Chain chain, ref Mono.Security.Interface.MonoSslPolicyErrors errors, ref System.Int32 status11)
     // Offset: 0xFFFFFFFF
     bool ValidateCertificate(Mono::Security::Interface::ICertificateValidator2* validator, ::Il2CppString* targetHost, bool serverMode, System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates, bool wantsChain, ByRef<System::Security::Cryptography::X509Certificates::X509Chain*> chain, ByRef<Mono::Security::Interface::MonoSslPolicyErrors> errors, ByRef<int> status11);
+    // System.Boolean get_SupportsCleanShutdown()
+    // Offset: 0xFFFFFFFF
+    bool get_SupportsCleanShutdown();
     // System.Void .ctor()
-    // Offset: 0x1E04D78
+    // Offset: 0x1FA12E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -152,14 +152,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsProvider*), "get_SupportedProtocols", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsProvider::get_SupportsCleanShutdown
-// Il2CppName: get_SupportsCleanShutdown
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Interface::MonoTlsProvider::*)()>(&Mono::Security::Interface::MonoTlsProvider::get_SupportsCleanShutdown)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsProvider*), "get_SupportsCleanShutdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsProvider::CreateSslStream
 // Il2CppName: CreateSslStream
 template<>
@@ -197,6 +189,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
     static auto* errors = &::il2cpp_utils::GetClassFromName("Mono.Security.Interface", "MonoSslPolicyErrors")->this_arg;
     static auto* status11 = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsProvider*), "ValidateCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{validator, targetHost, serverMode, certificates, wantsChain, chain, errors, status11});
+  }
+};
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsProvider::get_SupportsCleanShutdown
+// Il2CppName: get_SupportsCleanShutdown
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Interface::MonoTlsProvider::*)()>(&Mono::Security::Interface::MonoTlsProvider::get_SupportsCleanShutdown)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsProvider*), "get_SupportsCleanShutdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsProvider::New_ctor

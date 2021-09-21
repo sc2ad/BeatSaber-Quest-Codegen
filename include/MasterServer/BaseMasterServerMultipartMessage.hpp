@@ -33,24 +33,28 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseMasterServerMultipartMessage : public GlobalNamespace::BaseMasterServerReliableRequest/*, public MasterServer::IMasterServerMultipartMessage*/ {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xEDA110
     // private System.UInt32 <multipartMessageId>k__BackingField
     // Size: 0x4
     // Offset: 0x14
     uint multipartMessageId;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    // [CompilerGeneratedAttribute] Offset: 0xEDA120
     // private System.Int32 <offset>k__BackingField
     // Size: 0x4
     // Offset: 0x18
     int offset;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    // [CompilerGeneratedAttribute] Offset: 0xEDA130
     // private System.Int32 <length>k__BackingField
     // Size: 0x4
     // Offset: 0x1C
     int length;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    // [CompilerGeneratedAttribute] Offset: 0xEDA140
     // private System.Int32 <totalLength>k__BackingField
     // Size: 0x4
     // Offset: 0x20
@@ -96,37 +100,47 @@ namespace MasterServer {
     // Get instance field reference: private readonly System.Byte[] _data
     ::Array<uint8_t>*& dyn__data();
     // public System.UInt32 get_multipartMessageId()
-    // Offset: 0x121A698
+    // Offset: 0x12D9A38
     uint get_multipartMessageId();
     // private System.Void set_multipartMessageId(System.UInt32 value)
-    // Offset: 0x121A6A0
+    // Offset: 0x12D9A40
     void set_multipartMessageId(uint value);
     // public System.Int32 get_offset()
-    // Offset: 0x121A6A8
+    // Offset: 0x12D9A48
     int get_offset();
     // private System.Void set_offset(System.Int32 value)
-    // Offset: 0x121A6B0
+    // Offset: 0x12D9A50
     void set_offset(int value);
     // public System.Int32 get_length()
-    // Offset: 0x121A6B8
+    // Offset: 0x12D9A58
     int get_length();
     // private System.Void set_length(System.Int32 value)
-    // Offset: 0x121A6C0
+    // Offset: 0x12D9A60
     void set_length(int value);
     // public System.Int32 get_totalLength()
-    // Offset: 0x121A6C8
+    // Offset: 0x12D9A68
     int get_totalLength();
     // private System.Void set_totalLength(System.Int32 value)
-    // Offset: 0x121A6D0
+    // Offset: 0x12D9A70
     void set_totalLength(int value);
     // public System.Byte[] get_data()
-    // Offset: 0x121A6D8
+    // Offset: 0x12D9A78
     ::Array<uint8_t>* get_data();
     // public MasterServer.BaseMasterServerMultipartMessage Init(System.UInt32 multipartMessageId, System.Byte[] data, System.Int32 offset, System.Int32 length, System.Int32 totalLength)
-    // Offset: 0x121A6E0
+    // Offset: 0x12D9A80
     MasterServer::BaseMasterServerMultipartMessage* Init(uint multipartMessageId, ::Array<uint8_t>* data, int offset, int length, int totalLength);
+    // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x12D9ADC
+    // Implemented from: BaseMasterServerReliableRequest
+    // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
+    // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x12D9B60
+    // Implemented from: BaseMasterServerReliableRequest
+    // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // protected System.Void .ctor()
-    // Offset: 0x121A928
+    // Offset: 0x12D9CC8
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -135,16 +149,6 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::BaseMasterServerMultipartMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseMasterServerMultipartMessage*, creationType>()));
     }
-    // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x121A73C
-    // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
-    // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x121A7C0
-    // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
   }; // MasterServer.BaseMasterServerMultipartMessage
   #pragma pack(pop)
   static check_size<sizeof(BaseMasterServerMultipartMessage), 40 + sizeof(::Array<uint8_t>*)> __MasterServer_BaseMasterServerMultipartMessageSizeCheck;
@@ -241,10 +245,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseMasterServerMultipartMessage*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multipartMessageId, data, offset, length, totalLength});
   }
 };
-// Writing MetadataGetter for method: MasterServer::BaseMasterServerMultipartMessage::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: MasterServer::BaseMasterServerMultipartMessage::Serialize
 // Il2CppName: Serialize
 template<>
@@ -263,3 +263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseMasterServerMultipartMessage*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
   }
 };
+// Writing MetadataGetter for method: MasterServer::BaseMasterServerMultipartMessage::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

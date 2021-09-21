@@ -32,12 +32,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EmptyBeatmapLevelData : public ::Il2CppObject/*, public GlobalNamespace::IBeatmapLevelData*/ {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xF02014
     // private readonly UnityEngine.AudioClip <audioClip>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::AudioClip* audioClip;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioClip*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF02024
     // private readonly IDifficultyBeatmapSet[] <difficultyBeatmapSets>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -55,13 +57,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IDifficultyBeatmapSet[] <difficultyBeatmapSets>k__BackingField
     ::Array<GlobalNamespace::IDifficultyBeatmapSet*>*& dyn_$difficultyBeatmapSets$k__BackingField();
     // public UnityEngine.AudioClip get_audioClip()
-    // Offset: 0x1055ED4
+    // Offset: 0x11AECBC
     UnityEngine::AudioClip* get_audioClip();
     // public IDifficultyBeatmapSet[] get_difficultyBeatmapSets()
-    // Offset: 0x1055EDC
+    // Offset: 0x11AECC4
     ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
     // public System.Void .ctor()
-    // Offset: 0x1055ECC
+    // Offset: 0x11AECB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

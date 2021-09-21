@@ -68,10 +68,15 @@ namespace GlobalNamespace {
     // Get instance field reference: protected UnityEngine.Color _color
     UnityEngine::Color& dyn__color();
     // public System.Void InitAndPresent(System.String text, System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, UnityEngine.Color color, System.Single fontSize, System.Boolean shake)
-    // Offset: 0x1061E20
+    // Offset: 0x11BAC54
     void InitAndPresent(::Il2CppString* text, float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, UnityEngine::Color color, float fontSize, bool shake);
+    // protected override System.Void ManualUpdate(System.Single t)
+    // Offset: 0x11BACC8
+    // Implemented from: FlyingObjectEffect
+    // Base method: System.Void FlyingObjectEffect::ManualUpdate(System.Single t)
+    void ManualUpdate(float t);
     // public System.Void .ctor()
-    // Offset: 0x1061F10
+    // Offset: 0x11BAD44
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -84,11 +89,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FlyingTextEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlyingTextEffect*, creationType>()));
     }
-    // protected override System.Void ManualUpdate(System.Single t)
-    // Offset: 0x1061E94
-    // Implemented from: FlyingObjectEffect
-    // Base method: System.Void FlyingObjectEffect::ManualUpdate(System.Single t)
-    void ManualUpdate(float t);
   }; // FlyingTextEffect
   #pragma pack(pop)
   static check_size<sizeof(FlyingTextEffect), 144 + sizeof(UnityEngine::Color)> __GlobalNamespace_FlyingTextEffectSizeCheck;
@@ -111,10 +111,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingTextEffect*), "InitAndPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, duration, targetPos, rotation, color, fontSize, shake});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FlyingTextEffect::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FlyingTextEffect::ManualUpdate
 // Il2CppName: ManualUpdate
 template<>
@@ -124,3 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingTextEffect*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::FlyingTextEffect::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

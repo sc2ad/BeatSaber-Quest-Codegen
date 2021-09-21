@@ -50,26 +50,26 @@ namespace HMUI {
     TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private UnityEngine.GameObject _backgroundGameObject
     UnityEngine::GameObject*& dyn__backgroundGameObject();
-    // public System.String get_text()
-    // Offset: 0x131E0A8
-    ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x131E034
+    // Offset: 0x14205E4
     void set_text(::Il2CppString* value);
-    // public System.Single get_fontSize()
-    // Offset: 0x131E0C4
-    float get_fontSize();
+    // public System.String get_text()
+    // Offset: 0x1420658
+    ::Il2CppString* get_text();
     // public System.Void set_fontSize(System.Single value)
-    // Offset: 0x131E018
+    // Offset: 0x14205C8
     void set_fontSize(float value);
+    // public System.Single get_fontSize()
+    // Offset: 0x1420674
+    float get_fontSize();
     // public System.Void set_hideBackgroundImage(System.Boolean value)
-    // Offset: 0x131E050
+    // Offset: 0x1420600
     void set_hideBackgroundImage(bool value);
     // public System.Single get_preferredWidth()
-    // Offset: 0x131E074
+    // Offset: 0x1420624
     float get_preferredWidth();
     // public System.Void .ctor()
-    // Offset: 0x131E0E0
+    // Offset: 0x1420690
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
@@ -91,14 +91,6 @@ namespace HMUI {
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TextSegmentedControlCell*, "HMUI", "TextSegmentedControlCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: HMUI::TextSegmentedControlCell::get_text
-// Il2CppName: get_text
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HMUI::TextSegmentedControlCell::*)()>(&HMUI::TextSegmentedControlCell::get_text)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSegmentedControlCell*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: HMUI::TextSegmentedControlCell::set_text
 // Il2CppName: set_text
 template<>
@@ -108,12 +100,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::TextSegmentedControlCell*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: HMUI::TextSegmentedControlCell::get_fontSize
-// Il2CppName: get_fontSize
+// Writing MetadataGetter for method: HMUI::TextSegmentedControlCell::get_text
+// Il2CppName: get_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::TextSegmentedControlCell::*)()>(&HMUI::TextSegmentedControlCell::get_fontSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HMUI::TextSegmentedControlCell::*)()>(&HMUI::TextSegmentedControlCell::get_text)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSegmentedControlCell*), "get_fontSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSegmentedControlCell*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: HMUI::TextSegmentedControlCell::set_fontSize
@@ -123,6 +115,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::TextSegmentedControlCell*), "set_fontSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: HMUI::TextSegmentedControlCell::get_fontSize
+// Il2CppName: get_fontSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::TextSegmentedControlCell::*)()>(&HMUI::TextSegmentedControlCell::get_fontSize)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TextSegmentedControlCell*), "get_fontSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: HMUI::TextSegmentedControlCell::set_hideBackgroundImage

@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SyncTimeProvider : public ::Il2CppObject/*, public GlobalNamespace::ITimeProvider*/ {
     public:
-    // [InjectAttribute] Offset: 0xE4333C
+    // [InjectAttribute] Offset: 0xF0BCD0
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
@@ -47,10 +47,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
     GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // public System.Single get_time()
-    // Offset: 0x106D9A4
+    // Offset: 0x115C32C
     float get_time();
     // public System.Void .ctor()
-    // Offset: 0x106DA58
+    // Offset: 0x115C3E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

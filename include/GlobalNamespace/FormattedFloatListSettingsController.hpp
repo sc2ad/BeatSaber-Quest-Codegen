@@ -96,6 +96,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::FormattedFloatListSettingsController::ValueType) == 0x4);
     // Padding between fields: valueType and: valueDidChangeEvent
     char __padding2[0x4] = {};
+    // [CompilerGeneratedAttribute] Offset: 0xF0F440
     // private System.Action`2<FormattedFloatListSettingsController,System.Single> valueDidChangeEvent
     // Size: 0x8
     // Offset: 0x40
@@ -144,26 +145,41 @@ namespace GlobalNamespace {
     float& dyn__max();
     // Get instance field reference: private System.Boolean _hasValue
     bool& dyn__hasValue();
-    // public System.Single get_value()
-    // Offset: 0x10624A0
-    float get_value();
-    // public System.Single[] get_values()
-    // Offset: 0x10624A8
-    ::Array<float>* get_values();
-    // public System.Void set_values(System.Single[] value)
-    // Offset: 0x10624B0
-    void set_values(::Array<float>* value);
     // public System.Void add_valueDidChangeEvent(System.Action`2<FormattedFloatListSettingsController,System.Single> value)
-    // Offset: 0x1062358
+    // Offset: 0x11BB18C
     void add_valueDidChangeEvent(System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>* value);
     // public System.Void remove_valueDidChangeEvent(System.Action`2<FormattedFloatListSettingsController,System.Single> value)
-    // Offset: 0x10623FC
+    // Offset: 0x11BB230
     void remove_valueDidChangeEvent(System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>* value);
+    // public System.Single get_value()
+    // Offset: 0x11BB2D4
+    float get_value();
+    // public System.Single[] get_values()
+    // Offset: 0x11BB2DC
+    ::Array<float>* get_values();
+    // public System.Void set_values(System.Single[] value)
+    // Offset: 0x11BB2E4
+    void set_values(::Array<float>* value);
     // public System.Void SetValue(System.Single value, System.Boolean callCallback)
-    // Offset: 0x10624C0
+    // Offset: 0x11BB2F4
     void SetValue(float value, bool callCallback);
+    // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
+    // Offset: 0x11BB30C
+    // Implemented from: ListSettingsController
+    // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
+    bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
+    // protected override System.Void ApplyValue(System.Int32 idx)
+    // Offset: 0x11BB464
+    // Implemented from: ListSettingsController
+    // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
+    void ApplyValue(int idx);
+    // protected override System.String TextForValue(System.Int32 idx)
+    // Offset: 0x11BB508
+    // Implemented from: ListSettingsController
+    // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
+    ::Il2CppString* TextForValue(int idx);
     // public System.Void .ctor()
-    // Offset: 0x10627C0
+    // Offset: 0x11BB5F4
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -177,21 +193,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FormattedFloatListSettingsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FormattedFloatListSettingsController*, creationType>()));
     }
-    // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x10624D8
-    // Implemented from: ListSettingsController
-    // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
-    // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x1062630
-    // Implemented from: ListSettingsController
-    // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
-    void ApplyValue(int idx);
-    // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x10626D4
-    // Implemented from: ListSettingsController
-    // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
-    ::Il2CppString* TextForValue(int idx);
   }; // FormattedFloatListSettingsController
   #pragma pack(pop)
   static check_size<sizeof(FormattedFloatListSettingsController), 84 + sizeof(bool)> __GlobalNamespace_FormattedFloatListSettingsControllerSizeCheck;
@@ -200,6 +201,24 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FormattedFloatListSettingsController*, "", "FormattedFloatListSettingsController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FormattedFloatListSettingsController::ValueType, "", "FormattedFloatListSettingsController/ValueType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::FormattedFloatListSettingsController::add_valueDidChangeEvent
+// Il2CppName: add_valueDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FormattedFloatListSettingsController::*)(System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>*)>(&GlobalNamespace::FormattedFloatListSettingsController::add_valueDidChangeEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "FormattedFloatListSettingsController"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FormattedFloatListSettingsController*), "add_valueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::FormattedFloatListSettingsController::remove_valueDidChangeEvent
+// Il2CppName: remove_valueDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FormattedFloatListSettingsController::*)(System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>*)>(&GlobalNamespace::FormattedFloatListSettingsController::remove_valueDidChangeEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "FormattedFloatListSettingsController"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FormattedFloatListSettingsController*), "remove_valueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FormattedFloatListSettingsController::get_value
 // Il2CppName: get_value
 template<>
@@ -225,24 +244,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FormattedFloatListSettingsController*), "set_values", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FormattedFloatListSettingsController::add_valueDidChangeEvent
-// Il2CppName: add_valueDidChangeEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FormattedFloatListSettingsController::*)(System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>*)>(&GlobalNamespace::FormattedFloatListSettingsController::add_valueDidChangeEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "FormattedFloatListSettingsController"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FormattedFloatListSettingsController*), "add_valueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::FormattedFloatListSettingsController::remove_valueDidChangeEvent
-// Il2CppName: remove_valueDidChangeEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FormattedFloatListSettingsController::*)(System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>*)>(&GlobalNamespace::FormattedFloatListSettingsController::remove_valueDidChangeEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "FormattedFloatListSettingsController"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FormattedFloatListSettingsController*), "remove_valueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::FormattedFloatListSettingsController::SetValue
 // Il2CppName: SetValue
 template<>
@@ -253,10 +254,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FormattedFloatListSettingsController*), "SetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, callCallback});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::FormattedFloatListSettingsController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::FormattedFloatListSettingsController::GetInitValues
 // Il2CppName: GetInitValues
 template<>
@@ -285,3 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FormattedFloatListSettingsController*), "TextForValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{idx});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::FormattedFloatListSettingsController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

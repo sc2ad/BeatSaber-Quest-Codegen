@@ -58,27 +58,28 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: displaySpotNumber and: spotNumber
     char __padding1[0x2] = {};
-    // [DrawIfAttribute] Offset: 0xE41AB0
+    // [DrawIfAttribute] Offset: 0xF0A444
     // private System.Int32 _spotNumber
     // Size: 0x4
     // Offset: 0x1C
     int spotNumber;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [InjectAttribute] Offset: 0xE41B58
+    // [InjectAttribute] Offset: 0xF0A4EC
     // private readonly MultiplayerSpectatingSpotManager _spectatingSpotManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MultiplayerSpectatingSpotManager* spectatingSpotManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerSpectatingSpotManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE41B68
+    // [InjectAttribute] Offset: 0xF0A4FC
     // private readonly MultiplayerActivePlayersTimeOffsetAverage _activePlayersTimeOffsetAverage
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage* activePlayersTimeOffsetAverage;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0A50C
     // private System.Action`1<IMultiplayerSpectatingSpot> hasBeenRemovedEvent
     // Size: 0x8
     // Offset: 0x30
@@ -105,35 +106,35 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage*& dyn__activePlayersTimeOffsetAverage();
     // Get instance field reference: private System.Action`1<IMultiplayerSpectatingSpot> hasBeenRemovedEvent
     System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*& dyn_hasBeenRemovedEvent();
-    // public IMultiplayerObservable get_observable()
-    // Offset: 0x11D3498
-    GlobalNamespace::IMultiplayerObservable* get_observable();
-    // public System.String get_spotName()
-    // Offset: 0x11D34A0
-    ::Il2CppString* get_spotName();
-    // public System.Boolean get_isMain()
-    // Offset: 0x11D354C
-    bool get_isMain();
-    // private UnityEngine.Transform IMultiplayerSpectatingSpot.get_transform()
-    // Offset: 0x11D35E4
-    UnityEngine::Transform* IMultiplayerSpectatingSpot_get_transform();
     // public System.Void add_hasBeenRemovedEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
-    // Offset: 0x11D3350
+    // Offset: 0x1219638
     void add_hasBeenRemovedEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
     // public System.Void remove_hasBeenRemovedEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
-    // Offset: 0x11D33F4
+    // Offset: 0x12196DC
     void remove_hasBeenRemovedEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
+    // public IMultiplayerObservable get_observable()
+    // Offset: 0x1219780
+    GlobalNamespace::IMultiplayerObservable* get_observable();
+    // public System.String get_spotName()
+    // Offset: 0x1219788
+    ::Il2CppString* get_spotName();
+    // public System.Boolean get_isMain()
+    // Offset: 0x1219834
+    bool get_isMain();
     // protected System.Void Start()
-    // Offset: 0x11D3554
+    // Offset: 0x121983C
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x11D3574
+    // Offset: 0x121985C
     void OnDisable();
     // public System.Void SetIsObserved(System.Boolean isObserved)
-    // Offset: 0x11D35D8
+    // Offset: 0x12198C0
     void SetIsObserved(bool isObserved);
+    // private UnityEngine.Transform IMultiplayerSpectatingSpot.get_transform()
+    // Offset: 0x12198CC
+    UnityEngine::Transform* IMultiplayerSpectatingSpot_get_transform();
     // public System.Void .ctor()
-    // Offset: 0x11D35DC
+    // Offset: 0x12198C4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -152,6 +153,24 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*, "", "MultiplayerEnvironmentSpectatingSpot");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::add_hasBeenRemovedEvent
+// Il2CppName: add_hasBeenRemovedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::add_hasBeenRemovedEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IMultiplayerSpectatingSpot")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*), "add_hasBeenRemovedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::remove_hasBeenRemovedEvent
+// Il2CppName: remove_hasBeenRemovedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::remove_hasBeenRemovedEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IMultiplayerSpectatingSpot")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*), "remove_hasBeenRemovedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::get_observable
 // Il2CppName: get_observable
 template<>
@@ -174,32 +193,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(&GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::get_isMain)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*), "get_isMain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::IMultiplayerSpectatingSpot_get_transform
-// Il2CppName: IMultiplayerSpectatingSpot.get_transform
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(&GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::IMultiplayerSpectatingSpot_get_transform)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*), "IMultiplayerSpectatingSpot.get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::add_hasBeenRemovedEvent
-// Il2CppName: add_hasBeenRemovedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::add_hasBeenRemovedEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IMultiplayerSpectatingSpot")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*), "add_hasBeenRemovedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::remove_hasBeenRemovedEvent
-// Il2CppName: remove_hasBeenRemovedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::remove_hasBeenRemovedEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IMultiplayerSpectatingSpot")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*), "remove_hasBeenRemovedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::Start
@@ -225,6 +218,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* isObserved = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*), "SetIsObserved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isObserved});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::IMultiplayerSpectatingSpot_get_transform
+// Il2CppName: IMultiplayerSpectatingSpot.get_transform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(&GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::IMultiplayerSpectatingSpot_get_transform)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*), "IMultiplayerSpectatingSpot.get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::New_ctor

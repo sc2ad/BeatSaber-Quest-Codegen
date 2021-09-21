@@ -56,6 +56,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorHueSlider* colorHueSlider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorHueSlider*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0C760
     // private System.Action`2<UnityEngine.Color,ColorChangeUIEventType> colorDidChangeEvent
     // Size: 0x8
     // Offset: 0x28
@@ -80,38 +81,38 @@ namespace GlobalNamespace {
     System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>*& dyn_colorDidChangeEvent();
     // Get instance field reference: private UnityEngine.Vector3 _hsvColor
     UnityEngine::Vector3& dyn__hsvColor();
-    // public UnityEngine.Color get_color()
-    // Offset: 0x1106BF4
-    UnityEngine::Color get_color();
-    // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x1106C04
-    void set_color(UnityEngine::Color value);
     // public System.Void add_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x1106AAC
+    // Offset: 0x11425F4
     void add_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x1106B50
+    // Offset: 0x1142698
     void remove_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
+    // public UnityEngine.Color get_color()
+    // Offset: 0x114273C
+    UnityEngine::Color get_color();
+    // public System.Void set_color(UnityEngine.Color value)
+    // Offset: 0x114274C
+    void set_color(UnityEngine::Color value);
     // protected System.Void Awake()
-    // Offset: 0x1106CCC
+    // Offset: 0x1142814
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1106DAC
+    // Offset: 0x11428F4
     void OnDestroy();
     // private System.Void HandleColorSaturationOrValueDidChange(ColorSaturationValueSlider slider, UnityEngine.Vector2 colorSaturationAndValue, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x1106F04
+    // Offset: 0x1142A4C
     void HandleColorSaturationOrValueDidChange(GlobalNamespace::ColorSaturationValueSlider* slider, UnityEngine::Vector2 colorSaturationAndValue, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void HandleColorHueDidChange(ColorHueSlider slider, System.Single hue, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x1106F9C
+    // Offset: 0x1142AE4
     void HandleColorHueDidChange(GlobalNamespace::ColorHueSlider* slider, float hue, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void RefreshSlidersValues()
-    // Offset: 0x1106C64
+    // Offset: 0x11427AC
     void RefreshSlidersValues();
     // private System.Void RefreshSlidersColors()
-    // Offset: 0x1106C40
+    // Offset: 0x1142788
     void RefreshSlidersColors();
     // public System.Void .ctor()
-    // Offset: 0x110702C
+    // Offset: 0x1142B74
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -130,23 +131,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HSVPanelController*, "", "HSVPanelController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::HSVPanelController::get_color
-// Il2CppName: get_color
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::HSVPanelController::*)()>(&GlobalNamespace::HSVPanelController::get_color)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HSVPanelController*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::HSVPanelController::set_color
-// Il2CppName: set_color
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HSVPanelController::*)(UnityEngine::Color)>(&GlobalNamespace::HSVPanelController::set_color)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HSVPanelController*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::HSVPanelController::add_colorDidChangeEvent
 // Il2CppName: add_colorDidChangeEvent
 template<>
@@ -163,6 +147,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), ::il2cpp_utils::GetClassFromName("", "ColorChangeUIEventType")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HSVPanelController*), "remove_colorDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::HSVPanelController::get_color
+// Il2CppName: get_color
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::HSVPanelController::*)()>(&GlobalNamespace::HSVPanelController::get_color)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HSVPanelController*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::HSVPanelController::set_color
+// Il2CppName: set_color
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HSVPanelController::*)(UnityEngine::Color)>(&GlobalNamespace::HSVPanelController::set_color)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HSVPanelController*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::HSVPanelController::Awake

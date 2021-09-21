@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TubeLightIntensityBehaviour : public UnityEngine::Playables::PlayableBehaviour {
     public:
-    // [HeaderAttribute] Offset: 0xE4BCF8
+    // [HeaderAttribute] Offset: 0xF14904
     // public System.Boolean _noPredefinedStartValue
     // Size: 0x1
     // Offset: 0x10
@@ -45,21 +45,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: noPredefinedStartValue and: startLightIntensity
     char __padding0[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xE4BD30
+    // [DrawIfAttribute] Offset: 0xF1493C
     // public System.Single _startLightIntensity
     // Size: 0x4
     // Offset: 0x14
     float startLightIntensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0xE4BDC4
+    // [DrawIfAttribute] Offset: 0xF149D0
     // public System.Single _startLaserIntensity
     // Size: 0x4
     // Offset: 0x18
     float startLaserIntensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xE4BE58
+    // [HeaderAttribute] Offset: 0xF14A64
     // public System.Single _endLightIntensity
     // Size: 0x4
     // Offset: 0x1C
@@ -179,10 +179,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _firstFrameLaserIntensity
     float& dyn__firstFrameLaserIntensity();
     // private System.Void EnableObjects(System.Boolean on)
-    // Offset: 0x107522C
+    // Offset: 0x1163BB4
     void EnableObjects(bool on);
+    // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
+    // Offset: 0x11637FC
+    // Implemented from: UnityEngine.Playables.PlayableBehaviour
+    // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
+    void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
+    // public override System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
+    // Offset: 0x1163C94
+    // Implemented from: UnityEngine.Playables.PlayableBehaviour
+    // Base method: System.Void PlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
+    void OnPlayableDestroy(UnityEngine::Playables::Playable playable);
     // public System.Void .ctor()
-    // Offset: 0x1075408
+    // Offset: 0x1163D90
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -191,16 +201,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TubeLightIntensityBehaviour::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TubeLightIntensityBehaviour*, creationType>()));
     }
-    // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x1074E74
-    // Implemented from: UnityEngine.Playables.PlayableBehaviour
-    // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
-    // public override System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    // Offset: 0x107530C
-    // Implemented from: UnityEngine.Playables.PlayableBehaviour
-    // Base method: System.Void PlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    void OnPlayableDestroy(UnityEngine::Playables::Playable playable);
   }; // TubeLightIntensityBehaviour
   #pragma pack(pop)
   static check_size<sizeof(TubeLightIntensityBehaviour), 80 + sizeof(float)> __GlobalNamespace_TubeLightIntensityBehaviourSizeCheck;
@@ -217,10 +217,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeLightIntensityBehaviour*), "EnableObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{on});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TubeLightIntensityBehaviour::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TubeLightIntensityBehaviour::ProcessFrame
 // Il2CppName: ProcessFrame
 template<>
@@ -241,3 +237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeLightIntensityBehaviour*), "OnPlayableDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playable});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::TubeLightIntensityBehaviour::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

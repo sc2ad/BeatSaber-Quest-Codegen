@@ -63,6 +63,7 @@ namespace LiteNetLib {
     LiteNetLib::Utils::NetDataReader* Data;
     // Field size check
     static_assert(sizeof(LiteNetLib::Utils::NetDataReader*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xEAF31C
     // private LiteNetLib.ConnectionRequestResult <Result>k__BackingField
     // Size: 0x4
     // Offset: 0x28
@@ -108,56 +109,56 @@ namespace LiteNetLib {
     // Get instance field reference: public readonly System.Net.IPEndPoint RemoteEndPoint
     System::Net::IPEndPoint*& dyn_RemoteEndPoint();
     // LiteNetLib.ConnectionRequestResult get_Result()
-    // Offset: 0x1C178E0
+    // Offset: 0x1DCF748
     LiteNetLib::ConnectionRequestResult get_Result();
     // private System.Void set_Result(LiteNetLib.ConnectionRequestResult value)
-    // Offset: 0x1C178E8
+    // Offset: 0x1DCF750
     void set_Result(LiteNetLib::ConnectionRequestResult value);
+    // private System.Boolean TryActivate()
+    // Offset: 0x1DCF758
+    bool TryActivate();
+    // System.Void UpdateRequest(LiteNetLib.NetConnectRequestPacket connRequest)
+    // Offset: 0x1DCF784
+    void UpdateRequest(LiteNetLib::NetConnectRequestPacket* connRequest);
     // System.Void .ctor(System.Int64 connectionId, System.Byte connectionNumber, LiteNetLib.Utils.NetDataReader netDataReader, System.Net.IPEndPoint endPoint, LiteNetLib.NetManager listener)
-    // Offset: 0x1C1794C
+    // Offset: 0x1DCF7B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectionRequest* New_ctor(int64_t connectionId, uint8_t connectionNumber, LiteNetLib::Utils::NetDataReader* netDataReader, System::Net::IPEndPoint* endPoint, LiteNetLib::NetManager* listener) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::ConnectionRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectionRequest*, creationType>(connectionId, connectionNumber, netDataReader, endPoint, listener)));
     }
-    // private System.Boolean TryActivate()
-    // Offset: 0x1C178F0
-    bool TryActivate();
-    // System.Void UpdateRequest(LiteNetLib.NetConnectRequestPacket connRequest)
-    // Offset: 0x1C1791C
-    void UpdateRequest(LiteNetLib::NetConnectRequestPacket* connRequest);
     // public LiteNetLib.NetPeer AcceptIfKey(System.String key)
-    // Offset: 0x1C179A8
+    // Offset: 0x1DCF810
     LiteNetLib::NetPeer* AcceptIfKey(::Il2CppString* key);
     // public LiteNetLib.NetPeer Accept()
-    // Offset: 0x1C180C8
+    // Offset: 0x1DCFF30
     LiteNetLib::NetPeer* Accept();
     // public System.Void Reject(System.Byte[] rejectData, System.Int32 start, System.Int32 length, System.Boolean force)
-    // Offset: 0x1C18130
+    // Offset: 0x1DCFF98
     void Reject(::Array<uint8_t>* rejectData, int start, int length, bool force);
     // public System.Void Reject(System.Byte[] rejectData, System.Int32 start, System.Int32 length)
-    // Offset: 0x1C181C8
+    // Offset: 0x1DD0030
     void Reject(::Array<uint8_t>* rejectData, int start, int length);
     // public System.Void RejectForce(System.Byte[] rejectData, System.Int32 start, System.Int32 length)
-    // Offset: 0x1C181D0
+    // Offset: 0x1DD0038
     void RejectForce(::Array<uint8_t>* rejectData, int start, int length);
     // public System.Void RejectForce()
-    // Offset: 0x1C181D8
+    // Offset: 0x1DD0040
     void RejectForce();
     // public System.Void RejectForce(System.Byte[] rejectData)
-    // Offset: 0x1C181EC
+    // Offset: 0x1DD0054
     void RejectForce(::Array<uint8_t>* rejectData);
     // public System.Void RejectForce(LiteNetLib.Utils.NetDataWriter rejectData)
-    // Offset: 0x1C1820C
+    // Offset: 0x1DD0074
     void RejectForce(LiteNetLib::Utils::NetDataWriter* rejectData);
     // public System.Void Reject()
-    // Offset: 0x1C18234
+    // Offset: 0x1DD009C
     void Reject();
     // public System.Void Reject(System.Byte[] rejectData)
-    // Offset: 0x1C18248
+    // Offset: 0x1DD00B0
     void Reject(::Array<uint8_t>* rejectData);
     // public System.Void Reject(LiteNetLib.Utils.NetDataWriter rejectData)
-    // Offset: 0x1C18268
+    // Offset: 0x1DD00D0
     void Reject(LiteNetLib::Utils::NetDataWriter* rejectData);
   }; // LiteNetLib.ConnectionRequest
   #pragma pack(pop)
@@ -183,10 +184,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "set_Result", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::TryActivate
 // Il2CppName: TryActivate
 template<>
@@ -204,6 +201,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "UpdateRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connRequest});
   }
 };
+// Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::AcceptIfKey
 // Il2CppName: AcceptIfKey
 template<>

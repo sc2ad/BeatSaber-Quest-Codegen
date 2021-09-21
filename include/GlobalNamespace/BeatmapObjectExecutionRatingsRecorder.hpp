@@ -56,35 +56,35 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapObjectExecutionRatingsRecorder : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::ICutScoreHandlerDidFinishEvent*/ {
     public:
-    // [InjectAttribute] Offset: 0xE3BBD8
+    // [InjectAttribute] Offset: 0xF043BC
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3BBE8
+    // [InjectAttribute] Offset: 0xF043CC
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3BBF8
+    // [InjectAttribute] Offset: 0xF043DC
     // private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::PlayerHeadAndObstacleInteraction* playerHeadAndObstacleInteraction;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerHeadAndObstacleInteraction*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3BC08
+    // [InjectAttribute] Offset: 0xF043EC
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3BC18
+    // [InjectAttribute] Offset: 0xF043FC
     // private readonly BeatmapObjectExecutionRatingsRecorder/CutScoreHandler/Pool _cutScoreHandlerPool
     // Size: 0x8
     // Offset: 0x38
@@ -134,31 +134,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<ObstacleController> _prevIntersectingObstacles
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>*& dyn__prevIntersectingObstacles();
     // public System.Collections.Generic.List`1<BeatmapObjectExecutionRating> get_beatmapObjectExecutionRatings()
-    // Offset: 0x10CF36C
+    // Offset: 0x12A0940
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectExecutionRating*>* get_beatmapObjectExecutionRatings();
     // protected System.Void Start()
-    // Offset: 0x10CF374
+    // Offset: 0x12A0948
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10CF5EC
+    // Offset: 0x12A0BC0
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x10CF878
+    // Offset: 0x12A0E4C
     void Update();
     // public System.Void HandleCutScoreHandlerDidFinish(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler cutScoreHandler)
-    // Offset: 0x10CFA94
+    // Offset: 0x12A1068
     void HandleCutScoreHandlerDidFinish(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler* cutScoreHandler);
     // private System.Void HandleScoreControllerNoteWasCut(NoteData noteData, in NoteCutInfo noteCutInfo, System.Int32 multiplier)
-    // Offset: 0x10CFB74
+    // Offset: 0x12A1148
     void HandleScoreControllerNoteWasCut(GlobalNamespace::NoteData* noteData, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo, int multiplier);
     // private System.Void HandleScoreControllerNoteWasMissed(NoteData noteData, System.Int32 multiplier)
-    // Offset: 0x10CFEB8
+    // Offset: 0x12A148C
     void HandleScoreControllerNoteWasMissed(GlobalNamespace::NoteData* noteData, int multiplier);
     // private System.Void HandleObstacleDidPassAvoidedMark(ObstacleController obstacleController)
-    // Offset: 0x10CFFA0
+    // Offset: 0x12A1574
     void HandleObstacleDidPassAvoidedMark(GlobalNamespace::ObstacleController* obstacleController);
     // public System.Void .ctor()
-    // Offset: 0x10D0094
+    // Offset: 0x12A1668
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -44,14 +44,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerBadgeDataSO : public UnityEngine::ScriptableObject {
     public:
-    // [LocalizationKeyAttribute] Offset: 0xE3F8E4
+    // [LocalizationKeyAttribute] Offset: 0xF08268
     // private System.String _titleLocalizationKey
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* titleLocalizationKey;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0xE3F91C
+    // [LocalizationKeyAttribute] Offset: 0xF082A0
     // private System.String _subtitleLocalizationKey
     // Size: 0x8
     // Offset: 0x20
@@ -75,19 +75,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Sprite _icon
     UnityEngine::Sprite*& dyn__icon();
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x11C5538
+    // Offset: 0x120BBB8
     UnityEngine::Sprite* get_icon();
     // public System.String get_titleLocalizationKey()
-    // Offset: 0x11C5540
+    // Offset: 0x120BBC0
     ::Il2CppString* get_titleLocalizationKey();
     // public System.String get_subtitleLocalizationKey()
-    // Offset: 0x11C5548
+    // Offset: 0x120BBC8
     ::Il2CppString* get_subtitleLocalizationKey();
     // public MultiplayerBadgeAwardData CalculateBadgeData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, PlayerDataModel playerDataModel, IDifficultyBeatmap difficultyBeatmap, System.Single randomMultiplier)
     // Offset: 0xFFFFFFFF
     GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, GlobalNamespace::PlayerDataModel* playerDataModel, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, float randomMultiplier);
     // protected System.Void .ctor()
-    // Offset: 0x11C3D18
+    // Offset: 0x120A398
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

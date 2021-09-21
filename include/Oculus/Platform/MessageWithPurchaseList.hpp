@@ -29,10 +29,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithPurchaseList
     MessageWithPurchaseList() noexcept {}
     // protected Oculus.Platform.Models.PurchaseList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x1533FBC
+    // Offset: 0x16BCD04
     Oculus::Platform::Models::PurchaseList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x152AE34
+    // Offset: 0x16B3B7C
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -42,7 +42,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithPurchaseList*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.PurchaseList GetPurchaseList()
-    // Offset: 0x1533F78
+    // Offset: 0x16BCCC0
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.PurchaseList Message::GetPurchaseList()
     Oculus::Platform::Models::PurchaseList* GetPurchaseList();

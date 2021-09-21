@@ -41,20 +41,20 @@ namespace Mono {
     }
     // Get instance field reference: private System.IntPtr value
     System::IntPtr& dyn_value();
-    // public System.IntPtr get_Value()
-    // Offset: 0x1A775A0
-    System::IntPtr get_Value();
     // System.Void .ctor(System.IntPtr v)
-    // Offset: 0x1A77598
+    // Offset: 0x1C3FF68
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  RuntimePropertyHandle(System::IntPtr v)
+    // public System.IntPtr get_Value()
+    // Offset: 0x1C3FF70
+    System::IntPtr get_Value();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1A775A8
+    // Offset: 0x1C3FF78
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1A776C0
+    // Offset: 0x1C40090
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -65,6 +65,10 @@ namespace Mono {
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimePropertyHandle, "Mono", "RuntimePropertyHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Mono::RuntimePropertyHandle::RuntimePropertyHandle
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::RuntimePropertyHandle::get_Value
 // Il2CppName: get_Value
 template<>
@@ -73,10 +77,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
     return ::il2cpp_utils::FindMethod(classof(Mono::RuntimePropertyHandle), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Mono::RuntimePropertyHandle::RuntimePropertyHandle
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::RuntimePropertyHandle::Equals
 // Il2CppName: Equals
 template<>

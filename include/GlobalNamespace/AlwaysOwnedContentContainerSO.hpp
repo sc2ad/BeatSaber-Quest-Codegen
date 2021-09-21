@@ -62,16 +62,21 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.String> _alwaysOwnedPacksIds
     System::Collections::Generic::HashSet_1<::Il2CppString*>*& dyn__alwaysOwnedPacksIds();
     // public System.Collections.Generic.HashSet`1<System.String> get_alwaysOwnedBeatmapLevelIds()
-    // Offset: 0x1171E3C
+    // Offset: 0x12409EC
     System::Collections::Generic::HashSet_1<::Il2CppString*>* get_alwaysOwnedBeatmapLevelIds();
     // public System.Collections.Generic.HashSet`1<System.String> get_alwaysOwnedPacksIds()
-    // Offset: 0x11720E8
+    // Offset: 0x1240C98
     System::Collections::Generic::HashSet_1<::Il2CppString*>* get_alwaysOwnedPacksIds();
     // private System.Void InitAlwaysOwnedItems()
-    // Offset: 0x117269C
+    // Offset: 0x124124C
     void InitAlwaysOwnedItems();
+    // protected override System.Void OnEnable()
+    // Offset: 0x12414E8
+    // Implemented from: PersistentScriptableObject
+    // Base method: System.Void PersistentScriptableObject::OnEnable()
+    void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x1172960
+    // Offset: 0x1241510
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -82,11 +87,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AlwaysOwnedContentContainerSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AlwaysOwnedContentContainerSO*, creationType>()));
     }
-    // protected override System.Void OnEnable()
-    // Offset: 0x1172938
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::OnEnable()
-    void OnEnable();
   }; // AlwaysOwnedContentContainerSO
   #pragma pack(pop)
   static check_size<sizeof(AlwaysOwnedContentContainerSO), 40 + sizeof(System::Collections::Generic::HashSet_1<::Il2CppString*>*)> __GlobalNamespace_AlwaysOwnedContentContainerSOSizeCheck;
@@ -118,10 +118,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AlwaysOwnedContentContainerSO*), "InitAlwaysOwnedItems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AlwaysOwnedContentContainerSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AlwaysOwnedContentContainerSO::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -130,3 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AlwaysOwnedContentContainerSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::AlwaysOwnedContentContainerSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

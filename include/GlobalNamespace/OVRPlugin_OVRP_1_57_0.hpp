@@ -31,38 +31,30 @@ namespace GlobalNamespace {
     static System::Version* _get_version();
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
-    // static private System.Void .cctor()
-    // Offset: 0x1638980
-    static void _cctor();
     // static public OVRPlugin/Result ovrp_Media_GetPlatformCameraMode(out OVRPlugin/Media/PlatformCameraMode platformCameraMode)
-    // Offset: 0x162F3D0
+    // Offset: 0x17FC030
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetPlatformCameraMode(ByRef<GlobalNamespace::OVRPlugin::Media::PlatformCameraMode> platformCameraMode);
     // static public OVRPlugin/Result ovrp_Media_SetPlatformCameraMode(OVRPlugin/Media/PlatformCameraMode platformCameraMode)
-    // Offset: 0x162F558
+    // Offset: 0x17FC1B8
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_SetPlatformCameraMode(GlobalNamespace::OVRPlugin::Media::PlatformCameraMode platformCameraMode);
     // static public OVRPlugin/Result ovrp_SetEyeFovPremultipliedAlphaMode(OVRPlugin/Bool enabled)
-    // Offset: 0x16387F0
+    // Offset: 0x1805450
     static GlobalNamespace::OVRPlugin::Result ovrp_SetEyeFovPremultipliedAlphaMode(GlobalNamespace::OVRPlugin::Bool enabled);
     // static public OVRPlugin/Result ovrp_GetEyeFovPremultipliedAlphaMode(ref OVRPlugin/Bool enabled)
-    // Offset: 0x1638870
+    // Offset: 0x18054D0
     static GlobalNamespace::OVRPlugin::Result ovrp_GetEyeFovPremultipliedAlphaMode(ByRef<GlobalNamespace::OVRPlugin::Bool> enabled);
     // static public OVRPlugin/Result ovrp_SetKeyboardOverlayUV(OVRPlugin/Vector2f uv)
-    // Offset: 0x16388F0
+    // Offset: 0x1805550
     static GlobalNamespace::OVRPlugin::Result ovrp_SetKeyboardOverlayUV(GlobalNamespace::OVRPlugin::Vector2f uv);
+    // static private System.Void .cctor()
+    // Offset: 0x18055E0
+    static void _cctor();
   }; // OVRPlugin/OVRP_1_57_0
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_57_0*, "", "OVRPlugin/OVRP_1_57_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_57_0::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_57_0::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_57_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_57_0::ovrp_Media_GetPlatformCameraMode
 // Il2CppName: ovrp_Media_GetPlatformCameraMode
 template<>
@@ -106,5 +98,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
   static const MethodInfo* get() {
     static auto* uv = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Vector2f")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_57_0*), "ovrp_SetKeyboardOverlayUV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uv});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_57_0::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_57_0::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_57_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

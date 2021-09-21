@@ -35,28 +35,32 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseDock : public ::Il2CppObject/*, public NetEase::Docker::IDock*/ {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xE27A34
+    // [DebuggerBrowsableAttribute] Offset: 0xEEE20C
+    // [CompilerGeneratedAttribute] Offset: 0xEEE20C
     // private System.Action`1<NetEase.Docker.InitializeData> OnInitFinished
     // Size: 0x8
     // Offset: 0x10
     System::Action_1<NetEase::Docker::InitializeData>* OnInitFinished;
     // Field size check
     static_assert(sizeof(System::Action_1<NetEase::Docker::InitializeData>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE27A70
+    // [DebuggerBrowsableAttribute] Offset: 0xEEE248
+    // [CompilerGeneratedAttribute] Offset: 0xEEE248
     // private System.Action`1<NetEase.Docker.LoginData> OnLoginFinished
     // Size: 0x8
     // Offset: 0x18
     System::Action_1<NetEase::Docker::LoginData>* OnLoginFinished;
     // Field size check
     static_assert(sizeof(System::Action_1<NetEase::Docker::LoginData>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE27AAC
+    // [DebuggerBrowsableAttribute] Offset: 0xEEE284
+    // [CompilerGeneratedAttribute] Offset: 0xEEE284
     // private System.Action`1<NetEase.Docker.LogoutData> OnLogoutFinished
     // Size: 0x8
     // Offset: 0x20
     System::Action_1<NetEase::Docker::LogoutData>* OnLogoutFinished;
     // Field size check
     static_assert(sizeof(System::Action_1<NetEase::Docker::LogoutData>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE27AE8
+    // [DebuggerBrowsableAttribute] Offset: 0xEEE2C0
+    // [CompilerGeneratedAttribute] Offset: 0xEEE2C0
     // private System.Action`1<NetEase.Docker.ReceivedHighscoreData> OnHighscoreReceived
     // Size: 0x8
     // Offset: 0x28
@@ -78,40 +82,40 @@ namespace NetEase::Docker {
     // Get instance field reference: private System.Action`1<NetEase.Docker.ReceivedHighscoreData> OnHighscoreReceived
     System::Action_1<NetEase::Docker::ReceivedHighscoreData>*& dyn_OnHighscoreReceived();
     // public System.Void SetInitializeCallback(System.Action`1<NetEase.Docker.InitializeData> callbackAction)
-    // Offset: 0x241559C
+    // Offset: 0x261FC68
     void SetInitializeCallback(System::Action_1<NetEase::Docker::InitializeData>* callbackAction);
     // public System.Void Initialize()
-    // Offset: 0x24155A4
+    // Offset: 0x261FC70
     void Initialize();
     // public System.Void SetLoginCallback(System.Action`1<NetEase.Docker.LoginData> callbackAction)
-    // Offset: 0x2415608
+    // Offset: 0x261FCD4
     void SetLoginCallback(System::Action_1<NetEase::Docker::LoginData>* callbackAction);
     // public System.Void Login()
-    // Offset: 0x2415610
+    // Offset: 0x261FCDC
     void Login();
     // public System.Void SetLogoutCallback(System.Action`1<NetEase.Docker.LogoutData> callbackAction)
-    // Offset: 0x2415680
+    // Offset: 0x261FD4C
     void SetLogoutCallback(System::Action_1<NetEase::Docker::LogoutData>* callbackAction);
     // public System.Void Logout()
-    // Offset: 0x2415688
+    // Offset: 0x261FD54
     void Logout();
     // public System.Void UploadScore(NetEase.Docker.UploadScoreData scoreData)
-    // Offset: 0x24156EC
+    // Offset: 0x261FDB8
     void UploadScore(NetEase::Docker::UploadScoreData scoreData);
     // public System.Boolean WillProvideHighscore()
-    // Offset: 0x24156F0
+    // Offset: 0x261FDBC
     bool WillProvideHighscore();
     // public System.Void SetHighscoreReceivedCallback(System.Action`1<NetEase.Docker.ReceivedHighscoreData> callbackAction)
-    // Offset: 0x24156F8
+    // Offset: 0x261FDC4
     void SetHighscoreReceivedCallback(System::Action_1<NetEase::Docker::ReceivedHighscoreData>* callbackAction);
     // public System.Void RequestHighscoreList(NetEase.Docker.RequestHighscoreData highscoreRequest)
-    // Offset: 0x2415700
+    // Offset: 0x261FDCC
     void RequestHighscoreList(NetEase::Docker::RequestHighscoreData highscoreRequest);
     // public System.Void UpdateLoop()
-    // Offset: 0x24158D0
+    // Offset: 0x261FF9C
     void UpdateLoop();
     // public System.Void .ctor()
-    // Offset: 0x24158D4
+    // Offset: 0x261FFA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

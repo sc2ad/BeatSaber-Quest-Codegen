@@ -102,7 +102,7 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteJump* jump;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteJump*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE3C5C4
+    // [SpaceAttribute] Offset: 0xF04DA8
     // private System.Single _zOffset
     // Size: 0x4
     // Offset: 0x28
@@ -111,48 +111,56 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: zOffset and: didInitEvent
     char __padding2[0x4] = {};
+    // [CompilerGeneratedAttribute] Offset: 0xF04DE0
     // private System.Action didInitEvent
     // Size: 0x8
     // Offset: 0x30
     System::Action* didInitEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF04DF0
     // private System.Action noteDidStartJumpEvent
     // Size: 0x8
     // Offset: 0x38
     System::Action* noteDidStartJumpEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF04E00
     // private System.Action noteDidFinishJumpEvent
     // Size: 0x8
     // Offset: 0x40
     System::Action* noteDidFinishJumpEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF04E10
     // private System.Action noteDidPassMissedMarkerEvent
     // Size: 0x8
     // Offset: 0x48
     System::Action* noteDidPassMissedMarkerEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF04E20
     // private System.Action noteDidPassHalfJumpEvent
     // Size: 0x8
     // Offset: 0x50
     System::Action* noteDidPassHalfJumpEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF04E30
     // private System.Action`1<NoteMovement> noteDidPassJumpThreeQuartersEvent
     // Size: 0x8
     // Offset: 0x58
     System::Action_1<GlobalNamespace::NoteMovement*>* noteDidPassJumpThreeQuartersEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::NoteMovement*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF04E40
     // private System.Action noteDidMoveInJumpPhaseEvent
     // Size: 0x8
     // Offset: 0x60
     System::Action* noteDidMoveInJumpPhaseEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF04E50
     // private NoteMovement/MovementPhase <movementPhase>k__BackingField
     // Size: 0x4
     // Offset: 0x68
@@ -217,122 +225,122 @@ namespace GlobalNamespace {
     UnityEngine::Vector3& dyn__localPosition();
     // Get instance field reference: private UnityEngine.Vector3 _prevLocalPosition
     UnityEngine::Vector3& dyn__prevLocalPosition();
-    // public NoteMovement/MovementPhase get_movementPhase()
-    // Offset: 0x124D988
-    GlobalNamespace::NoteMovement::MovementPhase get_movementPhase();
-    // private System.Void set_movementPhase(NoteMovement/MovementPhase value)
-    // Offset: 0x124D990
-    void set_movementPhase(GlobalNamespace::NoteMovement::MovementPhase value);
-    // public UnityEngine.Vector3 get_position()
-    // Offset: 0x124D998
-    UnityEngine::Vector3 get_position();
-    // public UnityEngine.Vector3 get_prevPosition()
-    // Offset: 0x124D9A4
-    UnityEngine::Vector3 get_prevPosition();
-    // public UnityEngine.Vector3 get_localPosition()
-    // Offset: 0x124D9B0
-    UnityEngine::Vector3 get_localPosition();
-    // public UnityEngine.Vector3 get_prevLocalPosition()
-    // Offset: 0x124D9BC
-    UnityEngine::Vector3 get_prevLocalPosition();
-    // public UnityEngine.Quaternion get_worldRotation()
-    // Offset: 0x124D9C8
-    UnityEngine::Quaternion get_worldRotation();
-    // public UnityEngine.Quaternion get_inverseWorldRotation()
-    // Offset: 0x124D9E8
-    UnityEngine::Quaternion get_inverseWorldRotation();
-    // public UnityEngine.Vector3 get_moveEndPos()
-    // Offset: 0x124DA08
-    UnityEngine::Vector3 get_moveEndPos();
-    // public System.Single get_moveStartTime()
-    // Offset: 0x124DA28
-    float get_moveStartTime();
-    // public System.Single get_moveDuration()
-    // Offset: 0x124DA44
-    float get_moveDuration();
-    // public UnityEngine.Vector3 get_beatPos()
-    // Offset: 0x124DA60
-    UnityEngine::Vector3 get_beatPos();
-    // public System.Single get_jumpDuration()
-    // Offset: 0x124DA78
-    float get_jumpDuration();
-    // public UnityEngine.Vector3 get_jumpMoveVec()
-    // Offset: 0x124DA94
-    UnityEngine::Vector3 get_jumpMoveVec();
-    // public System.Single get_distanceToPlayer()
-    // Offset: 0x124DAB4
-    float get_distanceToPlayer();
     // public System.Void add_didInitEvent(System.Action value)
-    // Offset: 0x124D090
+    // Offset: 0x135910C
     void add_didInitEvent(System::Action* value);
     // public System.Void remove_didInitEvent(System.Action value)
-    // Offset: 0x124D134
+    // Offset: 0x13591B0
     void remove_didInitEvent(System::Action* value);
     // public System.Void add_noteDidStartJumpEvent(System.Action value)
-    // Offset: 0x124D1D8
+    // Offset: 0x1359254
     void add_noteDidStartJumpEvent(System::Action* value);
     // public System.Void remove_noteDidStartJumpEvent(System.Action value)
-    // Offset: 0x124D27C
+    // Offset: 0x13592F8
     void remove_noteDidStartJumpEvent(System::Action* value);
     // public System.Void add_noteDidFinishJumpEvent(System.Action value)
-    // Offset: 0x124D320
+    // Offset: 0x135939C
     void add_noteDidFinishJumpEvent(System::Action* value);
     // public System.Void remove_noteDidFinishJumpEvent(System.Action value)
-    // Offset: 0x124D3C4
+    // Offset: 0x1359440
     void remove_noteDidFinishJumpEvent(System::Action* value);
     // public System.Void add_noteDidPassMissedMarkerEvent(System.Action value)
-    // Offset: 0x124D468
+    // Offset: 0x13594E4
     void add_noteDidPassMissedMarkerEvent(System::Action* value);
     // public System.Void remove_noteDidPassMissedMarkerEvent(System.Action value)
-    // Offset: 0x124D50C
+    // Offset: 0x1359588
     void remove_noteDidPassMissedMarkerEvent(System::Action* value);
     // public System.Void add_noteDidPassHalfJumpEvent(System.Action value)
-    // Offset: 0x124D5B0
+    // Offset: 0x135962C
     void add_noteDidPassHalfJumpEvent(System::Action* value);
     // public System.Void remove_noteDidPassHalfJumpEvent(System.Action value)
-    // Offset: 0x124D654
+    // Offset: 0x13596D0
     void remove_noteDidPassHalfJumpEvent(System::Action* value);
     // public System.Void add_noteDidPassJumpThreeQuartersEvent(System.Action`1<NoteMovement> value)
-    // Offset: 0x124D6F8
+    // Offset: 0x1359774
     void add_noteDidPassJumpThreeQuartersEvent(System::Action_1<GlobalNamespace::NoteMovement*>* value);
     // public System.Void remove_noteDidPassJumpThreeQuartersEvent(System.Action`1<NoteMovement> value)
-    // Offset: 0x124D79C
+    // Offset: 0x1359818
     void remove_noteDidPassJumpThreeQuartersEvent(System::Action_1<GlobalNamespace::NoteMovement*>* value);
     // public System.Void add_noteDidMoveInJumpPhaseEvent(System.Action value)
-    // Offset: 0x124D840
+    // Offset: 0x13598BC
     void add_noteDidMoveInJumpPhaseEvent(System::Action* value);
     // public System.Void remove_noteDidMoveInJumpPhaseEvent(System.Action value)
-    // Offset: 0x124D8E4
+    // Offset: 0x1359960
     void remove_noteDidMoveInJumpPhaseEvent(System::Action* value);
+    // public NoteMovement/MovementPhase get_movementPhase()
+    // Offset: 0x1359A04
+    GlobalNamespace::NoteMovement::MovementPhase get_movementPhase();
+    // private System.Void set_movementPhase(NoteMovement/MovementPhase value)
+    // Offset: 0x1359A0C
+    void set_movementPhase(GlobalNamespace::NoteMovement::MovementPhase value);
+    // public UnityEngine.Vector3 get_position()
+    // Offset: 0x1359A14
+    UnityEngine::Vector3 get_position();
+    // public UnityEngine.Vector3 get_prevPosition()
+    // Offset: 0x1359A20
+    UnityEngine::Vector3 get_prevPosition();
+    // public UnityEngine.Vector3 get_localPosition()
+    // Offset: 0x1359A2C
+    UnityEngine::Vector3 get_localPosition();
+    // public UnityEngine.Vector3 get_prevLocalPosition()
+    // Offset: 0x1359A38
+    UnityEngine::Vector3 get_prevLocalPosition();
+    // public UnityEngine.Quaternion get_worldRotation()
+    // Offset: 0x1359A44
+    UnityEngine::Quaternion get_worldRotation();
+    // public UnityEngine.Quaternion get_inverseWorldRotation()
+    // Offset: 0x1359A64
+    UnityEngine::Quaternion get_inverseWorldRotation();
+    // public UnityEngine.Vector3 get_moveEndPos()
+    // Offset: 0x1359A84
+    UnityEngine::Vector3 get_moveEndPos();
+    // public System.Single get_moveStartTime()
+    // Offset: 0x1359AA4
+    float get_moveStartTime();
+    // public System.Single get_moveDuration()
+    // Offset: 0x1359AC0
+    float get_moveDuration();
+    // public UnityEngine.Vector3 get_beatPos()
+    // Offset: 0x1359ADC
+    UnityEngine::Vector3 get_beatPos();
+    // public System.Single get_jumpDuration()
+    // Offset: 0x1359AF4
+    float get_jumpDuration();
+    // public UnityEngine.Vector3 get_jumpMoveVec()
+    // Offset: 0x1359B10
+    UnityEngine::Vector3 get_jumpMoveVec();
+    // public System.Single get_distanceToPlayer()
+    // Offset: 0x1359B30
+    float get_distanceToPlayer();
     // public System.Void Init(System.Single beatTime, System.Single worldRotation, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single moveDuration, System.Single jumpDuration, System.Single jumpGravity, System.Single flipYSide, System.Single endRotation)
-    // Offset: 0x124DAEC
+    // Offset: 0x1359B68
     void Init(float beatTime, float worldRotation, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float moveDuration, float jumpDuration, float jumpGravity, float flipYSide, float endRotation);
     // protected System.Void Awake()
-    // Offset: 0x124DC70
+    // Offset: 0x1359CEC
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x124DDEC
+    // Offset: 0x1359E68
     void OnDestroy();
     // private System.Void HandleFloorMovementDidFinish()
-    // Offset: 0x124DFDC
+    // Offset: 0x135A058
     void HandleFloorMovementDidFinish();
     // private System.Void HandleNoteJumpDidFinish()
-    // Offset: 0x124E048
+    // Offset: 0x135A0C4
     void HandleNoteJumpDidFinish();
     // private System.Void HandleNoteJumpDidPassMissedMark()
-    // Offset: 0x124E064
+    // Offset: 0x135A0E0
     void HandleNoteJumpDidPassMissedMark();
     // private System.Void HandleNoteJumpDidPassThreeQuarters(NoteJump noteJump)
-    // Offset: 0x124E078
+    // Offset: 0x135A0F4
     void HandleNoteJumpDidPassThreeQuarters(GlobalNamespace::NoteJump* noteJump);
     // private System.Void HandleNoteJumpNoteJumpDidPassHalf()
-    // Offset: 0x124E0DC
+    // Offset: 0x135A158
     void HandleNoteJumpNoteJumpDidPassHalf();
     // public System.Void ManualUpdate()
-    // Offset: 0x124E0F0
+    // Offset: 0x135A16C
     void ManualUpdate();
     // public System.Void .ctor()
-    // Offset: 0x124E1B0
+    // Offset: 0x135A22C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -352,127 +360,6 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteMovement*, "", "NoteMovement");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteMovement::MovementPhase, "", "NoteMovement/MovementPhase");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_movementPhase
-// Il2CppName: get_movementPhase
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteMovement::MovementPhase (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_movementPhase)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_movementPhase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::set_movementPhase
-// Il2CppName: set_movementPhase
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteMovement::*)(GlobalNamespace::NoteMovement::MovementPhase)>(&GlobalNamespace::NoteMovement::set_movementPhase)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("", "NoteMovement/MovementPhase")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "set_movementPhase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_position
-// Il2CppName: get_position
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_position)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_prevPosition
-// Il2CppName: get_prevPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_prevPosition)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_prevPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_localPosition
-// Il2CppName: get_localPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_localPosition)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_localPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_prevLocalPosition
-// Il2CppName: get_prevLocalPosition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_prevLocalPosition)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_prevLocalPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_worldRotation
-// Il2CppName: get_worldRotation
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_worldRotation)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_worldRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_inverseWorldRotation
-// Il2CppName: get_inverseWorldRotation
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_inverseWorldRotation)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_inverseWorldRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_moveEndPos
-// Il2CppName: get_moveEndPos
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_moveEndPos)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_moveEndPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_moveStartTime
-// Il2CppName: get_moveStartTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_moveStartTime)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_moveStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_moveDuration
-// Il2CppName: get_moveDuration
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_moveDuration)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_moveDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_beatPos
-// Il2CppName: get_beatPos
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_beatPos)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_beatPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_jumpDuration
-// Il2CppName: get_jumpDuration
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_jumpDuration)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_jumpDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_jumpMoveVec
-// Il2CppName: get_jumpMoveVec
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_jumpMoveVec)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_jumpMoveVec", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_distanceToPlayer
-// Il2CppName: get_distanceToPlayer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_distanceToPlayer)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_distanceToPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::NoteMovement::add_didInitEvent
 // Il2CppName: add_didInitEvent
 template<>
@@ -597,6 +484,127 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "remove_noteDidMoveInJumpPhaseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_movementPhase
+// Il2CppName: get_movementPhase
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteMovement::MovementPhase (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_movementPhase)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_movementPhase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::set_movementPhase
+// Il2CppName: set_movementPhase
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteMovement::*)(GlobalNamespace::NoteMovement::MovementPhase)>(&GlobalNamespace::NoteMovement::set_movementPhase)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("", "NoteMovement/MovementPhase")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "set_movementPhase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_position
+// Il2CppName: get_position
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_position)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_prevPosition
+// Il2CppName: get_prevPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_prevPosition)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_prevPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_localPosition
+// Il2CppName: get_localPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_localPosition)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_localPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_prevLocalPosition
+// Il2CppName: get_prevLocalPosition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_prevLocalPosition)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_prevLocalPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_worldRotation
+// Il2CppName: get_worldRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_worldRotation)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_worldRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_inverseWorldRotation
+// Il2CppName: get_inverseWorldRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_inverseWorldRotation)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_inverseWorldRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_moveEndPos
+// Il2CppName: get_moveEndPos
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_moveEndPos)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_moveEndPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_moveStartTime
+// Il2CppName: get_moveStartTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_moveStartTime)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_moveStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_moveDuration
+// Il2CppName: get_moveDuration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_moveDuration)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_moveDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_beatPos
+// Il2CppName: get_beatPos
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_beatPos)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_beatPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_jumpDuration
+// Il2CppName: get_jumpDuration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_jumpDuration)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_jumpDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_jumpMoveVec
+// Il2CppName: get_jumpMoveVec
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_jumpMoveVec)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_jumpMoveVec", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_distanceToPlayer
+// Il2CppName: get_distanceToPlayer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::NoteMovement::*)()>(&GlobalNamespace::NoteMovement::get_distanceToPlayer)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteMovement*), "get_distanceToPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NoteMovement::Init

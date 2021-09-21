@@ -39,7 +39,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.Boolean DidUnblock
     bool& dyn_DidUnblock();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x152FED0
+    // Offset: 0x16B8C18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LaunchUnblockFlowResult* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LaunchUnblockFlowResult::.ctor");

@@ -66,21 +66,21 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BeatmapObjectCallbackController::InitData
     class InitData;
-    // [InjectAttribute] Offset: 0xE3BB88
+    // [InjectAttribute] Offset: 0xF0436C
     // private readonly BeatmapObjectCallbackController/InitData _initData
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::BeatmapObjectCallbackController::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectCallbackController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3BB98
+    // [InjectAttribute] Offset: 0xF0437C
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3BBA8
+    // [InjectAttribute] Offset: 0xF0438C
     // private readonly EnvironmentKeywords _environmentKeywords
     // Size: 0x8
     // Offset: 0x28
@@ -93,12 +93,14 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>* beatmapObjectDataCallbackCacheList;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0439C
     // private System.Action`1<BeatmapEventData> beatmapEventDidTriggerEvent
     // Size: 0x8
     // Offset: 0x38
     System::Action_1<GlobalNamespace::BeatmapEventData*>* beatmapEventDidTriggerEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::BeatmapEventData*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF043AC
     // private System.Action callbacksForThisFrameWereProcessedEvent
     // Size: 0x8
     // Offset: 0x40
@@ -173,53 +175,53 @@ namespace GlobalNamespace {
     GlobalNamespace::IReadonlyBeatmapData*& dyn__beatmapData();
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<BeatmapEventType> _validEvents
     System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*& dyn__validEvents();
-    // public System.Boolean get_isPaused()
-    // Offset: 0x10CD808
-    bool get_isPaused();
     // public System.Void add_beatmapEventDidTriggerEvent(System.Action`1<BeatmapEventData> value)
-    // Offset: 0x10CD578
+    // Offset: 0x129EB4C
     void add_beatmapEventDidTriggerEvent(System::Action_1<GlobalNamespace::BeatmapEventData*>* value);
     // public System.Void remove_beatmapEventDidTriggerEvent(System.Action`1<BeatmapEventData> value)
-    // Offset: 0x10CD61C
+    // Offset: 0x129EBF0
     void remove_beatmapEventDidTriggerEvent(System::Action_1<GlobalNamespace::BeatmapEventData*>* value);
     // public System.Void add_callbacksForThisFrameWereProcessedEvent(System.Action value)
-    // Offset: 0x10CD6C0
+    // Offset: 0x129EC94
     void add_callbacksForThisFrameWereProcessedEvent(System::Action* value);
     // public System.Void remove_callbacksForThisFrameWereProcessedEvent(System.Action value)
-    // Offset: 0x10CD764
+    // Offset: 0x129ED38
     void remove_callbacksForThisFrameWereProcessedEvent(System::Action* value);
+    // public System.Boolean get_isPaused()
+    // Offset: 0x129EDDC
+    bool get_isPaused();
     // protected System.Void Start()
-    // Offset: 0x10CD828
+    // Offset: 0x129EDFC
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0x10CDFF4
+    // Offset: 0x129F5C8
     void LateUpdate();
     // public BeatmapObjectCallbackData AddBeatmapObjectCallback(BeatmapObjectCallback callback, System.Single aheadTime)
-    // Offset: 0x10CEE44
+    // Offset: 0x12A0418
     GlobalNamespace::BeatmapObjectCallbackData* AddBeatmapObjectCallback(GlobalNamespace::BeatmapObjectCallback* callback, float aheadTime);
     // public System.Void RemoveBeatmapObjectCallback(BeatmapObjectCallbackData callbackData)
-    // Offset: 0x10CF098
+    // Offset: 0x12A066C
     void RemoveBeatmapObjectCallback(GlobalNamespace::BeatmapObjectCallbackData* callbackData);
     // public BeatmapEventCallbackData AddBeatmapEventCallback(BeatmapEventCallback callback, System.Single aheadTime)
-    // Offset: 0x10CF10C
+    // Offset: 0x12A06E0
     GlobalNamespace::BeatmapEventCallbackData* AddBeatmapEventCallback(GlobalNamespace::BeatmapEventCallback* callback, float aheadTime);
     // public System.Void RemoveBeatmapEventCallback(BeatmapEventCallbackData callbackData)
-    // Offset: 0x10CF1AC
+    // Offset: 0x12A0780
     void RemoveBeatmapEventCallback(GlobalNamespace::BeatmapEventCallbackData* callbackData);
     // public System.Void SendBeatmapEventDidTriggerEvent(BeatmapEventData beatmapEventData)
-    // Offset: 0x10CEDA8
+    // Offset: 0x12A037C
     void SendBeatmapEventDidTriggerEvent(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void SetNewBeatmapData(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x10CD858
+    // Offset: 0x129EE2C
     void SetNewBeatmapData(GlobalNamespace::IReadonlyBeatmapData* beatmapData);
     // public System.Void Pause()
-    // Offset: 0x10CF220
+    // Offset: 0x12A07F4
     void Pause();
     // public System.Void Resume()
-    // Offset: 0x10CF22C
+    // Offset: 0x12A0800
     void Resume();
     // public System.Void .ctor()
-    // Offset: 0x10CF238
+    // Offset: 0x12A080C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -238,14 +240,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectCallbackController*, "", "BeatmapObjectCallbackController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectCallbackController::get_isPaused
-// Il2CppName: get_isPaused
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BeatmapObjectCallbackController::*)()>(&GlobalNamespace::BeatmapObjectCallbackController::get_isPaused)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectCallbackController*), "get_isPaused", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectCallbackController::add_beatmapEventDidTriggerEvent
 // Il2CppName: add_beatmapEventDidTriggerEvent
 template<>
@@ -280,6 +274,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectCallbackController*), "remove_callbacksForThisFrameWereProcessedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectCallbackController::get_isPaused
+// Il2CppName: get_isPaused
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BeatmapObjectCallbackController::*)()>(&GlobalNamespace::BeatmapObjectCallbackController::get_isPaused)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectCallbackController*), "get_isPaused", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectCallbackController::Start

@@ -41,16 +41,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FindUnityObjectsHelper
     FindUnityObjectsHelper() noexcept {}
     // static public System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> GetMonoBehavioursInLoadedScenes()
-    // Offset: 0x12641C4
+    // Offset: 0x13809CC
     static System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* GetMonoBehavioursInLoadedScenes();
     // static public System.Collections.Generic.List`1<UnityEngine.GameObject> GetAllRootGameObjectsInLoadedScenes()
-    // Offset: 0x12643E0
+    // Offset: 0x1380BE8
     static System::Collections::Generic::List_1<UnityEngine::GameObject*>* GetAllRootGameObjectsInLoadedScenes();
     // static public System.Collections.Generic.List`1<UnityEngine.GameObject> GetAllGameObjectsInGameObject(UnityEngine.GameObject go)
-    // Offset: 0x12644E8
+    // Offset: 0x1380CF0
     static System::Collections::Generic::List_1<UnityEngine::GameObject*>* GetAllGameObjectsInGameObject(UnityEngine::GameObject* go);
     // static public System.Collections.Generic.List`1<UnityEngine.GameObject> GetAllGameObjectsInLoadedScenes()
-    // Offset: 0x1264228
+    // Offset: 0x1380A30
     static System::Collections::Generic::List_1<UnityEngine::GameObject*>* GetAllGameObjectsInLoadedScenes();
     // static public System.Collections.Generic.List`1<T> GetComponentsInGameObjects(System.Collections.Generic.IReadOnlyList`1<UnityEngine.GameObject> gameObjects)
     // Offset: 0xFFFFFFFF

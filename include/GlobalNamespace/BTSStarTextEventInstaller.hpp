@@ -37,8 +37,13 @@ namespace GlobalNamespace {
     BTSStarTextEventInstaller(GlobalNamespace::BTSStarTextEffectController* btsStarTextEffectController_ = {}) noexcept : btsStarTextEffectController{btsStarTextEffectController_} {}
     // Get instance field reference: private BTSStarTextEffectController _btsStarTextEffectController
     GlobalNamespace::BTSStarTextEffectController*& dyn__btsStarTextEffectController();
+    // public override System.Void InstallBindings()
+    // Offset: 0x1268FFC
+    // Implemented from: Zenject.MonoInstallerBase
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
+    void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1183498
+    // Offset: 0x126907C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -52,11 +57,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BTSStarTextEventInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSStarTextEventInstaller*, creationType>()));
     }
-    // public override System.Void InstallBindings()
-    // Offset: 0x1183418
-    // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings()
-    void InstallBindings();
   }; // BTSStarTextEventInstaller
   #pragma pack(pop)
   static check_size<sizeof(BTSStarTextEventInstaller), 32 + sizeof(GlobalNamespace::BTSStarTextEffectController*)> __GlobalNamespace_BTSStarTextEventInstallerSizeCheck;
@@ -64,10 +64,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEventInstaller*, "", "BTSStarTextEventInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventInstaller::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>
@@ -76,3 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSStarTextEventInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventInstaller::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

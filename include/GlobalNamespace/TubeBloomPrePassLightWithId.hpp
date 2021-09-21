@@ -61,10 +61,15 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _setColorOnly
     bool& dyn__setColorOnly();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1E21120
+    // Offset: 0x1E31B14
     UnityEngine::Color get_color();
+    // public override System.Void ColorWasSet(UnityEngine.Color color)
+    // Offset: 0x1E31B34
+    // Implemented from: LightWithIdMonoBehaviour
+    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
+    void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1E211A4
+    // Offset: 0x1E31B98
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -77,11 +82,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TubeBloomPrePassLightWithId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TubeBloomPrePassLightWithId*, creationType>()));
     }
-    // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1E21140
-    // Implemented from: LightWithIdMonoBehaviour
-    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
-    void ColorWasSet(UnityEngine::Color color);
   }; // TubeBloomPrePassLightWithId
   #pragma pack(pop)
   static check_size<sizeof(TubeBloomPrePassLightWithId), 57 + sizeof(bool)> __GlobalNamespace_TubeBloomPrePassLightWithIdSizeCheck;
@@ -97,10 +97,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLightWithId*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLightWithId::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLightWithId::ColorWasSet
 // Il2CppName: ColorWasSet
 template<>
@@ -110,3 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLightWithId*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLightWithId::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

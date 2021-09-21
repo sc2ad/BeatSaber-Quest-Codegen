@@ -40,6 +40,7 @@ namespace GlobalNamespace {
     int customIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    // [CompilerGeneratedAttribute] Offset: 0xF0F4E0
     // private System.Action`1<System.Int32> valueChangedEvent
     // Size: 0x8
     // Offset: 0x30
@@ -55,16 +56,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<System.Int32> valueChangedEvent
     System::Action_1<int>*& dyn_valueChangedEvent();
     // public System.Void add_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x1189370
+    // Offset: 0x1147A4C
     void add_valueChangedEvent(System::Action_1<int>* value);
     // public System.Void remove_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x1189414
+    // Offset: 0x1147AF0
     void remove_valueChangedEvent(System::Action_1<int>* value);
     // public System.Void InitValues(System.Int32 numberOfElements, System.Int32 index)
-    // Offset: 0x11894B8
+    // Offset: 0x1147B94
     void InitValues(int numberOfElements, int index);
+    // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
+    // Offset: 0x1147C2C
+    // Implemented from: ListSettingsController
+    // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
+    bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
+    // protected override System.Void ApplyValue(System.Int32 idx)
+    // Offset: 0x1147C44
+    // Implemented from: ListSettingsController
+    // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
+    void ApplyValue(int idx);
+    // protected override System.String TextForValue(System.Int32 idx)
+    // Offset: 0x1147CBC
+    // Implemented from: ListSettingsController
+    // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
+    ::Il2CppString* TextForValue(int idx);
     // public System.Void .ctor()
-    // Offset: 0x1189608
+    // Offset: 0x1147CE4
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -78,21 +94,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IntListSettingsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IntListSettingsController*, creationType>()));
     }
-    // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x1189550
-    // Implemented from: ListSettingsController
-    // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
-    // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x1189568
-    // Implemented from: ListSettingsController
-    // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
-    void ApplyValue(int idx);
-    // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x11895E0
-    // Implemented from: ListSettingsController
-    // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
-    ::Il2CppString* TextForValue(int idx);
   }; // IntListSettingsController
   #pragma pack(pop)
   static check_size<sizeof(IntListSettingsController), 48 + sizeof(System::Action_1<int>*)> __GlobalNamespace_IntListSettingsControllerSizeCheck;
@@ -128,10 +129,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntListSettingsController*), "InitValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{numberOfElements, index});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::IntListSettingsController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::IntListSettingsController::GetInitValues
 // Il2CppName: GetInitValues
 template<>
@@ -160,3 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntListSettingsController*), "TextForValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{idx});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::IntListSettingsController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

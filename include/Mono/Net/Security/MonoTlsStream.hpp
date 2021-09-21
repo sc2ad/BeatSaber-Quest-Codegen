@@ -82,6 +82,7 @@ namespace Mono::Net::Security {
     System::Net::WebExceptionStatus status;
     // Field size check
     static_assert(sizeof(System::Net::WebExceptionStatus) == 0x4);
+    // [CompilerGeneratedAttribute] Offset: 0xE6A4F4
     // private System.Boolean <CertificateValidationFailed>k__BackingField
     // Size: 0x1
     // Offset: 0x3C
@@ -105,26 +106,26 @@ namespace Mono::Net::Security {
     // Get instance field reference: private System.Boolean <CertificateValidationFailed>k__BackingField
     bool& dyn_$CertificateValidationFailed$k__BackingField();
     // System.Net.HttpWebRequest get_Request()
-    // Offset: 0x15F5AB8
+    // Offset: 0x17C1660
     System::Net::HttpWebRequest* get_Request();
     // System.Net.WebExceptionStatus get_ExceptionStatus()
-    // Offset: 0x15F5AC0
+    // Offset: 0x17C1668
     System::Net::WebExceptionStatus get_ExceptionStatus();
     // System.Boolean get_CertificateValidationFailed()
-    // Offset: 0x15F5AC8
+    // Offset: 0x17C1670
     bool get_CertificateValidationFailed();
     // System.Void set_CertificateValidationFailed(System.Boolean value)
-    // Offset: 0x15F5AD0
+    // Offset: 0x17C1678
     void set_CertificateValidationFailed(bool value);
     // public System.Void .ctor(System.Net.HttpWebRequest request, System.Net.Sockets.NetworkStream networkStream)
-    // Offset: 0x15F5ADC
+    // Offset: 0x17C1684
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoTlsStream* New_ctor(System::Net::HttpWebRequest* request, System::Net::Sockets::NetworkStream* networkStream) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::MonoTlsStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoTlsStream*, creationType>(request, networkStream)));
     }
     // System.IO.Stream CreateStream(System.Byte[] buffer)
-    // Offset: 0x15F5B90
+    // Offset: 0x17C1738
     System::IO::Stream* CreateStream(::Array<uint8_t>* buffer);
   }; // Mono.Net.Security.MonoTlsStream
   #pragma pack(pop)

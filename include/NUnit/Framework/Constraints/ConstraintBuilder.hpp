@@ -25,13 +25,13 @@ namespace NUnit::Framework::Constraints {
     class OperatorStack;
     // Nested type: NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack
     class ConstraintStack;
-    // private readonly NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.OperatorStack ops
+    // private readonly NUnit.Framework.Constraints.ConstraintBuilder/OperatorStack ops
     // Size: 0x8
     // Offset: 0x10
     NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack* ops;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack*) == 0x8);
-    // private readonly NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.ConstraintStack constraints
+    // private readonly NUnit.Framework.Constraints.ConstraintBuilder/ConstraintStack constraints
     // Size: 0x8
     // Offset: 0x18
     NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack* constraints;
@@ -45,18 +45,18 @@ namespace NUnit::Framework::Constraints {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: ConstraintBuilder
     ConstraintBuilder(NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack* ops_ = {}, NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack* constraints_ = {}, ::Il2CppObject* lastPushed_ = {}) noexcept : ops{ops_}, constraints{constraints_}, lastPushed{lastPushed_} {}
-    // Get instance field reference: private readonly NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.OperatorStack ops
+    // Get instance field reference: private readonly NUnit.Framework.Constraints.ConstraintBuilder/OperatorStack ops
     NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack*& dyn_ops();
-    // Get instance field reference: private readonly NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.ConstraintStack constraints
+    // Get instance field reference: private readonly NUnit.Framework.Constraints.ConstraintBuilder/ConstraintStack constraints
     NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack*& dyn_constraints();
     // Get instance field reference: private System.Object lastPushed
     ::Il2CppObject*& dyn_lastPushed();
-    // private System.Boolean get_IsResolvable()
-    // Offset: 0x176C394
-    bool get_IsResolvable();
     // public NUnit.Framework.Constraints.IConstraint Resolve()
-    // Offset: 0x176C1E8
+    // Offset: 0x192B234
     NUnit::Framework::Constraints::IConstraint* Resolve();
+    // private System.Boolean get_IsResolvable()
+    // Offset: 0x192B3E0
+    bool get_IsResolvable();
   }; // NUnit.Framework.Constraints.ConstraintBuilder
   #pragma pack(pop)
   static check_size<sizeof(ConstraintBuilder), 32 + sizeof(::Il2CppObject*)> __NUnit_Framework_Constraints_ConstraintBuilderSizeCheck;
@@ -65,19 +65,19 @@ namespace NUnit::Framework::Constraints {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintBuilder*, "NUnit.Framework.Constraints", "ConstraintBuilder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintBuilder::get_IsResolvable
-// Il2CppName: get_IsResolvable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::ConstraintBuilder::*)()>(&NUnit::Framework::Constraints::ConstraintBuilder::get_IsResolvable)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintBuilder*), "get_IsResolvable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintBuilder::Resolve
 // Il2CppName: Resolve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::IConstraint* (NUnit::Framework::Constraints::ConstraintBuilder::*)()>(&NUnit::Framework::Constraints::ConstraintBuilder::Resolve)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintBuilder*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintBuilder::get_IsResolvable
+// Il2CppName: get_IsResolvable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::ConstraintBuilder::*)()>(&NUnit::Framework::Constraints::ConstraintBuilder::get_IsResolvable)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintBuilder*), "get_IsResolvable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

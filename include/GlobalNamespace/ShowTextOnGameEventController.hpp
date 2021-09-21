@@ -50,13 +50,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private ShowTextOnGameEventController/EventTextBinding[] _eventTextBindings
     ::Array<GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*>*& dyn__eventTextBindings();
     // protected System.Void Awake()
-    // Offset: 0x1095840
+    // Offset: 0x1104274
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x109594C
+    // Offset: 0x1104380
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1095A40
+    // Offset: 0x1104474
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

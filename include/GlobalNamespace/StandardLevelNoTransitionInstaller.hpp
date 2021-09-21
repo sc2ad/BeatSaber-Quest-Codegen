@@ -114,7 +114,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useTestNoteCutSoundEffects and: scenesTransitionSetupData
     char __padding9[0x7] = {};
-    // [SpaceAttribute] Offset: 0xE4C180
+    // [SpaceAttribute] Offset: 0xF14D8C
     // private StandardLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x68
@@ -152,13 +152,18 @@ namespace GlobalNamespace {
     // Get instance field reference: private StandardLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
     GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& dyn__scenesTransitionSetupData();
     // public ColorSchemeSO get_colorScheme()
-    // Offset: 0x10694F4
+    // Offset: 0x1157E7C
     GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.Void set_colorScheme(ColorSchemeSO value)
-    // Offset: 0x10694FC
+    // Offset: 0x1157E84
     void set_colorScheme(GlobalNamespace::ColorSchemeSO* value);
+    // public override System.Void InstallBindings(Zenject.DiContainer container)
+    // Offset: 0x1157E8C
+    // Implemented from: Zenject.NoTransitionInstaller
+    // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
+    void InstallBindings(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x1069BC0
+    // Offset: 0x1158548
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -171,11 +176,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelNoTransitionInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelNoTransitionInstaller*, creationType>()));
     }
-    // public override System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x1069504
-    // Implemented from: Zenject.NoTransitionInstaller
-    // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
-    void InstallBindings(Zenject::DiContainer* container);
   }; // StandardLevelNoTransitionInstaller
   #pragma pack(pop)
   static check_size<sizeof(StandardLevelNoTransitionInstaller), 104 + sizeof(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*)> __GlobalNamespace_StandardLevelNoTransitionInstallerSizeCheck;
@@ -200,10 +200,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelNoTransitionInstaller*), "set_colorScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::StandardLevelNoTransitionInstaller::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelNoTransitionInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>
@@ -213,3 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelNoTransitionInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelNoTransitionInstaller::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

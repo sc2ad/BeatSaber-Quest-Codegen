@@ -20,24 +20,28 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TrailElement : public ::Il2CppObject {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xF061F8
     // private UnityEngine.Vector3 <position>k__BackingField
     // Size: 0xC
     // Offset: 0x10
     UnityEngine::Vector3 position;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    // [CompilerGeneratedAttribute] Offset: 0xF06208
     // private UnityEngine.Vector3 <normal>k__BackingField
     // Size: 0xC
     // Offset: 0x1C
     UnityEngine::Vector3 normal;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    // [CompilerGeneratedAttribute] Offset: 0xF06218
     // private System.Single <distance>k__BackingField
     // Size: 0x4
     // Offset: 0x28
     float distance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    // [CompilerGeneratedAttribute] Offset: 0xF06228
     // private System.Single <time>k__BackingField
     // Size: 0x4
     // Offset: 0x2C
@@ -55,37 +59,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <time>k__BackingField
     float& dyn_$time$k__BackingField();
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x1073B30
+    // Offset: 0x11624B8
     UnityEngine::Vector3 get_position();
     // private System.Void set_position(UnityEngine.Vector3 value)
-    // Offset: 0x1073B3C
+    // Offset: 0x11624C4
     void set_position(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_normal()
-    // Offset: 0x1073B48
+    // Offset: 0x11624D0
     UnityEngine::Vector3 get_normal();
     // private System.Void set_normal(UnityEngine.Vector3 value)
-    // Offset: 0x1073B54
+    // Offset: 0x11624DC
     void set_normal(UnityEngine::Vector3 value);
     // public System.Single get_distance()
-    // Offset: 0x1073B60
+    // Offset: 0x11624E8
     float get_distance();
     // private System.Void set_distance(System.Single value)
-    // Offset: 0x1073B68
+    // Offset: 0x11624F0
     void set_distance(float value);
     // public System.Single get_time()
-    // Offset: 0x1073B70
+    // Offset: 0x11624F8
     float get_time();
     // private System.Void set_time(System.Single value)
-    // Offset: 0x1073B78
+    // Offset: 0x1162500
     void set_time(float value);
     // public System.Void SetData(UnityEngine.Vector3 start, UnityEngine.Vector3 end, System.Single time)
-    // Offset: 0x1073B80
+    // Offset: 0x1162508
     void SetData(UnityEngine::Vector3 start, UnityEngine::Vector3 end, float time);
     // public System.Void SetDistance(System.Single value)
-    // Offset: 0x1073C80
+    // Offset: 0x1162608
     void SetDistance(float value);
     // public System.Void .ctor()
-    // Offset: 0x1073C88
+    // Offset: 0x1162610
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

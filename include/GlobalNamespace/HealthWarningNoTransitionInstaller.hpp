@@ -54,8 +54,13 @@ namespace GlobalNamespace {
     GlobalNamespace::HealthWarningSceneSetupData*& dyn__healthWarningSceneSetupData();
     // Get instance field reference: private HealthWarningScenesTransitionSetupDataSO _scenesTransitionSetupData
     GlobalNamespace::HealthWarningScenesTransitionSetupDataSO*& dyn__scenesTransitionSetupData();
+    // public override System.Void InstallBindings(Zenject.DiContainer container)
+    // Offset: 0x114515C
+    // Implemented from: Zenject.NoTransitionInstaller
+    // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
+    void InstallBindings(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x1186AD0
+    // Offset: 0x11451AC
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -68,11 +73,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HealthWarningNoTransitionInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningNoTransitionInstaller*, creationType>()));
     }
-    // public override System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x1186A80
-    // Implemented from: Zenject.NoTransitionInstaller
-    // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
-    void InstallBindings(Zenject::DiContainer* container);
   }; // HealthWarningNoTransitionInstaller
   #pragma pack(pop)
   static check_size<sizeof(HealthWarningNoTransitionInstaller), 32 + sizeof(GlobalNamespace::HealthWarningScenesTransitionSetupDataSO*)> __GlobalNamespace_HealthWarningNoTransitionInstallerSizeCheck;
@@ -80,10 +80,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningNoTransitionInstaller*, "", "HealthWarningNoTransitionInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::HealthWarningNoTransitionInstaller::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::HealthWarningNoTransitionInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>
@@ -93,3 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningNoTransitionInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::HealthWarningNoTransitionInstaller::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

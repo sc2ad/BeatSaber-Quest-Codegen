@@ -51,12 +51,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: refreshIsNeeded and: onJoinRequestEvent
     char __padding1[0x7] = {};
+    // [CompilerGeneratedAttribute] Offset: 0xF11830
     // private System.Action`1<INetworkPlayer> onJoinRequestEvent
     // Size: 0x8
     // Offset: 0x80
     System::Action_1<GlobalNamespace::INetworkPlayer*>* onJoinRequestEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::INetworkPlayer*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF11840
     // private System.Action`1<INetworkPlayer> onInviteRequestEvent
     // Size: 0x8
     // Offset: 0x88
@@ -83,37 +85,52 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     GlobalNamespace::INetworkPlayerModel* get_networkPlayerModel();
     // public System.Void add_onJoinRequestEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x104C85C
+    // Offset: 0x113B7FC
     void add_onJoinRequestEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
     // public System.Void remove_onJoinRequestEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x104C900
+    // Offset: 0x113B8A0
     void remove_onJoinRequestEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
     // public System.Void add_onInviteRequestEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x104C9A4
+    // Offset: 0x113B944
     void add_onInviteRequestEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
     // public System.Void remove_onInviteRequestEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x104CA48
+    // Offset: 0x113B9E8
     void remove_onInviteRequestEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
     // protected System.Void NetworkPlayersViewControllerDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
-    // Offset: 0x104CF70
+    // Offset: 0x113BF10
     void NetworkPlayersViewControllerDidActivate(bool firstActivation, bool addedToHierarchy);
     // protected System.Void NetworkPlayersViewControllerDidDeactivate(System.Boolean removedFromHierarchy)
-    // Offset: 0x104D218
+    // Offset: 0x113C1B8
     void NetworkPlayersViewControllerDidDeactivate(bool removedFromHierarchy);
     // private System.Void HandlePartyChanged(INetworkPlayerModel playerModel)
-    // Offset: 0x104D224
+    // Offset: 0x113C1C4
     void HandlePartyChanged(GlobalNamespace::INetworkPlayerModel* playerModel);
     // private System.Void HandleJoinRequest(INetworkPlayer player)
-    // Offset: 0x104D23C
+    // Offset: 0x113C1DC
     void HandleJoinRequest(GlobalNamespace::INetworkPlayer* player);
     // private System.Void HandleInviteRequest(INetworkPlayer player)
-    // Offset: 0x104D2B0
+    // Offset: 0x113C250
     void HandleInviteRequest(GlobalNamespace::INetworkPlayer* player);
     // private System.Void Refresh()
-    // Offset: 0x104CDC4
+    // Offset: 0x113BD64
     void Refresh();
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x113BA8C
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Offset: 0x113BF14
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
+    // protected override System.Void OnDestroy()
+    // Offset: 0x113C1BC
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::OnDestroy()
+    void OnDestroy();
     // protected System.Void .ctor()
-    // Offset: 0x104D324
+    // Offset: 0x113C2C4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -126,21 +143,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPlayersViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkPlayersViewController*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x104CAEC
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x104CF74
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
-    // protected override System.Void OnDestroy()
-    // Offset: 0x104D21C
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::OnDestroy()
-    void OnDestroy();
   }; // NetworkPlayersViewController
   #pragma pack(pop)
   static check_size<sizeof(NetworkPlayersViewController), 136 + sizeof(System::Action_1<GlobalNamespace::INetworkPlayer*>*)> __GlobalNamespace_NetworkPlayersViewControllerSizeCheck;
@@ -262,10 +264,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayersViewController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NetworkPlayersViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayersViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -295,3 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayersViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::NetworkPlayersViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

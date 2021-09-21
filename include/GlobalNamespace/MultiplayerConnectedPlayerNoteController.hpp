@@ -45,23 +45,23 @@ namespace GlobalNamespace {
     UnityEngine::GameObject*& dyn__visualsWrapperGo();
     // Get instance field reference: private System.Boolean _hidden
     bool& dyn__hidden();
-    // public override System.Boolean get_hide()
-    // Offset: 0x11CC2D0
-    // Implemented from: NoteController
-    // Base method: System.Boolean NoteController::get_hide()
-    bool get_hide();
     // public override System.Void set_hide(System.Boolean value)
-    // Offset: 0x11CC28C
+    // Offset: 0x12127DC
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_hide(System.Boolean value)
     void set_hide(bool value);
+    // public override System.Boolean get_hide()
+    // Offset: 0x1212820
+    // Implemented from: NoteController
+    // Base method: System.Boolean NoteController::get_hide()
+    bool get_hide();
     // public override System.Void set_pause(System.Boolean value)
-    // Offset: 0x11CC2D8
+    // Offset: 0x1212828
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_pause(System.Boolean value)
     void set_pause(bool value);
     // public System.Void .ctor()
-    // Offset: 0x11C94A4
+    // Offset: 0x120F9E8
     // Implemented from: NoteController
     // Base method: System.Void NoteController::.ctor()
     // Base method: System.Void NoteControllerBase::.ctor()
@@ -82,14 +82,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerNoteController*, "", "MultiplayerConnectedPlayerNoteController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerNoteController::get_hide
-// Il2CppName: get_hide
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerConnectedPlayerNoteController::*)()>(&GlobalNamespace::MultiplayerConnectedPlayerNoteController::get_hide)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerNoteController*), "get_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerNoteController::set_hide
 // Il2CppName: set_hide
 template<>
@@ -97,6 +89,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerNoteController*), "set_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerNoteController::get_hide
+// Il2CppName: get_hide
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerConnectedPlayerNoteController::*)()>(&GlobalNamespace::MultiplayerConnectedPlayerNoteController::get_hide)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerNoteController*), "get_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerNoteController::set_pause

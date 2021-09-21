@@ -43,8 +43,8 @@ namespace GlobalNamespace {
   class BakedLightDataLoader;
   // Forward declaring type: BakedReflectionProbe
   class BakedReflectionProbe;
-  // Forward declaring type: LightmapLightWithIds
-  class LightmapLightWithIds;
+  // Forward declaring type: LightmapLightsWithIds
+  class LightmapLightsWithIds;
   // Forward declaring type: FakeMirrorObjectsInstaller
   class FakeMirrorObjectsInstaller;
   // Forward declaring type: FakeMirrorSettings
@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: reflectionsCount and: bloomPrePassEffectToneMappingOff
     char __padding0[0x4] = {};
-    // [SpaceAttribute] Offset: 0xE4AE60
+    // [SpaceAttribute] Offset: 0xF13A5C
     // private BloomPrePassEffectSO _bloomPrePassEffectToneMappingOff
     // Size: 0x8
     // Offset: 0x20
@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MainEffectSO* mainEffectForBaking;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainEffectSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE4AEA8
+    // [SpaceAttribute] Offset: 0xF13AA4
     // private System.Single _colorFromSchemeAlpha
     // Size: 0x4
     // Offset: 0x30
@@ -100,7 +100,7 @@ namespace GlobalNamespace {
     ::Array<UnityEngine::Color>* bakedLightEditorColors;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::Color>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE4AEF0
+    // [SpaceAttribute] Offset: 0xF13AEC
     // private MainSettingsModelSO _mainSettingsModel
     // Size: 0x8
     // Offset: 0x40
@@ -143,7 +143,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomPrePassEffectContainerSO* bloomPrePassEffectContainer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomPrePassEffectContainerSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE4AF88
+    // [SpaceAttribute] Offset: 0xF13B84
     // private BakedLightDataLoader _bakedLightDataLoaderPrefab
     // Size: 0x8
     // Offset: 0x78
@@ -156,12 +156,12 @@ namespace GlobalNamespace {
     GlobalNamespace::BakedReflectionProbe* bakedReflectionProbePrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BakedReflectionProbe*) == 0x8);
-    // private LightmapLightWithIds _lightmapLightWithIds
+    // private LightmapLightsWithIds _lightmapLightsWithIds
     // Size: 0x8
     // Offset: 0x88
-    GlobalNamespace::LightmapLightWithIds* lightmapLightWithIds;
+    GlobalNamespace::LightmapLightsWithIds* lightmapLightsWithIds;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::LightmapLightWithIds*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::LightmapLightsWithIds*) == 0x8);
     // private FakeMirrorObjectsInstaller _fakeMirrorObjectsInstallerPrefab
     // Size: 0x8
     // Offset: 0x90
@@ -181,7 +181,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
     // Creating value type constructor for type: LightBakingPersistentSettingsSO
-    LightBakingPersistentSettingsSO(int reflectionsCount_ = {}, GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffectToneMappingOff_ = {}, GlobalNamespace::MainEffectSO* mainEffectForBaking_ = {}, float colorFromSchemeAlpha_ = {}, ::Array<UnityEngine::Color>* bakedLightEditorColors_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::MirrorRendererGraphicsSettingsPresets* mirrorRendererGraphicsSettingsPresets_ = {}, GlobalNamespace::MainEffectGraphicsSettingsPresetsSO* mainEffectGraphicsSettingsPresets_ = {}, GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO* bloomPrePassGraphicsSettingsPresets_ = {}, GlobalNamespace::MirrorRendererSO* mirrorRenderer_ = {}, GlobalNamespace::MainEffectContainerSO* mainEffectContainer_ = {}, GlobalNamespace::BloomPrePassEffectContainerSO* bloomPrePassEffectContainer_ = {}, GlobalNamespace::BakedLightDataLoader* bakedLightDataLoaderPrefab_ = {}, GlobalNamespace::BakedReflectionProbe* bakedReflectionProbePrefab_ = {}, GlobalNamespace::LightmapLightWithIds* lightmapLightWithIds_ = {}, GlobalNamespace::FakeMirrorObjectsInstaller* fakeMirrorObjectsInstallerPrefab_ = {}, GlobalNamespace::FakeMirrorSettings* fakeMirrorSettingsPrefab_ = {}, UnityEngine::Material* defaultDepthOnlyWriteMaterialForFakeMirror_ = {}) noexcept : reflectionsCount{reflectionsCount_}, bloomPrePassEffectToneMappingOff{bloomPrePassEffectToneMappingOff_}, mainEffectForBaking{mainEffectForBaking_}, colorFromSchemeAlpha{colorFromSchemeAlpha_}, bakedLightEditorColors{bakedLightEditorColors_}, mainSettingsModel{mainSettingsModel_}, mirrorRendererGraphicsSettingsPresets{mirrorRendererGraphicsSettingsPresets_}, mainEffectGraphicsSettingsPresets{mainEffectGraphicsSettingsPresets_}, bloomPrePassGraphicsSettingsPresets{bloomPrePassGraphicsSettingsPresets_}, mirrorRenderer{mirrorRenderer_}, mainEffectContainer{mainEffectContainer_}, bloomPrePassEffectContainer{bloomPrePassEffectContainer_}, bakedLightDataLoaderPrefab{bakedLightDataLoaderPrefab_}, bakedReflectionProbePrefab{bakedReflectionProbePrefab_}, lightmapLightWithIds{lightmapLightWithIds_}, fakeMirrorObjectsInstallerPrefab{fakeMirrorObjectsInstallerPrefab_}, fakeMirrorSettingsPrefab{fakeMirrorSettingsPrefab_}, defaultDepthOnlyWriteMaterialForFakeMirror{defaultDepthOnlyWriteMaterialForFakeMirror_} {}
+    LightBakingPersistentSettingsSO(int reflectionsCount_ = {}, GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffectToneMappingOff_ = {}, GlobalNamespace::MainEffectSO* mainEffectForBaking_ = {}, float colorFromSchemeAlpha_ = {}, ::Array<UnityEngine::Color>* bakedLightEditorColors_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::MirrorRendererGraphicsSettingsPresets* mirrorRendererGraphicsSettingsPresets_ = {}, GlobalNamespace::MainEffectGraphicsSettingsPresetsSO* mainEffectGraphicsSettingsPresets_ = {}, GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO* bloomPrePassGraphicsSettingsPresets_ = {}, GlobalNamespace::MirrorRendererSO* mirrorRenderer_ = {}, GlobalNamespace::MainEffectContainerSO* mainEffectContainer_ = {}, GlobalNamespace::BloomPrePassEffectContainerSO* bloomPrePassEffectContainer_ = {}, GlobalNamespace::BakedLightDataLoader* bakedLightDataLoaderPrefab_ = {}, GlobalNamespace::BakedReflectionProbe* bakedReflectionProbePrefab_ = {}, GlobalNamespace::LightmapLightsWithIds* lightmapLightsWithIds_ = {}, GlobalNamespace::FakeMirrorObjectsInstaller* fakeMirrorObjectsInstallerPrefab_ = {}, GlobalNamespace::FakeMirrorSettings* fakeMirrorSettingsPrefab_ = {}, UnityEngine::Material* defaultDepthOnlyWriteMaterialForFakeMirror_ = {}) noexcept : reflectionsCount{reflectionsCount_}, bloomPrePassEffectToneMappingOff{bloomPrePassEffectToneMappingOff_}, mainEffectForBaking{mainEffectForBaking_}, colorFromSchemeAlpha{colorFromSchemeAlpha_}, bakedLightEditorColors{bakedLightEditorColors_}, mainSettingsModel{mainSettingsModel_}, mirrorRendererGraphicsSettingsPresets{mirrorRendererGraphicsSettingsPresets_}, mainEffectGraphicsSettingsPresets{mainEffectGraphicsSettingsPresets_}, bloomPrePassGraphicsSettingsPresets{bloomPrePassGraphicsSettingsPresets_}, mirrorRenderer{mirrorRenderer_}, mainEffectContainer{mainEffectContainer_}, bloomPrePassEffectContainer{bloomPrePassEffectContainer_}, bakedLightDataLoaderPrefab{bakedLightDataLoaderPrefab_}, bakedReflectionProbePrefab{bakedReflectionProbePrefab_}, lightmapLightsWithIds{lightmapLightsWithIds_}, fakeMirrorObjectsInstallerPrefab{fakeMirrorObjectsInstallerPrefab_}, fakeMirrorSettingsPrefab{fakeMirrorSettingsPrefab_}, defaultDepthOnlyWriteMaterialForFakeMirror{defaultDepthOnlyWriteMaterialForFakeMirror_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kDefaultMirrorGraphicsSettings
@@ -260,8 +260,8 @@ namespace GlobalNamespace {
     GlobalNamespace::BakedLightDataLoader*& dyn__bakedLightDataLoaderPrefab();
     // Get instance field reference: private BakedReflectionProbe _bakedReflectionProbePrefab
     GlobalNamespace::BakedReflectionProbe*& dyn__bakedReflectionProbePrefab();
-    // Get instance field reference: private LightmapLightWithIds _lightmapLightWithIds
-    GlobalNamespace::LightmapLightWithIds*& dyn__lightmapLightWithIds();
+    // Get instance field reference: private LightmapLightsWithIds _lightmapLightsWithIds
+    GlobalNamespace::LightmapLightsWithIds*& dyn__lightmapLightsWithIds();
     // Get instance field reference: private FakeMirrorObjectsInstaller _fakeMirrorObjectsInstallerPrefab
     GlobalNamespace::FakeMirrorObjectsInstaller*& dyn__fakeMirrorObjectsInstallerPrefab();
     // Get instance field reference: private FakeMirrorSettings _fakeMirrorSettingsPrefab
@@ -269,58 +269,58 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Material _defaultDepthOnlyWriteMaterialForFakeMirror
     UnityEngine::Material*& dyn__defaultDepthOnlyWriteMaterialForFakeMirror();
     // public System.Int32 get_reflectionsCount()
-    // Offset: 0x1204744
+    // Offset: 0x131094C
     int get_reflectionsCount();
     // public System.Void set_reflectionsCount(System.Int32 value)
-    // Offset: 0x120474C
+    // Offset: 0x1310954
     void set_reflectionsCount(int value);
     // public System.Single get_colorFromSchemeAlpha()
-    // Offset: 0x1204754
+    // Offset: 0x131095C
     float get_colorFromSchemeAlpha();
     // public System.Void set_colorFromSchemeAlpha(System.Single value)
-    // Offset: 0x120475C
+    // Offset: 0x1310964
     void set_colorFromSchemeAlpha(float value);
     // public UnityEngine.Color[] get_bakedLightEditorColors()
-    // Offset: 0x1204764
+    // Offset: 0x131096C
     ::Array<UnityEngine::Color>* get_bakedLightEditorColors();
     // public UnityEngine.Material get_defaultDepthOnlyWriteMaterialForFakeMirror()
-    // Offset: 0x120476C
+    // Offset: 0x1310974
     UnityEngine::Material* get_defaultDepthOnlyWriteMaterialForFakeMirror();
     // public System.Boolean get_mainEffectForBakingIsOn()
-    // Offset: 0x1204774
+    // Offset: 0x131097C
     bool get_mainEffectForBakingIsOn();
     // public System.Void set_mainEffectForBakingIsOn(System.Boolean value)
-    // Offset: 0x12047F4
+    // Offset: 0x13109FC
     void set_mainEffectForBakingIsOn(bool value);
     // public BakedLightDataLoader get_bakedLightDataLoaderPrefab()
-    // Offset: 0x12048B8
+    // Offset: 0x1310AC0
     GlobalNamespace::BakedLightDataLoader* get_bakedLightDataLoaderPrefab();
     // public BakedReflectionProbe get_bakedReflectionProbePrefab()
-    // Offset: 0x12048C0
+    // Offset: 0x1310AC8
     GlobalNamespace::BakedReflectionProbe* get_bakedReflectionProbePrefab();
-    // public LightmapLightWithIds get_lightmapLightWithIds()
-    // Offset: 0x12048C8
-    GlobalNamespace::LightmapLightWithIds* get_lightmapLightWithIds();
+    // public LightmapLightsWithIds get_lightmapLightsWithIds()
+    // Offset: 0x1310AD0
+    GlobalNamespace::LightmapLightsWithIds* get_lightmapLightsWithIds();
     // public FakeMirrorObjectsInstaller get_fakeMirrorObjectsInstallerPrefab()
-    // Offset: 0x12048D0
+    // Offset: 0x1310AD8
     GlobalNamespace::FakeMirrorObjectsInstaller* get_fakeMirrorObjectsInstallerPrefab();
     // public FakeMirrorSettings get_fakeMirrorSettingsPrefab()
-    // Offset: 0x12048D8
+    // Offset: 0x1310AE0
     GlobalNamespace::FakeMirrorSettings* get_fakeMirrorSettingsPrefab();
     // public System.Void SetGraphicsSettingsForBaking()
-    // Offset: 0x12048E0
+    // Offset: 0x1310AE8
     void SetGraphicsSettingsForBaking();
     // public System.Void SetPlatformGraphics()
-    // Offset: 0x1204BE4
+    // Offset: 0x1310DEC
     void SetPlatformGraphics();
     // public System.Void SetToneMappingOn(System.Boolean isOn)
-    // Offset: 0x1204B1C
+    // Offset: 0x1310D24
     void SetToneMappingOn(bool isOn);
     // public System.Boolean IsToneMappingOn()
-    // Offset: 0x1204E6C
+    // Offset: 0x1311074
     bool IsToneMappingOn();
     // public System.Void .ctor()
-    // Offset: 0x1204EA4
+    // Offset: 0x13110AC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -421,12 +421,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_bakedReflectionProbePrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::get_lightmapLightWithIds
-// Il2CppName: get_lightmapLightWithIds
+// Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::get_lightmapLightsWithIds
+// Il2CppName: get_lightmapLightsWithIds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LightmapLightWithIds* (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_lightmapLightWithIds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LightmapLightsWithIds* (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_lightmapLightsWithIds)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_lightmapLightWithIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_lightmapLightsWithIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::get_fakeMirrorObjectsInstallerPrefab

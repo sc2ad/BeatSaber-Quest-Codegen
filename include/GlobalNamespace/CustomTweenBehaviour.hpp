@@ -43,7 +43,8 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::CustomTweenBehaviour::$$c
     class $$c;
-    // [NullAllowed] Offset: 0xE4B774
+    // [HideInInspector] Offset: 0xF14380
+    // [NullAllowed] Offset: 0xF14380
     // public UnityEngine.Transform[] _transforms
     // Size: 0x8
     // Offset: 0x10
@@ -58,7 +59,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: startLocationCurrentPosition and: startLocalPos
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xE4B7AC
+    // [DrawIfAttribute] Offset: 0xF143B8
     // public UnityEngine.Vector3 startLocalPos
     // Size: 0xC
     // Offset: 0x1C
@@ -85,13 +86,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: endXRelativeToSelfRotation and: elementDelay
     char __padding5[0x3] = {};
+    // [HideInInspector] Offset: 0xF1444C
     // public System.Single elementDelay
     // Size: 0x4
     // Offset: 0x3C
     float elementDelay;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xE4B850
+    // [SpaceAttribute] Offset: 0xF1445C
     // public System.Boolean _lockX
     // Size: 0x1
     // Offset: 0x40
@@ -198,8 +200,28 @@ namespace GlobalNamespace {
     ::Array<int>*& dyn__randomizedOrder();
     // Get instance field reference: private System.Single[] _randomizedDuration
     ::Array<float>*& dyn__randomizedDuration();
+    // public override System.Void OnGraphStart(UnityEngine.Playables.Playable playable)
+    // Offset: 0x11A24D8
+    // Implemented from: UnityEngine.Playables.PlayableBehaviour
+    // Base method: System.Void PlayableBehaviour::OnGraphStart(UnityEngine.Playables.Playable playable)
+    void OnGraphStart(UnityEngine::Playables::Playable playable);
+    // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
+    // Offset: 0x11A261C
+    // Implemented from: UnityEngine.Playables.PlayableBehaviour
+    // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
+    void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
+    // public override System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
+    // Offset: 0x11A2B48
+    // Implemented from: UnityEngine.Playables.PlayableBehaviour
+    // Base method: System.Void PlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
+    void OnPlayableDestroy(UnityEngine::Playables::Playable playable);
+    // public override System.Void OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
+    // Offset: 0x11A2C64
+    // Implemented from: UnityEngine.Playables.PlayableBehaviour
+    // Base method: System.Void PlayableBehaviour::OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
+    void OnBehaviourPlay(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public System.Void .ctor()
-    // Offset: 0x10EB4BC
+    // Offset: 0x11A2E40
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -208,26 +230,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomTweenBehaviour::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomTweenBehaviour*, creationType>()));
     }
-    // public override System.Void OnGraphStart(UnityEngine.Playables.Playable playable)
-    // Offset: 0x10EAB54
-    // Implemented from: UnityEngine.Playables.PlayableBehaviour
-    // Base method: System.Void PlayableBehaviour::OnGraphStart(UnityEngine.Playables.Playable playable)
-    void OnGraphStart(UnityEngine::Playables::Playable playable);
-    // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x10EAC98
-    // Implemented from: UnityEngine.Playables.PlayableBehaviour
-    // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
-    // public override System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    // Offset: 0x10EB1C4
-    // Implemented from: UnityEngine.Playables.PlayableBehaviour
-    // Base method: System.Void PlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    void OnPlayableDestroy(UnityEngine::Playables::Playable playable);
-    // public override System.Void OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x10EB2E0
-    // Implemented from: UnityEngine.Playables.PlayableBehaviour
-    // Base method: System.Void PlayableBehaviour::OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    void OnBehaviourPlay(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
   }; // CustomTweenBehaviour
   #pragma pack(pop)
   static check_size<sizeof(CustomTweenBehaviour), 104 + sizeof(::Array<float>*)> __GlobalNamespace_CustomTweenBehaviourSizeCheck;
@@ -235,10 +237,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomTweenBehaviour*, "", "CustomTweenBehaviour");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::CustomTweenBehaviour::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CustomTweenBehaviour::OnGraphStart
 // Il2CppName: OnGraphStart
 template<>
@@ -278,3 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomTweenBehaviour*), "OnBehaviourPlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playable, info});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::CustomTweenBehaviour::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

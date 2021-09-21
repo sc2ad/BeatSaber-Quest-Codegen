@@ -233,54 +233,63 @@ namespace GlobalNamespace {
     System::Collections::Generic::Queue_1<int>* freeSortIndices;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Queue_1<int>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xED9F20
     // private System.Action connectedEvent
     // Size: 0x8
     // Offset: 0x60
     System::Action* connectedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xED9F30
     // private System.Action`1<ConnectionFailedReason> connectionFailedEvent
     // Size: 0x8
     // Offset: 0x68
     System::Action_1<GlobalNamespace::ConnectionFailedReason>* connectionFailedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::ConnectionFailedReason>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xED9F40
     // private System.Action`1<IConnectedPlayer> playerConnectedEvent
     // Size: 0x8
     // Offset: 0x70
     System::Action_1<GlobalNamespace::IConnectedPlayer*>* playerConnectedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::IConnectedPlayer*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xED9F50
     // private System.Action`1<IConnectedPlayer> playerDisconnectedEvent
     // Size: 0x8
     // Offset: 0x78
     System::Action_1<GlobalNamespace::IConnectedPlayer*>* playerDisconnectedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::IConnectedPlayer*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xED9F60
     // private System.Action`1<IConnectedPlayer> playerAvatarChangedEvent
     // Size: 0x8
     // Offset: 0x80
     System::Action_1<GlobalNamespace::IConnectedPlayer*>* playerAvatarChangedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::IConnectedPlayer*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xED9F70
     // private System.Action`1<IConnectedPlayer> playerStateChangedEvent
     // Size: 0x8
     // Offset: 0x88
     System::Action_1<GlobalNamespace::IConnectedPlayer*>* playerStateChangedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::IConnectedPlayer*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xED9F80
     // private System.Action`1<IConnectedPlayer> connectionOwnerStateChangedEvent
     // Size: 0x8
     // Offset: 0x90
     System::Action_1<GlobalNamespace::IConnectedPlayer*>* connectionOwnerStateChangedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::IConnectedPlayer*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xED9F90
     // private System.Action`1<DisconnectedReason> disconnectedEvent
     // Size: 0x8
     // Offset: 0x98
     System::Action_1<GlobalNamespace::DisconnectedReason>* disconnectedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::DisconnectedReason>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xED9FA0
     // private IConnectedPlayer <connectionOwner>k__BackingField
     // Size: 0x8
     // Offset: 0xA0
@@ -349,107 +358,107 @@ namespace GlobalNamespace {
     bool& dyn__exclusiveConnectedPlayerManager();
     // Get instance field reference: private ConnectedPlayerManager _connectedPlayerManager
     GlobalNamespace::ConnectedPlayerManager*& dyn__connectedPlayerManager();
-    // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x16F1FCC
-    bool get_isConnectionOwner();
-    // public IConnectedPlayer get_connectionOwner()
-    // Offset: 0x16F1FE4
-    GlobalNamespace::IConnectedPlayer* get_connectionOwner();
-    // private System.Void set_connectionOwner(IConnectedPlayer value)
-    // Offset: 0x16F1FEC
-    void set_connectionOwner(GlobalNamespace::IConnectedPlayer* value);
-    // public System.Boolean get_isSpectating()
-    // Offset: 0x16F1FF4
-    bool get_isSpectating();
-    // public System.Boolean get_isConnectingOrConnected()
-    // Offset: 0x16F20D0
-    bool get_isConnectingOrConnected();
-    // public System.Boolean get_isConnected()
-    // Offset: 0x16F20F4
-    bool get_isConnected();
-    // public System.Boolean get_isConnecting()
-    // Offset: 0x16F20E4
-    bool get_isConnecting();
-    // public System.Boolean get_isDisconnecting()
-    // Offset: 0x16F2104
-    bool get_isDisconnecting();
-    // public System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> get_connectedPlayers()
-    // Offset: 0x16F2114
-    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* get_connectedPlayers();
-    // public System.Int32 get_connectedPlayerCount()
-    // Offset: 0x16F211C
-    int get_connectedPlayerCount();
-    // public System.Single get_syncTime()
-    // Offset: 0x16F216C
-    float get_syncTime();
-    // public System.Boolean get_isSyncTimeInitialized()
-    // Offset: 0x16F2184
-    bool get_isSyncTimeInitialized();
-    // public System.Single get_syncTimeDelay()
-    // Offset: 0x16F2198
-    float get_syncTimeDelay();
-    // public IConnectedPlayer get_localPlayer()
-    // Offset: 0x16F21B0
-    GlobalNamespace::IConnectedPlayer* get_localPlayer();
-    // public ConnectedPlayerManager get_connectedPlayerManager()
-    // Offset: 0x16F21C8
-    GlobalNamespace::ConnectedPlayerManager* get_connectedPlayerManager();
-    // public System.Int32 get_maxPlayerCount()
-    // Offset: 0x16F21D0
-    int get_maxPlayerCount();
     // public System.Void add_connectedEvent(System.Action value)
-    // Offset: 0x16F158C
+    // Offset: 0x18CB108
     void add_connectedEvent(System::Action* value);
     // public System.Void remove_connectedEvent(System.Action value)
-    // Offset: 0x16F1630
+    // Offset: 0x18CB1AC
     void remove_connectedEvent(System::Action* value);
     // public System.Void add_connectionFailedEvent(System.Action`1<ConnectionFailedReason> value)
-    // Offset: 0x16F16D4
+    // Offset: 0x18CB250
     void add_connectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
     // public System.Void remove_connectionFailedEvent(System.Action`1<ConnectionFailedReason> value)
-    // Offset: 0x16F1778
+    // Offset: 0x18CB2F4
     void remove_connectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
     // public System.Void add_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x16F181C
+    // Offset: 0x18CB398
     void add_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x16F18C0
+    // Offset: 0x18CB43C
     void remove_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void add_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x16F1964
+    // Offset: 0x18CB4E0
     void add_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x16F1A08
+    // Offset: 0x18CB584
     void remove_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void add_playerAvatarChangedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x16F1AAC
+    // Offset: 0x18CB628
     void add_playerAvatarChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerAvatarChangedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x16F1B50
+    // Offset: 0x18CB6CC
     void remove_playerAvatarChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void add_playerStateChangedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x16F1BF4
+    // Offset: 0x18CB770
     void add_playerStateChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerStateChangedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x16F1C98
+    // Offset: 0x18CB814
     void remove_playerStateChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void add_connectionOwnerStateChangedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x16F1D3C
+    // Offset: 0x18CB8B8
     void add_connectionOwnerStateChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_connectionOwnerStateChangedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x16F1DE0
+    // Offset: 0x18CB95C
     void remove_connectionOwnerStateChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void add_disconnectedEvent(System.Action`1<DisconnectedReason> value)
-    // Offset: 0x16F1E84
+    // Offset: 0x18CBA00
     void add_disconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
     // public System.Void remove_disconnectedEvent(System.Action`1<DisconnectedReason> value)
-    // Offset: 0x16F1F28
+    // Offset: 0x18CBAA4
     void remove_disconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
+    // public System.Boolean get_isConnectionOwner()
+    // Offset: 0x18CBB48
+    bool get_isConnectionOwner();
+    // public IConnectedPlayer get_connectionOwner()
+    // Offset: 0x18CBB60
+    GlobalNamespace::IConnectedPlayer* get_connectionOwner();
+    // private System.Void set_connectionOwner(IConnectedPlayer value)
+    // Offset: 0x18CBB68
+    void set_connectionOwner(GlobalNamespace::IConnectedPlayer* value);
+    // public System.Boolean get_isSpectating()
+    // Offset: 0x18CBB70
+    bool get_isSpectating();
+    // public System.Boolean get_isConnectingOrConnected()
+    // Offset: 0x18CBC4C
+    bool get_isConnectingOrConnected();
+    // public System.Boolean get_isConnected()
+    // Offset: 0x18CBC70
+    bool get_isConnected();
+    // public System.Boolean get_isConnecting()
+    // Offset: 0x18CBC60
+    bool get_isConnecting();
+    // public System.Boolean get_isDisconnecting()
+    // Offset: 0x18CBC80
+    bool get_isDisconnecting();
+    // public System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> get_connectedPlayers()
+    // Offset: 0x18CBC90
+    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* get_connectedPlayers();
+    // public System.Int32 get_connectedPlayerCount()
+    // Offset: 0x18CBC98
+    int get_connectedPlayerCount();
+    // public System.Single get_syncTime()
+    // Offset: 0x18CBCE8
+    float get_syncTime();
+    // public System.Boolean get_isSyncTimeInitialized()
+    // Offset: 0x18CBD00
+    bool get_isSyncTimeInitialized();
+    // public System.Single get_syncTimeDelay()
+    // Offset: 0x18CBD14
+    float get_syncTimeDelay();
+    // public IConnectedPlayer get_localPlayer()
+    // Offset: 0x18CBD2C
+    GlobalNamespace::IConnectedPlayer* get_localPlayer();
+    // public ConnectedPlayerManager get_connectedPlayerManager()
+    // Offset: 0x18CBD44
+    GlobalNamespace::ConnectedPlayerManager* get_connectedPlayerManager();
+    // public System.Int32 get_maxPlayerCount()
+    // Offset: 0x18CBD4C
+    int get_maxPlayerCount();
     // public System.Void RegisterSerializer(MultiplayerSessionManager/MessageType serializerType, INetworkPacketSubSerializer`1<IConnectedPlayer> subSerializer)
-    // Offset: 0x16F2BA4
+    // Offset: 0x18CC720
     void RegisterSerializer(GlobalNamespace::MultiplayerSessionManager_MessageType serializerType, GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>* subSerializer);
     // public System.Void UnregisterSerializer(MultiplayerSessionManager/MessageType serializerType, INetworkPacketSubSerializer`1<IConnectedPlayer> subSerializer)
-    // Offset: 0x16F2C14
+    // Offset: 0x18CC790
     void UnregisterSerializer(GlobalNamespace::MultiplayerSessionManager_MessageType serializerType, GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>* subSerializer);
     // public System.Void RegisterCallback(MultiplayerSessionManager/MessageType serializerType, System.Action`2<T,IConnectedPlayer> callback, System.Func`1<T> constructor)
     // Offset: 0xFFFFFFFF
@@ -485,19 +494,19 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, sessionType, connectionManager, initParams);
     }
     // public System.Void StartSession(ConnectedPlayerManager connectedPlayerManager)
-    // Offset: 0x16F2C84
+    // Offset: 0x18CC800
     void StartSession(GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager);
     // public System.Void SetMaxPlayerCount(System.Int32 maxPlayerCount)
-    // Offset: 0x16F310C
+    // Offset: 0x18CCC88
     void SetMaxPlayerCount(int maxPlayerCount);
     // private System.Void InitInternal(MultiplayerSessionManager/SessionType sessionType)
-    // Offset: 0x16F2CD0
+    // Offset: 0x18CC84C
     void InitInternal(GlobalNamespace::MultiplayerSessionManager::SessionType sessionType);
     // public System.Void EndSession()
-    // Offset: 0x16F2788
+    // Offset: 0x18CC304
     void EndSession();
     // public System.Void Disconnect()
-    // Offset: 0x16F3114
+    // Offset: 0x18CCC90
     void Disconnect();
     // public System.Void Send(T message)
     // Offset: 0xFFFFFFFF
@@ -522,67 +531,87 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, message);
     }
     // public System.Void PerformAtSyncTime(System.Single syncTime, System.Action action)
-    // Offset: 0x16F317C
+    // Offset: 0x18CCCF8
     void PerformAtSyncTime(float syncTime, System::Action* action);
     // private System.Void UpdateSynchronizedActions()
-    // Offset: 0x16F2314
+    // Offset: 0x18CBE90
     void UpdateSynchronizedActions();
     // private System.Void HandleReinitialized()
-    // Offset: 0x16F3398
+    // Offset: 0x18CCF14
     void HandleReinitialized();
     // private System.Void HandleConnected()
-    // Offset: 0x16F33A8
+    // Offset: 0x18CCF24
     void HandleConnected();
     // private System.Void HandleDisconnected(DisconnectedReason disconnectedReason)
-    // Offset: 0x16F33B8
+    // Offset: 0x18CCF34
     void HandleDisconnected(GlobalNamespace::DisconnectedReason disconnectedReason);
     // private System.Void HandleConnectionFailed(ConnectionFailedReason reason)
-    // Offset: 0x16F33C8
+    // Offset: 0x18CCF44
     void HandleConnectionFailed(GlobalNamespace::ConnectionFailedReason reason);
     // private System.Void HandleSyncTimeInitialized()
-    // Offset: 0x16F33D8
+    // Offset: 0x18CCF54
     void HandleSyncTimeInitialized();
     // private System.Void HandlePlayerConnected(IConnectedPlayer player)
-    // Offset: 0x16F33E8
+    // Offset: 0x18CCF64
     void HandlePlayerConnected(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandlePlayerDisconnected(IConnectedPlayer player)
-    // Offset: 0x16F3A0C
+    // Offset: 0x18CD588
     void HandlePlayerDisconnected(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandlePlayerStateChanged(IConnectedPlayer player)
-    // Offset: 0x16F3AE0
+    // Offset: 0x18CD65C
     void HandlePlayerStateChanged(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandlePlayerAvatarChanged(IConnectedPlayer player)
-    // Offset: 0x16F3CA0
+    // Offset: 0x18CD81C
     void HandlePlayerAvatarChanged(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandlePlayerOrderChanged(IConnectedPlayer player)
-    // Offset: 0x16F3D38
+    // Offset: 0x18CD8B4
     void HandlePlayerOrderChanged(GlobalNamespace::IConnectedPlayer* player);
     // public IConnectedPlayer GetPlayerByUserId(System.String userId)
-    // Offset: 0x16F3D70
+    // Offset: 0x18CD8EC
     GlobalNamespace::IConnectedPlayer* GetPlayerByUserId(::Il2CppString* userId);
     // public IConnectedPlayer GetConnectedPlayer(System.Int32 i)
-    // Offset: 0x16F3EF8
+    // Offset: 0x18CDA74
     GlobalNamespace::IConnectedPlayer* GetConnectedPlayer(int i);
     // public System.Void SetLocalPlayerState(System.String state, System.Boolean hasState)
-    // Offset: 0x16F222C
+    // Offset: 0x18CBDA8
     void SetLocalPlayerState(::Il2CppString* state, bool hasState);
     // public System.Void KickPlayer(System.String userId)
-    // Offset: 0x16F3F70
+    // Offset: 0x18CDAEC
     void KickPlayer(::Il2CppString* userId);
     // public System.Boolean LocalPlayerHasState(System.String state)
-    // Offset: 0x16F3F88
+    // Offset: 0x18CDB04
     bool LocalPlayerHasState(::Il2CppString* state);
     // private System.Void UpdateConnectionState(UpdateConnectionStateReason updateReason, DisconnectedReason disconnectedReason, ConnectionFailedReason connectionFailedReason)
-    // Offset: 0x16F23A8
+    // Offset: 0x18CBF24
     void UpdateConnectionState(GlobalNamespace::UpdateConnectionStateReason updateReason, GlobalNamespace::DisconnectedReason disconnectedReason, GlobalNamespace::ConnectionFailedReason connectionFailedReason);
     // private System.Boolean TryUpdateConnectedPlayer(IConnectedPlayer player, System.Boolean isPlayerConnected)
-    // Offset: 0x16F34BC
+    // Offset: 0x18CD038
     bool TryUpdateConnectedPlayer(GlobalNamespace::IConnectedPlayer* player, bool isPlayerConnected);
     // private System.Int32 GetNextAvailableSortIndex()
-    // Offset: 0x16F40AC
+    // Offset: 0x18CDC28
     int GetNextAvailableSortIndex();
+    // protected override System.Void Start()
+    // Offset: 0x18CBD54
+    // Implemented from: StandaloneMonobehavior
+    // Base method: System.Void StandaloneMonobehavior::Start()
+    void Start();
+    // protected override System.Void Update()
+    // Offset: 0x18CBE58
+    // Implemented from: StandaloneMonobehavior
+    // Base method: System.Void StandaloneMonobehavior::Update()
+    void Update();
+    // protected override System.Void OnDestroy()
+    // Offset: 0x18CBEF4
+    // Implemented from: StandaloneMonobehavior
+    // Base method: System.Void StandaloneMonobehavior::OnDestroy()
+    void OnDestroy();
+    // protected override System.Void OnApplicationPause(System.Boolean pauseStatus)
+    // Offset: 0x18CC6C0
+    // Implemented from: StandaloneMonobehavior
+    // Base method: System.Void StandaloneMonobehavior::OnApplicationPause(System.Boolean pauseStatus)
+    void OnApplicationPause(bool pauseStatus);
     // public System.Void .ctor()
-    // Offset: 0x16F4144
+    // Offset: 0x18CDCC0
     // Implemented from: StandaloneMonobehavior
     // Base method: System.Void StandaloneMonobehavior::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -595,26 +624,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerSessionManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerSessionManager*, creationType>()));
     }
-    // protected override System.Void Start()
-    // Offset: 0x16F21D8
-    // Implemented from: StandaloneMonobehavior
-    // Base method: System.Void StandaloneMonobehavior::Start()
-    void Start();
-    // protected override System.Void Update()
-    // Offset: 0x16F22DC
-    // Implemented from: StandaloneMonobehavior
-    // Base method: System.Void StandaloneMonobehavior::Update()
-    void Update();
-    // protected override System.Void OnDestroy()
-    // Offset: 0x16F2378
-    // Implemented from: StandaloneMonobehavior
-    // Base method: System.Void StandaloneMonobehavior::OnDestroy()
-    void OnDestroy();
-    // protected override System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0x16F2B44
-    // Implemented from: StandaloneMonobehavior
-    // Base method: System.Void StandaloneMonobehavior::OnApplicationPause(System.Boolean pauseStatus)
-    void OnApplicationPause(bool pauseStatus);
   }; // MultiplayerSessionManager
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerSessionManager), 176 + sizeof(GlobalNamespace::ConnectedPlayerManager*)> __GlobalNamespace_MultiplayerSessionManagerSizeCheck;
@@ -624,135 +633,6 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager*, "", "Multipl
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager::SessionType, "", "MultiplayerSessionManager/SessionType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager::ConnectionState, "", "MultiplayerSessionManager/ConnectionState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_isConnectionOwner
-// Il2CppName: get_isConnectionOwner
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_isConnectionOwner)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_connectionOwner
-// Il2CppName: get_connectionOwner
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_connectionOwner)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_connectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::set_connectionOwner
-// Il2CppName: set_connectionOwner
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSessionManager::*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::MultiplayerSessionManager::set_connectionOwner)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "set_connectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_isSpectating
-// Il2CppName: get_isSpectating
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_isSpectating)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_isSpectating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_isConnectingOrConnected
-// Il2CppName: get_isConnectingOrConnected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_isConnectingOrConnected)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_isConnectingOrConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_isConnected
-// Il2CppName: get_isConnected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_isConnected)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_isConnecting
-// Il2CppName: get_isConnecting
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_isConnecting)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_isConnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_isDisconnecting
-// Il2CppName: get_isDisconnecting
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_isDisconnecting)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_isDisconnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_connectedPlayers
-// Il2CppName: get_connectedPlayers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_connectedPlayers)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_connectedPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_connectedPlayerCount
-// Il2CppName: get_connectedPlayerCount
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_connectedPlayerCount)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_connectedPlayerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_syncTime
-// Il2CppName: get_syncTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_syncTime)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_syncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_isSyncTimeInitialized
-// Il2CppName: get_isSyncTimeInitialized
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_isSyncTimeInitialized)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_isSyncTimeInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_syncTimeDelay
-// Il2CppName: get_syncTimeDelay
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_syncTimeDelay)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_syncTimeDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_localPlayer
-// Il2CppName: get_localPlayer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_localPlayer)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_localPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_connectedPlayerManager
-// Il2CppName: get_connectedPlayerManager
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager* (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_connectedPlayerManager)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_connectedPlayerManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_maxPlayerCount
-// Il2CppName: get_maxPlayerCount
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_maxPlayerCount)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_maxPlayerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::add_connectedEvent
 // Il2CppName: add_connectedEvent
 template<>
@@ -895,6 +775,135 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "DisconnectedReason")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "remove_disconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_isConnectionOwner
+// Il2CppName: get_isConnectionOwner
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_isConnectionOwner)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_connectionOwner
+// Il2CppName: get_connectionOwner
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_connectionOwner)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_connectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::set_connectionOwner
+// Il2CppName: set_connectionOwner
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSessionManager::*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::MultiplayerSessionManager::set_connectionOwner)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "set_connectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_isSpectating
+// Il2CppName: get_isSpectating
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_isSpectating)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_isSpectating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_isConnectingOrConnected
+// Il2CppName: get_isConnectingOrConnected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_isConnectingOrConnected)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_isConnectingOrConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_isConnected
+// Il2CppName: get_isConnected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_isConnected)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_isConnecting
+// Il2CppName: get_isConnecting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_isConnecting)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_isConnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_isDisconnecting
+// Il2CppName: get_isDisconnecting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_isDisconnecting)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_isDisconnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_connectedPlayers
+// Il2CppName: get_connectedPlayers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_connectedPlayers)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_connectedPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_connectedPlayerCount
+// Il2CppName: get_connectedPlayerCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_connectedPlayerCount)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_connectedPlayerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_syncTime
+// Il2CppName: get_syncTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_syncTime)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_syncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_isSyncTimeInitialized
+// Il2CppName: get_isSyncTimeInitialized
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_isSyncTimeInitialized)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_isSyncTimeInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_syncTimeDelay
+// Il2CppName: get_syncTimeDelay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_syncTimeDelay)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_syncTimeDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_localPlayer
+// Il2CppName: get_localPlayer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_localPlayer)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_localPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_connectedPlayerManager
+// Il2CppName: get_connectedPlayerManager
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager* (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_connectedPlayerManager)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_connectedPlayerManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_maxPlayerCount
+// Il2CppName: get_maxPlayerCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MultiplayerSessionManager::*)()>(&GlobalNamespace::MultiplayerSessionManager::get_maxPlayerCount)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "get_maxPlayerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::RegisterSerializer
@@ -1155,10 +1164,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "GetNextAvailableSortIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::Start
 // Il2CppName: Start
 template<>
@@ -1192,3 +1197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSessionManager*), "OnApplicationPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pauseStatus});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

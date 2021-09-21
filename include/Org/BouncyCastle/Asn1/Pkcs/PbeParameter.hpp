@@ -56,24 +56,24 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::Asn1OctetString*& dyn_salt();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger iterationCount
     Org::BouncyCastle::Asn1::DerInteger*& dyn_iterationCount();
-    // public Org.BouncyCastle.Math.BigInteger get_IterationCount()
-    // Offset: 0x17B81C0
-    Org::BouncyCastle::Math::BigInteger* get_IterationCount();
+    // static public Org.BouncyCastle.Asn1.Pkcs.PbeParameter GetInstance(System.Object obj)
+    // Offset: 0x1970788
+    static Org::BouncyCastle::Asn1::Pkcs::PbeParameter* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x17B80A0
+    // Offset: 0x1970908
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PbeParameter* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::PbeParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PbeParameter*, creationType>(seq)));
     }
-    // static public Org.BouncyCastle.Asn1.Pkcs.PbeParameter GetInstance(System.Object obj)
-    // Offset: 0x17B7F20
-    static Org::BouncyCastle::Asn1::Pkcs::PbeParameter* GetInstance(::Il2CppObject* obj);
     // public System.Byte[] GetSalt()
-    // Offset: 0x17B81A0
+    // Offset: 0x1970A08
     ::Array<uint8_t>* GetSalt();
+    // public Org.BouncyCastle.Math.BigInteger get_IterationCount()
+    // Offset: 0x1970A28
+    Org::BouncyCastle::Math::BigInteger* get_IterationCount();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x17B81DC
+    // Offset: 0x1970A44
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
@@ -84,18 +84,6 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::PbeParameter*, "Org.BouncyCastle.Asn1.Pkcs", "PbeParameter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PbeParameter::get_IterationCount
-// Il2CppName: get_IterationCount
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Asn1::Pkcs::PbeParameter::*)()>(&Org::BouncyCastle::Asn1::Pkcs::PbeParameter::get_IterationCount)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::PbeParameter*), "get_IterationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PbeParameter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PbeParameter::GetInstance
 // Il2CppName: GetInstance
 template<>
@@ -105,12 +93,24 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::PbeParameter*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PbeParameter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PbeParameter::GetSalt
 // Il2CppName: GetSalt
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Asn1::Pkcs::PbeParameter::*)()>(&Org::BouncyCastle::Asn1::Pkcs::PbeParameter::GetSalt)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::PbeParameter*), "GetSalt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PbeParameter::get_IterationCount
+// Il2CppName: get_IterationCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Asn1::Pkcs::PbeParameter::*)()>(&Org::BouncyCastle::Asn1::Pkcs::PbeParameter::get_IterationCount)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::PbeParameter*), "get_IterationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PbeParameter::ToAsn1Object

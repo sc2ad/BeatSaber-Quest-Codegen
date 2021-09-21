@@ -117,7 +117,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE46EC4
+    // [SpaceAttribute] Offset: 0xF0F888
     // private HMUI.TextSegmentedControl _leaderboardTypeSegmentedControl
     // Size: 0x8
     // Offset: 0x90
@@ -160,7 +160,7 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* leaderboardView;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xE46F5C
+    // [InjectAttribute] Offset: 0xF0F920
     // private readonly GameplaySetupViewController _gameplaySetupViewController
     // Size: 0x8
     // Offset: 0xC8
@@ -250,46 +250,66 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameplayModifiers _gameplayModifiers
     GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // private GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x10DEB80
+    // Offset: 0x11965E0
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // private System.Boolean get_hasScoresData()
-    // Offset: 0x10DEB9C
+    // Offset: 0x11965FC
     bool get_hasScoresData();
     // private System.Void HandleDidPressRefreshButton()
-    // Offset: 0x10DFA3C
+    // Offset: 0x119749C
     void HandleDidPressRefreshButton();
     // private System.Void HandleGameplaySetupViewControllerDidChangeGameplayModifiers()
-    // Offset: 0x10DFA48
+    // Offset: 0x11974A8
     void HandleGameplaySetupViewControllerDidChangeGameplayModifiers();
     // private System.Void HandlelatformServicesAvailabilityInfoChanged(OnlineServices.PlatformServicesAvailabilityInfo availabilityInfo)
-    // Offset: 0x10DFA9C
+    // Offset: 0x11974FC
     void HandlelatformServicesAvailabilityInfoChanged(OnlineServices::PlatformServicesAvailabilityInfo* availabilityInfo);
     // private System.Void HanldeLeaderboardTypeSegmentedControlDidSelectCell(HMUI.SegmentedControl control, System.Int32 index)
-    // Offset: 0x10DFAC4
+    // Offset: 0x1197524
     void HanldeLeaderboardTypeSegmentedControlDidSelectCell(HMUI::SegmentedControl* control, int index);
     // private System.Void HandleScopeSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0x10DFB40
+    // Offset: 0x11975A0
     void HandleScopeSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // private System.Void HandleScoreForLeaderboardDidUpload(System.String leaderboardId)
-    // Offset: 0x10DFB4C
+    // Offset: 0x11975AC
     void HandleScoreForLeaderboardDidUpload(::Il2CppString* leaderboardId);
     // private System.Void Refresh(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0x10DECD0
+    // Offset: 0x1196730
     void Refresh(bool showLoadingIndicator, bool clear);
     // private System.Collections.IEnumerator RefreshDelayed(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0x10DFBAC
+    // Offset: 0x119760C
     System::Collections::IEnumerator* RefreshDelayed(bool showLoadingIndicator, bool clear);
     // private System.Void LoadScoresAsync()
-    // Offset: 0x10DFC68
+    // Offset: 0x11976C8
     void LoadScoresAsync();
     // private System.Void ClearContent()
-    // Offset: 0x10DEC60
+    // Offset: 0x11966C0
     void ClearContent();
     // private System.Void <DidActivate>b__26_0()
-    // Offset: 0x10DFD94
+    // Offset: 0x11977F4
     void $DidActivate$b__26_0();
+    // public override System.Void SetData(IDifficultyBeatmap difficultyBeatmap)
+    // Offset: 0x1196658
+    // Implemented from: LeaderboardViewController
+    // Base method: System.Void LeaderboardViewController::SetData(IDifficultyBeatmap difficultyBeatmap)
+    void SetData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x1196950
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Offset: 0x1197064
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
+    // protected override System.Void OnDestroy()
+    // Offset: 0x1197264
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::OnDestroy()
+    void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x10DFD20
+    // Offset: 0x1197780
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()
@@ -303,26 +323,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CentralLeaderboardViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CentralLeaderboardViewController*, creationType>()));
     }
-    // public override System.Void SetData(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x10DEBF8
-    // Implemented from: LeaderboardViewController
-    // Base method: System.Void LeaderboardViewController::SetData(IDifficultyBeatmap difficultyBeatmap)
-    void SetData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x10DEEF0
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x10DF604
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
-    // protected override System.Void OnDestroy()
-    // Offset: 0x10DF804
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::OnDestroy()
-    void OnDestroy();
   }; // CentralLeaderboardViewController
   #pragma pack(pop)
   static check_size<sizeof(CentralLeaderboardViewController), 256 + sizeof(GlobalNamespace::GameplayModifiers*)> __GlobalNamespace_CentralLeaderboardViewControllerSizeCheck;
@@ -444,10 +444,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CentralLeaderboardViewController*), "<DidActivate>b__26_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CentralLeaderboardViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CentralLeaderboardViewController::SetData
 // Il2CppName: SetData
 template<>
@@ -486,3 +482,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CentralLeaderboardViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::CentralLeaderboardViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

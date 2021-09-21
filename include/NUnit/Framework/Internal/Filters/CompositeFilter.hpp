@@ -37,7 +37,8 @@ namespace NUnit::Framework::Internal::Filters {
   // [TokenAttribute] Offset: FFFFFFFF
   class CompositeFilter : public NUnit::Framework::Internal::TestFilter {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xE28EC4
+    // [CompilerGeneratedAttribute] Offset: 0xEEF69C
+    // [DebuggerBrowsableAttribute] Offset: 0xEEF69C
     // private System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITestFilter> <Filters>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -52,17 +53,8 @@ namespace NUnit::Framework::Internal::Filters {
     }
     // Get instance field reference: private System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITestFilter> <Filters>k__BackingField
     System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>*& dyn_$Filters$k__BackingField();
-    // public System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITestFilter> get_Filters()
-    // Offset: 0x1781F5C
-    System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>* get_Filters();
-    // private System.Void set_Filters(System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITestFilter> value)
-    // Offset: 0x1781F64
-    void set_Filters(System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>* value);
-    // protected System.String get_ElementName()
-    // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_ElementName();
     // public System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
-    // Offset: 0x1781140
+    // Offset: 0x194018C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompositeFilter* New_ctor(::Array<NUnit::Framework::Interfaces::ITestFilter*>* filters) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Filters::CompositeFilter::.ctor");
@@ -78,8 +70,17 @@ namespace NUnit::Framework::Internal::Filters {
     static CompositeFilter* New_ctor(TParams&&... filters) {
       return New_ctor<creationType>({filters...});
     }
+    // public System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITestFilter> get_Filters()
+    // Offset: 0x1940FA8
+    System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>* get_Filters();
+    // private System.Void set_Filters(System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITestFilter> value)
+    // Offset: 0x1940FB0
+    void set_Filters(System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>* value);
+    // protected System.String get_ElementName()
+    // Offset: 0xFFFFFFFF
+    ::Il2CppString* get_ElementName();
     // public System.Void .ctor()
-    // Offset: 0x17810A8
+    // Offset: 0x19400F4
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Void TestFilter::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -104,7 +105,7 @@ namespace NUnit::Framework::Internal::Filters {
     // Base method: System.Boolean TestFilter::IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
     bool IsExplicitMatch(NUnit::Framework::Interfaces::ITest* test);
     // public override NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x1781F6C
+    // Offset: 0x1940FB8
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: NUnit.Framework.Interfaces.TNode TestFilter::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
@@ -115,6 +116,10 @@ namespace NUnit::Framework::Internal::Filters {
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Filters::CompositeFilter*, "NUnit.Framework.Internal.Filters", "CompositeFilter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CompositeFilter::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CompositeFilter::get_Filters
 // Il2CppName: get_Filters
 template<>
@@ -140,10 +145,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::CompositeFilter*), "get_ElementName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CompositeFilter::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CompositeFilter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

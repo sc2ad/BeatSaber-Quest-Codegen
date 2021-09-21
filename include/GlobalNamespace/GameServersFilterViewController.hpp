@@ -45,7 +45,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameServersFilterViewController : public HMUI::ViewController {
     public:
-    // [HeaderAttribute] Offset: 0xE4872C
+    // [HeaderAttribute] Offset: 0xF11140
     // private UnityEngine.UI.Toggle _filterByDifficultyToggle
     // Size: 0x8
     // Offset: 0x70
@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapDifficultyDropdown* beatmapDifficultyDropdown;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficultyDropdown*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE48798
+    // [HeaderAttribute] Offset: 0xF111AC
     // private UnityEngine.UI.Toggle _filterByModifiersToggle
     // Size: 0x8
     // Offset: 0x88
@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiersDropdown* gameplayModifiersDropdown;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersDropdown*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE48804
+    // [HeaderAttribute] Offset: 0xF11218
     // private UnityEngine.UI.Toggle _filterBySongsToggle
     // Size: 0x8
     // Offset: 0xA0
@@ -102,7 +102,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SongPacksDropdown* songPacksDropdown;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPacksDropdown*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE48870
+    // [HeaderAttribute] Offset: 0xF11284
     // private UnityEngine.UI.Toggle _showFullToggle
     // Size: 0x8
     // Offset: 0xB8
@@ -156,25 +156,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _showInternetGames
     bool& dyn__showInternetGames();
     // public GameServersFilter get_gameServersFilter()
-    // Offset: 0x10FD09C
+    // Offset: 0x11E191C
     GlobalNamespace::GameServersFilter* get_gameServersFilter();
     // public System.Void SetupGameServersFilter(GameServersFilter gameServersFilter)
-    // Offset: 0x10FD290
+    // Offset: 0x11E1B10
     void SetupGameServersFilter(GlobalNamespace::GameServersFilter* gameServersFilter);
     // private System.Void Refresh(GameServersFilter currentFilter)
-    // Offset: 0x10FD294
+    // Offset: 0x11E1B14
     void Refresh(GlobalNamespace::GameServersFilter* currentFilter);
     // private System.Void <DidActivate>b__16_0(System.Boolean isOn)
-    // Offset: 0x10FD5BC
+    // Offset: 0x11E1E3C
     void $DidActivate$b__16_0(bool isOn);
     // private System.Void <DidActivate>b__16_1(System.Boolean isOn)
-    // Offset: 0x10FD5DC
+    // Offset: 0x11E1E5C
     void $DidActivate$b__16_1(bool isOn);
     // private System.Void <DidActivate>b__16_2(System.Boolean isOn)
-    // Offset: 0x10FD5FC
+    // Offset: 0x11E1E7C
     void $DidActivate$b__16_2(bool isOn);
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x11E1C1C
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+    // protected override System.Void OnDestroy()
+    // Offset: 0x11E1D64
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::OnDestroy()
+    void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x10FD554
+    // Offset: 0x11E1DD4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -187,16 +197,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameServersFilterViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServersFilterViewController*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x10FD39C
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-    // protected override System.Void OnDestroy()
-    // Offset: 0x10FD4E4
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::OnDestroy()
-    void OnDestroy();
   }; // GameServersFilterViewController
   #pragma pack(pop)
   static check_size<sizeof(GameServersFilterViewController), 208 + sizeof(bool)> __GlobalNamespace_GameServersFilterViewControllerSizeCheck;
@@ -257,10 +257,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServersFilterViewController*), "<DidActivate>b__16_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isOn});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameServersFilterViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameServersFilterViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -280,3 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServersFilterViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::GameServersFilterViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

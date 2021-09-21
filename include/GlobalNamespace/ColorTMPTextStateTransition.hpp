@@ -43,7 +43,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorTMPTextStateTransition : public GlobalNamespace::BaseStateTransition_1<TMPro::TMP_Text*> {
     public:
-    // [SpaceAttribute] Offset: 0xE44910
+    // [SpaceAttribute] Offset: 0xF0D2D4
     // private ColorTransitionSO _transition
     // Size: 0x8
     // Offset: 0x28
@@ -63,21 +63,81 @@ namespace GlobalNamespace {
     // Get instance field reference: private Tweening.ColorTween _colorTween
     Tweening::ColorTween*& dyn__colorTween();
     // private System.Void StartTween(UnityEngine.Color endColor)
-    // Offset: 0x10E468C
+    // Offset: 0x119C0D8
     void StartTween(UnityEngine::Color endColor);
     // private System.Void <StartTween>b__16_0(UnityEngine.Color color)
-    // Offset: 0x10E4BC4
+    // Offset: 0x119C610
     void $StartTween$b__16_0(UnityEngine::Color color);
     // private System.Void <StartTween>b__16_1()
-    // Offset: 0x10E4BE8
+    // Offset: 0x119C634
     void $StartTween$b__16_1();
     // protected override BaseTransitionSO get_transition()
-    // Offset: 0x10E464C
+    // Offset: 0x119C098
     // Implemented from: BaseStateTransition
     // Base method: BaseTransitionSO BaseStateTransition::get_transition()
     GlobalNamespace::BaseTransitionSO* get_transition();
+    // protected override System.Void TransitionToNormalState()
+    // Offset: 0x119C0A0
+    // Implemented from: BaseStateTransition
+    // Base method: System.Void BaseStateTransition::TransitionToNormalState()
+    void TransitionToNormalState();
+    // protected override System.Void TransitionToHighlightedState()
+    // Offset: 0x119C2F8
+    // Implemented from: BaseStateTransition
+    // Base method: System.Void BaseStateTransition::TransitionToHighlightedState()
+    void TransitionToHighlightedState();
+    // protected override System.Void TransitionToPressedState()
+    // Offset: 0x119C330
+    // Implemented from: BaseStateTransition
+    // Base method: System.Void BaseStateTransition::TransitionToPressedState()
+    void TransitionToPressedState();
+    // protected override System.Void TransitionToDisabledState()
+    // Offset: 0x119C368
+    // Implemented from: BaseStateTransition
+    // Base method: System.Void BaseStateTransition::TransitionToDisabledState()
+    void TransitionToDisabledState();
+    // protected override System.Void TransitionToSelectedState()
+    // Offset: 0x119C3A0
+    // Implemented from: BaseStateTransition
+    // Base method: System.Void BaseStateTransition::TransitionToSelectedState()
+    void TransitionToSelectedState();
+    // protected override System.Void TransitionToSelectedAndHighlightedState()
+    // Offset: 0x119C3D8
+    // Implemented from: BaseStateTransition
+    // Base method: System.Void BaseStateTransition::TransitionToSelectedAndHighlightedState()
+    void TransitionToSelectedAndHighlightedState();
+    // protected override System.Void SetNormalState()
+    // Offset: 0x119C410
+    // Implemented from: BaseStateTransition
+    // Base method: System.Void BaseStateTransition::SetNormalState()
+    void SetNormalState();
+    // protected override System.Void SetHighlightedState()
+    // Offset: 0x119C458
+    // Implemented from: BaseStateTransition
+    // Base method: System.Void BaseStateTransition::SetHighlightedState()
+    void SetHighlightedState();
+    // protected override System.Void SetPressedState()
+    // Offset: 0x119C4A0
+    // Implemented from: BaseStateTransition
+    // Base method: System.Void BaseStateTransition::SetPressedState()
+    void SetPressedState();
+    // protected override System.Void SetDisabledState()
+    // Offset: 0x119C4E8
+    // Implemented from: BaseStateTransition
+    // Base method: System.Void BaseStateTransition::SetDisabledState()
+    void SetDisabledState();
+    // protected override System.Void SetSelectedState()
+    // Offset: 0x119C530
+    // Implemented from: BaseStateTransition
+    // Base method: System.Void BaseStateTransition::SetSelectedState()
+    void SetSelectedState();
+    // protected override System.Void SetSelectedAndHighlightedState()
+    // Offset: 0x119C578
+    // Implemented from: BaseStateTransition
+    // Base method: System.Void BaseStateTransition::SetSelectedAndHighlightedState()
+    void SetSelectedAndHighlightedState();
     // public System.Void .ctor()
-    // Offset: 0x10E4B74
+    // Offset: 0x119C5C0
     // Implemented from: BaseStateTransition`1
     // Base method: System.Void BaseStateTransition_1::.ctor()
     // Base method: System.Void BaseStateTransition::.ctor()
@@ -91,66 +151,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorTMPTextStateTransition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorTMPTextStateTransition*, creationType>()));
     }
-    // protected override System.Void TransitionToNormalState()
-    // Offset: 0x10E4654
-    // Implemented from: BaseStateTransition
-    // Base method: System.Void BaseStateTransition::TransitionToNormalState()
-    void TransitionToNormalState();
-    // protected override System.Void TransitionToHighlightedState()
-    // Offset: 0x10E48AC
-    // Implemented from: BaseStateTransition
-    // Base method: System.Void BaseStateTransition::TransitionToHighlightedState()
-    void TransitionToHighlightedState();
-    // protected override System.Void TransitionToPressedState()
-    // Offset: 0x10E48E4
-    // Implemented from: BaseStateTransition
-    // Base method: System.Void BaseStateTransition::TransitionToPressedState()
-    void TransitionToPressedState();
-    // protected override System.Void TransitionToDisabledState()
-    // Offset: 0x10E491C
-    // Implemented from: BaseStateTransition
-    // Base method: System.Void BaseStateTransition::TransitionToDisabledState()
-    void TransitionToDisabledState();
-    // protected override System.Void TransitionToSelectedState()
-    // Offset: 0x10E4954
-    // Implemented from: BaseStateTransition
-    // Base method: System.Void BaseStateTransition::TransitionToSelectedState()
-    void TransitionToSelectedState();
-    // protected override System.Void TransitionToSelectedAndHighlightedState()
-    // Offset: 0x10E498C
-    // Implemented from: BaseStateTransition
-    // Base method: System.Void BaseStateTransition::TransitionToSelectedAndHighlightedState()
-    void TransitionToSelectedAndHighlightedState();
-    // protected override System.Void SetNormalState()
-    // Offset: 0x10E49C4
-    // Implemented from: BaseStateTransition
-    // Base method: System.Void BaseStateTransition::SetNormalState()
-    void SetNormalState();
-    // protected override System.Void SetHighlightedState()
-    // Offset: 0x10E4A0C
-    // Implemented from: BaseStateTransition
-    // Base method: System.Void BaseStateTransition::SetHighlightedState()
-    void SetHighlightedState();
-    // protected override System.Void SetPressedState()
-    // Offset: 0x10E4A54
-    // Implemented from: BaseStateTransition
-    // Base method: System.Void BaseStateTransition::SetPressedState()
-    void SetPressedState();
-    // protected override System.Void SetDisabledState()
-    // Offset: 0x10E4A9C
-    // Implemented from: BaseStateTransition
-    // Base method: System.Void BaseStateTransition::SetDisabledState()
-    void SetDisabledState();
-    // protected override System.Void SetSelectedState()
-    // Offset: 0x10E4AE4
-    // Implemented from: BaseStateTransition
-    // Base method: System.Void BaseStateTransition::SetSelectedState()
-    void SetSelectedState();
-    // protected override System.Void SetSelectedAndHighlightedState()
-    // Offset: 0x10E4B2C
-    // Implemented from: BaseStateTransition
-    // Base method: System.Void BaseStateTransition::SetSelectedAndHighlightedState()
-    void SetSelectedAndHighlightedState();
   }; // ColorTMPTextStateTransition
   // WARNING Not writing size check since size may be invalid!
 }
@@ -190,10 +190,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorTMPTextStateTransition*), "get_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ColorTMPTextStateTransition::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ColorTMPTextStateTransition::TransitionToNormalState
 // Il2CppName: TransitionToNormalState
 template<>
@@ -290,3 +286,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorTMPTextStateTransition*), "SetSelectedAndHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ColorTMPTextStateTransition::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

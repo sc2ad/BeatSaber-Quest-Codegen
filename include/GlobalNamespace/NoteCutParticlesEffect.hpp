@@ -7,13 +7,13 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: UnityEngine.ParticleSystem/UnityEngine.EmitParams
+// Including type: UnityEngine.ParticleSystem/EmitParams
 #include "UnityEngine/ParticleSystem_EmitParams.hpp"
-// Including type: UnityEngine.ParticleSystem/UnityEngine.MainModule
+// Including type: UnityEngine.ParticleSystem/MainModule
 #include "UnityEngine/ParticleSystem_MainModule.hpp"
-// Including type: UnityEngine.ParticleSystem/UnityEngine.ShapeModule
+// Including type: UnityEngine.ParticleSystem/ShapeModule
 #include "UnityEngine/ParticleSystem_ShapeModule.hpp"
-// Including type: UnityEngine.ParticleSystem/UnityEngine.MinMaxCurve
+// Including type: UnityEngine.ParticleSystem/MinMaxCurve
 #include "UnityEngine/ParticleSystem_MinMaxCurve.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     UnityEngine::ParticleSystem* explosionPrePassBloomPS;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem*) == 0x8);
-    // private UnityEngine.ParticleSystem/UnityEngine.EmitParams _sparklesPSEmitParams
+    // private UnityEngine.ParticleSystem/EmitParams _sparklesPSEmitParams
     // Size: 0x8F
     // Offset: 0x38
     UnityEngine::ParticleSystem::EmitParams sparklesPSEmitParams;
@@ -69,25 +69,25 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::ParticleSystem::EmitParams) == 0x8F);
     // Padding between fields: sparklesPSEmitParams and: sparklesPSMainModule
     char __padding4[0x1] = {};
-    // private UnityEngine.ParticleSystem/UnityEngine.MainModule _sparklesPSMainModule
+    // private UnityEngine.ParticleSystem/MainModule _sparklesPSMainModule
     // Size: 0x8
     // Offset: 0xC8
     UnityEngine::ParticleSystem::MainModule sparklesPSMainModule;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::MainModule) == 0x8);
-    // private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _sparklesPSShapeModule
+    // private UnityEngine.ParticleSystem/ShapeModule _sparklesPSShapeModule
     // Size: 0x8
     // Offset: 0xD0
     UnityEngine::ParticleSystem::ShapeModule sparklesPSShapeModule;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::ShapeModule) == 0x8);
-    // private UnityEngine.ParticleSystem/UnityEngine.MinMaxCurve _sparklesLifetimeMinMaxCurve
+    // private UnityEngine.ParticleSystem/MinMaxCurve _sparklesLifetimeMinMaxCurve
     // Size: 0x20
     // Offset: 0xD8
     UnityEngine::ParticleSystem::MinMaxCurve sparklesLifetimeMinMaxCurve;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::MinMaxCurve) == 0x20);
-    // private UnityEngine.ParticleSystem/UnityEngine.EmitParams _explosionPSEmitParams
+    // private UnityEngine.ParticleSystem/EmitParams _explosionPSEmitParams
     // Size: 0x8F
     // Offset: 0xF8
     UnityEngine::ParticleSystem::EmitParams explosionPSEmitParams;
@@ -95,7 +95,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::ParticleSystem::EmitParams) == 0x8F);
     // Padding between fields: explosionPSEmitParams and: explosionCorePSEmitParams
     char __padding8[0x1] = {};
-    // private UnityEngine.ParticleSystem/UnityEngine.EmitParams _explosionCorePSEmitParams
+    // private UnityEngine.ParticleSystem/EmitParams _explosionCorePSEmitParams
     // Size: 0x8F
     // Offset: 0x188
     UnityEngine::ParticleSystem::EmitParams explosionCorePSEmitParams;
@@ -103,19 +103,19 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::ParticleSystem::EmitParams) == 0x8F);
     // Padding between fields: explosionCorePSEmitParams and: explosionCorePSMainModule
     char __padding9[0x1] = {};
-    // private UnityEngine.ParticleSystem/UnityEngine.MainModule _explosionCorePSMainModule
+    // private UnityEngine.ParticleSystem/MainModule _explosionCorePSMainModule
     // Size: 0x8
     // Offset: 0x218
     UnityEngine::ParticleSystem::MainModule explosionCorePSMainModule;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::MainModule) == 0x8);
-    // private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _explosionCorePSShapeModule
+    // private UnityEngine.ParticleSystem/ShapeModule _explosionCorePSShapeModule
     // Size: 0x8
     // Offset: 0x220
     UnityEngine::ParticleSystem::ShapeModule explosionCorePSShapeModule;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::ShapeModule) == 0x8);
-    // private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _explosionPrePassBloomPSShapeModule
+    // private UnityEngine.ParticleSystem/ShapeModule _explosionPrePassBloomPSShapeModule
     // Size: 0x8
     // Offset: 0x228
     UnityEngine::ParticleSystem::ShapeModule explosionPrePassBloomPSShapeModule;
@@ -133,32 +133,32 @@ namespace GlobalNamespace {
     UnityEngine::ParticleSystem*& dyn__explosionCorePS();
     // Get instance field reference: private UnityEngine.ParticleSystem _explosionPrePassBloomPS
     UnityEngine::ParticleSystem*& dyn__explosionPrePassBloomPS();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _sparklesPSEmitParams
+    // Get instance field reference: private UnityEngine.ParticleSystem/EmitParams _sparklesPSEmitParams
     UnityEngine::ParticleSystem::EmitParams& dyn__sparklesPSEmitParams();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.MainModule _sparklesPSMainModule
+    // Get instance field reference: private UnityEngine.ParticleSystem/MainModule _sparklesPSMainModule
     UnityEngine::ParticleSystem::MainModule& dyn__sparklesPSMainModule();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _sparklesPSShapeModule
+    // Get instance field reference: private UnityEngine.ParticleSystem/ShapeModule _sparklesPSShapeModule
     UnityEngine::ParticleSystem::ShapeModule& dyn__sparklesPSShapeModule();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.MinMaxCurve _sparklesLifetimeMinMaxCurve
+    // Get instance field reference: private UnityEngine.ParticleSystem/MinMaxCurve _sparklesLifetimeMinMaxCurve
     UnityEngine::ParticleSystem::MinMaxCurve& dyn__sparklesLifetimeMinMaxCurve();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _explosionPSEmitParams
+    // Get instance field reference: private UnityEngine.ParticleSystem/EmitParams _explosionPSEmitParams
     UnityEngine::ParticleSystem::EmitParams& dyn__explosionPSEmitParams();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _explosionCorePSEmitParams
+    // Get instance field reference: private UnityEngine.ParticleSystem/EmitParams _explosionCorePSEmitParams
     UnityEngine::ParticleSystem::EmitParams& dyn__explosionCorePSEmitParams();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.MainModule _explosionCorePSMainModule
+    // Get instance field reference: private UnityEngine.ParticleSystem/MainModule _explosionCorePSMainModule
     UnityEngine::ParticleSystem::MainModule& dyn__explosionCorePSMainModule();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _explosionCorePSShapeModule
+    // Get instance field reference: private UnityEngine.ParticleSystem/ShapeModule _explosionCorePSShapeModule
     UnityEngine::ParticleSystem::ShapeModule& dyn__explosionCorePSShapeModule();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _explosionPrePassBloomPSShapeModule
+    // Get instance field reference: private UnityEngine.ParticleSystem/ShapeModule _explosionPrePassBloomPSShapeModule
     UnityEngine::ParticleSystem::ShapeModule& dyn__explosionPrePassBloomPSShapeModule();
     // protected System.Void Awake()
-    // Offset: 0x104F860
+    // Offset: 0x1351D20
     void Awake();
     // public System.Void SpawnParticles(UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, UnityEngine.Vector3 saberDir, System.Single saberSpeed, UnityEngine.Vector3 noteMovementVec, UnityEngine.Color32 color, System.Int32 sparkleParticlesCount, System.Int32 explosionParticlesCount, System.Single lifetimeMultiplier)
-    // Offset: 0x104F368
+    // Offset: 0x1351E74
     void SpawnParticles(UnityEngine::Vector3 cutPoint, UnityEngine::Vector3 cutNormal, UnityEngine::Vector3 saberDir, float saberSpeed, UnityEngine::Vector3 noteMovementVec, UnityEngine::Color32 color, int sparkleParticlesCount, int explosionParticlesCount, float lifetimeMultiplier);
     // public System.Void .ctor()
-    // Offset: 0x104F9B4
+    // Offset: 0x1352350
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

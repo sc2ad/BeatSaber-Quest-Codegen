@@ -103,13 +103,28 @@ namespace MasterServer {
     // Get instance field reference: public readonly ByteArrayNetSerializable publicKey
     GlobalNamespace::ByteArrayNetSerializable*& dyn_publicKey();
     // static public PacketPool`1<MasterServer.DedicatedServerPrepareForConnectionRequest> get_pool()
-    // Offset: 0x121C758
+    // Offset: 0x12DBAF8
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerPrepareForConnectionRequest*>* get_pool();
     // public MasterServer.DedicatedServerPrepareForConnectionRequest Init(System.String id, System.String userId, System.String userName, System.Net.IPEndPoint remoteEndPoint, System.Byte[] random, System.Byte[] publicKey)
-    // Offset: 0x121C7A0
+    // Offset: 0x12DBB40
     MasterServer::DedicatedServerPrepareForConnectionRequest* Init(::Il2CppString* id, ::Il2CppString* userId, ::Il2CppString* userName, System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>* random, ::Array<uint8_t>* publicKey);
+    // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x12DBB98
+    // Implemented from: BaseMasterServerReliableRequest
+    // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
+    // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x12DBC60
+    // Implemented from: BaseMasterServerReliableRequest
+    // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
+    // public override System.Void Release()
+    // Offset: 0x12DBCF8
+    // Implemented from: BaseMasterServerReliableRequest
+    // Base method: System.Void BaseMasterServerReliableRequest::Release()
+    void Release();
     // public System.Void .ctor()
-    // Offset: 0x121C9D4
+    // Offset: 0x12DBD74
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -118,21 +133,6 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::DedicatedServerPrepareForConnectionRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DedicatedServerPrepareForConnectionRequest*, creationType>()));
     }
-    // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x121C7F8
-    // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
-    // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x121C8C0
-    // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
-    // public override System.Void Release()
-    // Offset: 0x121C958
-    // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Release()
-    void Release();
   }; // MasterServer.DedicatedServerPrepareForConnectionRequest
   #pragma pack(pop)
   static check_size<sizeof(DedicatedServerPrepareForConnectionRequest), 64 + sizeof(GlobalNamespace::ByteArrayNetSerializable*)> __MasterServer_DedicatedServerPrepareForConnectionRequestSizeCheck;
@@ -162,10 +162,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
     return ::il2cpp_utils::FindMethod(classof(MasterServer::DedicatedServerPrepareForConnectionRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id, userId, userName, remoteEndPoint, random, publicKey});
   }
 };
-// Writing MetadataGetter for method: MasterServer::DedicatedServerPrepareForConnectionRequest::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: MasterServer::DedicatedServerPrepareForConnectionRequest::Serialize
 // Il2CppName: Serialize
 template<>
@@ -192,3 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
     return ::il2cpp_utils::FindMethod(classof(MasterServer::DedicatedServerPrepareForConnectionRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: MasterServer::DedicatedServerPrepareForConnectionRequest::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -92,28 +92,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _minNumberOfNotOwnedPacks
     int& dyn__minNumberOfNotOwnedPacks();
     // public System.Int32 get_cutOffTest1()
-    // Offset: 0x10EFF70
+    // Offset: 0x11A89FC
     int get_cutOffTest1();
     // public System.Int32 get_cutOffTest2()
-    // Offset: 0x10EFF78
+    // Offset: 0x11A8A04
     int get_cutOffTest2();
     // public System.Int32 get_minNumberOfNotOwnedPacks()
-    // Offset: 0x10EFF80
+    // Offset: 0x11A8A0C
     int get_minNumberOfNotOwnedPacks();
     // public DlcPromoExperimentDataSO/MusicPackPromoInfo[] get_musicPackPromoInfos()
-    // Offset: 0x10EFF88
+    // Offset: 0x11A8A14
     ::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* get_musicPackPromoInfos();
     // public DlcPromoExperimentDataSO/MusicPackPromoInfo get_defaultMusicPackPromo()
-    // Offset: 0x10EFF90
+    // Offset: 0x11A8A1C
     GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo* get_defaultMusicPackPromo();
     // public AbTestExperimentDefinitionSO get_newDlcControlAbTestExperimentDefinition()
-    // Offset: 0x10EFFD0
+    // Offset: 0x11A8A5C
     GlobalNamespace::AbTestExperimentDefinitionSO* get_newDlcControlAbTestExperimentDefinition();
     // public AbTestExperimentDefinitionSO get_newDlcPromoAbTestExperimentDefinition()
-    // Offset: 0x10EFFD8
+    // Offset: 0x11A8A64
     GlobalNamespace::AbTestExperimentDefinitionSO* get_newDlcPromoAbTestExperimentDefinition();
     // public System.Void .ctor()
-    // Offset: 0x10EFFE0
+    // Offset: 0x11A8A6C
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

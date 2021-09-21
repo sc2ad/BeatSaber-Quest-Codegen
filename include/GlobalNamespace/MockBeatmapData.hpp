@@ -27,36 +27,42 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockBeatmapData : public ::Il2CppObject {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xEE6CAC
     // private System.Int32 <numberOfLines>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     int numberOfLines;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    // [CompilerGeneratedAttribute] Offset: 0xEE6CBC
     // private System.Single <songEndTime>k__BackingField
     // Size: 0x4
     // Offset: 0x14
     float songEndTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    // [CompilerGeneratedAttribute] Offset: 0xEE6CCC
     // private MockNoteData[] <leftNotes>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Array<GlobalNamespace::MockNoteData*>* leftNotes;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::MockNoteData*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xEE6CDC
     // private MockNoteData[] <rightNotes>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     ::Array<GlobalNamespace::MockNoteData*>* rightNotes;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::MockNoteData*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xEE6CEC
     // private MockNoteData[] <bombNotes>k__BackingField
     // Size: 0x8
     // Offset: 0x28
     ::Array<GlobalNamespace::MockNoteData*>* bombNotes;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::MockNoteData*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xEE6CFC
     // private MockObstacleData[] <obstacles>k__BackingField
     // Size: 0x8
     // Offset: 0x30
@@ -78,43 +84,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private MockObstacleData[] <obstacles>k__BackingField
     ::Array<GlobalNamespace::MockObstacleData*>*& dyn_$obstacles$k__BackingField();
     // public System.Int32 get_numberOfLines()
-    // Offset: 0x23DC4DC
+    // Offset: 0x25E1CB8
     int get_numberOfLines();
     // public System.Void set_numberOfLines(System.Int32 value)
-    // Offset: 0x23DC4E4
+    // Offset: 0x25E1CC0
     void set_numberOfLines(int value);
     // public System.Single get_songEndTime()
-    // Offset: 0x23DC4EC
+    // Offset: 0x25E1CC8
     float get_songEndTime();
     // public System.Void set_songEndTime(System.Single value)
-    // Offset: 0x23DC4F4
+    // Offset: 0x25E1CD0
     void set_songEndTime(float value);
     // public MockNoteData[] get_leftNotes()
-    // Offset: 0x23DC4FC
+    // Offset: 0x25E1CD8
     ::Array<GlobalNamespace::MockNoteData*>* get_leftNotes();
     // public System.Void set_leftNotes(MockNoteData[] value)
-    // Offset: 0x23DC504
+    // Offset: 0x25E1CE0
     void set_leftNotes(::Array<GlobalNamespace::MockNoteData*>* value);
     // public MockNoteData[] get_rightNotes()
-    // Offset: 0x23DC50C
+    // Offset: 0x25E1CE8
     ::Array<GlobalNamespace::MockNoteData*>* get_rightNotes();
     // public System.Void set_rightNotes(MockNoteData[] value)
-    // Offset: 0x23DC514
+    // Offset: 0x25E1CF0
     void set_rightNotes(::Array<GlobalNamespace::MockNoteData*>* value);
     // public MockNoteData[] get_bombNotes()
-    // Offset: 0x23DC51C
+    // Offset: 0x25E1CF8
     ::Array<GlobalNamespace::MockNoteData*>* get_bombNotes();
     // public System.Void set_bombNotes(MockNoteData[] value)
-    // Offset: 0x23DC524
+    // Offset: 0x25E1D00
     void set_bombNotes(::Array<GlobalNamespace::MockNoteData*>* value);
     // public MockObstacleData[] get_obstacles()
-    // Offset: 0x23DC52C
+    // Offset: 0x25E1D08
     ::Array<GlobalNamespace::MockObstacleData*>* get_obstacles();
     // public System.Void set_obstacles(MockObstacleData[] value)
-    // Offset: 0x23DC534
+    // Offset: 0x25E1D10
     void set_obstacles(::Array<GlobalNamespace::MockObstacleData*>* value);
     // public System.Void .ctor()
-    // Offset: 0x23DC53C
+    // Offset: 0x25E1D18
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

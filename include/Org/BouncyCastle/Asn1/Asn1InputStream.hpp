@@ -59,58 +59,58 @@ namespace Org::BouncyCastle::Asn1 {
     int& dyn_limit();
     // Get instance field reference: private readonly System.Byte[][] tmpBuffers
     ::Array<::Array<uint8_t>*>*& dyn_tmpBuffers();
-    // System.Int32 get_Limit()
-    // Offset: 0x172FAE0
-    int get_Limit();
+    // static System.Int32 FindLimit(System.IO.Stream input)
+    // Offset: 0x18DEC64
+    static int FindLimit(System::IO::Stream* input);
     // public System.Void .ctor(System.IO.Stream inputStream, System.Int32 limit)
-    // Offset: 0x172D5E0
+    // Offset: 0x18DEDB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1InputStream* New_ctor(System::IO::Stream* inputStream, int limit) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1InputStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1InputStream*, creationType>(inputStream, limit)));
     }
     // public System.Void .ctor(System.Byte[] input)
-    // Offset: 0x172D65C
+    // Offset: 0x18DEE34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1InputStream* New_ctor(::Array<uint8_t>* input) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1InputStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1InputStream*, creationType>(input)));
     }
-    // static System.Int32 FindLimit(System.IO.Stream input)
-    // Offset: 0x172D48C
-    static int FindLimit(System::IO::Stream* input);
     // private Org.BouncyCastle.Asn1.Asn1Object BuildObject(System.Int32 tag, System.Int32 tagNo, System.Int32 length)
-    // Offset: 0x172D6E0
+    // Offset: 0x18DEEB8
     Org::BouncyCastle::Asn1::Asn1Object* BuildObject(int tag, int tagNo, int length);
     // Org.BouncyCastle.Asn1.Asn1EncodableVector ReadVector(Org.BouncyCastle.Asn1.DefiniteLengthInputStream dIn)
-    // Offset: 0x172E99C
+    // Offset: 0x18E0174
     Org::BouncyCastle::Asn1::Asn1EncodableVector* ReadVector(Org::BouncyCastle::Asn1::DefiniteLengthInputStream* dIn);
     // Org.BouncyCastle.Asn1.DerSequence CreateDerSequence(Org.BouncyCastle.Asn1.DefiniteLengthInputStream dIn)
-    // Offset: 0x172EE80
+    // Offset: 0x18E0658
     Org::BouncyCastle::Asn1::DerSequence* CreateDerSequence(Org::BouncyCastle::Asn1::DefiniteLengthInputStream* dIn);
     // Org.BouncyCastle.Asn1.DerSet CreateDerSet(Org.BouncyCastle.Asn1.DefiniteLengthInputStream dIn)
-    // Offset: 0x172EFA8
+    // Offset: 0x18E0780
     Org::BouncyCastle::Asn1::DerSet* CreateDerSet(Org::BouncyCastle::Asn1::DefiniteLengthInputStream* dIn);
     // public Org.BouncyCastle.Asn1.Asn1Object ReadObject()
-    // Offset: 0x172EA8C
+    // Offset: 0x18E0264
     Org::BouncyCastle::Asn1::Asn1Object* ReadObject();
+    // System.Int32 get_Limit()
+    // Offset: 0x18E12B8
+    int get_Limit();
     // static System.Int32 ReadTagNumber(System.IO.Stream s, System.Int32 tag)
-    // Offset: 0x172F0EC
+    // Offset: 0x18E08C4
     static int ReadTagNumber(System::IO::Stream* s, int tag);
     // static System.Int32 ReadLength(System.IO.Stream s, System.Int32 limit, System.Boolean isParsing)
-    // Offset: 0x172F204
+    // Offset: 0x18E09DC
     static int ReadLength(System::IO::Stream* s, int limit, bool isParsing);
     // static private System.Byte[] GetBuffer(Org.BouncyCastle.Asn1.DefiniteLengthInputStream defIn, System.Byte[][] tmpBuffers)
-    // Offset: 0x172FAE8
+    // Offset: 0x18E12C0
     static ::Array<uint8_t>* GetBuffer(Org::BouncyCastle::Asn1::DefiniteLengthInputStream* defIn, ::Array<::Array<uint8_t>*>* tmpBuffers);
     // static private System.Char[] GetBmpCharBuffer(Org.BouncyCastle.Asn1.DefiniteLengthInputStream defIn)
-    // Offset: 0x172FF58
+    // Offset: 0x18E1730
     static ::Array<::Il2CppChar>* GetBmpCharBuffer(Org::BouncyCastle::Asn1::DefiniteLengthInputStream* defIn);
     // static Org.BouncyCastle.Asn1.Asn1Object CreatePrimitiveDerObject(System.Int32 tagNo, Org.BouncyCastle.Asn1.DefiniteLengthInputStream defIn, System.Byte[][] tmpBuffers)
-    // Offset: 0x172E4F0
+    // Offset: 0x18DFCC8
     static Org::BouncyCastle::Asn1::Asn1Object* CreatePrimitiveDerObject(int tagNo, Org::BouncyCastle::Asn1::DefiniteLengthInputStream* defIn, ::Array<::Array<uint8_t>*>* tmpBuffers);
     // public System.Void .ctor(System.IO.Stream inputStream)
-    // Offset: 0x172D5AC
+    // Offset: 0x18DED84
     // Implemented from: Org.BouncyCastle.Utilities.IO.FilterStream
     // Base method: System.Void FilterStream::.ctor(System.IO.Stream inputStream)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -125,22 +125,6 @@ namespace Org::BouncyCastle::Asn1 {
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1InputStream*, "Org.BouncyCastle.Asn1", "Asn1InputStream");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::get_Limit
-// Il2CppName: get_Limit
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Asn1::Asn1InputStream::*)()>(&Org::BouncyCastle::Asn1::Asn1InputStream::get_Limit)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "get_Limit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::FindLimit
 // Il2CppName: FindLimit
 template<>
@@ -150,6 +134,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "FindLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::BuildObject
 // Il2CppName: BuildObject
 template<>
@@ -194,6 +186,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Org::BouncyCastle::Asn1::Asn1InputStream::*)()>(&Org::BouncyCastle::Asn1::Asn1InputStream::ReadObject)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "ReadObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::get_Limit
+// Il2CppName: get_Limit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Asn1::Asn1InputStream::*)()>(&Org::BouncyCastle::Asn1::Asn1InputStream::get_Limit)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "get_Limit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::ReadTagNumber

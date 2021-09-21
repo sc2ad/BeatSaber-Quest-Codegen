@@ -56,13 +56,28 @@ namespace MasterServer {
     // Get instance field reference: public readonly System.Byte[] random
     ::Array<uint8_t>*& dyn_random();
     // static public PacketPool`1<MasterServer.ClientHelloRequest> get_pool()
-    // Offset: 0x1218CC0
+    // Offset: 0x12D8060
     static GlobalNamespace::PacketPool_1<MasterServer::ClientHelloRequest*>* get_pool();
     // public MasterServer.ClientHelloRequest Init(System.Byte[] random)
-    // Offset: 0x1218D08
+    // Offset: 0x12D80A8
     MasterServer::ClientHelloRequest* Init(::Array<uint8_t>* random);
+    // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x12D9DD4
+    // Implemented from: BaseMasterServerReliableRequest
+    // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
+    // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x12D9E10
+    // Implemented from: BaseMasterServerReliableRequest
+    // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
+    // public override System.Void Release()
+    // Offset: 0x12D9E54
+    // Implemented from: BaseMasterServerReliableRequest
+    // Base method: System.Void BaseMasterServerReliableRequest::Release()
+    void Release();
     // public System.Void .ctor()
-    // Offset: 0x121AB10
+    // Offset: 0x12D9EB0
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -71,21 +86,6 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::ClientHelloRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClientHelloRequest*, creationType>()));
     }
-    // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x121AA34
-    // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
-    // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x121AA70
-    // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
-    // public override System.Void Release()
-    // Offset: 0x121AAB4
-    // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Release()
-    void Release();
   }; // MasterServer.ClientHelloRequest
   #pragma pack(pop)
   static check_size<sizeof(ClientHelloRequest), 24 + sizeof(::Array<uint8_t>*)> __MasterServer_ClientHelloRequestSizeCheck;
@@ -110,10 +110,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ClientHelloRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{random});
   }
 };
-// Writing MetadataGetter for method: MasterServer::ClientHelloRequest::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: MasterServer::ClientHelloRequest::Serialize
 // Il2CppName: Serialize
 template<>
@@ -140,3 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ClientHelloRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: MasterServer::ClientHelloRequest::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -379,26 +379,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single endSongTime
     float& dyn_endSongTime();
     // public System.Void .ctor(GameplayModifiers gameplayModifiers, System.Int32 modifiedScore, System.Int32 rawScore, RankModel/Rank rank, System.Boolean fullCombo, System.Single leftSaberMovementDistance, System.Single rightSaberMovementDistance, System.Single leftHandMovementDistance, System.Single rightHandMovementDistance, System.Single songDuration, LevelCompletionResults/LevelEndStateType levelEndStateType, LevelCompletionResults/LevelEndAction levelEndAction, System.Single energy, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 notGoodCount, System.Int32 okCount, System.Int32 averageCutScore, System.Int32 maxCutScore, System.Single averageCutDistanceRawScore, System.Int32 maxCombo, System.Single minDirDeviation, System.Single maxDirDeviation, System.Single averageDirDeviation, System.Single minTimeDeviation, System.Single maxTimeDeviation, System.Single averageTimeDeviation, System.Single endSongTime)
-    // Offset: 0x2374C14
+    // Offset: 0x2570474
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelCompletionResults* New_ctor(GlobalNamespace::GameplayModifiers* gameplayModifiers, int modifiedScore, int rawScore, GlobalNamespace::RankModel::Rank rank, bool fullCombo, float leftSaberMovementDistance, float rightSaberMovementDistance, float leftHandMovementDistance, float rightHandMovementDistance, float songDuration, GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType, GlobalNamespace::LevelCompletionResults::LevelEndAction levelEndAction, float energy, int goodCutsCount, int badCutsCount, int missedCount, int notGoodCount, int okCount, int averageCutScore, int maxCutScore, float averageCutDistanceRawScore, int maxCombo, float minDirDeviation, float maxDirDeviation, float averageDirDeviation, float minTimeDeviation, float maxTimeDeviation, float averageTimeDeviation, float endSongTime) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LevelCompletionResults::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelCompletionResults*, creationType>(gameplayModifiers, modifiedScore, rawScore, rank, fullCombo, leftSaberMovementDistance, rightSaberMovementDistance, leftHandMovementDistance, rightHandMovementDistance, songDuration, levelEndStateType, levelEndAction, energy, goodCutsCount, badCutsCount, missedCount, notGoodCount, okCount, averageCutScore, maxCutScore, averageCutDistanceRawScore, maxCombo, minDirDeviation, maxDirDeviation, averageDirDeviation, minTimeDeviation, maxTimeDeviation, averageTimeDeviation, endSongTime)));
     }
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0x2374D90
+    // Offset: 0x25705F0
     int CompareTo(::Il2CppObject* obj);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2374EAC
+    // Offset: 0x257070C
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // private LevelCompletionResults LiteNetLib.Utils.INetImmutableSerializable<LevelCompletionResults>.CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2375194
+    // Offset: 0x25709F4
     GlobalNamespace::LevelCompletionResults* LiteNetLib_Utils_INetImmutableSerializable$LevelCompletionResults$_CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // static public LevelCompletionResults CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x237519C
+    // Offset: 0x25709FC
     static GlobalNamespace::LevelCompletionResults* CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x2374C0C
+    // Offset: 0x257046C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

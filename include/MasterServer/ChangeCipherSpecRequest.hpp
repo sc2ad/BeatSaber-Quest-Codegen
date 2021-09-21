@@ -37,10 +37,15 @@ namespace MasterServer {
       return *reinterpret_cast<MasterServer::IHandshakeServerToClientMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.ChangeCipherSpecRequest> get_pool()
-    // Offset: 0x121A988
+    // Offset: 0x12D9D28
     static GlobalNamespace::PacketPool_1<MasterServer::ChangeCipherSpecRequest*>* get_pool();
+    // public override System.Void Release()
+    // Offset: 0x12D9D70
+    // Implemented from: BaseMasterServerReliableResponse
+    // Base method: System.Void BaseMasterServerReliableResponse::Release()
+    void Release();
     // public System.Void .ctor()
-    // Offset: 0x121AA2C
+    // Offset: 0x12D9DCC
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -49,11 +54,6 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::ChangeCipherSpecRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChangeCipherSpecRequest*, creationType>()));
     }
-    // public override System.Void Release()
-    // Offset: 0x121A9D0
-    // Implemented from: BaseMasterServerReliableResponse
-    // Base method: System.Void BaseMasterServerReliableResponse::Release()
-    void Release();
   }; // MasterServer.ChangeCipherSpecRequest
   #pragma pack(pop)
 }
@@ -67,10 +67,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ChangeCipherSpecRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MasterServer::ChangeCipherSpecRequest::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: MasterServer::ChangeCipherSpecRequest::Release
 // Il2CppName: Release
 template<>
@@ -79,3 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ChangeCipherSpecRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: MasterServer::ChangeCipherSpecRequest::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

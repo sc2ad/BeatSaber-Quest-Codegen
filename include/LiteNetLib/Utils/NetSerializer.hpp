@@ -145,7 +145,7 @@ namespace LiteNetLib::Utils {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: maxStringLength and: registeredTypes
     char __padding1[0x4] = {};
-    // private readonly System.Collections.Generic.Dictionary`2<System.Type,LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.CustomType> _registeredTypes
+    // private readonly System.Collections.Generic.Dictionary`2<System.Type,LiteNetLib.Utils.NetSerializer/CustomType> _registeredTypes
     // Size: 0x8
     // Offset: 0x20
     System::Collections::Generic::Dictionary_2<System::Type*, LiteNetLib::Utils::NetSerializer::CustomType*>* registeredTypes;
@@ -157,15 +157,8 @@ namespace LiteNetLib::Utils {
     LiteNetLib::Utils::NetDataWriter*& dyn__writer();
     // Get instance field reference: private readonly System.Int32 _maxStringLength
     int& dyn__maxStringLength();
-    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Type,LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.CustomType> _registeredTypes
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Type,LiteNetLib.Utils.NetSerializer/CustomType> _registeredTypes
     System::Collections::Generic::Dictionary_2<System::Type*, LiteNetLib::Utils::NetSerializer::CustomType*>*& dyn__registeredTypes();
-    // public System.Void .ctor(System.Int32 maxStringLength)
-    // Offset: 0x240DBE8
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NetSerializer* New_ctor(int maxStringLength) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<NetSerializer*, creationType>(maxStringLength)));
-    }
     // public System.Void RegisterNestedType()
     // Offset: 0xFFFFFFFF
     template<class T>
@@ -198,7 +191,14 @@ namespace LiteNetLib::Utils {
       auto ___instance_arg = this;
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, writer, reader);
     }
-    // private LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.ClassInfo`1<T> RegisterInternal()
+    // public System.Void .ctor(System.Int32 maxStringLength)
+    // Offset: 0x26182B4
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static NetSerializer* New_ctor(int maxStringLength) {
+      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<NetSerializer*, creationType>(maxStringLength)));
+    }
+    // private LiteNetLib.Utils.NetSerializer/ClassInfo`1<T> RegisterInternal()
     // Offset: 0xFFFFFFFF
     template<class T>
     LiteNetLib::Utils::NetSerializer::ClassInfo_1<T>* RegisterInternal() {
@@ -259,7 +259,7 @@ namespace LiteNetLib::Utils {
       return ::il2cpp_utils::RunMethodThrow<::Array<uint8_t>*, false>(___instance_arg, ___generic__method, obj);
     }
     // public System.Void .ctor()
-    // Offset: 0x240DB20
+    // Offset: 0x26181EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -274,19 +274,19 @@ namespace LiteNetLib::Utils {
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetSerializer*, "LiteNetLib.Utils", "NetSerializer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::RegisterNestedType
+// Il2CppName: RegisterNestedType
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::RegisterNestedType
+// Il2CppName: RegisterNestedType
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::RegisterNestedType
+// Il2CppName: RegisterNestedType
+// Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::RegisterNestedType
-// Il2CppName: RegisterNestedType
-// Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::RegisterNestedType
-// Il2CppName: RegisterNestedType
-// Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::RegisterNestedType
-// Il2CppName: RegisterNestedType
-// Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::RegisterInternal
 // Il2CppName: RegisterInternal
 // Cannot write MetadataGetter for generic methods!

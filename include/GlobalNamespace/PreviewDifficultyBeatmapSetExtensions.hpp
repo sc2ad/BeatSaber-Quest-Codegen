@@ -27,10 +27,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PreviewDifficultyBeatmapSetExtensions
     PreviewDifficultyBeatmapSetExtensions() noexcept {}
     // static public BeatmapCharacteristicSO[] GetBeatmapCharacteristics(PreviewDifficultyBeatmapSet[] previewDifficultyBeatmapSet)
-    // Offset: 0x11FF444
+    // Offset: 0x11BE218
     static ::Array<GlobalNamespace::BeatmapCharacteristicSO*>* GetBeatmapCharacteristics(::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* previewDifficultyBeatmapSet);
     // static public PreviewDifficultyBeatmapSet[] GetPreviewDifficultyBeatmapSetWithout360Movement(PreviewDifficultyBeatmapSet[] previewDifficultyBeatmapSet)
-    // Offset: 0x11FEBE8
+    // Offset: 0x11BD9BC
     static ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* GetPreviewDifficultyBeatmapSetWithout360Movement(::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* previewDifficultyBeatmapSet);
   }; // PreviewDifficultyBeatmapSetExtensions
   #pragma pack(pop)

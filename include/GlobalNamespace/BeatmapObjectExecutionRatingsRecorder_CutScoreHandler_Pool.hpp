@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Pool
     Pool() noexcept {}
     // protected System.Void OnDespawned(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler item)
-    // Offset: 0x10D0428
+    // Offset: 0x12A19FC
     void OnDespawned(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler* item);
     // public System.Void .ctor()
-    // Offset: 0x10D0440
+    // Offset: 0x12A1A14
     // Implemented from: Zenject.MemoryPool`1
     // Base method: System.Void MemoryPool_1::.ctor()
     // Base method: System.Void MemoryPoolBase_1::.ctor()

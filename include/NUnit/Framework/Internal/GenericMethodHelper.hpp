@@ -30,28 +30,32 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class GenericMethodHelper : public ::Il2CppObject {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xE285DC
+    // [CompilerGeneratedAttribute] Offset: 0xEEEDB4
+    // [DebuggerBrowsableAttribute] Offset: 0xEEEDB4
     // private System.Reflection.MethodInfo <Method>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     System::Reflection::MethodInfo* Method;
     // Field size check
     static_assert(sizeof(System::Reflection::MethodInfo*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE28618
+    // [CompilerGeneratedAttribute] Offset: 0xEEEDF0
+    // [DebuggerBrowsableAttribute] Offset: 0xEEEDF0
     // private System.Type[] <TypeParms>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Array<System::Type*>* TypeParms;
     // Field size check
     static_assert(sizeof(::Array<System::Type*>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE28654
+    // [DebuggerBrowsableAttribute] Offset: 0xEEEE2C
+    // [CompilerGeneratedAttribute] Offset: 0xEEEE2C
     // private System.Type[] <TypeArgs>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     ::Array<System::Type*>* TypeArgs;
     // Field size check
     static_assert(sizeof(::Array<System::Type*>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE28690
+    // [DebuggerBrowsableAttribute] Offset: 0xEEEE68
+    // [CompilerGeneratedAttribute] Offset: 0xEEEE68
     // private System.Type[] <ParmTypes>k__BackingField
     // Size: 0x8
     // Offset: 0x28
@@ -68,48 +72,48 @@ namespace NUnit::Framework::Internal {
     ::Array<System::Type*>*& dyn_$TypeArgs$k__BackingField();
     // Get instance field reference: private System.Type[] <ParmTypes>k__BackingField
     ::Array<System::Type*>*& dyn_$ParmTypes$k__BackingField();
-    // private System.Reflection.MethodInfo get_Method()
-    // Offset: 0x2293DB0
-    System::Reflection::MethodInfo* get_Method();
-    // private System.Void set_Method(System.Reflection.MethodInfo value)
-    // Offset: 0x2293DB8
-    void set_Method(System::Reflection::MethodInfo* value);
-    // private System.Type[] get_TypeParms()
-    // Offset: 0x2293DC0
-    ::Array<System::Type*>* get_TypeParms();
-    // private System.Void set_TypeParms(System.Type[] value)
-    // Offset: 0x2293DC8
-    void set_TypeParms(::Array<System::Type*>* value);
-    // private System.Type[] get_TypeArgs()
-    // Offset: 0x2293DD0
-    ::Array<System::Type*>* get_TypeArgs();
-    // private System.Void set_TypeArgs(System.Type[] value)
-    // Offset: 0x2293DD8
-    void set_TypeArgs(::Array<System::Type*>* value);
-    // private System.Type[] get_ParmTypes()
-    // Offset: 0x2293DE0
-    ::Array<System::Type*>* get_ParmTypes();
-    // private System.Void set_ParmTypes(System.Type[] value)
-    // Offset: 0x2293DE8
-    void set_ParmTypes(::Array<System::Type*>* value);
     // public System.Void .ctor(System.Reflection.MethodInfo method)
-    // Offset: 0x2293C08
+    // Offset: 0x249BF50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericMethodHelper* New_ctor(System::Reflection::MethodInfo* method) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::GenericMethodHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericMethodHelper*, creationType>(method)));
     }
+    // private System.Reflection.MethodInfo get_Method()
+    // Offset: 0x249C0F8
+    System::Reflection::MethodInfo* get_Method();
+    // private System.Void set_Method(System.Reflection.MethodInfo value)
+    // Offset: 0x249C100
+    void set_Method(System::Reflection::MethodInfo* value);
+    // private System.Type[] get_TypeParms()
+    // Offset: 0x249C108
+    ::Array<System::Type*>* get_TypeParms();
+    // private System.Void set_TypeParms(System.Type[] value)
+    // Offset: 0x249C110
+    void set_TypeParms(::Array<System::Type*>* value);
+    // private System.Type[] get_TypeArgs()
+    // Offset: 0x249C118
+    ::Array<System::Type*>* get_TypeArgs();
+    // private System.Void set_TypeArgs(System.Type[] value)
+    // Offset: 0x249C120
+    void set_TypeArgs(::Array<System::Type*>* value);
+    // private System.Type[] get_ParmTypes()
+    // Offset: 0x249C128
+    ::Array<System::Type*>* get_ParmTypes();
+    // private System.Void set_ParmTypes(System.Type[] value)
+    // Offset: 0x249C130
+    void set_ParmTypes(::Array<System::Type*>* value);
     // public System.Type[] GetTypeArguments(System.Object[] argList)
-    // Offset: 0x2293DF0
+    // Offset: 0x249C138
     ::Array<System::Type*>* GetTypeArguments(::Array<::Il2CppObject*>* argList);
     // private System.Void TryApplyArgType(System.Type parmType, System.Type argType)
-    // Offset: 0x2293EF4
+    // Offset: 0x249C23C
     void TryApplyArgType(System::Type* parmType, System::Type* argType);
     // private System.Void ApplyArgType(System.Type parmType, System.Type argType)
-    // Offset: 0x22940AC
+    // Offset: 0x249C3F4
     void ApplyArgType(System::Type* parmType, System::Type* argType);
     // private System.Boolean IsAssignableToGenericType(System.Type givenType, System.Type genericType)
-    // Offset: 0x22941B0
+    // Offset: 0x249C4F8
     bool IsAssignableToGenericType(System::Type* givenType, System::Type* genericType);
   }; // NUnit.Framework.Internal.GenericMethodHelper
   #pragma pack(pop)
@@ -118,6 +122,10 @@ namespace NUnit::Framework::Internal {
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::GenericMethodHelper*, "NUnit.Framework.Internal", "GenericMethodHelper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Internal::GenericMethodHelper::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::GenericMethodHelper::get_Method
 // Il2CppName: get_Method
 template<>
@@ -186,10 +194,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::GenericMethodHelper*), "set_ParmTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::GenericMethodHelper::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::GenericMethodHelper::GetTypeArguments
 // Il2CppName: GetTypeArguments
 template<>

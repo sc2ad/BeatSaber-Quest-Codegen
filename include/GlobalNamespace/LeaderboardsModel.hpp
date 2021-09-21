@@ -28,10 +28,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LeaderboardsModel
     LeaderboardsModel() noexcept {}
     // static public System.String GetLeaderboardID(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x118C6B8
+    // Offset: 0x114AD94
     static ::Il2CppString* GetLeaderboardID(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void .ctor()
-    // Offset: 0x118C71C
+    // Offset: 0x114ADF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

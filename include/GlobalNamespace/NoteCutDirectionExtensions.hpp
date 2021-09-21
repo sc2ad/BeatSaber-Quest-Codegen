@@ -32,25 +32,25 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NoteCutDirectionExtensions
     NoteCutDirectionExtensions() noexcept {}
     // static public UnityEngine.Vector2 Direction(NoteCutDirection cutDirection)
-    // Offset: 0x240A20C
+    // Offset: 0x26148D8
     static UnityEngine::Vector2 Direction(GlobalNamespace::NoteCutDirection cutDirection);
     // static public System.Single RotationAngle(NoteCutDirection cutDirection)
-    // Offset: 0x240A2F0
+    // Offset: 0x26149BC
     static float RotationAngle(GlobalNamespace::NoteCutDirection cutDirection);
     // static public UnityEngine.Quaternion Rotation(NoteCutDirection cutDirection, System.Single offset)
-    // Offset: 0x240A310
+    // Offset: 0x26149DC
     static UnityEngine::Quaternion Rotation(GlobalNamespace::NoteCutDirection cutDirection, float offset);
     // static public System.Boolean IsMainDirection(NoteCutDirection cutDirection)
-    // Offset: 0x240A3A4
+    // Offset: 0x2614A70
     static bool IsMainDirection(GlobalNamespace::NoteCutDirection cutDirection);
     // static public NoteCutDirection MainNoteCutDirectionFromCutDirAngle(System.Single angle)
-    // Offset: 0x240A3B0
+    // Offset: 0x2614A7C
     static GlobalNamespace::NoteCutDirection MainNoteCutDirectionFromCutDirAngle(float angle);
     // static public NoteCutDirection Mirrored(NoteCutDirection cutDirection)
-    // Offset: 0x240A434
+    // Offset: 0x2614B00
     static GlobalNamespace::NoteCutDirection Mirrored(GlobalNamespace::NoteCutDirection cutDirection);
     // static public System.Boolean IsOnSamePlane(NoteCutDirection noteCutDirection1, NoteCutDirection noteCutDirection2)
-    // Offset: 0x240A450
+    // Offset: 0x2614B1C
     static bool IsOnSamePlane(GlobalNamespace::NoteCutDirection noteCutDirection1, GlobalNamespace::NoteCutDirection noteCutDirection2);
   }; // NoteCutDirectionExtensions
   #pragma pack(pop)

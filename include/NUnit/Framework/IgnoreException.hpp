@@ -13,15 +13,15 @@
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: NUnit::Framework::Interfaces
-namespace NUnit::Framework::Interfaces {
-  // Forward declaring type: ResultState
-  class ResultState;
-}
 // Forward declaring namespace: System::Runtime::Serialization
 namespace System::Runtime::Serialization {
   // Forward declaring type: SerializationInfo
   class SerializationInfo;
+}
+// Forward declaring namespace: NUnit::Framework::Interfaces
+namespace NUnit::Framework::Interfaces {
+  // Forward declaring type: ResultState
+  class ResultState;
 }
 // Completed forward declares
 // Type namespace: NUnit.Framework
@@ -34,13 +34,8 @@ namespace NUnit::Framework {
     public:
     // Creating value type constructor for type: IgnoreException
     IgnoreException() noexcept {}
-    // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
-    // Offset: 0x1776774
-    // Implemented from: NUnit.Framework.ResultStateException
-    // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState()
-    NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x177676C
+    // Offset: 0x19357B8
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: System.Void ResultStateException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -49,11 +44,20 @@ namespace NUnit::Framework {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::IgnoreException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IgnoreException*, creationType>(info, context)));
     }
+    // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
+    // Offset: 0x19357C0
+    // Implemented from: NUnit.Framework.ResultStateException
+    // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState()
+    NUnit::Framework::Interfaces::ResultState* get_ResultState();
   }; // NUnit.Framework.IgnoreException
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::IgnoreException*, "NUnit.Framework", "IgnoreException");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::IgnoreException::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::IgnoreException::get_ResultState
 // Il2CppName: get_ResultState
 template<>
@@ -62,7 +66,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::IgnoreException*), "get_ResultState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::IgnoreException::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

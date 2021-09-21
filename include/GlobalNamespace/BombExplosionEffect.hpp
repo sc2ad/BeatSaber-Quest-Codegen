@@ -7,7 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: UnityEngine.ParticleSystem/UnityEngine.EmitParams
+// Including type: UnityEngine.ParticleSystem/EmitParams
 #include "UnityEngine/ParticleSystem_EmitParams.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     int explosionParticlesCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // private UnityEngine.ParticleSystem/UnityEngine.EmitParams _emitParams
+    // private UnityEngine.ParticleSystem/EmitParams _emitParams
     // Size: 0x8F
     // Offset: 0x30
     UnityEngine::ParticleSystem::EmitParams emitParams;
@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::ParticleSystem::EmitParams) == 0x8F);
     // Padding between fields: emitParams and: explosionPSEmitParams
     char __padding4[0x1] = {};
-    // private UnityEngine.ParticleSystem/UnityEngine.EmitParams _explosionPSEmitParams
+    // private UnityEngine.ParticleSystem/EmitParams _explosionPSEmitParams
     // Size: 0x8F
     // Offset: 0xC0
     UnityEngine::ParticleSystem::EmitParams explosionPSEmitParams;
@@ -79,18 +79,18 @@ namespace GlobalNamespace {
     int& dyn__debrisCount();
     // Get instance field reference: private System.Int32 _explosionParticlesCount
     int& dyn__explosionParticlesCount();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _emitParams
+    // Get instance field reference: private UnityEngine.ParticleSystem/EmitParams _emitParams
     UnityEngine::ParticleSystem::EmitParams& dyn__emitParams();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _explosionPSEmitParams
+    // Get instance field reference: private UnityEngine.ParticleSystem/EmitParams _explosionPSEmitParams
     UnityEngine::ParticleSystem::EmitParams& dyn__explosionPSEmitParams();
     // protected System.Void Awake()
-    // Offset: 0x10D9EF4
+    // Offset: 0x12ABA18
     void Awake();
     // public System.Void SpawnExplosion(UnityEngine.Vector3 pos)
-    // Offset: 0x10D9F2C
+    // Offset: 0x12ABA50
     void SpawnExplosion(UnityEngine::Vector3 pos);
     // public System.Void .ctor()
-    // Offset: 0x10D9FF4
+    // Offset: 0x12ABB18
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

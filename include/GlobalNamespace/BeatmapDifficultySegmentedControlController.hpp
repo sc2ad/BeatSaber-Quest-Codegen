@@ -54,6 +54,7 @@ namespace GlobalNamespace {
     HMUI::TextSegmentedControl* difficultySegmentedControl;
     // Field size check
     static_assert(sizeof(HMUI::TextSegmentedControl*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0F838
     // private System.Action`2<BeatmapDifficultySegmentedControlController,BeatmapDifficulty> didSelectDifficultyEvent
     // Size: 0x8
     // Offset: 0x20
@@ -84,32 +85,32 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapDifficulty>*& dyn__difficulties();
     // Get instance field reference: private BeatmapDifficulty _selectedDifficulty
     GlobalNamespace::BeatmapDifficulty& dyn__selectedDifficulty();
-    // public BeatmapDifficulty get_selectedDifficulty()
-    // Offset: 0x11EA9E0
-    GlobalNamespace::BeatmapDifficulty get_selectedDifficulty();
     // public System.Void add_didSelectDifficultyEvent(System.Action`2<BeatmapDifficultySegmentedControlController,BeatmapDifficulty> value)
-    // Offset: 0x11EA898
+    // Offset: 0x127AED4
     void add_didSelectDifficultyEvent(System::Action_2<GlobalNamespace::BeatmapDifficultySegmentedControlController*, GlobalNamespace::BeatmapDifficulty>* value);
     // public System.Void remove_didSelectDifficultyEvent(System.Action`2<BeatmapDifficultySegmentedControlController,BeatmapDifficulty> value)
-    // Offset: 0x11EA93C
+    // Offset: 0x127AF78
     void remove_didSelectDifficultyEvent(System::Action_2<GlobalNamespace::BeatmapDifficultySegmentedControlController*, GlobalNamespace::BeatmapDifficulty>* value);
+    // public BeatmapDifficulty get_selectedDifficulty()
+    // Offset: 0x127B01C
+    GlobalNamespace::BeatmapDifficulty get_selectedDifficulty();
     // protected System.Void Awake()
-    // Offset: 0x11EA9E8
+    // Offset: 0x127B024
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x11EAA7C
+    // Offset: 0x127B0B8
     void OnDestroy();
     // private System.Int32 GetClosestDifficultyIndex(BeatmapDifficulty searchDifficulty)
-    // Offset: 0x11EAB58
+    // Offset: 0x127B194
     int GetClosestDifficultyIndex(GlobalNamespace::BeatmapDifficulty searchDifficulty);
     // private System.Void HandleDifficultySegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0x11EAC60
+    // Offset: 0x127B29C
     void HandleDifficultySegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // public System.Void SetData(IDifficultyBeatmap[] difficultyBeatmaps, BeatmapDifficulty selectedDifficulty)
-    // Offset: 0x11EAD04
+    // Offset: 0x127B340
     void SetData(::Array<GlobalNamespace::IDifficultyBeatmap*>* difficultyBeatmaps, GlobalNamespace::BeatmapDifficulty selectedDifficulty);
     // public System.Void .ctor()
-    // Offset: 0x11EAF94
+    // Offset: 0x127B5D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -128,14 +129,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDifficultySegmentedControlController*, "", "BeatmapDifficultySegmentedControlController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapDifficultySegmentedControlController::get_selectedDifficulty
-// Il2CppName: get_selectedDifficulty
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficulty (GlobalNamespace::BeatmapDifficultySegmentedControlController::*)()>(&GlobalNamespace::BeatmapDifficultySegmentedControlController::get_selectedDifficulty)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultySegmentedControlController*), "get_selectedDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDifficultySegmentedControlController::add_didSelectDifficultyEvent
 // Il2CppName: add_didSelectDifficultyEvent
 template<>
@@ -152,6 +145,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "BeatmapDifficultySegmentedControlController"), ::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultySegmentedControlController*), "remove_didSelectDifficultyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDifficultySegmentedControlController::get_selectedDifficulty
+// Il2CppName: get_selectedDifficulty
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficulty (GlobalNamespace::BeatmapDifficultySegmentedControlController::*)()>(&GlobalNamespace::BeatmapDifficultySegmentedControlController::get_selectedDifficulty)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultySegmentedControlController*), "get_selectedDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDifficultySegmentedControlController::Awake

@@ -56,6 +56,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* button;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0C790
     // private System.Action`1<UnityEngine.Color> colorWasSelectedEvent
     // Size: 0x8
     // Offset: 0x28
@@ -103,28 +104,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _graphicsColor
     UnityEngine::Color& dyn__graphicsColor();
     // public System.Void add_colorWasSelectedEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x11FF540
+    // Offset: 0x11BE314
     void add_colorWasSelectedEvent(System::Action_1<UnityEngine::Color>* value);
     // public System.Void remove_colorWasSelectedEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x11FF5E4
+    // Offset: 0x11BE3B8
     void remove_colorWasSelectedEvent(System::Action_1<UnityEngine::Color>* value);
     // protected System.Void Awake()
-    // Offset: 0x11FF688
+    // Offset: 0x11BE45C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x11FF738
+    // Offset: 0x11BE50C
     void OnDestroy();
     // public System.Void AddColor(UnityEngine.Color color)
-    // Offset: 0x11FF754
+    // Offset: 0x11BE528
     void AddColor(UnityEngine::Color color);
     // public System.Void DiscardUpcomingColor()
-    // Offset: 0x11FF80C
+    // Offset: 0x11BE5E0
     void DiscardUpcomingColor();
     // private System.Void <Awake>b__9_0()
-    // Offset: 0x11FF85C
+    // Offset: 0x11BE630
     void $Awake$b__9_0();
     // public System.Void .ctor()
-    // Offset: 0x11FF818
+    // Offset: 0x11BE5EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

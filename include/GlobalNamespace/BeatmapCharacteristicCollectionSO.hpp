@@ -40,19 +40,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapCharacteristicSO[] _beatmapCharacteristics
     ::Array<GlobalNamespace::BeatmapCharacteristicSO*>*& dyn__beatmapCharacteristics();
     // public BeatmapCharacteristicSO[] get_beatmapCharacteristics()
-    // Offset: 0x11E199C
+    // Offset: 0x1271F88
     ::Array<GlobalNamespace::BeatmapCharacteristicSO*>* get_beatmapCharacteristics();
     // public System.Void set_beatmapCharacteristics(BeatmapCharacteristicSO[] value)
-    // Offset: 0x11E19A4
+    // Offset: 0x1271F90
     void set_beatmapCharacteristics(::Array<GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public BeatmapCharacteristicSO GetBeatmapCharacteristicBySerializedName(System.String serializedName)
-    // Offset: 0x11E19AC
+    // Offset: 0x1271F98
     GlobalNamespace::BeatmapCharacteristicSO* GetBeatmapCharacteristicBySerializedName(::Il2CppString* serializedName);
     // public System.Boolean ContainsBeatmapCharacteristic(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x11E1A38
+    // Offset: 0x1272024
     bool ContainsBeatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // public System.Void .ctor()
-    // Offset: 0x11E1B18
+    // Offset: 0x1272104
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

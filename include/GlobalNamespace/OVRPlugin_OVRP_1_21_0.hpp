@@ -31,50 +31,42 @@ namespace GlobalNamespace {
     static System::Version* _get_version();
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
-    // static private System.Void .cctor()
-    // Offset: 0x1635570
-    static void _cctor();
     // static public OVRPlugin/Result ovrp_GetTiledMultiResSupported(out OVRPlugin/Bool foveationSupported)
-    // Offset: 0x16350D8
+    // Offset: 0x1801D38
     static GlobalNamespace::OVRPlugin::Result ovrp_GetTiledMultiResSupported(ByRef<GlobalNamespace::OVRPlugin::Bool> foveationSupported);
     // static public OVRPlugin/Result ovrp_GetTiledMultiResLevel(out OVRPlugin/FixedFoveatedRenderingLevel level)
-    // Offset: 0x1635158
+    // Offset: 0x1801DB8
     static GlobalNamespace::OVRPlugin::Result ovrp_GetTiledMultiResLevel(ByRef<GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel> level);
     // static public OVRPlugin/Result ovrp_SetTiledMultiResLevel(OVRPlugin/FixedFoveatedRenderingLevel level)
-    // Offset: 0x16351D8
+    // Offset: 0x1801E38
     static GlobalNamespace::OVRPlugin::Result ovrp_SetTiledMultiResLevel(GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel level);
     // static public OVRPlugin/Result ovrp_GetGPUUtilSupported(out OVRPlugin/Bool gpuUtilSupported)
-    // Offset: 0x1635258
+    // Offset: 0x1801EB8
     static GlobalNamespace::OVRPlugin::Result ovrp_GetGPUUtilSupported(ByRef<GlobalNamespace::OVRPlugin::Bool> gpuUtilSupported);
     // static public OVRPlugin/Result ovrp_GetGPUUtilLevel(out System.Single gpuUtil)
-    // Offset: 0x16352D8
+    // Offset: 0x1801F38
     static GlobalNamespace::OVRPlugin::Result ovrp_GetGPUUtilLevel(ByRef<float> gpuUtil);
     // static public OVRPlugin/Result ovrp_GetSystemDisplayFrequency2(out System.Single systemDisplayFrequency)
-    // Offset: 0x1635358
+    // Offset: 0x1801FB8
     static GlobalNamespace::OVRPlugin::Result ovrp_GetSystemDisplayFrequency2(ByRef<float> systemDisplayFrequency);
     // static public OVRPlugin/Result ovrp_GetSystemDisplayAvailableFrequencies(System.IntPtr systemDisplayAvailableFrequencies, ref System.Int32 numFrequencies)
-    // Offset: 0x16353D8
+    // Offset: 0x1802038
     static GlobalNamespace::OVRPlugin::Result ovrp_GetSystemDisplayAvailableFrequencies(System::IntPtr systemDisplayAvailableFrequencies, ByRef<int> numFrequencies);
     // static public OVRPlugin/Result ovrp_SetSystemDisplayFrequency(System.Single requestedFrequency)
-    // Offset: 0x1635468
+    // Offset: 0x18020C8
     static GlobalNamespace::OVRPlugin::Result ovrp_SetSystemDisplayFrequency(float requestedFrequency);
     // static public OVRPlugin/Result ovrp_GetAppAsymmetricFov(out OVRPlugin/Bool useAsymmetricFov)
-    // Offset: 0x16354F0
+    // Offset: 0x1802150
     static GlobalNamespace::OVRPlugin::Result ovrp_GetAppAsymmetricFov(ByRef<GlobalNamespace::OVRPlugin::Bool> useAsymmetricFov);
+    // static private System.Void .cctor()
+    // Offset: 0x18021D0
+    static void _cctor();
   }; // OVRPlugin/OVRP_1_21_0
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_21_0*, "", "OVRPlugin/OVRP_1_21_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_21_0::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_21_0::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_21_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_21_0::ovrp_GetTiledMultiResSupported
 // Il2CppName: ovrp_GetTiledMultiResSupported
 template<>
@@ -155,5 +147,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
   static const MethodInfo* get() {
     static auto* useAsymmetricFov = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_21_0*), "ovrp_GetAppAsymmetricFov", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{useAsymmetricFov});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_21_0::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_21_0::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_21_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

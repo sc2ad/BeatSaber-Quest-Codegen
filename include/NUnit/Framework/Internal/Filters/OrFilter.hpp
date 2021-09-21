@@ -31,13 +31,8 @@ namespace NUnit::Framework::Internal::Filters {
     public:
     // Creating value type constructor for type: OrFilter
     OrFilter() noexcept {}
-    // protected override System.String get_ElementName()
-    // Offset: 0x1782EAC
-    // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
-    // Base method: System.String CompositeFilter::get_ElementName()
-    ::Il2CppString* get_ElementName();
     // public System.Void .ctor()
-    // Offset: 0x1782550
+    // Offset: 0x194159C
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Void CompositeFilter::.ctor()
     // Base method: System.Void TestFilter::.ctor()
@@ -48,7 +43,7 @@ namespace NUnit::Framework::Internal::Filters {
       return THROW_UNLESS((::il2cpp_utils::New<OrFilter*, creationType>()));
     }
     // public System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
-    // Offset: 0x1782554
+    // Offset: 0x19415A0
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Void CompositeFilter::.ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -67,33 +62,30 @@ namespace NUnit::Framework::Internal::Filters {
       return New_ctor<creationType>({filters...});
     }
     // public override System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1782558
+    // Offset: 0x19415A4
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Boolean CompositeFilter::Pass(NUnit.Framework.Interfaces.ITest test)
     bool Pass(NUnit::Framework::Interfaces::ITest* test);
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1782894
+    // Offset: 0x19418E0
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Boolean CompositeFilter::Match(NUnit.Framework.Interfaces.ITest test)
     bool Match(NUnit::Framework::Interfaces::ITest* test);
     // public override System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1782BA0
+    // Offset: 0x1941BEC
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Boolean CompositeFilter::IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
     bool IsExplicitMatch(NUnit::Framework::Interfaces::ITest* test);
+    // protected override System.String get_ElementName()
+    // Offset: 0x1941EF8
+    // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
+    // Base method: System.String CompositeFilter::get_ElementName()
+    ::Il2CppString* get_ElementName();
   }; // NUnit.Framework.Internal.Filters.OrFilter
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Filters::OrFilter*, "NUnit.Framework.Internal.Filters", "OrFilter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::OrFilter::get_ElementName
-// Il2CppName: get_ElementName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::Filters::OrFilter::*)()>(&NUnit::Framework::Internal::Filters::OrFilter::get_ElementName)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::OrFilter*), "get_ElementName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::OrFilter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -127,5 +119,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
   static const MethodInfo* get() {
     static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::OrFilter*), "IsExplicitMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});
+  }
+};
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::OrFilter::get_ElementName
+// Il2CppName: get_ElementName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::Filters::OrFilter::*)()>(&NUnit::Framework::Internal::Filters::OrFilter::get_ElementName)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::OrFilter*), "get_ElementName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerConnectedPlayerGameplayAnimator : public GlobalNamespace::MultiplayerGameplayAnimator {
     public:
-    // [SpaceAttribute] Offset: 0xE3FBE4
+    // [SpaceAttribute] Offset: 0xF08568
     // private MultiplayerBigAvatarAnimator _bigAvatarAnimator
     // Size: 0x8
     // Offset: 0x68
@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ScaleAnimator* avatarScaleAnimator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ScaleAnimator*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE3FC2C
+    // [SpaceAttribute] Offset: 0xF085B0
     // private System.Single _defaultLightsWidth
     // Size: 0x4
     // Offset: 0x78
@@ -61,21 +61,21 @@ namespace GlobalNamespace {
     float observedLightsWidth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xE3FC74
+    // [InjectAttribute] Offset: 0xF085F8
     // private readonly MultiplayerConnectedPlayerLevelFailController _failController
     // Size: 0x8
     // Offset: 0x80
     GlobalNamespace::MultiplayerConnectedPlayerLevelFailController* failController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerLevelFailController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3FC84
+    // [InjectAttribute] Offset: 0xF08608
     // private readonly MultiplayerLayoutProvider _multiplayerLayoutProvider
     // Size: 0x8
     // Offset: 0x88
     GlobalNamespace::MultiplayerLayoutProvider* multiplayerLayoutProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3FC94
+    // [InjectAttribute] Offset: 0xF08618
     // private readonly MultiplayerConnectedPlayerSpectatingSpot _playerSpectatingSpot
     // Size: 0x8
     // Offset: 0x90
@@ -99,16 +99,36 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerConnectedPlayerSpectatingSpot _playerSpectatingSpot
     GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot*& dyn__playerSpectatingSpot();
     // private System.Void TransitionIntoFailedState()
-    // Offset: 0x11CA59C
+    // Offset: 0x1210AE4
     void TransitionIntoFailedState();
     // private System.Void HandlePlayerDidFail()
-    // Offset: 0x11CAB84
+    // Offset: 0x12110D4
     void HandlePlayerDidFail();
     // private System.Void HandleIsObservedChanged(System.Boolean isObserved)
-    // Offset: 0x11CAB88
+    // Offset: 0x12110D8
     void HandleIsObservedChanged(bool isObserved);
+    // protected override System.Void Start()
+    // Offset: 0x12104C4
+    // Implemented from: MultiplayerGameplayAnimator
+    // Base method: System.Void MultiplayerGameplayAnimator::Start()
+    void Start();
+    // protected override System.Void OnDestroy()
+    // Offset: 0x12106B8
+    // Implemented from: MultiplayerGameplayAnimator
+    // Base method: System.Void MultiplayerGameplayAnimator::OnDestroy()
+    void OnDestroy();
+    // protected override System.Void AnimateNewLeaderSelected(System.Boolean isLeading)
+    // Offset: 0x1210C50
+    // Implemented from: MultiplayerGameplayAnimator
+    // Base method: System.Void MultiplayerGameplayAnimator::AnimateNewLeaderSelected(System.Boolean isLeading)
+    void AnimateNewLeaderSelected(bool isLeading);
+    // protected override System.Void HandleStateChanged(MultiplayerController/State state)
+    // Offset: 0x1210DA8
+    // Implemented from: MultiplayerGameplayAnimator
+    // Base method: System.Void MultiplayerGameplayAnimator::HandleStateChanged(MultiplayerController/State state)
+    void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // public System.Void .ctor()
-    // Offset: 0x11CAC14
+    // Offset: 0x1211164
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -121,26 +141,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerGameplayAnimator*, creationType>()));
     }
-    // protected override System.Void Start()
-    // Offset: 0x11C9F80
-    // Implemented from: MultiplayerGameplayAnimator
-    // Base method: System.Void MultiplayerGameplayAnimator::Start()
-    void Start();
-    // protected override System.Void OnDestroy()
-    // Offset: 0x11CA174
-    // Implemented from: MultiplayerGameplayAnimator
-    // Base method: System.Void MultiplayerGameplayAnimator::OnDestroy()
-    void OnDestroy();
-    // protected override System.Void AnimateNewLeaderSelected(System.Boolean isLeading)
-    // Offset: 0x11CA708
-    // Implemented from: MultiplayerGameplayAnimator
-    // Base method: System.Void MultiplayerGameplayAnimator::AnimateNewLeaderSelected(System.Boolean isLeading)
-    void AnimateNewLeaderSelected(bool isLeading);
-    // protected override System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x11CA860
-    // Implemented from: MultiplayerGameplayAnimator
-    // Base method: System.Void MultiplayerGameplayAnimator::HandleStateChanged(MultiplayerController/State state)
-    void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
   }; // MultiplayerConnectedPlayerGameplayAnimator
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerGameplayAnimator), 144 + sizeof(GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot*)> __GlobalNamespace_MultiplayerConnectedPlayerGameplayAnimatorSizeCheck;
@@ -173,10 +173,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator*), "HandleIsObservedChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isObserved});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator::Start
 // Il2CppName: Start
 template<>
@@ -211,3 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator*), "HandleStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

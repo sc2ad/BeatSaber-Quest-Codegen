@@ -132,39 +132,39 @@ namespace Mono::Net::Security {
     Mono::Net::Security::MonoTlsStream*& dyn_tlsStream();
     // Get instance field reference: private readonly System.Net.HttpWebRequest request
     System::Net::HttpWebRequest*& dyn_request();
-    // public Mono.Security.Interface.MonoTlsSettings get_Settings()
-    // Offset: 0x15F0C30
-    Mono::Security::Interface::MonoTlsSettings* get_Settings();
+    // static Mono.Security.Interface.ICertificateValidator GetInternalValidator(Mono.Security.Interface.MonoTlsProvider provider, Mono.Security.Interface.MonoTlsSettings settings)
+    // Offset: 0x17BC22C
+    static Mono::Security::Interface::ICertificateValidator* GetInternalValidator(Mono::Security::Interface::MonoTlsProvider* provider, Mono::Security::Interface::MonoTlsSettings* settings);
+    // static Mono.Net.Security.ChainValidationHelper Create(Mono.Security.Interface.MonoTlsProvider provider, ref Mono.Security.Interface.MonoTlsSettings settings, Mono.Net.Security.MonoTlsStream stream)
+    // Offset: 0x17BC518
+    static Mono::Net::Security::ChainValidationHelper* Create(Mono::Security::Interface::MonoTlsProvider* provider, ByRef<Mono::Security::Interface::MonoTlsSettings*> settings, Mono::Net::Security::MonoTlsStream* stream);
     // private System.Void .ctor(Mono.Security.Interface.MonoTlsProvider provider, Mono.Security.Interface.MonoTlsSettings settings, System.Boolean cloneSettings, Mono.Net.Security.MonoTlsStream stream, Mono.Net.Security.ServerCertValidationCallbackWrapper callbackWrapper)
-    // Offset: 0x15F072C
+    // Offset: 0x17BC2D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChainValidationHelper* New_ctor(Mono::Security::Interface::MonoTlsProvider* provider, Mono::Security::Interface::MonoTlsSettings* settings, bool cloneSettings, Mono::Net::Security::MonoTlsStream* stream, Mono::Net::Security::ServerCertValidationCallbackWrapper* callbackWrapper) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::ChainValidationHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChainValidationHelper*, creationType>(provider, settings, cloneSettings, stream, callbackWrapper)));
     }
-    // static Mono.Security.Interface.ICertificateValidator GetInternalValidator(Mono.Security.Interface.MonoTlsProvider provider, Mono.Security.Interface.MonoTlsSettings settings)
-    // Offset: 0x15F0684
-    static Mono::Security::Interface::ICertificateValidator* GetInternalValidator(Mono::Security::Interface::MonoTlsProvider* provider, Mono::Security::Interface::MonoTlsSettings* settings);
-    // static Mono.Net.Security.ChainValidationHelper Create(Mono.Security.Interface.MonoTlsProvider provider, ref Mono.Security.Interface.MonoTlsSettings settings, Mono.Net.Security.MonoTlsStream stream)
-    // Offset: 0x15F0970
-    static Mono::Net::Security::ChainValidationHelper* Create(Mono::Security::Interface::MonoTlsProvider* provider, ByRef<Mono::Security::Interface::MonoTlsSettings*> settings, Mono::Net::Security::MonoTlsStream* stream);
     // static private System.Security.Cryptography.X509Certificates.X509Certificate DefaultSelectionCallback(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection localCertificates, System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate, System.String[] acceptableIssuers)
-    // Offset: 0x15F0BE4
+    // Offset: 0x17BC78C
     static System::Security::Cryptography::X509Certificates::X509Certificate* DefaultSelectionCallback(::Il2CppString* targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::Array<::Il2CppString*>* acceptableIssuers);
+    // public Mono.Security.Interface.MonoTlsSettings get_Settings()
+    // Offset: 0x17BC7D8
+    Mono::Security::Interface::MonoTlsSettings* get_Settings();
     // public System.Boolean SelectClientCertificate(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection localCertificates, System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate, System.String[] acceptableIssuers, out System.Security.Cryptography.X509Certificates.X509Certificate clientCertificate)
-    // Offset: 0x15F0C38
+    // Offset: 0x17BC7E0
     bool SelectClientCertificate(::Il2CppString* targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::Array<::Il2CppString*>* acceptableIssuers, ByRef<System::Security::Cryptography::X509Certificates::X509Certificate*> clientCertificate);
     // public Mono.Security.Interface.ValidationResult ValidateCertificate(System.String host, System.Boolean serverMode, System.Security.Cryptography.X509Certificates.X509CertificateCollection certs)
-    // Offset: 0x15F0C78
+    // Offset: 0x17BC820
     Mono::Security::Interface::ValidationResult* ValidateCertificate(::Il2CppString* host, bool serverMode, System::Security::Cryptography::X509Certificates::X509CertificateCollection* certs);
     // public Mono.Security.Interface.ValidationResult ValidateCertificate(System.String host, System.Boolean serverMode, System.Security.Cryptography.X509Certificates.X509Certificate leaf, System.Security.Cryptography.X509Certificates.X509Chain chain)
-    // Offset: 0x15F0E8C
+    // Offset: 0x17BCA34
     Mono::Security::Interface::ValidationResult* ValidateCertificate(::Il2CppString* host, bool serverMode, System::Security::Cryptography::X509Certificates::X509Certificate* leaf, System::Security::Cryptography::X509Certificates::X509Chain* chain);
     // private Mono.Security.Interface.ValidationResult ValidateChain(System.String host, System.Boolean server, System.Security.Cryptography.X509Certificates.X509Certificate leaf, System.Security.Cryptography.X509Certificates.X509Chain chain, System.Security.Cryptography.X509Certificates.X509CertificateCollection certs, System.Net.Security.SslPolicyErrors errors)
-    // Offset: 0x15F0DDC
+    // Offset: 0x17BC984
     Mono::Security::Interface::ValidationResult* ValidateChain(::Il2CppString* host, bool server, System::Security::Cryptography::X509Certificates::X509Certificate* leaf, System::Security::Cryptography::X509Certificates::X509Chain* chain, System::Security::Cryptography::X509Certificates::X509CertificateCollection* certs, System::Net::Security::SslPolicyErrors errors);
     // private Mono.Security.Interface.ValidationResult ValidateChain(System.String host, System.Boolean server, System.Security.Cryptography.X509Certificates.X509Certificate leaf, ref System.Security.Cryptography.X509Certificates.X509Chain chain, System.Security.Cryptography.X509Certificates.X509CertificateCollection certs, System.Net.Security.SslPolicyErrors errors)
-    // Offset: 0x15F0FC0
+    // Offset: 0x17BCB68
     Mono::Security::Interface::ValidationResult* ValidateChain_(::Il2CppString* host, bool server, System::Security::Cryptography::X509Certificates::X509Certificate* leaf, ByRef<System::Security::Cryptography::X509Certificates::X509Chain*> chain, System::Security::Cryptography::X509Certificates::X509CertificateCollection* certs, System::Net::Security::SslPolicyErrors errors);
   }; // Mono.Net.Security.ChainValidationHelper
   #pragma pack(pop)
@@ -173,18 +173,6 @@ namespace Mono::Net::Security {
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::ChainValidationHelper*, "Mono.Net.Security", "ChainValidationHelper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: Mono::Net::Security::ChainValidationHelper::get_Settings
-// Il2CppName: get_Settings
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsSettings* (Mono::Net::Security::ChainValidationHelper::*)()>(&Mono::Net::Security::ChainValidationHelper::get_Settings)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::ChainValidationHelper*), "get_Settings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Mono::Net::Security::ChainValidationHelper::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Net::Security::ChainValidationHelper::GetInternalValidator
 // Il2CppName: GetInternalValidator
 template<>
@@ -206,6 +194,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::ChainValidationHelper*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider, settings, stream});
   }
 };
+// Writing MetadataGetter for method: Mono::Net::Security::ChainValidationHelper::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Net::Security::ChainValidationHelper::DefaultSelectionCallback
 // Il2CppName: DefaultSelectionCallback
 template<>
@@ -216,6 +208,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
     static auto* remoteCertificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;
     static auto* acceptableIssuers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::ChainValidationHelper*), "DefaultSelectionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{targetHost, localCertificates, remoteCertificate, acceptableIssuers});
+  }
+};
+// Writing MetadataGetter for method: Mono::Net::Security::ChainValidationHelper::get_Settings
+// Il2CppName: get_Settings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsSettings* (Mono::Net::Security::ChainValidationHelper::*)()>(&Mono::Net::Security::ChainValidationHelper::get_Settings)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::ChainValidationHelper*), "get_Settings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Mono::Net::Security::ChainValidationHelper::SelectClientCertificate

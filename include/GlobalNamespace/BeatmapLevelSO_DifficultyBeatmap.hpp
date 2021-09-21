@@ -100,36 +100,36 @@ namespace GlobalNamespace {
     // Get instance field reference: private IDifficultyBeatmapSet _parentDifficultyBeatmapSet
     GlobalNamespace::IDifficultyBeatmapSet*& dyn__parentDifficultyBeatmapSet();
     // public BeatmapDifficulty get_difficulty()
-    // Offset: 0x10CA864
+    // Offset: 0x129BE38
     GlobalNamespace::BeatmapDifficulty get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0x10CA86C
+    // Offset: 0x129BE40
     int get_difficultyRank();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x10CA874
+    // Offset: 0x129BE48
     float get_noteJumpMovementSpeed();
     // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0x10CA87C
+    // Offset: 0x129BE50
     float get_noteJumpStartBeatOffset();
     // public BeatmapData get_beatmapData()
-    // Offset: 0x10CA884
+    // Offset: 0x129BE58
     GlobalNamespace::BeatmapData* get_beatmapData();
     // public IBeatmapLevel get_level()
-    // Offset: 0x10CA8A0
+    // Offset: 0x129BE74
     GlobalNamespace::IBeatmapLevel* get_level();
     // public IDifficultyBeatmapSet get_parentDifficultyBeatmapSet()
-    // Offset: 0x10CA8A8
+    // Offset: 0x129BE7C
     GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet();
+    // public System.Void SetParents(IBeatmapLevel parentLevel, IDifficultyBeatmapSet parentDifficultyBeatmapSet)
+    // Offset: 0x1298A60
+    void SetParents(GlobalNamespace::IBeatmapLevel* parentLevel, GlobalNamespace::IDifficultyBeatmapSet* parentDifficultyBeatmapSet);
     // public System.Void .ctor(IBeatmapLevel parentLevel, BeatmapDifficulty difficulty, System.Int32 difficultyRank, System.Single noteJumpMovementSpeed, System.Single noteJumpStartBeatOffset, BeatmapDataSO beatmapData)
-    // Offset: 0x10CA8B0
+    // Offset: 0x129BE84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelSO::DifficultyBeatmap* New_ctor(GlobalNamespace::IBeatmapLevel* parentLevel, GlobalNamespace::BeatmapDifficulty difficulty, int difficultyRank, float noteJumpMovementSpeed, float noteJumpStartBeatOffset, GlobalNamespace::BeatmapDataSO* beatmapData) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelSO::DifficultyBeatmap*, creationType>(parentLevel, difficulty, difficultyRank, noteJumpMovementSpeed, noteJumpStartBeatOffset, beatmapData)));
     }
-    // public System.Void SetParents(IBeatmapLevel parentLevel, IDifficultyBeatmapSet parentDifficultyBeatmapSet)
-    // Offset: 0x10C7518
-    void SetParents(GlobalNamespace::IBeatmapLevel* parentLevel, GlobalNamespace::IDifficultyBeatmapSet* parentDifficultyBeatmapSet);
   }; // BeatmapLevelSO/DifficultyBeatmap
   #pragma pack(pop)
   static check_size<sizeof(BeatmapLevelSO::DifficultyBeatmap), 48 + sizeof(GlobalNamespace::IDifficultyBeatmapSet*)> __GlobalNamespace_BeatmapLevelSO_DifficultyBeatmapSizeCheck;
@@ -193,10 +193,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*), "get_parentDifficultyBeatmapSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::SetParents
 // Il2CppName: SetParents
 template<>
@@ -207,3 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*), "SetParents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parentLevel, parentDifficultyBeatmapSet});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

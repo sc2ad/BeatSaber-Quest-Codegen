@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MirroredBombNoteController
     MirroredBombNoteController() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x113C314
+    // Offset: 0x11834A0
     // Implemented from: MirroredNoteController`1
     // Base method: System.Void MirroredNoteController_1::.ctor()
     // Base method: System.Void NoteControllerBase::.ctor()

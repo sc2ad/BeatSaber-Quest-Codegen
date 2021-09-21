@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     UnityEngine::Playables::PlayableDirector* btsCharactersResultsAppearPlayableDirector;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE36418
+    // [SpaceAttribute] Offset: 0xEFEB6C
     // private BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation[] _resultPlacesWithAnimations
     // Size: 0x8
     // Offset: 0x30
@@ -109,16 +109,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> _handles
     System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& dyn__handles();
     // private System.Void SpawnBtsCharacters(BTSCharacterDataModel/PrefabWithId btsCharacterPrefabToSpawn, System.Boolean useAlternativeMaterial)
-    // Offset: 0x10DB1B4
+    // Offset: 0x1193BF4
     void SpawnBtsCharacters(GlobalNamespace::BTSCharacterDataModel::PrefabWithId* btsCharacterPrefabToSpawn, bool useAlternativeMaterial);
     // private System.Collections.IEnumerator DestroyCharactersDelayed()
-    // Offset: 0x10DB760
+    // Offset: 0x11941A0
     System::Collections::IEnumerator* DestroyCharactersDelayed();
     // private System.Void DestroyCharactersAndStopAnimations()
-    // Offset: 0x10DB6D0
+    // Offset: 0x1194110
     void DestroyCharactersAndStopAnimations();
+    // public override System.Void Setup(IDifficultyBeatmap difficultyBeatmap)
+    // Offset: 0x11937E8
+    // Implemented from: BaseResultsEnvironmentController
+    // Base method: System.Void BaseResultsEnvironmentController::Setup(IDifficultyBeatmap difficultyBeatmap)
+    void Setup(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
+    // public override System.Void Activate(System.Boolean immediately)
+    // Offset: 0x1193EB8
+    // Implemented from: BaseResultsEnvironmentController
+    // Base method: System.Void BaseResultsEnvironmentController::Activate(System.Boolean immediately)
+    void Activate(bool immediately);
+    // public override System.Void Deactivate(System.Boolean immediately)
+    // Offset: 0x1193F60
+    // Implemented from: BaseResultsEnvironmentController
+    // Base method: System.Void BaseResultsEnvironmentController::Deactivate(System.Boolean immediately)
+    void Deactivate(bool immediately);
     // public System.Void .ctor()
-    // Offset: 0x10DB904
+    // Offset: 0x1194344
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -131,21 +146,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BtsResultsEnvironmentController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BtsResultsEnvironmentController*, creationType>()));
     }
-    // public override System.Void Setup(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x10DADA8
-    // Implemented from: BaseResultsEnvironmentController
-    // Base method: System.Void BaseResultsEnvironmentController::Setup(IDifficultyBeatmap difficultyBeatmap)
-    void Setup(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
-    // public override System.Void Activate(System.Boolean immediately)
-    // Offset: 0x10DB478
-    // Implemented from: BaseResultsEnvironmentController
-    // Base method: System.Void BaseResultsEnvironmentController::Activate(System.Boolean immediately)
-    void Activate(bool immediately);
-    // public override System.Void Deactivate(System.Boolean immediately)
-    // Offset: 0x10DB520
-    // Implemented from: BaseResultsEnvironmentController
-    // Base method: System.Void BaseResultsEnvironmentController::Deactivate(System.Boolean immediately)
-    void Deactivate(bool immediately);
   }; // BtsResultsEnvironmentController
   #pragma pack(pop)
   static check_size<sizeof(BtsResultsEnvironmentController), 56 + sizeof(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)> __GlobalNamespace_BtsResultsEnvironmentControllerSizeCheck;
@@ -179,10 +179,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BtsResultsEnvironmentController*), "DestroyCharactersAndStopAnimations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BtsResultsEnvironmentController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BtsResultsEnvironmentController::Setup
 // Il2CppName: Setup
 template<>
@@ -210,3 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BtsResultsEnvironmentController*), "Deactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{immediately});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BtsResultsEnvironmentController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -22,6 +22,7 @@ namespace Mono::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class CFObject : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xE6A444
     // private System.IntPtr <Handle>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -40,54 +41,54 @@ namespace Mono::Net {
     }
     // Get instance field reference: private System.IntPtr <Handle>k__BackingField
     System::IntPtr& dyn_$Handle$k__BackingField();
-    // public System.IntPtr get_Handle()
-    // Offset: 0x15EDA00
-    System::IntPtr get_Handle();
-    // private System.Void set_Handle(System.IntPtr value)
-    // Offset: 0x15EDA08
-    void set_Handle(System::IntPtr value);
+    // static public System.IntPtr dlopen(System.String path, System.Int32 mode)
+    // Offset: 0x17B63B0
+    static System::IntPtr dlopen(::Il2CppString* path, int mode);
+    // static private System.IntPtr dlsym(System.IntPtr handle, System.String symbol)
+    // Offset: 0x17B93D8
+    static System::IntPtr dlsym(System::IntPtr handle, ::Il2CppString* symbol);
+    // static public System.Void dlclose(System.IntPtr handle)
+    // Offset: 0x17B645C
+    static void dlclose(System::IntPtr handle);
+    // static public System.IntPtr GetIndirect(System.IntPtr handle, System.String symbol)
+    // Offset: 0x17B6458
+    static System::IntPtr GetIndirect(System::IntPtr handle, ::Il2CppString* symbol);
+    // static public System.IntPtr GetCFObjectHandle(System.IntPtr handle, System.String symbol)
+    // Offset: 0x17B9484
+    static System::IntPtr GetCFObjectHandle(System::IntPtr handle, ::Il2CppString* symbol);
     // public System.Void .ctor(System.IntPtr handle, System.Boolean own)
-    // Offset: 0x15EA6EC
+    // Offset: 0x17B6294
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CFObject* New_ctor(System::IntPtr handle, bool own) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::CFObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CFObject*, creationType>(handle, own)));
     }
-    // static public System.IntPtr dlopen(System.String path, System.Int32 mode)
-    // Offset: 0x15EA808
-    static System::IntPtr dlopen(::Il2CppString* path, int mode);
-    // static private System.IntPtr dlsym(System.IntPtr handle, System.String symbol)
-    // Offset: 0x15ED830
-    static System::IntPtr dlsym(System::IntPtr handle, ::Il2CppString* symbol);
-    // static public System.Void dlclose(System.IntPtr handle)
-    // Offset: 0x15EA8B4
-    static void dlclose(System::IntPtr handle);
-    // static public System.IntPtr GetIndirect(System.IntPtr handle, System.String symbol)
-    // Offset: 0x15EA8B0
-    static System::IntPtr GetIndirect(System::IntPtr handle, ::Il2CppString* symbol);
-    // static public System.IntPtr GetCFObjectHandle(System.IntPtr handle, System.String symbol)
-    // Offset: 0x15ED8DC
-    static System::IntPtr GetCFObjectHandle(System::IntPtr handle, ::Il2CppString* symbol);
+    // public System.IntPtr get_Handle()
+    // Offset: 0x17B95A8
+    System::IntPtr get_Handle();
+    // private System.Void set_Handle(System.IntPtr value)
+    // Offset: 0x17B95B0
+    void set_Handle(System::IntPtr value);
     // static System.IntPtr CFRetain(System.IntPtr handle)
-    // Offset: 0x15EDA10
+    // Offset: 0x17B95B8
     static System::IntPtr CFRetain(System::IntPtr handle);
     // private System.Void Retain()
-    // Offset: 0x15ED984
+    // Offset: 0x17B952C
     void Retain();
     // static System.Void CFRelease(System.IntPtr handle)
-    // Offset: 0x15EDA8C
+    // Offset: 0x17B9634
     static void CFRelease(System::IntPtr handle);
     // private System.Void Release()
-    // Offset: 0x15EDB0C
+    // Offset: 0x17B96B4
     void Release();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x15EDB14
+    // Offset: 0x17B96BC
     void Dispose(bool disposing);
     // public System.Void Dispose()
-    // Offset: 0x15EB874
+    // Offset: 0x17B741C
     void Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x15ED98C
+    // Offset: 0x17B9534
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -98,27 +99,6 @@ namespace Mono::Net {
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFObject*, "Mono.Net", "CFObject");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: Mono::Net::CFObject::get_Handle
-// Il2CppName: get_Handle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Mono::Net::CFObject::*)()>(&Mono::Net::CFObject::get_Handle)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFObject*), "get_Handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Mono::Net::CFObject::set_Handle
-// Il2CppName: set_Handle
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::CFObject::*)(System::IntPtr)>(&Mono::Net::CFObject::set_Handle)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFObject*), "set_Handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: Mono::Net::CFObject::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Net::CFObject::dlopen
 // Il2CppName: dlopen
 template<>
@@ -166,6 +146,27 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* symbol = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFObject*), "GetCFObjectHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle, symbol});
+  }
+};
+// Writing MetadataGetter for method: Mono::Net::CFObject::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: Mono::Net::CFObject::get_Handle
+// Il2CppName: get_Handle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Mono::Net::CFObject::*)()>(&Mono::Net::CFObject::get_Handle)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFObject*), "get_Handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Mono::Net::CFObject::set_Handle
+// Il2CppName: set_Handle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::CFObject::*)(System::IntPtr)>(&Mono::Net::CFObject::set_Handle)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFObject*), "set_Handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Mono::Net::CFObject::CFRetain

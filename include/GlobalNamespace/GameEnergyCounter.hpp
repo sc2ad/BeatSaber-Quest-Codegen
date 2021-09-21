@@ -83,76 +83,84 @@ namespace GlobalNamespace {
     int batteryLives;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [InjectAttribute] Offset: 0xE41C38
+    // [InjectAttribute] Offset: 0xF0A5CC
     // private readonly GameEnergyCounter/InitData _initData
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::GameEnergyCounter::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameEnergyCounter::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE41C48
+    // [InjectAttribute] Offset: 0xF0A5DC
     // private readonly SaberClashChecker _saberClashChecker
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::SaberClashChecker* saberClashChecker;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberClashChecker*) == 0x8);
-    // [InjectAttribute] Offset: 0xE41C58
+    // [InjectAttribute] Offset: 0xF0A5EC
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE41C68
+    // [InjectAttribute] Offset: 0xF0A5FC
     // private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::PlayerHeadAndObstacleInteraction* playerHeadAndObstacleInteraction;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerHeadAndObstacleInteraction*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0A60C
     // private System.Action didInitEvent
     // Size: 0x8
     // Offset: 0x50
     System::Action* didInitEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0A61C
     // private System.Action gameEnergyDidReach0Event
     // Size: 0x8
     // Offset: 0x58
     System::Action* gameEnergyDidReach0Event;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0A62C
     // private System.Action`1<System.Single> gameEnergyDidChangeEvent
     // Size: 0x8
     // Offset: 0x60
     System::Action_1<float>* gameEnergyDidChangeEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<float>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0A63C
     // private System.Single <energy>k__BackingField
     // Size: 0x4
     // Offset: 0x68
     float energy;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    // [CompilerGeneratedAttribute] Offset: 0xF0A64C
     // private GameplayModifiers/EnergyType <energyType>k__BackingField
     // Size: 0x4
     // Offset: 0x6C
     GlobalNamespace::GameplayModifiers::EnergyType energyType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiers::EnergyType) == 0x4);
+    // [CompilerGeneratedAttribute] Offset: 0xF0A65C
     // private System.Boolean <noFail>k__BackingField
     // Size: 0x1
     // Offset: 0x70
     bool noFail;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    // [CompilerGeneratedAttribute] Offset: 0xF0A66C
     // private System.Boolean <instaFail>k__BackingField
     // Size: 0x1
     // Offset: 0x71
     bool instaFail;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    // [CompilerGeneratedAttribute] Offset: 0xF0A67C
     // private System.Boolean <failOnSaberClash>k__BackingField
     // Size: 0x1
     // Offset: 0x72
@@ -229,83 +237,83 @@ namespace GlobalNamespace {
     bool& dyn__didReach0Energy();
     // Get instance field reference: private System.Single _nextFrameEnergyChange
     float& dyn__nextFrameEnergyChange();
-    // public System.Boolean get_isInitialized()
-    // Offset: 0x1064440
-    bool get_isInitialized();
-    // public System.Single get_energy()
-    // Offset: 0x1064448
-    float get_energy();
-    // private System.Void set_energy(System.Single value)
-    // Offset: 0x1064450
-    void set_energy(float value);
-    // public System.Int32 get_batteryEnergy()
-    // Offset: 0x1064458
-    int get_batteryEnergy();
-    // public System.Int32 get_batteryLives()
-    // Offset: 0x10644DC
-    int get_batteryLives();
-    // public GameplayModifiers/EnergyType get_energyType()
-    // Offset: 0x10644E4
-    GlobalNamespace::GameplayModifiers::EnergyType get_energyType();
-    // private System.Void set_energyType(GameplayModifiers/EnergyType value)
-    // Offset: 0x10644EC
-    void set_energyType(GlobalNamespace::GameplayModifiers::EnergyType value);
-    // public System.Boolean get_noFail()
-    // Offset: 0x10644F4
-    bool get_noFail();
-    // private System.Void set_noFail(System.Boolean value)
-    // Offset: 0x10644FC
-    void set_noFail(bool value);
-    // public System.Boolean get_instaFail()
-    // Offset: 0x1064508
-    bool get_instaFail();
-    // private System.Void set_instaFail(System.Boolean value)
-    // Offset: 0x1064510
-    void set_instaFail(bool value);
-    // public System.Boolean get_failOnSaberClash()
-    // Offset: 0x106451C
-    bool get_failOnSaberClash();
-    // private System.Void set_failOnSaberClash(System.Boolean value)
-    // Offset: 0x1064524
-    void set_failOnSaberClash(bool value);
     // public System.Void add_didInitEvent(System.Action value)
-    // Offset: 0x10641B0
+    // Offset: 0x11D42A4
     void add_didInitEvent(System::Action* value);
     // public System.Void remove_didInitEvent(System.Action value)
-    // Offset: 0x1064254
+    // Offset: 0x11D4348
     void remove_didInitEvent(System::Action* value);
     // public System.Void add_gameEnergyDidReach0Event(System.Action value)
-    // Offset: 0x10642F8
+    // Offset: 0x11D43EC
     void add_gameEnergyDidReach0Event(System::Action* value);
     // public System.Void remove_gameEnergyDidReach0Event(System.Action value)
-    // Offset: 0x106439C
+    // Offset: 0x11D4490
     void remove_gameEnergyDidReach0Event(System::Action* value);
     // public System.Void add_gameEnergyDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x10564EC
+    // Offset: 0x11D4534
     void add_gameEnergyDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_gameEnergyDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x105626C
+    // Offset: 0x11D45D8
     void remove_gameEnergyDidChangeEvent(System::Action_1<float>* value);
+    // public System.Boolean get_isInitialized()
+    // Offset: 0x11D467C
+    bool get_isInitialized();
+    // public System.Single get_energy()
+    // Offset: 0x11D4684
+    float get_energy();
+    // private System.Void set_energy(System.Single value)
+    // Offset: 0x11D468C
+    void set_energy(float value);
+    // public System.Int32 get_batteryEnergy()
+    // Offset: 0x11D4694
+    int get_batteryEnergy();
+    // public System.Int32 get_batteryLives()
+    // Offset: 0x11D4718
+    int get_batteryLives();
+    // public GameplayModifiers/EnergyType get_energyType()
+    // Offset: 0x11D4720
+    GlobalNamespace::GameplayModifiers::EnergyType get_energyType();
+    // private System.Void set_energyType(GameplayModifiers/EnergyType value)
+    // Offset: 0x11D4728
+    void set_energyType(GlobalNamespace::GameplayModifiers::EnergyType value);
+    // public System.Boolean get_noFail()
+    // Offset: 0x11D4730
+    bool get_noFail();
+    // private System.Void set_noFail(System.Boolean value)
+    // Offset: 0x11D4738
+    void set_noFail(bool value);
+    // public System.Boolean get_instaFail()
+    // Offset: 0x11D4744
+    bool get_instaFail();
+    // private System.Void set_instaFail(System.Boolean value)
+    // Offset: 0x11D474C
+    void set_instaFail(bool value);
+    // public System.Boolean get_failOnSaberClash()
+    // Offset: 0x11D4758
+    bool get_failOnSaberClash();
+    // private System.Void set_failOnSaberClash(System.Boolean value)
+    // Offset: 0x11D4760
+    void set_failOnSaberClash(bool value);
     // protected System.Void Start()
-    // Offset: 0x1064530
+    // Offset: 0x11D476C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10646A0
+    // Offset: 0x11D48DC
     void OnDestroy();
     // protected System.Void LateUpdate()
-    // Offset: 0x1064788
+    // Offset: 0x11D49C4
     void LateUpdate();
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x10649C8
+    // Offset: 0x11D4C04
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo);
     // private System.Void HandleNoteWasMissed(NoteController noteController)
-    // Offset: 0x1064A54
+    // Offset: 0x11D4C90
     void HandleNoteWasMissed(GlobalNamespace::NoteController* noteController);
     // private System.Void ProcessEnergyChange(System.Single energyChange)
-    // Offset: 0x1064894
+    // Offset: 0x11D4AD0
     void ProcessEnergyChange(float energyChange);
     // public System.Void .ctor()
-    // Offset: 0x1064AAC
+    // Offset: 0x11D4CE8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -324,6 +332,60 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameEnergyCounter*, "", "GameEnergyCounter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::add_didInitEvent
+// Il2CppName: add_didInitEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(System::Action*)>(&GlobalNamespace::GameEnergyCounter::add_didInitEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "add_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::remove_didInitEvent
+// Il2CppName: remove_didInitEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(System::Action*)>(&GlobalNamespace::GameEnergyCounter::remove_didInitEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "remove_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::add_gameEnergyDidReach0Event
+// Il2CppName: add_gameEnergyDidReach0Event
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(System::Action*)>(&GlobalNamespace::GameEnergyCounter::add_gameEnergyDidReach0Event)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "add_gameEnergyDidReach0Event", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::remove_gameEnergyDidReach0Event
+// Il2CppName: remove_gameEnergyDidReach0Event
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(System::Action*)>(&GlobalNamespace::GameEnergyCounter::remove_gameEnergyDidReach0Event)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "remove_gameEnergyDidReach0Event", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::add_gameEnergyDidChangeEvent
+// Il2CppName: add_gameEnergyDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(System::Action_1<float>*)>(&GlobalNamespace::GameEnergyCounter::add_gameEnergyDidChangeEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "add_gameEnergyDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::remove_gameEnergyDidChangeEvent
+// Il2CppName: remove_gameEnergyDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(System::Action_1<float>*)>(&GlobalNamespace::GameEnergyCounter::remove_gameEnergyDidChangeEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "remove_gameEnergyDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::get_isInitialized
 // Il2CppName: get_isInitialized
 template<>
@@ -431,60 +493,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "set_failOnSaberClash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::add_didInitEvent
-// Il2CppName: add_didInitEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(System::Action*)>(&GlobalNamespace::GameEnergyCounter::add_didInitEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "add_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::remove_didInitEvent
-// Il2CppName: remove_didInitEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(System::Action*)>(&GlobalNamespace::GameEnergyCounter::remove_didInitEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "remove_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::add_gameEnergyDidReach0Event
-// Il2CppName: add_gameEnergyDidReach0Event
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(System::Action*)>(&GlobalNamespace::GameEnergyCounter::add_gameEnergyDidReach0Event)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "add_gameEnergyDidReach0Event", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::remove_gameEnergyDidReach0Event
-// Il2CppName: remove_gameEnergyDidReach0Event
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(System::Action*)>(&GlobalNamespace::GameEnergyCounter::remove_gameEnergyDidReach0Event)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "remove_gameEnergyDidReach0Event", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::add_gameEnergyDidChangeEvent
-// Il2CppName: add_gameEnergyDidChangeEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(System::Action_1<float>*)>(&GlobalNamespace::GameEnergyCounter::add_gameEnergyDidChangeEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "add_gameEnergyDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::remove_gameEnergyDidChangeEvent
-// Il2CppName: remove_gameEnergyDidChangeEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyCounter::*)(System::Action_1<float>*)>(&GlobalNamespace::GameEnergyCounter::remove_gameEnergyDidChangeEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyCounter*), "remove_gameEnergyDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::Start

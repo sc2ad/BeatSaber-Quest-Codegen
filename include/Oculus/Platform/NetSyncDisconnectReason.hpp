@@ -32,35 +32,35 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xE21D60
+    // [DescriptionAttribute] Offset: 0xEE943C
     // static field const value: static public Oculus.Platform.NetSyncDisconnectReason Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.NetSyncDisconnectReason Unknown
     static Oculus::Platform::NetSyncDisconnectReason _get_Unknown();
     // Set static field: static public Oculus.Platform.NetSyncDisconnectReason Unknown
     static void _set_Unknown(Oculus::Platform::NetSyncDisconnectReason value);
-    // [DescriptionAttribute] Offset: 0xE21D98
+    // [DescriptionAttribute] Offset: 0xEE9474
     // static field const value: static public Oculus.Platform.NetSyncDisconnectReason LocalTerminated
     static constexpr const int LocalTerminated = 1;
     // Get static field: static public Oculus.Platform.NetSyncDisconnectReason LocalTerminated
     static Oculus::Platform::NetSyncDisconnectReason _get_LocalTerminated();
     // Set static field: static public Oculus.Platform.NetSyncDisconnectReason LocalTerminated
     static void _set_LocalTerminated(Oculus::Platform::NetSyncDisconnectReason value);
-    // [DescriptionAttribute] Offset: 0xE21DD0
+    // [DescriptionAttribute] Offset: 0xEE94AC
     // static field const value: static public Oculus.Platform.NetSyncDisconnectReason ServerTerminated
     static constexpr const int ServerTerminated = 2;
     // Get static field: static public Oculus.Platform.NetSyncDisconnectReason ServerTerminated
     static Oculus::Platform::NetSyncDisconnectReason _get_ServerTerminated();
     // Set static field: static public Oculus.Platform.NetSyncDisconnectReason ServerTerminated
     static void _set_ServerTerminated(Oculus::Platform::NetSyncDisconnectReason value);
-    // [DescriptionAttribute] Offset: 0xE21E08
+    // [DescriptionAttribute] Offset: 0xEE94E4
     // static field const value: static public Oculus.Platform.NetSyncDisconnectReason Failed
     static constexpr const int Failed = 3;
     // Get static field: static public Oculus.Platform.NetSyncDisconnectReason Failed
     static Oculus::Platform::NetSyncDisconnectReason _get_Failed();
     // Set static field: static public Oculus.Platform.NetSyncDisconnectReason Failed
     static void _set_Failed(Oculus::Platform::NetSyncDisconnectReason value);
-    // [DescriptionAttribute] Offset: 0xE21E40
+    // [DescriptionAttribute] Offset: 0xEE951C
     // static field const value: static public Oculus.Platform.NetSyncDisconnectReason Lost
     static constexpr const int Lost = 4;
     // Get static field: static public Oculus.Platform.NetSyncDisconnectReason Lost

@@ -23,7 +23,7 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: LessThanOrEqualConstraint
     LessThanOrEqualConstraint() noexcept {}
     // public System.Void .ctor(System.Object expected)
-    // Offset: 0x176EBDC
+    // Offset: 0x192DC28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LessThanOrEqualConstraint* New_ctor(::Il2CppObject* expected) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::LessThanOrEqualConstraint::.ctor");

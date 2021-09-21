@@ -63,30 +63,35 @@ namespace GlobalNamespace {
     GlobalNamespace::SceneInfo* gameCoreSceneInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SceneInfo*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF1510C
     // private System.Action`2<StandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> didFinishEvent
     // Size: 0x8
     // Offset: 0x38
     System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF1511C
     // private System.String <gameMode>k__BackingField
     // Size: 0x8
     // Offset: 0x40
     ::Il2CppString* gameMode;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF1512C
     // private IDifficultyBeatmap <difficultyBeatmap>k__BackingField
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IDifficultyBeatmap*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF1513C
     // private PracticeSettings <practiceSettings>k__BackingField
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::PracticeSettings* practiceSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PracticeSettings*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF1514C
     // private System.Boolean <usingOverrideColorScheme>k__BackingField
     // Size: 0x1
     // Offset: 0x58
@@ -95,12 +100,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: usingOverrideColorScheme and: colorScheme
     char __padding6[0x7] = {};
+    // [CompilerGeneratedAttribute] Offset: 0xF1515C
     // private ColorScheme <colorScheme>k__BackingField
     // Size: 0x8
     // Offset: 0x60
     GlobalNamespace::ColorScheme* colorScheme;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorScheme*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF1516C
     // private System.Boolean <usingOverrideEnvironment>k__BackingField
     // Size: 0x1
     // Offset: 0x68
@@ -109,6 +116,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: usingOverrideEnvironment and: environmentInfo
     char __padding8[0x7] = {};
+    // [CompilerGeneratedAttribute] Offset: 0xF1517C
     // private EnvironmentInfoSO <environmentInfo>k__BackingField
     // Size: 0x8
     // Offset: 0x70
@@ -137,62 +145,62 @@ namespace GlobalNamespace {
     bool& dyn_$usingOverrideEnvironment$k__BackingField();
     // Get instance field reference: private EnvironmentInfoSO <environmentInfo>k__BackingField
     GlobalNamespace::EnvironmentInfoSO*& dyn_$environmentInfo$k__BackingField();
-    // public System.String get_gameMode()
-    // Offset: 0x1069DB0
-    ::Il2CppString* get_gameMode();
-    // private System.Void set_gameMode(System.String value)
-    // Offset: 0x1069DB8
-    void set_gameMode(::Il2CppString* value);
-    // public IDifficultyBeatmap get_difficultyBeatmap()
-    // Offset: 0x1069DC0
-    GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
-    // private System.Void set_difficultyBeatmap(IDifficultyBeatmap value)
-    // Offset: 0x1069DC8
-    void set_difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
-    // public PracticeSettings get_practiceSettings()
-    // Offset: 0x1069DD0
-    GlobalNamespace::PracticeSettings* get_practiceSettings();
-    // private System.Void set_practiceSettings(PracticeSettings value)
-    // Offset: 0x1069DD8
-    void set_practiceSettings(GlobalNamespace::PracticeSettings* value);
-    // public System.Boolean get_usingOverrideColorScheme()
-    // Offset: 0x1069DE0
-    bool get_usingOverrideColorScheme();
-    // private System.Void set_usingOverrideColorScheme(System.Boolean value)
-    // Offset: 0x1069DE8
-    void set_usingOverrideColorScheme(bool value);
-    // public ColorScheme get_colorScheme()
-    // Offset: 0x1069DF4
-    GlobalNamespace::ColorScheme* get_colorScheme();
-    // private System.Void set_colorScheme(ColorScheme value)
-    // Offset: 0x1069DFC
-    void set_colorScheme(GlobalNamespace::ColorScheme* value);
-    // public System.Boolean get_usingOverrideEnvironment()
-    // Offset: 0x1069E04
-    bool get_usingOverrideEnvironment();
-    // private System.Void set_usingOverrideEnvironment(System.Boolean value)
-    // Offset: 0x1069E0C
-    void set_usingOverrideEnvironment(bool value);
-    // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0x1069E18
-    GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
-    // private System.Void set_environmentInfo(EnvironmentInfoSO value)
-    // Offset: 0x1069E20
-    void set_environmentInfo(GlobalNamespace::EnvironmentInfoSO* value);
     // public System.Void add_didFinishEvent(System.Action`2<StandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> value)
-    // Offset: 0x1069C68
+    // Offset: 0x11585F0
     void add_didFinishEvent(System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<StandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> value)
-    // Offset: 0x1069D0C
+    // Offset: 0x1158694
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>* value);
+    // public System.String get_gameMode()
+    // Offset: 0x1158738
+    ::Il2CppString* get_gameMode();
+    // private System.Void set_gameMode(System.String value)
+    // Offset: 0x1158740
+    void set_gameMode(::Il2CppString* value);
+    // public IDifficultyBeatmap get_difficultyBeatmap()
+    // Offset: 0x1158748
+    GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
+    // private System.Void set_difficultyBeatmap(IDifficultyBeatmap value)
+    // Offset: 0x1158750
+    void set_difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
+    // public PracticeSettings get_practiceSettings()
+    // Offset: 0x1158758
+    GlobalNamespace::PracticeSettings* get_practiceSettings();
+    // private System.Void set_practiceSettings(PracticeSettings value)
+    // Offset: 0x1158760
+    void set_practiceSettings(GlobalNamespace::PracticeSettings* value);
+    // public System.Boolean get_usingOverrideColorScheme()
+    // Offset: 0x1158768
+    bool get_usingOverrideColorScheme();
+    // private System.Void set_usingOverrideColorScheme(System.Boolean value)
+    // Offset: 0x1158770
+    void set_usingOverrideColorScheme(bool value);
+    // public ColorScheme get_colorScheme()
+    // Offset: 0x115877C
+    GlobalNamespace::ColorScheme* get_colorScheme();
+    // private System.Void set_colorScheme(ColorScheme value)
+    // Offset: 0x1158784
+    void set_colorScheme(GlobalNamespace::ColorScheme* value);
+    // public System.Boolean get_usingOverrideEnvironment()
+    // Offset: 0x115878C
+    bool get_usingOverrideEnvironment();
+    // private System.Void set_usingOverrideEnvironment(System.Boolean value)
+    // Offset: 0x1158794
+    void set_usingOverrideEnvironment(bool value);
+    // public EnvironmentInfoSO get_environmentInfo()
+    // Offset: 0x11587A0
+    GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
+    // private System.Void set_environmentInfo(EnvironmentInfoSO value)
+    // Offset: 0x11587A8
+    void set_environmentInfo(GlobalNamespace::EnvironmentInfoSO* value);
     // public System.Void Init(System.String gameMode, IDifficultyBeatmap difficultyBeatmap, IPreviewBeatmapLevel previewBeatmapLevel, OverrideEnvironmentSettings overrideEnvironmentSettings, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.String backButtonText, System.Boolean useTestNoteCutSoundEffects)
-    // Offset: 0x1069610
+    // Offset: 0x1157F98
     void Init(::Il2CppString* gameMode, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::PracticeSettings* practiceSettings, ::Il2CppString* backButtonText, bool useTestNoteCutSoundEffects);
     // public System.Void Finish(LevelCompletionResults levelCompletionResults)
-    // Offset: 0x1067D24
+    // Offset: 0x11566AC
     void Finish(GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0x1069E28
+    // Offset: 0x11587B0
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -211,6 +219,24 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, "", "StandardLevelScenesTransitionSetupDataSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::add_didFinishEvent
+// Il2CppName: add_didFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>*)>(&GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::add_didFinishEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "StandardLevelScenesTransitionSetupDataSO"), ::il2cpp_utils::GetClassFromName("", "LevelCompletionResults")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::remove_didFinishEvent
+// Il2CppName: remove_didFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>*)>(&GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::remove_didFinishEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "StandardLevelScenesTransitionSetupDataSO"), ::il2cpp_utils::GetClassFromName("", "LevelCompletionResults")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::get_gameMode
 // Il2CppName: get_gameMode
 template<>
@@ -328,24 +354,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "EnvironmentInfoSO")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*), "set_environmentInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::add_didFinishEvent
-// Il2CppName: add_didFinishEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>*)>(&GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::add_didFinishEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "StandardLevelScenesTransitionSetupDataSO"), ::il2cpp_utils::GetClassFromName("", "LevelCompletionResults")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::remove_didFinishEvent
-// Il2CppName: remove_didFinishEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>*)>(&GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::remove_didFinishEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "StandardLevelScenesTransitionSetupDataSO"), ::il2cpp_utils::GetClassFromName("", "LevelCompletionResults")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::Init

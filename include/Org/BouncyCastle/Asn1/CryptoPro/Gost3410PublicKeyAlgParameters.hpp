@@ -57,27 +57,27 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_digestParamSet();
     // Get instance field reference: private Org.BouncyCastle.Asn1.DerObjectIdentifier encryptionParamSet
     Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_encryptionParamSet();
-    // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_PublicKeyParamSet()
-    // Offset: 0x173AFD8
-    Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
-    // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_DigestParamSet()
-    // Offset: 0x173AFE0
-    Org::BouncyCastle::Asn1::DerObjectIdentifier* get_DigestParamSet();
-    // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_EncryptionParamSet()
-    // Offset: 0x173AFE8
-    Org::BouncyCastle::Asn1::DerObjectIdentifier* get_EncryptionParamSet();
+    // static public Org.BouncyCastle.Asn1.CryptoPro.Gost3410PublicKeyAlgParameters GetInstance(System.Object obj)
+    // Offset: 0x18EC5B4
+    static Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x173AE7C
+    // Offset: 0x18EC654
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3410PublicKeyAlgParameters* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3410PublicKeyAlgParameters*, creationType>(seq)));
     }
-    // static public Org.BouncyCastle.Asn1.CryptoPro.Gost3410PublicKeyAlgParameters GetInstance(System.Object obj)
-    // Offset: 0x173ADDC
-    static Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* GetInstance(::Il2CppObject* obj);
+    // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_PublicKeyParamSet()
+    // Offset: 0x18EC7B0
+    Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
+    // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_DigestParamSet()
+    // Offset: 0x18EC7B8
+    Org::BouncyCastle::Asn1::DerObjectIdentifier* get_DigestParamSet();
+    // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_EncryptionParamSet()
+    // Offset: 0x18EC7C0
+    Org::BouncyCastle::Asn1::DerObjectIdentifier* get_EncryptionParamSet();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x173AFF0
+    // Offset: 0x18EC7C8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
@@ -88,6 +88,19 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters*, "Org.BouncyCastle.Asn1.CryptoPro", "Gost3410PublicKeyAlgParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters::GetInstance
+// Il2CppName: GetInstance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* (*)(::Il2CppObject*)>(&Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters::GetInstance)> {
+  static const MethodInfo* get() {
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
+  }
+};
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters::get_PublicKeyParamSet
 // Il2CppName: get_PublicKeyParamSet
 template<>
@@ -110,19 +123,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters::*)()>(&Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters::get_EncryptionParamSet)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters*), "get_EncryptionParamSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* (*)(::Il2CppObject*)>(&Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters::GetInstance)> {
-  static const MethodInfo* get() {
-    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters::ToAsn1Object

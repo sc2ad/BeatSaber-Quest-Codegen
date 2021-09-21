@@ -63,10 +63,15 @@ namespace GlobalNamespace {
     // Get instance field reference: public TubeLightIntensityBehaviour _template
     GlobalNamespace::TubeLightIntensityBehaviour*& dyn__template();
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x1074DC4
+    // Offset: 0x116374C
     UnityEngine::Timeline::ClipCaps get_clipCaps();
+    // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
+    // Offset: 0x1163754
+    // Implemented from: UnityEngine.Playables.PlayableAsset
+    // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
+    UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go);
     // public System.Void .ctor()
-    // Offset: 0x1074E6C
+    // Offset: 0x11637F4
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Void PlayableAsset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -77,11 +82,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TubeLightIntensityAsset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TubeLightIntensityAsset*, creationType>()));
     }
-    // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x1074DCC
-    // Implemented from: UnityEngine.Playables.PlayableAsset
-    // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go);
   }; // TubeLightIntensityAsset
   #pragma pack(pop)
   static check_size<sizeof(TubeLightIntensityAsset), 24 + sizeof(GlobalNamespace::TubeLightIntensityBehaviour*)> __GlobalNamespace_TubeLightIntensityAssetSizeCheck;
@@ -97,10 +97,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeLightIntensityAsset*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TubeLightIntensityAsset::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TubeLightIntensityAsset::CreatePlayable
 // Il2CppName: CreatePlayable
 template<>
@@ -111,3 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeLightIntensityAsset*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{graph, go});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::TubeLightIntensityAsset::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

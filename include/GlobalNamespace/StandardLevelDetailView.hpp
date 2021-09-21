@@ -114,12 +114,14 @@ namespace GlobalNamespace {
     UnityEngine::UI::Toggle* favoriteToggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF13524
     // private System.Action`2<StandardLevelDetailView,IDifficultyBeatmap> didChangeDifficultyBeatmapEvent
     // Size: 0x8
     // Offset: 0x58
     System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>* didChangeDifficultyBeatmapEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF13534
     // private System.Action`2<StandardLevelDetailView,UnityEngine.UI.Toggle> didFavoriteToggleChangeEvent
     // Size: 0x8
     // Offset: 0x60
@@ -192,62 +194,62 @@ namespace GlobalNamespace {
     GlobalNamespace::IDifficultyBeatmap*& dyn__selectedDifficultyBeatmap();
     // Get instance field reference: private HMUI.ToggleBinder _toggleBinder
     HMUI::ToggleBinder*& dyn__toggleBinder();
-    // public IDifficultyBeatmap get_selectedDifficultyBeatmap()
-    // Offset: 0x10A1CCC
-    GlobalNamespace::IDifficultyBeatmap* get_selectedDifficultyBeatmap();
-    // public UnityEngine.UI.Button get_actionButton()
-    // Offset: 0x10A1CD4
-    UnityEngine::UI::Button* get_actionButton();
-    // public System.Void set_actionButtonText(System.String value)
-    // Offset: 0x10A1CDC
-    void set_actionButtonText(::Il2CppString* value);
-    // public UnityEngine.UI.Button get_practiceButton()
-    // Offset: 0x10A1CF8
-    UnityEngine::UI::Button* get_practiceButton();
-    // public System.Void set_hidePracticeButton(System.Boolean value)
-    // Offset: 0x10A1D00
-    void set_hidePracticeButton(bool value);
-    // public System.Void set_disableActionButton(System.Boolean value)
-    // Offset: 0x10A1D40
-    void set_disableActionButton(bool value);
     // public System.Void add_didChangeDifficultyBeatmapEvent(System.Action`2<StandardLevelDetailView,IDifficultyBeatmap> value)
-    // Offset: 0x10A1A3C
+    // Offset: 0x1110720
     void add_didChangeDifficultyBeatmapEvent(System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void remove_didChangeDifficultyBeatmapEvent(System.Action`2<StandardLevelDetailView,IDifficultyBeatmap> value)
-    // Offset: 0x10A1AE0
+    // Offset: 0x11107C4
     void remove_didChangeDifficultyBeatmapEvent(System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void add_didFavoriteToggleChangeEvent(System.Action`2<StandardLevelDetailView,UnityEngine.UI.Toggle> value)
-    // Offset: 0x10A1B84
+    // Offset: 0x1110868
     void add_didFavoriteToggleChangeEvent(System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>* value);
     // public System.Void remove_didFavoriteToggleChangeEvent(System.Action`2<StandardLevelDetailView,UnityEngine.UI.Toggle> value)
-    // Offset: 0x10A1C28
+    // Offset: 0x111090C
     void remove_didFavoriteToggleChangeEvent(System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>* value);
+    // public IDifficultyBeatmap get_selectedDifficultyBeatmap()
+    // Offset: 0x11109B0
+    GlobalNamespace::IDifficultyBeatmap* get_selectedDifficultyBeatmap();
+    // public UnityEngine.UI.Button get_actionButton()
+    // Offset: 0x11109B8
+    UnityEngine::UI::Button* get_actionButton();
+    // public System.Void set_actionButtonText(System.String value)
+    // Offset: 0x11109C0
+    void set_actionButtonText(::Il2CppString* value);
+    // public UnityEngine.UI.Button get_practiceButton()
+    // Offset: 0x11109DC
+    UnityEngine::UI::Button* get_practiceButton();
+    // public System.Void set_hidePracticeButton(System.Boolean value)
+    // Offset: 0x11109E4
+    void set_hidePracticeButton(bool value);
+    // public System.Void set_disableActionButton(System.Boolean value)
+    // Offset: 0x1110A24
+    void set_disableActionButton(bool value);
     // public System.Void SetContent(IBeatmapLevel level, BeatmapDifficulty defaultDifficulty, BeatmapCharacteristicSO defaultBeatmapCharacteristic, PlayerData playerData, System.Boolean showPlayerStats)
-    // Offset: 0x10A1D64
+    // Offset: 0x1110A48
     void SetContent(GlobalNamespace::IBeatmapLevel* level, GlobalNamespace::BeatmapDifficulty defaultDifficulty, GlobalNamespace::BeatmapCharacteristicSO* defaultBeatmapCharacteristic, GlobalNamespace::PlayerData* playerData, bool showPlayerStats);
     // protected System.Void Awake()
-    // Offset: 0x10A2534
+    // Offset: 0x1111218
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x10A2684
+    // Offset: 0x1111368
     void OnDestroy();
     // private System.Void HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty(BeatmapDifficultySegmentedControlController controller, BeatmapDifficulty difficulty)
-    // Offset: 0x10A27EC
+    // Offset: 0x11114D0
     void HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty(GlobalNamespace::BeatmapDifficultySegmentedControlController* controller, GlobalNamespace::BeatmapDifficulty difficulty);
     // private System.Void HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic(BeatmapCharacteristicSegmentedControlController controller, BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x10A285C
+    // Offset: 0x1111540
     void HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSegmentedControlController* controller, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // public System.Void RefreshContent()
-    // Offset: 0x10A2058
+    // Offset: 0x1110D3C
     void RefreshContent();
     // public System.Void ClearContent()
-    // Offset: 0x10A29F8
+    // Offset: 0x11116DC
     void ClearContent();
     // private System.Void <Awake>b__32_0(System.Boolean on)
-    // Offset: 0x10A2A08
+    // Offset: 0x11116EC
     void $Awake$b__32_0(bool on);
     // public System.Void .ctor()
-    // Offset: 0x10A2A00
+    // Offset: 0x11116E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -266,6 +268,42 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailView*, "", "StandardLevelDetailView");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::add_didChangeDifficultyBeatmapEvent
+// Il2CppName: add_didChangeDifficultyBeatmapEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)(System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>*)>(&GlobalNamespace::StandardLevelDetailView::add_didChangeDifficultyBeatmapEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "StandardLevelDetailView"), ::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "add_didChangeDifficultyBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::remove_didChangeDifficultyBeatmapEvent
+// Il2CppName: remove_didChangeDifficultyBeatmapEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)(System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>*)>(&GlobalNamespace::StandardLevelDetailView::remove_didChangeDifficultyBeatmapEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "StandardLevelDetailView"), ::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "remove_didChangeDifficultyBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::add_didFavoriteToggleChangeEvent
+// Il2CppName: add_didFavoriteToggleChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)(System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>*)>(&GlobalNamespace::StandardLevelDetailView::add_didFavoriteToggleChangeEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "StandardLevelDetailView"), ::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Toggle")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "add_didFavoriteToggleChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::remove_didFavoriteToggleChangeEvent
+// Il2CppName: remove_didFavoriteToggleChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)(System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>*)>(&GlobalNamespace::StandardLevelDetailView::remove_didFavoriteToggleChangeEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "StandardLevelDetailView"), ::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Toggle")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "remove_didFavoriteToggleChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::get_selectedDifficultyBeatmap
 // Il2CppName: get_selectedDifficultyBeatmap
 template<>
@@ -315,42 +353,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "set_disableActionButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::add_didChangeDifficultyBeatmapEvent
-// Il2CppName: add_didChangeDifficultyBeatmapEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)(System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>*)>(&GlobalNamespace::StandardLevelDetailView::add_didChangeDifficultyBeatmapEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "StandardLevelDetailView"), ::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "add_didChangeDifficultyBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::remove_didChangeDifficultyBeatmapEvent
-// Il2CppName: remove_didChangeDifficultyBeatmapEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)(System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>*)>(&GlobalNamespace::StandardLevelDetailView::remove_didChangeDifficultyBeatmapEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "StandardLevelDetailView"), ::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "remove_didChangeDifficultyBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::add_didFavoriteToggleChangeEvent
-// Il2CppName: add_didFavoriteToggleChangeEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)(System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>*)>(&GlobalNamespace::StandardLevelDetailView::add_didFavoriteToggleChangeEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "StandardLevelDetailView"), ::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Toggle")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "add_didFavoriteToggleChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::remove_didFavoriteToggleChangeEvent
-// Il2CppName: remove_didFavoriteToggleChangeEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)(System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>*)>(&GlobalNamespace::StandardLevelDetailView::remove_didFavoriteToggleChangeEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "StandardLevelDetailView"), ::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Toggle")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "remove_didFavoriteToggleChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::SetContent

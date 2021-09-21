@@ -40,13 +40,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private BloomPrePassEffectSO _bloomPrePassEffect
     GlobalNamespace::BloomPrePassEffectSO*& dyn__bloomPrePassEffect();
     // public BloomPrePassEffectSO get_bloomPrePassEffect()
-    // Offset: 0x1E13CC8
+    // Offset: 0x1E23C0C
     GlobalNamespace::BloomPrePassEffectSO* get_bloomPrePassEffect();
     // public System.Void Init(BloomPrePassEffectSO bloomPrePassEffect)
-    // Offset: 0x1E13CD0
+    // Offset: 0x1E23C14
     void Init(GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect);
     // public System.Void .ctor()
-    // Offset: 0x1E13CD8
+    // Offset: 0x1E23C1C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

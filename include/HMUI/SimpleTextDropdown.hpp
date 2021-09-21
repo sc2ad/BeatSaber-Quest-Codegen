@@ -7,7 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HMUI.DropdownWithTableView
 #include "HMUI/DropdownWithTableView.hpp"
-// Including type: HMUI.TableView/HMUI.IDataSource
+// Including type: HMUI.TableView/IDataSource
 #include "HMUI/TableView_IDataSource.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
@@ -108,25 +108,40 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _initialized
     bool& dyn__initialized();
     // private System.Void LazyInit()
-    // Offset: 0x13191E8
+    // Offset: 0x141B798
     void LazyInit();
     // public System.Void SetTexts(System.Collections.Generic.IReadOnlyList`1<System.String> texts)
-    // Offset: 0x1319380
+    // Offset: 0x141B930
     void SetTexts(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* texts);
     // public System.Single CellSize()
-    // Offset: 0x13196FC
+    // Offset: 0x141BCAC
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x1319704
+    // Offset: 0x141BCB4
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x13197C0
+    // Offset: 0x141BD70
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
     // private System.Void HandleDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x1319A28
+    // Offset: 0x141BFD8
     void HandleDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
+    // protected override System.Void OnDestroy()
+    // Offset: 0x141B844
+    // Implemented from: HMUI.DropdownWithTableView
+    // Base method: System.Void DropdownWithTableView::OnDestroy()
+    void OnDestroy();
+    // public System.Void Init(HMUI.TableView/IDataSource initTableViewDataSource)
+    // Offset: 0x141B8D0
+    // Implemented from: HMUI.DropdownWithTableView
+    // Base method: System.Void DropdownWithTableView::Init(HMUI.TableView/IDataSource initTableViewDataSource)
+    void Init(HMUI::TableView::IDataSource* initTableViewDataSource);
+    // public override System.Void SelectCellWithIdx(System.Int32 idx)
+    // Offset: 0x141BAC8
+    // Implemented from: HMUI.DropdownWithTableView
+    // Base method: System.Void DropdownWithTableView::SelectCellWithIdx(System.Int32 idx)
+    void SelectCellWithIdx(int idx);
     // public System.Void .ctor()
-    // Offset: 0x1319B84
+    // Offset: 0x141C134
     // Implemented from: HMUI.DropdownWithTableView
     // Base method: System.Void DropdownWithTableView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -139,21 +154,6 @@ namespace HMUI {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::SimpleTextDropdown::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleTextDropdown*, creationType>()));
     }
-    // protected override System.Void OnDestroy()
-    // Offset: 0x1319294
-    // Implemented from: HMUI.DropdownWithTableView
-    // Base method: System.Void DropdownWithTableView::OnDestroy()
-    void OnDestroy();
-    // public System.Void Init(HMUI.TableView/HMUI.IDataSource initTableViewDataSource)
-    // Offset: 0x1319320
-    // Implemented from: HMUI.DropdownWithTableView
-    // Base method: System.Void DropdownWithTableView::Init(HMUI.TableView/HMUI.IDataSource initTableViewDataSource)
-    void Init(HMUI::TableView::IDataSource* initTableViewDataSource);
-    // public override System.Void SelectCellWithIdx(System.Int32 idx)
-    // Offset: 0x1319518
-    // Implemented from: HMUI.DropdownWithTableView
-    // Base method: System.Void DropdownWithTableView::SelectCellWithIdx(System.Int32 idx)
-    void SelectCellWithIdx(int idx);
   }; // HMUI.SimpleTextDropdown
   #pragma pack(pop)
   static check_size<sizeof(SimpleTextDropdown), 104 + sizeof(bool)> __HMUI_SimpleTextDropdownSizeCheck;
@@ -214,10 +214,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::SimpleTextDropdown*), "HandleDidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dropdownWithTableView, idx});
   }
 };
-// Writing MetadataGetter for method: HMUI::SimpleTextDropdown::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::SimpleTextDropdown::OnDestroy
 // Il2CppName: OnDestroy
 template<>
@@ -244,3 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::SimpleTextDropdown*), "SelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{idx});
   }
 };
+// Writing MetadataGetter for method: HMUI::SimpleTextDropdown::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

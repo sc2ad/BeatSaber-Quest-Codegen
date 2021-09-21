@@ -156,44 +156,49 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerLobbyConnectionController::LobbyConnectionType), 0 + sizeof(int)> __GlobalNamespace_MultiplayerLobbyConnectionController_LobbyConnectionTypeSizeCheck;
     static_assert(sizeof(MultiplayerLobbyConnectionController::LobbyConnectionType) == 0x4);
-    // [InjectAttribute] Offset: 0xE3A9A8
+    // [InjectAttribute] Offset: 0xF0318C
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3A9B8
+    // [InjectAttribute] Offset: 0xF0319C
     // private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IUnifiedNetworkPlayerModel*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF031AC
     // private System.Action connectionSuccessEvent
     // Size: 0x8
     // Offset: 0x20
     System::Action* connectionSuccessEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF031BC
     // private System.Action`2<MultiplayerLobbyConnectionController/LobbyConnectionType,ConnectionFailedReason> connectionFailedEvent
     // Size: 0x8
     // Offset: 0x28
     System::Action_2<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, GlobalNamespace::ConnectionFailedReason>* connectionFailedEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, GlobalNamespace::ConnectionFailedReason>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF031CC
     // private MultiplayerLobbyConnectionController/LobbyConnectionState <connectionState>k__BackingField
     // Size: 0x4
     // Offset: 0x30
     GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState connectionState;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState) == 0x4);
+    // [CompilerGeneratedAttribute] Offset: 0xF031DC
     // private MultiplayerLobbyConnectionController/LobbyConnectionType <connectionType>k__BackingField
     // Size: 0x4
     // Offset: 0x34
     GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType connectionType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType) == 0x4);
+    // [CompilerGeneratedAttribute] Offset: 0xF031EC
     // private ConnectionFailedReason <connectionFailedReason>k__BackingField
     // Size: 0x4
     // Offset: 0x38
@@ -234,68 +239,68 @@ namespace GlobalNamespace {
     GlobalNamespace::UnifiedNetworkPlayerModel::JoinMatchmakingPartyConfig*& dyn__partyConfig();
     // Get instance field reference: private System.Int32 _retryAttemptsLeft
     int& dyn__retryAttemptsLeft();
-    // public MultiplayerLobbyConnectionController/LobbyConnectionState get_connectionState()
-    // Offset: 0x107F43C
-    GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState get_connectionState();
-    // private System.Void set_connectionState(MultiplayerLobbyConnectionController/LobbyConnectionState value)
-    // Offset: 0x107F444
-    void set_connectionState(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState value);
-    // public MultiplayerLobbyConnectionController/LobbyConnectionType get_connectionType()
-    // Offset: 0x107F44C
-    GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType get_connectionType();
-    // private System.Void set_connectionType(MultiplayerLobbyConnectionController/LobbyConnectionType value)
-    // Offset: 0x107F454
-    void set_connectionType(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType value);
-    // public ConnectionFailedReason get_connectionFailedReason()
-    // Offset: 0x107F45C
-    GlobalNamespace::ConnectionFailedReason get_connectionFailedReason();
-    // private System.Void set_connectionFailedReason(ConnectionFailedReason value)
-    // Offset: 0x107F464
-    void set_connectionFailedReason(GlobalNamespace::ConnectionFailedReason value);
     // public System.Void add_connectionSuccessEvent(System.Action value)
-    // Offset: 0x107F1AC
+    // Offset: 0x116E844
     void add_connectionSuccessEvent(System::Action* value);
     // public System.Void remove_connectionSuccessEvent(System.Action value)
-    // Offset: 0x107F250
+    // Offset: 0x116E8E8
     void remove_connectionSuccessEvent(System::Action* value);
     // public System.Void add_connectionFailedEvent(System.Action`2<MultiplayerLobbyConnectionController/LobbyConnectionType,ConnectionFailedReason> value)
-    // Offset: 0x107F2F4
+    // Offset: 0x116E98C
     void add_connectionFailedEvent(System::Action_2<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, GlobalNamespace::ConnectionFailedReason>* value);
     // public System.Void remove_connectionFailedEvent(System.Action`2<MultiplayerLobbyConnectionController/LobbyConnectionType,ConnectionFailedReason> value)
-    // Offset: 0x107F398
+    // Offset: 0x116EA30
     void remove_connectionFailedEvent(System::Action_2<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, GlobalNamespace::ConnectionFailedReason>* value);
+    // public MultiplayerLobbyConnectionController/LobbyConnectionState get_connectionState()
+    // Offset: 0x116EAD4
+    GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState get_connectionState();
+    // private System.Void set_connectionState(MultiplayerLobbyConnectionController/LobbyConnectionState value)
+    // Offset: 0x116EADC
+    void set_connectionState(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState value);
+    // public MultiplayerLobbyConnectionController/LobbyConnectionType get_connectionType()
+    // Offset: 0x116EAE4
+    GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType get_connectionType();
+    // private System.Void set_connectionType(MultiplayerLobbyConnectionController/LobbyConnectionType value)
+    // Offset: 0x116EAEC
+    void set_connectionType(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType value);
+    // public ConnectionFailedReason get_connectionFailedReason()
+    // Offset: 0x116EAF4
+    GlobalNamespace::ConnectionFailedReason get_connectionFailedReason();
+    // private System.Void set_connectionFailedReason(ConnectionFailedReason value)
+    // Offset: 0x116EAFC
+    void set_connectionFailedReason(GlobalNamespace::ConnectionFailedReason value);
     // public System.Void CreateParty(CreateServerFormData data)
-    // Offset: 0x107F46C
+    // Offset: 0x116EB04
     void CreateParty(GlobalNamespace::CreateServerFormData data);
     // public System.Void ConnectToParty(System.String serverCode)
-    // Offset: 0x107F860
+    // Offset: 0x116EEF8
     void ConnectToParty(::Il2CppString* serverCode);
     // public System.Void CreateOrConnectToDestinationParty(SelectMultiplayerLobbyDestination lobbyDestination)
-    // Offset: 0x107FB40
+    // Offset: 0x116F1D8
     void CreateOrConnectToDestinationParty(GlobalNamespace::SelectMultiplayerLobbyDestination* lobbyDestination);
     // public System.Void ConnectToServer(INetworkPlayer server, System.String password)
-    // Offset: 0x107FF20
+    // Offset: 0x116F5B8
     void ConnectToServer(GlobalNamespace::INetworkPlayer* server, ::Il2CppString* password);
     // public System.Void ConnectToMatchmaking(BeatmapDifficultyMask beatmapDifficultyMask, SongPackMask songPackMask, System.Boolean allowSongSelection)
-    // Offset: 0x1080140
+    // Offset: 0x116F7D8
     void ConnectToMatchmaking(GlobalNamespace::BeatmapDifficultyMask beatmapDifficultyMask, GlobalNamespace::SongPackMask songPackMask, bool allowSongSelection);
     // public System.Void LeaveLobby()
-    // Offset: 0x1080440
+    // Offset: 0x116FAD8
     void LeaveLobby();
     // public System.Void ClearCurrentConnection()
-    // Offset: 0x10804F8
+    // Offset: 0x116FB90
     void ClearCurrentConnection();
     // private System.Void HandleMultiplayerSessionManagerConnected()
-    // Offset: 0x1080500
+    // Offset: 0x116FB98
     void HandleMultiplayerSessionManagerConnected();
     // private System.Void HandleMultiplayerSessionManagerConnectionFailed(ConnectionFailedReason reason)
-    // Offset: 0x1080758
+    // Offset: 0x116FDF0
     void HandleMultiplayerSessionManagerConnectionFailed(GlobalNamespace::ConnectionFailedReason reason);
     // private System.Void HandleMultiplayerSessionManagerConnectionFailedWithRetry(ConnectionFailedReason reason)
-    // Offset: 0x10809D4
+    // Offset: 0x117006C
     void HandleMultiplayerSessionManagerConnectionFailedWithRetry(GlobalNamespace::ConnectionFailedReason reason);
     // public System.Void .ctor()
-    // Offset: 0x1080B0C
+    // Offset: 0x11701A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -312,6 +317,42 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyConnectionController*, "
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState, "", "MultiplayerLobbyConnectionController/LobbyConnectionState");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, "", "MultiplayerLobbyConnectionController/LobbyConnectionType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::add_connectionSuccessEvent
+// Il2CppName: add_connectionSuccessEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)(System::Action*)>(&GlobalNamespace::MultiplayerLobbyConnectionController::add_connectionSuccessEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "add_connectionSuccessEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::remove_connectionSuccessEvent
+// Il2CppName: remove_connectionSuccessEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)(System::Action*)>(&GlobalNamespace::MultiplayerLobbyConnectionController::remove_connectionSuccessEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "remove_connectionSuccessEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::add_connectionFailedEvent
+// Il2CppName: add_connectionFailedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)(System::Action_2<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, GlobalNamespace::ConnectionFailedReason>*)>(&GlobalNamespace::MultiplayerLobbyConnectionController::add_connectionFailedEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerLobbyConnectionController/LobbyConnectionType"), ::il2cpp_utils::GetClassFromName("", "ConnectionFailedReason")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "add_connectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::remove_connectionFailedEvent
+// Il2CppName: remove_connectionFailedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)(System::Action_2<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, GlobalNamespace::ConnectionFailedReason>*)>(&GlobalNamespace::MultiplayerLobbyConnectionController::remove_connectionFailedEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerLobbyConnectionController/LobbyConnectionType"), ::il2cpp_utils::GetClassFromName("", "ConnectionFailedReason")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "remove_connectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::get_connectionState
 // Il2CppName: get_connectionState
 template<>
@@ -361,42 +402,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "ConnectionFailedReason")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "set_connectionFailedReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::add_connectionSuccessEvent
-// Il2CppName: add_connectionSuccessEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)(System::Action*)>(&GlobalNamespace::MultiplayerLobbyConnectionController::add_connectionSuccessEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "add_connectionSuccessEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::remove_connectionSuccessEvent
-// Il2CppName: remove_connectionSuccessEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)(System::Action*)>(&GlobalNamespace::MultiplayerLobbyConnectionController::remove_connectionSuccessEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "remove_connectionSuccessEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::add_connectionFailedEvent
-// Il2CppName: add_connectionFailedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)(System::Action_2<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, GlobalNamespace::ConnectionFailedReason>*)>(&GlobalNamespace::MultiplayerLobbyConnectionController::add_connectionFailedEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerLobbyConnectionController/LobbyConnectionType"), ::il2cpp_utils::GetClassFromName("", "ConnectionFailedReason")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "add_connectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::remove_connectionFailedEvent
-// Il2CppName: remove_connectionFailedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)(System::Action_2<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, GlobalNamespace::ConnectionFailedReason>*)>(&GlobalNamespace::MultiplayerLobbyConnectionController::remove_connectionFailedEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerLobbyConnectionController/LobbyConnectionType"), ::il2cpp_utils::GetClassFromName("", "ConnectionFailedReason")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "remove_connectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::CreateParty

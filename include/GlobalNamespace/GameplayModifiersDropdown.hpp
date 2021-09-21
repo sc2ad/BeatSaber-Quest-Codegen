@@ -65,6 +65,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0F140
     // private System.Action`1<System.Int32> didSelectCellWithIdxEvent
     // Size: 0x8
     // Offset: 0x28
@@ -89,38 +90,38 @@ namespace GlobalNamespace {
     System::Action_1<int>*& dyn_didSelectCellWithIdxEvent();
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<GameplayModifierMask,System.String>> _gameplayModifiersData
     System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>*>*& dyn__gameplayModifiersData();
-    // private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<GameplayModifierMask,System.String>> get_gameplayModifiersData()
-    // Offset: 0x1100A18
-    System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>*>* get_gameplayModifiersData();
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x11008D0
+    // Offset: 0x11E51B8
     void add_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x1100974
+    // Offset: 0x11E525C
     void remove_didSelectCellWithIdxEvent(System::Action_1<int>* value);
+    // private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<GameplayModifierMask,System.String>> get_gameplayModifiersData()
+    // Offset: 0x11E5300
+    System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>*>* get_gameplayModifiersData();
     // protected System.Void Start()
-    // Offset: 0x1100B8C
+    // Offset: 0x11E5474
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1100D0C
+    // Offset: 0x11E55F4
     void OnDestroy();
     // public GameplayModifierMask GetSelectedGameplayModifierMask()
-    // Offset: 0x10FD1BC
+    // Offset: 0x11E1A3C
     GlobalNamespace::GameplayModifierMask GetSelectedGameplayModifierMask();
     // public System.Void SelectCellWithGameplayModifierMask(GameplayModifierMask gameplayModifierMask)
-    // Offset: 0x10FD518
+    // Offset: 0x11E1D98
     void SelectCellWithGameplayModifierMask(GlobalNamespace::GameplayModifierMask gameplayModifierMask);
     // private System.Int32 GetIdxForGameplayModifierMask(GameplayModifierMask gameplayModifierMask)
-    // Offset: 0x1100DE8
+    // Offset: 0x11E56D0
     int GetIdxForGameplayModifierMask(GlobalNamespace::GameplayModifierMask gameplayModifierMask);
     // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x1100F6C
+    // Offset: 0x11E5854
     void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // private System.Tuple`2<GameplayModifierMask,System.String> <get_gameplayModifiersData>b__7_0(GameplayModifierMask value)
-    // Offset: 0x1100FE8
+    // Offset: 0x11E58D0
     System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>* $get_gameplayModifiersData$b__7_0(GlobalNamespace::GameplayModifierMask value);
     // public System.Void .ctor()
-    // Offset: 0x1100FE0
+    // Offset: 0x11E58C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -139,14 +140,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersDropdown*, "", "GameplayModifiersDropdown");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersDropdown::get_gameplayModifiersData
-// Il2CppName: get_gameplayModifiersData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>*>* (GlobalNamespace::GameplayModifiersDropdown::*)()>(&GlobalNamespace::GameplayModifiersDropdown::get_gameplayModifiersData)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersDropdown*), "get_gameplayModifiersData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersDropdown::add_didSelectCellWithIdxEvent
 // Il2CppName: add_didSelectCellWithIdxEvent
 template<>
@@ -163,6 +156,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersDropdown*), "remove_didSelectCellWithIdxEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersDropdown::get_gameplayModifiersData
+// Il2CppName: get_gameplayModifiersData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>*>* (GlobalNamespace::GameplayModifiersDropdown::*)()>(&GlobalNamespace::GameplayModifiersDropdown::get_gameplayModifiersData)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersDropdown*), "get_gameplayModifiersData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersDropdown::Start

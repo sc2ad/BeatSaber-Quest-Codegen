@@ -49,40 +49,40 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.IntPtr Handle
     System::IntPtr& dyn_Handle();
     // public System.Void SetDescription(System.String value)
-    // Offset: 0x1520330
+    // Offset: 0x16A9078
     void SetDescription(::Il2CppString* value);
     // public System.Void SetEndDate(System.DateTime value)
-    // Offset: 0x15203AC
+    // Offset: 0x16A90F4
     void SetEndDate(System::DateTime value);
     // public System.Void SetIncludeActiveChallenges(System.Boolean value)
-    // Offset: 0x1520428
+    // Offset: 0x16A9170
     void SetIncludeActiveChallenges(bool value);
     // public System.Void SetIncludeFutureChallenges(System.Boolean value)
-    // Offset: 0x15204A4
+    // Offset: 0x16A91EC
     void SetIncludeFutureChallenges(bool value);
     // public System.Void SetIncludePastChallenges(System.Boolean value)
-    // Offset: 0x1520520
+    // Offset: 0x16A9268
     void SetIncludePastChallenges(bool value);
     // public System.Void SetLeaderboardName(System.String value)
-    // Offset: 0x152059C
+    // Offset: 0x16A92E4
     void SetLeaderboardName(::Il2CppString* value);
     // public System.Void SetStartDate(System.DateTime value)
-    // Offset: 0x1520618
+    // Offset: 0x16A9360
     void SetStartDate(System::DateTime value);
     // public System.Void SetTitle(System.String value)
-    // Offset: 0x1520694
+    // Offset: 0x16A93DC
     void SetTitle(::Il2CppString* value);
     // public System.Void SetViewerFilter(Oculus.Platform.ChallengeViewerFilter value)
-    // Offset: 0x1520710
+    // Offset: 0x16A9458
     void SetViewerFilter(Oculus::Platform::ChallengeViewerFilter value);
     // public System.Void SetVisibility(Oculus.Platform.ChallengeVisibility value)
-    // Offset: 0x152078C
+    // Offset: 0x16A94D4
     void SetVisibility(Oculus::Platform::ChallengeVisibility value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.ChallengeOptions options)
-    // Offset: 0x1520808
+    // Offset: 0x16A9550
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x15202B8
+    // Offset: 0x16A9000
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -91,7 +91,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<ChallengeOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1520858
+    // Offset: 0x16A95A0
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

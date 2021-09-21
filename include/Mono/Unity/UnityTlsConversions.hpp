@@ -34,20 +34,20 @@ namespace Mono::Unity {
     public:
     // Creating value type constructor for type: UnityTlsConversions
     UnityTlsConversions() noexcept {}
-    // static public Mono.Unity.UnityTls/Mono.Unity.unitytls_protocol GetMinProtocol(System.Security.Authentication.SslProtocols protocols)
-    // Offset: 0x18AF548
+    // static public Mono.Unity.UnityTls/unitytls_protocol GetMinProtocol(System.Security.Authentication.SslProtocols protocols)
+    // Offset: 0x1A1B3C0
     static Mono::Unity::UnityTls::unitytls_protocol GetMinProtocol(System::Security::Authentication::SslProtocols protocols);
-    // static public Mono.Unity.UnityTls/Mono.Unity.unitytls_protocol GetMaxProtocol(System.Security.Authentication.SslProtocols protocols)
-    // Offset: 0x18AF66C
+    // static public Mono.Unity.UnityTls/unitytls_protocol GetMaxProtocol(System.Security.Authentication.SslProtocols protocols)
+    // Offset: 0x1A1B4E4
     static Mono::Unity::UnityTls::unitytls_protocol GetMaxProtocol(System::Security::Authentication::SslProtocols protocols);
-    // static public Mono.Security.Interface.TlsProtocols ConvertProtocolVersion(Mono.Unity.UnityTls/Mono.Unity.unitytls_protocol protocol)
-    // Offset: 0x18AF790
+    // static public Mono.Security.Interface.TlsProtocols ConvertProtocolVersion(Mono.Unity.UnityTls/unitytls_protocol protocol)
+    // Offset: 0x1A1B608
     static Mono::Security::Interface::TlsProtocols ConvertProtocolVersion(Mono::Unity::UnityTls::unitytls_protocol protocol);
-    // static public Mono.Security.Interface.AlertDescription VerifyResultToAlertDescription(Mono.Unity.UnityTls/Mono.Unity.unitytls_x509verify_result verifyResult, Mono.Security.Interface.AlertDescription defaultAlert)
-    // Offset: 0x18AF7B0
+    // static public Mono.Security.Interface.AlertDescription VerifyResultToAlertDescription(Mono.Unity.UnityTls/unitytls_x509verify_result verifyResult, Mono.Security.Interface.AlertDescription defaultAlert)
+    // Offset: 0x1A1B628
     static Mono::Security::Interface::AlertDescription VerifyResultToAlertDescription(Mono::Unity::UnityTls::unitytls_x509verify_result verifyResult, Mono::Security::Interface::AlertDescription defaultAlert);
-    // static public Mono.Security.Interface.MonoSslPolicyErrors VerifyResultToPolicyErrror(Mono.Unity.UnityTls/Mono.Unity.unitytls_x509verify_result verifyResult)
-    // Offset: 0x18AFB88
+    // static public Mono.Security.Interface.MonoSslPolicyErrors VerifyResultToPolicyErrror(Mono.Unity.UnityTls/unitytls_x509verify_result verifyResult)
+    // Offset: 0x1A1BA00
     static Mono::Security::Interface::MonoSslPolicyErrors VerifyResultToPolicyErrror(Mono::Unity::UnityTls::unitytls_x509verify_result verifyResult);
   }; // Mono.Unity.UnityTlsConversions
   #pragma pack(pop)

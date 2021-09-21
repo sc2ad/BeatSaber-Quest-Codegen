@@ -55,6 +55,7 @@ namespace GlobalNamespace {
     ::Il2CppString* text;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF11360
     // private System.Action didCancelEvent
     // Size: 0x8
     // Offset: 0x88
@@ -72,22 +73,27 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action didCancelEvent
     System::Action*& dyn_didCancelEvent();
     // public System.Void add_didCancelEvent(System.Action value)
-    // Offset: 0x118A9C8
+    // Offset: 0x11490A4
     void add_didCancelEvent(System::Action* value);
     // public System.Void remove_didCancelEvent(System.Action value)
-    // Offset: 0x118AA6C
+    // Offset: 0x1149148
     void remove_didCancelEvent(System::Action* value);
     // public System.Void Init(System.String text)
-    // Offset: 0x118AB10
+    // Offset: 0x11491EC
     void Init(::Il2CppString* text);
     // public System.Void HideLoading()
-    // Offset: 0x118AB48
+    // Offset: 0x1149224
     void HideLoading();
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0x118AC5C
+    // Offset: 0x1149338
     void $DidActivate$b__8_0();
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x1149270
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x118AC54
+    // Offset: 0x1149330
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -100,11 +106,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::JoiningLobbyViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JoiningLobbyViewController*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x118AB94
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
   }; // JoiningLobbyViewController
   #pragma pack(pop)
   static check_size<sizeof(JoiningLobbyViewController), 136 + sizeof(System::Action*)> __GlobalNamespace_JoiningLobbyViewControllerSizeCheck;
@@ -155,10 +156,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JoiningLobbyViewController*), "<DidActivate>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::JoiningLobbyViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::JoiningLobbyViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -170,3 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JoiningLobbyViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{firstActivation, addedToHierarchy, screenSystemEnabling});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::JoiningLobbyViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LoadingControl* loadingControl;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LoadingControl*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE48F94
+    // [SpaceAttribute] Offset: 0xF119A8
     // private UnityEngine.Sprite _globalLeaderboardIcon
     // Size: 0x8
     // Offset: 0x88
@@ -107,14 +107,14 @@ namespace GlobalNamespace {
     GlobalNamespace::LevelStatsView* levelStatsView;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelStatsView*) == 0x8);
-    // [InjectAttribute] Offset: 0xE48FFC
+    // [InjectAttribute] Offset: 0xF11A10
     // private readonly PlatformLeaderboardsModel _leaderboardsModel
     // Size: 0x8
     // Offset: 0xA8
     GlobalNamespace::PlatformLeaderboardsModel* leaderboardsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlatformLeaderboardsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE4900C
+    // [InjectAttribute] Offset: 0xF11A20
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xB0
@@ -167,7 +167,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::Array<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>*) == 0x8);
     // Creating value type constructor for type: PlatformLeaderboardViewController
     PlatformLeaderboardViewController(GlobalNamespace::LeaderboardTableView* leaderboardTableView_ = {}, HMUI::IconSegmentedControl* scopeSegmentedControl_ = {}, GlobalNamespace::LoadingControl* loadingControl_ = {}, UnityEngine::Sprite* globalLeaderboardIcon_ = {}, UnityEngine::Sprite* aroundPlayerLeaderboardIcon_ = {}, UnityEngine::Sprite* friendsLeaderboardIcon_ = {}, GlobalNamespace::LevelStatsView* levelStatsView_ = {}, GlobalNamespace::PlatformLeaderboardsModel* leaderboardsModel_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::HMAsyncRequest* getScoresAsyncRequest_ = {}, ::Array<int>* playerScorePos_ = {}, System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>* scores_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, bool refreshIsNeeded_ = {}, bool hasScoresData_ = {}, ::Array<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>* scoreScopes_ = {}) noexcept : leaderboardTableView{leaderboardTableView_}, scopeSegmentedControl{scopeSegmentedControl_}, loadingControl{loadingControl_}, globalLeaderboardIcon{globalLeaderboardIcon_}, aroundPlayerLeaderboardIcon{aroundPlayerLeaderboardIcon_}, friendsLeaderboardIcon{friendsLeaderboardIcon_}, levelStatsView{levelStatsView_}, leaderboardsModel{leaderboardsModel_}, playerDataModel{playerDataModel_}, getScoresAsyncRequest{getScoresAsyncRequest_}, playerScorePos{playerScorePos_}, scores{scores_}, difficultyBeatmap{difficultyBeatmap_}, refreshIsNeeded{refreshIsNeeded_}, hasScoresData{hasScoresData_}, scoreScopes{scoreScopes_} {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE4901C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF11A30
     // Get static field: static private PlatformLeaderboardsModel/ScoresScope _scoresScope
     static GlobalNamespace::PlatformLeaderboardsModel::ScoresScope _get__scoresScope();
     // Set static field: static private PlatformLeaderboardsModel/ScoresScope _scoresScope
@@ -205,37 +205,62 @@ namespace GlobalNamespace {
     // Get instance field reference: private PlatformLeaderboardsModel/ScoresScope[] _scoreScopes
     ::Array<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>*& dyn__scoreScopes();
     // public PlatformLeaderboardsModel get_leaderboardsModel()
-    // Offset: 0x11F19D4
+    // Offset: 0x12B17A4
     GlobalNamespace::PlatformLeaderboardsModel* get_leaderboardsModel();
     // private System.Int32 ScoreScopeToScoreScopeIndex(PlatformLeaderboardsModel/ScoresScope scoresScope)
-    // Offset: 0x11F208C
+    // Offset: 0x12B1E5C
     int ScoreScopeToScoreScopeIndex(GlobalNamespace::PlatformLeaderboardsModel::ScoresScope scoresScope);
     // private PlatformLeaderboardsModel/ScoresScope ScopeScopeIndexToScoreScope(System.Int32 scoreScopeIndex)
-    // Offset: 0x11F2548
+    // Offset: 0x12B2318
     GlobalNamespace::PlatformLeaderboardsModel::ScoresScope ScopeScopeIndexToScoreScope(int scoreScopeIndex);
     // private System.Void HandleDidPressRefreshButton()
-    // Offset: 0x11F2594
+    // Offset: 0x12B2364
     void HandleDidPressRefreshButton();
     // private System.Void HandleLeaderboardsResultsReturned(PlatformLeaderboardsModel/GetScoresResult result, PlatformLeaderboardsModel/LeaderboardScore[] scores, System.Int32 playerScoreIndex)
-    // Offset: 0x11F25A0
+    // Offset: 0x12B2370
     void HandleLeaderboardsResultsReturned(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult result, ::Array<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>* scores, int playerScoreIndex);
     // private System.Void HandleScopeSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0x11F27C4
+    // Offset: 0x12B2594
     void HandleScopeSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // private System.Void HandlePlatformLeaderboardsModelAllScoresDidUpload()
-    // Offset: 0x11F285C
+    // Offset: 0x12B262C
     void HandlePlatformLeaderboardsModelAllScoresDidUpload();
     // private System.Void Refresh(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0x11F1A40
+    // Offset: 0x12B1810
     void Refresh(bool showLoadingIndicator, bool clear);
     // private System.Collections.IEnumerator RefreshDelayed(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0x11F2938
+    // Offset: 0x12B2708
     System::Collections::IEnumerator* RefreshDelayed(bool showLoadingIndicator, bool clear);
     // private System.Void ClearContent()
-    // Offset: 0x11F2868
+    // Offset: 0x12B2638
     void ClearContent();
+    // public override System.Void SetData(IDifficultyBeatmap difficultyBeatmap)
+    // Offset: 0x12B17AC
+    // Implemented from: LeaderboardViewController
+    // Base method: System.Void LeaderboardViewController::SetData(IDifficultyBeatmap difficultyBeatmap)
+    void SetData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
+    // public override System.Void RefreshLevelStats()
+    // Offset: 0x12B19D0
+    // Implemented from: LeaderboardViewController
+    // Base method: System.Void LeaderboardViewController::RefreshLevelStats()
+    void RefreshLevelStats();
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x12B1A04
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Offset: 0x12B1FC8
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
+    // protected override System.Void OnDestroy()
+    // Offset: 0x12B2170
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::OnDestroy()
+    void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x11F29F4
+    // Offset: 0x12B27C4
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()
@@ -250,35 +275,10 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlatformLeaderboardViewController*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x11F2A68
+    // Offset: 0x12B2838
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
-    // public override System.Void SetData(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x11F19DC
-    // Implemented from: LeaderboardViewController
-    // Base method: System.Void LeaderboardViewController::SetData(IDifficultyBeatmap difficultyBeatmap)
-    void SetData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
-    // public override System.Void RefreshLevelStats()
-    // Offset: 0x11F1C00
-    // Implemented from: LeaderboardViewController
-    // Base method: System.Void LeaderboardViewController::RefreshLevelStats()
-    void RefreshLevelStats();
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x11F1C34
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x11F21F8
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
-    // protected override System.Void OnDestroy()
-    // Offset: 0x11F23A0
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::OnDestroy()
-    void OnDestroy();
   }; // PlatformLeaderboardViewController
   #pragma pack(pop)
   static check_size<sizeof(PlatformLeaderboardViewController), 224 + sizeof(::Array<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>*)> __GlobalNamespace_PlatformLeaderboardViewControllerSizeCheck;
@@ -377,18 +377,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), "ClearContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::PlatformLeaderboardViewController::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::SetData
 // Il2CppName: SetData
 template<>
@@ -433,5 +421,17 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformLeaderboardViewController::*)()>(&GlobalNamespace::PlatformLeaderboardViewController::OnDestroy)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::PlatformLeaderboardViewController::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

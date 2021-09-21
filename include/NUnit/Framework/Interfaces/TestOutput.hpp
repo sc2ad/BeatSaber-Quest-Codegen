@@ -18,21 +18,24 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestOutput : public ::Il2CppObject {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xE28FB4
+    // [CompilerGeneratedAttribute] Offset: 0xEEF78C
+    // [DebuggerBrowsableAttribute] Offset: 0xEEF78C
     // private System.String <Text>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* Text;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE28FF0
+    // [CompilerGeneratedAttribute] Offset: 0xEEF7C8
+    // [DebuggerBrowsableAttribute] Offset: 0xEEF7C8
     // private System.String <Stream>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* Stream;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE2902C
+    // [CompilerGeneratedAttribute] Offset: 0xEEF804
+    // [DebuggerBrowsableAttribute] Offset: 0xEEF804
     // private System.String <TestName>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -47,30 +50,30 @@ namespace NUnit::Framework::Interfaces {
     ::Il2CppString*& dyn_$Stream$k__BackingField();
     // Get instance field reference: private System.String <TestName>k__BackingField
     ::Il2CppString*& dyn_$TestName$k__BackingField();
-    // public System.String get_Text()
-    // Offset: 0x1777CA0
-    ::Il2CppString* get_Text();
-    // private System.Void set_Text(System.String value)
-    // Offset: 0x1777CA8
-    void set_Text(::Il2CppString* value);
-    // public System.String get_Stream()
-    // Offset: 0x1777CB0
-    ::Il2CppString* get_Stream();
-    // private System.Void set_Stream(System.String value)
-    // Offset: 0x1777CB8
-    void set_Stream(::Il2CppString* value);
-    // private System.Void set_TestName(System.String value)
-    // Offset: 0x1777CC0
-    void set_TestName(::Il2CppString* value);
     // public System.Void .ctor(System.String text, System.String stream, System.String testName)
-    // Offset: 0x1777C0C
+    // Offset: 0x1936C58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestOutput* New_ctor(::Il2CppString* text, ::Il2CppString* stream, ::Il2CppString* testName) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::TestOutput::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestOutput*, creationType>(text, stream, testName)));
     }
+    // public System.String get_Text()
+    // Offset: 0x1936CEC
+    ::Il2CppString* get_Text();
+    // private System.Void set_Text(System.String value)
+    // Offset: 0x1936CF4
+    void set_Text(::Il2CppString* value);
+    // public System.String get_Stream()
+    // Offset: 0x1936CFC
+    ::Il2CppString* get_Stream();
+    // private System.Void set_Stream(System.String value)
+    // Offset: 0x1936D04
+    void set_Stream(::Il2CppString* value);
+    // private System.Void set_TestName(System.String value)
+    // Offset: 0x1936D0C
+    void set_TestName(::Il2CppString* value);
     // public override System.String ToString()
-    // Offset: 0x1777C4C
+    // Offset: 0x1936C98
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -81,6 +84,10 @@ namespace NUnit::Framework::Interfaces {
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TestOutput*, "NUnit.Framework.Interfaces", "TestOutput");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Interfaces::TestOutput::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::TestOutput::get_Text
 // Il2CppName: get_Text
 template<>
@@ -124,10 +131,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::TestOutput*), "set_TestName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Interfaces::TestOutput::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::TestOutput::ToString
 // Il2CppName: ToString
 template<>

@@ -72,13 +72,28 @@ namespace MasterServer {
     // Get instance field reference: public readonly ByteArrayNetSerializable cookie
     GlobalNamespace::ByteArrayNetSerializable*& dyn_cookie();
     // static public PacketPool`1<MasterServer.ClientHelloWithCookieRequest> get_pool()
-    // Offset: 0x1218D80
+    // Offset: 0x12D8120
     static GlobalNamespace::PacketPool_1<MasterServer::ClientHelloWithCookieRequest*>* get_pool();
     // public MasterServer.ClientHelloWithCookieRequest Init(System.UInt32 certificateResponseId, System.Byte[] random, System.Byte[] cookie)
-    // Offset: 0x1218DC8
+    // Offset: 0x12D8168
     MasterServer::ClientHelloWithCookieRequest* Init(uint certificateResponseId, ::Array<uint8_t>* random, ::Array<uint8_t>* cookie);
+    // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x12D9F10
+    // Implemented from: BaseMasterServerReliableRequest
+    // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
+    // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x12D9F74
+    // Implemented from: BaseMasterServerReliableRequest
+    // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
+    // public override System.Void Release()
+    // Offset: 0x12D9FDC
+    // Implemented from: BaseMasterServerReliableRequest
+    // Base method: System.Void BaseMasterServerReliableRequest::Release()
+    void Release();
     // public System.Void .ctor()
-    // Offset: 0x121ACB8
+    // Offset: 0x12DA058
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -87,21 +102,6 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::ClientHelloWithCookieRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClientHelloWithCookieRequest*, creationType>()));
     }
-    // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x121AB70
-    // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
-    // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x121ABD4
-    // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
-    // public override System.Void Release()
-    // Offset: 0x121AC3C
-    // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Release()
-    void Release();
   }; // MasterServer.ClientHelloWithCookieRequest
   #pragma pack(pop)
   static check_size<sizeof(ClientHelloWithCookieRequest), 32 + sizeof(GlobalNamespace::ByteArrayNetSerializable*)> __MasterServer_ClientHelloWithCookieRequestSizeCheck;
@@ -128,10 +128,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ClientHelloWithCookieRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{certificateResponseId, random, cookie});
   }
 };
-// Writing MetadataGetter for method: MasterServer::ClientHelloWithCookieRequest::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: MasterServer::ClientHelloWithCookieRequest::Serialize
 // Il2CppName: Serialize
 template<>
@@ -158,3 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ClientHelloWithCookieRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: MasterServer::ClientHelloWithCookieRequest::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -96,6 +96,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: refreshed and: playerActiveStateChangedEvent
     char __padding6[0x7] = {};
+    // [CompilerGeneratedAttribute] Offset: 0xF0FF40
     // private System.Action`1<System.Boolean> playerActiveStateChangedEvent
     // Size: 0x8
     // Offset: 0x50
@@ -127,40 +128,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<System.Boolean> playerActiveStateChangedEvent
     System::Action_1<bool>*& dyn_playerActiveStateChangedEvent();
     // public System.Void add_playerActiveStateChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x104281C
+    // Offset: 0x11317C0
     void add_playerActiveStateChangedEvent(System::Action_1<bool>* value);
     // public System.Void remove_playerActiveStateChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x10428C0
+    // Offset: 0x1131864
     void remove_playerActiveStateChangedEvent(System::Action_1<bool>* value);
     // public System.Void SetLobbyPlayerDataModel(ILobbyPlayerData lobbyPlayerData)
-    // Offset: 0x1042964
+    // Offset: 0x1131908
     void SetLobbyPlayerDataModel(GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
     // public System.Void HideConnectionSettings(System.Boolean hide)
-    // Offset: 0x1042A9C
+    // Offset: 0x1131A40
     void HideConnectionSettings(bool hide);
     // public System.Void HideSpectateSettings(System.Boolean hide)
-    // Offset: 0x1042AC0
+    // Offset: 0x1131A64
     void HideSpectateSettings(bool hide);
     // public System.Void SetLobbyCode(System.String code)
-    // Offset: 0x1042AE4
+    // Offset: 0x1131A88
     void SetLobbyCode(::Il2CppString* code);
     // protected System.Void Awake()
-    // Offset: 0x1042B00
+    // Offset: 0x1131AA4
     void Awake();
     // private System.Void OnDestroy()
-    // Offset: 0x1042BB8
+    // Offset: 0x1131B5C
     void OnDestroy();
     // private System.Void UpdateLocalPlayerIsActiveState(System.Boolean isActive)
-    // Offset: 0x1042BCC
+    // Offset: 0x1131B70
     void UpdateLocalPlayerIsActiveState(bool isActive);
     // public System.Void Refresh()
-    // Offset: 0x1042970
+    // Offset: 0x1131914
     void Refresh();
     // private System.Void <Awake>b__14_0(System.Boolean on)
-    // Offset: 0x1042C4C
+    // Offset: 0x1131BF0
     void $Awake$b__14_0(bool on);
     // public System.Void .ctor()
-    // Offset: 0x1042C44
+    // Offset: 0x1131BE8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

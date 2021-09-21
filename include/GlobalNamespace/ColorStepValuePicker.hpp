@@ -60,12 +60,14 @@ namespace GlobalNamespace {
     HMUI::ImageView* valueImage;
     // Field size check
     static_assert(sizeof(HMUI::ImageView*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0C980
     // private System.Action decButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x30
     System::Action* decButtonWasPressedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0C990
     // private System.Action incButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x38
@@ -86,44 +88,44 @@ namespace GlobalNamespace {
     System::Action*& dyn_decButtonWasPressedEvent();
     // Get instance field reference: private System.Action incButtonWasPressedEvent
     System::Action*& dyn_incButtonWasPressedEvent();
-    // public UnityEngine.Color get_color()
-    // Offset: 0x10E43E4
-    UnityEngine::Color get_color();
-    // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x10E4408
-    void set_color(UnityEngine::Color value);
-    // public System.Void set_decButtonInteractable(System.Boolean value)
-    // Offset: 0x10E442C
-    void set_decButtonInteractable(bool value);
-    // public System.Void set_incButtonInteractable(System.Boolean value)
-    // Offset: 0x10E444C
-    void set_incButtonInteractable(bool value);
     // public System.Void add_decButtonWasPressedEvent(System.Action value)
-    // Offset: 0x10E4154
+    // Offset: 0x119BBA0
     void add_decButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_decButtonWasPressedEvent(System.Action value)
-    // Offset: 0x10E41F8
+    // Offset: 0x119BC44
     void remove_decButtonWasPressedEvent(System::Action* value);
     // public System.Void add_incButtonWasPressedEvent(System.Action value)
-    // Offset: 0x10E429C
+    // Offset: 0x119BCE8
     void add_incButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_incButtonWasPressedEvent(System.Action value)
-    // Offset: 0x10E4340
+    // Offset: 0x119BD8C
     void remove_incButtonWasPressedEvent(System::Action* value);
+    // public UnityEngine.Color get_color()
+    // Offset: 0x119BE30
+    UnityEngine::Color get_color();
+    // public System.Void set_color(UnityEngine.Color value)
+    // Offset: 0x119BE54
+    void set_color(UnityEngine::Color value);
+    // public System.Void set_decButtonInteractable(System.Boolean value)
+    // Offset: 0x119BE78
+    void set_decButtonInteractable(bool value);
+    // public System.Void set_incButtonInteractable(System.Boolean value)
+    // Offset: 0x119BE98
+    void set_incButtonInteractable(bool value);
     // protected System.Void OnEnable()
-    // Offset: 0x10E446C
+    // Offset: 0x119BEB8
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x10E4544
+    // Offset: 0x119BF90
     void OnDisable();
     // private System.Void IncButtonPressed()
-    // Offset: 0x10E461C
+    // Offset: 0x119C068
     void IncButtonPressed();
     // private System.Void DecButtonPressed()
-    // Offset: 0x10E4630
+    // Offset: 0x119C07C
     void DecButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x10E4644
+    // Offset: 0x119C090
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -142,41 +144,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorStepValuePicker*, "", "ColorStepValuePicker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::get_color
-// Il2CppName: get_color
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorStepValuePicker::*)()>(&GlobalNamespace::ColorStepValuePicker::get_color)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::set_color
-// Il2CppName: set_color
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorStepValuePicker::*)(UnityEngine::Color)>(&GlobalNamespace::ColorStepValuePicker::set_color)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::set_decButtonInteractable
-// Il2CppName: set_decButtonInteractable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorStepValuePicker::*)(bool)>(&GlobalNamespace::ColorStepValuePicker::set_decButtonInteractable)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), "set_decButtonInteractable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::set_incButtonInteractable
-// Il2CppName: set_incButtonInteractable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorStepValuePicker::*)(bool)>(&GlobalNamespace::ColorStepValuePicker::set_incButtonInteractable)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), "set_incButtonInteractable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::add_decButtonWasPressedEvent
 // Il2CppName: add_decButtonWasPressedEvent
 template<>
@@ -211,6 +178,41 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), "remove_incButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::get_color
+// Il2CppName: get_color
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorStepValuePicker::*)()>(&GlobalNamespace::ColorStepValuePicker::get_color)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::set_color
+// Il2CppName: set_color
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorStepValuePicker::*)(UnityEngine::Color)>(&GlobalNamespace::ColorStepValuePicker::set_color)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::set_decButtonInteractable
+// Il2CppName: set_decButtonInteractable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorStepValuePicker::*)(bool)>(&GlobalNamespace::ColorStepValuePicker::set_decButtonInteractable)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), "set_decButtonInteractable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::set_incButtonInteractable
+// Il2CppName: set_incButtonInteractable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorStepValuePicker::*)(bool)>(&GlobalNamespace::ColorStepValuePicker::set_incButtonInteractable)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), "set_incButtonInteractable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::OnEnable

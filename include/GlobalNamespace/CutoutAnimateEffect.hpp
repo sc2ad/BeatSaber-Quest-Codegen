@@ -51,6 +51,7 @@ namespace GlobalNamespace {
     UnityEngine::AnimationCurve* transitionCurve;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF05720
     // private System.Boolean <animating>k__BackingField
     // Size: 0x1
     // Offset: 0x28
@@ -68,28 +69,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <animating>k__BackingField
     bool& dyn_$animating$k__BackingField();
     // public System.Boolean get_animating()
-    // Offset: 0x10EBA78
+    // Offset: 0x11A33FC
     bool get_animating();
     // private System.Void set_animating(System.Boolean value)
-    // Offset: 0x10EBA80
+    // Offset: 0x11A3404
     void set_animating(bool value);
     // protected System.Void Start()
-    // Offset: 0x10EBA8C
+    // Offset: 0x11A3410
     void Start();
     // private System.Collections.IEnumerator AnimateToCutoutCoroutine(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0x10EBB0C
+    // Offset: 0x11A3490
     System::Collections::IEnumerator* AnimateToCutoutCoroutine(float cutoutStart, float cutoutEnd, float duration);
     // private System.Void SetCutout(System.Single cutout)
-    // Offset: 0x10EBA94
+    // Offset: 0x11A3418
     void SetCutout(float cutout);
     // public System.Void ResetEffect()
-    // Offset: 0x10EBC94
+    // Offset: 0x11A3618
     void ResetEffect();
     // public System.Void AnimateCutout(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0x10EBCC4
+    // Offset: 0x11A3648
     void AnimateCutout(float cutoutStart, float cutoutEnd, float duration);
     // public System.Void .ctor()
-    // Offset: 0x10EBD24
+    // Offset: 0x11A36A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

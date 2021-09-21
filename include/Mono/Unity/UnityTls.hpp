@@ -68,25 +68,33 @@ namespace Mono::Unity {
     class unitytls_interface_struct;
     // Creating value type constructor for type: UnityTls
     UnityTls() noexcept {}
-    // Get static field: static private Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct marshalledInterface
+    // Get static field: static private Mono.Unity.UnityTls/unitytls_interface_struct marshalledInterface
     static Mono::Unity::UnityTls::unitytls_interface_struct* _get_marshalledInterface();
-    // Set static field: static private Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct marshalledInterface
+    // Set static field: static private Mono.Unity.UnityTls/unitytls_interface_struct marshalledInterface
     static void _set_marshalledInterface(Mono::Unity::UnityTls::unitytls_interface_struct* value);
-    // static public System.Boolean get_IsSupported()
-    // Offset: 0x15F5978
-    static bool get_IsSupported();
-    // static public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct get_NativeInterface()
-    // Offset: 0x15F68B8
-    static Mono::Unity::UnityTls::unitytls_interface_struct* get_NativeInterface();
     // static private System.IntPtr GetUnityTlsInterface()
-    // Offset: 0x15F7564
+    // Offset: 0x17C310C
     static System::IntPtr GetUnityTlsInterface();
+    // static public System.Boolean get_IsSupported()
+    // Offset: 0x17C1520
+    static bool get_IsSupported();
+    // static public Mono.Unity.UnityTls/unitytls_interface_struct get_NativeInterface()
+    // Offset: 0x17C2460
+    static Mono::Unity::UnityTls::unitytls_interface_struct* get_NativeInterface();
   }; // Mono.Unity.UnityTls
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls*, "Mono.Unity", "UnityTls");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Mono::Unity::UnityTls::GetUnityTlsInterface
+// Il2CppName: GetUnityTlsInterface
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Mono::Unity::UnityTls::GetUnityTlsInterface)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTls*), "GetUnityTlsInterface", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: Mono::Unity::UnityTls::get_IsSupported
 // Il2CppName: get_IsSupported
 template<>
@@ -101,13 +109,5 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Unity::UnityTls::unitytls_interface_struct* (*)()>(&Mono::Unity::UnityTls::get_NativeInterface)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTls*), "get_NativeInterface", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Mono::Unity::UnityTls::GetUnityTlsInterface
-// Il2CppName: GetUnityTlsInterface
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Mono::Unity::UnityTls::GetUnityTlsInterface)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTls*), "GetUnityTlsInterface", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

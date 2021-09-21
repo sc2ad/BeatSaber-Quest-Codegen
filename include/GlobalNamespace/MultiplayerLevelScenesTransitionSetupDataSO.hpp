@@ -73,30 +73,35 @@ namespace GlobalNamespace {
     GlobalNamespace::EnvironmentInfoSO* multiplayerEnvironmentInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentInfoSO*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF1501C
     // private System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,MultiplayerResultsData> didFinishEvent
     // Size: 0x8
     // Offset: 0x40
     System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF1502C
     // private System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,DisconnectedReason> didDisconnectEvent
     // Size: 0x8
     // Offset: 0x48
     System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::DisconnectedReason>* didDisconnectEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::DisconnectedReason>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF1503C
     // private System.String <gameMode>k__BackingField
     // Size: 0x8
     // Offset: 0x50
     ::Il2CppString* gameMode;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF1504C
     // private IPreviewBeatmapLevel <previewBeatmapLevel>k__BackingField
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IPreviewBeatmapLevel*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF1505C
     // private BeatmapDifficulty <beatmapDifficulty>k__BackingField
     // Size: 0x4
     // Offset: 0x60
@@ -105,18 +110,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
     // Padding between fields: beatmapDifficulty and: difficultyBeatmap
     char __padding7[0x4] = {};
+    // [CompilerGeneratedAttribute] Offset: 0xF1506C
     // private IDifficultyBeatmap <difficultyBeatmap>k__BackingField
     // Size: 0x8
     // Offset: 0x68
     GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IDifficultyBeatmap*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF1507C
     // private BeatmapCharacteristicSO <beatmapCharacteristic>k__BackingField
     // Size: 0x8
     // Offset: 0x70
     GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapCharacteristicSO*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF1508C
     // private System.Boolean <usingOverrideColorScheme>k__BackingField
     // Size: 0x1
     // Offset: 0x78
@@ -125,6 +133,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: usingOverrideColorScheme and: colorScheme
     char __padding10[0x7] = {};
+    // [CompilerGeneratedAttribute] Offset: 0xF1509C
     // private ColorScheme <colorScheme>k__BackingField
     // Size: 0x8
     // Offset: 0x80
@@ -157,71 +166,71 @@ namespace GlobalNamespace {
     bool& dyn_$usingOverrideColorScheme$k__BackingField();
     // Get instance field reference: private ColorScheme <colorScheme>k__BackingField
     GlobalNamespace::ColorScheme*& dyn_$colorScheme$k__BackingField();
-    // public System.String get_gameMode()
-    // Offset: 0x107BAE4
-    ::Il2CppString* get_gameMode();
-    // private System.Void set_gameMode(System.String value)
-    // Offset: 0x107BAEC
-    void set_gameMode(::Il2CppString* value);
-    // public IPreviewBeatmapLevel get_previewBeatmapLevel()
-    // Offset: 0x107BAF4
-    GlobalNamespace::IPreviewBeatmapLevel* get_previewBeatmapLevel();
-    // private System.Void set_previewBeatmapLevel(IPreviewBeatmapLevel value)
-    // Offset: 0x107BAFC
-    void set_previewBeatmapLevel(GlobalNamespace::IPreviewBeatmapLevel* value);
-    // public BeatmapDifficulty get_beatmapDifficulty()
-    // Offset: 0x107BB04
-    GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
-    // private System.Void set_beatmapDifficulty(BeatmapDifficulty value)
-    // Offset: 0x107BB0C
-    void set_beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
-    // public IDifficultyBeatmap get_difficultyBeatmap()
-    // Offset: 0x107BB14
-    GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
-    // private System.Void set_difficultyBeatmap(IDifficultyBeatmap value)
-    // Offset: 0x107BB1C
-    void set_difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
-    // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x107BB24
-    GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
-    // private System.Void set_beatmapCharacteristic(BeatmapCharacteristicSO value)
-    // Offset: 0x107BB2C
-    void set_beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
-    // public System.Boolean get_usingOverrideColorScheme()
-    // Offset: 0x107BB34
-    bool get_usingOverrideColorScheme();
-    // private System.Void set_usingOverrideColorScheme(System.Boolean value)
-    // Offset: 0x107BB3C
-    void set_usingOverrideColorScheme(bool value);
-    // public ColorScheme get_colorScheme()
-    // Offset: 0x107BB48
-    GlobalNamespace::ColorScheme* get_colorScheme();
-    // private System.Void set_colorScheme(ColorScheme value)
-    // Offset: 0x107BB50
-    void set_colorScheme(GlobalNamespace::ColorScheme* value);
     // public System.Void add_didFinishEvent(System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,MultiplayerResultsData> value)
-    // Offset: 0x107B854
+    // Offset: 0x1169540
     void add_didFinishEvent(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,MultiplayerResultsData> value)
-    // Offset: 0x107B8F8
+    // Offset: 0x1169674
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>* value);
     // public System.Void add_didDisconnectEvent(System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,DisconnectedReason> value)
-    // Offset: 0x107B99C
+    // Offset: 0x116B2C8
     void add_didDisconnectEvent(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::DisconnectedReason>* value);
     // public System.Void remove_didDisconnectEvent(System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,DisconnectedReason> value)
-    // Offset: 0x107BA40
+    // Offset: 0x116B36C
     void remove_didDisconnectEvent(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::DisconnectedReason>* value);
+    // public System.String get_gameMode()
+    // Offset: 0x116B410
+    ::Il2CppString* get_gameMode();
+    // private System.Void set_gameMode(System.String value)
+    // Offset: 0x116B418
+    void set_gameMode(::Il2CppString* value);
+    // public IPreviewBeatmapLevel get_previewBeatmapLevel()
+    // Offset: 0x116B420
+    GlobalNamespace::IPreviewBeatmapLevel* get_previewBeatmapLevel();
+    // private System.Void set_previewBeatmapLevel(IPreviewBeatmapLevel value)
+    // Offset: 0x116B428
+    void set_previewBeatmapLevel(GlobalNamespace::IPreviewBeatmapLevel* value);
+    // public BeatmapDifficulty get_beatmapDifficulty()
+    // Offset: 0x116B430
+    GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
+    // private System.Void set_beatmapDifficulty(BeatmapDifficulty value)
+    // Offset: 0x116B438
+    void set_beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
+    // public IDifficultyBeatmap get_difficultyBeatmap()
+    // Offset: 0x116B440
+    GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
+    // private System.Void set_difficultyBeatmap(IDifficultyBeatmap value)
+    // Offset: 0x116B448
+    void set_difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
+    // public BeatmapCharacteristicSO get_beatmapCharacteristic()
+    // Offset: 0x116B450
+    GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
+    // private System.Void set_beatmapCharacteristic(BeatmapCharacteristicSO value)
+    // Offset: 0x116B458
+    void set_beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
+    // public System.Boolean get_usingOverrideColorScheme()
+    // Offset: 0x116B460
+    bool get_usingOverrideColorScheme();
+    // private System.Void set_usingOverrideColorScheme(System.Boolean value)
+    // Offset: 0x116B468
+    void set_usingOverrideColorScheme(bool value);
+    // public ColorScheme get_colorScheme()
+    // Offset: 0x116B474
+    GlobalNamespace::ColorScheme* get_colorScheme();
+    // private System.Void set_colorScheme(ColorScheme value)
+    // Offset: 0x116B47C
+    void set_colorScheme(GlobalNamespace::ColorScheme* value);
     // public System.Void Init(System.String gameMode, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, IDifficultyBeatmap difficultyBeatmap, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.Boolean useTestNoteCutSoundEffects)
-    // Offset: 0x107BB58
+    // Offset: 0x116B484
     void Init(::Il2CppString* gameMode, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects);
     // public System.Void Finish(MultiplayerResultsData resultsData)
-    // Offset: 0x107BE70
+    // Offset: 0x116B79C
     void Finish(GlobalNamespace::MultiplayerResultsData* resultsData);
     // public System.Void FinishWithDisconnect(DisconnectedReason disconnectedReason)
-    // Offset: 0x107BEE8
+    // Offset: 0x116B814
     void FinishWithDisconnect(GlobalNamespace::DisconnectedReason disconnectedReason);
     // public System.Void .ctor()
-    // Offset: 0x107BF60
+    // Offset: 0x116B88C
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -240,6 +249,42 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, "", "MultiplayerLevelScenesTransitionSetupDataSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::add_didFinishEvent
+// Il2CppName: add_didFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>*)>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::add_didFinishEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerLevelScenesTransitionSetupDataSO"), ::il2cpp_utils::GetClassFromName("", "MultiplayerResultsData")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::remove_didFinishEvent
+// Il2CppName: remove_didFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>*)>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::remove_didFinishEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerLevelScenesTransitionSetupDataSO"), ::il2cpp_utils::GetClassFromName("", "MultiplayerResultsData")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::add_didDisconnectEvent
+// Il2CppName: add_didDisconnectEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::add_didDisconnectEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerLevelScenesTransitionSetupDataSO"), ::il2cpp_utils::GetClassFromName("", "DisconnectedReason")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "add_didDisconnectEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::remove_didDisconnectEvent
+// Il2CppName: remove_didDisconnectEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::remove_didDisconnectEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerLevelScenesTransitionSetupDataSO"), ::il2cpp_utils::GetClassFromName("", "DisconnectedReason")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "remove_didDisconnectEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::get_gameMode
 // Il2CppName: get_gameMode
 template<>
@@ -357,42 +402,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "ColorScheme")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "set_colorScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::add_didFinishEvent
-// Il2CppName: add_didFinishEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>*)>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::add_didFinishEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerLevelScenesTransitionSetupDataSO"), ::il2cpp_utils::GetClassFromName("", "MultiplayerResultsData")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::remove_didFinishEvent
-// Il2CppName: remove_didFinishEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>*)>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::remove_didFinishEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerLevelScenesTransitionSetupDataSO"), ::il2cpp_utils::GetClassFromName("", "MultiplayerResultsData")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::add_didDisconnectEvent
-// Il2CppName: add_didDisconnectEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::add_didDisconnectEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerLevelScenesTransitionSetupDataSO"), ::il2cpp_utils::GetClassFromName("", "DisconnectedReason")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "add_didDisconnectEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::remove_didDisconnectEvent
-// Il2CppName: remove_didDisconnectEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::remove_didDisconnectEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerLevelScenesTransitionSetupDataSO"), ::il2cpp_utils::GetClassFromName("", "DisconnectedReason")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "remove_didDisconnectEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::Init

@@ -46,34 +46,34 @@ namespace Mono::Security::Protocol::Ntlm {
     ::Il2CppString*& dyn__targetName();
     // Get instance field reference: private System.Byte[] _targetInfo
     ::Array<uint8_t>*& dyn__targetInfo();
-    // public System.Byte[] get_Nonce()
-    // Offset: 0x1E07938
-    ::Array<uint8_t>* get_Nonce();
-    // public System.String get_TargetName()
-    // Offset: 0x1E08A18
-    ::Il2CppString* get_TargetName();
-    // public System.Byte[] get_TargetInfo()
-    // Offset: 0x1E078B8
-    ::Array<uint8_t>* get_TargetInfo();
     // public System.Void .ctor(System.Byte[] message)
-    // Offset: 0x1E088F4
+    // Offset: 0x1FA4E5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Type2Message* New_ctor(::Array<uint8_t>* message) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Protocol::Ntlm::Type2Message::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Type2Message*, creationType>(message)));
     }
+    // public System.Byte[] get_Nonce()
+    // Offset: 0x1FA3EA0
+    ::Array<uint8_t>* get_Nonce();
+    // public System.String get_TargetName()
+    // Offset: 0x1FA4F80
+    ::Il2CppString* get_TargetName();
+    // public System.Byte[] get_TargetInfo()
+    // Offset: 0x1FA3E20
+    ::Array<uint8_t>* get_TargetInfo();
     // protected override System.Void Finalize()
-    // Offset: 0x1E0899C
+    // Offset: 0x1FA4F04
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Decode(System.Byte[] message)
-    // Offset: 0x1E08A20
+    // Offset: 0x1FA4F88
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Void MessageBase::Decode(System.Byte[] message)
     void Decode(::Array<uint8_t>* message);
     // public override System.Byte[] GetBytes()
-    // Offset: 0x1E08BA8
+    // Offset: 0x1FA5110
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Byte[] MessageBase::GetBytes()
     ::Array<uint8_t>* GetBytes();
@@ -84,6 +84,10 @@ namespace Mono::Security::Protocol::Ntlm {
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::Type2Message*, "Mono.Security.Protocol.Ntlm", "Type2Message");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::Type2Message::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::Type2Message::get_Nonce
 // Il2CppName: get_Nonce
 template<>
@@ -108,10 +112,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::Type2Message*), "get_TargetInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::Type2Message::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::Type2Message::Finalize
 // Il2CppName: Finalize
 template<>

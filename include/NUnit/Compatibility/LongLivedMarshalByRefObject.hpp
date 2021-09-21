@@ -22,8 +22,13 @@ namespace NUnit::Compatibility {
     public:
     // Creating value type constructor for type: LongLivedMarshalByRefObject
     LongLivedMarshalByRefObject() noexcept {}
+    // public override System.Object InitializeLifetimeService()
+    // Offset: 0x19266A0
+    // Implemented from: System.MarshalByRefObject
+    // Base method: System.Object MarshalByRefObject::InitializeLifetimeService()
+    ::Il2CppObject* InitializeLifetimeService();
     // public System.Void .ctor()
-    // Offset: 0x176765C
+    // Offset: 0x19266A8
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -32,20 +37,11 @@ namespace NUnit::Compatibility {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Compatibility::LongLivedMarshalByRefObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LongLivedMarshalByRefObject*, creationType>()));
     }
-    // public override System.Object InitializeLifetimeService()
-    // Offset: 0x1767654
-    // Implemented from: System.MarshalByRefObject
-    // Base method: System.Object MarshalByRefObject::InitializeLifetimeService()
-    ::Il2CppObject* InitializeLifetimeService();
   }; // NUnit.Compatibility.LongLivedMarshalByRefObject
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::LongLivedMarshalByRefObject*, "NUnit.Compatibility", "LongLivedMarshalByRefObject");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: NUnit::Compatibility::LongLivedMarshalByRefObject::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Compatibility::LongLivedMarshalByRefObject::InitializeLifetimeService
 // Il2CppName: InitializeLifetimeService
 template<>
@@ -54,3 +50,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
     return ::il2cpp_utils::FindMethod(classof(NUnit::Compatibility::LongLivedMarshalByRefObject*), "InitializeLifetimeService", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: NUnit::Compatibility::LongLivedMarshalByRefObject::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

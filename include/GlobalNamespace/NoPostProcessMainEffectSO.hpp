@@ -35,8 +35,8 @@ namespace GlobalNamespace {
     UnityEngine::Shader* fadeShader;
     // Field size check
     static_assert(sizeof(UnityEngine::Shader*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE240B8
-    // [RangeAttribute] Offset: 0xE240B8
+    // [SpaceAttribute] Offset: 0xEEB890
+    // [RangeAttribute] Offset: 0xEEB890
     // private System.Single _baseColorBoost
     // Size: 0x4
     // Offset: 0x20
@@ -68,18 +68,33 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Material _fadeMaterial
     UnityEngine::Material*& dyn__fadeMaterial();
     // protected System.Void OnDisable()
-    // Offset: 0x238F5B8
+    // Offset: 0x2589EC4
     void OnDisable();
     // public System.Void DrawFadeQuad(System.Single alpha)
-    // Offset: 0x238F644
+    // Offset: 0x2589F50
     void DrawFadeQuad(float alpha);
     // public override System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x238F520
+    // Offset: 0x2589E2C
     // Implemented from: MainEffectSO
     // Base method: System.Boolean MainEffectSO::get_hasPostProcessEffect()
     bool get_hasPostProcessEffect();
+    // protected override System.Void OnEnable()
+    // Offset: 0x2589E34
+    // Implemented from: PersistentScriptableObject
+    // Base method: System.Void PersistentScriptableObject::OnEnable()
+    void OnEnable();
+    // public override System.Void PreRender()
+    // Offset: 0x2589ED0
+    // Implemented from: MainEffectSO
+    // Base method: System.Void MainEffectSO::PreRender()
+    void PreRender();
+    // public override System.Void PostRender(System.Single fade)
+    // Offset: 0x2589F44
+    // Implemented from: MainEffectSO
+    // Base method: System.Void MainEffectSO::PostRender(System.Single fade)
+    void PostRender(float fade);
     // public System.Void .ctor()
-    // Offset: 0x238F758
+    // Offset: 0x258A064
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -91,21 +106,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoPostProcessMainEffectSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoPostProcessMainEffectSO*, creationType>()));
     }
-    // protected override System.Void OnEnable()
-    // Offset: 0x238F528
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::OnEnable()
-    void OnEnable();
-    // public override System.Void PreRender()
-    // Offset: 0x238F5C4
-    // Implemented from: MainEffectSO
-    // Base method: System.Void MainEffectSO::PreRender()
-    void PreRender();
-    // public override System.Void PostRender(System.Single fade)
-    // Offset: 0x238F638
-    // Implemented from: MainEffectSO
-    // Base method: System.Void MainEffectSO::PostRender(System.Single fade)
-    void PostRender(float fade);
   }; // NoPostProcessMainEffectSO
   #pragma pack(pop)
   static check_size<sizeof(NoPostProcessMainEffectSO), 40 + sizeof(UnityEngine::Material*)> __GlobalNamespace_NoPostProcessMainEffectSOSizeCheck;
@@ -138,10 +138,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoPostProcessMainEffectSO*), "get_hasPostProcessEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::NoPostProcessMainEffectSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NoPostProcessMainEffectSO::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -167,3 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoPostProcessMainEffectSO*), "PostRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fade});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::NoPostProcessMainEffectSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

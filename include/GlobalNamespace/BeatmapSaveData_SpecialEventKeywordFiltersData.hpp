@@ -43,10 +43,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<BeatmapSaveData/SpecialEventsForKeyword> _keywords
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>*& dyn__keywords();
     // public System.Collections.Generic.List`1<BeatmapSaveData/SpecialEventsForKeyword> get_keywords()
-    // Offset: 0x10D6574
+    // Offset: 0x12A7E14
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>* get_keywords();
     // public System.Void .ctor(System.Collections.Generic.List`1<BeatmapSaveData/SpecialEventsForKeyword> keywords)
-    // Offset: 0x10D657C
+    // Offset: 0x12A7E1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::SpecialEventKeywordFiltersData* New_ctor(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>* keywords) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData::.ctor");

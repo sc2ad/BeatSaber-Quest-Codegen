@@ -55,6 +55,7 @@ namespace GlobalNamespace {
     HMUI::ColorGradientSlider* blueSlider;
     // Field size check
     static_assert(sizeof(HMUI::ColorGradientSlider*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0C7D0
     // private System.Action`2<UnityEngine.Color,ColorChangeUIEventType> colorDidChangeEvent
     // Size: 0x8
     // Offset: 0x30
@@ -81,35 +82,35 @@ namespace GlobalNamespace {
     System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>*& dyn_colorDidChangeEvent();
     // Get instance field reference: private UnityEngine.Color _color
     UnityEngine::Color& dyn__color();
-    // public UnityEngine.Color get_color()
-    // Offset: 0x1126B50
-    UnityEngine::Color get_color();
-    // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x1126B5C
-    void set_color(UnityEngine::Color value);
     // public System.Void add_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x1126A08
+    // Offset: 0x11C0080
     void add_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x1126AAC
+    // Offset: 0x11C0124
     void remove_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
+    // public UnityEngine.Color get_color()
+    // Offset: 0x11C01C8
+    UnityEngine::Color get_color();
+    // public System.Void set_color(UnityEngine.Color value)
+    // Offset: 0x11C01D4
+    void set_color(UnityEngine::Color value);
     // protected System.Void Awake()
-    // Offset: 0x1126D5C
+    // Offset: 0x11C03D4
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1126E60
+    // Offset: 0x11C04D8
     void OnDestroy();
     // private System.Void HandleSliderColorDidChange(HMUI.ColorGradientSlider slider, UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x1127034
+    // Offset: 0x11C06AC
     void HandleSliderColorDidChange(HMUI::ColorGradientSlider* slider, UnityEngine::Color color, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void RefreshSlidersValues()
-    // Offset: 0x1126D04
+    // Offset: 0x11C037C
     void RefreshSlidersValues();
     // private System.Void RefreshSlidersColors()
-    // Offset: 0x1126B88
+    // Offset: 0x11C0200
     void RefreshSlidersColors();
     // public System.Void .ctor()
-    // Offset: 0x11270D8
+    // Offset: 0x11C0750
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -128,23 +129,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RGBPanelController*, "", "RGBPanelController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::RGBPanelController::get_color
-// Il2CppName: get_color
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::RGBPanelController::*)()>(&GlobalNamespace::RGBPanelController::get_color)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RGBPanelController*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::RGBPanelController::set_color
-// Il2CppName: set_color
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RGBPanelController::*)(UnityEngine::Color)>(&GlobalNamespace::RGBPanelController::set_color)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RGBPanelController*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::RGBPanelController::add_colorDidChangeEvent
 // Il2CppName: add_colorDidChangeEvent
 template<>
@@ -161,6 +145,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), ::il2cpp_utils::GetClassFromName("", "ColorChangeUIEventType")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RGBPanelController*), "remove_colorDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::RGBPanelController::get_color
+// Il2CppName: get_color
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::RGBPanelController::*)()>(&GlobalNamespace::RGBPanelController::get_color)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RGBPanelController*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::RGBPanelController::set_color
+// Il2CppName: set_color
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RGBPanelController::*)(UnityEngine::Color)>(&GlobalNamespace::RGBPanelController::set_color)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RGBPanelController*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::RGBPanelController::Awake

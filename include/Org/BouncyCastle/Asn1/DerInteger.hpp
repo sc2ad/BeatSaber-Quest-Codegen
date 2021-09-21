@@ -13,17 +13,17 @@
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: Org::BouncyCastle::Math
-namespace Org::BouncyCastle::Math {
-  // Forward declaring type: BigInteger
-  class BigInteger;
-}
 // Forward declaring namespace: Org::BouncyCastle::Asn1
 namespace Org::BouncyCastle::Asn1 {
   // Forward declaring type: Asn1TaggedObject
   class Asn1TaggedObject;
   // Forward declaring type: DerOutputStream
   class DerOutputStream;
+}
+// Forward declaring namespace: Org::BouncyCastle::Math
+namespace Org::BouncyCastle::Math {
+  // Forward declaring type: BigInteger
+  class BigInteger;
 }
 // Completed forward declares
 // Type namespace: Org.BouncyCastle.Asn1
@@ -52,78 +52,78 @@ namespace Org::BouncyCastle::Asn1 {
     ::Array<uint8_t>*& dyn_bytes();
     // Get instance field reference: private readonly System.Int32 start
     int& dyn_start();
-    // public Org.BouncyCastle.Math.BigInteger get_PositiveValue()
-    // Offset: 0x173AB34
-    Org::BouncyCastle::Math::BigInteger* get_PositiveValue();
-    // public Org.BouncyCastle.Math.BigInteger get_Value()
-    // Offset: 0x173EFF0
-    Org::BouncyCastle::Math::BigInteger* get_Value();
-    // public System.Int32 get_IntValueExact()
-    // Offset: 0x173F058
-    int get_IntValueExact();
+    // static System.Boolean AllowUnsafe()
+    // Offset: 0x18F04E8
+    static bool AllowUnsafe();
+    // static public Org.BouncyCastle.Asn1.DerInteger GetInstance(System.Object obj)
+    // Offset: 0x18F0598
+    static Org::BouncyCastle::Asn1::DerInteger* GetInstance(::Il2CppObject* obj);
+    // static public Org.BouncyCastle.Asn1.DerInteger GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean isExplicit)
+    // Offset: 0x18F0698
+    static Org::BouncyCastle::Asn1::DerInteger* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
     // public System.Void .ctor(System.Int32 value)
-    // Offset: 0x173AD3C
+    // Offset: 0x18EC514
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerInteger* New_ctor(int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerInteger*, creationType>(value)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger value)
-    // Offset: 0x173AA70
+    // Offset: 0x18EC248
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerInteger* New_ctor(Org::BouncyCastle::Math::BigInteger* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerInteger*, creationType>(value)));
     }
     // public System.Void .ctor(System.Byte[] bytes)
-    // Offset: 0x173EFE8
+    // Offset: 0x18F07C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerInteger* New_ctor(::Array<uint8_t>* bytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerInteger*, creationType>(bytes)));
     }
     // System.Void .ctor(System.Byte[] bytes, System.Boolean clone)
-    // Offset: 0x1730AB4
+    // Offset: 0x18E228C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerInteger* New_ctor(::Array<uint8_t>* bytes, bool clone) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerInteger*, creationType>(bytes, clone)));
     }
-    // static System.Boolean AllowUnsafe()
-    // Offset: 0x173ED10
-    static bool AllowUnsafe();
-    // static public Org.BouncyCastle.Asn1.DerInteger GetInstance(System.Object obj)
-    // Offset: 0x173EDC0
-    static Org::BouncyCastle::Asn1::DerInteger* GetInstance(::Il2CppObject* obj);
-    // static public Org.BouncyCastle.Asn1.DerInteger GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean isExplicit)
-    // Offset: 0x173EEC0
-    static Org::BouncyCastle::Asn1::DerInteger* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
+    // public Org.BouncyCastle.Math.BigInteger get_PositiveValue()
+    // Offset: 0x18EC30C
+    Org::BouncyCastle::Math::BigInteger* get_PositiveValue();
+    // public Org.BouncyCastle.Math.BigInteger get_Value()
+    // Offset: 0x18F07C8
+    Org::BouncyCastle::Math::BigInteger* get_Value();
+    // public System.Int32 get_IntValueExact()
+    // Offset: 0x18F0830
+    int get_IntValueExact();
     // static System.Int32 IntValue(System.Byte[] bytes, System.Int32 start, System.Int32 signExt)
-    // Offset: 0x173D000
+    // Offset: 0x18EE7D8
     static int IntValue(::Array<uint8_t>* bytes, int start, int signExt);
     // static System.Boolean IsMalformed(System.Byte[] bytes)
-    // Offset: 0x173CE04
+    // Offset: 0x18EE5DC
     static bool IsMalformed(::Array<uint8_t>* bytes);
     // static System.Int32 SignBytesToSkip(System.Byte[] bytes)
-    // Offset: 0x173CE8C
+    // Offset: 0x18EE664
     static int SignBytesToSkip(::Array<uint8_t>* bytes);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x173F0F8
+    // Offset: 0x18F08D0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x173F11C
+    // Offset: 0x18F08F4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x173F188
+    // Offset: 0x18F0960
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // public override System.String ToString()
-    // Offset: 0x173F260
+    // Offset: 0x18F0A38
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -134,46 +134,6 @@ namespace Org::BouncyCastle::Asn1 {
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerInteger*, "Org.BouncyCastle.Asn1", "DerInteger");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerInteger::get_PositiveValue
-// Il2CppName: get_PositiveValue
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Asn1::DerInteger::*)()>(&Org::BouncyCastle::Asn1::DerInteger::get_PositiveValue)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerInteger*), "get_PositiveValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerInteger::get_Value
-// Il2CppName: get_Value
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Asn1::DerInteger::*)()>(&Org::BouncyCastle::Asn1::DerInteger::get_Value)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerInteger*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerInteger::get_IntValueExact
-// Il2CppName: get_IntValueExact
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Asn1::DerInteger::*)()>(&Org::BouncyCastle::Asn1::DerInteger::get_IntValueExact)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerInteger*), "get_IntValueExact", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerInteger::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerInteger::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerInteger::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerInteger::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerInteger::AllowUnsafe
 // Il2CppName: AllowUnsafe
 template<>
@@ -199,6 +159,46 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
     static auto* obj = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "Asn1TaggedObject")->byval_arg;
     static auto* isExplicit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerInteger*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, isExplicit});
+  }
+};
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerInteger::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerInteger::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerInteger::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerInteger::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerInteger::get_PositiveValue
+// Il2CppName: get_PositiveValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Asn1::DerInteger::*)()>(&Org::BouncyCastle::Asn1::DerInteger::get_PositiveValue)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerInteger*), "get_PositiveValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerInteger::get_Value
+// Il2CppName: get_Value
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Asn1::DerInteger::*)()>(&Org::BouncyCastle::Asn1::DerInteger::get_Value)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerInteger*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerInteger::get_IntValueExact
+// Il2CppName: get_IntValueExact
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Asn1::DerInteger::*)()>(&Org::BouncyCastle::Asn1::DerInteger::get_IntValueExact)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerInteger*), "get_IntValueExact", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerInteger::IntValue

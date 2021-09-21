@@ -26,12 +26,6 @@ namespace GlobalNamespace {
   // Forward declaring type: BeatmapCharacteristicSO
   class BeatmapCharacteristicSO;
 }
-// Forward declaring namespace: System::Collections::Generic
-namespace System::Collections::Generic {
-  // Forward declaring type: HashSet`1<T>
-  template<typename T>
-  class HashSet_1;
-}
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
@@ -50,6 +44,12 @@ namespace System::Threading {
   // Forward declaring type: CancellationToken
   struct CancellationToken;
 }
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: HashSet`1<T>
+  template<typename T>
+  class HashSet_1;
+}
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -61,12 +61,14 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData
     class FilteredBeatmapLevelData;
+    // [CompilerGeneratedAttribute] Offset: 0xF101F8
     // private PreviewDifficultyBeatmapSet[] <previewDifficultyBeatmapSets>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* previewDifficultyBeatmapSets;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF10208
     // private IBeatmapLevelData <beatmapLevelData>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -92,75 +94,75 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IBeatmapLevel _beatmapLevel
     GlobalNamespace::IBeatmapLevel*& dyn__beatmapLevel();
     // public System.String get_levelID()
-    // Offset: 0x105CD54
+    // Offset: 0x11B5B8C
     ::Il2CppString* get_levelID();
     // public System.String get_songName()
-    // Offset: 0x105CE04
+    // Offset: 0x11B5C3C
     ::Il2CppString* get_songName();
     // public System.String get_songSubName()
-    // Offset: 0x105CEB8
+    // Offset: 0x11B5CF0
     ::Il2CppString* get_songSubName();
     // public System.String get_songAuthorName()
-    // Offset: 0x105CF6C
+    // Offset: 0x11B5DA4
     ::Il2CppString* get_songAuthorName();
     // public System.String get_levelAuthorName()
-    // Offset: 0x105D020
+    // Offset: 0x11B5E58
     ::Il2CppString* get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
-    // Offset: 0x105D0D4
+    // Offset: 0x11B5F0C
     float get_beatsPerMinute();
     // public System.Single get_songTimeOffset()
-    // Offset: 0x105D188
+    // Offset: 0x11B5FC0
     float get_songTimeOffset();
     // public System.Single get_shuffle()
-    // Offset: 0x105D23C
+    // Offset: 0x11B6074
     float get_shuffle();
     // public System.Single get_shufflePeriod()
-    // Offset: 0x105D2F0
+    // Offset: 0x11B6128
     float get_shufflePeriod();
     // public System.Single get_previewStartTime()
-    // Offset: 0x105D3A4
+    // Offset: 0x11B61DC
     float get_previewStartTime();
     // public System.Single get_previewDuration()
-    // Offset: 0x105D458
+    // Offset: 0x11B6290
     float get_previewDuration();
     // public System.Single get_songDuration()
-    // Offset: 0x105D50C
+    // Offset: 0x11B6344
     float get_songDuration();
     // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0x105D5C0
+    // Offset: 0x11B63F8
     GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
     // public EnvironmentInfoSO get_allDirectionsEnvironmentInfo()
-    // Offset: 0x105D674
+    // Offset: 0x11B64AC
     GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
     // public PreviewDifficultyBeatmapSet[] get_previewDifficultyBeatmapSets()
-    // Offset: 0x105D728
+    // Offset: 0x11B6560
     ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
     // private System.Void set_previewDifficultyBeatmapSets(PreviewDifficultyBeatmapSet[] value)
-    // Offset: 0x105D730
+    // Offset: 0x11B6568
     void set_previewDifficultyBeatmapSets(::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* value);
+    // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> GetPreviewAudioClipAsync(System.Threading.CancellationToken cancellationToken)
+    // Offset: 0x11B6570
+    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* GetPreviewAudioClipAsync(System::Threading::CancellationToken cancellationToken);
+    // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
+    // Offset: 0x11B6634
+    System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* GetCoverImageAsync(System::Threading::CancellationToken cancellationToken);
     // public IBeatmapLevelData get_beatmapLevelData()
-    // Offset: 0x105D8C0
+    // Offset: 0x11B66F8
     GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
     // private System.Void set_beatmapLevelData(IBeatmapLevelData value)
-    // Offset: 0x105D8C8
+    // Offset: 0x11B6700
     void set_beatmapLevelData(GlobalNamespace::IBeatmapLevelData* value);
     // public System.Boolean get_isEmpty()
-    // Offset: 0x105D8D0
+    // Offset: 0x11B6708
     bool get_isEmpty();
     // public System.Void .ctor(IBeatmapLevel beatmapLevel, BeatmapDifficultyMask allowedBeatmapDifficultyMask, System.Collections.Generic.HashSet`1<BeatmapCharacteristicSO> notAllowedCharacteristics)
-    // Offset: 0x105D998
+    // Offset: 0x11B67D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FilteredBeatmapLevel* New_ctor(GlobalNamespace::IBeatmapLevel* beatmapLevel, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO*>* notAllowedCharacteristics) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FilteredBeatmapLevel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FilteredBeatmapLevel*, creationType>(beatmapLevel, allowedBeatmapDifficultyMask, notAllowedCharacteristics)));
     }
-    // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> GetPreviewAudioClipAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x105D738
-    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* GetPreviewAudioClipAsync(System::Threading::CancellationToken cancellationToken);
-    // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x105D7FC
-    System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* GetCoverImageAsync(System::Threading::CancellationToken cancellationToken);
   }; // FilteredBeatmapLevel
   #pragma pack(pop)
   static check_size<sizeof(FilteredBeatmapLevel), 32 + sizeof(GlobalNamespace::IBeatmapLevel*)> __GlobalNamespace_FilteredBeatmapLevelSizeCheck;
@@ -297,6 +299,24 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FilteredBeatmapLevel*), "set_previewDifficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::FilteredBeatmapLevel::GetPreviewAudioClipAsync
+// Il2CppName: GetPreviewAudioClipAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (GlobalNamespace::FilteredBeatmapLevel::*)(System::Threading::CancellationToken)>(&GlobalNamespace::FilteredBeatmapLevel::GetPreviewAudioClipAsync)> {
+  static const MethodInfo* get() {
+    static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FilteredBeatmapLevel*), "GetPreviewAudioClipAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::FilteredBeatmapLevel::GetCoverImageAsync
+// Il2CppName: GetCoverImageAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* (GlobalNamespace::FilteredBeatmapLevel::*)(System::Threading::CancellationToken)>(&GlobalNamespace::FilteredBeatmapLevel::GetCoverImageAsync)> {
+  static const MethodInfo* get() {
+    static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FilteredBeatmapLevel*), "GetCoverImageAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::FilteredBeatmapLevel::get_beatmapLevelData
 // Il2CppName: get_beatmapLevelData
 template<>
@@ -326,21 +346,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::FilteredBeatmapLevel::GetPreviewAudioClipAsync
-// Il2CppName: GetPreviewAudioClipAsync
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (GlobalNamespace::FilteredBeatmapLevel::*)(System::Threading::CancellationToken)>(&GlobalNamespace::FilteredBeatmapLevel::GetPreviewAudioClipAsync)> {
-  static const MethodInfo* get() {
-    static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FilteredBeatmapLevel*), "GetPreviewAudioClipAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::FilteredBeatmapLevel::GetCoverImageAsync
-// Il2CppName: GetCoverImageAsync
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* (GlobalNamespace::FilteredBeatmapLevel::*)(System::Threading::CancellationToken)>(&GlobalNamespace::FilteredBeatmapLevel::GetCoverImageAsync)> {
-  static const MethodInfo* get() {
-    static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FilteredBeatmapLevel*), "GetCoverImageAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
-  }
-};

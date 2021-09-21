@@ -223,72 +223,78 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* noAllowedBeatmapInfoContainer;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE47D34
-    // [InjectAttribute] Offset: 0xE47D34
+    // [SpaceAttribute] Offset: 0xF10748
+    // [InjectAttribute] Offset: 0xF10748
     // private PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xA0
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE47D6C
+    // [InjectAttribute] Offset: 0xF10780
     // private AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0xA8
     GlobalNamespace::AdditionalContentModel* additionalContentModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AdditionalContentModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE47D7C
+    // [InjectAttribute] Offset: 0xF10790
     // private BeatmapLevelsModel _beatmapLevelsModel
     // Size: 0x8
     // Offset: 0xB0
     GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE47D8C
+    // [InjectAttribute] Offset: 0xF107A0
     // private DlcPromoExperimentModel _dlcPromoExperimentModel
     // Size: 0x8
     // Offset: 0xB8
     GlobalNamespace::DlcPromoExperimentModel* dlcPromoExperimentModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DlcPromoExperimentModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE47D9C
+    // [InjectAttribute] Offset: 0xF107B0
     // private IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0xC0
     GlobalNamespace::IAnalyticsModel* analyticsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAnalyticsModel*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF107C0
     // private System.Action`1<StandardLevelDetailViewController> didPressActionButtonEvent
     // Size: 0x8
     // Offset: 0xC8
     System::Action_1<GlobalNamespace::StandardLevelDetailViewController*>* didPressActionButtonEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::StandardLevelDetailViewController*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF107D0
     // private System.Action`2<StandardLevelDetailViewController,IBeatmapLevelPack> didPressOpenLevelPackButtonEvent
     // Size: 0x8
     // Offset: 0xD0
     System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevelPack*>* didPressOpenLevelPackButtonEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevelPack*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF107E0
     // private System.Action`2<StandardLevelDetailViewController,System.Boolean> levelFavoriteStatusDidChangeEvent
     // Size: 0x8
     // Offset: 0xD8
     System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, bool>* levelFavoriteStatusDidChangeEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, bool>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF107F0
     // private System.Action`2<StandardLevelDetailViewController,IBeatmapLevel> didPressPracticeButtonEvent
     // Size: 0x8
     // Offset: 0xE0
     System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevel*>* didPressPracticeButtonEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevel*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF10800
     // private System.Action`2<StandardLevelDetailViewController,IDifficultyBeatmap> didChangeDifficultyBeatmapEvent
     // Size: 0x8
     // Offset: 0xE8
     System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IDifficultyBeatmap*>* didChangeDifficultyBeatmapEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IDifficultyBeatmap*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF10810
     // private System.Action`2<StandardLevelDetailViewController,StandardLevelDetailViewController/ContentType> didChangeContentEvent
     // Size: 0x8
     // Offset: 0xF0
@@ -425,116 +431,131 @@ namespace GlobalNamespace {
     System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO*>*& dyn__notAllowedCharacteristics();
     // Get instance field reference: private System.Boolean _contentIsOwnedAndReady
     bool& dyn__contentIsOwnedAndReady();
-    // public IDifficultyBeatmap get_selectedDifficultyBeatmap()
-    // Offset: 0x10A3220
-    GlobalNamespace::IDifficultyBeatmap* get_selectedDifficultyBeatmap();
-    // public IPreviewBeatmapLevel get_beatmapLevel()
-    // Offset: 0x10A323C
-    GlobalNamespace::IPreviewBeatmapLevel* get_beatmapLevel();
     // public System.Void add_didPressActionButtonEvent(System.Action`1<StandardLevelDetailViewController> value)
-    // Offset: 0x10A2A70
+    // Offset: 0x1111754
     void add_didPressActionButtonEvent(System::Action_1<GlobalNamespace::StandardLevelDetailViewController*>* value);
     // public System.Void remove_didPressActionButtonEvent(System.Action`1<StandardLevelDetailViewController> value)
-    // Offset: 0x10A2B14
+    // Offset: 0x11117F8
     void remove_didPressActionButtonEvent(System::Action_1<GlobalNamespace::StandardLevelDetailViewController*>* value);
     // public System.Void add_didPressOpenLevelPackButtonEvent(System.Action`2<StandardLevelDetailViewController,IBeatmapLevelPack> value)
-    // Offset: 0x10A2BB8
+    // Offset: 0x111189C
     void add_didPressOpenLevelPackButtonEvent(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevelPack*>* value);
     // public System.Void remove_didPressOpenLevelPackButtonEvent(System.Action`2<StandardLevelDetailViewController,IBeatmapLevelPack> value)
-    // Offset: 0x10A2C5C
+    // Offset: 0x1111940
     void remove_didPressOpenLevelPackButtonEvent(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevelPack*>* value);
     // public System.Void add_levelFavoriteStatusDidChangeEvent(System.Action`2<StandardLevelDetailViewController,System.Boolean> value)
-    // Offset: 0x10A2D00
+    // Offset: 0x11119E4
     void add_levelFavoriteStatusDidChangeEvent(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, bool>* value);
     // public System.Void remove_levelFavoriteStatusDidChangeEvent(System.Action`2<StandardLevelDetailViewController,System.Boolean> value)
-    // Offset: 0x10A2DA4
+    // Offset: 0x1111A88
     void remove_levelFavoriteStatusDidChangeEvent(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, bool>* value);
     // public System.Void add_didPressPracticeButtonEvent(System.Action`2<StandardLevelDetailViewController,IBeatmapLevel> value)
-    // Offset: 0x10A2E48
+    // Offset: 0x1111B2C
     void add_didPressPracticeButtonEvent(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevel*>* value);
     // public System.Void remove_didPressPracticeButtonEvent(System.Action`2<StandardLevelDetailViewController,IBeatmapLevel> value)
-    // Offset: 0x10A2EEC
+    // Offset: 0x1111BD0
     void remove_didPressPracticeButtonEvent(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IBeatmapLevel*>* value);
     // public System.Void add_didChangeDifficultyBeatmapEvent(System.Action`2<StandardLevelDetailViewController,IDifficultyBeatmap> value)
-    // Offset: 0x10A2F90
+    // Offset: 0x1111C74
     void add_didChangeDifficultyBeatmapEvent(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void remove_didChangeDifficultyBeatmapEvent(System.Action`2<StandardLevelDetailViewController,IDifficultyBeatmap> value)
-    // Offset: 0x10A3034
+    // Offset: 0x1111D18
     void remove_didChangeDifficultyBeatmapEvent(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void add_didChangeContentEvent(System.Action`2<StandardLevelDetailViewController,StandardLevelDetailViewController/ContentType> value)
-    // Offset: 0x10A30D8
+    // Offset: 0x1111DBC
     void add_didChangeContentEvent(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>* value);
     // public System.Void remove_didChangeContentEvent(System.Action`2<StandardLevelDetailViewController,StandardLevelDetailViewController/ContentType> value)
-    // Offset: 0x10A317C
+    // Offset: 0x1111E60
     void remove_didChangeContentEvent(System::Action_2<GlobalNamespace::StandardLevelDetailViewController*, GlobalNamespace::StandardLevelDetailViewController::ContentType>* value);
+    // public IDifficultyBeatmap get_selectedDifficultyBeatmap()
+    // Offset: 0x1111F04
+    GlobalNamespace::IDifficultyBeatmap* get_selectedDifficultyBeatmap();
+    // public IPreviewBeatmapLevel get_beatmapLevel()
+    // Offset: 0x1111F20
+    GlobalNamespace::IPreviewBeatmapLevel* get_beatmapLevel();
     // public System.Void SetData(IPreviewBeatmapLevel previewBeatmapLevel, System.Boolean showPlayerStats, System.Boolean hidePracticeButton, System.Boolean hide360DegreeBeatmapCharacteristic, System.String playButtonText, BeatmapDifficultyMask allowedBeatmapDifficultyMask, BeatmapCharacteristicSO[] notAllowedCharacteristics)
-    // Offset: 0x10A3244
+    // Offset: 0x1111F28
     void SetData(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, bool showPlayerStats, bool hidePracticeButton, bool hide360DegreeBeatmapCharacteristic, ::Il2CppString* playButtonText, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, ::Array<GlobalNamespace::BeatmapCharacteristicSO*>* notAllowedCharacteristics);
     // public System.Void SetData(IBeatmapLevelPack pack, IPreviewBeatmapLevel previewBeatmapLevel, System.Boolean showPlayerStats, System.Boolean hidePracticeButton, System.Boolean hide360DegreeBeatmapCharacteristic, System.Boolean canBuyPack, System.String playButtonText, BeatmapDifficultyMask allowedBeatmapDifficultyMask, BeatmapCharacteristicSO[] notAllowedCharacteristics)
-    // Offset: 0x10A3370
+    // Offset: 0x1112054
     void SetData(GlobalNamespace::IBeatmapLevelPack* pack, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, bool showPlayerStats, bool hidePracticeButton, bool hide360DegreeBeatmapCharacteristic, bool canBuyPack, ::Il2CppString* playButtonText, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, ::Array<GlobalNamespace::BeatmapCharacteristicSO*>* notAllowedCharacteristics);
     // private System.Void UpdateActionButtonIntractability()
-    // Offset: 0x10A3CE0
+    // Offset: 0x11129BC
     void UpdateActionButtonIntractability();
     // private System.Void HandleDidPressPracticeButton()
-    // Offset: 0x10A3EF0
+    // Offset: 0x1112BCC
     void HandleDidPressPracticeButton();
     // private System.Void HandleLevelLoadingUpdate(BeatmapLevelsModel/LevelDownloadingUpdate levelLoadingUpdate)
-    // Offset: 0x10A3F5C
+    // Offset: 0x1112C38
     void HandleLevelLoadingUpdate(GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate levelLoadingUpdate);
     // private System.Void UpdateDownloading(System.Boolean preparingToDownload, System.UInt32 bytesTransferred, System.UInt32 bytesTotal)
-    // Offset: 0x10A4074
+    // Offset: 0x1112D50
     void UpdateDownloading(bool preparingToDownload, uint bytesTransferred, uint bytesTotal);
     // private System.Threading.Tasks.Task LoadBeatmapLevelAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x10A4540
+    // Offset: 0x111321C
     System::Threading::Tasks::Task* LoadBeatmapLevelAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Void RefreshContentLevelDetailView()
-    // Offset: 0x10A463C
+    // Offset: 0x1113318
     void RefreshContentLevelDetailView();
     // public System.Void ClearSelected()
-    // Offset: 0x10A4654
+    // Offset: 0x1113330
     void ClearSelected();
     // private System.Void OpenLevelProductStoreOrShowBuyInfoAsync()
-    // Offset: 0x10A4670
+    // Offset: 0x111334C
     void OpenLevelProductStoreOrShowBuyInfoAsync();
     // private System.Void BuyLevelButtonWasPressed()
-    // Offset: 0x10A4730
+    // Offset: 0x111340C
     void BuyLevelButtonWasPressed();
     // private System.Void OpenLevelProductStoreAsync()
-    // Offset: 0x10A4838
+    // Offset: 0x1113514
     void OpenLevelProductStoreAsync();
     // private System.Void BuyPackButtonWasPressed()
-    // Offset: 0x10A48F8
+    // Offset: 0x11135D4
     void BuyPackButtonWasPressed();
     // private System.Void OpenLevelPackProductStoreAsync()
-    // Offset: 0x10A4A04
+    // Offset: 0x11136E0
     void OpenLevelPackProductStoreAsync();
     // private System.Void OpenLevelPack()
-    // Offset: 0x10A4AC4
+    // Offset: 0x11137A0
     void OpenLevelPack();
     // private System.Void RefreshAvailabilityAsync()
-    // Offset: 0x10A35D0
+    // Offset: 0x11122B4
     void RefreshAvailabilityAsync();
     // private System.Void ShowContent(StandardLevelDetailViewController/ContentType contentType, System.String errorText, System.Single downloadingProgress, System.String downloadingText)
-    // Offset: 0x10A4138
+    // Offset: 0x1112E14
     void ShowContent(GlobalNamespace::StandardLevelDetailViewController::ContentType contentType, ::Il2CppString* errorText, float downloadingProgress, ::Il2CppString* downloadingText);
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x10A4B2C
+    // Offset: 0x1113808
     void HandleAdditionalContentModelDidInvalidateData();
     // private System.Void <DidActivate>b__48_0()
-    // Offset: 0x10A4B98
+    // Offset: 0x1113874
     void $DidActivate$b__48_0();
     // private System.Void <DidActivate>b__48_1()
-    // Offset: 0x10A4BFC
+    // Offset: 0x11138D8
     void $DidActivate$b__48_1();
     // private System.Void <DidActivate>b__48_4(StandardLevelDetailView view, IDifficultyBeatmap beatmap)
-    // Offset: 0x10A4C00
+    // Offset: 0x11138DC
     void $DidActivate$b__48_4(GlobalNamespace::StandardLevelDetailView* view, GlobalNamespace::IDifficultyBeatmap* beatmap);
     // private System.Void <DidActivate>b__48_5(StandardLevelDetailView view, UnityEngine.UI.Toggle toggle)
-    // Offset: 0x10A4E08
+    // Offset: 0x1113AE4
     void $DidActivate$b__48_5(GlobalNamespace::StandardLevelDetailView* view, UnityEngine::UI::Toggle* toggle);
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x111236C
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Offset: 0x11127B0
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
+    // protected override System.Void OnDestroy()
+    // Offset: 0x11128C8
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::OnDestroy()
+    void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x10A4B30
+    // Offset: 0x111380C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -547,21 +568,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelDetailViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelDetailViewController*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x10A3688
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x10A3AD4
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
-    // protected override System.Void OnDestroy()
-    // Offset: 0x10A3BEC
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::OnDestroy()
-    void OnDestroy();
   }; // StandardLevelDetailViewController
   #pragma pack(pop)
   static check_size<sizeof(StandardLevelDetailViewController), 304 + sizeof(bool)> __GlobalNamespace_StandardLevelDetailViewControllerSizeCheck;
@@ -570,22 +576,6 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController*, "", "StandardLevelDetailViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController::ContentType, "", "StandardLevelDetailViewController/ContentType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailViewController::get_selectedDifficultyBeatmap
-// Il2CppName: get_selectedDifficultyBeatmap
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IDifficultyBeatmap* (GlobalNamespace::StandardLevelDetailViewController::*)()>(&GlobalNamespace::StandardLevelDetailViewController::get_selectedDifficultyBeatmap)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailViewController*), "get_selectedDifficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailViewController::get_beatmapLevel
-// Il2CppName: get_beatmapLevel
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPreviewBeatmapLevel* (GlobalNamespace::StandardLevelDetailViewController::*)()>(&GlobalNamespace::StandardLevelDetailViewController::get_beatmapLevel)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailViewController*), "get_beatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailViewController::add_didPressActionButtonEvent
 // Il2CppName: add_didPressActionButtonEvent
 template<>
@@ -692,6 +682,22 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "StandardLevelDetailViewController"), ::il2cpp_utils::GetClassFromName("", "StandardLevelDetailViewController/ContentType")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailViewController*), "remove_didChangeContentEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailViewController::get_selectedDifficultyBeatmap
+// Il2CppName: get_selectedDifficultyBeatmap
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IDifficultyBeatmap* (GlobalNamespace::StandardLevelDetailViewController::*)()>(&GlobalNamespace::StandardLevelDetailViewController::get_selectedDifficultyBeatmap)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailViewController*), "get_selectedDifficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailViewController::get_beatmapLevel
+// Il2CppName: get_beatmapLevel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPreviewBeatmapLevel* (GlobalNamespace::StandardLevelDetailViewController::*)()>(&GlobalNamespace::StandardLevelDetailViewController::get_beatmapLevel)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailViewController*), "get_beatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailViewController::SetData
@@ -899,10 +905,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailViewController*), "<DidActivate>b__48_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{view, toggle});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -932,3 +934,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

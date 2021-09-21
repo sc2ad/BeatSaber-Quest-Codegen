@@ -97,7 +97,7 @@ namespace LiteNetLib::Utils {
     LiteNetLib::Utils::NetSerializer* netSerializer;
     // Field size check
     static_assert(sizeof(LiteNetLib::Utils::NetSerializer*) == 0x8);
-    // private readonly System.Collections.Generic.Dictionary`2<System.UInt64,LiteNetLib.Utils.NetPacketProcessor/LiteNetLib.Utils.SubscribeDelegate> _callbacks
+    // private readonly System.Collections.Generic.Dictionary`2<System.UInt64,LiteNetLib.Utils.NetPacketProcessor/SubscribeDelegate> _callbacks
     // Size: 0x8
     // Offset: 0x18
     System::Collections::Generic::Dictionary_2<uint64_t, LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate*>* callbacks;
@@ -113,12 +113,12 @@ namespace LiteNetLib::Utils {
     NetPacketProcessor(LiteNetLib::Utils::NetSerializer* netSerializer_ = {}, System::Collections::Generic::Dictionary_2<uint64_t, LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate*>* callbacks_ = {}, LiteNetLib::Utils::NetDataWriter* netDataWriter_ = {}) noexcept : netSerializer{netSerializer_}, callbacks{callbacks_}, netDataWriter{netDataWriter_} {}
     // Get instance field reference: private readonly LiteNetLib.Utils.NetSerializer _netSerializer
     LiteNetLib::Utils::NetSerializer*& dyn__netSerializer();
-    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.UInt64,LiteNetLib.Utils.NetPacketProcessor/LiteNetLib.Utils.SubscribeDelegate> _callbacks
+    // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.UInt64,LiteNetLib.Utils.NetPacketProcessor/SubscribeDelegate> _callbacks
     System::Collections::Generic::Dictionary_2<uint64_t, LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate*>*& dyn__callbacks();
     // Get instance field reference: private readonly LiteNetLib.Utils.NetDataWriter _netDataWriter
     LiteNetLib::Utils::NetDataWriter*& dyn__netDataWriter();
     // public System.Void .ctor(System.Int32 maxStringLength)
-    // Offset: 0x240DB28
+    // Offset: 0x26181F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacketProcessor* New_ctor(int maxStringLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::.ctor");
@@ -134,8 +134,8 @@ namespace LiteNetLib::Utils {
       auto ___instance_arg = this;
       return ::il2cpp_utils::RunMethodThrow<uint64_t, false>(___instance_arg, ___generic__method);
     }
-    // protected LiteNetLib.Utils.NetPacketProcessor/LiteNetLib.Utils.SubscribeDelegate GetCallbackFromData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x240DC6C
+    // protected LiteNetLib.Utils.NetPacketProcessor/SubscribeDelegate GetCallbackFromData(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x2618338
     LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate* GetCallbackFromData(LiteNetLib::Utils::NetDataReader* reader);
     // protected System.Void WriteHash(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0xFFFFFFFF
@@ -180,13 +180,13 @@ namespace LiteNetLib::Utils {
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, constructor);
     }
     // public System.Void ReadAllPackets(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x240DDAC
+    // Offset: 0x2618478
     void ReadAllPackets(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void ReadAllPackets(LiteNetLib.Utils.NetDataReader reader, System.Object userData)
-    // Offset: 0x240DE04
+    // Offset: 0x26184D0
     void ReadAllPackets(LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData);
     // public System.Void ReadPacket(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x240DDFC
+    // Offset: 0x26184C8
     void ReadPacket(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Send(LiteNetLib.NetPeer peer, T packet, LiteNetLib.DeliveryMethod options)
     // Offset: 0xFFFFFFFF
@@ -273,7 +273,7 @@ namespace LiteNetLib::Utils {
       return ::il2cpp_utils::RunMethodThrow<::Array<uint8_t>*, false>(___instance_arg, ___generic__method, packet);
     }
     // public System.Void ReadPacket(LiteNetLib.Utils.NetDataReader reader, System.Object userData)
-    // Offset: 0x240DE60
+    // Offset: 0x261852C
     void ReadPacket(LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData);
     // public System.Void Subscribe(System.Action`1<T> onReceive, System.Func`1<T> packetConstructor)
     // Offset: 0xFFFFFFFF
@@ -370,7 +370,7 @@ namespace LiteNetLib::Utils {
       return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___generic__method);
     }
     // public System.Void .ctor()
-    // Offset: 0x240DA6C
+    // Offset: 0x2618138
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

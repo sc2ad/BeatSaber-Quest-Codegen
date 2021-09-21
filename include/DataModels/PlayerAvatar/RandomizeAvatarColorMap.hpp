@@ -18,6 +18,7 @@ namespace DataModels::PlayerAvatar {
   // [TokenAttribute] Offset: FFFFFFFF
   class RandomizeAvatarColorMap : public ::Il2CppObject {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xF154A4
     // private readonly System.Int32 <totalIndices>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -26,6 +27,7 @@ namespace DataModels::PlayerAvatar {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: totalIndices and: colorIndices
     char __padding0[0x4] = {};
+    // [CompilerGeneratedAttribute] Offset: 0xF154B4
     // private readonly System.Int32[] <colorIndices>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -39,13 +41,13 @@ namespace DataModels::PlayerAvatar {
     // Get instance field reference: private readonly System.Int32[] <colorIndices>k__BackingField
     ::Array<int>*& dyn_$colorIndices$k__BackingField();
     // public System.Int32 get_totalIndices()
-    // Offset: 0x10ED820
+    // Offset: 0x11A517C
     int get_totalIndices();
     // public System.Int32[] get_colorIndices()
-    // Offset: 0x10ED828
+    // Offset: 0x11A5184
     ::Array<int>* get_colorIndices();
     // public System.Void .ctor(System.Int32 headTopPrimaryColorIndex, System.Int32 headTopSecondaryColorIndex, System.Int32 glassesColorIndex, System.Int32 facialHairColorIndex, System.Int32 handsColorIndex, System.Int32 clothesPrimaryColorIndex, System.Int32 clothesSecondaryColorIndex, System.Int32 clothesDetailColorIndex)
-    // Offset: 0x10ED228
+    // Offset: 0x11A4B84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RandomizeAvatarColorMap* New_ctor(int headTopPrimaryColorIndex, int headTopSecondaryColorIndex, int glassesColorIndex, int facialHairColorIndex, int handsColorIndex, int clothesPrimaryColorIndex, int clothesSecondaryColorIndex, int clothesDetailColorIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("DataModels::PlayerAvatar::RandomizeAvatarColorMap::.ctor");

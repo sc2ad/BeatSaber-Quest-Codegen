@@ -27,35 +27,27 @@ namespace GlobalNamespace {
     static GlobalNamespace::SecureRandomProvider::SecureRandomState* _get__secureRandomState();
     // Set static field: static private SecureRandomProvider/SecureRandomState _secureRandomState
     static void _set__secureRandomState(GlobalNamespace::SecureRandomProvider::SecureRandomState* value);
-    // static private System.Void .cctor()
-    // Offset: 0x16FE384
-    static void _cctor();
     // static public System.Byte[] GetBytes(System.Int32 length)
-    // Offset: 0x16FDFDC
+    // Offset: 0x18D7ADC
     static ::Array<uint8_t>* GetBytes(int length);
     // static public System.Byte GetByte()
-    // Offset: 0x16FE14C
+    // Offset: 0x18D7C4C
     static uint8_t GetByte();
     // static public System.Void GetBytes(System.Byte[] buffer, System.Int32 offset, System.Int32 length)
-    // Offset: 0x16FE270
+    // Offset: 0x18D7D70
     static void GetBytes(::Array<uint8_t>* buffer, int offset, int length);
     // static public System.Void GetBytes(System.Byte[] buffer)
-    // Offset: 0x16FE300
+    // Offset: 0x18D7E00
     static void GetBytes(::Array<uint8_t>* buffer);
+    // static private System.Void .cctor()
+    // Offset: 0x18D7E84
+    static void _cctor();
   }; // SecureRandomProvider
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SecureRandomProvider*, "", "SecureRandomProvider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::SecureRandomProvider::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SecureRandomProvider::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SecureRandomProvider*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::SecureRandomProvider::GetBytes
 // Il2CppName: GetBytes
 template<>
@@ -91,5 +83,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SecureRandomProvider*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::SecureRandomProvider::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SecureRandomProvider::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SecureRandomProvider*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

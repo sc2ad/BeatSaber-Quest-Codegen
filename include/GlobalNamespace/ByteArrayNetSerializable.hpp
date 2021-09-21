@@ -77,34 +77,34 @@ namespace GlobalNamespace {
     int& dyn__minLength();
     // Get instance field reference: private readonly System.Int32 _maxLength
     int& dyn__maxLength();
-    // public System.Byte[] get_data()
-    // Offset: 0x1335EA4
-    ::Array<uint8_t>* get_data();
-    // public System.Void set_data(System.Byte[] value)
-    // Offset: 0x1335EAC
-    void set_data(::Array<uint8_t>* value);
     // public System.Void .ctor(System.String name, System.Int32 minLength, System.Int32 maxLength, System.Boolean allowNull)
-    // Offset: 0x1335E08
+    // Offset: 0x144D448
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ByteArrayNetSerializable* New_ctor(::Il2CppString* name, int minLength, int maxLength, bool allowNull) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ByteArrayNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ByteArrayNetSerializable*, creationType>(name, minLength, maxLength, allowNull)));
     }
     // public System.Void .ctor(System.String name, System.Int32 size, System.Boolean allowNull)
-    // Offset: 0x1335E5C
+    // Offset: 0x144D49C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ByteArrayNetSerializable* New_ctor(::Il2CppString* name, int size, bool allowNull) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ByteArrayNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ByteArrayNetSerializable*, creationType>(name, size, allowNull)));
     }
+    // public System.Byte[] get_data()
+    // Offset: 0x144D4E4
+    ::Array<uint8_t>* get_data();
+    // public System.Void set_data(System.Byte[] value)
+    // Offset: 0x144D4EC
+    void set_data(::Array<uint8_t>* value);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x13360AC
+    // Offset: 0x144D6EC
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x13361BC
+    // Offset: 0x144D7FC
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Clear()
-    // Offset: 0x13363D4
+    // Offset: 0x144DA14
     void Clear();
   }; // ByteArrayNetSerializable
   #pragma pack(pop)
@@ -113,6 +113,14 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ByteArrayNetSerializable*, "", "ByteArrayNetSerializable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ByteArrayNetSerializable::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::ByteArrayNetSerializable::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ByteArrayNetSerializable::get_data
 // Il2CppName: get_data
 template<>
@@ -130,14 +138,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ByteArrayNetSerializable*), "set_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ByteArrayNetSerializable::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::ByteArrayNetSerializable::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ByteArrayNetSerializable::Serialize
 // Il2CppName: Serialize
 template<>

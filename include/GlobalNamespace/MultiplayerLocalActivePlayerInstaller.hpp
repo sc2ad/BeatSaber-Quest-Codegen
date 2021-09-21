@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLocalActivePlayerInstaller : public Zenject::MonoInstaller {
     public:
-    // [InjectAttribute] Offset: 0xE40354
+    // [InjectAttribute] Offset: 0xF08CE8
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x20
@@ -38,8 +38,13 @@ namespace GlobalNamespace {
     MultiplayerLocalActivePlayerInstaller(GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData_ = {}) noexcept : sceneSetupData{sceneSetupData_} {}
     // Get instance field reference: private readonly GameplayCoreSceneSetupData _sceneSetupData
     GlobalNamespace::GameplayCoreSceneSetupData*& dyn__sceneSetupData();
+    // public override System.Void InstallBindings()
+    // Offset: 0x11758A8
+    // Implemented from: Zenject.MonoInstallerBase
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
+    void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1086310
+    // Offset: 0x117596C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -53,11 +58,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerLocalActivePlayerInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActivePlayerInstaller*, creationType>()));
     }
-    // public override System.Void InstallBindings()
-    // Offset: 0x108624C
-    // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings()
-    void InstallBindings();
   }; // MultiplayerLocalActivePlayerInstaller
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalActivePlayerInstaller), 32 + sizeof(GlobalNamespace::GameplayCoreSceneSetupData*)> __GlobalNamespace_MultiplayerLocalActivePlayerInstallerSizeCheck;
@@ -65,10 +65,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerInstaller*, "", "MultiplayerLocalActivePlayerInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerInstaller::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>
@@ -77,3 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActivePlayerInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerInstaller::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

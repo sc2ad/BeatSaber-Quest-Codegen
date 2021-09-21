@@ -44,56 +44,56 @@ namespace Org::BouncyCastle::Asn1 {
     }
     // Get instance field reference: private readonly System.String str
     ::Il2CppString*& dyn_str();
+    // static public Org.BouncyCastle.Asn1.DerIA5String GetInstance(System.Object obj)
+    // Offset: 0x18F0024
+    static Org::BouncyCastle::Asn1::DerIA5String* GetInstance(::Il2CppObject* obj);
+    // static public Org.BouncyCastle.Asn1.DerIA5String GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean isExplicit)
+    // Offset: 0x18F0124
+    static Org::BouncyCastle::Asn1::DerIA5String* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
     // public System.Void .ctor(System.Byte[] str)
-    // Offset: 0x1730A80
+    // Offset: 0x18E2258
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerIA5String* New_ctor(::Array<uint8_t>* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerIA5String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerIA5String*, creationType>(str)));
     }
     // public System.Void .ctor(System.String str)
-    // Offset: 0x173EB7C
+    // Offset: 0x18F0354
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerIA5String* New_ctor(::Il2CppString* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerIA5String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerIA5String*, creationType>(str)));
     }
     // public System.Void .ctor(System.String str, System.Boolean validate)
-    // Offset: 0x173EA94
+    // Offset: 0x18F026C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerIA5String* New_ctor(::Il2CppString* str, bool validate) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerIA5String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerIA5String*, creationType>(str, validate)));
     }
-    // static public Org.BouncyCastle.Asn1.DerIA5String GetInstance(System.Object obj)
-    // Offset: 0x173E84C
-    static Org::BouncyCastle::Asn1::DerIA5String* GetInstance(::Il2CppObject* obj);
-    // static public Org.BouncyCastle.Asn1.DerIA5String GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean isExplicit)
-    // Offset: 0x173E94C
-    static Org::BouncyCastle::Asn1::DerIA5String* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
     // public System.Byte[] GetOctets()
-    // Offset: 0x173EBF8
+    // Offset: 0x18F03D0
     ::Array<uint8_t>* GetOctets();
     // static public System.Boolean IsIA5String(System.String str)
-    // Offset: 0x173EB84
+    // Offset: 0x18F035C
     static bool IsIA5String(::Il2CppString* str);
     // public override System.String GetString()
-    // Offset: 0x173EBF0
+    // Offset: 0x18F03C8
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::GetString()
     ::Il2CppString* GetString();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x173EC04
+    // Offset: 0x18F03DC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x173EC40
+    // Offset: 0x18F0418
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.Int32 DerStringBase::Asn1GetHashCode()
     int Asn1GetHashCode();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x173EC5C
+    // Offset: 0x18F0434
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
@@ -104,18 +104,6 @@ namespace Org::BouncyCastle::Asn1 {
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerIA5String*, "Org.BouncyCastle.Asn1", "DerIA5String");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerIA5String::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerIA5String::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerIA5String::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerIA5String::GetInstance
 // Il2CppName: GetInstance
 template<>
@@ -135,6 +123,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerIA5String*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, isExplicit});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerIA5String::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerIA5String::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerIA5String::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerIA5String::GetOctets
 // Il2CppName: GetOctets
 template<>

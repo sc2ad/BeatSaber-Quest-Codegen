@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRControllerRemote
     OVRControllerRemote() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1547D18
+    // Offset: 0x16D0A60
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -35,27 +35,27 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRInput::OVRControllerRemote*, creationType>()));
     }
     // public override System.Void ConfigureButtonMap()
-    // Offset: 0x1547D40
+    // Offset: 0x16D0A88
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureButtonMap()
     void ConfigureButtonMap();
     // public override System.Void ConfigureTouchMap()
-    // Offset: 0x1547F10
+    // Offset: 0x16D0C58
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureTouchMap()
     void ConfigureTouchMap();
     // public override System.Void ConfigureNearTouchMap()
-    // Offset: 0x1547FC0
+    // Offset: 0x16D0D08
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureNearTouchMap()
     void ConfigureNearTouchMap();
     // public override System.Void ConfigureAxis1DMap()
-    // Offset: 0x1548010
+    // Offset: 0x16D0D58
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureAxis1DMap()
     void ConfigureAxis1DMap();
     // public override System.Void ConfigureAxis2DMap()
-    // Offset: 0x1548060
+    // Offset: 0x16D0DA8
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureAxis2DMap()
     void ConfigureAxis2DMap();

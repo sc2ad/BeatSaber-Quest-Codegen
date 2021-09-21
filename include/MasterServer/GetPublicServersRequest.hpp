@@ -43,12 +43,14 @@ namespace MasterServer {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
     char ___base_padding[0x4] = {};
+    // [CompilerGeneratedAttribute] Offset: 0xEDA240
     // private System.String <userId>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* userId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xEDA250
     // private System.String <userName>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -100,25 +102,40 @@ namespace MasterServer {
     // Get instance field reference: public GameplayServerConfiguration configuration
     GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
     // static public PacketPool`1<MasterServer.GetPublicServersRequest> get_pool()
-    // Offset: 0x121CE24
+    // Offset: 0x12DC1C4
     static GlobalNamespace::PacketPool_1<MasterServer::GetPublicServersRequest*>* get_pool();
     // public System.String get_userId()
-    // Offset: 0x121CE6C
+    // Offset: 0x12DC20C
     ::Il2CppString* get_userId();
     // private System.Void set_userId(System.String value)
-    // Offset: 0x121CE74
+    // Offset: 0x12DC214
     void set_userId(::Il2CppString* value);
     // public System.String get_userName()
-    // Offset: 0x121CE7C
+    // Offset: 0x12DC21C
     ::Il2CppString* get_userName();
     // private System.Void set_userName(System.String value)
-    // Offset: 0x121CE84
+    // Offset: 0x12DC224
     void set_userName(::Il2CppString* value);
     // public MasterServer.GetPublicServersRequest Init(System.String userId, System.String userName, System.Int32 offset, System.Int32 count, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
-    // Offset: 0x121CE8C
+    // Offset: 0x12DC22C
     MasterServer::GetPublicServersRequest* Init(::Il2CppString* userId, ::Il2CppString* userName, int offset, int count, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration);
+    // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x12DC258
+    // Implemented from: BaseMasterServerReliableRequest
+    // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
+    // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x12DC2E8
+    // Implemented from: BaseMasterServerReliableRequest
+    // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
+    // public override System.Void Release()
+    // Offset: 0x12DC3A4
+    // Implemented from: BaseMasterServerReliableRequest
+    // Base method: System.Void BaseMasterServerReliableRequest::Release()
+    void Release();
     // public System.Void .ctor()
-    // Offset: 0x121D060
+    // Offset: 0x12DC400
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -127,21 +144,6 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::GetPublicServersRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GetPublicServersRequest*, creationType>()));
     }
-    // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x121CEB8
-    // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
-    // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x121CF48
-    // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
-    // public override System.Void Release()
-    // Offset: 0x121D004
-    // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Release()
-    void Release();
   }; // MasterServer.GetPublicServersRequest
   #pragma pack(pop)
   static check_size<sizeof(GetPublicServersRequest), 72 + sizeof(GlobalNamespace::GameplayServerConfiguration)> __MasterServer_GetPublicServersRequestSizeCheck;
@@ -205,10 +207,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
     return ::il2cpp_utils::FindMethod(classof(MasterServer::GetPublicServersRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId, userName, offset, count, selectionMask, configuration});
   }
 };
-// Writing MetadataGetter for method: MasterServer::GetPublicServersRequest::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: MasterServer::GetPublicServersRequest::Serialize
 // Il2CppName: Serialize
 template<>
@@ -235,3 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
     return ::il2cpp_utils::FindMethod(classof(MasterServer::GetPublicServersRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: MasterServer::GetPublicServersRequest::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

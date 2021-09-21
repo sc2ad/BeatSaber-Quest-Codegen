@@ -27,8 +27,8 @@ namespace UnityEngine {
 }
 // Forward declaring namespace: Tweening
 namespace Tweening {
-  // Forward declaring type: TweeningManager
-  class TweeningManager;
+  // Forward declaring type: TimeTweeningManager
+  class TimeTweeningManager;
   // Forward declaring type: Tween`1<T>
   template<typename T>
   class Tween_1;
@@ -44,7 +44,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerCenterTextAnimator : public UnityEngine::MonoBehaviour {
     public:
-    // [SpaceAttribute] Offset: 0xE40834
+    // [SpaceAttribute] Offset: 0xF091C8
     // private TMPro.TextMeshPro _text
     // Size: 0x8
     // Offset: 0x18
@@ -57,13 +57,13 @@ namespace GlobalNamespace {
     UnityEngine::Transform* scalingTarget;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0xE4087C
-    // private readonly Tweening.TweeningManager _tweeningManager
+    // [InjectAttribute] Offset: 0xF09210
+    // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
-    Tweening::TweeningManager* tweeningManager;
+    Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
-    static_assert(sizeof(Tweening::TweeningManager*) == 0x8);
+    static_assert(sizeof(Tweening::TimeTweeningManager*) == 0x8);
     // private Tweening.Tween`1<System.Single> _fadeInTween
     // Size: 0x8
     // Offset: 0x30
@@ -95,15 +95,15 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(Tweening::Tween_1<UnityEngine::Vector3>*) == 0x8);
     // Creating value type constructor for type: MultiplayerCenterTextAnimator
-    MultiplayerCenterTextAnimator(TMPro::TextMeshPro* text_ = {}, UnityEngine::Transform* scalingTarget_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, Tweening::Tween_1<float>* fadeInTween_ = {}, Tweening::Tween_1<float>* fadeOutTween_ = {}, Tweening::Tween_1<float>* fontSizeTween_ = {}, Tweening::Tween_1<UnityEngine::Color>* colorTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* offsetTween_ = {}) noexcept : text{text_}, scalingTarget{scalingTarget_}, tweeningManager{tweeningManager_}, fadeInTween{fadeInTween_}, fadeOutTween{fadeOutTween_}, fontSizeTween{fontSizeTween_}, colorTween{colorTween_}, offsetTween{offsetTween_} {}
+    MultiplayerCenterTextAnimator(TMPro::TextMeshPro* text_ = {}, UnityEngine::Transform* scalingTarget_ = {}, Tweening::TimeTweeningManager* tweeningManager_ = {}, Tweening::Tween_1<float>* fadeInTween_ = {}, Tweening::Tween_1<float>* fadeOutTween_ = {}, Tweening::Tween_1<float>* fontSizeTween_ = {}, Tweening::Tween_1<UnityEngine::Color>* colorTween_ = {}, Tweening::Tween_1<UnityEngine::Vector3>* offsetTween_ = {}) noexcept : text{text_}, scalingTarget{scalingTarget_}, tweeningManager{tweeningManager_}, fadeInTween{fadeInTween_}, fadeOutTween{fadeOutTween_}, fontSizeTween{fontSizeTween_}, colorTween{colorTween_}, offsetTween{offsetTween_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshPro _text
     TMPro::TextMeshPro*& dyn__text();
     // Get instance field reference: private UnityEngine.Transform _scalingTarget
     UnityEngine::Transform*& dyn__scalingTarget();
-    // Get instance field reference: private readonly Tweening.TweeningManager _tweeningManager
-    Tweening::TweeningManager*& dyn__tweeningManager();
+    // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
+    Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private Tweening.Tween`1<System.Single> _fadeInTween
     Tweening::Tween_1<float>*& dyn__fadeInTween();
     // Get instance field reference: private Tweening.Tween`1<System.Single> _fadeOutTween
@@ -115,46 +115,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private Tweening.Tween`1<UnityEngine.Vector3> _offsetTween
     Tweening::Tween_1<UnityEngine::Vector3>*& dyn__offsetTween();
     // protected System.Void Awake()
-    // Offset: 0x11C7598
+    // Offset: 0x120DAD8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x11C7928
+    // Offset: 0x120DE68
     void OnDestroy();
     // public System.Void AnimateTextColor(UnityEngine.Color color, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x11C79C0
+    // Offset: 0x120DF00
     void AnimateTextColor(UnityEngine::Color color, float duration, Tweening::EaseType easeType);
     // public System.Void AnimateFontSize(System.Single fontSize, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x11C7A70
+    // Offset: 0x120DFB0
     void AnimateFontSize(float fontSize, float duration, Tweening::EaseType easeType);
     // public System.Void AnimatePositionOffsetSize(UnityEngine.Vector3 offset, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x11C7AD4
+    // Offset: 0x120E014
     void AnimatePositionOffsetSize(UnityEngine::Vector3 offset, float duration, Tweening::EaseType easeType);
     // public System.Void AnimateEnabled(System.Boolean isEnabled, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x11C7B78
+    // Offset: 0x120E0B8
     void AnimateEnabled(bool isEnabled, float duration, Tweening::EaseType easeType);
     // public System.Void SetText(System.String text)
-    // Offset: 0x11C7CF4
+    // Offset: 0x120E234
     void SetText(::Il2CppString* text);
     // private System.Void <Awake>b__8_0(System.Single val)
-    // Offset: 0x11C7D18
+    // Offset: 0x120E258
     void $Awake$b__8_0(float val);
     // private System.Void <Awake>b__8_1(System.Single val)
-    // Offset: 0x11C7DAC
+    // Offset: 0x120E2EC
     void $Awake$b__8_1(float val);
     // private System.Void <Awake>b__8_5()
-    // Offset: 0x11C7E40
+    // Offset: 0x120E380
     void $Awake$b__8_5();
     // private System.Void <Awake>b__8_2(System.Single val)
-    // Offset: 0x11C7E70
+    // Offset: 0x120E3B0
     void $Awake$b__8_2(float val);
     // private System.Void <Awake>b__8_3(UnityEngine.Color val)
-    // Offset: 0x11C7E8C
+    // Offset: 0x120E3CC
     void $Awake$b__8_3(UnityEngine::Color val);
     // private System.Void <Awake>b__8_4(UnityEngine.Vector3 val)
-    // Offset: 0x11C7EB0
+    // Offset: 0x120E3F0
     void $Awake$b__8_4(UnityEngine::Vector3 val);
     // public System.Void .ctor()
-    // Offset: 0x11C7D10
+    // Offset: 0x120E250
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

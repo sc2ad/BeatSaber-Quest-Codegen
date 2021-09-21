@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     UnityEngine::SpriteRenderer* spriteRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::SpriteRenderer*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE1A074
+    // [SpaceAttribute] Offset: 0xEDF730
     // private System.Boolean _hideIfAlphaOutOfRange
     // Size: 0x1
     // Offset: 0x38
@@ -46,21 +46,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hideIfAlphaOutOfRange and: hideAlphaRangeMin
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xE1A0AC
+    // [DrawIfAttribute] Offset: 0xEDF768
     // private System.Single _hideAlphaRangeMin
     // Size: 0x4
     // Offset: 0x3C
     float hideAlphaRangeMin;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0xE1A154
+    // [DrawIfAttribute] Offset: 0xEDF810
     // private System.Single _hideAlphaRangeMax
     // Size: 0x4
     // Offset: 0x40
     float hideAlphaRangeMax;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xE1A1FC
+    // [SpaceAttribute] Offset: 0xEDF8B8
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x44
@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     bool setColorOnly;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [SpaceAttribute] Offset: 0xE1A254
+    // [SpaceAttribute] Offset: 0xEDF910
     // private System.Boolean _setOnlyOnce
     // Size: 0x1
     // Offset: 0x4D
@@ -105,10 +105,15 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _setOnlyOnce
     bool& dyn__setOnlyOnce();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1E1F55C
+    // Offset: 0x1E2FF50
     UnityEngine::Color get_color();
+    // public override System.Void ColorWasSet(UnityEngine.Color color)
+    // Offset: 0x1E2FF6C
+    // Implemented from: LightWithIdMonoBehaviour
+    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
+    void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1E1F6D4
+    // Offset: 0x1E300C8
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -121,11 +126,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SpriteLightWithId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SpriteLightWithId*, creationType>()));
     }
-    // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1E1F578
-    // Implemented from: LightWithIdMonoBehaviour
-    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
-    void ColorWasSet(UnityEngine::Color color);
   }; // SpriteLightWithId
   #pragma pack(pop)
   static check_size<sizeof(SpriteLightWithId), 77 + sizeof(bool)> __GlobalNamespace_SpriteLightWithIdSizeCheck;
@@ -141,10 +141,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpriteLightWithId*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SpriteLightWithId::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SpriteLightWithId::ColorWasSet
 // Il2CppName: ColorWasSet
 template<>
@@ -154,3 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpriteLightWithId*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SpriteLightWithId::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

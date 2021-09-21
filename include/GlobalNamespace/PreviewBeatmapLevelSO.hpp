@@ -218,61 +218,66 @@ namespace GlobalNamespace {
     // Get instance field reference: private PreviewDifficultyBeatmapSet[] _no360MovementPreviewDifficultyBeatmapSets
     ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>*& dyn__no360MovementPreviewDifficultyBeatmapSets();
     // public System.String get_levelID()
-    // Offset: 0x11FEB04
+    // Offset: 0x11BD8D8
     ::Il2CppString* get_levelID();
     // public System.String get_songName()
-    // Offset: 0x11FEB0C
+    // Offset: 0x11BD8E0
     ::Il2CppString* get_songName();
     // public System.String get_songSubName()
-    // Offset: 0x11FEB14
+    // Offset: 0x11BD8E8
     ::Il2CppString* get_songSubName();
     // public System.String get_songAuthorName()
-    // Offset: 0x11FEB1C
+    // Offset: 0x11BD8F0
     ::Il2CppString* get_songAuthorName();
     // public System.String get_levelAuthorName()
-    // Offset: 0x11FEB24
+    // Offset: 0x11BD8F8
     ::Il2CppString* get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
-    // Offset: 0x11FEB2C
+    // Offset: 0x11BD900
     float get_beatsPerMinute();
     // public System.Single get_songTimeOffset()
-    // Offset: 0x11FEB34
+    // Offset: 0x11BD908
     float get_songTimeOffset();
     // public System.Single get_songDuration()
-    // Offset: 0x11FEB3C
+    // Offset: 0x11BD910
     float get_songDuration();
     // public System.Single get_shuffle()
-    // Offset: 0x11FEB44
+    // Offset: 0x11BD918
     float get_shuffle();
     // public System.Single get_shufflePeriod()
-    // Offset: 0x11FEB4C
+    // Offset: 0x11BD920
     float get_shufflePeriod();
     // public System.Single get_previewStartTime()
-    // Offset: 0x11FEB54
+    // Offset: 0x11BD928
     float get_previewStartTime();
     // public System.Single get_previewDuration()
-    // Offset: 0x11FEB5C
+    // Offset: 0x11BD930
     float get_previewDuration();
     // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0x11FEB64
+    // Offset: 0x11BD938
     GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
     // public EnvironmentInfoSO get_allDirectionsEnvironmentInfo()
-    // Offset: 0x11FEB6C
+    // Offset: 0x11BD940
     GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
     // public PreviewDifficultyBeatmapSet[] get_previewDifficultyBeatmapSets()
-    // Offset: 0x11FEB74
+    // Offset: 0x11BD948
     ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
     // private System.Void InitData()
-    // Offset: 0x11FEBC0
+    // Offset: 0x11BD994
     void InitData();
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> GetPreviewAudioClipAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x11FECFC
+    // Offset: 0x11BDAD0
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* GetPreviewAudioClipAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x11FEE20
+    // Offset: 0x11BDBF4
     System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* GetCoverImageAsync(System::Threading::CancellationToken cancellationToken);
+    // protected override System.Void OnEnable()
+    // Offset: 0x11BD964
+    // Implemented from: PersistentScriptableObject
+    // Base method: System.Void PersistentScriptableObject::OnEnable()
+    void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x11FEF44
+    // Offset: 0x11BDD18
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -283,11 +288,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PreviewBeatmapLevelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PreviewBeatmapLevelSO*, creationType>()));
     }
-    // protected override System.Void OnEnable()
-    // Offset: 0x11FEB90
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::OnEnable()
-    void OnEnable();
   }; // PreviewBeatmapLevelSO
   #pragma pack(pop)
   static check_size<sizeof(PreviewBeatmapLevelSO), 144 + sizeof(::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>*)> __GlobalNamespace_PreviewBeatmapLevelSOSizeCheck;
@@ -441,10 +441,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviewBeatmapLevelSO*), "GetCoverImageAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PreviewBeatmapLevelSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PreviewBeatmapLevelSO::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -453,3 +449,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviewBeatmapLevelSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PreviewBeatmapLevelSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

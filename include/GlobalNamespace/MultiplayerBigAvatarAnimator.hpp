@@ -27,8 +27,8 @@ namespace UnityEngine {
 }
 // Forward declaring namespace: Tweening
 namespace Tweening {
-  // Forward declaring type: TweeningManager
-  class TweeningManager;
+  // Forward declaring type: TimeTweeningManager
+  class TimeTweeningManager;
   // Forward declaring type: Tween`1<T>
   template<typename T>
   class Tween_1;
@@ -64,13 +64,13 @@ namespace GlobalNamespace {
     UnityEngine::Transform* avatarTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0xE407A4
-    // private readonly Tweening.TweeningManager _tweeningManager
+    // [InjectAttribute] Offset: 0xF09138
+    // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x30
-    Tweening::TweeningManager* tweeningManager;
+    Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
-    static_assert(sizeof(Tweening::TweeningManager*) == 0x8);
+    static_assert(sizeof(Tweening::TimeTweeningManager*) == 0x8);
     // private Tweening.Tween`1<System.Single> _scaleUpTween
     // Size: 0x8
     // Offset: 0x38
@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: MultiplayerBigAvatarAnimator
-    MultiplayerBigAvatarAnimator(float displayedScale_ = {}, GlobalNamespace::HologramRays* hologramRays_ = {}, UnityEngine::Transform* avatarTransform_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, Tweening::Tween_1<float>* scaleUpTween_ = {}, Tweening::Tween_1<float>* scaleDownTween_ = {}, bool initialized_ = {}) noexcept : displayedScale{displayedScale_}, hologramRays{hologramRays_}, avatarTransform{avatarTransform_}, tweeningManager{tweeningManager_}, scaleUpTween{scaleUpTween_}, scaleDownTween{scaleDownTween_}, initialized{initialized_} {}
+    MultiplayerBigAvatarAnimator(float displayedScale_ = {}, GlobalNamespace::HologramRays* hologramRays_ = {}, UnityEngine::Transform* avatarTransform_ = {}, Tweening::TimeTweeningManager* tweeningManager_ = {}, Tweening::Tween_1<float>* scaleUpTween_ = {}, Tweening::Tween_1<float>* scaleDownTween_ = {}, bool initialized_ = {}) noexcept : displayedScale{displayedScale_}, hologramRays{hologramRays_}, avatarTransform{avatarTransform_}, tweeningManager{tweeningManager_}, scaleUpTween{scaleUpTween_}, scaleDownTween{scaleDownTween_}, initialized{initialized_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _displayedScale
@@ -99,8 +99,8 @@ namespace GlobalNamespace {
     GlobalNamespace::HologramRays*& dyn__hologramRays();
     // Get instance field reference: private UnityEngine.Transform _avatarTransform
     UnityEngine::Transform*& dyn__avatarTransform();
-    // Get instance field reference: private readonly Tweening.TweeningManager _tweeningManager
-    Tweening::TweeningManager*& dyn__tweeningManager();
+    // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
+    Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private Tweening.Tween`1<System.Single> _scaleUpTween
     Tweening::Tween_1<float>*& dyn__scaleUpTween();
     // Get instance field reference: private Tweening.Tween`1<System.Single> _scaleDownTween
@@ -108,31 +108,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initialized
     bool& dyn__initialized();
     // protected System.Void OnDestroy()
-    // Offset: 0x11C6800
+    // Offset: 0x120CE80
     void OnDestroy();
     // private System.Void InitIfNeeded()
-    // Offset: 0x11C6898
+    // Offset: 0x120CF18
     void InitIfNeeded();
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x11C6A2C
+    // Offset: 0x120D0AC
     void SetPositionAndRotation(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
     // public System.Void HideInstant()
-    // Offset: 0x11C6AA8
+    // Offset: 0x120D128
     void HideInstant();
     // public System.Void Animate(System.Boolean show, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x11C6B6C
+    // Offset: 0x120D1EC
     void Animate(bool show, float duration, Tweening::EaseType easeType);
     // private System.Void <InitIfNeeded>b__8_0(System.Single val)
-    // Offset: 0x11C6D68
+    // Offset: 0x120D3E8
     void $InitIfNeeded$b__8_0(float val);
     // private System.Void <InitIfNeeded>b__8_1(System.Single val)
-    // Offset: 0x11C6DFC
+    // Offset: 0x120D47C
     void $InitIfNeeded$b__8_1(float val);
     // private System.Void <InitIfNeeded>b__8_2()
-    // Offset: 0x11C6E90
+    // Offset: 0x120D510
     void $InitIfNeeded$b__8_2();
     // public System.Void .ctor()
-    // Offset: 0x11C6D58
+    // Offset: 0x120D3D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

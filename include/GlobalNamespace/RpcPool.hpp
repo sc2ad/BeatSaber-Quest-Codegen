@@ -40,6 +40,7 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: RpcPool
     RpcPool() noexcept {}
+    // [ThreadStaticAttribute] Offset: 0xEDA030
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.Type,IPacketPool> _pools
     static System::Collections::Generic::Dictionary_2<System::Type*, GlobalNamespace::IPacketPool*>* _get__pools();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Type,IPacketPool> _pools
@@ -55,7 +56,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
     }
     // static public System.Void Release(IRemoteProcedureCall t)
-    // Offset: 0x16FBE2C
+    // Offset: 0x18D592C
     static void Release(GlobalNamespace::IRemoteProcedureCall* t);
   }; // RpcPool
   #pragma pack(pop)

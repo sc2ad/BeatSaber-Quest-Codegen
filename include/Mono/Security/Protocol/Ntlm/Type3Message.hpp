@@ -105,40 +105,40 @@ namespace Mono::Security::Protocol::Ntlm {
     ::Array<uint8_t>*& dyn__lm();
     // Get instance field reference: private System.Byte[] _nt
     ::Array<uint8_t>*& dyn__nt();
-    // public System.Void set_Domain(System.String value)
-    // Offset: 0x1E08F28
-    void set_Domain(::Il2CppString* value);
-    // public System.Void set_Password(System.String value)
-    // Offset: 0x1E08FB0
-    void set_Password(::Il2CppString* value);
-    // public System.Void set_Username(System.String value)
-    // Offset: 0x1E08FB8
-    void set_Username(::Il2CppString* value);
     // public System.Void .ctor(Mono.Security.Protocol.Ntlm.Type2Message type2)
-    // Offset: 0x1E08C6C
+    // Offset: 0x1FA51D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Type3Message* New_ctor(Mono::Security::Protocol::Ntlm::Type2Message* type2) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Protocol::Ntlm::Type3Message::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Type3Message*, creationType>(type2)));
     }
+    // public System.Void set_Domain(System.String value)
+    // Offset: 0x1FA5490
+    void set_Domain(::Il2CppString* value);
+    // public System.Void set_Password(System.String value)
+    // Offset: 0x1FA5518
+    void set_Password(::Il2CppString* value);
+    // public System.Void set_Username(System.String value)
+    // Offset: 0x1FA5520
+    void set_Username(::Il2CppString* value);
     // private System.String DecodeString(System.Byte[] buffer, System.Int32 offset, System.Int32 len)
-    // Offset: 0x1E091E8
+    // Offset: 0x1FA5750
     ::Il2CppString* DecodeString(::Array<uint8_t>* buffer, int offset, int len);
     // private System.Byte[] EncodeString(System.String text)
-    // Offset: 0x1E0924C
+    // Offset: 0x1FA57B4
     ::Array<uint8_t>* EncodeString(::Il2CppString* text);
     // protected override System.Void Finalize()
-    // Offset: 0x1E08E74
+    // Offset: 0x1FA53DC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Decode(System.Byte[] message)
-    // Offset: 0x1E08FC0
+    // Offset: 0x1FA5528
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Void MessageBase::Decode(System.Byte[] message)
     void Decode(::Array<uint8_t>* message);
     // public override System.Byte[] GetBytes()
-    // Offset: 0x1E092F0
+    // Offset: 0x1FA5858
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Byte[] MessageBase::GetBytes()
     ::Array<uint8_t>* GetBytes();
@@ -149,6 +149,10 @@ namespace Mono::Security::Protocol::Ntlm {
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::Type3Message*, "Mono.Security.Protocol.Ntlm", "Type3Message");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::Type3Message::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::Type3Message::set_Domain
 // Il2CppName: set_Domain
 template<>
@@ -176,10 +180,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::Type3Message*), "set_Username", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::Type3Message::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::Type3Message::DecodeString
 // Il2CppName: DecodeString
 template<>

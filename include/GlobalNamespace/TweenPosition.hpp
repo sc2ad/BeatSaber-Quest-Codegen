@@ -93,23 +93,23 @@ namespace GlobalNamespace {
     UnityEngine::Transform*& dyn__transform();
     // Get instance field reference: private UnityEngine.Vector3 _targetPos
     UnityEngine::Vector3& dyn__targetPos();
-    // public UnityEngine.Vector3 get_TargetPos()
-    // Offset: 0x23965F8
-    UnityEngine::Vector3 get_TargetPos();
     // public System.Void set_TargetPos(UnityEngine.Vector3 value)
-    // Offset: 0x2396468
+    // Offset: 0x259C38C
     void set_TargetPos(UnityEngine::Vector3 value);
+    // public UnityEngine.Vector3 get_TargetPos()
+    // Offset: 0x259C51C
+    UnityEngine::Vector3 get_TargetPos();
     // protected System.Void Awake()
-    // Offset: 0x2396604
+    // Offset: 0x259C528
     void Awake();
     // private System.Void AnimateToNewPos(UnityEngine.Vector3 pos)
-    // Offset: 0x2396548
+    // Offset: 0x259C46C
     void AnimateToNewPos(UnityEngine::Vector3 pos);
     // private System.Collections.IEnumerator AnimateToNewPosCoroutine(UnityEngine.Vector3 pos)
-    // Offset: 0x239662C
+    // Offset: 0x259C550
     System::Collections::IEnumerator* AnimateToNewPosCoroutine(UnityEngine::Vector3 pos);
     // public System.Void .ctor()
-    // Offset: 0x23966C8
+    // Offset: 0x259C5EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -128,14 +128,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TweenPosition*, "", "TweenPosition");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::TweenPosition::get_TargetPos
-// Il2CppName: get_TargetPos
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::TweenPosition::*)()>(&GlobalNamespace::TweenPosition::get_TargetPos)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TweenPosition*), "get_TargetPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::TweenPosition::set_TargetPos
 // Il2CppName: set_TargetPos
 template<>
@@ -143,6 +135,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TweenPosition*), "set_TargetPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::TweenPosition::get_TargetPos
+// Il2CppName: get_TargetPos
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::TweenPosition::*)()>(&GlobalNamespace::TweenPosition::get_TargetPos)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TweenPosition*), "get_TargetPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::TweenPosition::Awake

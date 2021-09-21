@@ -29,14 +29,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerDuelConnectedPlayerGameplayAnimator : public GlobalNamespace::MultiplayerGameplayAnimator {
     public:
-    // [SpaceAttribute] Offset: 0xE3FFC4
+    // [SpaceAttribute] Offset: 0xF08958
     // private ScaleAnimator _avatarScaleAnimator
     // Size: 0x8
     // Offset: 0x68
     GlobalNamespace::ScaleAnimator* avatarScaleAnimator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ScaleAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3FFFC
+    // [InjectAttribute] Offset: 0xF08990
     // private readonly MultiplayerConnectedPlayerLevelFailController _failController
     // Size: 0x8
     // Offset: 0x70
@@ -50,13 +50,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerConnectedPlayerLevelFailController _failController
     GlobalNamespace::MultiplayerConnectedPlayerLevelFailController*& dyn__failController();
     // private System.Void TransitionIntoFailedState()
-    // Offset: 0x11D27E0
+    // Offset: 0x1218AC8
     void TransitionIntoFailedState();
     // private System.Void HandlePlayerDidFail()
-    // Offset: 0x11D2B30
+    // Offset: 0x1218E18
     void HandlePlayerDidFail();
+    // protected override System.Void OnDestroy()
+    // Offset: 0x12189F0
+    // Implemented from: MultiplayerGameplayAnimator
+    // Base method: System.Void MultiplayerGameplayAnimator::OnDestroy()
+    void OnDestroy();
+    // protected override System.Void AnimateNewLeaderSelected(System.Boolean isLeading)
+    // Offset: 0x1218C18
+    // Implemented from: MultiplayerGameplayAnimator
+    // Base method: System.Void MultiplayerGameplayAnimator::AnimateNewLeaderSelected(System.Boolean isLeading)
+    void AnimateNewLeaderSelected(bool isLeading);
+    // protected override System.Void HandleStateChanged(MultiplayerController/State state)
+    // Offset: 0x1218D08
+    // Implemented from: MultiplayerGameplayAnimator
+    // Base method: System.Void MultiplayerGameplayAnimator::HandleStateChanged(MultiplayerController/State state)
+    void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // public System.Void .ctor()
-    // Offset: 0x11D2B34
+    // Offset: 0x1218E1C
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -69,21 +84,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerDuelConnectedPlayerGameplayAnimator*, creationType>()));
     }
-    // protected override System.Void OnDestroy()
-    // Offset: 0x11D2708
-    // Implemented from: MultiplayerGameplayAnimator
-    // Base method: System.Void MultiplayerGameplayAnimator::OnDestroy()
-    void OnDestroy();
-    // protected override System.Void AnimateNewLeaderSelected(System.Boolean isLeading)
-    // Offset: 0x11D2930
-    // Implemented from: MultiplayerGameplayAnimator
-    // Base method: System.Void MultiplayerGameplayAnimator::AnimateNewLeaderSelected(System.Boolean isLeading)
-    void AnimateNewLeaderSelected(bool isLeading);
-    // protected override System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x11D2A20
-    // Implemented from: MultiplayerGameplayAnimator
-    // Base method: System.Void MultiplayerGameplayAnimator::HandleStateChanged(MultiplayerController/State state)
-    void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
   }; // MultiplayerDuelConnectedPlayerGameplayAnimator
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerDuelConnectedPlayerGameplayAnimator), 112 + sizeof(GlobalNamespace::MultiplayerConnectedPlayerLevelFailController*)> __GlobalNamespace_MultiplayerDuelConnectedPlayerGameplayAnimatorSizeCheck;
@@ -107,10 +107,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator*), "HandlePlayerDidFail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::OnDestroy
 // Il2CppName: OnDestroy
 template<>
@@ -137,3 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator*), "HandleStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

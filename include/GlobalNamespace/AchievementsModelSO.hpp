@@ -66,16 +66,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initialized
     bool& dyn__initialized();
     // public System.Void Initialize()
-    // Offset: 0x11705F0
+    // Offset: 0x123F1A0
     void Initialize();
     // public System.Void UnlockAchievement(AchievementSO achievement)
-    // Offset: 0x1171568
+    // Offset: 0x1240118
     void UnlockAchievement(GlobalNamespace::AchievementSO* achievement);
     // private System.Void <Initialize>b__3_0(PlatformAchievementsModelSO/GetUnlockedAchievementsResult result, System.String[] achievementIds)
-    // Offset: 0x11716EC
+    // Offset: 0x124029C
     void $Initialize$b__3_0(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::Array<::Il2CppString*>* achievementIds);
     // public System.Void .ctor()
-    // Offset: 0x117167C
+    // Offset: 0x124022C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

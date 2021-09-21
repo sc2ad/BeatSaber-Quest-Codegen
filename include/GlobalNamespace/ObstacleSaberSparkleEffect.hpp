@@ -7,7 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: UnityEngine.ParticleSystem/UnityEngine.EmissionModule
+// Including type: UnityEngine.ParticleSystem/EmissionModule
 #include "UnityEngine/ParticleSystem_EmissionModule.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
@@ -44,13 +44,13 @@ namespace GlobalNamespace {
     UnityEngine::ParticleSystem* burnParticleSystem;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem*) == 0x8);
-    // private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _sparkleParticleSystemEmissionModule
+    // private UnityEngine.ParticleSystem/EmissionModule _sparkleParticleSystemEmissionModule
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::ParticleSystem::EmissionModule sparkleParticleSystemEmissionModule;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::EmissionModule) == 0x8);
-    // private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _burnParticleSystemEmissionModule
+    // private UnityEngine.ParticleSystem/EmissionModule _burnParticleSystemEmissionModule
     // Size: 0x8
     // Offset: 0x30
     UnityEngine::ParticleSystem::EmissionModule burnParticleSystemEmissionModule;
@@ -64,27 +64,27 @@ namespace GlobalNamespace {
     UnityEngine::ParticleSystem*& dyn__sparkleParticleSystem();
     // Get instance field reference: private UnityEngine.ParticleSystem _burnParticleSystem
     UnityEngine::ParticleSystem*& dyn__burnParticleSystem();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _sparkleParticleSystemEmissionModule
+    // Get instance field reference: private UnityEngine.ParticleSystem/EmissionModule _sparkleParticleSystemEmissionModule
     UnityEngine::ParticleSystem::EmissionModule& dyn__sparkleParticleSystemEmissionModule();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _burnParticleSystemEmissionModule
+    // Get instance field reference: private UnityEngine.ParticleSystem/EmissionModule _burnParticleSystemEmissionModule
     UnityEngine::ParticleSystem::EmissionModule& dyn__burnParticleSystemEmissionModule();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x1250A68
+    // Offset: 0x135CAE4
     void set_color(UnityEngine::Color value);
     // protected System.Void Awake()
-    // Offset: 0x1250B74
+    // Offset: 0x135CBF0
     void Awake();
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0x1250BDC
+    // Offset: 0x135CC58
     void SetPositionAndRotation(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
     // public System.Void StartEmission()
-    // Offset: 0x1250C58
+    // Offset: 0x135CCD4
     void StartEmission();
     // public System.Void StopEmission()
-    // Offset: 0x1250CB0
+    // Offset: 0x135CD2C
     void StopEmission();
     // public System.Void .ctor()
-    // Offset: 0x1250D1C
+    // Offset: 0x135CD98
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

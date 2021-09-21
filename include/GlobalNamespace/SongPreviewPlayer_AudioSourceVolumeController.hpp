@@ -33,6 +33,7 @@ namespace GlobalNamespace {
     UnityEngine::AudioSource* audioSource;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioSource*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF157D8
     // private System.Single <maxVolume>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -53,20 +54,20 @@ namespace GlobalNamespace {
     float& dyn_$maxVolume$k__BackingField();
     // Get instance field reference: private System.Single _volume
     float& dyn__volume();
-    // public System.Single get_volume()
-    // Offset: 0x109E274
-    float get_volume();
     // public System.Void set_volume(System.Single value)
-    // Offset: 0x109DA90
+    // Offset: 0x110C370
     void set_volume(float value);
+    // public System.Single get_volume()
+    // Offset: 0x110CB54
+    float get_volume();
     // public System.Single get_maxVolume()
-    // Offset: 0x109E27C
+    // Offset: 0x110CB5C
     float get_maxVolume();
     // public System.Void set_maxVolume(System.Single value)
-    // Offset: 0x109E284
+    // Offset: 0x110CB64
     void set_maxVolume(float value);
     // public System.Void .ctor(UnityEngine.AudioSource audioSource)
-    // Offset: 0x109D5C0
+    // Offset: 0x110BEA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPreviewPlayer::AudioSourceVolumeController* New_ctor(UnityEngine::AudioSource* audioSource) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::.ctor");
@@ -79,14 +80,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*, "", "SongPreviewPlayer/AudioSourceVolumeController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::get_volume
-// Il2CppName: get_volume
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::*)()>(&GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::get_volume)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*), "get_volume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::set_volume
 // Il2CppName: set_volume
 template<>
@@ -94,6 +87,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*), "set_volume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::get_volume
+// Il2CppName: get_volume
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::*)()>(&GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::get_volume)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*), "get_volume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::get_maxVolume

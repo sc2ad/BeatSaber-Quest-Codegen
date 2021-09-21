@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* maxRankValueText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE47464
+    // [SpaceAttribute] Offset: 0xF0FE28
     // private UnityEngine.Color _positiveColor
     // Size: 0x10
     // Offset: 0x30
@@ -96,6 +96,7 @@ namespace GlobalNamespace {
     UnityEngine::Color negativeColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    // [CompilerGeneratedAttribute] Offset: 0xF0FE70
     // private System.Action didChangeGameplayModifiersEvent
     // Size: 0x8
     // Offset: 0x50
@@ -164,38 +165,38 @@ namespace GlobalNamespace {
     bool& dyn__changingGameplayModifierToggles();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<GameplayModifierParamsSO,UnityEngine.UI.Toggle> _toggleForGameplayModifierParam
     System::Collections::Generic::Dictionary_2<GlobalNamespace::GameplayModifierParamsSO*, UnityEngine::UI::Toggle*>*& dyn__toggleForGameplayModifierParam();
-    // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x1103164
-    GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public System.Void add_didChangeGameplayModifiersEvent(System.Action value)
-    // Offset: 0x110301C
+    // Offset: 0x11E7904
     void add_didChangeGameplayModifiersEvent(System::Action* value);
     // public System.Void remove_didChangeGameplayModifiersEvent(System.Action value)
-    // Offset: 0x11030C0
+    // Offset: 0x11E79A8
     void remove_didChangeGameplayModifiersEvent(System::Action* value);
+    // public GameplayModifiers get_gameplayModifiers()
+    // Offset: 0x11E7A4C
+    GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public System.Void SetData(GameplayModifiers newGameplayModifiers)
-    // Offset: 0x110316C
+    // Offset: 0x11E7A54
     void SetData(GlobalNamespace::GameplayModifiers* newGameplayModifiers);
     // protected System.Void Awake()
-    // Offset: 0x1103174
+    // Offset: 0x11E7A5C
     void Awake();
     // private System.Void OnDestroy()
-    // Offset: 0x11032E0
+    // Offset: 0x11E7BC8
     void OnDestroy();
     // private System.Void SetToggleValueWithGameplayModifierParams(GameplayModifierParamsSO gameplayModifierParams, System.Boolean value)
-    // Offset: 0x11032F4
+    // Offset: 0x11E7BDC
     void SetToggleValueWithGameplayModifierParams(GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams, bool value);
     // private System.Boolean GetToggleValueWithGameplayModifierParams(GameplayModifierParamsSO gameplayModifierParams)
-    // Offset: 0x110338C
+    // Offset: 0x11E7C74
     bool GetToggleValueWithGameplayModifierParams(GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams);
     // private System.Void RefreshTotalMultiplierAndRankUI()
-    // Offset: 0x1103420
+    // Offset: 0x11E7D08
     void RefreshTotalMultiplierAndRankUI();
     // private System.Void IRefreshable.Refresh()
-    // Offset: 0x11035D8
+    // Offset: 0x11E7EC0
     void IRefreshable_Refresh();
     // public System.Void .ctor()
-    // Offset: 0x11036E0
+    // Offset: 0x11E7FC8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -214,14 +215,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersPanelController*, "", "GameplayModifiersPanelController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersPanelController::get_gameplayModifiers
-// Il2CppName: get_gameplayModifiers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (GlobalNamespace::GameplayModifiersPanelController::*)()>(&GlobalNamespace::GameplayModifiersPanelController::get_gameplayModifiers)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersPanelController*), "get_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersPanelController::add_didChangeGameplayModifiersEvent
 // Il2CppName: add_didChangeGameplayModifiersEvent
 template<>
@@ -238,6 +231,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersPanelController*), "remove_didChangeGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersPanelController::get_gameplayModifiers
+// Il2CppName: get_gameplayModifiers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (GlobalNamespace::GameplayModifiersPanelController::*)()>(&GlobalNamespace::GameplayModifiersPanelController::get_gameplayModifiers)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersPanelController*), "get_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersPanelController::SetData

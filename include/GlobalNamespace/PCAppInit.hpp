@@ -85,8 +85,28 @@ namespace GlobalNamespace {
     GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
     // Get instance field reference: private System.String _goStraightToMenuCommandArgument
     ::Il2CppString*& dyn__goStraightToMenuCommandArgument();
+    // protected override System.Void AppStartAndMultiSceneEditorSetup()
+    // Offset: 0x1123734
+    // Implemented from: AppInit
+    // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
+    void AppStartAndMultiSceneEditorSetup();
+    // protected override System.Void RepeatableSetup()
+    // Offset: 0x11237B8
+    // Implemented from: AppInit
+    // Base method: System.Void AppInit::RepeatableSetup()
+    void RepeatableSetup();
+    // protected override System.Void TransitionToNextScene()
+    // Offset: 0x1123804
+    // Implemented from: AppInit
+    // Base method: System.Void AppInit::TransitionToNextScene()
+    void TransitionToNextScene();
+    // public override System.Void InstallBindings()
+    // Offset: 0x1123854
+    // Implemented from: Zenject.MonoInstallerBase
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
+    void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x10344CC
+    // Offset: 0x112393C
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()
@@ -101,26 +121,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PCAppInit::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PCAppInit*, creationType>()));
     }
-    // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0x10342C4
-    // Implemented from: AppInit
-    // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
-    void AppStartAndMultiSceneEditorSetup();
-    // protected override System.Void RepeatableSetup()
-    // Offset: 0x1034348
-    // Implemented from: AppInit
-    // Base method: System.Void AppInit::RepeatableSetup()
-    void RepeatableSetup();
-    // protected override System.Void TransitionToNextScene()
-    // Offset: 0x1034394
-    // Implemented from: AppInit
-    // Base method: System.Void AppInit::TransitionToNextScene()
-    void TransitionToNextScene();
-    // public override System.Void InstallBindings()
-    // Offset: 0x10343E4
-    // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings()
-    void InstallBindings();
   }; // PCAppInit
   #pragma pack(pop)
   static check_size<sizeof(PCAppInit), 104 + sizeof(::Il2CppString*)> __GlobalNamespace_PCAppInitSizeCheck;
@@ -128,10 +128,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PCAppInit*, "", "PCAppInit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::PCAppInit::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PCAppInit::AppStartAndMultiSceneEditorSetup
 // Il2CppName: AppStartAndMultiSceneEditorSetup
 template<>
@@ -164,3 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PCAppInit*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PCAppInit::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

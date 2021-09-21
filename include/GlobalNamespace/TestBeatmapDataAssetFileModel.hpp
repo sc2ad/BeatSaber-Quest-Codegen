@@ -50,6 +50,7 @@ namespace GlobalNamespace {
     struct $GetAssetBundleFileForPreviewLevelAsync$d__4;
     // Nested type: GlobalNamespace::TestBeatmapDataAssetFileModel::$TryDeleteAssetBundleFileForPreviewLevelAsync$d__5
     struct $TryDeleteAssetBundleFileForPreviewLevelAsync$d__5;
+    // [CompilerGeneratedAttribute] Offset: 0xF0238C
     // private System.Action`1<LevelDataAssetDownloadUpdate> levelDataAssetDownloadUpdateEvent
     // Size: 0x8
     // Offset: 0x10
@@ -75,19 +76,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<LevelDataAssetDownloadUpdate> levelDataAssetDownloadUpdateEvent
     System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*& dyn_levelDataAssetDownloadUpdateEvent();
     // public System.Void add_levelDataAssetDownloadUpdateEvent(System.Action`1<LevelDataAssetDownloadUpdate> value)
-    // Offset: 0x106E318
+    // Offset: 0x115CCA0
     void add_levelDataAssetDownloadUpdateEvent(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
     // public System.Void remove_levelDataAssetDownloadUpdateEvent(System.Action`1<LevelDataAssetDownloadUpdate> value)
-    // Offset: 0x106E3BC
+    // Offset: 0x115CD44
     void remove_levelDataAssetDownloadUpdateEvent(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
     // public System.Threading.Tasks.Task`1<GetAssetBundleFileResult> GetAssetBundleFileForPreviewLevelAsync(IPreviewBeatmapLevel previewBeatmapLevel, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x106E460
+    // Offset: 0x115CDE8
     System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult>* GetAssetBundleFileForPreviewLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.Boolean> TryDeleteAssetBundleFileForPreviewLevelAsync(IPreviewBeatmapLevel previewBeatmapLevel, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x106E580
+    // Offset: 0x115CF08
     System::Threading::Tasks::Task_1<bool>* TryDeleteAssetBundleFileForPreviewLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x106E680
+    // Offset: 0x115D008
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

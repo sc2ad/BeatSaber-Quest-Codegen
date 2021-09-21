@@ -29,29 +29,21 @@ namespace GlobalNamespace {
     static System::Version* _get_version();
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
-    // static private System.Void .cctor()
-    // Offset: 0x163757C
-    static void _cctor();
     // static public OVRPlugin/Result ovrp_GetSystemHmd3DofModeEnabled(ref OVRPlugin/Bool enabled)
-    // Offset: 0x16374FC
+    // Offset: 0x180415C
     static GlobalNamespace::OVRPlugin::Result ovrp_GetSystemHmd3DofModeEnabled(ByRef<GlobalNamespace::OVRPlugin::Bool> enabled);
     // static public OVRPlugin/Result ovrp_Media_SetAvailableQueueIndexVulkan(System.UInt32 queueIndexVk)
-    // Offset: 0x16316D8
+    // Offset: 0x17FE338
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_SetAvailableQueueIndexVulkan(uint queueIndexVk);
+    // static private System.Void .cctor()
+    // Offset: 0x18041DC
+    static void _cctor();
   }; // OVRPlugin/OVRP_1_45_0
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_45_0*, "", "OVRPlugin/OVRP_1_45_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_45_0::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_45_0::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_45_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_45_0::ovrp_GetSystemHmd3DofModeEnabled
 // Il2CppName: ovrp_GetSystemHmd3DofModeEnabled
 template<>
@@ -68,5 +60,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
   static const MethodInfo* get() {
     static auto* queueIndexVk = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_45_0*), "ovrp_Media_SetAvailableQueueIndexVulkan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{queueIndexVk});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_45_0::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_45_0::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_45_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

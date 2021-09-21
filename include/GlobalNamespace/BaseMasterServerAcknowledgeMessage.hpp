@@ -31,6 +31,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseMasterServerAcknowledgeMessage : public GlobalNamespace::BaseMasterServerResponse/*, public MasterServer::IMasterServerAcknowledgeMessage*/ {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xED99E0
     // private System.Boolean <messageHandled>k__BackingField
     // Size: 0x1
     // Offset: 0x14
@@ -48,26 +49,36 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <messageHandled>k__BackingField
     bool& dyn_$messageHandled$k__BackingField();
     // public System.Boolean get_messageHandled()
-    // Offset: 0x133579C
+    // Offset: 0x144CDDC
     bool get_messageHandled();
     // private System.Void set_messageHandled(System.Boolean value)
-    // Offset: 0x13357A4
+    // Offset: 0x144CDE4
     void set_messageHandled(bool value);
     // public BaseMasterServerAcknowledgeMessage Init(System.Boolean messageHandled)
-    // Offset: 0x13357B0
+    // Offset: 0x144CDF0
     GlobalNamespace::BaseMasterServerAcknowledgeMessage* Init(bool messageHandled);
     // public override System.Byte get_resultCode()
-    // Offset: 0x1335734
+    // Offset: 0x144CD74
     // Implemented from: BaseMasterServerResponse
     // Base method: System.Byte BaseMasterServerResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x133573C
+    // Offset: 0x144CD7C
     // Implemented from: BaseMasterServerResponse
     // Base method: System.String BaseMasterServerResponse::get_resultCodeString()
     ::Il2CppString* get_resultCodeString();
+    // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x144CDFC
+    // Implemented from: BaseMasterServerResponse
+    // Base method: System.Void BaseMasterServerResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
+    // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x144CE64
+    // Implemented from: BaseMasterServerResponse
+    // Base method: System.Void BaseMasterServerResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // protected System.Void .ctor()
-    // Offset: 0x13358A4
+    // Offset: 0x144CEE4
     // Implemented from: BaseMasterServerResponse
     // Base method: System.Void BaseMasterServerResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -76,16 +87,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BaseMasterServerAcknowledgeMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseMasterServerAcknowledgeMessage*, creationType>()));
     }
-    // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x13357BC
-    // Implemented from: BaseMasterServerResponse
-    // Base method: System.Void BaseMasterServerResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
-    // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1335824
-    // Implemented from: BaseMasterServerResponse
-    // Base method: System.Void BaseMasterServerResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
   }; // BaseMasterServerAcknowledgeMessage
   #pragma pack(pop)
   static check_size<sizeof(BaseMasterServerAcknowledgeMessage), 20 + sizeof(bool)> __GlobalNamespace_BaseMasterServerAcknowledgeMessageSizeCheck;
@@ -135,10 +136,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerAcknowledgeMessage*), "get_resultCodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BaseMasterServerAcknowledgeMessage::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BaseMasterServerAcknowledgeMessage::Serialize
 // Il2CppName: Serialize
 template<>
@@ -157,3 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerAcknowledgeMessage*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BaseMasterServerAcknowledgeMessage::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

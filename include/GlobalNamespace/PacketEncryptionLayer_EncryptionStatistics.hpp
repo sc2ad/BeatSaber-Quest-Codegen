@@ -87,55 +87,55 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int64 _decryptionProcessingTime
     int64_t& dyn__decryptionProcessingTime();
     // public System.Int64 get_packetsReceivedPlaintext()
-    // Offset: 0x16F7FC8
+    // Offset: 0x18D1AC8
     int64_t get_packetsReceivedPlaintext();
     // public System.Int64 get_packetsReceivedEncrypted()
-    // Offset: 0x16F7FD4
+    // Offset: 0x18D1AD4
     int64_t get_packetsReceivedEncrypted();
     // public System.Int64 get_packetsReceivedRejected()
-    // Offset: 0x16F7FE0
+    // Offset: 0x18D1AE0
     int64_t get_packetsReceivedRejected();
     // public System.Int64 get_packetsSentPlaintext()
-    // Offset: 0x16F7FEC
+    // Offset: 0x18D1AEC
     int64_t get_packetsSentPlaintext();
     // public System.Int64 get_packetsSentEncrypted()
-    // Offset: 0x16F7FF8
+    // Offset: 0x18D1AF8
     int64_t get_packetsSentEncrypted();
     // public System.Int64 get_packetsSentRejected()
-    // Offset: 0x16F8004
+    // Offset: 0x18D1B04
     int64_t get_packetsSentRejected();
     // public System.Int64 get_encryptionProcessingTime()
-    // Offset: 0x16F8010
+    // Offset: 0x18D1B10
     int64_t get_encryptionProcessingTime();
     // public System.Int64 get_decryptionProcessingTime()
-    // Offset: 0x16F809C
+    // Offset: 0x18D1B9C
     int64_t get_decryptionProcessingTime();
     // public System.Void IncrementPacketsReceivedPlaintext()
-    // Offset: 0x16F5EB8
+    // Offset: 0x18CF9B8
     void IncrementPacketsReceivedPlaintext();
     // public System.Void IncrementPacketsReceivedEncrypted()
-    // Offset: 0x16F5EA0
+    // Offset: 0x18CF9A0
     void IncrementPacketsReceivedEncrypted();
     // public System.Void IncrementPacketsReceivedRejected()
-    // Offset: 0x16F5EC4
+    // Offset: 0x18CF9C4
     void IncrementPacketsReceivedRejected();
     // public System.Void IncrementPacketsSentPlaintext()
-    // Offset: 0x16F6280
+    // Offset: 0x18CFD80
     void IncrementPacketsSentPlaintext();
     // public System.Void IncrementPacketsSentEncrypted()
-    // Offset: 0x16F6268
+    // Offset: 0x18CFD68
     void IncrementPacketsSentEncrypted();
     // public System.Void IncrementPacketsSentRejected()
-    // Offset: 0x16F628C
+    // Offset: 0x18CFD8C
     void IncrementPacketsSentRejected();
     // public System.Void AddEncryptionProcessingTime(System.Int64 time)
-    // Offset: 0x16F6274
+    // Offset: 0x18CFD74
     void AddEncryptionProcessingTime(int64_t time);
     // public System.Void AddDecryptionProcessingTime(System.Int64 time)
-    // Offset: 0x16F5EAC
+    // Offset: 0x18CF9AC
     void AddDecryptionProcessingTime(int64_t time);
     // public System.Void .ctor()
-    // Offset: 0x16F59B8
+    // Offset: 0x18CF4B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

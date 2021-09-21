@@ -49,20 +49,21 @@ namespace HMUI {
     float maxValue;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [NullAllowed] Offset: 0xE1BB9C
+    // [NullAllowed] Offset: 0xEE2278
     // private UnityEngine.UI.Button _decButton
     // Size: 0x8
     // Offset: 0x148
     UnityEngine::UI::Button* decButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [NullAllowed] Offset: 0xE1BBD4
+    // [NullAllowed] Offset: 0xEE22B0
     // private UnityEngine.UI.Button _incButton
     // Size: 0x8
     // Offset: 0x150
     UnityEngine::UI::Button* incButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xEE22E8
     // private System.Action`2<HMUI.RangeValuesTextSlider,System.Single> valueDidChangeEvent
     // Size: 0x8
     // Offset: 0x158
@@ -90,49 +91,64 @@ namespace HMUI {
     // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
     HMUI::ButtonBinder*& dyn__buttonBinder();
     // public System.Single get_minValue()
-    // Offset: 0x1311BB0
+    // Offset: 0x1414160
     float get_minValue();
     // public System.Void set_minValue(System.Single value)
-    // Offset: 0x1311BB8
+    // Offset: 0x1414168
     void set_minValue(float value);
     // public System.Single get_maxValue()
-    // Offset: 0x1311C40
+    // Offset: 0x14141F0
     float get_maxValue();
     // public System.Void set_maxValue(System.Single value)
-    // Offset: 0x1311C48
+    // Offset: 0x14141F8
     void set_maxValue(float value);
-    // public System.Single get_value()
-    // Offset: 0x1311D0C
-    float get_value();
     // public System.Void set_value(System.Single value)
-    // Offset: 0x1311CD0
+    // Offset: 0x1414280
     void set_value(float value);
+    // public System.Single get_value()
+    // Offset: 0x14142BC
+    float get_value();
     // public System.Void add_valueDidChangeEvent(System.Action`2<HMUI.RangeValuesTextSlider,System.Single> value)
-    // Offset: 0x1311E64
+    // Offset: 0x1414414
     void add_valueDidChangeEvent(System::Action_2<HMUI::RangeValuesTextSlider*, float>* value);
     // public System.Void remove_valueDidChangeEvent(System.Action`2<HMUI.RangeValuesTextSlider,System.Single> value)
-    // Offset: 0x1311F0C
+    // Offset: 0x14144BC
     void remove_valueDidChangeEvent(System::Action_2<HMUI::RangeValuesTextSlider*, float>* value);
     // private System.Void HandleNormalizedValueDidChange(HMUI.TextSlider slider, System.Single normalizedValue)
-    // Offset: 0x1312360
+    // Offset: 0x1414910
     void HandleNormalizedValueDidChange(HMUI::TextSlider* slider, float normalizedValue);
     // public System.Single ConvertFromNormalizedValue(System.Single normalizedValue)
-    // Offset: 0x1311E4C
+    // Offset: 0x14143FC
     float ConvertFromNormalizedValue(float normalizedValue);
     // public System.Single NormalizeValue(System.Single rangeValue)
-    // Offset: 0x1311CEC
+    // Offset: 0x141429C
     float NormalizeValue(float rangeValue);
     // protected System.String TextForValue(System.Single value)
-    // Offset: 0x131240C
+    // Offset: 0x14149BC
     ::Il2CppString* TextForValue(float value);
     // private System.Void <Awake>b__17_0()
-    // Offset: 0x131250C
+    // Offset: 0x1414ABC
     void $Awake$b__17_0();
     // private System.Void <Awake>b__17_1()
-    // Offset: 0x1312564
+    // Offset: 0x1414B14
     void $Awake$b__17_1();
+    // protected override System.Void Awake()
+    // Offset: 0x1414564
+    // Implemented from: UnityEngine.UI.Selectable
+    // Base method: System.Void Selectable::Awake()
+    void Awake();
+    // protected override System.Void OnDestroy()
+    // Offset: 0x14147D0
+    // Implemented from: UnityEngine.EventSystems.UIBehaviour
+    // Base method: System.Void UIBehaviour::OnDestroy()
+    void OnDestroy();
+    // protected override System.String TextForNormalizedValue(System.Single normalizedValue)
+    // Offset: 0x1414998
+    // Implemented from: HMUI.TextSlider
+    // Base method: System.String TextSlider::TextForNormalizedValue(System.Single normalizedValue)
+    ::Il2CppString* TextForNormalizedValue(float normalizedValue);
     // public System.Void .ctor()
-    // Offset: 0x1311BA4
+    // Offset: 0x1414154
     // Implemented from: HMUI.TextSlider
     // Base method: System.Void TextSlider::.ctor()
     // Base method: System.Void Selectable::.ctor()
@@ -147,21 +163,6 @@ namespace HMUI {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::RangeValuesTextSlider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RangeValuesTextSlider*, creationType>()));
     }
-    // protected override System.Void Awake()
-    // Offset: 0x1311FB4
-    // Implemented from: UnityEngine.UI.Selectable
-    // Base method: System.Void Selectable::Awake()
-    void Awake();
-    // protected override System.Void OnDestroy()
-    // Offset: 0x1312220
-    // Implemented from: UnityEngine.EventSystems.UIBehaviour
-    // Base method: System.Void UIBehaviour::OnDestroy()
-    void OnDestroy();
-    // protected override System.String TextForNormalizedValue(System.Single normalizedValue)
-    // Offset: 0x13123E8
-    // Implemented from: HMUI.TextSlider
-    // Base method: System.String TextSlider::TextForNormalizedValue(System.Single normalizedValue)
-    ::Il2CppString* TextForNormalizedValue(float normalizedValue);
   }; // HMUI.RangeValuesTextSlider
   // WARNING Not writing size check since size may be invalid!
 }
@@ -201,14 +202,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "set_maxValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::get_value
-// Il2CppName: get_value
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::RangeValuesTextSlider::*)()>(&HMUI::RangeValuesTextSlider::get_value)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "get_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::set_value
 // Il2CppName: set_value
 template<>
@@ -216,6 +209,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "set_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::get_value
+// Il2CppName: get_value
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::RangeValuesTextSlider::*)()>(&HMUI::RangeValuesTextSlider::get_value)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "get_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::add_valueDidChangeEvent
@@ -289,10 +290,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "<Awake>b__17_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::Awake
 // Il2CppName: Awake
 template<>
@@ -318,3 +315,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
     return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "TextForNormalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{normalizedValue});
   }
 };
+// Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

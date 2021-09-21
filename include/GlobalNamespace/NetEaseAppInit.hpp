@@ -57,8 +57,28 @@ namespace GlobalNamespace {
     GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO*& dyn__netEaseLoginSceneTransitionSetupData();
     // Get instance field reference: private MainSettingsModelSO _mainSettingsModel
     GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
+    // protected override System.Void AppStartAndMultiSceneEditorSetup()
+    // Offset: 0x1135460
+    // Implemented from: AppInit
+    // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
+    void AppStartAndMultiSceneEditorSetup();
+    // protected override System.Void RepeatableSetup()
+    // Offset: 0x11354CC
+    // Implemented from: AppInit
+    // Base method: System.Void AppInit::RepeatableSetup()
+    void RepeatableSetup();
+    // protected override System.Void TransitionToNextScene()
+    // Offset: 0x1135518
+    // Implemented from: AppInit
+    // Base method: System.Void AppInit::TransitionToNextScene()
+    void TransitionToNextScene();
+    // public override System.Void InstallBindings()
+    // Offset: 0x1135564
+    // Implemented from: Zenject.MonoInstallerBase
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
+    void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1046668
+    // Offset: 0x1135608
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()
@@ -73,26 +93,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetEaseAppInit::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetEaseAppInit*, creationType>()));
     }
-    // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0x10464C0
-    // Implemented from: AppInit
-    // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
-    void AppStartAndMultiSceneEditorSetup();
-    // protected override System.Void RepeatableSetup()
-    // Offset: 0x104652C
-    // Implemented from: AppInit
-    // Base method: System.Void AppInit::RepeatableSetup()
-    void RepeatableSetup();
-    // protected override System.Void TransitionToNextScene()
-    // Offset: 0x1046578
-    // Implemented from: AppInit
-    // Base method: System.Void AppInit::TransitionToNextScene()
-    void TransitionToNextScene();
-    // public override System.Void InstallBindings()
-    // Offset: 0x10465C4
-    // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings()
-    void InstallBindings();
   }; // NetEaseAppInit
   #pragma pack(pop)
   static check_size<sizeof(NetEaseAppInit), 80 + sizeof(GlobalNamespace::MainSettingsModelSO*)> __GlobalNamespace_NetEaseAppInitSizeCheck;
@@ -100,10 +100,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseAppInit*, "", "NetEaseAppInit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::NetEaseAppInit::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::NetEaseAppInit::AppStartAndMultiSceneEditorSetup
 // Il2CppName: AppStartAndMultiSceneEditorSetup
 template<>
@@ -136,3 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseAppInit*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseAppInit::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

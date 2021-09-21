@@ -22,8 +22,13 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: GameServerBrowserFlowCoordinator
     GameServerBrowserFlowCoordinator() noexcept {}
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x11D746C
+    // Implemented from: HMUI.FlowCoordinator
+    // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x10F2BF0
+    // Offset: 0x11D7470
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -36,20 +41,11 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameServerBrowserFlowCoordinator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServerBrowserFlowCoordinator*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x10F2BEC
-    // Implemented from: HMUI.FlowCoordinator
-    // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
   }; // GameServerBrowserFlowCoordinator
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerBrowserFlowCoordinator*, "", "GameServerBrowserFlowCoordinator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::GameServerBrowserFlowCoordinator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameServerBrowserFlowCoordinator::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -61,3 +57,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerBrowserFlowCoordinator*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{firstActivation, addedToHierarchy, screenSystemEnabling});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::GameServerBrowserFlowCoordinator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

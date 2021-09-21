@@ -110,49 +110,49 @@ namespace GlobalNamespace {
     // Get instance field reference: protected OVRGrabber m_grabbedBy
     GlobalNamespace::OVRGrabber*& dyn_m_grabbedBy();
     // public System.Boolean get_allowOffhandGrab()
-    // Offset: 0x15382CC
+    // Offset: 0x16C1014
     bool get_allowOffhandGrab();
     // public System.Boolean get_isGrabbed()
-    // Offset: 0x15382D4
+    // Offset: 0x16C101C
     bool get_isGrabbed();
     // public System.Boolean get_snapPosition()
-    // Offset: 0x1538344
+    // Offset: 0x16C108C
     bool get_snapPosition();
     // public System.Boolean get_snapOrientation()
-    // Offset: 0x153834C
+    // Offset: 0x16C1094
     bool get_snapOrientation();
     // public UnityEngine.Transform get_snapOffset()
-    // Offset: 0x1538354
+    // Offset: 0x16C109C
     UnityEngine::Transform* get_snapOffset();
     // public OVRGrabber get_grabbedBy()
-    // Offset: 0x153835C
+    // Offset: 0x16C10A4
     GlobalNamespace::OVRGrabber* get_grabbedBy();
     // public UnityEngine.Transform get_grabbedTransform()
-    // Offset: 0x1538364
+    // Offset: 0x16C10AC
     UnityEngine::Transform* get_grabbedTransform();
     // public UnityEngine.Rigidbody get_grabbedRigidbody()
-    // Offset: 0x1538380
+    // Offset: 0x16C10C8
     UnityEngine::Rigidbody* get_grabbedRigidbody();
     // public UnityEngine.Collider[] get_grabPoints()
-    // Offset: 0x153839C
+    // Offset: 0x16C10E4
     ::Array<UnityEngine::Collider*>* get_grabPoints();
     // public System.Void GrabBegin(OVRGrabber hand, UnityEngine.Collider grabPoint)
-    // Offset: 0x15383A4
+    // Offset: 0x16C10EC
     void GrabBegin(GlobalNamespace::OVRGrabber* hand, UnityEngine::Collider* grabPoint);
     // public System.Void GrabEnd(UnityEngine.Vector3 linearVelocity, UnityEngine.Vector3 angularVelocity)
-    // Offset: 0x1538428
+    // Offset: 0x16C1170
     void GrabEnd(UnityEngine::Vector3 linearVelocity, UnityEngine::Vector3 angularVelocity);
     // private System.Void Awake()
-    // Offset: 0x1538504
+    // Offset: 0x16C124C
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1538648
+    // Offset: 0x16C1390
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x15386B4
+    // Offset: 0x16C13FC
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1538810
+    // Offset: 0x16C1558
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

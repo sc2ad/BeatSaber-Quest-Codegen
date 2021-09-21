@@ -40,10 +40,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorSchemeSO[] _colorSchemes
     ::Array<GlobalNamespace::ColorSchemeSO*>*& dyn__colorSchemes();
     // public ColorSchemeSO[] get_colorSchemes()
-    // Offset: 0x241BF64
+    // Offset: 0x26273B4
     ::Array<GlobalNamespace::ColorSchemeSO*>* get_colorSchemes();
     // public System.Void .ctor()
-    // Offset: 0x241BF6C
+    // Offset: 0x26273BC
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

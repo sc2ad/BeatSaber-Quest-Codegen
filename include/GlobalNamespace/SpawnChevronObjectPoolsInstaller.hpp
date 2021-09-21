@@ -37,8 +37,13 @@ namespace GlobalNamespace {
     SpawnChevronObjectPoolsInstaller(GlobalNamespace::SpawnRotationChevron* spawnRotationChevronPrefab_ = {}) noexcept : spawnRotationChevronPrefab{spawnRotationChevronPrefab_} {}
     // Get instance field reference: private SpawnRotationChevron _spawnRotationChevronPrefab
     GlobalNamespace::SpawnRotationChevron*& dyn__spawnRotationChevronPrefab();
+    // public override System.Void InstallBindings()
+    // Offset: 0x110DEB4
+    // Implemented from: Zenject.MonoInstallerBase
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
+    void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x109F250
+    // Offset: 0x110DF34
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -52,11 +57,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SpawnChevronObjectPoolsInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SpawnChevronObjectPoolsInstaller*, creationType>()));
     }
-    // public override System.Void InstallBindings()
-    // Offset: 0x109F1D0
-    // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings()
-    void InstallBindings();
   }; // SpawnChevronObjectPoolsInstaller
   #pragma pack(pop)
   static check_size<sizeof(SpawnChevronObjectPoolsInstaller), 32 + sizeof(GlobalNamespace::SpawnRotationChevron*)> __GlobalNamespace_SpawnChevronObjectPoolsInstallerSizeCheck;
@@ -64,10 +64,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnChevronObjectPoolsInstaller*, "", "SpawnChevronObjectPoolsInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::SpawnChevronObjectPoolsInstaller::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SpawnChevronObjectPoolsInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>
@@ -76,3 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpawnChevronObjectPoolsInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SpawnChevronObjectPoolsInstaller::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

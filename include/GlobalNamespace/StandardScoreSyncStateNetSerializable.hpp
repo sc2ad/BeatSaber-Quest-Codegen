@@ -47,6 +47,7 @@ namespace GlobalNamespace {
     GlobalNamespace::StandardScoreSyncState state;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StandardScoreSyncState) == 0x14);
+    // [CompilerGeneratedAttribute] Offset: 0xEDA0D0
     // private SyncStateId <id>k__BackingField
     // Size: 0x1
     // Offset: 0x24
@@ -55,6 +56,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SyncStateId) == 0x1);
     // Padding between fields: id and: time
     char __padding1[0x3] = {};
+    // [CompilerGeneratedAttribute] Offset: 0xEDA0E0
     // private System.Single <time>k__BackingField
     // Size: 0x4
     // Offset: 0x28
@@ -82,37 +84,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <time>k__BackingField
     float& dyn_$time$k__BackingField();
     // static public PacketPool`1<StandardScoreSyncStateNetSerializable> get_pool()
-    // Offset: 0x1700AEC
+    // Offset: 0x18DA570
     static GlobalNamespace::PacketPool_1<GlobalNamespace::StandardScoreSyncStateNetSerializable*>* get_pool();
     // public SyncStateId get_id()
-    // Offset: 0x1700B34
+    // Offset: 0x18DA5B8
     GlobalNamespace::SyncStateId get_id();
     // public System.Void set_id(SyncStateId value)
-    // Offset: 0x1700B3C
+    // Offset: 0x18DA5C0
     void set_id(GlobalNamespace::SyncStateId value);
     // public System.Single get_time()
-    // Offset: 0x1700B44
+    // Offset: 0x18DA5C8
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x1700B4C
+    // Offset: 0x18DA5D0
     void set_time(float value);
     // public StandardScoreSyncState get_state()
-    // Offset: 0x1700B54
+    // Offset: 0x18DA5D8
     GlobalNamespace::StandardScoreSyncState get_state();
     // public System.Void set_state(StandardScoreSyncState value)
-    // Offset: 0x1700B68
+    // Offset: 0x18DA5EC
     void set_state(GlobalNamespace::StandardScoreSyncState value);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1700B7C
+    // Offset: 0x18DA600
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1700BCC
+    // Offset: 0x18DA650
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1700C1C
+    // Offset: 0x18DA6A0
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x1700C78
+    // Offset: 0x18DA6FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

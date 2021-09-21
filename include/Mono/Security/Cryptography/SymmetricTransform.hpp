@@ -137,75 +137,75 @@ namespace Mono::Security::Cryptography {
     bool& dyn_lastBlock();
     // Get instance field reference: private System.Security.Cryptography.RandomNumberGenerator _rng
     System::Security::Cryptography::RandomNumberGenerator*& dyn__rng();
-    // public System.Boolean get_CanTransformMultipleBlocks()
-    // Offset: 0x1A9E3E8
-    bool get_CanTransformMultipleBlocks();
-    // public System.Int32 get_InputBlockSize()
-    // Offset: 0x1A9E3F0
-    int get_InputBlockSize();
-    // public System.Int32 get_OutputBlockSize()
-    // Offset: 0x1A9E3F8
-    int get_OutputBlockSize();
-    // private System.Boolean get_KeepLastBlock()
-    // Offset: 0x1A9ED50
-    bool get_KeepLastBlock();
     // public System.Void .ctor(System.Security.Cryptography.SymmetricAlgorithm symmAlgo, System.Boolean encryption, System.Byte[] rgbIV)
-    // Offset: 0x1A9DFD0
+    // Offset: 0x1C4C820
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SymmetricTransform* New_ctor(System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption, ::Array<uint8_t>* rgbIV) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Cryptography::SymmetricTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SymmetricTransform*, creationType>(symmAlgo, encryption, rgbIV)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1A9E308
+    // Offset: 0x1C4CB58
     void System_IDisposable_Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1A9E384
+    // Offset: 0x1C4CBD4
     void Dispose(bool disposing);
+    // public System.Boolean get_CanTransformMultipleBlocks()
+    // Offset: 0x1C4CC38
+    bool get_CanTransformMultipleBlocks();
+    // public System.Int32 get_InputBlockSize()
+    // Offset: 0x1C4CC40
+    int get_InputBlockSize();
+    // public System.Int32 get_OutputBlockSize()
+    // Offset: 0x1C4CC48
+    int get_OutputBlockSize();
     // protected System.Void Transform(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1A9E400
+    // Offset: 0x1C4CC50
     void Transform(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // protected System.Void ECB(System.Byte[] input, System.Byte[] output)
     // Offset: 0xFFFFFFFF
     void ECB(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // protected System.Void CBC(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1A9E5B4
+    // Offset: 0x1C4CE04
     void CBC(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // protected System.Void CFB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1A9E72C
+    // Offset: 0x1C4CF7C
     void CFB(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // protected System.Void OFB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1A9E908
+    // Offset: 0x1C4D158
     void OFB(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // protected System.Void CTS(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1A9E974
+    // Offset: 0x1C4D1C4
     void CTS(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // private System.Void CheckInput(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1A9E9E0
+    // Offset: 0x1C4D230
     void CheckInput(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
     // public System.Int32 TransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
-    // Offset: 0x1A9EB38
+    // Offset: 0x1C4D388
     int TransformBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount, ::Array<uint8_t>* outputBuffer, int outputOffset);
+    // private System.Boolean get_KeepLastBlock()
+    // Offset: 0x1C4D5A0
+    bool get_KeepLastBlock();
     // private System.Int32 InternalTransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
-    // Offset: 0x1A9ED74
+    // Offset: 0x1C4D5C4
     int InternalTransformBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount, ::Array<uint8_t>* outputBuffer, int outputOffset);
     // private System.Void Random(System.Byte[] buffer, System.Int32 start, System.Int32 length)
-    // Offset: 0x1A9EF54
+    // Offset: 0x1C4D7A4
     void Random(::Array<uint8_t>* buffer, int start, int length);
     // private System.Void ThrowBadPaddingException(System.Security.Cryptography.PaddingMode padding, System.Int32 length, System.Int32 position)
-    // Offset: 0x1A9F014
+    // Offset: 0x1C4D864
     void ThrowBadPaddingException(System::Security::Cryptography::PaddingMode padding, int length, int position);
     // protected System.Byte[] FinalEncrypt(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1A9F180
+    // Offset: 0x1C4D9D0
     ::Array<uint8_t>* FinalEncrypt(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
     // protected System.Byte[] FinalDecrypt(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1A9F424
+    // Offset: 0x1C4DC74
     ::Array<uint8_t>* FinalDecrypt(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
     // public System.Byte[] TransformFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1A9F6D8
+    // Offset: 0x1C4DF28
     ::Array<uint8_t>* TransformFinalBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
     // protected override System.Void Finalize()
-    // Offset: 0x1A9E294
+    // Offset: 0x1C4CAE4
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -216,6 +216,27 @@ namespace Mono::Security::Cryptography {
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::SymmetricTransform*, "Mono.Security.Cryptography", "SymmetricTransform");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::System_IDisposable_Dispose
+// Il2CppName: System.IDisposable.Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)()>(&Mono::Security::Cryptography::SymmetricTransform::System_IDisposable_Dispose)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::Dispose
+// Il2CppName: Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(bool)>(&Mono::Security::Cryptography::SymmetricTransform::Dispose)> {
+  static const MethodInfo* get() {
+    static auto* disposing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disposing});
+  }
+};
 // Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::get_CanTransformMultipleBlocks
 // Il2CppName: get_CanTransformMultipleBlocks
 template<>
@@ -238,35 +259,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Security::Cryptography::SymmetricTransform::*)()>(&Mono::Security::Cryptography::SymmetricTransform::get_OutputBlockSize)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "get_OutputBlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::get_KeepLastBlock
-// Il2CppName: get_KeepLastBlock
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Cryptography::SymmetricTransform::*)()>(&Mono::Security::Cryptography::SymmetricTransform::get_KeepLastBlock)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "get_KeepLastBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::System_IDisposable_Dispose
-// Il2CppName: System.IDisposable.Dispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)()>(&Mono::Security::Cryptography::SymmetricTransform::System_IDisposable_Dispose)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::Dispose
-// Il2CppName: Dispose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(bool)>(&Mono::Security::Cryptography::SymmetricTransform::Dispose)> {
-  static const MethodInfo* get() {
-    static auto* disposing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disposing});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::Transform
@@ -351,6 +343,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
     static auto* outputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* outputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "TransformBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputBuffer, inputOffset, inputCount, outputBuffer, outputOffset});
+  }
+};
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::get_KeepLastBlock
+// Il2CppName: get_KeepLastBlock
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Cryptography::SymmetricTransform::*)()>(&Mono::Security::Cryptography::SymmetricTransform::get_KeepLastBlock)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "get_KeepLastBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::InternalTransformBlock

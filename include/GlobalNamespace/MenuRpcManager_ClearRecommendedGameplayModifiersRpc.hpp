@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ClearRecommendedGameplayModifiersRpc
     ClearRecommendedGameplayModifiersRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x16EECF0
+    // Offset: 0x18C886C
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     // Base method: System.Void Object::.ctor()

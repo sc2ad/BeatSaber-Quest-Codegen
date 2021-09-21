@@ -61,46 +61,51 @@ namespace LiteNetLib {
     // Get instance field reference: private System.Int64 _packetLoss
     int64_t& dyn__packetLoss();
     // public System.Int64 get_PacketsSent()
-    // Offset: 0x1C2785C
+    // Offset: 0x1DDF6C4
     int64_t get_PacketsSent();
     // public System.Int64 get_PacketsReceived()
-    // Offset: 0x1C27868
+    // Offset: 0x1DDF6D0
     int64_t get_PacketsReceived();
     // public System.Int64 get_BytesSent()
-    // Offset: 0x1C27874
+    // Offset: 0x1DDF6DC
     int64_t get_BytesSent();
     // public System.Int64 get_BytesReceived()
-    // Offset: 0x1C27880
+    // Offset: 0x1DDF6E8
     int64_t get_BytesReceived();
     // public System.Int64 get_PacketLoss()
-    // Offset: 0x1C2788C
+    // Offset: 0x1DDF6F4
     int64_t get_PacketLoss();
     // public System.Int64 get_PacketLossPercent()
-    // Offset: 0x1C27898
+    // Offset: 0x1DDF700
     int64_t get_PacketLossPercent();
     // public System.Void Reset()
-    // Offset: 0x1C278E8
+    // Offset: 0x1DDF750
     void Reset();
     // public System.Void IncrementPacketsSent()
-    // Offset: 0x1C1FAA4
+    // Offset: 0x1DD790C
     void IncrementPacketsSent();
     // public System.Void IncrementPacketsReceived()
-    // Offset: 0x1C21B20
+    // Offset: 0x1DD9988
     void IncrementPacketsReceived();
     // public System.Void AddBytesSent(System.Int64 bytesSent)
-    // Offset: 0x1C1FAB0
+    // Offset: 0x1DD7918
     void AddBytesSent(int64_t bytesSent);
     // public System.Void AddBytesReceived(System.Int64 bytesReceived)
-    // Offset: 0x1C21B2C
+    // Offset: 0x1DD9994
     void AddBytesReceived(int64_t bytesReceived);
     // public System.Void IncrementPacketLoss()
-    // Offset: 0x1C27950
+    // Offset: 0x1DDF7B8
     void IncrementPacketLoss();
     // public System.Void AddPacketLoss(System.Int64 packetLoss)
-    // Offset: 0x1C2795C
+    // Offset: 0x1DDF7C4
     void AddPacketLoss(int64_t packetLoss);
+    // public override System.String ToString()
+    // Offset: 0x1DDF7D0
+    // Implemented from: System.Object
+    // Base method: System.String Object::ToString()
+    ::Il2CppString* ToString();
     // public System.Void .ctor()
-    // Offset: 0x1C1F128
+    // Offset: 0x1DD6F90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -108,11 +113,6 @@ namespace LiteNetLib {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetStatistics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetStatistics*, creationType>()));
     }
-    // public override System.String ToString()
-    // Offset: 0x1C27968
-    // Implemented from: System.Object
-    // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
   }; // LiteNetLib.NetStatistics
   #pragma pack(pop)
   static check_size<sizeof(NetStatistics), 48 + sizeof(int64_t)> __LiteNetLib_NetStatisticsSizeCheck;
@@ -227,10 +227,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "AddPacketLoss", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packetLoss});
   }
 };
-// Writing MetadataGetter for method: LiteNetLib::NetStatistics::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: LiteNetLib::NetStatistics::ToString
 // Il2CppName: ToString
 template<>
@@ -239,3 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: LiteNetLib::NetStatistics::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

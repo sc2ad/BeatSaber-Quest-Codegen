@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     GlobalNamespace::DefaultScenesTransitionsFromInit* defaultScenesTransitionsFromInit;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DefaultScenesTransitionsFromInit*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE377C0
+    // [SpaceAttribute] Offset: 0xEFFF14
     // private MainSettingsModelSO _mainSettingsModel
     // Size: 0x8
     // Offset: 0x58
@@ -68,8 +68,28 @@ namespace GlobalNamespace {
     GlobalNamespace::DefaultScenesTransitionsFromInit*& dyn__defaultScenesTransitionsFromInit();
     // Get instance field reference: private MainSettingsModelSO _mainSettingsModel
     GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
+    // protected override System.Void AppStartAndMultiSceneEditorSetup()
+    // Offset: 0x11BF01C
+    // Implemented from: AppInit
+    // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
+    void AppStartAndMultiSceneEditorSetup();
+    // protected override System.Void RepeatableSetup()
+    // Offset: 0x11BF038
+    // Implemented from: AppInit
+    // Base method: System.Void AppInit::RepeatableSetup()
+    void RepeatableSetup();
+    // protected override System.Void TransitionToNextScene()
+    // Offset: 0x11BF084
+    // Implemented from: AppInit
+    // Base method: System.Void AppInit::TransitionToNextScene()
+    void TransitionToNextScene();
+    // public override System.Void InstallBindings()
+    // Offset: 0x11BF0C0
+    // Implemented from: Zenject.MonoInstallerBase
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
+    void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1125B30
+    // Offset: 0x11BF1A8
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()
@@ -84,26 +104,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::QuestAppInit::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<QuestAppInit*, creationType>()));
     }
-    // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0x11259A4
-    // Implemented from: AppInit
-    // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
-    void AppStartAndMultiSceneEditorSetup();
-    // protected override System.Void RepeatableSetup()
-    // Offset: 0x11259C0
-    // Implemented from: AppInit
-    // Base method: System.Void AppInit::RepeatableSetup()
-    void RepeatableSetup();
-    // protected override System.Void TransitionToNextScene()
-    // Offset: 0x1125A0C
-    // Implemented from: AppInit
-    // Base method: System.Void AppInit::TransitionToNextScene()
-    void TransitionToNextScene();
-    // public override System.Void InstallBindings()
-    // Offset: 0x1125A48
-    // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings()
-    void InstallBindings();
   }; // QuestAppInit
   #pragma pack(pop)
   static check_size<sizeof(QuestAppInit), 88 + sizeof(GlobalNamespace::MainSettingsModelSO*)> __GlobalNamespace_QuestAppInitSizeCheck;
@@ -111,10 +111,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuestAppInit*, "", "QuestAppInit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::QuestAppInit::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::QuestAppInit::AppStartAndMultiSceneEditorSetup
 // Il2CppName: AppStartAndMultiSceneEditorSetup
 template<>
@@ -147,3 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuestAppInit*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::QuestAppInit::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

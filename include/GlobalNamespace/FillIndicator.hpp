@@ -47,14 +47,14 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image*& dyn__bgImage();
     // Get instance field reference: private UnityEngine.UI.Image _image
     UnityEngine::UI::Image*& dyn__image();
-    // public System.Single get_fillAmount()
-    // Offset: 0x105CD30
-    float get_fillAmount();
     // public System.Void set_fillAmount(System.Single value)
-    // Offset: 0x105CCE0
+    // Offset: 0x11A7878
     void set_fillAmount(float value);
+    // public System.Single get_fillAmount()
+    // Offset: 0x11B5B68
+    float get_fillAmount();
     // public System.Void .ctor()
-    // Offset: 0x105CD4C
+    // Offset: 0x11B5B84
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -73,14 +73,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FillIndicator*, "", "FillIndicator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::FillIndicator::get_fillAmount
-// Il2CppName: get_fillAmount
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::FillIndicator::*)()>(&GlobalNamespace::FillIndicator::get_fillAmount)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FillIndicator*), "get_fillAmount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::FillIndicator::set_fillAmount
 // Il2CppName: set_fillAmount
 template<>
@@ -88,6 +80,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FillIndicator*), "set_fillAmount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::FillIndicator::get_fillAmount
+// Il2CppName: get_fillAmount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::FillIndicator::*)()>(&GlobalNamespace::FillIndicator::get_fillAmount)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FillIndicator*), "get_fillAmount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::FillIndicator::New_ctor

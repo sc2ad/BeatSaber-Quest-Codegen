@@ -45,20 +45,21 @@ namespace GlobalNamespace {
     UnityEngine::Transform* rotatedObject;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3C3AC
+    // [InjectAttribute] Offset: 0xF04B90
     // private PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3C3BC
+    // [InjectAttribute] Offset: 0xF04BA0
     // private IAudioTimeSource _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IAudioTimeSource* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAudioTimeSource*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF04BB0
     // private System.Action floorMovementDidFinishEvent
     // Size: 0x8
     // Offset: 0x30
@@ -133,47 +134,47 @@ namespace GlobalNamespace {
     UnityEngine::Quaternion& dyn__inverseWorldRotation();
     // Get instance field reference: private UnityEngine.Vector3 _localPosition
     UnityEngine::Vector3& dyn__localPosition();
-    // public System.Single get_distanceToPlayer()
-    // Offset: 0x124A29C
-    float get_distanceToPlayer();
-    // public UnityEngine.Vector3 get_startPos()
-    // Offset: 0x124A388
-    UnityEngine::Vector3 get_startPos();
-    // public UnityEngine.Vector3 get_endPos()
-    // Offset: 0x124A394
-    UnityEngine::Vector3 get_endPos();
-    // public System.Single get_startTime()
-    // Offset: 0x124A3A0
-    float get_startTime();
-    // public System.Single get_moveDuration()
-    // Offset: 0x124A3A8
-    float get_moveDuration();
-    // public UnityEngine.Quaternion get_worldRotation()
-    // Offset: 0x124A3B0
-    UnityEngine::Quaternion get_worldRotation();
-    // public UnityEngine.Quaternion get_inverseWorldRotation()
-    // Offset: 0x124A3BC
-    UnityEngine::Quaternion get_inverseWorldRotation();
-    // public UnityEngine.Vector3 get_localPosition()
-    // Offset: 0x124A3C8
-    UnityEngine::Vector3 get_localPosition();
     // public System.Void add_floorMovementDidFinishEvent(System.Action value)
-    // Offset: 0x124A154
+    // Offset: 0x13561D0
     void add_floorMovementDidFinishEvent(System::Action* value);
     // public System.Void remove_floorMovementDidFinishEvent(System.Action value)
-    // Offset: 0x124A1F8
+    // Offset: 0x1356274
     void remove_floorMovementDidFinishEvent(System::Action* value);
+    // public System.Single get_distanceToPlayer()
+    // Offset: 0x1356318
+    float get_distanceToPlayer();
+    // public UnityEngine.Vector3 get_startPos()
+    // Offset: 0x1356404
+    UnityEngine::Vector3 get_startPos();
+    // public UnityEngine.Vector3 get_endPos()
+    // Offset: 0x1356410
+    UnityEngine::Vector3 get_endPos();
+    // public System.Single get_startTime()
+    // Offset: 0x135641C
+    float get_startTime();
+    // public System.Single get_moveDuration()
+    // Offset: 0x1356424
+    float get_moveDuration();
+    // public UnityEngine.Quaternion get_worldRotation()
+    // Offset: 0x135642C
+    UnityEngine::Quaternion get_worldRotation();
+    // public UnityEngine.Quaternion get_inverseWorldRotation()
+    // Offset: 0x1356438
+    UnityEngine::Quaternion get_inverseWorldRotation();
+    // public UnityEngine.Vector3 get_localPosition()
+    // Offset: 0x1356444
+    UnityEngine::Vector3 get_localPosition();
     // public System.Void Init(System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Single moveDuration, System.Single startTime)
-    // Offset: 0x124A3D4
+    // Offset: 0x1356450
     void Init(float worldRotation, UnityEngine::Vector3 startPos, UnityEngine::Vector3 endPos, float moveDuration, float startTime);
     // public UnityEngine.Vector3 SetToStart()
-    // Offset: 0x124A4CC
+    // Offset: 0x1356548
     UnityEngine::Vector3 SetToStart();
     // public UnityEngine.Vector3 ManualUpdate()
-    // Offset: 0x124A5FC
+    // Offset: 0x1356678
     UnityEngine::Vector3 ManualUpdate();
     // public System.Void .ctor()
-    // Offset: 0x124A7E0
+    // Offset: 0x135685C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -192,6 +193,24 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteFloorMovement*, "", "NoteFloorMovement");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::NoteFloorMovement::add_floorMovementDidFinishEvent
+// Il2CppName: add_floorMovementDidFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteFloorMovement::*)(System::Action*)>(&GlobalNamespace::NoteFloorMovement::add_floorMovementDidFinishEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteFloorMovement*), "add_floorMovementDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::NoteFloorMovement::remove_floorMovementDidFinishEvent
+// Il2CppName: remove_floorMovementDidFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteFloorMovement::*)(System::Action*)>(&GlobalNamespace::NoteFloorMovement::remove_floorMovementDidFinishEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteFloorMovement*), "remove_floorMovementDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NoteFloorMovement::get_distanceToPlayer
 // Il2CppName: get_distanceToPlayer
 template<>
@@ -254,24 +273,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::NoteFloorMovement::*)()>(&GlobalNamespace::NoteFloorMovement::get_localPosition)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteFloorMovement*), "get_localPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::NoteFloorMovement::add_floorMovementDidFinishEvent
-// Il2CppName: add_floorMovementDidFinishEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteFloorMovement::*)(System::Action*)>(&GlobalNamespace::NoteFloorMovement::add_floorMovementDidFinishEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteFloorMovement*), "add_floorMovementDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::NoteFloorMovement::remove_floorMovementDidFinishEvent
-// Il2CppName: remove_floorMovementDidFinishEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteFloorMovement::*)(System::Action*)>(&GlobalNamespace::NoteFloorMovement::remove_floorMovementDidFinishEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteFloorMovement*), "remove_floorMovementDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NoteFloorMovement::Init

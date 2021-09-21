@@ -85,68 +85,68 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview/BeatmapLevelData _beatmapLevelData
     GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData*& dyn__beatmapLevelData();
     // public System.String get_levelID()
-    // Offset: 0x11EDAB8
+    // Offset: 0x1297544
     ::Il2CppString* get_levelID();
     // public System.String get_songName()
-    // Offset: 0x11EDB68
+    // Offset: 0x12975F4
     ::Il2CppString* get_songName();
     // public System.String get_songSubName()
-    // Offset: 0x11EDC1C
+    // Offset: 0x12976A8
     ::Il2CppString* get_songSubName();
     // public System.String get_songAuthorName()
-    // Offset: 0x11EDCD0
+    // Offset: 0x129775C
     ::Il2CppString* get_songAuthorName();
     // public System.String get_levelAuthorName()
-    // Offset: 0x11EDD84
+    // Offset: 0x1297810
     ::Il2CppString* get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
-    // Offset: 0x11EDE38
+    // Offset: 0x12978C4
     float get_beatsPerMinute();
     // public System.Single get_songTimeOffset()
-    // Offset: 0x11EDEEC
+    // Offset: 0x1297978
     float get_songTimeOffset();
     // public System.Single get_songDuration()
-    // Offset: 0x11EDFA0
+    // Offset: 0x1297A2C
     float get_songDuration();
     // public System.Single get_shuffle()
-    // Offset: 0x11EE054
+    // Offset: 0x1297AE0
     float get_shuffle();
     // public System.Single get_shufflePeriod()
-    // Offset: 0x11EE108
+    // Offset: 0x1297B94
     float get_shufflePeriod();
     // public System.Single get_previewStartTime()
-    // Offset: 0x11EE1BC
+    // Offset: 0x1297C48
     float get_previewStartTime();
     // public System.Single get_previewDuration()
-    // Offset: 0x11EE270
+    // Offset: 0x1297CFC
     float get_previewDuration();
     // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0x11EE324
+    // Offset: 0x1297DB0
     GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
     // public EnvironmentInfoSO get_allDirectionsEnvironmentInfo()
-    // Offset: 0x11EE3D8
+    // Offset: 0x1297E64
     GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
     // public PreviewDifficultyBeatmapSet[] get_previewDifficultyBeatmapSets()
-    // Offset: 0x11EE48C
+    // Offset: 0x1297F18
     ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
     // public IBeatmapLevelData get_beatmapLevelData()
-    // Offset: 0x11EE540
+    // Offset: 0x1297FCC
     GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
+    // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> GetPreviewAudioClipAsync(System.Threading.CancellationToken cancellationToken)
+    // Offset: 0x1297FD4
+    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* GetPreviewAudioClipAsync(System::Threading::CancellationToken cancellationToken);
+    // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
+    // Offset: 0x12980F8
+    System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* GetCoverImageAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor(IPreviewBeatmapLevel previewLevel)
-    // Offset: 0x11ED5D0
+    // Offset: 0x129821C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview* New_ctor(GlobalNamespace::IPreviewBeatmapLevel* previewLevel) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview*, creationType>(previewLevel)));
     }
-    // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> GetPreviewAudioClipAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x11EE548
-    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* GetPreviewAudioClipAsync(System::Threading::CancellationToken cancellationToken);
-    // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x11EE66C
-    System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* GetCoverImageAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Void LoadData(BeatmapCharacteristicCollectionSO beatmapCharacteristicCollection, BeatmapLevelDataSO beatmapLevelData)
-    // Offset: 0x11ED5FC
+    // Offset: 0x1298248
     void LoadData(GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection, GlobalNamespace::BeatmapLevelDataSO* beatmapLevelData);
   }; // BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview
   #pragma pack(pop)
@@ -283,10 +283,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview*), "get_beatmapLevelData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::GetPreviewAudioClipAsync
 // Il2CppName: GetPreviewAudioClipAsync
 template<>
@@ -305,6 +301,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview*), "GetCoverImageAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::LoadData
 // Il2CppName: LoadData
 template<>

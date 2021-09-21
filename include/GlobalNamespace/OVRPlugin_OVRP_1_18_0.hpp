@@ -29,32 +29,24 @@ namespace GlobalNamespace {
     static System::Version* _get_version();
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
-    // static private System.Void .cctor()
-    // Offset: 0x163387C
-    static void _cctor();
     // static public OVRPlugin/Result ovrp_SetHandNodePoseStateLatency(System.Double latencyInSeconds)
-    // Offset: 0x16336F4
+    // Offset: 0x1800354
     static GlobalNamespace::OVRPlugin::Result ovrp_SetHandNodePoseStateLatency(double latencyInSeconds);
     // static public OVRPlugin/Result ovrp_GetHandNodePoseStateLatency(out System.Double latencyInSeconds)
-    // Offset: 0x163377C
+    // Offset: 0x18003DC
     static GlobalNamespace::OVRPlugin::Result ovrp_GetHandNodePoseStateLatency(ByRef<double> latencyInSeconds);
     // static public OVRPlugin/Result ovrp_GetAppHasInputFocus(out OVRPlugin/Bool appHasInputFocus)
-    // Offset: 0x16337FC
+    // Offset: 0x180045C
     static GlobalNamespace::OVRPlugin::Result ovrp_GetAppHasInputFocus(ByRef<GlobalNamespace::OVRPlugin::Bool> appHasInputFocus);
+    // static private System.Void .cctor()
+    // Offset: 0x18004DC
+    static void _cctor();
   }; // OVRPlugin/OVRP_1_18_0
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_18_0*, "", "OVRPlugin/OVRP_1_18_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_18_0::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_18_0::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_18_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_18_0::ovrp_SetHandNodePoseStateLatency
 // Il2CppName: ovrp_SetHandNodePoseStateLatency
 template<>
@@ -80,5 +72,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
   static const MethodInfo* get() {
     static auto* appHasInputFocus = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_18_0*), "ovrp_GetAppHasInputFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{appHasInputFocus});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_18_0::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_18_0::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_18_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

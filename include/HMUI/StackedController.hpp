@@ -44,22 +44,27 @@ namespace HMUI {
     // Creating value type constructor for type: StackedController
     StackedController() noexcept {}
     // public HMUI.ViewController get_topStackedViewController()
-    // Offset: 0x131ADD8
+    // Offset: 0x141D388
     HMUI::ViewController* get_topStackedViewController();
     // public System.Void PushViewController(HMUI.ViewController viewController, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x131B00C
+    // Offset: 0x141D5BC
     void PushViewController(HMUI::ViewController* viewController, System::Action* finishedCallback, bool immediately);
     // public System.Void PopViewController(System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x131B0E0
+    // Offset: 0x141D690
     void PopViewController(System::Action* finishedCallback, bool immediately);
     // public System.Void PopViewControllers(System.Int32 numberOfViewControllersToPop, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x131B0F4
+    // Offset: 0x141D6A4
     void PopViewControllers(int numberOfViewControllersToPop, System::Action* finishedCallback, bool immediately);
     // static private System.Void SetupViewControllerRect(HMUI.ViewController viewController, System.Int32 index)
-    // Offset: 0x131AF88
+    // Offset: 0x141D538
     static void SetupViewControllerRect(HMUI::ViewController* viewController, int index);
+    // protected override System.Void LayoutViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers)
+    // Offset: 0x141D3F4
+    // Implemented from: HMUI.ContainerViewController
+    // Base method: System.Void ContainerViewController::LayoutViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers)
+    void LayoutViewControllers(System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers);
     // public System.Void .ctor()
-    // Offset: 0x131B28C
+    // Offset: 0x141D83C
     // Implemented from: HMUI.ContainerViewController
     // Base method: System.Void ContainerViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()
@@ -73,11 +78,6 @@ namespace HMUI {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::StackedController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackedController*, creationType>()));
     }
-    // protected override System.Void LayoutViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers)
-    // Offset: 0x131AE44
-    // Implemented from: HMUI.ContainerViewController
-    // Base method: System.Void ContainerViewController::LayoutViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers)
-    void LayoutViewControllers(System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers);
   }; // HMUI.StackedController
   #pragma pack(pop)
 }
@@ -133,10 +133,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HM
     return ::il2cpp_utils::FindMethod(classof(HMUI::StackedController*), "SetupViewControllerRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{viewController, index});
   }
 };
-// Writing MetadataGetter for method: HMUI::StackedController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::StackedController::LayoutViewControllers
 // Il2CppName: LayoutViewControllers
 template<>
@@ -146,3 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::StackedController*), "LayoutViewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{viewControllers});
   }
 };
+// Writing MetadataGetter for method: HMUI::StackedController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

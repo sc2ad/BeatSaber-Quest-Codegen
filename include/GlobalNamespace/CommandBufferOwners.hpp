@@ -54,20 +54,20 @@ namespace GlobalNamespace {
     System::Collections::Generic::HashSet_1<UnityEngine::Object*>*& dyn__owners();
     // Get instance field reference: public UnityEngine.Rendering.CommandBuffer commandBuffer
     UnityEngine::Rendering::CommandBuffer*& dyn_commandBuffer();
-    // public System.Int32 get_NumberOfOwners()
-    // Offset: 0x238B9C0
-    int get_NumberOfOwners();
     // public System.Void AddOwner(UnityEngine.Object owner)
-    // Offset: 0x238BC14
+    // Offset: 0x258645C
     void AddOwner(UnityEngine::Object* owner);
     // public System.Void RemoveOwner(UnityEngine.Object owner)
-    // Offset: 0x238B94C
+    // Offset: 0x2586194
     void RemoveOwner(UnityEngine::Object* owner);
     // public System.Boolean ContainsOwner(UnityEngine.Object owner)
-    // Offset: 0x238BBAC
+    // Offset: 0x25863F4
     bool ContainsOwner(UnityEngine::Object* owner);
+    // public System.Int32 get_NumberOfOwners()
+    // Offset: 0x2586208
+    int get_NumberOfOwners();
     // public System.Void .ctor()
-    // Offset: 0x238BCAC
+    // Offset: 0x25864F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -82,14 +82,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferOwners*, "", "CommandBufferOwners");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::CommandBufferOwners::get_NumberOfOwners
-// Il2CppName: get_NumberOfOwners
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::CommandBufferOwners::*)()>(&GlobalNamespace::CommandBufferOwners::get_NumberOfOwners)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferOwners*), "get_NumberOfOwners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::CommandBufferOwners::AddOwner
 // Il2CppName: AddOwner
 template<>
@@ -115,6 +107,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
   static const MethodInfo* get() {
     static auto* owner = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferOwners*), "ContainsOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{owner});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::CommandBufferOwners::get_NumberOfOwners
+// Il2CppName: get_NumberOfOwners
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::CommandBufferOwners::*)()>(&GlobalNamespace::CommandBufferOwners::get_NumberOfOwners)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferOwners*), "get_NumberOfOwners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::CommandBufferOwners::New_ctor

@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LevelFinishedRpc
     LevelFinishedRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1342720
+    // Offset: 0x1459D60
     // Implemented from: RemoteProcedureCall`1
     // Base method: System.Void RemoteProcedureCall_1::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

@@ -113,25 +113,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private OVRGridCube gridCube
     GlobalNamespace::OVRGridCube*& dyn_gridCube();
     // private System.Void Awake()
-    // Offset: 0x163EB5C
+    // Offset: 0x180B7BC
     void Awake();
     // private System.Void Start()
-    // Offset: 0x163ECF8
+    // Offset: 0x180B958
     void Start();
     // private System.Void Update()
-    // Offset: 0x163EDE4
+    // Offset: 0x180BA44
     void Update();
     // private System.Void UpdateVisionMode()
-    // Offset: 0x163EF94
+    // Offset: 0x180BBF4
     void UpdateVisionMode();
     // private System.Void UpdateSpeedAndRotationScaleMultiplier()
-    // Offset: 0x163F078
+    // Offset: 0x180BCD8
     void UpdateSpeedAndRotationScaleMultiplier();
     // private System.Void UpdateRecenterPose()
-    // Offset: 0x163EEC8
+    // Offset: 0x180BB28
     void UpdateRecenterPose();
     // public System.Void .ctor()
-    // Offset: 0x163F16C
+    // Offset: 0x180BDCC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -57,17 +57,17 @@ namespace HMUI {
     UnityEngine::UI::Image*& dyn__image();
     // Get instance field reference: private HMUI.HoverHint _hoverHint
     HMUI::HoverHint*& dyn__hoverHint();
-    // public UnityEngine.Sprite get_sprite()
-    // Offset: 0x130D1A4
-    UnityEngine::Sprite* get_sprite();
     // public System.Void set_sprite(UnityEngine.Sprite value)
-    // Offset: 0x130D188
+    // Offset: 0x140F738
     void set_sprite(UnityEngine::Sprite* value);
+    // public UnityEngine.Sprite get_sprite()
+    // Offset: 0x140F754
+    UnityEngine::Sprite* get_sprite();
     // public System.Void set_hintText(System.String value)
-    // Offset: 0x130D1C0
+    // Offset: 0x140F770
     void set_hintText(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x130D1DC
+    // Offset: 0x140F78C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -86,14 +86,6 @@ namespace HMUI {
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ImageWithHint*, "HMUI", "ImageWithHint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: HMUI::ImageWithHint::get_sprite
-// Il2CppName: get_sprite
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (HMUI::ImageWithHint::*)()>(&HMUI::ImageWithHint::get_sprite)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::ImageWithHint*), "get_sprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: HMUI::ImageWithHint::set_sprite
 // Il2CppName: set_sprite
 template<>
@@ -101,6 +93,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Sprite")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ImageWithHint*), "set_sprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: HMUI::ImageWithHint::get_sprite
+// Il2CppName: get_sprite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (HMUI::ImageWithHint::*)()>(&HMUI::ImageWithHint::get_sprite)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ImageWithHint*), "get_sprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: HMUI::ImageWithHint::set_hintText

@@ -38,10 +38,15 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PlatformNetworkPlayerModel
     PlatformNetworkPlayerModel() noexcept {}
     // public System.Collections.Generic.IEnumerable`1<INetworkPlayer> get_friends()
-    // Offset: 0x11F3BEC
+    // Offset: 0x12B39BC
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* get_friends();
+    // public override System.Void DestroyPartyConnection()
+    // Offset: 0x12B39CC
+    // Implemented from: BaseNetworkPlayerModel
+    // Base method: System.Void BaseNetworkPlayerModel::DestroyPartyConnection()
+    void DestroyPartyConnection();
     // protected System.Void .ctor()
-    // Offset: 0x11F3C28
+    // Offset: 0x12B39F8
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::.ctor()
     // Base method: System.Void StandaloneMonobehavior::.ctor()
@@ -55,11 +60,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlatformNetworkPlayerModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformNetworkPlayerModel*, creationType>()));
     }
-    // public override System.Void DestroyPartyConnection()
-    // Offset: 0x11F3BFC
-    // Implemented from: BaseNetworkPlayerModel
-    // Base method: System.Void BaseNetworkPlayerModel::DestroyPartyConnection()
-    void DestroyPartyConnection();
   }; // PlatformNetworkPlayerModel
   #pragma pack(pop)
 }
@@ -73,10 +73,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformNetworkPlayerModel*), "get_friends", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PlatformNetworkPlayerModel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PlatformNetworkPlayerModel::DestroyPartyConnection
 // Il2CppName: DestroyPartyConnection
 template<>
@@ -85,3 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformNetworkPlayerModel*), "DestroyPartyConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PlatformNetworkPlayerModel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

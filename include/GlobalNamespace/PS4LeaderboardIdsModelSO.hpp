@@ -57,13 +57,18 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.UInt32> _leaderboardIdToPs4Id
     System::Collections::Generic::Dictionary_2<::Il2CppString*, uint>*& dyn__leaderboardIdToPs4Id();
     // public System.Collections.Generic.List`1<PS4LeaderboardIdsModelSO/LeaderboardIdData> get_leaderboardIds()
-    // Offset: 0x103574C
+    // Offset: 0x1124BBC
     System::Collections::Generic::List_1<GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*>* get_leaderboardIds();
     // public System.Boolean GetPS4LeaderboardId(System.String leaderboardId, out System.UInt32 ps4LeaderboardId)
-    // Offset: 0x1035898
+    // Offset: 0x1124D08
     bool GetPS4LeaderboardId(::Il2CppString* leaderboardId, ByRef<uint> ps4LeaderboardId);
+    // protected override System.Void OnEnable()
+    // Offset: 0x1124BC4
+    // Implemented from: PersistentScriptableObject
+    // Base method: System.Void PersistentScriptableObject::OnEnable()
+    void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x103590C
+    // Offset: 0x1124D7C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -74,11 +79,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PS4LeaderboardIdsModelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PS4LeaderboardIdsModelSO*, creationType>()));
     }
-    // protected override System.Void OnEnable()
-    // Offset: 0x1035754
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::OnEnable()
-    void OnEnable();
   }; // PS4LeaderboardIdsModelSO
   #pragma pack(pop)
   static check_size<sizeof(PS4LeaderboardIdsModelSO), 32 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, uint>*)> __GlobalNamespace_PS4LeaderboardIdsModelSOSizeCheck;
@@ -104,10 +104,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4LeaderboardIdsModelSO*), "GetPS4LeaderboardId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardId, ps4LeaderboardId});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PS4LeaderboardIdsModelSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::PS4LeaderboardIdsModelSO::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -116,3 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4LeaderboardIdsModelSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::PS4LeaderboardIdsModelSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

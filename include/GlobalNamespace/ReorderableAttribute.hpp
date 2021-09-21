@@ -20,18 +20,21 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ReorderableAttribute : public UnityEngine::PropertyAttribute {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xEC9A00
     // private System.String <ElementHeader>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* ElementHeader;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xEC9A10
     // private System.Boolean <HeaderZeroIndex>k__BackingField
     // Size: 0x1
     // Offset: 0x18
     bool HeaderZeroIndex;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    // [CompilerGeneratedAttribute] Offset: 0xEC9A20
     // private System.Boolean <ElementSingleLine>k__BackingField
     // Size: 0x1
     // Offset: 0x19
@@ -47,32 +50,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <ElementSingleLine>k__BackingField
     bool& dyn_$ElementSingleLine$k__BackingField();
     // public System.String get_ElementHeader()
-    // Offset: 0x1270748
+    // Offset: 0x138CF50
     ::Il2CppString* get_ElementHeader();
     // protected System.Void set_ElementHeader(System.String value)
-    // Offset: 0x1270750
+    // Offset: 0x138CF58
     void set_ElementHeader(::Il2CppString* value);
     // public System.Boolean get_HeaderZeroIndex()
-    // Offset: 0x1270758
+    // Offset: 0x138CF60
     bool get_HeaderZeroIndex();
     // protected System.Void set_HeaderZeroIndex(System.Boolean value)
-    // Offset: 0x1270760
+    // Offset: 0x138CF68
     void set_HeaderZeroIndex(bool value);
     // public System.Boolean get_ElementSingleLine()
-    // Offset: 0x127076C
+    // Offset: 0x138CF74
     bool get_ElementSingleLine();
     // protected System.Void set_ElementSingleLine(System.Boolean value)
-    // Offset: 0x1270774
+    // Offset: 0x138CF7C
     void set_ElementSingleLine(bool value);
     // public System.Void .ctor(System.String headerString, System.Boolean isZeroIndex, System.Boolean isSingleLine)
-    // Offset: 0x12707E8
+    // Offset: 0x138CFF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReorderableAttribute* New_ctor(::Il2CppString* headerString, bool isZeroIndex, bool isSingleLine) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ReorderableAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReorderableAttribute*, creationType>(headerString, isZeroIndex, isSingleLine)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1270780
+    // Offset: 0x138CF88
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

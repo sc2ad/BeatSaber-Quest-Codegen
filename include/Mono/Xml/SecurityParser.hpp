@@ -7,7 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Xml.SmallXmlParser
 #include "Mono/Xml/SmallXmlParser.hpp"
-// Including type: Mono.Xml.SmallXmlParser/Mono.Xml.IContentHandler
+// Including type: Mono.Xml.SmallXmlParser/IContentHandler
 #include "Mono/Xml/SmallXmlParser_IContentHandler.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
@@ -67,34 +67,34 @@ namespace Mono::Xml {
     // Get instance field reference: private System.Collections.Stack stack
     System::Collections::Stack*& dyn_stack();
     // public System.Void LoadXml(System.String xml)
-    // Offset: 0x1A98E24
+    // Offset: 0x1C47674
     void LoadXml(::Il2CppString* xml);
     // public System.Security.SecurityElement ToXml()
-    // Offset: 0x1AA9910
+    // Offset: 0x1C58160
     System::Security::SecurityElement* ToXml();
     // public System.Void OnStartParsing(Mono.Xml.SmallXmlParser parser)
-    // Offset: 0x1AA9918
+    // Offset: 0x1C58168
     void OnStartParsing(Mono::Xml::SmallXmlParser* parser);
     // public System.Void OnProcessingInstruction(System.String name, System.String text)
-    // Offset: 0x1AA991C
+    // Offset: 0x1C5816C
     void OnProcessingInstruction(::Il2CppString* name, ::Il2CppString* text);
     // public System.Void OnIgnorableWhitespace(System.String s)
-    // Offset: 0x1AA9920
+    // Offset: 0x1C58170
     void OnIgnorableWhitespace(::Il2CppString* s);
-    // public System.Void OnStartElement(System.String name, Mono.Xml.SmallXmlParser/Mono.Xml.IAttrList attrs)
-    // Offset: 0x1AA9924
+    // public System.Void OnStartElement(System.String name, Mono.Xml.SmallXmlParser/IAttrList attrs)
+    // Offset: 0x1C58174
     void OnStartElement(::Il2CppString* name, Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // public System.Void OnEndElement(System.String name)
-    // Offset: 0x1AA9BC8
+    // Offset: 0x1C58418
     void OnEndElement(::Il2CppString* name);
     // public System.Void OnChars(System.String ch)
-    // Offset: 0x1AA9C48
+    // Offset: 0x1C58498
     void OnChars(::Il2CppString* ch);
     // public System.Void OnEndParsing(Mono.Xml.SmallXmlParser parser)
-    // Offset: 0x1AA9CD8
+    // Offset: 0x1C58528
     void OnEndParsing(Mono::Xml::SmallXmlParser* parser);
     // public System.Void .ctor()
-    // Offset: 0x1A98DBC
+    // Offset: 0x1C4760C
     // Implemented from: Mono.Xml.SmallXmlParser
     // Base method: System.Void SmallXmlParser::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -55,16 +55,26 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     UnityEngine::Color ColorForValue(int idx);
     // protected System.Void OnEnable()
-    // Offset: 0x12085D8
+    // Offset: 0x1314F58
     void OnEnable();
     // private System.Void RefreshUI()
-    // Offset: 0x120861C
+    // Offset: 0x1314F9C
     void RefreshUI();
     // public System.Void Refresh(System.Boolean applyValue)
-    // Offset: 0x1208684
+    // Offset: 0x1315004
     void Refresh(bool applyValue);
+    // protected override System.Void IncButtonPressed()
+    // Offset: 0x1315064
+    // Implemented from: IncDecColorController
+    // Base method: System.Void IncDecColorController::IncButtonPressed()
+    void IncButtonPressed();
+    // protected override System.Void DecButtonPressed()
+    // Offset: 0x13150B0
+    // Implemented from: IncDecColorController
+    // Base method: System.Void IncDecColorController::DecButtonPressed()
+    void DecButtonPressed();
     // protected System.Void .ctor()
-    // Offset: 0x1208774
+    // Offset: 0x13150F4
     // Implemented from: IncDecColorController
     // Base method: System.Void IncDecColorController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -77,16 +87,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ListColorController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListColorController*, creationType>()));
     }
-    // protected override System.Void IncButtonPressed()
-    // Offset: 0x12086E4
-    // Implemented from: IncDecColorController
-    // Base method: System.Void IncDecColorController::IncButtonPressed()
-    void IncButtonPressed();
-    // protected override System.Void DecButtonPressed()
-    // Offset: 0x1208730
-    // Implemented from: IncDecColorController
-    // Base method: System.Void IncDecColorController::DecButtonPressed()
-    void DecButtonPressed();
   }; // ListColorController
   #pragma pack(pop)
   static check_size<sizeof(ListColorController), 36 + sizeof(int)> __GlobalNamespace_ListColorControllerSizeCheck;
@@ -147,10 +147,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ListColorController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{applyValue});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ListColorController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ListColorController::IncButtonPressed
 // Il2CppName: IncButtonPressed
 template<>
@@ -167,3 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ListColorController*), "DecButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ListColorController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

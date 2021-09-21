@@ -58,19 +58,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _markedTriggerId
     int& dyn__markedTriggerId();
     // public System.Boolean get_marked()
-    // Offset: 0x126ACF8
+    // Offset: 0x1387500
     bool get_marked();
     // public System.Void set_marked(System.Boolean value)
-    // Offset: 0x126AD00
+    // Offset: 0x1387508
     void set_marked(bool value);
     // protected System.Void Awake()
-    // Offset: 0x126AD2C
+    // Offset: 0x1387534
     void Awake();
     // public System.Void ToggleMarked()
-    // Offset: 0x126AD84
+    // Offset: 0x138758C
     void ToggleMarked();
     // public System.Void .ctor()
-    // Offset: 0x126AD94
+    // Offset: 0x138759C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -68,22 +68,22 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kBloomFogEnabledKeyword();
     // Set static field: static private System.String kBloomFogEnabledKeyword
     static void _set_kBloomFogEnabledKeyword(::Il2CppString* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE18F68
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDE098
     // Get static field: static private readonly System.Int32 _customFogAttenuationID
     static int _get__customFogAttenuationID();
     // Set static field: static private readonly System.Int32 _customFogAttenuationID
     static void _set__customFogAttenuationID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE18F78
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDE0A8
     // Get static field: static private readonly System.Int32 _customFogOffsetID
     static int _get__customFogOffsetID();
     // Set static field: static private readonly System.Int32 _customFogOffsetID
     static void _set__customFogOffsetID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE18F88
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDE0B8
     // Get static field: static private readonly System.Int32 _customFogHeightFogStartYID
     static int _get__customFogHeightFogStartYID();
     // Set static field: static private readonly System.Int32 _customFogHeightFogStartYID
     static void _set__customFogHeightFogStartYID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE18F98
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDE0C8
     // Get static field: static private readonly System.Int32 _customFogHeightFogHeightID
     static int _get__customFogHeightFogHeightID();
     // Set static field: static private readonly System.Int32 _customFogHeightFogHeightID
@@ -96,41 +96,46 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomFogEnvironmentParams*& dyn__defaultFogParams();
     // Get instance field reference: private BloomFogEnvironmentParams _transitionFogParams
     GlobalNamespace::BloomFogEnvironmentParams*& dyn__transitionFogParams();
-    // public System.Single get_transition()
-    // Offset: 0x1E11268
-    float get_transition();
     // public System.Void set_transition(System.Single value)
-    // Offset: 0x1E10A6C
+    // Offset: 0x1E208C4
     void set_transition(float value);
+    // public System.Single get_transition()
+    // Offset: 0x1E210C0
+    float get_transition();
     // public BloomFogEnvironmentParams get_defaultForParams()
-    // Offset: 0x1E11270
+    // Offset: 0x1E210C8
     GlobalNamespace::BloomFogEnvironmentParams* get_defaultForParams();
     // public System.Void set_defaultForParams(BloomFogEnvironmentParams value)
-    // Offset: 0x1E1105C
+    // Offset: 0x1E20EB4
     void set_defaultForParams(GlobalNamespace::BloomFogEnvironmentParams* value);
     // public BloomFogEnvironmentParams get_transitionFogParams()
-    // Offset: 0x1E11278
+    // Offset: 0x1E210D0
     GlobalNamespace::BloomFogEnvironmentParams* get_transitionFogParams();
     // public System.Void set_transitionFogParams(BloomFogEnvironmentParams value)
-    // Offset: 0x1E10E7C
+    // Offset: 0x1E20CD4
     void set_transitionFogParams(GlobalNamespace::BloomFogEnvironmentParams* value);
-    // public System.Boolean get_bloomFogEnabled()
-    // Offset: 0x1E11280
-    bool get_bloomFogEnabled();
     // public System.Void set_bloomFogEnabled(System.Boolean value)
-    // Offset: 0x1E10AEC
+    // Offset: 0x1E20944
     void set_bloomFogEnabled(bool value);
+    // public System.Boolean get_bloomFogEnabled()
+    // Offset: 0x1E210D8
+    bool get_bloomFogEnabled();
     // public System.Void Setup(BloomFogEnvironmentParams defaultFogParams)
-    // Offset: 0x1E10A84
+    // Offset: 0x1E208DC
     void Setup(GlobalNamespace::BloomFogEnvironmentParams* defaultFogParams);
     // public System.Void UpdateShaderParams()
-    // Offset: 0x1E10B74
+    // Offset: 0x1E209CC
     void UpdateShaderParams();
     // static private System.Void SetParams(System.Single attenuation, System.Single offset, System.Single heightFogStartY, System.Single heightFogHeight)
-    // Offset: 0x1E112B0
+    // Offset: 0x1E21108
     static void SetParams(float attenuation, float offset, float heightFogStartY, float heightFogHeight);
+    // protected override System.Void OnEnable()
+    // Offset: 0x1E210E0
+    // Implemented from: PersistentScriptableObject
+    // Base method: System.Void PersistentScriptableObject::OnEnable()
+    void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x1E11388
+    // Offset: 0x1E211E0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -142,15 +147,10 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomFogSO*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E11398
+    // Offset: 0x1E211F0
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
-    // protected override System.Void OnEnable()
-    // Offset: 0x1E11288
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::OnEnable()
-    void OnEnable();
   }; // BloomFogSO
   #pragma pack(pop)
   static check_size<sizeof(BloomFogSO), 40 + sizeof(GlobalNamespace::BloomFogEnvironmentParams*)> __GlobalNamespace_BloomFogSOSizeCheck;
@@ -158,14 +158,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogSO*, "", "BloomFogSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::get_transition
-// Il2CppName: get_transition
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BloomFogSO::*)()>(&GlobalNamespace::BloomFogSO::get_transition)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "get_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::set_transition
 // Il2CppName: set_transition
 template<>
@@ -173,6 +165,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "set_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::get_transition
+// Il2CppName: get_transition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BloomFogSO::*)()>(&GlobalNamespace::BloomFogSO::get_transition)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "get_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::get_defaultForParams
@@ -209,14 +209,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "set_transitionFogParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::get_bloomFogEnabled
-// Il2CppName: get_bloomFogEnabled
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BloomFogSO::*)()>(&GlobalNamespace::BloomFogSO::get_bloomFogEnabled)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "get_bloomFogEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::set_bloomFogEnabled
 // Il2CppName: set_bloomFogEnabled
 template<>
@@ -224,6 +216,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "set_bloomFogEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::get_bloomFogEnabled
+// Il2CppName: get_bloomFogEnabled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BloomFogSO::*)()>(&GlobalNamespace::BloomFogSO::get_bloomFogEnabled)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "get_bloomFogEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::Setup
@@ -255,6 +255,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "SetParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attenuation, offset, heightFogStartY, heightFogHeight});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogSO::*)()>(&GlobalNamespace::BloomFogSO::OnEnable)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -265,13 +273,5 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BloomFogSO::_cctor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::OnEnable
-// Il2CppName: OnEnable
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogSO::*)()>(&GlobalNamespace::BloomFogSO::OnEnable)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

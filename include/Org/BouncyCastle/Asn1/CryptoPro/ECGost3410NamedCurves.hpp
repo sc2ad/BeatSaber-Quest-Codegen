@@ -57,20 +57,20 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     static System::Collections::IDictionary* _get_names();
     // Set static field: static readonly System.Collections.IDictionary names
     static void _set_names(System::Collections::IDictionary* value);
-    // static private System.Void .cctor()
-    // Offset: 0x17382F8
-    static void _cctor();
     // static private Org.BouncyCastle.Math.EC.ECPoint ConfigureBasepoint(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.BigInteger x, Org.BouncyCastle.Math.BigInteger y)
-    // Offset: 0x173824C
+    // Offset: 0x18E9A24
     static Org::BouncyCastle::Math::EC::ECPoint* ConfigureBasepoint(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::BigInteger* x, Org::BouncyCastle::Math::BigInteger* y);
     // static private Org.BouncyCastle.Math.EC.ECCurve ConfigureCurve(Org.BouncyCastle.Math.EC.ECCurve curve)
-    // Offset: 0x17382F4
+    // Offset: 0x18E9ACC
     static Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(Org::BouncyCastle::Math::EC::ECCurve* curve);
+    // static private System.Void .cctor()
+    // Offset: 0x18E9AD0
+    static void _cctor();
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByOidX9(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x1739FAC
+    // Offset: 0x18EB784
     static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOidX9(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByNameX9(System.String name)
-    // Offset: 0x173A158
+    // Offset: 0x18EB930
     static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByNameX9(::Il2CppString* name);
   }; // Org.BouncyCastle.Asn1.CryptoPro.ECGost3410NamedCurves
   #pragma pack(pop)
@@ -78,14 +78,6 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves*, "Org.BouncyCastle.Asn1.CryptoPro", "ECGost3410NamedCurves");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves::ConfigureBasepoint
 // Il2CppName: ConfigureBasepoint
 template<>
@@ -104,6 +96,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
   static const MethodInfo* get() {
     static auto* curve = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECCurve")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves*), "ConfigureCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{curve});
+  }
+};
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves::GetByOidX9

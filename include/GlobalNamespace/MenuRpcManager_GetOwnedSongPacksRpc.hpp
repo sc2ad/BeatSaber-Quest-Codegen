@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GetOwnedSongPacksRpc
     GetOwnedSongPacksRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x16EED70
+    // Offset: 0x18C88EC
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     // Base method: System.Void Object::.ctor()

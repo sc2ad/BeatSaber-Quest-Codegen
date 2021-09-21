@@ -44,21 +44,21 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* button;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [NullAllowed] Offset: 0xE4D4E0
+    // [NullAllowed] Offset: 0xF1611C
     // public PreviewBeatmapLevelPackSO previewLevelPack
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::PreviewBeatmapLevelPackSO* previewLevelPack;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PreviewBeatmapLevelPackSO*) == 0x8);
-    // [NullAllowed] Offset: 0xE4D4F0
+    // [NullAllowed] Offset: 0xF1612C
     // public BeatmapLevelPackSO levelPack
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BeatmapLevelPackSO* levelPack;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelPackSO*) == 0x8);
-    // [NullAllowed] Offset: 0xE4D500
+    // [NullAllowed] Offset: 0xF1613C
     // public BeatmapLevelSO beatmapLevel
     // Size: 0x8
     // Offset: 0x28
@@ -84,10 +84,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private IAnnotatedBeatmapLevelCollection _annotatedBeatmapLevelCollection
     GlobalNamespace::IAnnotatedBeatmapLevelCollection*& dyn__annotatedBeatmapLevelCollection();
     // public IAnnotatedBeatmapLevelCollection get_annotatedBeatmapLevelCollection()
-    // Offset: 0x11256FC
+    // Offset: 0x11BED74
     GlobalNamespace::IAnnotatedBeatmapLevelCollection* get_annotatedBeatmapLevelCollection();
     // public System.Void .ctor()
-    // Offset: 0x11257CC
+    // Offset: 0x11BEE44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

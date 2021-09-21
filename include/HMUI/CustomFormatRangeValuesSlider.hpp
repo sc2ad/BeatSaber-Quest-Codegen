@@ -29,8 +29,13 @@ namespace HMUI {
     CustomFormatRangeValuesSlider(::Il2CppString* formatString_ = {}) noexcept : formatString{formatString_} {}
     // Get instance field reference: private System.String _formatString
     ::Il2CppString*& dyn__formatString();
+    // protected override System.String TextForValue(System.Single value)
+    // Offset: 0x1485AE4
+    // Implemented from: HMUI.RangeValuesTextSlider
+    // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
+    ::Il2CppString* TextForValue(float value);
     // public System.Void .ctor()
-    // Offset: 0x137051C
+    // Offset: 0x1485B5C
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.Void RangeValuesTextSlider::.ctor()
     // Base method: System.Void TextSlider::.ctor()
@@ -46,20 +51,11 @@ namespace HMUI {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::CustomFormatRangeValuesSlider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomFormatRangeValuesSlider*, creationType>()));
     }
-    // protected override System.String TextForValue(System.Single value)
-    // Offset: 0x13704A4
-    // Implemented from: HMUI.RangeValuesTextSlider
-    // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
-    ::Il2CppString* TextForValue(float value);
   }; // HMUI.CustomFormatRangeValuesSlider
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CustomFormatRangeValuesSlider*, "HMUI", "CustomFormatRangeValuesSlider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: HMUI::CustomFormatRangeValuesSlider::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::CustomFormatRangeValuesSlider::TextForValue
 // Il2CppName: TextForValue
 template<>
@@ -69,3 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
     return ::il2cpp_utils::FindMethod(classof(HMUI::CustomFormatRangeValuesSlider*), "TextForValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: HMUI::CustomFormatRangeValuesSlider::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

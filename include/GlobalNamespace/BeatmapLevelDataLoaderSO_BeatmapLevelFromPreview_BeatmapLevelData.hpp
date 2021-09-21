@@ -65,13 +65,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview/BeatmapLevelData/DifficultyBeatmapSet[] _difficultyBeatmapSets
     ::Array<GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData::DifficultyBeatmapSet*>*& dyn__difficultyBeatmapSets();
     // public UnityEngine.AudioClip get_audioClip()
-    // Offset: 0x11EEE20
+    // Offset: 0x1298950
     UnityEngine::AudioClip* get_audioClip();
     // public IDifficultyBeatmapSet[] get_difficultyBeatmapSets()
-    // Offset: 0x11EEE28
+    // Offset: 0x1298958
     ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
     // public System.Void .ctor(BeatmapLevelDataSO beatmapLevelData, BeatmapCharacteristicCollectionSO beatmapCharacteristicCollection, IBeatmapLevel parentLevel)
-    // Offset: 0x11EE790
+    // Offset: 0x12982C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData* New_ctor(GlobalNamespace::BeatmapLevelDataSO* beatmapLevelData, GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection, GlobalNamespace::IBeatmapLevel* parentLevel) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData::.ctor");

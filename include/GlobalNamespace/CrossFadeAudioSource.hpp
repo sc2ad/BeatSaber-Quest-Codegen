@@ -27,8 +27,8 @@ namespace GlobalNamespace {
 }
 // Forward declaring namespace: Tweening
 namespace Tweening {
-  // Forward declaring type: TweeningManager
-  class TweeningManager;
+  // Forward declaring type: TimeTweeningManager
+  class TimeTweeningManager;
   // Forward declaring type: Tween`1<T>
   template<typename T>
   class Tween_1;
@@ -74,13 +74,13 @@ namespace GlobalNamespace {
     GlobalNamespace::AudioPitchGainEffect* audioPitchGainEffect2;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioPitchGainEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0xE37B88
-    // private readonly Tweening.TweeningManager _tweeningManager
+    // [InjectAttribute] Offset: 0xF002DC
+    // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x40
-    Tweening::TweeningManager* tweeningManager;
+    Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
-    static_assert(sizeof(Tweening::TweeningManager*) == 0x8);
+    static_assert(sizeof(Tweening::TimeTweeningManager*) == 0x8);
     // private UnityEngine.AudioSource _activeAudioSource
     // Size: 0x8
     // Offset: 0x48
@@ -118,7 +118,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioPitchGainEffect*) == 0x8);
     // Creating value type constructor for type: CrossFadeAudioSource
-    CrossFadeAudioSource(float duration_ = {}, UnityEngine::AudioSource* audioSource1_ = {}, UnityEngine::AudioSource* audioSource2_ = {}, GlobalNamespace::AudioPitchGainEffect* audioPitchGainEffect1_ = {}, GlobalNamespace::AudioPitchGainEffect* audioPitchGainEffect2_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, UnityEngine::AudioSource* activeAudioSource_ = {}, UnityEngine::AudioSource* inactiveAudioSource_ = {}, Tweening::Tween_1<float>* volumeDownTween_ = {}, Tweening::Tween_1<float>* volumeUpTween_ = {}, GlobalNamespace::AudioPitchGainEffect* activePitchGainEffect_ = {}, GlobalNamespace::AudioPitchGainEffect* inactivePitchGainEffect_ = {}) noexcept : duration{duration_}, audioSource1{audioSource1_}, audioSource2{audioSource2_}, audioPitchGainEffect1{audioPitchGainEffect1_}, audioPitchGainEffect2{audioPitchGainEffect2_}, tweeningManager{tweeningManager_}, activeAudioSource{activeAudioSource_}, inactiveAudioSource{inactiveAudioSource_}, volumeDownTween{volumeDownTween_}, volumeUpTween{volumeUpTween_}, activePitchGainEffect{activePitchGainEffect_}, inactivePitchGainEffect{inactivePitchGainEffect_} {}
+    CrossFadeAudioSource(float duration_ = {}, UnityEngine::AudioSource* audioSource1_ = {}, UnityEngine::AudioSource* audioSource2_ = {}, GlobalNamespace::AudioPitchGainEffect* audioPitchGainEffect1_ = {}, GlobalNamespace::AudioPitchGainEffect* audioPitchGainEffect2_ = {}, Tweening::TimeTweeningManager* tweeningManager_ = {}, UnityEngine::AudioSource* activeAudioSource_ = {}, UnityEngine::AudioSource* inactiveAudioSource_ = {}, Tweening::Tween_1<float>* volumeDownTween_ = {}, Tweening::Tween_1<float>* volumeUpTween_ = {}, GlobalNamespace::AudioPitchGainEffect* activePitchGainEffect_ = {}, GlobalNamespace::AudioPitchGainEffect* inactivePitchGainEffect_ = {}) noexcept : duration{duration_}, audioSource1{audioSource1_}, audioSource2{audioSource2_}, audioPitchGainEffect1{audioPitchGainEffect1_}, audioPitchGainEffect2{audioPitchGainEffect2_}, tweeningManager{tweeningManager_}, activeAudioSource{activeAudioSource_}, inactiveAudioSource{inactiveAudioSource_}, volumeDownTween{volumeDownTween_}, volumeUpTween{volumeUpTween_}, activePitchGainEffect{activePitchGainEffect_}, inactivePitchGainEffect{inactivePitchGainEffect_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _duration
@@ -131,8 +131,8 @@ namespace GlobalNamespace {
     GlobalNamespace::AudioPitchGainEffect*& dyn__audioPitchGainEffect1();
     // Get instance field reference: private AudioPitchGainEffect _audioPitchGainEffect2
     GlobalNamespace::AudioPitchGainEffect*& dyn__audioPitchGainEffect2();
-    // Get instance field reference: private readonly Tweening.TweeningManager _tweeningManager
-    Tweening::TweeningManager*& dyn__tweeningManager();
+    // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
+    Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private UnityEngine.AudioSource _activeAudioSource
     UnityEngine::AudioSource*& dyn__activeAudioSource();
     // Get instance field reference: private UnityEngine.AudioSource _inactiveAudioSource
@@ -146,58 +146,58 @@ namespace GlobalNamespace {
     // Get instance field reference: private AudioPitchGainEffect _inactivePitchGainEffect
     GlobalNamespace::AudioPitchGainEffect*& dyn__inactivePitchGainEffect();
     // public UnityEngine.AudioClip get_clip()
-    // Offset: 0x10E89FC
+    // Offset: 0x11A036C
     UnityEngine::AudioClip* get_clip();
     // public System.Void set_clip(UnityEngine.AudioClip value)
-    // Offset: 0x10E8A18
+    // Offset: 0x11A0388
     void set_clip(UnityEngine::AudioClip* value);
     // public System.Void set_pitch(System.Single value)
-    // Offset: 0x10E8A5C
+    // Offset: 0x11A03CC
     void set_pitch(float value);
     // public System.Void set_time(System.Single value)
-    // Offset: 0x10E8AA8
+    // Offset: 0x11A0418
     void set_time(float value);
     // public System.Boolean get_isPlaying()
-    // Offset: 0x10E8AF4
+    // Offset: 0x11A0464
     bool get_isPlaying();
     // protected System.Void Awake()
-    // Offset: 0x10E8B10
+    // Offset: 0x11A0480
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x10E8C68
+    // Offset: 0x11A05D8
     void OnDestroy();
     // public System.Void PlayPitchGainEffect(System.Single volumeScale)
-    // Offset: 0x10E8D00
+    // Offset: 0x11A0670
     void PlayPitchGainEffect(float volumeScale);
     // public System.Void InterruptLastPitchGainEffect()
-    // Offset: 0x10E8D20
+    // Offset: 0x11A0690
     void InterruptLastPitchGainEffect();
     // public System.Void CrossFade(System.Single toSongTime, System.Single toVolume)
-    // Offset: 0x10E8D3C
+    // Offset: 0x11A06AC
     void CrossFade(float toSongTime, float toVolume);
     // public System.Void Play()
-    // Offset: 0x10E8F0C
+    // Offset: 0x11A087C
     void Play();
     // public System.Void Stop()
-    // Offset: 0x10E8F28
+    // Offset: 0x11A0898
     void Stop();
     // private System.Void <Awake>b__21_0(System.Single val)
-    // Offset: 0x10E8F98
+    // Offset: 0x11A0908
     void $Awake$b__21_0(float val);
     // private System.Void <Awake>b__21_1(System.Single val)
-    // Offset: 0x10E8FB4
+    // Offset: 0x11A0924
     void $Awake$b__21_1(float val);
     // private System.Void <CrossFade>b__25_0(System.Single val)
-    // Offset: 0x10E8FD0
+    // Offset: 0x11A0940
     void $CrossFade$b__25_0(float val);
     // private System.Void <CrossFade>b__25_1(System.Single val)
-    // Offset: 0x10E8FEC
+    // Offset: 0x11A095C
     void $CrossFade$b__25_1(float val);
     // private System.Void <CrossFade>b__25_2()
-    // Offset: 0x10E9008
+    // Offset: 0x11A0978
     void $CrossFade$b__25_2();
     // public System.Void .ctor()
-    // Offset: 0x10E8F84
+    // Offset: 0x11A08F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -29,7 +29,8 @@ namespace NUnit::Framework::Internal::Commands {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestCommand : public ::Il2CppObject {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xE28E88
+    // [DebuggerBrowsableAttribute] Offset: 0xEEF660
+    // [CompilerGeneratedAttribute] Offset: 0xEEF660
     // private NUnit.Framework.Internal.Test <Test>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -44,19 +45,19 @@ namespace NUnit::Framework::Internal::Commands {
     }
     // Get instance field reference: private NUnit.Framework.Internal.Test <Test>k__BackingField
     NUnit::Framework::Internal::Test*& dyn_$Test$k__BackingField();
-    // public NUnit.Framework.Internal.Test get_Test()
-    // Offset: 0x177F16C
-    NUnit::Framework::Internal::Test* get_Test();
-    // private System.Void set_Test(NUnit.Framework.Internal.Test value)
-    // Offset: 0x177F174
-    void set_Test(NUnit::Framework::Internal::Test* value);
     // public System.Void .ctor(NUnit.Framework.Internal.Test test)
-    // Offset: 0x177DA18
+    // Offset: 0x193CA64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestCommand* New_ctor(NUnit::Framework::Internal::Test* test) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::TestCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestCommand*, creationType>(test)));
     }
+    // public NUnit.Framework.Internal.Test get_Test()
+    // Offset: 0x193E1B8
+    NUnit::Framework::Internal::Test* get_Test();
+    // private System.Void set_Test(NUnit.Framework.Internal.Test value)
+    // Offset: 0x193E1C0
+    void set_Test(NUnit::Framework::Internal::Test* value);
     // public NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
@@ -67,6 +68,10 @@ namespace NUnit::Framework::Internal::Commands {
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::TestCommand*, "NUnit.Framework.Internal.Commands", "TestCommand");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::TestCommand::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::TestCommand::get_Test
 // Il2CppName: get_Test
 template<>
@@ -84,10 +89,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::TestCommand*), "set_Test", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::TestCommand::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::TestCommand::Execute
 // Il2CppName: Execute
 template<>

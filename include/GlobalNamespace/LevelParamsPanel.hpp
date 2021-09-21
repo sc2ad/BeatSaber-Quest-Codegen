@@ -64,19 +64,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TextMeshProUGUI _bombsCountText
     TMPro::TextMeshProUGUI*& dyn__bombsCountText();
     // public System.Void set_notesPerSecond(System.Single value)
-    // Offset: 0x12010F0
+    // Offset: 0x130D1AC
     void set_notesPerSecond(float value);
     // public System.Void set_notesCount(System.Int32 value)
-    // Offset: 0x1201170
+    // Offset: 0x130D22C
     void set_notesCount(int value);
     // public System.Void set_obstaclesCount(System.Int32 value)
-    // Offset: 0x12011B4
+    // Offset: 0x130D270
     void set_obstaclesCount(int value);
     // public System.Void set_bombsCount(System.Int32 value)
-    // Offset: 0x12011F8
+    // Offset: 0x130D2B4
     void set_bombsCount(int value);
     // public System.Void .ctor()
-    // Offset: 0x120123C
+    // Offset: 0x130D2F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

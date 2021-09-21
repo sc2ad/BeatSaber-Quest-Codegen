@@ -88,6 +88,7 @@ namespace GlobalNamespace {
     class $$c__DisplayClass16_0;
     // Nested type: GlobalNamespace::OculusBeatmapDataAssetFileModel::$GetDownloadAssetBundleFileAsync$d__16
     struct $GetDownloadAssetBundleFileAsync$d__16;
+    // [CompilerGeneratedAttribute] Offset: 0xF0378C
     // private System.Action`1<LevelDataAssetDownloadUpdate> levelDataAssetDownloadUpdateEvent
     // Size: 0x8
     // Offset: 0x10
@@ -167,38 +168,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private OculusLevelProductsModelSO _oculusLevelProductsModel
     GlobalNamespace::OculusLevelProductsModelSO*& dyn__oculusLevelProductsModel();
     // public System.Void add_levelDataAssetDownloadUpdateEvent(System.Action`1<LevelDataAssetDownloadUpdate> value)
-    // Offset: 0x12521EC
+    // Offset: 0x135E268
     void add_levelDataAssetDownloadUpdateEvent(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
     // public System.Void remove_levelDataAssetDownloadUpdateEvent(System.Action`1<LevelDataAssetDownloadUpdate> value)
-    // Offset: 0x1252290
+    // Offset: 0x135E30C
     void remove_levelDataAssetDownloadUpdateEvent(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
     // public System.Void .ctor(OculusLevelProductsModelSO oculusLevelProductsModel)
-    // Offset: 0x1252334
+    // Offset: 0x135E3B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusBeatmapDataAssetFileModel* New_ctor(GlobalNamespace::OculusLevelProductsModelSO* oculusLevelProductsModel) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusBeatmapDataAssetFileModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusBeatmapDataAssetFileModel*, creationType>(oculusLevelProductsModel)));
     }
     // public System.Threading.Tasks.Task`1<System.Boolean> TryDeleteAssetBundleFileForPreviewLevelAsync(IPreviewBeatmapLevel previewBeatmapLevel, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1252494
+    // Offset: 0x135E510
     System::Threading::Tasks::Task_1<bool>* TryDeleteAssetBundleFileForPreviewLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<GetAssetBundleFileResult> GetAssetBundleFileForPreviewLevelAsync(IPreviewBeatmapLevel previewBeatmapLevel, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x12525B4
+    // Offset: 0x135E630
     System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult>* GetAssetBundleFileForPreviewLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<System.Boolean> ReloadAssetDetailsForAllLevelsAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x12526D4
+    // Offset: 0x135E750
     System::Threading::Tasks::Task_1<bool>* ReloadAssetDetailsForAllLevelsAsync(System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<GetAssetBundleFileResult> GetDownloadAssetBundleFileAsync(System.String levelId, Oculus.Platform.Models.AssetDetails assetDetails, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x12527F8
+    // Offset: 0x135E874
     System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult>* GetDownloadAssetBundleFileAsync(::Il2CppString* levelId, Oculus::Platform::Models::AssetDetails* assetDetails, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.TaskCompletionSource`1<GetAssetBundleFileResult> GetTaskCompletionSourceForDownload(System.String levelId, Oculus.Platform.Models.AssetDetails assetDetail)
-    // Offset: 0x125290C
+    // Offset: 0x135E988
     System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>* GetTaskCompletionSourceForDownload(::Il2CppString* levelId, Oculus::Platform::Models::AssetDetails* assetDetail);
     // private System.Void HandleAssetFileDownloadUpdate(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetFileDownloadUpdate> msg)
-    // Offset: 0x1252A8C
+    // Offset: 0x135EB08
     void HandleAssetFileDownloadUpdate(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadUpdate*>* msg);
     // private System.Void <.ctor>b__12_0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetFileDownloadUpdate> msg)
-    // Offset: 0x1252E18
+    // Offset: 0x135EE94
     void $_ctor$b__12_0(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadUpdate*>* msg);
   }; // OculusBeatmapDataAssetFileModel
   #pragma pack(pop)

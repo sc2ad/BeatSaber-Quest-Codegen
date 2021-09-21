@@ -128,6 +128,7 @@ namespace GlobalNamespace {
     SteamVR_Render(bool pauseGameWhenDashboardIsVisible_ = {}, bool lockPhysicsUpdateRateToRenderFrequency_ = {}, GlobalNamespace::SteamVR_ExternalCamera* externalCamera_ = {}, ::Il2CppString* externalCameraConfigPath_ = {}, Valve::VR::ETrackingUniverseOrigin trackingSpace_ = {}, ::Array<GlobalNamespace::SteamVR_Camera*>* cameras_ = {}, ::Array<Valve::VR::TrackedDevicePose_t>* poses_ = {}, ::Array<Valve::VR::TrackedDevicePose_t>* gamePoses_ = {}, UnityEngine::WaitForEndOfFrame* waitForEndOfFrame_ = {}, float sceneResolutionScale_ = {}, float timeScale_ = {}) noexcept : pauseGameWhenDashboardIsVisible{pauseGameWhenDashboardIsVisible_}, lockPhysicsUpdateRateToRenderFrequency{lockPhysicsUpdateRateToRenderFrequency_}, externalCamera{externalCamera_}, externalCameraConfigPath{externalCameraConfigPath_}, trackingSpace{trackingSpace_}, cameras{cameras_}, poses{poses_}, gamePoses{gamePoses_}, waitForEndOfFrame{waitForEndOfFrame_}, sceneResolutionScale{sceneResolutionScale_}, timeScale{timeScale_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // [CompilerGeneratedAttribute] Offset: 0xEB69D8
     // Get static field: static private Valve.VR.EVREye <eye>k__BackingField
     static Valve::VR::EVREye _get_$eye$k__BackingField();
     // Set static field: static private Valve.VR.EVREye <eye>k__BackingField
@@ -167,82 +168,82 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single timeScale
     float& dyn_timeScale();
     // static public Valve.VR.EVREye get_eye()
-    // Offset: 0x1433FA0
+    // Offset: 0x1544DF0
     static Valve::VR::EVREye get_eye();
     // static private System.Void set_eye(Valve.VR.EVREye value)
-    // Offset: 0x1433FF0
+    // Offset: 0x1544E40
     static void set_eye(Valve::VR::EVREye value);
     // static public SteamVR_Render get_instance()
-    // Offset: 0x1427134
+    // Offset: 0x1537F84
     static GlobalNamespace::SteamVR_Render* get_instance();
-    // static public System.Boolean get_pauseRendering()
-    // Offset: 0x143450C
-    static bool get_pauseRendering();
-    // static public System.Void set_pauseRendering(System.Boolean value)
-    // Offset: 0x142FE50
-    static void set_pauseRendering(bool value);
     // private System.Void OnDestroy()
-    // Offset: 0x1434044
+    // Offset: 0x1544E94
     void OnDestroy();
     // private System.Void OnApplicationQuit()
-    // Offset: 0x1434094
+    // Offset: 0x1544EE4
     void OnApplicationQuit();
     // static public System.Void Add(SteamVR_Camera vrcam)
-    // Offset: 0x1425AF0
+    // Offset: 0x1536940
     static void Add(GlobalNamespace::SteamVR_Camera* vrcam);
     // static public System.Void Remove(SteamVR_Camera vrcam)
-    // Offset: 0x1424FC0
+    // Offset: 0x1535E10
     static void Remove(GlobalNamespace::SteamVR_Camera* vrcam);
     // static public SteamVR_Camera Top()
-    // Offset: 0x142EC28
+    // Offset: 0x153FA78
     static GlobalNamespace::SteamVR_Camera* Top();
     // private System.Void AddInternal(SteamVR_Camera vrcam)
-    // Offset: 0x1434108
+    // Offset: 0x1544F58
     void AddInternal(GlobalNamespace::SteamVR_Camera* vrcam);
     // private System.Void RemoveInternal(SteamVR_Camera vrcam)
-    // Offset: 0x143430C
+    // Offset: 0x154515C
     void RemoveInternal(GlobalNamespace::SteamVR_Camera* vrcam);
     // private SteamVR_Camera TopInternal()
-    // Offset: 0x14344C0
+    // Offset: 0x1545310
     GlobalNamespace::SteamVR_Camera* TopInternal();
+    // static public System.Boolean get_pauseRendering()
+    // Offset: 0x154535C
+    static bool get_pauseRendering();
+    // static public System.Void set_pauseRendering(System.Boolean value)
+    // Offset: 0x1540CA0
+    static void set_pauseRendering(bool value);
     // private System.Collections.IEnumerator RenderLoop()
-    // Offset: 0x143455C
+    // Offset: 0x15453AC
     System::Collections::IEnumerator* RenderLoop();
     // private System.Void RenderExternalCamera()
-    // Offset: 0x14345F8
+    // Offset: 0x1545448
     void RenderExternalCamera();
     // private System.Void OnInputFocus(System.Boolean hasFocus)
-    // Offset: 0x143474C
+    // Offset: 0x154559C
     void OnInputFocus(bool hasFocus);
     // private System.Void OnQuit(Valve.VR.VREvent_t vrEvent)
-    // Offset: 0x14347BC
+    // Offset: 0x154560C
     void OnQuit(Valve::VR::VREvent_t vrEvent);
     // private System.String GetScreenshotFilename(System.UInt32 screenshotHandle, Valve.VR.EVRScreenshotPropertyFilenames screenshotPropertyFilename)
-    // Offset: 0x14347C4
+    // Offset: 0x1545614
     ::Il2CppString* GetScreenshotFilename(uint screenshotHandle, Valve::VR::EVRScreenshotPropertyFilenames screenshotPropertyFilename);
     // private System.Void OnRequestScreenshot(Valve.VR.VREvent_t vrEvent)
-    // Offset: 0x1434910
+    // Offset: 0x1545760
     void OnRequestScreenshot(Valve::VR::VREvent_t vrEvent);
     // private System.Void OnEnable()
-    // Offset: 0x1434AF0
+    // Offset: 0x1545940
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x1434D6C
+    // Offset: 0x1545BBC
     void OnDisable();
     // private System.Void Awake()
-    // Offset: 0x1434F24
+    // Offset: 0x1545D74
     void Awake();
     // public System.Void UpdatePoses()
-    // Offset: 0x1435088
+    // Offset: 0x1545ED8
     void UpdatePoses();
     // private System.Void OnBeforeRender()
-    // Offset: 0x1435168
+    // Offset: 0x1545FB8
     void OnBeforeRender();
     // private System.Void Update()
-    // Offset: 0x143516C
+    // Offset: 0x1545FBC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1435570
+    // Offset: 0x15463C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -284,23 +285,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Render* (*)()>(&GlobalNamespace::SteamVR_Render::get_instance)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Render::get_pauseRendering
-// Il2CppName: get_pauseRendering
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&GlobalNamespace::SteamVR_Render::get_pauseRendering)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "get_pauseRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Render::set_pauseRendering
-// Il2CppName: set_pauseRendering
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&GlobalNamespace::SteamVR_Render::set_pauseRendering)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "set_pauseRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Render::OnDestroy
@@ -369,6 +353,23 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Camera* (GlobalNamespace::SteamVR_Render::*)()>(&GlobalNamespace::SteamVR_Render::TopInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "TopInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Render::get_pauseRendering
+// Il2CppName: get_pauseRendering
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&GlobalNamespace::SteamVR_Render::get_pauseRendering)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "get_pauseRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Render::set_pauseRendering
+// Il2CppName: set_pauseRendering
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&GlobalNamespace::SteamVR_Render::set_pauseRendering)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "set_pauseRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Render::RenderLoop

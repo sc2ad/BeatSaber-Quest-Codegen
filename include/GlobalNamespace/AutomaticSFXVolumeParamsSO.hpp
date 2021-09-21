@@ -89,31 +89,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _volumeSmooth
     float& dyn__volumeSmooth();
     // public System.Single get_musicVolumeMultiplier()
-    // Offset: 0x1179454
+    // Offset: 0x12497DC
     float get_musicVolumeMultiplier();
     // public System.Single get_threshold()
-    // Offset: 0x117945C
+    // Offset: 0x12497E4
     float get_threshold();
     // public System.Single get_impact()
-    // Offset: 0x1179464
+    // Offset: 0x12497EC
     float get_impact();
     // public System.Single get_attackTime()
-    // Offset: 0x117946C
+    // Offset: 0x12497F4
     float get_attackTime();
     // public System.Single get_releaseTime()
-    // Offset: 0x1179474
+    // Offset: 0x12497FC
     float get_releaseTime();
     // public System.Single get_minVolume()
-    // Offset: 0x117947C
+    // Offset: 0x1249804
     float get_minVolume();
     // public System.Single get_maxVolume()
-    // Offset: 0x1179484
+    // Offset: 0x124980C
     float get_maxVolume();
     // public System.Single get_volumeSmooth()
-    // Offset: 0x117948C
+    // Offset: 0x1249814
     float get_volumeSmooth();
     // public System.Void .ctor()
-    // Offset: 0x1179494
+    // Offset: 0x124981C
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

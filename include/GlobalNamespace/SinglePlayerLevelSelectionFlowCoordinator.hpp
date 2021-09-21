@@ -69,48 +69,49 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapCharacteristicSO* degree360BeatmapCharacteristic;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapCharacteristicSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE45C80
+    // [InjectAttribute] Offset: 0xF0E644
     // private readonly PracticeViewController _practiceViewController
     // Size: 0x8
     // Offset: 0xD8
     GlobalNamespace::PracticeViewController* practiceViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PracticeViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE45C90
+    // [InjectAttribute] Offset: 0xF0E654
     // private readonly GameplaySetupViewController _gameplaySetupViewController
     // Size: 0x8
     // Offset: 0xE0
     GlobalNamespace::GameplaySetupViewController* gameplaySetupViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplaySetupViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE45CA0
+    // [InjectAttribute] Offset: 0xF0E664
     // private readonly MenuTransitionsHelper _menuTransitionsHelper
     // Size: 0x8
     // Offset: 0xE8
     GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuTransitionsHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0xE45CB0
+    // [InjectAttribute] Offset: 0xF0E674
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0xF0
     GlobalNamespace::IVRPlatformHelper* vrPlatformHelper;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IVRPlatformHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0xE45CC0
+    // [InjectAttribute] Offset: 0xF0E684
     // private readonly AppStaticSettingsSO _appStaticSettings
     // Size: 0x8
     // Offset: 0xF8
     GlobalNamespace::AppStaticSettingsSO* appStaticSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AppStaticSettingsSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE45CD0
+    // [InjectAttribute] Offset: 0xF0E694
     // private readonly SimpleDialogPromptViewController _simpleDialogPromptViewController
     // Size: 0x8
     // Offset: 0x100
     GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SimpleDialogPromptViewController*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0E6A4
     // private System.Action`1<SinglePlayerLevelSelectionFlowCoordinator> didFinishEvent
     // Size: 0x8
     // Offset: 0x108
@@ -139,73 +140,108 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_gameMode();
     // protected System.Boolean get_isInPracticeView()
-    // Offset: 0x10966E4
+    // Offset: 0x1105118
     bool get_isInPracticeView();
     // protected PlayerSpecificSettings get_playerSettings()
-    // Offset: 0x10995B4
+    // Offset: 0x1107FE8
     GlobalNamespace::PlayerSpecificSettings* get_playerSettings();
     // private GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x10995EC
+    // Offset: 0x1108020
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // protected System.Boolean get_hideGameplaySetup()
-    // Offset: 0x1099608
+    // Offset: 0x110803C
     bool get_hideGameplaySetup();
     // protected LeaderboardViewController get_leaderboardViewController()
-    // Offset: 0x1099610
+    // Offset: 0x1108044
     GlobalNamespace::LeaderboardViewController* get_leaderboardViewController();
-    // public System.Void add_didFinishEvent(System.Action`1<SinglePlayerLevelSelectionFlowCoordinator> value)
-    // Offset: 0x1099668
-    void add_didFinishEvent(System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>* value);
-    // public System.Void remove_didFinishEvent(System.Action`1<SinglePlayerLevelSelectionFlowCoordinator> value)
-    // Offset: 0x1099710
-    void remove_didFinishEvent(System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>* value);
     // protected System.Void SinglePlayerLevelSelectionFlowCoordinatorDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
-    // Offset: 0x109965C
+    // Offset: 0x1108090
     void SinglePlayerLevelSelectionFlowCoordinatorDidActivate(bool firstActivation, bool addedToHierarchy);
     // protected System.Void SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate(System.Boolean removedFromHierarchy)
-    // Offset: 0x1099660
+    // Offset: 0x1108094
     void SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate(bool removedFromHierarchy);
     // protected System.Void ProcessLevelCompletionResultsAfterLevelDidFinish(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, System.Boolean practice)
-    // Offset: 0x1099664
+    // Offset: 0x1108098
     void ProcessLevelCompletionResultsAfterLevelDidFinish(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice);
+    // public System.Void add_didFinishEvent(System.Action`1<SinglePlayerLevelSelectionFlowCoordinator> value)
+    // Offset: 0x110809C
+    void add_didFinishEvent(System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>* value);
+    // public System.Void remove_didFinishEvent(System.Action`1<SinglePlayerLevelSelectionFlowCoordinator> value)
+    // Offset: 0x1108144
+    void remove_didFinishEvent(System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>* value);
     // private System.Void StartLevelOrShow360Prompt(System.Action beforeSceneSwitchCallback, System.Boolean practice)
-    // Offset: 0x1099B5C
+    // Offset: 0x1108590
     void StartLevelOrShow360Prompt(System::Action* beforeSceneSwitchCallback, bool practice);
     // public System.Void StartLevel(System.Action beforeSceneSwitchCallback, System.Boolean practice)
-    // Offset: 0x1096448
+    // Offset: 0x1104E7C
     void StartLevel(System::Action* beforeSceneSwitchCallback, bool practice);
     // private System.Void HandlePracticeViewControllerDidPressPlayButton()
-    // Offset: 0x109A1CC
+    // Offset: 0x1108C00
     void HandlePracticeViewControllerDidPressPlayButton();
     // private System.Void HandleStandardLevelDidFinish(StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x109A1D8
+    // Offset: 0x1108C0C
     void HandleStandardLevelDidFinish(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // protected System.Void SetupGameplaySetupViewController(System.Boolean showModifiers, System.Boolean showEnvironmentOverrideSettings, System.Boolean showColorSchemesSettings)
-    // Offset: 0x1095DFC
+    // Offset: 0x1104830
     void SetupGameplaySetupViewController(bool showModifiers, bool showEnvironmentOverrideSettings, bool showColorSchemesSettings);
     // protected System.Boolean HandleBasicLevelCompletionResults(LevelCompletionResults levelCompletionResults, System.Boolean practice)
-    // Offset: 0x10961BC
+    // Offset: 0x1104BF0
     bool HandleBasicLevelCompletionResults(GlobalNamespace::LevelCompletionResults* levelCompletionResults, bool practice);
     // protected System.Void DismissPracticeViewController(System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x1096768
+    // Offset: 0x110519C
     void DismissPracticeViewController(System::Action* finishedCallback, bool immediately);
     // protected override System.Boolean get_enableCustomLevels()
-    // Offset: 0x10995D0
+    // Offset: 0x1108004
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Boolean LevelSelectionFlowCoordinator::get_enableCustomLevels()
     bool get_enableCustomLevels();
     // protected override HMUI.ViewController get_initialTopScreenViewController()
-    // Offset: 0x1099618
+    // Offset: 0x110804C
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: HMUI.ViewController LevelSelectionFlowCoordinator::get_initialTopScreenViewController()
     HMUI::ViewController* get_initialTopScreenViewController();
     // protected override HMUI.ViewController get_initialLeftScreenViewController()
-    // Offset: 0x1099620
+    // Offset: 0x1108054
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: HMUI.ViewController LevelSelectionFlowCoordinator::get_initialLeftScreenViewController()
     HMUI::ViewController* get_initialLeftScreenViewController();
+    // protected override System.Void LevelSelectionFlowCoordinatorDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
+    // Offset: 0x11081EC
+    // Implemented from: LevelSelectionFlowCoordinator
+    // Base method: System.Void LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
+    void LevelSelectionFlowCoordinatorDidActivate(bool firstActivation, bool addedToHierarchy);
+    // protected override System.Void LevelSelectionFlowCoordinatorDidDeactivate(System.Boolean removedFromHierarchy)
+    // Offset: 0x11082A8
+    // Implemented from: LevelSelectionFlowCoordinator
+    // Base method: System.Void LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidDeactivate(System.Boolean removedFromHierarchy)
+    void LevelSelectionFlowCoordinatorDidDeactivate(bool removedFromHierarchy);
+    // protected override System.Void LevelSelectionFlowCoordinatorTopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
+    // Offset: 0x1108354
+    // Implemented from: LevelSelectionFlowCoordinator
+    // Base method: System.Void LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorTopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
+    void LevelSelectionFlowCoordinatorTopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, HMUI::ViewController::AnimationType animationType);
+    // protected override System.Void ActionButtonWasPressed()
+    // Offset: 0x1108584
+    // Implemented from: LevelSelectionFlowCoordinator
+    // Base method: System.Void LevelSelectionFlowCoordinator::ActionButtonWasPressed()
+    void ActionButtonWasPressed();
+    // protected override System.Void PracticeButtonWasPressed()
+    // Offset: 0x1108904
+    // Implemented from: LevelSelectionFlowCoordinator
+    // Base method: System.Void LevelSelectionFlowCoordinator::PracticeButtonWasPressed()
+    void PracticeButtonWasPressed();
+    // protected override System.Void SelectionDidChange(IBeatmapLevelPack pack, IDifficultyBeatmap beatmap)
+    // Offset: 0x1108B74
+    // Implemented from: LevelSelectionFlowCoordinator
+    // Base method: System.Void LevelSelectionFlowCoordinator::SelectionDidChange(IBeatmapLevelPack pack, IDifficultyBeatmap beatmap)
+    void SelectionDidChange(GlobalNamespace::IBeatmapLevelPack* pack, GlobalNamespace::IDifficultyBeatmap* beatmap);
+    // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
+    // Offset: 0x1108CB8
+    // Implemented from: HMUI.FlowCoordinator
+    // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
+    void BackButtonWasPressed(HMUI::ViewController* topViewController);
     // protected System.Void .ctor()
-    // Offset: 0x1096840
+    // Offset: 0x1105274
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Void LevelSelectionFlowCoordinator::.ctor()
     // Base method: System.Void FlowCoordinator::.ctor()
@@ -219,41 +255,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SinglePlayerLevelSelectionFlowCoordinator*, creationType>()));
     }
-    // protected override System.Void LevelSelectionFlowCoordinatorDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
-    // Offset: 0x10997B8
-    // Implemented from: LevelSelectionFlowCoordinator
-    // Base method: System.Void LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
-    void LevelSelectionFlowCoordinatorDidActivate(bool firstActivation, bool addedToHierarchy);
-    // protected override System.Void LevelSelectionFlowCoordinatorDidDeactivate(System.Boolean removedFromHierarchy)
-    // Offset: 0x1099874
-    // Implemented from: LevelSelectionFlowCoordinator
-    // Base method: System.Void LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidDeactivate(System.Boolean removedFromHierarchy)
-    void LevelSelectionFlowCoordinatorDidDeactivate(bool removedFromHierarchy);
-    // protected override System.Void LevelSelectionFlowCoordinatorTopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/HMUI.AnimationType animationType)
-    // Offset: 0x1099920
-    // Implemented from: LevelSelectionFlowCoordinator
-    // Base method: System.Void LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorTopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/HMUI.AnimationType animationType)
-    void LevelSelectionFlowCoordinatorTopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, HMUI::ViewController::AnimationType animationType);
-    // protected override System.Void ActionButtonWasPressed()
-    // Offset: 0x1099B50
-    // Implemented from: LevelSelectionFlowCoordinator
-    // Base method: System.Void LevelSelectionFlowCoordinator::ActionButtonWasPressed()
-    void ActionButtonWasPressed();
-    // protected override System.Void PracticeButtonWasPressed()
-    // Offset: 0x1099ED0
-    // Implemented from: LevelSelectionFlowCoordinator
-    // Base method: System.Void LevelSelectionFlowCoordinator::PracticeButtonWasPressed()
-    void PracticeButtonWasPressed();
-    // protected override System.Void SelectionDidChange(IBeatmapLevelPack pack, IDifficultyBeatmap beatmap)
-    // Offset: 0x109A140
-    // Implemented from: LevelSelectionFlowCoordinator
-    // Base method: System.Void LevelSelectionFlowCoordinator::SelectionDidChange(IBeatmapLevelPack pack, IDifficultyBeatmap beatmap)
-    void SelectionDidChange(GlobalNamespace::IBeatmapLevelPack* pack, GlobalNamespace::IDifficultyBeatmap* beatmap);
-    // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0x109A284
-    // Implemented from: HMUI.FlowCoordinator
-    // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
-    void BackButtonWasPressed(HMUI::ViewController* topViewController);
   }; // SinglePlayerLevelSelectionFlowCoordinator
   #pragma pack(pop)
   static check_size<sizeof(SinglePlayerLevelSelectionFlowCoordinator), 264 + sizeof(System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*)> __GlobalNamespace_SinglePlayerLevelSelectionFlowCoordinatorSizeCheck;
@@ -309,24 +310,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*), "get_leaderboardViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::add_didFinishEvent
-// Il2CppName: add_didFinishEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*)>(&GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::add_didFinishEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "SinglePlayerLevelSelectionFlowCoordinator")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::remove_didFinishEvent
-// Il2CppName: remove_didFinishEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*)>(&GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::remove_didFinishEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "SinglePlayerLevelSelectionFlowCoordinator")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidActivate
 // Il2CppName: SinglePlayerLevelSelectionFlowCoordinatorDidActivate
 template<>
@@ -356,6 +339,24 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     static auto* practice = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*), "ProcessLevelCompletionResultsAfterLevelDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelCompletionResults, difficultyBeatmap, gameplayModifiers, practice});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::add_didFinishEvent
+// Il2CppName: add_didFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*)>(&GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::add_didFinishEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "SinglePlayerLevelSelectionFlowCoordinator")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::remove_didFinishEvent
+// Il2CppName: remove_didFinishEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*)>(&GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::remove_didFinishEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "SinglePlayerLevelSelectionFlowCoordinator")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::StartLevelOrShow360Prompt
@@ -451,10 +452,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewC
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*), "get_initialLeftScreenViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidActivate
 // Il2CppName: LevelSelectionFlowCoordinatorDidActivate
 template<>
@@ -520,3 +517,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*), "BackButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{topViewController});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

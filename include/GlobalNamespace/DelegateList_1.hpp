@@ -96,6 +96,13 @@ namespace GlobalNamespace {
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "m_invoking"))->offset;
       return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
+    // public System.Void .ctor(System.Func`2<System.Action`1<T>,System.Collections.Generic.LinkedListNode`1<System.Action`1<T>>> acquireFunc, System.Action`1<System.Collections.Generic.LinkedListNode`1<System.Action`1<T>>> releaseFunc)
+    // Offset: 0xFFFFFFFF
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static DelegateList_1<T>* New_ctor(System::Func_2<System::Action_1<T>*, System::Collections::Generic::LinkedListNode_1<System::Action_1<T>*>*>* acquireFunc, System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<T>*>*>* releaseFunc) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DelegateList_1::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<DelegateList_1<T>*, creationType>(acquireFunc, releaseFunc)));
+    }
     // public System.Int32 get_Count()
     // Offset: 0xFFFFFFFF
     int get_Count() {
@@ -103,13 +110,6 @@ namespace GlobalNamespace {
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Count", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       auto ___instance_arg = this;
       return ::il2cpp_utils::RunMethodThrow<int, false>(___instance_arg, ___internal__method);
-    }
-    // public System.Void .ctor(System.Func`2<System.Action`1<T>,System.Collections.Generic.LinkedListNode`1<System.Action`1<T>>> acquireFunc, System.Action`1<System.Collections.Generic.LinkedListNode`1<System.Action`1<T>>> releaseFunc)
-    // Offset: 0xFFFFFFFF
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DelegateList_1<T>* New_ctor(System::Func_2<System::Action_1<T>*, System::Collections::Generic::LinkedListNode_1<System::Action_1<T>*>*>* acquireFunc, System::Action_1<System::Collections::Generic::LinkedListNode_1<System::Action_1<T>*>*>* releaseFunc) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DelegateList_1::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<DelegateList_1<T>*, creationType>(acquireFunc, releaseFunc)));
     }
     // public System.Void Add(System.Action`1<T> action)
     // Offset: 0xFFFFFFFF

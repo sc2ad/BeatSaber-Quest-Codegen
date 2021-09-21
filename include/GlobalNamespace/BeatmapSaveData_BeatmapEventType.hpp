@@ -172,6 +172,12 @@ namespace GlobalNamespace {
     static GlobalNamespace::BeatmapSaveData::BeatmapEventType _get_Special3();
     // Set static field: static public BeatmapSaveData/BeatmapEventType Special3
     static void _set_Special3(GlobalNamespace::BeatmapSaveData::BeatmapEventType value);
+    // static field const value: static public BeatmapSaveData/BeatmapEventType BpmChange
+    static constexpr const int BpmChange = 100;
+    // Get static field: static public BeatmapSaveData/BeatmapEventType BpmChange
+    static GlobalNamespace::BeatmapSaveData::BeatmapEventType _get_BpmChange();
+    // Set static field: static public BeatmapSaveData/BeatmapEventType BpmChange
+    static void _set_BpmChange(GlobalNamespace::BeatmapSaveData::BeatmapEventType value);
     // Get instance field reference: public System.Int32 value__
     int& dyn_value__();
   }; // BeatmapSaveData/BeatmapEventType

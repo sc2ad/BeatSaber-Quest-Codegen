@@ -34,11 +34,8 @@ namespace LiteNetLib {
     static ::Il2CppObject* _get_DebugLogLock();
     // Set static field: static private readonly System.Object DebugLogLock
     static void _set_DebugLogLock(::Il2CppObject* value);
-    // static private System.Void .cctor()
-    // Offset: 0x1C1E664
-    static void _cctor();
     // static private System.Void WriteLogic(LiteNetLib.NetLogLevel logLevel, System.String str, params System.Object[] args)
-    // Offset: 0x1C1E27C
+    // Offset: 0x1DD60E4
     static void WriteLogic(LiteNetLib::NetLogLevel logLevel, ::Il2CppString* str, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void WriteLogic(LiteNetLib.NetLogLevel logLevel, System.String str, params System.Object[] args)
     static void WriteLogic(LiteNetLib::NetLogLevel logLevel, ::Il2CppString* str, std::initializer_list<::Il2CppObject*> args);
@@ -48,7 +45,7 @@ namespace LiteNetLib {
       WriteLogic(logLevel, str, {args...});
     }
     // static System.Void Write(System.String str, params System.Object[] args)
-    // Offset: 0x1C1E47C
+    // Offset: 0x1DD62E4
     static void Write(::Il2CppString* str, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void Write(System.String str, params System.Object[] args)
     static void Write(::Il2CppString* str, std::initializer_list<::Il2CppObject*> args);
@@ -58,7 +55,7 @@ namespace LiteNetLib {
       Write(str, {args...});
     }
     // static System.Void Write(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
-    // Offset: 0x1C1E4F4
+    // Offset: 0x1DD635C
     static void Write(LiteNetLib::NetLogLevel level, ::Il2CppString* str, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void Write(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
     static void Write(LiteNetLib::NetLogLevel level, ::Il2CppString* str, std::initializer_list<::Il2CppObject*> args);
@@ -68,7 +65,7 @@ namespace LiteNetLib {
       Write(level, str, {args...});
     }
     // static System.Void WriteForce(System.String str, params System.Object[] args)
-    // Offset: 0x1C1E570
+    // Offset: 0x1DD63D8
     static void WriteForce(::Il2CppString* str, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void WriteForce(System.String str, params System.Object[] args)
     static void WriteForce(::Il2CppString* str, std::initializer_list<::Il2CppObject*> args);
@@ -78,7 +75,7 @@ namespace LiteNetLib {
       WriteForce(str, {args...});
     }
     // static System.Void WriteForce(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
-    // Offset: 0x1C1E5E8
+    // Offset: 0x1DD6450
     static void WriteForce(LiteNetLib::NetLogLevel level, ::Il2CppString* str, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void WriteForce(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
     static void WriteForce(LiteNetLib::NetLogLevel level, ::Il2CppString* str, std::initializer_list<::Il2CppObject*> args);
@@ -88,7 +85,7 @@ namespace LiteNetLib {
       WriteForce(level, str, {args...});
     }
     // static System.Void WriteError(System.String str, params System.Object[] args)
-    // Offset: 0x1C17C70
+    // Offset: 0x1DCFAD8
     static void WriteError(::Il2CppString* str, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void WriteError(System.String str, params System.Object[] args)
     static void WriteError(::Il2CppString* str, std::initializer_list<::Il2CppObject*> args);
@@ -97,20 +94,15 @@ namespace LiteNetLib {
     static void WriteError(::Il2CppString* str, TParams&&... args) {
       WriteError(str, {args...});
     }
+    // static private System.Void .cctor()
+    // Offset: 0x1DD64CC
+    static void _cctor();
   }; // LiteNetLib.NetDebug
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetDebug*, "LiteNetLib", "NetDebug");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: LiteNetLib::NetDebug::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&LiteNetLib::NetDebug::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetDebug*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: LiteNetLib::NetDebug::WriteLogic
 // Il2CppName: WriteLogic
 template<>
@@ -172,5 +164,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetDebug*), "WriteError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, args});
+  }
+};
+// Writing MetadataGetter for method: LiteNetLib::NetDebug::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&LiteNetLib::NetDebug::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetDebug*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

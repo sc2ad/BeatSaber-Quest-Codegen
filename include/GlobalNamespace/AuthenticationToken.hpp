@@ -158,17 +158,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Byte[] sessionToken
     ::Array<uint8_t>*& dyn_sessionToken();
     // public System.Void .ctor(AuthenticationToken/Platform platform, System.String userId, System.String userName, System.Byte[] sessionToken)
-    // Offset: 0x1334D94
+    // Offset: 0x144C3D4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform, ::Il2CppString* userId, ::Il2CppString* userName, ::Array<uint8_t>* sessionToken)
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1334DA4
+    // Offset: 0x144C3E4
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public AuthenticationToken CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1334E20
+    // Offset: 0x144C460
     GlobalNamespace::AuthenticationToken CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // static public AuthenticationToken Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1334E28
+    // Offset: 0x144C468
     static GlobalNamespace::AuthenticationToken Deserialize(LiteNetLib::Utils::NetDataReader* reader);
   }; // AuthenticationToken
   #pragma pack(pop)

@@ -29,10 +29,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithLinkedAccountList
     MessageWithLinkedAccountList() noexcept {}
     // protected Oculus.Platform.Models.LinkedAccountList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x15306B0
+    // Offset: 0x16B93F8
     Oculus::Platform::Models::LinkedAccountList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x153060C
+    // Offset: 0x16B9354
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -42,7 +42,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithLinkedAccountList*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.LinkedAccountList GetLinkedAccountList()
-    // Offset: 0x153066C
+    // Offset: 0x16B93B4
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.LinkedAccountList Message::GetLinkedAccountList()
     Oculus::Platform::Models::LinkedAccountList* GetLinkedAccountList();

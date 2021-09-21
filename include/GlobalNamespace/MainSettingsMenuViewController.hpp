@@ -40,6 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MainSettingsMenuViewController : public HMUI::ViewController {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xF10B18
     // private System.Action`2<SettingsSubMenuInfo,System.Int32> didSelectSettingsSubMenuEvent
     // Size: 0x8
     // Offset: 0x70
@@ -82,26 +83,31 @@ namespace GlobalNamespace {
     GlobalNamespace::SettingsSubMenuInfo*& dyn__selectedSubMenuInfo();
     // Get instance field reference: private System.Int32 _selectedSubMenuInfoIdx
     int& dyn__selectedSubMenuInfoIdx();
-    // public System.Int32 get_numberOfSubMenus()
-    // Offset: 0x11A438C
-    int get_numberOfSubMenus();
-    // public SettingsSubMenuInfo get_selectedSubMenuInfo()
-    // Offset: 0x11A43A8
-    GlobalNamespace::SettingsSubMenuInfo* get_selectedSubMenuInfo();
     // public System.Void add_didSelectSettingsSubMenuEvent(System.Action`2<SettingsSubMenuInfo,System.Int32> value)
-    // Offset: 0x11A4244
+    // Offset: 0x1263B84
     void add_didSelectSettingsSubMenuEvent(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>* value);
     // public System.Void remove_didSelectSettingsSubMenuEvent(System.Action`2<SettingsSubMenuInfo,System.Int32> value)
-    // Offset: 0x11A42E8
+    // Offset: 0x1263C28
     void remove_didSelectSettingsSubMenuEvent(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>* value);
+    // public System.Int32 get_numberOfSubMenus()
+    // Offset: 0x1263CCC
+    int get_numberOfSubMenus();
+    // public SettingsSubMenuInfo get_selectedSubMenuInfo()
+    // Offset: 0x1263CE8
+    GlobalNamespace::SettingsSubMenuInfo* get_selectedSubMenuInfo();
     // public System.Void Init(System.Int32 selectedSubMenuInfoIdx)
-    // Offset: 0x11A43B0
+    // Offset: 0x1263CF0
     void Init(int selectedSubMenuInfoIdx);
     // private System.Void HandleSettingsMenuSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0x11A457C
+    // Offset: 0x1263EBC
     void HandleSettingsMenuSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x1263D34
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x11A4624
+    // Offset: 0x1263F64
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -114,11 +120,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MainSettingsMenuViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainSettingsMenuViewController*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x11A43F4
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
   }; // MainSettingsMenuViewController
   #pragma pack(pop)
   static check_size<sizeof(MainSettingsMenuViewController), 144 + sizeof(int)> __GlobalNamespace_MainSettingsMenuViewControllerSizeCheck;
@@ -126,22 +127,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsMenuViewController*, "", "MainSettingsMenuViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::get_numberOfSubMenus
-// Il2CppName: get_numberOfSubMenus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MainSettingsMenuViewController::*)()>(&GlobalNamespace::MainSettingsMenuViewController::get_numberOfSubMenus)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsMenuViewController*), "get_numberOfSubMenus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::get_selectedSubMenuInfo
-// Il2CppName: get_selectedSubMenuInfo
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SettingsSubMenuInfo* (GlobalNamespace::MainSettingsMenuViewController::*)()>(&GlobalNamespace::MainSettingsMenuViewController::get_selectedSubMenuInfo)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsMenuViewController*), "get_selectedSubMenuInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::add_didSelectSettingsSubMenuEvent
 // Il2CppName: add_didSelectSettingsSubMenuEvent
 template<>
@@ -158,6 +143,22 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "SettingsSubMenuInfo"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsMenuViewController*), "remove_didSelectSettingsSubMenuEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::get_numberOfSubMenus
+// Il2CppName: get_numberOfSubMenus
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MainSettingsMenuViewController::*)()>(&GlobalNamespace::MainSettingsMenuViewController::get_numberOfSubMenus)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsMenuViewController*), "get_numberOfSubMenus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::get_selectedSubMenuInfo
+// Il2CppName: get_selectedSubMenuInfo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SettingsSubMenuInfo* (GlobalNamespace::MainSettingsMenuViewController::*)()>(&GlobalNamespace::MainSettingsMenuViewController::get_selectedSubMenuInfo)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsMenuViewController*), "get_selectedSubMenuInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::Init
@@ -179,10 +180,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsMenuViewController*), "HandleSettingsMenuSegmentedControlDidSelectCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{segmentedControl, cellIdx});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -194,3 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsMenuViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{firstActivation, addedToHierarchy, screenSystemEnabling});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

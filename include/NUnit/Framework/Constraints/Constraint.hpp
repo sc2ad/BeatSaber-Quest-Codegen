@@ -42,21 +42,24 @@ namespace NUnit::Framework::Constraints {
     System::Lazy_1<::Il2CppString*>* displayName;
     // Field size check
     static_assert(sizeof(System::Lazy_1<::Il2CppString*>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE29248
+    // [CompilerGeneratedAttribute] Offset: 0xEEFA20
+    // [DebuggerBrowsableAttribute] Offset: 0xEEFA20
     // private System.String <Description>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* Description;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE29284
+    // [CompilerGeneratedAttribute] Offset: 0xEEFA5C
+    // [DebuggerBrowsableAttribute] Offset: 0xEEFA5C
     // private System.Object[] <Arguments>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     ::Array<::Il2CppObject*>* Arguments;
     // Field size check
     static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE292C0
+    // [CompilerGeneratedAttribute] Offset: 0xEEFA98
+    // [DebuggerBrowsableAttribute] Offset: 0xEEFA98
     // private NUnit.Framework.Constraints.ConstraintBuilder <Builder>k__BackingField
     // Size: 0x8
     // Offset: 0x28
@@ -77,29 +80,8 @@ namespace NUnit::Framework::Constraints {
     ::Array<::Il2CppObject*>*& dyn_$Arguments$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Constraints.ConstraintBuilder <Builder>k__BackingField
     NUnit::Framework::Constraints::ConstraintBuilder*& dyn_$Builder$k__BackingField();
-    // public System.String get_DisplayName()
-    // Offset: 0x176BE48
-    ::Il2CppString* get_DisplayName();
-    // public System.String get_Description()
-    // Offset: 0x176BEA0
-    ::Il2CppString* get_Description();
-    // protected System.Void set_Description(System.String value)
-    // Offset: 0x176BEA8
-    void set_Description(::Il2CppString* value);
-    // public System.Object[] get_Arguments()
-    // Offset: 0x176BEB0
-    ::Array<::Il2CppObject*>* get_Arguments();
-    // private System.Void set_Arguments(System.Object[] value)
-    // Offset: 0x176BEB8
-    void set_Arguments(::Array<::Il2CppObject*>* value);
-    // public NUnit.Framework.Constraints.ConstraintBuilder get_Builder()
-    // Offset: 0x176BEC0
-    NUnit::Framework::Constraints::ConstraintBuilder* get_Builder();
-    // public System.Void set_Builder(NUnit.Framework.Constraints.ConstraintBuilder value)
-    // Offset: 0x176BEC8
-    void set_Builder(NUnit::Framework::Constraints::ConstraintBuilder* value);
     // protected System.Void .ctor(params System.Object[] args)
-    // Offset: 0x176BA58
+    // Offset: 0x192AAA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Constraint* New_ctor(::Array<::Il2CppObject*>* args) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::Constraint::.ctor");
@@ -115,23 +97,44 @@ namespace NUnit::Framework::Constraints {
     static Constraint* New_ctor(TParams&&... args) {
       return New_ctor<creationType>({args...});
     }
+    // public System.String get_DisplayName()
+    // Offset: 0x192AE94
+    ::Il2CppString* get_DisplayName();
+    // public System.String get_Description()
+    // Offset: 0x192AEEC
+    ::Il2CppString* get_Description();
+    // protected System.Void set_Description(System.String value)
+    // Offset: 0x192AEF4
+    void set_Description(::Il2CppString* value);
+    // public System.Object[] get_Arguments()
+    // Offset: 0x192AEFC
+    ::Array<::Il2CppObject*>* get_Arguments();
+    // private System.Void set_Arguments(System.Object[] value)
+    // Offset: 0x192AF04
+    void set_Arguments(::Array<::Il2CppObject*>* value);
+    // public NUnit.Framework.Constraints.ConstraintBuilder get_Builder()
+    // Offset: 0x192AF0C
+    NUnit::Framework::Constraints::ConstraintBuilder* get_Builder();
+    // public System.Void set_Builder(NUnit.Framework.Constraints.ConstraintBuilder value)
+    // Offset: 0x192AF14
+    void set_Builder(NUnit::Framework::Constraints::ConstraintBuilder* value);
     // public NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);
     // protected System.String GetStringRepresentation()
-    // Offset: 0x176BF50
+    // Offset: 0x192AF9C
     ::Il2CppString* GetStringRepresentation();
     // static private System.String _displayable(System.Object o)
-    // Offset: 0x176C0A4
+    // Offset: 0x192B0F0
     static ::Il2CppString* _displayable(::Il2CppObject* o);
     // private NUnit.Framework.Constraints.IConstraint NUnit.Framework.Constraints.IResolveConstraint.Resolve()
-    // Offset: 0x176C1D0
+    // Offset: 0x192B21C
     NUnit::Framework::Constraints::IConstraint* NUnit_Framework_Constraints_IResolveConstraint_Resolve();
     // private System.String <.ctor>b__1_0()
-    // Offset: 0x176C2AC
+    // Offset: 0x192B2F8
     ::Il2CppString* $_ctor$b__1_0();
     // public override System.String ToString()
-    // Offset: 0x176BED0
+    // Offset: 0x192AF1C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -142,6 +145,10 @@ namespace NUnit::Framework::Constraints {
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::Constraint*, "NUnit.Framework.Constraints", "Constraint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Constraint::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::Constraint::get_DisplayName
 // Il2CppName: get_DisplayName
 template<>
@@ -201,10 +208,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Constraint*), "set_Builder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Constraints::Constraint::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::Constraint::ApplyTo
 // Il2CppName: ApplyTo
 template<>

@@ -51,48 +51,56 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DevicelessVRHelper : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::IVRPlatformHelper*/ {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xEC9C30
     // private System.Action inputFocusWasCapturedEvent
     // Size: 0x8
     // Offset: 0x18
     System::Action* inputFocusWasCapturedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xEC9C40
     // private System.Action inputFocusWasReleasedEvent
     // Size: 0x8
     // Offset: 0x20
     System::Action* inputFocusWasReleasedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xEC9C50
     // private System.Action vrFocusWasCapturedEvent
     // Size: 0x8
     // Offset: 0x28
     System::Action* vrFocusWasCapturedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xEC9C60
     // private System.Action vrFocusWasReleasedEvent
     // Size: 0x8
     // Offset: 0x30
     System::Action* vrFocusWasReleasedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xEC9C70
     // private System.Action hmdUnmountedEvent
     // Size: 0x8
     // Offset: 0x38
     System::Action* hmdUnmountedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xEC9C80
     // private System.Action hmdMountedEvent
     // Size: 0x8
     // Offset: 0x40
     System::Action* hmdMountedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xEC9C90
     // private System.Action joystickWasCenteredThisFrameEvent
     // Size: 0x8
     // Offset: 0x48
     System::Action* joystickWasCenteredThisFrameEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xEC9CA0
     // private System.Action`1<UnityEngine.Vector2> joystickWasNotCenteredThisFrameEvent
     // Size: 0x8
     // Offset: 0x50
@@ -139,83 +147,83 @@ namespace GlobalNamespace {
     bool& dyn__hasInputFocus();
     // Get instance field reference: private System.Boolean _scrollingLastFrame
     bool& dyn__scrollingLastFrame();
-    // public System.Boolean get_hasInputFocus()
-    // Offset: 0x1260630
-    bool get_hasInputFocus();
-    // public System.Boolean get_isAlwaysWireless()
-    // Offset: 0x1260638
-    bool get_isAlwaysWireless();
-    // public VRPlatformSDK get_vrPlatformSDK()
-    // Offset: 0x1260640
-    GlobalNamespace::VRPlatformSDK get_vrPlatformSDK();
-    // public XRDeviceModel get_currentXRDeviceModel()
-    // Offset: 0x1260648
-    GlobalNamespace::XRDeviceModel get_currentXRDeviceModel();
     // public System.Void add_inputFocusWasCapturedEvent(System.Action value)
-    // Offset: 0x125FBF0
+    // Offset: 0x137C3F8
     void add_inputFocusWasCapturedEvent(System::Action* value);
     // public System.Void remove_inputFocusWasCapturedEvent(System.Action value)
-    // Offset: 0x125FC94
+    // Offset: 0x137C49C
     void remove_inputFocusWasCapturedEvent(System::Action* value);
     // public System.Void add_inputFocusWasReleasedEvent(System.Action value)
-    // Offset: 0x125FD38
+    // Offset: 0x137C540
     void add_inputFocusWasReleasedEvent(System::Action* value);
     // public System.Void remove_inputFocusWasReleasedEvent(System.Action value)
-    // Offset: 0x125FDDC
+    // Offset: 0x137C5E4
     void remove_inputFocusWasReleasedEvent(System::Action* value);
     // public System.Void add_vrFocusWasCapturedEvent(System.Action value)
-    // Offset: 0x125FE80
+    // Offset: 0x137C688
     void add_vrFocusWasCapturedEvent(System::Action* value);
     // public System.Void remove_vrFocusWasCapturedEvent(System.Action value)
-    // Offset: 0x125FF24
+    // Offset: 0x137C72C
     void remove_vrFocusWasCapturedEvent(System::Action* value);
     // public System.Void add_vrFocusWasReleasedEvent(System.Action value)
-    // Offset: 0x125FFC8
+    // Offset: 0x137C7D0
     void add_vrFocusWasReleasedEvent(System::Action* value);
     // public System.Void remove_vrFocusWasReleasedEvent(System.Action value)
-    // Offset: 0x126006C
+    // Offset: 0x137C874
     void remove_vrFocusWasReleasedEvent(System::Action* value);
     // public System.Void add_hmdUnmountedEvent(System.Action value)
-    // Offset: 0x1260110
+    // Offset: 0x137C918
     void add_hmdUnmountedEvent(System::Action* value);
     // public System.Void remove_hmdUnmountedEvent(System.Action value)
-    // Offset: 0x12601B4
+    // Offset: 0x137C9BC
     void remove_hmdUnmountedEvent(System::Action* value);
     // public System.Void add_hmdMountedEvent(System.Action value)
-    // Offset: 0x1260258
+    // Offset: 0x137CA60
     void add_hmdMountedEvent(System::Action* value);
     // public System.Void remove_hmdMountedEvent(System.Action value)
-    // Offset: 0x12602FC
+    // Offset: 0x137CB04
     void remove_hmdMountedEvent(System::Action* value);
     // public System.Void add_joystickWasCenteredThisFrameEvent(System.Action value)
-    // Offset: 0x12603A0
+    // Offset: 0x137CBA8
     void add_joystickWasCenteredThisFrameEvent(System::Action* value);
     // public System.Void remove_joystickWasCenteredThisFrameEvent(System.Action value)
-    // Offset: 0x1260444
+    // Offset: 0x137CC4C
     void remove_joystickWasCenteredThisFrameEvent(System::Action* value);
     // public System.Void add_joystickWasNotCenteredThisFrameEvent(System.Action`1<UnityEngine.Vector2> value)
-    // Offset: 0x12604E8
+    // Offset: 0x137CCF0
     void add_joystickWasNotCenteredThisFrameEvent(System::Action_1<UnityEngine::Vector2>* value);
     // public System.Void remove_joystickWasNotCenteredThisFrameEvent(System.Action`1<UnityEngine.Vector2> value)
-    // Offset: 0x126058C
+    // Offset: 0x137CD94
     void remove_joystickWasNotCenteredThisFrameEvent(System::Action_1<UnityEngine::Vector2>* value);
+    // public System.Boolean get_hasInputFocus()
+    // Offset: 0x137CE38
+    bool get_hasInputFocus();
+    // public System.Boolean get_isAlwaysWireless()
+    // Offset: 0x137CE40
+    bool get_isAlwaysWireless();
+    // public VRPlatformSDK get_vrPlatformSDK()
+    // Offset: 0x137CE48
+    GlobalNamespace::VRPlatformSDK get_vrPlatformSDK();
+    // public XRDeviceModel get_currentXRDeviceModel()
+    // Offset: 0x137CE50
+    GlobalNamespace::XRDeviceModel get_currentXRDeviceModel();
     // protected System.Void Update()
-    // Offset: 0x1260650
+    // Offset: 0x137CE58
     void Update();
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
-    // Offset: 0x1260840
+    // Offset: 0x137D048
     void TriggerHapticPulse(UnityEngine::XR::XRNode node, float duration, float strength, float frequency);
     // public System.Void StopHaptics(UnityEngine.XR.XRNode node)
-    // Offset: 0x1260844
+    // Offset: 0x137D04C
     void StopHaptics(UnityEngine::XR::XRNode node);
     // public System.Void AdjustControllerTransform(UnityEngine.XR.XRNode node, UnityEngine.Transform transform, UnityEngine.Vector3 position, UnityEngine.Vector3 rotation)
-    // Offset: 0x1260848
+    // Offset: 0x137D050
     void AdjustControllerTransform(UnityEngine::XR::XRNode node, UnityEngine::Transform* transform, UnityEngine::Vector3 position, UnityEngine::Vector3 rotation);
     // public System.Boolean GetNodePose(UnityEngine.XR.XRNode nodeType, System.Int32 idx, out UnityEngine.Vector3 pos, out UnityEngine.Quaternion rot)
-    // Offset: 0x126084C
+    // Offset: 0x137D054
     bool GetNodePose(UnityEngine::XR::XRNode nodeType, int idx, ByRef<UnityEngine::Vector3> pos, ByRef<UnityEngine::Quaternion> rot);
     // public System.Void .ctor()
-    // Offset: 0x12608FC
+    // Offset: 0x137D104
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -234,38 +242,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DevicelessVRHelper*, "", "DevicelessVRHelper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::DevicelessVRHelper::get_hasInputFocus
-// Il2CppName: get_hasInputFocus
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::DevicelessVRHelper::*)()>(&GlobalNamespace::DevicelessVRHelper::get_hasInputFocus)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DevicelessVRHelper*), "get_hasInputFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::DevicelessVRHelper::get_isAlwaysWireless
-// Il2CppName: get_isAlwaysWireless
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::DevicelessVRHelper::*)()>(&GlobalNamespace::DevicelessVRHelper::get_isAlwaysWireless)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DevicelessVRHelper*), "get_isAlwaysWireless", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::DevicelessVRHelper::get_vrPlatformSDK
-// Il2CppName: get_vrPlatformSDK
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRPlatformSDK (GlobalNamespace::DevicelessVRHelper::*)()>(&GlobalNamespace::DevicelessVRHelper::get_vrPlatformSDK)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DevicelessVRHelper*), "get_vrPlatformSDK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::DevicelessVRHelper::get_currentXRDeviceModel
-// Il2CppName: get_currentXRDeviceModel
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::XRDeviceModel (GlobalNamespace::DevicelessVRHelper::*)()>(&GlobalNamespace::DevicelessVRHelper::get_currentXRDeviceModel)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DevicelessVRHelper*), "get_currentXRDeviceModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::DevicelessVRHelper::add_inputFocusWasCapturedEvent
 // Il2CppName: add_inputFocusWasCapturedEvent
 template<>
@@ -408,6 +384,38 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DevicelessVRHelper*), "remove_joystickWasNotCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::DevicelessVRHelper::get_hasInputFocus
+// Il2CppName: get_hasInputFocus
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::DevicelessVRHelper::*)()>(&GlobalNamespace::DevicelessVRHelper::get_hasInputFocus)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DevicelessVRHelper*), "get_hasInputFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::DevicelessVRHelper::get_isAlwaysWireless
+// Il2CppName: get_isAlwaysWireless
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::DevicelessVRHelper::*)()>(&GlobalNamespace::DevicelessVRHelper::get_isAlwaysWireless)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DevicelessVRHelper*), "get_isAlwaysWireless", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::DevicelessVRHelper::get_vrPlatformSDK
+// Il2CppName: get_vrPlatformSDK
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRPlatformSDK (GlobalNamespace::DevicelessVRHelper::*)()>(&GlobalNamespace::DevicelessVRHelper::get_vrPlatformSDK)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DevicelessVRHelper*), "get_vrPlatformSDK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::DevicelessVRHelper::get_currentXRDeviceModel
+// Il2CppName: get_currentXRDeviceModel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::XRDeviceModel (GlobalNamespace::DevicelessVRHelper::*)()>(&GlobalNamespace::DevicelessVRHelper::get_currentXRDeviceModel)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DevicelessVRHelper*), "get_currentXRDeviceModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::DevicelessVRHelper::Update

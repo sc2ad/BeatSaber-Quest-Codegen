@@ -21,7 +21,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ManualUpdate
     ManualUpdate() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x126AC88
+    // Offset: 0x1387490
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

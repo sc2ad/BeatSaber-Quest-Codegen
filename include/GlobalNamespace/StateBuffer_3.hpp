@@ -129,6 +129,13 @@ namespace GlobalNamespace {
         static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "state"))->offset;
         return *reinterpret_cast<TStateTable*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
       }
+      // public System.Boolean Equals(in StateBuffer`3/TimestampedStateTable<TStateTable,TType,TState> other)
+      // Offset: 0xFFFFFFFF
+      bool Equals(ByRef<typename GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::TimestampedStateTable> other) {
+        static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::TimestampedStateTable::Equals");
+        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));
+        return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, byref(other));
+      }
       // public System.Void .ctor(SyncStateId id, System.Single time, TStateTable state)
       // Offset: 0xFFFFFFFF
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -144,13 +151,6 @@ namespace GlobalNamespace {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::TimestampedStateTable::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(time), ::il2cpp_utils::ExtractType(state)})));
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, time, state);
-      }
-      // public System.Boolean Equals(in StateBuffer`3/TimestampedStateTable<TStateTable,TType,TState> other)
-      // Offset: 0xFFFFFFFF
-      bool Equals(ByRef<typename GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::TimestampedStateTable> other) {
-        static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::TimestampedStateTable::Equals");
-        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));
-        return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, byref(other));
       }
       // private System.Boolean IEquatableByReference<StateBuffer<TStateTable,TType,TState>.TimestampedStateTable>.Equals(in StateBuffer`3/TimestampedStateTable<TStateTable,TType,TState> other)
       // Offset: 0xFFFFFFFF

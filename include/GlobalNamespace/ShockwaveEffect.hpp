@@ -7,7 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: UnityEngine.ParticleSystem/UnityEngine.EmitParams
+// Including type: UnityEngine.ParticleSystem/EmitParams
 #include "UnityEngine/ParticleSystem_EmitParams.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IntSO* maxShockwaveParticles;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IntSO*) == 0x8);
-    // private UnityEngine.ParticleSystem/UnityEngine.EmitParams _shockwavePSEmitParams
+    // private UnityEngine.ParticleSystem/EmitParams _shockwavePSEmitParams
     // Size: 0x8F
     // Offset: 0x28
     UnityEngine::ParticleSystem::EmitParams shockwavePSEmitParams;
@@ -68,18 +68,18 @@ namespace GlobalNamespace {
     UnityEngine::ParticleSystem*& dyn__shockwavePS();
     // Get instance field reference: private IntSO _maxShockwaveParticles
     GlobalNamespace::IntSO*& dyn__maxShockwaveParticles();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _shockwavePSEmitParams
+    // Get instance field reference: private UnityEngine.ParticleSystem/EmitParams _shockwavePSEmitParams
     UnityEngine::ParticleSystem::EmitParams& dyn__shockwavePSEmitParams();
     // Get instance field reference: private System.Single _prevShockwaveParticleSpawnTime
     float& dyn__prevShockwaveParticleSpawnTime();
     // protected System.Void Start()
-    // Offset: 0x109564C
+    // Offset: 0x1104080
     void Start();
     // public System.Void SpawnShockwave(UnityEngine.Vector3 pos)
-    // Offset: 0x1095760
+    // Offset: 0x1104194
     void SpawnShockwave(UnityEngine::Vector3 pos);
     // public System.Void .ctor()
-    // Offset: 0x1095838
+    // Offset: 0x110426C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

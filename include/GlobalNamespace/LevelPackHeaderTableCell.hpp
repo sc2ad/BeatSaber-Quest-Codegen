@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* backgroundImage;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE444F8
+    // [SpaceAttribute] Offset: 0xF0CEBC
     // private UnityEngine.Color _highlightBackgroundColor
     // Size: 0x10
     // Offset: 0x60
@@ -78,13 +78,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _selectedAndHighlightedBackgroundColor
     UnityEngine::Color& dyn__selectedAndHighlightedBackgroundColor();
     // public System.Void SetData(System.String headerText)
-    // Offset: 0x120101C
+    // Offset: 0x130D0D8
     void SetData(::Il2CppString* headerText);
     // private System.Void RefreshVisuals()
-    // Offset: 0x120103C
+    // Offset: 0x130D0F8
     void RefreshVisuals();
+    // protected override System.Void SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
+    // Offset: 0x130D0F4
+    // Implemented from: HMUI.SelectableCell
+    // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
+    void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
+    // protected override System.Void HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
+    // Offset: 0x130D1A0
+    // Implemented from: HMUI.SelectableCell
+    // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
+    void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0x12010E8
+    // Offset: 0x130D1A4
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
@@ -99,16 +109,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LevelPackHeaderTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelPackHeaderTableCell*, creationType>()));
     }
-    // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x1201038
-    // Implemented from: HMUI.SelectableCell
-    // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
-    // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x12010E4
-    // Implemented from: HMUI.SelectableCell
-    // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
   }; // LevelPackHeaderTableCell
   #pragma pack(pop)
   static check_size<sizeof(LevelPackHeaderTableCell), 128 + sizeof(UnityEngine::Color)> __GlobalNamespace_LevelPackHeaderTableCellSizeCheck;
@@ -133,10 +133,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelPackHeaderTableCell*), "RefreshVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LevelPackHeaderTableCell::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LevelPackHeaderTableCell::SelectionDidChange
 // Il2CppName: SelectionDidChange
 template<>
@@ -155,3 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelPackHeaderTableCell*), "HighlightDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transitionType});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LevelPackHeaderTableCell::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

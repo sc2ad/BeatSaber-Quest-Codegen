@@ -39,12 +39,14 @@ namespace MasterServer {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
     char ___base_padding[0x4] = {};
+    // [CompilerGeneratedAttribute] Offset: 0xEDA180
     // private System.String <dedicatedServerId>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* dedicatedServerId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xEDA190
     // private System.Int64 <dedicatedServerCreationTime>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -72,25 +74,40 @@ namespace MasterServer {
     // Get instance field reference: public System.String id
     ::Il2CppString*& dyn_id();
     // static public PacketPool`1<MasterServer.DedicatedServerInstanceNoLongerOccupiedRequest> get_pool()
-    // Offset: 0x121C2B8
+    // Offset: 0x12DB658
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerInstanceNoLongerOccupiedRequest*>* get_pool();
     // public System.String get_dedicatedServerId()
-    // Offset: 0x121C300
+    // Offset: 0x12DB6A0
     ::Il2CppString* get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x121C308
+    // Offset: 0x12DB6A8
     void set_dedicatedServerId(::Il2CppString* value);
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x121C310
+    // Offset: 0x12DB6B0
     int64_t get_dedicatedServerCreationTime();
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x121C318
+    // Offset: 0x12DB6B8
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.DedicatedServerInstanceNoLongerOccupiedRequest Init(System.String dedicatedServerId, System.String id)
-    // Offset: 0x121C418
+    // Offset: 0x12DB7B8
     MasterServer::DedicatedServerInstanceNoLongerOccupiedRequest* Init(::Il2CppString* dedicatedServerId, ::Il2CppString* id);
+    // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x12DB6C0
+    // Implemented from: BaseMasterServerReliableRequest
+    // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
+    // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x12DB70C
+    // Implemented from: BaseMasterServerReliableRequest
+    // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
+    // public override System.Void Release()
+    // Offset: 0x12DB75C
+    // Implemented from: BaseMasterServerReliableRequest
+    // Base method: System.Void BaseMasterServerReliableRequest::Release()
+    void Release();
     // public System.Void .ctor()
-    // Offset: 0x121C424
+    // Offset: 0x12DB7C4
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -99,21 +116,6 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::DedicatedServerInstanceNoLongerOccupiedRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DedicatedServerInstanceNoLongerOccupiedRequest*, creationType>()));
     }
-    // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x121C320
-    // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
-    // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x121C36C
-    // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
-    // public override System.Void Release()
-    // Offset: 0x121C3BC
-    // Implemented from: BaseMasterServerReliableRequest
-    // Base method: System.Void BaseMasterServerReliableRequest::Release()
-    void Release();
   }; // MasterServer.DedicatedServerInstanceNoLongerOccupiedRequest
   #pragma pack(pop)
   static check_size<sizeof(DedicatedServerInstanceNoLongerOccupiedRequest), 40 + sizeof(::Il2CppString*)> __MasterServer_DedicatedServerInstanceNoLongerOccupiedRequestSizeCheck;
@@ -173,10 +175,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
     return ::il2cpp_utils::FindMethod(classof(MasterServer::DedicatedServerInstanceNoLongerOccupiedRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dedicatedServerId, id});
   }
 };
-// Writing MetadataGetter for method: MasterServer::DedicatedServerInstanceNoLongerOccupiedRequest::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: MasterServer::DedicatedServerInstanceNoLongerOccupiedRequest::Serialize
 // Il2CppName: Serialize
 template<>
@@ -203,3 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
     return ::il2cpp_utils::FindMethod(classof(MasterServer::DedicatedServerInstanceNoLongerOccupiedRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: MasterServer::DedicatedServerInstanceNoLongerOccupiedRequest::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

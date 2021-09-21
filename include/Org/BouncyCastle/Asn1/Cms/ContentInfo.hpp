@@ -49,18 +49,18 @@ namespace Org::BouncyCastle::Asn1::Cms {
     Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_contentType();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Encodable content
     Org::BouncyCastle::Asn1::Asn1Encodable*& dyn_content();
+    // static public Org.BouncyCastle.Asn1.Cms.ContentInfo GetInstance(System.Object obj)
+    // Offset: 0x18E8CB8
+    static Org::BouncyCastle::Asn1::Cms::ContentInfo* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1737654
+    // Offset: 0x18E8E2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContentInfo* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Cms::ContentInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentInfo*, creationType>(seq)));
     }
-    // static public Org.BouncyCastle.Asn1.Cms.ContentInfo GetInstance(System.Object obj)
-    // Offset: 0x17374E0
-    static Org::BouncyCastle::Asn1::Cms::ContentInfo* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x17378A4
+    // Offset: 0x18E907C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
@@ -71,10 +71,6 @@ namespace Org::BouncyCastle::Asn1::Cms {
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Cms::ContentInfo*, "Org.BouncyCastle.Asn1.Cms", "ContentInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Cms::ContentInfo::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Cms::ContentInfo::GetInstance
 // Il2CppName: GetInstance
 template<>
@@ -84,6 +80,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Cms::ContentInfo*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Cms::ContentInfo::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Cms::ContentInfo::ToAsn1Object
 // Il2CppName: ToAsn1Object
 template<>

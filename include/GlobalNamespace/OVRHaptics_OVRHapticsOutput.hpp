@@ -132,26 +132,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private OVRHapticsClip m_paddingClip
     GlobalNamespace::OVRHapticsClip*& dyn_m_paddingClip();
     // public System.Void .ctor(System.UInt32 controller)
-    // Offset: 0x153D510
+    // Offset: 0x16C6258
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHaptics::OVRHapticsOutput* New_ctor(uint controller) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHaptics::OVRHapticsOutput::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHaptics::OVRHapticsOutput*, creationType>(controller)));
     }
     // public System.Void Process()
-    // Offset: 0x153D840
+    // Offset: 0x16C6588
     void Process();
     // public System.Void Preempt(OVRHapticsClip clip)
-    // Offset: 0x153E75C
+    // Offset: 0x16C74A4
     void Preempt(GlobalNamespace::OVRHapticsClip* clip);
     // public System.Void Queue(OVRHapticsClip clip)
-    // Offset: 0x153E818
+    // Offset: 0x16C7560
     void Queue(GlobalNamespace::OVRHapticsClip* clip);
     // public System.Void Mix(OVRHapticsClip clip)
-    // Offset: 0x153E8BC
+    // Offset: 0x16C7604
     void Mix(GlobalNamespace::OVRHapticsClip* clip);
     // public System.Void Clear()
-    // Offset: 0x153EDA4
+    // Offset: 0x16C7AEC
     void Clear();
   }; // OVRHaptics/OVRHapticsOutput
   #pragma pack(pop)

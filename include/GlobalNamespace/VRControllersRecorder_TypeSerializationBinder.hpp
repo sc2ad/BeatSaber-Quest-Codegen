@@ -31,8 +31,13 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: TypeSerializationBinder
     TypeSerializationBinder() noexcept {}
+    // public override System.Type BindToType(System.String assemblyName, System.String typeName)
+    // Offset: 0x1349DA4
+    // Implemented from: System.Runtime.Serialization.SerializationBinder
+    // Base method: System.Type SerializationBinder::BindToType(System.String assemblyName, System.String typeName)
+    System::Type* BindToType(::Il2CppString* assemblyName, ::Il2CppString* typeName);
     // public System.Void .ctor()
-    // Offset: 0x129EA2C
+    // Offset: 0x13491E4
     // Implemented from: System.Runtime.Serialization.SerializationBinder
     // Base method: System.Void SerializationBinder::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -41,20 +46,11 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRControllersRecorder::TypeSerializationBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersRecorder::TypeSerializationBinder*, creationType>()));
     }
-    // public override System.Type BindToType(System.String assemblyName, System.String typeName)
-    // Offset: 0x129F5EC
-    // Implemented from: System.Runtime.Serialization.SerializationBinder
-    // Base method: System.Type SerializationBinder::BindToType(System.String assemblyName, System.String typeName)
-    System::Type* BindToType(::Il2CppString* assemblyName, ::Il2CppString* typeName);
   }; // VRControllersRecorder/TypeSerializationBinder
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder::TypeSerializationBinder*, "", "VRControllersRecorder/TypeSerializationBinder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::TypeSerializationBinder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::TypeSerializationBinder::BindToType
 // Il2CppName: BindToType
 template<>
@@ -65,3 +61,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder::TypeSerializationBinder*), "BindToType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assemblyName, typeName});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::TypeSerializationBinder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

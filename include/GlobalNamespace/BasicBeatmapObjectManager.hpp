@@ -91,18 +91,58 @@ namespace GlobalNamespace {
     // Get instance field reference: private MemoryPoolContainer`1<ObstacleController> _obstaclePoolContainer
     GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController*>*& dyn__obstaclePoolContainer();
     // private System.Void Init(BasicBeatmapObjectManager/InitData initData, GameNoteController/Pool gameNotePool, BombNoteController/Pool bombNotePool, ObstacleController/Pool obstaclePool)
-    // Offset: 0x11DBEDC
+    // Offset: 0x126C4C8
     void Init(GlobalNamespace::BasicBeatmapObjectManager::InitData* initData, GlobalNamespace::GameNoteController::Pool* gameNotePool, GlobalNamespace::BombNoteController::Pool* bombNotePool, GlobalNamespace::ObstacleController::Pool* obstaclePool);
     // public System.Single GetMaxYForRangeInMiddleTwoLanes(System.Single zStart, System.Single zEnd)
-    // Offset: 0x11DCC64
+    // Offset: 0x126D250
     float GetMaxYForRangeInMiddleTwoLanes(float zStart, float zEnd);
     // public override System.Collections.Generic.List`1<ObstacleController> get_activeObstacleControllers()
-    // Offset: 0x11DBE84
+    // Offset: 0x126C470
     // Implemented from: BeatmapObjectManager
     // Base method: System.Collections.Generic.List`1<ObstacleController> BeatmapObjectManager::get_activeObstacleControllers()
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* get_activeObstacleControllers();
+    // protected override ObstacleController SpawnObstacleInternal(ObstacleData obstacleData, BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
+    // Offset: 0x126C5B0
+    // Implemented from: BeatmapObjectManager
+    // Base method: ObstacleController BeatmapObjectManager::SpawnObstacleInternal(ObstacleData obstacleData, BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
+    GlobalNamespace::ObstacleController* SpawnObstacleInternal(GlobalNamespace::ObstacleData* obstacleData, GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData obstacleSpawnData, float rotation);
+    // protected override NoteController SpawnBombNoteInternal(NoteData bombNoteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation)
+    // Offset: 0x126C684
+    // Implemented from: BeatmapObjectManager
+    // Base method: NoteController BeatmapObjectManager::SpawnBombNoteInternal(NoteData bombNoteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation)
+    GlobalNamespace::NoteController* SpawnBombNoteInternal(GlobalNamespace::NoteData* bombNoteData, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation);
+    // protected override NoteController SpawnBasicNoteInternal(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Single cutDirectionAngleOffset)
+    // Offset: 0x126C74C
+    // Implemented from: BeatmapObjectManager
+    // Base method: NoteController BeatmapObjectManager::SpawnBasicNoteInternal(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Single cutDirectionAngleOffset)
+    GlobalNamespace::NoteController* SpawnBasicNoteInternal(GlobalNamespace::NoteData* noteData, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation, float cutDirectionAngleOffset);
+    // protected override System.Void DespawnInternal(NoteController noteController)
+    // Offset: 0x126C8B4
+    // Implemented from: BeatmapObjectManager
+    // Base method: System.Void BeatmapObjectManager::DespawnInternal(NoteController noteController)
+    void DespawnInternal(GlobalNamespace::NoteController* noteController);
+    // protected override System.Void DespawnInternal(ObstacleController obstacleController)
+    // Offset: 0x126C9A8
+    // Implemented from: BeatmapObjectManager
+    // Base method: System.Void BeatmapObjectManager::DespawnInternal(ObstacleController obstacleController)
+    void DespawnInternal(GlobalNamespace::ObstacleController* obstacleController);
+    // public override System.Void DissolveAllObjects()
+    // Offset: 0x126CA10
+    // Implemented from: BeatmapObjectManager
+    // Base method: System.Void BeatmapObjectManager::DissolveAllObjects()
+    void DissolveAllObjects();
+    // public override System.Void HideAllBeatmapObjects(System.Boolean hide)
+    // Offset: 0x126CCC8
+    // Implemented from: BeatmapObjectManager
+    // Base method: System.Void BeatmapObjectManager::HideAllBeatmapObjects(System.Boolean hide)
+    void HideAllBeatmapObjects(bool hide);
+    // public override System.Void PauseAllBeatmapObjects(System.Boolean pause)
+    // Offset: 0x126CF8C
+    // Implemented from: BeatmapObjectManager
+    // Base method: System.Void BeatmapObjectManager::PauseAllBeatmapObjects(System.Boolean pause)
+    void PauseAllBeatmapObjects(bool pause);
     // public System.Void .ctor()
-    // Offset: 0x11DCDE0
+    // Offset: 0x126D3CC
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -111,46 +151,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BasicBeatmapObjectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BasicBeatmapObjectManager*, creationType>()));
     }
-    // protected override ObstacleController SpawnObstacleInternal(ObstacleData obstacleData, BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
-    // Offset: 0x11DBFC4
-    // Implemented from: BeatmapObjectManager
-    // Base method: ObstacleController BeatmapObjectManager::SpawnObstacleInternal(ObstacleData obstacleData, BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
-    GlobalNamespace::ObstacleController* SpawnObstacleInternal(GlobalNamespace::ObstacleData* obstacleData, GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData obstacleSpawnData, float rotation);
-    // protected override NoteController SpawnBombNoteInternal(NoteData bombNoteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation)
-    // Offset: 0x11DC098
-    // Implemented from: BeatmapObjectManager
-    // Base method: NoteController BeatmapObjectManager::SpawnBombNoteInternal(NoteData bombNoteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation)
-    GlobalNamespace::NoteController* SpawnBombNoteInternal(GlobalNamespace::NoteData* bombNoteData, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation);
-    // protected override NoteController SpawnBasicNoteInternal(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Single cutDirectionAngleOffset)
-    // Offset: 0x11DC160
-    // Implemented from: BeatmapObjectManager
-    // Base method: NoteController BeatmapObjectManager::SpawnBasicNoteInternal(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Single cutDirectionAngleOffset)
-    GlobalNamespace::NoteController* SpawnBasicNoteInternal(GlobalNamespace::NoteData* noteData, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation, float cutDirectionAngleOffset);
-    // protected override System.Void DespawnInternal(NoteController noteController)
-    // Offset: 0x11DC2C8
-    // Implemented from: BeatmapObjectManager
-    // Base method: System.Void BeatmapObjectManager::DespawnInternal(NoteController noteController)
-    void DespawnInternal(GlobalNamespace::NoteController* noteController);
-    // protected override System.Void DespawnInternal(ObstacleController obstacleController)
-    // Offset: 0x11DC3BC
-    // Implemented from: BeatmapObjectManager
-    // Base method: System.Void BeatmapObjectManager::DespawnInternal(ObstacleController obstacleController)
-    void DespawnInternal(GlobalNamespace::ObstacleController* obstacleController);
-    // public override System.Void DissolveAllObjects()
-    // Offset: 0x11DC424
-    // Implemented from: BeatmapObjectManager
-    // Base method: System.Void BeatmapObjectManager::DissolveAllObjects()
-    void DissolveAllObjects();
-    // public override System.Void HideAllBeatmapObjects(System.Boolean hide)
-    // Offset: 0x11DC6DC
-    // Implemented from: BeatmapObjectManager
-    // Base method: System.Void BeatmapObjectManager::HideAllBeatmapObjects(System.Boolean hide)
-    void HideAllBeatmapObjects(bool hide);
-    // public override System.Void PauseAllBeatmapObjects(System.Boolean pause)
-    // Offset: 0x11DC9A0
-    // Implemented from: BeatmapObjectManager
-    // Base method: System.Void BeatmapObjectManager::PauseAllBeatmapObjects(System.Boolean pause)
-    void PauseAllBeatmapObjects(bool pause);
   }; // BasicBeatmapObjectManager
   // WARNING Not writing size check since size may be invalid!
 }
@@ -186,10 +186,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BasicBeatmapObjectManager*), "get_activeObstacleControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BasicBeatmapObjectManager::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BasicBeatmapObjectManager::SpawnObstacleInternal
 // Il2CppName: SpawnObstacleInternal
 template<>
@@ -268,3 +264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BasicBeatmapObjectManager*), "PauseAllBeatmapObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pause});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BasicBeatmapObjectManager::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

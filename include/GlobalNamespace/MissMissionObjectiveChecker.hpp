@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
-    // [InjectAttribute] Offset: 0xE3F784
+    // [InjectAttribute] Offset: 0xF08108
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x48
@@ -43,13 +43,18 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
     GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // protected System.Void OnDestroy()
-    // Offset: 0x113CDC8
+    // Offset: 0x1183F54
     void OnDestroy();
     // private System.Void HandleNoteWasMissed(NoteController noteController)
-    // Offset: 0x113CE68
+    // Offset: 0x1183FF4
     void HandleNoteWasMissed(GlobalNamespace::NoteController* noteController);
+    // protected override System.Void Init()
+    // Offset: 0x1183DCC
+    // Implemented from: MissionObjectiveChecker
+    // Base method: System.Void MissionObjectiveChecker::Init()
+    void Init();
     // public System.Void .ctor()
-    // Offset: 0x113CF54
+    // Offset: 0x11840E0
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()
@@ -63,11 +68,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissMissionObjectiveChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissMissionObjectiveChecker*, creationType>()));
     }
-    // protected override System.Void Init()
-    // Offset: 0x113CC40
-    // Implemented from: MissionObjectiveChecker
-    // Base method: System.Void MissionObjectiveChecker::Init()
-    void Init();
   }; // MissMissionObjectiveChecker
   #pragma pack(pop)
   static check_size<sizeof(MissMissionObjectiveChecker), 72 + sizeof(GlobalNamespace::BeatmapObjectManager*)> __GlobalNamespace_MissMissionObjectiveCheckerSizeCheck;
@@ -92,10 +92,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissMissionObjectiveChecker*), "HandleNoteWasMissed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteController});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MissMissionObjectiveChecker::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MissMissionObjectiveChecker::Init
 // Il2CppName: Init
 template<>
@@ -104,3 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissMissionObjectiveChecker*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MissMissionObjectiveChecker::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -33,6 +33,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestDeeplinkManager : public ::Il2CppObject/*, public GlobalNamespace::IDeeplinkManager*/ {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xF015B4
     // private System.Action`1<Deeplink> didReceiveDeeplinkEvent
     // Size: 0x8
     // Offset: 0x10
@@ -51,7 +52,7 @@ namespace GlobalNamespace {
     operator GlobalNamespace::IDeeplinkManager() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDeeplinkManager*>(this);
     }
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE38E10
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF015C4
     // Get static field: static public TestDeeplinkManager instance
     static GlobalNamespace::TestDeeplinkManager* _get_instance();
     // Set static field: static public TestDeeplinkManager instance
@@ -60,23 +61,23 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::Deeplink*>*& dyn_didReceiveDeeplinkEvent();
     // Get instance field reference: private Deeplink _currentDeeplink
     GlobalNamespace::Deeplink*& dyn__currentDeeplink();
-    // public Deeplink get_currentDeeplink()
-    // Offset: 0x106F0E0
-    GlobalNamespace::Deeplink* get_currentDeeplink();
-    // public System.Void set_currentDeeplink(Deeplink value)
-    // Offset: 0x106F0E8
-    void set_currentDeeplink(GlobalNamespace::Deeplink* value);
     // public System.Void add_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0x106EF98
+    // Offset: 0x115D920
     void add_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
     // public System.Void remove_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0x106F03C
+    // Offset: 0x115D9C4
     void remove_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
+    // public Deeplink get_currentDeeplink()
+    // Offset: 0x115DA68
+    GlobalNamespace::Deeplink* get_currentDeeplink();
+    // public System.Void set_currentDeeplink(Deeplink value)
+    // Offset: 0x115DA70
+    void set_currentDeeplink(GlobalNamespace::Deeplink* value);
     // static private System.Void .cctor()
-    // Offset: 0x106F1A0
+    // Offset: 0x115DB28
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x106F198
+    // Offset: 0x115DB20
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -91,23 +92,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestDeeplinkManager*, "", "TestDeeplinkManager");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::TestDeeplinkManager::get_currentDeeplink
-// Il2CppName: get_currentDeeplink
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::Deeplink* (GlobalNamespace::TestDeeplinkManager::*)()>(&GlobalNamespace::TestDeeplinkManager::get_currentDeeplink)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestDeeplinkManager*), "get_currentDeeplink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::TestDeeplinkManager::set_currentDeeplink
-// Il2CppName: set_currentDeeplink
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TestDeeplinkManager::*)(GlobalNamespace::Deeplink*)>(&GlobalNamespace::TestDeeplinkManager::set_currentDeeplink)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("", "Deeplink")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestDeeplinkManager*), "set_currentDeeplink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::TestDeeplinkManager::add_didReceiveDeeplinkEvent
 // Il2CppName: add_didReceiveDeeplinkEvent
 template<>
@@ -124,6 +108,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "Deeplink")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestDeeplinkManager*), "remove_didReceiveDeeplinkEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::TestDeeplinkManager::get_currentDeeplink
+// Il2CppName: get_currentDeeplink
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::Deeplink* (GlobalNamespace::TestDeeplinkManager::*)()>(&GlobalNamespace::TestDeeplinkManager::get_currentDeeplink)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestDeeplinkManager*), "get_currentDeeplink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::TestDeeplinkManager::set_currentDeeplink
+// Il2CppName: set_currentDeeplink
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TestDeeplinkManager::*)(GlobalNamespace::Deeplink*)>(&GlobalNamespace::TestDeeplinkManager::set_currentDeeplink)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("", "Deeplink")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestDeeplinkManager*), "set_currentDeeplink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::TestDeeplinkManager::_cctor

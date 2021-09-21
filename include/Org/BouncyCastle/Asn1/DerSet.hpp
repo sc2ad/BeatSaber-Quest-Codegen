@@ -36,21 +36,21 @@ namespace Org::BouncyCastle::Asn1 {
     static Org::BouncyCastle::Asn1::DerSet* _get_Empty();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerSet Empty
     static void _set_Empty(Org::BouncyCastle::Asn1::DerSet* value);
+    // static Org.BouncyCastle.Asn1.DerSet FromVector(Org.BouncyCastle.Asn1.Asn1EncodableVector elementVector, System.Boolean needsSorting)
+    // Offset: 0x18E0814
+    static Org::BouncyCastle::Asn1::DerSet* FromVector(Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector, bool needsSorting);
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1EncodableVector elementVector, System.Boolean needsSorting)
-    // Offset: 0x1732DA4
+    // Offset: 0x18E457C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerSet* New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector, bool needsSorting) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerSet*, creationType>(elementVector, needsSorting)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1740EA0
+    // Offset: 0x18F2678
     static void _cctor();
-    // static Org.BouncyCastle.Asn1.DerSet FromVector(Org.BouncyCastle.Asn1.Asn1EncodableVector elementVector, System.Boolean needsSorting)
-    // Offset: 0x172F03C
-    static Org::BouncyCastle::Asn1::DerSet* FromVector(Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector, bool needsSorting);
     // public System.Void .ctor()
-    // Offset: 0x17361E8
+    // Offset: 0x18E79C0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Set
     // Base method: System.Void Asn1Set::.ctor()
     // Base method: System.Void Asn1Object::.ctor()
@@ -62,7 +62,7 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<DerSet*, creationType>()));
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Encodable element)
-    // Offset: 0x1732DA0
+    // Offset: 0x18E4578
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Set
     // Base method: System.Void Asn1Set::.ctor(Org.BouncyCastle.Asn1.Asn1Encodable element)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -71,7 +71,7 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<DerSet*, creationType>(element)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1EncodableVector elementVector)
-    // Offset: 0x1740E7C
+    // Offset: 0x18F2654
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Set
     // Base method: System.Void Asn1Set::.ctor(Org.BouncyCastle.Asn1.Asn1EncodableVector elementVector)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -80,7 +80,7 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<DerSet*, creationType>(elementVector)));
     }
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x17365A8
+    // Offset: 0x18E7D80
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
@@ -89,6 +89,16 @@ namespace Org::BouncyCastle::Asn1 {
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerSet*, "Org.BouncyCastle.Asn1", "DerSet");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerSet::FromVector
+// Il2CppName: FromVector
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerSet* (*)(Org::BouncyCastle::Asn1::Asn1EncodableVector*, bool)>(&Org::BouncyCastle::Asn1::DerSet::FromVector)> {
+  static const MethodInfo* get() {
+    static auto* elementVector = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "Asn1EncodableVector")->byval_arg;
+    static auto* needsSorting = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerSet*), "FromVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{elementVector, needsSorting});
+  }
+};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerSet::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -99,16 +109,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Asn1::DerSet::_cctor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerSet*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerSet::FromVector
-// Il2CppName: FromVector
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerSet* (*)(Org::BouncyCastle::Asn1::Asn1EncodableVector*, bool)>(&Org::BouncyCastle::Asn1::DerSet::FromVector)> {
-  static const MethodInfo* get() {
-    static auto* elementVector = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "Asn1EncodableVector")->byval_arg;
-    static auto* needsSorting = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerSet*), "FromVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{elementVector, needsSorting});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerSet::New_ctor

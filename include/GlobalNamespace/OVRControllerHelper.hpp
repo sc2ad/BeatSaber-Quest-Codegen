@@ -174,13 +174,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean m_prevControllerConnectedCached
     bool& dyn_m_prevControllerConnectedCached();
     // private System.Void Start()
-    // Offset: 0x12AFD10
+    // Offset: 0x13B9024
     void Start();
     // private System.Void Update()
-    // Offset: 0x12AFF30
+    // Offset: 0x13B9244
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x12B0494
+    // Offset: 0x13B97A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

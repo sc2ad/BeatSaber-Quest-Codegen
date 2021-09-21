@@ -168,48 +168,56 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: connectionEstablished and: onConnectedEvent
     char __padding5[0x7] = {};
+    // [CompilerGeneratedAttribute] Offset: 0xF034BC
     // private System.Action onConnectedEvent
     // Size: 0x8
     // Offset: 0x38
     System::Action* onConnectedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF034CC
     // private System.Action`1<DisconnectedReason> onDisconnectedEvent
     // Size: 0x8
     // Offset: 0x40
     System::Action_1<GlobalNamespace::DisconnectedReason>* onDisconnectedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::DisconnectedReason>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF034DC
     // private System.Action`1<ConnectionFailedReason> onConnectionFailedEvent
     // Size: 0x8
     // Offset: 0x48
     System::Action_1<GlobalNamespace::ConnectionFailedReason>* onConnectionFailedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::ConnectionFailedReason>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF034EC
     // private System.Action`1<IConnection> onConnectionConnectedEvent
     // Size: 0x8
     // Offset: 0x50
     System::Action_1<GlobalNamespace::IConnection*>* onConnectionConnectedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::IConnection*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF034FC
     // private System.Action`2<IConnection,DisconnectedReason> onConnectionDisconnectedEvent
     // Size: 0x8
     // Offset: 0x58
     System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>* onConnectionDisconnectedEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0350C
     // private System.Action`2<IConnection,System.Single> onLatencyUpdatedEvent
     // Size: 0x8
     // Offset: 0x60
     System::Action_2<GlobalNamespace::IConnection*, float>* onLatencyUpdatedEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::IConnection*, float>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0351C
     // private System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> onReceivedDataEvent
     // Size: 0x8
     // Offset: 0x68
     System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>* onReceivedDataEvent;
     // Field size check
     static_assert(sizeof(System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0352C
     // private System.Boolean <isDisconnecting>k__BackingField
     // Size: 0x1
     // Offset: 0x70
@@ -266,89 +274,89 @@ namespace GlobalNamespace {
     bool& dyn_$isDisconnecting$k__BackingField();
     // Get instance field reference: private System.Byte[] _buffer
     ::Array<uint8_t>*& dyn__buffer();
-    // public System.String get_userId()
-    // Offset: 0x12554D8
-    ::Il2CppString* get_userId();
-    // public System.String get_userName()
-    // Offset: 0x1255590
-    ::Il2CppString* get_userName();
-    // public System.Boolean get_isConnected()
-    // Offset: 0x125564C
-    bool get_isConnected();
-    // public System.Boolean get_isConnecting()
-    // Offset: 0x1255680
-    bool get_isConnecting();
-    // public System.Boolean get_isDisconnecting()
-    // Offset: 0x12556A4
-    bool get_isDisconnecting();
-    // private System.Void set_isDisconnecting(System.Boolean value)
-    // Offset: 0x12556AC
-    void set_isDisconnecting(bool value);
-    // public System.Boolean get_isDisposed()
-    // Offset: 0x12556B8
-    bool get_isDisposed();
-    // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x12556C8
-    bool get_isConnectionOwner();
-    // public System.Boolean get_isServer()
-    // Offset: 0x12556D8
-    bool get_isServer();
-    // public System.Boolean get_isClient()
-    // Offset: 0x12556E8
-    bool get_isClient();
-    // public System.Int32 get_connectionCount()
-    // Offset: 0x12556F8
-    int get_connectionCount();
     // public System.Void add_onConnectedEvent(System.Action value)
-    // Offset: 0x1254BE0
+    // Offset: 0x1360C5C
     void add_onConnectedEvent(System::Action* value);
     // public System.Void remove_onConnectedEvent(System.Action value)
-    // Offset: 0x1254C84
+    // Offset: 0x1360D00
     void remove_onConnectedEvent(System::Action* value);
     // public System.Void add_onDisconnectedEvent(System.Action`1<DisconnectedReason> value)
-    // Offset: 0x1254D28
+    // Offset: 0x1360DA4
     void add_onDisconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
     // public System.Void remove_onDisconnectedEvent(System.Action`1<DisconnectedReason> value)
-    // Offset: 0x1254DCC
+    // Offset: 0x1360E48
     void remove_onDisconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
     // public System.Void add_onConnectionFailedEvent(System.Action`1<ConnectionFailedReason> value)
-    // Offset: 0x1254E70
+    // Offset: 0x1360EEC
     void add_onConnectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
     // public System.Void remove_onConnectionFailedEvent(System.Action`1<ConnectionFailedReason> value)
-    // Offset: 0x1254F14
+    // Offset: 0x1360F90
     void remove_onConnectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
     // public System.Void add_onConnectionConnectedEvent(System.Action`1<IConnection> value)
-    // Offset: 0x1254FB8
+    // Offset: 0x1361034
     void add_onConnectionConnectedEvent(System::Action_1<GlobalNamespace::IConnection*>* value);
     // public System.Void remove_onConnectionConnectedEvent(System.Action`1<IConnection> value)
-    // Offset: 0x125505C
+    // Offset: 0x13610D8
     void remove_onConnectionConnectedEvent(System::Action_1<GlobalNamespace::IConnection*>* value);
     // public System.Void add_onConnectionDisconnectedEvent(System.Action`2<IConnection,DisconnectedReason> value)
-    // Offset: 0x1255100
+    // Offset: 0x136117C
     void add_onConnectionDisconnectedEvent(System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>* value);
     // public System.Void remove_onConnectionDisconnectedEvent(System.Action`2<IConnection,DisconnectedReason> value)
-    // Offset: 0x12551A4
+    // Offset: 0x1361220
     void remove_onConnectionDisconnectedEvent(System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>* value);
     // public System.Void add_onLatencyUpdatedEvent(System.Action`2<IConnection,System.Single> value)
-    // Offset: 0x1255248
+    // Offset: 0x13612C4
     void add_onLatencyUpdatedEvent(System::Action_2<GlobalNamespace::IConnection*, float>* value);
     // public System.Void remove_onLatencyUpdatedEvent(System.Action`2<IConnection,System.Single> value)
-    // Offset: 0x12552EC
+    // Offset: 0x1361368
     void remove_onLatencyUpdatedEvent(System::Action_2<GlobalNamespace::IConnection*, float>* value);
     // public System.Void add_onReceivedDataEvent(System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> value)
-    // Offset: 0x1255390
+    // Offset: 0x136140C
     void add_onReceivedDataEvent(System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>* value);
     // public System.Void remove_onReceivedDataEvent(System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> value)
-    // Offset: 0x1255434
+    // Offset: 0x13614B0
     void remove_onReceivedDataEvent(System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>* value);
+    // public System.String get_userId()
+    // Offset: 0x1361554
+    ::Il2CppString* get_userId();
+    // public System.String get_userName()
+    // Offset: 0x136160C
+    ::Il2CppString* get_userName();
+    // public System.Boolean get_isConnected()
+    // Offset: 0x13616C8
+    bool get_isConnected();
+    // public System.Boolean get_isConnecting()
+    // Offset: 0x13616FC
+    bool get_isConnecting();
+    // public System.Boolean get_isDisconnecting()
+    // Offset: 0x1361720
+    bool get_isDisconnecting();
+    // private System.Void set_isDisconnecting(System.Boolean value)
+    // Offset: 0x1361728
+    void set_isDisconnecting(bool value);
+    // public System.Boolean get_isDisposed()
+    // Offset: 0x1361734
+    bool get_isDisposed();
+    // public System.Boolean get_isConnectionOwner()
+    // Offset: 0x1361744
+    bool get_isConnectionOwner();
+    // public System.Boolean get_isServer()
+    // Offset: 0x1361754
+    bool get_isServer();
+    // public System.Boolean get_isClient()
+    // Offset: 0x1361764
+    bool get_isClient();
+    // public System.Int32 get_connectionCount()
+    // Offset: 0x1361774
+    int get_connectionCount();
     // public System.Void SendToAll(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x1255748
+    // Offset: 0x13617C4
     void SendToAll(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void SendToAll(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod, IConnection excludingConnection)
-    // Offset: 0x1255750
+    // Offset: 0x13617CC
     void SendToAll(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::DeliveryMethod deliveryMethod, GlobalNamespace::IConnection* excludingConnection);
     // public System.Void PollUpdate()
-    // Offset: 0x125599C
+    // Offset: 0x1361A18
     void PollUpdate();
     // public System.Boolean Init(IConnectionInitParams`1<T> initParams)
     // Offset: 0xFFFFFFFF
@@ -362,49 +370,49 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___generic__method, initParams);
     }
     // public System.Void Disconnect(DisconnectedReason disconnectedReason)
-    // Offset: 0x1255E50
+    // Offset: 0x1361ECC
     void Disconnect(GlobalNamespace::DisconnectedReason disconnectedReason);
     // private System.Void DisconnectInternal(DisconnectedReason disconnectedReason, ConnectionFailedReason connectionFailedReason)
-    // Offset: 0x1255E58
+    // Offset: 0x1361ED4
     void DisconnectInternal(GlobalNamespace::DisconnectedReason disconnectedReason, GlobalNamespace::ConnectionFailedReason connectionFailedReason);
     // public System.Void Dispose()
-    // Offset: 0x12560A8
+    // Offset: 0x1362124
     void Dispose();
     // public IConnection GetConnection(System.Int32 index)
-    // Offset: 0x12560B4
+    // Offset: 0x1362130
     GlobalNamespace::IConnection* GetConnection(int index);
     // private System.Void HandlePeerConnectionRequest(Oculus.Platform.Message`1<Oculus.Platform.Models.NetworkingPeer> message)
-    // Offset: 0x125612C
+    // Offset: 0x13621A8
     void HandlePeerConnectionRequest(Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>* message);
     // private System.Void HandleConnectionStateChanged(Oculus.Platform.Message`1<Oculus.Platform.Models.NetworkingPeer> message)
-    // Offset: 0x12561F0
+    // Offset: 0x136226C
     void HandleConnectionStateChanged(Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>* message);
     // private OculusConnectionManager/OculusConnection GetConnection(System.UInt64 user)
-    // Offset: 0x1255B88
+    // Offset: 0x1361C04
     GlobalNamespace::OculusConnectionManager::OculusConnection* GetConnection(uint64_t user);
     // private System.Void RemoveConnection(System.UInt64 id, DisconnectedReason reason)
-    // Offset: 0x1256300
+    // Offset: 0x136237C
     void RemoveConnection(uint64_t id, GlobalNamespace::DisconnectedReason reason);
     // private System.Byte[] AcquireBuffer(System.Int32 size)
-    // Offset: 0x1255CE8
+    // Offset: 0x1361D64
     ::Array<uint8_t>* AcquireBuffer(int size);
     // private System.Void ReleaseBuffer(System.Byte[] buffer)
-    // Offset: 0x1255D78
+    // Offset: 0x1361DF4
     void ReleaseBuffer(::Array<uint8_t>* buffer);
     // static private Oculus.Platform.SendPolicy DeliveryMethodToSendPolicy(LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x1256504
+    // Offset: 0x1362580
     static Oculus::Platform::SendPolicy DeliveryMethodToSendPolicy(LiteNetLib::DeliveryMethod deliveryMethod);
     // static private LiteNetLib.DeliveryMethod SendPolicyToDeliveryMethod(Oculus.Platform.SendPolicy sendPolicy)
-    // Offset: 0x1255D64
+    // Offset: 0x1361DE0
     static LiteNetLib::DeliveryMethod SendPolicyToDeliveryMethod(Oculus::Platform::SendPolicy sendPolicy);
     // static private System.Void VoidHandler(Oculus.Platform.Message`1<Oculus.Platform.Models.NetworkingPeer> message)
-    // Offset: 0x1256514
+    // Offset: 0x1362590
     static void VoidHandler(Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>* message);
     // private System.Void <PollUpdate>b__56_0(OculusConnectionManager/OculusConnection connection, System.Single latency)
-    // Offset: 0x12565C8
+    // Offset: 0x1362644
     void $PollUpdate$b__56_0(GlobalNamespace::OculusConnectionManager::OculusConnection* connection, float latency);
     // public System.Void .ctor()
-    // Offset: 0x1256518
+    // Offset: 0x1362594
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -420,95 +428,6 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager*, "", "OculusConnectionManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::NetworkMode, "", "OculusConnectionManager/NetworkMode");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::get_userId
-// Il2CppName: get_userId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OculusConnectionManager::*)()>(&GlobalNamespace::OculusConnectionManager::get_userId)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::get_userName
-// Il2CppName: get_userName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OculusConnectionManager::*)()>(&GlobalNamespace::OculusConnectionManager::get_userName)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::get_isConnected
-// Il2CppName: get_isConnected
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusConnectionManager::*)()>(&GlobalNamespace::OculusConnectionManager::get_isConnected)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::get_isConnecting
-// Il2CppName: get_isConnecting
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusConnectionManager::*)()>(&GlobalNamespace::OculusConnectionManager::get_isConnecting)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "get_isConnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::get_isDisconnecting
-// Il2CppName: get_isDisconnecting
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusConnectionManager::*)()>(&GlobalNamespace::OculusConnectionManager::get_isDisconnecting)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "get_isDisconnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::set_isDisconnecting
-// Il2CppName: set_isDisconnecting
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusConnectionManager::*)(bool)>(&GlobalNamespace::OculusConnectionManager::set_isDisconnecting)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "set_isDisconnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::get_isDisposed
-// Il2CppName: get_isDisposed
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusConnectionManager::*)()>(&GlobalNamespace::OculusConnectionManager::get_isDisposed)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "get_isDisposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::get_isConnectionOwner
-// Il2CppName: get_isConnectionOwner
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusConnectionManager::*)()>(&GlobalNamespace::OculusConnectionManager::get_isConnectionOwner)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "get_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::get_isServer
-// Il2CppName: get_isServer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusConnectionManager::*)()>(&GlobalNamespace::OculusConnectionManager::get_isServer)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "get_isServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::get_isClient
-// Il2CppName: get_isClient
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusConnectionManager::*)()>(&GlobalNamespace::OculusConnectionManager::get_isClient)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "get_isClient", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::get_connectionCount
-// Il2CppName: get_connectionCount
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::OculusConnectionManager::*)()>(&GlobalNamespace::OculusConnectionManager::get_connectionCount)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "get_connectionCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::add_onConnectedEvent
 // Il2CppName: add_onConnectedEvent
 template<>
@@ -633,6 +552,95 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`3"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IConnection"), ::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader"), ::il2cpp_utils::GetClassFromName("LiteNetLib", "DeliveryMethod")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "remove_onReceivedDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::get_userId
+// Il2CppName: get_userId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OculusConnectionManager::*)()>(&GlobalNamespace::OculusConnectionManager::get_userId)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::get_userName
+// Il2CppName: get_userName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OculusConnectionManager::*)()>(&GlobalNamespace::OculusConnectionManager::get_userName)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::get_isConnected
+// Il2CppName: get_isConnected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusConnectionManager::*)()>(&GlobalNamespace::OculusConnectionManager::get_isConnected)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::get_isConnecting
+// Il2CppName: get_isConnecting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusConnectionManager::*)()>(&GlobalNamespace::OculusConnectionManager::get_isConnecting)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "get_isConnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::get_isDisconnecting
+// Il2CppName: get_isDisconnecting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusConnectionManager::*)()>(&GlobalNamespace::OculusConnectionManager::get_isDisconnecting)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "get_isDisconnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::set_isDisconnecting
+// Il2CppName: set_isDisconnecting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusConnectionManager::*)(bool)>(&GlobalNamespace::OculusConnectionManager::set_isDisconnecting)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "set_isDisconnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::get_isDisposed
+// Il2CppName: get_isDisposed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusConnectionManager::*)()>(&GlobalNamespace::OculusConnectionManager::get_isDisposed)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "get_isDisposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::get_isConnectionOwner
+// Il2CppName: get_isConnectionOwner
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusConnectionManager::*)()>(&GlobalNamespace::OculusConnectionManager::get_isConnectionOwner)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "get_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::get_isServer
+// Il2CppName: get_isServer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusConnectionManager::*)()>(&GlobalNamespace::OculusConnectionManager::get_isServer)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "get_isServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::get_isClient
+// Il2CppName: get_isClient
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusConnectionManager::*)()>(&GlobalNamespace::OculusConnectionManager::get_isClient)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "get_isClient", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::get_connectionCount
+// Il2CppName: get_connectionCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::OculusConnectionManager::*)()>(&GlobalNamespace::OculusConnectionManager::get_connectionCount)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "get_connectionCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::SendToAll

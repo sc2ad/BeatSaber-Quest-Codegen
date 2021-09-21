@@ -21,8 +21,13 @@ namespace HMUI {
     public:
     // Creating value type constructor for type: PercentSlider
     PercentSlider() noexcept {}
+    // protected override System.String TextForValue(System.Single value)
+    // Offset: 0x14140B8
+    // Implemented from: HMUI.RangeValuesTextSlider
+    // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
+    ::Il2CppString* TextForValue(float value);
     // public System.Void .ctor()
-    // Offset: 0x1311B98
+    // Offset: 0x1414148
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.Void RangeValuesTextSlider::.ctor()
     // Base method: System.Void TextSlider::.ctor()
@@ -38,19 +43,10 @@ namespace HMUI {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::PercentSlider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PercentSlider*, creationType>()));
     }
-    // protected override System.String TextForValue(System.Single value)
-    // Offset: 0x1311B08
-    // Implemented from: HMUI.RangeValuesTextSlider
-    // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
-    ::Il2CppString* TextForValue(float value);
   }; // HMUI.PercentSlider
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::PercentSlider*, "HMUI", "PercentSlider");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: HMUI::PercentSlider::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::PercentSlider::TextForValue
 // Il2CppName: TextForValue
 template<>
@@ -60,3 +56,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
     return ::il2cpp_utils::FindMethod(classof(HMUI::PercentSlider*), "TextForValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: HMUI::PercentSlider::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

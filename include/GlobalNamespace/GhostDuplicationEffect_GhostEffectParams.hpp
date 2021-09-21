@@ -36,6 +36,7 @@ namespace GlobalNamespace {
     float startAlpha;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    // [HideInInspector] Offset: 0xF15FBC
     // public UnityEngine.Vector3 startPosition
     // Size: 0xC
     // Offset: 0x4
@@ -54,6 +55,7 @@ namespace GlobalNamespace {
     float endAlpha;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    // [HideInInspector] Offset: 0xF15FCC
     // public UnityEngine.Vector3 endPosition
     // Size: 0xC
     // Offset: 0x18

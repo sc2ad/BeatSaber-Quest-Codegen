@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String[] unlockedAchievementsToUpload
     ::Array<::Il2CppString*>*& dyn_unlockedAchievementsToUpload();
     // public System.Void .ctor()
-    // Offset: 0x11FAB2C
+    // Offset: 0x12BA814
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

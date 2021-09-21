@@ -58,26 +58,26 @@ namespace NUnit::Framework::Internal::Builders {
     static void _set_NO_TYPE_ARGS_MSG(::Il2CppString* value);
     // Get instance field reference: private NUnit.Framework.Interfaces.ITestCaseBuilder _testBuilder
     NUnit::Framework::Interfaces::ITestCaseBuilder*& dyn__testBuilder();
-    // static private System.Void .cctor()
-    // Offset: 0x177C79C
-    static void _cctor();
     // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x17799C0
+    // Offset: 0x1938A0C
     NUnit::Framework::Internal::TestSuite* BuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo, NUnit.Framework.Interfaces.ITestFixtureData testFixtureData)
-    // Offset: 0x177B77C
+    // Offset: 0x193A7C8
     NUnit::Framework::Internal::TestSuite* BuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo, NUnit::Framework::Interfaces::ITestFixtureData* testFixtureData);
     // private System.Void AddTestCasesToFixture(NUnit.Framework.Internal.TestFixture fixture)
-    // Offset: 0x177B508
+    // Offset: 0x193A554
     void AddTestCasesToFixture(NUnit::Framework::Internal::TestFixture* fixture);
     // private NUnit.Framework.Internal.Test BuildTestCase(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.TestSuite suite)
-    // Offset: 0x177C63C
+    // Offset: 0x193B688
     NUnit::Framework::Internal::Test* BuildTestCase(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::TestSuite* suite);
     // static private System.Void CheckTestFixtureIsValid(NUnit.Framework.Internal.TestFixture fixture)
-    // Offset: 0x177B1CC
+    // Offset: 0x193A218
     static void CheckTestFixtureIsValid(NUnit::Framework::Internal::TestFixture* fixture);
+    // static private System.Void .cctor()
+    // Offset: 0x193B7E8
+    static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1779BA0
+    // Offset: 0x1938BEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -92,14 +92,6 @@ namespace NUnit::Framework::Internal::Builders {
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*, "NUnit.Framework.Internal.Builders", "NUnitTestFixtureBuilder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::BuildFrom
 // Il2CppName: BuildFrom
 template<>
@@ -145,6 +137,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NU
   static const MethodInfo* get() {
     static auto* fixture = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestFixture")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*), "CheckTestFixtureIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fixture});
+  }
+};
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::New_ctor

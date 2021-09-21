@@ -33,42 +33,49 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EmptyDifficultyBeatmap : public ::Il2CppObject/*, public GlobalNamespace::IDifficultyBeatmap*/ {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xF02034
     // private readonly IBeatmapLevel <level>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::IBeatmapLevel* level;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapLevel*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF02044
     // private readonly IDifficultyBeatmapSet <parentDifficultyBeatmapSet>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IDifficultyBeatmapSet* parentDifficultyBeatmapSet;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IDifficultyBeatmapSet*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF02054
     // private readonly BeatmapDifficulty <difficulty>k__BackingField
     // Size: 0x4
     // Offset: 0x20
     GlobalNamespace::BeatmapDifficulty difficulty;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
+    // [CompilerGeneratedAttribute] Offset: 0xF02064
     // private readonly System.Int32 <difficultyRank>k__BackingField
     // Size: 0x4
     // Offset: 0x24
     int difficultyRank;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    // [CompilerGeneratedAttribute] Offset: 0xF02074
     // private readonly System.Single <noteJumpMovementSpeed>k__BackingField
     // Size: 0x4
     // Offset: 0x28
     float noteJumpMovementSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    // [CompilerGeneratedAttribute] Offset: 0xF02084
     // private readonly System.Single <noteJumpStartBeatOffset>k__BackingField
     // Size: 0x4
     // Offset: 0x2C
     float noteJumpStartBeatOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    // [CompilerGeneratedAttribute] Offset: 0xF02094
     // private readonly BeatmapData <beatmapData>k__BackingField
     // Size: 0x8
     // Offset: 0x30
@@ -96,28 +103,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BeatmapData <beatmapData>k__BackingField
     GlobalNamespace::BeatmapData*& dyn_$beatmapData$k__BackingField();
     // public IBeatmapLevel get_level()
-    // Offset: 0x1055EE4
+    // Offset: 0x11AECCC
     GlobalNamespace::IBeatmapLevel* get_level();
     // public IDifficultyBeatmapSet get_parentDifficultyBeatmapSet()
-    // Offset: 0x1055EEC
+    // Offset: 0x11AECD4
     GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet();
     // public BeatmapDifficulty get_difficulty()
-    // Offset: 0x1055EF4
+    // Offset: 0x11AECDC
     GlobalNamespace::BeatmapDifficulty get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0x1055EFC
+    // Offset: 0x11AECE4
     int get_difficultyRank();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x1055F04
+    // Offset: 0x11AECEC
     float get_noteJumpMovementSpeed();
     // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0x1055F0C
+    // Offset: 0x11AECF4
     float get_noteJumpStartBeatOffset();
     // public BeatmapData get_beatmapData()
-    // Offset: 0x1055F14
+    // Offset: 0x11AECFC
     GlobalNamespace::BeatmapData* get_beatmapData();
     // public System.Void .ctor()
-    // Offset: 0x1055F1C
+    // Offset: 0x11AED04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

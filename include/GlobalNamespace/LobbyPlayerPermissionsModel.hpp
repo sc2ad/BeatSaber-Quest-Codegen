@@ -34,44 +34,49 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LobbyPlayerPermissionsModel : public ::Il2CppObject {
     public:
-    // [InjectAttribute] Offset: 0xE3A868
+    // [InjectAttribute] Offset: 0xF0304C
     // private readonly IMenuRpcManager _menuRpcManager
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::IMenuRpcManager* menuRpcManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMenuRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3A878
+    // [InjectAttribute] Offset: 0xF0305C
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0306C
     // private System.Boolean <isPartyOwner>k__BackingField
     // Size: 0x1
     // Offset: 0x20
     bool isPartyOwner;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    // [CompilerGeneratedAttribute] Offset: 0xF0307C
     // private System.Boolean <hasRecommendBeatmapPermission>k__BackingField
     // Size: 0x1
     // Offset: 0x21
     bool hasRecommendBeatmapPermission;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    // [CompilerGeneratedAttribute] Offset: 0xF0308C
     // private System.Boolean <hasRecommendModifiersPermission>k__BackingField
     // Size: 0x1
     // Offset: 0x22
     bool hasRecommendModifiersPermission;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    // [CompilerGeneratedAttribute] Offset: 0xF0309C
     // private System.Boolean <hasKickVotePermission>k__BackingField
     // Size: 0x1
     // Offset: 0x23
     bool hasKickVotePermission;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    // [CompilerGeneratedAttribute] Offset: 0xF030AC
     // private System.Boolean <hasInvitePermission>k__BackingField
     // Size: 0x1
     // Offset: 0x24
@@ -80,6 +85,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hasInvitePermission and: permissionsChangedEvent
     char __padding6[0x3] = {};
+    // [CompilerGeneratedAttribute] Offset: 0xF030BC
     // private System.Action permissionsChangedEvent
     // Size: 0x8
     // Offset: 0x28
@@ -105,55 +111,55 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action permissionsChangedEvent
     System::Action*& dyn_permissionsChangedEvent();
     // public System.Boolean get_isPartyOwner()
-    // Offset: 0x120DDFC
+    // Offset: 0x131A77C
     bool get_isPartyOwner();
     // private System.Void set_isPartyOwner(System.Boolean value)
-    // Offset: 0x120DE04
+    // Offset: 0x131A784
     void set_isPartyOwner(bool value);
     // public System.Boolean get_hasRecommendBeatmapPermission()
-    // Offset: 0x120DE10
+    // Offset: 0x131A790
     bool get_hasRecommendBeatmapPermission();
     // private System.Void set_hasRecommendBeatmapPermission(System.Boolean value)
-    // Offset: 0x120DE18
+    // Offset: 0x131A798
     void set_hasRecommendBeatmapPermission(bool value);
     // public System.Boolean get_hasRecommendModifiersPermission()
-    // Offset: 0x120DE24
+    // Offset: 0x131A7A4
     bool get_hasRecommendModifiersPermission();
     // private System.Void set_hasRecommendModifiersPermission(System.Boolean value)
-    // Offset: 0x120DE2C
+    // Offset: 0x131A7AC
     void set_hasRecommendModifiersPermission(bool value);
     // public System.Boolean get_hasKickVotePermission()
-    // Offset: 0x120DE38
+    // Offset: 0x131A7B8
     bool get_hasKickVotePermission();
     // private System.Void set_hasKickVotePermission(System.Boolean value)
-    // Offset: 0x120DE40
+    // Offset: 0x131A7C0
     void set_hasKickVotePermission(bool value);
     // public System.Boolean get_hasInvitePermission()
-    // Offset: 0x120DE4C
+    // Offset: 0x131A7CC
     bool get_hasInvitePermission();
     // private System.Void set_hasInvitePermission(System.Boolean value)
-    // Offset: 0x120DE54
+    // Offset: 0x131A7D4
     void set_hasInvitePermission(bool value);
     // public System.Void add_permissionsChangedEvent(System.Action value)
-    // Offset: 0x120DE60
+    // Offset: 0x131A7E0
     void add_permissionsChangedEvent(System::Action* value);
     // public System.Void remove_permissionsChangedEvent(System.Action value)
-    // Offset: 0x120DF04
+    // Offset: 0x131A884
     void remove_permissionsChangedEvent(System::Action* value);
     // public System.Void Activate()
-    // Offset: 0x12091B4
+    // Offset: 0x1315B34
     void Activate();
     // public System.Void Deactivate()
-    // Offset: 0x1209450
+    // Offset: 0x1315DD0
     void Deactivate();
     // public System.Void SetPlayerPermissions(System.Boolean isPartyOwner, System.Boolean hasRecommendBeatmapPermission, System.Boolean hasRecommendModifiersPermission, System.Boolean hasKickVotePermission, System.Boolean hasInvitePermission)
-    // Offset: 0x120D93C
+    // Offset: 0x131A2BC
     void SetPlayerPermissions(bool isPartyOwner, bool hasRecommendBeatmapPermission, bool hasRecommendModifiersPermission, bool hasKickVotePermission, bool hasInvitePermission);
     // private System.Void HandleMenuRpcManagerSetPlayersPermissionConfiguration(System.String userId, PlayersLobbyPermissionConfigurationNetSerializable playersLobbyPermissionConfiguration)
-    // Offset: 0x120DFA8
+    // Offset: 0x131A928
     void HandleMenuRpcManagerSetPlayersPermissionConfiguration(::Il2CppString* userId, GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
     // public System.Void .ctor()
-    // Offset: 0x120E200
+    // Offset: 0x131AB80
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

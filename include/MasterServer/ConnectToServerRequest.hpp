@@ -74,16 +74,31 @@ namespace MasterServer {
     // Get instance field reference: public GameplayServerConfiguration configuration
     GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
     // static public IPacketPool`1<MasterServer.ConnectToServerRequest> get_pool()
-    // Offset: 0x121AECC
+    // Offset: 0x12DA26C
     static GlobalNamespace::IPacketPool_1<MasterServer::ConnectToServerRequest*>* get_pool();
     // protected System.UInt32 get_version()
-    // Offset: 0x121AF14
+    // Offset: 0x12DA2B4
     uint get_version();
     // public MasterServer.ConnectToServerRequest Init(System.String userId, System.String userName, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.String secret, System.String code)
-    // Offset: 0x121AF1C
+    // Offset: 0x12DA2BC
     MasterServer::ConnectToServerRequest* Init(::Il2CppString* userId, ::Il2CppString* userName, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* secret, ::Il2CppString* code);
+    // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x12DA2E8
+    // Implemented from: MasterServer.BaseConnectToServerRequest
+    // Base method: System.Void BaseConnectToServerRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
+    // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x12DA374
+    // Implemented from: MasterServer.BaseConnectToServerRequest
+    // Base method: System.Void BaseConnectToServerRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
+    // public override System.Void Release()
+    // Offset: 0x12DA420
+    // Implemented from: MasterServer.BaseConnectToServerRequest
+    // Base method: System.Void BaseConnectToServerRequest::Release()
+    void Release();
     // public System.Void .ctor()
-    // Offset: 0x121B144
+    // Offset: 0x12DA4E4
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::.ctor()
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
@@ -93,21 +108,6 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::ConnectToServerRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectToServerRequest*, creationType>()));
     }
-    // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x121AF48
-    // Implemented from: MasterServer.BaseConnectToServerRequest
-    // Base method: System.Void BaseConnectToServerRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
-    // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x121AFD4
-    // Implemented from: MasterServer.BaseConnectToServerRequest
-    // Base method: System.Void BaseConnectToServerRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
-    // public override System.Void Release()
-    // Offset: 0x121B080
-    // Implemented from: MasterServer.BaseConnectToServerRequest
-    // Base method: System.Void BaseConnectToServerRequest::Release()
-    void Release();
   }; // MasterServer.ConnectToServerRequest
   #pragma pack(pop)
   static check_size<sizeof(ConnectToServerRequest), 96 + sizeof(GlobalNamespace::GameplayServerConfiguration)> __MasterServer_ConnectToServerRequestSizeCheck;
@@ -145,10 +145,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ConnectToServerRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId, userName, selectionMask, configuration, secret, code});
   }
 };
-// Writing MetadataGetter for method: MasterServer::ConnectToServerRequest::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: MasterServer::ConnectToServerRequest::Serialize
 // Il2CppName: Serialize
 template<>
@@ -175,3 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ConnectToServerRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: MasterServer::ConnectToServerRequest::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

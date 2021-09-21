@@ -22,14 +22,14 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: Action
     Action() noexcept {}
-    // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0x142839C
-    void set_enabled(bool value);
     // public System.Void Enable(System.Boolean enabled)
     // Offset: 0xFFFFFFFF
     void Enable(bool enabled);
+    // public System.Void set_enabled(System.Boolean value)
+    // Offset: 0x15391EC
+    void set_enabled(bool value);
     // protected System.Void .ctor()
-    // Offset: 0x1429C2C
+    // Offset: 0x153AA7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -42,15 +42,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Events::Action*, "", "SteamVR_Events/Action");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::Action::set_enabled
-// Il2CppName: set_enabled
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Events::Action::*)(bool)>(&GlobalNamespace::SteamVR_Events::Action::set_enabled)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events::Action*), "set_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::Action::Enable
 // Il2CppName: Enable
 template<>
@@ -58,6 +49,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* enabled = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events::Action*), "Enable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enabled});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::Action::set_enabled
+// Il2CppName: set_enabled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Events::Action::*)(bool)>(&GlobalNamespace::SteamVR_Events::Action::set_enabled)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events::Action*), "set_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::Action::New_ctor

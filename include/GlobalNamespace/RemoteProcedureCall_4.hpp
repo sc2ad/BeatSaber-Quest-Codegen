@@ -159,16 +159,6 @@ namespace GlobalNamespace {
       auto ___instance_arg = this;
       return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::IRemoteProcedureCall*, false>(___instance_arg, ___internal__method, syncTime, value0, value1, value2, value3);
     }
-    // public System.Void .ctor()
-    // Offset: 0xFFFFFFFF
-    // Implemented from: RemoteProcedureCall
-    // Base method: System.Void RemoteProcedureCall::.ctor()
-    // Base method: System.Void Object::.ctor()
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RemoteProcedureCall_4<T0, T1, T2, T3>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RemoteProcedureCall_4::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<RemoteProcedureCall_4<T0, T1, T2, T3>*, creationType>()));
-    }
     // protected override System.Void SerializeData(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0xFFFFFFFF
     // Implemented from: RemoteProcedureCall
@@ -188,6 +178,16 @@ namespace GlobalNamespace {
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "DeserializeData", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader)})));
       auto ___instance_arg = this;
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, reader);
+    }
+    // public System.Void .ctor()
+    // Offset: 0xFFFFFFFF
+    // Implemented from: RemoteProcedureCall
+    // Base method: System.Void RemoteProcedureCall::.ctor()
+    // Base method: System.Void Object::.ctor()
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static RemoteProcedureCall_4<T0, T1, T2, T3>* New_ctor() {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RemoteProcedureCall_4::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<RemoteProcedureCall_4<T0, T1, T2, T3>*, creationType>()));
     }
   }; // RemoteProcedureCall`4
   // Could not write size check! Type: RemoteProcedureCall`4 is generic, or has no fields that are valid for size checks!

@@ -54,30 +54,30 @@ namespace NUnit::Framework::Internal::Builders {
     System::Collections::Generic::Dictionary_2<::Il2CppString*, NUnit::Framework::Internal::TestSuite*>*& dyn_namespaceSuites();
     // Get instance field reference: private NUnit.Framework.Internal.TestSuite rootSuite
     NUnit::Framework::Internal::TestSuite*& dyn_rootSuite();
-    // public NUnit.Framework.Internal.TestSuite get_RootSuite()
-    // Offset: 0x17692A4
-    NUnit::Framework::Internal::TestSuite* get_RootSuite();
     // public System.Void .ctor(NUnit.Framework.Internal.TestSuite rootSuite)
-    // Offset: 0x1768F78
+    // Offset: 0x1927FC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamespaceTreeBuilder* New_ctor(NUnit::Framework::Internal::TestSuite* rootSuite) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NamespaceTreeBuilder*, creationType>(rootSuite)));
     }
+    // public NUnit.Framework.Internal.TestSuite get_RootSuite()
+    // Offset: 0x19282F0
+    NUnit::Framework::Internal::TestSuite* get_RootSuite();
     // public System.Void Add(System.Collections.Generic.IList`1<NUnit.Framework.Internal.Test> fixtures)
-    // Offset: 0x1768FFC
+    // Offset: 0x1928048
     void Add(System::Collections::Generic::IList_1<NUnit::Framework::Internal::Test*>* fixtures);
     // public System.Void Add(NUnit.Framework.Internal.TestSuite fixture)
-    // Offset: 0x177C7F8
+    // Offset: 0x193B844
     void Add(NUnit::Framework::Internal::TestSuite* fixture);
     // static private System.String GetNamespaceForFixture(NUnit.Framework.Internal.TestSuite fixture)
-    // Offset: 0x177C8C8
+    // Offset: 0x193B914
     static ::Il2CppString* GetNamespaceForFixture(NUnit::Framework::Internal::TestSuite* fixture);
     // private NUnit.Framework.Internal.TestSuite BuildFromNameSpace(System.String ns)
-    // Offset: 0x177C9D4
+    // Offset: 0x193BA20
     NUnit::Framework::Internal::TestSuite* BuildFromNameSpace(::Il2CppString* ns);
     // private System.Void AddSetUpFixture(NUnit.Framework.Internal.TestSuite newSetupFixture, NUnit.Framework.Internal.TestSuite containingSuite, System.String ns)
-    // Offset: 0x177CB8C
+    // Offset: 0x193BBD8
     void AddSetUpFixture(NUnit::Framework::Internal::TestSuite* newSetupFixture, NUnit::Framework::Internal::TestSuite* containingSuite, ::Il2CppString* ns);
   }; // NUnit.Framework.Internal.Builders.NamespaceTreeBuilder
   #pragma pack(pop)
@@ -86,6 +86,10 @@ namespace NUnit::Framework::Internal::Builders {
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*, "NUnit.Framework.Internal.Builders", "NamespaceTreeBuilder");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::get_RootSuite
 // Il2CppName: get_RootSuite
 template<>
@@ -94,10 +98,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*), "get_RootSuite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::Add
 // Il2CppName: Add
 template<>

@@ -31,7 +31,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: AssetDetailsList
     AssetDetailsList() noexcept {}
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x152C7F0
+    // Offset: 0x16B5538
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetDetailsList* New_ctor(System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AssetDetailsList::.ctor");

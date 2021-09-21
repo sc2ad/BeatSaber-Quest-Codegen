@@ -155,22 +155,27 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _rotation
     float& dyn__rotation();
     // public System.Boolean get_isFinished()
-    // Offset: 0x11DE22C
+    // Offset: 0x126E818
     bool get_isFinished();
     // public System.Single get_rotation()
-    // Offset: 0x11DE284
+    // Offset: 0x126E870
     float get_rotation();
     // public System.Void Init(UnityEngine.Vector3 position, System.Single rotation)
-    // Offset: 0x11DE28C
+    // Offset: 0x126E878
     void Init(UnityEngine::Vector3 position, float rotation);
     // public System.Void AddHighlight(System.Single startTime, System.Single arriveDuration, System.Single jumpDuration)
-    // Offset: 0x11DE3A4
+    // Offset: 0x126E990
     void AddHighlight(float startTime, float arriveDuration, float jumpDuration);
     // public System.Void ManualUpdate(System.Single songTime)
-    // Offset: 0x11DE428
+    // Offset: 0x126EA14
     void ManualUpdate(float songTime);
+    // public override System.Void ColorWasSet(UnityEngine.Color color)
+    // Offset: 0x126E984
+    // Implemented from: LightWithIdMonoBehaviour
+    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
+    void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x11DE59C
+    // Offset: 0x126EB88
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -183,11 +188,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatLine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatLine*, creationType>()));
     }
-    // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x11DE398
-    // Implemented from: LightWithIdMonoBehaviour
-    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
-    void ColorWasSet(UnityEngine::Color color);
   }; // BeatLine
   #pragma pack(pop)
   static check_size<sizeof(BeatLine), 104 + sizeof(float)> __GlobalNamespace_BeatLineSizeCheck;
@@ -242,10 +242,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatLine*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{songTime});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatLine::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatLine::ColorWasSet
 // Il2CppName: ColorWasSet
 template<>
@@ -255,3 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatLine*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BeatLine::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
-    // [InjectAttribute] Offset: 0xE3F774
+    // [InjectAttribute] Offset: 0xF080F8
     // private SaberActivityCounter _saberActivityCounter
     // Size: 0x8
     // Offset: 0x48
@@ -41,13 +41,18 @@ namespace GlobalNamespace {
     // Get instance field reference: private SaberActivityCounter _saberActivityCounter
     GlobalNamespace::SaberActivityCounter*& dyn__saberActivityCounter();
     // protected System.Void OnDestroy()
-    // Offset: 0x1185A00
+    // Offset: 0x11440DC
     void OnDestroy();
     // private System.Void HandleTotalDistanceDidChange(System.Single distance)
-    // Offset: 0x1185ADC
+    // Offset: 0x11441B8
     void HandleTotalDistanceDidChange(float distance);
+    // protected override System.Void Init()
+    // Offset: 0x1144200
+    // Implemented from: MissionObjectiveChecker
+    // Base method: System.Void MissionObjectiveChecker::Init()
+    void Init();
     // public System.Void .ctor()
-    // Offset: 0x1185BE8
+    // Offset: 0x11442C4
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()
@@ -61,11 +66,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HandsMovementMissionObjectiveChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HandsMovementMissionObjectiveChecker*, creationType>()));
     }
-    // protected override System.Void Init()
-    // Offset: 0x1185B24
-    // Implemented from: MissionObjectiveChecker
-    // Base method: System.Void MissionObjectiveChecker::Init()
-    void Init();
   }; // HandsMovementMissionObjectiveChecker
   #pragma pack(pop)
   static check_size<sizeof(HandsMovementMissionObjectiveChecker), 72 + sizeof(GlobalNamespace::SaberActivityCounter*)> __GlobalNamespace_HandsMovementMissionObjectiveCheckerSizeCheck;
@@ -90,10 +90,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HandsMovementMissionObjectiveChecker*), "HandleTotalDistanceDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{distance});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::HandsMovementMissionObjectiveChecker::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::HandsMovementMissionObjectiveChecker::Init
 // Il2CppName: Init
 template<>
@@ -102,3 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HandsMovementMissionObjectiveChecker*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::HandsMovementMissionObjectiveChecker::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -37,10 +37,15 @@ namespace MasterServer {
       return *reinterpret_cast<MasterServer::IHandshakeMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.HandshakeMessageReceivedAcknowledge> get_pool()
-    // Offset: 0x121D5F0
+    // Offset: 0x12DC990
     static GlobalNamespace::PacketPool_1<MasterServer::HandshakeMessageReceivedAcknowledge*>* get_pool();
+    // public override System.Void Release()
+    // Offset: 0x12DC9D8
+    // Implemented from: BaseMasterServerResponse
+    // Base method: System.Void BaseMasterServerResponse::Release()
+    void Release();
     // public System.Void .ctor()
-    // Offset: 0x121D694
+    // Offset: 0x12DCA34
     // Implemented from: BaseMasterServerAcknowledgeMessage
     // Base method: System.Void BaseMasterServerAcknowledgeMessage::.ctor()
     // Base method: System.Void BaseMasterServerResponse::.ctor()
@@ -50,11 +55,6 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::HandshakeMessageReceivedAcknowledge::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HandshakeMessageReceivedAcknowledge*, creationType>()));
     }
-    // public override System.Void Release()
-    // Offset: 0x121D638
-    // Implemented from: BaseMasterServerResponse
-    // Base method: System.Void BaseMasterServerResponse::Release()
-    void Release();
   }; // MasterServer.HandshakeMessageReceivedAcknowledge
   #pragma pack(pop)
 }
@@ -68,10 +68,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
     return ::il2cpp_utils::FindMethod(classof(MasterServer::HandshakeMessageReceivedAcknowledge*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MasterServer::HandshakeMessageReceivedAcknowledge::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: MasterServer::HandshakeMessageReceivedAcknowledge::Release
 // Il2CppName: Release
 template<>
@@ -80,3 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
     return ::il2cpp_utils::FindMethod(classof(MasterServer::HandshakeMessageReceivedAcknowledge*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: MasterServer::HandshakeMessageReceivedAcknowledge::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -22,8 +22,13 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: MultiplayerMenuInstaller
     MultiplayerMenuInstaller() noexcept {}
+    // public override System.Void InstallBindings()
+    // Offset: 0x1177FD4
+    // Implemented from: Zenject.MonoInstallerBase
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
+    void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1088A00
+    // Offset: 0x117805C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -37,20 +42,11 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerMenuInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerMenuInstaller*, creationType>()));
     }
-    // public override System.Void InstallBindings()
-    // Offset: 0x1088978
-    // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings()
-    void InstallBindings();
   }; // MultiplayerMenuInstaller
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerMenuInstaller*, "", "MultiplayerMenuInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerMenuInstaller::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerMenuInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>
@@ -59,3 +55,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMenuInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerMenuInstaller::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

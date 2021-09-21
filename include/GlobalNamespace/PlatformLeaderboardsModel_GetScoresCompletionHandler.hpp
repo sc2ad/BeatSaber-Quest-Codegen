@@ -34,20 +34,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GetScoresCompletionHandler
     GetScoresCompletionHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x11F2CF8
+    // Offset: 0x12B2AC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformLeaderboardsModel::GetScoresCompletionHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformLeaderboardsModel::GetScoresCompletionHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(PlatformLeaderboardsModel/GetScoresResult result, PlatformLeaderboardsModel/LeaderboardScore[] scores, System.Int32 referencePlayerScoreIndex)
-    // Offset: 0x11F324C
+    // Offset: 0x12B301C
     void Invoke(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult result, ::Array<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>* scores, int referencePlayerScoreIndex);
     // public System.IAsyncResult BeginInvoke(PlatformLeaderboardsModel/GetScoresResult result, PlatformLeaderboardsModel/LeaderboardScore[] scores, System.Int32 referencePlayerScoreIndex, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11F3A34
+    // Offset: 0x12B3804
     System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult result, ::Array<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>* scores, int referencePlayerScoreIndex, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11F3AEC
+    // Offset: 0x12B38BC
     void EndInvoke(System::IAsyncResult* result);
   }; // PlatformLeaderboardsModel/GetScoresCompletionHandler
   #pragma pack(pop)

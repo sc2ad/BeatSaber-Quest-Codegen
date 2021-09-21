@@ -71,13 +71,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: movementSensitivityThreshold and: saberManager
     char __padding4[0x4] = {};
-    // [InjectAttribute] Offset: 0xE420C8
+    // [InjectAttribute] Offset: 0xF0AA5C
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberManager*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0AA6C
     // private System.Action`1<System.Single> totalDistanceDidChangeEvent
     // Size: 0x8
     // Offset: 0x38
@@ -210,41 +211,41 @@ namespace GlobalNamespace {
     GlobalNamespace::MovementHistoryRecorder*& dyn__saberMovementHistoryRecorder();
     // Get instance field reference: private MovementHistoryRecorder _handMovementHistoryRecorder
     GlobalNamespace::MovementHistoryRecorder*& dyn__handMovementHistoryRecorder();
-    // public System.Single get_leftSaberMovementDistance()
-    // Offset: 0x112D0DC
-    float get_leftSaberMovementDistance();
-    // public System.Single get_rightSaberMovementDistance()
-    // Offset: 0x112D0E4
-    float get_rightSaberMovementDistance();
-    // public System.Single get_leftHandMovementDistance()
-    // Offset: 0x112D0EC
-    float get_leftHandMovementDistance();
-    // public System.Single get_rightHandMovementDistance()
-    // Offset: 0x112D0F4
-    float get_rightHandMovementDistance();
-    // public AveragingValueRecorder get_saberMovementAveragingValueRecorder()
-    // Offset: 0x112D0FC
-    GlobalNamespace::AveragingValueRecorder* get_saberMovementAveragingValueRecorder();
-    // public AveragingValueRecorder get_handMovementAveragingValueRecorder()
-    // Offset: 0x112D118
-    GlobalNamespace::AveragingValueRecorder* get_handMovementAveragingValueRecorder();
     // public System.Void add_totalDistanceDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x112CF94
+    // Offset: 0x11C660C
     void add_totalDistanceDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_totalDistanceDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x112D038
+    // Offset: 0x11C66B0
     void remove_totalDistanceDidChangeEvent(System::Action_1<float>* value);
+    // public System.Single get_leftSaberMovementDistance()
+    // Offset: 0x11C6754
+    float get_leftSaberMovementDistance();
+    // public System.Single get_rightSaberMovementDistance()
+    // Offset: 0x11C675C
+    float get_rightSaberMovementDistance();
+    // public System.Single get_leftHandMovementDistance()
+    // Offset: 0x11C6764
+    float get_leftHandMovementDistance();
+    // public System.Single get_rightHandMovementDistance()
+    // Offset: 0x11C676C
+    float get_rightHandMovementDistance();
+    // public AveragingValueRecorder get_saberMovementAveragingValueRecorder()
+    // Offset: 0x11BD4E4
+    GlobalNamespace::AveragingValueRecorder* get_saberMovementAveragingValueRecorder();
+    // public AveragingValueRecorder get_handMovementAveragingValueRecorder()
+    // Offset: 0x11BD500
+    GlobalNamespace::AveragingValueRecorder* get_handMovementAveragingValueRecorder();
     // protected System.Void Awake()
-    // Offset: 0x112D134
+    // Offset: 0x11C6774
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x112D1F4
+    // Offset: 0x11C6834
     void Start();
     // protected System.Void Update()
-    // Offset: 0x112D21C
+    // Offset: 0x11C685C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x112D5CC
+    // Offset: 0x11C6C0C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -263,6 +264,24 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberActivityCounter*, "", "SaberActivityCounter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::SaberActivityCounter::add_totalDistanceDidChangeEvent
+// Il2CppName: add_totalDistanceDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberActivityCounter::*)(System::Action_1<float>*)>(&GlobalNamespace::SaberActivityCounter::add_totalDistanceDidChangeEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberActivityCounter*), "add_totalDistanceDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::SaberActivityCounter::remove_totalDistanceDidChangeEvent
+// Il2CppName: remove_totalDistanceDidChangeEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberActivityCounter::*)(System::Action_1<float>*)>(&GlobalNamespace::SaberActivityCounter::remove_totalDistanceDidChangeEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberActivityCounter*), "remove_totalDistanceDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::SaberActivityCounter::get_leftSaberMovementDistance
 // Il2CppName: get_leftSaberMovementDistance
 template<>
@@ -309,24 +328,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AveragingValueRecorder* (GlobalNamespace::SaberActivityCounter::*)()>(&GlobalNamespace::SaberActivityCounter::get_handMovementAveragingValueRecorder)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberActivityCounter*), "get_handMovementAveragingValueRecorder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::SaberActivityCounter::add_totalDistanceDidChangeEvent
-// Il2CppName: add_totalDistanceDidChangeEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberActivityCounter::*)(System::Action_1<float>*)>(&GlobalNamespace::SaberActivityCounter::add_totalDistanceDidChangeEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberActivityCounter*), "add_totalDistanceDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::SaberActivityCounter::remove_totalDistanceDidChangeEvent
-// Il2CppName: remove_totalDistanceDidChangeEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberActivityCounter::*)(System::Action_1<float>*)>(&GlobalNamespace::SaberActivityCounter::remove_totalDistanceDidChangeEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberActivityCounter*), "remove_totalDistanceDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SaberActivityCounter::Awake

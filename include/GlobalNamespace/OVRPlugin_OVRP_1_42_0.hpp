@@ -29,26 +29,18 @@ namespace GlobalNamespace {
     static System::Version* _get_version();
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
-    // static private System.Void .cctor()
-    // Offset: 0x1636D30
-    static void _cctor();
     // static public OVRPlugin/Result ovrp_GetAdaptiveGpuPerformanceScale2(ref System.Single adaptiveGpuPerformanceScale)
-    // Offset: 0x1636CB0
+    // Offset: 0x1803910
     static GlobalNamespace::OVRPlugin::Result ovrp_GetAdaptiveGpuPerformanceScale2(ByRef<float> adaptiveGpuPerformanceScale);
+    // static private System.Void .cctor()
+    // Offset: 0x1803990
+    static void _cctor();
   }; // OVRPlugin/OVRP_1_42_0
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_42_0*, "", "OVRPlugin/OVRP_1_42_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_42_0::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_42_0::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_42_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_42_0::ovrp_GetAdaptiveGpuPerformanceScale2
 // Il2CppName: ovrp_GetAdaptiveGpuPerformanceScale2
 template<>
@@ -56,5 +48,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
   static const MethodInfo* get() {
     static auto* adaptiveGpuPerformanceScale = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_42_0*), "ovrp_GetAdaptiveGpuPerformanceScale2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{adaptiveGpuPerformanceScale});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_42_0::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_42_0::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_42_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

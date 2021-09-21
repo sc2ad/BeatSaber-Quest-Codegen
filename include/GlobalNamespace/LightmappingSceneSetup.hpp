@@ -76,13 +76,18 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorSchemeSO _colorScheme
     GlobalNamespace::ColorSchemeSO*& dyn__colorScheme();
     // public ColorSchemeSO get_colorScheme()
-    // Offset: 0x1207798
+    // Offset: 0x1314118
     GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.Void set_colorScheme(ColorSchemeSO value)
-    // Offset: 0x12077A0
+    // Offset: 0x1314120
     void set_colorScheme(GlobalNamespace::ColorSchemeSO* value);
+    // public override System.Void InstallBindings()
+    // Offset: 0x1314128
+    // Implemented from: Zenject.MonoInstallerBase
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
+    void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1207EA0
+    // Offset: 0x1314820
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -96,11 +101,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LightmappingSceneSetup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightmappingSceneSetup*, creationType>()));
     }
-    // public override System.Void InstallBindings()
-    // Offset: 0x12077A8
-    // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings()
-    void InstallBindings();
   }; // LightmappingSceneSetup
   #pragma pack(pop)
   static check_size<sizeof(LightmappingSceneSetup), 56 + sizeof(GlobalNamespace::ColorSchemeSO*)> __GlobalNamespace_LightmappingSceneSetupSizeCheck;
@@ -125,10 +125,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmappingSceneSetup*), "set_colorScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LightmappingSceneSetup::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::LightmappingSceneSetup::InstallBindings
 // Il2CppName: InstallBindings
 template<>
@@ -137,3 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmappingSceneSetup*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LightmappingSceneSetup::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -59,18 +59,18 @@ namespace LiteNetLib {
     LiteNetLib::NetPeer*& dyn_Peer();
     // Get instance field reference: protected readonly System.Collections.Generic.Queue`1<LiteNetLib.NetPacket> OutgoingQueue
     System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>*& dyn_OutgoingQueue();
-    // public System.Int32 get_PacketsInQueue()
-    // Offset: 0x1C177C4
-    int get_PacketsInQueue();
     // protected System.Void .ctor(LiteNetLib.NetPeer peer)
-    // Offset: 0x1C1773C
+    // Offset: 0x1DCF5A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseChannel* New_ctor(LiteNetLib::NetPeer* peer) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::BaseChannel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseChannel*, creationType>(peer)));
     }
+    // public System.Int32 get_PacketsInQueue()
+    // Offset: 0x1DCF62C
+    int get_PacketsInQueue();
     // public System.Void AddToQueue(LiteNetLib.NetPacket packet)
-    // Offset: 0x1C17814
+    // Offset: 0x1DCF67C
     void AddToQueue(LiteNetLib::NetPacket* packet);
     // public System.Void SendNextPackets()
     // Offset: 0xFFFFFFFF
@@ -85,6 +85,10 @@ namespace LiteNetLib {
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::BaseChannel*, "LiteNetLib", "BaseChannel");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: LiteNetLib::BaseChannel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: LiteNetLib::BaseChannel::get_PacketsInQueue
 // Il2CppName: get_PacketsInQueue
 template<>
@@ -93,10 +97,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNe
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::BaseChannel*), "get_PacketsInQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLib::BaseChannel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: LiteNetLib::BaseChannel::AddToQueue
 // Il2CppName: AddToQueue
 template<>

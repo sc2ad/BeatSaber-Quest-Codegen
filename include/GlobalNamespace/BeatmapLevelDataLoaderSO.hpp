@@ -107,7 +107,7 @@ namespace GlobalNamespace {
       // Get instance field reference: public readonly IPreviewBeatmapLevel previewBeatmapLevel
       GlobalNamespace::IPreviewBeatmapLevel*& dyn_previewBeatmapLevel();
       // public System.Void .ctor(System.String assetBundlePath, System.String levelDataAssetName, IPreviewBeatmapLevel previewBeatmapLevel)
-      // Offset: 0x11EDA4C
+      // Offset: 0x12974D8
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  AssetBundleLevelInfo(::Il2CppString* assetBundlePath, ::Il2CppString* levelDataAssetName, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel)
     }; // BeatmapLevelDataLoaderSO/AssetBundleLevelInfo
@@ -143,16 +143,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,BeatmapLevelDataLoaderSO/AssetBundleLevelInfo> _bundleLevelInfos
     System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo>*& dyn__bundleLevelInfos();
     // public System.Threading.Tasks.Task`1<IBeatmapLevel> LoadBeatmapLevelFormAssetBundleAsync(IPreviewBeatmapLevel previewBeatmapLevel, System.String assetBundlePath, System.String levelDataAssetName, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x11EC890
+    // Offset: 0x127CECC
     System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevel*>* LoadBeatmapLevelFormAssetBundleAsync(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::Il2CppString* assetBundlePath, ::Il2CppString* levelDataAssetName, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<IBeatmapLevel> LoadBeatmapLevelAsync(System.String levelID)
-    // Offset: 0x11EC9C4
+    // Offset: 0x127D000
     System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevel*>* LoadBeatmapLevelAsync(::Il2CppString* levelID);
     // private System.Threading.Tasks.Task`1<BeatmapLevelDataSO> LoadBeatmalLevelDataAsync(System.String assetBundlePath, System.String levelDataAssetName)
-    // Offset: 0x11ECAE8
+    // Offset: 0x127D124
     System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelDataSO*>* LoadBeatmalLevelDataAsync(::Il2CppString* assetBundlePath, ::Il2CppString* levelDataAssetName);
     // public System.Void .ctor()
-    // Offset: 0x11ECC0C
+    // Offset: 0x127D248
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

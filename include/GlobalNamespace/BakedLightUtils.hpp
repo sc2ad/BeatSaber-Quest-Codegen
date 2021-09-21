@@ -35,51 +35,52 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kDepthOnlyShaderName();
     // Set static field: static private System.String kDepthOnlyShaderName
     static void _set_kDepthOnlyShaderName(::Il2CppString* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE4AC94
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF13890
     // Get static field: static private readonly System.Int32 _zWritePropertyId
     static int _get__zWritePropertyId();
     // Set static field: static private readonly System.Int32 _zWritePropertyId
     static void _set__zWritePropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE4ACA4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF138A0
     // Get static field: static private readonly System.Int32 _stencilRefValuePropertyId
     static int _get__stencilRefValuePropertyId();
     // Set static field: static private readonly System.Int32 _stencilRefValuePropertyId
     static void _set__stencilRefValuePropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE4ACB4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF138B0
     // Get static field: static private readonly System.Int32 _stencilCompPropertyId
     static int _get__stencilCompPropertyId();
     // Set static field: static private readonly System.Int32 _stencilCompPropertyId
     static void _set__stencilCompPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE4ACC4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF138C0
     // Get static field: static private readonly System.Int32 _stencilPassOpPropertyId
     static int _get__stencilPassOpPropertyId();
     // Set static field: static private readonly System.Int32 _stencilPassOpPropertyId
     static void _set__stencilPassOpPropertyId(int value);
+    // static public System.Void ValidateLoadedEnvironmentScene(System.Boolean validateBakedGIEnabled)
+    // Offset: 0x1269E7C
+    static void ValidateLoadedEnvironmentScene(bool validateBakedGIEnabled);
     // static private System.Void .cctor()
-    // Offset: 0x11D9FAC
+    // Offset: 0x126A598
     static void _cctor();
-    // static public System.Void ValidateLoadedEnvironmentScene()
-    // Offset: 0x11D9B1C
-    static void ValidateLoadedEnvironmentScene();
   }; // BakedLightUtils
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BakedLightUtils*, "", "BakedLightUtils");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::BakedLightUtils::ValidateLoadedEnvironmentScene
+// Il2CppName: ValidateLoadedEnvironmentScene
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&GlobalNamespace::BakedLightUtils::ValidateLoadedEnvironmentScene)> {
+  static const MethodInfo* get() {
+    static auto* validateBakedGIEnabled = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedLightUtils*), "ValidateLoadedEnvironmentScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{validateBakedGIEnabled});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BakedLightUtils::_cctor
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BakedLightUtils::_cctor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedLightUtils*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::BakedLightUtils::ValidateLoadedEnvironmentScene
-// Il2CppName: ValidateLoadedEnvironmentScene
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BakedLightUtils::ValidateLoadedEnvironmentScene)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedLightUtils*), "ValidateLoadedEnvironmentScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

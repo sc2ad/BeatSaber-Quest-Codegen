@@ -124,7 +124,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* createServerButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE48B34
+    // [SpaceAttribute] Offset: 0xF11548
     // private TMPro.TextMeshProUGUI _maintenanceMessageText
     // Size: 0x8
     // Offset: 0x90
@@ -137,13 +137,14 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* customServerEndPointText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0xE48B7C
+    // [InjectAttribute] Offset: 0xF11590
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0xA0
     GlobalNamespace::INetworkConfig* networkConfig;
     // Field size check
     static_assert(sizeof(GlobalNamespace::INetworkConfig*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF115A0
     // private System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> didFinishEvent
     // Size: 0x8
     // Offset: 0xA8
@@ -169,31 +170,36 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> didFinishEvent
     System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> value)
-    // Offset: 0x1088FE4
+    // Offset: 0x1178640
     void add_didFinishEvent(System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> value)
-    // Offset: 0x1089490
+    // Offset: 0x1178AEC
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* value);
     // public System.Void SetData(MasterServerAvailabilityData masterServerAvailabilityData)
-    // Offset: 0x108BF28
+    // Offset: 0x117B584
     void SetData(GlobalNamespace::MasterServerAvailabilityData* masterServerAvailabilityData);
     // private System.Void HandleMenuButton(MultiplayerModeSelectionViewController/MenuButton menuButton)
-    // Offset: 0x108C410
+    // Offset: 0x117BA6C
     void HandleMenuButton(GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton menuButton);
     // private System.Void <DidActivate>b__11_0()
-    // Offset: 0x108C490
+    // Offset: 0x117BAEC
     void $DidActivate$b__11_0();
     // private System.Void <DidActivate>b__11_1()
-    // Offset: 0x108C498
+    // Offset: 0x117BAF4
     void $DidActivate$b__11_1();
     // private System.Void <DidActivate>b__11_2()
-    // Offset: 0x108C4A0
+    // Offset: 0x117BAFC
     void $DidActivate$b__11_2();
     // private System.Void <DidActivate>b__11_3()
-    // Offset: 0x108C4A8
+    // Offset: 0x117BB04
     void $DidActivate$b__11_3();
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x117B7D4
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x108C488
+    // Offset: 0x117BAE4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -206,11 +212,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerModeSelectionViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerModeSelectionViewController*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x108C178
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
   }; // MultiplayerModeSelectionViewController
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerModeSelectionViewController), 168 + sizeof(System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>*)> __GlobalNamespace_MultiplayerModeSelectionViewControllerSizeCheck;
@@ -287,10 +288,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerModeSelectionViewController*), "<DidActivate>b__11_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -302,3 +299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerModeSelectionViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{firstActivation, addedToHierarchy, screenSystemEnabling});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

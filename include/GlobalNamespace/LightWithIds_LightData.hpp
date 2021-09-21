@@ -55,28 +55,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isRegistered
     bool& dyn__isRegistered();
     // public System.Int32 get_lightId()
-    // Offset: 0x1E1AC44
+    // Offset: 0x1E2AB80
     int get_lightId();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1E1AC4C
+    // Offset: 0x1E2AB88
     UnityEngine::Color get_color();
     // public System.Boolean get_isRegistered()
-    // Offset: 0x1E1AC58
+    // Offset: 0x1E2AB94
     bool get_isRegistered();
     // public System.Void __SetIsRegistered()
-    // Offset: 0x1E1AC60
+    // Offset: 0x1E2AB9C
     void __SetIsRegistered();
     // public System.Void __SetIsUnRegistered()
-    // Offset: 0x1E1AC6C
+    // Offset: 0x1E2ABA8
     void __SetIsUnRegistered();
     // public System.Void ColorWasSet(UnityEngine.Color newColor)
-    // Offset: 0x1E1AC74
+    // Offset: 0x1E2ABB0
     void ColorWasSet(UnityEngine::Color newColor);
-    // protected UnityEngine.Color ProcessColor(UnityEngine.Color newColor)
-    // Offset: 0xFFFFFFFF
-    UnityEngine::Color ProcessColor(UnityEngine::Color newColor);
     // protected System.Void .ctor()
-    // Offset: 0x1E1ACA4
+    // Offset: 0x1E2ABBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -138,15 +135,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* newColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIds::LightData*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newColor});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::LightWithIds::LightData::ProcessColor
-// Il2CppName: ProcessColor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::LightWithIds::LightData::*)(UnityEngine::Color)>(&GlobalNamespace::LightWithIds::LightData::ProcessColor)> {
-  static const MethodInfo* get() {
-    static auto* newColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIds::LightData*), "ProcessColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newColor});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIds::LightData::New_ctor

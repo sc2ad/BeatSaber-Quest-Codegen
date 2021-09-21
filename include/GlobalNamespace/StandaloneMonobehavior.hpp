@@ -93,37 +93,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _lastFrameTimeCount
     int& dyn__lastFrameTimeCount();
     // public System.Single get_objectLifeTime()
-    // Offset: 0x16FFFB4
+    // Offset: 0x18D9AB4
     float get_objectLifeTime();
     // public System.Single get_deltaTime()
-    // Offset: 0x16FFFE0
+    // Offset: 0x18D9AE0
     float get_deltaTime();
     // public System.Single get_lastFrameTime()
-    // Offset: 0x16FFFE8
+    // Offset: 0x18D9AE8
     float get_lastFrameTime();
     // public System.Boolean get_isReady()
-    // Offset: 0x1700070
+    // Offset: 0x18D9B70
     bool get_isReady();
     // protected System.Void Awake()
-    // Offset: 0x1700078
+    // Offset: 0x18D9B78
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x17000A0
+    // Offset: 0x18D9BA0
     void Start();
     // protected System.Void Update()
-    // Offset: 0x17000A4
+    // Offset: 0x18D9BA4
     void Update();
     // protected System.Void OnDestroy()
-    // Offset: 0x17000A8
+    // Offset: 0x18D9BA8
     void OnDestroy();
     // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0x17000AC
+    // Offset: 0x18D9BAC
     void OnApplicationPause(bool pauseStatus);
     // public System.Void WhenReady(System.Action action)
-    // Offset: 0x17000B0
+    // Offset: 0x18D9BB0
     void WhenReady(System::Action* action);
     // private System.Collections.IEnumerator AfterOneFrame(System.Action action)
-    // Offset: 0x17000F8
+    // Offset: 0x18D9BF8
     System::Collections::IEnumerator* AfterOneFrame(System::Action* action);
     // static public T Create()
     // Offset: 0xFFFFFFFF
@@ -136,16 +136,16 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
     }
     // public System.Threading.Tasks.Task RunAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x17001A0
+    // Offset: 0x18D9CA0
     System::Threading::Tasks::Task* RunAsync(System::Threading::CancellationToken cancellationToken);
     // private System.Collections.IEnumerator RunAsyncCoroutine(System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> tcs, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x170023C
+    // Offset: 0x18D9D3C
     System::Collections::IEnumerator* RunAsyncCoroutine(System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs, System::Threading::CancellationToken cancellationToken);
     // private System.Single GetLastFrameTime()
-    // Offset: 0x16FFFEC
+    // Offset: 0x18D9AEC
     float GetLastFrameTime();
     // public System.Void .ctor()
-    // Offset: 0x16F42B4
+    // Offset: 0x18CDE30
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

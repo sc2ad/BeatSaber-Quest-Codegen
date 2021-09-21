@@ -88,32 +88,24 @@ namespace Mono::Security::X509 {
     static ::Array<uint8_t>* _get_initial();
     // Set static field: static private System.Byte[] initial
     static void _set_initial(::Array<uint8_t>* value);
-    // static private System.Void .cctor()
-    // Offset: 0x23D71D8
-    static void _cctor();
     // static public System.String ToString(Mono.Security.ASN1 seq)
-    // Offset: 0x23D67B8
+    // Offset: 0x25DBF94
     static ::Il2CppString* ToString(Mono::Security::ASN1* seq);
     // static public System.String ToString(Mono.Security.ASN1 seq, System.Boolean reversed, System.String separator, System.Boolean quotes)
-    // Offset: 0x23D7010
+    // Offset: 0x25DC7EC
     static ::Il2CppString* ToString(Mono::Security::ASN1* seq, bool reversed, ::Il2CppString* separator, bool quotes);
     // static private System.Void AppendEntry(System.Text.StringBuilder sb, Mono.Security.ASN1 entry, System.Boolean quotes)
-    // Offset: 0x23D68E8
+    // Offset: 0x25DC0C4
     static void AppendEntry(System::Text::StringBuilder* sb, Mono::Security::ASN1* entry, bool quotes);
+    // static private System.Void .cctor()
+    // Offset: 0x25DC9B4
+    static void _cctor();
   }; // Mono.Security.X509.X501
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X501*, "Mono.Security.X509", "X501");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: Mono::Security::X509::X501::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Security::X509::X501::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X501*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: Mono::Security::X509::X501::ToString
 // Il2CppName: ToString
 template<>
@@ -144,5 +136,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
     static auto* entry = &::il2cpp_utils::GetClassFromName("Mono.Security", "ASN1")->byval_arg;
     static auto* quotes = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X501*), "AppendEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sb, entry, quotes});
+  }
+};
+// Writing MetadataGetter for method: Mono::Security::X509::X501::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Security::X509::X501::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X501*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

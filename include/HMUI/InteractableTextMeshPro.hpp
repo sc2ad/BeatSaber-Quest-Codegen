@@ -50,7 +50,7 @@ namespace HMUI {
     float noInteractionAlpha;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xE1B514
+    // [SpaceAttribute] Offset: 0xEE1BF0
     // private TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0x20
@@ -75,8 +75,13 @@ namespace HMUI {
     TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.CanvasGroup> _canvasGroupCache
     System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>*& dyn__canvasGroupCache();
+    // protected override System.Void OnCanvasGroupChanged()
+    // Offset: 0x14114C0
+    // Implemented from: UnityEngine.EventSystems.UIBehaviour
+    // Base method: System.Void UIBehaviour::OnCanvasGroupChanged()
+    void OnCanvasGroupChanged();
     // public System.Void .ctor()
-    // Offset: 0x130F0A8
+    // Offset: 0x1411658
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -89,11 +94,6 @@ namespace HMUI {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::InteractableTextMeshPro::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractableTextMeshPro*, creationType>()));
     }
-    // protected override System.Void OnCanvasGroupChanged()
-    // Offset: 0x130EF10
-    // Implemented from: UnityEngine.EventSystems.UIBehaviour
-    // Base method: System.Void UIBehaviour::OnCanvasGroupChanged()
-    void OnCanvasGroupChanged();
   }; // HMUI.InteractableTextMeshPro
   #pragma pack(pop)
   static check_size<sizeof(InteractableTextMeshPro), 40 + sizeof(System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>*)> __HMUI_InteractableTextMeshProSizeCheck;
@@ -101,10 +101,6 @@ namespace HMUI {
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InteractableTextMeshPro*, "HMUI", "InteractableTextMeshPro");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: HMUI::InteractableTextMeshPro::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::InteractableTextMeshPro::OnCanvasGroupChanged
 // Il2CppName: OnCanvasGroupChanged
 template<>
@@ -113,3 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::InteractableTextMeshPro*), "OnCanvasGroupChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: HMUI::InteractableTextMeshPro::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

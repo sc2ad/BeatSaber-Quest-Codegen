@@ -58,7 +58,7 @@ namespace OnlineServices::API {
     struct $GetLeaderboardEntriesAsync$d__4;
     // Nested type: OnlineServices::API::HTTPApiLeaderboardsModel::$SendLevelScoreResultAsync$d__5
     struct $SendLevelScoreResultAsync$d__5;
-    // [InjectAttribute] Offset: 0xE4C858
+    // [InjectAttribute] Offset: 0xF15484
     // private readonly OnlineServices.API.HTTPLeaderboardsOathHelper _httpLeaderboardsOathHelper
     // Size: 0x8
     // Offset: 0x10
@@ -90,16 +90,16 @@ namespace OnlineServices::API {
     // Get instance field reference: private readonly OnlineServices.API.HTTPLeaderboardsOathHelper _httpLeaderboardsOathHelper
     OnlineServices::API::HTTPLeaderboardsOathHelper*& dyn__httpLeaderboardsOathHelper();
     // public System.Void LogoutAsync()
-    // Offset: 0x102D8F0
+    // Offset: 0x111CD60
     void LogoutAsync();
     // public System.Threading.Tasks.Task`1<OnlineServices.API.ApiResponse`1<BeatSaberAPI.DataTransferObjects.LeaderboardEntries>> GetLeaderboardEntriesAsync(BeatSaberAPI.DataTransferObjects.LeaderboardQuery leaderboardQueryDTO, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x102D9B0
+    // Offset: 0x111CE20
     System::Threading::Tasks::Task_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>* GetLeaderboardEntriesAsync(BeatSaberAPI::DataTransferObjects::LeaderboardQuery* leaderboardQueryDTO, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<OnlineServices.API.Response> SendLevelScoreResultAsync(BeatSaberAPI.DataTransferObjects.LevelScoreResult levelScoreResult, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x102DAC4
+    // Offset: 0x111CF34
     System::Threading::Tasks::Task_1<OnlineServices::API::Response>* SendLevelScoreResultAsync(BeatSaberAPI::DataTransferObjects::LevelScoreResult* levelScoreResult, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x102DBD8
+    // Offset: 0x111D048
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

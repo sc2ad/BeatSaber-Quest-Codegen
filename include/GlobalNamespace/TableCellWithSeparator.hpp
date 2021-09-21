@@ -42,8 +42,13 @@ namespace GlobalNamespace {
     TableCellWithSeparator(UnityEngine::GameObject* separator_ = {}) noexcept : separator{separator_} {}
     // Get instance field reference: private UnityEngine.GameObject _separator
     UnityEngine::GameObject*& dyn__separator();
+    // public override System.Void TableViewSetup(HMUI.ITableCellOwner tableCellOwner, System.Int32 idx)
+    // Offset: 0x25B4BF0
+    // Implemented from: HMUI.TableCell
+    // Base method: System.Void TableCell::TableViewSetup(HMUI.ITableCellOwner tableCellOwner, System.Int32 idx)
+    void TableViewSetup(HMUI::ITableCellOwner* tableCellOwner, int idx);
     // public System.Void .ctor()
-    // Offset: 0x23AFDC0
+    // Offset: 0x25B4CE4
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
@@ -58,11 +63,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TableCellWithSeparator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TableCellWithSeparator*, creationType>()));
     }
-    // public override System.Void TableViewSetup(HMUI.ITableCellOwner tableCellOwner, System.Int32 idx)
-    // Offset: 0x23AFCCC
-    // Implemented from: HMUI.TableCell
-    // Base method: System.Void TableCell::TableViewSetup(HMUI.ITableCellOwner tableCellOwner, System.Int32 idx)
-    void TableViewSetup(HMUI::ITableCellOwner* tableCellOwner, int idx);
   }; // TableCellWithSeparator
   #pragma pack(pop)
   static check_size<sizeof(TableCellWithSeparator), 80 + sizeof(UnityEngine::GameObject*)> __GlobalNamespace_TableCellWithSeparatorSizeCheck;
@@ -70,10 +70,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TableCellWithSeparator*, "", "TableCellWithSeparator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::TableCellWithSeparator::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TableCellWithSeparator::TableViewSetup
 // Il2CppName: TableViewSetup
 template<>
@@ -84,3 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TableCellWithSeparator*), "TableViewSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tableCellOwner, idx});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::TableCellWithSeparator::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

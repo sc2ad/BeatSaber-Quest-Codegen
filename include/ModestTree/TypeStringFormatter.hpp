@@ -39,32 +39,24 @@ namespace ModestTree {
     static System::Collections::Generic::Dictionary_2<System::Type*, ::Il2CppString*>* _get__prettyNameCache();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.String> _prettyNameCache
     static void _set__prettyNameCache(System::Collections::Generic::Dictionary_2<System::Type*, ::Il2CppString*>* value);
-    // static private System.Void .cctor()
-    // Offset: 0x13DE4EC
-    static void _cctor();
     // static public System.String PrettyName(System.Type type)
-    // Offset: 0x13DBDD0
+    // Offset: 0x14EDFC4
     static ::Il2CppString* PrettyName(System::Type* type);
     // static private System.String PrettyNameInternal(System.Type type)
-    // Offset: 0x13DDE4C
+    // Offset: 0x14F0040
     static ::Il2CppString* PrettyNameInternal(System::Type* type);
     // static private System.String GetCSharpTypeName(System.String typeName)
-    // Offset: 0x13DE280
+    // Offset: 0x14F0474
     static ::Il2CppString* GetCSharpTypeName(::Il2CppString* typeName);
+    // static private System.Void .cctor()
+    // Offset: 0x14F06E0
+    static void _cctor();
   }; // ModestTree.TypeStringFormatter
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeStringFormatter*, "ModestTree", "TypeStringFormatter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: ModestTree::TypeStringFormatter::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ModestTree::TypeStringFormatter::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeStringFormatter*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: ModestTree::TypeStringFormatter::PrettyName
 // Il2CppName: PrettyName
 template<>
@@ -90,5 +82,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
   static const MethodInfo* get() {
     static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeStringFormatter*), "GetCSharpTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeName});
+  }
+};
+// Writing MetadataGetter for method: ModestTree::TypeStringFormatter::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ModestTree::TypeStringFormatter::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeStringFormatter*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

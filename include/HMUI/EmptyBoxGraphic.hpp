@@ -40,10 +40,15 @@ namespace HMUI {
     // Get instance field reference: private System.Single _depth
     float& dyn__depth();
     // protected System.Void OnDrawGizmosSelected()
-    // Offset: 0x1371118
+    // Offset: 0x1486758
     void OnDrawGizmosSelected();
+    // protected override System.Void OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
+    // Offset: 0x1486398
+    // Implemented from: UnityEngine.UI.Graphic
+    // Base method: System.Void Graphic::OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
+    void OnPopulateMesh(UnityEngine::UI::VertexHelper* vh);
     // public System.Void .ctor()
-    // Offset: 0x1371384
+    // Offset: 0x14869C4
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -57,11 +62,6 @@ namespace HMUI {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::EmptyBoxGraphic::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmptyBoxGraphic*, creationType>()));
     }
-    // protected override System.Void OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
-    // Offset: 0x1370D58
-    // Implemented from: UnityEngine.UI.Graphic
-    // Base method: System.Void Graphic::OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
-    void OnPopulateMesh(UnityEngine::UI::VertexHelper* vh);
   }; // HMUI.EmptyBoxGraphic
   #pragma pack(pop)
   static check_size<sizeof(EmptyBoxGraphic), 140 + sizeof(float)> __HMUI_EmptyBoxGraphicSizeCheck;
@@ -77,10 +77,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::EmptyBoxGraphic*), "OnDrawGizmosSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HMUI::EmptyBoxGraphic::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::EmptyBoxGraphic::OnPopulateMesh
 // Il2CppName: OnPopulateMesh
 template<>
@@ -90,3 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::EmptyBoxGraphic*), "OnPopulateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vh});
   }
 };
+// Writing MetadataGetter for method: HMUI::EmptyBoxGraphic::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

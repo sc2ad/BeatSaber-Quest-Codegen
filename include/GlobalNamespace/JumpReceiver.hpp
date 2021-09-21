@@ -31,6 +31,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class JumpReceiver : public UnityEngine::MonoBehaviour/*, public UnityEngine::Playables::INotificationReceiver*/ {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xEC9C00
     // private System.Boolean <jumpToDestinationValid>k__BackingField
     // Size: 0x1
     // Offset: 0x18
@@ -48,16 +49,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <jumpToDestinationValid>k__BackingField
     bool& dyn_$jumpToDestinationValid$k__BackingField();
     // public System.Boolean get_jumpToDestinationValid()
-    // Offset: 0x1269FC4
+    // Offset: 0x13867CC
     bool get_jumpToDestinationValid();
     // public System.Void set_jumpToDestinationValid(System.Boolean value)
-    // Offset: 0x1269FCC
+    // Offset: 0x13867D4
     void set_jumpToDestinationValid(bool value);
     // public System.Void OnNotify(UnityEngine.Playables.Playable origin, UnityEngine.Playables.INotification notification, System.Object context)
-    // Offset: 0x1269FD8
+    // Offset: 0x13867E0
     void OnNotify(UnityEngine::Playables::Playable origin, UnityEngine::Playables::INotification* notification, ::Il2CppObject* context);
     // public System.Void .ctor()
-    // Offset: 0x126A10C
+    // Offset: 0x1386914
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

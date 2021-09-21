@@ -54,24 +54,24 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc*& dyn_func();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Pkcs.EncryptionScheme scheme
     Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*& dyn_scheme();
-    // public Org.BouncyCastle.Asn1.Pkcs.KeyDerivationFunc get_KeyDerivationFunc()
-    // Offset: 0x17B876C
-    Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* get_KeyDerivationFunc();
-    // public Org.BouncyCastle.Asn1.Pkcs.EncryptionScheme get_EncryptionScheme()
-    // Offset: 0x17B8774
-    Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* get_EncryptionScheme();
+    // static public Org.BouncyCastle.Asn1.Pkcs.PbeS2Parameters GetInstance(System.Object obj)
+    // Offset: 0x1970B3C
+    static Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x17B8378
+    // Offset: 0x1970BE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PbeS2Parameters* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PbeS2Parameters*, creationType>(seq)));
     }
-    // static public Org.BouncyCastle.Asn1.Pkcs.PbeS2Parameters GetInstance(System.Object obj)
-    // Offset: 0x17B82D4
-    static Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* GetInstance(::Il2CppObject* obj);
+    // public Org.BouncyCastle.Asn1.Pkcs.KeyDerivationFunc get_KeyDerivationFunc()
+    // Offset: 0x1970FD4
+    Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* get_KeyDerivationFunc();
+    // public Org.BouncyCastle.Asn1.Pkcs.EncryptionScheme get_EncryptionScheme()
+    // Offset: 0x1970FDC
+    Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* get_EncryptionScheme();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x17B877C
+    // Offset: 0x1970FE4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
@@ -82,6 +82,19 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters*, "Org.BouncyCastle.Asn1.Pkcs", "PbeS2Parameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::GetInstance
+// Il2CppName: GetInstance
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* (*)(::Il2CppObject*)>(&Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::GetInstance)> {
+  static const MethodInfo* get() {
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
+  }
+};
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::get_KeyDerivationFunc
 // Il2CppName: get_KeyDerivationFunc
 template<>
@@ -96,19 +109,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* (Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::*)()>(&Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::get_EncryptionScheme)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters*), "get_EncryptionScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::GetInstance
-// Il2CppName: GetInstance
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* (*)(::Il2CppObject*)>(&Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::GetInstance)> {
-  static const MethodInfo* get() {
-    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::ToAsn1Object

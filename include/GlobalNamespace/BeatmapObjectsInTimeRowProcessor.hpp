@@ -77,26 +77,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _prevBasicNotesTimeRowTime
     float& dyn__prevBasicNotesTimeRowTime();
     // public System.Void .ctor(System.Int32 numberOfLines)
-    // Offset: 0x240968C
+    // Offset: 0x2613D58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectsInTimeRowProcessor* New_ctor(int numberOfLines) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectsInTimeRowProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectsInTimeRowProcessor*, creationType>(numberOfLines)));
     }
     // public System.Void ProcessNote(NoteData noteData)
-    // Offset: 0x2409800
+    // Offset: 0x2613ECC
     void ProcessNote(GlobalNamespace::NoteData* noteData);
     // private System.Boolean TimeIsOverCurrentTimeRow(System.Single time)
-    // Offset: 0x2409CE8
+    // Offset: 0x26143B4
     bool TimeIsOverCurrentTimeRow(float time);
     // public System.Void ProcessAllRemainingData()
-    // Offset: 0x2409FCC
+    // Offset: 0x2614698
     void ProcessAllRemainingData();
     // static private System.Void ProcessColorNotesInTimeRow(System.Collections.Generic.IList`1<NoteData> colorNotesData, System.Single nextBasicNoteTimeRowTime)
-    // Offset: 0x2409924
+    // Offset: 0x2613FF0
     static void ProcessColorNotesInTimeRow(System::Collections::Generic::IList_1<GlobalNamespace::NoteData*>* colorNotesData, float nextBasicNoteTimeRowTime);
     // private System.Void ProcessAllNotesInTimeRow(System.Collections.Generic.List`1<NoteData> notesInTimeRow)
-    // Offset: 0x2409D78
+    // Offset: 0x2614444
     void ProcessAllNotesInTimeRow(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* notesInTimeRow);
   }; // BeatmapObjectsInTimeRowProcessor
   #pragma pack(pop)

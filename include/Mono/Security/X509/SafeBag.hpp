@@ -43,19 +43,19 @@ namespace Mono::Security::X509 {
     ::Il2CppString*& dyn__bagOID();
     // Get instance field reference: private Mono.Security.ASN1 _asn1
     Mono::Security::ASN1*& dyn__asn1();
-    // public System.String get_BagOID()
-    // Offset: 0x23D67A8
-    ::Il2CppString* get_BagOID();
-    // public Mono.Security.ASN1 get_ASN1()
-    // Offset: 0x23D67B0
-    Mono::Security::ASN1* get_ASN1();
     // public System.Void .ctor(System.String bagOID, Mono.Security.ASN1 asn1)
-    // Offset: 0x23D6770
+    // Offset: 0x25DBF4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeBag* New_ctor(::Il2CppString* bagOID, Mono::Security::ASN1* asn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::SafeBag::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeBag*, creationType>(bagOID, asn1)));
     }
+    // public System.String get_BagOID()
+    // Offset: 0x25DBF84
+    ::Il2CppString* get_BagOID();
+    // public Mono.Security.ASN1 get_ASN1()
+    // Offset: 0x25DBF8C
+    Mono::Security::ASN1* get_ASN1();
   }; // Mono.Security.X509.SafeBag
   #pragma pack(pop)
   static check_size<sizeof(SafeBag), 24 + sizeof(Mono::Security::ASN1*)> __Mono_Security_X509_SafeBagSizeCheck;
@@ -63,6 +63,10 @@ namespace Mono::Security::X509 {
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::SafeBag*, "Mono.Security.X509", "SafeBag");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Mono::Security::X509::SafeBag::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Security::X509::SafeBag::get_BagOID
 // Il2CppName: get_BagOID
 template<>
@@ -79,7 +83,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::SafeBag*), "get_ASN1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Mono::Security::X509::SafeBag::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

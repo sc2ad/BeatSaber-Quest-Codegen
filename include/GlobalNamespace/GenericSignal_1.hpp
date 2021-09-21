@@ -68,6 +68,16 @@ namespace GlobalNamespace {
       auto ___instance_arg = this;
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, foo);
     }
+    // public override System.Void Raise()
+    // Offset: 0xFFFFFFFF
+    // Implemented from: Signal
+    // Base method: System.Void Signal::Raise()
+    void Raise() {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GenericSignal_1::Raise");
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Raise", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method);
+    }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: Signal
@@ -79,16 +89,6 @@ namespace GlobalNamespace {
     static GenericSignal_1<T>* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GenericSignal_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericSignal_1<T>*, creationType>()));
-    }
-    // public override System.Void Raise()
-    // Offset: 0xFFFFFFFF
-    // Implemented from: Signal
-    // Base method: System.Void Signal::Raise()
-    void Raise() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GenericSignal_1::Raise");
-      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Raise", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method);
     }
   }; // GenericSignal`1
   // Could not write size check! Type: GenericSignal`1 is generic, or has no fields that are valid for size checks!

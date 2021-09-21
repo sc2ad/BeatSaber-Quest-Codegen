@@ -43,14 +43,14 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::OVRScreenFade::$Fade$d__25
     class $Fade$d__25;
-    // [TooltipAttribute] Offset: 0xDF59F0
+    // [TooltipAttribute] Offset: 0xEB2F14
     // public System.Single fadeTime
     // Size: 0x4
     // Offset: 0x18
     float fadeTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDF5A28
+    // [TooltipAttribute] Offset: 0xEB2F4C
     // public UnityEngine.Color fadeColor
     // Size: 0x10
     // Offset: 0x1C
@@ -117,6 +117,7 @@ namespace GlobalNamespace {
     OVRScreenFade(float fadeTime_ = {}, UnityEngine::Color fadeColor_ = {}, bool fadeOnStart_ = {}, int renderQueue_ = {}, float explicitFadeAlpha_ = {}, float animatedFadeAlpha_ = {}, float uiFadeAlpha_ = {}, UnityEngine::MeshRenderer* fadeRenderer_ = {}, UnityEngine::MeshFilter* fadeMesh_ = {}, UnityEngine::Material* fadeMaterial_ = {}, bool isFading_ = {}) noexcept : fadeTime{fadeTime_}, fadeColor{fadeColor_}, fadeOnStart{fadeOnStart_}, renderQueue{renderQueue_}, explicitFadeAlpha{explicitFadeAlpha_}, animatedFadeAlpha{animatedFadeAlpha_}, uiFadeAlpha{uiFadeAlpha_}, fadeRenderer{fadeRenderer_}, fadeMesh{fadeMesh_}, fadeMaterial{fadeMaterial_}, isFading{isFading_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // [CompilerGeneratedAttribute] Offset: 0xEB2F04
     // Get static field: static private OVRScreenFade <instance>k__BackingField
     static GlobalNamespace::OVRScreenFade* _get_$instance$k__BackingField();
     // Set static field: static private OVRScreenFade <instance>k__BackingField
@@ -144,46 +145,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean isFading
     bool& dyn_isFading();
     // static public OVRScreenFade get_instance()
-    // Offset: 0x163F1E0
+    // Offset: 0x180BE40
     static GlobalNamespace::OVRScreenFade* get_instance();
     // static private System.Void set_instance(OVRScreenFade value)
-    // Offset: 0x163F230
+    // Offset: 0x180BE90
     static void set_instance(GlobalNamespace::OVRScreenFade* value);
     // public System.Single get_currentAlpha()
-    // Offset: 0x163F284
+    // Offset: 0x180BEE4
     float get_currentAlpha();
     // private System.Void Start()
-    // Offset: 0x163F348
+    // Offset: 0x180BFA8
     void Start();
     // public System.Void FadeIn()
-    // Offset: 0x163F884
+    // Offset: 0x180C4E4
     void FadeIn();
     // public System.Void FadeOut()
-    // Offset: 0x163F93C
+    // Offset: 0x180C59C
     void FadeOut();
     // private System.Void OnLevelFinishedLoading(System.Int32 level)
-    // Offset: 0x163F970
+    // Offset: 0x180C5D0
     void OnLevelFinishedLoading(int level);
     // private System.Void OnEnable()
-    // Offset: 0x163F9A4
+    // Offset: 0x180C604
     void OnEnable();
     // private System.Void OnDestroy()
-    // Offset: 0x163F9BC
+    // Offset: 0x180C61C
     void OnDestroy();
     // public System.Void SetUIFade(System.Single level)
-    // Offset: 0x163FB58
+    // Offset: 0x180C7B8
     void SetUIFade(float level);
     // public System.Void SetExplicitFade(System.Single level)
-    // Offset: 0x163FCF0
+    // Offset: 0x180C950
     void SetExplicitFade(float level);
     // private System.Collections.IEnumerator Fade(System.Single startAlpha, System.Single endAlpha)
-    // Offset: 0x163F8B8
+    // Offset: 0x180C518
     System::Collections::IEnumerator* Fade(float startAlpha, float endAlpha);
     // private System.Void SetMaterialAlpha()
-    // Offset: 0x163FBD8
+    // Offset: 0x180C838
     void SetMaterialAlpha();
     // public System.Void .ctor()
-    // Offset: 0x163FD24
+    // Offset: 0x180C984
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

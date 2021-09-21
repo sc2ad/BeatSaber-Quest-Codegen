@@ -7,7 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: UnityEngine.ParticleSystem/UnityEngine.EmissionModule
+// Including type: UnityEngine.ParticleSystem/EmissionModule
 #include "UnityEngine/ParticleSystem_EmissionModule.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
@@ -60,34 +60,34 @@ namespace GlobalNamespace {
     Libraries::HM::HMLib::VR::HapticPresetSO* rumblePreset;
     // Field size check
     static_assert(sizeof(Libraries::HM::HMLib::VR::HapticPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3DFC8
+    // [InjectAttribute] Offset: 0xF0694C
     // private SaberClashChecker _saberClashChecker
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::SaberClashChecker* saberClashChecker;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberClashChecker*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3DFD8
+    // [InjectAttribute] Offset: 0xF0695C
     // private HapticFeedbackController _hapticFeedbackController
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::HapticFeedbackController* hapticFeedbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::HapticFeedbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3DFE8
+    // [InjectAttribute] Offset: 0xF0696C
     // private ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorManager*) == 0x8);
-    // private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _sparkleParticleSystemEmmisionModule
+    // private UnityEngine.ParticleSystem/EmissionModule _sparkleParticleSystemEmmisionModule
     // Size: 0x8
     // Offset: 0x48
     UnityEngine::ParticleSystem::EmissionModule sparkleParticleSystemEmmisionModule;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::EmissionModule) == 0x8);
-    // private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _glowParticleSystemEmmisionModule
+    // private UnityEngine.ParticleSystem/EmissionModule _glowParticleSystemEmmisionModule
     // Size: 0x8
     // Offset: 0x50
     UnityEngine::ParticleSystem::EmissionModule glowParticleSystemEmmisionModule;
@@ -115,23 +115,23 @@ namespace GlobalNamespace {
     GlobalNamespace::HapticFeedbackController*& dyn__hapticFeedbackController();
     // Get instance field reference: private ColorManager _colorManager
     GlobalNamespace::ColorManager*& dyn__colorManager();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _sparkleParticleSystemEmmisionModule
+    // Get instance field reference: private UnityEngine.ParticleSystem/EmissionModule _sparkleParticleSystemEmmisionModule
     UnityEngine::ParticleSystem::EmissionModule& dyn__sparkleParticleSystemEmmisionModule();
-    // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _glowParticleSystemEmmisionModule
+    // Get instance field reference: private UnityEngine.ParticleSystem/EmissionModule _glowParticleSystemEmmisionModule
     UnityEngine::ParticleSystem::EmissionModule& dyn__glowParticleSystemEmmisionModule();
     // Get instance field reference: private System.Boolean _sabersAreClashing
     bool& dyn__sabersAreClashing();
     // protected System.Void Start()
-    // Offset: 0x11303F0
+    // Offset: 0x11C9A30
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x11305B4
+    // Offset: 0x11C9BF4
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0x11305C4
+    // Offset: 0x11C9C04
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x11306C8
+    // Offset: 0x11C9D08
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

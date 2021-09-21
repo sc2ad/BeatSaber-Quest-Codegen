@@ -27,17 +27,17 @@ namespace Microsoft::Win32::SafeHandles {
     // Set static field: static Microsoft.Win32.SafeHandles.SafeProcessHandle InvalidHandle
     static void _set_InvalidHandle(Microsoft::Win32::SafeHandles::SafeProcessHandle* value);
     // System.Void .ctor(System.IntPtr handle)
-    // Offset: 0x15E9D04
+    // Offset: 0x17B58AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeProcessHandle* New_ctor(System::IntPtr handle) {
       static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::SafeHandles::SafeProcessHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeProcessHandle*, creationType>(handle)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x15E9D3C
+    // Offset: 0x17B58E4
     static void _cctor();
     // public System.Void .ctor(System.IntPtr existingHandle, System.Boolean ownsHandle)
-    // Offset: 0x15E9A98
+    // Offset: 0x17B5640
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Void SafeHandle::.ctor(System.IntPtr existingHandle, System.Boolean ownsHandle)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -46,7 +46,7 @@ namespace Microsoft::Win32::SafeHandles {
       return THROW_UNLESS((::il2cpp_utils::New<SafeProcessHandle*, creationType>(existingHandle, ownsHandle)));
     }
     // protected override System.Boolean ReleaseHandle()
-    // Offset: 0x15E9D34
+    // Offset: 0x17B58DC
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::ReleaseHandle()
     bool ReleaseHandle();

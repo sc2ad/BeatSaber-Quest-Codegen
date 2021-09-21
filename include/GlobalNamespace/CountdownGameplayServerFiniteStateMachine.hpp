@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CountdownGameplayServerFiniteStateMachine
     CountdownGameplayServerFiniteStateMachine() noexcept {}
     // public System.Void .ctor(MasterServer.ITimeProvider timeProvider, IMultiplayerSessionManager multiplayerSessionManager, System.String ownerUserId, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
-    // Offset: 0x133CE7C
+    // Offset: 0x14544BC
     // Implemented from: GameplayServerFiniteStateMachine
     // Base method: System.Void GameplayServerFiniteStateMachine::.ctor(MasterServer.ITimeProvider timeProvider, IMultiplayerSessionManager multiplayerSessionManager, System.String ownerUserId, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

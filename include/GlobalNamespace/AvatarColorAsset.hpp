@@ -63,10 +63,15 @@ namespace GlobalNamespace {
     // Get instance field reference: public AvatarColorBehaviour _template
     GlobalNamespace::AvatarColorBehaviour*& dyn__template();
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x11794B4
+    // Offset: 0x124983C
     UnityEngine::Timeline::ClipCaps get_clipCaps();
+    // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
+    // Offset: 0x1249844
+    // Implemented from: UnityEngine.Playables.PlayableAsset
+    // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
+    UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go);
     // public System.Void .ctor()
-    // Offset: 0x117955C
+    // Offset: 0x12498E4
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Void PlayableAsset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -77,11 +82,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarColorAsset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarColorAsset*, creationType>()));
     }
-    // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x11794BC
-    // Implemented from: UnityEngine.Playables.PlayableAsset
-    // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go);
   }; // AvatarColorAsset
   #pragma pack(pop)
   static check_size<sizeof(AvatarColorAsset), 24 + sizeof(GlobalNamespace::AvatarColorBehaviour*)> __GlobalNamespace_AvatarColorAssetSizeCheck;
@@ -97,10 +97,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarColorAsset*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AvatarColorAsset::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AvatarColorAsset::CreatePlayable
 // Il2CppName: CreatePlayable
 template<>
@@ -111,3 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarColorAsset*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{graph, go});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::AvatarColorAsset::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

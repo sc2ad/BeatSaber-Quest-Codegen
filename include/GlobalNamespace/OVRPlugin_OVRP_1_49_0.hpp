@@ -39,71 +39,63 @@ namespace GlobalNamespace {
     static int _get_OVRP_ANCHOR_NAME_SIZE();
     // Set static field: static public System.Int32 OVRP_ANCHOR_NAME_SIZE
     static void _set_OVRP_ANCHOR_NAME_SIZE(int value);
-    // static private System.Void .cctor()
-    // Offset: 0x16380C4
-    static void _cctor();
     // static public OVRPlugin/Result ovrp_SetClientColorDesc(OVRPlugin/ColorSpace colorSpace)
-    // Offset: 0x163790C
+    // Offset: 0x180456C
     static GlobalNamespace::OVRPlugin::Result ovrp_SetClientColorDesc(GlobalNamespace::OVRPlugin::ColorSpace colorSpace);
     // static public OVRPlugin/Result ovrp_GetHmdColorDesc(ref OVRPlugin/ColorSpace colorSpace)
-    // Offset: 0x163798C
+    // Offset: 0x18045EC
     static GlobalNamespace::OVRPlugin::Result ovrp_GetHmdColorDesc(ByRef<GlobalNamespace::OVRPlugin::ColorSpace> colorSpace);
     // static public OVRPlugin/Result ovrp_Media_EncodeMrcFrameWithPoseTime(System.IntPtr rawBuffer, System.IntPtr audioDataPtr, System.Int32 audioDataLen, System.Int32 audioChannels, System.Double timestamp, System.Double poseTime, ref System.Int32 outSyncId)
-    // Offset: 0x1630B3C
+    // Offset: 0x17FD79C
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_EncodeMrcFrameWithPoseTime(System::IntPtr rawBuffer, System::IntPtr audioDataPtr, int audioDataLen, int audioChannels, double timestamp, double poseTime, ByRef<int> outSyncId);
     // static public OVRPlugin/Result ovrp_Media_EncodeMrcFrameDualTexturesWithPoseTime(System.IntPtr backgroundTextureHandle, System.IntPtr foregroundTextureHandle, System.IntPtr audioData, System.Int32 audioDataLen, System.Int32 audioChannels, System.Double timestamp, System.Double poseTime, ref System.Int32 outSyncId)
-    // Offset: 0x1630CC4
+    // Offset: 0x17FD924
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_EncodeMrcFrameDualTexturesWithPoseTime(System::IntPtr backgroundTextureHandle, System::IntPtr foregroundTextureHandle, System::IntPtr audioData, int audioDataLen, int audioChannels, double timestamp, double poseTime, ByRef<int> outSyncId);
     // static public OVRPlugin/Result ovrp_Media_SetHeadsetControllerPose(OVRPlugin/Posef headsetPose, OVRPlugin/Posef leftControllerPose, OVRPlugin/Posef rightControllerPose)
-    // Offset: 0x16318EC
+    // Offset: 0x17FE54C
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_SetHeadsetControllerPose(GlobalNamespace::OVRPlugin::Posef headsetPose, GlobalNamespace::OVRPlugin::Posef leftControllerPose, GlobalNamespace::OVRPlugin::Posef rightControllerPose);
     // static public OVRPlugin/Result ovrp_Media_EnumerateCameraAnchorHandles(ref System.Int32 anchorCount, ref System.IntPtr CameraAnchorHandle)
-    // Offset: 0x1637A0C
+    // Offset: 0x180466C
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_EnumerateCameraAnchorHandles(ByRef<int> anchorCount, ByRef<System::IntPtr> CameraAnchorHandle);
     // static public OVRPlugin/Result ovrp_Media_GetCurrentCameraAnchorHandle(ref System.IntPtr anchorHandle)
-    // Offset: 0x1637A9C
+    // Offset: 0x18046FC
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetCurrentCameraAnchorHandle(ByRef<System::IntPtr> anchorHandle);
     // static public OVRPlugin/Result ovrp_Media_GetCameraAnchorName(System.IntPtr anchorHandle, System.Char[] cameraName)
-    // Offset: 0x1637B1C
+    // Offset: 0x180477C
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetCameraAnchorName(System::IntPtr anchorHandle, ::Array<::Il2CppChar>* cameraName);
     // static public OVRPlugin/Result ovrp_Media_GetCameraAnchorHandle(System.IntPtr anchorName, ref System.IntPtr anchorHandle)
-    // Offset: 0x1637C38
+    // Offset: 0x1804898
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetCameraAnchorHandle(System::IntPtr anchorName, ByRef<System::IntPtr> anchorHandle);
     // static public OVRPlugin/Result ovrp_Media_GetCameraAnchorType(System.IntPtr anchorHandle, ref OVRPlugin/CameraAnchorType anchorType)
-    // Offset: 0x1637CC8
+    // Offset: 0x1804928
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetCameraAnchorType(System::IntPtr anchorHandle, ByRef<GlobalNamespace::OVRPlugin::CameraAnchorType> anchorType);
     // static public OVRPlugin/Result ovrp_Media_CreateCustomCameraAnchor(System.IntPtr anchorName, ref System.IntPtr anchorHandle)
-    // Offset: 0x1637D58
+    // Offset: 0x18049B8
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_CreateCustomCameraAnchor(System::IntPtr anchorName, ByRef<System::IntPtr> anchorHandle);
     // static public OVRPlugin/Result ovrp_Media_DestroyCustomCameraAnchor(System.IntPtr anchorHandle)
-    // Offset: 0x1637DE8
+    // Offset: 0x1804A48
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_DestroyCustomCameraAnchor(System::IntPtr anchorHandle);
     // static public OVRPlugin/Result ovrp_Media_GetCustomCameraAnchorPose(System.IntPtr anchorHandle, ref OVRPlugin/Posef pose)
-    // Offset: 0x1637E68
+    // Offset: 0x1804AC8
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetCustomCameraAnchorPose(System::IntPtr anchorHandle, ByRef<GlobalNamespace::OVRPlugin::Posef> pose);
     // static public OVRPlugin/Result ovrp_Media_SetCustomCameraAnchorPose(System.IntPtr anchorHandle, OVRPlugin/Posef pose)
-    // Offset: 0x1637EF8
+    // Offset: 0x1804B58
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_SetCustomCameraAnchorPose(System::IntPtr anchorHandle, GlobalNamespace::OVRPlugin::Posef pose);
     // static public OVRPlugin/Result ovrp_Media_GetCameraMinMaxDistance(System.IntPtr anchorHandle, ref System.Double minDistance, ref System.Double maxDistance)
-    // Offset: 0x1637F94
+    // Offset: 0x1804BF4
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetCameraMinMaxDistance(System::IntPtr anchorHandle, ByRef<double> minDistance, ByRef<double> maxDistance);
     // static public OVRPlugin/Result ovrp_Media_SetCameraMinMaxDistance(System.IntPtr anchorHandle, System.Double minDistance, System.Double maxDistance)
-    // Offset: 0x163802C
+    // Offset: 0x1804C8C
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_SetCameraMinMaxDistance(System::IntPtr anchorHandle, double minDistance, double maxDistance);
+    // static private System.Void .cctor()
+    // Offset: 0x1804D24
+    static void _cctor();
   }; // OVRPlugin/OVRP_1_49_0
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_49_0*, "", "OVRPlugin/OVRP_1_49_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_49_0::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_SetClientColorDesc
 // Il2CppName: ovrp_SetClientColorDesc
 template<>
@@ -272,5 +264,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
     static auto* minDistance = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_SetCameraMinMaxDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{anchorHandle, minDistance, maxDistance});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_49_0::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

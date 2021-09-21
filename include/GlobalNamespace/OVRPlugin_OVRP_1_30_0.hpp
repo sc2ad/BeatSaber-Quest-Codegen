@@ -29,41 +29,33 @@ namespace GlobalNamespace {
     static System::Version* _get_version();
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
-    // static private System.Void .cctor()
-    // Offset: 0x1636058
-    static void _cctor();
     // static public OVRPlugin/Result ovrp_GetCurrentTrackingTransformPose(out OVRPlugin/Posef trackingTransformPose)
-    // Offset: 0x1635CCC
+    // Offset: 0x180292C
     static GlobalNamespace::OVRPlugin::Result ovrp_GetCurrentTrackingTransformPose(ByRef<GlobalNamespace::OVRPlugin::Posef> trackingTransformPose);
     // static public OVRPlugin/Result ovrp_GetTrackingTransformRawPose(out OVRPlugin/Posef trackingTransformRawPose)
-    // Offset: 0x1635D4C
+    // Offset: 0x18029AC
     static GlobalNamespace::OVRPlugin::Result ovrp_GetTrackingTransformRawPose(ByRef<GlobalNamespace::OVRPlugin::Posef> trackingTransformRawPose);
     // static public OVRPlugin/Result ovrp_SendEvent2(System.String name, System.String param, System.String source)
-    // Offset: 0x1635DCC
+    // Offset: 0x1802A2C
     static GlobalNamespace::OVRPlugin::Result ovrp_SendEvent2(::Il2CppString* name, ::Il2CppString* param, ::Il2CppString* source);
     // static public OVRPlugin/Result ovrp_IsPerfMetricsSupported(OVRPlugin/PerfMetrics perfMetrics, out OVRPlugin/Bool isSupported)
-    // Offset: 0x1635EA8
+    // Offset: 0x1802B08
     static GlobalNamespace::OVRPlugin::Result ovrp_IsPerfMetricsSupported(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics, ByRef<GlobalNamespace::OVRPlugin::Bool> isSupported);
     // static public OVRPlugin/Result ovrp_GetPerfMetricsFloat(OVRPlugin/PerfMetrics perfMetrics, out System.Single value)
-    // Offset: 0x1635F38
+    // Offset: 0x1802B98
     static GlobalNamespace::OVRPlugin::Result ovrp_GetPerfMetricsFloat(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics, ByRef<float> value);
     // static public OVRPlugin/Result ovrp_GetPerfMetricsInt(OVRPlugin/PerfMetrics perfMetrics, out System.Int32 value)
-    // Offset: 0x1635FC8
+    // Offset: 0x1802C28
     static GlobalNamespace::OVRPlugin::Result ovrp_GetPerfMetricsInt(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics, ByRef<int> value);
+    // static private System.Void .cctor()
+    // Offset: 0x1802CB8
+    static void _cctor();
   }; // OVRPlugin/OVRP_1_30_0
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_30_0*, "", "OVRPlugin/OVRP_1_30_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_30_0::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_30_0::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_30_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_30_0::ovrp_GetCurrentTrackingTransformPose
 // Il2CppName: ovrp_GetCurrentTrackingTransformPose
 template<>
@@ -121,5 +113,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
     static auto* perfMetrics = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/PerfMetrics")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_30_0*), "ovrp_GetPerfMetricsInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{perfMetrics, value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_30_0::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_30_0::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_30_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

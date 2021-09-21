@@ -55,6 +55,7 @@ namespace OnlineServices {
     class LevelScoreResultsDataUploadInfo;
     // Nested type: OnlineServices::LevelScoreUploader::$SendLevelScoreResultAsync$d__13
     struct $SendLevelScoreResultAsync$d__13;
+    // [CompilerGeneratedAttribute] Offset: 0xF15424
     // private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
     // Size: 0x8
     // Offset: 0x10
@@ -73,13 +74,13 @@ namespace OnlineServices {
     GlobalNamespace::HTTPLeaderboardsModel* leaderboardsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::HTTPLeaderboardsModel*) == 0x8);
-    // private System.Collections.Generic.List`1<OnlineServices.LevelScoreUploader/OnlineServices.LevelScoreResultsDataUploadInfo> _unsuccessfullySentLevelScoreResultsDataUploadInfos
+    // private System.Collections.Generic.List`1<OnlineServices.LevelScoreUploader/LevelScoreResultsDataUploadInfo> _unsuccessfullySentLevelScoreResultsDataUploadInfos
     // Size: 0x8
     // Offset: 0x28
     System::Collections::Generic::List_1<OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>* unsuccessfullySentLevelScoreResultsDataUploadInfos;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>*) == 0x8);
-    // private System.Collections.Generic.List`1<OnlineServices.LevelScoreUploader/OnlineServices.LevelScoreResultsDataUploadInfo> _levelScoreResultsDataUploadInfos
+    // private System.Collections.Generic.List`1<OnlineServices.LevelScoreUploader/LevelScoreResultsDataUploadInfo> _levelScoreResultsDataUploadInfos
     // Size: 0x8
     // Offset: 0x30
     System::Collections::Generic::List_1<OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>* levelScoreResultsDataUploadInfos;
@@ -105,39 +106,39 @@ namespace OnlineServices {
     System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // Get instance field reference: private HTTPLeaderboardsModel _leaderboardsModel
     GlobalNamespace::HTTPLeaderboardsModel*& dyn__leaderboardsModel();
-    // Get instance field reference: private System.Collections.Generic.List`1<OnlineServices.LevelScoreUploader/OnlineServices.LevelScoreResultsDataUploadInfo> _unsuccessfullySentLevelScoreResultsDataUploadInfos
+    // Get instance field reference: private System.Collections.Generic.List`1<OnlineServices.LevelScoreUploader/LevelScoreResultsDataUploadInfo> _unsuccessfullySentLevelScoreResultsDataUploadInfos
     System::Collections::Generic::List_1<OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>*& dyn__unsuccessfullySentLevelScoreResultsDataUploadInfos();
-    // Get instance field reference: private System.Collections.Generic.List`1<OnlineServices.LevelScoreUploader/OnlineServices.LevelScoreResultsDataUploadInfo> _levelScoreResultsDataUploadInfos
+    // Get instance field reference: private System.Collections.Generic.List`1<OnlineServices.LevelScoreUploader/LevelScoreResultsDataUploadInfo> _levelScoreResultsDataUploadInfos
     System::Collections::Generic::List_1<OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>*& dyn__levelScoreResultsDataUploadInfos();
     // Get instance field reference: private OnlineServices.PlatformOnlineServicesAvailabilityModel _platformOnlineServicesAvailabilityModel
     OnlineServices::PlatformOnlineServicesAvailabilityModel*& dyn__platformOnlineServicesAvailabilityModel();
     // public System.Void add_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0x1031398
+    // Offset: 0x1120808
     void add_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0x103143C
+    // Offset: 0x11208AC
     void remove_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void .ctor(HTTPLeaderboardsModel leaderboardsModel, OnlineServices.PlatformOnlineServicesAvailabilityModel platformOnlineServicesAvailabilityModel)
-    // Offset: 0x10314E0
+    // Offset: 0x1120950
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelScoreUploader* New_ctor(GlobalNamespace::HTTPLeaderboardsModel* leaderboardsModel, OnlineServices::PlatformOnlineServicesAvailabilityModel* platformOnlineServicesAvailabilityModel) {
       static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::LevelScoreUploader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelScoreUploader*, creationType>(leaderboardsModel, platformOnlineServicesAvailabilityModel)));
     }
     // public System.Void SendLevelScoreResult(OnlineServices.LevelScoreResultsData levelScoreResultsData)
-    // Offset: 0x103158C
+    // Offset: 0x11209FC
     void SendLevelScoreResult(OnlineServices::LevelScoreResultsData levelScoreResultsData);
     // public System.Void TrySendPreviouslyUnsuccessfullySentResults()
-    // Offset: 0x1031754
+    // Offset: 0x1120BC4
     void TrySendPreviouslyUnsuccessfullySentResults();
     // private System.Void SendLevelScoreResultAsync()
-    // Offset: 0x10316A0
+    // Offset: 0x1120B10
     void SendLevelScoreResultAsync();
     // private System.Void AddUnsuccessfullySentResults()
-    // Offset: 0x1031778
+    // Offset: 0x1120BE8
     void AddUnsuccessfullySentResults();
     // protected System.Void OnDestroy()
-    // Offset: 0x10317EC
+    // Offset: 0x1120C5C
     void OnDestroy();
   }; // OnlineServices.LevelScoreUploader
   #pragma pack(pop)

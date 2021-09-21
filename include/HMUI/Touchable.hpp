@@ -40,10 +40,15 @@ namespace HMUI {
     // Get instance field reference: private System.Single _skew
     float& dyn__skew();
     // public System.Single get_skew()
-    // Offset: 0x131FC34
+    // Offset: 0x14221E4
     float get_skew();
+    // protected override System.Void OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
+    // Offset: 0x14221EC
+    // Implemented from: UnityEngine.UI.Graphic
+    // Base method: System.Void Graphic::OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
+    void OnPopulateMesh(UnityEngine::UI::VertexHelper* vh);
     // public System.Void .ctor()
-    // Offset: 0x131FC58
+    // Offset: 0x1422208
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -57,11 +62,6 @@ namespace HMUI {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::Touchable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Touchable*, creationType>()));
     }
-    // protected override System.Void OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
-    // Offset: 0x131FC3C
-    // Implemented from: UnityEngine.UI.Graphic
-    // Base method: System.Void Graphic::OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
-    void OnPopulateMesh(UnityEngine::UI::VertexHelper* vh);
   }; // HMUI.Touchable
   #pragma pack(pop)
   static check_size<sizeof(Touchable), 140 + sizeof(float)> __HMUI_TouchableSizeCheck;
@@ -77,10 +77,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI
     return ::il2cpp_utils::FindMethod(classof(HMUI::Touchable*), "get_skew", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HMUI::Touchable::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::Touchable::OnPopulateMesh
 // Il2CppName: OnPopulateMesh
 template<>
@@ -90,3 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::Touchable*), "OnPopulateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vh});
   }
 };
+// Writing MetadataGetter for method: HMUI::Touchable::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

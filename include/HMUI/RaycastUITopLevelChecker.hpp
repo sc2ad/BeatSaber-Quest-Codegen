@@ -55,14 +55,14 @@ namespace HMUI {
     System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*& dyn_results();
     // Get instance field reference: private UnityEngine.Canvas _canvas
     UnityEngine::Canvas*& dyn__canvas();
-    // public System.Boolean get_isOnTop()
-    // Offset: 0x1312638
-    bool get_isOnTop();
     // protected System.Void Awake()
-    // Offset: 0x13125B4
+    // Offset: 0x1414B64
     void Awake();
+    // public System.Boolean get_isOnTop()
+    // Offset: 0x1414BE8
+    bool get_isOnTop();
     // public System.Void .ctor()
-    // Offset: 0x1312858
+    // Offset: 0x1414E08
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -81,20 +81,20 @@ namespace HMUI {
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::RaycastUITopLevelChecker*, "HMUI", "RaycastUITopLevelChecker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: HMUI::RaycastUITopLevelChecker::get_isOnTop
-// Il2CppName: get_isOnTop
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI::RaycastUITopLevelChecker::*)()>(&HMUI::RaycastUITopLevelChecker::get_isOnTop)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::RaycastUITopLevelChecker*), "get_isOnTop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: HMUI::RaycastUITopLevelChecker::Awake
 // Il2CppName: Awake
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::RaycastUITopLevelChecker::*)()>(&HMUI::RaycastUITopLevelChecker::Awake)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::RaycastUITopLevelChecker*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HMUI::RaycastUITopLevelChecker::get_isOnTop
+// Il2CppName: get_isOnTop
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI::RaycastUITopLevelChecker::*)()>(&HMUI::RaycastUITopLevelChecker::get_isOnTop)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RaycastUITopLevelChecker*), "get_isOnTop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: HMUI::RaycastUITopLevelChecker::New_ctor

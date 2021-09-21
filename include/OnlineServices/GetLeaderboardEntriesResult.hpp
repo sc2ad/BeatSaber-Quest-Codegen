@@ -64,13 +64,13 @@ namespace OnlineServices {
     ::Array<OnlineServices::LeaderboardEntryData*>*& dyn_leaderboardEntries();
     // Get instance field reference: public readonly System.Int32 referencePlayerScoreIndex
     int& dyn_referencePlayerScoreIndex();
-    // static public OnlineServices.GetLeaderboardEntriesResult get_resultWithError()
-    // Offset: 0x1030D88
-    static OnlineServices::GetLeaderboardEntriesResult get_resultWithError();
     // public System.Void .ctor(System.Boolean isError, OnlineServices.LeaderboardEntryData[] leaderboardEntries, System.Int32 referencePlayerScoreIndex)
-    // Offset: 0x1030D74
+    // Offset: 0x11201E4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  GetLeaderboardEntriesResult(bool isError, ::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries, int referencePlayerScoreIndex)
+    // static public OnlineServices.GetLeaderboardEntriesResult get_resultWithError()
+    // Offset: 0x11201F8
+    static OnlineServices::GetLeaderboardEntriesResult get_resultWithError();
   }; // OnlineServices.GetLeaderboardEntriesResult
   #pragma pack(pop)
   static check_size<sizeof(GetLeaderboardEntriesResult), 16 + sizeof(int)> __OnlineServices_GetLeaderboardEntriesResultSizeCheck;
@@ -78,6 +78,10 @@ namespace OnlineServices {
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::GetLeaderboardEntriesResult, "OnlineServices", "GetLeaderboardEntriesResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: OnlineServices::GetLeaderboardEntriesResult::GetLeaderboardEntriesResult
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: OnlineServices::GetLeaderboardEntriesResult::get_resultWithError
 // Il2CppName: get_resultWithError
 template<>
@@ -86,7 +90,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServi
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::GetLeaderboardEntriesResult), "get_resultWithError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OnlineServices::GetLeaderboardEntriesResult::GetLeaderboardEntriesResult
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

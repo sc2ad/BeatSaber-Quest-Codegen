@@ -63,27 +63,27 @@ namespace Mono::Security::Authenticode {
     bool& dyn_weak();
     // Get instance field reference: private System.Int32 keyType
     int& dyn_keyType();
-    // public System.Security.Cryptography.RSA get_RSA()
-    // Offset: 0x1DFE240
-    System::Security::Cryptography::RSA* get_RSA();
     // public System.Void .ctor(System.Byte[] data, System.String password)
-    // Offset: 0x1DFDCD0
+    // Offset: 0x1F9A238
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrivateKey* New_ctor(::Array<uint8_t>* data, ::Il2CppString* password) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Authenticode::PrivateKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrivateKey*, creationType>(data, password)));
     }
+    // public System.Security.Cryptography.RSA get_RSA()
+    // Offset: 0x1F9A7A8
+    System::Security::Cryptography::RSA* get_RSA();
     // private System.Byte[] DeriveKey(System.Byte[] salt, System.String password)
-    // Offset: 0x1DFE248
+    // Offset: 0x1F9A7B0
     ::Array<uint8_t>* DeriveKey(::Array<uint8_t>* salt, ::Il2CppString* password);
     // private System.Boolean Decode(System.Byte[] pvk, System.String password)
-    // Offset: 0x1DFDDC0
+    // Offset: 0x1F9A328
     bool Decode(::Array<uint8_t>* pvk, ::Il2CppString* password);
     // static public Mono.Security.Authenticode.PrivateKey CreateFromFile(System.String filename)
-    // Offset: 0x1DFE430
+    // Offset: 0x1F9A998
     static Mono::Security::Authenticode::PrivateKey* CreateFromFile(::Il2CppString* filename);
     // static public Mono.Security.Authenticode.PrivateKey CreateFromFile(System.String filename, System.String password)
-    // Offset: 0x1DFE438
+    // Offset: 0x1F9A9A0
     static Mono::Security::Authenticode::PrivateKey* CreateFromFile(::Il2CppString* filename, ::Il2CppString* password);
   }; // Mono.Security.Authenticode.PrivateKey
   #pragma pack(pop)
@@ -92,6 +92,10 @@ namespace Mono::Security::Authenticode {
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Authenticode::PrivateKey*, "Mono.Security.Authenticode", "PrivateKey");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Mono::Security::Authenticode::PrivateKey::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Security::Authenticode::PrivateKey::get_RSA
 // Il2CppName: get_RSA
 template<>
@@ -100,10 +104,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Authenticode::PrivateKey*), "get_RSA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Mono::Security::Authenticode::PrivateKey::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Security::Authenticode::PrivateKey::DeriveKey
 // Il2CppName: DeriveKey
 template<>

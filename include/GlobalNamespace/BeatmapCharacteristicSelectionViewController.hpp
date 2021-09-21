@@ -54,6 +54,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapCharacteristicCollectionSO*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0F818
     // private System.Action`2<BeatmapCharacteristicSelectionViewController,BeatmapCharacteristicSO> didSelectBeatmapCharacteristicEvent
     // Size: 0x8
     // Offset: 0x80
@@ -76,23 +77,33 @@ namespace GlobalNamespace {
     System::Action_2<GlobalNamespace::BeatmapCharacteristicSelectionViewController*, GlobalNamespace::BeatmapCharacteristicSO*>*& dyn_didSelectBeatmapCharacteristicEvent();
     // Get instance field reference: private BeatmapCharacteristicSO _selectedBeatmapCharacteristic
     GlobalNamespace::BeatmapCharacteristicSO*& dyn__selectedBeatmapCharacteristic();
-    // public BeatmapCharacteristicSO get_selectedBeatmapCharacteristic()
-    // Offset: 0x11E25A8
-    GlobalNamespace::BeatmapCharacteristicSO* get_selectedBeatmapCharacteristic();
     // public System.Void add_didSelectBeatmapCharacteristicEvent(System.Action`2<BeatmapCharacteristicSelectionViewController,BeatmapCharacteristicSO> value)
-    // Offset: 0x11E2460
+    // Offset: 0x1272A4C
     void add_didSelectBeatmapCharacteristicEvent(System::Action_2<GlobalNamespace::BeatmapCharacteristicSelectionViewController*, GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didSelectBeatmapCharacteristicEvent(System.Action`2<BeatmapCharacteristicSelectionViewController,BeatmapCharacteristicSO> value)
-    // Offset: 0x11E2504
+    // Offset: 0x1272AF0
     void remove_didSelectBeatmapCharacteristicEvent(System::Action_2<GlobalNamespace::BeatmapCharacteristicSelectionViewController*, GlobalNamespace::BeatmapCharacteristicSO*>* value);
+    // public BeatmapCharacteristicSO get_selectedBeatmapCharacteristic()
+    // Offset: 0x1272B94
+    GlobalNamespace::BeatmapCharacteristicSO* get_selectedBeatmapCharacteristic();
     // public System.Void Init()
-    // Offset: 0x11E25B0
+    // Offset: 0x1272B9C
     void Init();
     // private System.Void HandleBeatmapCharacteristicSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0x11E288C
+    // Offset: 0x1272E78
     void HandleBeatmapCharacteristicSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellNumber);
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x1272BF0
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Offset: 0x1272DCC
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x11E2934
+    // Offset: 0x1272F20
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -105,16 +116,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapCharacteristicSelectionViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCharacteristicSelectionViewController*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x11E2604
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x11E27E0
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
   }; // BeatmapCharacteristicSelectionViewController
   #pragma pack(pop)
   static check_size<sizeof(BeatmapCharacteristicSelectionViewController), 136 + sizeof(GlobalNamespace::BeatmapCharacteristicSO*)> __GlobalNamespace_BeatmapCharacteristicSelectionViewControllerSizeCheck;
@@ -122,14 +123,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicSelectionViewController*, "", "BeatmapCharacteristicSelectionViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicSelectionViewController::get_selectedBeatmapCharacteristic
-// Il2CppName: get_selectedBeatmapCharacteristic
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapCharacteristicSO* (GlobalNamespace::BeatmapCharacteristicSelectionViewController::*)()>(&GlobalNamespace::BeatmapCharacteristicSelectionViewController::get_selectedBeatmapCharacteristic)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCharacteristicSelectionViewController*), "get_selectedBeatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicSelectionViewController::add_didSelectBeatmapCharacteristicEvent
 // Il2CppName: add_didSelectBeatmapCharacteristicEvent
 template<>
@@ -146,6 +139,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSelectionViewController"), ::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCharacteristicSelectionViewController*), "remove_didSelectBeatmapCharacteristicEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicSelectionViewController::get_selectedBeatmapCharacteristic
+// Il2CppName: get_selectedBeatmapCharacteristic
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapCharacteristicSO* (GlobalNamespace::BeatmapCharacteristicSelectionViewController::*)()>(&GlobalNamespace::BeatmapCharacteristicSelectionViewController::get_selectedBeatmapCharacteristic)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCharacteristicSelectionViewController*), "get_selectedBeatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicSelectionViewController::Init
@@ -166,10 +167,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCharacteristicSelectionViewController*), "HandleBeatmapCharacteristicSegmentedControlDidSelectCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{segmentedControl, cellNumber});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicSelectionViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicSelectionViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -191,3 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCharacteristicSelectionViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{removedFromHierarchy, screenSystemDisabling});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicSelectionViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

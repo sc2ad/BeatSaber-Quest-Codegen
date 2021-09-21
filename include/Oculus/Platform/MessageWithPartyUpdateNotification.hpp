@@ -29,10 +29,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithPartyUpdateNotification
     MessageWithPartyUpdateNotification() noexcept {}
     // protected Oculus.Platform.Models.PartyUpdateNotification GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x15333C4
+    // Offset: 0x16BC10C
     Oculus::Platform::Models::PartyUpdateNotification* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x152ACB4
+    // Offset: 0x16B39FC
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -42,7 +42,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithPartyUpdateNotification*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.PartyUpdateNotification GetPartyUpdateNotification()
-    // Offset: 0x1533380
+    // Offset: 0x16BC0C8
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.PartyUpdateNotification Message::GetPartyUpdateNotification()
     Oculus::Platform::Models::PartyUpdateNotification* GetPartyUpdateNotification();

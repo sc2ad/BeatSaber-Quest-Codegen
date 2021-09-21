@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Ray2DExtensions
     Ray2DExtensions() noexcept {}
     // static public System.Int32 CircleIntersections(UnityEngine.Ray2D ray, UnityEngine.Vector2 circleCenter, System.Single radius, System.Single[] distances)
-    // Offset: 0x1270318
+    // Offset: 0x138CB20
     static int CircleIntersections(UnityEngine::Ray2D ray, UnityEngine::Vector2 circleCenter, float radius, ::Array<float>* distances);
   }; // Ray2DExtensions
   #pragma pack(pop)

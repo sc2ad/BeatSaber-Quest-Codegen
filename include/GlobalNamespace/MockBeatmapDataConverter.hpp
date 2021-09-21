@@ -37,13 +37,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MockBeatmapDataConverter
     MockBeatmapDataConverter() noexcept {}
     // static public MockBeatmapData ToMockBeatmapData(BeatmapData beatmapData)
-    // Offset: 0x1148008
+    // Offset: 0x118EBD8
     static GlobalNamespace::MockBeatmapData* ToMockBeatmapData(GlobalNamespace::BeatmapData* beatmapData);
     // static public MockNoteData ToMockNoteData(NoteData noteData)
-    // Offset: 0x1148914
+    // Offset: 0x118F4E4
     static GlobalNamespace::MockNoteData* ToMockNoteData(GlobalNamespace::NoteData* noteData);
     // static public MockObstacleData ToMockObstacleData(ObstacleData obstacleData)
-    // Offset: 0x11489B0
+    // Offset: 0x118F580
     static GlobalNamespace::MockObstacleData* ToMockObstacleData(GlobalNamespace::ObstacleData* obstacleData);
   }; // MockBeatmapDataConverter
   #pragma pack(pop)

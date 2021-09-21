@@ -43,16 +43,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.UInt64 _requestId
     uint64_t& dyn__requestId();
     // public System.UInt64 get_RequestId()
-    // Offset: 0x1268A74
+    // Offset: 0x138527C
     uint64_t get_RequestId();
-    // static private System.Void .cctor()
-    // Offset: 0x1268B8C
-    static void _cctor();
     // public System.Boolean Equals(HMAutoincrementedRequestId obj)
-    // Offset: 0x1268A7C
+    // Offset: 0x1385284
     bool Equals(GlobalNamespace::HMAutoincrementedRequestId* obj);
+    // static private System.Void .cctor()
+    // Offset: 0x1385394
+    static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x12689A8
+    // Offset: 0x13851B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -61,12 +61,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HMAutoincrementedRequestId*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1268A9C
+    // Offset: 0x13852A4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1268B64
+    // Offset: 0x138536C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -85,14 +85,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (G
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAutoincrementedRequestId*), "get_RequestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::HMAutoincrementedRequestId::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::HMAutoincrementedRequestId::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAutoincrementedRequestId*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::HMAutoincrementedRequestId::Equals
 // Il2CppName: Equals
 template<>
@@ -100,6 +92,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("", "HMAutoincrementedRequestId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAutoincrementedRequestId*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::HMAutoincrementedRequestId::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::HMAutoincrementedRequestId::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAutoincrementedRequestId*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::HMAutoincrementedRequestId::New_ctor

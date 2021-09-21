@@ -82,13 +82,6 @@ namespace GlobalNamespace {
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_stateBuffer"))->offset;
       return *reinterpret_cast<GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
-    // public System.Void .ctor(IConnectedPlayer player, System.Int32 size, StateBuffer`3/InterpolationDelegate<TStateTable,TType,TState> interpolator, StateBuffer`3/SmoothingDelegate<TStateTable,TType,TState> smoother)
-    // Offset: 0xFFFFFFFF
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RemoteMultiplayerSyncState_3<TStateTable, TType, TState>* New_ctor(GlobalNamespace::IConnectedPlayer* player, int size, typename GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::InterpolationDelegate* interpolator, typename GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::SmoothingDelegate* smoother) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RemoteMultiplayerSyncState_3::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*, creationType>(player, size, interpolator, smoother)));
-    }
     // public System.Void UpdateState(T serializable)
     // Offset: 0xFFFFFFFF
     template<class T>
@@ -110,6 +103,13 @@ namespace GlobalNamespace {
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       auto ___instance_arg = this;
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, serializable);
+    }
+    // public System.Void .ctor(IConnectedPlayer player, System.Int32 size, StateBuffer`3/InterpolationDelegate<TStateTable,TType,TState> interpolator, StateBuffer`3/SmoothingDelegate<TStateTable,TType,TState> smoother)
+    // Offset: 0xFFFFFFFF
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static RemoteMultiplayerSyncState_3<TStateTable, TType, TState>* New_ctor(GlobalNamespace::IConnectedPlayer* player, int size, typename GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::InterpolationDelegate* interpolator, typename GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::SmoothingDelegate* smoother) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RemoteMultiplayerSyncState_3::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*, creationType>(player, size, interpolator, smoother)));
     }
     // protected override StateBuffer`3<TStateTable,TType,TState> get_stateBuffer()
     // Offset: 0xFFFFFFFF

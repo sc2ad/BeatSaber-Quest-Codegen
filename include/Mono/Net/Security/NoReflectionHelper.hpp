@@ -17,10 +17,10 @@ namespace Mono::Net::Security {
     // Creating value type constructor for type: NoReflectionHelper
     NoReflectionHelper() noexcept {}
     // static System.Object GetInternalValidator(System.Object provider, System.Object settings)
-    // Offset: 0x15F6114
+    // Offset: 0x17C1CBC
     static ::Il2CppObject* GetInternalValidator(::Il2CppObject* provider, ::Il2CppObject* settings);
     // static System.Object GetProvider()
-    // Offset: 0x15F61CC
+    // Offset: 0x17C1D74
     static ::Il2CppObject* GetProvider();
   }; // Mono.Net.Security.NoReflectionHelper
   #pragma pack(pop)

@@ -84,44 +84,44 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::Asn1Set*& dyn_attributes();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerBitString publicKey
     Org::BouncyCastle::Asn1::DerBitString*& dyn_publicKey();
-    // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_PrivateKeyAlgorithm()
-    // Offset: 0x17BAF34
-    Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_PrivateKeyAlgorithm();
-    // public Org.BouncyCastle.Asn1.Asn1OctetString get_PrivateKeyData()
-    // Offset: 0x17BAF3C
-    Org::BouncyCastle::Asn1::Asn1OctetString* get_PrivateKeyData();
+    // static public Org.BouncyCastle.Asn1.Pkcs.PrivateKeyInfo GetInstance(System.Object obj)
+    // Offset: 0x1973178
+    static Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* GetInstance(::Il2CppObject* obj);
+    // static private System.Int32 GetVersionValue(Org.BouncyCastle.Asn1.DerInteger version)
+    // Offset: 0x1973524
+    static int GetVersionValue(Org::BouncyCastle::Asn1::DerInteger* version);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier privateKeyAlgorithm, Org.BouncyCastle.Asn1.Asn1Encodable privateKey)
-    // Offset: 0x17BADE0
+    // Offset: 0x1973648
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrivateKeyInfo* New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable* privateKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrivateKeyInfo*, creationType>(privateKeyAlgorithm, privateKey)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier privateKeyAlgorithm, Org.BouncyCastle.Asn1.Asn1Encodable privateKey, Org.BouncyCastle.Asn1.Asn1Set attributes, System.Byte[] publicKey)
-    // Offset: 0x17BADEC
+    // Offset: 0x1973654
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrivateKeyInfo* New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable* privateKey, Org::BouncyCastle::Asn1::Asn1Set* attributes, ::Array<uint8_t>* publicKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrivateKeyInfo*, creationType>(privateKeyAlgorithm, privateKey, attributes, publicKey)));
     }
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x17BA9B4
+    // Offset: 0x197321C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrivateKeyInfo* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrivateKeyInfo*, creationType>(seq)));
     }
-    // static public Org.BouncyCastle.Asn1.Pkcs.PrivateKeyInfo GetInstance(System.Object obj)
-    // Offset: 0x17BA910
-    static Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* GetInstance(::Il2CppObject* obj);
-    // static private System.Int32 GetVersionValue(Org.BouncyCastle.Asn1.DerInteger version)
-    // Offset: 0x17BACBC
-    static int GetVersionValue(Org::BouncyCastle::Asn1::DerInteger* version);
+    // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_PrivateKeyAlgorithm()
+    // Offset: 0x197379C
+    Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_PrivateKeyAlgorithm();
+    // public Org.BouncyCastle.Asn1.Asn1OctetString get_PrivateKeyData()
+    // Offset: 0x19737A4
+    Org::BouncyCastle::Asn1::Asn1OctetString* get_PrivateKeyData();
     // public Org.BouncyCastle.Asn1.Asn1Object ParsePrivateKey()
-    // Offset: 0x17BAF44
+    // Offset: 0x19737AC
     Org::BouncyCastle::Asn1::Asn1Object* ParsePrivateKey();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x17BAF70
+    // Offset: 0x19737D8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
@@ -132,34 +132,6 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*, "Org.BouncyCastle.Asn1.Pkcs", "PrivateKeyInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::get_PrivateKeyAlgorithm
-// Il2CppName: get_PrivateKeyAlgorithm
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::*)()>(&Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::get_PrivateKeyAlgorithm)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*), "get_PrivateKeyAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::get_PrivateKeyData
-// Il2CppName: get_PrivateKeyData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1OctetString* (Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::*)()>(&Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::get_PrivateKeyData)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*), "get_PrivateKeyData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::GetInstance
 // Il2CppName: GetInstance
 template<>
@@ -176,6 +148,34 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org
   static const MethodInfo* get() {
     static auto* version = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DerInteger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*), "GetVersionValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{version});
+  }
+};
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::get_PrivateKeyAlgorithm
+// Il2CppName: get_PrivateKeyAlgorithm
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::*)()>(&Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::get_PrivateKeyAlgorithm)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*), "get_PrivateKeyAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::get_PrivateKeyData
+// Il2CppName: get_PrivateKeyData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1OctetString* (Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::*)()>(&Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::get_PrivateKeyData)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*), "get_PrivateKeyData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::ParsePrivateKey

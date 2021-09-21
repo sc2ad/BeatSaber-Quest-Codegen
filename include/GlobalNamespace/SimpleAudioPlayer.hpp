@@ -84,21 +84,36 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _fadingIn
     bool& dyn__fadingIn();
     // protected System.Void Start()
-    // Offset: 0x1096974
+    // Offset: 0x11053A8
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1096A48
+    // Offset: 0x110547C
     void Update();
     // private System.Void FadeIn(System.Single duration)
-    // Offset: 0x1096A00
+    // Offset: 0x1105434
     void FadeIn(float duration);
     // public override UnityEngine.AudioClip get_activeAudioClip()
-    // Offset: 0x109696C
+    // Offset: 0x11053A0
     // Implemented from: AudioPlayerBase
     // Base method: UnityEngine.AudioClip AudioPlayerBase::get_activeAudioClip()
     UnityEngine::AudioClip* get_activeAudioClip();
+    // public override System.Void FadeOut(System.Single duration)
+    // Offset: 0x11055DC
+    // Implemented from: AudioPlayerBase
+    // Base method: System.Void AudioPlayerBase::FadeOut(System.Single duration)
+    void FadeOut(float duration);
+    // public override System.Void PauseCurrentChannel()
+    // Offset: 0x1105620
+    // Implemented from: AudioPlayerBase
+    // Base method: System.Void AudioPlayerBase::PauseCurrentChannel()
+    void PauseCurrentChannel();
+    // public override System.Void UnPauseCurrentChannel()
+    // Offset: 0x110563C
+    // Implemented from: AudioPlayerBase
+    // Base method: System.Void AudioPlayerBase::UnPauseCurrentChannel()
+    void UnPauseCurrentChannel();
     // public System.Void .ctor()
-    // Offset: 0x1096C24
+    // Offset: 0x1105658
     // Implemented from: AudioPlayerBase
     // Base method: System.Void AudioPlayerBase::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -111,21 +126,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SimpleAudioPlayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleAudioPlayer*, creationType>()));
     }
-    // public override System.Void FadeOut(System.Single duration)
-    // Offset: 0x1096BA8
-    // Implemented from: AudioPlayerBase
-    // Base method: System.Void AudioPlayerBase::FadeOut(System.Single duration)
-    void FadeOut(float duration);
-    // public override System.Void PauseCurrentChannel()
-    // Offset: 0x1096BEC
-    // Implemented from: AudioPlayerBase
-    // Base method: System.Void AudioPlayerBase::PauseCurrentChannel()
-    void PauseCurrentChannel();
-    // public override System.Void UnPauseCurrentChannel()
-    // Offset: 0x1096C08
-    // Implemented from: AudioPlayerBase
-    // Base method: System.Void AudioPlayerBase::UnPauseCurrentChannel()
-    void UnPauseCurrentChannel();
   }; // SimpleAudioPlayer
   #pragma pack(pop)
   static check_size<sizeof(SimpleAudioPlayer), 52 + sizeof(bool)> __GlobalNamespace_SimpleAudioPlayerSizeCheck;
@@ -166,10 +166,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleAudioPlayer*), "get_activeAudioClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SimpleAudioPlayer::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SimpleAudioPlayer::FadeOut
 // Il2CppName: FadeOut
 template<>
@@ -195,3 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleAudioPlayer*), "UnPauseCurrentChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SimpleAudioPlayer::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

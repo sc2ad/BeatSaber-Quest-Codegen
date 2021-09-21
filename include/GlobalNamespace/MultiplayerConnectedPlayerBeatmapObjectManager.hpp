@@ -113,63 +113,63 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerConnectedPlayerBeatmapObjectManager/InitData _initData
     GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData*& dyn__initData();
     // private System.Void .ctor(MultiplayerConnectedPlayerBeatmapObjectManager/InitData initData, IConnectedPlayerNoteEventManager noteEventManager, MultiplayerConnectedPlayerGameNoteController/Pool gameNotePool, MultiplayerConnectedPlayerBombNoteController/Pool bombNotePool, MultiplayerConnectedPlayerObstacleController/Pool obstaclePool)
-    // Offset: 0x11C803C
+    // Offset: 0x120E580
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerBeatmapObjectManager* New_ctor(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData* initData, GlobalNamespace::IConnectedPlayerNoteEventManager* noteEventManager, GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::Pool* gameNotePool, GlobalNamespace::MultiplayerConnectedPlayerBombNoteController::Pool* bombNotePool, GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Pool* obstaclePool) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerBeatmapObjectManager*, creationType>(initData, noteEventManager, gameNotePool, bombNotePool, obstaclePool)));
     }
     // public System.Void Dispose()
-    // Offset: 0x11C81E4
+    // Offset: 0x120E728
     void Dispose();
     // private System.Void HandleMultiplayerNoteEventManagerNoteWasCut(NoteCutInfoNetSerializable noteCutInfo)
-    // Offset: 0x11C9160
+    // Offset: 0x120F6A4
     void HandleMultiplayerNoteEventManagerNoteWasCut(GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
     // static private System.Boolean AreNotesSame(NoteController noteController, NoteCutInfoNetSerializable noteCutInfo)
-    // Offset: 0x11C936C
+    // Offset: 0x120F8B0
     static bool AreNotesSame(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
     // public override System.Collections.Generic.List`1<ObstacleController> get_activeObstacleControllers()
-    // Offset: 0x11C7FE4
+    // Offset: 0x120E528
     // Implemented from: BeatmapObjectManager
     // Base method: System.Collections.Generic.List`1<ObstacleController> BeatmapObjectManager::get_activeObstacleControllers()
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* get_activeObstacleControllers();
     // protected override ObstacleController SpawnObstacleInternal(ObstacleData obstacleData, BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
-    // Offset: 0x11C82E4
+    // Offset: 0x120E828
     // Implemented from: BeatmapObjectManager
     // Base method: ObstacleController BeatmapObjectManager::SpawnObstacleInternal(ObstacleData obstacleData, BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
     GlobalNamespace::ObstacleController* SpawnObstacleInternal(GlobalNamespace::ObstacleData* obstacleData, GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData obstacleSpawnData, float rotation);
     // protected override NoteController SpawnBombNoteInternal(NoteData bombNoteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation)
-    // Offset: 0x11C83BC
+    // Offset: 0x120E900
     // Implemented from: BeatmapObjectManager
     // Base method: NoteController BeatmapObjectManager::SpawnBombNoteInternal(NoteData bombNoteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation)
     GlobalNamespace::NoteController* SpawnBombNoteInternal(GlobalNamespace::NoteData* bombNoteData, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation);
     // protected override NoteController SpawnBasicNoteInternal(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Single cutDirectionAngleOffset)
-    // Offset: 0x11C84E4
+    // Offset: 0x120EA28
     // Implemented from: BeatmapObjectManager
     // Base method: NoteController BeatmapObjectManager::SpawnBasicNoteInternal(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Single cutDirectionAngleOffset)
     GlobalNamespace::NoteController* SpawnBasicNoteInternal(GlobalNamespace::NoteData* noteData, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation, float cutDirectionAngleOffset);
     // protected override System.Void DespawnInternal(NoteController noteController)
-    // Offset: 0x11C877C
+    // Offset: 0x120ECC0
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DespawnInternal(NoteController noteController)
     void DespawnInternal(GlobalNamespace::NoteController* noteController);
     // protected override System.Void DespawnInternal(ObstacleController obstacleController)
-    // Offset: 0x11C8870
+    // Offset: 0x120EDB4
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DespawnInternal(ObstacleController obstacleController)
     void DespawnInternal(GlobalNamespace::ObstacleController* obstacleController);
     // public override System.Void DissolveAllObjects()
-    // Offset: 0x11C8920
+    // Offset: 0x120EE64
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DissolveAllObjects()
     void DissolveAllObjects();
     // public override System.Void HideAllBeatmapObjects(System.Boolean hide)
-    // Offset: 0x11C8BD8
+    // Offset: 0x120F11C
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::HideAllBeatmapObjects(System.Boolean hide)
     void HideAllBeatmapObjects(bool hide);
     // public override System.Void PauseAllBeatmapObjects(System.Boolean pause)
-    // Offset: 0x11C8E9C
+    // Offset: 0x120F3E0
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::PauseAllBeatmapObjects(System.Boolean pause)
     void PauseAllBeatmapObjects(bool pause);

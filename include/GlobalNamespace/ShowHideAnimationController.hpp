@@ -85,20 +85,20 @@ namespace GlobalNamespace {
     bool& dyn__show();
     // Get instance field reference: private System.Int32 _showAnimatorParam
     int& dyn__showAnimatorParam();
-    // public System.Boolean get_Show()
-    // Offset: 0x2393808
-    bool get_Show();
     // public System.Void set_Show(System.Boolean value)
-    // Offset: 0x23936A8
+    // Offset: 0x25995A0
     void set_Show(bool value);
+    // public System.Boolean get_Show()
+    // Offset: 0x2599700
+    bool get_Show();
     // protected System.Void Awake()
-    // Offset: 0x2393810
+    // Offset: 0x2599708
     void Awake();
     // private System.Collections.IEnumerator DeactivateSelfAfterDelayCoroutine(System.Single delay)
-    // Offset: 0x239388C
+    // Offset: 0x2599784
     System::Collections::IEnumerator* DeactivateSelfAfterDelayCoroutine(float delay);
     // public System.Void .ctor()
-    // Offset: 0x2393938
+    // Offset: 0x2599830
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -117,14 +117,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowHideAnimationController*, "", "ShowHideAnimationController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::ShowHideAnimationController::get_Show
-// Il2CppName: get_Show
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ShowHideAnimationController::*)()>(&GlobalNamespace::ShowHideAnimationController::get_Show)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShowHideAnimationController*), "get_Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::ShowHideAnimationController::set_Show
 // Il2CppName: set_Show
 template<>
@@ -132,6 +124,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShowHideAnimationController*), "set_Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ShowHideAnimationController::get_Show
+// Il2CppName: get_Show
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ShowHideAnimationController::*)()>(&GlobalNamespace::ShowHideAnimationController::get_Show)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShowHideAnimationController*), "get_Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ShowHideAnimationController::Awake

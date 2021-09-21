@@ -63,10 +63,15 @@ namespace GlobalNamespace {
     // Get instance field reference: public BloomFogParamsBehaviour _template
     GlobalNamespace::BloomFogParamsBehaviour*& dyn__template();
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x10D8994
+    // Offset: 0x12AA234
     UnityEngine::Timeline::ClipCaps get_clipCaps();
+    // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
+    // Offset: 0x12AA23C
+    // Implemented from: UnityEngine.Playables.PlayableAsset
+    // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
+    UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go);
     // public System.Void .ctor()
-    // Offset: 0x10D8A3C
+    // Offset: 0x12AA2DC
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Void PlayableAsset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -77,11 +82,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomFogParamsAsset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomFogParamsAsset*, creationType>()));
     }
-    // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x10D899C
-    // Implemented from: UnityEngine.Playables.PlayableAsset
-    // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go);
   }; // BloomFogParamsAsset
   #pragma pack(pop)
   static check_size<sizeof(BloomFogParamsAsset), 24 + sizeof(GlobalNamespace::BloomFogParamsBehaviour*)> __GlobalNamespace_BloomFogParamsAssetSizeCheck;
@@ -97,10 +97,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogParamsAsset*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsAsset::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsAsset::CreatePlayable
 // Il2CppName: CreatePlayable
 template<>
@@ -111,3 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogParamsAsset*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{graph, go});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsAsset::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

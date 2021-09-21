@@ -29,8 +29,13 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: MultiplayerBadgeDataPrecisionSO
     MultiplayerBadgeDataPrecisionSO() noexcept {}
+    // protected override System.Single GetValue(MultiplayerPlayerResultsData result)
+    // Offset: 0x120BB68
+    // Implemented from: MultiplayerBadgeDataMinMaxFloatSO
+    // Base method: System.Single MultiplayerBadgeDataMinMaxFloatSO::GetValue(MultiplayerPlayerResultsData result)
+    float GetValue(GlobalNamespace::MultiplayerPlayerResultsData* result);
     // public System.Void .ctor()
-    // Offset: 0x11C5528
+    // Offset: 0x120BBA8
     // Implemented from: MultiplayerBadgeDataMinMaxFloatSO
     // Base method: System.Void MultiplayerBadgeDataMinMaxFloatSO::.ctor()
     // Base method: System.Void MultiplayerBadgeDataSO::.ctor()
@@ -42,20 +47,11 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerBadgeDataPrecisionSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerBadgeDataPrecisionSO*, creationType>()));
     }
-    // protected override System.Single GetValue(MultiplayerPlayerResultsData result)
-    // Offset: 0x11C54E8
-    // Implemented from: MultiplayerBadgeDataMinMaxFloatSO
-    // Base method: System.Single MultiplayerBadgeDataMinMaxFloatSO::GetValue(MultiplayerPlayerResultsData result)
-    float GetValue(GlobalNamespace::MultiplayerPlayerResultsData* result);
   }; // MultiplayerBadgeDataPrecisionSO
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgeDataPrecisionSO*, "", "MultiplayerBadgeDataPrecisionSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeDataPrecisionSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeDataPrecisionSO::GetValue
 // Il2CppName: GetValue
 template<>
@@ -65,3 +61,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgeDataPrecisionSO*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeDataPrecisionSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

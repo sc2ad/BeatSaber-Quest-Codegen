@@ -63,10 +63,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.ParticleSystem _particleSystem
     UnityEngine::ParticleSystem*& dyn__particleSystem();
     // protected System.Void Start()
-    // Offset: 0x1094234
+    // Offset: 0x1102C68
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x10942C8
+    // Offset: 0x1102CFC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

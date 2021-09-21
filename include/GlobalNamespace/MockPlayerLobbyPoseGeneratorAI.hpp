@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MockPlayerLobbyPoseGeneratorAI
     MockPlayerLobbyPoseGeneratorAI() noexcept {}
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager)
-    // Offset: 0x23E0880
+    // Offset: 0x25E605C
     // Implemented from: MockPlayerLobbyPoseGenerator
     // Base method: System.Void MockPlayerLobbyPoseGenerator::.ctor(IMultiplayerSessionManager multiplayerSessionManager)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -46,7 +46,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MockPlayerLobbyPoseGeneratorAI*, creationType>(multiplayerSessionManager)));
     }
     // public override System.Void SendPoses(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x23E0884
+    // Offset: 0x25E6060
     // Implemented from: MockPlayerLobbyPoseGenerator
     // Base method: System.Void MockPlayerLobbyPoseGenerator::SendPoses(System.Threading.CancellationToken cancellationToken)
     void SendPoses(System::Threading::CancellationToken cancellationToken);

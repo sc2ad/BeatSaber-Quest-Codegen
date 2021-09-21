@@ -63,6 +63,7 @@ namespace GlobalNamespace {
     UnityEngine::Color lightColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    // [CompilerGeneratedAttribute] Offset: 0xF0C430
     // private System.Action`3<ColorSaturationValueSlider,UnityEngine.Vector2,ColorChangeUIEventType> colorSaturationOrValueDidChangeEvent
     // Size: 0x8
     // Offset: 0x150
@@ -82,19 +83,39 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`3<ColorSaturationValueSlider,UnityEngine.Vector2,ColorChangeUIEventType> colorSaturationOrValueDidChangeEvent
     System::Action_3<GlobalNamespace::ColorSaturationValueSlider*, UnityEngine::Vector2, GlobalNamespace::ColorChangeUIEventType>*& dyn_colorSaturationOrValueDidChangeEvent();
     // public System.Void add_colorSaturationOrValueDidChangeEvent(System.Action`3<ColorSaturationValueSlider,UnityEngine.Vector2,ColorChangeUIEventType> value)
-    // Offset: 0x10E219C
+    // Offset: 0x1199BFC
     void add_colorSaturationOrValueDidChangeEvent(System::Action_3<GlobalNamespace::ColorSaturationValueSlider*, UnityEngine::Vector2, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorSaturationOrValueDidChangeEvent(System.Action`3<ColorSaturationValueSlider,UnityEngine.Vector2,ColorChangeUIEventType> value)
-    // Offset: 0x10E2244
+    // Offset: 0x1199CA4
     void remove_colorSaturationOrValueDidChangeEvent(System::Action_3<GlobalNamespace::ColorSaturationValueSlider*, UnityEngine::Vector2, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void SetHue(System.Single hue)
-    // Offset: 0x10E2404
+    // Offset: 0x1199E64
     void SetHue(float hue);
     // private System.Void HandleNormalizedValueDidChange(HMUI.Slider2D slider, UnityEngine.Vector2 normalizedValue)
-    // Offset: 0x10E2534
+    // Offset: 0x1199F94
     void HandleNormalizedValueDidChange(HMUI::Slider2D* slider, UnityEngine::Vector2 normalizedValue);
+    // protected override System.Void Awake()
+    // Offset: 0x1199D4C
+    // Implemented from: UnityEngine.UI.Selectable
+    // Base method: System.Void Selectable::Awake()
+    void Awake();
+    // protected override System.Void OnDestroy()
+    // Offset: 0x1199DD8
+    // Implemented from: UnityEngine.EventSystems.UIBehaviour
+    // Base method: System.Void UIBehaviour::OnDestroy()
+    void OnDestroy();
+    // protected override System.Void UpdateVisuals()
+    // Offset: 0x1199E78
+    // Implemented from: HMUI.Slider2D
+    // Base method: System.Void Slider2D::UpdateVisuals()
+    void UpdateVisuals();
+    // public override System.Void OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
+    // Offset: 0x119A018
+    // Implemented from: UnityEngine.UI.Selectable
+    // Base method: System.Void Selectable::OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
+    void OnPointerUp(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0x10E2648
+    // Offset: 0x119A0A8
     // Implemented from: HMUI.Slider2D
     // Base method: System.Void Slider2D::.ctor()
     // Base method: System.Void Selectable::.ctor()
@@ -109,26 +130,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorSaturationValueSlider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorSaturationValueSlider*, creationType>()));
     }
-    // protected override System.Void Awake()
-    // Offset: 0x10E22EC
-    // Implemented from: UnityEngine.UI.Selectable
-    // Base method: System.Void Selectable::Awake()
-    void Awake();
-    // protected override System.Void OnDestroy()
-    // Offset: 0x10E2378
-    // Implemented from: UnityEngine.EventSystems.UIBehaviour
-    // Base method: System.Void UIBehaviour::OnDestroy()
-    void OnDestroy();
-    // protected override System.Void UpdateVisuals()
-    // Offset: 0x10E2418
-    // Implemented from: HMUI.Slider2D
-    // Base method: System.Void Slider2D::UpdateVisuals()
-    void UpdateVisuals();
-    // public override System.Void OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x10E25B8
-    // Implemented from: UnityEngine.UI.Selectable
-    // Base method: System.Void Selectable::OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
-    void OnPointerUp(UnityEngine::EventSystems::PointerEventData* eventData);
   }; // ColorSaturationValueSlider
   // WARNING Not writing size check since size may be invalid!
 }
@@ -171,10 +172,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSaturationValueSlider*), "HandleNormalizedValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{slider, normalizedValue});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ColorSaturationValueSlider::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ColorSaturationValueSlider::Awake
 // Il2CppName: Awake
 template<>
@@ -208,3 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSaturationValueSlider*), "OnPointerUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventData});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ColorSaturationValueSlider::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

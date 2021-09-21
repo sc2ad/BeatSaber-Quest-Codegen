@@ -35,22 +35,22 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: X509CertificateUtility
     X509CertificateUtility() noexcept {}
     // static public ICertificateEncryptionProvider GetCertificateEncryptionProvider(System.String privateKeyPem, System.String password)
-    // Offset: 0x17011F0
+    // Offset: 0x18DAC74
     static GlobalNamespace::ICertificateEncryptionProvider* GetCertificateEncryptionProvider(::Il2CppString* privateKeyPem, ::Il2CppString* password);
     // static private X509CertificateUtility/RSACertificateEncryptionProvider GetRSACertificateEncryptionProvider(System.String privateKeyPem, X509CertificateUtility/PasswordFinder passwordFinder)
-    // Offset: 0x17012B4
+    // Offset: 0x18DAD38
     static GlobalNamespace::X509CertificateUtility::RSACertificateEncryptionProvider* GetRSACertificateEncryptionProvider(::Il2CppString* privateKeyPem, GlobalNamespace::X509CertificateUtility::PasswordFinder* passwordFinder);
     // static public System.Security.Cryptography.X509Certificates.X509Certificate2[] GetCertificateList(System.String certificatePem, System.String certificateChainPem)
-    // Offset: 0x1701574
+    // Offset: 0x18DAFF8
     static ::Array<System::Security::Cryptography::X509Certificates::X509Certificate2*>* GetCertificateList(::Il2CppString* certificatePem, ::Il2CppString* certificateChainPem);
     // static public System.Void ValidateCertificateChain(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Byte[][] certificateChain)
-    // Offset: 0x1701004
+    // Offset: 0x18DAA88
     static void ValidateCertificateChain(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::Array<::Array<uint8_t>*>* certificateChain);
     // static private System.Void ValidateCertificateChainUnity(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Byte[][] certificateChain)
-    // Offset: 0x1701AC0
+    // Offset: 0x18DB544
     static void ValidateCertificateChainUnity(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::Array<::Array<uint8_t>*>* certificateChain);
     // static private System.Void ValidateCertificateChainDotNet(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Byte[][] certificateChain)
-    // Offset: 0x1702178
+    // Offset: 0x18DBBFC
     static void ValidateCertificateChainDotNet(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::Array<::Array<uint8_t>*>* certificateChain);
   }; // X509CertificateUtility
   #pragma pack(pop)

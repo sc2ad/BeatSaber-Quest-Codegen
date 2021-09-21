@@ -32,6 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnableOnVisible : public UnityEngine::MonoBehaviour {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xEC9510
     // private System.Action`1<System.Boolean> VisibilityChangedEvent
     // Size: 0x8
     // Offset: 0x18
@@ -53,22 +54,22 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Behaviour[] _components
     ::Array<UnityEngine::Behaviour*>*& dyn__components();
     // public System.Void add_VisibilityChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1262210
+    // Offset: 0x137EA18
     void add_VisibilityChangedEvent(System::Action_1<bool>* value);
     // public System.Void remove_VisibilityChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x12622B4
+    // Offset: 0x137EABC
     void remove_VisibilityChangedEvent(System::Action_1<bool>* value);
     // protected System.Void Awake()
-    // Offset: 0x1262358
+    // Offset: 0x137EB60
     void Awake();
     // protected System.Void OnBecameVisible()
-    // Offset: 0x12623C8
+    // Offset: 0x137EBD0
     void OnBecameVisible();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0x1262480
+    // Offset: 0x137EC88
     void OnBecameInvisible();
     // public System.Void .ctor()
-    // Offset: 0x1262538
+    // Offset: 0x137ED40
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

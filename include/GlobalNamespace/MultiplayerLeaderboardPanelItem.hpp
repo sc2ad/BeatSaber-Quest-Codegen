@@ -146,14 +146,14 @@ namespace GlobalNamespace {
     bool& dyn__prevFailed();
     // Get instance field reference: private System.Int32 _prevNumberOfPlayers
     int& dyn__prevNumberOfPlayers();
-    // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x11D6B38
-    void set_hide(bool value);
     // public System.Void SetData(System.Int32 position, System.String playerName, System.Int32 score, System.Boolean failed, System.Int32 numberOfPlayers)
-    // Offset: 0x11D6DF0
+    // Offset: 0x1169180
     void SetData(int position, ::Il2CppString* playerName, int score, bool failed, int numberOfPlayers);
+    // public System.Void set_hide(System.Boolean value)
+    // Offset: 0x1168EC8
+    void set_hide(bool value);
     // public System.Void .ctor()
-    // Offset: 0x11D710C
+    // Offset: 0x116949C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -172,15 +172,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLeaderboardPanelItem*, "", "MultiplayerLeaderboardPanelItem");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLeaderboardPanelItem::set_hide
-// Il2CppName: set_hide
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLeaderboardPanelItem::*)(bool)>(&GlobalNamespace::MultiplayerLeaderboardPanelItem::set_hide)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLeaderboardPanelItem*), "set_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLeaderboardPanelItem::SetData
 // Il2CppName: SetData
 template<>
@@ -192,6 +183,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     static auto* failed = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* numberOfPlayers = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLeaderboardPanelItem*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, playerName, score, failed, numberOfPlayers});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLeaderboardPanelItem::set_hide
+// Il2CppName: set_hide
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLeaderboardPanelItem::*)(bool)>(&GlobalNamespace::MultiplayerLeaderboardPanelItem::set_hide)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLeaderboardPanelItem*), "set_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLeaderboardPanelItem::New_ctor

@@ -79,7 +79,7 @@ namespace NUnit::Framework::Constraints {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: clipStrings and: failurePoints
     char __padding3[0x6] = {};
-    // private System.Collections.Generic.IList`1<NUnit.Framework.Constraints.NUnitEqualityComparer/NUnit.Framework.Constraints.FailurePoint> failurePoints
+    // private System.Collections.Generic.IList`1<NUnit.Framework.Constraints.NUnitEqualityComparer/FailurePoint> failurePoints
     // Size: 0x8
     // Offset: 0x40
     System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* failurePoints;
@@ -127,41 +127,41 @@ namespace NUnit::Framework::Constraints {
     bool& dyn_caseInsensitive();
     // Get instance field reference: private System.Boolean clipStrings
     bool& dyn_clipStrings();
-    // Get instance field reference: private System.Collections.Generic.IList`1<NUnit.Framework.Constraints.NUnitEqualityComparer/NUnit.Framework.Constraints.FailurePoint> failurePoints
+    // Get instance field reference: private System.Collections.Generic.IList`1<NUnit.Framework.Constraints.NUnitEqualityComparer/FailurePoint> failurePoints
     System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>*& dyn_failurePoints();
     // public System.Void .ctor(NUnit.Framework.Constraints.EqualConstraint constraint, System.Object actual, System.Boolean hasSucceeded)
-    // Offset: 0x176C9D8
+    // Offset: 0x192BA24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EqualConstraintResult* New_ctor(NUnit::Framework::Constraints::EqualConstraint* constraint, ::Il2CppObject* actual, bool hasSucceeded) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::EqualConstraintResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EqualConstraintResult*, creationType>(constraint, actual, hasSucceeded)));
     }
-    // static private System.Void .cctor()
-    // Offset: 0x176E794
-    static void _cctor();
     // private System.Void DisplayDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.Object expected, System.Object actual, System.Int32 depth)
-    // Offset: 0x176CC94
+    // Offset: 0x192BCE0
     void DisplayDifferences(NUnit::Framework::Constraints::MessageWriter* writer, ::Il2CppObject* expected, ::Il2CppObject* actual, int depth);
     // private System.Void DisplayStringDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.String expected, System.String actual)
-    // Offset: 0x176CF78
+    // Offset: 0x192BFC4
     void DisplayStringDifferences(NUnit::Framework::Constraints::MessageWriter* writer, ::Il2CppString* expected, ::Il2CppString* actual);
     // private System.Void DisplayStreamDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.IO.Stream expected, System.IO.Stream actual, System.Int32 depth)
-    // Offset: 0x176D680
+    // Offset: 0x192C6CC
     void DisplayStreamDifferences(NUnit::Framework::Constraints::MessageWriter* writer, System::IO::Stream* expected, System::IO::Stream* actual, int depth);
     // private System.Void DisplayCollectionDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.Collections.ICollection expected, System.Collections.ICollection actual, System.Int32 depth)
-    // Offset: 0x176D274
+    // Offset: 0x192C2C0
     void DisplayCollectionDifferences(NUnit::Framework::Constraints::MessageWriter* writer, System::Collections::ICollection* expected, System::Collections::ICollection* actual, int depth);
     // private System.Void DisplayTypesAndSizes(NUnit.Framework.Constraints.MessageWriter writer, System.Collections.IEnumerable expected, System.Collections.IEnumerable actual, System.Int32 indent)
-    // Offset: 0x176DB1C
+    // Offset: 0x192CB68
     void DisplayTypesAndSizes(NUnit::Framework::Constraints::MessageWriter* writer, System::Collections::IEnumerable* expected, System::Collections::IEnumerable* actual, int indent);
-    // private System.Void DisplayFailurePoint(NUnit.Framework.Constraints.MessageWriter writer, System.Collections.IEnumerable expected, System.Collections.IEnumerable actual, NUnit.Framework.Constraints.NUnitEqualityComparer/NUnit.Framework.Constraints.FailurePoint failurePoint, System.Int32 indent)
-    // Offset: 0x176DFC8
+    // private System.Void DisplayFailurePoint(NUnit.Framework.Constraints.MessageWriter writer, System.Collections.IEnumerable expected, System.Collections.IEnumerable actual, NUnit.Framework.Constraints.NUnitEqualityComparer/FailurePoint failurePoint, System.Int32 indent)
+    // Offset: 0x192D014
     void DisplayFailurePoint(NUnit::Framework::Constraints::MessageWriter* writer, System::Collections::IEnumerable* expected, System::Collections::IEnumerable* actual, NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint* failurePoint, int indent);
     // private System.Void DisplayEnumerableDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.Collections.IEnumerable expected, System.Collections.IEnumerable actual, System.Int32 depth)
-    // Offset: 0x176D4C8
+    // Offset: 0x192C514
     void DisplayEnumerableDifferences(NUnit::Framework::Constraints::MessageWriter* writer, System::Collections::IEnumerable* expected, System::Collections::IEnumerable* actual, int depth);
+    // static private System.Void .cctor()
+    // Offset: 0x192D7E0
+    static void _cctor();
     // public override System.Void WriteMessageTo(NUnit.Framework.Constraints.MessageWriter writer)
-    // Offset: 0x176CC84
+    // Offset: 0x192BCD0
     // Implemented from: NUnit.Framework.Constraints.ConstraintResult
     // Base method: System.Void ConstraintResult::WriteMessageTo(NUnit.Framework.Constraints.MessageWriter writer)
     void WriteMessageTo(NUnit::Framework::Constraints::MessageWriter* writer);
@@ -176,14 +176,6 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::EqualConstraintResult*, "N
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraintResult::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::Constraints::EqualConstraintResult::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraintResult*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraintResult::DisplayDifferences
 // Il2CppName: DisplayDifferences
 template<>
@@ -266,6 +258,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
     static auto* actual = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerable")->byval_arg;
     static auto* depth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraintResult*), "DisplayEnumerableDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer, expected, actual, depth});
+  }
+};
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraintResult::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::Constraints::EqualConstraintResult::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraintResult*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraintResult::WriteMessageTo

@@ -37,14 +37,16 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParameterWrapper : public ::Il2CppObject/*, public NUnit::Framework::Interfaces::IParameterInfo*/ {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xE28528
+    // [DebuggerBrowsableAttribute] Offset: 0xEEED00
+    // [CompilerGeneratedAttribute] Offset: 0xEEED00
     // private NUnit.Framework.Interfaces.IMethodInfo <Method>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     NUnit::Framework::Interfaces::IMethodInfo* Method;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::IMethodInfo*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE28564
+    // [DebuggerBrowsableAttribute] Offset: 0xEEED3C
+    // [CompilerGeneratedAttribute] Offset: 0xEEED3C
     // private System.Reflection.ParameterInfo <ParameterInfo>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -61,28 +63,28 @@ namespace NUnit::Framework::Internal {
     NUnit::Framework::Interfaces::IMethodInfo*& dyn_$Method$k__BackingField();
     // Get instance field reference: private System.Reflection.ParameterInfo <ParameterInfo>k__BackingField
     System::Reflection::ParameterInfo*& dyn_$ParameterInfo$k__BackingField();
-    // public System.Boolean get_IsOptional()
-    // Offset: 0x2295B44
-    bool get_IsOptional();
-    // private System.Void set_Method(NUnit.Framework.Interfaces.IMethodInfo value)
-    // Offset: 0x2295B60
-    void set_Method(NUnit::Framework::Interfaces::IMethodInfo* value);
-    // public System.Reflection.ParameterInfo get_ParameterInfo()
-    // Offset: 0x2295B68
-    System::Reflection::ParameterInfo* get_ParameterInfo();
-    // private System.Void set_ParameterInfo(System.Reflection.ParameterInfo value)
-    // Offset: 0x2295B70
-    void set_ParameterInfo(System::Reflection::ParameterInfo* value);
-    // public System.Type get_ParameterType()
-    // Offset: 0x2295B78
-    System::Type* get_ParameterType();
     // public System.Void .ctor(NUnit.Framework.Interfaces.IMethodInfo method, System.Reflection.ParameterInfo parameterInfo)
-    // Offset: 0x2295510
+    // Offset: 0x249D858
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParameterWrapper* New_ctor(NUnit::Framework::Interfaces::IMethodInfo* method, System::Reflection::ParameterInfo* parameterInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::ParameterWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParameterWrapper*, creationType>(method, parameterInfo)));
     }
+    // public System.Boolean get_IsOptional()
+    // Offset: 0x249DE8C
+    bool get_IsOptional();
+    // private System.Void set_Method(NUnit.Framework.Interfaces.IMethodInfo value)
+    // Offset: 0x249DEA8
+    void set_Method(NUnit::Framework::Interfaces::IMethodInfo* value);
+    // public System.Reflection.ParameterInfo get_ParameterInfo()
+    // Offset: 0x249DEB0
+    System::Reflection::ParameterInfo* get_ParameterInfo();
+    // private System.Void set_ParameterInfo(System.Reflection.ParameterInfo value)
+    // Offset: 0x249DEB8
+    void set_ParameterInfo(System::Reflection::ParameterInfo* value);
+    // public System.Type get_ParameterType()
+    // Offset: 0x249DEC0
+    System::Type* get_ParameterType();
     // public T[] GetCustomAttributes(System.Boolean inherit)
     // Offset: 0xFFFFFFFF
     template<class T>
@@ -110,6 +112,10 @@ namespace NUnit::Framework::Internal {
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ParameterWrapper*, "NUnit.Framework.Internal", "ParameterWrapper");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ParameterWrapper::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ParameterWrapper::get_IsOptional
 // Il2CppName: get_IsOptional
 template<>
@@ -152,10 +158,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ParameterWrapper*), "get_ParameterType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::ParameterWrapper::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ParameterWrapper::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 // Cannot write MetadataGetter for generic methods!

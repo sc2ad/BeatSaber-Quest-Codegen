@@ -146,7 +146,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifierParamsSO* smallCubes;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifierParamsSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE39160
+    // [SpaceAttribute] Offset: 0xF01914
     // private GameplayModifierParamsSO _demoNoObstacles
     // Size: 0x8
     // Offset: 0x98
@@ -208,34 +208,39 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<GameplayModifierParamsSO,GameplayModifiersModelSO/GameplayModifierBoolGetter> _gameplayModifierGetters
     System::Collections::Generic::Dictionary_2<GlobalNamespace::GameplayModifierParamsSO*, GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter*>*& dyn__gameplayModifierGetters();
     // public GameplayModifiers CreateGameplayModifiers(System.Func`2<GameplayModifierParamsSO,System.Boolean> valueGetter)
-    // Offset: 0x1102418
+    // Offset: 0x11E6D00
     GlobalNamespace::GameplayModifiers* CreateGameplayModifiers(System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, bool>* valueGetter);
     // public System.Boolean GetModifierBoolValue(GameplayModifiers gameplayModifiers, GameplayModifierParamsSO gameplayModifierParams)
-    // Offset: 0x1102734
+    // Offset: 0x11E701C
     bool GetModifierBoolValue(GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams);
     // public System.Collections.Generic.List`1<GameplayModifierParamsSO> CreateModifierParamsList(GameplayModifiers gameplayModifiers)
-    // Offset: 0x10FAD6C
+    // Offset: 0x11DF5EC
     System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* CreateModifierParamsList(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Single GetTotalMultiplier(System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams, System.Single energy)
-    // Offset: 0x1102B74
+    // Offset: 0x11E745C
     float GetTotalMultiplier(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifierParams, float energy);
     // public System.Int32 MaxModifiedScoreForMaxRawScore(System.Int32 maxRawScore, System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams, System.Single energy)
-    // Offset: 0x1102CFC
+    // Offset: 0x11E75E4
     int MaxModifiedScoreForMaxRawScore(int maxRawScore, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifierParams, float energy);
     // public System.Int32 MaxModifiedScoreForMaxRawScore(System.Int32 maxRawScore, System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams, GameplayModifiersModelSO gameplayModifiersModel, System.Single energy)
-    // Offset: 0x1102D54
+    // Offset: 0x11E763C
     int MaxModifiedScoreForMaxRawScore(int maxRawScore, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifierParams, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float energy);
     // private System.Int32 GetModifiedScoreForGameplayModifiers(System.Int32 rawScore, System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParams, System.Single energy)
-    // Offset: 0x1102D28
+    // Offset: 0x11E7610
     int GetModifiedScoreForGameplayModifiers(int rawScore, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifierParams, float energy);
     // public GameplayModifierParamsSO GetGameplayModifierParams(GameplayModifierMask modifier)
-    // Offset: 0x1101110
+    // Offset: 0x11E59F8
     GlobalNamespace::GameplayModifierParamsSO* GetGameplayModifierParams(GlobalNamespace::GameplayModifierMask modifier);
     // private GameplayModifiers/SongSpeed GetSongSpeedFromValueGetter(System.Func`2<GameplayModifierParamsSO,System.Boolean> valueGetter)
-    // Offset: 0x1102684
+    // Offset: 0x11E6F6C
     GlobalNamespace::GameplayModifiers::SongSpeed GetSongSpeedFromValueGetter(System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, bool>* valueGetter);
+    // protected override System.Void OnEnable()
+    // Offset: 0x11E61EC
+    // Implemented from: PersistentScriptableObject
+    // Base method: System.Void PersistentScriptableObject::OnEnable()
+    void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x1102D80
+    // Offset: 0x11E7668
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -246,11 +251,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameplayModifiersModelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifiersModelSO*, creationType>()));
     }
-    // protected override System.Void OnEnable()
-    // Offset: 0x1101904
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::OnEnable()
-    void OnEnable();
   }; // GameplayModifiersModelSO
   #pragma pack(pop)
   static check_size<sizeof(GameplayModifiersModelSO), 168 + sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::GameplayModifierParamsSO*, GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter*>*)> __GlobalNamespace_GameplayModifiersModelSOSizeCheck;
@@ -348,10 +348,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO*), "GetSongSpeedFromValueGetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{valueGetter});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -360,3 +356,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

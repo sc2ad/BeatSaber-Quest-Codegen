@@ -20,6 +20,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NumberTag : public UnityEngine::MonoBehaviour {
     public:
+    // [HideInInspector] Offset: 0xEC95B0
     // public System.Int32 number
     // Size: 0x4
     // Offset: 0x18
@@ -33,7 +34,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 number
     int& dyn_number();
     // public System.Void .ctor()
-    // Offset: 0x126B04C
+    // Offset: 0x1387854
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

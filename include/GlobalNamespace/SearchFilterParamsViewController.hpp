@@ -132,6 +132,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LevelFilterParams* currentLevelFilterParams;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelFilterParams*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF10698
     // private System.Action`2<SearchFilterParamsViewController,LevelFilterParams> didFinishEvent
     // Size: 0x8
     // Offset: 0xE0
@@ -171,28 +172,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<SearchFilterParamsViewController,LevelFilterParams> didFinishEvent
     System::Action_2<GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<SearchFilterParamsViewController,LevelFilterParams> value)
-    // Offset: 0x1139160
+    // Offset: 0x10FF474
     void add_didFinishEvent(System::Action_2<GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<SearchFilterParamsViewController,LevelFilterParams> value)
-    // Offset: 0x1139204
+    // Offset: 0x10FF518
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*>* value);
     // public System.Void Setup(LevelFilterParams levelFilterParams)
-    // Offset: 0x11392A8
+    // Offset: 0x10FF5BC
     void Setup(GlobalNamespace::LevelFilterParams* levelFilterParams);
     // private System.Void OkButtonPressed()
-    // Offset: 0x11396AC
+    // Offset: 0x10FF9BC
     void OkButtonPressed();
     // private System.Void MinBpmControllerValueDidChange(FormattedFloatListSettingsController minBpmController, System.Single value)
-    // Offset: 0x11398C4
+    // Offset: 0x10FFC64
     void MinBpmControllerValueDidChange(GlobalNamespace::FormattedFloatListSettingsController* minBpmController, float value);
     // private System.Void MaxBpmControllerValueDidChange(FormattedFloatListSettingsController maxBpmController, System.Single value)
-    // Offset: 0x113995C
+    // Offset: 0x10FFCFC
     void MaxBpmControllerValueDidChange(GlobalNamespace::FormattedFloatListSettingsController* maxBpmController, float value);
     // private System.Void Refresh(LevelFilterParams levelFilterParams)
-    // Offset: 0x11392B0
+    // Offset: 0x10FF5C4
     void Refresh(GlobalNamespace::LevelFilterParams* levelFilterParams);
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x10FF764
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Offset: 0x10FF8C8
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x11399F4
+    // Offset: 0x10FFE54
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -205,16 +216,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SearchFilterParamsViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SearchFilterParamsViewController*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1139454
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x11395B8
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
   }; // SearchFilterParamsViewController
   #pragma pack(pop)
   static check_size<sizeof(SearchFilterParamsViewController), 224 + sizeof(System::Action_2<GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*>*)> __GlobalNamespace_SearchFilterParamsViewControllerSizeCheck;
@@ -286,10 +287,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SearchFilterParamsViewController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelFilterParams});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::SearchFilterParamsViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::SearchFilterParamsViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -311,3 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SearchFilterParamsViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{removedFromHierarchy, screenSystemDisabling});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::SearchFilterParamsViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

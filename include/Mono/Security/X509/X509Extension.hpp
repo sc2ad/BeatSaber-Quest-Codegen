@@ -58,50 +58,50 @@ namespace Mono::Security::X509 {
     bool& dyn_extnCritical();
     // Get instance field reference: protected Mono.Security.ASN1 extnValue
     Mono::Security::ASN1*& dyn_extnValue();
-    // public System.String get_Oid()
-    // Offset: 0x23DB038
-    ::Il2CppString* get_Oid();
-    // public System.Boolean get_Critical()
-    // Offset: 0x23DB040
-    bool get_Critical();
-    // public Mono.Security.ASN1 get_Value()
-    // Offset: 0x23DAFF8
-    Mono::Security::ASN1* get_Value();
     // public System.Void .ctor(Mono.Security.ASN1 asn1)
-    // Offset: 0x23DABD8
+    // Offset: 0x25E03B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extension* New_ctor(Mono::Security::ASN1* asn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(asn1)));
     }
     // public System.Void .ctor(Mono.Security.X509.X509Extension extension)
-    // Offset: 0x23DAE98
+    // Offset: 0x25E0674
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extension* New_ctor(Mono::Security::X509::X509Extension* extension) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(extension)));
     }
     // protected System.Void Decode()
-    // Offset: 0x23DB030
+    // Offset: 0x25E080C
     void Decode();
     // protected System.Void Encode()
-    // Offset: 0x23DB034
+    // Offset: 0x25E0810
     void Encode();
+    // public System.String get_Oid()
+    // Offset: 0x25E0814
+    ::Il2CppString* get_Oid();
+    // public System.Boolean get_Critical()
+    // Offset: 0x25E081C
+    bool get_Critical();
+    // public Mono.Security.ASN1 get_Value()
+    // Offset: 0x25E07D4
+    Mono::Security::ASN1* get_Value();
     // private System.Void WriteLine(System.Text.StringBuilder sb, System.Int32 n, System.Int32 pos)
-    // Offset: 0x23DB1C8
+    // Offset: 0x25E09A4
     void WriteLine(System::Text::StringBuilder* sb, int n, int pos);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x23DB048
+    // Offset: 0x25E0824
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x23DB1A8
+    // Offset: 0x25E0984
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x23DB3D4
+    // Offset: 0x25E0BB0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -112,30 +112,6 @@ namespace Mono::Security::X509 {
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Extension*, "Mono.Security.X509", "X509Extension");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: Mono::Security::X509::X509Extension::get_Oid
-// Il2CppName: get_Oid
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::X509::X509Extension::*)()>(&Mono::Security::X509::X509Extension::get_Oid)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Extension*), "get_Oid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Mono::Security::X509::X509Extension::get_Critical
-// Il2CppName: get_Critical
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::X509Extension::*)()>(&Mono::Security::X509::X509Extension::get_Critical)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Extension*), "get_Critical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: Mono::Security::X509::X509Extension::get_Value
-// Il2CppName: get_Value
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (Mono::Security::X509::X509Extension::*)()>(&Mono::Security::X509::X509Extension::get_Value)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Extension*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: Mono::Security::X509::X509Extension::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -158,6 +134,30 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::X509Extension::*)()>(&Mono::Security::X509::X509Extension::Encode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Extension*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Mono::Security::X509::X509Extension::get_Oid
+// Il2CppName: get_Oid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::X509::X509Extension::*)()>(&Mono::Security::X509::X509Extension::get_Oid)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Extension*), "get_Oid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Mono::Security::X509::X509Extension::get_Critical
+// Il2CppName: get_Critical
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::X509Extension::*)()>(&Mono::Security::X509::X509Extension::get_Critical)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Extension*), "get_Critical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Mono::Security::X509::X509Extension::get_Value
+// Il2CppName: get_Value
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (Mono::Security::X509::X509Extension::*)()>(&Mono::Security::X509::X509Extension::get_Value)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Extension*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::X509Extension::WriteLine

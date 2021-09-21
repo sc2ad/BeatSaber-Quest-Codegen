@@ -54,27 +54,28 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerLevelFinishedController::$StartLevelFinished$d__19
     class $StartLevelFinished$d__19;
-    // [InjectAttribute] Offset: 0xE3F5C4
+    // [InjectAttribute] Offset: 0xF07F48
     // private readonly IMultiplayerLevelEndActionsPublisher _levelEndActionsPublisher
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IMultiplayerLevelEndActionsPublisher* levelEndActionsPublisher;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerLevelEndActionsPublisher*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3F5D4
+    // [InjectAttribute] Offset: 0xF07F58
     // private readonly IGameplayRpcManager _rpcManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IGameplayRpcManager* rpcManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IGameplayRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3F5E4
+    // [InjectAttribute] Offset: 0xF07F68
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF07F78
     // private System.Action`2<MultiplayerLevelCompletionResults,System.Collections.Generic.Dictionary`2<System.String,MultiplayerLevelCompletionResults>> allResultsCollectedEvent
     // Size: 0x8
     // Offset: 0x30
@@ -133,41 +134,41 @@ namespace GlobalNamespace {
     bool& dyn__gameFinishReported();
     // Get instance field reference: private System.Single _sceneLoadTime
     float& dyn__sceneLoadTime();
-    // public System.Boolean get_gameResultsReady()
-    // Offset: 0x11D77F0
-    bool get_gameResultsReady();
-    // public System.Collections.Generic.Dictionary`2<System.String,MultiplayerLevelCompletionResults> get_otherPlayersCompletionResults()
-    // Offset: 0x11D77F8
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>* get_otherPlayersCompletionResults();
-    // public MultiplayerLevelCompletionResults get_localPlayerResults()
-    // Offset: 0x11D7800
-    GlobalNamespace::MultiplayerLevelCompletionResults* get_localPlayerResults();
     // public System.Void add_allResultsCollectedEvent(System.Action`2<MultiplayerLevelCompletionResults,System.Collections.Generic.Dictionary`2<System.String,MultiplayerLevelCompletionResults>> value)
-    // Offset: 0x11D0188
+    // Offset: 0x1169CC0
     void add_allResultsCollectedEvent(System::Action_2<GlobalNamespace::MultiplayerLevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>* value);
     // public System.Void remove_allResultsCollectedEvent(System.Action`2<MultiplayerLevelCompletionResults,System.Collections.Generic.Dictionary`2<System.String,MultiplayerLevelCompletionResults>> value)
-    // Offset: 0x11CF5D4
+    // Offset: 0x1169D64
     void remove_allResultsCollectedEvent(System::Action_2<GlobalNamespace::MultiplayerLevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>* value);
+    // public System.Boolean get_gameResultsReady()
+    // Offset: 0x1169E08
+    bool get_gameResultsReady();
+    // public System.Collections.Generic.Dictionary`2<System.String,MultiplayerLevelCompletionResults> get_otherPlayersCompletionResults()
+    // Offset: 0x1169E10
+    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>* get_otherPlayersCompletionResults();
+    // public MultiplayerLevelCompletionResults get_localPlayerResults()
+    // Offset: 0x1169E18
+    GlobalNamespace::MultiplayerLevelCompletionResults* get_localPlayerResults();
     // protected System.Void Start()
-    // Offset: 0x11D7808
+    // Offset: 0x1169E20
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11D7A54
+    // Offset: 0x116A06C
     void OnDestroy();
     // private System.Collections.IEnumerator StartLevelFinished(MultiplayerLevelCompletionResults localPlayerResults)
-    // Offset: 0x11D7CA8
+    // Offset: 0x116A2C0
     System::Collections::IEnumerator* StartLevelFinished(GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResults);
     // private System.Void HandlePlayerDidFinish(MultiplayerLevelCompletionResults levelCompletionResults)
-    // Offset: 0x11D7D24
+    // Offset: 0x116A368
     void HandlePlayerDidFinish(GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
     // private System.Void HandlePlayerNetworkDidFailed(PlayerNetworkFailReason playerNetworkFailReason)
-    // Offset: 0x11D7D50
+    // Offset: 0x116A394
     void HandlePlayerNetworkDidFailed(GlobalNamespace::PlayerNetworkFailReason playerNetworkFailReason);
     // private System.Void HandleRpcLevelFinished(System.String userId, MultiplayerLevelCompletionResults results)
-    // Offset: 0x11D7EAC
+    // Offset: 0x116A4F0
     void HandleRpcLevelFinished(::Il2CppString* userId, GlobalNamespace::MultiplayerLevelCompletionResults* results);
     // public System.Void .ctor()
-    // Offset: 0x11D7F1C
+    // Offset: 0x116A560
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -186,6 +187,24 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelFinishedController*, "", "MultiplayerLevelFinishedController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelFinishedController::add_allResultsCollectedEvent
+// Il2CppName: add_allResultsCollectedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelFinishedController::*)(System::Action_2<GlobalNamespace::MultiplayerLevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>*)>(&GlobalNamespace::MultiplayerLevelFinishedController::add_allResultsCollectedEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerLevelCompletionResults"), ::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "MultiplayerLevelCompletionResults")})})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelFinishedController*), "add_allResultsCollectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelFinishedController::remove_allResultsCollectedEvent
+// Il2CppName: remove_allResultsCollectedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelFinishedController::*)(System::Action_2<GlobalNamespace::MultiplayerLevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>*)>(&GlobalNamespace::MultiplayerLevelFinishedController::remove_allResultsCollectedEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerLevelCompletionResults"), ::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "MultiplayerLevelCompletionResults")})})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelFinishedController*), "remove_allResultsCollectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelFinishedController::get_gameResultsReady
 // Il2CppName: get_gameResultsReady
 template<>
@@ -208,24 +227,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerLevelCompletionResults* (GlobalNamespace::MultiplayerLevelFinishedController::*)()>(&GlobalNamespace::MultiplayerLevelFinishedController::get_localPlayerResults)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelFinishedController*), "get_localPlayerResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelFinishedController::add_allResultsCollectedEvent
-// Il2CppName: add_allResultsCollectedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelFinishedController::*)(System::Action_2<GlobalNamespace::MultiplayerLevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>*)>(&GlobalNamespace::MultiplayerLevelFinishedController::add_allResultsCollectedEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerLevelCompletionResults"), ::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "MultiplayerLevelCompletionResults")})})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelFinishedController*), "add_allResultsCollectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelFinishedController::remove_allResultsCollectedEvent
-// Il2CppName: remove_allResultsCollectedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelFinishedController::*)(System::Action_2<GlobalNamespace::MultiplayerLevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>*)>(&GlobalNamespace::MultiplayerLevelFinishedController::remove_allResultsCollectedEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerLevelCompletionResults"), ::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "MultiplayerLevelCompletionResults")})})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelFinishedController*), "remove_allResultsCollectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelFinishedController::Start

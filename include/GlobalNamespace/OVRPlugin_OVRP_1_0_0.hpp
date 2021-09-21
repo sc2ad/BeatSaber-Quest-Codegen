@@ -29,35 +29,27 @@ namespace GlobalNamespace {
     static System::Version* _get_version();
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
-    // static private System.Void .cctor()
-    // Offset: 0x16321BC
-    static void _cctor();
     // static public OVRPlugin/TrackingOrigin ovrp_GetTrackingOriginType()
-    // Offset: 0x1631FD0
+    // Offset: 0x17FEC30
     static GlobalNamespace::OVRPlugin::TrackingOrigin ovrp_GetTrackingOriginType();
     // static public OVRPlugin/Bool ovrp_SetTrackingOriginType(OVRPlugin/TrackingOrigin originType)
-    // Offset: 0x1632044
+    // Offset: 0x17FECA4
     static GlobalNamespace::OVRPlugin::Bool ovrp_SetTrackingOriginType(GlobalNamespace::OVRPlugin::TrackingOrigin originType);
     // static public OVRPlugin/Posef ovrp_GetTrackingCalibratedOrigin()
-    // Offset: 0x16320C4
+    // Offset: 0x17FED24
     static GlobalNamespace::OVRPlugin::Posef ovrp_GetTrackingCalibratedOrigin();
     // static public OVRPlugin/Bool ovrp_RecenterTrackingOrigin(System.UInt32 flags)
-    // Offset: 0x163213C
+    // Offset: 0x17FED9C
     static GlobalNamespace::OVRPlugin::Bool ovrp_RecenterTrackingOrigin(uint flags);
+    // static private System.Void .cctor()
+    // Offset: 0x17FEE1C
+    static void _cctor();
   }; // OVRPlugin/OVRP_1_0_0
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_0_0*, "", "OVRPlugin/OVRP_1_0_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_0_0::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_0_0::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_0_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_0_0::ovrp_GetTrackingOriginType
 // Il2CppName: ovrp_GetTrackingOriginType
 template<>
@@ -90,5 +82,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
   static const MethodInfo* get() {
     static auto* flags = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_0_0*), "ovrp_RecenterTrackingOrigin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flags});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_0_0::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_0_0::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_0_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

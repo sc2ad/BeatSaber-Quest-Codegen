@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     UnityEngine::Vector3 get_rotationOffset();
     // protected System.Void .ctor()
-    // Offset: 0x2398040
+    // Offset: 0x259DF64
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

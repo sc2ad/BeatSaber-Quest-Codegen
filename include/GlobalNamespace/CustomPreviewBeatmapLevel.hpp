@@ -161,14 +161,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: songDuration and: defaultCoverImage
     char __padding16[0x4] = {};
-    // [FormerlySerializedAsAttribute] Offset: 0xE396B8
+    // [FormerlySerializedAsAttribute] Offset: 0xF01E7C
     // private UnityEngine.Sprite _defaultCoverImage
     // Size: 0x8
     // Offset: 0x80
     UnityEngine::Sprite* defaultCoverImage;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xE39704
+    // [FormerlySerializedAsAttribute] Offset: 0xF01EC8
     // private UnityEngine.Sprite _coverImage
     // Size: 0x8
     // Offset: 0x88
@@ -244,78 +244,78 @@ namespace GlobalNamespace {
     // Get instance field reference: private PreviewDifficultyBeatmapSet[] _previewDifficultyBeatmapSets
     ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>*& dyn__previewDifficultyBeatmapSets();
     // public IAudioClipAsyncLoader get_audioClipAsyncLoader()
-    // Offset: 0x10EA060
+    // Offset: 0x11A19E4
     GlobalNamespace::IAudioClipAsyncLoader* get_audioClipAsyncLoader();
     // public ISpriteAsyncLoader get_spriteAsyncLoader()
-    // Offset: 0x10EA068
+    // Offset: 0x11A19EC
     GlobalNamespace::ISpriteAsyncLoader* get_spriteAsyncLoader();
     // public StandardLevelInfoSaveData get_standardLevelInfoSaveData()
-    // Offset: 0x10EA070
+    // Offset: 0x11A19F4
     GlobalNamespace::StandardLevelInfoSaveData* get_standardLevelInfoSaveData();
     // public System.String get_customLevelPath()
-    // Offset: 0x10EA078
+    // Offset: 0x11A19FC
     ::Il2CppString* get_customLevelPath();
     // public System.String get_levelID()
-    // Offset: 0x10EA080
+    // Offset: 0x11A1A04
     ::Il2CppString* get_levelID();
     // public System.String get_songName()
-    // Offset: 0x10EA088
+    // Offset: 0x11A1A0C
     ::Il2CppString* get_songName();
     // public System.String get_songSubName()
-    // Offset: 0x10EA090
+    // Offset: 0x11A1A14
     ::Il2CppString* get_songSubName();
     // public System.String get_songAuthorName()
-    // Offset: 0x10EA098
+    // Offset: 0x11A1A1C
     ::Il2CppString* get_songAuthorName();
     // public System.String get_levelAuthorName()
-    // Offset: 0x10EA0A0
+    // Offset: 0x11A1A24
     ::Il2CppString* get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
-    // Offset: 0x10EA0A8
+    // Offset: 0x11A1A2C
     float get_beatsPerMinute();
     // public System.Single get_songTimeOffset()
-    // Offset: 0x10EA0B0
+    // Offset: 0x11A1A34
     float get_songTimeOffset();
     // public System.Single get_songDuration()
-    // Offset: 0x10EA0B8
+    // Offset: 0x11A1A3C
     float get_songDuration();
     // public System.Single get_shuffle()
-    // Offset: 0x10EA0C0
+    // Offset: 0x11A1A44
     float get_shuffle();
     // public System.Single get_shufflePeriod()
-    // Offset: 0x10EA0C8
+    // Offset: 0x11A1A4C
     float get_shufflePeriod();
     // public System.Single get_previewStartTime()
-    // Offset: 0x10EA0D0
+    // Offset: 0x11A1A54
     float get_previewStartTime();
     // public UnityEngine.Sprite get_defaultCoverImage()
-    // Offset: 0x10EA0D8
+    // Offset: 0x11A1A5C
     UnityEngine::Sprite* get_defaultCoverImage();
     // public System.Single get_previewDuration()
-    // Offset: 0x10EA0E0
+    // Offset: 0x11A1A64
     float get_previewDuration();
     // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0x10EA0E8
+    // Offset: 0x11A1A6C
     GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
     // public EnvironmentInfoSO get_allDirectionsEnvironmentInfo()
-    // Offset: 0x10EA0F0
+    // Offset: 0x11A1A74
     GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
+    // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> GetPreviewAudioClipAsync(System.Threading.CancellationToken cancellationToken)
+    // Offset: 0x11A1A7C
+    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* GetPreviewAudioClipAsync(System::Threading::CancellationToken cancellationToken);
+    // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
+    // Offset: 0x11A1BA0
+    System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* GetCoverImageAsync(System::Threading::CancellationToken cancellationToken);
     // public PreviewDifficultyBeatmapSet[] get_previewDifficultyBeatmapSets()
-    // Offset: 0x10EA340
+    // Offset: 0x11A1CC4
     ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
     // public System.Void .ctor(UnityEngine.Sprite defaultCoverImage, StandardLevelInfoSaveData standardLevelInfoSaveData, System.String customLevelPath, IAudioClipAsyncLoader audioClipAsyncLoader, ISpriteAsyncLoader spriteAsyncLoader, System.String levelID, System.String songName, System.String songSubName, System.String songAuthorName, System.String levelAuthorName, System.Single beatsPerMinute, System.Single songTimeOffset, System.Single shuffle, System.Single shufflePeriod, System.Single previewStartTime, System.Single previewDuration, EnvironmentInfoSO environmentInfo, EnvironmentInfoSO allDirectionsEnvironmentInfo, PreviewDifficultyBeatmapSet[] previewDifficultyBeatmapSets)
-    // Offset: 0x10E9D40
+    // Offset: 0x11A16B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomPreviewBeatmapLevel* New_ctor(UnityEngine::Sprite* defaultCoverImage, GlobalNamespace::StandardLevelInfoSaveData* standardLevelInfoSaveData, ::Il2CppString* customLevelPath, GlobalNamespace::IAudioClipAsyncLoader* audioClipAsyncLoader, GlobalNamespace::ISpriteAsyncLoader* spriteAsyncLoader, ::Il2CppString* levelID, ::Il2CppString* songName, ::Il2CppString* songSubName, ::Il2CppString* songAuthorName, ::Il2CppString* levelAuthorName, float beatsPerMinute, float songTimeOffset, float shuffle, float shufflePeriod, float previewStartTime, float previewDuration, GlobalNamespace::EnvironmentInfoSO* environmentInfo, GlobalNamespace::EnvironmentInfoSO* allDirectionsEnvironmentInfo, ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* previewDifficultyBeatmapSets) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomPreviewBeatmapLevel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomPreviewBeatmapLevel*, creationType>(defaultCoverImage, standardLevelInfoSaveData, customLevelPath, audioClipAsyncLoader, spriteAsyncLoader, levelID, songName, songSubName, songAuthorName, levelAuthorName, beatsPerMinute, songTimeOffset, shuffle, shufflePeriod, previewStartTime, previewDuration, environmentInfo, allDirectionsEnvironmentInfo, previewDifficultyBeatmapSets)));
     }
-    // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> GetPreviewAudioClipAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x10EA0F8
-    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* GetPreviewAudioClipAsync(System::Threading::CancellationToken cancellationToken);
-    // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x10EA21C
-    System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* GetCoverImageAsync(System::Threading::CancellationToken cancellationToken);
   }; // CustomPreviewBeatmapLevel
   #pragma pack(pop)
   static check_size<sizeof(CustomPreviewBeatmapLevel), 160 + sizeof(::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>*)> __GlobalNamespace_CustomPreviewBeatmapLevelSizeCheck;
@@ -475,18 +475,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomPreviewBeatmapLevel*), "get_allDirectionsEnvironmentInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::CustomPreviewBeatmapLevel::get_previewDifficultyBeatmapSets
-// Il2CppName: get_previewDifficultyBeatmapSets
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* (GlobalNamespace::CustomPreviewBeatmapLevel::*)()>(&GlobalNamespace::CustomPreviewBeatmapLevel::get_previewDifficultyBeatmapSets)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomPreviewBeatmapLevel*), "get_previewDifficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::CustomPreviewBeatmapLevel::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::CustomPreviewBeatmapLevel::GetPreviewAudioClipAsync
 // Il2CppName: GetPreviewAudioClipAsync
 template<>
@@ -505,3 +493,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomPreviewBeatmapLevel*), "GetCoverImageAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::CustomPreviewBeatmapLevel::get_previewDifficultyBeatmapSets
+// Il2CppName: get_previewDifficultyBeatmapSets
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* (GlobalNamespace::CustomPreviewBeatmapLevel::*)()>(&GlobalNamespace::CustomPreviewBeatmapLevel::get_previewDifficultyBeatmapSets)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomPreviewBeatmapLevel*), "get_previewDifficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::CustomPreviewBeatmapLevel::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

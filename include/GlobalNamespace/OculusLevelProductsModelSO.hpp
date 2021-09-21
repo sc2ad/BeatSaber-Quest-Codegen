@@ -72,19 +72,24 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.String> _assetFileToSku
     System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*& dyn__assetFileToSku();
     // public OculusLevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
-    // Offset: 0x1257828
+    // Offset: 0x136388C
     ::Array<GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>* get_levelPackProductsData();
     // public OculusLevelProductsModelSO/LevelProductData GetLevelProductData(System.String levelId)
-    // Offset: 0x1253BFC
+    // Offset: 0x135FC78
     GlobalNamespace::OculusLevelProductsModelSO::LevelProductData* GetLevelProductData(::Il2CppString* levelId);
     // public OculusLevelProductsModelSO/LevelPackProductData GetLevelPackProductData(System.String levelPackId)
-    // Offset: 0x12579B0
+    // Offset: 0x1363A14
     GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::Il2CppString* levelPackId);
     // public System.String GetLevelSku(System.String assetFile)
-    // Offset: 0x1257A30
+    // Offset: 0x1363A94
     ::Il2CppString* GetLevelSku(::Il2CppString* assetFile);
+    // protected override System.Void OnEnable()
+    // Offset: 0x1363894
+    // Implemented from: PersistentScriptableObject
+    // Base method: System.Void PersistentScriptableObject::OnEnable()
+    void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x1257AB0
+    // Offset: 0x1363B14
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -95,11 +100,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusLevelProductsModelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusLevelProductsModelSO*, creationType>()));
     }
-    // protected override System.Void OnEnable()
-    // Offset: 0x1257830
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::OnEnable()
-    void OnEnable();
   }; // OculusLevelProductsModelSO
   #pragma pack(pop)
   static check_size<sizeof(OculusLevelProductsModelSO), 48 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)> __GlobalNamespace_OculusLevelProductsModelSOSizeCheck;
@@ -142,10 +142,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusLevelProductsModelSO*), "GetLevelSku", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assetFile});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OculusLevelProductsModelSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OculusLevelProductsModelSO::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -154,3 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusLevelProductsModelSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::OculusLevelProductsModelSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

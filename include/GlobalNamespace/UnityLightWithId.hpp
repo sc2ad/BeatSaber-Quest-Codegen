@@ -58,10 +58,15 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _minAlpha
     float& dyn__minAlpha();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1E211B4
+    // Offset: 0x1E31BA8
     UnityEngine::Color get_color();
+    // public override System.Void ColorWasSet(UnityEngine.Color color)
+    // Offset: 0x1E31BC4
+    // Implemented from: LightWithIdMonoBehaviour
+    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
+    void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1E212A0
+    // Offset: 0x1E31C94
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -74,11 +79,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::UnityLightWithId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityLightWithId*, creationType>()));
     }
-    // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1E211D0
-    // Implemented from: LightWithIdMonoBehaviour
-    // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
-    void ColorWasSet(UnityEngine::Color color);
   }; // UnityLightWithId
   #pragma pack(pop)
   static check_size<sizeof(UnityLightWithId), 60 + sizeof(float)> __GlobalNamespace_UnityLightWithIdSizeCheck;
@@ -94,10 +94,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UnityLightWithId*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::UnityLightWithId::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::UnityLightWithId::ColorWasSet
 // Il2CppName: ColorWasSet
 template<>
@@ -107,3 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UnityLightWithId*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::UnityLightWithId::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

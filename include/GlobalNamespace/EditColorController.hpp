@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PreviousColorPanelController* previousColorPanelController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PreviousColorPanelController*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE43CC4
+    // [SpaceAttribute] Offset: 0xF0C668
     // private UnityEngine.UI.Button _cancelButton
     // Size: 0x8
     // Offset: 0x80
@@ -69,12 +69,14 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* applyButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0C6B0
     // private System.Action`1<UnityEngine.Color> didChangeColorEvent
     // Size: 0x8
     // Offset: 0x90
     System::Action_1<UnityEngine::Color>* didChangeColorEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<UnityEngine::Color>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF0C6C0
     // private System.Action`1<System.Boolean> didFinishEvent
     // Size: 0x8
     // Offset: 0x98
@@ -120,40 +122,50 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _colorChanged
     bool& dyn__colorChanged();
     // public System.Void add_didChangeColorEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x10527A0
+    // Offset: 0x11AB588
     void add_didChangeColorEvent(System::Action_1<UnityEngine::Color>* value);
     // public System.Void remove_didChangeColorEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x1052CEC
+    // Offset: 0x11ABAD4
     void remove_didChangeColorEvent(System::Action_1<UnityEngine::Color>* value);
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1052844
+    // Offset: 0x11AB62C
     void add_didFinishEvent(System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1052D90
+    // Offset: 0x11ABB78
     void remove_didFinishEvent(System::Action_1<bool>* value);
     // public System.Void SetColorCallback(System.Action`1<UnityEngine.Color> colorCallback)
-    // Offset: 0x105484C
+    // Offset: 0x11AD634
     void SetColorCallback(System::Action_1<UnityEngine::Color>* colorCallback);
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x1052EB0
+    // Offset: 0x11ABC98
     void SetColor(UnityEngine::Color color);
     // private System.Void HandleHSVPanelControllerColorDidChange(UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x1054ABC
+    // Offset: 0x11AD8A4
     void HandleHSVPanelControllerColorDidChange(UnityEngine::Color color, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void HandlePreviousColorPanelControllerColorWasSelected(UnityEngine.Color color)
-    // Offset: 0x1054C00
+    // Offset: 0x11AD9E8
     void HandlePreviousColorPanelControllerColorWasSelected(UnityEngine::Color color);
     // private System.Void HandleCancelButtonWasPressed()
-    // Offset: 0x1054C84
+    // Offset: 0x11ADA6C
     void HandleCancelButtonWasPressed();
     // private System.Void HandleApplyButtonWasPressed()
-    // Offset: 0x1054D14
+    // Offset: 0x11ADAFC
     void HandleApplyButtonWasPressed();
     // private System.Void ChangeColor(UnityEngine.Color color)
-    // Offset: 0x1054B38
+    // Offset: 0x11AD920
     void ChangeColor(UnityEngine::Color color);
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x11AD63C
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Offset: 0x11AD7C4
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x1054D78
+    // Offset: 0x11ADB60
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -166,16 +178,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EditColorController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EditColorController*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1054854
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x10549DC
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
   }; // EditColorController
   #pragma pack(pop)
   static check_size<sizeof(EditColorController), 184 + sizeof(bool)> __GlobalNamespace_EditColorControllerSizeCheck;
@@ -281,10 +283,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditColorController*), "ChangeColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::EditColorController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EditColorController::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -306,3 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditColorController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{removedFromHierarchy, screenSystemDisabling});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::EditColorController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -34,6 +34,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LevelSearchViewController::BeatmapLevelPackCollection : public ::Il2CppObject/*, public GlobalNamespace::IAnnotatedBeatmapLevelCollection*/ {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xF160EC
     // private IBeatmapLevelCollection <beatmapLevelCollection>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -53,19 +54,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private IBeatmapLevelCollection <beatmapLevelCollection>k__BackingField
     GlobalNamespace::IBeatmapLevelCollection*& dyn_$beatmapLevelCollection$k__BackingField();
     // public System.String get_collectionName()
-    // Offset: 0x12023B0
+    // Offset: 0x130E470
     ::Il2CppString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x12023B8
+    // Offset: 0x130E478
     UnityEngine::Sprite* get_coverImage();
+    // public UnityEngine.Sprite get_smallCoverImage()
+    // Offset: 0x130E480
+    UnityEngine::Sprite* get_smallCoverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x12023C0
+    // Offset: 0x130E488
     GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // private System.Void set_beatmapLevelCollection(IBeatmapLevelCollection value)
-    // Offset: 0x12023C8
+    // Offset: 0x130E490
     void set_beatmapLevelCollection(GlobalNamespace::IBeatmapLevelCollection* value);
     // public System.Void .ctor(IBeatmapLevelCollection beatmapLevelCollection)
-    // Offset: 0x1202378
+    // Offset: 0x130E438
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelSearchViewController::BeatmapLevelPackCollection* New_ctor(GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection::.ctor");
@@ -92,6 +96,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection::*)()>(&GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection::get_coverImage)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection*), "get_coverImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection::get_smallCoverImage
+// Il2CppName: get_smallCoverImage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection::*)()>(&GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection::get_smallCoverImage)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection*), "get_smallCoverImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection::get_beatmapLevelCollection

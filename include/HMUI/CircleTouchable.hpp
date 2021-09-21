@@ -58,16 +58,26 @@ namespace HMUI {
     // Get instance field reference: private UnityEngine.RectTransform _containerRect
     UnityEngine::RectTransform*& dyn__containerRect();
     // private System.Void UpdateCachedReferences()
-    // Offset: 0x136D940
+    // Offset: 0x1482F80
     void UpdateCachedReferences();
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x136DA8C
+    // Offset: 0x14830CC
     void OnDrawGizmosSelected();
     // private System.Void DrawGizmoCircle(UnityEngine.Vector3 center, System.Single radius, System.Int32 steps)
-    // Offset: 0x136DC0C
+    // Offset: 0x148324C
     void DrawGizmoCircle(UnityEngine::Vector3 center, float radius, int steps);
+    // protected override System.Void OnEnable()
+    // Offset: 0x1482F58
+    // Implemented from: UnityEngine.UI.Graphic
+    // Base method: System.Void Graphic::OnEnable()
+    void OnEnable();
+    // public override System.Boolean Raycast(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
+    // Offset: 0x1482FF4
+    // Implemented from: UnityEngine.UI.Graphic
+    // Base method: System.Boolean Graphic::Raycast(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
+    bool Raycast(UnityEngine::Vector2 sp, UnityEngine::Camera* eventCamera);
     // public System.Void .ctor()
-    // Offset: 0x136DDE8
+    // Offset: 0x1483428
     // Implemented from: HMUI.Touchable
     // Base method: System.Void Touchable::.ctor()
     // Base method: System.Void Graphic::.ctor()
@@ -82,16 +92,6 @@ namespace HMUI {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::CircleTouchable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CircleTouchable*, creationType>()));
     }
-    // protected override System.Void OnEnable()
-    // Offset: 0x136D918
-    // Implemented from: UnityEngine.UI.Graphic
-    // Base method: System.Void Graphic::OnEnable()
-    void OnEnable();
-    // public override System.Boolean Raycast(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
-    // Offset: 0x136D9B4
-    // Implemented from: UnityEngine.UI.Graphic
-    // Base method: System.Boolean Graphic::Raycast(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
-    bool Raycast(UnityEngine::Vector2 sp, UnityEngine::Camera* eventCamera);
   }; // HMUI.CircleTouchable
   #pragma pack(pop)
   static check_size<sizeof(CircleTouchable), 152 + sizeof(UnityEngine::RectTransform*)> __HMUI_CircleTouchableSizeCheck;
@@ -126,10 +126,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::CircleTouchable*), "DrawGizmoCircle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{center, radius, steps});
   }
 };
-// Writing MetadataGetter for method: HMUI::CircleTouchable::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: HMUI::CircleTouchable::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -148,3 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI:
     return ::il2cpp_utils::FindMethod(classof(HMUI::CircleTouchable*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sp, eventCamera});
   }
 };
+// Writing MetadataGetter for method: HMUI::CircleTouchable::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

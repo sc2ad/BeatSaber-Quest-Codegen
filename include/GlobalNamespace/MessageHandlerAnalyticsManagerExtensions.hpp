@@ -121,53 +121,45 @@ namespace GlobalNamespace {
     static System::Collections::Generic::Dictionary_2<System::Type*, System::Collections::Generic::Dictionary_2<uint8_t, ::Il2CppString*>*>* _get__responseCodeLookup();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<System.Byte,System.String>> _responseCodeLookup
     static void _set__responseCodeLookup(System::Collections::Generic::Dictionary_2<System::Type*, System::Collections::Generic::Dictionary_2<uint8_t, ::Il2CppString*>*>* value);
-    // static private System.Void .cctor()
-    // Offset: 0x16F07A4
-    static void _cctor();
     // static private System.String GetMessageName(MasterServer.IMasterServerMessage message)
-    // Offset: 0x16EF3A0
+    // Offset: 0x18C8F1C
     static ::Il2CppString* GetMessageName(MasterServer::IMasterServerMessage* message);
     // static private System.String GetResponseCodeName(MasterServer.IMasterServerResponse response)
-    // Offset: 0x16EF4E8
+    // Offset: 0x18C9064
     static ::Il2CppString* GetResponseCodeName(MasterServer::IMasterServerResponse* response);
     // static public System.Void ReceivedReliableRequestEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerReliableRequest request)
-    // Offset: 0x16EF7A8
+    // Offset: 0x18C9324
     static void ReceivedReliableRequestEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerReliableRequest* request);
     // static public System.Void SentReliableRequestEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerReliableRequest request)
-    // Offset: 0x16EFA44
+    // Offset: 0x18C95C0
     static void SentReliableRequestEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerReliableRequest* request);
     // static public System.Void ReceivedReliableResponseEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerReliableResponse response)
-    // Offset: 0x16EFC14
+    // Offset: 0x18C9790
     static void ReceivedReliableResponseEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerReliableResponse* response);
     // static public System.Void SentReliableResponseEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerReliableResponse response)
-    // Offset: 0x16EFE10
+    // Offset: 0x18C998C
     static void SentReliableResponseEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerReliableResponse* response);
     // static public System.Void ReceivedUnreliableMessageEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerUnreliableMessage message)
-    // Offset: 0x16F000C
+    // Offset: 0x18C9B88
     static void ReceivedUnreliableMessageEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerUnreliableMessage* message);
     // static public System.Void SentUnreliableMessageEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerUnreliableMessage message)
-    // Offset: 0x16F01DC
+    // Offset: 0x18C9D58
     static void SentUnreliableMessageEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerUnreliableMessage* message);
     // static public System.Void ReceivedUnreliableResponseEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerResponse response)
-    // Offset: 0x16F03AC
+    // Offset: 0x18C9F28
     static void ReceivedUnreliableResponseEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerResponse* response);
     // static public System.Void SentUnreliableResponseEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerResponse response)
-    // Offset: 0x16F05A8
+    // Offset: 0x18CA124
     static void SentUnreliableResponseEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerResponse* response);
+    // static private System.Void .cctor()
+    // Offset: 0x18CA320
+    static void _cctor();
   }; // MessageHandlerAnalyticsManagerExtensions
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MessageHandlerAnalyticsManagerExtensions*, "", "MessageHandlerAnalyticsManagerExtensions");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MessageHandlerAnalyticsManagerExtensions*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::GetMessageName
 // Il2CppName: GetMessageName
 template<>
@@ -264,5 +256,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ma
     static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("MasterServer", "IAnalyticsManager")->byval_arg;
     static auto* response = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerResponse")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MessageHandlerAnalyticsManagerExtensions*), "SentUnreliableResponseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{analyticsManager, response});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MessageHandlerAnalyticsManagerExtensions*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

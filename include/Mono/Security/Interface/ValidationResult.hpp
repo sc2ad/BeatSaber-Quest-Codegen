@@ -53,24 +53,28 @@ namespace Mono::Security::Interface {
     int& dyn_error_code();
     // Get instance field reference: private System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors> policy_errors
     System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors>& dyn_policy_errors();
-    // public System.Boolean get_Trusted()
-    // Offset: 0x1E052FC
-    bool get_Trusted();
-    // public System.Boolean get_UserDenied()
-    // Offset: 0x1E05304
-    bool get_UserDenied();
     // public System.Void .ctor(System.Boolean trusted, System.Boolean user_denied, System.Int32 error_code, System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors> policy_errors)
-    // Offset: 0x1E052A0
+    // Offset: 0x1FA1808
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValidationResult* New_ctor(bool trusted, bool user_denied, int error_code, System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Interface::ValidationResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValidationResult*, creationType>(trusted, user_denied, error_code, policy_errors)));
     }
+    // public System.Boolean get_Trusted()
+    // Offset: 0x1FA1864
+    bool get_Trusted();
+    // public System.Boolean get_UserDenied()
+    // Offset: 0x1FA186C
+    bool get_UserDenied();
   }; // Mono.Security.Interface.ValidationResult
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::ValidationResult*, "Mono.Security.Interface", "ValidationResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: Mono::Security::Interface::ValidationResult::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: Mono::Security::Interface::ValidationResult::get_Trusted
 // Il2CppName: get_Trusted
 template<>
@@ -87,7 +91,3 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::ValidationResult*), "get_UserDenied", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Mono::Security::Interface::ValidationResult::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!

@@ -76,6 +76,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* cancelJoinButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF11330
     // private System.Action`1<System.Boolean> didFinishEvent
     // Size: 0x8
     // Offset: 0x98
@@ -104,29 +105,34 @@ namespace GlobalNamespace {
     System::Action_1<bool>*& dyn_didFinishEvent();
     // Get instance field reference: private MultiplayerModeSettings _multiplayerModeSettings
     GlobalNamespace::MultiplayerModeSettings*& dyn__multiplayerModeSettings();
-    // public MultiplayerModeSettings get_multiplayerModeSettings()
-    // Offset: 0x118A730
-    GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x118A5E8
+    // Offset: 0x1148CC4
     void add_didFinishEvent(System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x118A68C
+    // Offset: 0x1148D68
     void remove_didFinishEvent(System::Action_1<bool>* value);
+    // public MultiplayerModeSettings get_multiplayerModeSettings()
+    // Offset: 0x1148E0C
+    GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
     // public System.Void Setup(MasterServerQuickPlaySetupData masterServerQuickPlaySetupData, MultiplayerModeSettings multiplayerModeSettings)
-    // Offset: 0x118A738
+    // Offset: 0x1148E14
     void Setup(GlobalNamespace::MasterServerQuickPlaySetupData* masterServerQuickPlaySetupData, GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
     // private System.Void ButtonPressed(System.Boolean success)
-    // Offset: 0x118A8F0
+    // Offset: 0x1148FCC
     void ButtonPressed(bool success);
     // private System.Void <DidActivate>b__12_0()
-    // Offset: 0x118A9B8
+    // Offset: 0x1149094
     void $DidActivate$b__12_0();
     // private System.Void <DidActivate>b__12_1()
-    // Offset: 0x118A9C0
+    // Offset: 0x114909C
     void $DidActivate$b__12_1();
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x1148EB0
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x118A9B0
+    // Offset: 0x114908C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -139,11 +145,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::JoinQuickPlayViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JoinQuickPlayViewController*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x118A7D4
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
   }; // JoinQuickPlayViewController
   #pragma pack(pop)
   static check_size<sizeof(JoinQuickPlayViewController), 160 + sizeof(GlobalNamespace::MultiplayerModeSettings*)> __GlobalNamespace_JoinQuickPlayViewControllerSizeCheck;
@@ -151,14 +152,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JoinQuickPlayViewController*, "", "JoinQuickPlayViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::JoinQuickPlayViewController::get_multiplayerModeSettings
-// Il2CppName: get_multiplayerModeSettings
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerModeSettings* (GlobalNamespace::JoinQuickPlayViewController::*)()>(&GlobalNamespace::JoinQuickPlayViewController::get_multiplayerModeSettings)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JoinQuickPlayViewController*), "get_multiplayerModeSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::JoinQuickPlayViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>
@@ -175,6 +168,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JoinQuickPlayViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::JoinQuickPlayViewController::get_multiplayerModeSettings
+// Il2CppName: get_multiplayerModeSettings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerModeSettings* (GlobalNamespace::JoinQuickPlayViewController::*)()>(&GlobalNamespace::JoinQuickPlayViewController::get_multiplayerModeSettings)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JoinQuickPlayViewController*), "get_multiplayerModeSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::JoinQuickPlayViewController::Setup
@@ -212,10 +213,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JoinQuickPlayViewController*), "<DidActivate>b__12_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::JoinQuickPlayViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::JoinQuickPlayViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -227,3 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JoinQuickPlayViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{firstActivation, addedToHierarchy, screenSystemEnabling});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::JoinQuickPlayViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

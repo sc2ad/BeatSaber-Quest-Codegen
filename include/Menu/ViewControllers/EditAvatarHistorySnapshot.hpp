@@ -27,6 +27,7 @@ namespace Menu::ViewControllers {
   // [TokenAttribute] Offset: FFFFFFFF
   class EditAvatarHistorySnapshot : public ::Il2CppObject {
     public:
+    // [CompilerGeneratedAttribute] Offset: 0xF15404
     // private readonly EditAvatarViewController/AvatarEditPart <avatarEditPart>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -35,6 +36,7 @@ namespace Menu::ViewControllers {
     static_assert(sizeof(GlobalNamespace::EditAvatarViewController::AvatarEditPart) == 0x4);
     // Padding between fields: avatarEditPart and: avatarData
     char __padding0[0x4] = {};
+    // [CompilerGeneratedAttribute] Offset: 0xF15414
     // private readonly AvatarData <avatarData>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -48,13 +50,13 @@ namespace Menu::ViewControllers {
     // Get instance field reference: private readonly AvatarData <avatarData>k__BackingField
     GlobalNamespace::AvatarData*& dyn_$avatarData$k__BackingField();
     // public EditAvatarViewController/AvatarEditPart get_avatarEditPart()
-    // Offset: 0x11A7A7C
+    // Offset: 0x117FB54
     GlobalNamespace::EditAvatarViewController::AvatarEditPart get_avatarEditPart();
     // public AvatarData get_avatarData()
-    // Offset: 0x11A7A84
+    // Offset: 0x117FB5C
     GlobalNamespace::AvatarData* get_avatarData();
     // public System.Void .ctor(AvatarData avatarData, EditAvatarViewController/AvatarEditPart avatarEditPart)
-    // Offset: 0x11A7A8C
+    // Offset: 0x117FB64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EditAvatarHistorySnapshot* New_ctor(GlobalNamespace::AvatarData* avatarData, GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart) {
       static auto ___internal__logger = ::Logger::get().WithContext("Menu::ViewControllers::EditAvatarHistorySnapshot::.ctor");

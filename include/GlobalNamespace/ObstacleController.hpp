@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     GlobalNamespace::StretchableObstacle* stretchableObstacle;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StretchableObstacle*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE3C6FC
+    // [SpaceAttribute] Offset: 0xF04EE0
     // private System.Single _endDistanceOffset
     // Size: 0x4
     // Offset: 0x30
@@ -83,51 +83,56 @@ namespace GlobalNamespace {
     ::Array<UnityEngine::GameObject*>* visualWrappers;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::GameObject*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3C744
+    // [InjectAttribute] Offset: 0xF04F28
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3C754
+    // [InjectAttribute] Offset: 0xF04F38
     // private readonly IAudioTimeSource _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::IAudioTimeSource* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3C764
+    // [InjectAttribute] Offset: 0xF04F48
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorManager*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF04F58
     // private System.Action`1<ObstacleController> finishedMovementEvent
     // Size: 0x8
     // Offset: 0x58
     System::Action_1<GlobalNamespace::ObstacleController*>* finishedMovementEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::ObstacleController*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF04F68
     // private System.Action`1<ObstacleController> passedThreeQuartersOfMove2Event
     // Size: 0x8
     // Offset: 0x60
     System::Action_1<GlobalNamespace::ObstacleController*>* passedThreeQuartersOfMove2Event;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::ObstacleController*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF04F78
     // private System.Action`1<ObstacleController> passedAvoidedMarkEvent
     // Size: 0x8
     // Offset: 0x68
     System::Action_1<GlobalNamespace::ObstacleController*>* passedAvoidedMarkEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::ObstacleController*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF04F88
     // private System.Action`1<ObstacleController> didDissolveEvent
     // Size: 0x8
     // Offset: 0x70
     System::Action_1<GlobalNamespace::ObstacleController*>* didDissolveEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::ObstacleController*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF04F98
     // private System.Action`2<ObstacleController,System.Single> didUpdateProgress
     // Size: 0x8
     // Offset: 0x78
@@ -328,89 +333,89 @@ namespace GlobalNamespace {
     UnityEngine::Quaternion& dyn__worldRotation();
     // Get instance field reference: private UnityEngine.Quaternion _inverseWorldRotation
     UnityEngine::Quaternion& dyn__inverseWorldRotation();
-    // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x124F1F0
-    void set_hide(bool value);
-    // public System.Void set_pause(System.Boolean value)
-    // Offset: 0x124F270
-    void set_pause(bool value);
-    // public UnityEngine.Bounds get_bounds()
-    // Offset: 0x124F280
-    UnityEngine::Bounds get_bounds();
-    // public ObstacleData get_obstacleData()
-    // Offset: 0x124F294
-    GlobalNamespace::ObstacleData* get_obstacleData();
-    // public System.Boolean get_hasPassedAvoidedMark()
-    // Offset: 0x124F29C
-    bool get_hasPassedAvoidedMark();
-    // public System.Single get_move1Duration()
-    // Offset: 0x124F2A4
-    float get_move1Duration();
-    // public System.Single get_move2Duration()
-    // Offset: 0x124F2AC
-    float get_move2Duration();
-    // public System.Single get_width()
-    // Offset: 0x124F2B4
-    float get_width();
-    // public System.Single get_height()
-    // Offset: 0x124F2BC
-    float get_height();
-    // public System.Single get_length()
-    // Offset: 0x124F2C4
-    float get_length();
-    // public UnityEngine.Color get_color()
-    // Offset: 0x124F2CC
-    UnityEngine::Color get_color();
     // public System.Void add_finishedMovementEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x124EB88
+    // Offset: 0x135AC04
     void add_finishedMovementEvent(System::Action_1<GlobalNamespace::ObstacleController*>* value);
     // public System.Void remove_finishedMovementEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x124EC2C
+    // Offset: 0x135ACA8
     void remove_finishedMovementEvent(System::Action_1<GlobalNamespace::ObstacleController*>* value);
     // public System.Void add_passedThreeQuartersOfMove2Event(System.Action`1<ObstacleController> value)
-    // Offset: 0x124ECD0
+    // Offset: 0x135AD4C
     void add_passedThreeQuartersOfMove2Event(System::Action_1<GlobalNamespace::ObstacleController*>* value);
     // public System.Void remove_passedThreeQuartersOfMove2Event(System.Action`1<ObstacleController> value)
-    // Offset: 0x124ED74
+    // Offset: 0x135ADF0
     void remove_passedThreeQuartersOfMove2Event(System::Action_1<GlobalNamespace::ObstacleController*>* value);
     // public System.Void add_passedAvoidedMarkEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x124EE18
+    // Offset: 0x135AE94
     void add_passedAvoidedMarkEvent(System::Action_1<GlobalNamespace::ObstacleController*>* value);
     // public System.Void remove_passedAvoidedMarkEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x124EEBC
+    // Offset: 0x135AF38
     void remove_passedAvoidedMarkEvent(System::Action_1<GlobalNamespace::ObstacleController*>* value);
     // public System.Void add_didDissolveEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x124EF60
+    // Offset: 0x135AFDC
     void add_didDissolveEvent(System::Action_1<GlobalNamespace::ObstacleController*>* value);
     // public System.Void remove_didDissolveEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x124F004
+    // Offset: 0x135B080
     void remove_didDissolveEvent(System::Action_1<GlobalNamespace::ObstacleController*>* value);
     // public System.Void add_didUpdateProgress(System.Action`2<ObstacleController,System.Single> value)
-    // Offset: 0x124F0A8
+    // Offset: 0x135B124
     void add_didUpdateProgress(System::Action_2<GlobalNamespace::ObstacleController*, float>* value);
     // public System.Void remove_didUpdateProgress(System.Action`2<ObstacleController,System.Single> value)
-    // Offset: 0x124F14C
+    // Offset: 0x135B1C8
     void remove_didUpdateProgress(System::Action_2<GlobalNamespace::ObstacleController*, float>* value);
+    // public System.Void set_hide(System.Boolean value)
+    // Offset: 0x135B26C
+    void set_hide(bool value);
+    // public System.Void set_pause(System.Boolean value)
+    // Offset: 0x135B2EC
+    void set_pause(bool value);
+    // public UnityEngine.Bounds get_bounds()
+    // Offset: 0x135B2FC
+    UnityEngine::Bounds get_bounds();
+    // public ObstacleData get_obstacleData()
+    // Offset: 0x135B310
+    GlobalNamespace::ObstacleData* get_obstacleData();
+    // public System.Boolean get_hasPassedAvoidedMark()
+    // Offset: 0x135B318
+    bool get_hasPassedAvoidedMark();
+    // public System.Single get_move1Duration()
+    // Offset: 0x135B320
+    float get_move1Duration();
+    // public System.Single get_move2Duration()
+    // Offset: 0x135B328
+    float get_move2Duration();
+    // public System.Single get_width()
+    // Offset: 0x135B330
+    float get_width();
+    // public System.Single get_height()
+    // Offset: 0x135B338
+    float get_height();
+    // public System.Single get_length()
+    // Offset: 0x135B340
+    float get_length();
+    // public UnityEngine.Color get_color()
+    // Offset: 0x135B348
+    UnityEngine::Color get_color();
     // public System.Void Init(ObstacleData obstacleData, System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 midPos, UnityEngine.Vector3 endPos, System.Single move1Duration, System.Single move2Duration, System.Single singleLineWidth, System.Single height)
-    // Offset: 0x124F2D8
+    // Offset: 0x135B354
     void Init(GlobalNamespace::ObstacleData* obstacleData, float worldRotation, UnityEngine::Vector3 startPos, UnityEngine::Vector3 midPos, UnityEngine::Vector3 endPos, float move1Duration, float move2Duration, float singleLineWidth, float height);
     // protected System.Void Update()
-    // Offset: 0x124F684
+    // Offset: 0x135B700
     void Update();
     // public System.Void ManualUpdate()
-    // Offset: 0x124F690
+    // Offset: 0x135B70C
     void ManualUpdate();
     // private UnityEngine.Vector3 GetPosForTime(System.Single time)
-    // Offset: 0x124F8D8
+    // Offset: 0x135B954
     UnityEngine::Vector3 GetPosForTime(float time);
     // private System.Collections.IEnumerator DissolveCoroutine(System.Single duration)
-    // Offset: 0x124FA4C
+    // Offset: 0x135BAC8
     System::Collections::IEnumerator* DissolveCoroutine(float duration);
     // public System.Void Dissolve(System.Single duration)
-    // Offset: 0x124FAF8
+    // Offset: 0x135BB74
     void Dissolve(float duration);
     // public System.Void .ctor()
-    // Offset: 0x124FB38
+    // Offset: 0x135BBB4
     // Implemented from: ObstacleControllerBase
     // Base method: System.Void ObstacleControllerBase::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -430,96 +435,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleController*, "", "ObstacleController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::ObstacleController::set_hide
-// Il2CppName: set_hide
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleController::*)(bool)>(&GlobalNamespace::ObstacleController::set_hide)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleController*), "set_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ObstacleController::set_pause
-// Il2CppName: set_pause
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleController::*)(bool)>(&GlobalNamespace::ObstacleController::set_pause)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleController*), "set_pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ObstacleController::get_bounds
-// Il2CppName: get_bounds
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (GlobalNamespace::ObstacleController::*)()>(&GlobalNamespace::ObstacleController::get_bounds)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleController*), "get_bounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ObstacleController::get_obstacleData
-// Il2CppName: get_obstacleData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ObstacleData* (GlobalNamespace::ObstacleController::*)()>(&GlobalNamespace::ObstacleController::get_obstacleData)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleController*), "get_obstacleData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ObstacleController::get_hasPassedAvoidedMark
-// Il2CppName: get_hasPassedAvoidedMark
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ObstacleController::*)()>(&GlobalNamespace::ObstacleController::get_hasPassedAvoidedMark)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleController*), "get_hasPassedAvoidedMark", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ObstacleController::get_move1Duration
-// Il2CppName: get_move1Duration
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ObstacleController::*)()>(&GlobalNamespace::ObstacleController::get_move1Duration)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleController*), "get_move1Duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ObstacleController::get_move2Duration
-// Il2CppName: get_move2Duration
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ObstacleController::*)()>(&GlobalNamespace::ObstacleController::get_move2Duration)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleController*), "get_move2Duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ObstacleController::get_width
-// Il2CppName: get_width
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ObstacleController::*)()>(&GlobalNamespace::ObstacleController::get_width)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleController*), "get_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ObstacleController::get_height
-// Il2CppName: get_height
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ObstacleController::*)()>(&GlobalNamespace::ObstacleController::get_height)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleController*), "get_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ObstacleController::get_length
-// Il2CppName: get_length
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ObstacleController::*)()>(&GlobalNamespace::ObstacleController::get_length)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleController*), "get_length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ObstacleController::get_color
-// Il2CppName: get_color
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ObstacleController::*)()>(&GlobalNamespace::ObstacleController::get_color)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleController*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleController::add_finishedMovementEvent
 // Il2CppName: add_finishedMovementEvent
 template<>
@@ -608,6 +523,96 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "ObstacleController"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleController*), "remove_didUpdateProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleController::set_hide
+// Il2CppName: set_hide
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleController::*)(bool)>(&GlobalNamespace::ObstacleController::set_hide)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleController*), "set_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleController::set_pause
+// Il2CppName: set_pause
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleController::*)(bool)>(&GlobalNamespace::ObstacleController::set_pause)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleController*), "set_pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleController::get_bounds
+// Il2CppName: get_bounds
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (GlobalNamespace::ObstacleController::*)()>(&GlobalNamespace::ObstacleController::get_bounds)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleController*), "get_bounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleController::get_obstacleData
+// Il2CppName: get_obstacleData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ObstacleData* (GlobalNamespace::ObstacleController::*)()>(&GlobalNamespace::ObstacleController::get_obstacleData)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleController*), "get_obstacleData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleController::get_hasPassedAvoidedMark
+// Il2CppName: get_hasPassedAvoidedMark
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ObstacleController::*)()>(&GlobalNamespace::ObstacleController::get_hasPassedAvoidedMark)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleController*), "get_hasPassedAvoidedMark", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleController::get_move1Duration
+// Il2CppName: get_move1Duration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ObstacleController::*)()>(&GlobalNamespace::ObstacleController::get_move1Duration)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleController*), "get_move1Duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleController::get_move2Duration
+// Il2CppName: get_move2Duration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ObstacleController::*)()>(&GlobalNamespace::ObstacleController::get_move2Duration)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleController*), "get_move2Duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleController::get_width
+// Il2CppName: get_width
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ObstacleController::*)()>(&GlobalNamespace::ObstacleController::get_width)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleController*), "get_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleController::get_height
+// Il2CppName: get_height
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ObstacleController::*)()>(&GlobalNamespace::ObstacleController::get_height)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleController*), "get_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleController::get_length
+// Il2CppName: get_length
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ObstacleController::*)()>(&GlobalNamespace::ObstacleController::get_length)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleController*), "get_length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleController::get_color
+// Il2CppName: get_color
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ObstacleController::*)()>(&GlobalNamespace::ObstacleController::get_color)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleController*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleController::Init

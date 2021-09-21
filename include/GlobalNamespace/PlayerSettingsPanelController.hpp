@@ -143,13 +143,14 @@ namespace GlobalNamespace {
     UnityEngine::UI::Toggle* adaptiveSfxToggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE476AC
+    // [SpaceAttribute] Offset: 0xF10070
     // private UnityEngine.CanvasGroup _singleplayerOnlyCanvasGroup
     // Size: 0x8
     // Offset: 0x88
     UnityEngine::CanvasGroup* singleplayerOnlyCanvasGroup;
     // Field size check
     static_assert(sizeof(UnityEngine::CanvasGroup*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF100A8
     // private System.Action didChangePlayerSettingsEvent
     // Size: 0x8
     // Offset: 0x90
@@ -234,86 +235,86 @@ namespace GlobalNamespace {
     bool& dyn__dirty();
     // Get instance field reference: private System.Boolean _refreshed
     bool& dyn__refreshed();
-    // public PlayerSpecificSettings get_playerSpecificSettings()
-    // Offset: 0x11FA818
-    GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
     // public System.Void add_didChangePlayerSettingsEvent(System.Action value)
-    // Offset: 0x11FAD10
+    // Offset: 0x12BA9F8
     void add_didChangePlayerSettingsEvent(System::Action* value);
     // public System.Void remove_didChangePlayerSettingsEvent(System.Action value)
-    // Offset: 0x11FADB4
+    // Offset: 0x12BAA9C
     void remove_didChangePlayerSettingsEvent(System::Action* value);
+    // public PlayerSpecificSettings get_playerSpecificSettings()
+    // Offset: 0x12BA500
+    GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
     // public System.Void SetData(PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x11FA55C
+    // Offset: 0x12BA244
     void SetData(GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
     // public System.Void SetLayout(PlayerSettingsPanelController/PlayerSettingsPanelLayout layout)
-    // Offset: 0x11FA52C
+    // Offset: 0x12BA214
     void SetLayout(GlobalNamespace::PlayerSettingsPanelController::PlayerSettingsPanelLayout layout);
     // protected System.Void Awake()
-    // Offset: 0x11FAEC4
+    // Offset: 0x12BABAC
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x11FAF24
+    // Offset: 0x12BAC0C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x11FB330
+    // Offset: 0x12BB018
     void OnDisable();
     // private System.Void OnDestroy()
-    // Offset: 0x11FB60C
+    // Offset: 0x12BB2F4
     void OnDestroy();
     // private System.Void UnsubscribeAllUICallbacks()
-    // Offset: 0x11FB334
+    // Offset: 0x12BB01C
     void UnsubscribeAllUICallbacks();
     // public System.Void Refresh()
-    // Offset: 0x11FA5A0
+    // Offset: 0x12BA288
     void Refresh();
     // private System.Void HandleSFXVolumeSettingsControllerValueDidChange(FormattedFloatListSettingsController settingsController, System.Single value)
-    // Offset: 0x11FB610
+    // Offset: 0x12BB2F8
     void HandleSFXVolumeSettingsControllerValueDidChange(GlobalNamespace::FormattedFloatListSettingsController* settingsController, float value);
     // private System.Void HandleSaberTrailIntensitySettingsControllerValueDidChange(FormattedFloatListSettingsController settingsController, System.Single value)
-    // Offset: 0x11FB650
+    // Offset: 0x12BB338
     void HandleSaberTrailIntensitySettingsControllerValueDidChange(GlobalNamespace::FormattedFloatListSettingsController* settingsController, float value);
     // private System.Void HandlePlayerHeightSettingsControllerValueDidChange(System.Single value)
-    // Offset: 0x11FB670
+    // Offset: 0x12BB358
     void HandlePlayerHeightSettingsControllerValueDidChange(float value);
     // private System.Void HandleNoteJumpStartBeatOffsetPositionSelected(System.Int32 idx)
-    // Offset: 0x11FB690
+    // Offset: 0x12BB378
     void HandleNoteJumpStartBeatOffsetPositionSelected(int idx);
     // private System.Void HandleLightReductionAmountSelected(System.Int32 obj)
-    // Offset: 0x11FB6B0
+    // Offset: 0x12BB398
     void HandleLightReductionAmountSelected(int obj);
     // private System.Void HandleAdvancedHudToggleChanged(System.Boolean on)
-    // Offset: 0x11FB6D0
+    // Offset: 0x12BB3B8
     void HandleAdvancedHudToggleChanged(bool on);
     // private System.Void HandleNoTextsAndHudsToggleChanged(System.Boolean on)
-    // Offset: 0x11FB728
+    // Offset: 0x12BB410
     void HandleNoTextsAndHudsToggleChanged(bool on);
     // private System.Void SetIsDirty()
-    // Offset: 0x11FB630
+    // Offset: 0x12BB318
     void SetIsDirty();
     // private System.Void SetSection(UnityEngine.CanvasGroup sectionCanvasGroup, System.Boolean block)
-    // Offset: 0x11FAE58
+    // Offset: 0x12BAB40
     void SetSection(UnityEngine::CanvasGroup* sectionCanvasGroup, bool block);
     // private System.Void <OnEnable>b__29_0(System.Boolean on)
-    // Offset: 0x11FB788
+    // Offset: 0x12BB470
     void $OnEnable$b__29_0(bool on);
     // private System.Void <OnEnable>b__29_1(System.Boolean on)
-    // Offset: 0x11FB7A8
+    // Offset: 0x12BB490
     void $OnEnable$b__29_1(bool on);
     // private System.Void <OnEnable>b__29_2(System.Boolean on)
-    // Offset: 0x11FB7C8
+    // Offset: 0x12BB4B0
     void $OnEnable$b__29_2(bool on);
     // private System.Void <OnEnable>b__29_3(System.Boolean on)
-    // Offset: 0x11FB7E8
+    // Offset: 0x12BB4D0
     void $OnEnable$b__29_3(bool on);
     // private System.Void <OnEnable>b__29_4(System.Boolean on)
-    // Offset: 0x11FB808
+    // Offset: 0x12BB4F0
     void $OnEnable$b__29_4(bool on);
     // private System.Void <OnEnable>b__29_5(System.Boolean on)
-    // Offset: 0x11FB828
+    // Offset: 0x12BB510
     void $OnEnable$b__29_5(bool on);
     // public System.Void .ctor()
-    // Offset: 0x11FB780
+    // Offset: 0x12BB468
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -332,14 +333,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSettingsPanelController*, "", "PlayerSettingsPanelController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::get_playerSpecificSettings
-// Il2CppName: get_playerSpecificSettings
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSpecificSettings* (GlobalNamespace::PlayerSettingsPanelController::*)()>(&GlobalNamespace::PlayerSettingsPanelController::get_playerSpecificSettings)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSettingsPanelController*), "get_playerSpecificSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::add_didChangePlayerSettingsEvent
 // Il2CppName: add_didChangePlayerSettingsEvent
 template<>
@@ -356,6 +349,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSettingsPanelController*), "remove_didChangePlayerSettingsEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::get_playerSpecificSettings
+// Il2CppName: get_playerSpecificSettings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSpecificSettings* (GlobalNamespace::PlayerSettingsPanelController::*)()>(&GlobalNamespace::PlayerSettingsPanelController::get_playerSpecificSettings)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSettingsPanelController*), "get_playerSpecificSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSettingsPanelController::SetData

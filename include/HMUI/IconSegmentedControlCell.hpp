@@ -51,7 +51,7 @@ namespace HMUI {
     HMUI::HoverHint* hoverHint;
     // Field size check
     static_assert(sizeof(HMUI::HoverHint*) == 0x8);
-    // [NullAllowed] Offset: 0xE1B85C
+    // [NullAllowed] Offset: 0xEE1F38
     // private UnityEngine.GameObject _backgroundGameObject
     // Size: 0x8
     // Offset: 0x58
@@ -66,23 +66,23 @@ namespace HMUI {
     HMUI::HoverHint*& dyn__hoverHint();
     // Get instance field reference: private UnityEngine.GameObject _backgroundGameObject
     UnityEngine::GameObject*& dyn__backgroundGameObject();
-    // public UnityEngine.Sprite get_sprite()
-    // Offset: 0x137A874
-    UnityEngine::Sprite* get_sprite();
     // public System.Void set_sprite(UnityEngine.Sprite value)
-    // Offset: 0x137A6B4
+    // Offset: 0x148FCF4
     void set_sprite(UnityEngine::Sprite* value);
+    // public UnityEngine.Sprite get_sprite()
+    // Offset: 0x148FEB4
+    UnityEngine::Sprite* get_sprite();
     // public System.Void set_hintText(System.String value)
-    // Offset: 0x137A6D0
+    // Offset: 0x148FD10
     void set_hintText(::Il2CppString* value);
     // public System.Void set_iconSize(System.Single value)
-    // Offset: 0x137A798
+    // Offset: 0x148FDD8
     void set_iconSize(float value);
     // public System.Void set_hideBackgroundImage(System.Boolean value)
-    // Offset: 0x137A6EC
+    // Offset: 0x148FD2C
     void set_hideBackgroundImage(bool value);
     // public System.Void .ctor()
-    // Offset: 0x137A890
+    // Offset: 0x148FED0
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
@@ -104,14 +104,6 @@ namespace HMUI {
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::IconSegmentedControlCell*, "HMUI", "IconSegmentedControlCell");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: HMUI::IconSegmentedControlCell::get_sprite
-// Il2CppName: get_sprite
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (HMUI::IconSegmentedControlCell::*)()>(&HMUI::IconSegmentedControlCell::get_sprite)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::IconSegmentedControlCell*), "get_sprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: HMUI::IconSegmentedControlCell::set_sprite
 // Il2CppName: set_sprite
 template<>
@@ -119,6 +111,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Sprite")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::IconSegmentedControlCell*), "set_sprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: HMUI::IconSegmentedControlCell::get_sprite
+// Il2CppName: get_sprite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (HMUI::IconSegmentedControlCell::*)()>(&HMUI::IconSegmentedControlCell::get_sprite)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::IconSegmentedControlCell*), "get_sprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: HMUI::IconSegmentedControlCell::set_hintText

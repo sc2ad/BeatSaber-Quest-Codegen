@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnvironmentSceneSetup : public Zenject::MonoInstaller {
     public:
-    // [InjectAttribute] Offset: 0xE4BE90
+    // [InjectAttribute] Offset: 0xF14A9C
     // private readonly EnvironmentSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x20
@@ -38,8 +38,13 @@ namespace GlobalNamespace {
     EnvironmentSceneSetup(GlobalNamespace::EnvironmentSceneSetupData* sceneSetupData_ = {}) noexcept : sceneSetupData{sceneSetupData_} {}
     // Get instance field reference: private readonly EnvironmentSceneSetupData _sceneSetupData
     GlobalNamespace::EnvironmentSceneSetupData*& dyn__sceneSetupData();
+    // public override System.Void InstallBindings()
+    // Offset: 0x11B17B8
+    // Implemented from: Zenject.MonoInstallerBase
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
+    void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1058BB8
+    // Offset: 0x11B1864
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -53,11 +58,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnvironmentSceneSetup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentSceneSetup*, creationType>()));
     }
-    // public override System.Void InstallBindings()
-    // Offset: 0x1058B0C
-    // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings()
-    void InstallBindings();
   }; // EnvironmentSceneSetup
   #pragma pack(pop)
   static check_size<sizeof(EnvironmentSceneSetup), 32 + sizeof(GlobalNamespace::EnvironmentSceneSetupData*)> __GlobalNamespace_EnvironmentSceneSetupSizeCheck;
@@ -65,10 +65,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSceneSetup*, "", "EnvironmentSceneSetup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::EnvironmentSceneSetup::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentSceneSetup::InstallBindings
 // Il2CppName: InstallBindings
 template<>
@@ -77,3 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentSceneSetup*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentSceneSetup::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

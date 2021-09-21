@@ -27,14 +27,16 @@ namespace NUnit::Framework::Internal::Filters {
   // [TokenAttribute] Offset: FFFFFFFF
   class ValueMatchFilter : public NUnit::Framework::Internal::TestFilter {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xE28F00
+    // [CompilerGeneratedAttribute] Offset: 0xEEF6D8
+    // [DebuggerBrowsableAttribute] Offset: 0xEEF6D8
     // private System.String <ExpectedValue>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* ExpectedValue;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE28F3C
+    // [DebuggerBrowsableAttribute] Offset: 0xEEF714
+    // [CompilerGeneratedAttribute] Offset: 0xEEF714
     // private System.Boolean <IsRegex>k__BackingField
     // Size: 0x1
     // Offset: 0x18
@@ -48,32 +50,32 @@ namespace NUnit::Framework::Internal::Filters {
     // Get instance field reference: private System.Boolean <IsRegex>k__BackingField
     bool& dyn_$IsRegex$k__BackingField();
     // public System.String get_ExpectedValue()
-    // Offset: 0x22939EC
+    // Offset: 0x249BD34
     ::Il2CppString* get_ExpectedValue();
     // private System.Void set_ExpectedValue(System.String value)
-    // Offset: 0x22939F4
+    // Offset: 0x249BD3C
     void set_ExpectedValue(::Il2CppString* value);
     // public System.Boolean get_IsRegex()
-    // Offset: 0x22939FC
+    // Offset: 0x249BD44
     bool get_IsRegex();
     // public System.Void set_IsRegex(System.Boolean value)
-    // Offset: 0x2293A04
+    // Offset: 0x249BD4C
     void set_IsRegex(bool value);
-    // protected System.String get_ElementName()
-    // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_ElementName();
     // public System.Void .ctor(System.String expectedValue)
-    // Offset: 0x2293A10
+    // Offset: 0x249BD58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValueMatchFilter* New_ctor(::Il2CppString* expectedValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Filters::ValueMatchFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValueMatchFilter*, creationType>(expectedValue)));
     }
     // protected System.Boolean Match(System.String input)
-    // Offset: 0x2293A94
+    // Offset: 0x249BDDC
     bool Match(::Il2CppString* input);
+    // protected System.String get_ElementName()
+    // Offset: 0xFFFFFFFF
+    ::Il2CppString* get_ElementName();
     // public override NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x2293B54
+    // Offset: 0x249BE9C
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: NUnit.Framework.Interfaces.TNode TestFilter::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
@@ -118,14 +120,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::ValueMatchFilter*), "set_IsRegex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::ValueMatchFilter::get_ElementName
-// Il2CppName: get_ElementName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::Filters::ValueMatchFilter::*)()>(&NUnit::Framework::Internal::Filters::ValueMatchFilter::get_ElementName)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::ValueMatchFilter*), "get_ElementName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::ValueMatchFilter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -137,6 +131,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::ValueMatchFilter*), "Match", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
+  }
+};
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::ValueMatchFilter::get_ElementName
+// Il2CppName: get_ElementName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::Filters::ValueMatchFilter::*)()>(&NUnit::Framework::Internal::Filters::ValueMatchFilter::get_ElementName)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::ValueMatchFilter*), "get_ElementName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::ValueMatchFilter::AddToXml

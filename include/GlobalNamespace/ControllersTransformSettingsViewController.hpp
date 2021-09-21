@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     GlobalNamespace::Vector3SO* controllerRotation;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Vector3SO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE46F8C
+    // [SpaceAttribute] Offset: 0xF0F950
     // private HMUI.RangeValuesTextSlider _posXSlider
     // Size: 0x8
     // Offset: 0x80
@@ -118,13 +118,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMUI.RangeValuesTextSlider _rotZSlider
     HMUI::RangeValuesTextSlider*& dyn__rotZSlider();
     // private System.Void HandlePositionSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0x10E6E4C
+    // Offset: 0x119E7BC
     void HandlePositionSliderValueDidChange(HMUI::RangeValuesTextSlider* slider, float value);
     // private System.Void HandleRotationSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0x10E6F28
+    // Offset: 0x119E898
     void HandleRotationSliderValueDidChange(HMUI::RangeValuesTextSlider* slider, float value);
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x119E020
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+    // protected override System.Void OnDestroy()
+    // Offset: 0x119E490
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::OnDestroy()
+    void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x10E6FF8
+    // Offset: 0x119E968
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -137,16 +147,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ControllersTransformSettingsViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ControllersTransformSettingsViewController*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x10E66B0
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-    // protected override System.Void OnDestroy()
-    // Offset: 0x10E6B20
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::OnDestroy()
-    void OnDestroy();
   }; // ControllersTransformSettingsViewController
   #pragma pack(pop)
   static check_size<sizeof(ControllersTransformSettingsViewController), 168 + sizeof(HMUI::RangeValuesTextSlider*)> __GlobalNamespace_ControllersTransformSettingsViewControllerSizeCheck;
@@ -174,10 +174,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ControllersTransformSettingsViewController*), "HandleRotationSliderValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{slider, value});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ControllersTransformSettingsViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ControllersTransformSettingsViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -197,3 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ControllersTransformSettingsViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ControllersTransformSettingsViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -81,29 +81,39 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::TabBarViewController::TabBarItem*>*& dyn__items();
     // Get instance field reference: private System.Boolean _shouldReloadData
     bool& dyn__shouldReloadData();
-    // public System.Boolean get_sizeToFit()
-    // Offset: 0x106DA80
-    bool get_sizeToFit();
     // public System.Void set_sizeToFit(System.Boolean value)
-    // Offset: 0x106DA60
+    // Offset: 0x115C3E8
     void set_sizeToFit(bool value);
+    // public System.Boolean get_sizeToFit()
+    // Offset: 0x115C408
+    bool get_sizeToFit();
     // public System.Int32 get_selectedCellNumber()
-    // Offset: 0x106DA9C
+    // Offset: 0x115C424
     int get_selectedCellNumber();
     // public System.Void Setup(TabBarViewController/TabBarItem[] items)
-    // Offset: 0x106DAB8
+    // Offset: 0x115C440
     void Setup(::Array<GlobalNamespace::TabBarViewController::TabBarItem*>* items);
     // public System.Void SelectItem(System.Int32 index)
-    // Offset: 0x106DBF4
+    // Offset: 0x115C57C
     void SelectItem(int index);
     // public System.Void Clear()
-    // Offset: 0x106DC10
+    // Offset: 0x115C598
     void Clear();
     // private System.Void HandleDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0x106DE20
+    // Offset: 0x115C7A8
     void HandleDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellNumber);
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x115C5F4
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+    // protected override System.Void OnDestroy()
+    // Offset: 0x115C6C4
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::OnDestroy()
+    void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x106DE74
+    // Offset: 0x115C7FC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -116,16 +126,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TabBarViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TabBarViewController*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x106DC6C
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-    // protected override System.Void OnDestroy()
-    // Offset: 0x106DD3C
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::OnDestroy()
-    void OnDestroy();
   }; // TabBarViewController
   #pragma pack(pop)
   static check_size<sizeof(TabBarViewController), 144 + sizeof(bool)> __GlobalNamespace_TabBarViewControllerSizeCheck;
@@ -133,14 +133,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TabBarViewController*, "", "TabBarViewController");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::get_sizeToFit
-// Il2CppName: get_sizeToFit
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::TabBarViewController::*)()>(&GlobalNamespace::TabBarViewController::get_sizeToFit)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TabBarViewController*), "get_sizeToFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::set_sizeToFit
 // Il2CppName: set_sizeToFit
 template<>
@@ -148,6 +140,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TabBarViewController*), "set_sizeToFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::get_sizeToFit
+// Il2CppName: get_sizeToFit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::TabBarViewController::*)()>(&GlobalNamespace::TabBarViewController::get_sizeToFit)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TabBarViewController*), "get_sizeToFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::get_selectedCellNumber
@@ -194,10 +194,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TabBarViewController*), "HandleDidSelectCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{segmentedControl, cellNumber});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -217,3 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TabBarViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

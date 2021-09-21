@@ -62,10 +62,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int16 w
     int16_t& dyn_w();
     // static private System.Void .cctor()
-    // Offset: 0x163AB20
+    // Offset: 0x1807780
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0x163A940
+    // Offset: 0x18075A0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

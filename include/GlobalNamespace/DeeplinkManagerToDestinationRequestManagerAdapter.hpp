@@ -41,20 +41,21 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DeeplinkManagerToDestinationRequestManagerAdapter : public ::Il2CppObject/*, public GlobalNamespace::IDestinationRequestManager*/ {
     public:
-    // [InjectAttribute] Offset: 0xE38D90
+    // [InjectAttribute] Offset: 0xF01544
     // private BeatmapLevelsModel _beatmapLevelsModel
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE38DA0
+    // [InjectAttribute] Offset: 0xF01554
     // private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapCharacteristicCollectionSO*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF01564
     // private System.Action`1<MenuDestination> didSendMenuDestinationRequestEvent
     // Size: 0x8
     // Offset: 0x20
@@ -81,29 +82,29 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::MenuDestination*>*& dyn_didSendMenuDestinationRequestEvent();
     // Get instance field reference: private MenuDestination _currentMenuDestinationRequest
     GlobalNamespace::MenuDestination*& dyn__currentMenuDestinationRequest();
-    // public MenuDestination get_currentMenuDestinationRequest()
-    // Offset: 0x10EDBE0
-    GlobalNamespace::MenuDestination* get_currentMenuDestinationRequest();
-    // public System.Void set_currentMenuDestinationRequest(MenuDestination value)
-    // Offset: 0x10EDBE8
-    void set_currentMenuDestinationRequest(GlobalNamespace::MenuDestination* value);
     // public System.Void add_didSendMenuDestinationRequestEvent(System.Action`1<MenuDestination> value)
-    // Offset: 0x10EDA98
+    // Offset: 0x11A53F4
     void add_didSendMenuDestinationRequestEvent(System::Action_1<GlobalNamespace::MenuDestination*>* value);
     // public System.Void remove_didSendMenuDestinationRequestEvent(System.Action`1<MenuDestination> value)
-    // Offset: 0x10EDB3C
+    // Offset: 0x11A5498
     void remove_didSendMenuDestinationRequestEvent(System::Action_1<GlobalNamespace::MenuDestination*>* value);
+    // public MenuDestination get_currentMenuDestinationRequest()
+    // Offset: 0x11A553C
+    GlobalNamespace::MenuDestination* get_currentMenuDestinationRequest();
+    // public System.Void set_currentMenuDestinationRequest(MenuDestination value)
+    // Offset: 0x11A5544
+    void set_currentMenuDestinationRequest(GlobalNamespace::MenuDestination* value);
     // public System.Void Init(IDeeplinkManager deeplinkManager)
-    // Offset: 0x10EDC60
+    // Offset: 0x11A55BC
     void Init(GlobalNamespace::IDeeplinkManager* deeplinkManager);
     // public System.Void Clear()
-    // Offset: 0x10EE350
+    // Offset: 0x11A5CAC
     void Clear();
     // protected System.Void HandleDeeplinkManagerDidReceiveDeeplink(Deeplink deeplink)
-    // Offset: 0x10EDE38
+    // Offset: 0x11A5794
     void HandleDeeplinkManagerDidReceiveDeeplink(GlobalNamespace::Deeplink* deeplink);
     // public System.Void .ctor()
-    // Offset: 0x10EE358
+    // Offset: 0x11A5CB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -118,23 +119,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*, "", "DeeplinkManagerToDestinationRequestManagerAdapter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::get_currentMenuDestinationRequest
-// Il2CppName: get_currentMenuDestinationRequest
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MenuDestination* (GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)()>(&GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::get_currentMenuDestinationRequest)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*), "get_currentMenuDestinationRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::set_currentMenuDestinationRequest
-// Il2CppName: set_currentMenuDestinationRequest
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(GlobalNamespace::MenuDestination*)>(&GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::set_currentMenuDestinationRequest)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("", "MenuDestination")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*), "set_currentMenuDestinationRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::add_didSendMenuDestinationRequestEvent
 // Il2CppName: add_didSendMenuDestinationRequestEvent
 template<>
@@ -151,6 +135,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MenuDestination")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*), "remove_didSendMenuDestinationRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::get_currentMenuDestinationRequest
+// Il2CppName: get_currentMenuDestinationRequest
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MenuDestination* (GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)()>(&GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::get_currentMenuDestinationRequest)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*), "get_currentMenuDestinationRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::set_currentMenuDestinationRequest
+// Il2CppName: set_currentMenuDestinationRequest
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(GlobalNamespace::MenuDestination*)>(&GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::set_currentMenuDestinationRequest)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("", "MenuDestination")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*), "set_currentMenuDestinationRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::Init

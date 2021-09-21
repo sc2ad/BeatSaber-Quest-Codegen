@@ -55,7 +55,8 @@ namespace NUnit::Framework::Constraints {
     NUnit::Framework::Constraints::NUnitEqualityComparer* comparer;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Constraints::NUnitEqualityComparer*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE292FC
+    // [DebuggerBrowsableAttribute] Offset: 0xEEFAD4
+    // [CompilerGeneratedAttribute] Offset: 0xEEFAD4
     // private System.Boolean <ClipStrings>k__BackingField
     // Size: 0x1
     // Offset: 0x48
@@ -72,28 +73,28 @@ namespace NUnit::Framework::Constraints {
     NUnit::Framework::Constraints::NUnitEqualityComparer*& dyn__comparer();
     // Get instance field reference: private System.Boolean <ClipStrings>k__BackingField
     bool& dyn_$ClipStrings$k__BackingField();
-    // public NUnit.Framework.Constraints.Tolerance get_Tolerance()
-    // Offset: 0x176C8B8
-    NUnit::Framework::Constraints::Tolerance* get_Tolerance();
-    // public System.Boolean get_CaseInsensitive()
-    // Offset: 0x176C8C0
-    bool get_CaseInsensitive();
-    // public System.Boolean get_ClipStrings()
-    // Offset: 0x176C8E4
-    bool get_ClipStrings();
-    // private System.Void set_ClipStrings(System.Boolean value)
-    // Offset: 0x176C8EC
-    void set_ClipStrings(bool value);
-    // public System.Collections.Generic.IList`1<NUnit.Framework.Constraints.NUnitEqualityComparer/NUnit.Framework.Constraints.FailurePoint> get_FailurePoints()
-    // Offset: 0x176C8F8
-    System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* get_FailurePoints();
     // public System.Void .ctor(System.Object expected)
-    // Offset: 0x176C744
+    // Offset: 0x192B790
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EqualConstraint* New_ctor(::Il2CppObject* expected) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::EqualConstraint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EqualConstraint*, creationType>(expected)));
     }
+    // public NUnit.Framework.Constraints.Tolerance get_Tolerance()
+    // Offset: 0x192B904
+    NUnit::Framework::Constraints::Tolerance* get_Tolerance();
+    // public System.Boolean get_CaseInsensitive()
+    // Offset: 0x192B90C
+    bool get_CaseInsensitive();
+    // public System.Boolean get_ClipStrings()
+    // Offset: 0x192B930
+    bool get_ClipStrings();
+    // private System.Void set_ClipStrings(System.Boolean value)
+    // Offset: 0x192B938
+    void set_ClipStrings(bool value);
+    // public System.Collections.Generic.IList`1<NUnit.Framework.Constraints.NUnitEqualityComparer/FailurePoint> get_FailurePoints()
+    // Offset: 0x192B944
+    System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* get_FailurePoints();
     // private System.Void AdjustArgumentIfNeeded(ref T arg)
     // Offset: 0xFFFFFFFF
     template<class T>
@@ -104,16 +105,16 @@ namespace NUnit::Framework::Constraints {
       auto ___instance_arg = this;
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, byref(arg));
     }
-    // public override System.String get_Description()
-    // Offset: 0x176CA84
-    // Implemented from: NUnit.Framework.Constraints.Constraint
-    // Base method: System.String Constraint::get_Description()
-    ::Il2CppString* get_Description();
     // public override NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
-    // Offset: 0x176C91C
+    // Offset: 0x192B968
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: NUnit.Framework.Constraints.ConstraintResult Constraint::ApplyTo(System.Object actual)
     NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);
+    // public override System.String get_Description()
+    // Offset: 0x192BAD0
+    // Implemented from: NUnit.Framework.Constraints.Constraint
+    // Base method: System.String Constraint::get_Description()
+    ::Il2CppString* get_Description();
   }; // NUnit.Framework.Constraints.EqualConstraint
   #pragma pack(pop)
   static check_size<sizeof(EqualConstraint), 72 + sizeof(bool)> __NUnit_Framework_Constraints_EqualConstraintSizeCheck;
@@ -121,6 +122,10 @@ namespace NUnit::Framework::Constraints {
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::EqualConstraint*, "NUnit.Framework.Constraints", "EqualConstraint");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraint::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraint::get_Tolerance
 // Il2CppName: get_Tolerance
 template<>
@@ -162,21 +167,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraint*), "get_FailurePoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraint::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraint::AdjustArgumentIfNeeded
 // Il2CppName: AdjustArgumentIfNeeded
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraint::get_Description
-// Il2CppName: get_Description
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Constraints::EqualConstraint::*)()>(&NUnit::Framework::Constraints::EqualConstraint::get_Description)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraint*), "get_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraint::ApplyTo
 // Il2CppName: ApplyTo
 template<>
@@ -184,5 +177,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
   static const MethodInfo* get() {
     static auto* actual = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraint*), "ApplyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{actual});
+  }
+};
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraint::get_Description
+// Il2CppName: get_Description
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Constraints::EqualConstraint::*)()>(&NUnit::Framework::Constraints::EqualConstraint::get_Description)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraint*), "get_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -67,31 +67,51 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _hidden
     bool& dyn__hidden();
     // public System.Void Init(NoteData noteData, System.Single worldRotation, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single moveDuration, System.Single jumpDuration, System.Single jumpGravity)
-    // Offset: 0x10DA064
+    // Offset: 0x12ABB88
     void Init(GlobalNamespace::NoteData* noteData, float worldRotation, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float moveDuration, float jumpDuration, float jumpGravity);
     // private System.Void HandleDidPassHalfJump()
-    // Offset: 0x10DA330
+    // Offset: 0x12ABE54
     void HandleDidPassHalfJump();
     // private System.Void HandleWasCutBySaber(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x10DA354
+    // Offset: 0x12ABE78
     void HandleWasCutBySaber(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
-    // public override System.Boolean get_hide()
-    // Offset: 0x10DA04C
-    // Implemented from: NoteController
-    // Base method: System.Boolean NoteController::get_hide()
-    bool get_hide();
     // public override System.Void set_hide(System.Boolean value)
-    // Offset: 0x10DA008
+    // Offset: 0x12ABB2C
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_hide(System.Boolean value)
     void set_hide(bool value);
+    // public override System.Boolean get_hide()
+    // Offset: 0x12ABB70
+    // Implemented from: NoteController
+    // Base method: System.Boolean NoteController::get_hide()
+    bool get_hide();
     // public override System.Void set_pause(System.Boolean value)
-    // Offset: 0x10DA054
+    // Offset: 0x12ABB78
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_pause(System.Boolean value)
     void set_pause(bool value);
+    // protected override System.Void Awake()
+    // Offset: 0x12ABC58
+    // Implemented from: NoteController
+    // Base method: System.Void NoteController::Awake()
+    void Awake();
+    // protected override System.Void OnDestroy()
+    // Offset: 0x12ABD34
+    // Implemented from: NoteController
+    // Base method: System.Void NoteController::OnDestroy()
+    void OnDestroy();
+    // protected override System.Void NoteDidPassMissedMarker()
+    // Offset: 0x12ABE14
+    // Implemented from: NoteController
+    // Base method: System.Void NoteController::NoteDidPassMissedMarker()
+    void NoteDidPassMissedMarker();
+    // protected override System.Void NoteDidStartDissolving()
+    // Offset: 0x12AC034
+    // Implemented from: NoteController
+    // Base method: System.Void NoteController::NoteDidStartDissolving()
+    void NoteDidStartDissolving();
     // public System.Void .ctor()
-    // Offset: 0x10DA534
+    // Offset: 0x12AC058
     // Implemented from: NoteController
     // Base method: System.Void NoteController::.ctor()
     // Base method: System.Void NoteControllerBase::.ctor()
@@ -105,26 +125,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BombNoteController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BombNoteController*, creationType>()));
     }
-    // protected override System.Void Awake()
-    // Offset: 0x10DA134
-    // Implemented from: NoteController
-    // Base method: System.Void NoteController::Awake()
-    void Awake();
-    // protected override System.Void OnDestroy()
-    // Offset: 0x10DA210
-    // Implemented from: NoteController
-    // Base method: System.Void NoteController::OnDestroy()
-    void OnDestroy();
-    // protected override System.Void NoteDidPassMissedMarker()
-    // Offset: 0x10DA2F0
-    // Implemented from: NoteController
-    // Base method: System.Void NoteController::NoteDidPassMissedMarker()
-    void NoteDidPassMissedMarker();
-    // protected override System.Void NoteDidStartDissolving()
-    // Offset: 0x10DA510
-    // Implemented from: NoteController
-    // Base method: System.Void NoteController::NoteDidStartDissolving()
-    void NoteDidStartDissolving();
   }; // BombNoteController
   #pragma pack(pop)
   static check_size<sizeof(BombNoteController), 136 + sizeof(bool)> __GlobalNamespace_BombNoteControllerSizeCheck;
@@ -168,14 +168,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BombNoteController*), "HandleWasCutBySaber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saber, cutPoint, orientation, cutDirVec});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BombNoteController::get_hide
-// Il2CppName: get_hide
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BombNoteController::*)()>(&GlobalNamespace::BombNoteController::get_hide)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BombNoteController*), "get_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::BombNoteController::set_hide
 // Il2CppName: set_hide
 template<>
@@ -183,6 +175,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BombNoteController*), "set_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BombNoteController::get_hide
+// Il2CppName: get_hide
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BombNoteController::*)()>(&GlobalNamespace::BombNoteController::get_hide)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BombNoteController*), "get_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BombNoteController::set_pause
@@ -194,10 +194,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BombNoteController*), "set_pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BombNoteController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::BombNoteController::Awake
 // Il2CppName: Awake
 template<>
@@ -230,3 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BombNoteController*), "NoteDidStartDissolving", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BombNoteController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

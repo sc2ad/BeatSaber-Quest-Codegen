@@ -74,12 +74,14 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType), 0 + sizeof(int)> __GlobalNamespace_BeatmapObjectExecutionRating_BeatmapObjectExecutionRatingTypeSizeCheck;
     static_assert(sizeof(BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType) == 0x4);
+    // [CompilerGeneratedAttribute] Offset: 0xF014A4
     // private BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType <beatmapObjectRatingType>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType beatmapObjectRatingType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType) == 0x4);
+    // [CompilerGeneratedAttribute] Offset: 0xF014B4
     // private System.Single <time>k__BackingField
     // Size: 0x4
     // Offset: 0x14
@@ -93,19 +95,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <time>k__BackingField
     float& dyn_$time$k__BackingField();
     // public BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType get_beatmapObjectRatingType()
-    // Offset: 0x10CF344
+    // Offset: 0x12A0918
     GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType get_beatmapObjectRatingType();
     // public System.Void set_beatmapObjectRatingType(BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType value)
-    // Offset: 0x10CF34C
+    // Offset: 0x12A0920
     void set_beatmapObjectRatingType(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType value);
     // public System.Single get_time()
-    // Offset: 0x10CF354
+    // Offset: 0x12A0928
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x10CF35C
+    // Offset: 0x12A0930
     void set_time(float value);
     // public System.Void .ctor()
-    // Offset: 0x10CF364
+    // Offset: 0x12A0938
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

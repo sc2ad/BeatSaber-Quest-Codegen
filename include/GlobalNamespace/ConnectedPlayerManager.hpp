@@ -203,60 +203,70 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(ConnectedPlayerManager::InternalMessageType), 0 + sizeof(uint8_t)> __GlobalNamespace_ConnectedPlayerManager_InternalMessageTypeSizeCheck;
     static_assert(sizeof(ConnectedPlayerManager::InternalMessageType) == 0x1);
+    // [CompilerGeneratedAttribute] Offset: 0xED9670
     // private System.Action connectedEvent
     // Size: 0x8
     // Offset: 0x10
     System::Action* connectedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xED9680
     // private System.Action reinitializedEvent
     // Size: 0x8
     // Offset: 0x18
     System::Action* reinitializedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xED9690
     // private System.Action`1<DisconnectedReason> disconnectedEvent
     // Size: 0x8
     // Offset: 0x20
     System::Action_1<GlobalNamespace::DisconnectedReason>* disconnectedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::DisconnectedReason>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xED96A0
     // private System.Action`1<ConnectionFailedReason> connectionFailedEvent
     // Size: 0x8
     // Offset: 0x28
     System::Action_1<GlobalNamespace::ConnectionFailedReason>* connectionFailedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::ConnectionFailedReason>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xED96B0
     // private System.Action`1<IConnectedPlayer> playerConnectedEvent
     // Size: 0x8
     // Offset: 0x30
     System::Action_1<GlobalNamespace::IConnectedPlayer*>* playerConnectedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::IConnectedPlayer*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xED96C0
     // private System.Action`1<IConnectedPlayer> playerDisconnectedEvent
     // Size: 0x8
     // Offset: 0x38
     System::Action_1<GlobalNamespace::IConnectedPlayer*>* playerDisconnectedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::IConnectedPlayer*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xED96D0
     // private System.Action`1<IConnectedPlayer> playerStateChangedEvent
     // Size: 0x8
     // Offset: 0x40
     System::Action_1<GlobalNamespace::IConnectedPlayer*>* playerStateChangedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::IConnectedPlayer*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xED96E0
     // private System.Action`1<IConnectedPlayer> playerAvatarChangedEvent
     // Size: 0x8
     // Offset: 0x48
     System::Action_1<GlobalNamespace::IConnectedPlayer*>* playerAvatarChangedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::IConnectedPlayer*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xED96F0
     // private System.Action`1<IConnectedPlayer> playerOrderChangedEvent
     // Size: 0x8
     // Offset: 0x50
     System::Action_1<GlobalNamespace::IConnectedPlayer*>* playerOrderChangedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::IConnectedPlayer*>*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xED9700
     // private System.Action syncTimeInitializedEvent
     // Size: 0x8
     // Offset: 0x58
@@ -451,133 +461,126 @@ namespace GlobalNamespace {
     float& dyn__lastPollTime();
     // Get instance field reference: private readonly NetworkPacketSerializer`2<ConnectedPlayerManager/InternalMessageType,IConnectedPlayer> _messageSerializer
     GlobalNamespace::NetworkPacketSerializer_2<GlobalNamespace::ConnectedPlayerManager::InternalMessageType, GlobalNamespace::IConnectedPlayer*>*& dyn__messageSerializer();
-    // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x13373B4
-    bool get_isConnectionOwner();
-    // public System.Boolean get_isConnectedOrConnecting()
-    // Offset: 0x1338928
-    bool get_isConnectedOrConnecting();
-    // public System.Boolean get_isConnected()
-    // Offset: 0x1336FB4
-    bool get_isConnected();
-    // public System.Boolean get_isConnecting()
-    // Offset: 0x1338960
-    bool get_isConnecting();
-    // public System.Boolean get_isDisconnecting()
-    // Offset: 0x1338A14
-    bool get_isDisconnecting();
-    // public IConnectedPlayer get_localPlayer()
-    // Offset: 0x1338AC8
-    GlobalNamespace::IConnectedPlayer* get_localPlayer();
-    // public System.Int32 get_connectedPlayerCount()
-    // Offset: 0x1338AD0
-    int get_connectedPlayerCount();
-    // public System.Single get_syncTime()
-    // Offset: 0x1337418
-    float get_syncTime();
-    // public System.Single get_syncTimeDelay()
-    // Offset: 0x1338BC0
-    float get_syncTimeDelay();
-    // public System.Void set_syncTimeDelay(System.Single value)
-    // Offset: 0x1338BC8
-    void set_syncTimeDelay(float value);
-    // public System.Boolean get_syncTimeInitialized()
-    // Offset: 0x1338BD0
-    bool get_syncTimeInitialized();
-    // private System.Single get_runTime()
-    // Offset: 0x1338B20
-    float get_runTime();
-    // public System.Void add_connectedEvent(System.Action value)
-    // Offset: 0x1337C58
-    void add_connectedEvent(System::Action* value);
-    // public System.Void remove_connectedEvent(System.Action value)
-    // Offset: 0x1337CFC
-    void remove_connectedEvent(System::Action* value);
-    // public System.Void add_reinitializedEvent(System.Action value)
-    // Offset: 0x1337DA0
-    void add_reinitializedEvent(System::Action* value);
-    // public System.Void remove_reinitializedEvent(System.Action value)
-    // Offset: 0x1337E44
-    void remove_reinitializedEvent(System::Action* value);
-    // public System.Void add_disconnectedEvent(System.Action`1<DisconnectedReason> value)
-    // Offset: 0x1337EE8
-    void add_disconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
-    // public System.Void remove_disconnectedEvent(System.Action`1<DisconnectedReason> value)
-    // Offset: 0x1337F8C
-    void remove_disconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
-    // public System.Void add_connectionFailedEvent(System.Action`1<ConnectionFailedReason> value)
-    // Offset: 0x1338030
-    void add_connectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
-    // public System.Void remove_connectionFailedEvent(System.Action`1<ConnectionFailedReason> value)
-    // Offset: 0x13380D4
-    void remove_connectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
-    // public System.Void add_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x1338178
-    void add_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
-    // public System.Void remove_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x133821C
-    void remove_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
-    // public System.Void add_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x13382C0
-    void add_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
-    // public System.Void remove_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x1338364
-    void remove_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
-    // public System.Void add_playerStateChangedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x1338408
-    void add_playerStateChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
-    // public System.Void remove_playerStateChangedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x13384AC
-    void remove_playerStateChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
-    // public System.Void add_playerAvatarChangedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x1338550
-    void add_playerAvatarChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
-    // public System.Void remove_playerAvatarChangedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x13385F4
-    void remove_playerAvatarChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
-    // public System.Void add_playerOrderChangedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x1338698
-    void add_playerOrderChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
-    // public System.Void remove_playerOrderChangedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x133873C
-    void remove_playerOrderChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
-    // public System.Void add_syncTimeInitializedEvent(System.Action value)
-    // Offset: 0x13387E0
-    void add_syncTimeInitializedEvent(System::Action* value);
-    // public System.Void remove_syncTimeInitializedEvent(System.Action value)
-    // Offset: 0x1338884
-    void remove_syncTimeInitializedEvent(System::Action* value);
-    // private System.Void .ctor(IConnectionManager connectionManager)
-    // Offset: 0x1338C0C
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ConnectedPlayerManager* New_ctor(GlobalNamespace::IConnectionManager* connectionManager) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ConnectedPlayerManager::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<ConnectedPlayerManager*, creationType>(connectionManager)));
-    }
     // private System.Byte GetNextConnectionId()
-    // Offset: 0x1336C5C
+    // Offset: 0x144E29C
     uint8_t GetNextConnectionId();
     // private System.Void RemoveAllPlayers(DisconnectedReason reason)
-    // Offset: 0x1336D78
+    // Offset: 0x144E3B8
     void RemoveAllPlayers(GlobalNamespace::DisconnectedReason reason);
     // private System.Void RemovePlayer(ConnectedPlayerManager/ConnectedPlayer player, DisconnectedReason reason)
-    // Offset: 0x1336DF4
+    // Offset: 0x144E434
     void RemovePlayer(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* player, GlobalNamespace::DisconnectedReason reason);
     // private System.Void AddPlayer(ConnectedPlayerManager/ConnectedPlayer player)
-    // Offset: 0x133712C
+    // Offset: 0x144E76C
     void AddPlayer(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* player);
     // private ConnectedPlayerManager/ConnectedPlayer GetPlayer(System.Byte connectionId)
-    // Offset: 0x1336CA0
+    // Offset: 0x144E2E0
     GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* GetPlayer(uint8_t connectionId);
     // private ConnectedPlayerManager/ConnectedPlayer GetPlayer(IConnection connection, System.Byte remoteConnectionId)
-    // Offset: 0x13379DC
+    // Offset: 0x144F01C
     GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* GetPlayer(GlobalNamespace::IConnection* connection, uint8_t remoteConnectionId);
     // private ConnectedPlayerManager/ConnectedPlayer GetPlayer(System.String userId)
-    // Offset: 0x1337B00
+    // Offset: 0x144F140
     GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* GetPlayer(::Il2CppString* userId);
     // public IConnectedPlayer GetConnectedPlayer(System.Int32 index)
-    // Offset: 0x1337BE0
+    // Offset: 0x144F220
     GlobalNamespace::IConnectedPlayer* GetConnectedPlayer(int index);
+    // public System.Void add_connectedEvent(System.Action value)
+    // Offset: 0x144F298
+    void add_connectedEvent(System::Action* value);
+    // public System.Void remove_connectedEvent(System.Action value)
+    // Offset: 0x144F33C
+    void remove_connectedEvent(System::Action* value);
+    // public System.Void add_reinitializedEvent(System.Action value)
+    // Offset: 0x144F3E0
+    void add_reinitializedEvent(System::Action* value);
+    // public System.Void remove_reinitializedEvent(System.Action value)
+    // Offset: 0x144F484
+    void remove_reinitializedEvent(System::Action* value);
+    // public System.Void add_disconnectedEvent(System.Action`1<DisconnectedReason> value)
+    // Offset: 0x144F528
+    void add_disconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
+    // public System.Void remove_disconnectedEvent(System.Action`1<DisconnectedReason> value)
+    // Offset: 0x144F5CC
+    void remove_disconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
+    // public System.Void add_connectionFailedEvent(System.Action`1<ConnectionFailedReason> value)
+    // Offset: 0x144F670
+    void add_connectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
+    // public System.Void remove_connectionFailedEvent(System.Action`1<ConnectionFailedReason> value)
+    // Offset: 0x144F714
+    void remove_connectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
+    // public System.Void add_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
+    // Offset: 0x144F7B8
+    void add_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
+    // public System.Void remove_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
+    // Offset: 0x144F85C
+    void remove_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
+    // public System.Void add_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
+    // Offset: 0x144F900
+    void add_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
+    // public System.Void remove_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
+    // Offset: 0x144F9A4
+    void remove_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
+    // public System.Void add_playerStateChangedEvent(System.Action`1<IConnectedPlayer> value)
+    // Offset: 0x144FA48
+    void add_playerStateChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
+    // public System.Void remove_playerStateChangedEvent(System.Action`1<IConnectedPlayer> value)
+    // Offset: 0x144FAEC
+    void remove_playerStateChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
+    // public System.Void add_playerAvatarChangedEvent(System.Action`1<IConnectedPlayer> value)
+    // Offset: 0x144FB90
+    void add_playerAvatarChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
+    // public System.Void remove_playerAvatarChangedEvent(System.Action`1<IConnectedPlayer> value)
+    // Offset: 0x144FC34
+    void remove_playerAvatarChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
+    // public System.Void add_playerOrderChangedEvent(System.Action`1<IConnectedPlayer> value)
+    // Offset: 0x144FCD8
+    void add_playerOrderChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
+    // public System.Void remove_playerOrderChangedEvent(System.Action`1<IConnectedPlayer> value)
+    // Offset: 0x144FD7C
+    void remove_playerOrderChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
+    // public System.Void add_syncTimeInitializedEvent(System.Action value)
+    // Offset: 0x144FE20
+    void add_syncTimeInitializedEvent(System::Action* value);
+    // public System.Void remove_syncTimeInitializedEvent(System.Action value)
+    // Offset: 0x144FEC4
+    void remove_syncTimeInitializedEvent(System::Action* value);
+    // public System.Boolean get_isConnectionOwner()
+    // Offset: 0x144E9F4
+    bool get_isConnectionOwner();
+    // public System.Boolean get_isConnectedOrConnecting()
+    // Offset: 0x144FF68
+    bool get_isConnectedOrConnecting();
+    // public System.Boolean get_isConnected()
+    // Offset: 0x144E5F4
+    bool get_isConnected();
+    // public System.Boolean get_isConnecting()
+    // Offset: 0x144FFA0
+    bool get_isConnecting();
+    // public System.Boolean get_isDisconnecting()
+    // Offset: 0x1450054
+    bool get_isDisconnecting();
+    // public IConnectedPlayer get_localPlayer()
+    // Offset: 0x1450108
+    GlobalNamespace::IConnectedPlayer* get_localPlayer();
+    // public System.Int32 get_connectedPlayerCount()
+    // Offset: 0x1450110
+    int get_connectedPlayerCount();
+    // public System.Single get_syncTime()
+    // Offset: 0x144EA58
+    float get_syncTime();
+    // public System.Single get_syncTimeDelay()
+    // Offset: 0x1450200
+    float get_syncTimeDelay();
+    // public System.Void set_syncTimeDelay(System.Single value)
+    // Offset: 0x1450208
+    void set_syncTimeDelay(float value);
+    // public System.Boolean get_syncTimeInitialized()
+    // Offset: 0x1450210
+    bool get_syncTimeInitialized();
+    // private System.Single get_runTime()
+    // Offset: 0x1450160
+    float get_runTime();
     // static public ConnectedPlayerManager TryCreate(IConnectionInitParams`1<T> initParams)
     // Offset: 0xFFFFFFFF
     template<class T>
@@ -598,8 +601,15 @@ namespace GlobalNamespace {
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::ConnectedPlayerManager*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, connectionManager, initParams);
     }
+    // private System.Void .ctor(IConnectionManager connectionManager)
+    // Offset: 0x145024C
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static ConnectedPlayerManager* New_ctor(GlobalNamespace::IConnectionManager* connectionManager) {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ConnectedPlayerManager::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<ConnectedPlayerManager*, creationType>(connectionManager)));
+    }
     // private System.Void ResetLocalState()
-    // Offset: 0x1339AE0
+    // Offset: 0x1451120
     void ResetLocalState();
     // public System.Boolean TryReinitialize(IConnectionInitParams`1<T> initParams)
     // Offset: 0xFFFFFFFF
@@ -613,13 +623,13 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___generic__method, initParams);
     }
     // public System.Void PollUpdate()
-    // Offset: 0x1339E18
+    // Offset: 0x1451458
     void PollUpdate();
     // public System.Void RegisterSerializer(ConnectedPlayerManager/MessageType serializerType, INetworkPacketSubSerializer`1<IConnectedPlayer> subSerializer)
-    // Offset: 0x133A1E4
+    // Offset: 0x1451824
     void RegisterSerializer(GlobalNamespace::ConnectedPlayerManager::MessageType serializerType, GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>* subSerializer);
     // public System.Void UnregisterSerializer(ConnectedPlayerManager/MessageType serializerType, INetworkPacketSubSerializer`1<IConnectedPlayer> subSerializer)
-    // Offset: 0x133A254
+    // Offset: 0x1451894
     void UnregisterSerializer(GlobalNamespace::ConnectedPlayerManager::MessageType serializerType, GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>* subSerializer);
     // public T GetConnectionManager()
     // Offset: 0xFFFFFFFF
@@ -633,46 +643,46 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___generic__method);
     }
     // public System.Void Dispose()
-    // Offset: 0x133A2C4
+    // Offset: 0x1451904
     void Dispose();
     // public System.Void Disconnect(DisconnectedReason disconnectedReason)
-    // Offset: 0x1337068
+    // Offset: 0x144E6A8
     void Disconnect(GlobalNamespace::DisconnectedReason disconnectedReason);
     // public System.Void KickPlayer(System.String userId, DisconnectedReason disconnectedReason)
-    // Offset: 0x133A804
+    // Offset: 0x1451E44
     void KickPlayer(::Il2CppString* userId, GlobalNamespace::DisconnectedReason disconnectedReason);
     // public System.Void SetLocalPlayerState(System.String state, System.Boolean setState)
-    // Offset: 0x133A8F0
+    // Offset: 0x1451F30
     void SetLocalPlayerState(::Il2CppString* state, bool setState);
     // public System.Void SetLocalPlayerAvatar(MultiplayerAvatarData multiplayerAvatarData)
-    // Offset: 0x133AA34
+    // Offset: 0x1452074
     void SetLocalPlayerAvatar(GlobalNamespace::MultiplayerAvatarData multiplayerAvatarData);
     // public System.Void SetLocalPlayerSortIndex(System.Int32 sortIndex)
-    // Offset: 0x133AB70
+    // Offset: 0x14521B0
     void SetLocalPlayerSortIndex(int sortIndex);
     // public System.Void SetPlayerSortIndex(IConnectedPlayer player, System.Int32 sortIndex)
-    // Offset: 0x133AB80
+    // Offset: 0x14521C0
     void SetPlayerSortIndex(GlobalNamespace::IConnectedPlayer* player, int sortIndex);
     // private System.Void HandleConnected()
-    // Offset: 0x133AC84
+    // Offset: 0x14522C4
     void HandleConnected();
     // private System.Void HandleDisconnected(DisconnectedReason disconnectedReason)
-    // Offset: 0x133AC98
+    // Offset: 0x14522D8
     void HandleDisconnected(GlobalNamespace::DisconnectedReason disconnectedReason);
     // private System.Void HandleConnectionFailed(ConnectionFailedReason reason)
-    // Offset: 0x133AD18
+    // Offset: 0x1452358
     void HandleConnectionFailed(GlobalNamespace::ConnectionFailedReason reason);
     // private System.Void HandleConnectionConnected(IConnection connection)
-    // Offset: 0x1339D08
+    // Offset: 0x1451348
     void HandleConnectionConnected(GlobalNamespace::IConnection* connection);
     // private System.Void OnNetworkLatencyUpdate(IConnection connection, System.Single latency)
-    // Offset: 0x133AF80
+    // Offset: 0x14525C0
     void OnNetworkLatencyUpdate(GlobalNamespace::IConnection* connection, float latency);
     // private System.Void HandleConnectionDisconnected(IConnection connection, DisconnectedReason disconnectedReason)
-    // Offset: 0x133B1C0
+    // Offset: 0x1452800
     void HandleConnectionDisconnected(GlobalNamespace::IConnection* connection, GlobalNamespace::DisconnectedReason disconnectedReason);
     // private System.Void OnNetworkReceive(IConnection connection, LiteNetLib.Utils.NetDataReader reader, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x133B2D8
+    // Offset: 0x1452918
     void OnNetworkReceive(GlobalNamespace::IConnection* connection, LiteNetLib::Utils::NetDataReader* reader, LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void Send(T message)
     // Offset: 0xFFFFFFFF
@@ -697,61 +707,61 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, message);
     }
     // private System.Void SendImmediately(LiteNetLib.Utils.INetSerializable message, System.Boolean onlyFirstDegree)
-    // Offset: 0x133745C
+    // Offset: 0x144EA9C
     void SendImmediately(LiteNetLib::Utils::INetSerializable* message, bool onlyFirstDegree);
     // private System.Void SendImmediatelyExcludingPlayer(LiteNetLib.Utils.INetSerializable message, ConnectedPlayerManager/ConnectedPlayer excludingPlayer, System.Boolean onlyFirstDegree)
-    // Offset: 0x13375C8
+    // Offset: 0x144EC08
     void SendImmediatelyExcludingPlayer(LiteNetLib::Utils::INetSerializable* message, GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* excludingPlayer, bool onlyFirstDegree);
     // private System.Void SendImmediatelyToPlayer(LiteNetLib.Utils.INetSerializable message, ConnectedPlayerManager/ConnectedPlayer toPlayer)
-    // Offset: 0x13376E4
+    // Offset: 0x144ED24
     void SendImmediatelyToPlayer(LiteNetLib::Utils::INetSerializable* message, GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* toPlayer);
     // private System.Void SendImmediatelyFromPlayer(LiteNetLib.Utils.INetSerializable message, ConnectedPlayerManager/ConnectedPlayer fromPlayer, System.Boolean onlyFirstDegree)
-    // Offset: 0x133B0BC
+    // Offset: 0x14526FC
     void SendImmediatelyFromPlayer(LiteNetLib::Utils::INetSerializable* message, GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* fromPlayer, bool onlyFirstDegree);
     // private System.Void SendImmediatelyFromPlayerToPlayer(LiteNetLib.Utils.INetSerializable message, ConnectedPlayerManager/ConnectedPlayer fromPlayer, ConnectedPlayerManager/ConnectedPlayer toPlayer)
-    // Offset: 0x13378E4
+    // Offset: 0x144EF24
     void SendImmediatelyFromPlayerToPlayer(LiteNetLib::Utils::INetSerializable* message, GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* fromPlayer, GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* toPlayer);
     // private System.Void FlushReliableQueue()
-    // Offset: 0x1339FF4
+    // Offset: 0x1451634
     void FlushReliableQueue();
     // private System.Void FlushUnreliableQueue()
-    // Offset: 0x133A0EC
+    // Offset: 0x145172C
     void FlushUnreliableQueue();
     // private LiteNetLib.Utils.NetDataWriter WriteOne(System.Byte senderId, System.Byte receiverId, LiteNetLib.Utils.INetSerializable message)
-    // Offset: 0x133B6EC
+    // Offset: 0x1452D2C
     LiteNetLib::Utils::NetDataWriter* WriteOne(uint8_t senderId, uint8_t receiverId, LiteNetLib::Utils::INetSerializable* message);
     // private System.Void Write(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.Utils.INetSerializable packet)
-    // Offset: 0x133B76C
+    // Offset: 0x1452DAC
     void Write(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::Utils::INetSerializable* packet);
     // private System.Void HandleServerPlayerConnected(ConnectedPlayerManager/PlayerConnectedPacket packet, IConnectedPlayer iPlayer)
-    // Offset: 0x133B868
+    // Offset: 0x1452EA8
     void HandleServerPlayerConnected(GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket* packet, GlobalNamespace::IConnectedPlayer* iPlayer);
     // private System.Void HandlePlayerIdentityUpdate(ConnectedPlayerManager/PlayerIdentityPacket packet, IConnectedPlayer iPlayer)
-    // Offset: 0x133BA84
+    // Offset: 0x14530C4
     void HandlePlayerIdentityUpdate(GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket* packet, GlobalNamespace::IConnectedPlayer* iPlayer);
     // private System.Void HandlePlayerStateUpdate(ConnectedPlayerManager/PlayerStatePacket packet, IConnectedPlayer iPlayer)
-    // Offset: 0x133BBBC
+    // Offset: 0x14531FC
     void HandlePlayerStateUpdate(GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket* packet, GlobalNamespace::IConnectedPlayer* iPlayer);
     // private System.Void HandlePlayerAvatarUpdate(ConnectedPlayerManager/PlayerAvatarPacket packet, IConnectedPlayer iPlayer)
-    // Offset: 0x133BCA0
+    // Offset: 0x14532E0
     void HandlePlayerAvatarUpdate(GlobalNamespace::ConnectedPlayerManager::PlayerAvatarPacket* packet, GlobalNamespace::IConnectedPlayer* iPlayer);
     // private System.Void HandlePlayerLatencyUpdate(ConnectedPlayerManager/PlayerLatencyPacket packet, IConnectedPlayer iPlayer)
-    // Offset: 0x133BD98
+    // Offset: 0x14533D8
     void HandlePlayerLatencyUpdate(GlobalNamespace::ConnectedPlayerManager::PlayerLatencyPacket* packet, GlobalNamespace::IConnectedPlayer* iPlayer);
     // private System.Void HandleServerPlayerDisconnected(ConnectedPlayerManager/PlayerDisconnectedPacket packet, IConnectedPlayer iPlayer)
-    // Offset: 0x133BEE8
+    // Offset: 0x1453528
     void HandleServerPlayerDisconnected(GlobalNamespace::ConnectedPlayerManager::PlayerDisconnectedPacket* packet, GlobalNamespace::IConnectedPlayer* iPlayer);
     // private System.Void HandleKickPlayerPacket(ConnectedPlayerManager/KickPlayerPacket packet, IConnectedPlayer iPlayer)
-    // Offset: 0x133BFF4
+    // Offset: 0x1453634
     void HandleKickPlayerPacket(GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket* packet, GlobalNamespace::IConnectedPlayer* iPlayer);
     // private System.Void HandlePlayerSortOrderUpdate(ConnectedPlayerManager/PlayerSortOrderPacket packet, IConnectedPlayer iPlayer)
-    // Offset: 0x133C140
+    // Offset: 0x1453780
     void HandlePlayerSortOrderUpdate(GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket* packet, GlobalNamespace::IConnectedPlayer* iPlayer);
     // private System.Void HandleSyncTimePacket(ConnectedPlayerManager/SyncTimePacket packet, IConnectedPlayer player)
-    // Offset: 0x133C2DC
+    // Offset: 0x145391C
     void HandleSyncTimePacket(GlobalNamespace::ConnectedPlayerManager::SyncTimePacket* packet, GlobalNamespace::IConnectedPlayer* player);
     // private System.Void Log(System.String message)
-    // Offset: 0x133C494
+    // Offset: 0x1453AD4
     void Log(::Il2CppString* message);
   }; // ConnectedPlayerManager
   #pragma pack(pop)
@@ -761,101 +771,77 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager*, "", "ConnectedPlayerManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::InternalMessageType, "", "ConnectedPlayerManager/InternalMessageType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::get_isConnectionOwner
-// Il2CppName: get_isConnectionOwner
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::GetNextConnectionId
+// Il2CppName: GetNextConnectionId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::get_isConnectionOwner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::GetNextConnectionId)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "get_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "GetNextConnectionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::get_isConnectedOrConnecting
-// Il2CppName: get_isConnectedOrConnecting
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::RemoveAllPlayers
+// Il2CppName: RemoveAllPlayers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::get_isConnectedOrConnecting)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::*)(GlobalNamespace::DisconnectedReason)>(&GlobalNamespace::ConnectedPlayerManager::RemoveAllPlayers)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "get_isConnectedOrConnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    static auto* reason = &::il2cpp_utils::GetClassFromName("", "DisconnectedReason")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "RemoveAllPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reason});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::get_isConnected
-// Il2CppName: get_isConnected
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::RemovePlayer
+// Il2CppName: RemovePlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::get_isConnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::*)(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*, GlobalNamespace::DisconnectedReason)>(&GlobalNamespace::ConnectedPlayerManager::RemovePlayer)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    static auto* player = &::il2cpp_utils::GetClassFromName("", "ConnectedPlayerManager/ConnectedPlayer")->byval_arg;
+    static auto* reason = &::il2cpp_utils::GetClassFromName("", "DisconnectedReason")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "RemovePlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{player, reason});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::get_isConnecting
-// Il2CppName: get_isConnecting
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::AddPlayer
+// Il2CppName: AddPlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::get_isConnecting)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::*)(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*)>(&GlobalNamespace::ConnectedPlayerManager::AddPlayer)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "get_isConnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    static auto* player = &::il2cpp_utils::GetClassFromName("", "ConnectedPlayerManager/ConnectedPlayer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "AddPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{player});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::get_isDisconnecting
-// Il2CppName: get_isDisconnecting
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::GetPlayer
+// Il2CppName: GetPlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::get_isDisconnecting)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* (GlobalNamespace::ConnectedPlayerManager::*)(uint8_t)>(&GlobalNamespace::ConnectedPlayerManager::GetPlayer)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "get_isDisconnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    static auto* connectionId = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "GetPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connectionId});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::get_localPlayer
-// Il2CppName: get_localPlayer
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::GetPlayer
+// Il2CppName: GetPlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::get_localPlayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* (GlobalNamespace::ConnectedPlayerManager::*)(GlobalNamespace::IConnection*, uint8_t)>(&GlobalNamespace::ConnectedPlayerManager::GetPlayer)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "get_localPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    static auto* connection = &::il2cpp_utils::GetClassFromName("", "IConnection")->byval_arg;
+    static auto* remoteConnectionId = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "GetPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connection, remoteConnectionId});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::get_connectedPlayerCount
-// Il2CppName: get_connectedPlayerCount
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::GetPlayer
+// Il2CppName: GetPlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::get_connectedPlayerCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* (GlobalNamespace::ConnectedPlayerManager::*)(::Il2CppString*)>(&GlobalNamespace::ConnectedPlayerManager::GetPlayer)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "get_connectedPlayerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "GetPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::get_syncTime
-// Il2CppName: get_syncTime
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::GetConnectedPlayer
+// Il2CppName: GetConnectedPlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::get_syncTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (GlobalNamespace::ConnectedPlayerManager::*)(int)>(&GlobalNamespace::ConnectedPlayerManager::GetConnectedPlayer)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "get_syncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::get_syncTimeDelay
-// Il2CppName: get_syncTimeDelay
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::get_syncTimeDelay)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "get_syncTimeDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::set_syncTimeDelay
-// Il2CppName: set_syncTimeDelay
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::*)(float)>(&GlobalNamespace::ConnectedPlayerManager::set_syncTimeDelay)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "set_syncTimeDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::get_syncTimeInitialized
-// Il2CppName: get_syncTimeInitialized
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::get_syncTimeInitialized)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "get_syncTimeInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::get_runTime
-// Il2CppName: get_runTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::get_runTime)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "get_runTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "GetConnectedPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::add_connectedEvent
@@ -1038,89 +1024,113 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "remove_syncTimeInitializedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::get_isConnectionOwner
+// Il2CppName: get_isConnectionOwner
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::get_isConnectionOwner)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "get_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::get_isConnectedOrConnecting
+// Il2CppName: get_isConnectedOrConnecting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::get_isConnectedOrConnecting)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "get_isConnectedOrConnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::get_isConnected
+// Il2CppName: get_isConnected
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::get_isConnected)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::get_isConnecting
+// Il2CppName: get_isConnecting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::get_isConnecting)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "get_isConnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::get_isDisconnecting
+// Il2CppName: get_isDisconnecting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::get_isDisconnecting)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "get_isDisconnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::get_localPlayer
+// Il2CppName: get_localPlayer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::get_localPlayer)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "get_localPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::get_connectedPlayerCount
+// Il2CppName: get_connectedPlayerCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::get_connectedPlayerCount)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "get_connectedPlayerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::get_syncTime
+// Il2CppName: get_syncTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::get_syncTime)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "get_syncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::get_syncTimeDelay
+// Il2CppName: get_syncTimeDelay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::get_syncTimeDelay)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "get_syncTimeDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::set_syncTimeDelay
+// Il2CppName: set_syncTimeDelay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::*)(float)>(&GlobalNamespace::ConnectedPlayerManager::set_syncTimeDelay)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "set_syncTimeDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::get_syncTimeInitialized
+// Il2CppName: get_syncTimeInitialized
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::get_syncTimeInitialized)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "get_syncTimeInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::get_runTime
+// Il2CppName: get_runTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::get_runTime)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "get_runTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::TryCreate
+// Il2CppName: TryCreate
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::TryCreate
+// Il2CppName: TryCreate
+// Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::GetNextConnectionId
-// Il2CppName: GetNextConnectionId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (GlobalNamespace::ConnectedPlayerManager::*)()>(&GlobalNamespace::ConnectedPlayerManager::GetNextConnectionId)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "GetNextConnectionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::RemoveAllPlayers
-// Il2CppName: RemoveAllPlayers
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::*)(GlobalNamespace::DisconnectedReason)>(&GlobalNamespace::ConnectedPlayerManager::RemoveAllPlayers)> {
-  static const MethodInfo* get() {
-    static auto* reason = &::il2cpp_utils::GetClassFromName("", "DisconnectedReason")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "RemoveAllPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reason});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::RemovePlayer
-// Il2CppName: RemovePlayer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::*)(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*, GlobalNamespace::DisconnectedReason)>(&GlobalNamespace::ConnectedPlayerManager::RemovePlayer)> {
-  static const MethodInfo* get() {
-    static auto* player = &::il2cpp_utils::GetClassFromName("", "ConnectedPlayerManager/ConnectedPlayer")->byval_arg;
-    static auto* reason = &::il2cpp_utils::GetClassFromName("", "DisconnectedReason")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "RemovePlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{player, reason});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::AddPlayer
-// Il2CppName: AddPlayer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::*)(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*)>(&GlobalNamespace::ConnectedPlayerManager::AddPlayer)> {
-  static const MethodInfo* get() {
-    static auto* player = &::il2cpp_utils::GetClassFromName("", "ConnectedPlayerManager/ConnectedPlayer")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "AddPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{player});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::GetPlayer
-// Il2CppName: GetPlayer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* (GlobalNamespace::ConnectedPlayerManager::*)(uint8_t)>(&GlobalNamespace::ConnectedPlayerManager::GetPlayer)> {
-  static const MethodInfo* get() {
-    static auto* connectionId = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "GetPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connectionId});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::GetPlayer
-// Il2CppName: GetPlayer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* (GlobalNamespace::ConnectedPlayerManager::*)(GlobalNamespace::IConnection*, uint8_t)>(&GlobalNamespace::ConnectedPlayerManager::GetPlayer)> {
-  static const MethodInfo* get() {
-    static auto* connection = &::il2cpp_utils::GetClassFromName("", "IConnection")->byval_arg;
-    static auto* remoteConnectionId = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "GetPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connection, remoteConnectionId});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::GetPlayer
-// Il2CppName: GetPlayer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* (GlobalNamespace::ConnectedPlayerManager::*)(::Il2CppString*)>(&GlobalNamespace::ConnectedPlayerManager::GetPlayer)> {
-  static const MethodInfo* get() {
-    static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "GetPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::GetConnectedPlayer
-// Il2CppName: GetConnectedPlayer
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (GlobalNamespace::ConnectedPlayerManager::*)(int)>(&GlobalNamespace::ConnectedPlayerManager::GetConnectedPlayer)> {
-  static const MethodInfo* get() {
-    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager*), "GetConnectedPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::TryCreate
-// Il2CppName: TryCreate
-// Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::TryCreate
-// Il2CppName: TryCreate
-// Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::ResetLocalState
 // Il2CppName: ResetLocalState
 template<>

@@ -44,8 +44,13 @@ namespace GlobalNamespace {
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TutorialScenesTransitionSetupDataSO _scenesTransitionSetupData
     GlobalNamespace::TutorialScenesTransitionSetupDataSO*& dyn__scenesTransitionSetupData();
+    // public override System.Void InstallBindings(Zenject.DiContainer container)
+    // Offset: 0x1166218
+    // Implemented from: Zenject.NoTransitionInstaller
+    // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
+    void InstallBindings(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x1077BD8
+    // Offset: 0x116625C
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -58,11 +63,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TutorialNoTransitionInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TutorialNoTransitionInstaller*, creationType>()));
     }
-    // public override System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x107795C
-    // Implemented from: Zenject.NoTransitionInstaller
-    // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
-    void InstallBindings(Zenject::DiContainer* container);
   }; // TutorialNoTransitionInstaller
   #pragma pack(pop)
   static check_size<sizeof(TutorialNoTransitionInstaller), 24 + sizeof(GlobalNamespace::TutorialScenesTransitionSetupDataSO*)> __GlobalNamespace_TutorialNoTransitionInstallerSizeCheck;
@@ -70,10 +70,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialNoTransitionInstaller*, "", "TutorialNoTransitionInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::TutorialNoTransitionInstaller::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::TutorialNoTransitionInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>
@@ -83,3 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialNoTransitionInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::TutorialNoTransitionInstaller::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

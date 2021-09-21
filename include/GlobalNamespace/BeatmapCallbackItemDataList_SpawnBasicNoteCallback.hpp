@@ -39,20 +39,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SpawnBasicNoteCallback
     SpawnBasicNoteCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x11E13AC
+    // Offset: 0x1271998
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCallbackItemDataList::SpawnBasicNoteCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCallbackItemDataList::SpawnBasicNoteCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(NoteData noteData, System.Single cutDirectionAngleOffset)
-    // Offset: 0x11E0E88
+    // Offset: 0x1271474
     void Invoke(GlobalNamespace::NoteData* noteData, float cutDirectionAngleOffset);
     // public System.IAsyncResult BeginInvoke(NoteData noteData, System.Single cutDirectionAngleOffset, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11E13BC
+    // Offset: 0x12719A8
     System::IAsyncResult* BeginInvoke(GlobalNamespace::NoteData* noteData, float cutDirectionAngleOffset, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11E1458
+    // Offset: 0x1271A44
     void EndInvoke(System::IAsyncResult* result);
   }; // BeatmapCallbackItemDataList/SpawnBasicNoteCallback
   #pragma pack(pop)

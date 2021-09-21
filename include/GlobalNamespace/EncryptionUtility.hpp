@@ -108,10 +108,12 @@ namespace GlobalNamespace {
     static ::Array<uint8_t>* _get__keyExpansionSeed();
     // Set static field: static private System.Byte[] _keyExpansionSeed
     static void _set__keyExpansionSeed(::Array<uint8_t>* value);
+    // [ThreadStaticAttribute] Offset: 0xED97D0
     // Get static field: static private System.Byte[] _tempIV
     static ::Array<uint8_t>* _get__tempIV();
     // Set static field: static private System.Byte[] _tempIV
     static void _set__tempIV(::Array<uint8_t>* value);
+    // [ThreadStaticAttribute] Offset: 0xED97E0
     // Get static field: static private System.Byte[] _tempHash
     static ::Array<uint8_t>* _get__tempHash();
     // Set static field: static private System.Byte[] _tempHash
@@ -120,50 +122,42 @@ namespace GlobalNamespace {
     static System::Security::Cryptography::AesCryptoServiceProvider* _get__aes();
     // Set static field: static private System.Security.Cryptography.AesCryptoServiceProvider _aes
     static void _set__aes(System::Security::Cryptography::AesCryptoServiceProvider* value);
-    // static private System.Void .cctor()
-    // Offset: 0x133FF90
-    static void _cctor();
     // static public EncryptionUtility/IEncryptionState CreateEncryptionState(System.Byte[] preMasterSecret, System.Byte[] serverSeed, System.Byte[] clientSeed, System.Boolean isClient)
-    // Offset: 0x133E180
+    // Offset: 0x14557C0
     static GlobalNamespace::EncryptionUtility::IEncryptionState* CreateEncryptionState(::Array<uint8_t>* preMasterSecret, ::Array<uint8_t>* serverSeed, ::Array<uint8_t>* clientSeed, bool isClient);
     // static public System.Threading.Tasks.Task`1<EncryptionUtility/IEncryptionState> CreateEncryptionStateAsync(System.Byte[] preMasterSecret, System.Byte[] serverSeed, System.Byte[] clientSeed, System.Boolean isClient)
-    // Offset: 0x133E440
+    // Offset: 0x1455A80
     static System::Threading::Tasks::Task_1<GlobalNamespace::EncryptionUtility::IEncryptionState*>* CreateEncryptionStateAsync(::Array<uint8_t>* preMasterSecret, ::Array<uint8_t>* serverSeed, ::Array<uint8_t>* clientSeed, bool isClient);
     // static public System.Boolean IsValidLength(System.Int32 length)
-    // Offset: 0x133E53C
+    // Offset: 0x1455B7C
     static bool IsValidLength(int length);
     // static private System.Void EncryptData(EncryptionUtility/EncryptionState state, System.Byte[] data, ref System.Int32 offset, ref System.Int32 length, System.Int32 extraPrefixedData)
-    // Offset: 0x133E55C
+    // Offset: 0x1455B9C
     static void EncryptData(GlobalNamespace::EncryptionUtility::EncryptionState* state, ::Array<uint8_t>* data, ByRef<int> offset, ByRef<int> length, int extraPrefixedData);
     // static private System.Boolean TryDecryptData(EncryptionUtility/EncryptionState state, System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x133EDD0
+    // Offset: 0x1456410
     static bool TryDecryptData(GlobalNamespace::EncryptionUtility::EncryptionState* state, ::Array<uint8_t>* data, ByRef<int> offset, ByRef<int> length);
     // static private System.Void FastCopyBlock(System.Byte[] inArr, System.Int32 inOff, System.Byte[] outArr, System.Int32 outOff)
-    // Offset: 0x133F968
+    // Offset: 0x1456FA8
     static void FastCopyBlock(::Array<uint8_t>* inArr, int inOff, ::Array<uint8_t>* outArr, int outOff);
     // static private System.Void FastCopyMac(System.Byte[] inArr, System.Int32 inOff, System.Byte[] outArr, System.Int32 outOff)
-    // Offset: 0x133FC88
+    // Offset: 0x14572C8
     static void FastCopyMac(::Array<uint8_t>* inArr, int inOff, ::Array<uint8_t>* outArr, int outOff);
     // static public System.Void Log(System.String message)
-    // Offset: 0x133FE88
+    // Offset: 0x14574C8
     static void Log(::Il2CppString* message);
     // static public System.Void LogV(System.String message)
-    // Offset: 0x133FF0C
+    // Offset: 0x145754C
     static void LogV(::Il2CppString* message);
+    // static private System.Void .cctor()
+    // Offset: 0x14575D0
+    static void _cctor();
   }; // EncryptionUtility
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EncryptionUtility*, "", "EncryptionUtility");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::EncryptionUtility::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EncryptionUtility*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::CreateEncryptionState
 // Il2CppName: CreateEncryptionState
 template<>
@@ -262,5 +256,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EncryptionUtility*), "LogV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::EncryptionUtility::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EncryptionUtility*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

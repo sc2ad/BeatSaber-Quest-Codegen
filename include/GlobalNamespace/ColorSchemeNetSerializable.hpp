@@ -100,7 +100,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public ColorNoAlphaSerializable environmentColor1Boost
     GlobalNamespace::ColorNoAlphaSerializable& dyn_environmentColor1Boost();
     // public System.Void .ctor(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color obstaclesColor, UnityEngine.Color environmentColor0, UnityEngine.Color environmentColor1, UnityEngine.Color environmentColor0Boost, UnityEngine.Color environmentColor1Boost)
-    // Offset: 0x13365A8
+    // Offset: 0x144DBE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ColorSchemeNetSerializable(UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color obstaclesColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorSchemeNetSerializable::.ctor");
@@ -108,10 +108,10 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, saberAColor, saberBColor, obstaclesColor, environmentColor0, environmentColor1, environmentColor0Boost, environmentColor1Boost);
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1336734
+    // Offset: 0x144DD74
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x13367B8
+    // Offset: 0x144DDF8
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
   }; // ColorSchemeNetSerializable
   #pragma pack(pop)

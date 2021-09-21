@@ -41,20 +41,20 @@ namespace Org::BouncyCastle::Asn1::Nist {
     static System::Collections::IDictionary* _get_names();
     // Set static field: static private readonly System.Collections.IDictionary names
     static void _set_names(System::Collections::IDictionary* value);
-    // static private System.Void .cctor()
-    // Offset: 0x17B4704
-    static void _cctor();
     // static private System.Void DefineCurveAlias(System.String name, Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x17B455C
+    // Offset: 0x196CDC4
     static void DefineCurveAlias(::Il2CppString* name, Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+    // static private System.Void .cctor()
+    // Offset: 0x196CF6C
+    static void _cctor();
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByName(System.String name)
-    // Offset: 0x17B4950
+    // Offset: 0x196D1B8
     static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::Il2CppString* name);
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByOid(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x17B4B38
+    // Offset: 0x196D3A0
     static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static public Org.BouncyCastle.Asn1.DerObjectIdentifier GetOid(System.String name)
-    // Offset: 0x17B49E8
+    // Offset: 0x196D250
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::Il2CppString* name);
   }; // Org.BouncyCastle.Asn1.Nist.NistNamedCurves
   #pragma pack(pop)
@@ -62,14 +62,6 @@ namespace Org::BouncyCastle::Asn1::Nist {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Nist::NistNamedCurves*, "Org.BouncyCastle.Asn1.Nist", "NistNamedCurves");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Nist::NistNamedCurves::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Asn1::Nist::NistNamedCurves::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Nist::NistNamedCurves*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Nist::NistNamedCurves::DefineCurveAlias
 // Il2CppName: DefineCurveAlias
 template<>
@@ -78,6 +70,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* oid = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DerObjectIdentifier")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Nist::NistNamedCurves*), "DefineCurveAlias", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, oid});
+  }
+};
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Nist::NistNamedCurves::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Asn1::Nist::NistNamedCurves::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Nist::NistNamedCurves*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Nist::NistNamedCurves::GetByName

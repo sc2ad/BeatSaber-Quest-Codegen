@@ -40,10 +40,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
     TMPro::TextMeshProUGUI*& dyn__text();
     // protected System.Void Start()
-    // Offset: 0x10D6708
+    // Offset: 0x12A7FA8
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x10D6730
+    // Offset: 0x12A7FD0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

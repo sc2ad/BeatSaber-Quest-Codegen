@@ -58,13 +58,28 @@ namespace MasterServer {
     // Get instance field reference: public readonly ByteArrayNetSerializable clientPublicKey
     GlobalNamespace::ByteArrayNetSerializable*& dyn_clientPublicKey();
     // static public PacketPool`1<MasterServer.ClientKeyExchangeRequest> get_pool()
-    // Offset: 0x1218E9C
+    // Offset: 0x12D823C
     static GlobalNamespace::PacketPool_1<MasterServer::ClientKeyExchangeRequest*>* get_pool();
     // public MasterServer.ClientKeyExchangeRequest Init(System.Byte[] clientPublicKey)
-    // Offset: 0x1218EE4
+    // Offset: 0x12D8284
     MasterServer::ClientKeyExchangeRequest* Init(::Array<uint8_t>* clientPublicKey);
+    // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    // Offset: 0x12DA108
+    // Implemented from: BaseMasterServerReliableResponse
+    // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
+    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
+    // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    // Offset: 0x12DA144
+    // Implemented from: BaseMasterServerReliableResponse
+    // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
+    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
+    // public override System.Void Release()
+    // Offset: 0x12DA180
+    // Implemented from: BaseMasterServerReliableResponse
+    // Base method: System.Void BaseMasterServerReliableResponse::Release()
+    void Release();
     // public System.Void .ctor()
-    // Offset: 0x121AE4C
+    // Offset: 0x12DA1EC
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -73,21 +88,6 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::ClientKeyExchangeRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClientKeyExchangeRequest*, creationType>()));
     }
-    // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x121AD68
-    // Implemented from: BaseMasterServerReliableResponse
-    // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
-    // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x121ADA4
-    // Implemented from: BaseMasterServerReliableResponse
-    // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
-    // public override System.Void Release()
-    // Offset: 0x121ADE0
-    // Implemented from: BaseMasterServerReliableResponse
-    // Base method: System.Void BaseMasterServerReliableResponse::Release()
-    void Release();
   }; // MasterServer.ClientKeyExchangeRequest
   #pragma pack(pop)
   static check_size<sizeof(ClientKeyExchangeRequest), 24 + sizeof(GlobalNamespace::ByteArrayNetSerializable*)> __MasterServer_ClientKeyExchangeRequestSizeCheck;
@@ -112,10 +112,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ClientKeyExchangeRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clientPublicKey});
   }
 };
-// Writing MetadataGetter for method: MasterServer::ClientKeyExchangeRequest::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: MasterServer::ClientKeyExchangeRequest::Serialize
 // Il2CppName: Serialize
 template<>
@@ -142,3 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ClientKeyExchangeRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: MasterServer::ClientKeyExchangeRequest::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -48,50 +48,42 @@ namespace LiteNetLib {
     static System::Collections::Generic::List_1<::Il2CppString*>* _get_IpList();
     // Set static field: static private readonly System.Collections.Generic.List`1<System.String> IpList
     static void _set_IpList(System::Collections::Generic::List_1<::Il2CppString*>* value);
-    // static private System.Void .cctor()
-    // Offset: 0x1C28924
-    static void _cctor();
     // static public System.Net.IPEndPoint MakeEndPoint(System.String hostStr, System.Int32 port)
-    // Offset: 0x1C1CF68
+    // Offset: 0x1DD4DD0
     static System::Net::IPEndPoint* MakeEndPoint(::Il2CppString* hostStr, int port);
     // static public System.Net.IPAddress ResolveAddress(System.String hostStr)
-    // Offset: 0x1C22FF4
+    // Offset: 0x1DDAE5C
     static System::Net::IPAddress* ResolveAddress(::Il2CppString* hostStr);
     // static private System.Net.IPAddress ResolveAddress(System.String hostStr, System.Net.Sockets.AddressFamily addressFamily)
-    // Offset: 0x1C27BD0
+    // Offset: 0x1DDFA38
     static System::Net::IPAddress* ResolveAddress(::Il2CppString* hostStr, System::Net::Sockets::AddressFamily addressFamily);
     // static private System.Net.IPAddress[] ResolveAddresses(System.String hostStr)
-    // Offset: 0x1C27CA4
+    // Offset: 0x1DDFB0C
     static ::Array<System::Net::IPAddress*>* ResolveAddresses(::Il2CppString* hostStr);
     // static public System.Collections.Generic.List`1<System.String> GetLocalIpList(LiteNetLib.LocalAddrType addrType)
-    // Offset: 0x1C27CC8
+    // Offset: 0x1DDFB30
     static System::Collections::Generic::List_1<::Il2CppString*>* GetLocalIpList(LiteNetLib::LocalAddrType addrType);
     // static public System.Void GetLocalIpList(System.Collections.Generic.IList`1<System.String> targetList, LiteNetLib.LocalAddrType addrType)
-    // Offset: 0x1C27D5C
+    // Offset: 0x1DDFBC4
     static void GetLocalIpList(System::Collections::Generic::IList_1<::Il2CppString*>* targetList, LiteNetLib::LocalAddrType addrType);
     // static public System.String GetLocalIp(LiteNetLib.LocalAddrType addrType)
-    // Offset: 0x1C1D130
+    // Offset: 0x1DD4F98
     static ::Il2CppString* GetLocalIp(LiteNetLib::LocalAddrType addrType);
     // static System.Void PrintInterfaceInfos()
-    // Offset: 0x1C28550
+    // Offset: 0x1DE03B8
     static void PrintInterfaceInfos();
     // static System.Int32 RelativeSequenceNumber(System.Int32 number, System.Int32 expected)
-    // Offset: 0x1C26870
+    // Offset: 0x1DDE6D8
     static int RelativeSequenceNumber(int number, int expected);
+    // static private System.Void .cctor()
+    // Offset: 0x1DE078C
+    static void _cctor();
   }; // LiteNetLib.NetUtils
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetUtils*, "LiteNetLib", "NetUtils");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: LiteNetLib::NetUtils::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&LiteNetLib::NetUtils::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: LiteNetLib::NetUtils::MakeEndPoint
 // Il2CppName: MakeEndPoint
 template<>
@@ -174,5 +166,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
     static auto* number = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), "RelativeSequenceNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{number, expected});
+  }
+};
+// Writing MetadataGetter for method: LiteNetLib::NetUtils::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&LiteNetLib::NetUtils::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -70,17 +70,17 @@ namespace Mono::Security::Cryptography {
     int& dyn_count();
     // Get instance field reference: private System.Byte[] x
     ::Array<uint8_t>*& dyn_x();
-    // static private System.Void .cctor()
-    // Offset: 0x1E007D0
-    static void _cctor();
     // private System.Byte[] Padding(System.Int32 nLength)
-    // Offset: 0x1E0025C
+    // Offset: 0x1F9C7C4
     ::Array<uint8_t>* Padding(int nLength);
     // private System.Void MD2Transform(System.Byte[] state, System.Byte[] checksum, System.Byte[] block, System.Int32 index)
-    // Offset: 0x1E00448
+    // Offset: 0x1F9C9B0
     void MD2Transform(::Array<uint8_t>* state, ::Array<uint8_t>* checksum, ::Array<uint8_t>* block, int index);
+    // static private System.Void .cctor()
+    // Offset: 0x1F9CD38
+    static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1E001B0
+    // Offset: 0x1F9C718
     // Implemented from: Mono.Security.Cryptography.MD2
     // Base method: System.Void MD2::.ctor()
     // Base method: System.Void HashAlgorithm::.ctor()
@@ -91,17 +91,17 @@ namespace Mono::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<MD2Managed*, creationType>()));
     }
     // public override System.Void Initialize()
-    // Offset: 0x1E00308
+    // Offset: 0x1F9C870
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::Initialize()
     void Initialize();
     // protected override System.Void HashCore(System.Byte[] array, System.Int32 ibStart, System.Int32 cbSize)
-    // Offset: 0x1E00374
+    // Offset: 0x1F9C8DC
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::HashCore(System.Byte[] array, System.Int32 ibStart, System.Int32 cbSize)
     void HashCore(::Array<uint8_t>* array, int ibStart, int cbSize);
     // protected override System.Byte[] HashFinal()
-    // Offset: 0x1E006D8
+    // Offset: 0x1F9CC40
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
     ::Array<uint8_t>* HashFinal();
@@ -112,14 +112,6 @@ namespace Mono::Security::Cryptography {
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::MD2Managed*, "Mono.Security.Cryptography", "MD2Managed");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: Mono::Security::Cryptography::MD2Managed::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Security::Cryptography::MD2Managed::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD2Managed*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: Mono::Security::Cryptography::MD2Managed::Padding
 // Il2CppName: Padding
 template<>
@@ -139,6 +131,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
     static auto* block = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD2Managed*), "MD2Transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state, checksum, block, index});
+  }
+};
+// Writing MetadataGetter for method: Mono::Security::Cryptography::MD2Managed::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Security::Cryptography::MD2Managed::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD2Managed*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Cryptography::MD2Managed::New_ctor

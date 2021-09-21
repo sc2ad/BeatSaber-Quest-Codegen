@@ -56,13 +56,18 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isLoading
     bool& dyn__isLoading();
     // public System.Void LoadAudioFile(System.String filePath, System.Action`1<UnityEngine.AudioClip> finishCallback)
-    // Offset: 0x1176BA4
+    // Offset: 0x1246F14
     void LoadAudioFile(::Il2CppString* filePath, System::Action_1<UnityEngine::AudioClip*>* finishCallback);
     // public System.Collections.IEnumerator LoadAudioFileCoroutine(System.String filePath, System.Action`1<UnityEngine.AudioClip> finishCallback)
-    // Offset: 0x1176C64
+    // Offset: 0x1246FD4
     System::Collections::IEnumerator* LoadAudioFileCoroutine(::Il2CppString* filePath, System::Action_1<UnityEngine::AudioClip*>* finishCallback);
+    // protected override System.Void OnEnable()
+    // Offset: 0x1246EEC
+    // Implemented from: PersistentScriptableObject
+    // Base method: System.Void PersistentScriptableObject::OnEnable()
+    void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x1176D14
+    // Offset: 0x1247084
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -73,11 +78,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AudioClipLoaderSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioClipLoaderSO*, creationType>()));
     }
-    // protected override System.Void OnEnable()
-    // Offset: 0x1176B7C
-    // Implemented from: PersistentScriptableObject
-    // Base method: System.Void PersistentScriptableObject::OnEnable()
-    void OnEnable();
   }; // AudioClipLoaderSO
   #pragma pack(pop)
   static check_size<sizeof(AudioClipLoaderSO), 24 + sizeof(bool)> __GlobalNamespace_AudioClipLoaderSOSizeCheck;
@@ -105,10 +105,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipLoaderSO*), "LoadAudioFileCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filePath, finishCallback});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::AudioClipLoaderSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipLoaderSO::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -117,3 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipLoaderSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::AudioClipLoaderSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

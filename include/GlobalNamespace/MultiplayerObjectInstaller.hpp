@@ -57,8 +57,13 @@ namespace GlobalNamespace {
     GlobalNamespace::FireworkItemController*& dyn__fireworkItemControllerPrefab();
     // Get instance field reference: private MultiplayerResultsPyramidViewAvatar _multiplayerResultsPyramidViewAvatarPrefab
     GlobalNamespace::MultiplayerResultsPyramidViewAvatar*& dyn__multiplayerResultsPyramidViewAvatarPrefab();
+    // public override System.Void InstallBindings()
+    // Offset: 0x117BB7C
+    // Implemented from: Zenject.MonoInstallerBase
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
+    void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x108C624
+    // Offset: 0x117BC80
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -72,11 +77,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerObjectInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerObjectInstaller*, creationType>()));
     }
-    // public override System.Void InstallBindings()
-    // Offset: 0x108C520
-    // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings()
-    void InstallBindings();
   }; // MultiplayerObjectInstaller
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerObjectInstaller), 48 + sizeof(GlobalNamespace::MultiplayerResultsPyramidViewAvatar*)> __GlobalNamespace_MultiplayerObjectInstallerSizeCheck;
@@ -84,10 +84,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerObjectInstaller*, "", "MultiplayerObjectInstaller");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerObjectInstaller::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerObjectInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>
@@ -96,3 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerObjectInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerObjectInstaller::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

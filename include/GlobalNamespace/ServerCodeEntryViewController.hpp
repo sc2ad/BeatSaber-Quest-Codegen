@@ -66,6 +66,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* cancelButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF11690
     // private System.Action`2<System.Boolean,System.String> didFinishEvent
     // Size: 0x8
     // Offset: 0x90
@@ -93,22 +94,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly HMUI.InputFieldViewChangeBinder _inputFieldViewChangeBinder
     HMUI::InputFieldViewChangeBinder*& dyn__inputFieldViewChangeBinder();
     // public System.Void add_didFinishEvent(System.Action`2<System.Boolean,System.String> value)
-    // Offset: 0x109268C
+    // Offset: 0x11010C0
     void add_didFinishEvent(System::Action_2<bool, ::Il2CppString*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<System.Boolean,System.String> value)
-    // Offset: 0x1092730
+    // Offset: 0x1101164
     void remove_didFinishEvent(System::Action_2<bool, ::Il2CppString*>* value);
     // private System.Void HandleInputFieldChanged(HMUI.InputFieldView obj)
-    // Offset: 0x1092990
+    // Offset: 0x11013C4
     void HandleInputFieldChanged(HMUI::InputFieldView* obj);
     // private System.Void HandleJoinButtonPressed()
-    // Offset: 0x1092A00
+    // Offset: 0x1101434
     void HandleJoinButtonPressed();
     // private System.Void HandleCancelButtonPressed()
-    // Offset: 0x1092A74
+    // Offset: 0x11014A8
     void HandleCancelButtonPressed();
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x1101208
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    // Offset: 0x1101398
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
+    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
+    // protected override System.Void OnDestroy()
+    // Offset: 0x1101400
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::OnDestroy()
+    void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1092ADC
+    // Offset: 0x1101510
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -121,21 +137,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ServerCodeEntryViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerCodeEntryViewController*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x10927D4
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-    // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1092964
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
-    // protected override System.Void OnDestroy()
-    // Offset: 0x10929CC
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::OnDestroy()
-    void OnDestroy();
   }; // ServerCodeEntryViewController
   #pragma pack(pop)
   static check_size<sizeof(ServerCodeEntryViewController), 152 + sizeof(HMUI::InputFieldViewChangeBinder*)> __GlobalNamespace_ServerCodeEntryViewControllerSizeCheck;
@@ -186,10 +187,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerCodeEntryViewController*), "HandleCancelButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ServerCodeEntryViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::ServerCodeEntryViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -219,3 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerCodeEntryViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ServerCodeEntryViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

@@ -56,20 +56,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapLevelSO/DifficultyBeatmap[] _difficultyBeatmaps
     ::Array<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*>*& dyn__difficultyBeatmaps();
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x10CAAB4
+    // Offset: 0x129C088
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public IDifficultyBeatmap[] get_difficultyBeatmaps()
-    // Offset: 0x10CAABC
+    // Offset: 0x129C090
     ::Array<GlobalNamespace::IDifficultyBeatmap*>* get_difficultyBeatmaps();
     // public System.Void .ctor(BeatmapCharacteristicSO beatmapCharacteristic, BeatmapLevelSO/DifficultyBeatmap[] difficultyBeatmaps)
-    // Offset: 0x10CAAC4
+    // Offset: 0x129C098
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelSO::DifficultyBeatmapSet* New_ctor(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::Array<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*>* difficultyBeatmaps) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelSO::DifficultyBeatmapSet*, creationType>(beatmapCharacteristic, difficultyBeatmaps)));
     }
     // public System.Void SetParentLevel(IBeatmapLevel level)
-    // Offset: 0x10C9A24
+    // Offset: 0x129AFF8
     void SetParentLevel(GlobalNamespace::IBeatmapLevel* level);
   }; // BeatmapLevelSO/DifficultyBeatmapSet
   #pragma pack(pop)

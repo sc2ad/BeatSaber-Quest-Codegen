@@ -45,13 +45,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private TransitionTimingSO _transitionTiming
     GlobalNamespace::TransitionTimingSO*& dyn__transitionTiming();
     // public Tweening.EaseType get_easeType()
-    // Offset: 0x11DBDC8
+    // Offset: 0x126C3B4
     Tweening::EaseType get_easeType();
     // public System.Single get_easeDuration()
-    // Offset: 0x11DBDE4
+    // Offset: 0x126C3D0
     float get_easeDuration();
     // public System.Void .ctor()
-    // Offset: 0x11DBE00
+    // Offset: 0x126C3EC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

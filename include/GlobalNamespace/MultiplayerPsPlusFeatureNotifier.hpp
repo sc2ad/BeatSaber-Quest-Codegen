@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerPsPlusFeatureNotifier
     MultiplayerPsPlusFeatureNotifier() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x103C050
+    // Offset: 0x112B008
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

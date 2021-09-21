@@ -36,26 +36,18 @@ namespace GlobalNamespace {
     static System::Version* _get_version();
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
-    // static private System.Void .cctor()
-    // Offset: 0x16364E0
-    static void _cctor();
     // static public OVRPlugin/Result ovrp_EnqueueSubmitLayer2(System.UInt32 flags, System.IntPtr textureLeft, System.IntPtr textureRight, System.Int32 layerId, System.Int32 frameIndex, ref OVRPlugin/Posef pose, ref OVRPlugin/Vector3f scale, System.Int32 layerIndex, OVRPlugin/Bool overrideTextureRectMatrix, ref OVRPlugin/TextureRectMatrixf textureRectMatrix, OVRPlugin/Bool overridePerLayerColorScaleAndOffset, ref UnityEngine.Vector4 colorScale, ref UnityEngine.Vector4 colorOffset)
-    // Offset: 0x16363E0
+    // Offset: 0x1803040
     static GlobalNamespace::OVRPlugin::Result ovrp_EnqueueSubmitLayer2(uint flags, System::IntPtr textureLeft, System::IntPtr textureRight, int layerId, int frameIndex, ByRef<GlobalNamespace::OVRPlugin::Posef> pose, ByRef<GlobalNamespace::OVRPlugin::Vector3f> scale, int layerIndex, GlobalNamespace::OVRPlugin::Bool overrideTextureRectMatrix, ByRef<GlobalNamespace::OVRPlugin::TextureRectMatrixf> textureRectMatrix, GlobalNamespace::OVRPlugin::Bool overridePerLayerColorScaleAndOffset, ByRef<UnityEngine::Vector4> colorScale, ByRef<UnityEngine::Vector4> colorOffset);
+    // static private System.Void .cctor()
+    // Offset: 0x1803140
+    static void _cctor();
   }; // OVRPlugin/OVRP_1_34_0
   #pragma pack(pop)
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_34_0*, "", "OVRPlugin/OVRP_1_34_0");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_34_0::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_34_0::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_34_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_34_0::ovrp_EnqueueSubmitLayer2
 // Il2CppName: ovrp_EnqueueSubmitLayer2
 template<>
@@ -75,5 +67,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
     static auto* colorScale = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->this_arg;
     static auto* colorOffset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_34_0*), "ovrp_EnqueueSubmitLayer2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flags, textureLeft, textureRight, layerId, frameIndex, pose, scale, layerIndex, overrideTextureRectMatrix, textureRectMatrix, overridePerLayerColorScaleAndOffset, colorScale, colorOffset});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_34_0::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_34_0::_cctor)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_34_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

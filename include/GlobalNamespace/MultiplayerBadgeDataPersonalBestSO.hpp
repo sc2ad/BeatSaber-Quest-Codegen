@@ -49,8 +49,13 @@ namespace GlobalNamespace {
     MultiplayerBadgeDataPersonalBestSO(float weight_ = {}) noexcept : weight{weight_} {}
     // Get instance field reference: private System.Single _weight
     float& dyn__weight();
+    // public override MultiplayerBadgeAwardData CalculateBadgeData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, PlayerDataModel playerDataModel, IDifficultyBeatmap difficultyBeatmap, System.Single randomMultiplier)
+    // Offset: 0x120B688
+    // Implemented from: MultiplayerBadgeDataSO
+    // Base method: MultiplayerBadgeAwardData MultiplayerBadgeDataSO::CalculateBadgeData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, PlayerDataModel playerDataModel, IDifficultyBeatmap difficultyBeatmap, System.Single randomMultiplier)
+    GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, GlobalNamespace::PlayerDataModel* playerDataModel, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, float randomMultiplier);
     // public System.Void .ctor()
-    // Offset: 0x11C54D8
+    // Offset: 0x120BB58
     // Implemented from: MultiplayerBadgeDataSO
     // Base method: System.Void MultiplayerBadgeDataSO::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -61,11 +66,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerBadgeDataPersonalBestSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerBadgeDataPersonalBestSO*, creationType>()));
     }
-    // public override MultiplayerBadgeAwardData CalculateBadgeData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, PlayerDataModel playerDataModel, IDifficultyBeatmap difficultyBeatmap, System.Single randomMultiplier)
-    // Offset: 0x11C5008
-    // Implemented from: MultiplayerBadgeDataSO
-    // Base method: MultiplayerBadgeAwardData MultiplayerBadgeDataSO::CalculateBadgeData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, PlayerDataModel playerDataModel, IDifficultyBeatmap difficultyBeatmap, System.Single randomMultiplier)
-    GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, GlobalNamespace::PlayerDataModel* playerDataModel, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, float randomMultiplier);
   }; // MultiplayerBadgeDataPersonalBestSO
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerBadgeDataPersonalBestSO), 48 + sizeof(float)> __GlobalNamespace_MultiplayerBadgeDataPersonalBestSOSizeCheck;
@@ -73,10 +73,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgeDataPersonalBestSO*, "", "MultiplayerBadgeDataPersonalBestSO");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeDataPersonalBestSO::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeDataPersonalBestSO::CalculateBadgeData
 // Il2CppName: CalculateBadgeData
 template<>
@@ -89,3 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgeDataPersonalBestSO*), "CalculateBadgeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resultsData, playerDataModel, difficultyBeatmap, randomMultiplier});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeDataPersonalBestSO::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

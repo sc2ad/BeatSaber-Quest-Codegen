@@ -62,38 +62,43 @@ namespace GlobalNamespace {
     bool& dyn__canBeCut();
     // Get instance field reference: private System.Single _radius
     float& dyn__radius();
-    // public UnityEngine.Vector3 get_colliderSize()
-    // Offset: 0x10DAC04
-    UnityEngine::Vector3 get_colliderSize();
     // public System.Void set_colliderSize(UnityEngine.Vector3 value)
-    // Offset: 0x10DAAF0
+    // Offset: 0x1193504
     void set_colliderSize(UnityEngine::Vector3 value);
+    // public UnityEngine.Vector3 get_colliderSize()
+    // Offset: 0x1193618
+    UnityEngine::Vector3 get_colliderSize();
     // protected System.Void Awake()
-    // Offset: 0x10DAC20
+    // Offset: 0x1193634
     void Awake();
     // public System.Void SetColliderCenterAndSize(UnityEngine.Vector3 center, UnityEngine.Vector3 size)
-    // Offset: 0x10DAC80
+    // Offset: 0x11936B8
     void SetColliderCenterAndSize(UnityEngine::Vector3 center, UnityEngine::Vector3 size);
     // private System.Void RefreshRadius()
-    // Offset: 0x10DAB24
+    // Offset: 0x1193538
     void RefreshRadius();
     // public override System.Single get_radius()
-    // Offset: 0x10DAAA4
+    // Offset: 0x11934B8
     // Implemented from: CuttableBySaber
     // Base method: System.Single CuttableBySaber::get_radius()
     float get_radius();
-    // public override System.Boolean get_canBeCut()
-    // Offset: 0x10DAAE8
-    // Implemented from: CuttableBySaber
-    // Base method: System.Boolean CuttableBySaber::get_canBeCut()
-    bool get_canBeCut();
     // public override System.Void set_canBeCut(System.Boolean value)
-    // Offset: 0x10DAAAC
+    // Offset: 0x11934C0
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::set_canBeCut(System.Boolean value)
     void set_canBeCut(bool value);
+    // public override System.Boolean get_canBeCut()
+    // Offset: 0x11934FC
+    // Implemented from: CuttableBySaber
+    // Base method: System.Boolean CuttableBySaber::get_canBeCut()
+    bool get_canBeCut();
+    // public override System.Void Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
+    // Offset: 0x1193670
+    // Implemented from: CuttableBySaber
+    // Base method: System.Void CuttableBySaber::Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
+    void Cut(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // public System.Void .ctor()
-    // Offset: 0x10DACE4
+    // Offset: 0x119371C
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -106,11 +111,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BoxCuttableBySaber::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BoxCuttableBySaber*, creationType>()));
     }
-    // public override System.Void Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x10DAC5C
-    // Implemented from: CuttableBySaber
-    // Base method: System.Void CuttableBySaber::Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    void Cut(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
   }; // BoxCuttableBySaber
   #pragma pack(pop)
   static check_size<sizeof(BoxCuttableBySaber), 44 + sizeof(float)> __GlobalNamespace_BoxCuttableBySaberSizeCheck;
@@ -118,14 +118,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoxCuttableBySaber*, "", "BoxCuttableBySaber");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::BoxCuttableBySaber::get_colliderSize
-// Il2CppName: get_colliderSize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::BoxCuttableBySaber::*)()>(&GlobalNamespace::BoxCuttableBySaber::get_colliderSize)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BoxCuttableBySaber*), "get_colliderSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::BoxCuttableBySaber::set_colliderSize
 // Il2CppName: set_colliderSize
 template<>
@@ -133,6 +125,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BoxCuttableBySaber*), "set_colliderSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BoxCuttableBySaber::get_colliderSize
+// Il2CppName: get_colliderSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::BoxCuttableBySaber::*)()>(&GlobalNamespace::BoxCuttableBySaber::get_colliderSize)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BoxCuttableBySaber*), "get_colliderSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BoxCuttableBySaber::Awake
@@ -169,14 +169,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BoxCuttableBySaber*), "get_radius", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BoxCuttableBySaber::get_canBeCut
-// Il2CppName: get_canBeCut
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BoxCuttableBySaber::*)()>(&GlobalNamespace::BoxCuttableBySaber::get_canBeCut)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BoxCuttableBySaber*), "get_canBeCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::BoxCuttableBySaber::set_canBeCut
 // Il2CppName: set_canBeCut
 template<>
@@ -186,10 +178,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BoxCuttableBySaber*), "set_canBeCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BoxCuttableBySaber::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::BoxCuttableBySaber::get_canBeCut
+// Il2CppName: get_canBeCut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BoxCuttableBySaber::*)()>(&GlobalNamespace::BoxCuttableBySaber::get_canBeCut)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BoxCuttableBySaber*), "get_canBeCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BoxCuttableBySaber::Cut
 // Il2CppName: Cut
 template<>
@@ -202,3 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BoxCuttableBySaber*), "Cut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saber, cutPoint, orientation, cutDirVec});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BoxCuttableBySaber::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

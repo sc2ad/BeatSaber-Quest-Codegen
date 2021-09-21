@@ -55,21 +55,21 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuScenesTransitionSetupDataSO* menuTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuScenesTransitionSetupDataSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE37828
+    // [SpaceAttribute] Offset: 0xEFFF7C
     // private MainSettingsModelSO _mainSettingsModel
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE37860
+    // [InjectAttribute] Offset: 0xEFFFB4
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x60
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE37870
+    // [InjectAttribute] Offset: 0xEFFFC4
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x68
@@ -90,8 +90,28 @@ namespace GlobalNamespace {
     GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // Get instance field reference: private readonly PlayerDataModel _playerDataModel
     GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    // protected override System.Void AppStartAndMultiSceneEditorSetup()
+    // Offset: 0x11BF1B0
+    // Implemented from: AppInit
+    // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
+    void AppStartAndMultiSceneEditorSetup();
+    // protected override System.Void RepeatableSetup()
+    // Offset: 0x11BF1CC
+    // Implemented from: AppInit
+    // Base method: System.Void AppInit::RepeatableSetup()
+    void RepeatableSetup();
+    // protected override System.Void TransitionToNextScene()
+    // Offset: 0x11BF360
+    // Implemented from: AppInit
+    // Base method: System.Void AppInit::TransitionToNextScene()
+    void TransitionToNextScene();
+    // public override System.Void InstallBindings()
+    // Offset: 0x11BF3AC
+    // Implemented from: Zenject.MonoInstallerBase
+    // Base method: System.Void MonoInstallerBase::InstallBindings()
+    void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1125DD8
+    // Offset: 0x11BF450
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()
@@ -106,26 +126,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::QuestShowcaseAppInit::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<QuestShowcaseAppInit*, creationType>()));
     }
-    // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0x1125B38
-    // Implemented from: AppInit
-    // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
-    void AppStartAndMultiSceneEditorSetup();
-    // protected override System.Void RepeatableSetup()
-    // Offset: 0x1125B54
-    // Implemented from: AppInit
-    // Base method: System.Void AppInit::RepeatableSetup()
-    void RepeatableSetup();
-    // protected override System.Void TransitionToNextScene()
-    // Offset: 0x1125CE8
-    // Implemented from: AppInit
-    // Base method: System.Void AppInit::TransitionToNextScene()
-    void TransitionToNextScene();
-    // public override System.Void InstallBindings()
-    // Offset: 0x1125D34
-    // Implemented from: Zenject.MonoInstallerBase
-    // Base method: System.Void MonoInstallerBase::InstallBindings()
-    void InstallBindings();
   }; // QuestShowcaseAppInit
   #pragma pack(pop)
   static check_size<sizeof(QuestShowcaseAppInit), 104 + sizeof(GlobalNamespace::PlayerDataModel*)> __GlobalNamespace_QuestShowcaseAppInitSizeCheck;
@@ -133,10 +133,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuestShowcaseAppInit*, "", "QuestShowcaseAppInit");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::QuestShowcaseAppInit::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::QuestShowcaseAppInit::AppStartAndMultiSceneEditorSetup
 // Il2CppName: AppStartAndMultiSceneEditorSetup
 template<>
@@ -169,3 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuestShowcaseAppInit*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::QuestShowcaseAppInit::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!

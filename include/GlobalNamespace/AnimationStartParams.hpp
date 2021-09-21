@@ -56,10 +56,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Animation _animation
     UnityEngine::Animation*& dyn__animation();
     // protected System.Void Start()
-    // Offset: 0x125BE7C
+    // Offset: 0x1378684
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x125C0D0
+    // Offset: 0x13788D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

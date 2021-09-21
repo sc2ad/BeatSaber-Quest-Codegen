@@ -59,18 +59,18 @@ namespace NUnit::Framework::Internal::Execution {
     ::Il2CppObject*& dyn__lock();
     // Get instance field reference: private System.Threading.ManualResetEvent _event
     System::Threading::ManualResetEvent*& dyn__event();
-    // public System.Int32 get_CurrentCount()
-    // Offset: 0x1780D08
-    int get_CurrentCount();
     // public System.Void .ctor(System.Int32 initialCount)
-    // Offset: 0x1780C68
+    // Offset: 0x193FCB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CountdownEvent* New_ctor(int initialCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Execution::CountdownEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CountdownEvent*, creationType>(initialCount)));
     }
+    // public System.Int32 get_CurrentCount()
+    // Offset: 0x193FD54
+    int get_CurrentCount();
     // public System.Void Signal()
-    // Offset: 0x1780D10
+    // Offset: 0x193FD5C
     void Signal();
   }; // NUnit.Framework.Internal.Execution.CountdownEvent
   #pragma pack(pop)
@@ -79,6 +79,10 @@ namespace NUnit::Framework::Internal::Execution {
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::CountdownEvent*, "NUnit.Framework.Internal.Execution", "CountdownEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Execution::CountdownEvent::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Execution::CountdownEvent::get_CurrentCount
 // Il2CppName: get_CurrentCount
 template<>
@@ -87,10 +91,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NUnit:
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Execution::CountdownEvent*), "get_CurrentCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::Execution::CountdownEvent::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Execution::CountdownEvent::Signal
 // Il2CppName: Signal
 template<>

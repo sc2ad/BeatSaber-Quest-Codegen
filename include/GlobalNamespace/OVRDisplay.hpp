@@ -176,6 +176,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: localTrackingSpaceRecenterCount and: RecenteredPose
     char __padding4[0x4] = {};
+    // [CompilerGeneratedAttribute] Offset: 0xEB1A48
     // private System.Action RecenteredPose
     // Size: 0x8
     // Offset: 0x30
@@ -196,59 +197,59 @@ namespace GlobalNamespace {
     int& dyn_localTrackingSpaceRecenterCount();
     // Get instance field reference: private System.Action RecenteredPose
     System::Action*& dyn_RecenteredPose();
-    // public UnityEngine.Vector3 get_acceleration()
-    // Offset: 0x12B6D28
-    UnityEngine::Vector3 get_acceleration();
-    // public UnityEngine.Vector3 get_angularAcceleration()
-    // Offset: 0x12B6E54
-    UnityEngine::Vector3 get_angularAcceleration();
-    // public UnityEngine.Vector3 get_velocity()
-    // Offset: 0x12B6F80
-    UnityEngine::Vector3 get_velocity();
-    // public UnityEngine.Vector3 get_angularVelocity()
-    // Offset: 0x12B70AC
-    UnityEngine::Vector3 get_angularVelocity();
-    // public OVRDisplay/LatencyData get_latency()
-    // Offset: 0x12B71D8
-    GlobalNamespace::OVRDisplay::LatencyData get_latency();
-    // public System.Single get_appFramerate()
-    // Offset: 0x12B73A4
-    float get_appFramerate();
-    // public System.Int32 get_recommendedMSAALevel()
-    // Offset: 0x12B7440
-    int get_recommendedMSAALevel();
-    // public System.Single[] get_displayFrequenciesAvailable()
-    // Offset: 0x12B74AC
-    ::Array<float>* get_displayFrequenciesAvailable();
-    // public System.Single get_displayFrequency()
-    // Offset: 0x12B750C
-    float get_displayFrequency();
-    // public System.Void set_displayFrequency(System.Single value)
-    // Offset: 0x12B756C
-    void set_displayFrequency(float value);
+    // public System.Void Update()
+    // Offset: 0x13BFCE4
+    void Update();
     // public System.Void add_RecenteredPose(System.Action value)
-    // Offset: 0x12B6B64
+    // Offset: 0x13BFE78
     void add_RecenteredPose(System::Action* value);
     // public System.Void remove_RecenteredPose(System.Action value)
-    // Offset: 0x12B6C08
+    // Offset: 0x13BFF1C
     void remove_RecenteredPose(System::Action* value);
-    // public System.Void Update()
-    // Offset: 0x12B69D0
-    void Update();
     // public System.Void RecenterPose()
-    // Offset: 0x12B6CAC
+    // Offset: 0x13BFFC0
     void RecenterPose();
+    // public UnityEngine.Vector3 get_acceleration()
+    // Offset: 0x13C003C
+    UnityEngine::Vector3 get_acceleration();
+    // public UnityEngine.Vector3 get_angularAcceleration()
+    // Offset: 0x13C0168
+    UnityEngine::Vector3 get_angularAcceleration();
+    // public UnityEngine.Vector3 get_velocity()
+    // Offset: 0x13C0294
+    UnityEngine::Vector3 get_velocity();
+    // public UnityEngine.Vector3 get_angularVelocity()
+    // Offset: 0x13C03C0
+    UnityEngine::Vector3 get_angularVelocity();
     // public OVRDisplay/EyeRenderDesc GetEyeRenderDesc(UnityEngine.XR.XRNode eye)
-    // Offset: 0x12B68C8
+    // Offset: 0x13BFBDC
     GlobalNamespace::OVRDisplay::EyeRenderDesc GetEyeRenderDesc(UnityEngine::XR::XRNode eye);
+    // public OVRDisplay/LatencyData get_latency()
+    // Offset: 0x13C04EC
+    GlobalNamespace::OVRDisplay::LatencyData get_latency();
+    // public System.Single get_appFramerate()
+    // Offset: 0x13C06B8
+    float get_appFramerate();
+    // public System.Int32 get_recommendedMSAALevel()
+    // Offset: 0x13C0754
+    int get_recommendedMSAALevel();
+    // public System.Single[] get_displayFrequenciesAvailable()
+    // Offset: 0x13C07C0
+    ::Array<float>* get_displayFrequenciesAvailable();
+    // public System.Single get_displayFrequency()
+    // Offset: 0x13C0820
+    float get_displayFrequency();
+    // public System.Void set_displayFrequency(System.Single value)
+    // Offset: 0x13C0880
+    void set_displayFrequency(float value);
     // private System.Void UpdateTextures()
-    // Offset: 0x12B69A4
+    // Offset: 0x13BFCB8
     void UpdateTextures();
     // private System.Void ConfigureEyeDesc(UnityEngine.XR.XRNode eye)
-    // Offset: 0x12B75DC
+    // Offset: 0x13C08F0
     void ConfigureEyeDesc(UnityEngine::XR::XRNode eye);
     // public System.Void .ctor()
-    // Offset: 0x12B6924
+    // Offset: 0x13BFC38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -265,6 +266,40 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay*, "", "OVRDisplay");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::EyeFov, "", "OVRDisplay/EyeFov");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::EyeRenderDesc, "", "OVRDisplay/EyeRenderDesc");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::OVRDisplay::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRDisplay::*)()>(&GlobalNamespace::OVRDisplay::Update)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRDisplay*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OVRDisplay::add_RecenteredPose
+// Il2CppName: add_RecenteredPose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRDisplay::*)(System::Action*)>(&GlobalNamespace::OVRDisplay::add_RecenteredPose)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRDisplay*), "add_RecenteredPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OVRDisplay::remove_RecenteredPose
+// Il2CppName: remove_RecenteredPose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRDisplay::*)(System::Action*)>(&GlobalNamespace::OVRDisplay::remove_RecenteredPose)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRDisplay*), "remove_RecenteredPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OVRDisplay::RecenterPose
+// Il2CppName: RecenterPose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRDisplay::*)()>(&GlobalNamespace::OVRDisplay::RecenterPose)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRDisplay*), "RecenterPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::OVRDisplay::get_acceleration
 // Il2CppName: get_acceleration
 template<>
@@ -295,6 +330,15 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::OVRDisplay::*)()>(&GlobalNamespace::OVRDisplay::get_angularVelocity)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRDisplay*), "get_angularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::OVRDisplay::GetEyeRenderDesc
+// Il2CppName: GetEyeRenderDesc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRDisplay::EyeRenderDesc (GlobalNamespace::OVRDisplay::*)(UnityEngine::XR::XRNode)>(&GlobalNamespace::OVRDisplay::GetEyeRenderDesc)> {
+  static const MethodInfo* get() {
+    static auto* eye = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRDisplay*), "GetEyeRenderDesc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eye});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRDisplay::get_latency
@@ -344,49 +388,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRDisplay*), "set_displayFrequency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::OVRDisplay::add_RecenteredPose
-// Il2CppName: add_RecenteredPose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRDisplay::*)(System::Action*)>(&GlobalNamespace::OVRDisplay::add_RecenteredPose)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRDisplay*), "add_RecenteredPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::OVRDisplay::remove_RecenteredPose
-// Il2CppName: remove_RecenteredPose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRDisplay::*)(System::Action*)>(&GlobalNamespace::OVRDisplay::remove_RecenteredPose)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRDisplay*), "remove_RecenteredPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::OVRDisplay::Update
-// Il2CppName: Update
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRDisplay::*)()>(&GlobalNamespace::OVRDisplay::Update)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRDisplay*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::OVRDisplay::RecenterPose
-// Il2CppName: RecenterPose
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRDisplay::*)()>(&GlobalNamespace::OVRDisplay::RecenterPose)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRDisplay*), "RecenterPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::OVRDisplay::GetEyeRenderDesc
-// Il2CppName: GetEyeRenderDesc
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRDisplay::EyeRenderDesc (GlobalNamespace::OVRDisplay::*)(UnityEngine::XR::XRNode)>(&GlobalNamespace::OVRDisplay::GetEyeRenderDesc)> {
-  static const MethodInfo* get() {
-    static auto* eye = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRDisplay*), "GetEyeRenderDesc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eye});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRDisplay::UpdateTextures

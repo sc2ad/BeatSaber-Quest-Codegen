@@ -57,14 +57,16 @@ namespace NUnit::Framework::Internal {
     System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITest*>* tests;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITest*>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE28E10
+    // [DebuggerBrowsableAttribute] Offset: 0xEEF5E8
+    // [CompilerGeneratedAttribute] Offset: 0xEEF5E8
     // private System.Object[] <Arguments>k__BackingField
     // Size: 0x8
     // Offset: 0x80
     ::Array<::Il2CppObject*>* Arguments;
     // Field size check
     static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE28E4C
+    // [CompilerGeneratedAttribute] Offset: 0xEEF624
+    // [DebuggerBrowsableAttribute] Offset: 0xEEF624
     // private System.Boolean <MaintainTestOrder>k__BackingField
     // Size: 0x1
     // Offset: 0x88
@@ -79,49 +81,29 @@ namespace NUnit::Framework::Internal {
     ::Array<::Il2CppObject*>*& dyn_$Arguments$k__BackingField();
     // Get instance field reference: private System.Boolean <MaintainTestOrder>k__BackingField
     bool& dyn_$MaintainTestOrder$k__BackingField();
-    // public System.Object[] get_Arguments()
-    // Offset: 0x229E83C
-    ::Array<::Il2CppObject*>* get_Arguments();
-    // System.Void set_Arguments(System.Object[] value)
-    // Offset: 0x229E844
-    void set_Arguments(::Array<::Il2CppObject*>* value);
-    // protected System.Boolean get_MaintainTestOrder()
-    // Offset: 0x229E84C
-    bool get_MaintainTestOrder();
-    // protected System.Void set_MaintainTestOrder(System.Boolean value)
-    // Offset: 0x229E854
-    void set_MaintainTestOrder(bool value);
     // public System.Void Sort()
-    // Offset: 0x229E204
+    // Offset: 0x24A654C
     void Sort();
     // public System.Void Add(NUnit.Framework.Internal.Test test)
-    // Offset: 0x229E4F8
+    // Offset: 0x24A6840
     void Add(NUnit::Framework::Internal::Test* test);
+    // public System.Object[] get_Arguments()
+    // Offset: 0x24A6B84
+    ::Array<::Il2CppObject*>* get_Arguments();
+    // System.Void set_Arguments(System.Object[] value)
+    // Offset: 0x24A6B8C
+    void set_Arguments(::Array<::Il2CppObject*>* value);
+    // protected System.Boolean get_MaintainTestOrder()
+    // Offset: 0x24A6B94
+    bool get_MaintainTestOrder();
+    // protected System.Void set_MaintainTestOrder(System.Boolean value)
+    // Offset: 0x24A6B9C
+    void set_MaintainTestOrder(bool value);
     // protected System.Void CheckSetUpTearDownMethods(System.Type attrType)
-    // Offset: 0x229A2E4
+    // Offset: 0x24A262C
     void CheckSetUpTearDownMethods(System::Type* attrType);
-    // public override System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITest> get_Tests()
-    // Offset: 0x229E568
-    // Implemented from: NUnit.Framework.Internal.Test
-    // Base method: System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITest> Test::get_Tests()
-    System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITest*>* get_Tests();
-    // public override System.Int32 get_TestCaseCount()
-    // Offset: 0x229E570
-    // Implemented from: NUnit.Framework.Internal.Test
-    // Base method: System.Int32 Test::get_TestCaseCount()
-    int get_TestCaseCount();
-    // public override System.Boolean get_HasChildren()
-    // Offset: 0x229E964
-    // Implemented from: NUnit.Framework.Internal.Test
-    // Base method: System.Boolean Test::get_HasChildren()
-    bool get_HasChildren();
-    // public override System.String get_XmlElementName()
-    // Offset: 0x229E9BC
-    // Implemented from: NUnit.Framework.Internal.Test
-    // Base method: System.String Test::get_XmlElementName()
-    ::Il2CppString* get_XmlElementName();
     // public System.Void .ctor(System.String name)
-    // Offset: 0x2298F00
+    // Offset: 0x24A1248
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Void Test::.ctor(System.String name)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -130,7 +112,7 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<TestSuite*, creationType>(name)));
     }
     // public System.Void .ctor(System.String parentSuiteName, System.String name)
-    // Offset: 0x2295D3C
+    // Offset: 0x249E084
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Void Test::.ctor(System.String parentSuiteName, System.String name)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -139,7 +121,7 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<TestSuite*, creationType>(parentSuiteName, name)));
     }
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITypeInfo fixtureType)
-    // Offset: 0x229A22C
+    // Offset: 0x24A2574
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Void Test::.ctor(NUnit.Framework.Interfaces.ITypeInfo fixtureType)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -147,13 +129,33 @@ namespace NUnit::Framework::Internal {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestSuite::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestSuite*, creationType>(fixtureType)));
     }
+    // public override System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITest> get_Tests()
+    // Offset: 0x24A68B0
+    // Implemented from: NUnit.Framework.Internal.Test
+    // Base method: System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITest> Test::get_Tests()
+    System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITest*>* get_Tests();
+    // public override System.Int32 get_TestCaseCount()
+    // Offset: 0x24A68B8
+    // Implemented from: NUnit.Framework.Internal.Test
+    // Base method: System.Int32 Test::get_TestCaseCount()
+    int get_TestCaseCount();
     // public override NUnit.Framework.Internal.TestResult MakeTestResult()
-    // Offset: 0x229E860
+    // Offset: 0x24A6BA8
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: NUnit.Framework.Internal.TestResult Test::MakeTestResult()
     NUnit::Framework::Internal::TestResult* MakeTestResult();
+    // public override System.Boolean get_HasChildren()
+    // Offset: 0x24A6CAC
+    // Implemented from: NUnit.Framework.Internal.Test
+    // Base method: System.Boolean Test::get_HasChildren()
+    bool get_HasChildren();
+    // public override System.String get_XmlElementName()
+    // Offset: 0x24A6D04
+    // Implemented from: NUnit.Framework.Internal.Test
+    // Base method: System.String Test::get_XmlElementName()
+    ::Il2CppString* get_XmlElementName();
     // public override NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x229EA04
+    // Offset: 0x24A6D4C
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: NUnit.Framework.Interfaces.TNode Test::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
@@ -164,6 +166,23 @@ namespace NUnit::Framework::Internal {
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestSuite*, "NUnit.Framework.Internal", "TestSuite");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::Sort
+// Il2CppName: Sort
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestSuite::*)()>(&NUnit::Framework::Internal::TestSuite::Sort)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "Sort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::Add
+// Il2CppName: Add
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestSuite::*)(NUnit::Framework::Internal::Test*)>(&NUnit::Framework::Internal::TestSuite::Add)> {
+  static const MethodInfo* get() {
+    static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "Test")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::get_Arguments
 // Il2CppName: get_Arguments
 template<>
@@ -198,23 +217,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "set_MaintainTestOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::Sort
-// Il2CppName: Sort
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestSuite::*)()>(&NUnit::Framework::Internal::TestSuite::Sort)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "Sort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::Add
-// Il2CppName: Add
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestSuite::*)(NUnit::Framework::Internal::Test*)>(&NUnit::Framework::Internal::TestSuite::Add)> {
-  static const MethodInfo* get() {
-    static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "Test")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});
-  }
-};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::CheckSetUpTearDownMethods
 // Il2CppName: CheckSetUpTearDownMethods
 template<>
@@ -224,6 +226,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "CheckSetUpTearDownMethods", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attrType});
   }
 };
+// Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
+// Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::get_Tests
 // Il2CppName: get_Tests
 template<>
@@ -240,6 +254,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NUnit:
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "get_TestCaseCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::MakeTestResult
+// Il2CppName: MakeTestResult
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (NUnit::Framework::Internal::TestSuite::*)()>(&NUnit::Framework::Internal::TestSuite::MakeTestResult)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "MakeTestResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::get_HasChildren
 // Il2CppName: get_HasChildren
 template<>
@@ -254,26 +276,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestSuite::*)()>(&NUnit::Framework::Internal::TestSuite::get_XmlElementName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "get_XmlElementName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
-// Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::MakeTestResult
-// Il2CppName: MakeTestResult
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (NUnit::Framework::Internal::TestSuite::*)()>(&NUnit::Framework::Internal::TestSuite::MakeTestResult)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "MakeTestResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::AddToXml

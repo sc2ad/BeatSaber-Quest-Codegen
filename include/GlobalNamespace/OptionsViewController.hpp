@@ -104,13 +104,14 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* settingsButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [InjectAttribute] Offset: 0xE48F44
+    // [InjectAttribute] Offset: 0xF11958
     // private readonly AppStaticSettingsSO _appStaticSettings
     // Size: 0x8
     // Offset: 0x88
     GlobalNamespace::AppStaticSettingsSO* appStaticSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AppStaticSettingsSO*) == 0x8);
+    // [CompilerGeneratedAttribute] Offset: 0xF11968
     // private System.Action`1<OptionsViewController/OptionsButton> didFinishEvent
     // Size: 0x8
     // Offset: 0x90
@@ -130,22 +131,27 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<OptionsViewController/OptionsButton> didFinishEvent
     System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<OptionsViewController/OptionsButton> value)
-    // Offset: 0x1033ACC
+    // Offset: 0x1122F3C
     void add_didFinishEvent(System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<OptionsViewController/OptionsButton> value)
-    // Offset: 0x1033B70
+    // Offset: 0x1122FE0
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>* value);
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0x1033D98
+    // Offset: 0x1123208
     void $DidActivate$b__8_0();
     // private System.Void <DidActivate>b__8_1()
-    // Offset: 0x1033DFC
+    // Offset: 0x112326C
     void $DidActivate$b__8_1();
     // private System.Void <DidActivate>b__8_2()
-    // Offset: 0x1033E60
+    // Offset: 0x11232D0
     void $DidActivate$b__8_2();
+    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    // Offset: 0x1123084
+    // Implemented from: HMUI.ViewController
+    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
+    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x1033D90
+    // Offset: 0x1123200
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -158,11 +164,6 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OptionsViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OptionsViewController*, creationType>()));
     }
-    // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1033C14
-    // Implemented from: HMUI.ViewController
-    // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
   }; // OptionsViewController
   #pragma pack(pop)
   static check_size<sizeof(OptionsViewController), 144 + sizeof(System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>*)> __GlobalNamespace_OptionsViewControllerSizeCheck;
@@ -213,10 +214,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OptionsViewController*), "<DidActivate>b__8_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::OptionsViewController::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: GlobalNamespace::OptionsViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
@@ -228,3 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OptionsViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{firstActivation, addedToHierarchy, screenSystemEnabling});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::OptionsViewController::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
