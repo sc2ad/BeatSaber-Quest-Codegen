@@ -40,7 +40,7 @@ namespace Polyglot {
     // Creating value type constructor for type: GoogleDownload
     GoogleDownload() noexcept {}
     // static public System.Collections.IEnumerator DownloadSheet(System.String docsId, System.String sheetId, System.Action`1<System.String> done, Polyglot.GoogleDriveDownloadFormat format, System.Func`2<System.Single,System.Boolean> progressbar)
-    // Offset: 0x237A4F4
+    // Offset: 0x2581328
     static System::Collections::IEnumerator* DownloadSheet(::Il2CppString* docsId, ::Il2CppString* sheetId, System::Action_1<::Il2CppString*>* done, Polyglot::GoogleDriveDownloadFormat format, System::Func_2<float, bool>* progressbar);
   }; // Polyglot.GoogleDownload
   #pragma pack(pop)

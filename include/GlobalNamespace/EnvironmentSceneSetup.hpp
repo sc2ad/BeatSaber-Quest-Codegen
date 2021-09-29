@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnvironmentSceneSetup : public Zenject::MonoInstaller {
     public:
-    // [InjectAttribute] Offset: 0xE4BE90
+    // [InjectAttribute] Offset: 0xF14A9C
     // private readonly EnvironmentSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x20
@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly EnvironmentSceneSetupData _sceneSetupData
     GlobalNamespace::EnvironmentSceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()
-    // Offset: 0x1058BB8
+    // Offset: 0x11B1864
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -54,7 +54,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentSceneSetup*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1058B0C
+    // Offset: 0x11B17B8
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

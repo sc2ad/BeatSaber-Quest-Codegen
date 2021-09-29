@@ -53,19 +53,19 @@ namespace Org::BouncyCastle::Security {
     // Set static field: static private readonly System.Collections.IDictionary oids
     static void _set_oids(System::Collections::IDictionary* value);
     // static private System.Void .cctor()
-    // Offset: 0x13B0740
+    // Offset: 0x14C2934
     static void _cctor();
     // static public Org.BouncyCastle.Crypto.IBufferedCipher GetCipher(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x13B3328
+    // Offset: 0x14C551C
     static Org::BouncyCastle::Crypto::IBufferedCipher* GetCipher(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static public Org.BouncyCastle.Crypto.IBufferedCipher GetCipher(System.String algorithm)
-    // Offset: 0x13AB548
+    // Offset: 0x14BD73C
     static Org::BouncyCastle::Crypto::IBufferedCipher* GetCipher(::Il2CppString* algorithm);
     // static private System.Int32 GetDigitIndex(System.String s)
-    // Offset: 0x13B3398
+    // Offset: 0x14C558C
     static int GetDigitIndex(::Il2CppString* s);
     // static private Org.BouncyCastle.Crypto.IBlockCipher CreateBlockCipher(Org.BouncyCastle.Security.CipherUtilities/Org.BouncyCastle.Security.CipherAlgorithm cipherAlgorithm)
-    // Offset: 0x13B3458
+    // Offset: 0x14C564C
     static Org::BouncyCastle::Crypto::IBlockCipher* CreateBlockCipher(Org::BouncyCastle::Security::CipherUtilities::CipherAlgorithm cipherAlgorithm);
   }; // Org.BouncyCastle.Security.CipherUtilities
   #pragma pack(pop)

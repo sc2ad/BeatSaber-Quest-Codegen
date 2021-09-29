@@ -60,23 +60,23 @@ namespace MasterServer {
     // public System.Byte[] serverPublicKey
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* serverPublicKey;
+    ::ArrayWrapper<uint8_t> serverPublicKey;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass29_0
-    $$c__DisplayClass29_0(MasterServer::BaseClientMessageHandler* $$4__this_ = {}, ::Array<uint8_t>* serverPublicKey_ = {}) noexcept : $$4__this{$$4__this_}, serverPublicKey{serverPublicKey_} {}
+    $$c__DisplayClass29_0(MasterServer::BaseClientMessageHandler* $$4__this_ = {}, ::ArrayWrapper<uint8_t> serverPublicKey_ = {}) noexcept : $$4__this{$$4__this_}, serverPublicKey{serverPublicKey_} {}
     // Get instance field reference: public MasterServer.BaseClientMessageHandler <>4__this
     MasterServer::BaseClientMessageHandler*& dyn_$$4__this();
     // Get instance field reference: public System.Byte[] serverPublicKey
-    ::Array<uint8_t>*& dyn_serverPublicKey();
+    ::ArrayWrapper<uint8_t>& dyn_serverPublicKey();
     // System.Threading.Tasks.Task`1<MasterServer.HelloVerifyRequest> <AuthenticateWithMasterServerAsyncInternal>b__0(System.UInt32 protocolVersion, System.Net.IPEndPoint ep, MasterServer.IMasterServerReliableRequest request, System.Threading.CancellationToken ct)
-    // Offset: 0x1217348
+    // Offset: 0x12D66E8
     System::Threading::Tasks::Task_1<MasterServer::HelloVerifyRequest*>* $AuthenticateWithMasterServerAsyncInternal$b__0(uint protocolVersion, System::Net::IPEndPoint* ep, MasterServer::IMasterServerReliableRequest* request, System::Threading::CancellationToken ct);
     // System.Threading.Tasks.Task`1<System.Byte[]> <AuthenticateWithMasterServerAsyncInternal>b__1(System.Threading.Tasks.Task`1<IDiffieHellmanKeyPair> result)
-    // Offset: 0x1217400
-    System::Threading::Tasks::Task_1<::Array<uint8_t>*>* $AuthenticateWithMasterServerAsyncInternal$b__1(System::Threading::Tasks::Task_1<GlobalNamespace::IDiffieHellmanKeyPair*>* result);
+    // Offset: 0x12D67A0
+    System::Threading::Tasks::Task_1<::ArrayWrapper<uint8_t>>* $AuthenticateWithMasterServerAsyncInternal$b__1(System::Threading::Tasks::Task_1<GlobalNamespace::IDiffieHellmanKeyPair*>* result);
     // public System.Void .ctor()
-    // Offset: 0x1217340
+    // Offset: 0x12D66E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -86,7 +86,7 @@ namespace MasterServer {
     }
   }; // MasterServer.BaseClientMessageHandler/MasterServer.<>c__DisplayClass29_0
   #pragma pack(pop)
-  static check_size<sizeof(BaseClientMessageHandler::$$c__DisplayClass29_0), 24 + sizeof(::Array<uint8_t>*)> __MasterServer_BaseClientMessageHandler_$$c__DisplayClass29_0SizeCheck;
+  static check_size<sizeof(BaseClientMessageHandler::$$c__DisplayClass29_0), 24 + sizeof(::ArrayWrapper<uint8_t>)> __MasterServer_BaseClientMessageHandler_$$c__DisplayClass29_0SizeCheck;
   static_assert(sizeof(BaseClientMessageHandler::$$c__DisplayClass29_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$$c__DisplayClass29_0*, "MasterServer", "BaseClientMessageHandler/<>c__DisplayClass29_0");
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::$$c__DisplayClass29_0::$AuthenticateWithMasterServerAsyncInternal$b__1
 // Il2CppName: <AuthenticateWithMasterServerAsyncInternal>b__1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Array<uint8_t>*>* (MasterServer::BaseClientMessageHandler::$$c__DisplayClass29_0::*)(System::Threading::Tasks::Task_1<GlobalNamespace::IDiffieHellmanKeyPair*>*)>(&MasterServer::BaseClientMessageHandler::$$c__DisplayClass29_0::$AuthenticateWithMasterServerAsyncInternal$b__1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::ArrayWrapper<uint8_t>>* (MasterServer::BaseClientMessageHandler::$$c__DisplayClass29_0::*)(System::Threading::Tasks::Task_1<GlobalNamespace::IDiffieHellmanKeyPair*>*)>(&MasterServer::BaseClientMessageHandler::$$c__DisplayClass29_0::$AuthenticateWithMasterServerAsyncInternal$b__1)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IDiffieHellmanKeyPair")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler::$$c__DisplayClass29_0*), "<AuthenticateWithMasterServerAsyncInternal>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});

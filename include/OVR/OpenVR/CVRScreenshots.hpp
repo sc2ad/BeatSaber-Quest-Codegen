@@ -53,32 +53,32 @@ namespace OVR::OpenVR {
     // Get instance field reference: private OVR.OpenVR.IVRScreenshots FnTable
     OVR::OpenVR::IVRScreenshots& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x15CA418
+    // Offset: 0x176D8D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRScreenshots* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRScreenshots::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRScreenshots*, creationType>(pInterface)));
     }
     // public OVR.OpenVR.EVRScreenshotError RequestScreenshot(ref System.UInt32 pOutScreenshotHandle, OVR.OpenVR.EVRScreenshotType type, System.String pchPreviewFilename, System.String pchVRFilename)
-    // Offset: 0x15CA528
+    // Offset: 0x176D9E0
     OVR::OpenVR::EVRScreenshotError RequestScreenshot(ByRef<uint> pOutScreenshotHandle, OVR::OpenVR::EVRScreenshotType type, ::Il2CppString* pchPreviewFilename, ::Il2CppString* pchVRFilename);
     // public OVR.OpenVR.EVRScreenshotError HookScreenshot(OVR.OpenVR.EVRScreenshotType[] pSupportedTypes)
-    // Offset: 0x15CA548
-    OVR::OpenVR::EVRScreenshotError HookScreenshot(::Array<OVR::OpenVR::EVRScreenshotType>* pSupportedTypes);
+    // Offset: 0x176DA00
+    OVR::OpenVR::EVRScreenshotError HookScreenshot(::ArrayWrapper<OVR::OpenVR::EVRScreenshotType> pSupportedTypes);
     // public OVR.OpenVR.EVRScreenshotType GetScreenshotPropertyType(System.UInt32 screenshotHandle, ref OVR.OpenVR.EVRScreenshotError pError)
-    // Offset: 0x15CA570
+    // Offset: 0x176DA28
     OVR::OpenVR::EVRScreenshotType GetScreenshotPropertyType(uint screenshotHandle, ByRef<OVR::OpenVR::EVRScreenshotError> pError);
     // public System.UInt32 GetScreenshotPropertyFilename(System.UInt32 screenshotHandle, OVR.OpenVR.EVRScreenshotPropertyFilenames filenameType, System.Text.StringBuilder pchFilename, System.UInt32 cchFilename, ref OVR.OpenVR.EVRScreenshotError pError)
-    // Offset: 0x15CA58C
+    // Offset: 0x176DA44
     uint GetScreenshotPropertyFilename(uint screenshotHandle, OVR::OpenVR::EVRScreenshotPropertyFilenames filenameType, System::Text::StringBuilder* pchFilename, uint cchFilename, ByRef<OVR::OpenVR::EVRScreenshotError> pError);
     // public OVR.OpenVR.EVRScreenshotError UpdateScreenshotProgress(System.UInt32 screenshotHandle, System.Single flProgress)
-    // Offset: 0x15CA5A8
+    // Offset: 0x176DA60
     OVR::OpenVR::EVRScreenshotError UpdateScreenshotProgress(uint screenshotHandle, float flProgress);
     // public OVR.OpenVR.EVRScreenshotError TakeStereoScreenshot(ref System.UInt32 pOutScreenshotHandle, System.String pchPreviewFilename, System.String pchVRFilename)
-    // Offset: 0x15CA5C4
+    // Offset: 0x176DA7C
     OVR::OpenVR::EVRScreenshotError TakeStereoScreenshot(ByRef<uint> pOutScreenshotHandle, ::Il2CppString* pchPreviewFilename, ::Il2CppString* pchVRFilename);
     // public OVR.OpenVR.EVRScreenshotError SubmitScreenshot(System.UInt32 screenshotHandle, OVR.OpenVR.EVRScreenshotType type, System.String pchSourcePreviewFilename, System.String pchSourceVRFilename)
-    // Offset: 0x15CA5E4
+    // Offset: 0x176DA9C
     OVR::OpenVR::EVRScreenshotError SubmitScreenshot(uint screenshotHandle, OVR::OpenVR::EVRScreenshotType type, ::Il2CppString* pchSourcePreviewFilename, ::Il2CppString* pchSourceVRFilename);
   }; // OVR.OpenVR.CVRScreenshots
   #pragma pack(pop)
@@ -106,9 +106,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRScreenshots::HookScreenshot
 // Il2CppName: HookScreenshot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRScreenshotError (OVR::OpenVR::CVRScreenshots::*)(::Array<OVR::OpenVR::EVRScreenshotType>*)>(&OVR::OpenVR::CVRScreenshots::HookScreenshot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRScreenshotError (OVR::OpenVR::CVRScreenshots::*)(::ArrayWrapper<OVR::OpenVR::EVRScreenshotType>)>(&OVR::OpenVR::CVRScreenshots::HookScreenshot)> {
   static const MethodInfo* get() {
-    static auto* pSupportedTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRScreenshotType"), 1)->byval_arg;
+    static auto* pSupportedTypes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRScreenshotType")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRScreenshots*), "HookScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pSupportedTypes});
   }
 };

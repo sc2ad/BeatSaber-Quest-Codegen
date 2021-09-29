@@ -21,9 +21,9 @@ namespace System::Security::Util {
     // System.Int16[] m_block
     // Size: 0x8
     // Offset: 0x10
-    ::Array<int16_t>* m_block;
+    ::ArrayWrapper<int16_t> m_block;
     // Field size check
-    static_assert(sizeof(::Array<int16_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int16_t>) == 0x8);
     // System.Security.Util.TokenizerShortBlock m_next
     // Size: 0x8
     // Offset: 0x18
@@ -31,13 +31,13 @@ namespace System::Security::Util {
     // Field size check
     static_assert(sizeof(System::Security::Util::TokenizerShortBlock*) == 0x8);
     // Creating value type constructor for type: TokenizerShortBlock
-    TokenizerShortBlock(::Array<int16_t>* m_block_ = {}, System::Security::Util::TokenizerShortBlock* m_next_ = {}) noexcept : m_block{m_block_}, m_next{m_next_} {}
+    TokenizerShortBlock(::ArrayWrapper<int16_t> m_block_ = {}, System::Security::Util::TokenizerShortBlock* m_next_ = {}) noexcept : m_block{m_block_}, m_next{m_next_} {}
     // Get instance field reference: System.Int16[] m_block
-    ::Array<int16_t>*& dyn_m_block();
+    ::ArrayWrapper<int16_t>& dyn_m_block();
     // Get instance field reference: System.Security.Util.TokenizerShortBlock m_next
     System::Security::Util::TokenizerShortBlock*& dyn_m_next();
     // public System.Void .ctor()
-    // Offset: 0x1C2ED68
+    // Offset: 0x1DE6BD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

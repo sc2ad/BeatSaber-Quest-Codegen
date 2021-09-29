@@ -26,15 +26,15 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // private readonly System.Byte[] associatedText
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* associatedText;
+    ::ArrayWrapper<uint8_t> associatedText;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private readonly System.Byte[] nonce
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* nonce;
+    ::ArrayWrapper<uint8_t> nonce;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private readonly Org.BouncyCastle.Crypto.Parameters.KeyParameter key
     // Size: 0x8
     // Offset: 0x20
@@ -48,31 +48,31 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: AeadParameters
-    AeadParameters(::Array<uint8_t>* associatedText_ = {}, ::Array<uint8_t>* nonce_ = {}, Org::BouncyCastle::Crypto::Parameters::KeyParameter* key_ = {}, int macSize_ = {}) noexcept : associatedText{associatedText_}, nonce{nonce_}, key{key_}, macSize{macSize_} {}
+    AeadParameters(::ArrayWrapper<uint8_t> associatedText_ = {}, ::ArrayWrapper<uint8_t> nonce_ = {}, Org::BouncyCastle::Crypto::Parameters::KeyParameter* key_ = {}, int macSize_ = {}) noexcept : associatedText{associatedText_}, nonce{nonce_}, key{key_}, macSize{macSize_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ICipherParameters
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
     // Get instance field reference: private readonly System.Byte[] associatedText
-    ::Array<uint8_t>*& dyn_associatedText();
+    ::ArrayWrapper<uint8_t>& dyn_associatedText();
     // Get instance field reference: private readonly System.Byte[] nonce
-    ::Array<uint8_t>*& dyn_nonce();
+    ::ArrayWrapper<uint8_t>& dyn_nonce();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Parameters.KeyParameter key
     Org::BouncyCastle::Crypto::Parameters::KeyParameter*& dyn_key();
     // Get instance field reference: private readonly System.Int32 macSize
     int& dyn_macSize();
     // public Org.BouncyCastle.Crypto.Parameters.KeyParameter get_Key()
-    // Offset: 0x127463C
+    // Offset: 0x1390E44
     Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();
     // public System.Int32 get_MacSize()
-    // Offset: 0x1274644
+    // Offset: 0x1390E4C
     int get_MacSize();
     // public System.Byte[] GetAssociatedText()
-    // Offset: 0x127464C
-    ::Array<uint8_t>* GetAssociatedText();
+    // Offset: 0x1390E54
+    ::ArrayWrapper<uint8_t> GetAssociatedText();
     // public System.Byte[] GetNonce()
-    // Offset: 0x1274654
-    ::Array<uint8_t>* GetNonce();
+    // Offset: 0x1390E5C
+    ::ArrayWrapper<uint8_t> GetNonce();
   }; // Org.BouncyCastle.Crypto.Parameters.AeadParameters
   #pragma pack(pop)
   static check_size<sizeof(AeadParameters), 40 + sizeof(int)> __Org_BouncyCastle_Crypto_Parameters_AeadParametersSizeCheck;
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::AeadParameters::GetAssociatedText
 // Il2CppName: GetAssociatedText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Parameters::AeadParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::AeadParameters::GetAssociatedText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Parameters::AeadParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::AeadParameters::GetAssociatedText)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::AeadParameters*), "GetAssociatedText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::AeadParameters::GetNonce
 // Il2CppName: GetNonce
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Parameters::AeadParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::AeadParameters::GetNonce)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Parameters::AeadParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::AeadParameters::GetNonce)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::AeadParameters*), "GetNonce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

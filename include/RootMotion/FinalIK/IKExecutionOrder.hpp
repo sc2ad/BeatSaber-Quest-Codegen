@@ -32,14 +32,14 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKExecutionOrder : public UnityEngine::MonoBehaviour {
     public:
-    // [TooltipAttribute] Offset: 0xE2BFB4
+    // [TooltipAttribute] Offset: 0xEF278C
     // public RootMotion.FinalIK.IK[] IKComponents
     // Size: 0x8
     // Offset: 0x18
-    ::Array<RootMotion::FinalIK::IK*>* IKComponents;
+    ::ArrayWrapper<RootMotion::FinalIK::IK*> IKComponents;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::IK*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE2BFEC
+    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::IK*>) == 0x8);
+    // [TooltipAttribute] Offset: 0xEF27C4
     // public UnityEngine.Animator animator
     // Size: 0x8
     // Offset: 0x20
@@ -53,35 +53,35 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: IKExecutionOrder
-    IKExecutionOrder(::Array<RootMotion::FinalIK::IK*>* IKComponents_ = {}, UnityEngine::Animator* animator_ = {}, bool fixedFrame_ = {}) noexcept : IKComponents{IKComponents_}, animator{animator_}, fixedFrame{fixedFrame_} {}
+    IKExecutionOrder(::ArrayWrapper<RootMotion::FinalIK::IK*> IKComponents_ = {}, UnityEngine::Animator* animator_ = {}, bool fixedFrame_ = {}) noexcept : IKComponents{IKComponents_}, animator{animator_}, fixedFrame{fixedFrame_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.IK[] IKComponents
-    ::Array<RootMotion::FinalIK::IK*>*& dyn_IKComponents();
+    ::ArrayWrapper<RootMotion::FinalIK::IK*>& dyn_IKComponents();
     // Get instance field reference: public UnityEngine.Animator animator
     UnityEngine::Animator*& dyn_animator();
     // Get instance field reference: private System.Boolean fixedFrame
     bool& dyn_fixedFrame();
     // private System.Boolean get_animatePhysics()
-    // Offset: 0x1CD3FB0
+    // Offset: 0x1E97270
     bool get_animatePhysics();
     // private System.Void Start()
-    // Offset: 0x1CD404C
+    // Offset: 0x1E9730C
     void Start();
     // private System.Void Update()
-    // Offset: 0x1CD40BC
+    // Offset: 0x1E9737C
     void Update();
     // private System.Void FixedUpdate()
-    // Offset: 0x1CD4178
+    // Offset: 0x1E97438
     void FixedUpdate();
     // private System.Void LateUpdate()
-    // Offset: 0x1CD41B4
+    // Offset: 0x1E97474
     void LateUpdate();
     // private System.Void FixTransforms()
-    // Offset: 0x1CD40F0
+    // Offset: 0x1E973B0
     void FixTransforms();
     // public System.Void .ctor()
-    // Offset: 0x1CD4240
+    // Offset: 0x1E97500
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

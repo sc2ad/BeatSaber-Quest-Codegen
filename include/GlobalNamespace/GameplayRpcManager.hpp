@@ -310,164 +310,164 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<System.String> requestReturnToMenuEvent
     System::Action_1<::Il2CppString*>*& dyn_requestReturnToMenuEvent();
     // public System.Boolean get_enabled()
-    // Offset: 0x1340648
+    // Offset: 0x1457C88
     bool get_enabled();
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0x134070C
+    // Offset: 0x1457D4C
     void set_enabled(bool value);
     // public System.Void add_setGameplaySceneSyncFinishedEvent(System.Action`3<System.String,PlayerSpecificSettingsAtStartNetSerializable,System.String> value)
-    // Offset: 0x1340CC4
+    // Offset: 0x1458304
     void add_setGameplaySceneSyncFinishedEvent(System::Action_3<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>* value);
     // public System.Void remove_setGameplaySceneSyncFinishedEvent(System.Action`3<System.String,PlayerSpecificSettingsAtStartNetSerializable,System.String> value)
-    // Offset: 0x1340D68
+    // Offset: 0x14583A8
     void remove_setGameplaySceneSyncFinishedEvent(System::Action_3<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>* value);
     // public System.Void add_setGameplaySceneReadyEvent(System.Action`2<System.String,PlayerSpecificSettingsNetSerializable> value)
-    // Offset: 0x1340F0C
+    // Offset: 0x145854C
     void add_setGameplaySceneReadyEvent(System::Action_2<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* value);
     // public System.Void remove_setGameplaySceneReadyEvent(System.Action`2<System.String,PlayerSpecificSettingsNetSerializable> value)
-    // Offset: 0x1340FB0
+    // Offset: 0x14585F0
     void remove_setGameplaySceneReadyEvent(System::Action_2<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* value);
     // public System.Void add_getGameplaySceneReadyEvent(System.Action`1<System.String> value)
-    // Offset: 0x1341138
+    // Offset: 0x1458778
     void add_getGameplaySceneReadyEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_getGameplaySceneReadyEvent(System.Action`1<System.String> value)
-    // Offset: 0x13411DC
+    // Offset: 0x145881C
     void remove_getGameplaySceneReadyEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_setPlayerDidConnectLateEvent(System.Action`4<System.String,System.String,PlayerSpecificSettingsAtStartNetSerializable,System.String> value)
-    // Offset: 0x134134C
+    // Offset: 0x145898C
     void add_setPlayerDidConnectLateEvent(System::Action_4<::Il2CppString*, ::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>* value);
     // public System.Void remove_setPlayerDidConnectLateEvent(System.Action`4<System.String,System.String,PlayerSpecificSettingsAtStartNetSerializable,System.String> value)
-    // Offset: 0x13413F0
+    // Offset: 0x1458A30
     void remove_setPlayerDidConnectLateEvent(System::Action_4<::Il2CppString*, ::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>* value);
     // public System.Void add_setGameplaySongReadyEvent(System.Action`1<System.String> value)
-    // Offset: 0x13415AC
+    // Offset: 0x1458BEC
     void add_setGameplaySongReadyEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_setGameplaySongReadyEvent(System.Action`1<System.String> value)
-    // Offset: 0x1341650
+    // Offset: 0x1458C90
     void remove_setGameplaySongReadyEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_getGameplaySongReadyEvent(System.Action`1<System.String> value)
-    // Offset: 0x13417C0
+    // Offset: 0x1458E00
     void add_getGameplaySongReadyEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_getGameplaySongReadyEvent(System.Action`1<System.String> value)
-    // Offset: 0x1341864
+    // Offset: 0x1458EA4
     void remove_getGameplaySongReadyEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_setSongStartTimeEvent(System.Action`2<System.String,System.Single> value)
-    // Offset: 0x13419D4
+    // Offset: 0x1459014
     void add_setSongStartTimeEvent(System::Action_2<::Il2CppString*, float>* value);
     // public System.Void remove_setSongStartTimeEvent(System.Action`2<System.String,System.Single> value)
-    // Offset: 0x1341A78
+    // Offset: 0x14590B8
     void remove_setSongStartTimeEvent(System::Action_2<::Il2CppString*, float>* value);
     // public System.Void add_noteWasCutEvent(System.Action`4<System.String,System.Single,System.Single,NoteCutInfoNetSerializable> value)
-    // Offset: 0x1341C0C
+    // Offset: 0x145924C
     void add_noteWasCutEvent(System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteCutInfoNetSerializable*>* value);
     // public System.Void remove_noteWasCutEvent(System.Action`4<System.String,System.Single,System.Single,NoteCutInfoNetSerializable> value)
-    // Offset: 0x1341CB0
+    // Offset: 0x14592F0
     void remove_noteWasCutEvent(System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteCutInfoNetSerializable*>* value);
     // public System.Void add_noteWasMissedEvent(System.Action`4<System.String,System.Single,System.Single,NoteMissInfoNetSerializable> value)
-    // Offset: 0x1341E64
+    // Offset: 0x14594A4
     void add_noteWasMissedEvent(System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteMissInfoNetSerializable*>* value);
     // public System.Void remove_noteWasMissedEvent(System.Action`4<System.String,System.Single,System.Single,NoteMissInfoNetSerializable> value)
-    // Offset: 0x1341F08
+    // Offset: 0x1459548
     void remove_noteWasMissedEvent(System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteMissInfoNetSerializable*>* value);
     // public System.Void add_levelFinishedEvent(System.Action`2<System.String,MultiplayerLevelCompletionResults> value)
-    // Offset: 0x13420BC
+    // Offset: 0x14596FC
     void add_levelFinishedEvent(System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void remove_levelFinishedEvent(System.Action`2<System.String,MultiplayerLevelCompletionResults> value)
-    // Offset: 0x1342160
+    // Offset: 0x14597A0
     void remove_levelFinishedEvent(System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void add_returnToMenuEvent(System.Action`1<System.String> value)
-    // Offset: 0x13422E8
+    // Offset: 0x1459928
     void add_returnToMenuEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_returnToMenuEvent(System.Action`1<System.String> value)
-    // Offset: 0x134238C
+    // Offset: 0x14599CC
     void remove_returnToMenuEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_requestReturnToMenuEvent(System.Action`1<System.String> value)
-    // Offset: 0x13424FC
+    // Offset: 0x1459B3C
     void add_requestReturnToMenuEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_requestReturnToMenuEvent(System.Action`1<System.String> value)
-    // Offset: 0x13425A0
+    // Offset: 0x1459BE0
     void remove_requestReturnToMenuEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager)
-    // Offset: 0x13407E0
+    // Offset: 0x1457E20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayRpcManager* New_ctor(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameplayRpcManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayRpcManager*, creationType>(multiplayerSessionManager)));
     }
     // public System.Void Dispose()
-    // Offset: 0x1340C60
+    // Offset: 0x14582A0
     void Dispose();
     // public System.Void SetGameplaySceneSyncFinished(PlayerSpecificSettingsAtStartNetSerializable playersAtGameStartNetSerializable, System.String sessionGameId)
-    // Offset: 0x1340E0C
+    // Offset: 0x145844C
     void SetGameplaySceneSyncFinished(GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStartNetSerializable, ::Il2CppString* sessionGameId);
     // private System.Void InvokeSetGameplaySceneSyncFinishCallback(System.String userId, PlayerSpecificSettingsAtStartNetSerializable playersAtGameStart, System.String sessionGameId)
-    // Offset: 0x1340E7C
+    // Offset: 0x14584BC
     void InvokeSetGameplaySceneSyncFinishCallback(::Il2CppString* userId, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStart, ::Il2CppString* sessionGameId);
     // public System.Void SetGameplaySceneReady(PlayerSpecificSettingsNetSerializable playerSpecificSettings)
-    // Offset: 0x1341054
+    // Offset: 0x1458694
     void SetGameplaySceneReady(GlobalNamespace::PlayerSpecificSettingsNetSerializable* playerSpecificSettings);
     // private System.Void InvokeSetGameplaySceneReadyCallback(System.String userId, PlayerSpecificSettingsNetSerializable playerSpecificSettingsNetSerializable)
-    // Offset: 0x13410BC
+    // Offset: 0x14586FC
     void InvokeSetGameplaySceneReadyCallback(::Il2CppString* userId, GlobalNamespace::PlayerSpecificSettingsNetSerializable* playerSpecificSettingsNetSerializable);
     // public System.Void GetGameplaySceneReady()
-    // Offset: 0x1341280
+    // Offset: 0x14588C0
     void GetGameplaySceneReady();
     // private System.Void InvokeGetGameplaySceneReadyCallback(System.String userId)
-    // Offset: 0x13412D8
+    // Offset: 0x1458918
     void InvokeGetGameplaySceneReadyCallback(::Il2CppString* userId);
     // public System.Void SetPlayerDidConnectLate(System.String usedId, PlayerSpecificSettingsAtStartNetSerializable playersAtGameStartNetSerializable, System.String sessionGameId)
-    // Offset: 0x1341494
+    // Offset: 0x1458AD4
     void SetPlayerDidConnectLate(::Il2CppString* usedId, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStartNetSerializable, ::Il2CppString* sessionGameId);
     // private System.Void InvokeSetPlayerDidConnectLate(System.String userId, System.String failedUserId, PlayerSpecificSettingsAtStartNetSerializable playersAtGameStartNetSerializable, System.String sessionGameId)
-    // Offset: 0x1341514
+    // Offset: 0x1458B54
     void InvokeSetPlayerDidConnectLate(::Il2CppString* userId, ::Il2CppString* failedUserId, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStartNetSerializable, ::Il2CppString* sessionGameId);
     // public System.Void SetGameplaySongReady()
-    // Offset: 0x13416F4
+    // Offset: 0x1458D34
     void SetGameplaySongReady();
     // private System.Void InvokeSetGameplaySongReadyCallback(System.String userId)
-    // Offset: 0x134174C
+    // Offset: 0x1458D8C
     void InvokeSetGameplaySongReadyCallback(::Il2CppString* userId);
     // public System.Void GetGameplaySongReady()
-    // Offset: 0x1341908
+    // Offset: 0x1458F48
     void GetGameplaySongReady();
     // private System.Void InvokeGetGameplayLevelReadyCallback(System.String userId)
-    // Offset: 0x1341960
+    // Offset: 0x1458FA0
     void InvokeGetGameplayLevelReadyCallback(::Il2CppString* userId);
     // public System.Void SetSongStartTime(System.Single startTime)
-    // Offset: 0x1341B1C
+    // Offset: 0x145915C
     void SetSongStartTime(float startTime);
     // private System.Void InvokeSetSongStartTimeCallback(System.String userId, System.Single startTime)
-    // Offset: 0x1341B84
+    // Offset: 0x14591C4
     void InvokeSetSongStartTimeCallback(::Il2CppString* userId, float startTime);
     // public System.Void NoteCut(System.Single songTime, NoteCutInfoNetSerializable noteCutInfoNetSerializable)
-    // Offset: 0x1341D54
+    // Offset: 0x1459394
     void NoteCut(float songTime, GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfoNetSerializable);
     // private System.Void InvokeNoteWasCutCallback(System.String userId, System.Single syncTime, System.Single songTime, NoteCutInfoNetSerializable noteCutInfo)
-    // Offset: 0x1341DCC
+    // Offset: 0x145940C
     void InvokeNoteWasCutCallback(::Il2CppString* userId, float syncTime, float songTime, GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
     // public System.Void NoteMissed(System.Single songTime, NoteMissInfoNetSerializable noteMissInfoNetSerializable)
-    // Offset: 0x1341FAC
+    // Offset: 0x14595EC
     void NoteMissed(float songTime, GlobalNamespace::NoteMissInfoNetSerializable* noteMissInfoNetSerializable);
     // private System.Void InvokeNoteWasMissedCallback(System.String userId, System.Single syncTime, System.Single songTime, NoteMissInfoNetSerializable noteMissInfo)
-    // Offset: 0x1342024
+    // Offset: 0x1459664
     void InvokeNoteWasMissedCallback(::Il2CppString* userId, float syncTime, float songTime, GlobalNamespace::NoteMissInfoNetSerializable* noteMissInfo);
     // public System.Void LevelFinished(MultiplayerLevelCompletionResults results)
-    // Offset: 0x1342204
+    // Offset: 0x1459844
     void LevelFinished(GlobalNamespace::MultiplayerLevelCompletionResults* results);
     // private System.Void InvokeLevelFinishedCallback(System.String userId, MultiplayerLevelCompletionResults results)
-    // Offset: 0x134226C
+    // Offset: 0x14598AC
     void InvokeLevelFinishedCallback(::Il2CppString* userId, GlobalNamespace::MultiplayerLevelCompletionResults* results);
     // public System.Void ReturnToMenu()
-    // Offset: 0x1342430
+    // Offset: 0x1459A70
     void ReturnToMenu();
     // private System.Void InvokeReturnToMenuCallback(System.String userId)
-    // Offset: 0x1342488
+    // Offset: 0x1459AC8
     void InvokeReturnToMenuCallback(::Il2CppString* userId);
     // public System.Void RequestReturnToMenu()
-    // Offset: 0x1342644
+    // Offset: 0x1459C84
     void RequestReturnToMenu();
     // private System.Void InvokeRequestReturnToMenuCallback(System.String userId)
-    // Offset: 0x134269C
+    // Offset: 0x1459CDC
     void InvokeRequestReturnToMenuCallback(::Il2CppString* userId);
   }; // GameplayRpcManager
   #pragma pack(pop)

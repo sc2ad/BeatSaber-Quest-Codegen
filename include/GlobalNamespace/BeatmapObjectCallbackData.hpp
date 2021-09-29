@@ -36,9 +36,9 @@ namespace GlobalNamespace {
     // public System.Int32[] nextObjectIndexInLine
     // Size: 0x8
     // Offset: 0x18
-    ::Array<int>* nextObjectIndexInLine;
+    ::ArrayWrapper<int> nextObjectIndexInLine;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // public readonly BeatmapObjectCallback callback
     // Size: 0x8
     // Offset: 0x20
@@ -46,15 +46,15 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectCallback*) == 0x8);
     // Creating value type constructor for type: BeatmapObjectCallbackData
-    BeatmapObjectCallbackData(float aheadTime_ = {}, ::Array<int>* nextObjectIndexInLine_ = {}, GlobalNamespace::BeatmapObjectCallback* callback_ = {}) noexcept : aheadTime{aheadTime_}, nextObjectIndexInLine{nextObjectIndexInLine_}, callback{callback_} {}
+    BeatmapObjectCallbackData(float aheadTime_ = {}, ::ArrayWrapper<int> nextObjectIndexInLine_ = {}, GlobalNamespace::BeatmapObjectCallback* callback_ = {}) noexcept : aheadTime{aheadTime_}, nextObjectIndexInLine{nextObjectIndexInLine_}, callback{callback_} {}
     // Get instance field reference: public System.Single aheadTime
     float& dyn_aheadTime();
     // Get instance field reference: public System.Int32[] nextObjectIndexInLine
-    ::Array<int>*& dyn_nextObjectIndexInLine();
+    ::ArrayWrapper<int>& dyn_nextObjectIndexInLine();
     // Get instance field reference: public readonly BeatmapObjectCallback callback
     GlobalNamespace::BeatmapObjectCallback*& dyn_callback();
     // public System.Void .ctor(BeatmapObjectCallback callback, System.Single aheadTime, System.Int32 numberOfLines)
-    // Offset: 0x10CEFD0
+    // Offset: 0x12A05A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectCallbackData* New_ctor(GlobalNamespace::BeatmapObjectCallback* callback, float aheadTime, int numberOfLines) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectCallbackData::.ctor");

@@ -51,21 +51,21 @@ namespace GlobalNamespace {
     class $$c__DisplayClass8_0;
     // Nested type: GlobalNamespace::MainMenuDestinationRequestController::$ProcessDestinationRequest$d__8
     struct $ProcessDestinationRequest$d__8;
-    // [InjectAttribute] Offset: 0xE38DC0
+    // [InjectAttribute] Offset: 0xF01574
     // private readonly IDestinationRequestManager _destinationRequestManager
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::IDestinationRequestManager* destinationRequestManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IDestinationRequestManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE38DD0
+    // [InjectAttribute] Offset: 0xF01584
     // private readonly MenuScenesTransitionSetupDataSO _menuScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::MenuScenesTransitionSetupDataSO* menuScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE38DE0
+    // [InjectAttribute] Offset: 0xF01594
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
@@ -97,22 +97,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
     System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // public System.Void Initialize()
-    // Offset: 0x11A2C0C
+    // Offset: 0x1262548
     void Initialize();
     // public System.Void Dispose()
-    // Offset: 0x11A2EBC
+    // Offset: 0x12627F8
     void Dispose();
     // private System.Void HandleGameScenesManagerInstallEarlyBindings(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0x11A3054
+    // Offset: 0x1262990
     void HandleGameScenesManagerInstallEarlyBindings(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* container);
     // private System.Void HandleDestinationRequestManagerDidSendMenuDestinationRequest(MenuDestination menuDestination)
-    // Offset: 0x11A32E4
+    // Offset: 0x1262C20
     void HandleDestinationRequestManagerDidSendMenuDestinationRequest(GlobalNamespace::MenuDestination* menuDestination);
     // private System.Void ProcessDestinationRequest(MenuDestination menuDestination)
-    // Offset: 0x11A2DF4
+    // Offset: 0x1262730
     void ProcessDestinationRequest(GlobalNamespace::MenuDestination* menuDestination);
     // public System.Void .ctor()
-    // Offset: 0x11A32E8
+    // Offset: 0x1262C24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

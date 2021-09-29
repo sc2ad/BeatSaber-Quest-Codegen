@@ -67,9 +67,9 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // private readonly System.Byte[] macBuf
     // Size: 0x8
     // Offset: 0x30
-    ::Array<uint8_t>* macBuf;
+    ::ArrayWrapper<uint8_t> macBuf;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Boolean forEncryption
     // Size: 0x1
     // Offset: 0x38
@@ -97,7 +97,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::IesParameters*) == 0x8);
     // Creating value type constructor for type: IesEngine
-    IesEngine(Org::BouncyCastle::Crypto::IBasicAgreement* agree_ = {}, Org::BouncyCastle::Crypto::IDerivationFunction* kdf_ = {}, Org::BouncyCastle::Crypto::IMac* mac_ = {}, Org::BouncyCastle::Crypto::BufferedBlockCipher* cipher_ = {}, ::Array<uint8_t>* macBuf_ = {}, bool forEncryption_ = {}, Org::BouncyCastle::Crypto::ICipherParameters* privParam_ = {}, Org::BouncyCastle::Crypto::ICipherParameters* pubParam_ = {}, Org::BouncyCastle::Crypto::Parameters::IesParameters* param_ = {}) noexcept : agree{agree_}, kdf{kdf_}, mac{mac_}, cipher{cipher_}, macBuf{macBuf_}, forEncryption{forEncryption_}, privParam{privParam_}, pubParam{pubParam_}, param{param_} {}
+    IesEngine(Org::BouncyCastle::Crypto::IBasicAgreement* agree_ = {}, Org::BouncyCastle::Crypto::IDerivationFunction* kdf_ = {}, Org::BouncyCastle::Crypto::IMac* mac_ = {}, Org::BouncyCastle::Crypto::BufferedBlockCipher* cipher_ = {}, ::ArrayWrapper<uint8_t> macBuf_ = {}, bool forEncryption_ = {}, Org::BouncyCastle::Crypto::ICipherParameters* privParam_ = {}, Org::BouncyCastle::Crypto::ICipherParameters* pubParam_ = {}, Org::BouncyCastle::Crypto::Parameters::IesParameters* param_ = {}) noexcept : agree{agree_}, kdf{kdf_}, mac{mac_}, cipher{cipher_}, macBuf{macBuf_}, forEncryption{forEncryption_}, privParam{privParam_}, pubParam{pubParam_}, param{param_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IBasicAgreement agree
     Org::BouncyCastle::Crypto::IBasicAgreement*& dyn_agree();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IDerivationFunction kdf
@@ -107,7 +107,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.BufferedBlockCipher cipher
     Org::BouncyCastle::Crypto::BufferedBlockCipher*& dyn_cipher();
     // Get instance field reference: private readonly System.Byte[] macBuf
-    ::Array<uint8_t>*& dyn_macBuf();
+    ::ArrayWrapper<uint8_t>& dyn_macBuf();
     // Get instance field reference: private System.Boolean forEncryption
     bool& dyn_forEncryption();
     // Get instance field reference: private Org.BouncyCastle.Crypto.ICipherParameters privParam
@@ -117,24 +117,24 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.IesParameters param
     Org::BouncyCastle::Crypto::Parameters::IesParameters*& dyn_param();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBasicAgreement agree, Org.BouncyCastle.Crypto.IDerivationFunction kdf, Org.BouncyCastle.Crypto.IMac mac)
-    // Offset: 0x1E770A8
+    // Offset: 0x1FD1B34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IesEngine* New_ctor(Org::BouncyCastle::Crypto::IBasicAgreement* agree, Org::BouncyCastle::Crypto::IDerivationFunction* kdf, Org::BouncyCastle::Crypto::IMac* mac) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::IesEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IesEngine*, creationType>(agree, kdf, mac)));
     }
     // private System.Byte[] DecryptBlock(System.Byte[] in_enc, System.Int32 inOff, System.Int32 inLen, System.Byte[] z)
-    // Offset: 0x1E771A8
-    ::Array<uint8_t>* DecryptBlock(::Array<uint8_t>* in_enc, int inOff, int inLen, ::Array<uint8_t>* z);
+    // Offset: 0x1FD1C34
+    ::ArrayWrapper<uint8_t> DecryptBlock(::ArrayWrapper<uint8_t> in_enc, int inOff, int inLen, ::ArrayWrapper<uint8_t> z);
     // private System.Byte[] EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Int32 inLen, System.Byte[] z)
-    // Offset: 0x1E779BC
-    ::Array<uint8_t>* EncryptBlock(::Array<uint8_t>* input, int inOff, int inLen, ::Array<uint8_t>* z);
+    // Offset: 0x1FD2448
+    ::ArrayWrapper<uint8_t> EncryptBlock(::ArrayWrapper<uint8_t> input, int inOff, int inLen, ::ArrayWrapper<uint8_t> z);
     // private System.Byte[] GenerateKdfBytes(Org.BouncyCastle.Crypto.Parameters.KdfParameters kParam, System.Int32 length)
-    // Offset: 0x1E77850
-    ::Array<uint8_t>* GenerateKdfBytes(Org::BouncyCastle::Crypto::Parameters::KdfParameters* kParam, int length);
+    // Offset: 0x1FD22DC
+    ::ArrayWrapper<uint8_t> GenerateKdfBytes(Org::BouncyCastle::Crypto::Parameters::KdfParameters* kParam, int length);
     // public System.Byte[] ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x1E77FC0
-    ::Array<uint8_t>* ProcessBlock(::Array<uint8_t>* input, int inOff, int inLen);
+    // Offset: 0x1FD2A4C
+    ::ArrayWrapper<uint8_t> ProcessBlock(::ArrayWrapper<uint8_t> input, int inOff, int inLen);
   }; // Org.BouncyCastle.Crypto.Engines.IesEngine
   #pragma pack(pop)
   static check_size<sizeof(IesEngine), 80 + sizeof(Org::BouncyCastle::Crypto::Parameters::IesParameters*)> __Org_BouncyCastle_Crypto_Engines_IesEngineSizeCheck;
@@ -149,31 +149,31 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::IesEngine*, "Org.Boun
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::IesEngine::DecryptBlock
 // Il2CppName: DecryptBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Engines::IesEngine::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Engines::IesEngine::DecryptBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Engines::IesEngine::*)(::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Engines::IesEngine::DecryptBlock)> {
   static const MethodInfo* get() {
-    static auto* in_enc = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* in_enc = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* inLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* z = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::IesEngine*), "DecryptBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{in_enc, inOff, inLen, z});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::IesEngine::EncryptBlock
 // Il2CppName: EncryptBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Engines::IesEngine::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Engines::IesEngine::EncryptBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Engines::IesEngine::*)(::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Engines::IesEngine::EncryptBlock)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* inLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* z = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::IesEngine*), "EncryptBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, inOff, inLen, z});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::IesEngine::GenerateKdfBytes
 // Il2CppName: GenerateKdfBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Engines::IesEngine::*)(Org::BouncyCastle::Crypto::Parameters::KdfParameters*, int)>(&Org::BouncyCastle::Crypto::Engines::IesEngine::GenerateKdfBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Engines::IesEngine::*)(Org::BouncyCastle::Crypto::Parameters::KdfParameters*, int)>(&Org::BouncyCastle::Crypto::Engines::IesEngine::GenerateKdfBytes)> {
   static const MethodInfo* get() {
     static auto* kParam = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto.Parameters", "KdfParameters")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -183,9 +183,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::IesEngine::ProcessBlock
 // Il2CppName: ProcessBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Engines::IesEngine::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Engines::IesEngine::ProcessBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Engines::IesEngine::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Engines::IesEngine::ProcessBlock)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* inLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::IesEngine*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, inOff, inLen});

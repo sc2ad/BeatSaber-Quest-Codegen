@@ -37,21 +37,21 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.GenericPoser/RootMotion.FinalIK.Map[] maps
     // Size: 0x8
     // Offset: 0x50
-    ::Array<RootMotion::FinalIK::GenericPoser::Map*>* maps;
+    ::ArrayWrapper<RootMotion::FinalIK::GenericPoser::Map*> maps;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::GenericPoser::Map*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::GenericPoser::Map*>) == 0x8);
     // Creating value type constructor for type: GenericPoser
-    GenericPoser(::Array<RootMotion::FinalIK::GenericPoser::Map*>* maps_ = {}) noexcept : maps{maps_} {}
+    GenericPoser(::ArrayWrapper<RootMotion::FinalIK::GenericPoser::Map*> maps_ = {}) noexcept : maps{maps_} {}
     // Get instance field reference: public RootMotion.FinalIK.GenericPoser/RootMotion.FinalIK.Map[] maps
-    ::Array<RootMotion::FinalIK::GenericPoser::Map*>*& dyn_maps();
+    ::ArrayWrapper<RootMotion::FinalIK::GenericPoser::Map*>& dyn_maps();
     // private System.Void StoreDefaultState()
-    // Offset: 0x1CC3E64
+    // Offset: 0x1E87124
     void StoreDefaultState();
     // private UnityEngine.Transform GetTargetNamed(System.String tName, UnityEngine.Transform[] array)
-    // Offset: 0x1CC3D88
-    UnityEngine::Transform* GetTargetNamed(::Il2CppString* tName, ::Array<UnityEngine::Transform*>* array);
+    // Offset: 0x1E87048
+    UnityEngine::Transform* GetTargetNamed(::Il2CppString* tName, ::ArrayWrapper<UnityEngine::Transform*> array);
     // public System.Void .ctor()
-    // Offset: 0x1CC427C
+    // Offset: 0x1E8753C
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::.ctor()
     // Base method: System.Void SolverManager::.ctor()
@@ -66,28 +66,28 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<GenericPoser*, creationType>()));
     }
     // public override System.Void AutoMapping()
-    // Offset: 0x1CC3B40
+    // Offset: 0x1E86E00
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::AutoMapping()
     void AutoMapping();
     // protected override System.Void InitiatePoser()
-    // Offset: 0x1CC3ECC
+    // Offset: 0x1E8718C
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::InitiatePoser()
     void InitiatePoser();
     // protected override System.Void UpdatePoser()
-    // Offset: 0x1CC3ED0
+    // Offset: 0x1E87190
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::UpdatePoser()
     void UpdatePoser();
     // protected override System.Void FixPoserTransforms()
-    // Offset: 0x1CC4178
+    // Offset: 0x1E87438
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::FixPoserTransforms()
     void FixPoserTransforms();
   }; // RootMotion.FinalIK.GenericPoser
   #pragma pack(pop)
-  static check_size<sizeof(GenericPoser), 80 + sizeof(::Array<RootMotion::FinalIK::GenericPoser::Map*>*)> __RootMotion_FinalIK_GenericPoserSizeCheck;
+  static check_size<sizeof(GenericPoser), 80 + sizeof(::ArrayWrapper<RootMotion::FinalIK::GenericPoser::Map*>)> __RootMotion_FinalIK_GenericPoserSizeCheck;
   static_assert(sizeof(GenericPoser) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GenericPoser*, "RootMotion.FinalIK", "GenericPoser");
@@ -103,10 +103,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::GenericPoser::GetTargetNamed
 // Il2CppName: GetTargetNamed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (RootMotion::FinalIK::GenericPoser::*)(::Il2CppString*, ::Array<UnityEngine::Transform*>*)>(&RootMotion::FinalIK::GenericPoser::GetTargetNamed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (RootMotion::FinalIK::GenericPoser::*)(::Il2CppString*, ::ArrayWrapper<UnityEngine::Transform*>)>(&RootMotion::FinalIK::GenericPoser::GetTargetNamed)> {
   static const MethodInfo* get() {
     static auto* tName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::GenericPoser*), "GetTargetNamed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tName, array});
   }
 };

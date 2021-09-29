@@ -23,31 +23,31 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     // System.UInt32[] x
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint>* x;
+    ::ArrayWrapper<uint> x;
     // Field size check
-    static_assert(sizeof(::Array<uint>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
     // System.UInt32[] y
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint>* y;
+    ::ArrayWrapper<uint> y;
     // Field size check
-    static_assert(sizeof(::Array<uint>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
     // System.UInt32[] z
     // Size: 0x8
     // Offset: 0x20
-    ::Array<uint>* z;
+    ::ArrayWrapper<uint> z;
     // Field size check
-    static_assert(sizeof(::Array<uint>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
     // Creating value type constructor for type: PointExt
-    PointExt(::Array<uint>* x_ = {}, ::Array<uint>* y_ = {}, ::Array<uint>* z_ = {}) noexcept : x{x_}, y{y_}, z{z_} {}
+    PointExt(::ArrayWrapper<uint> x_ = {}, ::ArrayWrapper<uint> y_ = {}, ::ArrayWrapper<uint> z_ = {}) noexcept : x{x_}, y{y_}, z{z_} {}
     // Get instance field reference: System.UInt32[] x
-    ::Array<uint>*& dyn_x();
+    ::ArrayWrapper<uint>& dyn_x();
     // Get instance field reference: System.UInt32[] y
-    ::Array<uint>*& dyn_y();
+    ::ArrayWrapper<uint>& dyn_y();
     // Get instance field reference: System.UInt32[] z
-    ::Array<uint>*& dyn_z();
+    ::ArrayWrapper<uint>& dyn_z();
     // public System.Void .ctor()
-    // Offset: 0x1DD56C4
+    // Offset: 0x1F91668
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -57,7 +57,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     }
   }; // Org.BouncyCastle.Math.EC.Rfc8032.Ed448/Org.BouncyCastle.Math.EC.Rfc8032.PointExt
   #pragma pack(pop)
-  static check_size<sizeof(Ed448::PointExt), 32 + sizeof(::Array<uint>*)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed448_PointExtSizeCheck;
+  static check_size<sizeof(Ed448::PointExt), 32 + sizeof(::ArrayWrapper<uint>)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed448_PointExtSizeCheck;
   static_assert(sizeof(Ed448::PointExt) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed448/PointExt");

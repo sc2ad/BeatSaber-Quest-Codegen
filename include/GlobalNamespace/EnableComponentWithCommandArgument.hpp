@@ -47,10 +47,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Behaviour _component
     UnityEngine::Behaviour*& dyn__component();
     // private System.Void Awake()
-    // Offset: 0x1261F5C
+    // Offset: 0x137E764
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x1261FF8
+    // Offset: 0x137E800
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

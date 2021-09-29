@@ -33,15 +33,15 @@ namespace System {
     // private System.Object[] keys
     // Size: 0x8
     // Offset: 0x0
-    ::Array<::Il2CppObject*>* keys;
+    ::ArrayWrapper<::Il2CppObject*> keys;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
     // private System.Object[] items
     // Size: 0x8
     // Offset: 0x8
-    ::Array<::Il2CppObject*>* items;
+    ::ArrayWrapper<::Il2CppObject*> items;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
     // private System.Collections.IComparer comparer
     // Size: 0x8
     // Offset: 0x10
@@ -49,47 +49,47 @@ namespace System {
     // Field size check
     static_assert(sizeof(System::Collections::IComparer*) == 0x8);
     // Creating value type constructor for type: SorterObjectArray
-    constexpr SorterObjectArray(::Array<::Il2CppObject*>* keys_ = {}, ::Array<::Il2CppObject*>* items_ = {}, System::Collections::IComparer* comparer_ = {}) noexcept : keys{keys_}, items{items_}, comparer{comparer_} {}
+    constexpr SorterObjectArray(::ArrayWrapper<::Il2CppObject*> keys_ = {}, ::ArrayWrapper<::Il2CppObject*> items_ = {}, System::Collections::IComparer* comparer_ = {}) noexcept : keys{keys_}, items{items_}, comparer{comparer_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: private System.Object[] keys
-    ::Array<::Il2CppObject*>*& dyn_keys();
+    ::ArrayWrapper<::Il2CppObject*>& dyn_keys();
     // Get instance field reference: private System.Object[] items
-    ::Array<::Il2CppObject*>*& dyn_items();
+    ::ArrayWrapper<::Il2CppObject*>& dyn_items();
     // Get instance field reference: private System.Collections.IComparer comparer
     System::Collections::IComparer*& dyn_comparer();
     // System.Void .ctor(System.Object[] keys, System.Object[] items, System.Collections.IComparer comparer)
-    // Offset: 0x17D31C0
+    // Offset: 0x198BA28
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  SorterObjectArray(::Array<::Il2CppObject*>* keys, ::Array<::Il2CppObject*>* items, System::Collections::IComparer* comparer)
+    // ABORTED: conflicts with another method.  SorterObjectArray(::ArrayWrapper<::Il2CppObject*> keys, ::ArrayWrapper<::Il2CppObject*> items, System::Collections::IComparer* comparer)
     // System.Void SwapIfGreaterWithItems(System.Int32 a, System.Int32 b)
-    // Offset: 0x17D41BC
+    // Offset: 0x198CA24
     void SwapIfGreaterWithItems(int a, int b);
     // private System.Void Swap(System.Int32 i, System.Int32 j)
-    // Offset: 0x17D440C
+    // Offset: 0x198CC74
     void Swap(int i, int j);
     // System.Void Sort(System.Int32 left, System.Int32 length)
-    // Offset: 0x17D3254
+    // Offset: 0x198BABC
     void Sort(int left, int length);
     // private System.Void IntrospectiveSort(System.Int32 left, System.Int32 length)
-    // Offset: 0x17D4584
+    // Offset: 0x198CDEC
     void IntrospectiveSort(int left, int length);
     // private System.Void IntroSort(System.Int32 lo, System.Int32 hi, System.Int32 depthLimit)
-    // Offset: 0x17D4704
+    // Offset: 0x198CF6C
     void IntroSort(int lo, int hi, int depthLimit);
     // private System.Int32 PickPivotAndPartition(System.Int32 lo, System.Int32 hi)
-    // Offset: 0x17D4BA4
+    // Offset: 0x198D40C
     int PickPivotAndPartition(int lo, int hi);
     // private System.Void Heapsort(System.Int32 lo, System.Int32 hi)
-    // Offset: 0x17D4AF0
+    // Offset: 0x198D358
     void Heapsort(int lo, int hi);
     // private System.Void DownHeap(System.Int32 i, System.Int32 n, System.Int32 lo)
-    // Offset: 0x17D4DF0
+    // Offset: 0x198D658
     void DownHeap(int i, int n, int lo);
     // private System.Void InsertionSort(System.Int32 lo, System.Int32 hi)
-    // Offset: 0x17D4830
+    // Offset: 0x198D098
     void InsertionSort(int lo, int hi);
   }; // System.Array/System.SorterObjectArray
   #pragma pack(pop)

@@ -64,38 +64,38 @@ namespace System::Net {
     // Get instance field reference: private System.Net.HttpListener listener
     System::Net::HttpListener*& dyn_listener();
     // public System.Int32 get_Count()
-    // Offset: 0x1676794
+    // Offset: 0x1841B38
     int get_Count();
     // public System.Boolean get_IsReadOnly()
-    // Offset: 0x1677088
+    // Offset: 0x184242C
     bool get_IsReadOnly();
     // System.Void .ctor(System.Net.HttpListener listener)
-    // Offset: 0x16749D8
+    // Offset: 0x183FD7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerPrefixCollection* New_ctor(System::Net::HttpListener* listener) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpListenerPrefixCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerPrefixCollection*, creationType>(listener)));
     }
     // public System.Void Add(System.String uriPrefix)
-    // Offset: 0x1677090
+    // Offset: 0x1842434
     void Add(::Il2CppString* uriPrefix);
     // public System.Void Clear()
-    // Offset: 0x1677470
+    // Offset: 0x1842814
     void Clear();
     // public System.Boolean Contains(System.String uriPrefix)
-    // Offset: 0x167751C
+    // Offset: 0x18428C0
     bool Contains(::Il2CppString* uriPrefix);
     // public System.Void CopyTo(System.String[] array, System.Int32 offset)
-    // Offset: 0x1677590
-    void CopyTo(::Array<::Il2CppString*>* array, int offset);
+    // Offset: 0x1842934
+    void CopyTo(::ArrayWrapper<::Il2CppString*> array, int offset);
     // public System.Collections.Generic.IEnumerator`1<System.String> GetEnumerator()
-    // Offset: 0x167760C
+    // Offset: 0x18429B0
     System::Collections::Generic::IEnumerator_1<::Il2CppString*>* GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1677698
+    // Offset: 0x1842A3C
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Boolean Remove(System.String uriPrefix)
-    // Offset: 0x1677724
+    // Offset: 0x1842AC8
     bool Remove(::Il2CppString* uriPrefix);
   }; // System.Net.HttpListenerPrefixCollection
   #pragma pack(pop)
@@ -153,9 +153,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::HttpListenerPrefixCollection::CopyTo
 // Il2CppName: CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerPrefixCollection::*)(::Array<::Il2CppString*>*, int)>(&System::Net::HttpListenerPrefixCollection::CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerPrefixCollection::*)(::ArrayWrapper<::Il2CppString*>, int)>(&System::Net::HttpListenerPrefixCollection::CopyTo)> {
   static const MethodInfo* get() {
-    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerPrefixCollection*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array, offset});
   }

@@ -154,9 +154,9 @@ namespace System {
     // private System.Char[] buffer
     // Size: 0x8
     // Offset: 0x80
-    ::Array<::Il2CppChar>* buffer;
+    ::ArrayWrapper<::Il2CppChar> buffer;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppChar>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
     // private System.Int32 readpos
     // Size: 0x4
     // Offset: 0x88
@@ -282,15 +282,15 @@ namespace System {
     // private System.Byte[] control_characters
     // Size: 0x8
     // Offset: 0x108
-    ::Array<uint8_t>* control_characters;
+    ::ArrayWrapper<uint8_t> control_characters;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Char[] echobuf
     // Size: 0x8
     // Offset: 0x110
-    ::Array<::Il2CppChar>* echobuf;
+    ::ArrayWrapper<::Il2CppChar> echobuf;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppChar>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
     // private System.Int32 echon
     // Size: 0x4
     // Offset: 0x118
@@ -298,7 +298,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: TermInfoDriver
-    TermInfoDriver(System::TermInfoReader* reader_ = {}, int cursorLeft_ = {}, int cursorTop_ = {}, ::Il2CppString* title_ = {}, ::Il2CppString* titleFormat_ = {}, bool cursorVisible_ = {}, ::Il2CppString* csrVisible_ = {}, ::Il2CppString* csrInvisible_ = {}, ::Il2CppString* clear_ = {}, ::Il2CppString* bell_ = {}, ::Il2CppString* term_ = {}, System::IO::StreamReader* stdin_ = {}, System::IO::CStreamWriter* stdout_ = {}, int windowWidth_ = {}, int windowHeight_ = {}, int bufferHeight_ = {}, int bufferWidth_ = {}, ::Array<::Il2CppChar>* buffer_ = {}, int readpos_ = {}, int writepos_ = {}, ::Il2CppString* keypadXmit_ = {}, ::Il2CppString* keypadLocal_ = {}, bool inited_ = {}, ::Il2CppObject* initLock_ = {}, bool initKeys_ = {}, ::Il2CppString* origPair_ = {}, ::Il2CppString* origColors_ = {}, ::Il2CppString* cursorAddress_ = {}, System::ConsoleColor fgcolor_ = {}, ::Il2CppString* setfgcolor_ = {}, ::Il2CppString* setbgcolor_ = {}, int maxColors_ = {}, bool noGetPosition_ = {}, System::Collections::Hashtable* keymap_ = {}, System::ByteMatcher* rootmap_ = {}, int rl_startx_ = {}, int rl_starty_ = {}, ::Array<uint8_t>* control_characters_ = {}, ::Array<::Il2CppChar>* echobuf_ = {}, int echon_ = {}) noexcept : reader{reader_}, cursorLeft{cursorLeft_}, cursorTop{cursorTop_}, title{title_}, titleFormat{titleFormat_}, cursorVisible{cursorVisible_}, csrVisible{csrVisible_}, csrInvisible{csrInvisible_}, clear{clear_}, bell{bell_}, term{term_}, stdin{stdin_}, stdout{stdout_}, windowWidth{windowWidth_}, windowHeight{windowHeight_}, bufferHeight{bufferHeight_}, bufferWidth{bufferWidth_}, buffer{buffer_}, readpos{readpos_}, writepos{writepos_}, keypadXmit{keypadXmit_}, keypadLocal{keypadLocal_}, inited{inited_}, initLock{initLock_}, initKeys{initKeys_}, origPair{origPair_}, origColors{origColors_}, cursorAddress{cursorAddress_}, fgcolor{fgcolor_}, setfgcolor{setfgcolor_}, setbgcolor{setbgcolor_}, maxColors{maxColors_}, noGetPosition{noGetPosition_}, keymap{keymap_}, rootmap{rootmap_}, rl_startx{rl_startx_}, rl_starty{rl_starty_}, control_characters{control_characters_}, echobuf{echobuf_}, echon{echon_} {}
+    TermInfoDriver(System::TermInfoReader* reader_ = {}, int cursorLeft_ = {}, int cursorTop_ = {}, ::Il2CppString* title_ = {}, ::Il2CppString* titleFormat_ = {}, bool cursorVisible_ = {}, ::Il2CppString* csrVisible_ = {}, ::Il2CppString* csrInvisible_ = {}, ::Il2CppString* clear_ = {}, ::Il2CppString* bell_ = {}, ::Il2CppString* term_ = {}, System::IO::StreamReader* stdin_ = {}, System::IO::CStreamWriter* stdout_ = {}, int windowWidth_ = {}, int windowHeight_ = {}, int bufferHeight_ = {}, int bufferWidth_ = {}, ::ArrayWrapper<::Il2CppChar> buffer_ = {}, int readpos_ = {}, int writepos_ = {}, ::Il2CppString* keypadXmit_ = {}, ::Il2CppString* keypadLocal_ = {}, bool inited_ = {}, ::Il2CppObject* initLock_ = {}, bool initKeys_ = {}, ::Il2CppString* origPair_ = {}, ::Il2CppString* origColors_ = {}, ::Il2CppString* cursorAddress_ = {}, System::ConsoleColor fgcolor_ = {}, ::Il2CppString* setfgcolor_ = {}, ::Il2CppString* setbgcolor_ = {}, int maxColors_ = {}, bool noGetPosition_ = {}, System::Collections::Hashtable* keymap_ = {}, System::ByteMatcher* rootmap_ = {}, int rl_startx_ = {}, int rl_starty_ = {}, ::ArrayWrapper<uint8_t> control_characters_ = {}, ::ArrayWrapper<::Il2CppChar> echobuf_ = {}, int echon_ = {}) noexcept : reader{reader_}, cursorLeft{cursorLeft_}, cursorTop{cursorTop_}, title{title_}, titleFormat{titleFormat_}, cursorVisible{cursorVisible_}, csrVisible{csrVisible_}, csrInvisible{csrInvisible_}, clear{clear_}, bell{bell_}, term{term_}, stdin{stdin_}, stdout{stdout_}, windowWidth{windowWidth_}, windowHeight{windowHeight_}, bufferHeight{bufferHeight_}, bufferWidth{bufferWidth_}, buffer{buffer_}, readpos{readpos_}, writepos{writepos_}, keypadXmit{keypadXmit_}, keypadLocal{keypadLocal_}, inited{inited_}, initLock{initLock_}, initKeys{initKeys_}, origPair{origPair_}, origColors{origColors_}, cursorAddress{cursorAddress_}, fgcolor{fgcolor_}, setfgcolor{setfgcolor_}, setbgcolor{setbgcolor_}, maxColors{maxColors_}, noGetPosition{noGetPosition_}, keymap{keymap_}, rootmap{rootmap_}, rl_startx{rl_startx_}, rl_starty{rl_starty_}, control_characters{control_characters_}, echobuf{echobuf_}, echon{echon_} {}
     // Creating interface conversion operator: operator System::IConsoleDriver
     operator System::IConsoleDriver() noexcept {
       return *reinterpret_cast<System::IConsoleDriver*>(this);
@@ -312,13 +312,13 @@ namespace System {
     // Set static field: static private System.Int32 terminal_size
     static void _set_terminal_size(int value);
     // Get static field: static private readonly System.String[] locations
-    static ::Array<::Il2CppString*>* _get_locations();
+    static ::ArrayWrapper<::Il2CppString*> _get_locations();
     // Set static field: static private readonly System.String[] locations
-    static void _set_locations(::Array<::Il2CppString*>* value);
+    static void _set_locations(::ArrayWrapper<::Il2CppString*> value);
     // Get static field: static private readonly System.Int32[] _consoleColorToAnsiCode
-    static ::Array<int>* _get__consoleColorToAnsiCode();
+    static ::ArrayWrapper<int> _get__consoleColorToAnsiCode();
     // Set static field: static private readonly System.Int32[] _consoleColorToAnsiCode
-    static void _set__consoleColorToAnsiCode(::Array<int>* value);
+    static void _set__consoleColorToAnsiCode(::ArrayWrapper<int> value);
     // Get instance field reference: private System.TermInfoReader reader
     System::TermInfoReader*& dyn_reader();
     // Get instance field reference: private System.Int32 cursorLeft
@@ -354,7 +354,7 @@ namespace System {
     // Get instance field reference: private System.Int32 bufferWidth
     int& dyn_bufferWidth();
     // Get instance field reference: private System.Char[] buffer
-    ::Array<::Il2CppChar>*& dyn_buffer();
+    ::ArrayWrapper<::Il2CppChar>& dyn_buffer();
     // Get instance field reference: private System.Int32 readpos
     int& dyn_readpos();
     // Get instance field reference: private System.Int32 writepos
@@ -394,116 +394,116 @@ namespace System {
     // Get instance field reference: private System.Int32 rl_starty
     int& dyn_rl_starty();
     // Get instance field reference: private System.Byte[] control_characters
-    ::Array<uint8_t>*& dyn_control_characters();
+    ::ArrayWrapper<uint8_t>& dyn_control_characters();
     // Get instance field reference: private System.Char[] echobuf
-    ::Array<::Il2CppChar>*& dyn_echobuf();
+    ::ArrayWrapper<::Il2CppChar>& dyn_echobuf();
     // Get instance field reference: private System.Int32 echon
     int& dyn_echon();
     // public System.Boolean get_Initialized()
-    // Offset: 0x1C39720
+    // Offset: 0x1DF158C
     bool get_Initialized();
     // public System.Int32 get_WindowHeight()
-    // Offset: 0x1C3A210
+    // Offset: 0x1DF207C
     int get_WindowHeight();
     // public System.Int32 get_WindowWidth()
-    // Offset: 0x1C3A1D8
+    // Offset: 0x1DF2044
     int get_WindowWidth();
     // public System.Void .ctor(System.String term)
-    // Offset: 0x1C390DC
+    // Offset: 0x1DF0F48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TermInfoDriver* New_ctor(::Il2CppString* term) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TermInfoDriver::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TermInfoDriver*, creationType>(term)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1C3D700
+    // Offset: 0x1DF556C
     static void _cctor();
     // static private System.String TryTermInfoDir(System.String dir, System.String term)
-    // Offset: 0x1C38DF8
+    // Offset: 0x1DF0C64
     static ::Il2CppString* TryTermInfoDir(::Il2CppString* dir, ::Il2CppString* term);
     // static private System.String SearchTerminfo(System.String term)
-    // Offset: 0x1C38F3C
+    // Offset: 0x1DF0DA8
     static ::Il2CppString* SearchTerminfo(::Il2CppString* term);
     // private System.Void WriteConsole(System.String str)
-    // Offset: 0x1C390B8
+    // Offset: 0x1DF0F24
     void WriteConsole(::Il2CppString* str);
     // public System.Void Init()
-    // Offset: 0x1C39728
+    // Offset: 0x1DF1594
     void Init();
     // private System.Void IncrementX()
-    // Offset: 0x1C3A168
+    // Offset: 0x1DF1FD4
     void IncrementX();
     // public System.Void WriteSpecialKey(System.ConsoleKeyInfo key)
-    // Offset: 0x1C3A248
+    // Offset: 0x1DF20B4
     void WriteSpecialKey(System::ConsoleKeyInfo key);
     // public System.Void WriteSpecialKey(System.Char c)
-    // Offset: 0x1C3A520
+    // Offset: 0x1DF238C
     void WriteSpecialKey(::Il2CppChar c);
     // public System.Boolean IsSpecialKey(System.ConsoleKeyInfo key)
-    // Offset: 0x1C3A6D8
+    // Offset: 0x1DF2544
     bool IsSpecialKey(System::ConsoleKeyInfo key);
     // public System.Boolean IsSpecialKey(System.Char c)
-    // Offset: 0x1C3A760
+    // Offset: 0x1DF25CC
     bool IsSpecialKey(::Il2CppChar c);
     // private System.Void GetCursorPosition()
-    // Offset: 0x1C39EB8
+    // Offset: 0x1DF1D24
     void GetCursorPosition();
     // private System.Void CheckWindowDimensions()
-    // Offset: 0x1C3A8A4
+    // Offset: 0x1DF2710
     void CheckWindowDimensions();
     // private System.Void AddToBuffer(System.Int32 b)
-    // Offset: 0x1C3A794
+    // Offset: 0x1DF2600
     void AddToBuffer(int b);
     // private System.Void AdjustBuffer()
-    // Offset: 0x1C3AA04
+    // Offset: 0x1DF2870
     void AdjustBuffer();
     // private System.ConsoleKeyInfo CreateKeyInfoFromInt(System.Int32 n, System.Boolean alt)
-    // Offset: 0x1C3A554
+    // Offset: 0x1DF23C0
     System::ConsoleKeyInfo CreateKeyInfoFromInt(int n, bool alt);
     // private System.Object GetKeyFromBuffer(System.Boolean cooked)
-    // Offset: 0x1C3AA18
+    // Offset: 0x1DF2884
     ::Il2CppObject* GetKeyFromBuffer(bool cooked);
     // private System.ConsoleKeyInfo ReadKeyInternal(out System.Boolean fresh)
-    // Offset: 0x1C3AD04
+    // Offset: 0x1DF2B70
     System::ConsoleKeyInfo ReadKeyInternal(ByRef<bool> fresh);
     // private System.Boolean InputPending()
-    // Offset: 0x1C3B03C
+    // Offset: 0x1DF2EA8
     bool InputPending();
     // private System.Void QueueEcho(System.Char c)
-    // Offset: 0x1C3B06C
+    // Offset: 0x1DF2ED8
     void QueueEcho(::Il2CppChar c);
     // private System.Void Echo(System.ConsoleKeyInfo key)
-    // Offset: 0x1C3B164
+    // Offset: 0x1DF2FD0
     void Echo(System::ConsoleKeyInfo key);
     // private System.Void EchoFlush()
-    // Offset: 0x1C3B1C8
+    // Offset: 0x1DF3034
     void EchoFlush();
     // public System.Int32 Read(in System.Char[] dest, System.Int32 index, System.Int32 count)
-    // Offset: 0x1C3B208
-    int Read(ByRef<::Array<::Il2CppChar>*> dest, int index, int count);
+    // Offset: 0x1DF3074
+    int Read(ByRef<::ArrayWrapper<::Il2CppChar>> dest, int index, int count);
     // public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
-    // Offset: 0x1C3B52C
+    // Offset: 0x1DF3398
     System::ConsoleKeyInfo ReadKey(bool intercept);
     // public System.String ReadLine()
-    // Offset: 0x1C3B594
+    // Offset: 0x1DF3400
     ::Il2CppString* ReadLine();
     // public System.String ReadToEnd()
-    // Offset: 0x1C3B784
+    // Offset: 0x1DF35F0
     ::Il2CppString* ReadToEnd();
     // private System.String ReadUntilConditionInternal(System.Boolean haltOnNewLine)
-    // Offset: 0x1C3B59C
+    // Offset: 0x1DF3408
     ::Il2CppString* ReadUntilConditionInternal(bool haltOnNewLine);
     // public System.Void SetCursorPosition(System.Int32 left, System.Int32 top)
-    // Offset: 0x1C3A370
+    // Offset: 0x1DF21DC
     void SetCursorPosition(int left, int top);
     // private System.Void CreateKeyMap()
-    // Offset: 0x1C3B78C
+    // Offset: 0x1DF35F8
     void CreateKeyMap();
     // private System.Void InitKeys()
-    // Offset: 0x1C3AED8
+    // Offset: 0x1DF2D44
     void InitKeys();
     // private System.Void AddStringMapping(System.TermInfoStrings s)
-    // Offset: 0x1C3D614
+    // Offset: 0x1DF5480
     void AddStringMapping(System::TermInfoStrings s);
   }; // System.TermInfoDriver
   #pragma pack(pop)
@@ -726,9 +726,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::TermInfoDriver::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TermInfoDriver::*)(ByRef<::Array<::Il2CppChar>*>, int, int)>(&System::TermInfoDriver::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TermInfoDriver::*)(ByRef<::ArrayWrapper<::Il2CppChar>>, int, int)>(&System::TermInfoDriver::Read)> {
   static const MethodInfo* get() {
-    static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->this_arg;
+    static auto* dest = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->this_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dest, index, count});

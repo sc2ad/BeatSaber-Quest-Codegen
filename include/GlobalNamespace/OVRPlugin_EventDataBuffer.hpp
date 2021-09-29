@@ -32,11 +32,11 @@ namespace GlobalNamespace {
     // public System.Byte[] EventData
     // Size: 0x8
     // Offset: 0x8
-    ::Array<uint8_t>* EventData;
+    ::ArrayWrapper<uint8_t> EventData;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: EventDataBuffer
-    constexpr EventDataBuffer(GlobalNamespace::OVRPlugin::EventType EventType_ = {}, ::Array<uint8_t>* EventData_ = {}) noexcept : EventType{EventType_}, EventData{EventData_} {}
+    constexpr EventDataBuffer(GlobalNamespace::OVRPlugin::EventType EventType_ = {}, ::ArrayWrapper<uint8_t> EventData_ = {}) noexcept : EventType{EventType_}, EventData{EventData_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -44,10 +44,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRPlugin/EventType EventType
     GlobalNamespace::OVRPlugin::EventType& dyn_EventType();
     // Get instance field reference: public System.Byte[] EventData
-    ::Array<uint8_t>*& dyn_EventData();
+    ::ArrayWrapper<uint8_t>& dyn_EventData();
   }; // OVRPlugin/EventDataBuffer
   #pragma pack(pop)
-  static check_size<sizeof(OVRPlugin::EventDataBuffer), 8 + sizeof(::Array<uint8_t>*)> __GlobalNamespace_OVRPlugin_EventDataBufferSizeCheck;
+  static check_size<sizeof(OVRPlugin::EventDataBuffer), 8 + sizeof(::ArrayWrapper<uint8_t>)> __GlobalNamespace_OVRPlugin_EventDataBufferSizeCheck;
   static_assert(sizeof(OVRPlugin::EventDataBuffer) == 0x10);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

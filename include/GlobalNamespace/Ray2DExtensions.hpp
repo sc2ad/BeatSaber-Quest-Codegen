@@ -27,8 +27,8 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Ray2DExtensions
     Ray2DExtensions() noexcept {}
     // static public System.Int32 CircleIntersections(UnityEngine.Ray2D ray, UnityEngine.Vector2 circleCenter, System.Single radius, System.Single[] distances)
-    // Offset: 0x1270318
-    static int CircleIntersections(UnityEngine::Ray2D ray, UnityEngine::Vector2 circleCenter, float radius, ::Array<float>* distances);
+    // Offset: 0x138CB20
+    static int CircleIntersections(UnityEngine::Ray2D ray, UnityEngine::Vector2 circleCenter, float radius, ::ArrayWrapper<float> distances);
   }; // Ray2DExtensions
   #pragma pack(pop)
 }
@@ -38,12 +38,12 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Ray2DExtensions*, "", "Ray2DExtensions")
 // Writing MetadataGetter for method: GlobalNamespace::Ray2DExtensions::CircleIntersections
 // Il2CppName: CircleIntersections
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Ray2D, UnityEngine::Vector2, float, ::Array<float>*)>(&GlobalNamespace::Ray2DExtensions::CircleIntersections)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Ray2D, UnityEngine::Vector2, float, ::ArrayWrapper<float>)>(&GlobalNamespace::Ray2DExtensions::CircleIntersections)> {
   static const MethodInfo* get() {
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray2D")->byval_arg;
     static auto* circleCenter = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    static auto* distances = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
+    static auto* distances = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Ray2DExtensions*), "CircleIntersections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ray, circleCenter, radius, distances});
   }
 };

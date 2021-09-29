@@ -34,9 +34,9 @@ namespace GlobalNamespace {
     // public OVRPlugin/Vector3f[] Points
     // Size: 0x8
     // Offset: 0x8
-    ::Array<GlobalNamespace::OVRPlugin::Vector3f>* Points;
+    ::ArrayWrapper<GlobalNamespace::OVRPlugin::Vector3f> Points;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::OVRPlugin::Vector3f>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::OVRPlugin::Vector3f>) == 0x8);
     // public System.Int32 PointsCount
     // Size: 0x4
     // Offset: 0x10
@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: BoundaryGeometry
-    constexpr BoundaryGeometry(GlobalNamespace::OVRPlugin::BoundaryType BoundaryType_ = {}, ::Array<GlobalNamespace::OVRPlugin::Vector3f>* Points_ = {}, int PointsCount_ = {}) noexcept : BoundaryType{BoundaryType_}, Points{Points_}, PointsCount{PointsCount_} {}
+    constexpr BoundaryGeometry(GlobalNamespace::OVRPlugin::BoundaryType BoundaryType_ = {}, ::ArrayWrapper<GlobalNamespace::OVRPlugin::Vector3f> Points_ = {}, int PointsCount_ = {}) noexcept : BoundaryType{BoundaryType_}, Points{Points_}, PointsCount{PointsCount_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRPlugin/BoundaryType BoundaryType
     GlobalNamespace::OVRPlugin::BoundaryType& dyn_BoundaryType();
     // Get instance field reference: public OVRPlugin/Vector3f[] Points
-    ::Array<GlobalNamespace::OVRPlugin::Vector3f>*& dyn_Points();
+    ::ArrayWrapper<GlobalNamespace::OVRPlugin::Vector3f>& dyn_Points();
     // Get instance field reference: public System.Int32 PointsCount
     int& dyn_PointsCount();
   }; // OVRPlugin/BoundaryGeometry

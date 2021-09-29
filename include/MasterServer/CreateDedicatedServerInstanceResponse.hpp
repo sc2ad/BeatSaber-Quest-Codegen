@@ -166,38 +166,38 @@ namespace MasterServer {
     // Get instance field reference: public readonly ByteArrayNetSerializable publicKey
     GlobalNamespace::ByteArrayNetSerializable*& dyn_publicKey();
     // static public PacketPool`1<MasterServer.CreateDedicatedServerInstanceResponse> get_pool()
-    // Offset: 0x121BBD4
+    // Offset: 0x12DAF74
     static GlobalNamespace::PacketPool_1<MasterServer::CreateDedicatedServerInstanceResponse*>* get_pool();
     // public System.String get_dedicatedServerId()
-    // Offset: 0x121BCB4
+    // Offset: 0x12DB054
     ::Il2CppString* get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x121BCBC
+    // Offset: 0x12DB05C
     void set_dedicatedServerId(::Il2CppString* value);
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x121BCC4
+    // Offset: 0x12DB064
     int64_t get_dedicatedServerCreationTime();
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x121BCCC
+    // Offset: 0x12DB06C
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.CreateDedicatedServerInstanceResponse InitForFailure(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, MasterServer.CreateDedicatedServerInstanceResponse/MasterServer.Result result)
-    // Offset: 0x121BF1C
+    // Offset: 0x12DB2BC
     MasterServer::CreateDedicatedServerInstanceResponse* InitForFailure(::Il2CppString* dedicatedServerId, int64_t dedicatedServerCreationTime, MasterServer::CreateDedicatedServerInstanceResponse::Result result);
     // public MasterServer.CreateDedicatedServerInstanceResponse InitForSuccess(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.String id, System.Int32 port, System.Byte[] random, System.Byte[] publicKey, System.Int32 maxPlayerCount)
-    // Offset: 0x121BF28
-    MasterServer::CreateDedicatedServerInstanceResponse* InitForSuccess(::Il2CppString* dedicatedServerId, int64_t dedicatedServerCreationTime, ::Il2CppString* id, int port, ::Array<uint8_t>* random, ::Array<uint8_t>* publicKey, int maxPlayerCount);
+    // Offset: 0x12DB2C8
+    MasterServer::CreateDedicatedServerInstanceResponse* InitForSuccess(::Il2CppString* dedicatedServerId, int64_t dedicatedServerCreationTime, ::Il2CppString* id, int port, ::ArrayWrapper<uint8_t> random, ::ArrayWrapper<uint8_t> publicKey, int maxPlayerCount);
     // public override System.Byte get_resultCode()
-    // Offset: 0x121BC1C
+    // Offset: 0x12DAFBC
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Byte BaseMasterServerReliableResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x121BC24
+    // Offset: 0x12DAFC4
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.String BaseMasterServerReliableResponse::get_resultCodeString()
     ::Il2CppString* get_resultCodeString();
     // public System.Void .ctor()
-    // Offset: 0x121BF88
+    // Offset: 0x12DB328
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -207,17 +207,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<CreateDedicatedServerInstanceResponse*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x121BCD4
+    // Offset: 0x12DB074
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x121BDD4
+    // Offset: 0x12DB174
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x121BEA0
+    // Offset: 0x12DB240
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();
@@ -285,14 +285,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
 // Writing MetadataGetter for method: MasterServer::CreateDedicatedServerInstanceResponse::InitForSuccess
 // Il2CppName: InitForSuccess
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::CreateDedicatedServerInstanceResponse* (MasterServer::CreateDedicatedServerInstanceResponse::*)(::Il2CppString*, int64_t, ::Il2CppString*, int, ::Array<uint8_t>*, ::Array<uint8_t>*, int)>(&MasterServer::CreateDedicatedServerInstanceResponse::InitForSuccess)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::CreateDedicatedServerInstanceResponse* (MasterServer::CreateDedicatedServerInstanceResponse::*)(::Il2CppString*, int64_t, ::Il2CppString*, int, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, int)>(&MasterServer::CreateDedicatedServerInstanceResponse::InitForSuccess)> {
   static const MethodInfo* get() {
     static auto* dedicatedServerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dedicatedServerCreationTime = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* random = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* publicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* random = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* publicKey = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* maxPlayerCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::CreateDedicatedServerInstanceResponse*), "InitForSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dedicatedServerId, dedicatedServerCreationTime, id, port, random, publicKey, maxPlayerCount});
   }

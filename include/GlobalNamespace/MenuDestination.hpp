@@ -21,7 +21,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MenuDestination
     MenuDestination() noexcept {}
     // protected System.Void .ctor()
-    // Offset: 0x11A7AC8
+    // Offset: 0x117FBA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

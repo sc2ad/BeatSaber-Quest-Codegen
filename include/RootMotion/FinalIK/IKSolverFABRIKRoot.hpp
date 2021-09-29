@@ -38,7 +38,7 @@ namespace RootMotion::FinalIK {
     int iterations;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [RangeAttribute] Offset: 0xE2C9C4
+    // [RangeAttribute] Offset: 0xEF319C
     // public System.Single rootPin
     // Size: 0x4
     // Offset: 0x5C
@@ -48,9 +48,9 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.FABRIKChain[] chains
     // Size: 0x8
     // Offset: 0x60
-    ::Array<RootMotion::FinalIK::FABRIKChain*>* chains;
+    ::ArrayWrapper<RootMotion::FinalIK::FABRIKChain*> chains;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::FABRIKChain*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::FABRIKChain*>) == 0x8);
     // private System.Boolean zeroWeightApplied
     // Size: 0x1
     // Offset: 0x68
@@ -62,9 +62,9 @@ namespace RootMotion::FinalIK {
     // private System.Boolean[] isRoot
     // Size: 0x8
     // Offset: 0x70
-    ::Array<bool>* isRoot;
+    ::ArrayWrapper<bool> isRoot;
     // Field size check
-    static_assert(sizeof(::Array<bool>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<bool>) == 0x8);
     // private UnityEngine.Vector3 rootDefaultPosition
     // Size: 0xC
     // Offset: 0x78
@@ -72,30 +72,30 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: IKSolverFABRIKRoot
-    IKSolverFABRIKRoot(int iterations_ = {}, float rootPin_ = {}, ::Array<RootMotion::FinalIK::FABRIKChain*>* chains_ = {}, bool zeroWeightApplied_ = {}, ::Array<bool>* isRoot_ = {}, UnityEngine::Vector3 rootDefaultPosition_ = {}) noexcept : iterations{iterations_}, rootPin{rootPin_}, chains{chains_}, zeroWeightApplied{zeroWeightApplied_}, isRoot{isRoot_}, rootDefaultPosition{rootDefaultPosition_} {}
+    IKSolverFABRIKRoot(int iterations_ = {}, float rootPin_ = {}, ::ArrayWrapper<RootMotion::FinalIK::FABRIKChain*> chains_ = {}, bool zeroWeightApplied_ = {}, ::ArrayWrapper<bool> isRoot_ = {}, UnityEngine::Vector3 rootDefaultPosition_ = {}) noexcept : iterations{iterations_}, rootPin{rootPin_}, chains{chains_}, zeroWeightApplied{zeroWeightApplied_}, isRoot{isRoot_}, rootDefaultPosition{rootDefaultPosition_} {}
     // Get instance field reference: public System.Int32 iterations
     int& dyn_iterations();
     // Get instance field reference: public System.Single rootPin
     float& dyn_rootPin();
     // Get instance field reference: public RootMotion.FinalIK.FABRIKChain[] chains
-    ::Array<RootMotion::FinalIK::FABRIKChain*>*& dyn_chains();
+    ::ArrayWrapper<RootMotion::FinalIK::FABRIKChain*>& dyn_chains();
     // Get instance field reference: private System.Boolean zeroWeightApplied
     bool& dyn_zeroWeightApplied();
     // Get instance field reference: private System.Boolean[] isRoot
-    ::Array<bool>*& dyn_isRoot();
+    ::ArrayWrapper<bool>& dyn_isRoot();
     // Get instance field reference: private UnityEngine.Vector3 rootDefaultPosition
     UnityEngine::Vector3& dyn_rootDefaultPosition();
     // private System.Boolean IsRoot(System.Int32 index)
-    // Offset: 0x1CB0600
+    // Offset: 0x1E62660
     bool IsRoot(int index);
     // private System.Void AddPointsToArray(ref RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point[] array, RootMotion.FinalIK.FABRIKChain chain)
-    // Offset: 0x1CB0CB4
-    void AddPointsToArray(ByRef<::Array<RootMotion::FinalIK::IKSolver::Point*>*> array, RootMotion::FinalIK::FABRIKChain* chain);
+    // Offset: 0x1E62D14
+    void AddPointsToArray(ByRef<::ArrayWrapper<RootMotion::FinalIK::IKSolver::Point*>> array, RootMotion::FinalIK::FABRIKChain* chain);
     // private UnityEngine.Vector3 GetCentroid()
-    // Offset: 0x1CB08D0
+    // Offset: 0x1E62930
     UnityEngine::Vector3 GetCentroid();
     // public System.Void .ctor()
-    // Offset: 0x1CB0E9C
+    // Offset: 0x1E62EFC
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -105,37 +105,37 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverFABRIKRoot*, creationType>()));
     }
     // public override System.Boolean IsValid(ref System.String message)
-    // Offset: 0x1CAFAFC
+    // Offset: 0x1E61B5C
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Boolean IKSolver::IsValid(ref System.String message)
     bool IsValid(ByRef<::Il2CppString*> message);
     // public override System.Void StoreDefaultLocalState()
-    // Offset: 0x1CB03C8
+    // Offset: 0x1E62428
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::StoreDefaultLocalState()
     void StoreDefaultLocalState();
     // public override System.Void FixTransforms()
-    // Offset: 0x1CB0460
+    // Offset: 0x1E624C0
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::FixTransforms()
     void FixTransforms();
     // protected override System.Void OnInitiate()
-    // Offset: 0x1CB0500
+    // Offset: 0x1E62560
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnInitiate()
     void OnInitiate();
     // protected override System.Void OnUpdate()
-    // Offset: 0x1CB069C
+    // Offset: 0x1E626FC
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnUpdate()
     void OnUpdate();
     // public override RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point[] GetPoints()
-    // Offset: 0x1CB0C04
+    // Offset: 0x1E62C64
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point[] IKSolver::GetPoints()
-    ::Array<RootMotion::FinalIK::IKSolver::Point*>* GetPoints();
+    ::ArrayWrapper<RootMotion::FinalIK::IKSolver::Point*> GetPoints();
     // public override RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point GetPoint(UnityEngine.Transform transform)
-    // Offset: 0x1CB0E04
+    // Offset: 0x1E62E64
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point IKSolver::GetPoint(UnityEngine.Transform transform)
     RootMotion::FinalIK::IKSolver::Point* GetPoint(UnityEngine::Transform* transform);
@@ -158,9 +158,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFABRIKRoot::AddPointsToArray
 // Il2CppName: AddPointsToArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverFABRIKRoot::*)(ByRef<::Array<RootMotion::FinalIK::IKSolver::Point*>*>, RootMotion::FinalIK::FABRIKChain*)>(&RootMotion::FinalIK::IKSolverFABRIKRoot::AddPointsToArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverFABRIKRoot::*)(ByRef<::ArrayWrapper<RootMotion::FinalIK::IKSolver::Point*>>, RootMotion::FinalIK::FABRIKChain*)>(&RootMotion::FinalIK::IKSolverFABRIKRoot::AddPointsToArray)> {
   static const MethodInfo* get() {
-    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolver/Point"), 1)->this_arg;
+    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolver/Point")), 1)->this_arg;
     static auto* chain = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FABRIKChain")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFABRIKRoot*), "AddPointsToArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array, chain});
   }
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFABRIKRoot::GetPoints
 // Il2CppName: GetPoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<RootMotion::FinalIK::IKSolver::Point*>* (RootMotion::FinalIK::IKSolverFABRIKRoot::*)()>(&RootMotion::FinalIK::IKSolverFABRIKRoot::GetPoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<RootMotion::FinalIK::IKSolver::Point*> (RootMotion::FinalIK::IKSolverFABRIKRoot::*)()>(&RootMotion::FinalIK::IKSolverFABRIKRoot::GetPoints)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFABRIKRoot*), "GetPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

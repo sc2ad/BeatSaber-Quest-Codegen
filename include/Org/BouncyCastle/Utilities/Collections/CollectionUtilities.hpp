@@ -28,13 +28,13 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Creating value type constructor for type: CollectionUtilities
     CollectionUtilities() noexcept {}
     // static public System.Collections.IDictionary ReadOnly(System.Collections.IDictionary d)
-    // Offset: 0x13D8748
+    // Offset: 0x14EA93C
     static System::Collections::IDictionary* ReadOnly(System::Collections::IDictionary* d);
     // static public System.Object RequireNext(System.Collections.IEnumerator e)
-    // Offset: 0x13D87AC
+    // Offset: 0x14EA9A0
     static ::Il2CppObject* RequireNext(System::Collections::IEnumerator* e);
     // static public System.String ToString(System.Collections.IEnumerable c)
-    // Offset: 0x13D88F0
+    // Offset: 0x14EAAE4
     static ::Il2CppString* ToString(System::Collections::IEnumerable* c);
   }; // Org.BouncyCastle.Utilities.Collections.CollectionUtilities
   #pragma pack(pop)

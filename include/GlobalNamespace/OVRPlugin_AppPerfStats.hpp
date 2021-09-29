@@ -26,9 +26,9 @@ namespace GlobalNamespace {
     // public OVRPlugin/AppPerfFrameStats[] FrameStats
     // Size: 0x8
     // Offset: 0x0
-    ::Array<GlobalNamespace::OVRPlugin::AppPerfFrameStats>* FrameStats;
+    ::ArrayWrapper<GlobalNamespace::OVRPlugin::AppPerfFrameStats> FrameStats;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::OVRPlugin::AppPerfFrameStats>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::OVRPlugin::AppPerfFrameStats>) == 0x8);
     // public System.Int32 FrameStatsCount
     // Size: 0x4
     // Offset: 0x8
@@ -48,13 +48,13 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: AppPerfStats
-    constexpr AppPerfStats(::Array<GlobalNamespace::OVRPlugin::AppPerfFrameStats>* FrameStats_ = {}, int FrameStatsCount_ = {}, GlobalNamespace::OVRPlugin::Bool AnyFrameStatsDropped_ = {}, float AdaptiveGpuPerformanceScale_ = {}) noexcept : FrameStats{FrameStats_}, FrameStatsCount{FrameStatsCount_}, AnyFrameStatsDropped{AnyFrameStatsDropped_}, AdaptiveGpuPerformanceScale{AdaptiveGpuPerformanceScale_} {}
+    constexpr AppPerfStats(::ArrayWrapper<GlobalNamespace::OVRPlugin::AppPerfFrameStats> FrameStats_ = {}, int FrameStatsCount_ = {}, GlobalNamespace::OVRPlugin::Bool AnyFrameStatsDropped_ = {}, float AdaptiveGpuPerformanceScale_ = {}) noexcept : FrameStats{FrameStats_}, FrameStatsCount{FrameStatsCount_}, AnyFrameStatsDropped{AnyFrameStatsDropped_}, AdaptiveGpuPerformanceScale{AdaptiveGpuPerformanceScale_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public OVRPlugin/AppPerfFrameStats[] FrameStats
-    ::Array<GlobalNamespace::OVRPlugin::AppPerfFrameStats>*& dyn_FrameStats();
+    ::ArrayWrapper<GlobalNamespace::OVRPlugin::AppPerfFrameStats>& dyn_FrameStats();
     // Get instance field reference: public System.Int32 FrameStatsCount
     int& dyn_FrameStatsCount();
     // Get instance field reference: public OVRPlugin/Bool AnyFrameStatsDropped

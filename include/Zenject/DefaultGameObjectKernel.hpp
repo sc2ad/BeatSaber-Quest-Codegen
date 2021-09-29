@@ -23,7 +23,7 @@ namespace Zenject {
     // Creating value type constructor for type: DefaultGameObjectKernel
     DefaultGameObjectKernel() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x13E9F48
+    // Offset: 0x14FC13C
     // Implemented from: Zenject.MonoKernel
     // Base method: System.Void MonoKernel::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

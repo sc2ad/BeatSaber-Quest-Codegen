@@ -53,23 +53,23 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Reflection.MemberInfo[] memberInfos
     // Size: 0x8
     // Offset: 0x28
-    ::Array<System::Reflection::MemberInfo*>* memberInfos;
+    ::ArrayWrapper<System::Reflection::MemberInfo*> memberInfos;
     // Field size check
-    static_assert(sizeof(::Array<System::Reflection::MemberInfo*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Reflection::MemberInfo*>) == 0x8);
     // System.String[] memberNames
     // Size: 0x8
     // Offset: 0x30
-    ::Array<::Il2CppString*>* memberNames;
+    ::ArrayWrapper<::Il2CppString*> memberNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // System.Type[] memberTypes
     // Size: 0x8
     // Offset: 0x38
-    ::Array<System::Type*>* memberTypes;
+    ::ArrayWrapper<System::Type*> memberTypes;
     // Field size check
-    static_assert(sizeof(::Array<System::Type*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
     // Creating value type constructor for type: SerObjectInfoCache
-    SerObjectInfoCache(::Il2CppString* fullTypeName_ = {}, ::Il2CppString* assemblyString_ = {}, bool hasTypeForwardedFrom_ = {}, ::Array<System::Reflection::MemberInfo*>* memberInfos_ = {}, ::Array<::Il2CppString*>* memberNames_ = {}, ::Array<System::Type*>* memberTypes_ = {}) noexcept : fullTypeName{fullTypeName_}, assemblyString{assemblyString_}, hasTypeForwardedFrom{hasTypeForwardedFrom_}, memberInfos{memberInfos_}, memberNames{memberNames_}, memberTypes{memberTypes_} {}
+    SerObjectInfoCache(::Il2CppString* fullTypeName_ = {}, ::Il2CppString* assemblyString_ = {}, bool hasTypeForwardedFrom_ = {}, ::ArrayWrapper<System::Reflection::MemberInfo*> memberInfos_ = {}, ::ArrayWrapper<::Il2CppString*> memberNames_ = {}, ::ArrayWrapper<System::Type*> memberTypes_ = {}) noexcept : fullTypeName{fullTypeName_}, assemblyString{assemblyString_}, hasTypeForwardedFrom{hasTypeForwardedFrom_}, memberInfos{memberInfos_}, memberNames{memberNames_}, memberTypes{memberTypes_} {}
     // Get instance field reference: System.String fullTypeName
     ::Il2CppString*& dyn_fullTypeName();
     // Get instance field reference: System.String assemblyString
@@ -77,20 +77,20 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Boolean hasTypeForwardedFrom
     bool& dyn_hasTypeForwardedFrom();
     // Get instance field reference: System.Reflection.MemberInfo[] memberInfos
-    ::Array<System::Reflection::MemberInfo*>*& dyn_memberInfos();
+    ::ArrayWrapper<System::Reflection::MemberInfo*>& dyn_memberInfos();
     // Get instance field reference: System.String[] memberNames
-    ::Array<::Il2CppString*>*& dyn_memberNames();
+    ::ArrayWrapper<::Il2CppString*>& dyn_memberNames();
     // Get instance field reference: System.Type[] memberTypes
-    ::Array<System::Type*>*& dyn_memberTypes();
+    ::ArrayWrapper<System::Type*>& dyn_memberTypes();
     // System.Void .ctor(System.String typeName, System.String assemblyName, System.Boolean hasTypeForwardedFrom)
-    // Offset: 0x1629558
+    // Offset: 0x17F51B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerObjectInfoCache* New_ctor(::Il2CppString* typeName, ::Il2CppString* assemblyName, bool hasTypeForwardedFrom) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerObjectInfoCache*, creationType>(typeName, assemblyName, hasTypeForwardedFrom)));
     }
     // System.Void .ctor(System.Type type)
-    // Offset: 0x162921C
+    // Offset: 0x17F4E7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerObjectInfoCache* New_ctor(System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::.ctor");
@@ -98,7 +98,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     }
   }; // System.Runtime.Serialization.Formatters.Binary.SerObjectInfoCache
   #pragma pack(pop)
-  static check_size<sizeof(SerObjectInfoCache), 56 + sizeof(::Array<System::Type*>*)> __System_Runtime_Serialization_Formatters_Binary_SerObjectInfoCacheSizeCheck;
+  static check_size<sizeof(SerObjectInfoCache), 56 + sizeof(::ArrayWrapper<System::Type*>)> __System_Runtime_Serialization_Formatters_Binary_SerObjectInfoCacheSizeCheck;
   static_assert(sizeof(SerObjectInfoCache) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache*, "System.Runtime.Serialization.Formatters.Binary", "SerObjectInfoCache");

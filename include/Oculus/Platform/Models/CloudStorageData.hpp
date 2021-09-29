@@ -29,9 +29,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.Byte[] Data
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* Data;
+    ::ArrayWrapper<uint8_t> Data;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // public readonly System.UInt32 DataSize
     // Size: 0x4
     // Offset: 0x20
@@ -47,17 +47,17 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: CloudStorageData
-    CloudStorageData(::Il2CppString* Bucket_ = {}, ::Array<uint8_t>* Data_ = {}, uint DataSize_ = {}, ::Il2CppString* Key_ = {}) noexcept : Bucket{Bucket_}, Data{Data_}, DataSize{DataSize_}, Key{Key_} {}
+    CloudStorageData(::Il2CppString* Bucket_ = {}, ::ArrayWrapper<uint8_t> Data_ = {}, uint DataSize_ = {}, ::Il2CppString* Key_ = {}) noexcept : Bucket{Bucket_}, Data{Data_}, DataSize{DataSize_}, Key{Key_} {}
     // Get instance field reference: public readonly System.String Bucket
     ::Il2CppString*& dyn_Bucket();
     // Get instance field reference: public readonly System.Byte[] Data
-    ::Array<uint8_t>*& dyn_Data();
+    ::ArrayWrapper<uint8_t>& dyn_Data();
     // Get instance field reference: public readonly System.UInt32 DataSize
     uint& dyn_DataSize();
     // Get instance field reference: public readonly System.String Key
     ::Il2CppString*& dyn_Key();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x152E1A0
+    // Offset: 0x16B6EE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CloudStorageData* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::CloudStorageData::.ctor");

@@ -53,10 +53,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public EnterPlayerGuestNameViewController <>4__this
     GlobalNamespace::EnterPlayerGuestNameViewController*& dyn_$$4__this();
     // System.Void <DidActivate>b__0(System.Int32 idx, GuestNameButtonsListItem item)
-    // Offset: 0x1056D64
+    // Offset: 0x11AFA10
     void $DidActivate$b__0(int idx, GlobalNamespace::GuestNameButtonsListItem* item);
     // public System.Void .ctor()
-    // Offset: 0x10567EC
+    // Offset: 0x11AF498
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -30,26 +30,26 @@ namespace GlobalNamespace {
     // public UnityEngine.GameObject[] _gameObjects
     // Size: 0x8
     // Offset: 0x18
-    ::Array<UnityEngine::GameObject*>* gameObjects;
+    ::ArrayWrapper<UnityEngine::GameObject*> gameObjects;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::GameObject*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
     // Creating value type constructor for type: ActivateOnVisible
-    ActivateOnVisible(::Array<UnityEngine::GameObject*>* gameObjects_ = {}) noexcept : gameObjects{gameObjects_} {}
+    ActivateOnVisible(::ArrayWrapper<UnityEngine::GameObject*> gameObjects_ = {}) noexcept : gameObjects{gameObjects_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.GameObject[] _gameObjects
-    ::Array<UnityEngine::GameObject*>*& dyn__gameObjects();
+    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__gameObjects();
     // protected System.Void Awake()
-    // Offset: 0x125BCE0
+    // Offset: 0x13784E8
     void Awake();
     // private System.Void OnBecameVisible()
-    // Offset: 0x125BD50
+    // Offset: 0x1378558
     void OnBecameVisible();
     // private System.Void OnBecameInvisible()
-    // Offset: 0x125BDC0
+    // Offset: 0x13785C8
     void OnBecameInvisible();
     // public System.Void .ctor()
-    // Offset: 0x125BE30
+    // Offset: 0x1378638
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     }
   }; // ActivateOnVisible
   #pragma pack(pop)
-  static check_size<sizeof(ActivateOnVisible), 24 + sizeof(::Array<UnityEngine::GameObject*>*)> __GlobalNamespace_ActivateOnVisibleSizeCheck;
+  static check_size<sizeof(ActivateOnVisible), 24 + sizeof(::ArrayWrapper<UnityEngine::GameObject*>)> __GlobalNamespace_ActivateOnVisibleSizeCheck;
   static_assert(sizeof(ActivateOnVisible) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ActivateOnVisible*, "", "ActivateOnVisible");

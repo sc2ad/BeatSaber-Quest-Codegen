@@ -47,9 +47,9 @@ namespace GlobalNamespace {
     // private UnityEngine.UI.Graphic[] _graphics
     // Size: 0x8
     // Offset: 0x18
-    ::Array<UnityEngine::UI::Graphic*>* graphics;
+    ::ArrayWrapper<UnityEngine::UI::Graphic*> graphics;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::UI::Graphic*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::UI::Graphic*>) == 0x8);
     // private UnityEngine.UI.Button _button
     // Size: 0x8
     // Offset: 0x20
@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Creating value type constructor for type: PreviousColorPanelController
-    PreviousColorPanelController(::Array<UnityEngine::UI::Graphic*>* graphics_ = {}, UnityEngine::UI::Button* button_ = {}, System::Action_1<UnityEngine::Color>* colorWasSelectedEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, UnityEngine::Color color_ = {}, UnityEngine::Color graphicsColor_ = {}) noexcept : graphics{graphics_}, button{button_}, colorWasSelectedEvent{colorWasSelectedEvent_}, buttonBinder{buttonBinder_}, color{color_}, graphicsColor{graphicsColor_} {}
+    PreviousColorPanelController(::ArrayWrapper<UnityEngine::UI::Graphic*> graphics_ = {}, UnityEngine::UI::Button* button_ = {}, System::Action_1<UnityEngine::Color>* colorWasSelectedEvent_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, UnityEngine::Color color_ = {}, UnityEngine::Color graphicsColor_ = {}) noexcept : graphics{graphics_}, button{button_}, colorWasSelectedEvent{colorWasSelectedEvent_}, buttonBinder{buttonBinder_}, color{color_}, graphicsColor{graphicsColor_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxColors
@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxColors
     static void _set_kMaxColors(int value);
     // Get instance field reference: private UnityEngine.UI.Graphic[] _graphics
-    ::Array<UnityEngine::UI::Graphic*>*& dyn__graphics();
+    ::ArrayWrapper<UnityEngine::UI::Graphic*>& dyn__graphics();
     // Get instance field reference: private UnityEngine.UI.Button _button
     UnityEngine::UI::Button*& dyn__button();
     // Get instance field reference: private System.Action`1<UnityEngine.Color> colorWasSelectedEvent
@@ -103,28 +103,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _graphicsColor
     UnityEngine::Color& dyn__graphicsColor();
     // public System.Void add_colorWasSelectedEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x11FF540
+    // Offset: 0x11BE314
     void add_colorWasSelectedEvent(System::Action_1<UnityEngine::Color>* value);
     // public System.Void remove_colorWasSelectedEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x11FF5E4
+    // Offset: 0x11BE3B8
     void remove_colorWasSelectedEvent(System::Action_1<UnityEngine::Color>* value);
     // protected System.Void Awake()
-    // Offset: 0x11FF688
+    // Offset: 0x11BE45C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x11FF738
+    // Offset: 0x11BE50C
     void OnDestroy();
     // public System.Void AddColor(UnityEngine.Color color)
-    // Offset: 0x11FF754
+    // Offset: 0x11BE528
     void AddColor(UnityEngine::Color color);
     // public System.Void DiscardUpcomingColor()
-    // Offset: 0x11FF80C
+    // Offset: 0x11BE5E0
     void DiscardUpcomingColor();
     // private System.Void <Awake>b__9_0()
-    // Offset: 0x11FF85C
+    // Offset: 0x11BE630
     void $Awake$b__9_0();
     // public System.Void .ctor()
-    // Offset: 0x11FF818
+    // Offset: 0x11BE5EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

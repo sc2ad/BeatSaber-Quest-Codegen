@@ -53,20 +53,20 @@ namespace System::Collections {
     // Get instance field reference: private System.Collections.Hashtable _hashtable
     System::Collections::Hashtable*& dyn__hashtable();
     // public System.Int32 get_Count()
-    // Offset: 0x19B7EA4
+    // Offset: 0x1B110E0
     int get_Count();
     // System.Void .ctor(System.Collections.Hashtable hashtable)
-    // Offset: 0x19B7C88
+    // Offset: 0x1B10EC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable::ValueCollection* New_ctor(System::Collections::Hashtable* hashtable) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Hashtable::ValueCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable::ValueCollection*, creationType>(hashtable)));
     }
     // public System.Void CopyTo(System.Array array, System.Int32 arrayIndex)
-    // Offset: 0x19B7CB4
+    // Offset: 0x1B10EF0
     void CopyTo(System::Array* array, int arrayIndex);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x19B7E3C
+    // Offset: 0x1B11078
     System::Collections::IEnumerator* GetEnumerator();
   }; // System.Collections.Hashtable/System.Collections.ValueCollection
   #pragma pack(pop)

@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Toggle* toggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE45ED8
+    // [SpaceAttribute] Offset: 0xF0E89C
     // private UnityEngine.Color _positiveColor
     // Size: 0x10
     // Offset: 0x48
@@ -108,16 +108,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _positiveColor
     UnityEngine::Color& dyn__positiveColor();
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0x110055C
+    // Offset: 0x11E4E44
     UnityEngine::UI::Toggle* get_toggle();
     // public GameplayModifierParamsSO get_gameplayModifier()
-    // Offset: 0x1100564
+    // Offset: 0x11E4E4C
     GlobalNamespace::GameplayModifierParamsSO* get_gameplayModifier();
     // protected System.Void Start()
-    // Offset: 0x110056C
+    // Offset: 0x11E4E54
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x11008C8
+    // Offset: 0x11E51B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

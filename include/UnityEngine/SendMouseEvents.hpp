@@ -58,10 +58,10 @@ namespace UnityEngine {
       // Get instance field reference: public UnityEngine.Camera camera
       UnityEngine::Camera*& dyn_camera();
       // public System.Void SendMessage(System.String name)
-      // Offset: 0x2417DA0
+      // Offset: 0x262246C
       void SendMessage(::Il2CppString* name);
       // static public System.Boolean Compare(UnityEngine.SendMouseEvents/UnityEngine.HitInfo lhs, UnityEngine.SendMouseEvents/UnityEngine.HitInfo rhs)
-      // Offset: 0x2417DC4
+      // Offset: 0x2622490
       static bool Compare(UnityEngine::SendMouseEvents::HitInfo lhs, UnityEngine::SendMouseEvents::HitInfo rhs);
     }; // UnityEngine.SendMouseEvents/UnityEngine.HitInfo
     #pragma pack(pop)
@@ -74,32 +74,32 @@ namespace UnityEngine {
     // Set static field: static private System.Boolean s_MouseUsed
     static void _set_s_MouseUsed(bool value);
     // Get static field: static private readonly UnityEngine.SendMouseEvents/UnityEngine.HitInfo[] m_LastHit
-    static ::Array<UnityEngine::SendMouseEvents::HitInfo>* _get_m_LastHit();
+    static ::ArrayWrapper<UnityEngine::SendMouseEvents::HitInfo> _get_m_LastHit();
     // Set static field: static private readonly UnityEngine.SendMouseEvents/UnityEngine.HitInfo[] m_LastHit
-    static void _set_m_LastHit(::Array<UnityEngine::SendMouseEvents::HitInfo>* value);
+    static void _set_m_LastHit(::ArrayWrapper<UnityEngine::SendMouseEvents::HitInfo> value);
     // Get static field: static private readonly UnityEngine.SendMouseEvents/UnityEngine.HitInfo[] m_MouseDownHit
-    static ::Array<UnityEngine::SendMouseEvents::HitInfo>* _get_m_MouseDownHit();
+    static ::ArrayWrapper<UnityEngine::SendMouseEvents::HitInfo> _get_m_MouseDownHit();
     // Set static field: static private readonly UnityEngine.SendMouseEvents/UnityEngine.HitInfo[] m_MouseDownHit
-    static void _set_m_MouseDownHit(::Array<UnityEngine::SendMouseEvents::HitInfo>* value);
+    static void _set_m_MouseDownHit(::ArrayWrapper<UnityEngine::SendMouseEvents::HitInfo> value);
     // Get static field: static private readonly UnityEngine.SendMouseEvents/UnityEngine.HitInfo[] m_CurrentHit
-    static ::Array<UnityEngine::SendMouseEvents::HitInfo>* _get_m_CurrentHit();
+    static ::ArrayWrapper<UnityEngine::SendMouseEvents::HitInfo> _get_m_CurrentHit();
     // Set static field: static private readonly UnityEngine.SendMouseEvents/UnityEngine.HitInfo[] m_CurrentHit
-    static void _set_m_CurrentHit(::Array<UnityEngine::SendMouseEvents::HitInfo>* value);
+    static void _set_m_CurrentHit(::ArrayWrapper<UnityEngine::SendMouseEvents::HitInfo> value);
     // Get static field: static private UnityEngine.Camera[] m_Cameras
-    static ::Array<UnityEngine::Camera*>* _get_m_Cameras();
+    static ::ArrayWrapper<UnityEngine::Camera*> _get_m_Cameras();
     // Set static field: static private UnityEngine.Camera[] m_Cameras
-    static void _set_m_Cameras(::Array<UnityEngine::Camera*>* value);
+    static void _set_m_Cameras(::ArrayWrapper<UnityEngine::Camera*> value);
     // static private System.Void .cctor()
-    // Offset: 0x2417E90
+    // Offset: 0x262255C
     static void _cctor();
     // static private System.Void SetMouseMoved()
-    // Offset: 0x2416DB8
+    // Offset: 0x2621484
     static void SetMouseMoved();
     // static private System.Void DoSendMouseEvents(System.Int32 skipRTCameras)
-    // Offset: 0x2416E24
+    // Offset: 0x26214F0
     static void DoSendMouseEvents(int skipRTCameras);
     // static private System.Void SendEvents(System.Int32 i, UnityEngine.SendMouseEvents/UnityEngine.HitInfo hit)
-    // Offset: 0x2417834
+    // Offset: 0x2621F00
     static void SendEvents(int i, UnityEngine::SendMouseEvents::HitInfo hit);
   }; // UnityEngine.SendMouseEvents
   #pragma pack(pop)

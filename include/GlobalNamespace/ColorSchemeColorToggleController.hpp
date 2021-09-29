@@ -37,9 +37,9 @@ namespace GlobalNamespace {
     // private UnityEngine.UI.Graphic[] _colorGraphics
     // Size: 0x8
     // Offset: 0x18
-    ::Array<UnityEngine::UI::Graphic*>* colorGraphics;
+    ::ArrayWrapper<UnityEngine::UI::Graphic*> colorGraphics;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::UI::Graphic*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::UI::Graphic*>) == 0x8);
     // private UnityEngine.UI.Toggle _toggle
     // Size: 0x8
     // Offset: 0x20
@@ -47,24 +47,24 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
     // Creating value type constructor for type: ColorSchemeColorToggleController
-    ColorSchemeColorToggleController(::Array<UnityEngine::UI::Graphic*>* colorGraphics_ = {}, UnityEngine::UI::Toggle* toggle_ = {}) noexcept : colorGraphics{colorGraphics_}, toggle{toggle_} {}
+    ColorSchemeColorToggleController(::ArrayWrapper<UnityEngine::UI::Graphic*> colorGraphics_ = {}, UnityEngine::UI::Toggle* toggle_ = {}) noexcept : colorGraphics{colorGraphics_}, toggle{toggle_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Graphic[] _colorGraphics
-    ::Array<UnityEngine::UI::Graphic*>*& dyn__colorGraphics();
+    ::ArrayWrapper<UnityEngine::UI::Graphic*>& dyn__colorGraphics();
     // Get instance field reference: private UnityEngine.UI.Toggle _toggle
     UnityEngine::UI::Toggle*& dyn__toggle();
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0x10E2650
+    // Offset: 0x119A0B0
     UnityEngine::UI::Toggle* get_toggle();
     // public UnityEngine.Color get_color()
-    // Offset: 0x10E2658
+    // Offset: 0x119A0B8
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x10E269C
+    // Offset: 0x119A0FC
     void set_color(UnityEngine::Color value);
     // public System.Void .ctor()
-    // Offset: 0x10E2740
+    // Offset: 0x119A1A0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

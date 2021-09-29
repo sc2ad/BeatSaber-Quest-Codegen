@@ -71,15 +71,15 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     // public System.Reflection.Assembly[] assemblies
     // Size: 0x8
     // Offset: 0x28
-    ::Array<System::Reflection::Assembly*>* assemblies;
+    ::ArrayWrapper<System::Reflection::Assembly*> assemblies;
     // Field size check
-    static_assert(sizeof(::Array<System::Reflection::Assembly*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Reflection::Assembly*>) == 0x8);
     // public UnityEngine.TestTools.TestPlatform[] testPlatforms
     // Size: 0x8
     // Offset: 0x30
-    ::Array<UnityEngine::TestTools::TestPlatform>* testPlatforms;
+    ::ArrayWrapper<UnityEngine::TestTools::TestPlatform> testPlatforms;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::TestTools::TestPlatform>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::TestTools::TestPlatform>) == 0x8);
     // public System.Collections.Generic.IDictionary`2<System.String,System.Object> options
     // Size: 0x8
     // Offset: 0x38
@@ -99,7 +99,7 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: $BuildAsync$d__3
-    $BuildAsync$d__3(int $$1__state_ = {}, NUnit::Framework::Interfaces::ITest* $$2__current_ = {}, UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder* $$4__this_ = {}, ::Array<System::Reflection::Assembly*>* assemblies_ = {}, ::Array<UnityEngine::TestTools::TestPlatform>* testPlatforms_ = {}, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* options_ = {}, NUnit::Framework::Internal::TestSuite* $suite$5__2_ = {}, int $index$5__3_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, assemblies{assemblies_}, testPlatforms{testPlatforms_}, options{options_}, $suite$5__2{$suite$5__2_}, $index$5__3{$index$5__3_} {}
+    $BuildAsync$d__3(int $$1__state_ = {}, NUnit::Framework::Interfaces::ITest* $$2__current_ = {}, UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder* $$4__this_ = {}, ::ArrayWrapper<System::Reflection::Assembly*> assemblies_ = {}, ::ArrayWrapper<UnityEngine::TestTools::TestPlatform> testPlatforms_ = {}, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* options_ = {}, NUnit::Framework::Internal::TestSuite* $suite$5__2_ = {}, int $index$5__3_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, assemblies{assemblies_}, testPlatforms{testPlatforms_}, options{options_}, $suite$5__2{$suite$5__2_}, $index$5__3{$index$5__3_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>
     operator System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>*>(this);
@@ -111,9 +111,9 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     // Get instance field reference: public UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder <>4__this
     UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*& dyn_$$4__this();
     // Get instance field reference: public System.Reflection.Assembly[] assemblies
-    ::Array<System::Reflection::Assembly*>*& dyn_assemblies();
+    ::ArrayWrapper<System::Reflection::Assembly*>& dyn_assemblies();
     // Get instance field reference: public UnityEngine.TestTools.TestPlatform[] testPlatforms
-    ::Array<UnityEngine::TestTools::TestPlatform>*& dyn_testPlatforms();
+    ::ArrayWrapper<UnityEngine::TestTools::TestPlatform>& dyn_testPlatforms();
     // Get instance field reference: public System.Collections.Generic.IDictionary`2<System.String,System.Object> options
     System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*& dyn_options();
     // Get instance field reference: private NUnit.Framework.Internal.TestSuite <suite>5__2
@@ -121,26 +121,26 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     // Get instance field reference: private System.Int32 <index>5__3
     int& dyn_$index$5__3();
     // private NUnit.Framework.Interfaces.ITest System.Collections.Generic.IEnumerator<NUnit.Framework.Interfaces.ITest>.get_Current()
-    // Offset: 0x14CB1D0
+    // Offset: 0x1670E4C
     NUnit::Framework::Interfaces::ITest* System_Collections_Generic_IEnumerator$NUnit_Framework_Interfaces_ITest$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x14CB238
+    // Offset: 0x1670EB4
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x14CAE14
+    // Offset: 0x1670A90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityTestAssemblyBuilder::$BuildAsync$d__3* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::$BuildAsync$d__3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityTestAssemblyBuilder::$BuildAsync$d__3*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x14CAF10
+    // Offset: 0x1670B8C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x14CAF14
+    // Offset: 0x1670B90
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x14CB1D8
+    // Offset: 0x1670E54
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder/UnityEngine.TestTools.NUnitExtensions.<BuildAsync>d__3
   #pragma pack(pop)

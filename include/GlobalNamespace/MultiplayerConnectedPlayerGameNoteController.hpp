@@ -82,22 +82,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameNoteController/GameNoteType _gameNoteType
     GlobalNamespace::GameNoteController_GameNoteType& dyn__gameNoteType();
     // public NoteMovement get_noteMovement()
-    // Offset: 0x11C9F18
+    // Offset: 0x121045C
     GlobalNamespace::NoteMovement* get_noteMovement();
     // public GameNoteController/GameNoteType get_gameNoteType()
-    // Offset: 0x11C9F20
+    // Offset: 0x1210464
     GlobalNamespace::GameNoteController_GameNoteType get_gameNoteType();
     // public System.Void add_cubeNoteControllerDidInitEvent(System.Action`1<MultiplayerConnectedPlayerGameNoteController> value)
-    // Offset: 0x11C9DD0
+    // Offset: 0x1210314
     void add_cubeNoteControllerDidInitEvent(System::Action_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* value);
     // public System.Void remove_cubeNoteControllerDidInitEvent(System.Action`1<MultiplayerConnectedPlayerGameNoteController> value)
-    // Offset: 0x11C9E74
+    // Offset: 0x12103B8
     void remove_cubeNoteControllerDidInitEvent(System::Action_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* value);
     // public System.Void Init(NoteData noteData, System.Single worldRotation, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single moveDuration, System.Single jumpDuration, System.Single jumpGravity, GameNoteController/GameNoteType gameNoteType, System.Single cutDirectionAngleOffset, System.Single uniformScale)
-    // Offset: 0x11C8644
+    // Offset: 0x120EB88
     void Init(GlobalNamespace::NoteData* noteData, float worldRotation, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float moveDuration, float jumpDuration, float jumpGravity, GlobalNamespace::GameNoteController_GameNoteType gameNoteType, float cutDirectionAngleOffset, float uniformScale);
     // public System.Void .ctor()
-    // Offset: 0x11C9F28
+    // Offset: 0x121046C
     // Implemented from: MultiplayerConnectedPlayerNoteController
     // Base method: System.Void MultiplayerConnectedPlayerNoteController::.ctor()
     // Base method: System.Void NoteController::.ctor()

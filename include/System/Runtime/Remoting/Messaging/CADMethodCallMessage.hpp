@@ -49,27 +49,27 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.String _uri
     ::Il2CppString*& dyn__uri();
     // System.String get_Uri()
-    // Offset: 0x1A4B8A0
+    // Offset: 0x1C14270
     ::Il2CppString* get_Uri();
     // System.Int32 get_PropertiesCount()
-    // Offset: 0x1A4BC24
+    // Offset: 0x1C145F4
     int get_PropertiesCount();
     // System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodCallMessage callMsg)
-    // Offset: 0x1A4B92C
+    // Offset: 0x1C142FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADMethodCallMessage* New_ctor(System::Runtime::Remoting::Messaging::IMethodCallMessage* callMsg) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::CADMethodCallMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CADMethodCallMessage*, creationType>(callMsg)));
     }
     // static System.Runtime.Remoting.Messaging.CADMethodCallMessage Create(System.Runtime.Remoting.Messaging.IMessage callMsg)
-    // Offset: 0x1A4B8A8
+    // Offset: 0x1C14278
     static System::Runtime::Remoting::Messaging::CADMethodCallMessage* Create(System::Runtime::Remoting::Messaging::IMessage* callMsg);
     // System.Collections.ArrayList GetArguments()
-    // Offset: 0x1A4BB34
+    // Offset: 0x1C14504
     System::Collections::ArrayList* GetArguments();
     // System.Object[] GetArgs(System.Collections.ArrayList args)
-    // Offset: 0x1A4BC14
-    ::Array<::Il2CppObject*>* GetArgs(System::Collections::ArrayList* args);
+    // Offset: 0x1C145E4
+    ::ArrayWrapper<::Il2CppObject*> GetArgs(System::Collections::ArrayList* args);
   }; // System.Runtime.Remoting.Messaging.CADMethodCallMessage
   #pragma pack(pop)
   static check_size<sizeof(CADMethodCallMessage), 56 + sizeof(::Il2CppString*)> __System_Runtime_Remoting_Messaging_CADMethodCallMessageSizeCheck;
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodCallMessage::GetArgs
 // Il2CppName: GetArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Runtime::Remoting::Messaging::CADMethodCallMessage::*)(System::Collections::ArrayList*)>(&System::Runtime::Remoting::Messaging::CADMethodCallMessage::GetArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Runtime::Remoting::Messaging::CADMethodCallMessage::*)(System::Collections::ArrayList*)>(&System::Runtime::Remoting::Messaging::CADMethodCallMessage::GetArgs)> {
   static const MethodInfo* get() {
     static auto* args = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMethodCallMessage*), "GetArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});

@@ -26,51 +26,51 @@ namespace System::Globalization {
     // Creating value type constructor for type: CharUnicodeInfo
     CharUnicodeInfo() noexcept {}
     // Get static field: static private System.UInt16[] s_pCategoryLevel1Index
-    static ::Array<uint16_t>* _get_s_pCategoryLevel1Index();
+    static ::ArrayWrapper<uint16_t> _get_s_pCategoryLevel1Index();
     // Set static field: static private System.UInt16[] s_pCategoryLevel1Index
-    static void _set_s_pCategoryLevel1Index(::Array<uint16_t>* value);
+    static void _set_s_pCategoryLevel1Index(::ArrayWrapper<uint16_t> value);
     // Get static field: static private System.Byte[] s_pCategoriesValue
-    static ::Array<uint8_t>* _get_s_pCategoriesValue();
+    static ::ArrayWrapper<uint8_t> _get_s_pCategoriesValue();
     // Set static field: static private System.Byte[] s_pCategoriesValue
-    static void _set_s_pCategoriesValue(::Array<uint8_t>* value);
+    static void _set_s_pCategoriesValue(::ArrayWrapper<uint8_t> value);
     // Get static field: static private System.UInt16[] s_pNumericLevel1Index
-    static ::Array<uint16_t>* _get_s_pNumericLevel1Index();
+    static ::ArrayWrapper<uint16_t> _get_s_pNumericLevel1Index();
     // Set static field: static private System.UInt16[] s_pNumericLevel1Index
-    static void _set_s_pNumericLevel1Index(::Array<uint16_t>* value);
+    static void _set_s_pNumericLevel1Index(::ArrayWrapper<uint16_t> value);
     // Get static field: static private System.Byte[] s_pNumericValues
-    static ::Array<uint8_t>* _get_s_pNumericValues();
+    static ::ArrayWrapper<uint8_t> _get_s_pNumericValues();
     // Set static field: static private System.Byte[] s_pNumericValues
-    static void _set_s_pNumericValues(::Array<uint8_t>* value);
+    static void _set_s_pNumericValues(::ArrayWrapper<uint8_t> value);
     // Get static field: static private System.UInt16[] s_pDigitValues
-    static ::Array<uint16_t>* _get_s_pDigitValues();
+    static ::ArrayWrapper<uint16_t> _get_s_pDigitValues();
     // Set static field: static private System.UInt16[] s_pDigitValues
-    static void _set_s_pDigitValues(::Array<uint16_t>* value);
+    static void _set_s_pDigitValues(::ArrayWrapper<uint16_t> value);
     // static private System.Void .cctor()
-    // Offset: 0x180D04C
+    // Offset: 0x19AABFC
     static void _cctor();
     // static System.Int32 InternalConvertToUtf32(System.String s, System.Int32 index)
-    // Offset: 0x180CB40
+    // Offset: 0x19AA6F0
     static int InternalConvertToUtf32(::Il2CppString* s, int index);
     // static System.Boolean IsWhiteSpace(System.String s, System.Int32 index)
-    // Offset: 0x180CC14
+    // Offset: 0x19AA7C4
     static bool IsWhiteSpace(::Il2CppString* s, int index);
     // static System.Boolean IsWhiteSpace(System.Char c)
-    // Offset: 0x180CD90
+    // Offset: 0x19AA940
     static bool IsWhiteSpace(::Il2CppChar c);
     // static public System.Globalization.UnicodeCategory GetUnicodeCategory(System.Char ch)
-    // Offset: 0x180CE04
+    // Offset: 0x19AA9B4
     static System::Globalization::UnicodeCategory GetUnicodeCategory(::Il2CppChar ch);
     // static public System.Globalization.UnicodeCategory GetUnicodeCategory(System.String s, System.Int32 index)
-    // Offset: 0x180CCA4
+    // Offset: 0x19AA854
     static System::Globalization::UnicodeCategory GetUnicodeCategory(::Il2CppString* s, int index);
     // static System.Globalization.UnicodeCategory InternalGetUnicodeCategory(System.Int32 ch)
-    // Offset: 0x180CE68
+    // Offset: 0x19AAA18
     static System::Globalization::UnicodeCategory InternalGetUnicodeCategory(int ch);
     // static System.Byte InternalGetCategoryValue(System.Int32 ch, System.Int32 offset)
-    // Offset: 0x180CF58
+    // Offset: 0x19AAB08
     static uint8_t InternalGetCategoryValue(int ch, int offset);
     // static System.Globalization.UnicodeCategory InternalGetUnicodeCategory(System.String value, System.Int32 index)
-    // Offset: 0x180CED8
+    // Offset: 0x19AAA88
     static System::Globalization::UnicodeCategory InternalGetUnicodeCategory(::Il2CppString* value, int index);
   }; // System.Globalization.CharUnicodeInfo
   #pragma pack(pop)

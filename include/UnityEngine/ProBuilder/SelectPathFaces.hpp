@@ -37,9 +37,9 @@ namespace UnityEngine::ProBuilder {
     // Creating value type constructor for type: SelectPathFaces
     SelectPathFaces() noexcept {}
     // Get static field: static private System.Int32[] s_cachedPredecessors
-    static ::Array<int>* _get_s_cachedPredecessors();
+    static ::ArrayWrapper<int> _get_s_cachedPredecessors();
     // Set static field: static private System.Int32[] s_cachedPredecessors
-    static void _set_s_cachedPredecessors(::Array<int>* value);
+    static void _set_s_cachedPredecessors(::ArrayWrapper<int> value);
     // Get static field: static private System.Int32 s_cachedStart
     static int _get_s_cachedStart();
     // Set static field: static private System.Int32 s_cachedStart
@@ -61,20 +61,20 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Face,System.Int32> s_cachedFacesIndex
     static void _set_s_cachedFacesIndex(System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Face*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x150E070
+    // Offset: 0x1696DB8
     static void _cctor();
     // static public System.Collections.Generic.List`1<System.Int32> GetPath(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32 start, System.Int32 end)
-    // Offset: 0x150D190
+    // Offset: 0x1695ED8
     static System::Collections::Generic::List_1<int>* GetPath(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int start, int end);
     // static private System.Int32[] Dijkstra(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32 start)
-    // Offset: 0x150D560
-    static ::Array<int>* Dijkstra(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int start);
+    // Offset: 0x16962A8
+    static ::ArrayWrapper<int> Dijkstra(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int start);
     // static private System.Single GetWeight(System.Int32 face1, System.Int32 face2, UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x150DC08
+    // Offset: 0x1696950
     static float GetWeight(int face1, int face2, UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static private System.Collections.Generic.List`1<System.Int32> GetMinimalPath(System.Int32[] predecessors, System.Int32 start, System.Int32 end)
-    // Offset: 0x150D44C
-    static System::Collections::Generic::List_1<int>* GetMinimalPath(::Array<int>* predecessors, int start, int end);
+    // Offset: 0x1696194
+    static System::Collections::Generic::List_1<int>* GetMinimalPath(::ArrayWrapper<int> predecessors, int start, int end);
   }; // UnityEngine.ProBuilder.SelectPathFaces
   #pragma pack(pop)
 }
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectPathFaces::Dijkstra
 // Il2CppName: Dijkstra
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, int)>(&UnityEngine::ProBuilder::SelectPathFaces::Dijkstra)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(UnityEngine::ProBuilder::ProBuilderMesh*, int)>(&UnityEngine::ProBuilder::SelectPathFaces::Dijkstra)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -124,9 +124,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(i
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectPathFaces::GetMinimalPath
 // Il2CppName: GetMinimalPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<int>* (*)(::Array<int>*, int, int)>(&UnityEngine::ProBuilder::SelectPathFaces::GetMinimalPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<int>* (*)(::ArrayWrapper<int>, int, int)>(&UnityEngine::ProBuilder::SelectPathFaces::GetMinimalPath)> {
   static const MethodInfo* get() {
-    static auto* predecessors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* predecessors = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectPathFaces*), "GetMinimalPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{predecessors, start, end});

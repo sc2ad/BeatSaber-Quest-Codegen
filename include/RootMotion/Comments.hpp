@@ -20,7 +20,7 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class Comments : public UnityEngine::MonoBehaviour {
     public:
-    // [MultilineAttribute] Offset: 0xE2B034
+    // [MultilineAttribute] Offset: 0xEF180C
     // public System.String text
     // Size: 0x8
     // Offset: 0x18
@@ -34,7 +34,7 @@ namespace RootMotion {
     // Get instance field reference: public System.String text
     ::Il2CppString*& dyn_text();
     // public System.Void .ctor()
-    // Offset: 0x1D2FDF4
+    // Offset: 0x1EBCF70
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

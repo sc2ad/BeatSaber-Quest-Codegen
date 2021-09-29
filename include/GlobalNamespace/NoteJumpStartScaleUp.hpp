@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: fullScaleJumpPart and: targetTransform
     char __padding0[0x4] = {};
-    // [SpaceAttribute] Offset: 0xE3C4FC
+    // [SpaceAttribute] Offset: 0xF04CE0
     // private UnityEngine.Transform _targetTransform
     // Size: 0x8
     // Offset: 0x20
@@ -82,22 +82,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private NoteJump _noteJump
     GlobalNamespace::NoteJump*& dyn__noteJump();
     // protected System.Void Awake()
-    // Offset: 0x124C6E0
+    // Offset: 0x135875C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x124C948
+    // Offset: 0x13589C4
     void OnDestroy();
     // private System.Void UpdateScale(System.Single progress)
-    // Offset: 0x124C7B4
+    // Offset: 0x1358830
     void UpdateScale(float progress);
     // private System.Void HandleNoteJumpDidUpdateProgress(System.Single progress)
-    // Offset: 0x124CADC
+    // Offset: 0x1358B58
     void HandleNoteJumpDidUpdateProgress(float progress);
     // public System.Void HandleNoteControllerDidInit(NoteControllerBase noteController)
-    // Offset: 0x124CAE0
+    // Offset: 0x1358B5C
     void HandleNoteControllerDidInit(GlobalNamespace::NoteControllerBase* noteController);
     // public System.Void .ctor()
-    // Offset: 0x124CBB4
+    // Offset: 0x1358C30
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

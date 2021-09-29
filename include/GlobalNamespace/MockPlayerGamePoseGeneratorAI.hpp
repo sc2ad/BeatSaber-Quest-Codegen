@@ -79,37 +79,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _lastKnowScore
     int& dyn__lastKnowScore();
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, IMockPlayerScoreCalculator scoreCalculator, System.Boolean leftHanded)
-    // Offset: 0x23DD0A4
+    // Offset: 0x25E2880
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPlayerGamePoseGeneratorAI* New_ctor(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, GlobalNamespace::IMockPlayerScoreCalculator* scoreCalculator, bool leftHanded) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MockPlayerGamePoseGeneratorAI::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPlayerGamePoseGeneratorAI*, creationType>(multiplayerSessionManager, gameplayRpcManager, scoreCalculator, leftHanded)));
     }
     // static private UnityEngine.Vector3 GetCutDirection(NoteCutDirection cutDirection)
-    // Offset: 0x23DD1BC
+    // Offset: 0x25E2998
     static UnityEngine::Vector3 GetCutDirection(GlobalNamespace::NoteCutDirection cutDirection);
     // static private UnityEngine.Vector3 GetNotePosition(System.Int32 lineCount, MockNoteData noteData)
-    // Offset: 0x23DD3C8
+    // Offset: 0x25E2BA4
     static UnityEngine::Vector3 GetNotePosition(int lineCount, GlobalNamespace::MockNoteData* noteData);
     // static private UnityEngine.Vector3 Blerp(UnityEngine.Vector3 prevStart, UnityEngine.Vector3 prevEnd, UnityEngine.Vector3 currStart, UnityEngine.Vector3 currEnd, System.Single t)
-    // Offset: 0x23DD458
+    // Offset: 0x25E2C34
     static UnityEngine::Vector3 Blerp(UnityEngine::Vector3 prevStart, UnityEngine::Vector3 prevEnd, UnityEngine::Vector3 currStart, UnityEngine::Vector3 currEnd, float t);
     // private UnityEngine.Pose ProcessNotes(MockNoteData[] notes, UnityEngine.Vector3 handDirection, ref System.Int32 noteIndex, ref System.Int32 prevHitScore, ref System.Int32 nextHitScore, MockNoteData[] bombs, ref System.Int32 bombIndex, System.Int32 lineCount, System.Single songTime, out System.Boolean wasHitOrMiss)
-    // Offset: 0x23DD630
-    UnityEngine::Pose ProcessNotes(::Array<GlobalNamespace::MockNoteData*>* notes, UnityEngine::Vector3 handDirection, ByRef<int> noteIndex, ByRef<int> prevHitScore, ByRef<int> nextHitScore, ::Array<GlobalNamespace::MockNoteData*>* bombs, ByRef<int> bombIndex, int lineCount, float songTime, ByRef<bool> wasHitOrMiss);
+    // Offset: 0x25E2E0C
+    UnityEngine::Pose ProcessNotes(::ArrayWrapper<GlobalNamespace::MockNoteData*> notes, UnityEngine::Vector3 handDirection, ByRef<int> noteIndex, ByRef<int> prevHitScore, ByRef<int> nextHitScore, ::ArrayWrapper<GlobalNamespace::MockNoteData*> bombs, ByRef<int> bombIndex, int lineCount, float songTime, ByRef<bool> wasHitOrMiss);
     // private UnityEngine.Pose ProcessObstacles(MockObstacleData[] obstacles, ref System.Int32 obstacleIndex, System.Int32 lineCount, UnityEngine.Pose prevHeadPose, UnityEngine.Pose leftHandPose, UnityEngine.Pose rightHandPose, System.Single songTime)
-    // Offset: 0x23DE914
-    UnityEngine::Pose ProcessObstacles(::Array<GlobalNamespace::MockObstacleData*>* obstacles, ByRef<int> obstacleIndex, int lineCount, UnityEngine::Pose prevHeadPose, UnityEngine::Pose leftHandPose, UnityEngine::Pose rightHandPose, float songTime);
+    // Offset: 0x25E40F0
+    UnityEngine::Pose ProcessObstacles(::ArrayWrapper<GlobalNamespace::MockObstacleData*> obstacles, ByRef<int> obstacleIndex, int lineCount, UnityEngine::Pose prevHeadPose, UnityEngine::Pose leftHandPose, UnityEngine::Pose rightHandPose, float songTime);
     // private System.Void UpdateScore(ref System.Int32 currentScore, ref System.Int32 currentCombo, ref System.Int32 currentMultiplier, System.Int32 hitScore, System.Int32 lineCount, UnityEngine.Pose lastPose, UnityEngine.Pose currentPose, System.Single lastSongTime, System.Single songTime, MockNoteData noteData, MockNoteData nextNoteData)
-    // Offset: 0x23DECC4
+    // Offset: 0x25E44A0
     void UpdateScore(ByRef<int> currentScore, ByRef<int> currentCombo, ByRef<int> currentMultiplier, int hitScore, int lineCount, UnityEngine::Pose lastPose, UnityEngine::Pose currentPose, float lastSongTime, float songTime, GlobalNamespace::MockNoteData* noteData, GlobalNamespace::MockNoteData* nextNoteData);
     // public override System.Void SendPoses(System.Single introStartTime, MockBeatmapData beatmapData, GameplayModifiers gameplayModifiers, System.Threading.CancellationToken cancellationToken, System.Action onSongFinished)
-    // Offset: 0x23DD0D0
+    // Offset: 0x25E28AC
     // Implemented from: MockPlayerGamePoseGenerator
     // Base method: System.Void MockPlayerGamePoseGenerator::SendPoses(System.Single introStartTime, MockBeatmapData beatmapData, GameplayModifiers gameplayModifiers, System.Threading.CancellationToken cancellationToken, System.Action onSongFinished)
     void SendPoses(float introStartTime, GlobalNamespace::MockBeatmapData* beatmapData, GlobalNamespace::GameplayModifiers* gameplayModifiers, System::Threading::CancellationToken cancellationToken, System::Action* onSongFinished);
     // public override System.Void SimulateFail()
-    // Offset: 0x23DF410
+    // Offset: 0x25E4BEC
     // Implemented from: MockPlayerGamePoseGenerator
     // Base method: System.Void MockPlayerGamePoseGenerator::SimulateFail()
     void SimulateFail();
@@ -159,14 +159,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerGamePoseGeneratorAI::ProcessNotes
 // Il2CppName: ProcessNotes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pose (GlobalNamespace::MockPlayerGamePoseGeneratorAI::*)(::Array<GlobalNamespace::MockNoteData*>*, UnityEngine::Vector3, ByRef<int>, ByRef<int>, ByRef<int>, ::Array<GlobalNamespace::MockNoteData*>*, ByRef<int>, int, float, ByRef<bool>)>(&GlobalNamespace::MockPlayerGamePoseGeneratorAI::ProcessNotes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pose (GlobalNamespace::MockPlayerGamePoseGeneratorAI::*)(::ArrayWrapper<GlobalNamespace::MockNoteData*>, UnityEngine::Vector3, ByRef<int>, ByRef<int>, ByRef<int>, ::ArrayWrapper<GlobalNamespace::MockNoteData*>, ByRef<int>, int, float, ByRef<bool>)>(&GlobalNamespace::MockPlayerGamePoseGeneratorAI::ProcessNotes)> {
   static const MethodInfo* get() {
-    static auto* notes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "MockNoteData"), 1)->byval_arg;
+    static auto* notes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "MockNoteData")), 1)->byval_arg;
     static auto* handDirection = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* noteIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* prevHitScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* nextHitScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
-    static auto* bombs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "MockNoteData"), 1)->byval_arg;
+    static auto* bombs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "MockNoteData")), 1)->byval_arg;
     static auto* bombIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* lineCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* songTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -177,9 +177,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerGamePoseGeneratorAI::ProcessObstacles
 // Il2CppName: ProcessObstacles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pose (GlobalNamespace::MockPlayerGamePoseGeneratorAI::*)(::Array<GlobalNamespace::MockObstacleData*>*, ByRef<int>, int, UnityEngine::Pose, UnityEngine::Pose, UnityEngine::Pose, float)>(&GlobalNamespace::MockPlayerGamePoseGeneratorAI::ProcessObstacles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pose (GlobalNamespace::MockPlayerGamePoseGeneratorAI::*)(::ArrayWrapper<GlobalNamespace::MockObstacleData*>, ByRef<int>, int, UnityEngine::Pose, UnityEngine::Pose, UnityEngine::Pose, float)>(&GlobalNamespace::MockPlayerGamePoseGeneratorAI::ProcessObstacles)> {
   static const MethodInfo* get() {
-    static auto* obstacles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "MockObstacleData"), 1)->byval_arg;
+    static auto* obstacles = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "MockObstacleData")), 1)->byval_arg;
     static auto* obstacleIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* lineCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* prevHeadPose = &::il2cpp_utils::GetClassFromName("UnityEngine", "Pose")->byval_arg;

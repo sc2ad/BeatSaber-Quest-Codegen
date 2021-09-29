@@ -53,10 +53,10 @@ namespace GlobalNamespace {
     // private System.Int32[] _eventValues
     // Size: 0x8
     // Offset: 0x20
-    ::Array<int>* eventValues;
+    ::ArrayWrapper<int> eventValues;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE36B84
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    // [SpaceAttribute] Offset: 0xEFF2D8
     // private UnityEngine.Vector3 _impulse
     // Size: 0xC
     // Offset: 0x28
@@ -81,14 +81,14 @@ namespace GlobalNamespace {
     float minDelayBetweenEvents;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xE36BEC
+    // [SpaceAttribute] Offset: 0xEFF340
     // private UnityEngine.Rigidbody _rigidbody
     // Size: 0x8
     // Offset: 0x48
     UnityEngine::Rigidbody* rigidbody;
     // Field size check
     static_assert(sizeof(UnityEngine::Rigidbody*) == 0x8);
-    // [InjectAttribute] Offset: 0xE36C24
+    // [InjectAttribute] Offset: 0xEFF378
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x50
@@ -110,13 +110,13 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<int>*) == 0x8);
     // Creating value type constructor for type: HydraulicCarJumpEffect
-    HydraulicCarJumpEffect(GlobalNamespace::BeatmapEventType event_ = {}, ::Array<int>* eventValues_ = {}, UnityEngine::Vector3 impulse_ = {}, float randomness_ = {}, UnityEngine::Vector3 position_ = {}, float minDelayBetweenEvents_ = {}, UnityEngine::Rigidbody* rigidbody_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, float lastEventTime_ = {}, System::Collections::Generic::HashSet_1<int>* eventValuesHashSet_ = {}) noexcept : event{event_}, eventValues{eventValues_}, impulse{impulse_}, randomness{randomness_}, position{position_}, minDelayBetweenEvents{minDelayBetweenEvents_}, rigidbody{rigidbody_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, lastEventTime{lastEventTime_}, eventValuesHashSet{eventValuesHashSet_} {}
+    HydraulicCarJumpEffect(GlobalNamespace::BeatmapEventType event_ = {}, ::ArrayWrapper<int> eventValues_ = {}, UnityEngine::Vector3 impulse_ = {}, float randomness_ = {}, UnityEngine::Vector3 position_ = {}, float minDelayBetweenEvents_ = {}, UnityEngine::Rigidbody* rigidbody_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, float lastEventTime_ = {}, System::Collections::Generic::HashSet_1<int>* eventValuesHashSet_ = {}) noexcept : event{event_}, eventValues{eventValues_}, impulse{impulse_}, randomness{randomness_}, position{position_}, minDelayBetweenEvents{minDelayBetweenEvents_}, rigidbody{rigidbody_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, lastEventTime{lastEventTime_}, eventValuesHashSet{eventValuesHashSet_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapEventType _event
     GlobalNamespace::BeatmapEventType& dyn__event();
     // Get instance field reference: private System.Int32[] _eventValues
-    ::Array<int>*& dyn__eventValues();
+    ::ArrayWrapper<int>& dyn__eventValues();
     // Get instance field reference: private UnityEngine.Vector3 _impulse
     UnityEngine::Vector3& dyn__impulse();
     // Get instance field reference: private System.Single _randomness
@@ -134,16 +134,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.Int32> _eventValuesHashSet
     System::Collections::Generic::HashSet_1<int>*& dyn__eventValuesHashSet();
     // protected System.Void Start()
-    // Offset: 0x1188050
+    // Offset: 0x114672C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1188170
+    // Offset: 0x114684C
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x1188270
+    // Offset: 0x114694C
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x11883F0
+    // Offset: 0x1146ACC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

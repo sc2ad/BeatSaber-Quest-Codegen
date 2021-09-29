@@ -30,29 +30,29 @@ namespace GlobalNamespace {
     // private BeatmapCharacteristicSO[] _beatmapCharacteristics
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::BeatmapCharacteristicSO*>* beatmapCharacteristics;
+    ::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*> beatmapCharacteristics;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::BeatmapCharacteristicSO*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*>) == 0x8);
     // Creating value type constructor for type: BeatmapCharacteristicCollectionSO
-    BeatmapCharacteristicCollectionSO(::Array<GlobalNamespace::BeatmapCharacteristicSO*>* beatmapCharacteristics_ = {}) noexcept : beatmapCharacteristics{beatmapCharacteristics_} {}
+    BeatmapCharacteristicCollectionSO(::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*> beatmapCharacteristics_ = {}) noexcept : beatmapCharacteristics{beatmapCharacteristics_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapCharacteristicSO[] _beatmapCharacteristics
-    ::Array<GlobalNamespace::BeatmapCharacteristicSO*>*& dyn__beatmapCharacteristics();
+    ::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*>& dyn__beatmapCharacteristics();
     // public BeatmapCharacteristicSO[] get_beatmapCharacteristics()
-    // Offset: 0x11E199C
-    ::Array<GlobalNamespace::BeatmapCharacteristicSO*>* get_beatmapCharacteristics();
+    // Offset: 0x1271F88
+    ::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*> get_beatmapCharacteristics();
     // public System.Void set_beatmapCharacteristics(BeatmapCharacteristicSO[] value)
-    // Offset: 0x11E19A4
-    void set_beatmapCharacteristics(::Array<GlobalNamespace::BeatmapCharacteristicSO*>* value);
+    // Offset: 0x1271F90
+    void set_beatmapCharacteristics(::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*> value);
     // public BeatmapCharacteristicSO GetBeatmapCharacteristicBySerializedName(System.String serializedName)
-    // Offset: 0x11E19AC
+    // Offset: 0x1271F98
     GlobalNamespace::BeatmapCharacteristicSO* GetBeatmapCharacteristicBySerializedName(::Il2CppString* serializedName);
     // public System.Boolean ContainsBeatmapCharacteristic(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x11E1A38
+    // Offset: 0x1272024
     bool ContainsBeatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // public System.Void .ctor()
-    // Offset: 0x11E1B18
+    // Offset: 0x1272104
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     }
   }; // BeatmapCharacteristicCollectionSO
   #pragma pack(pop)
-  static check_size<sizeof(BeatmapCharacteristicCollectionSO), 24 + sizeof(::Array<GlobalNamespace::BeatmapCharacteristicSO*>*)> __GlobalNamespace_BeatmapCharacteristicCollectionSOSizeCheck;
+  static check_size<sizeof(BeatmapCharacteristicCollectionSO), 24 + sizeof(::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*>)> __GlobalNamespace_BeatmapCharacteristicCollectionSOSizeCheck;
   static_assert(sizeof(BeatmapCharacteristicCollectionSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicCollectionSO*, "", "BeatmapCharacteristicCollectionSO");
@@ -73,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicCollectionSO*, "", 
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicCollectionSO::get_beatmapCharacteristics
 // Il2CppName: get_beatmapCharacteristics
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::BeatmapCharacteristicSO*>* (GlobalNamespace::BeatmapCharacteristicCollectionSO::*)()>(&GlobalNamespace::BeatmapCharacteristicCollectionSO::get_beatmapCharacteristics)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*> (GlobalNamespace::BeatmapCharacteristicCollectionSO::*)()>(&GlobalNamespace::BeatmapCharacteristicCollectionSO::get_beatmapCharacteristics)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCharacteristicCollectionSO*), "get_beatmapCharacteristics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -81,9 +81,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicCollectionSO::set_beatmapCharacteristics
 // Il2CppName: set_beatmapCharacteristics
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapCharacteristicCollectionSO::*)(::Array<GlobalNamespace::BeatmapCharacteristicSO*>*)>(&GlobalNamespace::BeatmapCharacteristicCollectionSO::set_beatmapCharacteristics)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapCharacteristicCollectionSO::*)(::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*>)>(&GlobalNamespace::BeatmapCharacteristicCollectionSO::set_beatmapCharacteristics)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO"), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCharacteristicCollectionSO*), "set_beatmapCharacteristics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };

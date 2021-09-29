@@ -37,21 +37,21 @@ namespace Mono::Net::Security {
     // Get instance field reference: public readonly System.Int32 InitialSize
     int& dyn_InitialSize();
     // public System.Void .ctor(System.Int32 size)
-    // Offset: 0x15F0458
+    // Offset: 0x17BC000
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BufferOffsetSize2* New_ctor(int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::BufferOffsetSize2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BufferOffsetSize2*, creationType>(size)));
     }
     // public System.Void Reset()
-    // Offset: 0x15F04D0
+    // Offset: 0x17BC078
     void Reset();
     // public System.Void MakeRoom(System.Int32 size)
-    // Offset: 0x15F055C
+    // Offset: 0x17BC104
     void MakeRoom(int size);
     // public System.Void AppendData(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x15F0620
-    void AppendData(::Array<uint8_t>* buffer, int offset, int size);
+    // Offset: 0x17BC1C8
+    void AppendData(::ArrayWrapper<uint8_t> buffer, int offset, int size);
   }; // Mono.Net.Security.BufferOffsetSize2
   #pragma pack(pop)
   static check_size<sizeof(BufferOffsetSize2), 40 + sizeof(int)> __Mono_Net_Security_BufferOffsetSize2SizeCheck;
@@ -83,9 +83,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Net::Security::BufferOffsetSize2::AppendData
 // Il2CppName: AppendData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::BufferOffsetSize2::*)(::Array<uint8_t>*, int, int)>(&Mono::Net::Security::BufferOffsetSize2::AppendData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::BufferOffsetSize2::*)(::ArrayWrapper<uint8_t>, int, int)>(&Mono::Net::Security::BufferOffsetSize2::AppendData)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::BufferOffsetSize2*), "AppendData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, offset, size});

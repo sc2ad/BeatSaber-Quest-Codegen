@@ -24,7 +24,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Creating value type constructor for type: ConnectionChangeEvent
     ConnectionChangeEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1D09A50
+    // Offset: 0x1DB0AC0
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

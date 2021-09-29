@@ -68,7 +68,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Get instance field reference: public System.Boolean leftHighest
     bool& dyn_leftHighest();
     // public System.Void .ctor()
-    // Offset: 0x23C8A64
+    // Offset: 0x25CD988
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

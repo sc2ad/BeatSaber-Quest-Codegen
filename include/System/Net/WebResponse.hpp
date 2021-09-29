@@ -59,38 +59,38 @@ namespace System::Net {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
     }
     // public System.Uri get_ResponseUri()
-    // Offset: 0x15E50E4
+    // Offset: 0x178859C
     System::Uri* get_ResponseUri();
     // public System.Net.WebHeaderCollection get_Headers()
-    // Offset: 0x15E512C
+    // Offset: 0x17885E4
     System::Net::WebHeaderCollection* get_Headers();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x15E4F2C
+    // Offset: 0x17883E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebResponse* New_ctor(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebResponse*, creationType>(serializationInfo, streamingContext)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x15E4F34
+    // Offset: 0x17883EC
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // protected System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x15E4F40
+    // Offset: 0x17883F8
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // public System.Void Close()
-    // Offset: 0x15E4F44
+    // Offset: 0x17883FC
     void Close();
     // public System.Void Dispose()
-    // Offset: 0x15E4F48
+    // Offset: 0x1788400
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x15E4FC4
+    // Offset: 0x178847C
     void Dispose(bool disposing);
     // public System.IO.Stream GetResponseStream()
-    // Offset: 0x15E509C
+    // Offset: 0x1788554
     System::IO::Stream* GetResponseStream();
     // protected System.Void .ctor()
-    // Offset: 0x15E4F24
+    // Offset: 0x17883DC
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()

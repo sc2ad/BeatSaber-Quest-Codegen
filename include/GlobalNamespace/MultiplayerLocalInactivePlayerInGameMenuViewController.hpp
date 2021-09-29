@@ -47,8 +47,8 @@ namespace GlobalNamespace {
 }
 // Forward declaring namespace: Tweening
 namespace Tweening {
-  // Forward declaring type: TweeningManager
-  class TweeningManager;
+  // Forward declaring type: TimeTweeningManager
+  class TimeTweeningManager;
   // Forward declaring type: Tween
   class Tween;
 }
@@ -92,7 +92,7 @@ namespace GlobalNamespace {
     UnityEngine::CanvasGroup* globalCanvasGroup;
     // Field size check
     static_assert(sizeof(UnityEngine::CanvasGroup*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE3F16C
+    // [SpaceAttribute] Offset: 0xF07AF0
     // private UnityEngine.GameObject _mainBar
     // Size: 0x8
     // Offset: 0x38
@@ -105,55 +105,55 @@ namespace GlobalNamespace {
     GlobalNamespace::DisconnectPromptView* disconnectPromptView;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DisconnectPromptView*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE3F1B4
+    // [SpaceAttribute] Offset: 0xF07B38
     // private LevelBar _levelBar
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::LevelBar* levelBar;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelBar*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE3F1EC
+    // [SpaceAttribute] Offset: 0xF07B70
     // private UnityEngine.GameObject _dontOwnSongGameObject
     // Size: 0x8
     // Offset: 0x50
     UnityEngine::GameObject* dontOwnSongGameObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE3F224
+    // [SpaceAttribute] Offset: 0xF07BA8
     // private UnityEngine.GameObject _detailsGameObject
     // Size: 0x8
     // Offset: 0x58
     UnityEngine::GameObject* detailsGameObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3F25C
+    // [InjectAttribute] Offset: 0xF07BE0
     // private readonly LocalPlayerInGameMenuInitData _localPlayerInGameMenuInitData
     // Size: 0x8
     // Offset: 0x60
     GlobalNamespace::LocalPlayerInGameMenuInitData* localPlayerInGameMenuInitData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalPlayerInGameMenuInitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3F26C
+    // [InjectAttribute] Offset: 0xF07BF0
     // private readonly MultiplayerLocalPlayerDisconnectHelper _disconnectHelper
     // Size: 0x8
     // Offset: 0x68
     GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* disconnectHelper;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3F27C
+    // [InjectAttribute] Offset: 0xF07C00
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x70
     GlobalNamespace::MultiplayerController* multiplayerController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3F28C
-    // private readonly Tweening.TweeningManager _tweeningManager
+    // [InjectAttribute] Offset: 0xF07C10
+    // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x78
-    Tweening::TweeningManager* tweeningManager;
+    Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
-    static_assert(sizeof(Tweening::TweeningManager*) == 0x8);
+    static_assert(sizeof(Tweening::TimeTweeningManager*) == 0x8);
     // private readonly HMUI.ButtonBinder _buttonBinder
     // Size: 0x8
     // Offset: 0x80
@@ -173,7 +173,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(Tweening::Tween*) == 0x8);
     // Creating value type constructor for type: MultiplayerLocalInactivePlayerInGameMenuViewController
-    MultiplayerLocalInactivePlayerInGameMenuViewController(UnityEngine::UI::Button* disconnectButton_ = {}, Polyglot::LocalizedTextMeshProUGUI* disconnectButtonLocalizedText_ = {}, UnityEngine::UI::Toggle* detailsToggle_ = {}, UnityEngine::CanvasGroup* globalCanvasGroup_ = {}, UnityEngine::GameObject* mainBar_ = {}, GlobalNamespace::DisconnectPromptView* disconnectPromptView_ = {}, GlobalNamespace::LevelBar* levelBar_ = {}, UnityEngine::GameObject* dontOwnSongGameObject_ = {}, UnityEngine::GameObject* detailsGameObject_ = {}, GlobalNamespace::LocalPlayerInGameMenuInitData* localPlayerInGameMenuInitData_ = {}, GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* disconnectHelper_ = {}, GlobalNamespace::MultiplayerController* multiplayerController_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}, Tweening::Tween* fadeOutTween_ = {}) noexcept : disconnectButton{disconnectButton_}, disconnectButtonLocalizedText{disconnectButtonLocalizedText_}, detailsToggle{detailsToggle_}, globalCanvasGroup{globalCanvasGroup_}, mainBar{mainBar_}, disconnectPromptView{disconnectPromptView_}, levelBar{levelBar_}, dontOwnSongGameObject{dontOwnSongGameObject_}, detailsGameObject{detailsGameObject_}, localPlayerInGameMenuInitData{localPlayerInGameMenuInitData_}, disconnectHelper{disconnectHelper_}, multiplayerController{multiplayerController_}, tweeningManager{tweeningManager_}, buttonBinder{buttonBinder_}, toggleBinder{toggleBinder_}, fadeOutTween{fadeOutTween_} {}
+    MultiplayerLocalInactivePlayerInGameMenuViewController(UnityEngine::UI::Button* disconnectButton_ = {}, Polyglot::LocalizedTextMeshProUGUI* disconnectButtonLocalizedText_ = {}, UnityEngine::UI::Toggle* detailsToggle_ = {}, UnityEngine::CanvasGroup* globalCanvasGroup_ = {}, UnityEngine::GameObject* mainBar_ = {}, GlobalNamespace::DisconnectPromptView* disconnectPromptView_ = {}, GlobalNamespace::LevelBar* levelBar_ = {}, UnityEngine::GameObject* dontOwnSongGameObject_ = {}, UnityEngine::GameObject* detailsGameObject_ = {}, GlobalNamespace::LocalPlayerInGameMenuInitData* localPlayerInGameMenuInitData_ = {}, GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* disconnectHelper_ = {}, GlobalNamespace::MultiplayerController* multiplayerController_ = {}, Tweening::TimeTweeningManager* tweeningManager_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}, Tweening::Tween* fadeOutTween_ = {}) noexcept : disconnectButton{disconnectButton_}, disconnectButtonLocalizedText{disconnectButtonLocalizedText_}, detailsToggle{detailsToggle_}, globalCanvasGroup{globalCanvasGroup_}, mainBar{mainBar_}, disconnectPromptView{disconnectPromptView_}, levelBar{levelBar_}, dontOwnSongGameObject{dontOwnSongGameObject_}, detailsGameObject{detailsGameObject_}, localPlayerInGameMenuInitData{localPlayerInGameMenuInitData_}, disconnectHelper{disconnectHelper_}, multiplayerController{multiplayerController_}, tweeningManager{tweeningManager_}, buttonBinder{buttonBinder_}, toggleBinder{toggleBinder_}, fadeOutTween{fadeOutTween_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Button _disconnectButton
@@ -200,8 +200,8 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*& dyn__disconnectHelper();
     // Get instance field reference: private readonly MultiplayerController _multiplayerController
     GlobalNamespace::MultiplayerController*& dyn__multiplayerController();
-    // Get instance field reference: private readonly Tweening.TweeningManager _tweeningManager
-    Tweening::TweeningManager*& dyn__tweeningManager();
+    // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
+    Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private readonly HMUI.ButtonBinder _buttonBinder
     HMUI::ButtonBinder*& dyn__buttonBinder();
     // Get instance field reference: private readonly HMUI.ToggleBinder _toggleBinder
@@ -209,40 +209,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private Tweening.Tween _fadeOutTween
     Tweening::Tween*& dyn__fadeOutTween();
     // protected System.Void OnEnable()
-    // Offset: 0x1086B24
+    // Offset: 0x1176180
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1086C50
+    // Offset: 0x11762AC
     void OnDisable();
     // protected System.Void Start()
-    // Offset: 0x1086D04
+    // Offset: 0x1176360
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1086E4C
+    // Offset: 0x11764A8
     void OnDestroy();
     // private System.Void DisconnectButtonPressed()
-    // Offset: 0x1086F7C
+    // Offset: 0x11765D8
     void DisconnectButtonPressed();
     // private System.Void DetailsToggleValueChanged(System.Boolean isOn)
-    // Offset: 0x1086FBC
+    // Offset: 0x1176618
     void DetailsToggleValueChanged(bool isOn);
     // private System.Void HandleDisconnectPromptViewDidViewFinish(System.Boolean disconnect)
-    // Offset: 0x1086FDC
+    // Offset: 0x1176638
     void HandleDisconnectPromptViewDidViewFinish(bool disconnect);
     // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x1087098
+    // Offset: 0x11766F4
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // private System.Void <HandleDisconnectPromptViewDidViewFinish>b__22_0()
-    // Offset: 0x10872A8
+    // Offset: 0x1176904
     void $HandleDisconnectPromptViewDidViewFinish$b__22_0();
     // private System.Void <HandleStateChanged>b__23_0(System.Single val)
-    // Offset: 0x10872C8
+    // Offset: 0x1176924
     void $HandleStateChanged$b__23_0(float val);
     // private System.Void <HandleStateChanged>b__23_1()
-    // Offset: 0x10872E4
+    // Offset: 0x1176940
     void $HandleStateChanged$b__23_1();
     // public System.Void .ctor()
-    // Offset: 0x1087220
+    // Offset: 0x117687C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

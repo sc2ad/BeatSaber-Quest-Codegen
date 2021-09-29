@@ -358,432 +358,432 @@ namespace System::Net::Sockets {
     // Get instance field reference: System.Boolean connect_in_progress
     bool& dyn_connect_in_progress();
     // static public System.Boolean get_SupportsIPv4()
-    // Offset: 0x14B02D8
+    // Offset: 0x1655F54
     static bool get_SupportsIPv4();
     // static public System.Boolean get_OSSupportsIPv4()
-    // Offset: 0x14B034C
+    // Offset: 0x1655FC8
     static bool get_OSSupportsIPv4();
     // static public System.Boolean get_SupportsIPv6()
-    // Offset: 0x14B03C0
+    // Offset: 0x165603C
     static bool get_SupportsIPv6();
     // static public System.Boolean get_OSSupportsIPv6()
-    // Offset: 0x14B0434
+    // Offset: 0x16560B0
     static bool get_OSSupportsIPv6();
     // public System.IntPtr get_Handle()
-    // Offset: 0x14B04A8
+    // Offset: 0x1656124
     System::IntPtr get_Handle();
     // public System.Net.Sockets.AddressFamily get_AddressFamily()
-    // Offset: 0x14B04C4
+    // Offset: 0x1656140
     System::Net::Sockets::AddressFamily get_AddressFamily();
     // public System.Net.Sockets.SocketType get_SocketType()
-    // Offset: 0x14B04CC
+    // Offset: 0x1656148
     System::Net::Sockets::SocketType get_SocketType();
     // public System.Net.Sockets.ProtocolType get_ProtocolType()
-    // Offset: 0x14B04D4
+    // Offset: 0x1656150
     System::Net::Sockets::ProtocolType get_ProtocolType();
     // public System.Void set_ExclusiveAddressUse(System.Boolean value)
-    // Offset: 0x14B04DC
+    // Offset: 0x1656158
     void set_ExclusiveAddressUse(bool value);
     // public System.Void set_ReceiveBufferSize(System.Int32 value)
-    // Offset: 0x14B06B4
+    // Offset: 0x1656330
     void set_ReceiveBufferSize(int value);
     // public System.Void set_SendBufferSize(System.Int32 value)
-    // Offset: 0x14B0750
+    // Offset: 0x16563CC
     void set_SendBufferSize(int value);
     // public System.Void set_ReceiveTimeout(System.Int32 value)
-    // Offset: 0x14B07EC
+    // Offset: 0x1656468
     void set_ReceiveTimeout(int value);
     // public System.Void set_SendTimeout(System.Int32 value)
-    // Offset: 0x14B0890
+    // Offset: 0x165650C
     void set_SendTimeout(int value);
     // public System.Int16 get_Ttl()
-    // Offset: 0x14B0934
+    // Offset: 0x16565B0
     int16_t get_Ttl();
     // public System.Void set_Ttl(System.Int16 value)
-    // Offset: 0x14B0A2C
+    // Offset: 0x16566A8
     void set_Ttl(int16_t value);
     // public System.Void set_DontFragment(System.Boolean value)
-    // Offset: 0x14B0B44
+    // Offset: 0x16567C0
     void set_DontFragment(bool value);
     // public System.Boolean get_DualMode()
-    // Offset: 0x14B0BFC
+    // Offset: 0x1656878
     bool get_DualMode();
     // public System.Void set_DualMode(System.Boolean value)
-    // Offset: 0x14B0CE4
+    // Offset: 0x1656960
     void set_DualMode(bool value);
     // private System.Boolean get_IsDualMode()
-    // Offset: 0x14B0DA0
+    // Offset: 0x1656A1C
     bool get_IsDualMode();
     // static private System.Object get_InternalSyncObject()
-    // Offset: 0x14B21D8
+    // Offset: 0x1657E54
     static ::Il2CppObject* get_InternalSyncObject();
     // System.Boolean get_CleanedUp()
-    // Offset: 0x14B22B4
+    // Offset: 0x1657F30
     bool get_CleanedUp();
     // public System.Int32 get_Available()
-    // Offset: 0x14AD22C
+    // Offset: 0x1652EA8
     int get_Available();
     // public System.Void set_EnableBroadcast(System.Boolean value)
-    // Offset: 0x14B27F8
+    // Offset: 0x1658474
     void set_EnableBroadcast(bool value);
     // public System.Boolean get_IsBound()
-    // Offset: 0x14B289C
+    // Offset: 0x1658518
     bool get_IsBound();
     // public System.Net.EndPoint get_LocalEndPoint()
-    // Offset: 0x14B28A4
+    // Offset: 0x1658520
     System::Net::EndPoint* get_LocalEndPoint();
     // public System.Boolean get_Blocking()
-    // Offset: 0x14B2AA4
+    // Offset: 0x1658720
     bool get_Blocking();
     // public System.Void set_Blocking(System.Boolean value)
-    // Offset: 0x14B2AAC
+    // Offset: 0x1658728
     void set_Blocking(bool value);
     // public System.Boolean get_Connected()
-    // Offset: 0x14B2C7C
+    // Offset: 0x16588F8
     bool get_Connected();
     // public System.Void set_NoDelay(System.Boolean value)
-    // Offset: 0x14B2604
+    // Offset: 0x1658280
     void set_NoDelay(bool value);
     // static System.Int32 get_FamilyHint()
-    // Offset: 0x14B6704
+    // Offset: 0x165C380
     static int get_FamilyHint();
     // public System.Void .ctor(System.Net.Sockets.AddressFamily addressFamily, System.Net.Sockets.SocketType socketType, System.Net.Sockets.ProtocolType protocolType)
-    // Offset: 0x14AFBEC
+    // Offset: 0x1655868
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Socket* New_ctor(System::Net::Sockets::AddressFamily addressFamily, System::Net::Sockets::SocketType socketType, System::Net::Sockets::ProtocolType protocolType) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::Socket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Socket*, creationType>(addressFamily, socketType, protocolType)));
     }
     // System.Void .ctor(System.Net.Sockets.AddressFamily family, System.Net.Sockets.SocketType type, System.Net.Sockets.ProtocolType proto, System.Net.Sockets.SafeSocketHandle safe_handle)
-    // Offset: 0x14B2510
+    // Offset: 0x165818C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Socket* New_ctor(System::Net::Sockets::AddressFamily family, System::Net::Sockets::SocketType type, System::Net::Sockets::ProtocolType proto, System::Net::Sockets::SafeSocketHandle* safe_handle) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::Socket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Socket*, creationType>(family, type, proto, safe_handle)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x14B67A8
+    // Offset: 0x165C424
     static void _cctor();
     // public System.Int32 Send(System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> buffers, System.Net.Sockets.SocketFlags socketFlags)
-    // Offset: 0x14B0DB8
+    // Offset: 0x1656A34
     int Send(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* buffers, System::Net::Sockets::SocketFlags socketFlags);
     // public System.Int32 Send(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags)
-    // Offset: 0x14ADDB0
-    int Send(::Array<uint8_t>* buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags);
+    // Offset: 0x1653A2C
+    int Send(::ArrayWrapper<uint8_t> buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags);
     // public System.Int32 Receive(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags)
-    // Offset: 0x14AD8EC
-    int Receive(::Array<uint8_t>* buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags);
+    // Offset: 0x1653568
+    int Receive(::ArrayWrapper<uint8_t> buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags);
     // public System.Int32 Receive(System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> buffers, System.Net.Sockets.SocketFlags socketFlags)
-    // Offset: 0x14B15DC
+    // Offset: 0x1657258
     int Receive(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* buffers, System::Net::Sockets::SocketFlags socketFlags);
     // public System.Int32 IOControl(System.Net.Sockets.IOControlCode ioControlCode, System.Byte[] optionInValue, System.Byte[] optionOutValue)
-    // Offset: 0x14A8E7C
-    int IOControl(System::Net::Sockets::IOControlCode ioControlCode, ::Array<uint8_t>* optionInValue, ::Array<uint8_t>* optionOutValue);
+    // Offset: 0x164EAF8
+    int IOControl(System::Net::Sockets::IOControlCode ioControlCode, ::ArrayWrapper<uint8_t> optionInValue, ::ArrayWrapper<uint8_t> optionOutValue);
     // public System.Void SetIPProtectionLevel(System.Net.Sockets.IPProtectionLevel level)
-    // Offset: 0x14B00B8
+    // Offset: 0x1655D34
     void SetIPProtectionLevel(System::Net::Sockets::IPProtectionLevel level);
     // public System.IAsyncResult BeginSend(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags, System.AsyncCallback callback, System.Object state)
-    // Offset: 0x14AECE4
-    System::IAsyncResult* BeginSend(::Array<uint8_t>* buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, System::AsyncCallback* callback, ::Il2CppObject* state);
+    // Offset: 0x1654960
+    System::IAsyncResult* BeginSend(::ArrayWrapper<uint8_t> buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, System::AsyncCallback* callback, ::Il2CppObject* state);
     // public System.Int32 EndSend(System.IAsyncResult asyncResult)
-    // Offset: 0x14AF0F0
+    // Offset: 0x1654D6C
     int EndSend(System::IAsyncResult* asyncResult);
     // public System.IAsyncResult BeginReceive(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags, System.AsyncCallback callback, System.Object state)
-    // Offset: 0x14AE424
-    System::IAsyncResult* BeginReceive(::Array<uint8_t>* buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, System::AsyncCallback* callback, ::Il2CppObject* state);
+    // Offset: 0x16540A0
+    System::IAsyncResult* BeginReceive(::ArrayWrapper<uint8_t> buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, System::AsyncCallback* callback, ::Il2CppObject* state);
     // public System.Int32 EndReceive(System.IAsyncResult asyncResult)
-    // Offset: 0x14AE830
+    // Offset: 0x16544AC
     int EndReceive(System::IAsyncResult* asyncResult);
     // static System.Void InitializeSockets()
-    // Offset: 0x14AFE38
+    // Offset: 0x1655AB4
     static void InitializeSockets();
     // public System.Void Dispose()
-    // Offset: 0x14B2328
+    // Offset: 0x1657FA4
     void Dispose();
     // System.Void InternalShutdown(System.Net.Sockets.SocketShutdown how)
-    // Offset: 0x14ADEF4
+    // Offset: 0x1653B70
     void InternalShutdown(System::Net::Sockets::SocketShutdown how);
     // private System.Void SocketDefaults()
-    // Offset: 0x14B01DC
+    // Offset: 0x1655E58
     void SocketDefaults();
     // private System.IntPtr Socket_internal(System.Net.Sockets.AddressFamily family, System.Net.Sockets.SocketType type, System.Net.Sockets.ProtocolType proto, out System.Int32 error)
-    // Offset: 0x14B00B4
+    // Offset: 0x1655D30
     System::IntPtr Socket_internal(System::Net::Sockets::AddressFamily family, System::Net::Sockets::SocketType type, System::Net::Sockets::ProtocolType proto, ByRef<int> error);
     // static private System.Int32 Available_internal(System.Net.Sockets.SafeSocketHandle safeHandle, out System.Int32 error)
-    // Offset: 0x14B26FC
+    // Offset: 0x1658378
     static int Available_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, ByRef<int> error);
     // static private System.Int32 Available_internal(System.IntPtr socket, out System.Int32 error)
-    // Offset: 0x14B27F4
+    // Offset: 0x1658470
     static int Available_internal(System::IntPtr socket, ByRef<int> error);
     // static private System.Net.SocketAddress LocalEndPoint_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Int32 family, out System.Int32 error)
-    // Offset: 0x14B2998
+    // Offset: 0x1658614
     static System::Net::SocketAddress* LocalEndPoint_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, int family, ByRef<int> error);
     // static private System.Net.SocketAddress LocalEndPoint_internal(System.IntPtr socket, System.Int32 family, out System.Int32 error)
-    // Offset: 0x14B2AA0
+    // Offset: 0x165871C
     static System::Net::SocketAddress* LocalEndPoint_internal(System::IntPtr socket, int family, ByRef<int> error);
     // static private System.Void Blocking_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Boolean block, out System.Int32 error)
-    // Offset: 0x14B2B84
+    // Offset: 0x1658800
     static void Blocking_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, bool block, ByRef<int> error);
     // static System.Void Blocking_internal(System.IntPtr socket, System.Boolean block, out System.Int32 error)
-    // Offset: 0x14AF788
+    // Offset: 0x1655404
     static void Blocking_internal(System::IntPtr socket, bool block, ByRef<int> error);
     // public System.Boolean Poll(System.Int32 microSeconds, System.Net.Sockets.SelectMode mode)
-    // Offset: 0x14B2D04
+    // Offset: 0x1658980
     bool Poll(int microSeconds, System::Net::Sockets::SelectMode mode);
     // static private System.Boolean Poll_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Net.Sockets.SelectMode mode, System.Int32 timeout, out System.Int32 error)
-    // Offset: 0x14B2E80
+    // Offset: 0x1658AFC
     static bool Poll_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, System::Net::Sockets::SelectMode mode, int timeout, ByRef<int> error);
     // static private System.Boolean Poll_internal(System.IntPtr socket, System.Net.Sockets.SelectMode mode, System.Int32 timeout, out System.Int32 error)
-    // Offset: 0x14B2F90
+    // Offset: 0x1658C0C
     static bool Poll_internal(System::IntPtr socket, System::Net::Sockets::SelectMode mode, int timeout, ByRef<int> error);
     // public System.Net.Sockets.Socket Accept()
-    // Offset: 0x14B2F94
+    // Offset: 0x1658C10
     System::Net::Sockets::Socket* Accept();
     // System.Void Accept(System.Net.Sockets.Socket acceptSocket)
-    // Offset: 0x14B31D8
+    // Offset: 0x1658E54
     void Accept(System::Net::Sockets::Socket* acceptSocket);
     // public System.Boolean AcceptAsync(System.Net.Sockets.SocketAsyncEventArgs e)
-    // Offset: 0x14B3308
+    // Offset: 0x1658F84
     bool AcceptAsync(System::Net::Sockets::SocketAsyncEventArgs* e);
     // public System.IAsyncResult BeginAccept(System.AsyncCallback callback, System.Object state)
-    // Offset: 0x14B36D0
+    // Offset: 0x165934C
     System::IAsyncResult* BeginAccept(System::AsyncCallback* callback, ::Il2CppObject* state);
     // public System.Net.Sockets.Socket EndAccept(System.IAsyncResult asyncResult)
-    // Offset: 0x14B3828
+    // Offset: 0x16594A4
     System::Net::Sockets::Socket* EndAccept(System::IAsyncResult* asyncResult);
     // public System.Net.Sockets.Socket EndAccept(out System.Byte[] buffer, out System.Int32 bytesTransferred, System.IAsyncResult asyncResult)
-    // Offset: 0x14B3858
-    System::Net::Sockets::Socket* EndAccept(ByRef<::Array<uint8_t>*> buffer, ByRef<int> bytesTransferred, System::IAsyncResult* asyncResult);
+    // Offset: 0x16594D4
+    System::Net::Sockets::Socket* EndAccept(ByRef<::ArrayWrapper<uint8_t>> buffer, ByRef<int> bytesTransferred, System::IAsyncResult* asyncResult);
     // static private System.Net.Sockets.SafeSocketHandle Accept_internal(System.Net.Sockets.SafeSocketHandle safeHandle, out System.Int32 error, System.Boolean blocking)
-    // Offset: 0x14B30D0
+    // Offset: 0x1658D4C
     static System::Net::Sockets::SafeSocketHandle* Accept_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, ByRef<int> error, bool blocking);
     // static private System.IntPtr Accept_internal(System.IntPtr sock, out System.Int32 error, System.Boolean blocking)
-    // Offset: 0x14B3A64
+    // Offset: 0x16596E0
     static System::IntPtr Accept_internal(System::IntPtr sock, ByRef<int> error, bool blocking);
     // public System.Void Bind(System.Net.EndPoint localEP)
-    // Offset: 0x14A9FCC
+    // Offset: 0x164FC48
     void Bind(System::Net::EndPoint* localEP);
     // static private System.Void Bind_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Net.SocketAddress sa, out System.Int32 error)
-    // Offset: 0x14B3B34
+    // Offset: 0x16597B0
     static void Bind_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, System::Net::SocketAddress* sa, ByRef<int> error);
     // static private System.Void Bind_internal(System.IntPtr sock, System.Net.SocketAddress sa, out System.Int32 error)
-    // Offset: 0x14B3C2C
+    // Offset: 0x16598A8
     static void Bind_internal(System::IntPtr sock, System::Net::SocketAddress* sa, ByRef<int> error);
     // public System.Void Listen(System.Int32 backlog)
-    // Offset: 0x14B3C30
+    // Offset: 0x16598AC
     void Listen(int backlog);
     // static private System.Void Listen_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Int32 backlog, out System.Int32 error)
-    // Offset: 0x14B3D24
+    // Offset: 0x16599A0
     static void Listen_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, int backlog, ByRef<int> error);
     // static private System.Void Listen_internal(System.IntPtr sock, System.Int32 backlog, out System.Int32 error)
-    // Offset: 0x14B3E1C
+    // Offset: 0x1659A98
     static void Listen_internal(System::IntPtr sock, int backlog, ByRef<int> error);
     // public System.Void Connect(System.Net.EndPoint remoteEP)
-    // Offset: 0x14B3E20
+    // Offset: 0x1659A9C
     void Connect(System::Net::EndPoint* remoteEP);
     // public System.IAsyncResult BeginConnect(System.String host, System.Int32 port, System.AsyncCallback requestCallback, System.Object state)
-    // Offset: 0x14B4274
+    // Offset: 0x1659EF0
     System::IAsyncResult* BeginConnect(::Il2CppString* host, int port, System::AsyncCallback* requestCallback, ::Il2CppObject* state);
     // public System.IAsyncResult BeginConnect(System.Net.IPAddress[] addresses, System.Int32 port, System.AsyncCallback requestCallback, System.Object state)
-    // Offset: 0x14B43EC
-    System::IAsyncResult* BeginConnect(::Array<System::Net::IPAddress*>* addresses, int port, System::AsyncCallback* requestCallback, ::Il2CppObject* state);
+    // Offset: 0x165A068
+    System::IAsyncResult* BeginConnect(::ArrayWrapper<System::Net::IPAddress*> addresses, int port, System::AsyncCallback* requestCallback, ::Il2CppObject* state);
     // static private System.Void BeginMConnect(System.Net.Sockets.SocketAsyncResult sockares)
-    // Offset: 0x14B45E4
+    // Offset: 0x165A260
     static void BeginMConnect(System::Net::Sockets::SocketAsyncResult* sockares);
     // static private System.Void BeginSConnect(System.Net.Sockets.SocketAsyncResult sockares)
-    // Offset: 0x14B4790
+    // Offset: 0x165A40C
     static void BeginSConnect(System::Net::Sockets::SocketAsyncResult* sockares);
     // public System.Void EndConnect(System.IAsyncResult asyncResult)
-    // Offset: 0x14B4B5C
+    // Offset: 0x165A7D8
     void EndConnect(System::IAsyncResult* asyncResult);
     // static private System.Void Connect_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Net.SocketAddress sa, out System.Int32 error, System.Boolean blocking)
-    // Offset: 0x14B417C
+    // Offset: 0x1659DF8
     static void Connect_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, System::Net::SocketAddress* sa, ByRef<int> error, bool blocking);
     // static private System.Void Connect_internal(System.IntPtr sock, System.Net.SocketAddress sa, out System.Int32 error, System.Boolean blocking)
-    // Offset: 0x14B4C08
+    // Offset: 0x165A884
     static void Connect_internal(System::IntPtr sock, System::Net::SocketAddress* sa, ByRef<int> error, bool blocking);
     // public System.Void Disconnect(System.Boolean reuseSocket)
-    // Offset: 0x14B4C10
+    // Offset: 0x165A88C
     void Disconnect(bool reuseSocket);
     // public System.Void EndDisconnect(System.IAsyncResult asyncResult)
-    // Offset: 0x14B4DFC
+    // Offset: 0x165AA78
     void EndDisconnect(System::IAsyncResult* asyncResult);
     // static private System.Void Disconnect_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Boolean reuse, out System.Int32 error)
-    // Offset: 0x14B4D04
+    // Offset: 0x165A980
     static void Disconnect_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, bool reuse, ByRef<int> error);
     // static private System.Void Disconnect_internal(System.IntPtr sock, System.Boolean reuse, out System.Int32 error)
-    // Offset: 0x14B4EA8
+    // Offset: 0x165AB24
     static void Disconnect_internal(System::IntPtr sock, bool reuse, ByRef<int> error);
     // public System.Int32 Receive(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags, out System.Net.Sockets.SocketError errorCode)
-    // Offset: 0x14B14B8
-    int Receive(::Array<uint8_t>* buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, ByRef<System::Net::Sockets::SocketError> errorCode);
+    // Offset: 0x1657134
+    int Receive(::ArrayWrapper<uint8_t> buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, ByRef<System::Net::Sockets::SocketError> errorCode);
     // public System.Int32 Receive(System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> buffers, System.Net.Sockets.SocketFlags socketFlags, out System.Net.Sockets.SocketError errorCode)
-    // Offset: 0x14B1688
+    // Offset: 0x1657304
     int Receive(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* buffers, System::Net::Sockets::SocketFlags socketFlags, ByRef<System::Net::Sockets::SocketError> errorCode);
     // public System.IAsyncResult BeginReceive(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags, out System.Net.Sockets.SocketError errorCode, System.AsyncCallback callback, System.Object state)
-    // Offset: 0x14B1F8C
-    System::IAsyncResult* BeginReceive(::Array<uint8_t>* buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, ByRef<System::Net::Sockets::SocketError> errorCode, System::AsyncCallback* callback, ::Il2CppObject* state);
+    // Offset: 0x1657C08
+    System::IAsyncResult* BeginReceive(::ArrayWrapper<uint8_t> buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, ByRef<System::Net::Sockets::SocketError> errorCode, System::AsyncCallback* callback, ::Il2CppObject* state);
     // public System.Int32 EndReceive(System.IAsyncResult asyncResult, out System.Net.Sockets.SocketError errorCode)
-    // Offset: 0x14B20F0
+    // Offset: 0x1657D6C
     int EndReceive(System::IAsyncResult* asyncResult, ByRef<System::Net::Sockets::SocketError> errorCode);
     // static private System.Int32 Receive_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Net.Sockets.Socket/System.Net.Sockets.WSABUF* bufarray, System.Int32 count, System.Net.Sockets.SocketFlags flags, out System.Int32 error, System.Boolean blocking)
-    // Offset: 0x14B5164
+    // Offset: 0x165ADE0
     static int Receive_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, System::Net::Sockets::Socket::WSABUF* bufarray, int count, System::Net::Sockets::SocketFlags flags, ByRef<int> error, bool blocking);
     // static private System.Int32 Receive_internal(System.IntPtr sock, System.Net.Sockets.Socket/System.Net.Sockets.WSABUF* bufarray, System.Int32 count, System.Net.Sockets.SocketFlags flags, out System.Int32 error, System.Boolean blocking)
-    // Offset: 0x14B5270
+    // Offset: 0x165AEEC
     static int Receive_internal(System::IntPtr sock, System::Net::Sockets::Socket::WSABUF* bufarray, int count, System::Net::Sockets::SocketFlags flags, ByRef<int> error, bool blocking);
     // static private System.Int32 Receive_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Byte* buffer, System.Int32 count, System.Net.Sockets.SocketFlags flags, out System.Int32 error, System.Boolean blocking)
-    // Offset: 0x14B5058
+    // Offset: 0x165ACD4
     static int Receive_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, uint8_t* buffer, int count, System::Net::Sockets::SocketFlags flags, ByRef<int> error, bool blocking);
     // static private System.Int32 Receive_internal(System.IntPtr sock, System.Byte* buffer, System.Int32 count, System.Net.Sockets.SocketFlags flags, out System.Int32 error, System.Boolean blocking)
-    // Offset: 0x14B5278
+    // Offset: 0x165AEF4
     static int Receive_internal(System::IntPtr sock, uint8_t* buffer, int count, System::Net::Sockets::SocketFlags flags, ByRef<int> error, bool blocking);
     // public System.Int32 ReceiveFrom(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags, ref System.Net.EndPoint remoteEP)
-    // Offset: 0x14B5280
-    int ReceiveFrom(::Array<uint8_t>* buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, ByRef<System::Net::EndPoint*> remoteEP);
+    // Offset: 0x165AEFC
+    int ReceiveFrom(::ArrayWrapper<uint8_t> buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, ByRef<System::Net::EndPoint*> remoteEP);
     // System.Int32 ReceiveFrom(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags, ref System.Net.EndPoint remoteEP, out System.Net.Sockets.SocketError errorCode)
-    // Offset: 0x14B53B0
-    int ReceiveFrom(::Array<uint8_t>* buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, ByRef<System::Net::EndPoint*> remoteEP, ByRef<System::Net::Sockets::SocketError> errorCode);
+    // Offset: 0x165B02C
+    int ReceiveFrom(::ArrayWrapper<uint8_t> buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, ByRef<System::Net::EndPoint*> remoteEP, ByRef<System::Net::Sockets::SocketError> errorCode);
     // public System.Int32 EndReceiveFrom(System.IAsyncResult asyncResult, ref System.Net.EndPoint endPoint)
-    // Offset: 0x14B5658
+    // Offset: 0x165B2D4
     int EndReceiveFrom(System::IAsyncResult* asyncResult, ByRef<System::Net::EndPoint*> endPoint);
     // static private System.Int32 ReceiveFrom_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Byte* buffer, System.Int32 count, System.Net.Sockets.SocketFlags flags, ref System.Net.SocketAddress sockaddr, out System.Int32 error, System.Boolean blocking)
-    // Offset: 0x14B5544
+    // Offset: 0x165B1C0
     static int ReceiveFrom_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, uint8_t* buffer, int count, System::Net::Sockets::SocketFlags flags, ByRef<System::Net::SocketAddress*> sockaddr, ByRef<int> error, bool blocking);
     // static private System.Int32 ReceiveFrom_internal(System.IntPtr sock, System.Byte* buffer, System.Int32 count, System.Net.Sockets.SocketFlags flags, ref System.Net.SocketAddress sockaddr, out System.Int32 error, System.Boolean blocking)
-    // Offset: 0x14B575C
+    // Offset: 0x165B3D8
     static int ReceiveFrom_internal(System::IntPtr sock, uint8_t* buffer, int count, System::Net::Sockets::SocketFlags flags, ByRef<System::Net::SocketAddress*> sockaddr, ByRef<int> error, bool blocking);
     // public System.Int32 Send(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags, out System.Net.Sockets.SocketError errorCode)
-    // Offset: 0x14B135C
-    int Send(::Array<uint8_t>* buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, ByRef<System::Net::Sockets::SocketError> errorCode);
+    // Offset: 0x1656FD8
+    int Send(::ArrayWrapper<uint8_t> buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, ByRef<System::Net::Sockets::SocketError> errorCode);
     // public System.Int32 Send(System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> buffers, System.Net.Sockets.SocketFlags socketFlags, out System.Net.Sockets.SocketError errorCode)
-    // Offset: 0x14B0E64
+    // Offset: 0x1656AE0
     int Send(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* buffers, System::Net::Sockets::SocketFlags socketFlags, ByRef<System::Net::Sockets::SocketError> errorCode);
     // public System.IAsyncResult BeginSend(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags, out System.Net.Sockets.SocketError errorCode, System.AsyncCallback callback, System.Object state)
-    // Offset: 0x14B1CC8
-    System::IAsyncResult* BeginSend(::Array<uint8_t>* buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, ByRef<System::Net::Sockets::SocketError> errorCode, System::AsyncCallback* callback, ::Il2CppObject* state);
+    // Offset: 0x1657944
+    System::IAsyncResult* BeginSend(::ArrayWrapper<uint8_t> buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, ByRef<System::Net::Sockets::SocketError> errorCode, System::AsyncCallback* callback, ::Il2CppObject* state);
     // static private System.Void BeginSendCallback(System.Net.Sockets.SocketAsyncResult sockares, System.Int32 sent_so_far)
-    // Offset: 0x14B597C
+    // Offset: 0x165B5F8
     static void BeginSendCallback(System::Net::Sockets::SocketAsyncResult* sockares, int sent_so_far);
     // public System.Int32 EndSend(System.IAsyncResult asyncResult, out System.Net.Sockets.SocketError errorCode)
-    // Offset: 0x14B1EA4
+    // Offset: 0x1657B20
     int EndSend(System::IAsyncResult* asyncResult, ByRef<System::Net::Sockets::SocketError> errorCode);
     // static private System.Int32 Send_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Net.Sockets.Socket/System.Net.Sockets.WSABUF* bufarray, System.Int32 count, System.Net.Sockets.SocketFlags flags, out System.Int32 error, System.Boolean blocking)
-    // Offset: 0x14B5870
+    // Offset: 0x165B4EC
     static int Send_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, System::Net::Sockets::Socket::WSABUF* bufarray, int count, System::Net::Sockets::SocketFlags flags, ByRef<int> error, bool blocking);
     // static private System.Int32 Send_internal(System.IntPtr sock, System.Net.Sockets.Socket/System.Net.Sockets.WSABUF* bufarray, System.Int32 count, System.Net.Sockets.SocketFlags flags, out System.Int32 error, System.Boolean blocking)
-    // Offset: 0x14B5C48
+    // Offset: 0x165B8C4
     static int Send_internal(System::IntPtr sock, System::Net::Sockets::Socket::WSABUF* bufarray, int count, System::Net::Sockets::SocketFlags flags, ByRef<int> error, bool blocking);
     // static private System.Int32 Send_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Byte* buffer, System.Int32 count, System.Net.Sockets.SocketFlags flags, out System.Int32 error, System.Boolean blocking)
-    // Offset: 0x14B5764
+    // Offset: 0x165B3E0
     static int Send_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, uint8_t* buffer, int count, System::Net::Sockets::SocketFlags flags, ByRef<int> error, bool blocking);
     // static private System.Int32 Send_internal(System.IntPtr sock, System.Byte* buffer, System.Int32 count, System.Net.Sockets.SocketFlags flags, out System.Int32 error, System.Boolean blocking)
-    // Offset: 0x14B5C50
+    // Offset: 0x165B8CC
     static int Send_internal(System::IntPtr sock, uint8_t* buffer, int count, System::Net::Sockets::SocketFlags flags, ByRef<int> error, bool blocking);
     // public System.Int32 SendTo(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags, System.Net.EndPoint remoteEP)
-    // Offset: 0x14B5C58
-    int SendTo(::Array<uint8_t>* buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, System::Net::EndPoint* remoteEP);
+    // Offset: 0x165B8D4
+    int SendTo(::ArrayWrapper<uint8_t> buffer, int offset, int size, System::Net::Sockets::SocketFlags socketFlags, System::Net::EndPoint* remoteEP);
     // public System.Int32 EndSendTo(System.IAsyncResult asyncResult)
-    // Offset: 0x14B5F0C
+    // Offset: 0x165BB88
     int EndSendTo(System::IAsyncResult* asyncResult);
     // static private System.Int32 SendTo_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Byte* buffer, System.Int32 count, System.Net.Sockets.SocketFlags flags, System.Net.SocketAddress sa, out System.Int32 error, System.Boolean blocking)
-    // Offset: 0x14B5DF8
+    // Offset: 0x165BA74
     static int SendTo_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, uint8_t* buffer, int count, System::Net::Sockets::SocketFlags flags, System::Net::SocketAddress* sa, ByRef<int> error, bool blocking);
     // static private System.Int32 SendTo_internal(System.IntPtr sock, System.Byte* buffer, System.Int32 count, System.Net.Sockets.SocketFlags flags, System.Net.SocketAddress sa, out System.Int32 error, System.Boolean blocking)
-    // Offset: 0x14B5FC0
+    // Offset: 0x165BC3C
     static int SendTo_internal(System::IntPtr sock, uint8_t* buffer, int count, System::Net::Sockets::SocketFlags flags, System::Net::SocketAddress* sa, ByRef<int> error, bool blocking);
     // public System.Object GetSocketOption(System.Net.Sockets.SocketOptionLevel optionLevel, System.Net.Sockets.SocketOptionName optionName)
-    // Offset: 0x14ACEB8
+    // Offset: 0x1652B34
     ::Il2CppObject* GetSocketOption(System::Net::Sockets::SocketOptionLevel optionLevel, System::Net::Sockets::SocketOptionName optionName);
     // static private System.Void GetSocketOption_obj_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Net.Sockets.SocketOptionLevel level, System.Net.Sockets.SocketOptionName name, out System.Object obj_val, out System.Int32 error)
-    // Offset: 0x14B5FC8
+    // Offset: 0x165BC44
     static void GetSocketOption_obj_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, System::Net::Sockets::SocketOptionLevel level, System::Net::Sockets::SocketOptionName name, ByRef<::Il2CppObject*> obj_val, ByRef<int> error);
     // static private System.Void GetSocketOption_obj_internal(System.IntPtr socket, System.Net.Sockets.SocketOptionLevel level, System.Net.Sockets.SocketOptionName name, out System.Object obj_val, out System.Int32 error)
-    // Offset: 0x14B60D8
+    // Offset: 0x165BD54
     static void GetSocketOption_obj_internal(System::IntPtr socket, System::Net::Sockets::SocketOptionLevel level, System::Net::Sockets::SocketOptionName name, ByRef<::Il2CppObject*> obj_val, ByRef<int> error);
     // public System.Void SetSocketOption(System.Net.Sockets.SocketOptionLevel optionLevel, System.Net.Sockets.SocketOptionName optionName, System.Boolean optionValue)
-    // Offset: 0x14B60DC
+    // Offset: 0x165BD58
     void SetSocketOption(System::Net::Sockets::SocketOptionLevel optionLevel, System::Net::Sockets::SocketOptionName optionName, bool optionValue);
     // public System.Void SetSocketOption(System.Net.Sockets.SocketOptionLevel optionLevel, System.Net.Sockets.SocketOptionName optionName, System.Int32 optionValue)
-    // Offset: 0x14B0590
+    // Offset: 0x165620C
     void SetSocketOption(System::Net::Sockets::SocketOptionLevel optionLevel, System::Net::Sockets::SocketOptionName optionName, int optionValue);
     // static private System.Void SetSocketOption_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Net.Sockets.SocketOptionLevel level, System.Net.Sockets.SocketOptionName name, System.Object obj_val, System.Byte[] byte_val, System.Int32 int_val, out System.Int32 error)
-    // Offset: 0x14B60E4
-    static void SetSocketOption_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, System::Net::Sockets::SocketOptionLevel level, System::Net::Sockets::SocketOptionName name, ::Il2CppObject* obj_val, ::Array<uint8_t>* byte_val, int int_val, ByRef<int> error);
+    // Offset: 0x165BD60
+    static void SetSocketOption_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, System::Net::Sockets::SocketOptionLevel level, System::Net::Sockets::SocketOptionName name, ::Il2CppObject* obj_val, ::ArrayWrapper<uint8_t> byte_val, int int_val, ByRef<int> error);
     // static private System.Void SetSocketOption_internal(System.IntPtr socket, System.Net.Sockets.SocketOptionLevel level, System.Net.Sockets.SocketOptionName name, System.Object obj_val, System.Byte[] byte_val, System.Int32 int_val, out System.Int32 error)
-    // Offset: 0x14B620C
-    static void SetSocketOption_internal(System::IntPtr socket, System::Net::Sockets::SocketOptionLevel level, System::Net::Sockets::SocketOptionName name, ::Il2CppObject* obj_val, ::Array<uint8_t>* byte_val, int int_val, ByRef<int> error);
+    // Offset: 0x165BE88
+    static void SetSocketOption_internal(System::IntPtr socket, System::Net::Sockets::SocketOptionLevel level, System::Net::Sockets::SocketOptionName name, ::Il2CppObject* obj_val, ::ArrayWrapper<uint8_t> byte_val, int int_val, ByRef<int> error);
     // public System.Int32 IOControl(System.Int32 ioControlCode, System.Byte[] optionInValue, System.Byte[] optionOutValue)
-    // Offset: 0x14B1B48
-    int IOControl(int ioControlCode, ::Array<uint8_t>* optionInValue, ::Array<uint8_t>* optionOutValue);
+    // Offset: 0x16577C4
+    int IOControl(int ioControlCode, ::ArrayWrapper<uint8_t> optionInValue, ::ArrayWrapper<uint8_t> optionOutValue);
     // static private System.Int32 IOControl_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Int32 ioctl_code, System.Byte[] input, System.Byte[] output, out System.Int32 error)
-    // Offset: 0x14B6210
-    static int IOControl_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, int ioctl_code, ::Array<uint8_t>* input, ::Array<uint8_t>* output, ByRef<int> error);
+    // Offset: 0x165BE8C
+    static int IOControl_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, int ioctl_code, ::ArrayWrapper<uint8_t> input, ::ArrayWrapper<uint8_t> output, ByRef<int> error);
     // static private System.Int32 IOControl_internal(System.IntPtr sock, System.Int32 ioctl_code, System.Byte[] input, System.Byte[] output, out System.Int32 error)
-    // Offset: 0x14B6330
-    static int IOControl_internal(System::IntPtr sock, int ioctl_code, ::Array<uint8_t>* input, ::Array<uint8_t>* output, ByRef<int> error);
+    // Offset: 0x165BFAC
+    static int IOControl_internal(System::IntPtr sock, int ioctl_code, ::ArrayWrapper<uint8_t> input, ::ArrayWrapper<uint8_t> output, ByRef<int> error);
     // public System.Void Close()
-    // Offset: 0x14B6334
+    // Offset: 0x165BFB0
     void Close();
     // public System.Void Close(System.Int32 timeout)
-    // Offset: 0x14ADF8C
+    // Offset: 0x1653C08
     void Close(int timeout);
     // static System.Void Close_internal(System.IntPtr socket, out System.Int32 error)
-    // Offset: 0x14AF798
+    // Offset: 0x1655414
     static void Close_internal(System::IntPtr socket, ByRef<int> error);
     // public System.Void Shutdown(System.Net.Sockets.SocketShutdown how)
-    // Offset: 0x14B633C
+    // Offset: 0x165BFB8
     void Shutdown(System::Net::Sockets::SocketShutdown how);
     // static private System.Void Shutdown_internal(System.Net.Sockets.SafeSocketHandle safeHandle, System.Net.Sockets.SocketShutdown how, out System.Int32 error)
-    // Offset: 0x14B2418
+    // Offset: 0x1658094
     static void Shutdown_internal(System::Net::Sockets::SafeSocketHandle* safeHandle, System::Net::Sockets::SocketShutdown how, ByRef<int> error);
     // static System.Void Shutdown_internal(System.IntPtr socket, System.Net.Sockets.SocketShutdown how, out System.Int32 error)
-    // Offset: 0x14AF790
+    // Offset: 0x165540C
     static void Shutdown_internal(System::IntPtr socket, System::Net::Sockets::SocketShutdown how, ByRef<int> error);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x14B6440
+    // Offset: 0x165C0BC
     void Dispose(bool disposing);
     // private System.Void Linger(System.IntPtr handle)
-    // Offset: 0x14B64B0
+    // Offset: 0x165C12C
     void Linger(System::IntPtr handle);
     // private System.Void ThrowIfDisposedAndClosed()
-    // Offset: 0x14B2648
+    // Offset: 0x16582C4
     void ThrowIfDisposedAndClosed();
     // private System.Void ThrowIfBufferNull(System.Byte[] buffer)
-    // Offset: 0x14B4EB0
-    void ThrowIfBufferNull(::Array<uint8_t>* buffer);
+    // Offset: 0x165AB2C
+    void ThrowIfBufferNull(::ArrayWrapper<uint8_t> buffer);
     // private System.Void ThrowIfBufferOutOfRange(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x14B4F30
-    void ThrowIfBufferOutOfRange(::Array<uint8_t>* buffer, int offset, int size);
+    // Offset: 0x165ABAC
+    void ThrowIfBufferOutOfRange(::ArrayWrapper<uint8_t> buffer, int offset, int size);
     // private System.Void ThrowIfUdp()
-    // Offset: 0x14B2C84
+    // Offset: 0x1658900
     void ThrowIfUdp();
     // private System.Net.Sockets.SocketAsyncResult ValidateEndIAsyncResult(System.IAsyncResult ares, System.String methodName, System.String argName)
-    // Offset: 0x14B392C
+    // Offset: 0x16595A8
     System::Net::Sockets::SocketAsyncResult* ValidateEndIAsyncResult(System::IAsyncResult* ares, ::Il2CppString* methodName, ::Il2CppString* argName);
     // private System.Void QueueIOSelectorJob(System.Threading.SemaphoreSlim sem, System.IntPtr handle, System.IOSelectorJob job)
-    // Offset: 0x14B359C
+    // Offset: 0x1659218
     void QueueIOSelectorJob(System::Threading::SemaphoreSlim* sem, System::IntPtr handle, System::IOSelectorJob* job);
     // private System.Void InitSocketAsyncEventArgs(System.Net.Sockets.SocketAsyncEventArgs e, System.AsyncCallback callback, System.Object state, System.Net.Sockets.SocketOperation operation)
-    // Offset: 0x14B351C
+    // Offset: 0x1659198
     void InitSocketAsyncEventArgs(System::Net::Sockets::SocketAsyncEventArgs* e, System::AsyncCallback* callback, ::Il2CppObject* state, System::Net::Sockets::SocketOperation operation);
     // private System.Net.Sockets.SocketAsyncOperation SocketOperationToSocketAsyncOperation(System.Net.Sockets.SocketOperation op)
-    // Offset: 0x14B662C
+    // Offset: 0x165C2A8
     System::Net::Sockets::SocketAsyncOperation SocketOperationToSocketAsyncOperation(System::Net::Sockets::SocketOperation op);
     // private System.Net.IPEndPoint RemapIPEndPoint(System.Net.IPEndPoint input)
-    // Offset: 0x14B3A6C
+    // Offset: 0x16596E8
     System::Net::IPEndPoint* RemapIPEndPoint(System::Net::IPEndPoint* input);
     // static System.Void cancel_blocking_socket_operation(System.Threading.Thread thread)
-    // Offset: 0x14AF794
+    // Offset: 0x1655410
     static void cancel_blocking_socket_operation(System::Threading::Thread* thread);
     // static private System.Boolean IsProtocolSupported_internal(System.Net.NetworkInformation.NetworkInterfaceComponent networkInterface)
-    // Offset: 0x14B67A4
+    // Offset: 0x165C420
     static bool IsProtocolSupported_internal(System::Net::NetworkInformation::NetworkInterfaceComponent networkInterface);
     // static private System.Boolean IsProtocolSupported(System.Net.NetworkInformation.NetworkInterfaceComponent networkInterface)
-    // Offset: 0x14B22C4
+    // Offset: 0x1657F40
     static bool IsProtocolSupported(System::Net::NetworkInformation::NetworkInterfaceComponent networkInterface);
     // protected override System.Void Finalize()
-    // Offset: 0x14B23A4
+    // Offset: 0x1658020
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -1074,9 +1074,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::Send
 // Il2CppName: Send
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags)>(&System::Net::Sockets::Socket::Send)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::ArrayWrapper<uint8_t>, int, int, System::Net::Sockets::SocketFlags)>(&System::Net::Sockets::Socket::Send)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* socketFlags = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketFlags")->byval_arg;
@@ -1086,9 +1086,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::Receive
 // Il2CppName: Receive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags)>(&System::Net::Sockets::Socket::Receive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::ArrayWrapper<uint8_t>, int, int, System::Net::Sockets::SocketFlags)>(&System::Net::Sockets::Socket::Receive)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* socketFlags = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketFlags")->byval_arg;
@@ -1108,11 +1108,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::IOControl
 // Il2CppName: IOControl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::Net::Sockets::IOControlCode, ::Array<uint8_t>*, ::Array<uint8_t>*)>(&System::Net::Sockets::Socket::IOControl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::Net::Sockets::IOControlCode, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&System::Net::Sockets::Socket::IOControl)> {
   static const MethodInfo* get() {
     static auto* ioControlCode = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "IOControlCode")->byval_arg;
-    static auto* optionInValue = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* optionOutValue = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* optionInValue = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* optionOutValue = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "IOControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ioControlCode, optionInValue, optionOutValue});
   }
 };
@@ -1128,9 +1128,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::BeginSend
 // Il2CppName: BeginSend
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginSend)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::ArrayWrapper<uint8_t>, int, int, System::Net::Sockets::SocketFlags, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginSend)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* socketFlags = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketFlags")->byval_arg;
@@ -1151,9 +1151,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::BeginReceive
 // Il2CppName: BeginReceive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginReceive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::ArrayWrapper<uint8_t>, int, int, System::Net::Sockets::SocketFlags, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginReceive)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* socketFlags = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketFlags")->byval_arg;
@@ -1362,9 +1362,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::EndAccept
 // Il2CppName: EndAccept
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::Socket* (System::Net::Sockets::Socket::*)(ByRef<::Array<uint8_t>*>, ByRef<int>, System::IAsyncResult*)>(&System::Net::Sockets::Socket::EndAccept)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::Socket* (System::Net::Sockets::Socket::*)(ByRef<::ArrayWrapper<uint8_t>>, ByRef<int>, System::IAsyncResult*)>(&System::Net::Sockets::Socket::EndAccept)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->this_arg;
     static auto* bytesTransferred = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* asyncResult = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "EndAccept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, bytesTransferred, asyncResult});
@@ -1478,9 +1478,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::BeginConnect
 // Il2CppName: BeginConnect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::Array<System::Net::IPAddress*>*, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginConnect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::ArrayWrapper<System::Net::IPAddress*>, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginConnect)> {
   static const MethodInfo* get() {
-    static auto* addresses = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Net", "IPAddress"), 1)->byval_arg;
+    static auto* addresses = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Net", "IPAddress")), 1)->byval_arg;
     static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* requestCallback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -1581,9 +1581,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::Receive
 // Il2CppName: Receive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, ByRef<System::Net::Sockets::SocketError>)>(&System::Net::Sockets::Socket::Receive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::ArrayWrapper<uint8_t>, int, int, System::Net::Sockets::SocketFlags, ByRef<System::Net::Sockets::SocketError>)>(&System::Net::Sockets::Socket::Receive)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* socketFlags = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketFlags")->byval_arg;
@@ -1605,9 +1605,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::BeginReceive
 // Il2CppName: BeginReceive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, ByRef<System::Net::Sockets::SocketError>, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginReceive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::ArrayWrapper<uint8_t>, int, int, System::Net::Sockets::SocketFlags, ByRef<System::Net::Sockets::SocketError>, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginReceive)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* socketFlags = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketFlags")->byval_arg;
@@ -1686,9 +1686,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::ReceiveFrom
 // Il2CppName: ReceiveFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, ByRef<System::Net::EndPoint*>)>(&System::Net::Sockets::Socket::ReceiveFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::ArrayWrapper<uint8_t>, int, int, System::Net::Sockets::SocketFlags, ByRef<System::Net::EndPoint*>)>(&System::Net::Sockets::Socket::ReceiveFrom)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* socketFlags = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketFlags")->byval_arg;
@@ -1699,9 +1699,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::ReceiveFrom
 // Il2CppName: ReceiveFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, ByRef<System::Net::EndPoint*>, ByRef<System::Net::Sockets::SocketError>)>(&System::Net::Sockets::Socket::ReceiveFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::ArrayWrapper<uint8_t>, int, int, System::Net::Sockets::SocketFlags, ByRef<System::Net::EndPoint*>, ByRef<System::Net::Sockets::SocketError>)>(&System::Net::Sockets::Socket::ReceiveFrom)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* socketFlags = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketFlags")->byval_arg;
@@ -1753,9 +1753,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::Send
 // Il2CppName: Send
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, ByRef<System::Net::Sockets::SocketError>)>(&System::Net::Sockets::Socket::Send)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::ArrayWrapper<uint8_t>, int, int, System::Net::Sockets::SocketFlags, ByRef<System::Net::Sockets::SocketError>)>(&System::Net::Sockets::Socket::Send)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* socketFlags = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketFlags")->byval_arg;
@@ -1777,9 +1777,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::BeginSend
 // Il2CppName: BeginSend
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, ByRef<System::Net::Sockets::SocketError>, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginSend)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::ArrayWrapper<uint8_t>, int, int, System::Net::Sockets::SocketFlags, ByRef<System::Net::Sockets::SocketError>, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginSend)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* socketFlags = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketFlags")->byval_arg;
@@ -1868,9 +1868,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::SendTo
 // Il2CppName: SendTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::Net::EndPoint*)>(&System::Net::Sockets::Socket::SendTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::ArrayWrapper<uint8_t>, int, int, System::Net::Sockets::SocketFlags, System::Net::EndPoint*)>(&System::Net::Sockets::Socket::SendTo)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* socketFlags = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketFlags")->byval_arg;
@@ -1978,13 +1978,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::SetSocketOption_internal
 // Il2CppName: SetSocketOption_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName, ::Il2CppObject*, ::Array<uint8_t>*, int, ByRef<int>)>(&System::Net::Sockets::Socket::SetSocketOption_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName, ::Il2CppObject*, ::ArrayWrapper<uint8_t>, int, ByRef<int>)>(&System::Net::Sockets::Socket::SetSocketOption_internal)> {
   static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SafeSocketHandle")->byval_arg;
     static auto* level = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketOptionLevel")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketOptionName")->byval_arg;
     static auto* obj_val = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    static auto* byte_val = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* byte_val = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* int_val = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "SetSocketOption_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{safeHandle, level, name, obj_val, byte_val, int_val, error});
@@ -1993,13 +1993,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::SetSocketOption_internal
 // Il2CppName: SetSocketOption_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName, ::Il2CppObject*, ::Array<uint8_t>*, int, ByRef<int>)>(&System::Net::Sockets::Socket::SetSocketOption_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName, ::Il2CppObject*, ::ArrayWrapper<uint8_t>, int, ByRef<int>)>(&System::Net::Sockets::Socket::SetSocketOption_internal)> {
   static const MethodInfo* get() {
     static auto* socket = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* level = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketOptionLevel")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketOptionName")->byval_arg;
     static auto* obj_val = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    static auto* byte_val = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* byte_val = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* int_val = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "SetSocketOption_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{socket, level, name, obj_val, byte_val, int_val, error});
@@ -2008,23 +2008,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::IOControl
 // Il2CppName: IOControl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(int, ::Array<uint8_t>*, ::Array<uint8_t>*)>(&System::Net::Sockets::Socket::IOControl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(int, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&System::Net::Sockets::Socket::IOControl)> {
   static const MethodInfo* get() {
     static auto* ioControlCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* optionInValue = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* optionOutValue = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* optionInValue = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* optionOutValue = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "IOControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ioControlCode, optionInValue, optionOutValue});
   }
 };
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::IOControl_internal
 // Il2CppName: IOControl_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, int, ::Array<uint8_t>*, ::Array<uint8_t>*, ByRef<int>)>(&System::Net::Sockets::Socket::IOControl_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, int, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, ByRef<int>)>(&System::Net::Sockets::Socket::IOControl_internal)> {
   static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SafeSocketHandle")->byval_arg;
     static auto* ioctl_code = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "IOControl_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{safeHandle, ioctl_code, input, output, error});
   }
@@ -2032,12 +2032,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::IOControl_internal
 // Il2CppName: IOControl_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, int, ::Array<uint8_t>*, ::Array<uint8_t>*, ByRef<int>)>(&System::Net::Sockets::Socket::IOControl_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, int, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, ByRef<int>)>(&System::Net::Sockets::Socket::IOControl_internal)> {
   static const MethodInfo* get() {
     static auto* sock = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* ioctl_code = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "IOControl_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sock, ioctl_code, input, output, error});
   }
@@ -2129,18 +2129,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::ThrowIfBufferNull
 // Il2CppName: ThrowIfBufferNull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(::Array<uint8_t>*)>(&System::Net::Sockets::Socket::ThrowIfBufferNull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(::ArrayWrapper<uint8_t>)>(&System::Net::Sockets::Socket::ThrowIfBufferNull)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "ThrowIfBufferNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer});
   }
 };
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::ThrowIfBufferOutOfRange
 // Il2CppName: ThrowIfBufferOutOfRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int)>(&System::Net::Sockets::Socket::ThrowIfBufferOutOfRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Net::Sockets::Socket::ThrowIfBufferOutOfRange)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "ThrowIfBufferOutOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, offset, size});

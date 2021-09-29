@@ -46,31 +46,31 @@ namespace System::Security::Cryptography::X509Certificates {
     // Creating value type constructor for type: X509Helper2
     X509Helper2() noexcept {}
     // static System.Void Initialize()
-    // Offset: 0x186D294
+    // Offset: 0x19DF678
     static void Initialize();
     // static System.Void ThrowIfContextInvalid(System.Security.Cryptography.X509Certificates.X509CertificateImpl impl)
-    // Offset: 0x18610E0
+    // Offset: 0x19D34C4
     static void ThrowIfContextInvalid(System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl);
     // static System.Security.Cryptography.X509Certificates.X509Certificate2Impl Import(System.Byte[] rawData, System.String password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags, System.Boolean disableProvider)
-    // Offset: 0x18616C8
-    static System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::Array<uint8_t>* rawData, ::Il2CppString* password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags, bool disableProvider);
+    // Offset: 0x19D3AAC
+    static System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::ArrayWrapper<uint8_t> rawData, ::Il2CppString* password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags, bool disableProvider);
     // static System.Security.Cryptography.X509Certificates.X509Certificate2Impl Import(System.Security.Cryptography.X509Certificates.X509Certificate cert, System.Boolean disableProvider)
-    // Offset: 0x18612E4
+    // Offset: 0x19D36C8
     static System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(System::Security::Cryptography::X509Certificates::X509Certificate* cert, bool disableProvider);
     // static Mono.Security.X509.X509Certificate GetMonoCertificate(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x1861E14
+    // Offset: 0x19D41F8
     static Mono::Security::X509::X509Certificate* GetMonoCertificate(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // static System.Security.Cryptography.X509Certificates.X509ChainImpl CreateChainImpl(System.Boolean useMachineContext)
-    // Offset: 0x1867B0C
+    // Offset: 0x19D9EF0
     static System::Security::Cryptography::X509Certificates::X509ChainImpl* CreateChainImpl(bool useMachineContext);
     // static public System.Boolean IsValid(System.Security.Cryptography.X509Certificates.X509ChainImpl impl)
-    // Offset: 0x186D2FC
+    // Offset: 0x19DF6E0
     static bool IsValid(System::Security::Cryptography::X509Certificates::X509ChainImpl* impl);
     // static System.Void ThrowIfContextInvalid(System.Security.Cryptography.X509Certificates.X509ChainImpl impl)
-    // Offset: 0x1867A3C
+    // Offset: 0x19D9E20
     static void ThrowIfContextInvalid(System::Security::Cryptography::X509Certificates::X509ChainImpl* impl);
     // static System.Exception GetInvalidChainContextException()
-    // Offset: 0x186D310
+    // Offset: 0x19DF6F4
     static System::Exception* GetInvalidChainContextException();
   }; // System.Security.Cryptography.X509Certificates.X509Helper2
   #pragma pack(pop)
@@ -98,9 +98,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Helper2::Import
 // Il2CppName: Import
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate2Impl* (*)(::Array<uint8_t>*, ::Il2CppString*, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags, bool)>(&System::Security::Cryptography::X509Certificates::X509Helper2::Import)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate2Impl* (*)(::ArrayWrapper<uint8_t>, ::Il2CppString*, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags, bool)>(&System::Security::Cryptography::X509Certificates::X509Helper2::Import)> {
   static const MethodInfo* get() {
-    static auto* rawData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* rawData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* keyStorageFlags = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509KeyStorageFlags")->byval_arg;
     static auto* disableProvider = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

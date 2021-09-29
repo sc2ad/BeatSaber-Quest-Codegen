@@ -55,14 +55,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LobbyStateDataModel : public ::Il2CppObject/*, public System::IDisposable, public GlobalNamespace::ILobbyStateDataModel*/ {
     public:
-    // [InjectAttribute] Offset: 0xE3A968
+    // [InjectAttribute] Offset: 0xF0314C
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3A978
+    // [InjectAttribute] Offset: 0xF0315C
     // private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
     // Size: 0x8
     // Offset: 0x18
@@ -134,58 +134,58 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<IConnectedPlayer> playerDisconnectedEvent
     System::Action_1<GlobalNamespace::IConnectedPlayer*>*& dyn_playerDisconnectedEvent();
     // public System.Boolean get_isConnected()
-    // Offset: 0x12149AC
+    // Offset: 0x125597C
     bool get_isConnected();
     // public IConnectedPlayer get_localPlayer()
-    // Offset: 0x1214A60
+    // Offset: 0x1255A30
     GlobalNamespace::IConnectedPlayer* get_localPlayer();
     // public System.Collections.Generic.List`1<IConnectedPlayer> get_connectedPlayers()
-    // Offset: 0x1214B10
+    // Offset: 0x1255AE0
     System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* get_connectedPlayers();
     // public System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> get_rawConnectedPlayers()
-    // Offset: 0x1214B18
+    // Offset: 0x1255AE8
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* get_rawConnectedPlayers();
     // public GameplayServerMode get_gameServerMode()
-    // Offset: 0x1214BCC
+    // Offset: 0x1255B9C
     GlobalNamespace::GameplayServerMode get_gameServerMode();
     // public DiscoveryPolicy get_discoveryPolicy()
-    // Offset: 0x1214BD4
+    // Offset: 0x1255BA4
     GlobalNamespace::DiscoveryPolicy get_discoveryPolicy();
     // public System.Int32 get_maxPartySize()
-    // Offset: 0x1214BDC
+    // Offset: 0x1255BAC
     int get_maxPartySize();
     // public System.Void add_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x121471C
+    // Offset: 0x12556EC
     void add_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x12147C0
+    // Offset: 0x1255790
     void remove_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void add_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x1214864
+    // Offset: 0x1255834
     void add_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x1214908
+    // Offset: 0x12558D8
     void remove_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void Activate()
-    // Offset: 0x1214CA4
+    // Offset: 0x1255C74
     void Activate();
     // public System.Void Deactivate()
-    // Offset: 0x121538C
+    // Offset: 0x125635C
     void Deactivate();
     // public System.Void Dispose()
-    // Offset: 0x121551C
+    // Offset: 0x12564EC
     void Dispose();
     // public IConnectedPlayer GetPlayerById(System.String userId)
-    // Offset: 0x1215520
+    // Offset: 0x12564F0
     GlobalNamespace::IConnectedPlayer* GetPlayerById(::Il2CppString* userId);
     // private System.Void HandleMultiplayerSessionManagerPlayerConnected(IConnectedPlayer player)
-    // Offset: 0x12155B0
+    // Offset: 0x1256580
     void HandleMultiplayerSessionManagerPlayerConnected(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandleMultiplayerSessionManagerPlayerDisconnected(IConnectedPlayer player)
-    // Offset: 0x12156D8
+    // Offset: 0x12566A8
     void HandleMultiplayerSessionManagerPlayerDisconnected(GlobalNamespace::IConnectedPlayer* player);
     // public System.Void .ctor()
-    // Offset: 0x12157FC
+    // Offset: 0x12567CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

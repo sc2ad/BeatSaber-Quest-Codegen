@@ -45,16 +45,16 @@ namespace System::Net::Configuration {
     // Get instance field reference: readonly System.Net.Sockets.IPProtectionLevel IPProtectionLevel
     System::Net::Sockets::IPProtectionLevel& dyn_IPProtectionLevel();
     // static System.Net.Configuration.SettingsSectionInternal get_Section()
-    // Offset: 0x16D5FE0
+    // Offset: 0x15702CC
     static System::Net::Configuration::SettingsSectionInternal* get_Section();
     // System.Boolean get_Ipv6Enabled()
-    // Offset: 0x16D6048
+    // Offset: 0x1570334
     bool get_Ipv6Enabled();
     // static private System.Void .cctor()
-    // Offset: 0x16D6068
+    // Offset: 0x1570354
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x16D6050
+    // Offset: 0x157033C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

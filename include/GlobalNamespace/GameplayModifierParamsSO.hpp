@@ -27,14 +27,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameplayModifierParamsSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    // [LocalizationKeyAttribute] Offset: 0xE38F80
+    // [LocalizationKeyAttribute] Offset: 0xF01734
     // private System.String _modifierNameLocalizationKey
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* modifierNameLocalizationKey;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0xE38FB8
+    // [LocalizationKeyAttribute] Offset: 0xF0176C
     // private System.String _descriptionLocalizationKey
     // Size: 0x8
     // Offset: 0x20
@@ -64,21 +64,21 @@ namespace GlobalNamespace {
     // private GameplayModifierParamsSO[] _mutuallyExclusives
     // Size: 0x8
     // Offset: 0x38
-    ::Array<GlobalNamespace::GameplayModifierParamsSO*>* mutuallyExclusives;
+    ::ArrayWrapper<GlobalNamespace::GameplayModifierParamsSO*> mutuallyExclusives;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::GameplayModifierParamsSO*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::GameplayModifierParamsSO*>) == 0x8);
     // private GameplayModifierParamsSO[] _requires
     // Size: 0x8
     // Offset: 0x40
-    ::Array<GlobalNamespace::GameplayModifierParamsSO*>* _requires;
+    ::ArrayWrapper<GlobalNamespace::GameplayModifierParamsSO*> _requires;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::GameplayModifierParamsSO*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::GameplayModifierParamsSO*>) == 0x8);
     // private GameplayModifierParamsSO[] _requiredBy
     // Size: 0x8
     // Offset: 0x48
-    ::Array<GlobalNamespace::GameplayModifierParamsSO*>* requiredBy;
+    ::ArrayWrapper<GlobalNamespace::GameplayModifierParamsSO*> requiredBy;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::GameplayModifierParamsSO*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::GameplayModifierParamsSO*>) == 0x8);
     // private System.Boolean _isInBeta
     // Size: 0x1
     // Offset: 0x50
@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: GameplayModifierParamsSO
-    GameplayModifierParamsSO(::Il2CppString* modifierNameLocalizationKey_ = {}, ::Il2CppString* descriptionLocalizationKey_ = {}, float multiplier_ = {}, bool multiplierConditionallyValid_ = {}, UnityEngine::Sprite* icon_ = {}, ::Array<GlobalNamespace::GameplayModifierParamsSO*>* mutuallyExclusives_ = {}, ::Array<GlobalNamespace::GameplayModifierParamsSO*>* _requires_ = {}, ::Array<GlobalNamespace::GameplayModifierParamsSO*>* requiredBy_ = {}, bool isInBeta_ = {}) noexcept : modifierNameLocalizationKey{modifierNameLocalizationKey_}, descriptionLocalizationKey{descriptionLocalizationKey_}, multiplier{multiplier_}, multiplierConditionallyValid{multiplierConditionallyValid_}, icon{icon_}, mutuallyExclusives{mutuallyExclusives_}, _requires{_requires_}, requiredBy{requiredBy_}, isInBeta{isInBeta_} {}
+    GameplayModifierParamsSO(::Il2CppString* modifierNameLocalizationKey_ = {}, ::Il2CppString* descriptionLocalizationKey_ = {}, float multiplier_ = {}, bool multiplierConditionallyValid_ = {}, UnityEngine::Sprite* icon_ = {}, ::ArrayWrapper<GlobalNamespace::GameplayModifierParamsSO*> mutuallyExclusives_ = {}, ::ArrayWrapper<GlobalNamespace::GameplayModifierParamsSO*> _requires_ = {}, ::ArrayWrapper<GlobalNamespace::GameplayModifierParamsSO*> requiredBy_ = {}, bool isInBeta_ = {}) noexcept : modifierNameLocalizationKey{modifierNameLocalizationKey_}, descriptionLocalizationKey{descriptionLocalizationKey_}, multiplier{multiplier_}, multiplierConditionallyValid{multiplierConditionallyValid_}, icon{icon_}, mutuallyExclusives{mutuallyExclusives_}, _requires{_requires_}, requiredBy{requiredBy_}, isInBeta{isInBeta_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _modifierNameLocalizationKey
@@ -100,42 +100,42 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Sprite _icon
     UnityEngine::Sprite*& dyn__icon();
     // Get instance field reference: private GameplayModifierParamsSO[] _mutuallyExclusives
-    ::Array<GlobalNamespace::GameplayModifierParamsSO*>*& dyn__mutuallyExclusives();
+    ::ArrayWrapper<GlobalNamespace::GameplayModifierParamsSO*>& dyn__mutuallyExclusives();
     // Get instance field reference: private GameplayModifierParamsSO[] _requires
-    ::Array<GlobalNamespace::GameplayModifierParamsSO*>*& dyn__requires();
+    ::ArrayWrapper<GlobalNamespace::GameplayModifierParamsSO*>& dyn__requires();
     // Get instance field reference: private GameplayModifierParamsSO[] _requiredBy
-    ::Array<GlobalNamespace::GameplayModifierParamsSO*>*& dyn__requiredBy();
+    ::ArrayWrapper<GlobalNamespace::GameplayModifierParamsSO*>& dyn__requiredBy();
     // Get instance field reference: private System.Boolean _isInBeta
     bool& dyn__isInBeta();
     // public System.String get_modifierNameLocalizationKey()
-    // Offset: 0x110050C
+    // Offset: 0x11E4DF4
     ::Il2CppString* get_modifierNameLocalizationKey();
     // public System.String get_descriptionLocalizationKey()
-    // Offset: 0x1100514
+    // Offset: 0x11E4DFC
     ::Il2CppString* get_descriptionLocalizationKey();
     // public System.Single get_multiplier()
-    // Offset: 0x110051C
+    // Offset: 0x11E4E04
     float get_multiplier();
     // public System.Boolean get_multiplierConditionallyValid()
-    // Offset: 0x1100524
+    // Offset: 0x11E4E0C
     bool get_multiplierConditionallyValid();
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x110052C
+    // Offset: 0x11E4E14
     UnityEngine::Sprite* get_icon();
     // public GameplayModifierParamsSO[] get_mutuallyExclusives()
-    // Offset: 0x1100534
-    ::Array<GlobalNamespace::GameplayModifierParamsSO*>* get_mutuallyExclusives();
+    // Offset: 0x11E4E1C
+    ::ArrayWrapper<GlobalNamespace::GameplayModifierParamsSO*> get_mutuallyExclusives();
     // public GameplayModifierParamsSO[] get_requires()
-    // Offset: 0x110053C
-    ::Array<GlobalNamespace::GameplayModifierParamsSO*>* get_requires();
+    // Offset: 0x11E4E24
+    ::ArrayWrapper<GlobalNamespace::GameplayModifierParamsSO*> get_requires();
     // public GameplayModifierParamsSO[] get_requiredBy()
-    // Offset: 0x1100544
-    ::Array<GlobalNamespace::GameplayModifierParamsSO*>* get_requiredBy();
+    // Offset: 0x11E4E2C
+    ::ArrayWrapper<GlobalNamespace::GameplayModifierParamsSO*> get_requiredBy();
     // public System.Boolean get_isInBeta()
-    // Offset: 0x110054C
+    // Offset: 0x11E4E34
     bool get_isInBeta();
     // public System.Void .ctor()
-    // Offset: 0x1100554
+    // Offset: 0x11E4E3C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifierParamsSO::get_mutuallyExclusives
 // Il2CppName: get_mutuallyExclusives
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::GameplayModifierParamsSO*>* (GlobalNamespace::GameplayModifierParamsSO::*)()>(&GlobalNamespace::GameplayModifierParamsSO::get_mutuallyExclusives)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::GameplayModifierParamsSO*> (GlobalNamespace::GameplayModifierParamsSO::*)()>(&GlobalNamespace::GameplayModifierParamsSO::get_mutuallyExclusives)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifierParamsSO*), "get_mutuallyExclusives", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifierParamsSO::get_requires
 // Il2CppName: get_requires
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::GameplayModifierParamsSO*>* (GlobalNamespace::GameplayModifierParamsSO::*)()>(&GlobalNamespace::GameplayModifierParamsSO::get_requires)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::GameplayModifierParamsSO*> (GlobalNamespace::GameplayModifierParamsSO::*)()>(&GlobalNamespace::GameplayModifierParamsSO::get_requires)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifierParamsSO*), "get_requires", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifierParamsSO::get_requiredBy
 // Il2CppName: get_requiredBy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::GameplayModifierParamsSO*>* (GlobalNamespace::GameplayModifierParamsSO::*)()>(&GlobalNamespace::GameplayModifierParamsSO::get_requiredBy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::GameplayModifierParamsSO*> (GlobalNamespace::GameplayModifierParamsSO::*)()>(&GlobalNamespace::GameplayModifierParamsSO::get_requiredBy)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifierParamsSO*), "get_requiredBy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -46,21 +46,21 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerConnectedPlayerSpectatingSpot : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::IMultiplayerSpectatingSpot*/ {
     public:
-    // [InjectAttribute] Offset: 0xE41A30
+    // [InjectAttribute] Offset: 0xF0A3C4
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0xE41A40
+    // [InjectAttribute] Offset: 0xF0A3D4
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE41A50
+    // [InjectAttribute] Offset: 0xF0A3E4
     // private readonly MultiplayerSpectatingSpotManager _spectatingSpotManager
     // Size: 0x8
     // Offset: 0x28
@@ -114,52 +114,52 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _playerFailed
     bool& dyn__playerFailed();
     // public IMultiplayerObservable get_observable()
-    // Offset: 0x11CE0CC
+    // Offset: 0x12144F4
     GlobalNamespace::IMultiplayerObservable* get_observable();
     // private System.Void set_observable(IMultiplayerObservable value)
-    // Offset: 0x11CE0D4
+    // Offset: 0x12144FC
     void set_observable(GlobalNamespace::IMultiplayerObservable* value);
     // public System.String get_spotName()
-    // Offset: 0x11CE0DC
+    // Offset: 0x1214504
     ::Il2CppString* get_spotName();
     // public System.Boolean get_isMain()
-    // Offset: 0x11CE190
+    // Offset: 0x12145B8
     bool get_isMain();
     // private UnityEngine.Transform IMultiplayerSpectatingSpot.get_transform()
-    // Offset: 0x11CE73C
+    // Offset: 0x1214B64
     UnityEngine::Transform* IMultiplayerSpectatingSpot_get_transform();
     // public System.Void add_hasBeenRemovedEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
-    // Offset: 0x11CDF84
+    // Offset: 0x12143AC
     void add_hasBeenRemovedEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
     // public System.Void remove_hasBeenRemovedEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
-    // Offset: 0x11CE028
+    // Offset: 0x1214450
     void remove_hasBeenRemovedEvent(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
     // public System.Void add_isObservedChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x11CA0D0
+    // Offset: 0x1210614
     void add_isObservedChangedEvent(System::Action_1<bool>* value);
     // public System.Void remove_isObservedChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x11CA4F8
+    // Offset: 0x1210A40
     void remove_isObservedChangedEvent(System::Action_1<bool>* value);
     // protected System.Void Start()
-    // Offset: 0x11CE198
+    // Offset: 0x12145C0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11CE37C
+    // Offset: 0x12147A4
     void OnDestroy();
     // public System.Void SetIsObserved(System.Boolean isObserved)
-    // Offset: 0x11CE520
+    // Offset: 0x1214948
     void SetIsObserved(bool isObserved);
     // private System.Void ReloadBasedOnPlayerCurrentState(IConnectedPlayer connectedPlayer)
-    // Offset: 0x11CE594
+    // Offset: 0x12149BC
     void ReloadBasedOnPlayerCurrentState(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void HandlePlayerStateChanged(IConnectedPlayer connectedPlayer)
-    // Offset: 0x11CE72C
+    // Offset: 0x1214B54
     void HandlePlayerStateChanged(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void HandlePlayerDisconnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0x11CE730
+    // Offset: 0x1214B58
     void HandlePlayerDisconnected(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // public System.Void .ctor()
-    // Offset: 0x11CE734
+    // Offset: 0x1214B5C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

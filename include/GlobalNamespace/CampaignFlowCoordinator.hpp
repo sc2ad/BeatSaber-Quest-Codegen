@@ -83,56 +83,56 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuLightsPresetSO* newObjectiveLightsPreset;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuLightsPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE45208
+    // [InjectAttribute] Offset: 0xF0DBCC
     // private readonly MenuTransitionsHelper _menuTransitionsHelper
     // Size: 0x8
     // Offset: 0xC8
     GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuTransitionsHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0xE45218
+    // [InjectAttribute] Offset: 0xF0DBDC
     // private readonly MenuLightsManager _menuLightsManager
     // Size: 0x8
     // Offset: 0xD0
     GlobalNamespace::MenuLightsManager* menuLightsManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuLightsManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE45228
+    // [InjectAttribute] Offset: 0xF0DBEC
     // private readonly MissionSelectionNavigationController _missionSelectionNavigationController
     // Size: 0x8
     // Offset: 0xD8
     GlobalNamespace::MissionSelectionNavigationController* missionSelectionNavigationController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionSelectionNavigationController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE45238
+    // [InjectAttribute] Offset: 0xF0DBFC
     // private readonly MissionResultsViewController _missionResultsViewController
     // Size: 0x8
     // Offset: 0xE0
     GlobalNamespace::MissionResultsViewController* missionResultsViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionResultsViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE45248
+    // [InjectAttribute] Offset: 0xF0DC0C
     // private readonly GameplaySetupViewController _gameplaySetupViewController
     // Size: 0x8
     // Offset: 0xE8
     GlobalNamespace::GameplaySetupViewController* gameplaySetupViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplaySetupViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE45258
+    // [InjectAttribute] Offset: 0xF0DC1C
     // private readonly MissionHelpViewController _missionHelpViewController
     // Size: 0x8
     // Offset: 0xF0
     GlobalNamespace::MissionHelpViewController* missionHelpViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionHelpViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE45268
+    // [InjectAttribute] Offset: 0xF0DC2C
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xF8
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE45278
+    // [InjectAttribute] Offset: 0xF0DC3C
     // private readonly CampaignProgressModel _campaignProgressModel
     // Size: 0x8
     // Offset: 0x100
@@ -182,37 +182,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _showCredits
     bool& dyn__showCredits();
     // public System.Void add_didFinishEvent(System.Action`1<CampaignFlowCoordinator> value)
-    // Offset: 0x10DBABC
+    // Offset: 0x11944FC
     void add_didFinishEvent(System::Action_1<GlobalNamespace::CampaignFlowCoordinator*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<CampaignFlowCoordinator> value)
-    // Offset: 0x10DBB64
+    // Offset: 0x11945A4
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::CampaignFlowCoordinator*>* value);
     // private System.Void HandleMissionSelectionNavigationControllerDidPressPlayButton(MissionSelectionNavigationController viewController)
-    // Offset: 0x10DC0AC
+    // Offset: 0x1194AEC
     void HandleMissionSelectionNavigationControllerDidPressPlayButton(GlobalNamespace::MissionSelectionNavigationController* viewController);
     // private System.Void HandleMissionHelpViewControllerDidFinish(MissionHelpViewController viewController)
-    // Offset: 0x10DC36C
+    // Offset: 0x1194DBC
     void HandleMissionHelpViewControllerDidFinish(GlobalNamespace::MissionHelpViewController* viewController);
     // private System.Void HandleMissionResultsViewControllerContinueButtonPressed(MissionResultsViewController viewController)
-    // Offset: 0x10DC414
+    // Offset: 0x1194E6C
     void HandleMissionResultsViewControllerContinueButtonPressed(GlobalNamespace::MissionResultsViewController* viewController);
     // private System.Void HandleMissionResultsViewControllerRetryButtonPressed(MissionResultsViewController viewController)
-    // Offset: 0x10DC4C0
+    // Offset: 0x1194F18
     void HandleMissionResultsViewControllerRetryButtonPressed(GlobalNamespace::MissionResultsViewController* viewController);
     // private System.Void StartLevel(System.Action beforeSceneSwitchCallback)
-    // Offset: 0x10DC1E8
+    // Offset: 0x1194C28
     void StartLevel(System::Action* beforeSceneSwitchCallback);
     // private System.Void HandleMissionLevelSceneDidFinish(MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData, MissionCompletionResults missionCompletionResults)
-    // Offset: 0x10DC568
+    // Offset: 0x1194FDC
     void HandleMissionLevelSceneDidFinish(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData, GlobalNamespace::MissionCompletionResults* missionCompletionResults);
     // private System.Void <HandleMissionResultsViewControllerContinueButtonPressed>b__21_0()
-    // Offset: 0x10DC7B0
+    // Offset: 0x1195274
     void $HandleMissionResultsViewControllerContinueButtonPressed$b__21_0();
     // private System.Void <HandleMissionResultsViewControllerContinueButtonPressed>b__21_1(System.Boolean presented)
-    // Offset: 0x10DC844
+    // Offset: 0x1195308
     void $HandleMissionResultsViewControllerContinueButtonPressed$b__21_1(bool presented);
     // public System.Void .ctor()
-    // Offset: 0x10DC7A8
+    // Offset: 0x119526C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -226,22 +226,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CampaignFlowCoordinator*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x10DBC0C
+    // Offset: 0x119464C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x10DBE24
+    // Offset: 0x1194864
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/HMUI.AnimationType animationType)
-    // Offset: 0x10DBFB0
+    // Offset: 0x11949F0
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/HMUI.AnimationType animationType)
     void TopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, HMUI::ViewController::AnimationType animationType);
     // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0x10DC6FC
+    // Offset: 0x11951C0
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
     void BackButtonWasPressed(HMUI::ViewController* topViewController);

@@ -38,9 +38,9 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // private readonly System.UInt64[] m_table
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint64_t>* m_table;
+    ::ArrayWrapper<uint64_t> m_table;
     // Field size check
-    static_assert(sizeof(::Array<uint64_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint64_t>) == 0x8);
     // private readonly System.Int32 m_size
     // Size: 0x4
     // Offset: 0x20
@@ -48,35 +48,35 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: SecT131R1LookupTable
-    SecT131R1LookupTable(Org::BouncyCastle::Math::EC::Custom::Sec::SecT131R1Curve* m_outer_ = {}, ::Array<uint64_t>* m_table_ = {}, int m_size_ = {}) noexcept : m_outer{m_outer_}, m_table{m_table_}, m_size{m_size_} {}
+    SecT131R1LookupTable(Org::BouncyCastle::Math::EC::Custom::Sec::SecT131R1Curve* m_outer_ = {}, ::ArrayWrapper<uint64_t> m_table_ = {}, int m_size_ = {}) noexcept : m_outer{m_outer_}, m_table{m_table_}, m_size{m_size_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.Custom.Sec.SecT131R1Curve m_outer
     Org::BouncyCastle::Math::EC::Custom::Sec::SecT131R1Curve*& dyn_m_outer();
     // Get instance field reference: private readonly System.UInt64[] m_table
-    ::Array<uint64_t>*& dyn_m_table();
+    ::ArrayWrapper<uint64_t>& dyn_m_table();
     // Get instance field reference: private readonly System.Int32 m_size
     int& dyn_m_size();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.Custom.Sec.SecT131R1Curve outer, System.UInt64[] table, System.Int32 size)
-    // Offset: 0x1EA6DA8
+    // Offset: 0x203B6E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SecT131R1Curve::SecT131R1LookupTable* New_ctor(Org::BouncyCastle::Math::EC::Custom::Sec::SecT131R1Curve* outer, ::Array<uint64_t>* table, int size) {
+    static SecT131R1Curve::SecT131R1LookupTable* New_ctor(Org::BouncyCastle::Math::EC::Custom::Sec::SecT131R1Curve* outer, ::ArrayWrapper<uint64_t> table, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Custom::Sec::SecT131R1Curve::SecT131R1LookupTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecT131R1Curve::SecT131R1LookupTable*, creationType>(outer, table, size)));
     }
     // private Org.BouncyCastle.Math.EC.ECPoint CreatePoint(System.UInt64[] x, System.UInt64[] y)
-    // Offset: 0x1EA701C
-    Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::Array<uint64_t>* x, ::Array<uint64_t>* y);
+    // Offset: 0x203B95C
+    Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::ArrayWrapper<uint64_t> x, ::ArrayWrapper<uint64_t> y);
     // public override System.Int32 get_Size()
-    // Offset: 0x1EA6EE8
+    // Offset: 0x203B828
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: System.Int32 AbstractECLookupTable::get_Size()
     int get_Size();
     // public override Org.BouncyCastle.Math.EC.ECPoint Lookup(System.Int32 index)
-    // Offset: 0x1EA6EF0
+    // Offset: 0x203B830
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECLookupTable::Lookup(System.Int32 index)
     Org::BouncyCastle::Math::EC::ECPoint* Lookup(int index);
     // public override Org.BouncyCastle.Math.EC.ECPoint LookupVar(System.Int32 index)
-    // Offset: 0x1EA7100
+    // Offset: 0x203BA40
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECLookupTable::LookupVar(System.Int32 index)
     Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);
@@ -94,10 +94,10 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecT131R1Curve:
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecT131R1Curve::SecT131R1LookupTable::CreatePoint
 // Il2CppName: CreatePoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::Custom::Sec::SecT131R1Curve::SecT131R1LookupTable::*)(::Array<uint64_t>*, ::Array<uint64_t>*)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecT131R1Curve::SecT131R1LookupTable::CreatePoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::Custom::Sec::SecT131R1Curve::SecT131R1LookupTable::*)(::ArrayWrapper<uint64_t>, ::ArrayWrapper<uint64_t>)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecT131R1Curve::SecT131R1LookupTable::CreatePoint)> {
   static const MethodInfo* get() {
-    static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
-    static auto* y = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
+    static auto* x = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt64")), 1)->byval_arg;
+    static auto* y = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt64")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Sec::SecT131R1Curve::SecT131R1LookupTable*), "CreatePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y});
   }
 };

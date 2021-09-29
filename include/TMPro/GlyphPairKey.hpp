@@ -59,7 +59,7 @@ namespace TMPro {
     // Get instance field reference: public System.Int64 key
     int64_t& dyn_key();
     // public System.Void .ctor(System.UInt32 firstGlyphIndex, System.UInt32 secondGlyphIndex)
-    // Offset: 0x1108ADC
+    // Offset: 0x11EA890
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     GlyphPairKey(uint firstGlyphIndex, uint secondGlyphIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::GlyphPairKey::.ctor");
@@ -67,7 +67,7 @@ namespace TMPro {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, firstGlyphIndex, secondGlyphIndex);
     }
     // System.Void .ctor(TMPro.TMP_GlyphPairAdjustmentRecord record)
-    // Offset: 0x1108AF0
+    // Offset: 0x11EA8A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     GlyphPairKey(TMPro::TMP_GlyphPairAdjustmentRecord* record) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::GlyphPairKey::.ctor");

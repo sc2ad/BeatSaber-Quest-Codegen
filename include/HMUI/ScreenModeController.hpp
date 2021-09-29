@@ -42,10 +42,10 @@ namespace HMUI {
     // private HMUI.CurvedCanvasSettings[] _curvedCanvases
     // Size: 0x8
     // Offset: 0x18
-    ::Array<HMUI::CurvedCanvasSettings*>* curvedCanvases;
+    ::ArrayWrapper<HMUI::CurvedCanvasSettings*> curvedCanvases;
     // Field size check
-    static_assert(sizeof(::Array<HMUI::CurvedCanvasSettings*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1BEA4
+    static_assert(sizeof(::ArrayWrapper<HMUI::CurvedCanvasSettings*>) == 0x8);
+    // [InjectAttribute] Offset: 0xEE2580
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x20
@@ -65,11 +65,11 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
     // Creating value type constructor for type: ScreenModeController
-    ScreenModeController(::Array<HMUI::CurvedCanvasSettings*>* curvedCanvases_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}, HMUI::ScreenModeData* defaultModeData_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : curvedCanvases{curvedCanvases_}, vrPlatformHelper{vrPlatformHelper_}, defaultModeData{defaultModeData_}, transform{transform_} {}
+    ScreenModeController(::ArrayWrapper<HMUI::CurvedCanvasSettings*> curvedCanvases_ = {}, GlobalNamespace::IVRPlatformHelper* vrPlatformHelper_ = {}, HMUI::ScreenModeData* defaultModeData_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : curvedCanvases{curvedCanvases_}, vrPlatformHelper{vrPlatformHelper_}, defaultModeData{defaultModeData_}, transform{transform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.CurvedCanvasSettings[] _curvedCanvases
-    ::Array<HMUI::CurvedCanvasSettings*>*& dyn__curvedCanvases();
+    ::ArrayWrapper<HMUI::CurvedCanvasSettings*>& dyn__curvedCanvases();
     // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper
     GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // Get instance field reference: private HMUI.ScreenModeData _defaultModeData
@@ -77,16 +77,16 @@ namespace HMUI {
     // Get instance field reference: private UnityEngine.Transform _transform
     UnityEngine::Transform*& dyn__transform();
     // protected System.Void Awake()
-    // Offset: 0x1313108
+    // Offset: 0x14156B8
     void Awake();
     // public System.Void SetMode(HMUI.ScreenModeData screenModeData)
-    // Offset: 0x1313304
+    // Offset: 0x14158B4
     void SetMode(HMUI::ScreenModeData* screenModeData);
     // public System.Void SetDefaultMode()
-    // Offset: 0x131356C
+    // Offset: 0x1415B1C
     void SetDefaultMode();
     // public System.Void .ctor()
-    // Offset: 0x1313574
+    // Offset: 0x1415B24
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

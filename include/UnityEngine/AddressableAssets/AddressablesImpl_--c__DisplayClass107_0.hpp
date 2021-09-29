@@ -70,10 +70,10 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: public UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters
     UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters& dyn_instantiateParameters();
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> <InstantiateWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op)
-    // Offset: 0x144A38C
+    // Offset: 0x1597BA4
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> $InstantiateWithChain$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
     // public System.Void .ctor()
-    // Offset: 0x1448680
+    // Offset: 0x1595E98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -31,13 +31,13 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: ApplicationLifecycle
     ApplicationLifecycle() noexcept {}
     // static public Oculus.Platform.Models.LaunchDetails GetLaunchDetails()
-    // Offset: 0x1B93000
+    // Offset: 0x1D1A6F0
     static Oculus::Platform::Models::LaunchDetails* GetLaunchDetails();
     // static public System.Void LogDeeplinkResult(System.String trackingID, Oculus.Platform.LaunchResult result)
-    // Offset: 0x1B93100
+    // Offset: 0x1D1A7F0
     static void LogDeeplinkResult(::Il2CppString* trackingID, Oculus::Platform::LaunchResult result);
     // static public System.Void SetLaunchIntentChangedNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<System.String> callback)
-    // Offset: 0x1B9321C
+    // Offset: 0x1D1A90C
     static void SetLaunchIntentChangedNotificationCallback(typename Oculus::Platform::Message_1<::Il2CppString*>::Callback* callback);
   }; // Oculus.Platform.ApplicationLifecycle
   #pragma pack(pop)

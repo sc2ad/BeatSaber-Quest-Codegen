@@ -30,14 +30,14 @@ namespace System::Runtime::Remoting::Messaging {
     // Creating value type constructor for type: MCMDictionary
     MCMDictionary() noexcept {}
     // Get static field: static public System.String[] InternalKeys
-    static ::Array<::Il2CppString*>* _get_InternalKeys();
+    static ::ArrayWrapper<::Il2CppString*> _get_InternalKeys();
     // Set static field: static public System.String[] InternalKeys
-    static void _set_InternalKeys(::Array<::Il2CppString*>* value);
+    static void _set_InternalKeys(::ArrayWrapper<::Il2CppString*> value);
     // static private System.Void .cctor()
-    // Offset: 0x1A50CFC
+    // Offset: 0x1C196CC
     static void _cctor();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodMessage message)
-    // Offset: 0x1A50C70
+    // Offset: 0x1C19640
     // Implemented from: System.Runtime.Remoting.Messaging.MessageDictionary
     // Base method: System.Void MessageDictionary::.ctor(System.Runtime.Remoting.Messaging.IMethodMessage message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

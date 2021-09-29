@@ -96,40 +96,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isBeingDestroyed
     bool& dyn__isBeingDestroyed();
     // static public System.Collections.Generic.Dictionary`2<BloomPrePassLightTypeSO,System.Collections.Generic.HashSet`1<BloomPrePassLight>> get_bloomLightsDict()
-    // Offset: 0x1E13D74
+    // Offset: 0x1E23CB8
     static System::Collections::Generic::Dictionary_2<GlobalNamespace::BloomPrePassLightTypeSO*, System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>*>* get_bloomLightsDict();
     // static public System.Collections.Generic.List`1<BloomPrePassLight/LightsDataItem> get_lightsDataItems()
-    // Offset: 0x1E13DDC
+    // Offset: 0x1E23D20
     static System::Collections::Generic::List_1<GlobalNamespace::BloomPrePassLight::LightsDataItem*>* get_lightsDataItems();
     // public System.Boolean get_isDirty()
     // Offset: 0xFFFFFFFF
     bool get_isDirty();
     // protected System.Void OnEnable()
-    // Offset: 0x1E13E44
+    // Offset: 0x1E23D88
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1E140C4
+    // Offset: 0x1E24008
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x1E1418C
+    // Offset: 0x1E240D0
     void OnDestroy();
     // private System.Void RegisterLight()
-    // Offset: 0x1E13E48
+    // Offset: 0x1E23D8C
     void RegisterLight();
     // private System.Void UnregisterLight()
-    // Offset: 0x1E140C8
+    // Offset: 0x1E2400C
     void UnregisterLight();
     // protected System.Void DidRegisterLight()
     // Offset: 0xFFFFFFFF
     void DidRegisterLight();
     // public System.Void FillMeshData(System.Int32 lightNum, UnityEngine.Vector3[] vertices, UnityEngine.Color[] colors, UnityEngine.Vector4[] viewPos, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix, System.Single lineWidth)
     // Offset: 0xFFFFFFFF
-    void FillMeshData(int lightNum, ::Array<UnityEngine::Vector3>* vertices, ::Array<UnityEngine::Color>* colors, ::Array<UnityEngine::Vector4>* viewPos, UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix, float lineWidth);
+    void FillMeshData(int lightNum, ::ArrayWrapper<UnityEngine::Vector3> vertices, ::ArrayWrapper<UnityEngine::Color> colors, ::ArrayWrapper<UnityEngine::Vector4> viewPos, UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix, float lineWidth);
     // public System.Void Refresh()
     // Offset: 0xFFFFFFFF
     void Refresh();
     // protected System.Void .ctor()
-    // Offset: 0x1E141D0
+    // Offset: 0x1E24114
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -142,7 +142,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassLight*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E141D8
+    // Offset: 0x1E2411C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
@@ -228,12 +228,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassLight::FillMeshData
 // Il2CppName: FillMeshData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassLight::*)(int, ::Array<UnityEngine::Vector3>*, ::Array<UnityEngine::Color>*, ::Array<UnityEngine::Vector4>*, UnityEngine::Matrix4x4, UnityEngine::Matrix4x4, float)>(&GlobalNamespace::BloomPrePassLight::FillMeshData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassLight::*)(int, ::ArrayWrapper<UnityEngine::Vector3>, ::ArrayWrapper<UnityEngine::Color>, ::ArrayWrapper<UnityEngine::Vector4>, UnityEngine::Matrix4x4, UnityEngine::Matrix4x4, float)>(&GlobalNamespace::BloomPrePassLight::FillMeshData)> {
   static const MethodInfo* get() {
     static auto* lightNum = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* vertices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
-    static auto* colors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->byval_arg;
-    static auto* viewPos = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->byval_arg;
+    static auto* vertices = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->byval_arg;
+    static auto* colors = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Color")), 1)->byval_arg;
+    static auto* viewPos = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")), 1)->byval_arg;
     static auto* viewMatrix = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
     static auto* projectionMatrix = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
     static auto* lineWidth = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

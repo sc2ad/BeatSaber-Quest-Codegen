@@ -171,9 +171,9 @@ namespace System::Net {
     // private System.Byte[] buffer
     // Size: 0x8
     // Offset: 0x40
-    ::Array<uint8_t>* buffer;
+    ::ArrayWrapper<uint8_t> buffer;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.EventHandler abortHandler
     // Size: 0x8
     // Offset: 0x48
@@ -277,7 +277,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(Mono::Net::Security::MonoTlsStream*) == 0x8);
     // Creating value type constructor for type: WebConnection
-    WebConnection(System::Net::ServicePoint* sPoint_ = {}, System::IO::Stream* nstream_ = {}, System::Net::Sockets::Socket* socket_ = {}, ::Il2CppObject* socketLock_ = {}, System::Net::IWebConnectionState* state_ = {}, System::Net::WebExceptionStatus status_ = {}, bool keepAlive_ = {}, ::Array<uint8_t>* buffer_ = {}, System::EventHandler* abortHandler_ = {}, System::Net::WebConnection::AbortHelper* abortHelper_ = {}, System::Net::WebConnectionData* Data_ = {}, bool chunkedRead_ = {}, System::Net::MonoChunkStream* chunkStream_ = {}, System::Collections::Queue* queue_ = {}, bool reused_ = {}, int position_ = {}, System::Net::HttpWebRequest* priority_request_ = {}, System::Net::NetworkCredential* ntlm_credentials_ = {}, bool ntlm_authenticated_ = {}, bool unsafe_sharing_ = {}, System::Net::WebConnection::NtlmAuthState connect_ntlm_auth_state_ = {}, System::Net::HttpWebRequest* connect_request_ = {}, System::Exception* connect_exception_ = {}, Mono::Net::Security::MonoTlsStream* tlsStream_ = {}) noexcept : sPoint{sPoint_}, nstream{nstream_}, socket{socket_}, socketLock{socketLock_}, state{state_}, status{status_}, keepAlive{keepAlive_}, buffer{buffer_}, abortHandler{abortHandler_}, abortHelper{abortHelper_}, Data{Data_}, chunkedRead{chunkedRead_}, chunkStream{chunkStream_}, queue{queue_}, reused{reused_}, position{position_}, priority_request{priority_request_}, ntlm_credentials{ntlm_credentials_}, ntlm_authenticated{ntlm_authenticated_}, unsafe_sharing{unsafe_sharing_}, connect_ntlm_auth_state{connect_ntlm_auth_state_}, connect_request{connect_request_}, connect_exception{connect_exception_}, tlsStream{tlsStream_} {}
+    WebConnection(System::Net::ServicePoint* sPoint_ = {}, System::IO::Stream* nstream_ = {}, System::Net::Sockets::Socket* socket_ = {}, ::Il2CppObject* socketLock_ = {}, System::Net::IWebConnectionState* state_ = {}, System::Net::WebExceptionStatus status_ = {}, bool keepAlive_ = {}, ::ArrayWrapper<uint8_t> buffer_ = {}, System::EventHandler* abortHandler_ = {}, System::Net::WebConnection::AbortHelper* abortHelper_ = {}, System::Net::WebConnectionData* Data_ = {}, bool chunkedRead_ = {}, System::Net::MonoChunkStream* chunkStream_ = {}, System::Collections::Queue* queue_ = {}, bool reused_ = {}, int position_ = {}, System::Net::HttpWebRequest* priority_request_ = {}, System::Net::NetworkCredential* ntlm_credentials_ = {}, bool ntlm_authenticated_ = {}, bool unsafe_sharing_ = {}, System::Net::WebConnection::NtlmAuthState connect_ntlm_auth_state_ = {}, System::Net::HttpWebRequest* connect_request_ = {}, System::Exception* connect_exception_ = {}, Mono::Net::Security::MonoTlsStream* tlsStream_ = {}) noexcept : sPoint{sPoint_}, nstream{nstream_}, socket{socket_}, socketLock{socketLock_}, state{state_}, status{status_}, keepAlive{keepAlive_}, buffer{buffer_}, abortHandler{abortHandler_}, abortHelper{abortHelper_}, Data{Data_}, chunkedRead{chunkedRead_}, chunkStream{chunkStream_}, queue{queue_}, reused{reused_}, position{position_}, priority_request{priority_request_}, ntlm_credentials{ntlm_credentials_}, ntlm_authenticated{ntlm_authenticated_}, unsafe_sharing{unsafe_sharing_}, connect_ntlm_auth_state{connect_ntlm_auth_state_}, connect_request{connect_request_}, connect_exception{connect_exception_}, tlsStream{tlsStream_} {}
     // Get instance field reference: private System.Net.ServicePoint sPoint
     System::Net::ServicePoint*& dyn_sPoint();
     // Get instance field reference: private System.IO.Stream nstream
@@ -293,7 +293,7 @@ namespace System::Net {
     // Get instance field reference: private System.Boolean keepAlive
     bool& dyn_keepAlive();
     // Get instance field reference: private System.Byte[] buffer
-    ::Array<uint8_t>*& dyn_buffer();
+    ::ArrayWrapper<uint8_t>& dyn_buffer();
     // Get instance field reference: private System.EventHandler abortHandler
     System::EventHandler*& dyn_abortHandler();
     // Get instance field reference: private System.Net.WebConnection/System.Net.AbortHelper abortHelper
@@ -327,116 +327,116 @@ namespace System::Net {
     // Get instance field reference: private Mono.Net.Security.MonoTlsStream tlsStream
     Mono::Net::Security::MonoTlsStream*& dyn_tlsStream();
     // System.Void set_PriorityRequest(System.Net.HttpWebRequest value)
-    // Offset: 0x15DAD88
+    // Offset: 0x177E240
     void set_PriorityRequest(System::Net::HttpWebRequest* value);
     // System.Boolean get_NtlmAuthenticated()
-    // Offset: 0x15DAD90
+    // Offset: 0x177E248
     bool get_NtlmAuthenticated();
     // System.Void set_NtlmAuthenticated(System.Boolean value)
-    // Offset: 0x15DAD98
+    // Offset: 0x177E250
     void set_NtlmAuthenticated(bool value);
     // System.Net.NetworkCredential get_NtlmCredential()
-    // Offset: 0x15DADA4
+    // Offset: 0x177E25C
     System::Net::NetworkCredential* get_NtlmCredential();
     // System.Void set_NtlmCredential(System.Net.NetworkCredential value)
-    // Offset: 0x15DADAC
+    // Offset: 0x177E264
     void set_NtlmCredential(System::Net::NetworkCredential* value);
     // System.Boolean get_UnsafeAuthenticatedConnectionSharing()
-    // Offset: 0x15DADB4
+    // Offset: 0x177E26C
     bool get_UnsafeAuthenticatedConnectionSharing();
     // System.Void set_UnsafeAuthenticatedConnectionSharing(System.Boolean value)
-    // Offset: 0x15DADBC
+    // Offset: 0x177E274
     void set_UnsafeAuthenticatedConnectionSharing(bool value);
     // public System.Void .ctor(System.Net.IWebConnectionState wcs, System.Net.ServicePoint sPoint)
-    // Offset: 0x15D4974
+    // Offset: 0x1777E2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnection* New_ctor(System::Net::IWebConnectionState* wcs, System::Net::ServicePoint* sPoint) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebConnection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnection*, creationType>(wcs, sPoint)));
     }
     // private System.Boolean CanReuse()
-    // Offset: 0x15D4B3C
+    // Offset: 0x1777FF4
     bool CanReuse();
     // private System.Void Connect(System.Net.HttpWebRequest request)
-    // Offset: 0x15D4B70
+    // Offset: 0x1778028
     void Connect(System::Net::HttpWebRequest* request);
     // private System.Boolean CreateTunnel(System.Net.HttpWebRequest request, System.Uri connectUri, System.IO.Stream stream, out System.Byte[] buffer)
-    // Offset: 0x15D51F0
-    bool CreateTunnel(System::Net::HttpWebRequest* request, System::Uri* connectUri, System::IO::Stream* stream, ByRef<::Array<uint8_t>*> buffer);
+    // Offset: 0x17786A8
+    bool CreateTunnel(System::Net::HttpWebRequest* request, System::Uri* connectUri, System::IO::Stream* stream, ByRef<::ArrayWrapper<uint8_t>> buffer);
     // private System.Net.WebHeaderCollection ReadHeaders(System.IO.Stream stream, out System.Byte[] retBuffer, out System.Int32 status)
-    // Offset: 0x15D5AEC
-    System::Net::WebHeaderCollection* ReadHeaders(System::IO::Stream* stream, ByRef<::Array<uint8_t>*> retBuffer, ByRef<int> status);
+    // Offset: 0x1778FA4
+    System::Net::WebHeaderCollection* ReadHeaders(System::IO::Stream* stream, ByRef<::ArrayWrapper<uint8_t>> retBuffer, ByRef<int> status);
     // private System.Void FlushContents(System.IO.Stream stream, System.Int32 contentLength)
-    // Offset: 0x15D6238
+    // Offset: 0x17796F0
     void FlushContents(System::IO::Stream* stream, int contentLength);
     // private System.Boolean CreateStream(System.Net.HttpWebRequest request)
-    // Offset: 0x15D67A4
+    // Offset: 0x1779C5C
     bool CreateStream(System::Net::HttpWebRequest* request);
     // private System.Void HandleError(System.Net.WebExceptionStatus st, System.Exception e, System.String where)
-    // Offset: 0x15D5F90
+    // Offset: 0x1779448
     void HandleError(System::Net::WebExceptionStatus st, System::Exception* e, ::Il2CppString* where);
     // private System.Void ReadDone(System.IAsyncResult result)
-    // Offset: 0x15D6D9C
+    // Offset: 0x177A254
     void ReadDone(System::IAsyncResult* result);
     // static private System.Boolean ExpectContent(System.Int32 statusCode, System.String method)
-    // Offset: 0x15D80F4
+    // Offset: 0x177B5AC
     static bool ExpectContent(int statusCode, ::Il2CppString* method);
     // System.Void InitRead()
-    // Offset: 0x15D7CA0
+    // Offset: 0x177B158
     void InitRead();
     // static private System.Int32 GetResponse(System.Net.WebConnectionData data, System.Net.ServicePoint sPoint, System.Byte[] buffer, System.Int32 max)
-    // Offset: 0x15D73A8
-    static int GetResponse(System::Net::WebConnectionData* data, System::Net::ServicePoint* sPoint, ::Array<uint8_t>* buffer, int max);
+    // Offset: 0x177A860
+    static int GetResponse(System::Net::WebConnectionData* data, System::Net::ServicePoint* sPoint, ::ArrayWrapper<uint8_t> buffer, int max);
     // private System.Void InitConnection(System.Net.HttpWebRequest request)
-    // Offset: 0x15D853C
+    // Offset: 0x177B9F4
     void InitConnection(System::Net::HttpWebRequest* request);
     // System.EventHandler SendRequest(System.Net.HttpWebRequest request)
-    // Offset: 0x15D8944
+    // Offset: 0x177BDFC
     System::EventHandler* SendRequest(System::Net::HttpWebRequest* request);
     // private System.Void SendNext()
-    // Offset: 0x15D8B68
+    // Offset: 0x177C020
     void SendNext();
     // System.Void NextRead()
-    // Offset: 0x15D8CA8
+    // Offset: 0x177C160
     void NextRead();
     // static private System.Boolean ReadLine(System.Byte[] buffer, ref System.Int32 start, System.Int32 max, ref System.String output)
-    // Offset: 0x15D659C
-    static bool ReadLine(::Array<uint8_t>* buffer, ByRef<int> start, int max, ByRef<::Il2CppString*> output);
+    // Offset: 0x1779A54
+    static bool ReadLine(::ArrayWrapper<uint8_t> buffer, ByRef<int> start, int max, ByRef<::Il2CppString*> output);
     // System.IAsyncResult BeginRead(System.Net.HttpWebRequest request, System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
-    // Offset: 0x15D908C
-    System::IAsyncResult* BeginRead(System::Net::HttpWebRequest* request, ::Array<uint8_t>* buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
+    // Offset: 0x177C544
+    System::IAsyncResult* BeginRead(System::Net::HttpWebRequest* request, ::ArrayWrapper<uint8_t> buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
     // System.Int32 EndRead(System.Net.HttpWebRequest request, System.IAsyncResult result)
-    // Offset: 0x15D93E4
+    // Offset: 0x177C89C
     int EndRead(System::Net::HttpWebRequest* request, System::IAsyncResult* result);
     // private System.Int32 EnsureRead(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x15D99C8
-    int EnsureRead(::Array<uint8_t>* buffer, int offset, int size);
+    // Offset: 0x177CE80
+    int EnsureRead(::ArrayWrapper<uint8_t> buffer, int offset, int size);
     // private System.Boolean CompleteChunkedRead()
-    // Offset: 0x15D5154
+    // Offset: 0x177860C
     bool CompleteChunkedRead();
     // System.IAsyncResult BeginWrite(System.Net.HttpWebRequest request, System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
-    // Offset: 0x15D9B10
-    System::IAsyncResult* BeginWrite(System::Net::HttpWebRequest* request, ::Array<uint8_t>* buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
+    // Offset: 0x177CFC8
+    System::IAsyncResult* BeginWrite(System::Net::HttpWebRequest* request, ::ArrayWrapper<uint8_t> buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
     // System.Boolean EndWrite(System.Net.HttpWebRequest request, System.Boolean throwOnError, System.IAsyncResult result)
-    // Offset: 0x15D9F00
+    // Offset: 0x177D3B8
     bool EndWrite(System::Net::HttpWebRequest* request, bool throwOnError, System::IAsyncResult* result);
     // System.Int32 Read(System.Net.HttpWebRequest request, System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x15DA250
-    int Read(System::Net::HttpWebRequest* request, ::Array<uint8_t>* buffer, int offset, int size);
+    // Offset: 0x177D708
+    int Read(System::Net::HttpWebRequest* request, ::ArrayWrapper<uint8_t> buffer, int offset, int size);
     // System.Boolean Write(System.Net.HttpWebRequest request, System.Byte[] buffer, System.Int32 offset, System.Int32 size, ref System.String err_msg)
-    // Offset: 0x15DA6C0
-    bool Write(System::Net::HttpWebRequest* request, ::Array<uint8_t>* buffer, int offset, int size, ByRef<::Il2CppString*> err_msg);
+    // Offset: 0x177DB78
+    bool Write(System::Net::HttpWebRequest* request, ::ArrayWrapper<uint8_t> buffer, int offset, int size, ByRef<::Il2CppString*> err_msg);
     // System.Void Close(System.Boolean sendNext)
-    // Offset: 0x15D69F0
+    // Offset: 0x1779EA8
     void Close(bool sendNext);
     // private System.Void Abort(System.Object sender, System.EventArgs args)
-    // Offset: 0x15DA98C
+    // Offset: 0x177DE44
     void Abort(::Il2CppObject* sender, System::EventArgs* args);
     // System.Void ResetNtlm()
-    // Offset: 0x15DA980
+    // Offset: 0x177DE38
     void ResetNtlm();
     // private System.Void <SendRequest>b__41_0(System.Object o)
-    // Offset: 0x15DADC8
+    // Offset: 0x177E280
     void $SendRequest$b__41_0(::Il2CppObject* o);
   }; // System.Net.WebConnection
   #pragma pack(pop)
@@ -530,22 +530,22 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebConnection::CreateTunnel
 // Il2CppName: CreateTunnel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, System::Uri*, System::IO::Stream*, ByRef<::Array<uint8_t>*>)>(&System::Net::WebConnection::CreateTunnel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, System::Uri*, System::IO::Stream*, ByRef<::ArrayWrapper<uint8_t>>)>(&System::Net::WebConnection::CreateTunnel)> {
   static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
     static auto* connectUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "CreateTunnel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request, connectUri, stream, buffer});
   }
 };
 // Writing MetadataGetter for method: System::Net::WebConnection::ReadHeaders
 // Il2CppName: ReadHeaders
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebHeaderCollection* (System::Net::WebConnection::*)(System::IO::Stream*, ByRef<::Array<uint8_t>*>, ByRef<int>)>(&System::Net::WebConnection::ReadHeaders)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebHeaderCollection* (System::Net::WebConnection::*)(System::IO::Stream*, ByRef<::ArrayWrapper<uint8_t>>, ByRef<int>)>(&System::Net::WebConnection::ReadHeaders)> {
   static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
-    static auto* retBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
+    static auto* retBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->this_arg;
     static auto* status = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "ReadHeaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stream, retBuffer, status});
   }
@@ -610,11 +610,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebConnection::GetResponse
 // Il2CppName: GetResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::WebConnectionData*, System::Net::ServicePoint*, ::Array<uint8_t>*, int)>(&System::Net::WebConnection::GetResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::WebConnectionData*, System::Net::ServicePoint*, ::ArrayWrapper<uint8_t>, int)>(&System::Net::WebConnection::GetResponse)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System.Net", "WebConnectionData")->byval_arg;
     static auto* sPoint = &::il2cpp_utils::GetClassFromName("System.Net", "ServicePoint")->byval_arg;
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* max = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "GetResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, sPoint, buffer, max});
   }
@@ -656,9 +656,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebConnection::ReadLine
 // Il2CppName: ReadLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint8_t>*, ByRef<int>, int, ByRef<::Il2CppString*>)>(&System::Net::WebConnection::ReadLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint8_t>, ByRef<int>, int, ByRef<::Il2CppString*>)>(&System::Net::WebConnection::ReadLine)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* max = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* output = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -668,10 +668,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Net::WebConnection::BeginRead
 // Il2CppName: BeginRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, ::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::WebConnection::BeginRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, ::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::WebConnection::BeginRead)> {
   static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cb = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -692,9 +692,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::WebConnection::EnsureRead
 // Il2CppName: EnsureRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::WebConnection::*)(::Array<uint8_t>*, int, int)>(&System::Net::WebConnection::EnsureRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::WebConnection::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Net::WebConnection::EnsureRead)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "EnsureRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, offset, size});
@@ -711,10 +711,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::WebConnection::BeginWrite
 // Il2CppName: BeginWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, ::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::WebConnection::BeginWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, ::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::WebConnection::BeginWrite)> {
   static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cb = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -736,10 +736,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::WebConnection::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, ::Array<uint8_t>*, int, int)>(&System::Net::WebConnection::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, ::ArrayWrapper<uint8_t>, int, int)>(&System::Net::WebConnection::Read)> {
   static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request, buffer, offset, size});
@@ -748,10 +748,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::WebConnection::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, ::Array<uint8_t>*, int, int, ByRef<::Il2CppString*>)>(&System::Net::WebConnection::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, ::ArrayWrapper<uint8_t>, int, int, ByRef<::Il2CppString*>)>(&System::Net::WebConnection::Write)> {
   static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* err_msg = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;

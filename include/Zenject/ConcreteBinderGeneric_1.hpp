@@ -127,7 +127,7 @@ namespace Zenject {
     }
     // public Zenject.FromBinderNonGeneric To(params System.Type[] concreteTypes)
     // Offset: 0xFFFFFFFF
-    Zenject::FromBinderNonGeneric* To(::Array<System::Type*>* concreteTypes) {
+    Zenject::FromBinderNonGeneric* To(::ArrayWrapper<System::Type*> concreteTypes) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConcreteBinderGeneric_1::To");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "To", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(concreteTypes)})));
       auto ___instance_arg = this;
@@ -135,7 +135,7 @@ namespace Zenject {
     }
     // Creating initializer_list -> params proxy for: Zenject.FromBinderNonGeneric To(params System.Type[] concreteTypes)
     Zenject::FromBinderNonGeneric* To(std::initializer_list<System::Type*> concreteTypes) {
-      return To(::Array<System::Type*>::New(concreteTypes));
+      return To(::ArrayWrapper<System::Type*>(concreteTypes));
     }
     // Creating TArgs -> initializer_list proxy for: Zenject.FromBinderNonGeneric To(params System.Type[] concreteTypes)
     template<class ...TParams>

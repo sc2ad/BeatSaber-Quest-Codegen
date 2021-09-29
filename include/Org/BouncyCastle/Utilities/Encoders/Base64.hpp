@@ -17,8 +17,8 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     // Creating value type constructor for type: Base64
     Base64() noexcept {}
     // static public System.Byte[] Decode(System.String data)
-    // Offset: 0x1FEAC24
-    static ::Array<uint8_t>* Decode(::Il2CppString* data);
+    // Offset: 0x2180F1C
+    static ::ArrayWrapper<uint8_t> Decode(::Il2CppString* data);
   }; // Org.BouncyCastle.Utilities.Encoders.Base64
   #pragma pack(pop)
 }
@@ -28,7 +28,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Encoders::Base64*, "Org.Bou
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::Base64::Decode
 // Il2CppName: Decode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*)>(&Org::BouncyCastle::Utilities::Encoders::Base64::Decode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::Il2CppString*)>(&Org::BouncyCastle::Utilities::Encoders::Base64::Decode)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Encoders::Base64*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});

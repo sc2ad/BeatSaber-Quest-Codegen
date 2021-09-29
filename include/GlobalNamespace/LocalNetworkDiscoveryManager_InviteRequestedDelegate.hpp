@@ -46,20 +46,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: InviteRequestedDelegate
     InviteRequestedDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x119BDF4
+    // Offset: 0x125BBFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalNetworkDiscoveryManager::InviteRequestedDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalNetworkDiscoveryManager::InviteRequestedDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.String userId, System.Net.IPAddress remoteEndPoint, System.String userName, System.String secret, System.Int32 multiplayerPort, System.Boolean isPartyOwner, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
-    // Offset: 0x119AE74
+    // Offset: 0x125AC7C
     void Invoke(::Il2CppString* userId, System::Net::IPAddress* remoteEndPoint, ::Il2CppString* userName, ::Il2CppString* secret, int multiplayerPort, bool isPartyOwner, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration);
     // public System.IAsyncResult BeginInvoke(System.String userId, System.Net.IPAddress remoteEndPoint, System.String userName, System.String secret, System.Int32 multiplayerPort, System.Boolean isPartyOwner, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x119BE04
+    // Offset: 0x125BC0C
     System::IAsyncResult* BeginInvoke(::Il2CppString* userId, System::Net::IPAddress* remoteEndPoint, ::Il2CppString* userName, ::Il2CppString* secret, int multiplayerPort, bool isPartyOwner, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x119BF24
+    // Offset: 0x125BD2C
     void EndInvoke(System::IAsyncResult* result);
   }; // LocalNetworkDiscoveryManager/InviteRequestedDelegate
   #pragma pack(pop)

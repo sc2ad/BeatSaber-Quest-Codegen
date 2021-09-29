@@ -82,43 +82,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String <masterServerStatusUrl>k__BackingField
     ::Il2CppString*& dyn_$masterServerStatusUrl$k__BackingField();
     // public System.Int32 get_maxPartySize()
-    // Offset: 0x133CFA8
+    // Offset: 0x14545E8
     int get_maxPartySize();
     // private System.Void set_maxPartySize(System.Int32 value)
-    // Offset: 0x133CFB0
+    // Offset: 0x14545F0
     void set_maxPartySize(int value);
     // public System.Int32 get_discoveryPort()
-    // Offset: 0x133CFB8
+    // Offset: 0x14545F8
     int get_discoveryPort();
     // private System.Void set_discoveryPort(System.Int32 value)
-    // Offset: 0x133CFC0
+    // Offset: 0x1454600
     void set_discoveryPort(int value);
     // public System.Int32 get_partyPort()
-    // Offset: 0x133CFC8
+    // Offset: 0x1454608
     int get_partyPort();
     // private System.Void set_partyPort(System.Int32 value)
-    // Offset: 0x133CFD0
+    // Offset: 0x1454610
     void set_partyPort(int value);
     // public System.Int32 get_multiplayerPort()
-    // Offset: 0x133CFD8
+    // Offset: 0x1454618
     int get_multiplayerPort();
     // private System.Void set_multiplayerPort(System.Int32 value)
-    // Offset: 0x133CFE0
+    // Offset: 0x1454620
     void set_multiplayerPort(int value);
     // public MasterServerEndPoint get_masterServerEndPoint()
-    // Offset: 0x133CFE8
+    // Offset: 0x1454628
     GlobalNamespace::MasterServerEndPoint* get_masterServerEndPoint();
     // private System.Void set_masterServerEndPoint(MasterServerEndPoint value)
-    // Offset: 0x133CFF0
+    // Offset: 0x1454630
     void set_masterServerEndPoint(GlobalNamespace::MasterServerEndPoint* value);
     // public System.String get_masterServerStatusUrl()
-    // Offset: 0x133CFF8
+    // Offset: 0x1454638
     ::Il2CppString* get_masterServerStatusUrl();
     // private System.Void set_masterServerStatusUrl(System.String value)
-    // Offset: 0x133D000
+    // Offset: 0x1454640
     void set_masterServerStatusUrl(::Il2CppString* value);
     // public System.Void .ctor(INetworkConfig fromNetworkConfig, System.String customServerHostName, System.Int32 port)
-    // Offset: 0x133D008
+    // Offset: 0x1454648
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomNetworkConfig* New_ctor(GlobalNamespace::INetworkConfig* fromNetworkConfig, ::Il2CppString* customServerHostName, int port) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomNetworkConfig::.ctor");

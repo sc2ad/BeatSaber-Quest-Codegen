@@ -44,9 +44,9 @@ namespace OnlineServices {
     // public readonly OnlineServices.LeaderboardEntryData[] leaderboardEntries
     // Size: 0x8
     // Offset: 0x20
-    ::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries;
+    ::ArrayWrapper<OnlineServices::LeaderboardEntryData*> leaderboardEntries;
     // Field size check
-    static_assert(sizeof(::Array<OnlineServices::LeaderboardEntryData*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<OnlineServices::LeaderboardEntryData*>) == 0x8);
     // public readonly System.Int32 referencePlayerScoreIndex
     // Size: 0x4
     // Offset: 0x28
@@ -54,36 +54,36 @@ namespace OnlineServices {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: LeaderboardEntriesResult
-    LeaderboardEntriesResult(bool isError_ = {}, ::Il2CppString* localizedErrorMessage_ = {}, ::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries_ = {}, int referencePlayerScoreIndex_ = {}) noexcept : isError{isError_}, localizedErrorMessage{localizedErrorMessage_}, leaderboardEntries{leaderboardEntries_}, referencePlayerScoreIndex{referencePlayerScoreIndex_} {}
+    LeaderboardEntriesResult(bool isError_ = {}, ::Il2CppString* localizedErrorMessage_ = {}, ::ArrayWrapper<OnlineServices::LeaderboardEntryData*> leaderboardEntries_ = {}, int referencePlayerScoreIndex_ = {}) noexcept : isError{isError_}, localizedErrorMessage{localizedErrorMessage_}, leaderboardEntries{leaderboardEntries_}, referencePlayerScoreIndex{referencePlayerScoreIndex_} {}
     // Get instance field reference: public readonly System.Boolean isError
     bool& dyn_isError();
     // Get instance field reference: public readonly System.String localizedErrorMessage
     ::Il2CppString*& dyn_localizedErrorMessage();
     // Get instance field reference: public readonly OnlineServices.LeaderboardEntryData[] leaderboardEntries
-    ::Array<OnlineServices::LeaderboardEntryData*>*& dyn_leaderboardEntries();
+    ::ArrayWrapper<OnlineServices::LeaderboardEntryData*>& dyn_leaderboardEntries();
     // Get instance field reference: public readonly System.Int32 referencePlayerScoreIndex
     int& dyn_referencePlayerScoreIndex();
     // static public OnlineServices.LeaderboardEntriesResult get_notInicializedError()
-    // Offset: 0x1030E80
+    // Offset: 0x11202F0
     static OnlineServices::LeaderboardEntriesResult* get_notInicializedError();
     // static public OnlineServices.LeaderboardEntriesResult get_somethingWentWrongError()
-    // Offset: 0x1030ED0
+    // Offset: 0x1120340
     static OnlineServices::LeaderboardEntriesResult* get_somethingWentWrongError();
     // static public OnlineServices.LeaderboardEntriesResult get_onlineServicesUnavailableError()
-    // Offset: 0x1030F20
+    // Offset: 0x1120390
     static OnlineServices::LeaderboardEntriesResult* get_onlineServicesUnavailableError();
     // private System.Void .ctor(OnlineServices.LeaderboardEntryData[] leaderboardEntries, System.Int32 referencePlayerScoreIndex, System.Boolean isError, System.String localizedErrorMessage)
-    // Offset: 0x1030DB8
+    // Offset: 0x1120228
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LeaderboardEntriesResult* New_ctor(::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries, int referencePlayerScoreIndex, bool isError, ::Il2CppString* localizedErrorMessage) {
+    static LeaderboardEntriesResult* New_ctor(::ArrayWrapper<OnlineServices::LeaderboardEntryData*> leaderboardEntries, int referencePlayerScoreIndex, bool isError, ::Il2CppString* localizedErrorMessage) {
       static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::LeaderboardEntriesResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardEntriesResult*, creationType>(leaderboardEntries, referencePlayerScoreIndex, isError, localizedErrorMessage)));
     }
     // static private OnlineServices.LeaderboardEntriesResult ErrorResult(System.String localizedErrorMessage)
-    // Offset: 0x1030E0C
+    // Offset: 0x112027C
     static OnlineServices::LeaderboardEntriesResult* ErrorResult(::Il2CppString* localizedErrorMessage);
     // static public OnlineServices.LeaderboardEntriesResult FromGetLeaderboardEntriesResult(OnlineServices.GetLeaderboardEntriesResult getLeaderboardEntriesResult)
-    // Offset: 0x1030F70
+    // Offset: 0x11203E0
     static OnlineServices::LeaderboardEntriesResult* FromGetLeaderboardEntriesResult(OnlineServices::GetLeaderboardEntriesResult getLeaderboardEntriesResult);
   }; // OnlineServices.LeaderboardEntriesResult
   #pragma pack(pop)

@@ -38,29 +38,29 @@ namespace GlobalNamespace {
     // private EnvironmentInfoSO[] _environmentInfos
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::EnvironmentInfoSO*>* environmentInfos;
+    ::ArrayWrapper<GlobalNamespace::EnvironmentInfoSO*> environmentInfos;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::EnvironmentInfoSO*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::EnvironmentInfoSO*>) == 0x8);
     // Creating value type constructor for type: EnvironmentsListSO
-    EnvironmentsListSO(::Array<GlobalNamespace::EnvironmentInfoSO*>* environmentInfos_ = {}) noexcept : environmentInfos{environmentInfos_} {}
+    EnvironmentsListSO(::ArrayWrapper<GlobalNamespace::EnvironmentInfoSO*> environmentInfos_ = {}) noexcept : environmentInfos{environmentInfos_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private EnvironmentInfoSO[] _environmentInfos
-    ::Array<GlobalNamespace::EnvironmentInfoSO*>*& dyn__environmentInfos();
+    ::ArrayWrapper<GlobalNamespace::EnvironmentInfoSO*>& dyn__environmentInfos();
     // public EnvironmentInfoSO[] get_environmentInfos()
-    // Offset: 0x1059988
-    ::Array<GlobalNamespace::EnvironmentInfoSO*>* get_environmentInfos();
+    // Offset: 0x11B2634
+    ::ArrayWrapper<GlobalNamespace::EnvironmentInfoSO*> get_environmentInfos();
     // public EnvironmentInfoSO GetEnviromentInfoBySerializedName(System.String environmentSerializedName)
-    // Offset: 0x1059990
+    // Offset: 0x11B263C
     GlobalNamespace::EnvironmentInfoSO* GetEnviromentInfoBySerializedName(::Il2CppString* environmentSerializedName);
     // public System.Collections.Generic.List`1<EnvironmentInfoSO> GetAllEnvironmentInfosWithType(EnvironmentTypeSO environmentType)
-    // Offset: 0x10581EC
+    // Offset: 0x11B0E98
     System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* GetAllEnvironmentInfosWithType(GlobalNamespace::EnvironmentTypeSO* environmentType);
     // public EnvironmentInfoSO GetFirstEnvironmentInfoWithType(EnvironmentTypeSO environmentType)
-    // Offset: 0x1059A1C
+    // Offset: 0x11B26C8
     GlobalNamespace::EnvironmentInfoSO* GetFirstEnvironmentInfoWithType(GlobalNamespace::EnvironmentTypeSO* environmentType);
     // public System.Void .ctor()
-    // Offset: 0x1059A94
+    // Offset: 0x11B2740
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     }
   }; // EnvironmentsListSO
   #pragma pack(pop)
-  static check_size<sizeof(EnvironmentsListSO), 24 + sizeof(::Array<GlobalNamespace::EnvironmentInfoSO*>*)> __GlobalNamespace_EnvironmentsListSOSizeCheck;
+  static check_size<sizeof(EnvironmentsListSO), 24 + sizeof(::ArrayWrapper<GlobalNamespace::EnvironmentInfoSO*>)> __GlobalNamespace_EnvironmentsListSOSizeCheck;
   static_assert(sizeof(EnvironmentsListSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentsListSO*, "", "EnvironmentsListSO");
@@ -81,7 +81,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentsListSO*, "", "EnvironmentsLi
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentsListSO::get_environmentInfos
 // Il2CppName: get_environmentInfos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::EnvironmentInfoSO*>* (GlobalNamespace::EnvironmentsListSO::*)()>(&GlobalNamespace::EnvironmentsListSO::get_environmentInfos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::EnvironmentInfoSO*> (GlobalNamespace::EnvironmentsListSO::*)()>(&GlobalNamespace::EnvironmentsListSO::get_environmentInfos)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentsListSO*), "get_environmentInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

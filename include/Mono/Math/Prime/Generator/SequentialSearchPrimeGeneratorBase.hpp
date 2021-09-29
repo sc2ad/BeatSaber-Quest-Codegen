@@ -30,16 +30,16 @@ namespace Mono::Math::Prime::Generator {
     // Creating value type constructor for type: SequentialSearchPrimeGeneratorBase
     SequentialSearchPrimeGeneratorBase() noexcept {}
     // protected Mono.Math.BigInteger GenerateSearchBase(System.Int32 bits, System.Object context)
-    // Offset: 0x1DFB178
+    // Offset: 0x1F976E0
     Mono::Math::BigInteger* GenerateSearchBase(int bits, ::Il2CppObject* context);
     // public Mono.Math.BigInteger GenerateNewPrime(System.Int32 bits, System.Object context)
-    // Offset: 0x1DFB20C
+    // Offset: 0x1F97774
     Mono::Math::BigInteger* GenerateNewPrime(int bits, ::Il2CppObject* context);
     // protected System.Boolean IsPrimeAcceptable(Mono.Math.BigInteger bi, System.Object context)
-    // Offset: 0x1DFB920
+    // Offset: 0x1F97E88
     bool IsPrimeAcceptable(Mono::Math::BigInteger* bi, ::Il2CppObject* context);
     // public System.Void .ctor()
-    // Offset: 0x1DFA074
+    // Offset: 0x1F965DC
     // Implemented from: Mono.Math.Prime.Generator.PrimeGeneratorBase
     // Base method: System.Void PrimeGeneratorBase::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -49,7 +49,7 @@ namespace Mono::Math::Prime::Generator {
       return THROW_UNLESS((::il2cpp_utils::New<SequentialSearchPrimeGeneratorBase*, creationType>()));
     }
     // public override Mono.Math.BigInteger GenerateNewPrime(System.Int32 bits)
-    // Offset: 0x1DFB1FC
+    // Offset: 0x1F97764
     // Implemented from: Mono.Math.Prime.Generator.PrimeGeneratorBase
     // Base method: Mono.Math.BigInteger PrimeGeneratorBase::GenerateNewPrime(System.Int32 bits)
     Mono::Math::BigInteger* GenerateNewPrime(int bits);

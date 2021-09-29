@@ -25,11 +25,11 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // private readonly System.Byte[] data
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* data;
+    ::ArrayWrapper<uint8_t> data;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: Ed25519PublicKeyParameters
-    Ed25519PublicKeyParameters(::Array<uint8_t>* data_ = {}) noexcept : data{data_} {}
+    Ed25519PublicKeyParameters(::ArrayWrapper<uint8_t> data_ = {}) noexcept : data{data_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get static field: static public readonly System.Int32 KeySize
@@ -37,23 +37,23 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set static field: static public readonly System.Int32 KeySize
     static void _set_KeySize(int value);
     // Get instance field reference: private readonly System.Byte[] data
-    ::Array<uint8_t>*& dyn_data();
+    ::ArrayWrapper<uint8_t>& dyn_data();
     // public System.Void .ctor(System.Byte[] buf, System.Int32 off)
-    // Offset: 0x1278F1C
+    // Offset: 0x1395724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Ed25519PublicKeyParameters* New_ctor(::Array<uint8_t>* buf, int off) {
+    static Ed25519PublicKeyParameters* New_ctor(::ArrayWrapper<uint8_t> buf, int off) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ed25519PublicKeyParameters*, creationType>(buf, off)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1279398
+    // Offset: 0x1395BA0
     static void _cctor();
     // public System.Void Encode(System.Byte[] buf, System.Int32 off)
-    // Offset: 0x1279270
-    void Encode(::Array<uint8_t>* buf, int off);
+    // Offset: 0x1395A78
+    void Encode(::ArrayWrapper<uint8_t> buf, int off);
   }; // Org.BouncyCastle.Crypto.Parameters.Ed25519PublicKeyParameters
   #pragma pack(pop)
-  static check_size<sizeof(Ed25519PublicKeyParameters), 24 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Parameters_Ed25519PublicKeyParametersSizeCheck;
+  static check_size<sizeof(Ed25519PublicKeyParameters), 24 + sizeof(::ArrayWrapper<uint8_t>)> __Org_BouncyCastle_Crypto_Parameters_Ed25519PublicKeyParametersSizeCheck;
   static_assert(sizeof(Ed25519PublicKeyParameters) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "Ed25519PublicKeyParameters");
@@ -73,9 +73,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters::Encode)> {
   static const MethodInfo* get() {
-    static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buf = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buf, off});
   }

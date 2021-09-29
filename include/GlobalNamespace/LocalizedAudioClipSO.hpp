@@ -37,9 +37,9 @@ namespace GlobalNamespace {
     // private LocalizedAudioClipSO/LocalizedAudioClipInfo[] _localizedAudioClipInfo
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*>* localizedAudioClipInfo;
+    ::ArrayWrapper<GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*> localizedAudioClipInfo;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*>) == 0x8);
     // private LocalizedAudioClipSO/LocalizedAudioClipInfo _lastLocalizedAudioClipInfo
     // Size: 0x8
     // Offset: 0x20
@@ -47,18 +47,18 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*) == 0x8);
     // Creating value type constructor for type: LocalizedAudioClipSO
-    LocalizedAudioClipSO(::Array<GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*>* localizedAudioClipInfo_ = {}, GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo* lastLocalizedAudioClipInfo_ = {}) noexcept : localizedAudioClipInfo{localizedAudioClipInfo_}, lastLocalizedAudioClipInfo{lastLocalizedAudioClipInfo_} {}
+    LocalizedAudioClipSO(::ArrayWrapper<GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*> localizedAudioClipInfo_ = {}, GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo* lastLocalizedAudioClipInfo_ = {}) noexcept : localizedAudioClipInfo{localizedAudioClipInfo_}, lastLocalizedAudioClipInfo{lastLocalizedAudioClipInfo_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private LocalizedAudioClipSO/LocalizedAudioClipInfo[] _localizedAudioClipInfo
-    ::Array<GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*>*& dyn__localizedAudioClipInfo();
+    ::ArrayWrapper<GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*>& dyn__localizedAudioClipInfo();
     // Get instance field reference: private LocalizedAudioClipSO/LocalizedAudioClipInfo _lastLocalizedAudioClipInfo
     GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*& dyn__lastLocalizedAudioClipInfo();
     // public UnityEngine.AudioClip get_localizedAudioClip()
-    // Offset: 0x11A01E0
+    // Offset: 0x125FFE8
     UnityEngine::AudioClip* get_localizedAudioClip();
     // public System.Void .ctor()
-    // Offset: 0x11A02D8
+    // Offset: 0x12600E0
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

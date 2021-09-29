@@ -30,9 +30,9 @@ namespace GlobalNamespace {
     // private UnityEngine.Sprite[] _sprites
     // Size: 0x8
     // Offset: 0x18
-    ::Array<UnityEngine::Sprite*>* sprites;
+    ::ArrayWrapper<UnityEngine::Sprite*> sprites;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Sprite*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Sprite*>) == 0x8);
     // private System.Single _mipMapBias
     // Size: 0x4
     // Offset: 0x20
@@ -40,18 +40,18 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: MipMapBiasSpriteSetter
-    MipMapBiasSpriteSetter(::Array<UnityEngine::Sprite*>* sprites_ = {}, float mipMapBias_ = {}) noexcept : sprites{sprites_}, mipMapBias{mipMapBias_} {}
+    MipMapBiasSpriteSetter(::ArrayWrapper<UnityEngine::Sprite*> sprites_ = {}, float mipMapBias_ = {}) noexcept : sprites{sprites_}, mipMapBias{mipMapBias_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Sprite[] _sprites
-    ::Array<UnityEngine::Sprite*>*& dyn__sprites();
+    ::ArrayWrapper<UnityEngine::Sprite*>& dyn__sprites();
     // Get instance field reference: private System.Single _mipMapBias
     float& dyn__mipMapBias();
     // protected System.Void Start()
-    // Offset: 0x126AD9C
+    // Offset: 0x13875A4
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x126AE24
+    // Offset: 0x138762C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

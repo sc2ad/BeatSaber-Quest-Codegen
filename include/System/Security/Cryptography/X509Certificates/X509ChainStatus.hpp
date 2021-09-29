@@ -48,16 +48,16 @@ namespace System::Security::Cryptography::X509Certificates {
     // Get instance field reference: private System.String info
     ::Il2CppString*& dyn_info();
     // public System.Security.Cryptography.X509Certificates.X509ChainStatusFlags get_Status()
-    // Offset: 0x186C480
+    // Offset: 0x19DE864
     System::Security::Cryptography::X509Certificates::X509ChainStatusFlags get_Status();
     // public System.Void set_Status(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags value)
-    // Offset: 0x186C488
+    // Offset: 0x19DE86C
     void set_Status(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value);
     // public System.Void set_StatusInformation(System.String value)
-    // Offset: 0x186C490
+    // Offset: 0x19DE874
     void set_StatusInformation(::Il2CppString* value);
     // System.Void .ctor(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flag)
-    // Offset: 0x1869478
+    // Offset: 0x19DB85C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     X509ChainStatus(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509ChainStatus::.ctor");
@@ -65,7 +65,7 @@ namespace System::Security::Cryptography::X509Certificates {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, flag);
     }
     // static System.String GetInformation(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flags)
-    // Offset: 0x1867F2C
+    // Offset: 0x19DA310
     static ::Il2CppString* GetInformation(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags);
   }; // System.Security.Cryptography.X509Certificates.X509ChainStatus
   #pragma pack(pop)

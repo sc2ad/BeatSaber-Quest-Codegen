@@ -28,29 +28,29 @@ namespace GlobalNamespace {
     // private readonly UnityEngine.Vector4[] _points
     // Size: 0x8
     // Offset: 0x18
-    ::Array<UnityEngine::Vector4>* points;
+    ::ArrayWrapper<UnityEngine::Vector4> points;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector4>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
     // private readonly UnityEngine.Vector4[] _dirs
     // Size: 0x8
     // Offset: 0x20
-    ::Array<UnityEngine::Vector4>* dirs;
+    ::ArrayWrapper<UnityEngine::Vector4> dirs;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector4>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
     // private readonly System.Single[] _dirLengths
     // Size: 0x8
     // Offset: 0x28
-    ::Array<float>* dirLengths;
+    ::ArrayWrapper<float> dirLengths;
     // Field size check
-    static_assert(sizeof(::Array<float>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
     // private readonly UnityEngine.Vector4[] _colors
     // Size: 0x8
     // Offset: 0x30
-    ::Array<UnityEngine::Vector4>* colors;
+    ::ArrayWrapper<UnityEngine::Vector4> colors;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector4>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
     // Creating value type constructor for type: LineLightManager
-    LineLightManager(::Array<UnityEngine::Vector4>* points_ = {}, ::Array<UnityEngine::Vector4>* dirs_ = {}, ::Array<float>* dirLengths_ = {}, ::Array<UnityEngine::Vector4>* colors_ = {}) noexcept : points{points_}, dirs{dirs_}, dirLengths{dirLengths_}, colors{colors_} {}
+    LineLightManager(::ArrayWrapper<UnityEngine::Vector4> points_ = {}, ::ArrayWrapper<UnityEngine::Vector4> dirs_ = {}, ::ArrayWrapper<float> dirLengths_ = {}, ::ArrayWrapper<UnityEngine::Vector4> colors_ = {}) noexcept : points{points_}, dirs{dirs_}, dirLengths{dirLengths_}, colors{colors_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxNumberOfLights
@@ -59,44 +59,44 @@ namespace GlobalNamespace {
     static int _get_kMaxNumberOfLights();
     // Set static field: static private System.Int32 kMaxNumberOfLights
     static void _set_kMaxNumberOfLights(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE1A31C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDF9D8
     // Get static field: static private readonly System.Int32 _activeLineLightsCountID
     static int _get__activeLineLightsCountID();
     // Set static field: static private readonly System.Int32 _activeLineLightsCountID
     static void _set__activeLineLightsCountID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE1A32C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDF9E8
     // Get static field: static private readonly System.Int32 _lineLightPointsID
     static int _get__lineLightPointsID();
     // Set static field: static private readonly System.Int32 _lineLightPointsID
     static void _set__lineLightPointsID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE1A33C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDF9F8
     // Get static field: static private readonly System.Int32 _lineLightDirsID
     static int _get__lineLightDirsID();
     // Set static field: static private readonly System.Int32 _lineLightDirsID
     static void _set__lineLightDirsID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE1A34C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDFA08
     // Get static field: static private readonly System.Int32 _lineLightDirLengthsID
     static int _get__lineLightDirLengthsID();
     // Set static field: static private readonly System.Int32 _lineLightDirLengthsID
     static void _set__lineLightDirLengthsID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE1A35C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDFA18
     // Get static field: static private readonly System.Int32 _lineLightColorsID
     static int _get__lineLightColorsID();
     // Set static field: static private readonly System.Int32 _lineLightColorsID
     static void _set__lineLightColorsID(int value);
     // Get instance field reference: private readonly UnityEngine.Vector4[] _points
-    ::Array<UnityEngine::Vector4>*& dyn__points();
+    ::ArrayWrapper<UnityEngine::Vector4>& dyn__points();
     // Get instance field reference: private readonly UnityEngine.Vector4[] _dirs
-    ::Array<UnityEngine::Vector4>*& dyn__dirs();
+    ::ArrayWrapper<UnityEngine::Vector4>& dyn__dirs();
     // Get instance field reference: private readonly System.Single[] _dirLengths
-    ::Array<float>*& dyn__dirLengths();
+    ::ArrayWrapper<float>& dyn__dirLengths();
     // Get instance field reference: private readonly UnityEngine.Vector4[] _colors
-    ::Array<UnityEngine::Vector4>*& dyn__colors();
+    ::ArrayWrapper<UnityEngine::Vector4>& dyn__colors();
     // protected System.Void Update()
-    // Offset: 0x1E1B4A4
+    // Offset: 0x1E2B74C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1E1B880
+    // Offset: 0x1E2BB28
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -109,13 +109,13 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LineLightManager*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E1B918
+    // Offset: 0x1E2BBC0
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // LineLightManager
   #pragma pack(pop)
-  static check_size<sizeof(LineLightManager), 48 + sizeof(::Array<UnityEngine::Vector4>*)> __GlobalNamespace_LineLightManagerSizeCheck;
+  static check_size<sizeof(LineLightManager), 48 + sizeof(::ArrayWrapper<UnityEngine::Vector4>)> __GlobalNamespace_LineLightManagerSizeCheck;
   static_assert(sizeof(LineLightManager) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LineLightManager*, "", "LineLightManager");

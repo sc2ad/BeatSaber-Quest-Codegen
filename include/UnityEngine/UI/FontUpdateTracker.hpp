@@ -42,16 +42,16 @@ namespace UnityEngine::UI {
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.HashSet`1<UnityEngine.UI.Text>> m_Tracked
     static void _set_m_Tracked(System::Collections::Generic::Dictionary_2<UnityEngine::Font*, System::Collections::Generic::HashSet_1<UnityEngine::UI::Text*>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x193DB5C
+    // Offset: 0x1AC8538
     static void _cctor();
     // static public System.Void TrackText(UnityEngine.UI.Text t)
-    // Offset: 0x193D63C
+    // Offset: 0x1AC8018
     static void TrackText(UnityEngine::UI::Text* t);
     // static private System.Void RebuildForFont(UnityEngine.Font f)
-    // Offset: 0x193D848
+    // Offset: 0x1AC8224
     static void RebuildForFont(UnityEngine::Font* f);
     // static public System.Void UntrackText(UnityEngine.UI.Text t)
-    // Offset: 0x193D98C
+    // Offset: 0x1AC8368
     static void UntrackText(UnityEngine::UI::Text* t);
   }; // UnityEngine.UI.FontUpdateTracker
   #pragma pack(pop)

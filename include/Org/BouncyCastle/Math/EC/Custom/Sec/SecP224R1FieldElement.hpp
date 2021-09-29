@@ -34,13 +34,13 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // protected internal readonly System.UInt32[] x
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint>* x;
+    ::ArrayWrapper<uint> x;
     // Field size check
-    static_assert(sizeof(::Array<uint>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
     // Creating value type constructor for type: SecP224R1FieldElement
-    SecP224R1FieldElement(::Array<uint>* x_ = {}) noexcept : x{x_} {}
-    // Creating conversion operator: operator ::Array<uint>*
-    constexpr operator ::Array<uint>*() const noexcept {
+    SecP224R1FieldElement(::ArrayWrapper<uint> x_ = {}) noexcept : x{x_} {}
+    // Creating conversion operator: operator ::ArrayWrapper<uint>
+    constexpr operator ::ArrayWrapper<uint>() const noexcept {
       return x;
     }
     // Get static field: static public readonly Org.BouncyCastle.Math.BigInteger Q
@@ -48,130 +48,130 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // Set static field: static public readonly Org.BouncyCastle.Math.BigInteger Q
     static void _set_Q(Org::BouncyCastle::Math::BigInteger* value);
     // Get instance field reference: protected internal readonly System.UInt32[] x
-    ::Array<uint>*& dyn_x();
+    ::ArrayWrapper<uint>& dyn_x();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger x)
-    // Offset: 0x1E30528
+    // Offset: 0x1FBA1F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecP224R1FieldElement* New_ctor(Org::BouncyCastle::Math::BigInteger* x) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecP224R1FieldElement*, creationType>(x)));
     }
     // protected internal System.Void .ctor(System.UInt32[] x)
-    // Offset: 0x1E30B44
+    // Offset: 0x1FBA814
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SecP224R1FieldElement* New_ctor(::Array<uint>* x) {
+    static SecP224R1FieldElement* New_ctor(::ArrayWrapper<uint> x) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecP224R1FieldElement*, creationType>(x)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E33360
+    // Offset: 0x1FBD030
     static void _cctor();
     // public System.Boolean Equals(Org.BouncyCastle.Math.EC.Custom.Sec.SecP224R1FieldElement other)
-    // Offset: 0x1E32F10
+    // Offset: 0x1FBCBE0
     bool Equals(Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement* other);
     // static private System.Boolean IsSquare(System.UInt32[] x)
-    // Offset: 0x1E32B0C
-    static bool IsSquare(::Array<uint>* x);
+    // Offset: 0x1FBC7DC
+    static bool IsSquare(::ArrayWrapper<uint> x);
     // static private System.Void RM(System.UInt32[] nc, System.UInt32[] d0, System.UInt32[] e0, System.UInt32[] d1, System.UInt32[] e1, System.UInt32[] f1, System.UInt32[] t)
-    // Offset: 0x1E33000
-    static void RM(::Array<uint>* nc, ::Array<uint>* d0, ::Array<uint>* e0, ::Array<uint>* d1, ::Array<uint>* e1, ::Array<uint>* f1, ::Array<uint>* t);
+    // Offset: 0x1FBCCD0
+    static void RM(::ArrayWrapper<uint> nc, ::ArrayWrapper<uint> d0, ::ArrayWrapper<uint> e0, ::ArrayWrapper<uint> d1, ::ArrayWrapper<uint> e1, ::ArrayWrapper<uint> f1, ::ArrayWrapper<uint> t);
     // static private System.Void RP(System.UInt32[] nc, System.UInt32[] d1, System.UInt32[] e1, System.UInt32[] f1, System.UInt32[] t)
-    // Offset: 0x1E33128
-    static void RP(::Array<uint>* nc, ::Array<uint>* d1, ::Array<uint>* e1, ::Array<uint>* f1, ::Array<uint>* t);
+    // Offset: 0x1FBCDF8
+    static void RP(::ArrayWrapper<uint> nc, ::ArrayWrapper<uint> d1, ::ArrayWrapper<uint> e1, ::ArrayWrapper<uint> f1, ::ArrayWrapper<uint> t);
     // static private System.Void RS(System.UInt32[] d, System.UInt32[] e, System.UInt32[] f, System.UInt32[] t)
-    // Offset: 0x1E33280
-    static void RS(::Array<uint>* d, ::Array<uint>* e, ::Array<uint>* f, ::Array<uint>* t);
+    // Offset: 0x1FBCF50
+    static void RS(::ArrayWrapper<uint> d, ::ArrayWrapper<uint> e, ::ArrayWrapper<uint> f, ::ArrayWrapper<uint> t);
     // static private System.Boolean TrySqrt(System.UInt32[] nc, System.UInt32[] r, System.UInt32[] t)
-    // Offset: 0x1E32C18
-    static bool TrySqrt(::Array<uint>* nc, ::Array<uint>* r, ::Array<uint>* t);
+    // Offset: 0x1FBC8E8
+    static bool TrySqrt(::ArrayWrapper<uint> nc, ::ArrayWrapper<uint> r, ::ArrayWrapper<uint> t);
     // public override System.Boolean get_IsZero()
-    // Offset: 0x1E3221C
+    // Offset: 0x1FBBEEC
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: System.Boolean ECFieldElement::get_IsZero()
     bool get_IsZero();
     // public override System.Boolean get_IsOne()
-    // Offset: 0x1E32228
+    // Offset: 0x1FBBEF8
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: System.Boolean ECFieldElement::get_IsOne()
     bool get_IsOne();
     // public override System.Int32 get_FieldSize()
-    // Offset: 0x1E32268
+    // Offset: 0x1FBBF38
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: System.Int32 ECFieldElement::get_FieldSize()
     int get_FieldSize();
     // public override System.Boolean TestBitZero()
-    // Offset: 0x1E32234
+    // Offset: 0x1FBBF04
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: System.Boolean ECFieldElement::TestBitZero()
     bool TestBitZero();
     // public override Org.BouncyCastle.Math.BigInteger ToBigInteger()
-    // Offset: 0x1E3225C
+    // Offset: 0x1FBBF2C
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: Org.BouncyCastle.Math.BigInteger ECFieldElement::ToBigInteger()
     Org::BouncyCastle::Math::BigInteger* ToBigInteger();
     // public override Org.BouncyCastle.Math.EC.ECFieldElement Add(Org.BouncyCastle.Math.EC.ECFieldElement b)
-    // Offset: 0x1E322DC
+    // Offset: 0x1FBBFAC
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Add(Org.BouncyCastle.Math.EC.ECFieldElement b)
     Org::BouncyCastle::Math::EC::ECFieldElement* Add(Org::BouncyCastle::Math::EC::ECFieldElement* b);
     // public override Org.BouncyCastle.Math.EC.ECFieldElement AddOne()
-    // Offset: 0x1E323CC
+    // Offset: 0x1FBC09C
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::AddOne()
     Org::BouncyCastle::Math::EC::ECFieldElement* AddOne();
     // public override Org.BouncyCastle.Math.EC.ECFieldElement Subtract(Org.BouncyCastle.Math.EC.ECFieldElement b)
-    // Offset: 0x1E32470
+    // Offset: 0x1FBC140
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Subtract(Org.BouncyCastle.Math.EC.ECFieldElement b)
     Org::BouncyCastle::Math::EC::ECFieldElement* Subtract(Org::BouncyCastle::Math::EC::ECFieldElement* b);
     // public override Org.BouncyCastle.Math.EC.ECFieldElement Multiply(Org.BouncyCastle.Math.EC.ECFieldElement b)
-    // Offset: 0x1E32560
+    // Offset: 0x1FBC230
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Multiply(Org.BouncyCastle.Math.EC.ECFieldElement b)
     Org::BouncyCastle::Math::EC::ECFieldElement* Multiply(Org::BouncyCastle::Math::EC::ECFieldElement* b);
     // public override Org.BouncyCastle.Math.EC.ECFieldElement Divide(Org.BouncyCastle.Math.EC.ECFieldElement b)
-    // Offset: 0x1E32650
+    // Offset: 0x1FBC320
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Divide(Org.BouncyCastle.Math.EC.ECFieldElement b)
     Org::BouncyCastle::Math::EC::ECFieldElement* Divide(Org::BouncyCastle::Math::EC::ECFieldElement* b);
     // public override Org.BouncyCastle.Math.EC.ECFieldElement Negate()
-    // Offset: 0x1E32748
+    // Offset: 0x1FBC418
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Negate()
     Org::BouncyCastle::Math::EC::ECFieldElement* Negate();
     // public override Org.BouncyCastle.Math.EC.ECFieldElement Square()
-    // Offset: 0x1E327EC
+    // Offset: 0x1FBC4BC
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Square()
     Org::BouncyCastle::Math::EC::ECFieldElement* Square();
     // public override Org.BouncyCastle.Math.EC.ECFieldElement Invert()
-    // Offset: 0x1E32890
+    // Offset: 0x1FBC560
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Invert()
     Org::BouncyCastle::Math::EC::ECFieldElement* Invert();
     // public override Org.BouncyCastle.Math.EC.ECFieldElement Sqrt()
-    // Offset: 0x1E32934
+    // Offset: 0x1FBC604
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECFieldElement::Sqrt()
     Org::BouncyCastle::Math::EC::ECFieldElement* Sqrt();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1E32DD8
+    // Offset: 0x1FBCAA8
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: System.Boolean ECFieldElement::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Boolean Equals(Org.BouncyCastle.Math.EC.ECFieldElement other)
-    // Offset: 0x1E32E74
+    // Offset: 0x1FBCB44
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: System.Boolean ECFieldElement::Equals(Org.BouncyCastle.Math.EC.ECFieldElement other)
     bool Equals(Org::BouncyCastle::Math::EC::ECFieldElement* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1E32F3C
+    // Offset: 0x1FBCC0C
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
     // Base method: System.Int32 ECFieldElement::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Math.EC.Custom.Sec.SecP224R1FieldElement
   #pragma pack(pop)
-  static check_size<sizeof(SecP224R1FieldElement), 16 + sizeof(::Array<uint>*)> __Org_BouncyCastle_Math_EC_Custom_Sec_SecP224R1FieldElementSizeCheck;
+  static check_size<sizeof(SecP224R1FieldElement), 16 + sizeof(::ArrayWrapper<uint>)> __Org_BouncyCastle_Math_EC_Custom_Sec_SecP224R1FieldElementSizeCheck;
   static_assert(sizeof(SecP224R1FieldElement) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement*, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecP224R1FieldElement");
@@ -204,60 +204,60 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::IsSquare
 // Il2CppName: IsSquare
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::IsSquare)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::IsSquare)> {
   static const MethodInfo* get() {
-    static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* x = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement*), "IsSquare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::RM
 // Il2CppName: RM
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint>*, ::Array<uint>*, ::Array<uint>*, ::Array<uint>*, ::Array<uint>*, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::RM)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::RM)> {
   static const MethodInfo* get() {
-    static auto* nc = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* d0 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* e0 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* d1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* e1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* f1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* t = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* nc = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* d0 = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* e0 = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* d1 = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* e1 = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* f1 = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* t = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement*), "RM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nc, d0, e0, d1, e1, f1, t});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::RP
 // Il2CppName: RP
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint>*, ::Array<uint>*, ::Array<uint>*, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::RP)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::RP)> {
   static const MethodInfo* get() {
-    static auto* nc = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* d1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* e1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* f1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* t = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* nc = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* d1 = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* e1 = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* f1 = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* t = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement*), "RP", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nc, d1, e1, f1, t});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::RS
 // Il2CppName: RS
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint>*, ::Array<uint>*, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::RS)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::RS)> {
   static const MethodInfo* get() {
-    static auto* d = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* e = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* f = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* t = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* d = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* e = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* f = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* t = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement*), "RS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{d, e, f, t});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::TrySqrt
 // Il2CppName: TrySqrt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint>*, ::Array<uint>*, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::TrySqrt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::TrySqrt)> {
   static const MethodInfo* get() {
-    static auto* nc = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* r = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* t = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* nc = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* r = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* t = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement*), "TrySqrt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nc, r, t});
   }
 };

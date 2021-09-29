@@ -46,16 +46,16 @@ namespace Org::BouncyCastle::Crypto::Paddings {
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
     Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // public System.Void Init(Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x12732F4
+    // Offset: 0x138FAFC
     void Init(Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Int32 AddPadding(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x1273374
-    int AddPadding(::Array<uint8_t>* input, int inOff);
+    // Offset: 0x138FB7C
+    int AddPadding(::ArrayWrapper<uint8_t> input, int inOff);
     // public System.Int32 PadCount(System.Byte[] input)
-    // Offset: 0x1273444
-    int PadCount(::Array<uint8_t>* input);
+    // Offset: 0x138FC4C
+    int PadCount(::ArrayWrapper<uint8_t> input);
     // public System.Void .ctor()
-    // Offset: 0x12734F4
+    // Offset: 0x138FCFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -82,9 +82,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding::AddPadding
 // Il2CppName: AddPadding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding::AddPadding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding::AddPadding)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding*), "AddPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, inOff});
   }
@@ -92,9 +92,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding::PadCount
 // Il2CppName: PadCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding::PadCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding::PadCount)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding*), "PadCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
   }
 };

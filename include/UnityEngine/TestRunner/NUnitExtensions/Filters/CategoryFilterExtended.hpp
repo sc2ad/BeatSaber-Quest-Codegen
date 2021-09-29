@@ -34,7 +34,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
     // Set static field: static public System.String k_DefaultCategory
     static void _set_k_DefaultCategory(::Il2CppString* value);
     // public System.Void .ctor(System.String name)
-    // Offset: 0x14B80F0
+    // Offset: 0x165DD6C
     // Implemented from: NUnit.Framework.Internal.Filters.CategoryFilter
     // Base method: System.Void CategoryFilter::.ctor(System.String name)
     // Base method: System.Void ValueMatchFilter::.ctor(System.String name)
@@ -44,12 +44,12 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
       return THROW_UNLESS((::il2cpp_utils::New<CategoryFilterExtended*, creationType>(name)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x14B858C
+    // Offset: 0x165E208
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Void TestFilter::.cctor()
     static void _cctor();
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x14B80F8
+    // Offset: 0x165DD74
     // Implemented from: NUnit.Framework.Internal.Filters.CategoryFilter
     // Base method: System.Boolean CategoryFilter::Match(NUnit.Framework.Interfaces.ITest test)
     bool Match(NUnit::Framework::Interfaces::ITest* test);

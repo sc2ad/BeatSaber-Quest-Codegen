@@ -32,31 +32,31 @@ namespace GlobalNamespace {
     // private BTSCharacterDataModel/PrefabWithId[] _prefabsWithIds
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*>* prefabsWithIds;
+    ::ArrayWrapper<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*> prefabsWithIds;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*>) == 0x8);
     // private BTSCharacterDataModel/AnimationClipWithId[] _animationClipsWithIds
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>* animationClipsWithIds;
+    ::ArrayWrapper<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*> animationClipsWithIds;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>) == 0x8);
     // Creating value type constructor for type: BTSCharacterDataModel
-    BTSCharacterDataModel(::Array<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*>* prefabsWithIds_ = {}, ::Array<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>* animationClipsWithIds_ = {}) noexcept : prefabsWithIds{prefabsWithIds_}, animationClipsWithIds{animationClipsWithIds_} {}
+    BTSCharacterDataModel(::ArrayWrapper<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*> prefabsWithIds_ = {}, ::ArrayWrapper<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*> animationClipsWithIds_ = {}) noexcept : prefabsWithIds{prefabsWithIds_}, animationClipsWithIds{animationClipsWithIds_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BTSCharacterDataModel/PrefabWithId[] _prefabsWithIds
-    ::Array<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*>*& dyn__prefabsWithIds();
+    ::ArrayWrapper<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*>& dyn__prefabsWithIds();
     // Get instance field reference: private BTSCharacterDataModel/AnimationClipWithId[] _animationClipsWithIds
-    ::Array<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>*& dyn__animationClipsWithIds();
+    ::ArrayWrapper<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>& dyn__animationClipsWithIds();
     // public BTSCharacterDataModel/PrefabWithId[] get_prefabsWithIds()
-    // Offset: 0x1180300
-    ::Array<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*>* get_prefabsWithIds();
+    // Offset: 0x1250688
+    ::ArrayWrapper<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*> get_prefabsWithIds();
     // public BTSCharacterDataModel/AnimationClipWithId[] get_animationClipsWithIds()
-    // Offset: 0x1180308
-    ::Array<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>* get_animationClipsWithIds();
+    // Offset: 0x1250690
+    ::ArrayWrapper<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*> get_animationClipsWithIds();
     // public System.Void .ctor()
-    // Offset: 0x1180310
+    // Offset: 0x1250698
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     }
   }; // BTSCharacterDataModel
   #pragma pack(pop)
-  static check_size<sizeof(BTSCharacterDataModel), 32 + sizeof(::Array<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>*)> __GlobalNamespace_BTSCharacterDataModelSizeCheck;
+  static check_size<sizeof(BTSCharacterDataModel), 32 + sizeof(::ArrayWrapper<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>)> __GlobalNamespace_BTSCharacterDataModelSizeCheck;
   static_assert(sizeof(BTSCharacterDataModel) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterDataModel*, "", "BTSCharacterDataModel");
@@ -78,7 +78,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterDataModel*, "", "BTSCharacte
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::get_prefabsWithIds
 // Il2CppName: get_prefabsWithIds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*>* (GlobalNamespace::BTSCharacterDataModel::*)()>(&GlobalNamespace::BTSCharacterDataModel::get_prefabsWithIds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*> (GlobalNamespace::BTSCharacterDataModel::*)()>(&GlobalNamespace::BTSCharacterDataModel::get_prefabsWithIds)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterDataModel*), "get_prefabsWithIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::get_animationClipsWithIds
 // Il2CppName: get_animationClipsWithIds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>* (GlobalNamespace::BTSCharacterDataModel::*)()>(&GlobalNamespace::BTSCharacterDataModel::get_animationClipsWithIds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*> (GlobalNamespace::BTSCharacterDataModel::*)()>(&GlobalNamespace::BTSCharacterDataModel::get_animationClipsWithIds)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterDataModel*), "get_animationClipsWithIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

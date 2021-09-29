@@ -32,7 +32,7 @@ namespace Zenject {
   template<typename P1, typename T>
   class PrefabFactory_2 : public ::Il2CppObject/*, public Zenject::IFactory_3<UnityEngine::Object*, P1, T>*/ {
     public:
-    // [InjectAttribute] Offset: 0xE0340C
+    // [InjectAttribute] Offset: 0xEC3A4C
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x0

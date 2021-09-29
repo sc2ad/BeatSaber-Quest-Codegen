@@ -29,17 +29,17 @@ namespace UnityEngine::Networking::PlayerConnection {
     // public System.Byte[] data
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* data;
+    ::ArrayWrapper<uint8_t> data;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: MessageEventArgs
-    MessageEventArgs(int playerId_ = {}, ::Array<uint8_t>* data_ = {}) noexcept : playerId{playerId_}, data{data_} {}
+    MessageEventArgs(int playerId_ = {}, ::ArrayWrapper<uint8_t> data_ = {}) noexcept : playerId{playerId_}, data{data_} {}
     // Get instance field reference: public System.Int32 playerId
     int& dyn_playerId();
     // Get instance field reference: public System.Byte[] data
-    ::Array<uint8_t>*& dyn_data();
+    ::ArrayWrapper<uint8_t>& dyn_data();
     // public System.Void .ctor()
-    // Offset: 0x1D07E1C
+    // Offset: 0x1DAEE8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -49,7 +49,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     }
   }; // UnityEngine.Networking.PlayerConnection.MessageEventArgs
   #pragma pack(pop)
-  static check_size<sizeof(MessageEventArgs), 24 + sizeof(::Array<uint8_t>*)> __UnityEngine_Networking_PlayerConnection_MessageEventArgsSizeCheck;
+  static check_size<sizeof(MessageEventArgs), 24 + sizeof(::ArrayWrapper<uint8_t>)> __UnityEngine_Networking_PlayerConnection_MessageEventArgsSizeCheck;
   static_assert(sizeof(MessageEventArgs) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::MessageEventArgs*, "UnityEngine.Networking.PlayerConnection", "MessageEventArgs");

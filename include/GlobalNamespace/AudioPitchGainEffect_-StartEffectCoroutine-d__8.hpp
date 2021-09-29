@@ -97,26 +97,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <time>5__3
     float& dyn_$time$5__3();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1178130
+    // Offset: 0x12484A0
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1178198
+    // Offset: 0x1248508
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1177EDC
+    // Offset: 0x124824C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioPitchGainEffect::$StartEffectCoroutine$d__8* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AudioPitchGainEffect::$StartEffectCoroutine$d__8::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioPitchGainEffect::$StartEffectCoroutine$d__8*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1177FA4
+    // Offset: 0x1248314
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1177FA8
+    // Offset: 0x1248318
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1178138
+    // Offset: 0x12484A8
     void System_Collections_IEnumerator_Reset();
   }; // AudioPitchGainEffect/<StartEffectCoroutine>d__8
   #pragma pack(pop)

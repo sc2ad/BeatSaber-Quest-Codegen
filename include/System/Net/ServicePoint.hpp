@@ -250,95 +250,95 @@ namespace System::Net {
     // Get instance field reference: private System.Object m_ClientCertificateOrBytes
     ::Il2CppObject*& dyn_m_ClientCertificateOrBytes();
     // public System.Uri get_Address()
-    // Offset: 0x14A8A3C
+    // Offset: 0x164E6B8
     System::Uri* get_Address();
     // public System.Int32 get_ConnectionLimit()
-    // Offset: 0x14A8A44
+    // Offset: 0x164E6C0
     int get_ConnectionLimit();
     // public System.Version get_ProtocolVersion()
-    // Offset: 0x14A8A4C
+    // Offset: 0x164E6C8
     System::Version* get_ProtocolVersion();
     // public System.Void set_Expect100Continue(System.Boolean value)
-    // Offset: 0x14A8A54
+    // Offset: 0x164E6D0
     void set_Expect100Continue(bool value);
     // public System.Boolean get_UseNagleAlgorithm()
-    // Offset: 0x14A8A60
+    // Offset: 0x164E6DC
     bool get_UseNagleAlgorithm();
     // public System.Void set_UseNagleAlgorithm(System.Boolean value)
-    // Offset: 0x14A8A68
+    // Offset: 0x164E6E4
     void set_UseNagleAlgorithm(bool value);
     // System.Boolean get_SendContinue()
-    // Offset: 0x14A8A74
+    // Offset: 0x164E6F0
     bool get_SendContinue();
     // System.Void set_SendContinue(System.Boolean value)
-    // Offset: 0x14A8B70
+    // Offset: 0x164E7EC
     void set_SendContinue(bool value);
     // System.Boolean get_UsesProxy()
-    // Offset: 0x14A8E80
+    // Offset: 0x164EAFC
     bool get_UsesProxy();
     // System.Void set_UsesProxy(System.Boolean value)
-    // Offset: 0x14A8E88
+    // Offset: 0x164EB04
     void set_UsesProxy(bool value);
     // System.Boolean get_UseConnect()
-    // Offset: 0x14A8E94
+    // Offset: 0x164EB10
     bool get_UseConnect();
     // System.Void set_UseConnect(System.Boolean value)
-    // Offset: 0x14A8E9C
+    // Offset: 0x164EB18
     void set_UseConnect(bool value);
     // private System.Boolean get_HasTimedOut()
-    // Offset: 0x14A966C
+    // Offset: 0x164F2E8
     bool get_HasTimedOut();
     // System.Net.IPHostEntry get_HostEntry()
-    // Offset: 0x14A97B8
+    // Offset: 0x164F434
     System::Net::IPHostEntry* get_HostEntry();
     // System.Void .ctor(System.Uri uri, System.Int32 connectionLimit, System.Int32 maxIdleTime)
-    // Offset: 0x14A8974
+    // Offset: 0x164E5F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServicePoint* New_ctor(System::Uri* uri, int connectionLimit, int maxIdleTime) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ServicePoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServicePoint*, creationType>(uri, connectionLimit, maxIdleTime)));
     }
     // public System.Void SetTcpKeepAlive(System.Boolean enabled, System.Int32 keepAliveTime, System.Int32 keepAliveInterval)
-    // Offset: 0x14A8B7C
+    // Offset: 0x164E7F8
     void SetTcpKeepAlive(bool enabled, int keepAliveTime, int keepAliveInterval);
     // System.Void KeepAliveSetup(System.Net.Sockets.Socket socket)
-    // Offset: 0x14A8C5C
+    // Offset: 0x164E8D8
     void KeepAliveSetup(System::Net::Sockets::Socket* socket);
     // static private System.Void PutBytes(System.Byte[] bytes, System.UInt32 v, System.Int32 offset)
-    // Offset: 0x14A8D20
-    static void PutBytes(::Array<uint8_t>* bytes, uint v, int offset);
+    // Offset: 0x164E99C
+    static void PutBytes(::ArrayWrapper<uint8_t> bytes, uint v, int offset);
     // private System.Net.WebConnectionGroup GetConnectionGroup(System.String name)
-    // Offset: 0x14A8EA8
+    // Offset: 0x164EB24
     System::Net::WebConnectionGroup* GetConnectionGroup(::Il2CppString* name);
     // private System.Void RemoveConnectionGroup(System.Net.WebConnectionGroup group)
-    // Offset: 0x14A8FF8
+    // Offset: 0x164EC74
     void RemoveConnectionGroup(System::Net::WebConnectionGroup* group);
     // private System.Boolean CheckAvailableForRecycling(out System.DateTime outIdleSince)
-    // Offset: 0x14A90B0
+    // Offset: 0x164ED2C
     bool CheckAvailableForRecycling(ByRef<System::DateTime> outIdleSince);
     // private System.Void IdleTimerCallback(System.Object obj)
-    // Offset: 0x14A9648
+    // Offset: 0x164F2C4
     void IdleTimerCallback(::Il2CppObject* obj);
     // System.Void SetVersion(System.Version version)
-    // Offset: 0x14A9B38
+    // Offset: 0x164F7B4
     void SetVersion(System::Version* version);
     // System.EventHandler SendRequest(System.Net.HttpWebRequest request, System.String groupName)
-    // Offset: 0x14A9B40
+    // Offset: 0x164F7BC
     System::EventHandler* SendRequest(System::Net::HttpWebRequest* request, ::Il2CppString* groupName);
     // public System.Boolean CloseConnectionGroup(System.String connectionGroupName)
-    // Offset: 0x14A9CD8
+    // Offset: 0x164F954
     bool CloseConnectionGroup(::Il2CppString* connectionGroupName);
     // System.Void UpdateServerCertificate(System.Security.Cryptography.X509Certificates.X509Certificate certificate)
-    // Offset: 0x14A9D9C
+    // Offset: 0x164FA18
     void UpdateServerCertificate(System::Security::Cryptography::X509Certificates::X509Certificate* certificate);
     // System.Void UpdateClientCertificate(System.Security.Cryptography.X509Certificates.X509Certificate certificate)
-    // Offset: 0x14A9DDC
+    // Offset: 0x164FA58
     void UpdateClientCertificate(System::Security::Cryptography::X509Certificates::X509Certificate* certificate);
     // System.Boolean CallEndPointDelegate(System.Net.Sockets.Socket sock, System.Net.IPEndPoint remote)
-    // Offset: 0x14A9E1C
+    // Offset: 0x164FA98
     bool CallEndPointDelegate(System::Net::Sockets::Socket* sock, System::Net::IPEndPoint* remote);
     // private System.Void <GetConnectionGroup>b__66_0(System.Object s, System.EventArgs e)
-    // Offset: 0x14AA13C
+    // Offset: 0x164FDB8
     void $GetConnectionGroup$b__66_0(::Il2CppObject* s, System::EventArgs* e);
   }; // System.Net.ServicePoint
   #pragma pack(pop)
@@ -491,9 +491,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::ServicePoint::PutBytes
 // Il2CppName: PutBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, uint, int)>(&System::Net::ServicePoint::PutBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, uint, int)>(&System::Net::ServicePoint::PutBytes)> {
   static const MethodInfo* get() {
-    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* bytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* v = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "PutBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes, v, offset});

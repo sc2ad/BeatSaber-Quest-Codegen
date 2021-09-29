@@ -46,20 +46,20 @@ namespace System::Text {
     // Set static field: static private System.Boolean i18nDisabled
     static void _set_i18nDisabled(bool value);
     // static System.Text.Encoding get_UTF8Unmarked()
-    // Offset: 0x1D71310
+    // Offset: 0x1F115A0
     static System::Text::Encoding* get_UTF8Unmarked();
     // static private System.Void .cctor()
-    // Offset: 0x1D7154C
+    // Offset: 0x1F117DC
     static void _cctor();
     // static System.String InternalCodePage(ref System.Int32 code_page)
-    // Offset: 0x1D71548
+    // Offset: 0x1F117D8
     static ::Il2CppString* InternalCodePage(ByRef<int> code_page);
     // static System.Text.Encoding GetDefaultEncoding()
-    // Offset: 0x1D6FA68
+    // Offset: 0x1F0FCF8
     static System::Text::Encoding* GetDefaultEncoding();
     // static System.Object InvokeI18N(System.String name, params System.Object[] args)
-    // Offset: 0x1D6DF88
-    static ::Il2CppObject* InvokeI18N(::Il2CppString* name, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x1F0E218
+    static ::Il2CppObject* InvokeI18N(::Il2CppString* name, ::ArrayWrapper<::Il2CppObject*> args);
     // Creating initializer_list -> params proxy for: System.Object InvokeI18N(System.String name, params System.Object[] args)
     static ::Il2CppObject* InvokeI18N(::Il2CppString* name, std::initializer_list<::Il2CppObject*> args);
     // Creating TArgs -> initializer_list proxy for: System.Object InvokeI18N(System.String name, params System.Object[] args)
@@ -109,10 +109,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::EncodingHelper::InvokeI18N
 // Il2CppName: InvokeI18N
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&System::Text::EncodingHelper::InvokeI18N)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&System::Text::EncodingHelper::InvokeI18N)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::EncodingHelper*), "InvokeI18N", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, args});
   }
 };

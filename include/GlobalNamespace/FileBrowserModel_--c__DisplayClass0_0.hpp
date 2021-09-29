@@ -37,9 +37,9 @@ namespace GlobalNamespace {
     // public FileBrowserItem[] items
     // Size: 0x8
     // Offset: 0x10
-    ::Array<GlobalNamespace::FileBrowserItem*>* items;
+    ::ArrayWrapper<GlobalNamespace::FileBrowserItem*> items;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::FileBrowserItem*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::FileBrowserItem*>) == 0x8);
     // public System.String direcotryPath
     // Size: 0x8
     // Offset: 0x18
@@ -49,33 +49,33 @@ namespace GlobalNamespace {
     // public System.String[] extensions
     // Size: 0x8
     // Offset: 0x20
-    ::Array<::Il2CppString*>* extensions;
+    ::ArrayWrapper<::Il2CppString*> extensions;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // public System.Action`1<FileBrowserItem[]> callback
     // Size: 0x8
     // Offset: 0x28
-    System::Action_1<::Array<GlobalNamespace::FileBrowserItem*>*>* callback;
+    System::Action_1<::ArrayWrapper<GlobalNamespace::FileBrowserItem*>>* callback;
     // Field size check
-    static_assert(sizeof(System::Action_1<::Array<GlobalNamespace::FileBrowserItem*>*>*) == 0x8);
+    static_assert(sizeof(System::Action_1<::ArrayWrapper<GlobalNamespace::FileBrowserItem*>>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass0_0
-    $$c__DisplayClass0_0(::Array<GlobalNamespace::FileBrowserItem*>* items_ = {}, ::Il2CppString* direcotryPath_ = {}, ::Array<::Il2CppString*>* extensions_ = {}, System::Action_1<::Array<GlobalNamespace::FileBrowserItem*>*>* callback_ = {}) noexcept : items{items_}, direcotryPath{direcotryPath_}, extensions{extensions_}, callback{callback_} {}
+    $$c__DisplayClass0_0(::ArrayWrapper<GlobalNamespace::FileBrowserItem*> items_ = {}, ::Il2CppString* direcotryPath_ = {}, ::ArrayWrapper<::Il2CppString*> extensions_ = {}, System::Action_1<::ArrayWrapper<GlobalNamespace::FileBrowserItem*>>* callback_ = {}) noexcept : items{items_}, direcotryPath{direcotryPath_}, extensions{extensions_}, callback{callback_} {}
     // Get instance field reference: public FileBrowserItem[] items
-    ::Array<GlobalNamespace::FileBrowserItem*>*& dyn_items();
+    ::ArrayWrapper<GlobalNamespace::FileBrowserItem*>& dyn_items();
     // Get instance field reference: public System.String direcotryPath
     ::Il2CppString*& dyn_direcotryPath();
     // Get instance field reference: public System.String[] extensions
-    ::Array<::Il2CppString*>*& dyn_extensions();
+    ::ArrayWrapper<::Il2CppString*>& dyn_extensions();
     // Get instance field reference: public System.Action`1<FileBrowserItem[]> callback
-    System::Action_1<::Array<GlobalNamespace::FileBrowserItem*>*>*& dyn_callback();
+    System::Action_1<::ArrayWrapper<GlobalNamespace::FileBrowserItem*>>*& dyn_callback();
     // System.Void <GetContentOfDirectory>b__0()
-    // Offset: 0x105C500
+    // Offset: 0x11B5388
     void $GetContentOfDirectory$b__0();
     // System.Void <GetContentOfDirectory>b__1()
-    // Offset: 0x105C52C
+    // Offset: 0x11B53B4
     void $GetContentOfDirectory$b__1();
     // public System.Void .ctor()
-    // Offset: 0x105C068
+    // Offset: 0x11B4EF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     }
   }; // FileBrowserModel/<>c__DisplayClass0_0
   #pragma pack(pop)
-  static check_size<sizeof(FileBrowserModel::$$c__DisplayClass0_0), 40 + sizeof(System::Action_1<::Array<GlobalNamespace::FileBrowserItem*>*>*)> __GlobalNamespace_FileBrowserModel_$$c__DisplayClass0_0SizeCheck;
+  static check_size<sizeof(FileBrowserModel::$$c__DisplayClass0_0), 40 + sizeof(System::Action_1<::ArrayWrapper<GlobalNamespace::FileBrowserItem*>>*)> __GlobalNamespace_FileBrowserModel_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(FileBrowserModel::$$c__DisplayClass0_0) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0*, "", "FileBrowserModel/<>c__DisplayClass0_0");

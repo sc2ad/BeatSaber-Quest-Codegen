@@ -33,15 +33,15 @@ namespace LiteNetLib::Utils {
     // Set static field: static private System.UInt32 Poly
     static void _set_Poly(uint value);
     // Get static field: static private readonly System.UInt32[] Table
-    static ::Array<uint>* _get_Table();
+    static ::ArrayWrapper<uint> _get_Table();
     // Set static field: static private readonly System.UInt32[] Table
-    static void _set_Table(::Array<uint>* value);
+    static void _set_Table(::ArrayWrapper<uint> value);
     // static private System.Void .cctor()
-    // Offset: 0x1C29D68
+    // Offset: 0x1DE1BD0
     static void _cctor();
     // static public System.UInt32 Compute(System.Byte[] input, System.Int32 offset, System.Int32 length)
-    // Offset: 0x1C1BF9C
-    static uint Compute(::Array<uint8_t>* input, int offset, int length);
+    // Offset: 0x1DD3E04
+    static uint Compute(::ArrayWrapper<uint8_t> input, int offset, int length);
   }; // LiteNetLib.Utils.CRC32C
   #pragma pack(pop)
 }
@@ -59,9 +59,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: LiteNetLib::Utils::CRC32C::Compute
 // Il2CppName: Compute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Array<uint8_t>*, int, int)>(&LiteNetLib::Utils::CRC32C::Compute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayWrapper<uint8_t>, int, int)>(&LiteNetLib::Utils::CRC32C::Compute)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::CRC32C*), "Compute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, offset, length});

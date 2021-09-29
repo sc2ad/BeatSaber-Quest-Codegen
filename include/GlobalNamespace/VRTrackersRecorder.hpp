@@ -121,9 +121,9 @@ namespace GlobalNamespace {
     // private UnityEngine.Transform[] _playbackTransforms
     // Size: 0x8
     // Offset: 0x38
-    ::Array<UnityEngine::Transform*>* playbackTransforms;
+    ::ArrayWrapper<UnityEngine::Transform*> playbackTransforms;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
     // private System.Collections.Generic.List`1<VRTrackersRecorder/Keyframe> _keyframes
     // Size: 0x8
     // Offset: 0x40
@@ -157,7 +157,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
     // Creating value type constructor for type: VRTrackersRecorder
-    VRTrackersRecorder(GlobalNamespace::FloatSO* songTime_ = {}, ::Il2CppString* saveFilename_ = {}, GlobalNamespace::VRTrackersRecorder::RecordMode mode_ = {}, UnityEngine::Transform* originTransform_ = {}, ::Array<UnityEngine::Transform*>* playbackTransforms_ = {}, System::Collections::Generic::List_1<GlobalNamespace::VRTrackersRecorder::Keyframe*>* keyframes_ = {}, int keyframeIndex_ = {}, GlobalNamespace::SteamVR_Events::Action* newPosesAction_ = {}, UnityEngine::Vector3 loadedOriginPos_ = {}, UnityEngine::Quaternion loadedOriginRot_ = {}) noexcept : songTime{songTime_}, saveFilename{saveFilename_}, mode{mode_}, originTransform{originTransform_}, playbackTransforms{playbackTransforms_}, keyframes{keyframes_}, keyframeIndex{keyframeIndex_}, newPosesAction{newPosesAction_}, loadedOriginPos{loadedOriginPos_}, loadedOriginRot{loadedOriginRot_} {}
+    VRTrackersRecorder(GlobalNamespace::FloatSO* songTime_ = {}, ::Il2CppString* saveFilename_ = {}, GlobalNamespace::VRTrackersRecorder::RecordMode mode_ = {}, UnityEngine::Transform* originTransform_ = {}, ::ArrayWrapper<UnityEngine::Transform*> playbackTransforms_ = {}, System::Collections::Generic::List_1<GlobalNamespace::VRTrackersRecorder::Keyframe*>* keyframes_ = {}, int keyframeIndex_ = {}, GlobalNamespace::SteamVR_Events::Action* newPosesAction_ = {}, UnityEngine::Vector3 loadedOriginPos_ = {}, UnityEngine::Quaternion loadedOriginRot_ = {}) noexcept : songTime{songTime_}, saveFilename{saveFilename_}, mode{mode_}, originTransform{originTransform_}, playbackTransforms{playbackTransforms_}, keyframes{keyframes_}, keyframeIndex{keyframeIndex_}, newPosesAction{newPosesAction_}, loadedOriginPos{loadedOriginPos_}, loadedOriginRot{loadedOriginRot_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FloatSO _songTime
@@ -169,7 +169,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _originTransform
     UnityEngine::Transform*& dyn__originTransform();
     // Get instance field reference: private UnityEngine.Transform[] _playbackTransforms
-    ::Array<UnityEngine::Transform*>*& dyn__playbackTransforms();
+    ::ArrayWrapper<UnityEngine::Transform*>& dyn__playbackTransforms();
     // Get instance field reference: private System.Collections.Generic.List`1<VRTrackersRecorder/Keyframe> _keyframes
     System::Collections::Generic::List_1<GlobalNamespace::VRTrackersRecorder::Keyframe*>*& dyn__keyframes();
     // Get instance field reference: private System.Int32 _keyframeIndex
@@ -181,31 +181,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Quaternion _loadedOriginRot
     UnityEngine::Quaternion& dyn__loadedOriginRot();
     // protected System.Void Awake()
-    // Offset: 0x12A109C
+    // Offset: 0x134B854
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x12A1718
+    // Offset: 0x134BED0
     void OnDestroy();
     // protected System.Void OnEnable()
-    // Offset: 0x12A1A4C
+    // Offset: 0x134C204
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x12A1A70
+    // Offset: 0x134C228
     void OnDisable();
     // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
-    // Offset: 0x12A1A94
-    void OnNewPoses(::Array<Valve::VR::TrackedDevicePose_t>* poses);
+    // Offset: 0x134C24C
+    void OnNewPoses(::ArrayWrapper<Valve::VR::TrackedDevicePose_t> poses);
     // protected System.Void Update()
-    // Offset: 0x12A1D08
+    // Offset: 0x134C4C0
     void Update();
     // private System.Void Save()
-    // Offset: 0x12A1728
+    // Offset: 0x134BEE0
     void Save();
     // private System.Void Load()
-    // Offset: 0x12A1234
+    // Offset: 0x134B9EC
     void Load();
     // public System.Void .ctor()
-    // Offset: 0x12A216C
+    // Offset: 0x134C924
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -260,9 +260,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::VRTrackersRecorder::OnNewPoses
 // Il2CppName: OnNewPoses
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRTrackersRecorder::*)(::Array<Valve::VR::TrackedDevicePose_t>*)>(&GlobalNamespace::VRTrackersRecorder::OnNewPoses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRTrackersRecorder::*)(::ArrayWrapper<Valve::VR::TrackedDevicePose_t>)>(&GlobalNamespace::VRTrackersRecorder::OnNewPoses)> {
   static const MethodInfo* get() {
-    static auto* poses = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)->byval_arg;
+    static auto* poses = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRTrackersRecorder*), "OnNewPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{poses});
   }
 };

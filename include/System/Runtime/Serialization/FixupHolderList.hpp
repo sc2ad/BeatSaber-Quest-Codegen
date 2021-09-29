@@ -28,9 +28,9 @@ namespace System::Runtime::Serialization {
     // System.Runtime.Serialization.FixupHolder[] m_values
     // Size: 0x8
     // Offset: 0x10
-    ::Array<System::Runtime::Serialization::FixupHolder*>* m_values;
+    ::ArrayWrapper<System::Runtime::Serialization::FixupHolder*> m_values;
     // Field size check
-    static_assert(sizeof(::Array<System::Runtime::Serialization::FixupHolder*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Runtime::Serialization::FixupHolder*>) == 0x8);
     // System.Int32 m_count
     // Size: 0x4
     // Offset: 0x18
@@ -38,26 +38,26 @@ namespace System::Runtime::Serialization {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: FixupHolderList
-    FixupHolderList(::Array<System::Runtime::Serialization::FixupHolder*>* m_values_ = {}, int m_count_ = {}) noexcept : m_values{m_values_}, m_count{m_count_} {}
+    FixupHolderList(::ArrayWrapper<System::Runtime::Serialization::FixupHolder*> m_values_ = {}, int m_count_ = {}) noexcept : m_values{m_values_}, m_count{m_count_} {}
     // Get instance field reference: System.Runtime.Serialization.FixupHolder[] m_values
-    ::Array<System::Runtime::Serialization::FixupHolder*>*& dyn_m_values();
+    ::ArrayWrapper<System::Runtime::Serialization::FixupHolder*>& dyn_m_values();
     // Get instance field reference: System.Int32 m_count
     int& dyn_m_count();
     // System.Void .ctor(System.Int32 startingSize)
-    // Offset: 0x16180DC
+    // Offset: 0x17E3D3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixupHolderList* New_ctor(int startingSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::FixupHolderList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixupHolderList*, creationType>(startingSize)));
     }
     // System.Void Add(System.Runtime.Serialization.FixupHolder fixup)
-    // Offset: 0x1618150
+    // Offset: 0x17E3DB0
     void Add(System::Runtime::Serialization::FixupHolder* fixup);
     // private System.Void EnlargeArray()
-    // Offset: 0x1618204
+    // Offset: 0x17E3E64
     void EnlargeArray();
     // System.Void .ctor()
-    // Offset: 0x16180D4
+    // Offset: 0x17E3D34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

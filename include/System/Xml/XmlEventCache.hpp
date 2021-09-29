@@ -283,37 +283,37 @@ namespace System::Xml {
       // Get instance field reference: private System.Object o
       ::Il2CppObject*& dyn_o();
       // public System.Xml.XmlEventCache/System.Xml.XmlEventType get_EventType()
-      // Offset: 0x1963768
+      // Offset: 0x1B045A0
       System::Xml::XmlEventCache::XmlEventType get_EventType();
       // public System.String get_String1()
-      // Offset: 0x1963770
+      // Offset: 0x1B045A8
       ::Il2CppString* get_String1();
       // public System.String get_String2()
-      // Offset: 0x1963778
+      // Offset: 0x1B045B0
       ::Il2CppString* get_String2();
       // public System.String get_String3()
-      // Offset: 0x1963780
+      // Offset: 0x1B045B8
       ::Il2CppString* get_String3();
       // public System.Object get_Object()
-      // Offset: 0x1963788
+      // Offset: 0x1B045C0
       ::Il2CppObject* get_Object();
       // public System.Void InitEvent(System.Xml.XmlEventCache/System.Xml.XmlEventType eventType)
-      // Offset: 0x1963760
+      // Offset: 0x1B04598
       void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType);
       // public System.Void InitEvent(System.Xml.XmlEventCache/System.Xml.XmlEventType eventType, System.String s1)
-      // Offset: 0x196371C
+      // Offset: 0x1B04554
       void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::Il2CppString* s1);
       // public System.Void InitEvent(System.Xml.XmlEventCache/System.Xml.XmlEventType eventType, System.String s1, System.String s2)
-      // Offset: 0x1963728
+      // Offset: 0x1B04560
       void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::Il2CppString* s1, ::Il2CppString* s2);
       // public System.Void InitEvent(System.Xml.XmlEventCache/System.Xml.XmlEventType eventType, System.String s1, System.String s2, System.String s3)
-      // Offset: 0x1963734
+      // Offset: 0x1B0456C
       void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::Il2CppString* s1, ::Il2CppString* s2, ::Il2CppString* s3);
       // public System.Void InitEvent(System.Xml.XmlEventCache/System.Xml.XmlEventType eventType, System.String s1, System.String s2, System.String s3, System.Object o)
-      // Offset: 0x1963744
+      // Offset: 0x1B0457C
       void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::Il2CppString* s1, ::Il2CppString* s2, ::Il2CppString* s3, ::Il2CppObject* o);
       // public System.Void InitEvent(System.Xml.XmlEventCache/System.Xml.XmlEventType eventType, System.Object o)
-      // Offset: 0x1963754
+      // Offset: 0x1B0458C
       void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::Il2CppObject* o);
     }; // System.Xml.XmlEventCache/System.Xml.XmlEvent
     #pragma pack(pop)
@@ -322,15 +322,15 @@ namespace System::Xml {
     // private System.Collections.Generic.List`1<System.Xml.XmlEventCache/System.Xml.XmlEvent[]> pages
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<::Array<System::Xml::XmlEventCache::XmlEvent>*>* pages;
+    System::Collections::Generic::List_1<::ArrayWrapper<System::Xml::XmlEventCache::XmlEvent>>* pages;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Array<System::Xml::XmlEventCache::XmlEvent>*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::ArrayWrapper<System::Xml::XmlEventCache::XmlEvent>>*) == 0x8);
     // private System.Xml.XmlEventCache/System.Xml.XmlEvent[] pageCurr
     // Size: 0x8
     // Offset: 0x28
-    ::Array<System::Xml::XmlEventCache::XmlEvent>* pageCurr;
+    ::ArrayWrapper<System::Xml::XmlEventCache::XmlEvent> pageCurr;
     // Field size check
-    static_assert(sizeof(::Array<System::Xml::XmlEventCache::XmlEvent>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Xml::XmlEventCache::XmlEvent>) == 0x8);
     // private System.Int32 pageSize
     // Size: 0x4
     // Offset: 0x30
@@ -360,11 +360,11 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: XmlEventCache
-    XmlEventCache(System::Collections::Generic::List_1<::Array<System::Xml::XmlEventCache::XmlEvent>*>* pages_ = {}, ::Array<System::Xml::XmlEventCache::XmlEvent>* pageCurr_ = {}, int pageSize_ = {}, bool hasRootNode_ = {}, System::Xml::Xsl::Runtime::StringConcat singleText_ = {}, ::Il2CppString* baseUri_ = {}) noexcept : pages{pages_}, pageCurr{pageCurr_}, pageSize{pageSize_}, hasRootNode{hasRootNode_}, singleText{singleText_}, baseUri{baseUri_} {}
+    XmlEventCache(System::Collections::Generic::List_1<::ArrayWrapper<System::Xml::XmlEventCache::XmlEvent>>* pages_ = {}, ::ArrayWrapper<System::Xml::XmlEventCache::XmlEvent> pageCurr_ = {}, int pageSize_ = {}, bool hasRootNode_ = {}, System::Xml::Xsl::Runtime::StringConcat singleText_ = {}, ::Il2CppString* baseUri_ = {}) noexcept : pages{pages_}, pageCurr{pageCurr_}, pageSize{pageSize_}, hasRootNode{hasRootNode_}, singleText{singleText_}, baseUri{baseUri_} {}
     // Get instance field reference: private System.Collections.Generic.List`1<System.Xml.XmlEventCache/System.Xml.XmlEvent[]> pages
-    System::Collections::Generic::List_1<::Array<System::Xml::XmlEventCache::XmlEvent>*>*& dyn_pages();
+    System::Collections::Generic::List_1<::ArrayWrapper<System::Xml::XmlEventCache::XmlEvent>>*& dyn_pages();
     // Get instance field reference: private System.Xml.XmlEventCache/System.Xml.XmlEvent[] pageCurr
-    ::Array<System::Xml::XmlEventCache::XmlEvent>*& dyn_pageCurr();
+    ::ArrayWrapper<System::Xml::XmlEventCache::XmlEvent>& dyn_pageCurr();
     // Get instance field reference: private System.Int32 pageSize
     int& dyn_pageSize();
     // Get instance field reference: private System.Boolean hasRootNode
@@ -374,179 +374,179 @@ namespace System::Xml {
     // Get instance field reference: private System.String baseUri
     ::Il2CppString*& dyn_baseUri();
     // public System.Void .ctor(System.String baseUri, System.Boolean hasRootNode)
-    // Offset: 0x195DAE0
+    // Offset: 0x1AFE918
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlEventCache* New_ctor(::Il2CppString* baseUri, bool hasRootNode) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlEventCache::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlEventCache*, creationType>(baseUri, hasRootNode)));
     }
     // public System.Void EndEvents()
-    // Offset: 0x195E6D0
+    // Offset: 0x1AFF508
     void EndEvents();
     // public System.Void EventsToWriter(System.Xml.XmlWriter writer)
-    // Offset: 0x195E6E4
+    // Offset: 0x1AFF51C
     void EventsToWriter(System::Xml::XmlWriter* writer);
     // private System.Void AddEvent(System.Xml.XmlEventCache/System.Xml.XmlEventType eventType)
-    // Offset: 0x1962E50
+    // Offset: 0x1B03C88
     void AddEvent(System::Xml::XmlEventCache::XmlEventType eventType);
     // private System.Void AddEvent(System.Xml.XmlEventCache/System.Xml.XmlEventType eventType, System.String s1)
-    // Offset: 0x1962FEC
+    // Offset: 0x1B03E24
     void AddEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::Il2CppString* s1);
     // private System.Void AddEvent(System.Xml.XmlEventCache/System.Xml.XmlEventType eventType, System.String s1, System.String s2)
-    // Offset: 0x196306C
+    // Offset: 0x1B03EA4
     void AddEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::Il2CppString* s1, ::Il2CppString* s2);
     // private System.Void AddEvent(System.Xml.XmlEventCache/System.Xml.XmlEventType eventType, System.String s1, System.String s2, System.String s3)
-    // Offset: 0x1962F4C
+    // Offset: 0x1B03D84
     void AddEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::Il2CppString* s1, ::Il2CppString* s2, ::Il2CppString* s3);
     // private System.Void AddEvent(System.Xml.XmlEventCache/System.Xml.XmlEventType eventType, System.String s1, System.String s2, System.String s3, System.Object o)
-    // Offset: 0x1962EBC
+    // Offset: 0x1B03CF4
     void AddEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::Il2CppString* s1, ::Il2CppString* s2, ::Il2CppString* s3, ::Il2CppObject* o);
     // private System.Void AddEvent(System.Xml.XmlEventCache/System.Xml.XmlEventType eventType, System.Object o)
-    // Offset: 0x1963208
+    // Offset: 0x1B04040
     void AddEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::Il2CppObject* o);
     // private System.Int32 NewEvent()
-    // Offset: 0x196359C
+    // Offset: 0x1B043D4
     int NewEvent();
     // static private System.Byte[] ToBytes(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1963340
-    static ::Array<uint8_t>* ToBytes(::Array<uint8_t>* buffer, int index, int count);
+    // Offset: 0x1B04178
+    static ::ArrayWrapper<uint8_t> ToBytes(::ArrayWrapper<uint8_t> buffer, int index, int count);
     // public override System.Void WriteDocType(System.String name, System.String pubid, System.String sysid, System.String subset)
-    // Offset: 0x1962EA4
+    // Offset: 0x1B03CDC
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteDocType(System.String name, System.String pubid, System.String sysid, System.String subset)
     void WriteDocType(::Il2CppString* name, ::Il2CppString* pubid, ::Il2CppString* sysid, ::Il2CppString* subset);
     // public override System.Void WriteStartElement(System.String prefix, System.String localName, System.String ns)
-    // Offset: 0x1962F38
+    // Offset: 0x1B03D70
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteStartElement(System.String prefix, System.String localName, System.String ns)
     void WriteStartElement(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* ns);
     // public override System.Void WriteStartAttribute(System.String prefix, System.String localName, System.String ns)
-    // Offset: 0x1962FC4
+    // Offset: 0x1B03DFC
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteStartAttribute(System.String prefix, System.String localName, System.String ns)
     void WriteStartAttribute(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* ns);
     // public override System.Void WriteEndAttribute()
-    // Offset: 0x1962FD8
+    // Offset: 0x1B03E10
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteEndAttribute()
     void WriteEndAttribute();
     // public override System.Void WriteCData(System.String text)
-    // Offset: 0x1962FE0
+    // Offset: 0x1B03E18
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteCData(System.String text)
     void WriteCData(::Il2CppString* text);
     // public override System.Void WriteComment(System.String text)
-    // Offset: 0x1963050
+    // Offset: 0x1B03E88
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteComment(System.String text)
     void WriteComment(::Il2CppString* text);
     // public override System.Void WriteProcessingInstruction(System.String name, System.String text)
-    // Offset: 0x196305C
+    // Offset: 0x1B03E94
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteProcessingInstruction(System.String name, System.String text)
     void WriteProcessingInstruction(::Il2CppString* name, ::Il2CppString* text);
     // public override System.Void WriteWhitespace(System.String ws)
-    // Offset: 0x19630D4
+    // Offset: 0x1B03F0C
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteWhitespace(System.String ws)
     void WriteWhitespace(::Il2CppString* ws);
     // public override System.Void WriteString(System.String text)
-    // Offset: 0x19630E0
+    // Offset: 0x1B03F18
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteString(System.String text)
     void WriteString(::Il2CppString* text);
     // public override System.Void WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1963104
+    // Offset: 0x1B03F3C
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    void WriteChars(::Array<::Il2CppChar>* buffer, int index, int count);
+    void WriteChars(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
     // public override System.Void WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1963140
+    // Offset: 0x1B03F78
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    void WriteRaw(::Array<::Il2CppChar>* buffer, int index, int count);
+    void WriteRaw(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
     // public override System.Void WriteRaw(System.String data)
-    // Offset: 0x196317C
+    // Offset: 0x1B03FB4
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteRaw(System.String data)
     void WriteRaw(::Il2CppString* data);
     // public override System.Void WriteEntityRef(System.String name)
-    // Offset: 0x1963188
+    // Offset: 0x1B03FC0
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteEntityRef(System.String name)
     void WriteEntityRef(::Il2CppString* name);
     // public override System.Void WriteCharEntity(System.Char ch)
-    // Offset: 0x1963194
+    // Offset: 0x1B03FCC
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteCharEntity(System.Char ch)
     void WriteCharEntity(::Il2CppChar ch);
     // public override System.Void WriteSurrogateCharEntity(System.Char lowChar, System.Char highChar)
-    // Offset: 0x196326C
+    // Offset: 0x1B040A4
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteSurrogateCharEntity(System.Char lowChar, System.Char highChar)
     void WriteSurrogateCharEntity(::Il2CppChar lowChar, ::Il2CppChar highChar);
     // public override System.Void WriteBase64(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1963308
+    // Offset: 0x1B04140
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteBase64(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    void WriteBase64(::Array<uint8_t>* buffer, int index, int count);
+    void WriteBase64(::ArrayWrapper<uint8_t> buffer, int index, int count);
     // public override System.Void WriteBinHex(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x19633FC
+    // Offset: 0x1B04234
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteBinHex(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    void WriteBinHex(::Array<uint8_t>* buffer, int index, int count);
+    void WriteBinHex(::ArrayWrapper<uint8_t> buffer, int index, int count);
     // public override System.Void Close()
-    // Offset: 0x1963434
+    // Offset: 0x1B0426C
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::Close()
     void Close();
     // public override System.Void Flush()
-    // Offset: 0x196343C
+    // Offset: 0x1B04274
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::Flush()
     void Flush();
     // public override System.Void WriteValue(System.String value)
-    // Offset: 0x1963444
+    // Offset: 0x1B0427C
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteValue(System.String value)
     void WriteValue(::Il2CppString* value);
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1963454
+    // Offset: 0x1B0428C
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // override System.Void WriteXmlDeclaration(System.Xml.XmlStandalone standalone)
-    // Offset: 0x19634D4
+    // Offset: 0x1B0430C
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteXmlDeclaration(System.Xml.XmlStandalone standalone)
     void WriteXmlDeclaration(System::Xml::XmlStandalone standalone);
     // override System.Void WriteXmlDeclaration(System.String xmldecl)
-    // Offset: 0x1963548
+    // Offset: 0x1B04380
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteXmlDeclaration(System.String xmldecl)
     void WriteXmlDeclaration(::Il2CppString* xmldecl);
     // override System.Void StartElementContent()
-    // Offset: 0x1963554
+    // Offset: 0x1B0438C
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::StartElementContent()
     void StartElementContent();
     // override System.Void WriteEndElement(System.String prefix, System.String localName, System.String ns)
-    // Offset: 0x196355C
+    // Offset: 0x1B04394
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteEndElement(System.String prefix, System.String localName, System.String ns)
     void WriteEndElement(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* ns);
     // override System.Void WriteFullEndElement(System.String prefix, System.String localName, System.String ns)
-    // Offset: 0x1963570
+    // Offset: 0x1B043A8
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteFullEndElement(System.String prefix, System.String localName, System.String ns)
     void WriteFullEndElement(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* ns);
     // override System.Void WriteNamespaceDeclaration(System.String prefix, System.String ns)
-    // Offset: 0x1963584
+    // Offset: 0x1B043BC
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteNamespaceDeclaration(System.String prefix, System.String ns)
     void WriteNamespaceDeclaration(::Il2CppString* prefix, ::Il2CppString* ns);
     // override System.Void WriteEndBase64()
-    // Offset: 0x1963594
+    // Offset: 0x1B043CC
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteEndBase64()
     void WriteEndBase64();
@@ -656,9 +656,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Xml::XmlEventCache::ToBytes
 // Il2CppName: ToBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, int, int)>(&System::Xml::XmlEventCache::ToBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Xml::XmlEventCache::ToBytes)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlEventCache*), "ToBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index, count});
@@ -755,9 +755,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlEventCache::WriteChars
 // Il2CppName: WriteChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlEventCache::*)(::Array<::Il2CppChar>*, int, int)>(&System::Xml::XmlEventCache::WriteChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlEventCache::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Xml::XmlEventCache::WriteChars)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlEventCache*), "WriteChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index, count});
@@ -766,9 +766,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlEventCache::WriteRaw
 // Il2CppName: WriteRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlEventCache::*)(::Array<::Il2CppChar>*, int, int)>(&System::Xml::XmlEventCache::WriteRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlEventCache::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Xml::XmlEventCache::WriteRaw)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlEventCache*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index, count});
@@ -814,9 +814,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlEventCache::WriteBase64
 // Il2CppName: WriteBase64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlEventCache::*)(::Array<uint8_t>*, int, int)>(&System::Xml::XmlEventCache::WriteBase64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlEventCache::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Xml::XmlEventCache::WriteBase64)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlEventCache*), "WriteBase64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index, count});
@@ -825,9 +825,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlEventCache::WriteBinHex
 // Il2CppName: WriteBinHex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlEventCache::*)(::Array<uint8_t>*, int, int)>(&System::Xml::XmlEventCache::WriteBinHex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlEventCache::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Xml::XmlEventCache::WriteBinHex)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlEventCache*), "WriteBinHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index, count});

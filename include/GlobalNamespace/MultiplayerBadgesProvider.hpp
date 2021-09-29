@@ -43,21 +43,21 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerBadgesProvider::$$c
     class $$c;
-    // [InjectAttribute] Offset: 0xE3F984
+    // [InjectAttribute] Offset: 0xF08308
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3F994
+    // [InjectAttribute] Offset: 0xF08318
     // private readonly IDifficultyBeatmap _difficultyBeatmap
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IDifficultyBeatmap*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3F9A4
+    // [InjectAttribute] Offset: 0xF08328
     // private readonly MultiplayerBadgesModelSO _multiplayerBadgesModel
     // Size: 0x8
     // Offset: 0x20
@@ -97,10 +97,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerBadgesModelSO _multiplayerBadgesModel
     GlobalNamespace::MultiplayerBadgesModelSO*& dyn__multiplayerBadgesModel();
     // public System.Void SelectBadgesAndPutThemIntoResults(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> playerResults)
-    // Offset: 0x11C55A8
+    // Offset: 0x120BC28
     void SelectBadgesAndPutThemIntoResults(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* playerResults);
     // public System.Void .ctor()
-    // Offset: 0x11C673C
+    // Offset: 0x120CDBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

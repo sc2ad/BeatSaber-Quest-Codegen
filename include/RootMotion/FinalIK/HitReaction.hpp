@@ -39,34 +39,34 @@ namespace RootMotion::FinalIK {
     class HitPointEffector;
     // Nested type: RootMotion::FinalIK::HitReaction::HitPointBone
     class HitPointBone;
-    // [TooltipAttribute] Offset: 0xE2DDD8
+    // [TooltipAttribute] Offset: 0xEF45B0
     // public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointEffector[] effectorHitPoints
     // Size: 0x8
     // Offset: 0x30
-    ::Array<RootMotion::FinalIK::HitReaction::HitPointEffector*>* effectorHitPoints;
+    ::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointEffector*> effectorHitPoints;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::HitReaction::HitPointEffector*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE2DE10
+    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointEffector*>) == 0x8);
+    // [TooltipAttribute] Offset: 0xEF45E8
     // public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone[] boneHitPoints
     // Size: 0x8
     // Offset: 0x38
-    ::Array<RootMotion::FinalIK::HitReaction::HitPointBone*>* boneHitPoints;
+    ::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointBone*> boneHitPoints;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::HitReaction::HitPointBone*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointBone*>) == 0x8);
     // Creating value type constructor for type: HitReaction
-    HitReaction(::Array<RootMotion::FinalIK::HitReaction::HitPointEffector*>* effectorHitPoints_ = {}, ::Array<RootMotion::FinalIK::HitReaction::HitPointBone*>* boneHitPoints_ = {}) noexcept : effectorHitPoints{effectorHitPoints_}, boneHitPoints{boneHitPoints_} {}
+    HitReaction(::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointEffector*> effectorHitPoints_ = {}, ::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointBone*> boneHitPoints_ = {}) noexcept : effectorHitPoints{effectorHitPoints_}, boneHitPoints{boneHitPoints_} {}
     // Get instance field reference: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointEffector[] effectorHitPoints
-    ::Array<RootMotion::FinalIK::HitReaction::HitPointEffector*>*& dyn_effectorHitPoints();
+    ::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointEffector*>& dyn_effectorHitPoints();
     // Get instance field reference: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone[] boneHitPoints
-    ::Array<RootMotion::FinalIK::HitReaction::HitPointBone*>*& dyn_boneHitPoints();
+    ::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointBone*>& dyn_boneHitPoints();
     // public System.Boolean get_inProgress()
-    // Offset: 0x1CCE9F0
+    // Offset: 0x1E91CB0
     bool get_inProgress();
     // public System.Void Hit(UnityEngine.Collider collider, UnityEngine.Vector3 force, UnityEngine.Vector3 point)
-    // Offset: 0x1CCECE0
+    // Offset: 0x1E91FA0
     void Hit(UnityEngine::Collider* collider, UnityEngine::Vector3 force, UnityEngine::Vector3 point);
     // public System.Void .ctor()
-    // Offset: 0x1CCF04C
+    // Offset: 0x1E9230C
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -80,13 +80,13 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<HitReaction*, creationType>()));
     }
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1CCEAC0
+    // Offset: 0x1E91D80
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();
   }; // RootMotion.FinalIK.HitReaction
   #pragma pack(pop)
-  static check_size<sizeof(HitReaction), 56 + sizeof(::Array<RootMotion::FinalIK::HitReaction::HitPointBone*>*)> __RootMotion_FinalIK_HitReactionSizeCheck;
+  static check_size<sizeof(HitReaction), 56 + sizeof(::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointBone*>)> __RootMotion_FinalIK_HitReactionSizeCheck;
   static_assert(sizeof(HitReaction) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReaction*, "RootMotion.FinalIK", "HitReaction");

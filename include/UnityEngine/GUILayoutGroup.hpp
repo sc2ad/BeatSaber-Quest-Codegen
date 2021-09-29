@@ -205,36 +205,36 @@ namespace UnityEngine {
     // Get instance field reference: protected System.Int32 m_MarginBottom
     int& dyn_m_MarginBottom();
     // public System.Void ResetCursor()
-    // Offset: 0x1B2FC64
+    // Offset: 0x1C9B51C
     void ResetCursor();
     // public UnityEngine.GUILayoutEntry GetNext()
-    // Offset: 0x1B2FC6C
+    // Offset: 0x1C9B524
     UnityEngine::GUILayoutEntry* GetNext();
     // public System.Void Add(UnityEngine.GUILayoutEntry e)
-    // Offset: 0x1B2FEF8
+    // Offset: 0x1C9B7B0
     void Add(UnityEngine::GUILayoutEntry* e);
     // public override System.Int32 get_marginLeft()
-    // Offset: 0x1B2F9A4
+    // Offset: 0x1C9B25C
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Int32 GUILayoutEntry::get_marginLeft()
     int get_marginLeft();
     // public override System.Int32 get_marginRight()
-    // Offset: 0x1B2F9AC
+    // Offset: 0x1C9B264
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Int32 GUILayoutEntry::get_marginRight()
     int get_marginRight();
     // public override System.Int32 get_marginTop()
-    // Offset: 0x1B2F9B4
+    // Offset: 0x1C9B26C
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Int32 GUILayoutEntry::get_marginTop()
     int get_marginTop();
     // public override System.Int32 get_marginBottom()
-    // Offset: 0x1B2F9BC
+    // Offset: 0x1C9B274
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Int32 GUILayoutEntry::get_marginBottom()
     int get_marginBottom();
     // public System.Void .ctor()
-    // Offset: 0x1B2F9C4
+    // Offset: 0x1C9B27C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -243,37 +243,37 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<GUILayoutGroup*, creationType>()));
     }
     // public override System.Void ApplyOptions(UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1B2FABC
+    // Offset: 0x1C9B374
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::ApplyOptions(UnityEngine.GUILayoutOption[] options)
-    void ApplyOptions(::Array<UnityEngine::GUILayoutOption*>* options);
+    void ApplyOptions(::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
     // protected override System.Void ApplyStyleSettings(UnityEngine.GUIStyle style)
-    // Offset: 0x1B2FBEC
+    // Offset: 0x1C9B4A4
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::ApplyStyleSettings(UnityEngine.GUIStyle style)
     void ApplyStyleSettings(UnityEngine::GUIStyle* style);
     // public override System.Void CalcWidth()
-    // Offset: 0x1B2FF60
+    // Offset: 0x1C9B818
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::CalcWidth()
     void CalcWidth();
     // public override System.Void SetHorizontal(System.Single x, System.Single width)
-    // Offset: 0x1B30724
+    // Offset: 0x1C9BFDC
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::SetHorizontal(System.Single x, System.Single width)
     void SetHorizontal(float x, float width);
     // public override System.Void CalcHeight()
-    // Offset: 0x1B3102C
+    // Offset: 0x1C9C8E4
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::CalcHeight()
     void CalcHeight();
     // public override System.Void SetVertical(System.Single y, System.Single height)
-    // Offset: 0x1B316D4
+    // Offset: 0x1C9CF8C
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::SetVertical(System.Single y, System.Single height)
     void SetVertical(float y, float height);
     // public override System.String ToString()
-    // Offset: 0x1B31FD8
+    // Offset: 0x1C9D890
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.String GUILayoutEntry::ToString()
     ::Il2CppString* ToString();
@@ -348,9 +348,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::GUILayoutGroup::ApplyOptions
 // Il2CppName: ApplyOptions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUILayoutGroup::*)(::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayoutGroup::ApplyOptions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUILayoutGroup::*)(::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayoutGroup::ApplyOptions)> {
   static const MethodInfo* get() {
-    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutGroup*), "ApplyOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{options});
   }
 };

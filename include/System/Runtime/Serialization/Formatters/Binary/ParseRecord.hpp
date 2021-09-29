@@ -180,33 +180,33 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Int32[] PRlengthA
     // Size: 0x8
     // Offset: 0x88
-    ::Array<int>* PRlengthA;
+    ::ArrayWrapper<int> PRlengthA;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // System.Int32[] PRpositionA
     // Size: 0x8
     // Offset: 0x90
-    ::Array<int>* PRpositionA;
+    ::ArrayWrapper<int> PRpositionA;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // System.Int32[] PRlowerBoundA
     // Size: 0x8
     // Offset: 0x98
-    ::Array<int>* PRlowerBoundA;
+    ::ArrayWrapper<int> PRlowerBoundA;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // System.Int32[] PRupperBoundA
     // Size: 0x8
     // Offset: 0xA0
-    ::Array<int>* PRupperBoundA;
+    ::ArrayWrapper<int> PRupperBoundA;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // System.Int32[] PRindexMap
     // Size: 0x8
     // Offset: 0xA8
-    ::Array<int>* PRindexMap;
+    ::ArrayWrapper<int> PRindexMap;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // System.Int32 PRmemberIndex
     // Size: 0x4
     // Offset: 0xB0
@@ -222,9 +222,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Int32[] PRrectangularMap
     // Size: 0x8
     // Offset: 0xB8
-    ::Array<int>* PRrectangularMap;
+    ::ArrayWrapper<int> PRrectangularMap;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // System.Boolean PRisLowerBound
     // Size: 0x1
     // Offset: 0xC0
@@ -268,9 +268,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Object[] PRobjectA
     // Size: 0x8
     // Offset: 0xF0
-    ::Array<::Il2CppObject*>* PRobjectA;
+    ::ArrayWrapper<::Il2CppObject*> PRobjectA;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
     // System.Runtime.Serialization.Formatters.Binary.PrimitiveArray PRprimitiveArray
     // Size: 0x8
     // Offset: 0xF8
@@ -288,9 +288,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Object[] PRmemberData
     // Size: 0x8
     // Offset: 0x108
-    ::Array<::Il2CppObject*>* PRmemberData;
+    ::ArrayWrapper<::Il2CppObject*> PRmemberData;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
     // System.Runtime.Serialization.SerializationInfo PRsi
     // Size: 0x8
     // Offset: 0x110
@@ -304,7 +304,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ParseRecord
-    ParseRecord(System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE PRparseTypeEnum_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE PRobjectTypeEnum_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE PRarrayTypeEnum_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE PRmemberTypeEnum_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE PRmemberValueEnum_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE PRobjectPositionEnum_ = {}, ::Il2CppString* PRname_ = {}, ::Il2CppString* PRvalue_ = {}, ::Il2CppObject* PRvarValue_ = {}, ::Il2CppString* PRkeyDt_ = {}, System::Type* PRdtType_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE PRdtTypeCode_ = {}, bool PRisEnum_ = {}, int64_t PRobjectId_ = {}, int64_t PRidRef_ = {}, ::Il2CppString* PRarrayElementTypeString_ = {}, System::Type* PRarrayElementType_ = {}, bool PRisArrayVariant_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE PRarrayElementTypeCode_ = {}, int PRrank_ = {}, ::Array<int>* PRlengthA_ = {}, ::Array<int>* PRpositionA_ = {}, ::Array<int>* PRlowerBoundA_ = {}, ::Array<int>* PRupperBoundA_ = {}, ::Array<int>* PRindexMap_ = {}, int PRmemberIndex_ = {}, int PRlinearlength_ = {}, ::Array<int>* PRrectangularMap_ = {}, bool PRisLowerBound_ = {}, int64_t PRtopId_ = {}, int64_t PRheaderId_ = {}, System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* PRobjectInfo_ = {}, bool PRisValueTypeFixup_ = {}, ::Il2CppObject* PRnewObj_ = {}, ::Array<::Il2CppObject*>* PRobjectA_ = {}, System::Runtime::Serialization::Formatters::Binary::PrimitiveArray* PRprimitiveArray_ = {}, bool PRisRegistered_ = {}, ::Array<::Il2CppObject*>* PRmemberData_ = {}, System::Runtime::Serialization::SerializationInfo* PRsi_ = {}, int PRnullCount_ = {}) noexcept : PRparseTypeEnum{PRparseTypeEnum_}, PRobjectTypeEnum{PRobjectTypeEnum_}, PRarrayTypeEnum{PRarrayTypeEnum_}, PRmemberTypeEnum{PRmemberTypeEnum_}, PRmemberValueEnum{PRmemberValueEnum_}, PRobjectPositionEnum{PRobjectPositionEnum_}, PRname{PRname_}, PRvalue{PRvalue_}, PRvarValue{PRvarValue_}, PRkeyDt{PRkeyDt_}, PRdtType{PRdtType_}, PRdtTypeCode{PRdtTypeCode_}, PRisEnum{PRisEnum_}, PRobjectId{PRobjectId_}, PRidRef{PRidRef_}, PRarrayElementTypeString{PRarrayElementTypeString_}, PRarrayElementType{PRarrayElementType_}, PRisArrayVariant{PRisArrayVariant_}, PRarrayElementTypeCode{PRarrayElementTypeCode_}, PRrank{PRrank_}, PRlengthA{PRlengthA_}, PRpositionA{PRpositionA_}, PRlowerBoundA{PRlowerBoundA_}, PRupperBoundA{PRupperBoundA_}, PRindexMap{PRindexMap_}, PRmemberIndex{PRmemberIndex_}, PRlinearlength{PRlinearlength_}, PRrectangularMap{PRrectangularMap_}, PRisLowerBound{PRisLowerBound_}, PRtopId{PRtopId_}, PRheaderId{PRheaderId_}, PRobjectInfo{PRobjectInfo_}, PRisValueTypeFixup{PRisValueTypeFixup_}, PRnewObj{PRnewObj_}, PRobjectA{PRobjectA_}, PRprimitiveArray{PRprimitiveArray_}, PRisRegistered{PRisRegistered_}, PRmemberData{PRmemberData_}, PRsi{PRsi_}, PRnullCount{PRnullCount_} {}
+    ParseRecord(System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE PRparseTypeEnum_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE PRobjectTypeEnum_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE PRarrayTypeEnum_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE PRmemberTypeEnum_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE PRmemberValueEnum_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE PRobjectPositionEnum_ = {}, ::Il2CppString* PRname_ = {}, ::Il2CppString* PRvalue_ = {}, ::Il2CppObject* PRvarValue_ = {}, ::Il2CppString* PRkeyDt_ = {}, System::Type* PRdtType_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE PRdtTypeCode_ = {}, bool PRisEnum_ = {}, int64_t PRobjectId_ = {}, int64_t PRidRef_ = {}, ::Il2CppString* PRarrayElementTypeString_ = {}, System::Type* PRarrayElementType_ = {}, bool PRisArrayVariant_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE PRarrayElementTypeCode_ = {}, int PRrank_ = {}, ::ArrayWrapper<int> PRlengthA_ = {}, ::ArrayWrapper<int> PRpositionA_ = {}, ::ArrayWrapper<int> PRlowerBoundA_ = {}, ::ArrayWrapper<int> PRupperBoundA_ = {}, ::ArrayWrapper<int> PRindexMap_ = {}, int PRmemberIndex_ = {}, int PRlinearlength_ = {}, ::ArrayWrapper<int> PRrectangularMap_ = {}, bool PRisLowerBound_ = {}, int64_t PRtopId_ = {}, int64_t PRheaderId_ = {}, System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* PRobjectInfo_ = {}, bool PRisValueTypeFixup_ = {}, ::Il2CppObject* PRnewObj_ = {}, ::ArrayWrapper<::Il2CppObject*> PRobjectA_ = {}, System::Runtime::Serialization::Formatters::Binary::PrimitiveArray* PRprimitiveArray_ = {}, bool PRisRegistered_ = {}, ::ArrayWrapper<::Il2CppObject*> PRmemberData_ = {}, System::Runtime::Serialization::SerializationInfo* PRsi_ = {}, int PRnullCount_ = {}) noexcept : PRparseTypeEnum{PRparseTypeEnum_}, PRobjectTypeEnum{PRobjectTypeEnum_}, PRarrayTypeEnum{PRarrayTypeEnum_}, PRmemberTypeEnum{PRmemberTypeEnum_}, PRmemberValueEnum{PRmemberValueEnum_}, PRobjectPositionEnum{PRobjectPositionEnum_}, PRname{PRname_}, PRvalue{PRvalue_}, PRvarValue{PRvarValue_}, PRkeyDt{PRkeyDt_}, PRdtType{PRdtType_}, PRdtTypeCode{PRdtTypeCode_}, PRisEnum{PRisEnum_}, PRobjectId{PRobjectId_}, PRidRef{PRidRef_}, PRarrayElementTypeString{PRarrayElementTypeString_}, PRarrayElementType{PRarrayElementType_}, PRisArrayVariant{PRisArrayVariant_}, PRarrayElementTypeCode{PRarrayElementTypeCode_}, PRrank{PRrank_}, PRlengthA{PRlengthA_}, PRpositionA{PRpositionA_}, PRlowerBoundA{PRlowerBoundA_}, PRupperBoundA{PRupperBoundA_}, PRindexMap{PRindexMap_}, PRmemberIndex{PRmemberIndex_}, PRlinearlength{PRlinearlength_}, PRrectangularMap{PRrectangularMap_}, PRisLowerBound{PRisLowerBound_}, PRtopId{PRtopId_}, PRheaderId{PRheaderId_}, PRobjectInfo{PRobjectInfo_}, PRisValueTypeFixup{PRisValueTypeFixup_}, PRnewObj{PRnewObj_}, PRobjectA{PRobjectA_}, PRprimitiveArray{PRprimitiveArray_}, PRisRegistered{PRisRegistered_}, PRmemberData{PRmemberData_}, PRsi{PRsi_}, PRnullCount{PRnullCount_} {}
     // Get static field: static System.Int32 parseRecordIdCount
     static int _get_parseRecordIdCount();
     // Set static field: static System.Int32 parseRecordIdCount
@@ -350,21 +350,21 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Int32 PRrank
     int& dyn_PRrank();
     // Get instance field reference: System.Int32[] PRlengthA
-    ::Array<int>*& dyn_PRlengthA();
+    ::ArrayWrapper<int>& dyn_PRlengthA();
     // Get instance field reference: System.Int32[] PRpositionA
-    ::Array<int>*& dyn_PRpositionA();
+    ::ArrayWrapper<int>& dyn_PRpositionA();
     // Get instance field reference: System.Int32[] PRlowerBoundA
-    ::Array<int>*& dyn_PRlowerBoundA();
+    ::ArrayWrapper<int>& dyn_PRlowerBoundA();
     // Get instance field reference: System.Int32[] PRupperBoundA
-    ::Array<int>*& dyn_PRupperBoundA();
+    ::ArrayWrapper<int>& dyn_PRupperBoundA();
     // Get instance field reference: System.Int32[] PRindexMap
-    ::Array<int>*& dyn_PRindexMap();
+    ::ArrayWrapper<int>& dyn_PRindexMap();
     // Get instance field reference: System.Int32 PRmemberIndex
     int& dyn_PRmemberIndex();
     // Get instance field reference: System.Int32 PRlinearlength
     int& dyn_PRlinearlength();
     // Get instance field reference: System.Int32[] PRrectangularMap
-    ::Array<int>*& dyn_PRrectangularMap();
+    ::ArrayWrapper<int>& dyn_PRrectangularMap();
     // Get instance field reference: System.Boolean PRisLowerBound
     bool& dyn_PRisLowerBound();
     // Get instance field reference: System.Int64 PRtopId
@@ -378,25 +378,25 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Object PRnewObj
     ::Il2CppObject*& dyn_PRnewObj();
     // Get instance field reference: System.Object[] PRobjectA
-    ::Array<::Il2CppObject*>*& dyn_PRobjectA();
+    ::ArrayWrapper<::Il2CppObject*>& dyn_PRobjectA();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.PrimitiveArray PRprimitiveArray
     System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*& dyn_PRprimitiveArray();
     // Get instance field reference: System.Boolean PRisRegistered
     bool& dyn_PRisRegistered();
     // Get instance field reference: System.Object[] PRmemberData
-    ::Array<::Il2CppObject*>*& dyn_PRmemberData();
+    ::ArrayWrapper<::Il2CppObject*>& dyn_PRmemberData();
     // Get instance field reference: System.Runtime.Serialization.SerializationInfo PRsi
     System::Runtime::Serialization::SerializationInfo*& dyn_PRsi();
     // Get instance field reference: System.Int32 PRnullCount
     int& dyn_PRnullCount();
     // static private System.Void .cctor()
-    // Offset: 0x16289B4
+    // Offset: 0x17F4614
     static void _cctor();
     // System.Void Init()
-    // Offset: 0x16220B0
+    // Offset: 0x17EDD10
     void Init();
     // System.Void .ctor()
-    // Offset: 0x1622008
+    // Offset: 0x17EDC68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

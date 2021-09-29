@@ -68,42 +68,42 @@ namespace Zenject {
     // Creating value type constructor for type: ConventionBindInfo
     ConventionBindInfo(System::Collections::Generic::List_1<System::Func_2<System::Type*, bool>*>* typeFilters_ = {}, System::Collections::Generic::List_1<System::Func_2<System::Reflection::Assembly*, bool>*>* assemblyFilters_ = {}) noexcept : typeFilters{typeFilters_}, assemblyFilters{assemblyFilters_} {}
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<System.Reflection.Assembly,System.Type[]> _assemblyTypeCache
-    static System::Collections::Generic::Dictionary_2<System::Reflection::Assembly*, ::Array<System::Type*>*>* _get__assemblyTypeCache();
+    static System::Collections::Generic::Dictionary_2<System::Reflection::Assembly*, ::ArrayWrapper<System::Type*>>* _get__assemblyTypeCache();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Reflection.Assembly,System.Type[]> _assemblyTypeCache
-    static void _set__assemblyTypeCache(System::Collections::Generic::Dictionary_2<System::Reflection::Assembly*, ::Array<System::Type*>*>* value);
+    static void _set__assemblyTypeCache(System::Collections::Generic::Dictionary_2<System::Reflection::Assembly*, ::ArrayWrapper<System::Type*>>* value);
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Func`2<System.Type,System.Boolean>> _typeFilters
     System::Collections::Generic::List_1<System::Func_2<System::Type*, bool>*>*& dyn__typeFilters();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Func`2<System.Reflection.Assembly,System.Boolean>> _assemblyFilters
     System::Collections::Generic::List_1<System::Func_2<System::Reflection::Assembly*, bool>*>*& dyn__assemblyFilters();
     // static private System.Void .cctor()
-    // Offset: 0x13E88B4
+    // Offset: 0x14FAAA8
     static void _cctor();
     // public System.Void AddAssemblyFilter(System.Func`2<System.Reflection.Assembly,System.Boolean> predicate)
-    // Offset: 0x13E8428
+    // Offset: 0x14FA61C
     void AddAssemblyFilter(System::Func_2<System::Reflection::Assembly*, bool>* predicate);
     // public System.Void AddTypeFilter(System.Func`2<System.Type,System.Boolean> predicate)
-    // Offset: 0x13E8598
+    // Offset: 0x14FA78C
     void AddTypeFilter(System::Func_2<System::Type*, bool>* predicate);
     // private System.Collections.Generic.IEnumerable`1<System.Reflection.Assembly> GetAllAssemblies()
-    // Offset: 0x13E8600
+    // Offset: 0x14FA7F4
     System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>* GetAllAssemblies();
     // private System.Boolean ShouldIncludeAssembly(System.Reflection.Assembly assembly)
-    // Offset: 0x13E8624
+    // Offset: 0x14FA818
     bool ShouldIncludeAssembly(System::Reflection::Assembly* assembly);
     // private System.Boolean ShouldIncludeType(System.Type type)
-    // Offset: 0x13E86EC
+    // Offset: 0x14FA8E0
     bool ShouldIncludeType(System::Type* type);
     // private System.Type[] GetTypes(System.Reflection.Assembly assembly)
-    // Offset: 0x13E87B4
-    ::Array<System::Type*>* GetTypes(System::Reflection::Assembly* assembly);
+    // Offset: 0x14FA9A8
+    ::ArrayWrapper<System::Type*> GetTypes(System::Reflection::Assembly* assembly);
     // public System.Collections.Generic.List`1<System.Type> ResolveTypes()
-    // Offset: 0x13E5F20
+    // Offset: 0x14F8114
     System::Collections::Generic::List_1<System::Type*>* ResolveTypes();
     // private System.Collections.Generic.IEnumerable`1<System.Type> <ResolveTypes>b__9_0(System.Reflection.Assembly assembly)
-    // Offset: 0x13E8928
+    // Offset: 0x14FAB1C
     System::Collections::Generic::IEnumerable_1<System::Type*>* $ResolveTypes$b__9_0(System::Reflection::Assembly* assembly);
     // public System.Void .ctor()
-    // Offset: 0x13E5E5C
+    // Offset: 0x14F8050
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Writing MetadataGetter for method: Zenject::ConventionBindInfo::GetTypes
 // Il2CppName: GetTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (Zenject::ConventionBindInfo::*)(System::Reflection::Assembly*)>(&Zenject::ConventionBindInfo::GetTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Type*> (Zenject::ConventionBindInfo::*)(System::Reflection::Assembly*)>(&Zenject::ConventionBindInfo::GetTypes)> {
   static const MethodInfo* get() {
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionBindInfo*), "GetTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assembly});

@@ -80,20 +80,20 @@ namespace System::Security::Cryptography {
     // Get instance field reference: private System.Security.Cryptography.DESTransform D3
     System::Security::Cryptography::DESTransform*& dyn_D3();
     // public System.Void .ctor(System.Security.Cryptography.TripleDES algo, System.Boolean encryption, System.Byte[] key, System.Byte[] iv)
-    // Offset: 0x1B49F68
+    // Offset: 0x1CCE640
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TripleDESTransform* New_ctor(System::Security::Cryptography::TripleDES* algo, bool encryption, ::Array<uint8_t>* key, ::Array<uint8_t>* iv) {
+    static TripleDESTransform* New_ctor(System::Security::Cryptography::TripleDES* algo, bool encryption, ::ArrayWrapper<uint8_t> key, ::ArrayWrapper<uint8_t> iv) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::TripleDESTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TripleDESTransform*, creationType>(algo, encryption, key, iv)));
     }
     // static System.Byte[] GetStrongKey()
-    // Offset: 0x1B4A4D8
-    static ::Array<uint8_t>* GetStrongKey();
+    // Offset: 0x1CCEBB0
+    static ::ArrayWrapper<uint8_t> GetStrongKey();
     // protected override System.Void ECB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1B4A590
+    // Offset: 0x1CCEC68
     // Implemented from: Mono.Security.Cryptography.SymmetricTransform
     // Base method: System.Void SymmetricTransform::ECB(System.Byte[] input, System.Byte[] output)
-    void ECB(::Array<uint8_t>* input, ::Array<uint8_t>* output);
+    void ECB(::ArrayWrapper<uint8_t> input, ::ArrayWrapper<uint8_t> output);
   }; // System.Security.Cryptography.TripleDESTransform
   #pragma pack(pop)
   static check_size<sizeof(TripleDESTransform), 128 + sizeof(System::Security::Cryptography::DESTransform*)> __System_Security_Cryptography_TripleDESTransformSizeCheck;
@@ -108,7 +108,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::TripleDESTransform*, "Sys
 // Writing MetadataGetter for method: System::Security::Cryptography::TripleDESTransform::GetStrongKey
 // Il2CppName: GetStrongKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)()>(&System::Security::Cryptography::TripleDESTransform::GetStrongKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)()>(&System::Security::Cryptography::TripleDESTransform::GetStrongKey)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::TripleDESTransform*), "GetStrongKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -116,10 +116,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: System::Security::Cryptography::TripleDESTransform::ECB
 // Il2CppName: ECB
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::TripleDESTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&System::Security::Cryptography::TripleDESTransform::ECB)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::TripleDESTransform::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::TripleDESTransform::ECB)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::TripleDESTransform*), "ECB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, output});
   }
 };

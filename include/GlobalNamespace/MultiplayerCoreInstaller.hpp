@@ -33,7 +33,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerCoreInstaller : public Zenject::MonoInstaller {
     public:
-    // [SpaceAttribute] Offset: 0xE4377C
+    // [SpaceAttribute] Offset: 0xF0C120
     // private ScoreSyncStateManager _scoreSyncStateManagerPrefab
     // Size: 0x8
     // Offset: 0x20
@@ -46,14 +46,14 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerBadgesModelSO* multiplayerBadgesModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerBadgesModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE437C4
+    // [InjectAttribute] Offset: 0xF0C168
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE437D4
+    // [InjectAttribute] Offset: 0xF0C178
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x38
@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
     GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // public System.Void .ctor()
-    // Offset: 0x11D2700
+    // Offset: 0x12189E8
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -86,7 +86,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerCoreInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x11D21BC
+    // Offset: 0x12184A4
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

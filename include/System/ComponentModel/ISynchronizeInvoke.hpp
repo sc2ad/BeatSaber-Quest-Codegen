@@ -16,8 +16,6 @@ namespace System {
 // Completed forward declares
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
-template<class T>
-struct Array;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
@@ -34,7 +32,7 @@ namespace System::ComponentModel {
     bool get_InvokeRequired();
     // public System.IAsyncResult BeginInvoke(System.Delegate method, System.Object[] args)
     // Offset: 0xFFFFFFFF
-    System::IAsyncResult* BeginInvoke(System::Delegate* method, ::Array<::Il2CppObject*>* args);
+    System::IAsyncResult* BeginInvoke(System::Delegate* method, ::ArrayWrapper<::Il2CppObject*> args);
   }; // System.ComponentModel.ISynchronizeInvoke
   #pragma pack(pop)
 }
@@ -52,10 +50,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::ComponentModel::ISynchronizeInvoke::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::ComponentModel::ISynchronizeInvoke::*)(System::Delegate*, ::Array<::Il2CppObject*>*)>(&System::ComponentModel::ISynchronizeInvoke::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::ComponentModel::ISynchronizeInvoke::*)(System::Delegate*, ::ArrayWrapper<::Il2CppObject*>)>(&System::ComponentModel::ISynchronizeInvoke::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System", "Delegate")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ISynchronizeInvoke*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method, args});
   }
 };

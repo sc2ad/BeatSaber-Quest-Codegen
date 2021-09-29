@@ -32,28 +32,28 @@ namespace GlobalNamespace {
     // private System.String[] myFolders
     // Size: 0x8
     // Offset: 0x18
-    ::Array<::Il2CppString*>* myFolders;
+    ::ArrayWrapper<::Il2CppString*> myFolders;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // private FileBrowserItem[] _bookmarksFolders
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::FileBrowserItem*>* bookmarksFolders;
+    ::ArrayWrapper<GlobalNamespace::FileBrowserItem*> bookmarksFolders;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::FileBrowserItem*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::FileBrowserItem*>) == 0x8);
     // Creating value type constructor for type: BookmarksFoldersModel
-    BookmarksFoldersModel(::Array<::Il2CppString*>* myFolders_ = {}, ::Array<GlobalNamespace::FileBrowserItem*>* bookmarksFolders_ = {}) noexcept : myFolders{myFolders_}, bookmarksFolders{bookmarksFolders_} {}
+    BookmarksFoldersModel(::ArrayWrapper<::Il2CppString*> myFolders_ = {}, ::ArrayWrapper<GlobalNamespace::FileBrowserItem*> bookmarksFolders_ = {}) noexcept : myFolders{myFolders_}, bookmarksFolders{bookmarksFolders_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String[] myFolders
-    ::Array<::Il2CppString*>*& dyn_myFolders();
+    ::ArrayWrapper<::Il2CppString*>& dyn_myFolders();
     // Get instance field reference: private FileBrowserItem[] _bookmarksFolders
-    ::Array<GlobalNamespace::FileBrowserItem*>*& dyn__bookmarksFolders();
+    ::ArrayWrapper<GlobalNamespace::FileBrowserItem*>& dyn__bookmarksFolders();
     // public FileBrowserItem[] get_bookmarksFolders()
-    // Offset: 0x10DA58C
-    ::Array<GlobalNamespace::FileBrowserItem*>* get_bookmarksFolders();
+    // Offset: 0x1192FA0
+    ::ArrayWrapper<GlobalNamespace::FileBrowserItem*> get_bookmarksFolders();
     // public System.Void .ctor()
-    // Offset: 0x10DA964
+    // Offset: 0x1193378
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     }
   }; // BookmarksFoldersModel
   #pragma pack(pop)
-  static check_size<sizeof(BookmarksFoldersModel), 32 + sizeof(::Array<GlobalNamespace::FileBrowserItem*>*)> __GlobalNamespace_BookmarksFoldersModelSizeCheck;
+  static check_size<sizeof(BookmarksFoldersModel), 32 + sizeof(::ArrayWrapper<GlobalNamespace::FileBrowserItem*>)> __GlobalNamespace_BookmarksFoldersModelSizeCheck;
   static_assert(sizeof(BookmarksFoldersModel) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BookmarksFoldersModel*, "", "BookmarksFoldersModel");
@@ -74,7 +74,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BookmarksFoldersModel*, "", "BookmarksFo
 // Writing MetadataGetter for method: GlobalNamespace::BookmarksFoldersModel::get_bookmarksFolders
 // Il2CppName: get_bookmarksFolders
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::FileBrowserItem*>* (GlobalNamespace::BookmarksFoldersModel::*)()>(&GlobalNamespace::BookmarksFoldersModel::get_bookmarksFolders)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::FileBrowserItem*> (GlobalNamespace::BookmarksFoldersModel::*)()>(&GlobalNamespace::BookmarksFoldersModel::get_bookmarksFolders)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BookmarksFoldersModel*), "get_bookmarksFolders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

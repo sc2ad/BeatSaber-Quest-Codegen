@@ -31,69 +31,69 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKSolverVR::Leg : public RootMotion::FinalIK::IKSolverVR::BodyPart {
     public:
-    // [TooltipAttribute] Offset: 0xE2EF18
+    // [TooltipAttribute] Offset: 0xEF56F0
     // public UnityEngine.Transform target
     // Size: 0x8
     // Offset: 0x48
     UnityEngine::Transform* target;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE2EF50
+    // [TooltipAttribute] Offset: 0xEF5728
     // public UnityEngine.Transform bendGoal
     // Size: 0x8
     // Offset: 0x50
     UnityEngine::Transform* bendGoal;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE2EF88
-    // [RangeAttribute] Offset: 0xE2EF88
+    // [TooltipAttribute] Offset: 0xEF5760
+    // [RangeAttribute] Offset: 0xEF5760
     // public System.Single positionWeight
     // Size: 0x4
     // Offset: 0x58
     float positionWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2EFDC
-    // [RangeAttribute] Offset: 0xE2EFDC
+    // [TooltipAttribute] Offset: 0xEF57B4
+    // [RangeAttribute] Offset: 0xEF57B4
     // public System.Single rotationWeight
     // Size: 0x4
     // Offset: 0x5C
     float rotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2F030
-    // [RangeAttribute] Offset: 0xE2F030
+    // [TooltipAttribute] Offset: 0xEF5808
+    // [RangeAttribute] Offset: 0xEF5808
     // public System.Single bendGoalWeight
     // Size: 0x4
     // Offset: 0x60
     float bendGoalWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2F084
-    // [RangeAttribute] Offset: 0xE2F084
+    // [TooltipAttribute] Offset: 0xEF585C
+    // [RangeAttribute] Offset: 0xEF585C
     // public System.Single swivelOffset
     // Size: 0x4
     // Offset: 0x64
     float swivelOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2F0E0
-    // [RangeAttribute] Offset: 0xE2F0E0
+    // [TooltipAttribute] Offset: 0xEF58B8
+    // [RangeAttribute] Offset: 0xEF58B8
     // public System.Single bendToTargetWeight
     // Size: 0x4
     // Offset: 0x68
     float bendToTargetWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2F134
-    // [RangeAttribute] Offset: 0xE2F134
+    // [TooltipAttribute] Offset: 0xEF590C
+    // [RangeAttribute] Offset: 0xEF590C
     // public System.Single legLengthMlp
     // Size: 0x4
     // Offset: 0x6C
     float legLengthMlp;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2F18C
+    // [TooltipAttribute] Offset: 0xEF5964
     // public UnityEngine.AnimationCurve stretchCurve
     // Size: 0x8
     // Offset: 0x70
@@ -269,61 +269,61 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Vector3 bendNormalRelToTarget
     UnityEngine::Vector3& dyn_bendNormalRelToTarget();
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x1E82A90
+    // Offset: 0x1FDD51C
     UnityEngine::Vector3 get_position();
     // private System.Void set_position(UnityEngine.Vector3 value)
-    // Offset: 0x1E82A9C
+    // Offset: 0x1FDD528
     void set_position(UnityEngine::Vector3 value);
     // public UnityEngine.Quaternion get_rotation()
-    // Offset: 0x1E82AA8
+    // Offset: 0x1FDD534
     UnityEngine::Quaternion get_rotation();
     // private System.Void set_rotation(UnityEngine.Quaternion value)
-    // Offset: 0x1E82AB4
+    // Offset: 0x1FDD540
     void set_rotation(UnityEngine::Quaternion value);
     // public System.Boolean get_hasToes()
-    // Offset: 0x1E82AC0
+    // Offset: 0x1FDD54C
     bool get_hasToes();
     // private System.Void set_hasToes(System.Boolean value)
-    // Offset: 0x1E82AC8
+    // Offset: 0x1FDD554
     void set_hasToes(bool value);
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone get_thigh()
-    // Offset: 0x1E82AD4
+    // Offset: 0x1FDD560
     RootMotion::FinalIK::IKSolverVR::VirtualBone* get_thigh();
     // private RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone get_calf()
-    // Offset: 0x1E82B08
+    // Offset: 0x1FDD594
     RootMotion::FinalIK::IKSolverVR::VirtualBone* get_calf();
     // private RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone get_foot()
-    // Offset: 0x1E82B40
+    // Offset: 0x1FDD5CC
     RootMotion::FinalIK::IKSolverVR::VirtualBone* get_foot();
     // private RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone get_toes()
-    // Offset: 0x1E82B78
+    // Offset: 0x1FDD604
     RootMotion::FinalIK::IKSolverVR::VirtualBone* get_toes();
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone get_lastBone()
-    // Offset: 0x1E82BB0
+    // Offset: 0x1FDD63C
     RootMotion::FinalIK::IKSolverVR::VirtualBone* get_lastBone();
     // public UnityEngine.Vector3 get_thighRelativeToPelvis()
-    // Offset: 0x1E82BF0
+    // Offset: 0x1FDD67C
     UnityEngine::Vector3 get_thighRelativeToPelvis();
     // private System.Void set_thighRelativeToPelvis(UnityEngine.Vector3 value)
-    // Offset: 0x1E82BFC
+    // Offset: 0x1FDD688
     void set_thighRelativeToPelvis(UnityEngine::Vector3 value);
     // private System.Void ApplyPositionOffset(UnityEngine.Vector3 offset, System.Single weight)
-    // Offset: 0x1E83A08
+    // Offset: 0x1FDE494
     void ApplyPositionOffset(UnityEngine::Vector3 offset, float weight);
     // private System.Void ApplyRotationOffset(UnityEngine.Quaternion offset, System.Single weight)
-    // Offset: 0x1E837D0
+    // Offset: 0x1FDE25C
     void ApplyRotationOffset(UnityEngine::Quaternion offset, float weight);
     // public System.Void Solve(System.Boolean stretch)
-    // Offset: 0x1E840C4
+    // Offset: 0x1FDEB50
     void Solve(bool stretch);
     // private System.Void FixTwistRotations()
-    // Offset: 0x1E84810
+    // Offset: 0x1FDF29C
     void FixTwistRotations();
     // private System.Void Stretching()
-    // Offset: 0x1E842E4
+    // Offset: 0x1FDED70
     void Stretching();
     // public System.Void .ctor()
-    // Offset: 0x1E84F44
+    // Offset: 0x1FDF9D0
     // Implemented from: RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.BodyPart
     // Base method: System.Void BodyPart::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -333,27 +333,27 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverVR::Leg*, creationType>()));
     }
     // protected override System.Void OnRead(UnityEngine.Vector3[] positions, UnityEngine.Quaternion[] rotations, System.Boolean hasChest, System.Boolean hasNeck, System.Boolean hasShoulders, System.Boolean hasToes, System.Boolean hasLegs, System.Int32 rootIndex, System.Int32 index)
-    // Offset: 0x1E82C08
+    // Offset: 0x1FDD694
     // Implemented from: RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.BodyPart
     // Base method: System.Void BodyPart::OnRead(UnityEngine.Vector3[] positions, UnityEngine.Quaternion[] rotations, System.Boolean hasChest, System.Boolean hasNeck, System.Boolean hasShoulders, System.Boolean hasToes, System.Boolean hasLegs, System.Int32 rootIndex, System.Int32 index)
-    void OnRead(::Array<UnityEngine::Vector3>* positions, ::Array<UnityEngine::Quaternion>* rotations, bool hasChest, bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int rootIndex, int index);
+    void OnRead(::ArrayWrapper<UnityEngine::Vector3> positions, ::ArrayWrapper<UnityEngine::Quaternion> rotations, bool hasChest, bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int rootIndex, int index);
     // public override System.Void PreSolve()
-    // Offset: 0x1E83224
+    // Offset: 0x1FDDCB0
     // Implemented from: RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.BodyPart
     // Base method: System.Void BodyPart::PreSolve()
     void PreSolve();
     // public override System.Void ApplyOffsets()
-    // Offset: 0x1E83B0C
+    // Offset: 0x1FDE598
     // Implemented from: RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.BodyPart
     // Base method: System.Void BodyPart::ApplyOffsets()
     void ApplyOffsets();
     // public override System.Void Write(ref UnityEngine.Vector3[] solvedPositions, ref UnityEngine.Quaternion[] solvedRotations)
-    // Offset: 0x1E84C78
+    // Offset: 0x1FDF704
     // Implemented from: RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.BodyPart
     // Base method: System.Void BodyPart::Write(ref UnityEngine.Vector3[] solvedPositions, ref UnityEngine.Quaternion[] solvedRotations)
-    void Write(ByRef<::Array<UnityEngine::Vector3>*> solvedPositions, ByRef<::Array<UnityEngine::Quaternion>*> solvedRotations);
+    void Write(ByRef<::ArrayWrapper<UnityEngine::Vector3>> solvedPositions, ByRef<::ArrayWrapper<UnityEngine::Quaternion>> solvedRotations);
     // public override System.Void ResetOffsets()
-    // Offset: 0x1E84E94
+    // Offset: 0x1FDF920
     // Implemented from: RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.BodyPart
     // Base method: System.Void BodyPart::ResetOffsets()
     void ResetOffsets();
@@ -524,10 +524,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Leg::OnRead
 // Il2CppName: OnRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Leg::*)(::Array<UnityEngine::Vector3>*, ::Array<UnityEngine::Quaternion>*, bool, bool, bool, bool, bool, int, int)>(&RootMotion::FinalIK::IKSolverVR::Leg::OnRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Leg::*)(::ArrayWrapper<UnityEngine::Vector3>, ::ArrayWrapper<UnityEngine::Quaternion>, bool, bool, bool, bool, bool, int, int)>(&RootMotion::FinalIK::IKSolverVR::Leg::OnRead)> {
   static const MethodInfo* get() {
-    static auto* positions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
-    static auto* rotations = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion"), 1)->byval_arg;
+    static auto* positions = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->byval_arg;
+    static auto* rotations = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")), 1)->byval_arg;
     static auto* hasChest = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* hasNeck = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* hasShoulders = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -557,10 +557,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Leg::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Leg::*)(ByRef<::Array<UnityEngine::Vector3>*>, ByRef<::Array<UnityEngine::Quaternion>*>)>(&RootMotion::FinalIK::IKSolverVR::Leg::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Leg::*)(ByRef<::ArrayWrapper<UnityEngine::Vector3>>, ByRef<::ArrayWrapper<UnityEngine::Quaternion>>)>(&RootMotion::FinalIK::IKSolverVR::Leg::Write)> {
   static const MethodInfo* get() {
-    static auto* solvedPositions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->this_arg;
-    static auto* solvedRotations = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion"), 1)->this_arg;
+    static auto* solvedPositions = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->this_arg;
+    static auto* solvedRotations = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Leg*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solvedPositions, solvedRotations});
   }
 };

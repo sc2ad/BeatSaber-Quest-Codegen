@@ -41,29 +41,29 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // public System.Int32[] offset
     // Size: 0x8
     // Offset: 0x18
-    ::Array<int>* offset;
+    ::ArrayWrapper<int> offset;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass0_0
-    $$c__DisplayClass0_0(System::Collections::Generic::List_1<int>* sorted_ = {}, ::Array<int>* offset_ = {}) noexcept : sorted{sorted_}, offset{offset_} {}
+    $$c__DisplayClass0_0(System::Collections::Generic::List_1<int>* sorted_ = {}, ::ArrayWrapper<int> offset_ = {}) noexcept : sorted{sorted_}, offset{offset_} {}
     // Get instance field reference: public System.Collections.Generic.List`1<System.Int32> sorted
     System::Collections::Generic::List_1<int>*& dyn_sorted();
     // Get instance field reference: public System.Int32[] offset
-    ::Array<int>*& dyn_offset();
+    ::ArrayWrapper<int>& dyn_offset();
     // System.Boolean <DeleteVertices>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> x)
-    // Offset: 0x155D4A8
+    // Offset: 0x1716768
     bool $DeleteVertices$b__0(System::Collections::Generic::KeyValuePair_2<int, int> x);
     // System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> <DeleteVertices>b__1(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> y)
-    // Offset: 0x155D518
+    // Offset: 0x17167D8
     System::Collections::Generic::KeyValuePair_2<int, int> $DeleteVertices$b__1(System::Collections::Generic::KeyValuePair_2<int, int> y);
     // System.Boolean <DeleteVertices>b__2(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> x)
-    // Offset: 0x155D5B8
+    // Offset: 0x1716878
     bool $DeleteVertices$b__2(System::Collections::Generic::KeyValuePair_2<int, int> x);
     // System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> <DeleteVertices>b__3(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> y)
-    // Offset: 0x155D628
+    // Offset: 0x17168E8
     System::Collections::Generic::KeyValuePair_2<int, int> $DeleteVertices$b__3(System::Collections::Generic::KeyValuePair_2<int, int> y);
     // public System.Void .ctor()
-    // Offset: 0x155CCF4
+    // Offset: 0x1715FB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -73,7 +73,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     }
   }; // UnityEngine.ProBuilder.MeshOperations.DeleteElements/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass0_0
   #pragma pack(pop)
-  static check_size<sizeof(DeleteElements::$$c__DisplayClass0_0), 24 + sizeof(::Array<int>*)> __UnityEngine_ProBuilder_MeshOperations_DeleteElements_$$c__DisplayClass0_0SizeCheck;
+  static check_size<sizeof(DeleteElements::$$c__DisplayClass0_0), 24 + sizeof(::ArrayWrapper<int>)> __UnityEngine_ProBuilder_MeshOperations_DeleteElements_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(DeleteElements::$$c__DisplayClass0_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0*, "UnityEngine.ProBuilder.MeshOperations", "DeleteElements/<>c__DisplayClass0_0");

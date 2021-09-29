@@ -42,11 +42,11 @@ namespace GlobalNamespace {
     // private readonly System.UInt64[] _data
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint64_t>* data;
+    ::ArrayWrapper<uint64_t> data;
     // Field size check
-    static_assert(sizeof(::Array<uint64_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint64_t>) == 0x8);
     // Creating value type constructor for type: BitMaskArray
-    BitMaskArray(int bitCount_ = {}, ::Array<uint64_t>* data_ = {}) noexcept : bitCount{bitCount_}, data{data_} {}
+    BitMaskArray(int bitCount_ = {}, ::ArrayWrapper<uint64_t> data_ = {}) noexcept : bitCount{bitCount_}, data{data_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
@@ -58,40 +58,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Int32 <bitCount>k__BackingField
     int& dyn_$bitCount$k__BackingField();
     // Get instance field reference: private readonly System.UInt64[] _data
-    ::Array<uint64_t>*& dyn__data();
+    ::ArrayWrapper<uint64_t>& dyn__data();
     // public System.Int32 get_bitCount()
-    // Offset: 0x2372D10
+    // Offset: 0x256E570
     int get_bitCount();
     // public System.Void .ctor(System.Int32 bitCount)
-    // Offset: 0x2372D18
+    // Offset: 0x256E578
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitMaskArray* New_ctor(int bitCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BitMaskArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitMaskArray*, creationType>(bitCount)));
     }
     // public System.Boolean Equals(BitMaskArray other)
-    // Offset: 0x2372D9C
+    // Offset: 0x256E5FC
     bool Equals(GlobalNamespace::BitMaskArray* other);
     // public BitMaskArray SetBits(System.Int32 offset, System.UInt64 bits)
-    // Offset: 0x2372E14
+    // Offset: 0x256E674
     GlobalNamespace::BitMaskArray* SetBits(int offset, uint64_t bits);
     // public System.UInt64 GetBits(System.Int32 offset, System.Int32 count)
-    // Offset: 0x2372F40
+    // Offset: 0x256E7A0
     uint64_t GetBits(int offset, int count);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2373178
+    // Offset: 0x256E9D8
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x23732F0
+    // Offset: 0x256EB50
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.String ToString()
-    // Offset: 0x2373068
+    // Offset: 0x256E8C8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // BitMaskArray
   #pragma pack(pop)
-  static check_size<sizeof(BitMaskArray), 24 + sizeof(::Array<uint64_t>*)> __GlobalNamespace_BitMaskArraySizeCheck;
+  static check_size<sizeof(BitMaskArray), 24 + sizeof(::ArrayWrapper<uint64_t>)> __GlobalNamespace_BitMaskArraySizeCheck;
   static_assert(sizeof(BitMaskArray) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMaskArray*, "", "BitMaskArray");

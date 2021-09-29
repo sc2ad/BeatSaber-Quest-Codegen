@@ -30,23 +30,23 @@ namespace System::Security::Cryptography {
     // private System.Byte[] keySchedule
     // Size: 0x8
     // Offset: 0x58
-    ::Array<uint8_t>* keySchedule;
+    ::ArrayWrapper<uint8_t> keySchedule;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Byte[] byteBuff
     // Size: 0x8
     // Offset: 0x60
-    ::Array<uint8_t>* byteBuff;
+    ::ArrayWrapper<uint8_t> byteBuff;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.UInt32[] dwordBuff
     // Size: 0x8
     // Offset: 0x68
-    ::Array<uint>* dwordBuff;
+    ::ArrayWrapper<uint> dwordBuff;
     // Field size check
-    static_assert(sizeof(::Array<uint>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
     // Creating value type constructor for type: DESTransform
-    DESTransform(::Array<uint8_t>* keySchedule_ = {}, ::Array<uint8_t>* byteBuff_ = {}, ::Array<uint>* dwordBuff_ = {}) noexcept : keySchedule{keySchedule_}, byteBuff{byteBuff_}, dwordBuff{dwordBuff_} {}
+    DESTransform(::ArrayWrapper<uint8_t> keySchedule_ = {}, ::ArrayWrapper<uint8_t> byteBuff_ = {}, ::ArrayWrapper<uint> dwordBuff_ = {}) noexcept : keySchedule{keySchedule_}, byteBuff{byteBuff_}, dwordBuff{dwordBuff_} {}
     // Get static field: static readonly System.Int32 KEY_BIT_SIZE
     static int _get_KEY_BIT_SIZE();
     // Set static field: static readonly System.Int32 KEY_BIT_SIZE
@@ -64,71 +64,71 @@ namespace System::Security::Cryptography {
     // Set static field: static readonly System.Int32 BLOCK_BYTE_SIZE
     static void _set_BLOCK_BYTE_SIZE(int value);
     // Get static field: static private readonly System.UInt32[] spBoxes
-    static ::Array<uint>* _get_spBoxes();
+    static ::ArrayWrapper<uint> _get_spBoxes();
     // Set static field: static private readonly System.UInt32[] spBoxes
-    static void _set_spBoxes(::Array<uint>* value);
+    static void _set_spBoxes(::ArrayWrapper<uint> value);
     // Get static field: static private readonly System.Byte[] PC1
-    static ::Array<uint8_t>* _get_PC1();
+    static ::ArrayWrapper<uint8_t> _get_PC1();
     // Set static field: static private readonly System.Byte[] PC1
-    static void _set_PC1(::Array<uint8_t>* value);
+    static void _set_PC1(::ArrayWrapper<uint8_t> value);
     // Get static field: static private readonly System.Byte[] leftRotTotal
-    static ::Array<uint8_t>* _get_leftRotTotal();
+    static ::ArrayWrapper<uint8_t> _get_leftRotTotal();
     // Set static field: static private readonly System.Byte[] leftRotTotal
-    static void _set_leftRotTotal(::Array<uint8_t>* value);
+    static void _set_leftRotTotal(::ArrayWrapper<uint8_t> value);
     // Get static field: static private readonly System.Byte[] PC2
-    static ::Array<uint8_t>* _get_PC2();
+    static ::ArrayWrapper<uint8_t> _get_PC2();
     // Set static field: static private readonly System.Byte[] PC2
-    static void _set_PC2(::Array<uint8_t>* value);
+    static void _set_PC2(::ArrayWrapper<uint8_t> value);
     // Get static field: static readonly System.UInt32[] ipTab
-    static ::Array<uint>* _get_ipTab();
+    static ::ArrayWrapper<uint> _get_ipTab();
     // Set static field: static readonly System.UInt32[] ipTab
-    static void _set_ipTab(::Array<uint>* value);
+    static void _set_ipTab(::ArrayWrapper<uint> value);
     // Get static field: static readonly System.UInt32[] fpTab
-    static ::Array<uint>* _get_fpTab();
+    static ::ArrayWrapper<uint> _get_fpTab();
     // Set static field: static readonly System.UInt32[] fpTab
-    static void _set_fpTab(::Array<uint>* value);
+    static void _set_fpTab(::ArrayWrapper<uint> value);
     // Get instance field reference: private System.Byte[] keySchedule
-    ::Array<uint8_t>*& dyn_keySchedule();
+    ::ArrayWrapper<uint8_t>& dyn_keySchedule();
     // Get instance field reference: private System.Byte[] byteBuff
-    ::Array<uint8_t>*& dyn_byteBuff();
+    ::ArrayWrapper<uint8_t>& dyn_byteBuff();
     // Get instance field reference: private System.UInt32[] dwordBuff
-    ::Array<uint>*& dyn_dwordBuff();
+    ::ArrayWrapper<uint>& dyn_dwordBuff();
     // System.Void .ctor(System.Security.Cryptography.SymmetricAlgorithm symmAlgo, System.Boolean encryption, System.Byte[] key, System.Byte[] iv)
-    // Offset: 0x1991DB8
+    // Offset: 0x1A73444
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DESTransform* New_ctor(System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption, ::Array<uint8_t>* key, ::Array<uint8_t>* iv) {
+    static DESTransform* New_ctor(System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption, ::ArrayWrapper<uint8_t> key, ::ArrayWrapper<uint8_t> iv) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::DESTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DESTransform*, creationType>(symmAlgo, encryption, key, iv)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x19931F8
+    // Offset: 0x1A74884
     static void _cctor();
     // private System.UInt32 CipherFunct(System.UInt32 r, System.Int32 n)
-    // Offset: 0x1992770
+    // Offset: 0x1A73DFC
     uint CipherFunct(uint r, int n);
     // static System.Void Permutation(System.Byte[] input, System.Byte[] output, System.UInt32[] permTab, System.Boolean preSwap)
-    // Offset: 0x19929B8
-    static void Permutation(::Array<uint8_t>* input, ::Array<uint8_t>* output, ::Array<uint>* permTab, bool preSwap);
+    // Offset: 0x1A74044
+    static void Permutation(::ArrayWrapper<uint8_t> input, ::ArrayWrapper<uint8_t> output, ::ArrayWrapper<uint> permTab, bool preSwap);
     // static private System.Void BSwap(System.Byte[] byteBuff)
-    // Offset: 0x1992D08
-    static void BSwap(::Array<uint8_t>* byteBuff);
+    // Offset: 0x1A74394
+    static void BSwap(::ArrayWrapper<uint8_t> byteBuff);
     // System.Void SetKey(System.Byte[] key)
-    // Offset: 0x1992370
-    void SetKey(::Array<uint8_t>* key);
+    // Offset: 0x1A739FC
+    void SetKey(::ArrayWrapper<uint8_t> key);
     // public System.Void ProcessBlock(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1992D8C
-    void ProcessBlock(::Array<uint8_t>* input, ::Array<uint8_t>* output);
+    // Offset: 0x1A74418
+    void ProcessBlock(::ArrayWrapper<uint8_t> input, ::ArrayWrapper<uint8_t> output);
     // static System.Byte[] GetStrongKey()
-    // Offset: 0x199227C
-    static ::Array<uint8_t>* GetStrongKey();
+    // Offset: 0x1A73908
+    static ::ArrayWrapper<uint8_t> GetStrongKey();
     // protected override System.Void ECB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1993144
+    // Offset: 0x1A747D0
     // Implemented from: Mono.Security.Cryptography.SymmetricTransform
     // Base method: System.Void SymmetricTransform::ECB(System.Byte[] input, System.Byte[] output)
-    void ECB(::Array<uint8_t>* input, ::Array<uint8_t>* output);
+    void ECB(::ArrayWrapper<uint8_t> input, ::ArrayWrapper<uint8_t> output);
   }; // System.Security.Cryptography.DESTransform
   #pragma pack(pop)
-  static check_size<sizeof(DESTransform), 104 + sizeof(::Array<uint>*)> __System_Security_Cryptography_DESTransformSizeCheck;
+  static check_size<sizeof(DESTransform), 104 + sizeof(::ArrayWrapper<uint>)> __System_Security_Cryptography_DESTransformSizeCheck;
   static_assert(sizeof(DESTransform) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DESTransform*, "System.Security.Cryptography", "DESTransform");
@@ -158,11 +158,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::DESTransform::Permutation
 // Il2CppName: Permutation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint>*, bool)>(&System::Security::Cryptography::DESTransform::Permutation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint>, bool)>(&System::Security::Cryptography::DESTransform::Permutation)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* permTab = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* permTab = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     static auto* preSwap = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::DESTransform*), "Permutation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, output, permTab, preSwap});
   }
@@ -170,35 +170,35 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Security::Cryptography::DESTransform::BSwap
 // Il2CppName: BSwap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*)>(&System::Security::Cryptography::DESTransform::BSwap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::DESTransform::BSwap)> {
   static const MethodInfo* get() {
-    static auto* byteBuff = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* byteBuff = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::DESTransform*), "BSwap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{byteBuff});
   }
 };
 // Writing MetadataGetter for method: System::Security::Cryptography::DESTransform::SetKey
 // Il2CppName: SetKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::DESTransform::*)(::Array<uint8_t>*)>(&System::Security::Cryptography::DESTransform::SetKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::DESTransform::*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::DESTransform::SetKey)> {
   static const MethodInfo* get() {
-    static auto* key = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* key = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::DESTransform*), "SetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
   }
 };
 // Writing MetadataGetter for method: System::Security::Cryptography::DESTransform::ProcessBlock
 // Il2CppName: ProcessBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::DESTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&System::Security::Cryptography::DESTransform::ProcessBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::DESTransform::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::DESTransform::ProcessBlock)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::DESTransform*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, output});
   }
 };
 // Writing MetadataGetter for method: System::Security::Cryptography::DESTransform::GetStrongKey
 // Il2CppName: GetStrongKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)()>(&System::Security::Cryptography::DESTransform::GetStrongKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)()>(&System::Security::Cryptography::DESTransform::GetStrongKey)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::DESTransform*), "GetStrongKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -206,10 +206,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: System::Security::Cryptography::DESTransform::ECB
 // Il2CppName: ECB
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::DESTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&System::Security::Cryptography::DESTransform::ECB)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::DESTransform::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::DESTransform::ECB)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::DESTransform*), "ECB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, output});
   }
 };

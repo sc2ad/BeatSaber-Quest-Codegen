@@ -84,9 +84,9 @@ namespace GlobalNamespace {
     // private System.Single[] _values
     // Size: 0x8
     // Offset: 0x30
-    ::Array<float>* values;
+    ::ArrayWrapper<float> values;
     // Field size check
-    static_assert(sizeof(::Array<float>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
     // private System.String _formattingString
     // Size: 0x8
     // Offset: 0x38
@@ -112,11 +112,11 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: FormattedFloatListSettingsValueController
-    FormattedFloatListSettingsValueController(GlobalNamespace::FloatSO* settingsValue_ = {}, ::Array<float>* values_ = {}, ::Il2CppString* formattingString_ = {}, GlobalNamespace::FormattedFloatListSettingsValueController::ValueType valueType_ = {}, float min_ = {}, float max_ = {}) noexcept : settingsValue{settingsValue_}, values{values_}, formattingString{formattingString_}, valueType{valueType_}, min{min_}, max{max_} {}
+    FormattedFloatListSettingsValueController(GlobalNamespace::FloatSO* settingsValue_ = {}, ::ArrayWrapper<float> values_ = {}, ::Il2CppString* formattingString_ = {}, GlobalNamespace::FormattedFloatListSettingsValueController::ValueType valueType_ = {}, float min_ = {}, float max_ = {}) noexcept : settingsValue{settingsValue_}, values{values_}, formattingString{formattingString_}, valueType{valueType_}, min{min_}, max{max_} {}
     // Get instance field reference: private FloatSO _settingsValue
     GlobalNamespace::FloatSO*& dyn__settingsValue();
     // Get instance field reference: private System.Single[] _values
-    ::Array<float>*& dyn__values();
+    ::ArrayWrapper<float>& dyn__values();
     // Get instance field reference: private System.String _formattingString
     ::Il2CppString*& dyn__formattingString();
     // Get instance field reference: private FormattedFloatListSettingsValueController/ValueType valueType
@@ -126,7 +126,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _max
     float& dyn__max();
     // public System.Void .ctor()
-    // Offset: 0x1062AC4
+    // Offset: 0x11D2BB0
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -141,17 +141,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FormattedFloatListSettingsValueController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x1062824
+    // Offset: 0x11D2910
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x106294C
+    // Offset: 0x11D2A38
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x10629D8
+    // Offset: 0x11D2AC4
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::Il2CppString* TextForValue(int idx);

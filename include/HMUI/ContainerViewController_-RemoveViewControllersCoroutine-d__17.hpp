@@ -67,9 +67,9 @@ namespace HMUI {
     // public HMUI.ViewController[] viewControllersToRemove
     // Size: 0x8
     // Offset: 0x28
-    ::Array<HMUI::ViewController*>* viewControllersToRemove;
+    ::ArrayWrapper<HMUI::ViewController*> viewControllersToRemove;
     // Field size check
-    static_assert(sizeof(::Array<HMUI::ViewController*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<HMUI::ViewController*>) == 0x8);
     // public System.Boolean immediately
     // Size: 0x1
     // Offset: 0x30
@@ -81,9 +81,9 @@ namespace HMUI {
     // public System.Action`3<System.Single,HMUI.ViewController[],System.Collections.Generic.HashSet`1<HMUI.ViewController>> animationLayouter
     // Size: 0x8
     // Offset: 0x38
-    System::Action_3<float, ::Array<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>* animationLayouter;
+    System::Action_3<float, ::ArrayWrapper<HMUI::ViewController*>, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>* animationLayouter;
     // Field size check
-    static_assert(sizeof(System::Action_3<float, ::Array<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>*) == 0x8);
+    static_assert(sizeof(System::Action_3<float, ::ArrayWrapper<HMUI::ViewController*>, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>*) == 0x8);
     // public System.Action finishedCallback
     // Size: 0x8
     // Offset: 0x40
@@ -93,9 +93,9 @@ namespace HMUI {
     // private HMUI.ViewController[] <viewControllers>5__2
     // Size: 0x8
     // Offset: 0x48
-    ::Array<HMUI::ViewController*>* $viewControllers$5__2;
+    ::ArrayWrapper<HMUI::ViewController*> $viewControllers$5__2;
     // Field size check
-    static_assert(sizeof(::Array<HMUI::ViewController*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<HMUI::ViewController*>) == 0x8);
     // private System.Collections.Generic.HashSet`1<HMUI.ViewController> <viewControllersToRemoveSet>5__3
     // Size: 0x8
     // Offset: 0x50
@@ -115,7 +115,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: $RemoveViewControllersCoroutine$d__17
-    $RemoveViewControllersCoroutine$d__17(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, HMUI::ContainerViewController* $$4__this_ = {}, ::Array<HMUI::ViewController*>* viewControllersToRemove_ = {}, bool immediately_ = {}, System::Action_3<float, ::Array<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>* animationLayouter_ = {}, System::Action* finishedCallback_ = {}, ::Array<HMUI::ViewController*>* $viewControllers$5__2_ = {}, System::Collections::Generic::HashSet_1<HMUI::ViewController*>* $viewControllersToRemoveSet$5__3_ = {}, float $transitionDuration$5__4_ = {}, float $elapsedTime$5__5_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, viewControllersToRemove{viewControllersToRemove_}, immediately{immediately_}, animationLayouter{animationLayouter_}, finishedCallback{finishedCallback_}, $viewControllers$5__2{$viewControllers$5__2_}, $viewControllersToRemoveSet$5__3{$viewControllersToRemoveSet$5__3_}, $transitionDuration$5__4{$transitionDuration$5__4_}, $elapsedTime$5__5{$elapsedTime$5__5_} {}
+    $RemoveViewControllersCoroutine$d__17(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, HMUI::ContainerViewController* $$4__this_ = {}, ::ArrayWrapper<HMUI::ViewController*> viewControllersToRemove_ = {}, bool immediately_ = {}, System::Action_3<float, ::ArrayWrapper<HMUI::ViewController*>, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>* animationLayouter_ = {}, System::Action* finishedCallback_ = {}, ::ArrayWrapper<HMUI::ViewController*> $viewControllers$5__2_ = {}, System::Collections::Generic::HashSet_1<HMUI::ViewController*>* $viewControllersToRemoveSet$5__3_ = {}, float $transitionDuration$5__4_ = {}, float $elapsedTime$5__5_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, viewControllersToRemove{viewControllersToRemove_}, immediately{immediately_}, animationLayouter{animationLayouter_}, finishedCallback{finishedCallback_}, $viewControllers$5__2{$viewControllers$5__2_}, $viewControllersToRemoveSet$5__3{$viewControllersToRemoveSet$5__3_}, $transitionDuration$5__4{$transitionDuration$5__4_}, $elapsedTime$5__5{$elapsedTime$5__5_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -127,15 +127,15 @@ namespace HMUI {
     // Get instance field reference: public HMUI.ContainerViewController <>4__this
     HMUI::ContainerViewController*& dyn_$$4__this();
     // Get instance field reference: public HMUI.ViewController[] viewControllersToRemove
-    ::Array<HMUI::ViewController*>*& dyn_viewControllersToRemove();
+    ::ArrayWrapper<HMUI::ViewController*>& dyn_viewControllersToRemove();
     // Get instance field reference: public System.Boolean immediately
     bool& dyn_immediately();
     // Get instance field reference: public System.Action`3<System.Single,HMUI.ViewController[],System.Collections.Generic.HashSet`1<HMUI.ViewController>> animationLayouter
-    System::Action_3<float, ::Array<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>*& dyn_animationLayouter();
+    System::Action_3<float, ::ArrayWrapper<HMUI::ViewController*>, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>*& dyn_animationLayouter();
     // Get instance field reference: public System.Action finishedCallback
     System::Action*& dyn_finishedCallback();
     // Get instance field reference: private HMUI.ViewController[] <viewControllers>5__2
-    ::Array<HMUI::ViewController*>*& dyn_$viewControllers$5__2();
+    ::ArrayWrapper<HMUI::ViewController*>& dyn_$viewControllers$5__2();
     // Get instance field reference: private System.Collections.Generic.HashSet`1<HMUI.ViewController> <viewControllersToRemoveSet>5__3
     System::Collections::Generic::HashSet_1<HMUI::ViewController*>*& dyn_$viewControllersToRemoveSet$5__3();
     // Get instance field reference: private System.Single <transitionDuration>5__4
@@ -143,26 +143,26 @@ namespace HMUI {
     // Get instance field reference: private System.Single <elapsedTime>5__5
     float& dyn_$elapsedTime$5__5();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x136F8A4
+    // Offset: 0x1484EE4
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x136F90C
+    // Offset: 0x1484F4C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x136F0B0
+    // Offset: 0x14846F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContainerViewController::$RemoveViewControllersCoroutine$d__17* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ContainerViewController::$RemoveViewControllersCoroutine$d__17::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContainerViewController::$RemoveViewControllersCoroutine$d__17*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x136F5B4
+    // Offset: 0x1484BF4
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x136F5B8
+    // Offset: 0x1484BF8
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x136F8AC
+    // Offset: 0x1484EEC
     void System_Collections_IEnumerator_Reset();
   }; // HMUI.ContainerViewController/HMUI.<RemoveViewControllersCoroutine>d__17
   #pragma pack(pop)

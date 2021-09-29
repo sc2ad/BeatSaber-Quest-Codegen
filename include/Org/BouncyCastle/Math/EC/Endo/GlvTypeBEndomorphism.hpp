@@ -62,21 +62,21 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.EC.ECPointMap m_pointMap
     Org::BouncyCastle::Math::EC::ECPointMap*& dyn_m_pointMap();
     // public Org.BouncyCastle.Math.EC.ECPointMap get_PointMap()
-    // Offset: 0x2143DAC
+    // Offset: 0x2318DB0
     Org::BouncyCastle::Math::EC::ECPointMap* get_PointMap();
     // public System.Boolean get_HasEfficientPointMap()
-    // Offset: 0x2143DB4
+    // Offset: 0x2318DB8
     bool get_HasEfficientPointMap();
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.Endo.GlvTypeBParameters parameters)
-    // Offset: 0x2143C5C
+    // Offset: 0x2318C60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GlvTypeBEndomorphism* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GlvTypeBEndomorphism*, creationType>(curve, parameters)));
     }
     // public Org.BouncyCastle.Math.BigInteger[] DecomposeScalar(Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0x2143D18
-    ::Array<Org::BouncyCastle::Math::BigInteger*>* DecomposeScalar(Org::BouncyCastle::Math::BigInteger* k);
+    // Offset: 0x2318D1C
+    ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> DecomposeScalar(Org::BouncyCastle::Math::BigInteger* k);
   }; // Org.BouncyCastle.Math.EC.Endo.GlvTypeBEndomorphism
   #pragma pack(pop)
   static check_size<sizeof(GlvTypeBEndomorphism), 24 + sizeof(Org::BouncyCastle::Math::EC::ECPointMap*)> __Org_BouncyCastle_Math_EC_Endo_GlvTypeBEndomorphismSizeCheck;
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::DecomposeScalar
 // Il2CppName: DecomposeScalar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::BigInteger*>* (Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::DecomposeScalar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> (Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::DecomposeScalar)> {
   static const MethodInfo* get() {
     static auto* k = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism*), "DecomposeScalar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{k});

@@ -47,7 +47,7 @@ namespace HMUI {
     ::Il2CppString* text;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1B57C
+    // [InjectAttribute] Offset: 0xEE1C58
     // private readonly HMUI.HoverHintController _hoverHintController
     // Size: 0x8
     // Offset: 0x20
@@ -57,11 +57,11 @@ namespace HMUI {
     // private readonly UnityEngine.Vector3[] _worldCornersTemp
     // Size: 0x8
     // Offset: 0x28
-    ::Array<UnityEngine::Vector3>* worldCornersTemp;
+    ::ArrayWrapper<UnityEngine::Vector3> worldCornersTemp;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
     // Creating value type constructor for type: HoverHint
-    HoverHint(::Il2CppString* text_ = {}, HMUI::HoverHintController* hoverHintController_ = {}, ::Array<UnityEngine::Vector3>* worldCornersTemp_ = {}) noexcept : text{text_}, hoverHintController{hoverHintController_}, worldCornersTemp{worldCornersTemp_} {}
+    HoverHint(::Il2CppString* text_ = {}, HMUI::HoverHintController* hoverHintController_ = {}, ::ArrayWrapper<UnityEngine::Vector3> worldCornersTemp_ = {}) noexcept : text{text_}, hoverHintController{hoverHintController_}, worldCornersTemp{worldCornersTemp_} {}
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerEnterHandler
     operator UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerEnterHandler*>(this);
@@ -77,30 +77,30 @@ namespace HMUI {
     // Get instance field reference: private readonly HMUI.HoverHintController _hoverHintController
     HMUI::HoverHintController*& dyn__hoverHintController();
     // Get instance field reference: private readonly UnityEngine.Vector3[] _worldCornersTemp
-    ::Array<UnityEngine::Vector3>*& dyn__worldCornersTemp();
+    ::ArrayWrapper<UnityEngine::Vector3>& dyn__worldCornersTemp();
     // public System.String get_text()
-    // Offset: 0x1378A1C
+    // Offset: 0x148E05C
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x1378A24
+    // Offset: 0x148E064
     void set_text(::Il2CppString* value);
     // public UnityEngine.Vector2 get_size()
-    // Offset: 0x1378A2C
+    // Offset: 0x148E06C
     UnityEngine::Vector2 get_size();
     // public UnityEngine.Vector3 get_worldCenter()
-    // Offset: 0x1378AC4
+    // Offset: 0x148E104
     UnityEngine::Vector3 get_worldCenter();
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1378C4C
+    // Offset: 0x148E28C
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1378D00
+    // Offset: 0x148E340
     void OnPointerExit(UnityEngine::EventSystems::PointerEventData* eventData);
     // protected System.Void OnDisable()
-    // Offset: 0x1378E68
+    // Offset: 0x148E4A8
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x1378EF8
+    // Offset: 0x148E538
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -114,7 +114,7 @@ namespace HMUI {
     }
   }; // HMUI.HoverHint
   #pragma pack(pop)
-  static check_size<sizeof(HoverHint), 40 + sizeof(::Array<UnityEngine::Vector3>*)> __HMUI_HoverHintSizeCheck;
+  static check_size<sizeof(HoverHint), 40 + sizeof(::ArrayWrapper<UnityEngine::Vector3>)> __HMUI_HoverHintSizeCheck;
   static_assert(sizeof(HoverHint) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHint*, "HMUI", "HoverHint");

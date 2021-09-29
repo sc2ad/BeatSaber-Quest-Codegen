@@ -59,16 +59,16 @@ namespace OnlineServices {
     // Get instance field reference: private System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> platformServicesAvailabilityInfoChangedEvent
     System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*& dyn_platformServicesAvailabilityInfoChangedEvent();
     // public System.Void add_platformServicesAvailabilityInfoChangedEvent(System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> value)
-    // Offset: 0x1032028
+    // Offset: 0x1121498
     void add_platformServicesAvailabilityInfoChangedEvent(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* value);
     // public System.Void remove_platformServicesAvailabilityInfoChangedEvent(System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> value)
-    // Offset: 0x10320CC
+    // Offset: 0x112153C
     void remove_platformServicesAvailabilityInfoChangedEvent(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* value);
     // public System.Threading.Tasks.Task`1<OnlineServices.PlatformServicesAvailabilityInfo> GetPlatformServicesAvailabilityInfo(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1031F1C
+    // Offset: 0x112138C
     System::Threading::Tasks::Task_1<OnlineServices::PlatformServicesAvailabilityInfo*>* GetPlatformServicesAvailabilityInfo(System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x1032170
+    // Offset: 0x11215E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -34,9 +34,9 @@ namespace System::Text::RegularExpressions {
     // private System.Int32[] _intStack
     // Size: 0x8
     // Offset: 0x10
-    ::Array<int>* intStack;
+    ::ArrayWrapper<int> intStack;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // private System.Int32 _intDepth
     // Size: 0x4
     // Offset: 0x18
@@ -48,9 +48,9 @@ namespace System::Text::RegularExpressions {
     // private System.Text.RegularExpressions.RegexFC[] _fcStack
     // Size: 0x8
     // Offset: 0x20
-    ::Array<System::Text::RegularExpressions::RegexFC*>* fcStack;
+    ::ArrayWrapper<System::Text::RegularExpressions::RegexFC*> fcStack;
     // Field size check
-    static_assert(sizeof(::Array<System::Text::RegularExpressions::RegexFC*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Text::RegularExpressions::RegexFC*>) == 0x8);
     // private System.Int32 _fcDepth
     // Size: 0x4
     // Offset: 0x28
@@ -76,13 +76,13 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: RegexFCD
-    RegexFCD(::Array<int>* intStack_ = {}, int intDepth_ = {}, ::Array<System::Text::RegularExpressions::RegexFC*>* fcStack_ = {}, int fcDepth_ = {}, bool skipAllChildren_ = {}, bool skipchild_ = {}, bool failed_ = {}) noexcept : intStack{intStack_}, intDepth{intDepth_}, fcStack{fcStack_}, fcDepth{fcDepth_}, skipAllChildren{skipAllChildren_}, skipchild{skipchild_}, failed{failed_} {}
+    RegexFCD(::ArrayWrapper<int> intStack_ = {}, int intDepth_ = {}, ::ArrayWrapper<System::Text::RegularExpressions::RegexFC*> fcStack_ = {}, int fcDepth_ = {}, bool skipAllChildren_ = {}, bool skipchild_ = {}, bool failed_ = {}) noexcept : intStack{intStack_}, intDepth{intDepth_}, fcStack{fcStack_}, fcDepth{fcDepth_}, skipAllChildren{skipAllChildren_}, skipchild{skipchild_}, failed{failed_} {}
     // Get instance field reference: private System.Int32[] _intStack
-    ::Array<int>*& dyn__intStack();
+    ::ArrayWrapper<int>& dyn__intStack();
     // Get instance field reference: private System.Int32 _intDepth
     int& dyn__intDepth();
     // Get instance field reference: private System.Text.RegularExpressions.RegexFC[] _fcStack
-    ::Array<System::Text::RegularExpressions::RegexFC*>*& dyn__fcStack();
+    ::ArrayWrapper<System::Text::RegularExpressions::RegexFC*>& dyn__fcStack();
     // Get instance field reference: private System.Int32 _fcDepth
     int& dyn__fcDepth();
     // Get instance field reference: private System.Boolean _skipAllChildren
@@ -92,49 +92,49 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: private System.Boolean _failed
     bool& dyn__failed();
     // static System.Text.RegularExpressions.RegexPrefix FirstChars(System.Text.RegularExpressions.RegexTree t)
-    // Offset: 0x199BF84
+    // Offset: 0x1A35648
     static System::Text::RegularExpressions::RegexPrefix* FirstChars(System::Text::RegularExpressions::RegexTree* t);
     // static System.Text.RegularExpressions.RegexPrefix Prefix(System.Text.RegularExpressions.RegexTree tree)
-    // Offset: 0x199C2C8
+    // Offset: 0x1A3598C
     static System::Text::RegularExpressions::RegexPrefix* Prefix(System::Text::RegularExpressions::RegexTree* tree);
     // static System.Int32 Anchors(System.Text.RegularExpressions.RegexTree tree)
-    // Offset: 0x199C604
+    // Offset: 0x1A35CC8
     static int Anchors(System::Text::RegularExpressions::RegexTree* tree);
     // static private System.Int32 AnchorFromType(System.Int32 type)
-    // Offset: 0x199C738
+    // Offset: 0x1A35DFC
     static int AnchorFromType(int type);
     // private System.Void PushInt(System.Int32 I)
-    // Offset: 0x199C7A4
+    // Offset: 0x1A35E68
     void PushInt(int I);
     // private System.Boolean IntIsEmpty()
-    // Offset: 0x199C884
+    // Offset: 0x1A35F48
     bool IntIsEmpty();
     // private System.Int32 PopInt()
-    // Offset: 0x199C894
+    // Offset: 0x1A35F58
     int PopInt();
     // private System.Void PushFC(System.Text.RegularExpressions.RegexFC fc)
-    // Offset: 0x199C8DC
+    // Offset: 0x1A35FA0
     void PushFC(System::Text::RegularExpressions::RegexFC* fc);
     // private System.Boolean FCIsEmpty()
-    // Offset: 0x199C9E4
+    // Offset: 0x1A360A8
     bool FCIsEmpty();
     // private System.Text.RegularExpressions.RegexFC PopFC()
-    // Offset: 0x199C9F4
+    // Offset: 0x1A360B8
     System::Text::RegularExpressions::RegexFC* PopFC();
     // private System.Text.RegularExpressions.RegexFC TopFC()
-    // Offset: 0x199CA3C
+    // Offset: 0x1A36100
     System::Text::RegularExpressions::RegexFC* TopFC();
     // private System.Text.RegularExpressions.RegexFC RegexFCFromRegexTree(System.Text.RegularExpressions.RegexTree tree)
-    // Offset: 0x199C11C
+    // Offset: 0x1A357E0
     System::Text::RegularExpressions::RegexFC* RegexFCFromRegexTree(System::Text::RegularExpressions::RegexTree* tree);
     // private System.Void SkipChild()
-    // Offset: 0x199CEEC
+    // Offset: 0x1A365B0
     void SkipChild();
     // private System.Void CalculateFC(System.Int32 NodeType, System.Text.RegularExpressions.RegexNode node, System.Int32 CurIndex)
-    // Offset: 0x199CA80
+    // Offset: 0x1A36144
     void CalculateFC(int NodeType, System::Text::RegularExpressions::RegexNode* node, int CurIndex);
     // private System.Void .ctor()
-    // Offset: 0x199C0A0
+    // Offset: 0x1A35764
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

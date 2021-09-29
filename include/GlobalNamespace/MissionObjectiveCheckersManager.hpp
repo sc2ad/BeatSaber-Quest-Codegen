@@ -43,17 +43,17 @@ namespace GlobalNamespace {
     // private MissionObjectiveChecker[] _missionObjectiveCheckers
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::MissionObjectiveChecker*>* missionObjectiveCheckers;
+    ::ArrayWrapper<GlobalNamespace::MissionObjectiveChecker*> missionObjectiveCheckers;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MissionObjectiveChecker*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3F7D4
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionObjectiveChecker*>) == 0x8);
+    // [InjectAttribute] Offset: 0xF08158
     // private MissionObjectiveCheckersManager/InitData _initData
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MissionObjectiveCheckersManager::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionObjectiveCheckersManager::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3F7E4
+    // [InjectAttribute] Offset: 0xF08168
     // private ILevelEndActions _gameplayManager
     // Size: 0x8
     // Offset: 0x28
@@ -81,15 +81,15 @@ namespace GlobalNamespace {
     // private MissionObjectiveChecker[] _activeMissionObjectiveCheckers
     // Size: 0x8
     // Offset: 0x48
-    ::Array<GlobalNamespace::MissionObjectiveChecker*>* activeMissionObjectiveCheckers;
+    ::ArrayWrapper<GlobalNamespace::MissionObjectiveChecker*> activeMissionObjectiveCheckers;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MissionObjectiveChecker*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionObjectiveChecker*>) == 0x8);
     // Creating value type constructor for type: MissionObjectiveCheckersManager
-    MissionObjectiveCheckersManager(::Array<GlobalNamespace::MissionObjectiveChecker*>* missionObjectiveCheckers_ = {}, GlobalNamespace::MissionObjectiveCheckersManager::InitData* initData_ = {}, GlobalNamespace::ILevelEndActions* gameplayManager_ = {}, System::Action* objectiveDidFailEvent_ = {}, System::Action* objectiveWasClearedEvent_ = {}, System::Action* objectivesListDidChangeEvent_ = {}, ::Array<GlobalNamespace::MissionObjectiveChecker*>* activeMissionObjectiveCheckers_ = {}) noexcept : missionObjectiveCheckers{missionObjectiveCheckers_}, initData{initData_}, gameplayManager{gameplayManager_}, objectiveDidFailEvent{objectiveDidFailEvent_}, objectiveWasClearedEvent{objectiveWasClearedEvent_}, objectivesListDidChangeEvent{objectivesListDidChangeEvent_}, activeMissionObjectiveCheckers{activeMissionObjectiveCheckers_} {}
+    MissionObjectiveCheckersManager(::ArrayWrapper<GlobalNamespace::MissionObjectiveChecker*> missionObjectiveCheckers_ = {}, GlobalNamespace::MissionObjectiveCheckersManager::InitData* initData_ = {}, GlobalNamespace::ILevelEndActions* gameplayManager_ = {}, System::Action* objectiveDidFailEvent_ = {}, System::Action* objectiveWasClearedEvent_ = {}, System::Action* objectivesListDidChangeEvent_ = {}, ::ArrayWrapper<GlobalNamespace::MissionObjectiveChecker*> activeMissionObjectiveCheckers_ = {}) noexcept : missionObjectiveCheckers{missionObjectiveCheckers_}, initData{initData_}, gameplayManager{gameplayManager_}, objectiveDidFailEvent{objectiveDidFailEvent_}, objectiveWasClearedEvent{objectiveWasClearedEvent_}, objectivesListDidChangeEvent{objectivesListDidChangeEvent_}, activeMissionObjectiveCheckers{activeMissionObjectiveCheckers_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionObjectiveChecker[] _missionObjectiveCheckers
-    ::Array<GlobalNamespace::MissionObjectiveChecker*>*& dyn__missionObjectiveCheckers();
+    ::ArrayWrapper<GlobalNamespace::MissionObjectiveChecker*>& dyn__missionObjectiveCheckers();
     // Get instance field reference: private MissionObjectiveCheckersManager/InitData _initData
     GlobalNamespace::MissionObjectiveCheckersManager::InitData*& dyn__initData();
     // Get instance field reference: private ILevelEndActions _gameplayManager
@@ -101,54 +101,54 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action objectivesListDidChangeEvent
     System::Action*& dyn_objectivesListDidChangeEvent();
     // Get instance field reference: private MissionObjectiveChecker[] _activeMissionObjectiveCheckers
-    ::Array<GlobalNamespace::MissionObjectiveChecker*>*& dyn__activeMissionObjectiveCheckers();
+    ::ArrayWrapper<GlobalNamespace::MissionObjectiveChecker*>& dyn__activeMissionObjectiveCheckers();
     // public MissionObjectiveChecker[] get_activeMissionObjectiveCheckers()
-    // Offset: 0x1144B80
-    ::Array<GlobalNamespace::MissionObjectiveChecker*>* get_activeMissionObjectiveCheckers();
+    // Offset: 0x118B6D0
+    ::ArrayWrapper<GlobalNamespace::MissionObjectiveChecker*> get_activeMissionObjectiveCheckers();
     // public System.Void add_objectiveDidFailEvent(System.Action value)
-    // Offset: 0x1140568
+    // Offset: 0x11875B0
     void add_objectiveDidFailEvent(System::Action* value);
     // public System.Void remove_objectiveDidFailEvent(System.Action value)
-    // Offset: 0x11400B4
+    // Offset: 0x11870FC
     void remove_objectiveDidFailEvent(System::Action* value);
     // public System.Void add_objectiveWasClearedEvent(System.Action value)
-    // Offset: 0x113D374
+    // Offset: 0x1184500
     void add_objectiveWasClearedEvent(System::Action* value);
     // public System.Void remove_objectiveWasClearedEvent(System.Action value)
-    // Offset: 0x113D4A0
+    // Offset: 0x118462C
     void remove_objectiveWasClearedEvent(System::Action* value);
     // public System.Void add_objectivesListDidChangeEvent(System.Action value)
-    // Offset: 0x1144A38
+    // Offset: 0x118B588
     void add_objectivesListDidChangeEvent(System::Action* value);
     // public System.Void remove_objectivesListDidChangeEvent(System.Action value)
-    // Offset: 0x1144ADC
+    // Offset: 0x118B62C
     void remove_objectivesListDidChangeEvent(System::Action* value);
     // protected System.Void Start()
-    // Offset: 0x1144B88
+    // Offset: 0x118B6D8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1145074
+    // Offset: 0x118BBC4
     void OnDestroy();
     // private System.Void HandleMissionObjectiveCheckerStatusDidChange(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0x1145210
+    // Offset: 0x118BD60
     void HandleMissionObjectiveCheckerStatusDidChange(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // public MissionObjectiveChecker GetMissionObjectiveChecker(MissionObjectiveTypeSO missionObjectiveType)
-    // Offset: 0x1145250
+    // Offset: 0x118BDA0
     GlobalNamespace::MissionObjectiveChecker* GetMissionObjectiveChecker(GlobalNamespace::MissionObjectiveTypeSO* missionObjectiveType);
     // public MissionObjectiveResult[] GetResults()
-    // Offset: 0x113F5C0
-    ::Array<GlobalNamespace::MissionObjectiveResult*>* GetResults();
+    // Offset: 0x1186608
+    ::ArrayWrapper<GlobalNamespace::MissionObjectiveResult*> GetResults();
     // private System.Void HandleLevelFailed()
-    // Offset: 0x1145378
+    // Offset: 0x118BEC8
     void HandleLevelFailed();
     // private System.Void HandleLevelFinished()
-    // Offset: 0x1145464
+    // Offset: 0x118BFB4
     void HandleLevelFinished();
     // private System.Void StopChecking()
-    // Offset: 0x114537C
+    // Offset: 0x118BECC
     void StopChecking();
     // public System.Void .ctor()
-    // Offset: 0x1145468
+    // Offset: 0x118BFB8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -162,7 +162,7 @@ namespace GlobalNamespace {
     }
   }; // MissionObjectiveCheckersManager
   #pragma pack(pop)
-  static check_size<sizeof(MissionObjectiveCheckersManager), 72 + sizeof(::Array<GlobalNamespace::MissionObjectiveChecker*>*)> __GlobalNamespace_MissionObjectiveCheckersManagerSizeCheck;
+  static check_size<sizeof(MissionObjectiveCheckersManager), 72 + sizeof(::ArrayWrapper<GlobalNamespace::MissionObjectiveChecker*>)> __GlobalNamespace_MissionObjectiveCheckersManagerSizeCheck;
   static_assert(sizeof(MissionObjectiveCheckersManager) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveCheckersManager*, "", "MissionObjectiveCheckersManager");
@@ -170,7 +170,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveCheckersManager*, "", "M
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveCheckersManager::get_activeMissionObjectiveCheckers
 // Il2CppName: get_activeMissionObjectiveCheckers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::MissionObjectiveChecker*>* (GlobalNamespace::MissionObjectiveCheckersManager::*)()>(&GlobalNamespace::MissionObjectiveCheckersManager::get_activeMissionObjectiveCheckers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::MissionObjectiveChecker*> (GlobalNamespace::MissionObjectiveCheckersManager::*)()>(&GlobalNamespace::MissionObjectiveCheckersManager::get_activeMissionObjectiveCheckers)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveCheckersManager*), "get_activeMissionObjectiveCheckers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -266,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveCheckersManager::GetResults
 // Il2CppName: GetResults
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::MissionObjectiveResult*>* (GlobalNamespace::MissionObjectiveCheckersManager::*)()>(&GlobalNamespace::MissionObjectiveCheckersManager::GetResults)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::MissionObjectiveResult*> (GlobalNamespace::MissionObjectiveCheckersManager::*)()>(&GlobalNamespace::MissionObjectiveCheckersManager::GetResults)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveCheckersManager*), "GetResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

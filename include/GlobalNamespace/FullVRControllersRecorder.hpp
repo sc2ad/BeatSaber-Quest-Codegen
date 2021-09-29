@@ -123,14 +123,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: playbackFloorOffset and: controllers
     char __padding5[0x4] = {};
-    // [SpaceAttribute] Offset: 0xE4B100
+    // [SpaceAttribute] Offset: 0xF13D0C
     // private VRController[] _controllers
     // Size: 0x8
     // Offset: 0x38
-    ::Array<GlobalNamespace::VRController*>* controllers;
+    ::ArrayWrapper<GlobalNamespace::VRController*> controllers;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::VRController*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE4B138
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::VRController*>) == 0x8);
+    // [InjectAttribute] Offset: 0xF13D44
     // private AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x40
@@ -158,7 +158,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::VRControllersRecorderData*) == 0x8);
     // Creating value type constructor for type: FullVRControllersRecorder
-    FullVRControllersRecorder(::Il2CppString* recordingFilePath_ = {}, GlobalNamespace::FullVRControllersRecorder::Mode mode_ = {}, float timeOffset_ = {}, float othersSmooth_ = {}, float handsSmooth_ = {}, float playbackFloorOffset_ = {}, ::Array<GlobalNamespace::VRController*>* controllers_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, System::Action_1<GlobalNamespace::VRController*>* didSetControllerTransformEvent_ = {}, int keyframeIndex_ = {}, GlobalNamespace::VRControllersRecorderData* data_ = {}) noexcept : recordingFilePath{recordingFilePath_}, mode{mode_}, timeOffset{timeOffset_}, othersSmooth{othersSmooth_}, handsSmooth{handsSmooth_}, playbackFloorOffset{playbackFloorOffset_}, controllers{controllers_}, audioTimeSyncController{audioTimeSyncController_}, didSetControllerTransformEvent{didSetControllerTransformEvent_}, keyframeIndex{keyframeIndex_}, data{data_} {}
+    FullVRControllersRecorder(::Il2CppString* recordingFilePath_ = {}, GlobalNamespace::FullVRControllersRecorder::Mode mode_ = {}, float timeOffset_ = {}, float othersSmooth_ = {}, float handsSmooth_ = {}, float playbackFloorOffset_ = {}, ::ArrayWrapper<GlobalNamespace::VRController*> controllers_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, System::Action_1<GlobalNamespace::VRController*>* didSetControllerTransformEvent_ = {}, int keyframeIndex_ = {}, GlobalNamespace::VRControllersRecorderData* data_ = {}) noexcept : recordingFilePath{recordingFilePath_}, mode{mode_}, timeOffset{timeOffset_}, othersSmooth{othersSmooth_}, handsSmooth{handsSmooth_}, playbackFloorOffset{playbackFloorOffset_}, controllers{controllers_}, audioTimeSyncController{audioTimeSyncController_}, didSetControllerTransformEvent{didSetControllerTransformEvent_}, keyframeIndex{keyframeIndex_}, data{data_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _recordingFilePath
@@ -174,7 +174,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _playbackFloorOffset
     float& dyn__playbackFloorOffset();
     // Get instance field reference: private VRController[] _controllers
-    ::Array<GlobalNamespace::VRController*>*& dyn__controllers();
+    ::ArrayWrapper<GlobalNamespace::VRController*>& dyn__controllers();
     // Get instance field reference: private AudioTimeSyncController _audioTimeSyncController
     GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // Get instance field reference: private System.Action`1<VRController> didSetControllerTransformEvent
@@ -184,31 +184,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private VRControllersRecorderData _data
     GlobalNamespace::VRControllersRecorderData*& dyn__data();
     // public System.Void add_didSetControllerTransformEvent(System.Action`1<VRController> value)
-    // Offset: 0x1063188
+    // Offset: 0x11D3274
     void add_didSetControllerTransformEvent(System::Action_1<GlobalNamespace::VRController*>* value);
     // public System.Void remove_didSetControllerTransformEvent(System.Action`1<VRController> value)
-    // Offset: 0x106322C
+    // Offset: 0x11D3318
     void remove_didSetControllerTransformEvent(System::Action_1<GlobalNamespace::VRController*>* value);
     // protected System.Void Start()
-    // Offset: 0x10632D0
+    // Offset: 0x11D33BC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10636C4
+    // Offset: 0x11D37B0
     void OnDestroy();
     // private System.Void PlaybackTick()
-    // Offset: 0x1063770
+    // Offset: 0x11D385C
     void PlaybackTick();
     // private System.Void RecordTick()
-    // Offset: 0x1063B50
+    // Offset: 0x11D3C3C
     void RecordTick();
     // protected System.Void Update()
-    // Offset: 0x1063CF8
+    // Offset: 0x11D3DE4
     void Update();
     // protected System.Void LateUpdate()
-    // Offset: 0x1063D48
+    // Offset: 0x11D3E34
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1063D58
+    // Offset: 0x11D3E44
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

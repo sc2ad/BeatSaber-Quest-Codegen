@@ -47,13 +47,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public LevelPackDetailViewController <>4__this
     GlobalNamespace::LevelPackDetailViewController*& dyn_$$4__this();
     // System.Void <DidActivate>b__1()
-    // Offset: 0x1200744
+    // Offset: 0x130C800
     void $DidActivate$b__1();
     // System.Void <DidActivate>b__2()
-    // Offset: 0x1200814
+    // Offset: 0x130C8D0
     void $DidActivate$b__2();
     // public System.Void .ctor()
-    // Offset: 0x11FFF40
+    // Offset: 0x130BFFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

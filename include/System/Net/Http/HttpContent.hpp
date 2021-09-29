@@ -98,44 +98,44 @@ namespace System::Net::Http {
     // Get instance field reference: private System.Net.Http.Headers.HttpContentHeaders headers
     System::Net::Http::Headers::HttpContentHeaders*& dyn_headers();
     // public System.Net.Http.Headers.HttpContentHeaders get_Headers()
-    // Offset: 0x15B747C
+    // Offset: 0x175B934
     System::Net::Http::Headers::HttpContentHeaders* get_Headers();
     // System.Nullable`1<System.Int64> get_LoadedBufferLength()
-    // Offset: 0x15AA6B0
+    // Offset: 0x174EB68
     System::Nullable_1<int64_t> get_LoadedBufferLength();
     // System.Void CopyTo(System.IO.Stream stream)
-    // Offset: 0x15B8B70
+    // Offset: 0x175D028
     void CopyTo(System::IO::Stream* stream);
     // public System.Threading.Tasks.Task CopyToAsync(System.IO.Stream stream)
-    // Offset: 0x15B8A88
+    // Offset: 0x175CF40
     System::Threading::Tasks::Task* CopyToAsync(System::IO::Stream* stream);
     // public System.Threading.Tasks.Task CopyToAsync(System.IO.Stream stream, System.Net.TransportContext context)
-    // Offset: 0x15B8B94
+    // Offset: 0x175D04C
     System::Threading::Tasks::Task* CopyToAsync(System::IO::Stream* stream, System::Net::TransportContext* context);
     // static private System.Net.Http.HttpContent/System.Net.Http.FixedMemoryStream CreateFixedMemoryStream(System.Int64 maxBufferSize)
-    // Offset: 0x15B8C58
+    // Offset: 0x175D110
     static System::Net::Http::HttpContent::FixedMemoryStream* CreateFixedMemoryStream(int64_t maxBufferSize);
     // public System.Void Dispose()
-    // Offset: 0x15B8CE8
+    // Offset: 0x175D1A0
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x15B8CF8
+    // Offset: 0x175D1B0
     void Dispose(bool disposing);
     // public System.Threading.Tasks.Task LoadIntoBufferAsync()
-    // Offset: 0x15B8D24
+    // Offset: 0x175D1DC
     System::Threading::Tasks::Task* LoadIntoBufferAsync();
     // public System.Threading.Tasks.Task LoadIntoBufferAsync(System.Int64 maxBufferSize)
-    // Offset: 0x15B68CC
+    // Offset: 0x175AD84
     System::Threading::Tasks::Task* LoadIntoBufferAsync(int64_t maxBufferSize);
     // public System.Threading.Tasks.Task`1<System.String> ReadAsStringAsync()
-    // Offset: 0x15B625C
+    // Offset: 0x175A714
     System::Threading::Tasks::Task_1<::Il2CppString*>* ReadAsStringAsync();
     // static private System.Text.Encoding GetEncodingFromBuffer(System.Byte[] buffer, System.Int32 length, ref System.Int32 preambleLength)
-    // Offset: 0x15B8D2C
-    static System::Text::Encoding* GetEncodingFromBuffer(::Array<uint8_t>* buffer, int length, ByRef<int> preambleLength);
+    // Offset: 0x175D1E4
+    static System::Text::Encoding* GetEncodingFromBuffer(::ArrayWrapper<uint8_t> buffer, int length, ByRef<int> preambleLength);
     // static private System.Int32 StartsWith(System.Byte[] array, System.Int32 length, System.Byte[] value)
-    // Offset: 0x15B8EBC
-    static int StartsWith(::Array<uint8_t>* array, int length, ::Array<uint8_t>* value);
+    // Offset: 0x175D374
+    static int StartsWith(::ArrayWrapper<uint8_t> array, int length, ::ArrayWrapper<uint8_t> value);
     // protected internal System.Threading.Tasks.Task SerializeToStreamAsync(System.IO.Stream stream, System.Net.TransportContext context)
     // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task* SerializeToStreamAsync(System::IO::Stream* stream, System::Net::TransportContext* context);
@@ -143,7 +143,7 @@ namespace System::Net::Http {
     // Offset: 0xFFFFFFFF
     bool TryComputeLength(ByRef<int64_t> length);
     // protected System.Void .ctor()
-    // Offset: 0x15B8F38
+    // Offset: 0x175D3F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -256,9 +256,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Net::Http::HttpContent::GetEncodingFromBuffer
 // Il2CppName: GetEncodingFromBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)(::Array<uint8_t>*, int, ByRef<int>)>(&System::Net::Http::HttpContent::GetEncodingFromBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)(::ArrayWrapper<uint8_t>, int, ByRef<int>)>(&System::Net::Http::HttpContent::GetEncodingFromBuffer)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* preambleLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpContent*), "GetEncodingFromBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, length, preambleLength});
@@ -267,11 +267,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Net::Http::HttpContent::StartsWith
 // Il2CppName: StartsWith
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int, ::Array<uint8_t>*)>(&System::Net::Http::HttpContent::StartsWith)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>)>(&System::Net::Http::HttpContent::StartsWith)> {
   static const MethodInfo* get() {
-    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpContent*), "StartsWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array, length, value});
   }
 };

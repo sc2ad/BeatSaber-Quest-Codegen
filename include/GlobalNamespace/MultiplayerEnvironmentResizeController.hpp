@@ -52,17 +52,17 @@ namespace GlobalNamespace {
     // private MultiplayerEnvironmentResizeController/ResizeData[] _resizeData
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*>* resizeData;
+    ::ArrayWrapper<GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*> resizeData;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE40A44
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*>) == 0x8);
+    // [InjectAttribute] Offset: 0xF093D8
     // private readonly MultiplayerCenterResizeController _centerResizeController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::MultiplayerCenterResizeController* centerResizeController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerCenterResizeController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE40A54
+    // [InjectAttribute] Offset: 0xF093E8
     // private readonly BeatmapObjectSpawnCenter _beatmapObjectSpawnCenter
     // Size: 0x8
     // Offset: 0x30
@@ -94,13 +94,13 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: MultiplayerEnvironmentResizeController
-    MultiplayerEnvironmentResizeController(UnityEngine::Transform* platformEnd_ = {}, ::Array<GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*>* resizeData_ = {}, GlobalNamespace::MultiplayerCenterResizeController* centerResizeController_ = {}, GlobalNamespace::BeatmapObjectSpawnCenter* beatmapObjectSpawnCenter_ = {}, System::Action* resizingDidFinishEvent_ = {}, bool isResizingFinished_ = {}, bool edgeDistanceFromCenterFound_ = {}, bool spawnCenterDistanceFound_ = {}) noexcept : platformEnd{platformEnd_}, resizeData{resizeData_}, centerResizeController{centerResizeController_}, beatmapObjectSpawnCenter{beatmapObjectSpawnCenter_}, resizingDidFinishEvent{resizingDidFinishEvent_}, isResizingFinished{isResizingFinished_}, edgeDistanceFromCenterFound{edgeDistanceFromCenterFound_}, spawnCenterDistanceFound{spawnCenterDistanceFound_} {}
+    MultiplayerEnvironmentResizeController(UnityEngine::Transform* platformEnd_ = {}, ::ArrayWrapper<GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*> resizeData_ = {}, GlobalNamespace::MultiplayerCenterResizeController* centerResizeController_ = {}, GlobalNamespace::BeatmapObjectSpawnCenter* beatmapObjectSpawnCenter_ = {}, System::Action* resizingDidFinishEvent_ = {}, bool isResizingFinished_ = {}, bool edgeDistanceFromCenterFound_ = {}, bool spawnCenterDistanceFound_ = {}) noexcept : platformEnd{platformEnd_}, resizeData{resizeData_}, centerResizeController{centerResizeController_}, beatmapObjectSpawnCenter{beatmapObjectSpawnCenter_}, resizingDidFinishEvent{resizingDidFinishEvent_}, isResizingFinished{isResizingFinished_}, edgeDistanceFromCenterFound{edgeDistanceFromCenterFound_}, spawnCenterDistanceFound{spawnCenterDistanceFound_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _platformEnd
     UnityEngine::Transform*& dyn__platformEnd();
     // Get instance field reference: private MultiplayerEnvironmentResizeController/ResizeData[] _resizeData
-    ::Array<GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*>*& dyn__resizeData();
+    ::ArrayWrapper<GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*>& dyn__resizeData();
     // Get instance field reference: private readonly MultiplayerCenterResizeController _centerResizeController
     GlobalNamespace::MultiplayerCenterResizeController*& dyn__centerResizeController();
     // Get instance field reference: private readonly BeatmapObjectSpawnCenter _beatmapObjectSpawnCenter
@@ -114,34 +114,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _spawnCenterDistanceFound
     bool& dyn__spawnCenterDistanceFound();
     // public System.Boolean get_isResizingFinished()
-    // Offset: 0x11D2C00
+    // Offset: 0x1218EE8
     bool get_isResizingFinished();
     // public System.Void add_resizingDidFinishEvent(System.Action value)
-    // Offset: 0x11D2C08
+    // Offset: 0x1218EF0
     void add_resizingDidFinishEvent(System::Action* value);
     // public System.Void remove_resizingDidFinishEvent(System.Action value)
-    // Offset: 0x11D2CAC
+    // Offset: 0x1218F94
     void remove_resizingDidFinishEvent(System::Action* value);
     // protected System.Void Start()
-    // Offset: 0x11D2D50
+    // Offset: 0x1219038
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11D2EBC
+    // Offset: 0x12191A4
     void OnDestroy();
     // private System.Void HandleEdgeDistanceFromCenterWasCalculated(System.Single edgeDistanceFromCenter)
-    // Offset: 0x11D2E8C
+    // Offset: 0x1219174
     void HandleEdgeDistanceFromCenterWasCalculated(float edgeDistanceFromCenter);
     // private System.Void HandleSpawnCenterDistanceWasFound(System.Single distance)
-    // Offset: 0x11D2EA4
+    // Offset: 0x121918C
     void HandleSpawnCenterDistanceWasFound(float distance);
     // private System.Void TryResize()
-    // Offset: 0x11D3010
+    // Offset: 0x12192F8
     void TryResize();
     // private System.Void Resize()
-    // Offset: 0x11D3028
+    // Offset: 0x1219310
     void Resize();
     // public System.Void .ctor()
-    // Offset: 0x11D3320
+    // Offset: 0x1219608
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

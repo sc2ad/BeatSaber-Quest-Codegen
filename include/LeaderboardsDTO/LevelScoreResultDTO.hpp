@@ -87,9 +87,9 @@ namespace LeaderboardsDTO {
     // public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
     // Size: 0x8
     // Offset: 0x48
-    ::Array<LeaderboardsDTO::GameplayModifiersDto>* gameplayModifiers;
+    ::ArrayWrapper<LeaderboardsDTO::GameplayModifiersDto> gameplayModifiers;
     // Field size check
-    static_assert(sizeof(::Array<LeaderboardsDTO::GameplayModifiersDto>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<LeaderboardsDTO::GameplayModifiersDto>) == 0x8);
     // public System.String leaderboardId
     // Size: 0x8
     // Offset: 0x50
@@ -109,7 +109,7 @@ namespace LeaderboardsDTO {
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: LevelScoreResultDTO
-    LevelScoreResultDTO(::Il2CppString* guid_ = {}, ::Il2CppString* guids_ = {}, ::Il2CppString* guidInstance_ = {}, int rawScore_ = {}, int modifiedScore_ = {}, bool fullCombo_ = {}, int goodCutsCount_ = {}, int badCutsCount_ = {}, int missedCount_ = {}, int maxCombo_ = {}, ::Array<LeaderboardsDTO::GameplayModifiersDto>* gameplayModifiers_ = {}, ::Il2CppString* leaderboardId_ = {}, ::Il2CppString* deviceModel_ = {}, ::Il2CppString* extraDataBase64_ = {}) noexcept : guid{guid_}, guids{guids_}, guidInstance{guidInstance_}, rawScore{rawScore_}, modifiedScore{modifiedScore_}, fullCombo{fullCombo_}, goodCutsCount{goodCutsCount_}, badCutsCount{badCutsCount_}, missedCount{missedCount_}, maxCombo{maxCombo_}, gameplayModifiers{gameplayModifiers_}, leaderboardId{leaderboardId_}, deviceModel{deviceModel_}, extraDataBase64{extraDataBase64_} {}
+    LevelScoreResultDTO(::Il2CppString* guid_ = {}, ::Il2CppString* guids_ = {}, ::Il2CppString* guidInstance_ = {}, int rawScore_ = {}, int modifiedScore_ = {}, bool fullCombo_ = {}, int goodCutsCount_ = {}, int badCutsCount_ = {}, int missedCount_ = {}, int maxCombo_ = {}, ::ArrayWrapper<LeaderboardsDTO::GameplayModifiersDto> gameplayModifiers_ = {}, ::Il2CppString* leaderboardId_ = {}, ::Il2CppString* deviceModel_ = {}, ::Il2CppString* extraDataBase64_ = {}) noexcept : guid{guid_}, guids{guids_}, guidInstance{guidInstance_}, rawScore{rawScore_}, modifiedScore{modifiedScore_}, fullCombo{fullCombo_}, goodCutsCount{goodCutsCount_}, badCutsCount{badCutsCount_}, missedCount{missedCount_}, maxCombo{maxCombo_}, gameplayModifiers{gameplayModifiers_}, leaderboardId{leaderboardId_}, deviceModel{deviceModel_}, extraDataBase64{extraDataBase64_} {}
     // Get instance field reference: public System.String guid
     ::Il2CppString*& dyn_guid();
     // Get instance field reference: public System.String guids
@@ -131,7 +131,7 @@ namespace LeaderboardsDTO {
     // Get instance field reference: public System.Int32 maxCombo
     int& dyn_maxCombo();
     // Get instance field reference: public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
-    ::Array<LeaderboardsDTO::GameplayModifiersDto>*& dyn_gameplayModifiers();
+    ::ArrayWrapper<LeaderboardsDTO::GameplayModifiersDto>& dyn_gameplayModifiers();
     // Get instance field reference: public System.String leaderboardId
     ::Il2CppString*& dyn_leaderboardId();
     // Get instance field reference: public System.String deviceModel
@@ -139,7 +139,7 @@ namespace LeaderboardsDTO {
     // Get instance field reference: public System.String extraDataBase64
     ::Il2CppString*& dyn_extraDataBase64();
     // public System.Void .ctor()
-    // Offset: 0x118C6A0
+    // Offset: 0x114AD7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

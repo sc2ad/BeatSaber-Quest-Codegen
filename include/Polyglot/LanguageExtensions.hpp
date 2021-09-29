@@ -25,13 +25,13 @@ namespace Polyglot {
     // Creating value type constructor for type: LanguageExtensions
     LanguageExtensions() noexcept {}
     // static public System.String ToSerializedName(Polyglot.Language lang)
-    // Offset: 0x237AFA4
+    // Offset: 0x2581DD8
     static ::Il2CppString* ToSerializedName(Polyglot::Language lang);
     // static public System.String ToCultureInfoName(Polyglot.Language lang)
-    // Offset: 0x237B00C
+    // Offset: 0x2581E40
     static ::Il2CppString* ToCultureInfoName(Polyglot::Language lang);
     // static public Polyglot.Language ToLanguage(System.String serializedName)
-    // Offset: 0x237B0BC
+    // Offset: 0x2581EF0
     static Polyglot::Language ToLanguage(::Il2CppString* serializedName);
   }; // Polyglot.LanguageExtensions
   #pragma pack(pop)

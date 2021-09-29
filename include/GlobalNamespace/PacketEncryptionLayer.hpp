@@ -90,9 +90,9 @@ namespace GlobalNamespace {
     // private System.Byte[] _unencryptedTrafficFilter
     // Size: 0x8
     // Offset: 0x30
-    ::Array<uint8_t>* unencryptedTrafficFilter;
+    ::ArrayWrapper<uint8_t> unencryptedTrafficFilter;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Boolean <filterUnencryptedTraffic>k__BackingField
     // Size: 0x1
     // Offset: 0x38
@@ -106,7 +106,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: PacketEncryptionLayer
-    PacketEncryptionLayer(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics* statistics_ = {}, GlobalNamespace::ExpiringDictionary_2<System::Net::IPEndPoint*, GlobalNamespace::EncryptionUtility::IEncryptionState*>* encryptionStates_ = {}, GlobalNamespace::ExpiringDictionary_2<System::Net::IPAddress*, GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList*>* pendingEncryptionStates_ = {}, ::Array<uint8_t>* unencryptedTrafficFilter_ = {}, bool filterUnencryptedTraffic_ = {}, bool enableStatistics_ = {}) noexcept : statistics{statistics_}, encryptionStates{encryptionStates_}, pendingEncryptionStates{pendingEncryptionStates_}, unencryptedTrafficFilter{unencryptedTrafficFilter_}, filterUnencryptedTraffic{filterUnencryptedTraffic_}, enableStatistics{enableStatistics_} {}
+    PacketEncryptionLayer(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics* statistics_ = {}, GlobalNamespace::ExpiringDictionary_2<System::Net::IPEndPoint*, GlobalNamespace::EncryptionUtility::IEncryptionState*>* encryptionStates_ = {}, GlobalNamespace::ExpiringDictionary_2<System::Net::IPAddress*, GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList*>* pendingEncryptionStates_ = {}, ::ArrayWrapper<uint8_t> unencryptedTrafficFilter_ = {}, bool filterUnencryptedTraffic_ = {}, bool enableStatistics_ = {}) noexcept : statistics{statistics_}, encryptionStates{encryptionStates_}, pendingEncryptionStates{pendingEncryptionStates_}, unencryptedTrafficFilter{unencryptedTrafficFilter_}, filterUnencryptedTraffic{filterUnencryptedTraffic_}, enableStatistics{enableStatistics_} {}
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
     // static field const value: static private System.Byte kEncryptedPacketType
@@ -144,88 +144,88 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly ExpiringDictionary`2<System.Net.IPAddress,PacketEncryptionLayer/PendingEncryptionStateList> _pendingEncryptionStates
     GlobalNamespace::ExpiringDictionary_2<System::Net::IPAddress*, GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList*>*& dyn__pendingEncryptionStates();
     // Get instance field reference: private System.Byte[] _unencryptedTrafficFilter
-    ::Array<uint8_t>*& dyn__unencryptedTrafficFilter();
+    ::ArrayWrapper<uint8_t>& dyn__unencryptedTrafficFilter();
     // Get instance field reference: private System.Boolean <filterUnencryptedTraffic>k__BackingField
     bool& dyn_$filterUnencryptedTraffic$k__BackingField();
     // Get instance field reference: private System.Boolean <enableStatistics>k__BackingField
     bool& dyn_$enableStatistics$k__BackingField();
     // public System.Boolean get_filterUnencryptedTraffic()
-    // Offset: 0x16F58B0
+    // Offset: 0x18CF3B0
     bool get_filterUnencryptedTraffic();
     // public System.Void set_filterUnencryptedTraffic(System.Boolean value)
-    // Offset: 0x16F58B8
+    // Offset: 0x18CF3B8
     void set_filterUnencryptedTraffic(bool value);
     // public System.Boolean get_enableStatistics()
-    // Offset: 0x16F58C4
+    // Offset: 0x18CF3C4
     bool get_enableStatistics();
     // public System.Void set_enableStatistics(System.Boolean value)
-    // Offset: 0x16F58CC
+    // Offset: 0x18CF3CC
     void set_enableStatistics(bool value);
     // public System.Void .ctor(MasterServer.ITimeProvider timeProvider)
-    // Offset: 0x16F58D8
+    // Offset: 0x18CF3D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PacketEncryptionLayer* New_ctor(MasterServer::ITimeProvider* timeProvider) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketEncryptionLayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PacketEncryptionLayer*, creationType>(timeProvider)));
     }
     // public System.Void SetUnencryptedTrafficFilter(System.Byte[] unencryptedTrafficFilter)
-    // Offset: 0x16F6298
-    void SetUnencryptedTrafficFilter(::Array<uint8_t>* unencryptedTrafficFilter);
+    // Offset: 0x18CFD98
+    void SetUnencryptedTrafficFilter(::ArrayWrapper<uint8_t> unencryptedTrafficFilter);
     // public EncryptionUtility/IEncryptionState AddEncryptedEndpoint(System.Net.IPEndPoint endPoint, System.Byte[] preMasterSecret, System.Byte[] serverRandom, System.Byte[] clientRandom, System.Boolean isClient)
-    // Offset: 0x16F62A0
-    GlobalNamespace::EncryptionUtility::IEncryptionState* AddEncryptedEndpoint(System::Net::IPEndPoint* endPoint, ::Array<uint8_t>* preMasterSecret, ::Array<uint8_t>* serverRandom, ::Array<uint8_t>* clientRandom, bool isClient);
+    // Offset: 0x18CFDA0
+    GlobalNamespace::EncryptionUtility::IEncryptionState* AddEncryptedEndpoint(System::Net::IPEndPoint* endPoint, ::ArrayWrapper<uint8_t> preMasterSecret, ::ArrayWrapper<uint8_t> serverRandom, ::ArrayWrapper<uint8_t> clientRandom, bool isClient);
     // public System.Threading.Tasks.Task`1<EncryptionUtility/IEncryptionState> AddEncryptedEndpointAsync(System.Net.IPEndPoint endPoint, System.Byte[] preMasterSecret, System.Byte[] serverRandom, System.Byte[] clientRandom, System.Boolean isClient)
-    // Offset: 0x16F63D4
-    System::Threading::Tasks::Task_1<GlobalNamespace::EncryptionUtility::IEncryptionState*>* AddEncryptedEndpointAsync(System::Net::IPEndPoint* endPoint, ::Array<uint8_t>* preMasterSecret, ::Array<uint8_t>* serverRandom, ::Array<uint8_t>* clientRandom, bool isClient);
+    // Offset: 0x18CFED4
+    System::Threading::Tasks::Task_1<GlobalNamespace::EncryptionUtility::IEncryptionState*>* AddEncryptedEndpointAsync(System::Net::IPEndPoint* endPoint, ::ArrayWrapper<uint8_t> preMasterSecret, ::ArrayWrapper<uint8_t> serverRandom, ::ArrayWrapper<uint8_t> clientRandom, bool isClient);
     // public System.Boolean RemoveEncryptedEndpoint(System.Net.IPEndPoint endPoint, EncryptionUtility/IEncryptionState encryptedState)
-    // Offset: 0x16F6514
+    // Offset: 0x18D0014
     bool RemoveEncryptedEndpoint(System::Net::IPEndPoint* endPoint, GlobalNamespace::EncryptionUtility::IEncryptionState* encryptedState);
     // public System.Threading.Tasks.Task AddPendingEncryptedEndpointAsync(System.Net.IPEndPoint endPoint, System.Byte[] preMasterSecret, System.Byte[] serverRandom, System.Byte[] clientRandom, System.Boolean isClient)
-    // Offset: 0x16F6898
-    System::Threading::Tasks::Task* AddPendingEncryptedEndpointAsync(System::Net::IPEndPoint* endPoint, ::Array<uint8_t>* preMasterSecret, ::Array<uint8_t>* serverRandom, ::Array<uint8_t>* clientRandom, bool isClient);
+    // Offset: 0x18D0398
+    System::Threading::Tasks::Task* AddPendingEncryptedEndpointAsync(System::Net::IPEndPoint* endPoint, ::ArrayWrapper<uint8_t> preMasterSecret, ::ArrayWrapper<uint8_t> serverRandom, ::ArrayWrapper<uint8_t> clientRandom, bool isClient);
     // public System.Void PollUpdate()
-    // Offset: 0x16F69C8
+    // Offset: 0x18D04C8
     void PollUpdate();
     // public System.Void RemoveAllEndpoints()
-    // Offset: 0x16F6B4C
+    // Offset: 0x18D064C
     void RemoveAllEndpoints();
     // private System.Boolean TryGetEncryptionState(System.Net.IPEndPoint endPoint, out EncryptionUtility/IEncryptionState state)
-    // Offset: 0x16F6CD0
+    // Offset: 0x18D07D0
     bool TryGetEncryptionState(System::Net::IPEndPoint* endPoint, ByRef<GlobalNamespace::EncryptionUtility::IEncryptionState*> state);
     // private System.Boolean TryGetPendingEncryptionState(System.Net.IPEndPoint endPoint, out EncryptionUtility/IEncryptionState state)
-    // Offset: 0x16F6DC8
+    // Offset: 0x18D08C8
     bool TryGetPendingEncryptionState(System::Net::IPEndPoint* endPoint, ByRef<GlobalNamespace::EncryptionUtility::IEncryptionState*> state);
     // private System.Boolean TryGetPotentialPendingEncryptionStates(System.Net.IPEndPoint endPoint, out EncryptionUtility/IEncryptionState[] encryptionStates)
-    // Offset: 0x16F7074
-    bool TryGetPotentialPendingEncryptionStates(System::Net::IPEndPoint* endPoint, ByRef<::Array<GlobalNamespace::EncryptionUtility::IEncryptionState*>*> encryptionStates);
+    // Offset: 0x18D0B74
+    bool TryGetPotentialPendingEncryptionStates(System::Net::IPEndPoint* endPoint, ByRef<::ArrayWrapper<GlobalNamespace::EncryptionUtility::IEncryptionState*>> encryptionStates);
     // private System.Void PromotePendingEncryptionState(System.Net.IPEndPoint endPoint, EncryptionUtility/IEncryptionState state)
-    // Offset: 0x16F7324
+    // Offset: 0x18D0E24
     void PromotePendingEncryptionState(System::Net::IPEndPoint* endPoint, GlobalNamespace::EncryptionUtility::IEncryptionState* state);
     // private System.Boolean MatchesFilter(System.Byte[] data, System.Int32 offset, System.Int32 length)
-    // Offset: 0x16F76B4
-    bool MatchesFilter(::Array<uint8_t>* data, int offset, int length);
+    // Offset: 0x18D11B4
+    bool MatchesFilter(::ArrayWrapper<uint8_t> data, int offset, int length);
     // private System.Boolean ProcessInboundPacketInternal(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length, out System.Boolean encrypted)
-    // Offset: 0x16F5B6C
-    bool ProcessInboundPacketInternal(System::Net::IPEndPoint* remoteEndPoint, ByRef<::Array<uint8_t>*> data, ByRef<int> offset, ByRef<int> length, ByRef<bool> encrypted);
+    // Offset: 0x18CF66C
+    bool ProcessInboundPacketInternal(System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayWrapper<uint8_t>> data, ByRef<int> offset, ByRef<int> length, ByRef<bool> encrypted);
     // public System.Boolean ProcessOutBoundPacketInternal(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length, out System.Boolean encrypted)
-    // Offset: 0x16F6068
-    bool ProcessOutBoundPacketInternal(System::Net::IPEndPoint* remoteEndPoint, ByRef<::Array<uint8_t>*> data, ByRef<int> offset, ByRef<int> length, ByRef<bool> encrypted);
+    // Offset: 0x18CFB68
+    bool ProcessOutBoundPacketInternal(System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayWrapper<uint8_t>> data, ByRef<int> offset, ByRef<int> length, ByRef<bool> encrypted);
     // static public System.Void Log(System.String message)
-    // Offset: 0x16F773C
+    // Offset: 0x18D123C
     static void Log(::Il2CppString* message);
     // static public System.Void LogV(System.String message)
-    // Offset: 0x16F77C4
+    // Offset: 0x18D12C4
     static void LogV(::Il2CppString* message);
     // public override System.Void ProcessInboundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x16F59C0
+    // Offset: 0x18CF4C0
     // Implemented from: LiteNetLib.Layers.PacketLayerBase
     // Base method: System.Void PacketLayerBase::ProcessInboundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    void ProcessInboundPacket(System::Net::IPEndPoint* remoteEndPoint, ByRef<::Array<uint8_t>*> data, ByRef<int> offset, ByRef<int> length);
+    void ProcessInboundPacket(System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayWrapper<uint8_t>> data, ByRef<int> offset, ByRef<int> length);
     // public override System.Void ProcessOutBoundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x16F5ED0
+    // Offset: 0x18CF9D0
     // Implemented from: LiteNetLib.Layers.PacketLayerBase
     // Base method: System.Void PacketLayerBase::ProcessOutBoundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    void ProcessOutBoundPacket(System::Net::IPEndPoint* remoteEndPoint, ByRef<::Array<uint8_t>*> data, ByRef<int> offset, ByRef<int> length);
+    void ProcessOutBoundPacket(System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayWrapper<uint8_t>> data, ByRef<int> offset, ByRef<int> length);
   }; // PacketEncryptionLayer
   #pragma pack(pop)
   static check_size<sizeof(PacketEncryptionLayer), 57 + sizeof(bool)> __GlobalNamespace_PacketEncryptionLayerSizeCheck;
@@ -274,21 +274,21 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::SetUnencryptedTrafficFilter
 // Il2CppName: SetUnencryptedTrafficFilter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::*)(::Array<uint8_t>*)>(&GlobalNamespace::PacketEncryptionLayer::SetUnencryptedTrafficFilter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::*)(::ArrayWrapper<uint8_t>)>(&GlobalNamespace::PacketEncryptionLayer::SetUnencryptedTrafficFilter)> {
   static const MethodInfo* get() {
-    static auto* unencryptedTrafficFilter = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* unencryptedTrafficFilter = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "SetUnencryptedTrafficFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unencryptedTrafficFilter});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::AddEncryptedEndpoint
 // Il2CppName: AddEncryptedEndpoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EncryptionUtility::IEncryptionState* (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool)>(&GlobalNamespace::PacketEncryptionLayer::AddEncryptedEndpoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EncryptionUtility::IEncryptionState* (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, bool)>(&GlobalNamespace::PacketEncryptionLayer::AddEncryptedEndpoint)> {
   static const MethodInfo* get() {
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
-    static auto* preMasterSecret = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* serverRandom = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* clientRandom = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* preMasterSecret = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* serverRandom = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* clientRandom = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* isClient = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "AddEncryptedEndpoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{endPoint, preMasterSecret, serverRandom, clientRandom, isClient});
   }
@@ -296,12 +296,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::AddEncryptedEndpointAsync
 // Il2CppName: AddEncryptedEndpointAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::EncryptionUtility::IEncryptionState*>* (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool)>(&GlobalNamespace::PacketEncryptionLayer::AddEncryptedEndpointAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::EncryptionUtility::IEncryptionState*>* (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, bool)>(&GlobalNamespace::PacketEncryptionLayer::AddEncryptedEndpointAsync)> {
   static const MethodInfo* get() {
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
-    static auto* preMasterSecret = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* serverRandom = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* clientRandom = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* preMasterSecret = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* serverRandom = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* clientRandom = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* isClient = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "AddEncryptedEndpointAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{endPoint, preMasterSecret, serverRandom, clientRandom, isClient});
   }
@@ -319,12 +319,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::AddPendingEncryptedEndpointAsync
 // Il2CppName: AddPendingEncryptedEndpointAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool)>(&GlobalNamespace::PacketEncryptionLayer::AddPendingEncryptedEndpointAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, bool)>(&GlobalNamespace::PacketEncryptionLayer::AddPendingEncryptedEndpointAsync)> {
   static const MethodInfo* get() {
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
-    static auto* preMasterSecret = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* serverRandom = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* clientRandom = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* preMasterSecret = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* serverRandom = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* clientRandom = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* isClient = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "AddPendingEncryptedEndpointAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{endPoint, preMasterSecret, serverRandom, clientRandom, isClient});
   }
@@ -368,10 +368,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::TryGetPotentialPendingEncryptionStates
 // Il2CppName: TryGetPotentialPendingEncryptionStates
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ByRef<::Array<GlobalNamespace::EncryptionUtility::IEncryptionState*>*>)>(&GlobalNamespace::PacketEncryptionLayer::TryGetPotentialPendingEncryptionStates)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ByRef<::ArrayWrapper<GlobalNamespace::EncryptionUtility::IEncryptionState*>>)>(&GlobalNamespace::PacketEncryptionLayer::TryGetPotentialPendingEncryptionStates)> {
   static const MethodInfo* get() {
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
-    static auto* encryptionStates = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "EncryptionUtility/IEncryptionState"), 1)->this_arg;
+    static auto* encryptionStates = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "EncryptionUtility/IEncryptionState")), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "TryGetPotentialPendingEncryptionStates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{endPoint, encryptionStates});
   }
 };
@@ -388,9 +388,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::MatchesFilter
 // Il2CppName: MatchesFilter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::*)(::Array<uint8_t>*, int, int)>(&GlobalNamespace::PacketEncryptionLayer::MatchesFilter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::*)(::ArrayWrapper<uint8_t>, int, int)>(&GlobalNamespace::PacketEncryptionLayer::MatchesFilter)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "MatchesFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, offset, length});
@@ -399,10 +399,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::ProcessInboundPacketInternal
 // Il2CppName: ProcessInboundPacketInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ByRef<::Array<uint8_t>*>, ByRef<int>, ByRef<int>, ByRef<bool>)>(&GlobalNamespace::PacketEncryptionLayer::ProcessInboundPacketInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ByRef<::ArrayWrapper<uint8_t>>, ByRef<int>, ByRef<int>, ByRef<bool>)>(&GlobalNamespace::PacketEncryptionLayer::ProcessInboundPacketInternal)> {
   static const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->this_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* encrypted = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
@@ -412,10 +412,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::ProcessOutBoundPacketInternal
 // Il2CppName: ProcessOutBoundPacketInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ByRef<::Array<uint8_t>*>, ByRef<int>, ByRef<int>, ByRef<bool>)>(&GlobalNamespace::PacketEncryptionLayer::ProcessOutBoundPacketInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ByRef<::ArrayWrapper<uint8_t>>, ByRef<int>, ByRef<int>, ByRef<bool>)>(&GlobalNamespace::PacketEncryptionLayer::ProcessOutBoundPacketInternal)> {
   static const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->this_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* encrypted = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
@@ -443,10 +443,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::ProcessInboundPacket
 // Il2CppName: ProcessInboundPacket
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ByRef<::Array<uint8_t>*>, ByRef<int>, ByRef<int>)>(&GlobalNamespace::PacketEncryptionLayer::ProcessInboundPacket)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ByRef<::ArrayWrapper<uint8_t>>, ByRef<int>, ByRef<int>)>(&GlobalNamespace::PacketEncryptionLayer::ProcessInboundPacket)> {
   static const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->this_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "ProcessInboundPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{remoteEndPoint, data, offset, length});
@@ -455,10 +455,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::ProcessOutBoundPacket
 // Il2CppName: ProcessOutBoundPacket
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ByRef<::Array<uint8_t>*>, ByRef<int>, ByRef<int>)>(&GlobalNamespace::PacketEncryptionLayer::ProcessOutBoundPacket)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ByRef<::ArrayWrapper<uint8_t>>, ByRef<int>, ByRef<int>)>(&GlobalNamespace::PacketEncryptionLayer::ProcessOutBoundPacket)> {
   static const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->this_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "ProcessOutBoundPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{remoteEndPoint, data, offset, length});

@@ -41,8 +41,8 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0xFFFFFFFF
     int get_MaxLineLength();
     // public System.Void WriteMessageLine(System.String message, params System.Object[] args)
-    // Offset: 0x176DB00
-    void WriteMessageLine(::Il2CppString* message, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x192CB4C
+    void WriteMessageLine(::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);
     // Creating initializer_list -> params proxy for: System.Void WriteMessageLine(System.String message, params System.Object[] args)
     void WriteMessageLine(::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
     // Creating TArgs -> initializer_list proxy for: System.Void WriteMessageLine(System.String message, params System.Object[] args)
@@ -52,7 +52,7 @@ namespace NUnit::Framework::Constraints {
     }
     // public System.Void WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
     // Offset: 0xFFFFFFFF
-    void WriteMessageLine(int level, ::Il2CppString* message, ::Array<::Il2CppObject*>* args);
+    void WriteMessageLine(int level, ::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);
     // Creating initializer_list -> params proxy for: System.Void WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
     void WriteMessageLine(int level, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
     // Creating TArgs -> initializer_list proxy for: System.Void WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
@@ -82,7 +82,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0xFFFFFFFF
     void WriteCollectionElements(System::Collections::IEnumerable* collection, int64_t start, int max);
     // protected System.Void .ctor()
-    // Offset: 0x176EC48
+    // Offset: 0x192DC94
     // Implemented from: System.IO.StringWriter
     // Base method: System.Void StringWriter::.ctor()
     // Base method: System.Void TextWriter::.ctor()
@@ -109,21 +109,21 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NUnit:
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MessageWriter::WriteMessageLine
 // Il2CppName: WriteMessageLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::MessageWriter::*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&NUnit::Framework::Constraints::MessageWriter::WriteMessageLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::MessageWriter::*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&NUnit::Framework::Constraints::MessageWriter::WriteMessageLine)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MessageWriter*), "WriteMessageLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message, args});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MessageWriter::WriteMessageLine
 // Il2CppName: WriteMessageLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::MessageWriter::*)(int, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&NUnit::Framework::Constraints::MessageWriter::WriteMessageLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::MessageWriter::*)(int, ::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&NUnit::Framework::Constraints::MessageWriter::WriteMessageLine)> {
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MessageWriter*), "WriteMessageLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{level, message, args});
   }
 };

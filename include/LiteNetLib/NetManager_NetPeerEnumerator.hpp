@@ -59,13 +59,13 @@ namespace LiteNetLib {
     // Get instance field reference: private LiteNetLib.NetPeer _p
     LiteNetLib::NetPeer*& dyn__p();
     // public LiteNetLib.NetPeer get_Current()
-    // Offset: 0x1C248D4
+    // Offset: 0x1DDC73C
     LiteNetLib::NetPeer* get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1C248DC
+    // Offset: 0x1DDC744
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(LiteNetLib.NetPeer p)
-    // Offset: 0x1C246D8
+    // Offset: 0x1DDC540
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     NetPeerEnumerator(LiteNetLib::NetPeer* p) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetManager::NetPeerEnumerator::.ctor");
@@ -73,13 +73,13 @@ namespace LiteNetLib {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, p);
     }
     // public System.Void Dispose()
-    // Offset: 0x1C24830
+    // Offset: 0x1DDC698
     void Dispose();
     // public System.Boolean MoveNext()
-    // Offset: 0x1C24834
+    // Offset: 0x1DDC69C
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1C24874
+    // Offset: 0x1DDC6DC
     void Reset();
   }; // LiteNetLib.NetManager/LiteNetLib.NetPeerEnumerator
   #pragma pack(pop)

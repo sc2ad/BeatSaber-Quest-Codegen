@@ -184,7 +184,7 @@ namespace System::Net::Http::Headers {
     }
     // public System.Void CopyTo(T[] array, System.Int32 arrayIndex)
     // Offset: 0xFFFFFFFF
-    void CopyTo(::Array<T>* array, int arrayIndex) {
+    void CopyTo(::ArrayWrapper<T> array, int arrayIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaderValueCollection_1::CopyTo");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CopyTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(arrayIndex)})));
       auto ___instance_arg = this;

@@ -40,74 +40,74 @@ namespace GlobalNamespace {
     // private System.Byte[] <Samples>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* Samples;
+    ::ArrayWrapper<uint8_t> Samples;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: OVRHapticsClip
-    OVRHapticsClip(int Count_ = {}, int Capacity_ = {}, ::Array<uint8_t>* Samples_ = {}) noexcept : Count{Count_}, Capacity{Capacity_}, Samples{Samples_} {}
+    OVRHapticsClip(int Count_ = {}, int Capacity_ = {}, ::ArrayWrapper<uint8_t> Samples_ = {}) noexcept : Count{Count_}, Capacity{Capacity_}, Samples{Samples_} {}
     // Get instance field reference: private System.Int32 <Count>k__BackingField
     int& dyn_$Count$k__BackingField();
     // Get instance field reference: private System.Int32 <Capacity>k__BackingField
     int& dyn_$Capacity$k__BackingField();
     // Get instance field reference: private System.Byte[] <Samples>k__BackingField
-    ::Array<uint8_t>*& dyn_$Samples$k__BackingField();
+    ::ArrayWrapper<uint8_t>& dyn_$Samples$k__BackingField();
     // public System.Int32 get_Count()
-    // Offset: 0x153F1B8
+    // Offset: 0x16C7F00
     int get_Count();
     // private System.Void set_Count(System.Int32 value)
-    // Offset: 0x153F1C0
+    // Offset: 0x16C7F08
     void set_Count(int value);
     // public System.Int32 get_Capacity()
-    // Offset: 0x153F1C8
+    // Offset: 0x16C7F10
     int get_Capacity();
     // private System.Void set_Capacity(System.Int32 value)
-    // Offset: 0x153F1D0
+    // Offset: 0x16C7F18
     void set_Capacity(int value);
     // public System.Byte[] get_Samples()
-    // Offset: 0x153F1D8
-    ::Array<uint8_t>* get_Samples();
+    // Offset: 0x16C7F20
+    ::ArrayWrapper<uint8_t> get_Samples();
     // private System.Void set_Samples(System.Byte[] value)
-    // Offset: 0x153F1E0
-    void set_Samples(::Array<uint8_t>* value);
+    // Offset: 0x16C7F28
+    void set_Samples(::ArrayWrapper<uint8_t> value);
     // public System.Void .ctor(System.Int32 capacity)
-    // Offset: 0x153EF48
+    // Offset: 0x16C7C90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHapticsClip* New_ctor(int capacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHapticsClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHapticsClip*, creationType>(capacity)));
     }
     // public System.Void .ctor(System.Byte[] samples, System.Int32 samplesCount)
-    // Offset: 0x153F1E8
+    // Offset: 0x16C7F30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static OVRHapticsClip* New_ctor(::Array<uint8_t>* samples, int samplesCount) {
+    static OVRHapticsClip* New_ctor(::ArrayWrapper<uint8_t> samples, int samplesCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHapticsClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHapticsClip*, creationType>(samples, samplesCount)));
     }
     // public System.Void .ctor(OVRHapticsClip a, OVRHapticsClip b)
-    // Offset: 0x153F2D0
+    // Offset: 0x16C8018
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHapticsClip* New_ctor(GlobalNamespace::OVRHapticsClip* a, GlobalNamespace::OVRHapticsClip* b) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHapticsClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHapticsClip*, creationType>(a, b)));
     }
     // public System.Void .ctor(UnityEngine.AudioClip audioClip, System.Int32 channel)
-    // Offset: 0x153F540
+    // Offset: 0x16C8288
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHapticsClip* New_ctor(UnityEngine::AudioClip* audioClip, int channel) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHapticsClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHapticsClip*, creationType>(audioClip, channel)));
     }
     // public System.Void WriteSample(System.Byte sample)
-    // Offset: 0x153F030
+    // Offset: 0x16C7D78
     void WriteSample(uint8_t sample);
     // public System.Void Reset()
-    // Offset: 0x153F908
+    // Offset: 0x16C8650
     void Reset();
     // private System.Void InitializeFromAudioFloatTrack(System.Single[] sourceData, System.Double sourceFrequency, System.Int32 sourceChannelCount, System.Int32 sourceChannel)
-    // Offset: 0x153F628
-    void InitializeFromAudioFloatTrack(::Array<float>* sourceData, double sourceFrequency, int sourceChannelCount, int sourceChannel);
+    // Offset: 0x16C8370
+    void InitializeFromAudioFloatTrack(::ArrayWrapper<float> sourceData, double sourceFrequency, int sourceChannelCount, int sourceChannel);
     // public System.Void .ctor()
-    // Offset: 0x153EDFC
+    // Offset: 0x16C7B44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -117,7 +117,7 @@ namespace GlobalNamespace {
     }
   }; // OVRHapticsClip
   #pragma pack(pop)
-  static check_size<sizeof(OVRHapticsClip), 24 + sizeof(::Array<uint8_t>*)> __GlobalNamespace_OVRHapticsClipSizeCheck;
+  static check_size<sizeof(OVRHapticsClip), 24 + sizeof(::ArrayWrapper<uint8_t>)> __GlobalNamespace_OVRHapticsClipSizeCheck;
   static_assert(sizeof(OVRHapticsClip) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHapticsClip*, "", "OVRHapticsClip");
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVRHapticsClip::get_Samples
 // Il2CppName: get_Samples
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (GlobalNamespace::OVRHapticsClip::*)()>(&GlobalNamespace::OVRHapticsClip::get_Samples)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (GlobalNamespace::OVRHapticsClip::*)()>(&GlobalNamespace::OVRHapticsClip::get_Samples)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHapticsClip*), "get_Samples", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -167,9 +167,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: GlobalNamespace::OVRHapticsClip::set_Samples
 // Il2CppName: set_Samples
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHapticsClip::*)(::Array<uint8_t>*)>(&GlobalNamespace::OVRHapticsClip::set_Samples)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHapticsClip::*)(::ArrayWrapper<uint8_t>)>(&GlobalNamespace::OVRHapticsClip::set_Samples)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHapticsClip*), "set_Samples", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
@@ -209,9 +209,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVRHapticsClip::InitializeFromAudioFloatTrack
 // Il2CppName: InitializeFromAudioFloatTrack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHapticsClip::*)(::Array<float>*, double, int, int)>(&GlobalNamespace::OVRHapticsClip::InitializeFromAudioFloatTrack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHapticsClip::*)(::ArrayWrapper<float>, double, int, int)>(&GlobalNamespace::OVRHapticsClip::InitializeFromAudioFloatTrack)> {
   static const MethodInfo* get() {
-    static auto* sourceData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
+    static auto* sourceData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
     static auto* sourceFrequency = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* sourceChannelCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* sourceChannel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

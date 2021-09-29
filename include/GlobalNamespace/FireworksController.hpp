@@ -56,14 +56,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: maxSpawnInterval and: directionalLights
     char __padding2[0x4] = {};
-    // [HeaderAttribute] Offset: 0xE3D454
-    // [NullAllowed] Offset: 0xE3D454
+    // [HeaderAttribute] Offset: 0xF05C38
+    // [NullAllowed] Offset: 0xF05C38
     // private DirectionalLight[] _directionalLights
     // Size: 0x8
     // Offset: 0x30
-    ::Array<GlobalNamespace::DirectionalLight*>* directionalLights;
+    ::ArrayWrapper<GlobalNamespace::DirectionalLight*> directionalLights;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::DirectionalLight*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::DirectionalLight*>) == 0x8);
     // private System.Single _lightsIntensity
     // Size: 0x4
     // Offset: 0x38
@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     int currentLightId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [InjectAttribute] Offset: 0xE3D4C0
+    // [InjectAttribute] Offset: 0xF05CA4
     // private readonly FireworkItemController/Pool _fireworkItemPool
     // Size: 0x8
     // Offset: 0x40
@@ -84,7 +84,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::FireworkItemController::Pool*) == 0x8);
     // Creating value type constructor for type: FireworksController
-    FireworksController(UnityEngine::Vector3 spawnSize_ = {}, float minSpawnInterval_ = {}, float maxSpawnInterval_ = {}, ::Array<GlobalNamespace::DirectionalLight*>* directionalLights_ = {}, float lightsIntensity_ = {}, int currentLightId_ = {}, GlobalNamespace::FireworkItemController::Pool* fireworkItemPool_ = {}) noexcept : spawnSize{spawnSize_}, minSpawnInterval{minSpawnInterval_}, maxSpawnInterval{maxSpawnInterval_}, directionalLights{directionalLights_}, lightsIntensity{lightsIntensity_}, currentLightId{currentLightId_}, fireworkItemPool{fireworkItemPool_} {}
+    FireworksController(UnityEngine::Vector3 spawnSize_ = {}, float minSpawnInterval_ = {}, float maxSpawnInterval_ = {}, ::ArrayWrapper<GlobalNamespace::DirectionalLight*> directionalLights_ = {}, float lightsIntensity_ = {}, int currentLightId_ = {}, GlobalNamespace::FireworkItemController::Pool* fireworkItemPool_ = {}) noexcept : spawnSize{spawnSize_}, minSpawnInterval{minSpawnInterval_}, maxSpawnInterval{maxSpawnInterval_}, directionalLights{directionalLights_}, lightsIntensity{lightsIntensity_}, currentLightId{currentLightId_}, fireworkItemPool{fireworkItemPool_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Vector3 _spawnSize
@@ -94,7 +94,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _maxSpawnInterval
     float& dyn__maxSpawnInterval();
     // Get instance field reference: private DirectionalLight[] _directionalLights
-    ::Array<GlobalNamespace::DirectionalLight*>*& dyn__directionalLights();
+    ::ArrayWrapper<GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
     // Get instance field reference: private System.Single _lightsIntensity
     float& dyn__lightsIntensity();
     // Get instance field reference: private System.Int32 _currentLightId
@@ -102,19 +102,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly FireworkItemController/Pool _fireworkItemPool
     GlobalNamespace::FireworkItemController::Pool*& dyn__fireworkItemPool();
     // protected System.Void OnEnable()
-    // Offset: 0x105ECF8
+    // Offset: 0x11B7B2C
     void OnEnable();
     // private System.Collections.IEnumerator SpawningCoroutine()
-    // Offset: 0x105ED24
+    // Offset: 0x11B7B58
     System::Collections::IEnumerator* SpawningCoroutine();
     // private System.Void HandleFireworkItemControllerDidFinish(FireworkItemController fireworkItemController)
-    // Offset: 0x105EDC0
+    // Offset: 0x11B7BF4
     void HandleFireworkItemControllerDidFinish(GlobalNamespace::FireworkItemController* fireworkItemController);
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x105EE6C
+    // Offset: 0x11B7CA0
     void OnDrawGizmosSelected();
     // public System.Void .ctor()
-    // Offset: 0x105EEF0
+    // Offset: 0x11B7D24
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -62,15 +62,15 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.List`1<ILightWithId>[] _lights
     // Size: 0x8
     // Offset: 0x28
-    ::Array<System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>*>* lights;
+    ::ArrayWrapper<System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>*> lights;
     // Field size check
-    static_assert(sizeof(::Array<System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>*>) == 0x8);
     // private readonly System.Nullable`1<UnityEngine.Color>[] _colors
     // Size: 0x8
     // Offset: 0x30
-    ::Array<System::Nullable_1<UnityEngine::Color>>* colors;
+    ::ArrayWrapper<System::Nullable_1<UnityEngine::Color>> colors;
     // Field size check
-    static_assert(sizeof(::Array<System::Nullable_1<UnityEngine::Color>>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Nullable_1<UnityEngine::Color>>) == 0x8);
     // private readonly System.Collections.Generic.List`1<ILightWithId> _lightsToUnregister
     // Size: 0x8
     // Offset: 0x38
@@ -84,7 +84,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: LightWithIdManager
-    LightWithIdManager(System::Action* didChangeSomeColorsThisFrameEvent_ = {}, System::Action_2<int, UnityEngine::Color>* didSetColorForIdEvent_ = {}, ::Array<System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>*>* lights_ = {}, ::Array<System::Nullable_1<UnityEngine::Color>>* colors_ = {}, System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>* lightsToUnregister_ = {}, bool didChangeSomeColorsThisFrame_ = {}) noexcept : didChangeSomeColorsThisFrameEvent{didChangeSomeColorsThisFrameEvent_}, didSetColorForIdEvent{didSetColorForIdEvent_}, lights{lights_}, colors{colors_}, lightsToUnregister{lightsToUnregister_}, didChangeSomeColorsThisFrame{didChangeSomeColorsThisFrame_} {}
+    LightWithIdManager(System::Action* didChangeSomeColorsThisFrameEvent_ = {}, System::Action_2<int, UnityEngine::Color>* didSetColorForIdEvent_ = {}, ::ArrayWrapper<System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>*> lights_ = {}, ::ArrayWrapper<System::Nullable_1<UnityEngine::Color>> colors_ = {}, System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>* lightsToUnregister_ = {}, bool didChangeSomeColorsThisFrame_ = {}) noexcept : didChangeSomeColorsThisFrameEvent{didChangeSomeColorsThisFrameEvent_}, didSetColorForIdEvent{didSetColorForIdEvent_}, lights{lights_}, colors{colors_}, lightsToUnregister{lightsToUnregister_}, didChangeSomeColorsThisFrame{didChangeSomeColorsThisFrame_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxLightId
@@ -98,45 +98,45 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<System.Int32,UnityEngine.Color> didSetColorForIdEvent
     System::Action_2<int, UnityEngine::Color>*& dyn_didSetColorForIdEvent();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<ILightWithId>[] _lights
-    ::Array<System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>*>*& dyn__lights();
+    ::ArrayWrapper<System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>*>& dyn__lights();
     // Get instance field reference: private readonly System.Nullable`1<UnityEngine.Color>[] _colors
-    ::Array<System::Nullable_1<UnityEngine::Color>>*& dyn__colors();
+    ::ArrayWrapper<System::Nullable_1<UnityEngine::Color>>& dyn__colors();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<ILightWithId> _lightsToUnregister
     System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>*& dyn__lightsToUnregister();
     // Get instance field reference: private System.Boolean _didChangeSomeColorsThisFrame
     bool& dyn__didChangeSomeColorsThisFrame();
     // public System.Nullable`1<UnityEngine.Color>[] get_colors()
-    // Offset: 0x1E19940
-    ::Array<System::Nullable_1<UnityEngine::Color>>* get_colors();
+    // Offset: 0x1E2987C
+    ::ArrayWrapper<System::Nullable_1<UnityEngine::Color>> get_colors();
     // public System.Void add_didChangeSomeColorsThisFrameEvent(System.Action value)
-    // Offset: 0x1E196B0
+    // Offset: 0x1E295EC
     void add_didChangeSomeColorsThisFrameEvent(System::Action* value);
     // public System.Void remove_didChangeSomeColorsThisFrameEvent(System.Action value)
-    // Offset: 0x1E19754
+    // Offset: 0x1E29690
     void remove_didChangeSomeColorsThisFrameEvent(System::Action* value);
     // public System.Void add_didSetColorForIdEvent(System.Action`2<System.Int32,UnityEngine.Color> value)
-    // Offset: 0x1E197F8
+    // Offset: 0x1E29734
     void add_didSetColorForIdEvent(System::Action_2<int, UnityEngine::Color>* value);
     // public System.Void remove_didSetColorForIdEvent(System.Action`2<System.Int32,UnityEngine.Color> value)
-    // Offset: 0x1E1989C
+    // Offset: 0x1E297D8
     void remove_didSetColorForIdEvent(System::Action_2<int, UnityEngine::Color>* value);
     // protected System.Void LateUpdate()
-    // Offset: 0x1E19948
+    // Offset: 0x1E29884
     void LateUpdate();
     // public System.Void RegisterLight(ILightWithId lightWithId)
-    // Offset: 0x1E19B38
+    // Offset: 0x1E29A74
     void RegisterLight(GlobalNamespace::ILightWithId* lightWithId);
     // public System.Void UnregisterLight(ILightWithId lightWithId)
-    // Offset: 0x1E19EA8
+    // Offset: 0x1E29DE4
     void UnregisterLight(GlobalNamespace::ILightWithId* lightWithId);
     // public System.Void SetColorForId(System.Int32 lightId, UnityEngine.Color color)
-    // Offset: 0x1E1A08C
+    // Offset: 0x1E29FC8
     void SetColorForId(int lightId, UnityEngine::Color color);
     // public UnityEngine.Color GetColorForId(System.Int32 lightId)
-    // Offset: 0x1E1A2F0
+    // Offset: 0x1E2A22C
     UnityEngine::Color GetColorForId(int lightId);
     // public System.Void .ctor()
-    // Offset: 0x1E1A3A0
+    // Offset: 0x1E2A2DC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -158,7 +158,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIdManager*, "", "LightWithIdMan
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIdManager::get_colors
 // Il2CppName: get_colors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Nullable_1<UnityEngine::Color>>* (GlobalNamespace::LightWithIdManager::*)()>(&GlobalNamespace::LightWithIdManager::get_colors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Nullable_1<UnityEngine::Color>> (GlobalNamespace::LightWithIdManager::*)()>(&GlobalNamespace::LightWithIdManager::get_colors)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "get_colors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

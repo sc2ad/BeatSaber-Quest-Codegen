@@ -73,37 +73,37 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private System.Int32 m_C
     int& dyn_m_C();
     // public System.Int32 get_a()
-    // Offset: 0x22C83D8
+    // Offset: 0x24F1494
     int get_a();
     // public System.Int32 get_b()
-    // Offset: 0x22C83E0
+    // Offset: 0x24F149C
     int get_b();
     // public System.Int32 get_c()
-    // Offset: 0x22C83E8
+    // Offset: 0x24F14A4
     int get_c();
     // public System.Collections.Generic.IEnumerable`1<System.Int32> get_indices()
-    // Offset: 0x22C83F0
+    // Offset: 0x24F14AC
     System::Collections::Generic::IEnumerable_1<int>* get_indices();
     // public System.Void .ctor(System.Int32 a, System.Int32 b, System.Int32 c)
-    // Offset: 0x22C8488
+    // Offset: 0x24F1544
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Triangle(int a, int b, int c)
     // public System.Boolean Equals(UnityEngine.ProBuilder.Triangle other)
-    // Offset: 0x22C8494
+    // Offset: 0x24F1550
     bool Equals(UnityEngine::ProBuilder::Triangle other);
     // public System.Boolean IsAdjacent(UnityEngine.ProBuilder.Triangle other)
-    // Offset: 0x22C8590
+    // Offset: 0x24F164C
     bool IsAdjacent(UnityEngine::ProBuilder::Triangle other);
     // private System.Boolean ContainsEdge(UnityEngine.ProBuilder.Edge edge)
-    // Offset: 0x22C8634
+    // Offset: 0x24F16F0
     bool ContainsEdge(UnityEngine::ProBuilder::Edge edge);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x22C84C8
+    // Offset: 0x24F1584
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x22C8570
+    // Offset: 0x24F162C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

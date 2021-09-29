@@ -77,9 +77,9 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // private System.UInt32[] X
     // Size: 0x8
     // Offset: 0x48
-    ::Array<uint>* X;
+    ::ArrayWrapper<uint> X;
     // Field size check
-    static_assert(sizeof(::Array<uint>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
     // private System.Int32 xOff
     // Size: 0x4
     // Offset: 0x50
@@ -87,11 +87,11 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: Sha256Digest
-    Sha256Digest(uint H1_ = {}, uint H2_ = {}, uint H3_ = {}, uint H4_ = {}, uint H5_ = {}, uint H6_ = {}, uint H7_ = {}, uint H8_ = {}, ::Array<uint>* X_ = {}, int xOff_ = {}) noexcept : H1{H1_}, H2{H2_}, H3{H3_}, H4{H4_}, H5{H5_}, H6{H6_}, H7{H7_}, H8{H8_}, X{X_}, xOff{xOff_} {}
+    Sha256Digest(uint H1_ = {}, uint H2_ = {}, uint H3_ = {}, uint H4_ = {}, uint H5_ = {}, uint H6_ = {}, uint H7_ = {}, uint H8_ = {}, ::ArrayWrapper<uint> X_ = {}, int xOff_ = {}) noexcept : H1{H1_}, H2{H2_}, H3{H3_}, H4{H4_}, H5{H5_}, H6{H6_}, H7{H7_}, H8{H8_}, X{X_}, xOff{xOff_} {}
     // Get static field: static private readonly System.UInt32[] K
-    static ::Array<uint>* _get_K();
+    static ::ArrayWrapper<uint> _get_K();
     // Set static field: static private readonly System.UInt32[] K
-    static void _set_K(::Array<uint>* value);
+    static void _set_K(::ArrayWrapper<uint> value);
     // Get instance field reference: private System.UInt32 H1
     uint& dyn_H1();
     // Get instance field reference: private System.UInt32 H2
@@ -109,44 +109,44 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Get instance field reference: private System.UInt32 H8
     uint& dyn_H8();
     // Get instance field reference: private System.UInt32[] X
-    ::Array<uint>*& dyn_X();
+    ::ArrayWrapper<uint>& dyn_X();
     // Get instance field reference: private System.Int32 xOff
     int& dyn_xOff();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.Sha256Digest t)
-    // Offset: 0x192BFCC
+    // Offset: 0x1A9CE00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Sha256Digest* New_ctor(Org::BouncyCastle::Crypto::Digests::Sha256Digest* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::Sha256Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Sha256Digest*, creationType>(t)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x192CAA4
+    // Offset: 0x1A9D8D8
     static void _cctor();
     // private System.Void CopyIn(Org.BouncyCastle.Crypto.Digests.Sha256Digest t)
-    // Offset: 0x192C048
+    // Offset: 0x1A9CE7C
     void CopyIn(Org::BouncyCastle::Crypto::Digests::Sha256Digest* t);
     // private System.Void initHs()
-    // Offset: 0x192BFB0
+    // Offset: 0x1A9CDE4
     void initHs();
     // static private System.UInt32 Sum1Ch(System.UInt32 x, System.UInt32 y, System.UInt32 z)
-    // Offset: 0x192C96C
+    // Offset: 0x1A9D7A0
     static uint Sum1Ch(uint x, uint y, uint z);
     // static private System.UInt32 Sum0Maj(System.UInt32 x, System.UInt32 y, System.UInt32 z)
-    // Offset: 0x192C98C
+    // Offset: 0x1A9D7C0
     static uint Sum0Maj(uint x, uint y, uint z);
     // static private System.UInt32 Theta0(System.UInt32 x)
-    // Offset: 0x192C95C
+    // Offset: 0x1A9D790
     static uint Theta0(uint x);
     // static private System.UInt32 Theta1(System.UInt32 x)
-    // Offset: 0x192C94C
+    // Offset: 0x1A9D780
     static uint Theta1(uint x);
     // public override System.String get_AlgorithmName()
-    // Offset: 0x192C0E0
+    // Offset: 0x1A9CF14
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.String GeneralDigest::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public System.Void .ctor()
-    // Offset: 0x192BF34
+    // Offset: 0x1A9CD68
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Void GeneralDigest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -156,42 +156,42 @@ namespace Org::BouncyCastle::Crypto::Digests {
       return THROW_UNLESS((::il2cpp_utils::New<Sha256Digest*, creationType>()));
     }
     // public override System.Int32 GetDigestSize()
-    // Offset: 0x192C128
+    // Offset: 0x1A9CF5C
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Int32 GeneralDigest::GetDigestSize()
     int GetDigestSize();
     // override System.Void ProcessWord(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x192C130
+    // Offset: 0x1A9CF64
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Void GeneralDigest::ProcessWord(System.Byte[] input, System.Int32 inOff)
-    void ProcessWord(::Array<uint8_t>* input, int inOff);
+    void ProcessWord(::ArrayWrapper<uint8_t> input, int inOff);
     // override System.Void ProcessLength(System.Int64 bitLength)
-    // Offset: 0x192C1C8
+    // Offset: 0x1A9CFFC
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Void GeneralDigest::ProcessLength(System.Int64 bitLength)
     void ProcessLength(int64_t bitLength);
     // public override System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x192C24C
+    // Offset: 0x1A9D080
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Int32 GeneralDigest::DoFinal(System.Byte[] output, System.Int32 outOff)
-    int DoFinal(::Array<uint8_t>* output, int outOff);
+    int DoFinal(::ArrayWrapper<uint8_t> output, int outOff);
     // public override System.Void Reset()
-    // Offset: 0x192C338
+    // Offset: 0x1A9D16C
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Void GeneralDigest::Reset()
     void Reset();
     // override System.Void ProcessBlock()
-    // Offset: 0x192C390
+    // Offset: 0x1A9D1C4
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Void GeneralDigest::ProcessBlock()
     void ProcessBlock();
     // public override Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x192C9B0
+    // Offset: 0x1A9D7E4
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: Org.BouncyCastle.Utilities.IMemoable GeneralDigest::Copy()
     Org::BouncyCastle::Utilities::IMemoable* Copy();
     // public override System.Void Reset(Org.BouncyCastle.Utilities.IMemoable other)
-    // Offset: 0x192CA10
+    // Offset: 0x1A9D844
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Void GeneralDigest::Reset(Org.BouncyCastle.Utilities.IMemoable other)
     void Reset(Org::BouncyCastle::Utilities::IMemoable* other);
@@ -294,9 +294,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Sha256Digest::ProcessWord
 // Il2CppName: ProcessWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::Sha256Digest::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Digests::Sha256Digest::ProcessWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::Sha256Digest::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::Sha256Digest::ProcessWord)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::Sha256Digest*), "ProcessWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, inOff});
   }
@@ -313,9 +313,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Sha256Digest::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::Sha256Digest::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Digests::Sha256Digest::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::Sha256Digest::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::Sha256Digest::DoFinal)> {
   static const MethodInfo* get() {
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::Sha256Digest*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{output, outOff});
   }

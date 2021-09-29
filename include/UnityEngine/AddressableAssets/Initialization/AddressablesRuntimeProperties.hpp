@@ -51,28 +51,28 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.String> s_CachedValues
     static void _set_s_CachedValues(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x144E058
+    // Offset: 0x159B870
     static void _cctor();
     // static private System.Reflection.Assembly[] GetAssemblies()
-    // Offset: 0x144D578
-    static ::Array<System::Reflection::Assembly*>* GetAssemblies();
+    // Offset: 0x159AD90
+    static ::ArrayWrapper<System::Reflection::Assembly*> GetAssemblies();
     // static System.Int32 GetCachedValueCount()
-    // Offset: 0x144D59C
+    // Offset: 0x159ADB4
     static int GetCachedValueCount();
     // static public System.Void SetPropertyValue(System.String name, System.String val)
-    // Offset: 0x144D618
+    // Offset: 0x159AE30
     static void SetPropertyValue(::Il2CppString* name, ::Il2CppString* val);
     // static public System.Void ClearCachedPropertyValues()
-    // Offset: 0x144D6AC
+    // Offset: 0x159AEC4
     static void ClearCachedPropertyValues();
     // static public System.String EvaluateProperty(System.String name)
-    // Offset: 0x144D728
+    // Offset: 0x159AF40
     static ::Il2CppString* EvaluateProperty(::Il2CppString* name);
     // static public System.String EvaluateString(System.String input)
-    // Offset: 0x1444504
+    // Offset: 0x1591D1C
     static ::Il2CppString* EvaluateString(::Il2CppString* input);
     // static public System.String EvaluateString(System.String inputString, System.Char startDelimiter, System.Char endDelimiter, System.Func`2<System.String,System.String> varFunc)
-    // Offset: 0x144DB64
+    // Offset: 0x159B37C
     static ::Il2CppString* EvaluateString(::Il2CppString* inputString, ::Il2CppChar startDelimiter, ::Il2CppChar endDelimiter, System::Func_2<::Il2CppString*, ::Il2CppString*>* varFunc);
   }; // UnityEngine.AddressableAssets.Initialization.AddressablesRuntimeProperties
   #pragma pack(pop)
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::GetAssemblies
 // Il2CppName: GetAssemblies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::Assembly*>* (*)()>(&UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::GetAssemblies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Reflection::Assembly*> (*)()>(&UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::GetAssemblies)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties*), "GetAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -35,9 +35,9 @@ namespace System::Collections::Generic {
     // private readonly System.Int32[] _array
     // Size: 0x8
     // Offset: 0x20
-    ::Array<int>* array;
+    ::ArrayWrapper<int> array;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // private readonly System.Boolean _useStackAlloc
     // Size: 0x1
     // Offset: 0x28
@@ -45,37 +45,37 @@ namespace System::Collections::Generic {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: BitHelper
-    BitHelper(int length_ = {}, int* arrayPtr_ = {}, ::Array<int>* array_ = {}, bool useStackAlloc_ = {}) noexcept : length{length_}, arrayPtr{arrayPtr_}, array{array_}, useStackAlloc{useStackAlloc_} {}
+    BitHelper(int length_ = {}, int* arrayPtr_ = {}, ::ArrayWrapper<int> array_ = {}, bool useStackAlloc_ = {}) noexcept : length{length_}, arrayPtr{arrayPtr_}, array{array_}, useStackAlloc{useStackAlloc_} {}
     // Get instance field reference: private readonly System.Int32 _length
     int& dyn__length();
     // Get instance field reference: private readonly System.Int32* _arrayPtr
     int*& dyn__arrayPtr();
     // Get instance field reference: private readonly System.Int32[] _array
-    ::Array<int>*& dyn__array();
+    ::ArrayWrapper<int>& dyn__array();
     // Get instance field reference: private readonly System.Boolean _useStackAlloc
     bool& dyn__useStackAlloc();
     // System.Void .ctor(System.Int32* bitArrayPtr, System.Int32 length)
-    // Offset: 0x23BBF30
+    // Offset: 0x25C0E54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitHelper* New_ctor(int* bitArrayPtr, int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::BitHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitHelper*, creationType>(bitArrayPtr, length)));
     }
     // System.Void .ctor(System.Int32[] bitArray, System.Int32 length)
-    // Offset: 0x23BBF74
+    // Offset: 0x25C0E98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BitHelper* New_ctor(::Array<int>* bitArray, int length) {
+    static BitHelper* New_ctor(::ArrayWrapper<int> bitArray, int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::BitHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitHelper*, creationType>(bitArray, length)));
     }
     // System.Void MarkBit(System.Int32 bitPosition)
-    // Offset: 0x23BBFB0
+    // Offset: 0x25C0ED4
     void MarkBit(int bitPosition);
     // System.Boolean IsMarked(System.Int32 bitPosition)
-    // Offset: 0x23BC038
+    // Offset: 0x25C0F5C
     bool IsMarked(int bitPosition);
     // static System.Int32 ToIntArrayLength(System.Int32 n)
-    // Offset: 0x23BC0C8
+    // Offset: 0x25C0FEC
     static int ToIntArrayLength(int n);
   }; // System.Collections.Generic.BitHelper
   #pragma pack(pop)

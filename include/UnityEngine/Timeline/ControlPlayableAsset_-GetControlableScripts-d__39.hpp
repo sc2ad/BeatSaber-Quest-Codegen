@@ -75,9 +75,9 @@ namespace UnityEngine::Timeline {
     // private UnityEngine.MonoBehaviour[] <>7__wrap1
     // Size: 0x8
     // Offset: 0x38
-    ::Array<UnityEngine::MonoBehaviour*>* $$7__wrap1;
+    ::ArrayWrapper<UnityEngine::MonoBehaviour*> $$7__wrap1;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::MonoBehaviour*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::MonoBehaviour*>) == 0x8);
     // private System.Int32 <>7__wrap2
     // Size: 0x4
     // Offset: 0x40
@@ -85,7 +85,7 @@ namespace UnityEngine::Timeline {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: $GetControlableScripts$d__39
-    $GetControlableScripts$d__39(int $$1__state_ = {}, UnityEngine::MonoBehaviour* $$2__current_ = {}, int $$l__initialThreadId_ = {}, UnityEngine::GameObject* root_ = {}, UnityEngine::GameObject* $$3__root_ = {}, ::Array<UnityEngine::MonoBehaviour*>* $$7__wrap1_ = {}, int $$7__wrap2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, root{root_}, $$3__root{$$3__root_}, $$7__wrap1{$$7__wrap1_}, $$7__wrap2{$$7__wrap2_} {}
+    $GetControlableScripts$d__39(int $$1__state_ = {}, UnityEngine::MonoBehaviour* $$2__current_ = {}, int $$l__initialThreadId_ = {}, UnityEngine::GameObject* root_ = {}, UnityEngine::GameObject* $$3__root_ = {}, ::ArrayWrapper<UnityEngine::MonoBehaviour*> $$7__wrap1_ = {}, int $$7__wrap2_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$l__initialThreadId{$$l__initialThreadId_}, root{root_}, $$3__root{$$3__root_}, $$7__wrap1{$$7__wrap1_}, $$7__wrap2{$$7__wrap2_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>
     operator System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>*>(this);
@@ -105,36 +105,36 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: public UnityEngine.GameObject <>3__root
     UnityEngine::GameObject*& dyn_$$3__root();
     // Get instance field reference: private UnityEngine.MonoBehaviour[] <>7__wrap1
-    ::Array<UnityEngine::MonoBehaviour*>*& dyn_$$7__wrap1();
+    ::ArrayWrapper<UnityEngine::MonoBehaviour*>& dyn_$$7__wrap1();
     // Get instance field reference: private System.Int32 <>7__wrap2
     int& dyn_$$7__wrap2();
     // private UnityEngine.MonoBehaviour System.Collections.Generic.IEnumerator<UnityEngine.MonoBehaviour>.get_Current()
-    // Offset: 0x1826164
+    // Offset: 0x19F950C
     UnityEngine::MonoBehaviour* System_Collections_Generic_IEnumerator$UnityEngine_MonoBehaviour$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x18261CC
+    // Offset: 0x19F9574
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1824720
+    // Offset: 0x19F7AC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ControlPlayableAsset::$GetControlableScripts$d__39* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ControlPlayableAsset::$GetControlableScripts$d__39*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x182600C
+    // Offset: 0x19F93B4
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1826010
+    // Offset: 0x19F93B8
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x182616C
+    // Offset: 0x19F9514
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<UnityEngine.MonoBehaviour> System.Collections.Generic.IEnumerable<UnityEngine.MonoBehaviour>.GetEnumerator()
-    // Offset: 0x18261D4
+    // Offset: 0x19F957C
     System::Collections::Generic::IEnumerator_1<UnityEngine::MonoBehaviour*>* System_Collections_Generic_IEnumerable$UnityEngine_MonoBehaviour$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1826280
+    // Offset: 0x19F9628
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.Timeline.ControlPlayableAsset/UnityEngine.Timeline.<GetControlableScripts>d__39
   #pragma pack(pop)

@@ -33,7 +33,7 @@ namespace UnityEngine::UI {
     IFactoryControls() noexcept {}
     // public UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
     // Offset: 0xFFFFFFFF
-    UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, ::Array<System::Type*>* components);
+    UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, ::ArrayWrapper<System::Type*> components);
     // Creating initializer_list -> params proxy for: UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
     UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, std::initializer_list<System::Type*> components);
     // Creating TArgs -> initializer_list proxy for: UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
@@ -50,10 +50,10 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::DefaultControls::IFactoryControls*, "Uni
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::IFactoryControls::CreateGameObject
 // Il2CppName: CreateGameObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::UI::DefaultControls::IFactoryControls::*)(::Il2CppString*, ::Array<System::Type*>*)>(&UnityEngine::UI::DefaultControls::IFactoryControls::CreateGameObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::UI::DefaultControls::IFactoryControls::*)(::Il2CppString*, ::ArrayWrapper<System::Type*>)>(&UnityEngine::UI::DefaultControls::IFactoryControls::CreateGameObject)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* components = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
+    static auto* components = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Type")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls::IFactoryControls*), "CreateGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, components});
   }
 };

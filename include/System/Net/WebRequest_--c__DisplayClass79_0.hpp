@@ -58,10 +58,10 @@ namespace System::Net {
     // Get instance field reference: public System.Net.WebRequest <>4__this
     System::Net::WebRequest*& dyn_$$4__this();
     // System.Threading.Tasks.Task`1<System.Net.WebResponse> <GetResponseAsync>b__1()
-    // Offset: 0x15E4BB0
+    // Offset: 0x1788068
     System::Threading::Tasks::Task_1<System::Net::WebResponse*>* $GetResponseAsync$b__1();
     // public System.Void .ctor()
-    // Offset: 0x15E43C8
+    // Offset: 0x1787880
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

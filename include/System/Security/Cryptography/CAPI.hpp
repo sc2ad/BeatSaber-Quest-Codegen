@@ -24,10 +24,10 @@ namespace System::Security::Cryptography {
     // Creating value type constructor for type: CAPI
     CAPI() noexcept {}
     // static public System.String CryptFindOIDInfoNameFromKey(System.String key, System.Security.Cryptography.OidGroup oidGroup)
-    // Offset: 0x15E7614
+    // Offset: 0x178AACC
     static ::Il2CppString* CryptFindOIDInfoNameFromKey(::Il2CppString* key, System::Security::Cryptography::OidGroup oidGroup);
     // static public System.String CryptFindOIDInfoKeyFromName(System.String name, System.Security.Cryptography.OidGroup oidGroup)
-    // Offset: 0x15E7E6C
+    // Offset: 0x178B324
     static ::Il2CppString* CryptFindOIDInfoKeyFromName(::Il2CppString* name, System::Security::Cryptography::OidGroup oidGroup);
   }; // System.Security.Cryptography.CAPI
   #pragma pack(pop)

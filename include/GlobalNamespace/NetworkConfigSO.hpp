@@ -96,25 +96,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _masterServerStatusUrl
     ::Il2CppString*& dyn__masterServerStatusUrl();
     // public System.Int32 get_maxPartySize()
-    // Offset: 0x1049970
+    // Offset: 0x1138910
     int get_maxPartySize();
     // public System.Int32 get_discoveryPort()
-    // Offset: 0x1049978
+    // Offset: 0x1138918
     int get_discoveryPort();
     // public System.Int32 get_partyPort()
-    // Offset: 0x1049980
+    // Offset: 0x1138920
     int get_partyPort();
     // public System.Int32 get_multiplayerPort()
-    // Offset: 0x1049988
+    // Offset: 0x1138928
     int get_multiplayerPort();
     // public MasterServerEndPoint get_masterServerEndPoint()
-    // Offset: 0x1049990
+    // Offset: 0x1138930
     GlobalNamespace::MasterServerEndPoint* get_masterServerEndPoint();
     // public System.String get_masterServerStatusUrl()
-    // Offset: 0x1049A08
+    // Offset: 0x11389A8
     ::Il2CppString* get_masterServerStatusUrl();
     // public System.Void .ctor()
-    // Offset: 0x1049A10
+    // Offset: 0x11389B0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

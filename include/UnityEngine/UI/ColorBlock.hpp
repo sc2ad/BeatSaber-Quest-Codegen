@@ -23,49 +23,49 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ColorBlock/*, public System::ValueType, public System::IEquatable_1<UnityEngine::UI::ColorBlock>*/ {
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0xDEB918
+    // [FormerlySerializedAsAttribute] Offset: 0xEA8DEC
     // private UnityEngine.Color m_NormalColor
     // Size: 0x10
     // Offset: 0x0
     UnityEngine::Color m_NormalColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // [FormerlySerializedAsAttribute] Offset: 0xDEB964
+    // [FormerlySerializedAsAttribute] Offset: 0xEA8E38
     // private UnityEngine.Color m_HighlightedColor
     // Size: 0x10
     // Offset: 0x10
     UnityEngine::Color m_HighlightedColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // [FormerlySerializedAsAttribute] Offset: 0xDEB9B0
+    // [FormerlySerializedAsAttribute] Offset: 0xEA8E84
     // private UnityEngine.Color m_PressedColor
     // Size: 0x10
     // Offset: 0x20
     UnityEngine::Color m_PressedColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // [FormerlySerializedAsAttribute] Offset: 0xDEB9FC
+    // [FormerlySerializedAsAttribute] Offset: 0xEA8ED0
     // private UnityEngine.Color m_SelectedColor
     // Size: 0x10
     // Offset: 0x30
     UnityEngine::Color m_SelectedColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // [FormerlySerializedAsAttribute] Offset: 0xDEBA48
+    // [FormerlySerializedAsAttribute] Offset: 0xEA8F1C
     // private UnityEngine.Color m_DisabledColor
     // Size: 0x10
     // Offset: 0x40
     UnityEngine::Color m_DisabledColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // [RangeAttribute] Offset: 0xDEBA94
+    // [RangeAttribute] Offset: 0xEA8F68
     // private System.Single m_ColorMultiplier
     // Size: 0x4
     // Offset: 0x50
     float m_ColorMultiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xDEBAD4
+    // [FormerlySerializedAsAttribute] Offset: 0xEA8FA8
     // private System.Single m_FadeDuration
     // Size: 0x4
     // Offset: 0x54
@@ -97,60 +97,60 @@ namespace UnityEngine::UI {
     // Get instance field reference: private System.Single m_FadeDuration
     float& dyn_m_FadeDuration();
     // public UnityEngine.Color get_normalColor()
-    // Offset: 0x147C2E8
+    // Offset: 0x15FB844
     UnityEngine::Color get_normalColor();
     // public System.Void set_normalColor(UnityEngine.Color value)
-    // Offset: 0x147C2F4
+    // Offset: 0x15FB850
     void set_normalColor(UnityEngine::Color value);
     // public UnityEngine.Color get_highlightedColor()
-    // Offset: 0x147C300
+    // Offset: 0x15FB85C
     UnityEngine::Color get_highlightedColor();
     // public System.Void set_highlightedColor(UnityEngine.Color value)
-    // Offset: 0x147C30C
+    // Offset: 0x15FB868
     void set_highlightedColor(UnityEngine::Color value);
     // public UnityEngine.Color get_pressedColor()
-    // Offset: 0x147C318
+    // Offset: 0x15FB874
     UnityEngine::Color get_pressedColor();
     // public System.Void set_pressedColor(UnityEngine.Color value)
-    // Offset: 0x147C324
+    // Offset: 0x15FB880
     void set_pressedColor(UnityEngine::Color value);
     // public UnityEngine.Color get_selectedColor()
-    // Offset: 0x147C330
+    // Offset: 0x15FB88C
     UnityEngine::Color get_selectedColor();
     // public System.Void set_selectedColor(UnityEngine.Color value)
-    // Offset: 0x147C33C
+    // Offset: 0x15FB898
     void set_selectedColor(UnityEngine::Color value);
     // public UnityEngine.Color get_disabledColor()
-    // Offset: 0x147C348
+    // Offset: 0x15FB8A4
     UnityEngine::Color get_disabledColor();
     // public System.Void set_disabledColor(UnityEngine.Color value)
-    // Offset: 0x147C354
+    // Offset: 0x15FB8B0
     void set_disabledColor(UnityEngine::Color value);
     // public System.Single get_colorMultiplier()
-    // Offset: 0x147C360
+    // Offset: 0x15FB8BC
     float get_colorMultiplier();
     // public System.Void set_colorMultiplier(System.Single value)
-    // Offset: 0x147C368
+    // Offset: 0x15FB8C4
     void set_colorMultiplier(float value);
     // public System.Single get_fadeDuration()
-    // Offset: 0x147C370
+    // Offset: 0x15FB8CC
     float get_fadeDuration();
     // public System.Void set_fadeDuration(System.Single value)
-    // Offset: 0x147C378
+    // Offset: 0x15FB8D4
     void set_fadeDuration(float value);
     // static public UnityEngine.UI.ColorBlock get_defaultColorBlock()
-    // Offset: 0x147C380
+    // Offset: 0x15FB8DC
     static UnityEngine::UI::ColorBlock get_defaultColorBlock();
     // public System.Boolean Equals(UnityEngine.UI.ColorBlock other)
-    // Offset: 0x147C5D8
+    // Offset: 0x15FBB34
     bool Equals(UnityEngine::UI::ColorBlock other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x147C538
+    // Offset: 0x15FBA94
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x147C730
+    // Offset: 0x15FBC8C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -159,10 +159,10 @@ namespace UnityEngine::UI {
   static check_size<sizeof(ColorBlock), 84 + sizeof(float)> __UnityEngine_UI_ColorBlockSizeCheck;
   static_assert(sizeof(ColorBlock) == 0x58);
   // static public System.Boolean op_Equality(UnityEngine.UI.ColorBlock point1, UnityEngine.UI.ColorBlock point2)
-  // Offset: 0x147C6AC
+  // Offset: 0x15FBC08
   bool operator ==(const UnityEngine::UI::ColorBlock& point1, const UnityEngine::UI::ColorBlock& point2);
   // static public System.Boolean op_Inequality(UnityEngine.UI.ColorBlock point1, UnityEngine.UI.ColorBlock point2)
-  // Offset: 0x147C6EC
+  // Offset: 0x15FBC48
   bool operator !=(const UnityEngine::UI::ColorBlock& point1, const UnityEngine::UI::ColorBlock& point2);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

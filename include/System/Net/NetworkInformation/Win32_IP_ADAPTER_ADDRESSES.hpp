@@ -90,9 +90,9 @@ namespace System::Net::NetworkInformation {
     // public System.Byte[] PhysicalAddress
     // Size: 0x8
     // Offset: 0x50
-    ::Array<uint8_t>* PhysicalAddress;
+    ::ArrayWrapper<uint8_t> PhysicalAddress;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // public System.UInt32 PhysicalAddressLength
     // Size: 0x4
     // Offset: 0x58
@@ -132,9 +132,9 @@ namespace System::Net::NetworkInformation {
     // public System.UInt32[] ZoneIndices
     // Size: 0x8
     // Offset: 0x70
-    ::Array<uint>* ZoneIndices;
+    ::ArrayWrapper<uint> ZoneIndices;
     // Field size check
-    static_assert(sizeof(::Array<uint>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
     // public System.IntPtr FirstPrefix
     // Size: 0x8
     // Offset: 0x78
@@ -228,9 +228,9 @@ namespace System::Net::NetworkInformation {
     // public System.Byte[] Dhcpv6ClientDuid
     // Size: 0x8
     // Offset: 0xE8
-    ::Array<uint8_t>* Dhcpv6ClientDuid;
+    ::ArrayWrapper<uint8_t> Dhcpv6ClientDuid;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // public System.UInt64 Dhcpv6ClientDuidLength
     // Size: 0x8
     // Offset: 0xF0
@@ -250,7 +250,7 @@ namespace System::Net::NetworkInformation {
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
     // Creating value type constructor for type: Win32_IP_ADAPTER_ADDRESSES
-    constexpr Win32_IP_ADAPTER_ADDRESSES(System::Net::NetworkInformation::AlignmentUnion Alignment_ = {}, System::IntPtr Next_ = {}, ::Il2CppString* AdapterName_ = {}, System::IntPtr FirstUnicastAddress_ = {}, System::IntPtr FirstAnycastAddress_ = {}, System::IntPtr FirstMulticastAddress_ = {}, System::IntPtr FirstDnsServerAddress_ = {}, ::Il2CppString* DnsSuffix_ = {}, ::Il2CppString* Description_ = {}, ::Il2CppString* FriendlyName_ = {}, ::Array<uint8_t>* PhysicalAddress_ = {}, uint PhysicalAddressLength_ = {}, uint Flags_ = {}, uint Mtu_ = {}, System::Net::NetworkInformation::NetworkInterfaceType IfType_ = {}, System::Net::NetworkInformation::OperationalStatus OperStatus_ = {}, int Ipv6IfIndex_ = {}, ::Array<uint>* ZoneIndices_ = {}, System::IntPtr FirstPrefix_ = {}, uint64_t TransmitLinkSpeed_ = {}, uint64_t ReceiveLinkSpeed_ = {}, System::IntPtr FirstWinsServerAddress_ = {}, System::IntPtr FirstGatewayAddress_ = {}, uint Ipv4Metric_ = {}, uint Ipv6Metric_ = {}, uint64_t Luid_ = {}, System::Net::NetworkInformation::Win32_SOCKET_ADDRESS Dhcpv4Server_ = {}, uint CompartmentId_ = {}, uint64_t NetworkGuid_ = {}, int ConnectionType_ = {}, int TunnelType_ = {}, System::Net::NetworkInformation::Win32_SOCKET_ADDRESS Dhcpv6Server_ = {}, ::Array<uint8_t>* Dhcpv6ClientDuid_ = {}, uint64_t Dhcpv6ClientDuidLength_ = {}, uint64_t Dhcpv6Iaid_ = {}, System::IntPtr FirstDnsSuffix_ = {}) noexcept : Alignment{Alignment_}, Next{Next_}, AdapterName{AdapterName_}, FirstUnicastAddress{FirstUnicastAddress_}, FirstAnycastAddress{FirstAnycastAddress_}, FirstMulticastAddress{FirstMulticastAddress_}, FirstDnsServerAddress{FirstDnsServerAddress_}, DnsSuffix{DnsSuffix_}, Description{Description_}, FriendlyName{FriendlyName_}, PhysicalAddress{PhysicalAddress_}, PhysicalAddressLength{PhysicalAddressLength_}, Flags{Flags_}, Mtu{Mtu_}, IfType{IfType_}, OperStatus{OperStatus_}, Ipv6IfIndex{Ipv6IfIndex_}, ZoneIndices{ZoneIndices_}, FirstPrefix{FirstPrefix_}, TransmitLinkSpeed{TransmitLinkSpeed_}, ReceiveLinkSpeed{ReceiveLinkSpeed_}, FirstWinsServerAddress{FirstWinsServerAddress_}, FirstGatewayAddress{FirstGatewayAddress_}, Ipv4Metric{Ipv4Metric_}, Ipv6Metric{Ipv6Metric_}, Luid{Luid_}, Dhcpv4Server{Dhcpv4Server_}, CompartmentId{CompartmentId_}, NetworkGuid{NetworkGuid_}, ConnectionType{ConnectionType_}, TunnelType{TunnelType_}, Dhcpv6Server{Dhcpv6Server_}, Dhcpv6ClientDuid{Dhcpv6ClientDuid_}, Dhcpv6ClientDuidLength{Dhcpv6ClientDuidLength_}, Dhcpv6Iaid{Dhcpv6Iaid_}, FirstDnsSuffix{FirstDnsSuffix_} {}
+    constexpr Win32_IP_ADAPTER_ADDRESSES(System::Net::NetworkInformation::AlignmentUnion Alignment_ = {}, System::IntPtr Next_ = {}, ::Il2CppString* AdapterName_ = {}, System::IntPtr FirstUnicastAddress_ = {}, System::IntPtr FirstAnycastAddress_ = {}, System::IntPtr FirstMulticastAddress_ = {}, System::IntPtr FirstDnsServerAddress_ = {}, ::Il2CppString* DnsSuffix_ = {}, ::Il2CppString* Description_ = {}, ::Il2CppString* FriendlyName_ = {}, ::ArrayWrapper<uint8_t> PhysicalAddress_ = {}, uint PhysicalAddressLength_ = {}, uint Flags_ = {}, uint Mtu_ = {}, System::Net::NetworkInformation::NetworkInterfaceType IfType_ = {}, System::Net::NetworkInformation::OperationalStatus OperStatus_ = {}, int Ipv6IfIndex_ = {}, ::ArrayWrapper<uint> ZoneIndices_ = {}, System::IntPtr FirstPrefix_ = {}, uint64_t TransmitLinkSpeed_ = {}, uint64_t ReceiveLinkSpeed_ = {}, System::IntPtr FirstWinsServerAddress_ = {}, System::IntPtr FirstGatewayAddress_ = {}, uint Ipv4Metric_ = {}, uint Ipv6Metric_ = {}, uint64_t Luid_ = {}, System::Net::NetworkInformation::Win32_SOCKET_ADDRESS Dhcpv4Server_ = {}, uint CompartmentId_ = {}, uint64_t NetworkGuid_ = {}, int ConnectionType_ = {}, int TunnelType_ = {}, System::Net::NetworkInformation::Win32_SOCKET_ADDRESS Dhcpv6Server_ = {}, ::ArrayWrapper<uint8_t> Dhcpv6ClientDuid_ = {}, uint64_t Dhcpv6ClientDuidLength_ = {}, uint64_t Dhcpv6Iaid_ = {}, System::IntPtr FirstDnsSuffix_ = {}) noexcept : Alignment{Alignment_}, Next{Next_}, AdapterName{AdapterName_}, FirstUnicastAddress{FirstUnicastAddress_}, FirstAnycastAddress{FirstAnycastAddress_}, FirstMulticastAddress{FirstMulticastAddress_}, FirstDnsServerAddress{FirstDnsServerAddress_}, DnsSuffix{DnsSuffix_}, Description{Description_}, FriendlyName{FriendlyName_}, PhysicalAddress{PhysicalAddress_}, PhysicalAddressLength{PhysicalAddressLength_}, Flags{Flags_}, Mtu{Mtu_}, IfType{IfType_}, OperStatus{OperStatus_}, Ipv6IfIndex{Ipv6IfIndex_}, ZoneIndices{ZoneIndices_}, FirstPrefix{FirstPrefix_}, TransmitLinkSpeed{TransmitLinkSpeed_}, ReceiveLinkSpeed{ReceiveLinkSpeed_}, FirstWinsServerAddress{FirstWinsServerAddress_}, FirstGatewayAddress{FirstGatewayAddress_}, Ipv4Metric{Ipv4Metric_}, Ipv6Metric{Ipv6Metric_}, Luid{Luid_}, Dhcpv4Server{Dhcpv4Server_}, CompartmentId{CompartmentId_}, NetworkGuid{NetworkGuid_}, ConnectionType{ConnectionType_}, TunnelType{TunnelType_}, Dhcpv6Server{Dhcpv6Server_}, Dhcpv6ClientDuid{Dhcpv6ClientDuid_}, Dhcpv6ClientDuidLength{Dhcpv6ClientDuidLength_}, Dhcpv6Iaid{Dhcpv6Iaid_}, FirstDnsSuffix{FirstDnsSuffix_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -276,7 +276,7 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: public System.String FriendlyName
     ::Il2CppString*& dyn_FriendlyName();
     // Get instance field reference: public System.Byte[] PhysicalAddress
-    ::Array<uint8_t>*& dyn_PhysicalAddress();
+    ::ArrayWrapper<uint8_t>& dyn_PhysicalAddress();
     // Get instance field reference: public System.UInt32 PhysicalAddressLength
     uint& dyn_PhysicalAddressLength();
     // Get instance field reference: public System.UInt32 Flags
@@ -290,7 +290,7 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: public System.Int32 Ipv6IfIndex
     int& dyn_Ipv6IfIndex();
     // Get instance field reference: public System.UInt32[] ZoneIndices
-    ::Array<uint>*& dyn_ZoneIndices();
+    ::ArrayWrapper<uint>& dyn_ZoneIndices();
     // Get instance field reference: public System.IntPtr FirstPrefix
     System::IntPtr& dyn_FirstPrefix();
     // Get instance field reference: public System.UInt64 TransmitLinkSpeed
@@ -320,7 +320,7 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: public System.Net.NetworkInformation.Win32_SOCKET_ADDRESS Dhcpv6Server
     System::Net::NetworkInformation::Win32_SOCKET_ADDRESS& dyn_Dhcpv6Server();
     // Get instance field reference: public System.Byte[] Dhcpv6ClientDuid
-    ::Array<uint8_t>*& dyn_Dhcpv6ClientDuid();
+    ::ArrayWrapper<uint8_t>& dyn_Dhcpv6ClientDuid();
     // Get instance field reference: public System.UInt64 Dhcpv6ClientDuidLength
     uint64_t& dyn_Dhcpv6ClientDuidLength();
     // Get instance field reference: public System.UInt64 Dhcpv6Iaid

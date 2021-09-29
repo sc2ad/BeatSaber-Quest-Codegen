@@ -13,10 +13,6 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
 // Type namespace: System.Collections.Concurrent
 namespace System::Collections::Concurrent {
   // WARNING Size may be invalid!
@@ -53,11 +49,11 @@ namespace System::Collections::Concurrent {
     }
     // public T[] ToArray()
     // Offset: 0xFFFFFFFF
-    ::Array<T>* ToArray() {
+    ::ArrayWrapper<T> ToArray() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::IProducerConsumerCollection_1::ToArray");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToArray", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(___instance_arg, ___internal__method);
     }
   }; // System.Collections.Concurrent.IProducerConsumerCollection`1
   // Could not write size check! Type: System.Collections.Concurrent.IProducerConsumerCollection`1 is generic, or has no fields that are valid for size checks!

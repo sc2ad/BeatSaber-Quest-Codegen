@@ -46,25 +46,25 @@ namespace Org::BouncyCastle::Math::Field {
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger characteristic
     Org::BouncyCastle::Math::BigInteger*& dyn_characteristic();
     // public Org.BouncyCastle.Math.BigInteger get_Characteristic()
-    // Offset: 0x1DD70E8
+    // Offset: 0x1F9308C
     Org::BouncyCastle::Math::BigInteger* get_Characteristic();
     // public System.Int32 get_Dimension()
-    // Offset: 0x1DD70F0
+    // Offset: 0x1F93094
     int get_Dimension();
     // System.Void .ctor(Org.BouncyCastle.Math.BigInteger characteristic)
-    // Offset: 0x1DD6AAC
+    // Offset: 0x1F92A50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrimeField* New_ctor(Org::BouncyCastle::Math::BigInteger* characteristic) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::Field::PrimeField::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrimeField*, creationType>(characteristic)));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1DD70F8
+    // Offset: 0x1F9309C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1DD71C0
+    // Offset: 0x1F93164
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

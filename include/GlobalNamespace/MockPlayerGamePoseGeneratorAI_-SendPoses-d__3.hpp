@@ -150,27 +150,27 @@ namespace GlobalNamespace {
     // private MockNoteData[] <leftNotes>5__10
     // Size: 0x8
     // Offset: 0xC0
-    ::Array<GlobalNamespace::MockNoteData*>* $leftNotes$5__10;
+    ::ArrayWrapper<GlobalNamespace::MockNoteData*> $leftNotes$5__10;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MockNoteData*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MockNoteData*>) == 0x8);
     // private MockNoteData[] <rightNotes>5__11
     // Size: 0x8
     // Offset: 0xC8
-    ::Array<GlobalNamespace::MockNoteData*>* $rightNotes$5__11;
+    ::ArrayWrapper<GlobalNamespace::MockNoteData*> $rightNotes$5__11;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MockNoteData*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MockNoteData*>) == 0x8);
     // private MockNoteData[] <bombNotes>5__12
     // Size: 0x8
     // Offset: 0xD0
-    ::Array<GlobalNamespace::MockNoteData*>* $bombNotes$5__12;
+    ::ArrayWrapper<GlobalNamespace::MockNoteData*> $bombNotes$5__12;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MockNoteData*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MockNoteData*>) == 0x8);
     // private MockObstacleData[] <obstacles>5__13
     // Size: 0x8
     // Offset: 0xD8
-    ::Array<GlobalNamespace::MockObstacleData*>* $obstacles$5__13;
+    ::ArrayWrapper<GlobalNamespace::MockObstacleData*> $obstacles$5__13;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MockObstacleData*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MockObstacleData*>) == 0x8);
     // private System.Int32 <leftNoteIndex>5__14
     // Size: 0x4
     // Offset: 0xE0
@@ -258,7 +258,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Runtime::CompilerServices::TaskAwaiter) == 0x8);
     // Creating value type constructor for type: $SendPoses$d__3
-    constexpr $SendPoses$d__3(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::MockPlayerGamePoseGeneratorAI* $$4__this_ = {}, GlobalNamespace::MockBeatmapData* beatmapData_ = {}, float introStartTime_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Action* onSongFinished_ = {}, float $startTime$5__2_ = {}, float $lastEventTime$5__3_ = {}, UnityEngine::Pose $lastHeadPose$5__4_ = {}, UnityEngine::Pose $lastLeftHandPose$5__5_ = {}, UnityEngine::Pose $lastRightHandPose$5__6_ = {}, float $timeScale$5__7_ = {}, float $lastSongTime$5__8_ = {}, int $lineCount$5__9_ = {}, ::Array<GlobalNamespace::MockNoteData*>* $leftNotes$5__10_ = {}, ::Array<GlobalNamespace::MockNoteData*>* $rightNotes$5__11_ = {}, ::Array<GlobalNamespace::MockNoteData*>* $bombNotes$5__12_ = {}, ::Array<GlobalNamespace::MockObstacleData*>* $obstacles$5__13_ = {}, int $leftNoteIndex$5__14_ = {}, int $rightNoteIndex$5__15_ = {}, int $bombNoteIndex$5__16_ = {}, int $obstacleIndex$5__17_ = {}, int $prevLeftScore$5__18_ = {}, int $prevRightScore$5__19_ = {}, int $nextLeftHitScore$5__20_ = {}, int $nextRightHitScore$5__21_ = {}, int $score$5__22_ = {}, int $combo$5__23_ = {}, int $multiplier$5__24_ = {}, bool $fullCombo$5__25_ = {}, bool $hasFinishedLevel$5__26_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, beatmapData{beatmapData_}, introStartTime{introStartTime_}, gameplayModifiers{gameplayModifiers_}, cancellationToken{cancellationToken_}, onSongFinished{onSongFinished_}, $startTime$5__2{$startTime$5__2_}, $lastEventTime$5__3{$lastEventTime$5__3_}, $lastHeadPose$5__4{$lastHeadPose$5__4_}, $lastLeftHandPose$5__5{$lastLeftHandPose$5__5_}, $lastRightHandPose$5__6{$lastRightHandPose$5__6_}, $timeScale$5__7{$timeScale$5__7_}, $lastSongTime$5__8{$lastSongTime$5__8_}, $lineCount$5__9{$lineCount$5__9_}, $leftNotes$5__10{$leftNotes$5__10_}, $rightNotes$5__11{$rightNotes$5__11_}, $bombNotes$5__12{$bombNotes$5__12_}, $obstacles$5__13{$obstacles$5__13_}, $leftNoteIndex$5__14{$leftNoteIndex$5__14_}, $rightNoteIndex$5__15{$rightNoteIndex$5__15_}, $bombNoteIndex$5__16{$bombNoteIndex$5__16_}, $obstacleIndex$5__17{$obstacleIndex$5__17_}, $prevLeftScore$5__18{$prevLeftScore$5__18_}, $prevRightScore$5__19{$prevRightScore$5__19_}, $nextLeftHitScore$5__20{$nextLeftHitScore$5__20_}, $nextRightHitScore$5__21{$nextRightHitScore$5__21_}, $score$5__22{$score$5__22_}, $combo$5__23{$combo$5__23_}, $multiplier$5__24{$multiplier$5__24_}, $fullCombo$5__25{$fullCombo$5__25_}, $hasFinishedLevel$5__26{$hasFinishedLevel$5__26_}, $$u__1{$$u__1_} {}
+    constexpr $SendPoses$d__3(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::MockPlayerGamePoseGeneratorAI* $$4__this_ = {}, GlobalNamespace::MockBeatmapData* beatmapData_ = {}, float introStartTime_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Action* onSongFinished_ = {}, float $startTime$5__2_ = {}, float $lastEventTime$5__3_ = {}, UnityEngine::Pose $lastHeadPose$5__4_ = {}, UnityEngine::Pose $lastLeftHandPose$5__5_ = {}, UnityEngine::Pose $lastRightHandPose$5__6_ = {}, float $timeScale$5__7_ = {}, float $lastSongTime$5__8_ = {}, int $lineCount$5__9_ = {}, ::ArrayWrapper<GlobalNamespace::MockNoteData*> $leftNotes$5__10_ = {}, ::ArrayWrapper<GlobalNamespace::MockNoteData*> $rightNotes$5__11_ = {}, ::ArrayWrapper<GlobalNamespace::MockNoteData*> $bombNotes$5__12_ = {}, ::ArrayWrapper<GlobalNamespace::MockObstacleData*> $obstacles$5__13_ = {}, int $leftNoteIndex$5__14_ = {}, int $rightNoteIndex$5__15_ = {}, int $bombNoteIndex$5__16_ = {}, int $obstacleIndex$5__17_ = {}, int $prevLeftScore$5__18_ = {}, int $prevRightScore$5__19_ = {}, int $nextLeftHitScore$5__20_ = {}, int $nextRightHitScore$5__21_ = {}, int $score$5__22_ = {}, int $combo$5__23_ = {}, int $multiplier$5__24_ = {}, bool $fullCombo$5__25_ = {}, bool $hasFinishedLevel$5__26_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, beatmapData{beatmapData_}, introStartTime{introStartTime_}, gameplayModifiers{gameplayModifiers_}, cancellationToken{cancellationToken_}, onSongFinished{onSongFinished_}, $startTime$5__2{$startTime$5__2_}, $lastEventTime$5__3{$lastEventTime$5__3_}, $lastHeadPose$5__4{$lastHeadPose$5__4_}, $lastLeftHandPose$5__5{$lastLeftHandPose$5__5_}, $lastRightHandPose$5__6{$lastRightHandPose$5__6_}, $timeScale$5__7{$timeScale$5__7_}, $lastSongTime$5__8{$lastSongTime$5__8_}, $lineCount$5__9{$lineCount$5__9_}, $leftNotes$5__10{$leftNotes$5__10_}, $rightNotes$5__11{$rightNotes$5__11_}, $bombNotes$5__12{$bombNotes$5__12_}, $obstacles$5__13{$obstacles$5__13_}, $leftNoteIndex$5__14{$leftNoteIndex$5__14_}, $rightNoteIndex$5__15{$rightNoteIndex$5__15_}, $bombNoteIndex$5__16{$bombNoteIndex$5__16_}, $obstacleIndex$5__17{$obstacleIndex$5__17_}, $prevLeftScore$5__18{$prevLeftScore$5__18_}, $prevRightScore$5__19{$prevRightScore$5__19_}, $nextLeftHitScore$5__20{$nextLeftHitScore$5__20_}, $nextRightHitScore$5__21{$nextRightHitScore$5__21_}, $score$5__22{$score$5__22_}, $combo$5__23{$combo$5__23_}, $multiplier$5__24{$multiplier$5__24_}, $fullCombo$5__25{$fullCombo$5__25_}, $hasFinishedLevel$5__26{$hasFinishedLevel$5__26_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -300,13 +300,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 <lineCount>5__9
     int& dyn_$lineCount$5__9();
     // Get instance field reference: private MockNoteData[] <leftNotes>5__10
-    ::Array<GlobalNamespace::MockNoteData*>*& dyn_$leftNotes$5__10();
+    ::ArrayWrapper<GlobalNamespace::MockNoteData*>& dyn_$leftNotes$5__10();
     // Get instance field reference: private MockNoteData[] <rightNotes>5__11
-    ::Array<GlobalNamespace::MockNoteData*>*& dyn_$rightNotes$5__11();
+    ::ArrayWrapper<GlobalNamespace::MockNoteData*>& dyn_$rightNotes$5__11();
     // Get instance field reference: private MockNoteData[] <bombNotes>5__12
-    ::Array<GlobalNamespace::MockNoteData*>*& dyn_$bombNotes$5__12();
+    ::ArrayWrapper<GlobalNamespace::MockNoteData*>& dyn_$bombNotes$5__12();
     // Get instance field reference: private MockObstacleData[] <obstacles>5__13
-    ::Array<GlobalNamespace::MockObstacleData*>*& dyn_$obstacles$5__13();
+    ::ArrayWrapper<GlobalNamespace::MockObstacleData*>& dyn_$obstacles$5__13();
     // Get instance field reference: private System.Int32 <leftNoteIndex>5__14
     int& dyn_$leftNoteIndex$5__14();
     // Get instance field reference: private System.Int32 <rightNoteIndex>5__15
@@ -336,10 +336,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
     System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x23DF5B0
+    // Offset: 0x25E4D8C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x23E07E8
+    // Offset: 0x25E5FC4
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MockPlayerGamePoseGeneratorAI/<SendPoses>d__3
   #pragma pack(pop)

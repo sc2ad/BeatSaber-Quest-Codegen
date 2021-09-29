@@ -18,7 +18,7 @@ namespace Org::BouncyCastle::OpenSsl {
     IPasswordFinder() noexcept {}
     // public System.Char[] GetPassword()
     // Offset: 0xFFFFFFFF
-    ::Array<::Il2CppChar>* GetPassword();
+    ::ArrayWrapper<::Il2CppChar> GetPassword();
   }; // Org.BouncyCastle.OpenSsl.IPasswordFinder
   #pragma pack(pop)
 }
@@ -28,7 +28,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::IPasswordFinder*, "Org.Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::OpenSsl::IPasswordFinder::GetPassword
 // Il2CppName: GetPassword
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (Org::BouncyCastle::OpenSsl::IPasswordFinder::*)()>(&Org::BouncyCastle::OpenSsl::IPasswordFinder::GetPassword)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppChar> (Org::BouncyCastle::OpenSsl::IPasswordFinder::*)()>(&Org::BouncyCastle::OpenSsl::IPasswordFinder::GetPassword)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::OpenSsl::IPasswordFinder*), "GetPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

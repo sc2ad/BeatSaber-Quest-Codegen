@@ -37,10 +37,10 @@ namespace GlobalNamespace {
     // private UnityEngine.MeshRenderer[] _meshRenderers
     // Size: 0x8
     // Offset: 0x18
-    ::Array<UnityEngine::MeshRenderer*>* meshRenderers;
+    ::ArrayWrapper<UnityEngine::MeshRenderer*> meshRenderers;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::MeshRenderer*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3E400
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::MeshRenderer*>) == 0x8);
+    // [InjectAttribute] Offset: 0xF06D84
     // private readonly BasicSpectrogramData _spectrogramData
     // Size: 0x8
     // Offset: 0x20
@@ -48,10 +48,10 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BasicSpectrogramData*) == 0x8);
     // Creating value type constructor for type: Spectrogram
-    Spectrogram(::Array<UnityEngine::MeshRenderer*>* meshRenderers_ = {}, GlobalNamespace::BasicSpectrogramData* spectrogramData_ = {}) noexcept : meshRenderers{meshRenderers_}, spectrogramData{spectrogramData_} {}
+    Spectrogram(::ArrayWrapper<UnityEngine::MeshRenderer*> meshRenderers_ = {}, GlobalNamespace::BasicSpectrogramData* spectrogramData_ = {}) noexcept : meshRenderers{meshRenderers_}, spectrogramData{spectrogramData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE3E410
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF06D94
     // Get static field: static private readonly System.Int32 _spectrogramDataID
     static int _get__spectrogramDataID();
     // Set static field: static private readonly System.Int32 _spectrogramDataID
@@ -61,17 +61,17 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
     // Get instance field reference: private UnityEngine.MeshRenderer[] _meshRenderers
-    ::Array<UnityEngine::MeshRenderer*>*& dyn__meshRenderers();
+    ::ArrayWrapper<UnityEngine::MeshRenderer*>& dyn__meshRenderers();
     // Get instance field reference: private readonly BasicSpectrogramData _spectrogramData
     GlobalNamespace::BasicSpectrogramData*& dyn__spectrogramData();
     // protected System.Void Awake()
-    // Offset: 0x10A09D4
+    // Offset: 0x110F6B8
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x10A0A80
+    // Offset: 0x110F764
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x10A0BA0
+    // Offset: 0x110F884
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -84,7 +84,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<Spectrogram*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x10A0BA8
+    // Offset: 0x110F88C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

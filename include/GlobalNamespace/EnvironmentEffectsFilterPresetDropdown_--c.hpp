@@ -45,13 +45,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Tuple`2<EnvironmentEffectsFilterPreset,System.String>,System.String> <>9__7_0
     static void _set_$$9__7_0(System::Func_2<System::Tuple_2<GlobalNamespace::EnvironmentEffectsFilterPreset, ::Il2CppString*>*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1057CE0
+    // Offset: 0x11B098C
     static void _cctor();
     // System.String <Start>b__7_0(System.Tuple`2<EnvironmentEffectsFilterPreset,System.String> x)
-    // Offset: 0x1057D4C
+    // Offset: 0x11B09F8
     ::Il2CppString* $Start$b__7_0(System::Tuple_2<GlobalNamespace::EnvironmentEffectsFilterPreset, ::Il2CppString*>* x);
     // public System.Void .ctor()
-    // Offset: 0x1057D44
+    // Offset: 0x11B09F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

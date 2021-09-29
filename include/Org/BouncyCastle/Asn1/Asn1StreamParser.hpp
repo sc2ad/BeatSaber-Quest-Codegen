@@ -51,49 +51,49 @@ namespace Org::BouncyCastle::Asn1 {
     // private readonly System.Byte[][] tmpBuffers
     // Size: 0x8
     // Offset: 0x20
-    ::Array<::Array<uint8_t>*>* tmpBuffers;
+    ::ArrayWrapper<::ArrayWrapper<uint8_t>> tmpBuffers;
     // Field size check
-    static_assert(sizeof(::Array<::Array<uint8_t>*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::ArrayWrapper<uint8_t>>) == 0x8);
     // Creating value type constructor for type: Asn1StreamParser
-    Asn1StreamParser(System::IO::Stream* in_ = {}, int limit_ = {}, ::Array<::Array<uint8_t>*>* tmpBuffers_ = {}) noexcept : in{in_}, limit{limit_}, tmpBuffers{tmpBuffers_} {}
+    Asn1StreamParser(System::IO::Stream* in_ = {}, int limit_ = {}, ::ArrayWrapper<::ArrayWrapper<uint8_t>> tmpBuffers_ = {}) noexcept : in{in_}, limit{limit_}, tmpBuffers{tmpBuffers_} {}
     // Get instance field reference: private readonly System.IO.Stream _in
     System::IO::Stream*& dyn__in();
     // Get instance field reference: private readonly System.Int32 _limit
     int& dyn__limit();
     // Get instance field reference: private readonly System.Byte[][] tmpBuffers
-    ::Array<::Array<uint8_t>*>*& dyn_tmpBuffers();
+    ::ArrayWrapper<::ArrayWrapper<uint8_t>>& dyn_tmpBuffers();
     // public System.Void .ctor(System.IO.Stream inStream)
-    // Offset: 0x172DFB4
+    // Offset: 0x18DF78C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1StreamParser* New_ctor(System::IO::Stream* inStream) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1StreamParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1StreamParser*, creationType>(inStream)));
     }
     // public System.Void .ctor(System.IO.Stream inStream, System.Int32 limit)
-    // Offset: 0x172F4D8
+    // Offset: 0x18E0CB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1StreamParser* New_ctor(System::IO::Stream* inStream, int limit) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1StreamParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1StreamParser*, creationType>(inStream, limit)));
     }
     // Org.BouncyCastle.Asn1.IAsn1Convertible ReadIndef(System.Int32 tagValue)
-    // Offset: 0x1733588
+    // Offset: 0x18E4D60
     Org::BouncyCastle::Asn1::IAsn1Convertible* ReadIndef(int tagValue);
     // Org.BouncyCastle.Asn1.Asn1Object ReadTaggedObject(System.Boolean constructed, System.Int32 tag)
-    // Offset: 0x172DFE8
+    // Offset: 0x18DF7C0
     Org::BouncyCastle::Asn1::Asn1Object* ReadTaggedObject(bool constructed, int tag);
     // public Org.BouncyCastle.Asn1.IAsn1Convertible ReadObject()
-    // Offset: 0x1733898
+    // Offset: 0x18E5070
     Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
     // private System.Void Set00Check(System.Boolean enabled)
-    // Offset: 0x1733DEC
+    // Offset: 0x18E55C4
     void Set00Check(bool enabled);
     // Org.BouncyCastle.Asn1.Asn1EncodableVector ReadVector()
-    // Offset: 0x17336CC
+    // Offset: 0x18E4EA4
     Org::BouncyCastle::Asn1::Asn1EncodableVector* ReadVector();
   }; // Org.BouncyCastle.Asn1.Asn1StreamParser
   #pragma pack(pop)
-  static check_size<sizeof(Asn1StreamParser), 32 + sizeof(::Array<::Array<uint8_t>*>*)> __Org_BouncyCastle_Asn1_Asn1StreamParserSizeCheck;
+  static check_size<sizeof(Asn1StreamParser), 32 + sizeof(::ArrayWrapper<::ArrayWrapper<uint8_t>>)> __Org_BouncyCastle_Asn1_Asn1StreamParserSizeCheck;
   static_assert(sizeof(Asn1StreamParser) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1StreamParser*, "Org.BouncyCastle.Asn1", "Asn1StreamParser");

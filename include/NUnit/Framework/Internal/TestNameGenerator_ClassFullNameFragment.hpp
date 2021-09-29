@@ -32,7 +32,7 @@ namespace NUnit::Framework::Internal {
     // Creating value type constructor for type: ClassFullNameFragment
     ClassFullNameFragment() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x229B2EC
+    // Offset: 0x24A3634
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment
     // Base method: System.Void NameFragment::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -42,10 +42,10 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator::ClassFullNameFragment*, creationType>()));
     }
     // public override System.String GetText(System.Reflection.MethodInfo method, System.Object[] args)
-    // Offset: 0x229BF40
+    // Offset: 0x24A4288
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment
     // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] args)
-    ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::Array<::Il2CppObject*>* args);
+    ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::ArrayWrapper<::Il2CppObject*> args);
   }; // NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.ClassFullNameFragment
   #pragma pack(pop)
 }
@@ -58,10 +58,10 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator::ClassFullN
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::ClassFullNameFragment::GetText
 // Il2CppName: GetText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestNameGenerator::ClassFullNameFragment::*)(System::Reflection::MethodInfo*, ::Array<::Il2CppObject*>*)>(&NUnit::Framework::Internal::TestNameGenerator::ClassFullNameFragment::GetText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestNameGenerator::ClassFullNameFragment::*)(System::Reflection::MethodInfo*, ::ArrayWrapper<::Il2CppObject*>)>(&NUnit::Framework::Internal::TestNameGenerator::ClassFullNameFragment::GetText)> {
   static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestNameGenerator::ClassFullNameFragment*), "GetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method, args});
   }
 };

@@ -29,73 +29,73 @@ namespace Org::BouncyCastle::Math::EC::Custom::Djb {
     // Creating value type constructor for type: Curve25519Field
     Curve25519Field() noexcept {}
     // Get static field: static readonly System.UInt32[] P
-    static ::Array<uint>* _get_P();
+    static ::ArrayWrapper<uint> _get_P();
     // Set static field: static readonly System.UInt32[] P
-    static void _set_P(::Array<uint>* value);
+    static void _set_P(::ArrayWrapper<uint> value);
     // Get static field: static private readonly System.UInt32[] PExt
-    static ::Array<uint>* _get_PExt();
+    static ::ArrayWrapper<uint> _get_PExt();
     // Set static field: static private readonly System.UInt32[] PExt
-    static void _set_PExt(::Array<uint>* value);
+    static void _set_PExt(::ArrayWrapper<uint> value);
     // static private System.Void .cctor()
-    // Offset: 0x1DB6990
+    // Offset: 0x1F59DA4
     static void _cctor();
     // static public System.Void Add(System.UInt32[] x, System.UInt32[] y, System.UInt32[] z)
-    // Offset: 0x1DB5920
-    static void Add(::Array<uint>* x, ::Array<uint>* y, ::Array<uint>* z);
+    // Offset: 0x1F58D34
+    static void Add(::ArrayWrapper<uint> x, ::ArrayWrapper<uint> y, ::ArrayWrapper<uint> z);
     // static public System.Void AddOne(System.UInt32[] x, System.UInt32[] z)
-    // Offset: 0x1DB5A6C
-    static void AddOne(::Array<uint>* x, ::Array<uint>* z);
+    // Offset: 0x1F58E80
+    static void AddOne(::ArrayWrapper<uint> x, ::ArrayWrapper<uint> z);
     // static public System.UInt32[] FromBigInteger(Org.BouncyCastle.Math.BigInteger x)
-    // Offset: 0x1DB5B34
-    static ::Array<uint>* FromBigInteger(Org::BouncyCastle::Math::BigInteger* x);
+    // Offset: 0x1F58F48
+    static ::ArrayWrapper<uint> FromBigInteger(Org::BouncyCastle::Math::BigInteger* x);
     // static public System.Void Inv(System.UInt32[] x, System.UInt32[] z)
-    // Offset: 0x1DB5BF8
-    static void Inv(::Array<uint>* x, ::Array<uint>* z);
+    // Offset: 0x1F5900C
+    static void Inv(::ArrayWrapper<uint> x, ::ArrayWrapper<uint> z);
     // static public System.Int32 IsZero(System.UInt32[] x)
-    // Offset: 0x1DB5E80
-    static int IsZero(::Array<uint>* x);
+    // Offset: 0x1F59294
+    static int IsZero(::ArrayWrapper<uint> x);
     // static public System.Void Multiply(System.UInt32[] x, System.UInt32[] y, System.UInt32[] z)
-    // Offset: 0x1DB5F70
-    static void Multiply(::Array<uint>* x, ::Array<uint>* y, ::Array<uint>* z);
+    // Offset: 0x1F59384
+    static void Multiply(::ArrayWrapper<uint> x, ::ArrayWrapper<uint> y, ::ArrayWrapper<uint> z);
     // static public System.Void MultiplyAddToExt(System.UInt32[] x, System.UInt32[] y, System.UInt32[] zz)
-    // Offset: 0x1DB6254
-    static void MultiplyAddToExt(::Array<uint>* x, ::Array<uint>* y, ::Array<uint>* zz);
+    // Offset: 0x1F59668
+    static void MultiplyAddToExt(::ArrayWrapper<uint> x, ::ArrayWrapper<uint> y, ::ArrayWrapper<uint> zz);
     // static public System.Void Negate(System.UInt32[] x, System.UInt32[] z)
-    // Offset: 0x1DB64AC
-    static void Negate(::Array<uint>* x, ::Array<uint>* z);
+    // Offset: 0x1F598C0
+    static void Negate(::ArrayWrapper<uint> x, ::ArrayWrapper<uint> z);
     // static public System.Void Random(Org.BouncyCastle.Security.SecureRandom r, System.UInt32[] z)
-    // Offset: 0x1DB6580
-    static void Random(Org::BouncyCastle::Security::SecureRandom* r, ::Array<uint>* z);
+    // Offset: 0x1F59994
+    static void Random(Org::BouncyCastle::Security::SecureRandom* r, ::ArrayWrapper<uint> z);
     // static public System.Void RandomMult(Org.BouncyCastle.Security.SecureRandom r, System.UInt32[] z)
-    // Offset: 0x1DB5330
-    static void RandomMult(Org::BouncyCastle::Security::SecureRandom* r, ::Array<uint>* z);
+    // Offset: 0x1F58744
+    static void RandomMult(Org::BouncyCastle::Security::SecureRandom* r, ::ArrayWrapper<uint> z);
     // static public System.Void Reduce(System.UInt32[] xx, System.UInt32[] z)
-    // Offset: 0x1DB60EC
-    static void Reduce(::Array<uint>* xx, ::Array<uint>* z);
+    // Offset: 0x1F59500
+    static void Reduce(::ArrayWrapper<uint> xx, ::ArrayWrapper<uint> z);
     // static public System.Void Reduce27(System.UInt32 x, System.UInt32[] z)
-    // Offset: 0x1DB6684
-    static void Reduce27(uint x, ::Array<uint>* z);
+    // Offset: 0x1F59A98
+    static void Reduce27(uint x, ::ArrayWrapper<uint> z);
     // static public System.Void Square(System.UInt32[] x, System.UInt32[] z)
-    // Offset: 0x1DB5EE0
-    static void Square(::Array<uint>* x, ::Array<uint>* z);
+    // Offset: 0x1F592F4
+    static void Square(::ArrayWrapper<uint> x, ::ArrayWrapper<uint> z);
     // static public System.Void SquareN(System.UInt32[] x, System.Int32 n, System.UInt32[] z)
-    // Offset: 0x1DB6008
-    static void SquareN(::Array<uint>* x, int n, ::Array<uint>* z);
+    // Offset: 0x1F5941C
+    static void SquareN(::ArrayWrapper<uint> x, int n, ::ArrayWrapper<uint> z);
     // static public System.Void Subtract(System.UInt32[] x, System.UInt32[] y, System.UInt32[] z)
-    // Offset: 0x1DB679C
-    static void Subtract(::Array<uint>* x, ::Array<uint>* y, ::Array<uint>* z);
+    // Offset: 0x1F59BB0
+    static void Subtract(::ArrayWrapper<uint> x, ::ArrayWrapper<uint> y, ::ArrayWrapper<uint> z);
     // static public System.Void Twice(System.UInt32[] x, System.UInt32[] z)
-    // Offset: 0x1DB68C4
-    static void Twice(::Array<uint>* x, ::Array<uint>* z);
+    // Offset: 0x1F59CD8
+    static void Twice(::ArrayWrapper<uint> x, ::ArrayWrapper<uint> z);
     // static private System.UInt32 AddPTo(System.UInt32[] z)
-    // Offset: 0x1DB6838
-    static uint AddPTo(::Array<uint>* z);
+    // Offset: 0x1F59C4C
+    static uint AddPTo(::ArrayWrapper<uint> z);
     // static private System.Int32 SubPFrom(System.UInt32[] z)
-    // Offset: 0x1DB59EC
-    static int SubPFrom(::Array<uint>* z);
+    // Offset: 0x1F58E00
+    static int SubPFrom(::ArrayWrapper<uint> z);
     // static private System.Int32 SubPExtFrom(System.UInt32[] zz)
-    // Offset: 0x1DB6324
-    static int SubPExtFrom(::Array<uint>* zz);
+    // Offset: 0x1F59738
+    static int SubPExtFrom(::ArrayWrapper<uint> zz);
   }; // Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519Field
   #pragma pack(pop)
 }
@@ -113,28 +113,28 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint>*, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Add)> {
   static const MethodInfo* get() {
-    static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* y = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* x = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* y = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* z = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, z});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::AddOne
 // Il2CppName: AddOne
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::AddOne)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::AddOne)> {
   static const MethodInfo* get() {
-    static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* x = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* z = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field*), "AddOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, z});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::FromBigInteger
 // Il2CppName: FromBigInteger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint>* (*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::FromBigInteger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint> (*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::FromBigInteger)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field*), "FromBigInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -143,160 +143,160 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Inv
 // Il2CppName: Inv
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Inv)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Inv)> {
   static const MethodInfo* get() {
-    static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* x = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* z = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field*), "Inv", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, z});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::IsZero
 // Il2CppName: IsZero
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::IsZero)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::IsZero)> {
   static const MethodInfo* get() {
-    static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* x = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field*), "IsZero", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Multiply
 // Il2CppName: Multiply
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint>*, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Multiply)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Multiply)> {
   static const MethodInfo* get() {
-    static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* y = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* x = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* y = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* z = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field*), "Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, z});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::MultiplyAddToExt
 // Il2CppName: MultiplyAddToExt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint>*, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::MultiplyAddToExt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::MultiplyAddToExt)> {
   static const MethodInfo* get() {
-    static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* y = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* zz = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* x = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* y = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* zz = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field*), "MultiplyAddToExt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, zz});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Negate
 // Il2CppName: Negate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Negate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Negate)> {
   static const MethodInfo* get() {
-    static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* x = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* z = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field*), "Negate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, z});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Random
 // Il2CppName: Random
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Security::SecureRandom*, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Random)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Security::SecureRandom*, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Random)> {
   static const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Security", "SecureRandom")->byval_arg;
-    static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* z = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field*), "Random", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{r, z});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::RandomMult
 // Il2CppName: RandomMult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Security::SecureRandom*, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::RandomMult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Security::SecureRandom*, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::RandomMult)> {
   static const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Security", "SecureRandom")->byval_arg;
-    static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* z = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field*), "RandomMult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{r, z});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Reduce
 // Il2CppName: Reduce
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Reduce)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Reduce)> {
   static const MethodInfo* get() {
-    static auto* xx = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* xx = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* z = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field*), "Reduce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{xx, z});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Reduce27
 // Il2CppName: Reduce27
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Reduce27)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Reduce27)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
-    static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* z = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field*), "Reduce27", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, z});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Square
 // Il2CppName: Square
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Square)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Square)> {
   static const MethodInfo* get() {
-    static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* x = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* z = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field*), "Square", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, z});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::SquareN
 // Il2CppName: SquareN
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, int, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::SquareN)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, int, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::SquareN)> {
   static const MethodInfo* get() {
-    static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* x = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* z = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field*), "SquareN", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, n, z});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Subtract
 // Il2CppName: Subtract
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint>*, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Subtract)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Subtract)> {
   static const MethodInfo* get() {
-    static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* y = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* x = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* y = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* z = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field*), "Subtract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, z});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Twice
 // Il2CppName: Twice
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Twice)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Twice)> {
   static const MethodInfo* get() {
-    static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* x = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* z = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field*), "Twice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, z});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::AddPTo
 // Il2CppName: AddPTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::AddPTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::AddPTo)> {
   static const MethodInfo* get() {
-    static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* z = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field*), "AddPTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{z});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::SubPFrom
 // Il2CppName: SubPFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::SubPFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::SubPFrom)> {
   static const MethodInfo* get() {
-    static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* z = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field*), "SubPFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{z});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::SubPExtFrom
 // Il2CppName: SubPExtFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::SubPExtFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::SubPExtFrom)> {
   static const MethodInfo* get() {
-    static auto* zz = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* zz = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field*), "SubPExtFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{zz});
   }
 };

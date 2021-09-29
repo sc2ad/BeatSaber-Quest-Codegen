@@ -71,16 +71,16 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private RootMotion.FinalIK.VRIK ik
     RootMotion::FinalIK::VRIK*& dyn_ik();
     // private System.Void Start()
-    // Offset: 0x1AE90EC
+    // Offset: 0x1C6B86C
     void Start();
     // private System.Void Update()
-    // Offset: 0x1AE9144
+    // Offset: 0x1C6B8C4
     void Update();
     // private System.Int32 GetLODLevel()
-    // Offset: 0x1AE9178
+    // Offset: 0x1C6B8F8
     int GetLODLevel();
     // public System.Void .ctor()
-    // Offset: 0x1AE9300
+    // Offset: 0x1C6BA80
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

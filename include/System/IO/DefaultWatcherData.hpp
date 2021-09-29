@@ -109,7 +109,7 @@ namespace System::IO {
     // Get instance field reference: public System.Collections.Hashtable Files
     System::Collections::Hashtable*& dyn_Files();
     // public System.Void .ctor()
-    // Offset: 0x18C1228
+    // Offset: 0x1A2FEBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

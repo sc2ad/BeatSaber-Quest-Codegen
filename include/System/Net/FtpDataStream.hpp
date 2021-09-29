@@ -88,111 +88,111 @@ namespace System::Net {
     // Get instance field reference: private System.Int32 totalRead
     int& dyn_totalRead();
     // System.Void .ctor(System.Net.FtpWebRequest request, System.IO.Stream stream, System.Boolean isRead)
-    // Offset: 0x16E7250
+    // Offset: 0x158153C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpDataStream* New_ctor(System::Net::FtpWebRequest* request, System::IO::Stream* stream, bool isRead) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FtpDataStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpDataStream*, creationType>(request, stream, isRead)));
     }
     // private System.Int32 ReadInternal(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x16E753C
-    int ReadInternal(::Array<uint8_t>* buffer, int offset, int size);
+    // Offset: 0x1581828
+    int ReadInternal(::ArrayWrapper<uint8_t> buffer, int offset, int size);
     // private System.Void WriteInternal(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x16E7E20
-    void WriteInternal(::Array<uint8_t>* buffer, int offset, int size);
+    // Offset: 0x158210C
+    void WriteInternal(::ArrayWrapper<uint8_t> buffer, int offset, int size);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x16E8520
+    // Offset: 0x158280C
     void System_IDisposable_Dispose();
     // private System.Void CheckDisposed()
-    // Offset: 0x16E7984
+    // Offset: 0x1581C70
     void CheckDisposed();
     // public override System.Boolean get_CanRead()
-    // Offset: 0x16E7324
+    // Offset: 0x1581610
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanRead()
     bool get_CanRead();
     // public override System.Boolean get_CanWrite()
-    // Offset: 0x16E732C
+    // Offset: 0x1581618
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanWrite()
     bool get_CanWrite();
     // public override System.Boolean get_CanSeek()
-    // Offset: 0x16E733C
+    // Offset: 0x1581628
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanSeek()
     bool get_CanSeek();
     // public override System.Int64 get_Length()
-    // Offset: 0x16E7344
+    // Offset: 0x1581630
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Length()
     int64_t get_Length();
     // public override System.Int64 get_Position()
-    // Offset: 0x16E73A4
+    // Offset: 0x1581690
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Position()
     int64_t get_Position();
     // public override System.Void set_Position(System.Int64 value)
-    // Offset: 0x16E7404
+    // Offset: 0x15816F0
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::set_Position(System.Int64 value)
     void set_Position(int64_t value);
     // public override System.Void Close()
-    // Offset: 0x16E7464
+    // Offset: 0x1581750
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Close()
     void Close();
     // public override System.Void Flush()
-    // Offset: 0x16E7478
+    // Offset: 0x1581764
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Flush()
     void Flush();
     // public override System.Int64 Seek(System.Int64 offset, System.IO.SeekOrigin origin)
-    // Offset: 0x16E747C
+    // Offset: 0x1581768
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::Seek(System.Int64 offset, System.IO.SeekOrigin origin)
     int64_t Seek(int64_t offset, System::IO::SeekOrigin origin);
     // public override System.Void SetLength(System.Int64 value)
-    // Offset: 0x16E74DC
+    // Offset: 0x15817C8
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::SetLength(System.Int64 value)
     void SetLength(int64_t value);
     // public override System.IAsyncResult BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
-    // Offset: 0x16E7800
+    // Offset: 0x1581AEC
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
-    System::IAsyncResult* BeginRead(::Array<uint8_t>* buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
+    System::IAsyncResult* BeginRead(::ArrayWrapper<uint8_t> buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
     // public override System.Int32 EndRead(System.IAsyncResult asyncResult)
-    // Offset: 0x16E7AF4
+    // Offset: 0x1581DE0
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::EndRead(System.IAsyncResult asyncResult)
     int EndRead(System::IAsyncResult* asyncResult);
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x16E7C3C
+    // Offset: 0x1581F28
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    int Read(::Array<uint8_t>* buffer, int offset, int size);
+    int Read(::ArrayWrapper<uint8_t> buffer, int offset, int size);
     // public override System.IAsyncResult BeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
-    // Offset: 0x16E7F50
+    // Offset: 0x158223C
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
-    System::IAsyncResult* BeginWrite(::Array<uint8_t>* buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
+    System::IAsyncResult* BeginWrite(::ArrayWrapper<uint8_t> buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
     // public override System.Void EndWrite(System.IAsyncResult asyncResult)
-    // Offset: 0x16E8198
+    // Offset: 0x1582484
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::EndWrite(System.IAsyncResult asyncResult)
     void EndWrite(System::IAsyncResult* asyncResult);
     // public override System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x16E82C4
+    // Offset: 0x15825B0
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    void Write(::Array<uint8_t>* buffer, int offset, int size);
+    void Write(::ArrayWrapper<uint8_t> buffer, int offset, int size);
     // protected override System.Void Finalize()
-    // Offset: 0x16E84A8
+    // Offset: 0x1582794
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x16E85A0
+    // Offset: 0x158288C
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
@@ -210,9 +210,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpDataStream*, "System.Net", "FtpDataStream
 // Writing MetadataGetter for method: System::Net::FtpDataStream::ReadInternal
 // Il2CppName: ReadInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::FtpDataStream::*)(::Array<uint8_t>*, int, int)>(&System::Net::FtpDataStream::ReadInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::FtpDataStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Net::FtpDataStream::ReadInternal)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::FtpDataStream*), "ReadInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, offset, size});
@@ -221,9 +221,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::FtpDataStream::WriteInternal
 // Il2CppName: WriteInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpDataStream::*)(::Array<uint8_t>*, int, int)>(&System::Net::FtpDataStream::WriteInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpDataStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Net::FtpDataStream::WriteInternal)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::FtpDataStream*), "WriteInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, offset, size});
@@ -332,9 +332,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::FtpDataStream::BeginRead
 // Il2CppName: BeginRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::FtpDataStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::FtpDataStream::BeginRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::FtpDataStream::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::FtpDataStream::BeginRead)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cb = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -354,9 +354,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::FtpDataStream::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::FtpDataStream::*)(::Array<uint8_t>*, int, int)>(&System::Net::FtpDataStream::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::FtpDataStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Net::FtpDataStream::Read)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::FtpDataStream*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, offset, size});
@@ -365,9 +365,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::FtpDataStream::BeginWrite
 // Il2CppName: BeginWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::FtpDataStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::FtpDataStream::BeginWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::FtpDataStream::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::FtpDataStream::BeginWrite)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cb = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -387,9 +387,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::FtpDataStream::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpDataStream::*)(::Array<uint8_t>*, int, int)>(&System::Net::FtpDataStream::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpDataStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Net::FtpDataStream::Write)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::FtpDataStream*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, offset, size});

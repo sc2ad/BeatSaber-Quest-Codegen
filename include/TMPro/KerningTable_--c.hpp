@@ -49,16 +49,16 @@ namespace TMPro {
     // Set static field: static public System.Func`2<TMPro.KerningPair,System.UInt32> <>9__7_1
     static void _set_$$9__7_1(System::Func_2<TMPro::KerningPair*, uint>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1109510
+    // Offset: 0x11EB2C4
     static void _cctor();
     // System.UInt32 <SortKerningPairs>b__7_0(TMPro.KerningPair s)
-    // Offset: 0x110957C
+    // Offset: 0x11EB330
     uint $SortKerningPairs$b__7_0(TMPro::KerningPair* s);
     // System.UInt32 <SortKerningPairs>b__7_1(TMPro.KerningPair s)
-    // Offset: 0x1109594
+    // Offset: 0x11EB348
     uint $SortKerningPairs$b__7_1(TMPro::KerningPair* s);
     // public System.Void .ctor()
-    // Offset: 0x1109574
+    // Offset: 0x11EB328
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

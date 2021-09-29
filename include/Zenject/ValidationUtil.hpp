@@ -38,8 +38,8 @@ namespace Zenject {
     // Creating value type constructor for type: ValidationUtil
     ValidationUtil() noexcept {}
     // static public System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateDefaultArgs(params System.Type[] argTypes)
-    // Offset: 0x23E2AF0
-    static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateDefaultArgs(::Array<System::Type*>* argTypes);
+    // Offset: 0x25EDD80
+    static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateDefaultArgs(::ArrayWrapper<System::Type*> argTypes);
     // Creating initializer_list -> params proxy for: System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateDefaultArgs(params System.Type[] argTypes)
     static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateDefaultArgs(std::initializer_list<System::Type*> argTypes);
     // Creating TArgs -> initializer_list proxy for: System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateDefaultArgs(params System.Type[] argTypes)
@@ -56,9 +56,9 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ValidationUtil*, "Zenject", "ValidationUtil");
 // Writing MetadataGetter for method: Zenject::ValidationUtil::CreateDefaultArgs
 // Il2CppName: CreateDefaultArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::TypeValuePair>* (*)(::Array<System::Type*>*)>(&Zenject::ValidationUtil::CreateDefaultArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::TypeValuePair>* (*)(::ArrayWrapper<System::Type*>)>(&Zenject::ValidationUtil::CreateDefaultArgs)> {
   static const MethodInfo* get() {
-    static auto* argTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
+    static auto* argTypes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Type")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ValidationUtil*), "CreateDefaultArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{argTypes});
   }
 };

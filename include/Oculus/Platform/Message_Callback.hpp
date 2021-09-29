@@ -34,20 +34,20 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Callback
     Callback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x152B6B8
+    // Offset: 0x16B4400
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Message::Callback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Message::Callback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Message::Callback*, creationType>(object, method)));
     }
     // public System.Void Invoke(Oculus.Platform.Message message)
-    // Offset: 0x151FD3C
+    // Offset: 0x16A8A84
     void Invoke(Oculus::Platform::Message* message);
     // public System.IAsyncResult BeginInvoke(Oculus.Platform.Message message, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x152B6C8
+    // Offset: 0x16B4410
     System::IAsyncResult* BeginInvoke(Oculus::Platform::Message* message, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x152B6EC
+    // Offset: 0x16B4434
     void EndInvoke(System::IAsyncResult* result);
   }; // Oculus.Platform.Message/Oculus.Platform.Callback
   #pragma pack(pop)

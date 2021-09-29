@@ -124,25 +124,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _cursorIsLocked
     bool& dyn__cursorIsLocked();
     // public System.Void Init(UnityEngine.Transform character, UnityEngine.Transform camera)
-    // Offset: 0x114D360
+    // Offset: 0x1207DE0
     void Init(UnityEngine::Transform* character, UnityEngine::Transform* camera);
     // public System.Void LookRotation(UnityEngine.Transform character, UnityEngine.Transform camera)
-    // Offset: 0x114D3F8
+    // Offset: 0x1207E78
     void LookRotation(UnityEngine::Transform* character, UnityEngine::Transform* camera);
     // public System.Void SetCursorLock(System.Boolean value)
-    // Offset: 0x114D7A8
+    // Offset: 0x1208228
     void SetCursorLock(bool value);
     // public System.Void UpdateCursorLock()
-    // Offset: 0x114D798
+    // Offset: 0x1208218
     void UpdateCursorLock();
     // private System.Void InternalLockUpdate()
-    // Offset: 0x114D7DC
+    // Offset: 0x120825C
     void InternalLockUpdate();
     // private UnityEngine.Quaternion ClampRotationAroundXAxis(UnityEngine.Quaternion q)
-    // Offset: 0x114D6D0
+    // Offset: 0x1208150
     UnityEngine::Quaternion ClampRotationAroundXAxis(UnityEngine::Quaternion q);
     // public System.Void .ctor()
-    // Offset: 0x114D858
+    // Offset: 0x12082D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

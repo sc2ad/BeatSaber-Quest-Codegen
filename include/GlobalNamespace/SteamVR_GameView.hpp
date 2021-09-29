@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SteamVR_GameView
     SteamVR_GameView() noexcept {}
     // private System.Void Awake()
-    // Offset: 0x142CE20
+    // Offset: 0x153DC70
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x142CEBC
+    // Offset: 0x153DD0C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

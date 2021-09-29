@@ -30,8 +30,8 @@ namespace GlobalNamespace {
       return *reinterpret_cast<LiteNetLib::INetLogger*>(this);
     }
     // public System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
-    // Offset: 0x1335258
-    void WriteNet(LiteNetLib::NetLogLevel level, ::Il2CppString* str, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x144C898
+    void WriteNet(LiteNetLib::NetLogLevel level, ::Il2CppString* str, ::ArrayWrapper<::Il2CppObject*> args);
     // Creating initializer_list -> params proxy for: System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
     void WriteNet(LiteNetLib::NetLogLevel level, ::Il2CppString* str, std::initializer_list<::Il2CppObject*> args);
     // Creating TArgs -> initializer_list proxy for: System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
@@ -40,7 +40,7 @@ namespace GlobalNamespace {
       WriteNet(level, str, {args...});
     }
     // public System.Void .ctor()
-    // Offset: 0x1334F88
+    // Offset: 0x144C5C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -56,11 +56,11 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BGNetDebug::NetLogger*, "", "BGNetDebug/
 // Writing MetadataGetter for method: GlobalNamespace::BGNetDebug::NetLogger::WriteNet
 // Il2CppName: WriteNet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BGNetDebug::NetLogger::*)(LiteNetLib::NetLogLevel, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&GlobalNamespace::BGNetDebug::NetLogger::WriteNet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BGNetDebug::NetLogger::*)(LiteNetLib::NetLogLevel, ::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&GlobalNamespace::BGNetDebug::NetLogger::WriteNet)> {
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetLogLevel")->byval_arg;
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BGNetDebug::NetLogger*), "WriteNet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{level, str, args});
   }
 };

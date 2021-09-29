@@ -41,10 +41,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride quickPlayAvailablePacksOverride
     GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride*& dyn_quickPlayAvailablePacksOverride();
     // public System.Boolean get_hasOverride()
-    // Offset: 0x11A7124
+    // Offset: 0x1266A64
     bool get_hasOverride();
     // public System.Void .ctor()
-    // Offset: 0x11A71A8
+    // Offset: 0x1266AE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -57,27 +57,27 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // public System.String[] assemblyNames
     // Size: 0x8
     // Offset: 0x10
-    ::Array<::Il2CppString*>* assemblyNames;
+    ::ArrayWrapper<::Il2CppString*> assemblyNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // public System.String[] groupNames
     // Size: 0x8
     // Offset: 0x18
-    ::Array<::Il2CppString*>* groupNames;
+    ::ArrayWrapper<::Il2CppString*> groupNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // public System.String[] categoryNames
     // Size: 0x8
     // Offset: 0x20
-    ::Array<::Il2CppString*>* categoryNames;
+    ::ArrayWrapper<::Il2CppString*> categoryNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // public System.String[] testNames
     // Size: 0x8
     // Offset: 0x28
-    ::Array<::Il2CppString*>* testNames;
+    ::ArrayWrapper<::Il2CppString*> testNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // public System.Boolean synchronousOnly
     // Size: 0x1
     // Offset: 0x30
@@ -85,28 +85,28 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: RuntimeTestRunnerFilter
-    RuntimeTestRunnerFilter(::Array<::Il2CppString*>* assemblyNames_ = {}, ::Array<::Il2CppString*>* groupNames_ = {}, ::Array<::Il2CppString*>* categoryNames_ = {}, ::Array<::Il2CppString*>* testNames_ = {}, bool synchronousOnly_ = {}) noexcept : assemblyNames{assemblyNames_}, groupNames{groupNames_}, categoryNames{categoryNames_}, testNames{testNames_}, synchronousOnly{synchronousOnly_} {}
+    RuntimeTestRunnerFilter(::ArrayWrapper<::Il2CppString*> assemblyNames_ = {}, ::ArrayWrapper<::Il2CppString*> groupNames_ = {}, ::ArrayWrapper<::Il2CppString*> categoryNames_ = {}, ::ArrayWrapper<::Il2CppString*> testNames_ = {}, bool synchronousOnly_ = {}) noexcept : assemblyNames{assemblyNames_}, groupNames{groupNames_}, categoryNames{categoryNames_}, testNames{testNames_}, synchronousOnly{synchronousOnly_} {}
     // Get instance field reference: public System.String[] assemblyNames
-    ::Array<::Il2CppString*>*& dyn_assemblyNames();
+    ::ArrayWrapper<::Il2CppString*>& dyn_assemblyNames();
     // Get instance field reference: public System.String[] groupNames
-    ::Array<::Il2CppString*>*& dyn_groupNames();
+    ::ArrayWrapper<::Il2CppString*>& dyn_groupNames();
     // Get instance field reference: public System.String[] categoryNames
-    ::Array<::Il2CppString*>*& dyn_categoryNames();
+    ::ArrayWrapper<::Il2CppString*>& dyn_categoryNames();
     // Get instance field reference: public System.String[] testNames
-    ::Array<::Il2CppString*>*& dyn_testNames();
+    ::ArrayWrapper<::Il2CppString*>& dyn_testNames();
     // Get instance field reference: public System.Boolean synchronousOnly
     bool& dyn_synchronousOnly();
     // public NUnit.Framework.Interfaces.ITestFilter BuildNUnitFilter()
-    // Offset: 0x14CE73C
+    // Offset: 0x16743B8
     NUnit::Framework::Interfaces::ITestFilter* BuildNUnitFilter();
     // static private NUnit.Framework.Internal.Filters.FullNameFilter OptimizedGroupFilter(System.String s)
-    // Offset: 0x14CEECC
+    // Offset: 0x1674B48
     static NUnit::Framework::Internal::Filters::FullNameFilter* OptimizedGroupFilter(::Il2CppString* s);
     // static private System.Void AddFilters(System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITestFilter> filters, System.String[] values, System.Func`2<System.String,NUnit.Framework.Internal.TestFilter> builder)
-    // Offset: 0x14CEA80
-    static void AddFilters(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestFilter*>* filters, ::Array<::Il2CppString*>* values, System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>* builder);
+    // Offset: 0x16746FC
+    static void AddFilters(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestFilter*>* filters, ::ArrayWrapper<::Il2CppString*> values, System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>* builder);
     // public System.Void .ctor()
-    // Offset: 0x14CF028
+    // Offset: 0x1674CA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -141,10 +141,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::AddFilters
 // Il2CppName: AddFilters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestFilter*>*, ::Array<::Il2CppString*>*, System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>*)>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::AddFilters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestFilter*>*, ::ArrayWrapper<::Il2CppString*>, System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>*)>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::AddFilters)> {
   static const MethodInfo* get() {
     static auto* filters = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITestFilter")})->byval_arg;
-    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
     static auto* builder = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestFilter")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*), "AddFilters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filters, values, builder});
   }

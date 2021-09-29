@@ -52,12 +52,12 @@ namespace GlobalNamespace {
     // static public System.Byte[] ToBytes(T bitMask)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::Array<uint8_t>* ToBytes(T bitMask) {
+    static ::ArrayWrapper<uint8_t> ToBytes(T bitMask) {
       static_assert(std::is_base_of_v<GlobalNamespace::IBitMask_1<T>, std::remove_pointer_t<T>>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IBitMaskUtil::ToBytes");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "IBitMaskUtil", "ToBytes", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(bitMask)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::Array<uint8_t>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, bitMask);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<uint8_t>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, bitMask);
     }
     // static public System.Boolean TryParse(System.String stringSerializedMask, out T bitMask)
     // Offset: 0xFFFFFFFF
@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     // static public T FromBytes(System.Byte[] bytes, System.Int32 offset)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T FromBytes(::Array<uint8_t>* bytes, int offset) {
+    static T FromBytes(::ArrayWrapper<uint8_t> bytes, int offset) {
       static_assert(std::is_base_of_v<GlobalNamespace::IBitMask_1<T>, std::remove_pointer_t<T>>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IBitMaskUtil::FromBytes");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "IBitMaskUtil", "FromBytes", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(bytes), ::il2cpp_utils::ExtractType(offset)})));
@@ -90,13 +90,13 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, bytes, offset);
     }
     // static private System.UInt32 GetHexDigit(System.Char c)
-    // Offset: 0x2374B08
+    // Offset: 0x2570368
     static uint GetHexDigit(::Il2CppChar c);
     // static private System.UInt32 GetBase64Digit(System.Char c)
-    // Offset: 0x2374B58
+    // Offset: 0x25703B8
     static uint GetBase64Digit(::Il2CppChar c);
     // static private System.Char GetBase64Char(System.UInt64 digit)
-    // Offset: 0x2374BC8
+    // Offset: 0x2570428
     static ::Il2CppChar GetBase64Char(uint64_t digit);
   }; // IBitMaskUtil
   #pragma pack(pop)

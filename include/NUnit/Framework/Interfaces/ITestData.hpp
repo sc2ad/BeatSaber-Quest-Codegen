@@ -16,8 +16,6 @@ namespace NUnit::Framework::Interfaces {
 // Completed forward declares
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
-template<class T>
-struct Array;
 // Completed il2cpp-utils forward declares
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {
@@ -34,7 +32,7 @@ namespace NUnit::Framework::Interfaces {
     NUnit::Framework::Interfaces::RunState get_RunState();
     // public System.Object[] get_Arguments()
     // Offset: 0xFFFFFFFF
-    ::Array<::Il2CppObject*>* get_Arguments();
+    ::ArrayWrapper<::Il2CppObject*> get_Arguments();
     // public NUnit.Framework.Interfaces.IPropertyBag get_Properties()
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Interfaces::IPropertyBag* get_Properties();
@@ -55,7 +53,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITestData::get_Arguments
 // Il2CppName: get_Arguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (NUnit::Framework::Interfaces::ITestData::*)()>(&NUnit::Framework::Interfaces::ITestData::get_Arguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (NUnit::Framework::Interfaces::ITestData::*)()>(&NUnit::Framework::Interfaces::ITestData::get_Arguments)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITestData*), "get_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

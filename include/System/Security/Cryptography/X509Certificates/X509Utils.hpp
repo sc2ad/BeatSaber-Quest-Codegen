@@ -24,10 +24,10 @@ namespace System::Security::Cryptography::X509Certificates {
     // Creating value type constructor for type: X509Utils
     X509Utils() noexcept {}
     // static System.String FindOidInfo(System.UInt32 keyType, System.String keyValue, System.Security.Cryptography.OidGroup oidGroup)
-    // Offset: 0x186ECEC
+    // Offset: 0x19E10D0
     static ::Il2CppString* FindOidInfo(uint keyType, ::Il2CppString* keyValue, System::Security::Cryptography::OidGroup oidGroup);
     // static System.String FindOidInfoWithFallback(System.UInt32 key, System.String value, System.Security.Cryptography.OidGroup group)
-    // Offset: 0x185E694
+    // Offset: 0x19D0A78
     static ::Il2CppString* FindOidInfoWithFallback(uint key, ::Il2CppString* value, System::Security::Cryptography::OidGroup group);
   }; // System.Security.Cryptography.X509Certificates.X509Utils
   #pragma pack(pop)

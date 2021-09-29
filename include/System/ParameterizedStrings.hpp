@@ -60,16 +60,16 @@ namespace System {
       // Get instance field reference: private readonly System.String _string
       ::Il2CppString*& dyn__string();
       // public System.Int32 get_Int32()
-      // Offset: 0x1D12320
+      // Offset: 0x1E9F49C
       int get_Int32();
       // public System.String get_String()
-      // Offset: 0x1D11B7C
+      // Offset: 0x1E9ECF8
       ::Il2CppString* get_String();
       // public System.Object get_Object()
-      // Offset: 0x1D11BD8
+      // Offset: 0x1E9ED54
       ::Il2CppObject* get_Object();
       // public System.Void .ctor(System.Int32 value)
-      // Offset: 0x1D12308
+      // Offset: 0x1E9F484
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       FormatParam(int value) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::ParameterizedStrings::FormatParam::.ctor");
@@ -77,7 +77,7 @@ namespace System {
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
       }
       // private System.Void .ctor(System.Int32 intValue, System.String stringValue)
-      // Offset: 0x1D12314
+      // Offset: 0x1E9F490
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  FormatParam(int intValue, ::Il2CppString* stringValue)
     }; // System.ParameterizedStrings/System.FormatParam
@@ -91,8 +91,8 @@ namespace System {
     // Set static field: static private System.ParameterizedStrings/System.LowLevelStack _cachedStack
     static void _set__cachedStack(System::ParameterizedStrings::LowLevelStack* value);
     // static public System.String Evaluate(System.String format, params System.ParameterizedStrings/System.FormatParam[] args)
-    // Offset: 0x1D11050
-    static ::Il2CppString* Evaluate(::Il2CppString* format, ::Array<System::ParameterizedStrings::FormatParam>* args);
+    // Offset: 0x1E9E1CC
+    static ::Il2CppString* Evaluate(::Il2CppString* format, ::ArrayWrapper<System::ParameterizedStrings::FormatParam> args);
     // Creating initializer_list -> params proxy for: System.String Evaluate(System.String format, params System.ParameterizedStrings/System.FormatParam[] args)
     static ::Il2CppString* Evaluate(::Il2CppString* format, std::initializer_list<System::ParameterizedStrings::FormatParam> args);
     // Creating TArgs -> initializer_list proxy for: System.String Evaluate(System.String format, params System.ParameterizedStrings/System.FormatParam[] args)
@@ -101,29 +101,29 @@ namespace System {
       return Evaluate(format, {args...});
     }
     // static private System.String EvaluateInternal(System.String format, ref System.Int32 pos, System.ParameterizedStrings/System.FormatParam[] args, System.ParameterizedStrings/System.LowLevelStack stack, ref System.ParameterizedStrings/System.FormatParam[] dynamicVars, ref System.ParameterizedStrings/System.FormatParam[] staticVars)
-    // Offset: 0x1D11214
-    static ::Il2CppString* EvaluateInternal(::Il2CppString* format, ByRef<int> pos, ::Array<System::ParameterizedStrings::FormatParam>* args, System::ParameterizedStrings::LowLevelStack* stack, ByRef<::Array<System::ParameterizedStrings::FormatParam>*> dynamicVars, ByRef<::Array<System::ParameterizedStrings::FormatParam>*> staticVars);
+    // Offset: 0x1E9E390
+    static ::Il2CppString* EvaluateInternal(::Il2CppString* format, ByRef<int> pos, ::ArrayWrapper<System::ParameterizedStrings::FormatParam> args, System::ParameterizedStrings::LowLevelStack* stack, ByRef<::ArrayWrapper<System::ParameterizedStrings::FormatParam>> dynamicVars, ByRef<::ArrayWrapper<System::ParameterizedStrings::FormatParam>> staticVars);
     // static private System.Boolean AsBool(System.Int32 i)
-    // Offset: 0x1D12064
+    // Offset: 0x1E9F1E0
     static bool AsBool(int i);
     // static private System.Int32 AsInt(System.Boolean b)
-    // Offset: 0x1D1205C
+    // Offset: 0x1E9F1D8
     static int AsInt(bool b);
     // static private System.String StringFromAsciiBytes(System.Byte[] buffer, System.Int32 offset, System.Int32 length)
-    // Offset: 0x1D12070
-    static ::Il2CppString* StringFromAsciiBytes(::Array<uint8_t>* buffer, int offset, int length);
+    // Offset: 0x1E9F1EC
+    static ::Il2CppString* StringFromAsciiBytes(::ArrayWrapper<uint8_t> buffer, int offset, int length);
     // static private System.Int32 snprintf(System.Byte* str, System.IntPtr size, System.String format, System.String arg1)
-    // Offset: 0x1D1216C
+    // Offset: 0x1E9F2E8
     static int snprintf(uint8_t* str, System::IntPtr size, ::Il2CppString* format, ::Il2CppString* arg1);
     // static private System.Int32 snprintf(System.Byte* str, System.IntPtr size, System.String format, System.Int32 arg1)
-    // Offset: 0x1D12244
+    // Offset: 0x1E9F3C0
     static int snprintf(uint8_t* str, System::IntPtr size, ::Il2CppString* format, int arg1);
     // static private System.String FormatPrintF(System.String format, System.Object arg)
-    // Offset: 0x1D11C44
+    // Offset: 0x1E9EDC0
     static ::Il2CppString* FormatPrintF(::Il2CppString* format, ::Il2CppObject* arg);
     // static private System.ParameterizedStrings/System.FormatParam[] GetDynamicOrStaticVariables(System.Char c, ref System.ParameterizedStrings/System.FormatParam[] dynamicVars, ref System.ParameterizedStrings/System.FormatParam[] staticVars, out System.Int32 index)
-    // Offset: 0x1D11F4C
-    static ::Array<System::ParameterizedStrings::FormatParam>* GetDynamicOrStaticVariables(::Il2CppChar c, ByRef<::Array<System::ParameterizedStrings::FormatParam>*> dynamicVars, ByRef<::Array<System::ParameterizedStrings::FormatParam>*> staticVars, ByRef<int> index);
+    // Offset: 0x1E9F0C8
+    static ::ArrayWrapper<System::ParameterizedStrings::FormatParam> GetDynamicOrStaticVariables(::Il2CppChar c, ByRef<::ArrayWrapper<System::ParameterizedStrings::FormatParam>> dynamicVars, ByRef<::ArrayWrapper<System::ParameterizedStrings::FormatParam>> staticVars, ByRef<int> index);
   }; // System.ParameterizedStrings
   #pragma pack(pop)
 }
@@ -134,24 +134,24 @@ DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings::FormatParam, "System", "Par
 // Writing MetadataGetter for method: System::ParameterizedStrings::Evaluate
 // Il2CppName: Evaluate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<System::ParameterizedStrings::FormatParam>*)>(&System::ParameterizedStrings::Evaluate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayWrapper<System::ParameterizedStrings::FormatParam>)>(&System::ParameterizedStrings::Evaluate)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format, args});
   }
 };
 // Writing MetadataGetter for method: System::ParameterizedStrings::EvaluateInternal
 // Il2CppName: EvaluateInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ByRef<int>, ::Array<System::ParameterizedStrings::FormatParam>*, System::ParameterizedStrings::LowLevelStack*, ByRef<::Array<System::ParameterizedStrings::FormatParam>*>, ByRef<::Array<System::ParameterizedStrings::FormatParam>*>)>(&System::ParameterizedStrings::EvaluateInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ByRef<int>, ::ArrayWrapper<System::ParameterizedStrings::FormatParam>, System::ParameterizedStrings::LowLevelStack*, ByRef<::ArrayWrapper<System::ParameterizedStrings::FormatParam>>, ByRef<::ArrayWrapper<System::ParameterizedStrings::FormatParam>>)>(&System::ParameterizedStrings::EvaluateInternal)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pos = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam")), 1)->byval_arg;
     static auto* stack = &::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/LowLevelStack")->byval_arg;
-    static auto* dynamicVars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam"), 1)->this_arg;
-    static auto* staticVars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam"), 1)->this_arg;
+    static auto* dynamicVars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam")), 1)->this_arg;
+    static auto* staticVars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam")), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "EvaluateInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format, pos, args, stack, dynamicVars, staticVars});
   }
 };
@@ -176,9 +176,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(boo
 // Writing MetadataGetter for method: System::ParameterizedStrings::StringFromAsciiBytes
 // Il2CppName: StringFromAsciiBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<uint8_t>*, int, int)>(&System::ParameterizedStrings::StringFromAsciiBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<uint8_t>, int, int)>(&System::ParameterizedStrings::StringFromAsciiBytes)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "StringFromAsciiBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, offset, length});
@@ -221,11 +221,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::ParameterizedStrings::GetDynamicOrStaticVariables
 // Il2CppName: GetDynamicOrStaticVariables
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::ParameterizedStrings::FormatParam>* (*)(::Il2CppChar, ByRef<::Array<System::ParameterizedStrings::FormatParam>*>, ByRef<::Array<System::ParameterizedStrings::FormatParam>*>, ByRef<int>)>(&System::ParameterizedStrings::GetDynamicOrStaticVariables)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::ParameterizedStrings::FormatParam> (*)(::Il2CppChar, ByRef<::ArrayWrapper<System::ParameterizedStrings::FormatParam>>, ByRef<::ArrayWrapper<System::ParameterizedStrings::FormatParam>>, ByRef<int>)>(&System::ParameterizedStrings::GetDynamicOrStaticVariables)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
-    static auto* dynamicVars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam"), 1)->this_arg;
-    static auto* staticVars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam"), 1)->this_arg;
+    static auto* dynamicVars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam")), 1)->this_arg;
+    static auto* staticVars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam")), 1)->this_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "GetDynamicOrStaticVariables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c, dynamicVars, staticVars, index});
   }

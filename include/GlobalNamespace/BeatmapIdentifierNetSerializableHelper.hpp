@@ -27,10 +27,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapIdentifierNetSerializableHelper
     BeatmapIdentifierNetSerializableHelper() noexcept {}
     // static public BeatmapIdentifierNetSerializable GetIdentifier(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x11EB8C4
+    // Offset: 0x127BF00
     static GlobalNamespace::BeatmapIdentifierNetSerializable* GetIdentifier(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // static public System.Boolean HasIdentifier(IDifficultyBeatmap difficultyBeatmap, BeatmapIdentifierNetSerializable beatmapId)
-    // Offset: 0x11EBB64
+    // Offset: 0x127C1A0
     static bool HasIdentifier(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId);
   }; // BeatmapIdentifierNetSerializableHelper
   #pragma pack(pop)

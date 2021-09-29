@@ -42,14 +42,14 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: private System.Net.IPAddress address
     System::Net::IPAddress*& dyn_address();
     // public System.Void .ctor(System.Net.IPAddress address)
-    // Offset: 0x14A0ACC
+    // Offset: 0x1646748
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LinuxUnicastIPAddressInformation* New_ctor(System::Net::IPAddress* address) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LinuxUnicastIPAddressInformation*, creationType>(address)));
     }
     // public override System.Net.IPAddress get_Address()
-    // Offset: 0x14A0B00
+    // Offset: 0x164677C
     // Implemented from: System.Net.NetworkInformation.IPAddressInformation
     // Base method: System.Net.IPAddress IPAddressInformation::get_Address()
     System::Net::IPAddress* get_Address();

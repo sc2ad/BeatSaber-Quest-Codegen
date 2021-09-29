@@ -52,20 +52,20 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Get instance field reference: Org.BouncyCastle.Asn1.Asn1OctetString iv
     Org::BouncyCastle::Asn1::Asn1OctetString*& dyn_iv();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x17BB244
+    // Offset: 0x1973AAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RC2CbcParameter* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RC2CbcParameter*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.Pkcs.RC2CbcParameter GetInstance(System.Object obj)
-    // Offset: 0x17BB0E8
+    // Offset: 0x1973950
     static Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter* GetInstance(::Il2CppObject* obj);
     // public System.Byte[] GetIV()
-    // Offset: 0x17BB36C
-    ::Array<uint8_t>* GetIV();
+    // Offset: 0x1973BD4
+    ::ArrayWrapper<uint8_t> GetIV();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x17BB3F4
+    // Offset: 0x1973C5C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter::GetIV
 // Il2CppName: GetIV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter::*)()>(&Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter::GetIV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter::*)()>(&Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter::GetIV)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter*), "GetIV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

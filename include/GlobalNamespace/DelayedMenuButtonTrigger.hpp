@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     System::Action* menuButtonTriggeredEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3EEB4
+    // [InjectAttribute] Offset: 0xF07838
     // private System.Single _pressDuration
     // Size: 0x4
     // Offset: 0x18
@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: waitingForButtonRelease and: vrControllersInputManager
     char __padding3[0x7] = {};
-    // [InjectAttribute] Offset: 0xE3EEC4
+    // [InjectAttribute] Offset: 0xF07848
     // private VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x28
@@ -89,16 +89,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private VRControllersInputManager _vrControllersInputManager
     GlobalNamespace::VRControllersInputManager*& dyn__vrControllersInputManager();
     // public System.Void add_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0x10EE47C
+    // Offset: 0x11A5DD8
     void add_menuButtonTriggeredEvent(System::Action* value);
     // public System.Void remove_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0x10EE520
+    // Offset: 0x11A5E7C
     void remove_menuButtonTriggeredEvent(System::Action* value);
     // public System.Void Tick()
-    // Offset: 0x10EE5C4
+    // Offset: 0x11A5F20
     void Tick();
     // public System.Void .ctor()
-    // Offset: 0x10EE654
+    // Offset: 0x11A5FB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

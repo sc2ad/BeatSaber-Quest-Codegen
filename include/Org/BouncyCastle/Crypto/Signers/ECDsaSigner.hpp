@@ -87,28 +87,28 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Get instance field reference: protected Org.BouncyCastle.Security.SecureRandom random
     Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // public Org.BouncyCastle.Math.BigInteger get_Order()
-    // Offset: 0x127E290
+    // Offset: 0x139AA98
     Org::BouncyCastle::Math::BigInteger* get_Order();
     // static private System.Void .cctor()
-    // Offset: 0x127E8DC
+    // Offset: 0x139B0E4
     static void _cctor();
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x127E07C
+    // Offset: 0x139A884
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public Org.BouncyCastle.Math.BigInteger[] GenerateSignature(System.Byte[] message)
-    // Offset: 0x127E2B8
-    ::Array<Org::BouncyCastle::Math::BigInteger*>* GenerateSignature(::Array<uint8_t>* message);
+    // Offset: 0x139AAC0
+    ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> GenerateSignature(::ArrayWrapper<uint8_t> message);
     // protected Org.BouncyCastle.Math.BigInteger CalculateE(Org.BouncyCastle.Math.BigInteger n, System.Byte[] message)
-    // Offset: 0x127E72C
-    Org::BouncyCastle::Math::BigInteger* CalculateE(Org::BouncyCastle::Math::BigInteger* n, ::Array<uint8_t>* message);
+    // Offset: 0x139AF34
+    Org::BouncyCastle::Math::BigInteger* CalculateE(Org::BouncyCastle::Math::BigInteger* n, ::ArrayWrapper<uint8_t> message);
     // protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier CreateBasePointMultiplier()
-    // Offset: 0x127E800
+    // Offset: 0x139B008
     Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
     // protected Org.BouncyCastle.Security.SecureRandom InitSecureRandom(System.Boolean needed, Org.BouncyCastle.Security.SecureRandom provided)
-    // Offset: 0x127E85C
+    // Offset: 0x139B064
     Org::BouncyCastle::Security::SecureRandom* InitSecureRandom(bool needed, Org::BouncyCastle::Security::SecureRandom* provided);
     // public System.Void .ctor()
-    // Offset: 0x127E00C
+    // Offset: 0x139A814
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -152,19 +152,19 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::ECDsaSigner::GenerateSignature
 // Il2CppName: GenerateSignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::BigInteger*>* (Org::BouncyCastle::Crypto::Signers::ECDsaSigner::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Signers::ECDsaSigner::GenerateSignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> (Org::BouncyCastle::Crypto::Signers::ECDsaSigner::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::ECDsaSigner::GenerateSignature)> {
   static const MethodInfo* get() {
-    static auto* message = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* message = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::ECDsaSigner*), "GenerateSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::ECDsaSigner::CalculateE
 // Il2CppName: CalculateE
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Signers::ECDsaSigner::*)(Org::BouncyCastle::Math::BigInteger*, ::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Signers::ECDsaSigner::CalculateE)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Signers::ECDsaSigner::*)(Org::BouncyCastle::Math::BigInteger*, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::ECDsaSigner::CalculateE)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
-    static auto* message = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* message = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::ECDsaSigner*), "CalculateE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n, message});
   }
 };

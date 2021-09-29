@@ -89,9 +89,9 @@ namespace LiteNetLib {
     // Set static field: static System.Int32 MaxUdpHeaderSize
     static void _set_MaxUdpHeaderSize(int value);
     // Get static field: static readonly System.Int32[] PossibleMtu
-    static ::Array<int>* _get_PossibleMtu();
+    static ::ArrayWrapper<int> _get_PossibleMtu();
     // Set static field: static readonly System.Int32[] PossibleMtu
-    static void _set_PossibleMtu(::Array<int>* value);
+    static void _set_PossibleMtu(::ArrayWrapper<int> value);
     // Get static field: static readonly System.Int32 MaxPacketSize
     static int _get_MaxPacketSize();
     // Set static field: static readonly System.Int32 MaxPacketSize
@@ -109,7 +109,7 @@ namespace LiteNetLib {
     // Set static field: static public System.Int32 PacketPoolSize
     static void _set_PacketPoolSize(int value);
     // static private System.Void .cctor()
-    // Offset: 0x1C1E1C4
+    // Offset: 0x1DD602C
     static void _cctor();
   }; // LiteNetLib.NetConstants
   #pragma pack(pop)

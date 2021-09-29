@@ -35,16 +35,16 @@ namespace GlobalNamespace {
     // private UnityEngine.GameObject[] _brandingObjects
     // Size: 0x8
     // Offset: 0x18
-    ::Array<UnityEngine::GameObject*>* brandingObjects;
+    ::ArrayWrapper<UnityEngine::GameObject*> brandingObjects;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::GameObject*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
     // private UnityEngine.GameObject[] _replacementBrandingObjects
     // Size: 0x8
     // Offset: 0x20
-    ::Array<UnityEngine::GameObject*>* replacementBrandingObjects;
+    ::ArrayWrapper<UnityEngine::GameObject*> replacementBrandingObjects;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::GameObject*>*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xE3B9F8
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
+    // [InjectOptionalAttribute] Offset: 0xF041DC
     // private readonly EnvironmentBrandingManager/InitData _initData
     // Size: 0x8
     // Offset: 0x28
@@ -52,20 +52,20 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentBrandingManager::InitData*) == 0x8);
     // Creating value type constructor for type: EnvironmentBrandingManager
-    EnvironmentBrandingManager(::Array<UnityEngine::GameObject*>* brandingObjects_ = {}, ::Array<UnityEngine::GameObject*>* replacementBrandingObjects_ = {}, GlobalNamespace::EnvironmentBrandingManager::InitData* initData_ = {}) noexcept : brandingObjects{brandingObjects_}, replacementBrandingObjects{replacementBrandingObjects_}, initData{initData_} {}
+    EnvironmentBrandingManager(::ArrayWrapper<UnityEngine::GameObject*> brandingObjects_ = {}, ::ArrayWrapper<UnityEngine::GameObject*> replacementBrandingObjects_ = {}, GlobalNamespace::EnvironmentBrandingManager::InitData* initData_ = {}) noexcept : brandingObjects{brandingObjects_}, replacementBrandingObjects{replacementBrandingObjects_}, initData{initData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.GameObject[] _brandingObjects
-    ::Array<UnityEngine::GameObject*>*& dyn__brandingObjects();
+    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__brandingObjects();
     // Get instance field reference: private UnityEngine.GameObject[] _replacementBrandingObjects
-    ::Array<UnityEngine::GameObject*>*& dyn__replacementBrandingObjects();
+    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__replacementBrandingObjects();
     // Get instance field reference: private readonly EnvironmentBrandingManager/InitData _initData
     GlobalNamespace::EnvironmentBrandingManager::InitData*& dyn__initData();
     // protected System.Void Start()
-    // Offset: 0x10571D0
+    // Offset: 0x11AFE7C
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x10572A8
+    // Offset: 0x11AFF54
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

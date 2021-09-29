@@ -55,10 +55,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public OculusPlatformUserModel/<>c__DisplayClass5_0 CS$<>8__locals1
     GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_0*& dyn_CS$$$8__locals1();
     // System.Void <GetUserNamesForUserIds>b__1(Oculus.Platform.Message`1<Oculus.Platform.Models.User> result)
-    // Offset: 0x102ACDC
+    // Offset: 0x111A14C
     void $GetUserNamesForUserIds$b__1(Oculus::Platform::Message_1<Oculus::Platform::Models::User*>* result);
     // public System.Void .ctor()
-    // Offset: 0x102ACD4
+    // Offset: 0x111A144
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

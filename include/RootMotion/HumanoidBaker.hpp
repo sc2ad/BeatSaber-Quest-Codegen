@@ -40,7 +40,7 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class HumanoidBaker : public RootMotion::Baker {
     public:
-    // [TooltipAttribute] Offset: 0xE2AF50
+    // [TooltipAttribute] Offset: 0xEF1728
     // public System.Boolean bakeHandIK
     // Size: 0x1
     // Offset: 0x74
@@ -49,16 +49,16 @@ namespace RootMotion {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: bakeHandIK and: IKKeyReductionError
     char __padding0[0x3] = {};
-    // [TooltipAttribute] Offset: 0xE2AF88
-    // [RangeAttribute] Offset: 0xE2AF88
+    // [TooltipAttribute] Offset: 0xEF1760
+    // [RangeAttribute] Offset: 0xEF1760
     // public System.Single IKKeyReductionError
     // Size: 0x4
     // Offset: 0x78
     float IKKeyReductionError;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2AFE0
-    // [RangeAttribute] Offset: 0xE2AFE0
+    // [TooltipAttribute] Offset: 0xEF17B8
+    // [RangeAttribute] Offset: 0xEF17B8
     // public System.Int32 muscleFrameRateDiv
     // Size: 0x4
     // Offset: 0x7C
@@ -68,9 +68,9 @@ namespace RootMotion {
     // private RootMotion.BakerMuscle[] bakerMuscles
     // Size: 0x8
     // Offset: 0x80
-    ::Array<RootMotion::BakerMuscle*>* bakerMuscles;
+    ::ArrayWrapper<RootMotion::BakerMuscle*> bakerMuscles;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::BakerMuscle*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<RootMotion::BakerMuscle*>) == 0x8);
     // private RootMotion.BakerHumanoidQT rootQT
     // Size: 0x8
     // Offset: 0x88
@@ -104,9 +104,9 @@ namespace RootMotion {
     // private System.Single[] muscles
     // Size: 0x8
     // Offset: 0xB0
-    ::Array<float>* muscles;
+    ::ArrayWrapper<float> muscles;
     // Field size check
-    static_assert(sizeof(::Array<float>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
     // private UnityEngine.HumanPose pose
     // Size: 0x28
     // Offset: 0xB8
@@ -144,7 +144,7 @@ namespace RootMotion {
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
     // Creating value type constructor for type: HumanoidBaker
-    HumanoidBaker(bool bakeHandIK_ = {}, float IKKeyReductionError_ = {}, int muscleFrameRateDiv_ = {}, ::Array<RootMotion::BakerMuscle*>* bakerMuscles_ = {}, RootMotion::BakerHumanoidQT* rootQT_ = {}, RootMotion::BakerHumanoidQT* leftFootQT_ = {}, RootMotion::BakerHumanoidQT* rightFootQT_ = {}, RootMotion::BakerHumanoidQT* leftHandQT_ = {}, RootMotion::BakerHumanoidQT* rightHandQT_ = {}, ::Array<float>* muscles_ = {}, UnityEngine::HumanPose pose_ = {}, UnityEngine::HumanPoseHandler* handler_ = {}, UnityEngine::Vector3 bodyPosition_ = {}, UnityEngine::Quaternion bodyRotation_ = {}, int mN_ = {}, UnityEngine::Quaternion lastBodyRotation_ = {}) noexcept : bakeHandIK{bakeHandIK_}, IKKeyReductionError{IKKeyReductionError_}, muscleFrameRateDiv{muscleFrameRateDiv_}, bakerMuscles{bakerMuscles_}, rootQT{rootQT_}, leftFootQT{leftFootQT_}, rightFootQT{rightFootQT_}, leftHandQT{leftHandQT_}, rightHandQT{rightHandQT_}, muscles{muscles_}, pose{pose_}, handler{handler_}, bodyPosition{bodyPosition_}, bodyRotation{bodyRotation_}, mN{mN_}, lastBodyRotation{lastBodyRotation_} {}
+    HumanoidBaker(bool bakeHandIK_ = {}, float IKKeyReductionError_ = {}, int muscleFrameRateDiv_ = {}, ::ArrayWrapper<RootMotion::BakerMuscle*> bakerMuscles_ = {}, RootMotion::BakerHumanoidQT* rootQT_ = {}, RootMotion::BakerHumanoidQT* leftFootQT_ = {}, RootMotion::BakerHumanoidQT* rightFootQT_ = {}, RootMotion::BakerHumanoidQT* leftHandQT_ = {}, RootMotion::BakerHumanoidQT* rightHandQT_ = {}, ::ArrayWrapper<float> muscles_ = {}, UnityEngine::HumanPose pose_ = {}, UnityEngine::HumanPoseHandler* handler_ = {}, UnityEngine::Vector3 bodyPosition_ = {}, UnityEngine::Quaternion bodyRotation_ = {}, int mN_ = {}, UnityEngine::Quaternion lastBodyRotation_ = {}) noexcept : bakeHandIK{bakeHandIK_}, IKKeyReductionError{IKKeyReductionError_}, muscleFrameRateDiv{muscleFrameRateDiv_}, bakerMuscles{bakerMuscles_}, rootQT{rootQT_}, leftFootQT{leftFootQT_}, rightFootQT{rightFootQT_}, leftHandQT{leftHandQT_}, rightHandQT{rightHandQT_}, muscles{muscles_}, pose{pose_}, handler{handler_}, bodyPosition{bodyPosition_}, bodyRotation{bodyRotation_}, mN{mN_}, lastBodyRotation{lastBodyRotation_} {}
     // Get instance field reference: public System.Boolean bakeHandIK
     bool& dyn_bakeHandIK();
     // Get instance field reference: public System.Single IKKeyReductionError
@@ -152,7 +152,7 @@ namespace RootMotion {
     // Get instance field reference: public System.Int32 muscleFrameRateDiv
     int& dyn_muscleFrameRateDiv();
     // Get instance field reference: private RootMotion.BakerMuscle[] bakerMuscles
-    ::Array<RootMotion::BakerMuscle*>*& dyn_bakerMuscles();
+    ::ArrayWrapper<RootMotion::BakerMuscle*>& dyn_bakerMuscles();
     // Get instance field reference: private RootMotion.BakerHumanoidQT rootQT
     RootMotion::BakerHumanoidQT*& dyn_rootQT();
     // Get instance field reference: private RootMotion.BakerHumanoidQT leftFootQT
@@ -164,7 +164,7 @@ namespace RootMotion {
     // Get instance field reference: private RootMotion.BakerHumanoidQT rightHandQT
     RootMotion::BakerHumanoidQT*& dyn_rightHandQT();
     // Get instance field reference: private System.Single[] muscles
-    ::Array<float>*& dyn_muscles();
+    ::ArrayWrapper<float>& dyn_muscles();
     // Get instance field reference: private UnityEngine.HumanPose pose
     UnityEngine::HumanPose& dyn_pose();
     // Get instance field reference: private UnityEngine.HumanPoseHandler handler
@@ -178,13 +178,13 @@ namespace RootMotion {
     // Get instance field reference: private UnityEngine.Quaternion lastBodyRotation
     UnityEngine::Quaternion& dyn_lastBodyRotation();
     // private System.Void Awake()
-    // Offset: 0x1AEAF3C
+    // Offset: 0x1C6D6BC
     void Awake();
     // private System.Void UpdateHumanPose()
-    // Offset: 0x1AEBA78
+    // Offset: 0x1C6E1F8
     void UpdateHumanPose();
     // public System.Void .ctor()
-    // Offset: 0x1AEBB54
+    // Offset: 0x1C6E2D4
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -198,27 +198,27 @@ namespace RootMotion {
       return THROW_UNLESS((::il2cpp_utils::New<HumanoidBaker*, creationType>()));
     }
     // protected override UnityEngine.Transform GetCharacterRoot()
-    // Offset: 0x1AEB368
+    // Offset: 0x1C6DAE8
     // Implemented from: RootMotion.Baker
     // Base method: UnityEngine.Transform Baker::GetCharacterRoot()
     UnityEngine::Transform* GetCharacterRoot();
     // protected override System.Void OnStartBaking()
-    // Offset: 0x1AEB384
+    // Offset: 0x1C6DB04
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnStartBaking()
     void OnStartBaking();
     // protected override System.Void OnSetLoopFrame(System.Single time)
-    // Offset: 0x1AEB4A4
+    // Offset: 0x1C6DC24
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetLoopFrame(System.Single time)
     void OnSetLoopFrame(float time);
     // protected override System.Void OnSetCurves(ref UnityEngine.AnimationClip clip)
-    // Offset: 0x1AEB580
+    // Offset: 0x1C6DD00
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetCurves(ref UnityEngine.AnimationClip clip)
     void OnSetCurves(ByRef<UnityEngine::AnimationClip*> clip);
     // protected override System.Void OnSetKeyframes(System.Single time, System.Boolean lastFrame)
-    // Offset: 0x1AEB750
+    // Offset: 0x1C6DED0
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetKeyframes(System.Single time, System.Boolean lastFrame)
     void OnSetKeyframes(float time, bool lastFrame);

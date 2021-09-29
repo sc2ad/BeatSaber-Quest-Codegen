@@ -87,79 +87,79 @@ namespace RootMotion::FinalIK {
     #pragma pack(pop)
     static check_size<sizeof(Grounding::Quality), 0 + sizeof(int)> __RootMotion_FinalIK_Grounding_QualitySizeCheck;
     static_assert(sizeof(Grounding::Quality) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2BB08
+    // [TooltipAttribute] Offset: 0xEF22E0
     // public UnityEngine.LayerMask layers
     // Size: 0x4
     // Offset: 0x10
     UnityEngine::LayerMask layers;
     // Field size check
     static_assert(sizeof(UnityEngine::LayerMask) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2BB40
+    // [TooltipAttribute] Offset: 0xEF2318
     // public System.Single maxStep
     // Size: 0x4
     // Offset: 0x14
     float maxStep;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2BB78
+    // [TooltipAttribute] Offset: 0xEF2350
     // public System.Single heightOffset
     // Size: 0x4
     // Offset: 0x18
     float heightOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2BBB0
+    // [TooltipAttribute] Offset: 0xEF2388
     // public System.Single footSpeed
     // Size: 0x4
     // Offset: 0x1C
     float footSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2BBE8
+    // [TooltipAttribute] Offset: 0xEF23C0
     // public System.Single footRadius
     // Size: 0x4
     // Offset: 0x20
     float footRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2BC20
+    // [TooltipAttribute] Offset: 0xEF23F8
     // public System.Single footCenterOffset
     // Size: 0x4
     // Offset: 0x24
     float footCenterOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2BC6C
+    // [TooltipAttribute] Offset: 0xEF2444
     // public System.Single prediction
     // Size: 0x4
     // Offset: 0x28
     float prediction;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2BCA4
-    // [RangeAttribute] Offset: 0xE2BCA4
+    // [TooltipAttribute] Offset: 0xEF247C
+    // [RangeAttribute] Offset: 0xEF247C
     // public System.Single footRotationWeight
     // Size: 0x4
     // Offset: 0x2C
     float footRotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2BCF8
+    // [TooltipAttribute] Offset: 0xEF24D0
     // public System.Single footRotationSpeed
     // Size: 0x4
     // Offset: 0x30
     float footRotationSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2BD30
-    // [RangeAttribute] Offset: 0xE2BD30
+    // [TooltipAttribute] Offset: 0xEF2508
+    // [RangeAttribute] Offset: 0xEF2508
     // public System.Single maxFootRotationAngle
     // Size: 0x4
     // Offset: 0x34
     float maxFootRotationAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2BD88
+    // [TooltipAttribute] Offset: 0xEF2560
     // public System.Boolean rotateSolver
     // Size: 0x1
     // Offset: 0x38
@@ -168,43 +168,43 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: rotateSolver and: pelvisSpeed
     char __padding10[0x3] = {};
-    // [TooltipAttribute] Offset: 0xE2BDC0
+    // [TooltipAttribute] Offset: 0xEF2598
     // public System.Single pelvisSpeed
     // Size: 0x4
     // Offset: 0x3C
     float pelvisSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2BDF8
-    // [RangeAttribute] Offset: 0xE2BDF8
+    // [TooltipAttribute] Offset: 0xEF25D0
+    // [RangeAttribute] Offset: 0xEF25D0
     // public System.Single pelvisDamper
     // Size: 0x4
     // Offset: 0x40
     float pelvisDamper;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2BE4C
+    // [TooltipAttribute] Offset: 0xEF2624
     // public System.Single lowerPelvisWeight
     // Size: 0x4
     // Offset: 0x44
     float lowerPelvisWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2BE84
+    // [TooltipAttribute] Offset: 0xEF265C
     // public System.Single liftPelvisWeight
     // Size: 0x4
     // Offset: 0x48
     float liftPelvisWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2BEBC
+    // [TooltipAttribute] Offset: 0xEF2694
     // public System.Single rootSphereCastRadius
     // Size: 0x4
     // Offset: 0x4C
     float rootSphereCastRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2BEF4
+    // [TooltipAttribute] Offset: 0xEF26CC
     // public System.Boolean overstepFallsDown
     // Size: 0x1
     // Offset: 0x50
@@ -213,7 +213,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: overstepFallsDown and: quality
     char __padding16[0x3] = {};
-    // [TooltipAttribute] Offset: 0xE2BF2C
+    // [TooltipAttribute] Offset: 0xEF2704
     // public RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Quality quality
     // Size: 0x4
     // Offset: 0x54
@@ -223,9 +223,9 @@ namespace RootMotion::FinalIK {
     // private RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Leg[] <legs>k__BackingField
     // Size: 0x8
     // Offset: 0x58
-    ::Array<RootMotion::FinalIK::Grounding::Leg*>* legs;
+    ::ArrayWrapper<RootMotion::FinalIK::Grounding::Leg*> legs;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::Grounding::Leg*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::Grounding::Leg*>) == 0x8);
     // private RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Pelvis <pelvis>k__BackingField
     // Size: 0x8
     // Offset: 0x60
@@ -259,7 +259,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: Grounding
-    Grounding(UnityEngine::LayerMask layers_ = {}, float maxStep_ = {}, float heightOffset_ = {}, float footSpeed_ = {}, float footRadius_ = {}, float footCenterOffset_ = {}, float prediction_ = {}, float footRotationWeight_ = {}, float footRotationSpeed_ = {}, float maxFootRotationAngle_ = {}, bool rotateSolver_ = {}, float pelvisSpeed_ = {}, float pelvisDamper_ = {}, float lowerPelvisWeight_ = {}, float liftPelvisWeight_ = {}, float rootSphereCastRadius_ = {}, bool overstepFallsDown_ = {}, RootMotion::FinalIK::Grounding::Quality quality_ = {}, ::Array<RootMotion::FinalIK::Grounding::Leg*>* legs_ = {}, RootMotion::FinalIK::Grounding::Pelvis* pelvis_ = {}, bool isGrounded_ = {}, UnityEngine::Transform* root_ = {}, UnityEngine::RaycastHit rootHit_ = {}, bool initiated_ = {}) noexcept : layers{layers_}, maxStep{maxStep_}, heightOffset{heightOffset_}, footSpeed{footSpeed_}, footRadius{footRadius_}, footCenterOffset{footCenterOffset_}, prediction{prediction_}, footRotationWeight{footRotationWeight_}, footRotationSpeed{footRotationSpeed_}, maxFootRotationAngle{maxFootRotationAngle_}, rotateSolver{rotateSolver_}, pelvisSpeed{pelvisSpeed_}, pelvisDamper{pelvisDamper_}, lowerPelvisWeight{lowerPelvisWeight_}, liftPelvisWeight{liftPelvisWeight_}, rootSphereCastRadius{rootSphereCastRadius_}, overstepFallsDown{overstepFallsDown_}, quality{quality_}, legs{legs_}, pelvis{pelvis_}, isGrounded{isGrounded_}, root{root_}, rootHit{rootHit_}, initiated{initiated_} {}
+    Grounding(UnityEngine::LayerMask layers_ = {}, float maxStep_ = {}, float heightOffset_ = {}, float footSpeed_ = {}, float footRadius_ = {}, float footCenterOffset_ = {}, float prediction_ = {}, float footRotationWeight_ = {}, float footRotationSpeed_ = {}, float maxFootRotationAngle_ = {}, bool rotateSolver_ = {}, float pelvisSpeed_ = {}, float pelvisDamper_ = {}, float lowerPelvisWeight_ = {}, float liftPelvisWeight_ = {}, float rootSphereCastRadius_ = {}, bool overstepFallsDown_ = {}, RootMotion::FinalIK::Grounding::Quality quality_ = {}, ::ArrayWrapper<RootMotion::FinalIK::Grounding::Leg*> legs_ = {}, RootMotion::FinalIK::Grounding::Pelvis* pelvis_ = {}, bool isGrounded_ = {}, UnityEngine::Transform* root_ = {}, UnityEngine::RaycastHit rootHit_ = {}, bool initiated_ = {}) noexcept : layers{layers_}, maxStep{maxStep_}, heightOffset{heightOffset_}, footSpeed{footSpeed_}, footRadius{footRadius_}, footCenterOffset{footCenterOffset_}, prediction{prediction_}, footRotationWeight{footRotationWeight_}, footRotationSpeed{footRotationSpeed_}, maxFootRotationAngle{maxFootRotationAngle_}, rotateSolver{rotateSolver_}, pelvisSpeed{pelvisSpeed_}, pelvisDamper{pelvisDamper_}, lowerPelvisWeight{lowerPelvisWeight_}, liftPelvisWeight{liftPelvisWeight_}, rootSphereCastRadius{rootSphereCastRadius_}, overstepFallsDown{overstepFallsDown_}, quality{quality_}, legs{legs_}, pelvis{pelvis_}, isGrounded{isGrounded_}, root{root_}, rootHit{rootHit_}, initiated{initiated_} {}
     // Get instance field reference: public UnityEngine.LayerMask layers
     UnityEngine::LayerMask& dyn_layers();
     // Get instance field reference: public System.Single maxStep
@@ -297,7 +297,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Quality quality
     RootMotion::FinalIK::Grounding::Quality& dyn_quality();
     // Get instance field reference: private RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Leg[] <legs>k__BackingField
-    ::Array<RootMotion::FinalIK::Grounding::Leg*>*& dyn_$legs$k__BackingField();
+    ::ArrayWrapper<RootMotion::FinalIK::Grounding::Leg*>& dyn_$legs$k__BackingField();
     // Get instance field reference: private RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Pelvis <pelvis>k__BackingField
     RootMotion::FinalIK::Grounding::Pelvis*& dyn_$pelvis$k__BackingField();
     // Get instance field reference: private System.Boolean <isGrounded>k__BackingField
@@ -309,76 +309,76 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Boolean initiated
     bool& dyn_initiated();
     // public RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Leg[] get_legs()
-    // Offset: 0x1CCB68C
-    ::Array<RootMotion::FinalIK::Grounding::Leg*>* get_legs();
+    // Offset: 0x1E8E94C
+    ::ArrayWrapper<RootMotion::FinalIK::Grounding::Leg*> get_legs();
     // private System.Void set_legs(RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Leg[] value)
-    // Offset: 0x1CCB694
-    void set_legs(::Array<RootMotion::FinalIK::Grounding::Leg*>* value);
+    // Offset: 0x1E8E954
+    void set_legs(::ArrayWrapper<RootMotion::FinalIK::Grounding::Leg*> value);
     // public RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Pelvis get_pelvis()
-    // Offset: 0x1CCB69C
+    // Offset: 0x1E8E95C
     RootMotion::FinalIK::Grounding::Pelvis* get_pelvis();
     // private System.Void set_pelvis(RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Pelvis value)
-    // Offset: 0x1CCB6A4
+    // Offset: 0x1E8E964
     void set_pelvis(RootMotion::FinalIK::Grounding::Pelvis* value);
     // public System.Boolean get_isGrounded()
-    // Offset: 0x1CCB6AC
+    // Offset: 0x1E8E96C
     bool get_isGrounded();
     // private System.Void set_isGrounded(System.Boolean value)
-    // Offset: 0x1CCB6B4
+    // Offset: 0x1E8E974
     void set_isGrounded(bool value);
     // public UnityEngine.Transform get_root()
-    // Offset: 0x1CCB6C0
+    // Offset: 0x1E8E980
     UnityEngine::Transform* get_root();
     // private System.Void set_root(UnityEngine.Transform value)
-    // Offset: 0x1CCB6C8
+    // Offset: 0x1E8E988
     void set_root(UnityEngine::Transform* value);
     // public UnityEngine.RaycastHit get_rootHit()
-    // Offset: 0x1CCB6D0
+    // Offset: 0x1E8E990
     UnityEngine::RaycastHit get_rootHit();
     // private System.Void set_rootHit(UnityEngine.RaycastHit value)
-    // Offset: 0x1CCB6E8
+    // Offset: 0x1E8E9A8
     void set_rootHit(UnityEngine::RaycastHit value);
     // public System.Boolean get_rootGrounded()
-    // Offset: 0x1CCB708
+    // Offset: 0x1E8E9C8
     bool get_rootGrounded();
     // public UnityEngine.Vector3 get_up()
-    // Offset: 0x1CC5C00
+    // Offset: 0x1E88EC0
     UnityEngine::Vector3 get_up();
     // private System.Boolean get_useRootRotation()
-    // Offset: 0x1CCCA78
+    // Offset: 0x1E8FD38
     bool get_useRootRotation();
     // public UnityEngine.RaycastHit GetRootHit(System.Single maxDistanceMlp)
-    // Offset: 0x1CCB75C
+    // Offset: 0x1E8EA1C
     UnityEngine::RaycastHit GetRootHit(float maxDistanceMlp);
     // public System.Boolean IsValid(ref System.String errorMessage)
-    // Offset: 0x1CCBB3C
+    // Offset: 0x1E8EDFC
     bool IsValid(ByRef<::Il2CppString*> errorMessage);
     // public System.Void Initiate(UnityEngine.Transform root, UnityEngine.Transform[] feet)
-    // Offset: 0x1CC50C4
-    void Initiate(UnityEngine::Transform* root, ::Array<UnityEngine::Transform*>* feet);
+    // Offset: 0x1E88384
+    void Initiate(UnityEngine::Transform* root, ::ArrayWrapper<UnityEngine::Transform*> feet);
     // public System.Void Update()
-    // Offset: 0x1CC58C4
+    // Offset: 0x1E88B84
     void Update();
     // public UnityEngine.Vector3 GetLegsPlaneNormal()
-    // Offset: 0x1CC771C
+    // Offset: 0x1E8A9DC
     UnityEngine::Vector3 GetLegsPlaneNormal();
     // public System.Void Reset()
-    // Offset: 0x1CC4C28
+    // Offset: 0x1E87EE8
     void Reset();
     // public System.Void LogWarning(System.String message)
-    // Offset: 0x1CCBDBC
+    // Offset: 0x1E8F07C
     void LogWarning(::Il2CppString* message);
     // public System.Single GetVerticalOffset(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
-    // Offset: 0x1CCCB48
+    // Offset: 0x1E8FE08
     float GetVerticalOffset(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2);
     // public UnityEngine.Vector3 Flatten(UnityEngine.Vector3 v)
-    // Offset: 0x1CCCCB0
+    // Offset: 0x1E8FF70
     UnityEngine::Vector3 Flatten(UnityEngine::Vector3 v);
     // public UnityEngine.Vector3 GetFootCenterOffset()
-    // Offset: 0x1CCCDB4
+    // Offset: 0x1E90074
     UnityEngine::Vector3 GetFootCenterOffset();
     // public System.Void .ctor()
-    // Offset: 0x1CC4868
+    // Offset: 0x1E87B28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -397,7 +397,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounding::Quality, "RootMotion.Fina
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::get_legs
 // Il2CppName: get_legs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<RootMotion::FinalIK::Grounding::Leg*>* (RootMotion::FinalIK::Grounding::*)()>(&RootMotion::FinalIK::Grounding::get_legs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<RootMotion::FinalIK::Grounding::Leg*> (RootMotion::FinalIK::Grounding::*)()>(&RootMotion::FinalIK::Grounding::get_legs)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding*), "get_legs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -405,9 +405,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Roo
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::set_legs
 // Il2CppName: set_legs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::*)(::Array<RootMotion::FinalIK::Grounding::Leg*>*)>(&RootMotion::FinalIK::Grounding::set_legs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::*)(::ArrayWrapper<RootMotion::FinalIK::Grounding::Leg*>)>(&RootMotion::FinalIK::Grounding::set_legs)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "Grounding/Leg"), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "Grounding/Leg")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding*), "set_legs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
@@ -524,10 +524,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Initiate
 // Il2CppName: Initiate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::*)(UnityEngine::Transform*, ::Array<UnityEngine::Transform*>*)>(&RootMotion::FinalIK::Grounding::Initiate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::*)(UnityEngine::Transform*, ::ArrayWrapper<UnityEngine::Transform*>)>(&RootMotion::FinalIK::Grounding::Initiate)> {
   static const MethodInfo* get() {
     static auto* root = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
-    static auto* feet = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
+    static auto* feet = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{root, feet});
   }
 };

@@ -117,20 +117,20 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Boolean _resolveAll
     bool& dyn__resolveAll();
     // protected System.Void set_SubFinalizer(Zenject.IBindingFinalizer value)
-    // Offset: 0x17246B8
+    // Offset: 0x18A00B4
     void set_SubFinalizer(Zenject::IBindingFinalizer* value);
     // public System.Void .ctor(Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement, System.Object subIdentifier, System.Boolean resolveAll)
-    // Offset: 0x1724658
+    // Offset: 0x18A0054
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerBinder* New_ctor(Zenject::BindInfo* bindInfo, Zenject::BindStatement* bindStatement, ::Il2CppObject* subIdentifier, bool resolveAll) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerBinder*, creationType>(bindInfo, bindStatement, subIdentifier, resolveAll)));
     }
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder ByInstance(Zenject.DiContainer subContainer)
-    // Offset: 0x17246D4
+    // Offset: 0x18A00D0
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* ByInstance(Zenject::DiContainer* subContainer);
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder ByInstanceGetter(System.Func`2<Zenject.InjectContext,Zenject.DiContainer> subContainerGetter)
-    // Offset: 0x1724850
+    // Offset: 0x18A024C
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* ByInstanceGetter(System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>* subContainerGetter);
     // public Zenject.WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder ByInstaller()
     // Offset: 0xFFFFFFFF
@@ -144,16 +144,16 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodThrow<Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(___instance_arg, ___generic__method);
     }
     // public Zenject.WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder ByInstaller(System.Type installerType)
-    // Offset: 0x1724978
+    // Offset: 0x18A0374
     Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* ByInstaller(System::Type* installerType);
     // public Zenject.WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder ByMethod(System.Action`1<Zenject.DiContainer> installerMethod)
-    // Offset: 0x1724B20
+    // Offset: 0x18A051C
     Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* ByMethod(System::Action_1<Zenject::DiContainer*>* installerMethod);
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewGameObjectMethod(System.Action`1<Zenject.DiContainer> installerMethod)
-    // Offset: 0x1724C70
+    // Offset: 0x18A066C
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewGameObjectMethod(System::Action_1<Zenject::DiContainer*>* installerMethod);
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewPrefabMethod(UnityEngine.Object prefab, System.Action`1<Zenject.DiContainer> installerMethod)
-    // Offset: 0x1724E14
+    // Offset: 0x18A0810
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabMethod(UnityEngine::Object* prefab, System::Action_1<Zenject::DiContainer*>* installerMethod);
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewGameObjectInstaller()
     // Offset: 0xFFFFFFFF
@@ -167,7 +167,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodThrow<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(___instance_arg, ___generic__method);
     }
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewGameObjectInstaller(System.Type installerType)
-    // Offset: 0x1724F78
+    // Offset: 0x18A0974
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewGameObjectInstaller(System::Type* installerType);
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewPrefabInstaller(UnityEngine.Object prefab)
     // Offset: 0xFFFFFFFF
@@ -181,10 +181,10 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodThrow<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(___instance_arg, ___generic__method, prefab);
     }
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewPrefabInstaller(UnityEngine.Object prefab, System.Type installerType)
-    // Offset: 0x1725118
+    // Offset: 0x18A0B14
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabInstaller(UnityEngine::Object* prefab, System::Type* installerType);
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewPrefabResourceMethod(System.String resourcePath, System.Action`1<Zenject.DiContainer> installerMethod)
-    // Offset: 0x17252C0
+    // Offset: 0x18A0CBC
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabResourceMethod(::Il2CppString* resourcePath, System::Action_1<Zenject::DiContainer*>* installerMethod);
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewPrefabResourceInstaller(System.String resourcePath)
     // Offset: 0xFFFFFFFF
@@ -198,19 +198,19 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodThrow<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(___instance_arg, ___generic__method, resourcePath);
     }
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewPrefabResourceInstaller(System.String resourcePath, System.Type installerType)
-    // Offset: 0x1725424
+    // Offset: 0x18A0E20
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabResourceInstaller(::Il2CppString* resourcePath, System::Type* installerType);
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewPrefab(UnityEngine.Object prefab)
-    // Offset: 0x17255DC
+    // Offset: 0x18A0FD8
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefab(UnityEngine::Object* prefab);
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewContextPrefab(UnityEngine.Object prefab)
-    // Offset: 0x17255E0
+    // Offset: 0x18A0FDC
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewContextPrefab(UnityEngine::Object* prefab);
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewPrefabResource(System.String resourcePath)
-    // Offset: 0x172573C
+    // Offset: 0x18A1138
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabResource(::Il2CppString* resourcePath);
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder ByNewContextPrefabResource(System.String resourcePath)
-    // Offset: 0x1725740
+    // Offset: 0x18A113C
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewContextPrefabResource(::Il2CppString* resourcePath);
   }; // Zenject.SubContainerBinder
   #pragma pack(pop)

@@ -30,19 +30,19 @@ namespace GlobalNamespace {
     // public MasterServerAvailabilityData/UserMessage/LocalizedMessage[] localizations
     // Size: 0x8
     // Offset: 0x10
-    ::Array<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>* localizations;
+    ::ArrayWrapper<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*> localizations;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>) == 0x8);
     // Creating value type constructor for type: UserMessage
-    UserMessage(::Array<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>* localizations_ = {}) noexcept : localizations{localizations_} {}
-    // Creating conversion operator: operator ::Array<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>*
-    constexpr operator ::Array<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>*() const noexcept {
+    UserMessage(::ArrayWrapper<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*> localizations_ = {}) noexcept : localizations{localizations_} {}
+    // Creating conversion operator: operator ::ArrayWrapper<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>
+    constexpr operator ::ArrayWrapper<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>() const noexcept {
       return localizations;
     }
     // Get instance field reference: public MasterServerAvailabilityData/UserMessage/LocalizedMessage[] localizations
-    ::Array<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>*& dyn_localizations();
+    ::ArrayWrapper<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>& dyn_localizations();
     // public System.Void .ctor()
-    // Offset: 0x11A6A98
+    // Offset: 0x12663D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     }
   }; // MasterServerAvailabilityData/UserMessage
   #pragma pack(pop)
-  static check_size<sizeof(MasterServerAvailabilityData::UserMessage), 16 + sizeof(::Array<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>*)> __GlobalNamespace_MasterServerAvailabilityData_UserMessageSizeCheck;
+  static check_size<sizeof(MasterServerAvailabilityData::UserMessage), 16 + sizeof(::ArrayWrapper<GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*>)> __GlobalNamespace_MasterServerAvailabilityData_UserMessageSizeCheck;
   static_assert(sizeof(MasterServerAvailabilityData::UserMessage) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerAvailabilityData::UserMessage*, "", "MasterServerAvailabilityData/UserMessage");

@@ -46,55 +46,55 @@ namespace GlobalNamespace {
     // private MaterialPropertyValuesSetter/PropertyNameFloatValuePair[] _floats
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameFloatValuePair*>* floats;
+    ::ArrayWrapper<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameFloatValuePair*> floats;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameFloatValuePair*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameFloatValuePair*>) == 0x8);
     // private MaterialPropertyValuesSetter/PropertyNameVectorValuePair[] _vectors
     // Size: 0x8
     // Offset: 0x28
-    ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameVectorValuePair*>* vectors;
+    ::ArrayWrapper<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameVectorValuePair*> vectors;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameVectorValuePair*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameVectorValuePair*>) == 0x8);
     // private MaterialPropertyValuesSetter/PropertyNameColorValuePair[] _colors
     // Size: 0x8
     // Offset: 0x30
-    ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameColorValuePair*>* colors;
+    ::ArrayWrapper<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameColorValuePair*> colors;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameColorValuePair*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameColorValuePair*>) == 0x8);
     // private MaterialPropertyValuesSetter/PropertyNameIntValuePair[] _ints
     // Size: 0x8
     // Offset: 0x38
-    ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*>* ints;
+    ::ArrayWrapper<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*> ints;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*>) == 0x8);
     // Creating value type constructor for type: MaterialPropertyValuesSetter
-    MaterialPropertyValuesSetter(GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController_ = {}, ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameFloatValuePair*>* floats_ = {}, ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameVectorValuePair*>* vectors_ = {}, ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameColorValuePair*>* colors_ = {}, ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*>* ints_ = {}) noexcept : materialPropertyBlockController{materialPropertyBlockController_}, floats{floats_}, vectors{vectors_}, colors{colors_}, ints{ints_} {}
+    MaterialPropertyValuesSetter(GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController_ = {}, ::ArrayWrapper<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameFloatValuePair*> floats_ = {}, ::ArrayWrapper<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameVectorValuePair*> vectors_ = {}, ::ArrayWrapper<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameColorValuePair*> colors_ = {}, ::ArrayWrapper<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*> ints_ = {}) noexcept : materialPropertyBlockController{materialPropertyBlockController_}, floats{floats_}, vectors{vectors_}, colors{colors_}, ints{ints_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MaterialPropertyBlockController _materialPropertyBlockController
     GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
     // Get instance field reference: private MaterialPropertyValuesSetter/PropertyNameFloatValuePair[] _floats
-    ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameFloatValuePair*>*& dyn__floats();
+    ::ArrayWrapper<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameFloatValuePair*>& dyn__floats();
     // Get instance field reference: private MaterialPropertyValuesSetter/PropertyNameVectorValuePair[] _vectors
-    ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameVectorValuePair*>*& dyn__vectors();
+    ::ArrayWrapper<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameVectorValuePair*>& dyn__vectors();
     // Get instance field reference: private MaterialPropertyValuesSetter/PropertyNameColorValuePair[] _colors
-    ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameColorValuePair*>*& dyn__colors();
+    ::ArrayWrapper<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameColorValuePair*>& dyn__colors();
     // Get instance field reference: private MaterialPropertyValuesSetter/PropertyNameIntValuePair[] _ints
-    ::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*>*& dyn__ints();
+    ::ArrayWrapper<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*>& dyn__ints();
     // protected System.Void Start()
-    // Offset: 0x1E1C328
+    // Offset: 0x1E2C8B0
     void Start();
     // protected System.Void OnValidate()
-    // Offset: 0x1E1C500
+    // Offset: 0x1E2CA88
     void OnValidate();
     // private System.Void RefreshPropertyIds()
-    // Offset: 0x1E1C59C
+    // Offset: 0x1E2CB24
     void RefreshPropertyIds();
     // private System.Void ApplyParams()
-    // Offset: 0x1E1C32C
+    // Offset: 0x1E2C8B4
     void ApplyParams();
     // public System.Void .ctor()
-    // Offset: 0x1E1C734
+    // Offset: 0x1E2CCBC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -108,7 +108,7 @@ namespace GlobalNamespace {
     }
   }; // MaterialPropertyValuesSetter
   #pragma pack(pop)
-  static check_size<sizeof(MaterialPropertyValuesSetter), 56 + sizeof(::Array<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*>*)> __GlobalNamespace_MaterialPropertyValuesSetterSizeCheck;
+  static check_size<sizeof(MaterialPropertyValuesSetter), 56 + sizeof(::ArrayWrapper<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*>)> __GlobalNamespace_MaterialPropertyValuesSetterSizeCheck;
   static_assert(sizeof(MaterialPropertyValuesSetter) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyValuesSetter*, "", "MaterialPropertyValuesSetter");

@@ -76,25 +76,25 @@ namespace Zenject {
     // Set static field: static public System.Func`2<UnityEngine.GameObject,System.Collections.Generic.IEnumerable`1<Zenject.SceneDecoratorContext>> <>9__50_1
     static void _set_$$9__50_1(System::Func_2<UnityEngine::GameObject*, System::Collections::Generic::IEnumerable_1<Zenject::SceneDecoratorContext*>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1722A98
+    // Offset: 0x189E494
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> <GetParentContainers>b__49_0(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1722B04
+    // Offset: 0x189E500
     System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* $GetParentContainers$b__49_0(UnityEngine::SceneManagement::Scene scene);
     // System.Collections.Generic.IEnumerable`1<Zenject.SceneContext> <GetParentContainers>b__49_1(UnityEngine.GameObject root)
-    // Offset: 0x1722B2C
+    // Offset: 0x189E528
     System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>* $GetParentContainers$b__49_1(UnityEngine::GameObject* root);
     // Zenject.DiContainer <GetParentContainers>b__49_3(Zenject.SceneContext x)
-    // Offset: 0x1722B84
+    // Offset: 0x189E580
     Zenject::DiContainer* $GetParentContainers$b__49_3(Zenject::SceneContext* x);
     // System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> <LookupDecoratorContexts>b__50_0(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1722BA4
+    // Offset: 0x189E5A0
     System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* $LookupDecoratorContexts$b__50_0(UnityEngine::SceneManagement::Scene scene);
     // System.Collections.Generic.IEnumerable`1<Zenject.SceneDecoratorContext> <LookupDecoratorContexts>b__50_1(UnityEngine.GameObject root)
-    // Offset: 0x1722BCC
+    // Offset: 0x189E5C8
     System::Collections::Generic::IEnumerable_1<Zenject::SceneDecoratorContext*>* $LookupDecoratorContexts$b__50_1(UnityEngine::GameObject* root);
     // public System.Void .ctor()
-    // Offset: 0x1722AFC
+    // Offset: 0x189E4F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

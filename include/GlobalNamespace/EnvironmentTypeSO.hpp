@@ -33,10 +33,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _typeNameLocalizationKey
     ::Il2CppString*& dyn__typeNameLocalizationKey();
     // public System.String get_typeNameLocalizationKey()
-    // Offset: 0x1059978
+    // Offset: 0x11B2624
     ::Il2CppString* get_typeNameLocalizationKey();
     // public System.Void .ctor()
-    // Offset: 0x1059980
+    // Offset: 0x11B262C
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.XR.XRNode node
     UnityEngine::XR::XRNode& dyn_node();
     // public System.Void .ctor()
-    // Offset: 0x154439C
+    // Offset: 0x16CD0E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -47,9 +47,9 @@ namespace GlobalNamespace {
     // private VFXAnimationEvents/VFXAnimationEvent[] _animationEvents
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*>* animationEvents;
+    ::ArrayWrapper<GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*> animationEvents;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*>) == 0x8);
     // private System.Action animationDidPauseEvent
     // Size: 0x8
     // Offset: 0x28
@@ -69,13 +69,13 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
     // Creating value type constructor for type: VFXAnimationEvents
-    VFXAnimationEvents(UnityEngine::Animation* animation_ = {}, ::Array<GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*>* animationEvents_ = {}, System::Action* animationDidPauseEvent_ = {}, System::Action* spawnCharacterEvent_ = {}, System::Action* despawnCharacterEvent_ = {}) noexcept : animation{animation_}, animationEvents{animationEvents_}, animationDidPauseEvent{animationDidPauseEvent_}, spawnCharacterEvent{spawnCharacterEvent_}, despawnCharacterEvent{despawnCharacterEvent_} {}
+    VFXAnimationEvents(UnityEngine::Animation* animation_ = {}, ::ArrayWrapper<GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*> animationEvents_ = {}, System::Action* animationDidPauseEvent_ = {}, System::Action* spawnCharacterEvent_ = {}, System::Action* despawnCharacterEvent_ = {}) noexcept : animation{animation_}, animationEvents{animationEvents_}, animationDidPauseEvent{animationDidPauseEvent_}, spawnCharacterEvent{spawnCharacterEvent_}, despawnCharacterEvent{despawnCharacterEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Animation _animation
     UnityEngine::Animation*& dyn__animation();
     // Get instance field reference: private VFXAnimationEvents/VFXAnimationEvent[] _animationEvents
-    ::Array<GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*>*& dyn__animationEvents();
+    ::ArrayWrapper<GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*>& dyn__animationEvents();
     // Get instance field reference: private System.Action animationDidPauseEvent
     System::Action*& dyn_animationDidPauseEvent();
     // Get instance field reference: private System.Action spawnCharacterEvent
@@ -83,40 +83,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action despawnCharacterEvent
     System::Action*& dyn_despawnCharacterEvent();
     // public System.Void add_animationDidPauseEvent(System.Action value)
-    // Offset: 0x2396AF8
+    // Offset: 0x259CA1C
     void add_animationDidPauseEvent(System::Action* value);
     // public System.Void remove_animationDidPauseEvent(System.Action value)
-    // Offset: 0x2396B9C
+    // Offset: 0x259CAC0
     void remove_animationDidPauseEvent(System::Action* value);
     // public System.Void add_spawnCharacterEvent(System.Action value)
-    // Offset: 0x2396C40
+    // Offset: 0x259CB64
     void add_spawnCharacterEvent(System::Action* value);
     // public System.Void remove_spawnCharacterEvent(System.Action value)
-    // Offset: 0x2396CE4
+    // Offset: 0x259CC08
     void remove_spawnCharacterEvent(System::Action* value);
     // public System.Void add_despawnCharacterEvent(System.Action value)
-    // Offset: 0x2396D88
+    // Offset: 0x259CCAC
     void add_despawnCharacterEvent(System::Action* value);
     // public System.Void remove_despawnCharacterEvent(System.Action value)
-    // Offset: 0x2396E2C
+    // Offset: 0x259CD50
     void remove_despawnCharacterEvent(System::Action* value);
     // private System.Void PlayEvent(System.String eventName)
-    // Offset: 0x2396ED0
+    // Offset: 0x259CDF4
     void PlayEvent(::Il2CppString* eventName);
     // private System.Void PauseAnimation()
-    // Offset: 0x2396FA8
+    // Offset: 0x259CECC
     void PauseAnimation();
     // private System.Void SpawnCharacterEvent()
-    // Offset: 0x23971E8
+    // Offset: 0x259D10C
     void SpawnCharacterEvent();
     // private System.Void DeSpawnCharacterEvent()
-    // Offset: 0x23971FC
+    // Offset: 0x259D120
     void DeSpawnCharacterEvent();
     // public System.Void ResumeAnimation()
-    // Offset: 0x2397210
+    // Offset: 0x259D134
     void ResumeAnimation();
     // public System.Void .ctor()
-    // Offset: 0x2397440
+    // Offset: 0x259D364
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

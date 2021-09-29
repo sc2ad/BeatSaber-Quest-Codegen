@@ -23,9 +23,9 @@ namespace System {
     // private System.ParameterizedStrings/System.FormatParam[] _arr
     // Size: 0x8
     // Offset: 0x10
-    ::Array<System::ParameterizedStrings::FormatParam>* arr;
+    ::ArrayWrapper<System::ParameterizedStrings::FormatParam> arr;
     // Field size check
-    static_assert(sizeof(::Array<System::ParameterizedStrings::FormatParam>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::ParameterizedStrings::FormatParam>) == 0x8);
     // private System.Int32 _count
     // Size: 0x4
     // Offset: 0x18
@@ -33,22 +33,22 @@ namespace System {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: LowLevelStack
-    LowLevelStack(::Array<System::ParameterizedStrings::FormatParam>* arr_ = {}, int count_ = {}) noexcept : arr{arr_}, count{count_} {}
+    LowLevelStack(::ArrayWrapper<System::ParameterizedStrings::FormatParam> arr_ = {}, int count_ = {}) noexcept : arr{arr_}, count{count_} {}
     // Get instance field reference: private System.ParameterizedStrings/System.FormatParam[] _arr
-    ::Array<System::ParameterizedStrings::FormatParam>*& dyn__arr();
+    ::ArrayWrapper<System::ParameterizedStrings::FormatParam>& dyn__arr();
     // Get instance field reference: private System.Int32 _count
     int& dyn__count();
     // public System.ParameterizedStrings/System.FormatParam Pop()
-    // Offset: 0x1D11ABC
+    // Offset: 0x1E9EC38
     System::ParameterizedStrings::FormatParam Pop();
     // public System.Void Push(System.ParameterizedStrings/System.FormatParam item)
-    // Offset: 0x1D11E58
+    // Offset: 0x1E9EFD4
     void Push(System::ParameterizedStrings::FormatParam item);
     // public System.Void Clear()
-    // Offset: 0x1D111E0
+    // Offset: 0x1E9E35C
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0x1D11188
+    // Offset: 0x1E9E304
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

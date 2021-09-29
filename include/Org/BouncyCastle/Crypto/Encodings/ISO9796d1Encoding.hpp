@@ -81,13 +81,13 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     // Set static field: static private readonly Org.BouncyCastle.Math.BigInteger Six
     static void _set_Six(Org::BouncyCastle::Math::BigInteger* value);
     // Get static field: static private readonly System.Byte[] shadows
-    static ::Array<uint8_t>* _get_shadows();
+    static ::ArrayWrapper<uint8_t> _get_shadows();
     // Set static field: static private readonly System.Byte[] shadows
-    static void _set_shadows(::Array<uint8_t>* value);
+    static void _set_shadows(::ArrayWrapper<uint8_t> value);
     // Get static field: static private readonly System.Byte[] inverse
-    static ::Array<uint8_t>* _get_inverse();
+    static ::ArrayWrapper<uint8_t> _get_inverse();
     // Set static field: static private readonly System.Byte[] inverse
-    static void _set_inverse(::Array<uint8_t>* value);
+    static void _set_inverse(::ArrayWrapper<uint8_t> value);
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IAsymmetricBlockCipher engine
     Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& dyn_engine();
     // Get instance field reference: private System.Boolean forEncryption
@@ -99,33 +99,33 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     // Get instance field reference: private Org.BouncyCastle.Math.BigInteger modulus
     Org::BouncyCastle::Math::BigInteger*& dyn_modulus();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher)
-    // Offset: 0x19366E4
+    // Offset: 0x1AA7518
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ISO9796d1Encoding* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ISO9796d1Encoding*, creationType>(cipher)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x19372B4
+    // Offset: 0x1AA80E8
     static void _cctor();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1936714
+    // Offset: 0x1AA7548
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetInputBlockSize()
-    // Offset: 0x19368C4
+    // Offset: 0x1AA76F8
     int GetInputBlockSize();
     // public System.Int32 GetOutputBlockSize()
-    // Offset: 0x1936998
+    // Offset: 0x1AA77CC
     int GetOutputBlockSize();
     // public System.Byte[] ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x1936A6C
-    ::Array<uint8_t>* ProcessBlock(::Array<uint8_t>* input, int inOff, int length);
+    // Offset: 0x1AA78A0
+    ::ArrayWrapper<uint8_t> ProcessBlock(::ArrayWrapper<uint8_t> input, int inOff, int length);
     // private System.Byte[] EncodeBlock(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x1936A7C
-    ::Array<uint8_t>* EncodeBlock(::Array<uint8_t>* input, int inOff, int inLen);
+    // Offset: 0x1AA78B0
+    ::ArrayWrapper<uint8_t> EncodeBlock(::ArrayWrapper<uint8_t> input, int inOff, int inLen);
     // private System.Byte[] DecodeBlock(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x1936DE0
-    ::Array<uint8_t>* DecodeBlock(::Array<uint8_t>* input, int inOff, int inLen);
+    // Offset: 0x1AA7C14
+    ::ArrayWrapper<uint8_t> DecodeBlock(::ArrayWrapper<uint8_t> input, int inOff, int inLen);
   }; // Org.BouncyCastle.Crypto.Encodings.ISO9796d1Encoding
   #pragma pack(pop)
   static check_size<sizeof(ISO9796d1Encoding), 40 + sizeof(Org::BouncyCastle::Math::BigInteger*)> __Org_BouncyCastle_Crypto_Encodings_ISO9796d1EncodingSizeCheck;
@@ -174,9 +174,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::ProcessBlock
 // Il2CppName: ProcessBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::ProcessBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::ProcessBlock)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, inOff, length});
@@ -185,9 +185,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::EncodeBlock
 // Il2CppName: EncodeBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::EncodeBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::EncodeBlock)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* inLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding*), "EncodeBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, inOff, inLen});
@@ -196,9 +196,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::DecodeBlock
 // Il2CppName: DecodeBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::DecodeBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::DecodeBlock)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* inLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding*), "DecodeBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, inOff, inLen});

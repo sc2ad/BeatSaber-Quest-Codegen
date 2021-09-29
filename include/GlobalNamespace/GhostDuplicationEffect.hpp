@@ -24,8 +24,8 @@ namespace UnityEngine {
 }
 // Forward declaring namespace: Tweening
 namespace Tweening {
-  // Forward declaring type: TweeningManager
-  class TweeningManager;
+  // Forward declaring type: TimeTweeningManager
+  class TimeTweeningManager;
 }
 // Forward declaring namespace: System::Collections
 namespace System::Collections {
@@ -50,9 +50,9 @@ namespace GlobalNamespace {
     // private UnityEngine.CanvasGroup[] _canvases
     // Size: 0x8
     // Offset: 0x18
-    ::Array<UnityEngine::CanvasGroup*>* canvases;
+    ::ArrayWrapper<UnityEngine::CanvasGroup*> canvases;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::CanvasGroup*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::CanvasGroup*>) == 0x8);
     // private System.Boolean isInitialized
     // Size: 0x1
     // Offset: 0x20
@@ -61,58 +61,58 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isInitialized and: tweeningManager
     char __padding1[0x7] = {};
-    // [InjectAttribute] Offset: 0xE3D5B0
-    // private readonly Tweening.TweeningManager _tweeningManager
+    // [InjectAttribute] Offset: 0xF05D94
+    // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
-    Tweening::TweeningManager* tweeningManager;
+    Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
-    static_assert(sizeof(Tweening::TweeningManager*) == 0x8);
+    static_assert(sizeof(Tweening::TimeTweeningManager*) == 0x8);
     // Creating value type constructor for type: GhostDuplicationEffect
-    GhostDuplicationEffect(::Array<UnityEngine::CanvasGroup*>* canvases_ = {}, bool isInitialized_ = {}, Tweening::TweeningManager* tweeningManager_ = {}) noexcept : canvases{canvases_}, isInitialized{isInitialized_}, tweeningManager{tweeningManager_} {}
+    GhostDuplicationEffect(::ArrayWrapper<UnityEngine::CanvasGroup*> canvases_ = {}, bool isInitialized_ = {}, Tweening::TimeTweeningManager* tweeningManager_ = {}) noexcept : canvases{canvases_}, isInitialized{isInitialized_}, tweeningManager{tweeningManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.CanvasGroup[] _canvases
-    ::Array<UnityEngine::CanvasGroup*>*& dyn__canvases();
+    ::ArrayWrapper<UnityEngine::CanvasGroup*>& dyn__canvases();
     // Get instance field reference: private System.Boolean isInitialized
     bool& dyn_isInitialized();
-    // Get instance field reference: private readonly Tweening.TweeningManager _tweeningManager
-    Tweening::TweeningManager*& dyn__tweeningManager();
+    // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
+    Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x1104D00
+    // Offset: 0x113FB1C
     void set_hide(bool value);
     // private System.Single get_size()
-    // Offset: 0x1104DFC
+    // Offset: 0x113FC18
     float get_size();
     // private System.Void set_size(System.Single value)
-    // Offset: 0x1104D38
+    // Offset: 0x113FB54
     void set_size(float value);
     // private System.Single get_alpha()
-    // Offset: 0x1104E50
+    // Offset: 0x113FC6C
     float get_alpha();
     // private System.Void set_alpha(System.Single value)
-    // Offset: 0x1104680
+    // Offset: 0x113F49C
     void set_alpha(float value);
     // protected System.Void OnDestroy()
-    // Offset: 0x110453C
+    // Offset: 0x113F358
     void OnDestroy();
     // protected System.Void Awake()
-    // Offset: 0x11045D4
+    // Offset: 0x113F3F0
     void Awake();
     // private System.Void Init()
-    // Offset: 0x11045E4
+    // Offset: 0x113F400
     void Init();
     // public System.Void Animate(GhostDuplicationEffect/GhostEffectParams ghostEffectParams)
-    // Offset: 0x110475C
+    // Offset: 0x113F578
     void Animate(GlobalNamespace::GhostDuplicationEffect::GhostEffectParams ghostEffectParams);
     // private System.Collections.IEnumerator HideRedundantWithDelay(System.Single delay)
-    // Offset: 0x1104AEC
+    // Offset: 0x113F908
     System::Collections::IEnumerator* HideRedundantWithDelay(float delay);
     // private System.Void SetDistances(System.Single distance, UnityEngine.Vector3 direction)
-    // Offset: 0x1104B98
+    // Offset: 0x113F9B4
     void SetDistances(float distance, UnityEngine::Vector3 direction);
     // public System.Void .ctor()
-    // Offset: 0x1104E9C
+    // Offset: 0x113FCB8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -126,7 +126,7 @@ namespace GlobalNamespace {
     }
   }; // GhostDuplicationEffect
   #pragma pack(pop)
-  static check_size<sizeof(GhostDuplicationEffect), 40 + sizeof(Tweening::TweeningManager*)> __GlobalNamespace_GhostDuplicationEffectSizeCheck;
+  static check_size<sizeof(GhostDuplicationEffect), 40 + sizeof(Tweening::TimeTweeningManager*)> __GlobalNamespace_GhostDuplicationEffectSizeCheck;
   static_assert(sizeof(GhostDuplicationEffect) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostDuplicationEffect*, "", "GhostDuplicationEffect");

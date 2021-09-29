@@ -31,22 +31,22 @@ namespace Mono {
     // Creating value type constructor for type: RuntimeMarshal
     RuntimeMarshal() noexcept {}
     // static System.String PtrToUtf8String(System.IntPtr ptr)
-    // Offset: 0x1A772BC
+    // Offset: 0x1C3FC8C
     static ::Il2CppString* PtrToUtf8String(System::IntPtr ptr);
     // static Mono.SafeStringMarshal MarshalString(System.String str)
-    // Offset: 0x1A7738C
+    // Offset: 0x1C3FD5C
     static Mono::SafeStringMarshal MarshalString(::Il2CppString* str);
     // static private System.Int32 DecodeBlobSize(System.IntPtr in_ptr, out System.IntPtr out_ptr)
-    // Offset: 0x1A77424
+    // Offset: 0x1C3FDF4
     static int DecodeBlobSize(System::IntPtr in_ptr, ByRef<System::IntPtr> out_ptr);
     // static System.Byte[] DecodeBlobArray(System.IntPtr ptr)
-    // Offset: 0x1A774A8
-    static ::Array<uint8_t>* DecodeBlobArray(System::IntPtr ptr);
+    // Offset: 0x1C3FE78
+    static ::ArrayWrapper<uint8_t> DecodeBlobArray(System::IntPtr ptr);
     // static System.Int32 AsciHexDigitValue(System.Int32 c)
-    // Offset: 0x1A77564
+    // Offset: 0x1C3FF34
     static int AsciHexDigitValue(int c);
     // static System.Void FreeAssemblyName(ref Mono.MonoAssemblyName name, System.Boolean freeStruct)
-    // Offset: 0x1A77590
+    // Offset: 0x1C3FF60
     static void FreeAssemblyName(ByRef<Mono::MonoAssemblyName> name, bool freeStruct);
   }; // Mono.RuntimeMarshal
   #pragma pack(pop)
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: Mono::RuntimeMarshal::DecodeBlobArray
 // Il2CppName: DecodeBlobArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(System::IntPtr)>(&Mono::RuntimeMarshal::DecodeBlobArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(System::IntPtr)>(&Mono::RuntimeMarshal::DecodeBlobArray)> {
   static const MethodInfo* get() {
     static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeMarshal*), "DecodeBlobArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ptr});

@@ -34,26 +34,26 @@ namespace UnityEngine::UI {
     // private readonly UnityEngine.Vector3[] m_WorldCorners
     // Size: 0x8
     // Offset: 0x10
-    ::Array<UnityEngine::Vector3>* m_WorldCorners;
+    ::ArrayWrapper<UnityEngine::Vector3> m_WorldCorners;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
     // private readonly UnityEngine.Vector3[] m_CanvasCorners
     // Size: 0x8
     // Offset: 0x18
-    ::Array<UnityEngine::Vector3>* m_CanvasCorners;
+    ::ArrayWrapper<UnityEngine::Vector3> m_CanvasCorners;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
     // Creating value type constructor for type: RectangularVertexClipper
-    RectangularVertexClipper(::Array<UnityEngine::Vector3>* m_WorldCorners_ = {}, ::Array<UnityEngine::Vector3>* m_CanvasCorners_ = {}) noexcept : m_WorldCorners{m_WorldCorners_}, m_CanvasCorners{m_CanvasCorners_} {}
+    RectangularVertexClipper(::ArrayWrapper<UnityEngine::Vector3> m_WorldCorners_ = {}, ::ArrayWrapper<UnityEngine::Vector3> m_CanvasCorners_ = {}) noexcept : m_WorldCorners{m_WorldCorners_}, m_CanvasCorners{m_CanvasCorners_} {}
     // Get instance field reference: private readonly UnityEngine.Vector3[] m_WorldCorners
-    ::Array<UnityEngine::Vector3>*& dyn_m_WorldCorners();
+    ::ArrayWrapper<UnityEngine::Vector3>& dyn_m_WorldCorners();
     // Get instance field reference: private readonly UnityEngine.Vector3[] m_CanvasCorners
-    ::Array<UnityEngine::Vector3>*& dyn_m_CanvasCorners();
+    ::ArrayWrapper<UnityEngine::Vector3>& dyn_m_CanvasCorners();
     // public UnityEngine.Rect GetCanvasRect(UnityEngine.RectTransform t, UnityEngine.Canvas c)
-    // Offset: 0x19DAE74
+    // Offset: 0x1B4FD1C
     UnityEngine::Rect GetCanvasRect(UnityEngine::RectTransform* t, UnityEngine::Canvas* c);
     // public System.Void .ctor()
-    // Offset: 0x19DB0F0
+    // Offset: 0x1B4FF98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -63,7 +63,7 @@ namespace UnityEngine::UI {
     }
   }; // UnityEngine.UI.RectangularVertexClipper
   #pragma pack(pop)
-  static check_size<sizeof(RectangularVertexClipper), 24 + sizeof(::Array<UnityEngine::Vector3>*)> __UnityEngine_UI_RectangularVertexClipperSizeCheck;
+  static check_size<sizeof(RectangularVertexClipper), 24 + sizeof(::ArrayWrapper<UnityEngine::Vector3>)> __UnityEngine_UI_RectangularVertexClipperSizeCheck;
   static_assert(sizeof(RectangularVertexClipper) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::RectangularVertexClipper*, "UnityEngine.UI", "RectangularVertexClipper");

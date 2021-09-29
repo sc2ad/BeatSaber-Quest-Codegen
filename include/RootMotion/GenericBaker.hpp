@@ -34,7 +34,7 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class GenericBaker : public RootMotion::Baker {
     public:
-    // [TooltipAttribute] Offset: 0xE2AE38
+    // [TooltipAttribute] Offset: 0xEF1610
     // public System.Boolean markAsLegacy
     // Size: 0x1
     // Offset: 0x74
@@ -43,40 +43,40 @@ namespace RootMotion {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: markAsLegacy and: root
     char __padding0[0x3] = {};
-    // [TooltipAttribute] Offset: 0xE2AE70
+    // [TooltipAttribute] Offset: 0xEF1648
     // public UnityEngine.Transform root
     // Size: 0x8
     // Offset: 0x78
     UnityEngine::Transform* root;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE2AEA8
+    // [TooltipAttribute] Offset: 0xEF1680
     // public UnityEngine.Transform rootNode
     // Size: 0x8
     // Offset: 0x80
     UnityEngine::Transform* rootNode;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE2AEE0
+    // [TooltipAttribute] Offset: 0xEF16B8
     // public UnityEngine.Transform[] ignoreList
     // Size: 0x8
     // Offset: 0x88
-    ::Array<UnityEngine::Transform*>* ignoreList;
+    ::ArrayWrapper<UnityEngine::Transform*> ignoreList;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE2AF18
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    // [TooltipAttribute] Offset: 0xEF16F0
     // public UnityEngine.Transform[] bakePositionList
     // Size: 0x8
     // Offset: 0x90
-    ::Array<UnityEngine::Transform*>* bakePositionList;
+    ::ArrayWrapper<UnityEngine::Transform*> bakePositionList;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
     // private RootMotion.BakerTransform[] children
     // Size: 0x8
     // Offset: 0x98
-    ::Array<RootMotion::BakerTransform*>* children;
+    ::ArrayWrapper<RootMotion::BakerTransform*> children;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::BakerTransform*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<RootMotion::BakerTransform*>) == 0x8);
     // private RootMotion.BakerTransform rootChild
     // Size: 0x8
     // Offset: 0xA0
@@ -90,7 +90,7 @@ namespace RootMotion {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: GenericBaker
-    GenericBaker(bool markAsLegacy_ = {}, UnityEngine::Transform* root_ = {}, UnityEngine::Transform* rootNode_ = {}, ::Array<UnityEngine::Transform*>* ignoreList_ = {}, ::Array<UnityEngine::Transform*>* bakePositionList_ = {}, ::Array<RootMotion::BakerTransform*>* children_ = {}, RootMotion::BakerTransform* rootChild_ = {}, int rootChildIndex_ = {}) noexcept : markAsLegacy{markAsLegacy_}, root{root_}, rootNode{rootNode_}, ignoreList{ignoreList_}, bakePositionList{bakePositionList_}, children{children_}, rootChild{rootChild_}, rootChildIndex{rootChildIndex_} {}
+    GenericBaker(bool markAsLegacy_ = {}, UnityEngine::Transform* root_ = {}, UnityEngine::Transform* rootNode_ = {}, ::ArrayWrapper<UnityEngine::Transform*> ignoreList_ = {}, ::ArrayWrapper<UnityEngine::Transform*> bakePositionList_ = {}, ::ArrayWrapper<RootMotion::BakerTransform*> children_ = {}, RootMotion::BakerTransform* rootChild_ = {}, int rootChildIndex_ = {}) noexcept : markAsLegacy{markAsLegacy_}, root{root_}, rootNode{rootNode_}, ignoreList{ignoreList_}, bakePositionList{bakePositionList_}, children{children_}, rootChild{rootChild_}, rootChildIndex{rootChildIndex_} {}
     // Get instance field reference: public System.Boolean markAsLegacy
     bool& dyn_markAsLegacy();
     // Get instance field reference: public UnityEngine.Transform root
@@ -98,26 +98,26 @@ namespace RootMotion {
     // Get instance field reference: public UnityEngine.Transform rootNode
     UnityEngine::Transform*& dyn_rootNode();
     // Get instance field reference: public UnityEngine.Transform[] ignoreList
-    ::Array<UnityEngine::Transform*>*& dyn_ignoreList();
+    ::ArrayWrapper<UnityEngine::Transform*>& dyn_ignoreList();
     // Get instance field reference: public UnityEngine.Transform[] bakePositionList
-    ::Array<UnityEngine::Transform*>*& dyn_bakePositionList();
+    ::ArrayWrapper<UnityEngine::Transform*>& dyn_bakePositionList();
     // Get instance field reference: private RootMotion.BakerTransform[] children
-    ::Array<RootMotion::BakerTransform*>*& dyn_children();
+    ::ArrayWrapper<RootMotion::BakerTransform*>& dyn_children();
     // Get instance field reference: private RootMotion.BakerTransform rootChild
     RootMotion::BakerTransform*& dyn_rootChild();
     // Get instance field reference: private System.Int32 rootChildIndex
     int& dyn_rootChildIndex();
     // private System.Void Awake()
-    // Offset: 0x1AE99AC
+    // Offset: 0x1C6C12C
     void Awake();
     // private System.Boolean IsIgnored(UnityEngine.Transform t)
-    // Offset: 0x1AE9BC8
+    // Offset: 0x1C6C348
     bool IsIgnored(UnityEngine::Transform* t);
     // private System.Boolean BakePosition(UnityEngine.Transform t)
-    // Offset: 0x1AE9CA0
+    // Offset: 0x1C6C420
     bool BakePosition(UnityEngine::Transform* t);
     // public System.Void .ctor()
-    // Offset: 0x1AEA004
+    // Offset: 0x1C6C784
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -131,27 +131,27 @@ namespace RootMotion {
       return THROW_UNLESS((::il2cpp_utils::New<GenericBaker*, creationType>()));
     }
     // protected override UnityEngine.Transform GetCharacterRoot()
-    // Offset: 0x1AE9D78
+    // Offset: 0x1C6C4F8
     // Implemented from: RootMotion.Baker
     // Base method: UnityEngine.Transform Baker::GetCharacterRoot()
     UnityEngine::Transform* GetCharacterRoot();
     // protected override System.Void OnStartBaking()
-    // Offset: 0x1AE9D80
+    // Offset: 0x1C6C500
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnStartBaking()
     void OnStartBaking();
     // protected override System.Void OnSetLoopFrame(System.Single time)
-    // Offset: 0x1AE9E90
+    // Offset: 0x1C6C610
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetLoopFrame(System.Single time)
     void OnSetLoopFrame(float time);
     // protected override System.Void OnSetCurves(ref UnityEngine.AnimationClip clip)
-    // Offset: 0x1AE9F0C
+    // Offset: 0x1C6C68C
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetCurves(ref UnityEngine.AnimationClip clip)
     void OnSetCurves(ByRef<UnityEngine::AnimationClip*> clip);
     // protected override System.Void OnSetKeyframes(System.Single time, System.Boolean lastFrame)
-    // Offset: 0x1AE9F88
+    // Offset: 0x1C6C708
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetKeyframes(System.Single time, System.Boolean lastFrame)
     void OnSetKeyframes(float time, bool lastFrame);

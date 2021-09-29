@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     HMUI::ScrollView* mapScrollView;
     // Field size check
     static_assert(sizeof(HMUI::ScrollView*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE45FF0
+    // [SpaceAttribute] Offset: 0xF0E9B4
     // private System.Single _startDelay
     // Size: 0x4
     // Offset: 0x28
@@ -101,7 +101,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: stageAnimationDuration and: shockwaveEffect
     char __padding6[0x4] = {};
-    // [InjectAttribute] Offset: 0xE46068
+    // [InjectAttribute] Offset: 0xF0EA2C
     // private MenuShockwave _shockwaveEffect
     // Size: 0x8
     // Offset: 0x40
@@ -129,28 +129,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private MenuShockwave _shockwaveEffect
     GlobalNamespace::MenuShockwave*& dyn__shockwaveEffect();
     // public System.Boolean get_animatedUpdateIsRequired()
-    // Offset: 0x1140FF0
+    // Offset: 0x1187B44
     bool get_animatedUpdateIsRequired();
     // public System.Void ScrollToTopMostNotClearedMission()
-    // Offset: 0x1141138
+    // Offset: 0x1187C8C
     void ScrollToTopMostNotClearedMission();
     // public System.Void UpdateMissionMapAfterMissionWasCleared(System.Boolean animated, System.Action finishCallback)
-    // Offset: 0x1141378
+    // Offset: 0x1187ECC
     void UpdateMissionMapAfterMissionWasCleared(bool animated, System::Action* finishCallback);
     // private System.Collections.IEnumerator UpdateMissionMapCoroutine(MissionNode lastClearedMissionNode, System.Action finishCallback)
-    // Offset: 0x11414B4
+    // Offset: 0x1188008
     System::Collections::IEnumerator* UpdateMissionMapCoroutine(GlobalNamespace::MissionNode* lastClearedMissionNode, System::Action* finishCallback);
     // private System.Collections.IEnumerator UpdateClearedNodeStateCoroutine(MissionNode lastClearedMissionNode)
-    // Offset: 0x1141564
+    // Offset: 0x11880B8
     System::Collections::IEnumerator* UpdateClearedNodeStateCoroutine(GlobalNamespace::MissionNode* lastClearedMissionNode);
     // private System.Collections.IEnumerator UpdateStageCoroutine()
-    // Offset: 0x114160C
+    // Offset: 0x1188160
     System::Collections::IEnumerator* UpdateStageCoroutine();
     // private System.Collections.IEnumerator UpdateNodesAndConnectionCoroutine()
-    // Offset: 0x11416A8
+    // Offset: 0x11881FC
     System::Collections::IEnumerator* UpdateNodesAndConnectionCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x1141744
+    // Offset: 0x1188298
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

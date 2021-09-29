@@ -23,10 +23,10 @@ namespace Mono::Xml {
     int get_Length();
     // public System.String[] get_Names()
     // Offset: 0xFFFFFFFF
-    ::Array<::Il2CppString*>* get_Names();
+    ::ArrayWrapper<::Il2CppString*> get_Names();
     // public System.String[] get_Values()
     // Offset: 0xFFFFFFFF
-    ::Array<::Il2CppString*>* get_Values();
+    ::ArrayWrapper<::Il2CppString*> get_Values();
     // public System.String GetName(System.Int32 i)
     // Offset: 0xFFFFFFFF
     ::Il2CppString* GetName(int i);
@@ -53,7 +53,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IAttrList::get_Names
 // Il2CppName: get_Names
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (Mono::Xml::SmallXmlParser::IAttrList::*)()>(&Mono::Xml::SmallXmlParser::IAttrList::get_Names)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (Mono::Xml::SmallXmlParser::IAttrList::*)()>(&Mono::Xml::SmallXmlParser::IAttrList::get_Names)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IAttrList*), "get_Names", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -61,7 +61,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IAttrList::get_Values
 // Il2CppName: get_Values
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (Mono::Xml::SmallXmlParser::IAttrList::*)()>(&Mono::Xml::SmallXmlParser::IAttrList::get_Values)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (Mono::Xml::SmallXmlParser::IAttrList::*)()>(&Mono::Xml::SmallXmlParser::IAttrList::get_Values)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IAttrList*), "get_Values", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

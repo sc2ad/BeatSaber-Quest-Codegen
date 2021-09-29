@@ -47,10 +47,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public GameplayModifiersPanelController <>4__this
     GlobalNamespace::GameplayModifiersPanelController*& dyn_$$4__this();
     // System.Void <Awake>b__0(System.Boolean on)
-    // Offset: 0x1103754
+    // Offset: 0x11E803C
     void $Awake$b__0(bool on);
     // public System.Void .ctor()
-    // Offset: 0x11032D8
+    // Offset: 0x11E7BC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

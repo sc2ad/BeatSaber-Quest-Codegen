@@ -240,188 +240,188 @@ namespace Mono::Net::Security {
     // Get instance field reference: readonly System.Int32 ID
     int& dyn_ID();
     // public Mono.Security.Interface.MonoTlsSettings get_Settings()
-    // Offset: 0x15F19A8
+    // Offset: 0x17BD550
     Mono::Security::Interface::MonoTlsSettings* get_Settings();
     // public Mono.Security.Interface.MonoTlsProvider get_Provider()
-    // Offset: 0x15F19B0
+    // Offset: 0x17BD558
     Mono::Security::Interface::MonoTlsProvider* get_Provider();
     // public System.Net.Security.AuthenticatedStream get_AuthenticatedStream()
-    // Offset: 0x15F1E0C
+    // Offset: 0x17BD9B4
     System::Net::Security::AuthenticatedStream* get_AuthenticatedStream();
     // public System.Security.Cryptography.X509Certificates.X509Certificate get_InternalLocalCertificate()
-    // Offset: 0x15F2C28
+    // Offset: 0x17BE7D0
     System::Security::Cryptography::X509Certificates::X509Certificate* get_InternalLocalCertificate();
     // public System.Void .ctor(System.IO.Stream innerStream, System.Boolean leaveInnerStreamOpen, System.Net.Security.SslStream owner, Mono.Security.Interface.MonoTlsSettings settings, Mono.Security.Interface.MonoTlsProvider provider)
-    // Offset: 0x15F1890
+    // Offset: 0x17BD438
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MobileAuthenticatedStream* New_ctor(System::IO::Stream* innerStream, bool leaveInnerStreamOpen, System::Net::Security::SslStream* owner, Mono::Security::Interface::MonoTlsSettings* settings, Mono::Security::Interface::MonoTlsProvider* provider) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::MobileAuthenticatedStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MobileAuthenticatedStream*, creationType>(innerStream, leaveInnerStreamOpen, owner, settings, provider)));
     }
     // System.Void CheckThrow(System.Boolean authSuccessCheck, System.Boolean shutdownCheck)
-    // Offset: 0x15F19B8
+    // Offset: 0x17BD560
     void CheckThrow(bool authSuccessCheck, bool shutdownCheck);
     // static System.Exception GetSSPIException(System.Exception e)
-    // Offset: 0x15EFC44
+    // Offset: 0x17BB7EC
     static System::Exception* GetSSPIException(System::Exception* e);
     // static System.Exception GetIOException(System.Exception e, System.String message)
-    // Offset: 0x15F1A98
+    // Offset: 0x17BD640
     static System::Exception* GetIOException(System::Exception* e, ::Il2CppString* message);
     // System.Runtime.ExceptionServices.ExceptionDispatchInfo SetException(System.Exception e)
-    // Offset: 0x15EFD78
+    // Offset: 0x17BB920
     System::Runtime::ExceptionServices::ExceptionDispatchInfo* SetException(System::Exception* e);
     // public System.Void AuthenticateAsClient(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates, System.Security.Authentication.SslProtocols enabledSslProtocols, System.Boolean checkCertificateRevocation)
-    // Offset: 0x15F1BD0
+    // Offset: 0x17BD778
     void AuthenticateAsClient(::Il2CppString* targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates, System::Security::Authentication::SslProtocols enabledSslProtocols, bool checkCertificateRevocation);
     // public System.Void AuthenticateAsServer(System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate, System.Boolean clientCertificateRequired, System.Security.Authentication.SslProtocols enabledSslProtocols, System.Boolean checkCertificateRevocation)
-    // Offset: 0x15F1D68
+    // Offset: 0x17BD910
     void AuthenticateAsServer(System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, bool clientCertificateRequired, System::Security::Authentication::SslProtocols enabledSslProtocols, bool checkCertificateRevocation);
     // private System.Threading.Tasks.Task ProcessAuthentication(System.Boolean runSynchronously, System.Boolean serverMode, System.String targetHost, System.Security.Authentication.SslProtocols enabledProtocols, System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate, System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates, System.Boolean clientCertRequired)
-    // Offset: 0x15F1C14
+    // Offset: 0x17BD7BC
     System::Threading::Tasks::Task* ProcessAuthentication(bool runSynchronously, bool serverMode, ::Il2CppString* targetHost, System::Security::Authentication::SslProtocols enabledProtocols, System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates, bool clientCertRequired);
     // protected Mono.Net.Security.MobileTlsContext CreateContext(System.Boolean serverMode, System.String targetHost, System.Security.Authentication.SslProtocols enabledProtocols, System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate, System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates, System.Boolean askForClientCert)
     // Offset: 0xFFFFFFFF
     Mono::Net::Security::MobileTlsContext* CreateContext(bool serverMode, ::Il2CppString* targetHost, System::Security::Authentication::SslProtocols enabledProtocols, System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates, bool askForClientCert);
     // private System.Threading.Tasks.Task`1<System.Int32> StartOperation(Mono.Net.Security.MobileAuthenticatedStream/Mono.Net.Security.OperationType type, Mono.Net.Security.AsyncProtocolRequest asyncRequest, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x15F1EF0
+    // Offset: 0x17BDA98
     System::Threading::Tasks::Task_1<int>* StartOperation(Mono::Net::Security::MobileAuthenticatedStream::OperationType type, Mono::Net::Security::AsyncProtocolRequest* asyncRequest, System::Threading::CancellationToken cancellationToken);
     // System.Int32 InternalRead(System.Byte[] buffer, System.Int32 offset, System.Int32 size, out System.Boolean outWantMore)
-    // Offset: 0x15F2434
-    int InternalRead(::Array<uint8_t>* buffer, int offset, int size, ByRef<bool> outWantMore);
+    // Offset: 0x17BDFDC
+    int InternalRead(::ArrayWrapper<uint8_t> buffer, int offset, int size, ByRef<bool> outWantMore);
     // private System.ValueTuple`2<System.Int32,System.Boolean> InternalRead(Mono.Net.Security.AsyncProtocolRequest asyncRequest, Mono.Net.Security.BufferOffsetSize internalBuffer, System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x15F2584
-    System::ValueTuple_2<int, bool> InternalRead(Mono::Net::Security::AsyncProtocolRequest* asyncRequest, Mono::Net::Security::BufferOffsetSize* internalBuffer, ::Array<uint8_t>* buffer, int offset, int size);
+    // Offset: 0x17BE12C
+    System::ValueTuple_2<int, bool> InternalRead(Mono::Net::Security::AsyncProtocolRequest* asyncRequest, Mono::Net::Security::BufferOffsetSize* internalBuffer, ::ArrayWrapper<uint8_t> buffer, int offset, int size);
     // System.Boolean InternalWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x15F2704
-    bool InternalWrite(::Array<uint8_t>* buffer, int offset, int size);
+    // Offset: 0x17BE2AC
+    bool InternalWrite(::ArrayWrapper<uint8_t> buffer, int offset, int size);
     // private System.Boolean InternalWrite(Mono.Net.Security.AsyncProtocolRequest asyncRequest, Mono.Net.Security.BufferOffsetSize2 internalBuffer, System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x15F2848
-    bool InternalWrite(Mono::Net::Security::AsyncProtocolRequest* asyncRequest, Mono::Net::Security::BufferOffsetSize2* internalBuffer, ::Array<uint8_t>* buffer, int offset, int size);
+    // Offset: 0x17BE3F0
+    bool InternalWrite(Mono::Net::Security::AsyncProtocolRequest* asyncRequest, Mono::Net::Security::BufferOffsetSize2* internalBuffer, ::ArrayWrapper<uint8_t> buffer, int offset, int size);
     // System.Threading.Tasks.Task`1<System.Int32> InnerRead(System.Boolean sync, System.Int32 requestedSize, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x15EF298
+    // Offset: 0x17BAE40
     System::Threading::Tasks::Task_1<int>* InnerRead(bool sync, int requestedSize, System::Threading::CancellationToken cancellationToken);
     // System.Threading.Tasks.Task InnerWrite(System.Boolean sync, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x15EF7BC
+    // Offset: 0x17BB364
     System::Threading::Tasks::Task* InnerWrite(bool sync, System::Threading::CancellationToken cancellationToken);
     // Mono.Net.Security.AsyncOperationStatus ProcessHandshake(Mono.Net.Security.AsyncOperationStatus status)
-    // Offset: 0x15EE97C
+    // Offset: 0x17BA524
     Mono::Net::Security::AsyncOperationStatus ProcessHandshake(Mono::Net::Security::AsyncOperationStatus status);
     // System.ValueTuple`2<System.Int32,System.Boolean> ProcessRead(Mono.Net.Security.BufferOffsetSize userBuffer)
-    // Offset: 0x15F0120
+    // Offset: 0x17BBCC8
     System::ValueTuple_2<int, bool> ProcessRead(Mono::Net::Security::BufferOffsetSize* userBuffer);
     // System.ValueTuple`2<System.Int32,System.Boolean> ProcessWrite(Mono.Net.Security.BufferOffsetSize userBuffer)
-    // Offset: 0x15F02A8
+    // Offset: 0x17BBE50
     System::ValueTuple_2<int, bool> ProcessWrite(Mono::Net::Security::BufferOffsetSize* userBuffer);
     // private System.Void <InnerWrite>b__67_0()
-    // Offset: 0x15F2F78
+    // Offset: 0x17BEB20
     void $InnerWrite$b__67_0();
     // public override System.Boolean get_IsAuthenticated()
-    // Offset: 0x15F2974
+    // Offset: 0x17BE51C
     // Implemented from: System.Net.Security.AuthenticatedStream
     // Base method: System.Boolean AuthenticatedStream::get_IsAuthenticated()
     bool get_IsAuthenticated();
     // public override System.Boolean get_CanRead()
-    // Offset: 0x15F2D78
+    // Offset: 0x17BE920
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanRead()
     bool get_CanRead();
     // public override System.Boolean get_CanWrite()
-    // Offset: 0x15F2DCC
+    // Offset: 0x17BE974
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanWrite()
     bool get_CanWrite();
     // public override System.Boolean get_CanSeek()
-    // Offset: 0x15F2E34
+    // Offset: 0x17BE9DC
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanSeek()
     bool get_CanSeek();
     // public override System.Int64 get_Length()
-    // Offset: 0x15F2E3C
+    // Offset: 0x17BE9E4
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Length()
     int64_t get_Length();
     // public override System.Int64 get_Position()
-    // Offset: 0x15F2E5C
+    // Offset: 0x17BEA04
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Position()
     int64_t get_Position();
     // public override System.Void set_Position(System.Int64 value)
-    // Offset: 0x15F2E7C
+    // Offset: 0x17BEA24
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::set_Position(System.Int64 value)
     void set_Position(int64_t value);
     // public override System.Int32 get_ReadTimeout()
-    // Offset: 0x15F2EDC
+    // Offset: 0x17BEA84
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::get_ReadTimeout()
     int get_ReadTimeout();
     // public override System.Int32 get_WriteTimeout()
-    // Offset: 0x15F2F00
+    // Offset: 0x17BEAA8
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::get_WriteTimeout()
     int get_WriteTimeout();
     // static private System.Void .cctor()
-    // Offset: 0x15F2F24
+    // Offset: 0x17BEACC
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::.cctor()
     static void _cctor();
     // public override System.IAsyncResult BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback asyncCallback, System.Object asyncState)
-    // Offset: 0x15F1E10
+    // Offset: 0x17BD9B8
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback asyncCallback, System.Object asyncState)
-    System::IAsyncResult* BeginRead(::Array<uint8_t>* buffer, int offset, int count, System::AsyncCallback* asyncCallback, ::Il2CppObject* asyncState);
+    System::IAsyncResult* BeginRead(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::AsyncCallback* asyncCallback, ::Il2CppObject* asyncState);
     // public override System.Int32 EndRead(System.IAsyncResult asyncResult)
-    // Offset: 0x15F2018
+    // Offset: 0x17BDBC0
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::EndRead(System.IAsyncResult asyncResult)
     int EndRead(System::IAsyncResult* asyncResult);
     // public override System.IAsyncResult BeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback asyncCallback, System.Object asyncState)
-    // Offset: 0x15F2068
+    // Offset: 0x17BDC10
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback asyncCallback, System.Object asyncState)
-    System::IAsyncResult* BeginWrite(::Array<uint8_t>* buffer, int offset, int count, System::AsyncCallback* asyncCallback, ::Il2CppObject* asyncState);
+    System::IAsyncResult* BeginWrite(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::AsyncCallback* asyncCallback, ::Il2CppObject* asyncState);
     // public override System.Void EndWrite(System.IAsyncResult asyncResult)
-    // Offset: 0x15F2148
+    // Offset: 0x17BDCF0
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::EndWrite(System.IAsyncResult asyncResult)
     void EndWrite(System::IAsyncResult* asyncResult);
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x15F2154
+    // Offset: 0x17BDCFC
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    int Read(::Array<uint8_t>* buffer, int offset, int count);
+    int Read(::ArrayWrapper<uint8_t> buffer, int offset, int count);
     // public override System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x15F222C
+    // Offset: 0x17BDDD4
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    void Write(::Array<uint8_t>* buffer, int offset, int count);
+    void Write(::ArrayWrapper<uint8_t> buffer, int offset, int count);
     // public override System.Threading.Tasks.Task`1<System.Int32> ReadAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x15F22FC
+    // Offset: 0x17BDEA4
     // Implemented from: System.IO.Stream
     // Base method: System.Threading.Tasks.Task`1<System.Int32> Stream::ReadAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
-    System::Threading::Tasks::Task_1<int>* ReadAsync(::Array<uint8_t>* buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<int>* ReadAsync(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
     // public override System.Threading.Tasks.Task WriteAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x15F2398
+    // Offset: 0x17BDF40
     // Implemented from: System.IO.Stream
     // Base method: System.Threading.Tasks.Task Stream::WriteAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
-    System::Threading::Tasks::Task* WriteAsync(::Array<uint8_t>* buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task* WriteAsync(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x15F2A28
+    // Offset: 0x17BE5D0
     // Implemented from: System.Net.Security.AuthenticatedStream
     // Base method: System.Void AuthenticatedStream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Void Flush()
-    // Offset: 0x15F2C04
+    // Offset: 0x17BE7AC
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Flush()
     void Flush();
     // public override System.Int64 Seek(System.Int64 offset, System.IO.SeekOrigin origin)
-    // Offset: 0x15F2CF4
+    // Offset: 0x17BE89C
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::Seek(System.Int64 offset, System.IO.SeekOrigin origin)
     int64_t Seek(int64_t offset, System::IO::SeekOrigin origin);
     // public override System.Void SetLength(System.Int64 value)
-    // Offset: 0x15F2D54
+    // Offset: 0x17BE8FC
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::SetLength(System.Int64 value)
     void SetLength(int64_t value);
@@ -573,9 +573,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::InternalRead
 // Il2CppName: InternalRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Net::Security::MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int, ByRef<bool>)>(&Mono::Net::Security::MobileAuthenticatedStream::InternalRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Net::Security::MobileAuthenticatedStream::*)(::ArrayWrapper<uint8_t>, int, int, ByRef<bool>)>(&Mono::Net::Security::MobileAuthenticatedStream::InternalRead)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* outWantMore = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
@@ -585,11 +585,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::InternalRead
 // Il2CppName: InternalRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (Mono::Net::Security::MobileAuthenticatedStream::*)(Mono::Net::Security::AsyncProtocolRequest*, Mono::Net::Security::BufferOffsetSize*, ::Array<uint8_t>*, int, int)>(&Mono::Net::Security::MobileAuthenticatedStream::InternalRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (Mono::Net::Security::MobileAuthenticatedStream::*)(Mono::Net::Security::AsyncProtocolRequest*, Mono::Net::Security::BufferOffsetSize*, ::ArrayWrapper<uint8_t>, int, int)>(&Mono::Net::Security::MobileAuthenticatedStream::InternalRead)> {
   static const MethodInfo* get() {
     static auto* asyncRequest = &::il2cpp_utils::GetClassFromName("Mono.Net.Security", "AsyncProtocolRequest")->byval_arg;
     static auto* internalBuffer = &::il2cpp_utils::GetClassFromName("Mono.Net.Security", "BufferOffsetSize")->byval_arg;
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "InternalRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncRequest, internalBuffer, buffer, offset, size});
@@ -598,9 +598,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Val
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::InternalWrite
 // Il2CppName: InternalWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Net::Security::MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int)>(&Mono::Net::Security::MobileAuthenticatedStream::InternalWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Net::Security::MobileAuthenticatedStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&Mono::Net::Security::MobileAuthenticatedStream::InternalWrite)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "InternalWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, offset, size});
@@ -609,11 +609,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::InternalWrite
 // Il2CppName: InternalWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Net::Security::MobileAuthenticatedStream::*)(Mono::Net::Security::AsyncProtocolRequest*, Mono::Net::Security::BufferOffsetSize2*, ::Array<uint8_t>*, int, int)>(&Mono::Net::Security::MobileAuthenticatedStream::InternalWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Net::Security::MobileAuthenticatedStream::*)(Mono::Net::Security::AsyncProtocolRequest*, Mono::Net::Security::BufferOffsetSize2*, ::ArrayWrapper<uint8_t>, int, int)>(&Mono::Net::Security::MobileAuthenticatedStream::InternalWrite)> {
   static const MethodInfo* get() {
     static auto* asyncRequest = &::il2cpp_utils::GetClassFromName("Mono.Net.Security", "AsyncProtocolRequest")->byval_arg;
     static auto* internalBuffer = &::il2cpp_utils::GetClassFromName("Mono.Net.Security", "BufferOffsetSize2")->byval_arg;
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "InternalWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncRequest, internalBuffer, buffer, offset, size});
@@ -759,9 +759,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::BeginRead
 // Il2CppName: BeginRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Mono::Net::Security::MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&Mono::Net::Security::MobileAuthenticatedStream::BeginRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Mono::Net::Security::MobileAuthenticatedStream::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&Mono::Net::Security::MobileAuthenticatedStream::BeginRead)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* asyncCallback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -781,9 +781,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::BeginWrite
 // Il2CppName: BeginWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Mono::Net::Security::MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&Mono::Net::Security::MobileAuthenticatedStream::BeginWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Mono::Net::Security::MobileAuthenticatedStream::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&Mono::Net::Security::MobileAuthenticatedStream::BeginWrite)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* asyncCallback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -803,9 +803,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Net::Security::MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int)>(&Mono::Net::Security::MobileAuthenticatedStream::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Net::Security::MobileAuthenticatedStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&Mono::Net::Security::MobileAuthenticatedStream::Read)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, offset, count});
@@ -814,9 +814,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int)>(&Mono::Net::Security::MobileAuthenticatedStream::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::MobileAuthenticatedStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&Mono::Net::Security::MobileAuthenticatedStream::Write)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, offset, count});
@@ -825,9 +825,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::ReadAsync
 // Il2CppName: ReadAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (Mono::Net::Security::MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int, System::Threading::CancellationToken)>(&Mono::Net::Security::MobileAuthenticatedStream::ReadAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (Mono::Net::Security::MobileAuthenticatedStream::*)(::ArrayWrapper<uint8_t>, int, int, System::Threading::CancellationToken)>(&Mono::Net::Security::MobileAuthenticatedStream::ReadAsync)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
@@ -837,9 +837,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::WriteAsync
 // Il2CppName: WriteAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (Mono::Net::Security::MobileAuthenticatedStream::*)(::Array<uint8_t>*, int, int, System::Threading::CancellationToken)>(&Mono::Net::Security::MobileAuthenticatedStream::WriteAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (Mono::Net::Security::MobileAuthenticatedStream::*)(::ArrayWrapper<uint8_t>, int, int, System::Threading::CancellationToken)>(&Mono::Net::Security::MobileAuthenticatedStream::WriteAsync)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;

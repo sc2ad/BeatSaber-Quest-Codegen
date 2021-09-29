@@ -68,9 +68,9 @@ namespace GlobalNamespace {
     // private UnityEngine.AudioClip[] _badCutSoundEffectAudioClips
     // Size: 0x8
     // Offset: 0x28
-    ::Array<UnityEngine::AudioClip*>* badCutSoundEffectAudioClips;
+    ::ArrayWrapper<UnityEngine::AudioClip*> badCutSoundEffectAudioClips;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::AudioClip*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::AudioClip*>) == 0x8);
     // private System.Single _badCutVolume
     // Size: 0x4
     // Offset: 0x30
@@ -206,7 +206,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>*) == 0x8);
     // Creating value type constructor for type: NoteCutSoundEffect
-    NoteCutSoundEffect(UnityEngine::AudioSource* audioSource_ = {}, UnityEngine::AnimationCurve* speedToVolumeCurve_ = {}, ::Array<UnityEngine::AudioClip*>* badCutSoundEffectAudioClips_ = {}, float badCutVolume_ = {}, float goodCutVolume_ = {}, GlobalNamespace::Saber* saber_ = {}, GlobalNamespace::NoteController* noteController_ = {}, bool isPlaying_ = {}, float volumeMultiplier_ = {}, bool noteWasCut_ = {}, float aheadTime_ = {}, float timeToNextNote_ = {}, float timeToPrevNote_ = {}, double startDSPTime_ = {}, double endDSPtime_ = {}, double fadeOutStartDSPtime_ = {}, float noteMissedTimeOffset_ = {}, float beforeCutVolume_ = {}, bool goodCut_ = {}, GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* badCutRandomSoundPicker_ = {}, bool handleWrongSaberTypeAsGood_ = {}, bool ignoreSaberSpeed_ = {}, bool ignoreBadCuts_ = {}, GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>* didFinishEvent_ = {}) noexcept : audioSource{audioSource_}, speedToVolumeCurve{speedToVolumeCurve_}, badCutSoundEffectAudioClips{badCutSoundEffectAudioClips_}, badCutVolume{badCutVolume_}, goodCutVolume{goodCutVolume_}, saber{saber_}, noteController{noteController_}, isPlaying{isPlaying_}, volumeMultiplier{volumeMultiplier_}, noteWasCut{noteWasCut_}, aheadTime{aheadTime_}, timeToNextNote{timeToNextNote_}, timeToPrevNote{timeToPrevNote_}, startDSPTime{startDSPTime_}, endDSPtime{endDSPtime_}, fadeOutStartDSPtime{fadeOutStartDSPtime_}, noteMissedTimeOffset{noteMissedTimeOffset_}, beforeCutVolume{beforeCutVolume_}, goodCut{goodCut_}, badCutRandomSoundPicker{badCutRandomSoundPicker_}, handleWrongSaberTypeAsGood{handleWrongSaberTypeAsGood_}, ignoreSaberSpeed{ignoreSaberSpeed_}, ignoreBadCuts{ignoreBadCuts_}, didFinishEvent{didFinishEvent_} {}
+    NoteCutSoundEffect(UnityEngine::AudioSource* audioSource_ = {}, UnityEngine::AnimationCurve* speedToVolumeCurve_ = {}, ::ArrayWrapper<UnityEngine::AudioClip*> badCutSoundEffectAudioClips_ = {}, float badCutVolume_ = {}, float goodCutVolume_ = {}, GlobalNamespace::Saber* saber_ = {}, GlobalNamespace::NoteController* noteController_ = {}, bool isPlaying_ = {}, float volumeMultiplier_ = {}, bool noteWasCut_ = {}, float aheadTime_ = {}, float timeToNextNote_ = {}, float timeToPrevNote_ = {}, double startDSPTime_ = {}, double endDSPtime_ = {}, double fadeOutStartDSPtime_ = {}, float noteMissedTimeOffset_ = {}, float beforeCutVolume_ = {}, bool goodCut_ = {}, GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* badCutRandomSoundPicker_ = {}, bool handleWrongSaberTypeAsGood_ = {}, bool ignoreSaberSpeed_ = {}, bool ignoreBadCuts_ = {}, GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>* didFinishEvent_ = {}) noexcept : audioSource{audioSource_}, speedToVolumeCurve{speedToVolumeCurve_}, badCutSoundEffectAudioClips{badCutSoundEffectAudioClips_}, badCutVolume{badCutVolume_}, goodCutVolume{goodCutVolume_}, saber{saber_}, noteController{noteController_}, isPlaying{isPlaying_}, volumeMultiplier{volumeMultiplier_}, noteWasCut{noteWasCut_}, aheadTime{aheadTime_}, timeToNextNote{timeToNextNote_}, timeToPrevNote{timeToPrevNote_}, startDSPTime{startDSPTime_}, endDSPtime{endDSPtime_}, fadeOutStartDSPtime{fadeOutStartDSPtime_}, noteMissedTimeOffset{noteMissedTimeOffset_}, beforeCutVolume{beforeCutVolume_}, goodCut{goodCut_}, badCutRandomSoundPicker{badCutRandomSoundPicker_}, handleWrongSaberTypeAsGood{handleWrongSaberTypeAsGood_}, ignoreSaberSpeed{ignoreSaberSpeed_}, ignoreBadCuts{ignoreBadCuts_}, didFinishEvent{didFinishEvent_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kEndOverlap
@@ -226,7 +226,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.AnimationCurve _speedToVolumeCurve
     UnityEngine::AnimationCurve*& dyn__speedToVolumeCurve();
     // Get instance field reference: private UnityEngine.AudioClip[] _badCutSoundEffectAudioClips
-    ::Array<UnityEngine::AudioClip*>*& dyn__badCutSoundEffectAudioClips();
+    ::ArrayWrapper<UnityEngine::AudioClip*>& dyn__badCutSoundEffectAudioClips();
     // Get instance field reference: private System.Single _badCutVolume
     float& dyn__badCutVolume();
     // Get instance field reference: private System.Single _goodCutVolume
@@ -270,40 +270,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly LazyCopyHashSet`1<INoteCutSoundEffectDidFinishEvent> _didFinishEvent
     GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>*& dyn__didFinishEvent();
     // public ILazyCopyHashSet`1<INoteCutSoundEffectDidFinishEvent> get_didFinishEvent()
-    // Offset: 0x104FD04
+    // Offset: 0x1352698
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>* get_didFinishEvent();
     // public System.Single get_volumeMultiplier()
-    // Offset: 0x104FD14
+    // Offset: 0x13526A8
     float get_volumeMultiplier();
     // public System.Void set_volumeMultiplier(System.Single value)
-    // Offset: 0x104FD0C
+    // Offset: 0x13526A0
     void set_volumeMultiplier(float value);
     // public System.Single get_time()
-    // Offset: 0x104FD1C
+    // Offset: 0x13526B0
     float get_time();
     // protected System.Void Awake()
-    // Offset: 0x104FD4C
+    // Offset: 0x13526E0
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x104FDCC
+    // Offset: 0x1352760
     void Start();
     // public System.Void Init(UnityEngine.AudioClip audioClip, NoteController noteController, System.Double noteDSPTime, System.Single aheadTime, System.Single missedTimeOffset, System.Single timeToPrevNote, System.Single timeToNextNote, Saber saber, System.Boolean handleWrongSaberTypeAsGood, System.Single volumeMultiplier, System.Boolean ignoreSaberSpeed, System.Boolean ignoreBadCuts)
-    // Offset: 0x104FDEC
+    // Offset: 0x1352780
     void Init(UnityEngine::AudioClip* audioClip, GlobalNamespace::NoteController* noteController, double noteDSPTime, float aheadTime, float missedTimeOffset, float timeToPrevNote, float timeToNextNote, GlobalNamespace::Saber* saber, bool handleWrongSaberTypeAsGood, float volumeMultiplier, bool ignoreSaberSpeed, bool ignoreBadCuts);
     // private System.Void ComputeDSPTimes(System.Double noteDSPTime, System.Single aheadTime, System.Single timeToPrevNote, System.Single timeToNextNote)
-    // Offset: 0x104FF70
+    // Offset: 0x1352904
     void ComputeDSPTimes(double noteDSPTime, float aheadTime, float timeToPrevNote, float timeToNextNote);
     // protected System.Void LateUpdate()
-    // Offset: 0x1050060
+    // Offset: 0x13529F4
     void LateUpdate();
     // public System.Void StopPlayingAndFinish()
-    // Offset: 0x105028C
+    // Offset: 0x1352C20
     void StopPlayingAndFinish();
     // public System.Void NoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x1050428
+    // Offset: 0x1352DBC
     void NoteWasCut(GlobalNamespace::NoteController* noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0x105065C
+    // Offset: 0x1352FF0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

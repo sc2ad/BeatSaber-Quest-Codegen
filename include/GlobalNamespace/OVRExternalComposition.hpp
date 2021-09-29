@@ -103,9 +103,9 @@ namespace GlobalNamespace {
     // public UnityEngine.RenderTexture[] mrcRenderTextureArray
     // Size: 0x8
     // Offset: 0x80
-    ::Array<UnityEngine::RenderTexture*>* mrcRenderTextureArray;
+    ::ArrayWrapper<UnityEngine::RenderTexture*> mrcRenderTextureArray;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::RenderTexture*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::RenderTexture*>) == 0x8);
     // public System.Int32 frameIndex
     // Size: 0x4
     // Offset: 0x88
@@ -121,21 +121,21 @@ namespace GlobalNamespace {
     // public UnityEngine.RenderTexture[] mrcForegroundRenderTextureArray
     // Size: 0x8
     // Offset: 0x90
-    ::Array<UnityEngine::RenderTexture*>* mrcForegroundRenderTextureArray;
+    ::ArrayWrapper<UnityEngine::RenderTexture*> mrcForegroundRenderTextureArray;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::RenderTexture*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::RenderTexture*>) == 0x8);
     // public System.Double[] cameraPoseTimeArray
     // Size: 0x8
     // Offset: 0x98
-    ::Array<double>* cameraPoseTimeArray;
+    ::ArrayWrapper<double> cameraPoseTimeArray;
     // Field size check
-    static_assert(sizeof(::Array<double>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<double>) == 0x8);
     // private System.Single[] cachedAudioDataArray
     // Size: 0x8
     // Offset: 0xA0
-    ::Array<float>* cachedAudioDataArray;
+    ::ArrayWrapper<float> cachedAudioDataArray;
     // Field size check
-    static_assert(sizeof(::Array<float>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
     // private readonly System.Object audioDataLock
     // Size: 0x8
     // Offset: 0xA8
@@ -155,7 +155,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: OVRExternalComposition
-    OVRExternalComposition(UnityEngine::GameObject* previousMainCameraObject_ = {}, UnityEngine::GameObject* foregroundCameraGameObject_ = {}, UnityEngine::Camera* foregroundCamera_ = {}, UnityEngine::GameObject* backgroundCameraGameObject_ = {}, UnityEngine::Camera* backgroundCamera_ = {}, bool renderCombinedFrame_ = {}, UnityEngine::AudioListener* audioListener_ = {}, GlobalNamespace::OVRMRAudioFilter* audioFilter_ = {}, ::Array<UnityEngine::RenderTexture*>* mrcRenderTextureArray_ = {}, int frameIndex_ = {}, int lastMrcEncodeFrameSyncId_ = {}, ::Array<UnityEngine::RenderTexture*>* mrcForegroundRenderTextureArray_ = {}, ::Array<double>* cameraPoseTimeArray_ = {}, ::Array<float>* cachedAudioDataArray_ = {}, ::Il2CppObject* audioDataLock_ = {}, System::Collections::Generic::List_1<float>* cachedAudioData_ = {}, int cachedChannels_ = {}) noexcept : previousMainCameraObject{previousMainCameraObject_}, foregroundCameraGameObject{foregroundCameraGameObject_}, foregroundCamera{foregroundCamera_}, backgroundCameraGameObject{backgroundCameraGameObject_}, backgroundCamera{backgroundCamera_}, renderCombinedFrame{renderCombinedFrame_}, audioListener{audioListener_}, audioFilter{audioFilter_}, mrcRenderTextureArray{mrcRenderTextureArray_}, frameIndex{frameIndex_}, lastMrcEncodeFrameSyncId{lastMrcEncodeFrameSyncId_}, mrcForegroundRenderTextureArray{mrcForegroundRenderTextureArray_}, cameraPoseTimeArray{cameraPoseTimeArray_}, cachedAudioDataArray{cachedAudioDataArray_}, audioDataLock{audioDataLock_}, cachedAudioData{cachedAudioData_}, cachedChannels{cachedChannels_} {}
+    OVRExternalComposition(UnityEngine::GameObject* previousMainCameraObject_ = {}, UnityEngine::GameObject* foregroundCameraGameObject_ = {}, UnityEngine::Camera* foregroundCamera_ = {}, UnityEngine::GameObject* backgroundCameraGameObject_ = {}, UnityEngine::Camera* backgroundCamera_ = {}, bool renderCombinedFrame_ = {}, UnityEngine::AudioListener* audioListener_ = {}, GlobalNamespace::OVRMRAudioFilter* audioFilter_ = {}, ::ArrayWrapper<UnityEngine::RenderTexture*> mrcRenderTextureArray_ = {}, int frameIndex_ = {}, int lastMrcEncodeFrameSyncId_ = {}, ::ArrayWrapper<UnityEngine::RenderTexture*> mrcForegroundRenderTextureArray_ = {}, ::ArrayWrapper<double> cameraPoseTimeArray_ = {}, ::ArrayWrapper<float> cachedAudioDataArray_ = {}, ::Il2CppObject* audioDataLock_ = {}, System::Collections::Generic::List_1<float>* cachedAudioData_ = {}, int cachedChannels_ = {}) noexcept : previousMainCameraObject{previousMainCameraObject_}, foregroundCameraGameObject{foregroundCameraGameObject_}, foregroundCamera{foregroundCamera_}, backgroundCameraGameObject{backgroundCameraGameObject_}, backgroundCamera{backgroundCamera_}, renderCombinedFrame{renderCombinedFrame_}, audioListener{audioListener_}, audioFilter{audioFilter_}, mrcRenderTextureArray{mrcRenderTextureArray_}, frameIndex{frameIndex_}, lastMrcEncodeFrameSyncId{lastMrcEncodeFrameSyncId_}, mrcForegroundRenderTextureArray{mrcForegroundRenderTextureArray_}, cameraPoseTimeArray{cameraPoseTimeArray_}, cachedAudioDataArray{cachedAudioDataArray_}, audioDataLock{audioDataLock_}, cachedAudioData{cachedAudioData_}, cachedChannels{cachedChannels_} {}
     // Get instance field reference: private UnityEngine.GameObject previousMainCameraObject
     UnityEngine::GameObject*& dyn_previousMainCameraObject();
     // Get instance field reference: public UnityEngine.GameObject foregroundCameraGameObject
@@ -173,17 +173,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRMRAudioFilter audioFilter
     GlobalNamespace::OVRMRAudioFilter*& dyn_audioFilter();
     // Get instance field reference: public UnityEngine.RenderTexture[] mrcRenderTextureArray
-    ::Array<UnityEngine::RenderTexture*>*& dyn_mrcRenderTextureArray();
+    ::ArrayWrapper<UnityEngine::RenderTexture*>& dyn_mrcRenderTextureArray();
     // Get instance field reference: public System.Int32 frameIndex
     int& dyn_frameIndex();
     // Get instance field reference: public System.Int32 lastMrcEncodeFrameSyncId
     int& dyn_lastMrcEncodeFrameSyncId();
     // Get instance field reference: public UnityEngine.RenderTexture[] mrcForegroundRenderTextureArray
-    ::Array<UnityEngine::RenderTexture*>*& dyn_mrcForegroundRenderTextureArray();
+    ::ArrayWrapper<UnityEngine::RenderTexture*>& dyn_mrcForegroundRenderTextureArray();
     // Get instance field reference: public System.Double[] cameraPoseTimeArray
-    ::Array<double>*& dyn_cameraPoseTimeArray();
+    ::ArrayWrapper<double>& dyn_cameraPoseTimeArray();
     // Get instance field reference: private System.Single[] cachedAudioDataArray
-    ::Array<float>*& dyn_cachedAudioDataArray();
+    ::ArrayWrapper<float>& dyn_cachedAudioDataArray();
     // Get instance field reference: private readonly System.Object audioDataLock
     ::Il2CppObject*& dyn_audioDataLock();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Single> cachedAudioData
@@ -191,28 +191,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 cachedChannels
     int& dyn_cachedChannels();
     // private System.Void RefreshCameraObjects(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration)
-    // Offset: 0x12B8A90
+    // Offset: 0x13C1DA4
     void RefreshCameraObjects(UnityEngine::GameObject* parentObject, UnityEngine::Camera* mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration);
     // private System.Void RefreshAudioFilter()
-    // Offset: 0x12B96C0
+    // Offset: 0x13C29D4
     void RefreshAudioFilter();
     // private System.Int32 CastMrcFrame(System.Int32 castTextureIndex)
-    // Offset: 0x12B9E28
+    // Offset: 0x13C313C
     int CastMrcFrame(int castTextureIndex);
     // private System.Void SetCameraTargetTexture(System.Int32 drawTextureIndex)
-    // Offset: 0x12BA21C
+    // Offset: 0x13C3530
     void SetCameraTargetTexture(int drawTextureIndex);
     // private System.Void CleanupAudioFilter()
-    // Offset: 0x12B9CAC
+    // Offset: 0x13C2FC0
     void CleanupAudioFilter();
     // public System.Void CacheAudioData(System.Single[] data, System.Int32 channels)
-    // Offset: 0x12BB450
-    void CacheAudioData(::Array<float>* data, int channels);
+    // Offset: 0x13C4764
+    void CacheAudioData(::ArrayWrapper<float> data, int channels);
     // public System.Void GetAndResetAudioData(ref System.Single[] audioData, out System.Int32 audioFrames, out System.Int32 channels)
-    // Offset: 0x12BA08C
-    void GetAndResetAudioData(ByRef<::Array<float>*> audioData, ByRef<int> audioFrames, ByRef<int> channels);
+    // Offset: 0x13C33A0
+    void GetAndResetAudioData(ByRef<::ArrayWrapper<float>> audioData, ByRef<int> audioFrames, ByRef<int> channels);
     // public System.Void .ctor(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration)
-    // Offset: 0x12B85D4
+    // Offset: 0x13C18E8
     // Implemented from: OVRComposition
     // Base method: System.Void OVRComposition::.ctor(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -221,17 +221,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRExternalComposition*, creationType>(parentObject, mainCamera, configuration)));
     }
     // public override OVRManager/CompositionMethod CompositionMethod()
-    // Offset: 0x12B85CC
+    // Offset: 0x13C18E0
     // Implemented from: OVRComposition
     // Base method: OVRManager/CompositionMethod OVRComposition::CompositionMethod()
     GlobalNamespace::OVRManager_CompositionMethod CompositionMethod();
     // public override System.Void Update(UnityEngine.GameObject gameObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration, OVRManager/TrackingOrigin trackingOrigin)
-    // Offset: 0x12BA440
+    // Offset: 0x13C3754
     // Implemented from: OVRComposition
     // Base method: System.Void OVRComposition::Update(UnityEngine.GameObject gameObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration, OVRManager/TrackingOrigin trackingOrigin)
     void Update(UnityEngine::GameObject* gameObject, UnityEngine::Camera* mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration, GlobalNamespace::OVRManager_TrackingOrigin trackingOrigin);
     // public override System.Void Cleanup()
-    // Offset: 0x12BB2BC
+    // Offset: 0x13C45D0
     // Implemented from: OVRComposition
     // Base method: System.Void OVRComposition::Cleanup()
     void Cleanup();
@@ -290,9 +290,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVRExternalComposition::CacheAudioData
 // Il2CppName: CacheAudioData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRExternalComposition::*)(::Array<float>*, int)>(&GlobalNamespace::OVRExternalComposition::CacheAudioData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRExternalComposition::*)(::ArrayWrapper<float>, int)>(&GlobalNamespace::OVRExternalComposition::CacheAudioData)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
     static auto* channels = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExternalComposition*), "CacheAudioData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, channels});
   }
@@ -300,9 +300,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVRExternalComposition::GetAndResetAudioData
 // Il2CppName: GetAndResetAudioData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRExternalComposition::*)(ByRef<::Array<float>*>, ByRef<int>, ByRef<int>)>(&GlobalNamespace::OVRExternalComposition::GetAndResetAudioData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRExternalComposition::*)(ByRef<::ArrayWrapper<float>>, ByRef<int>, ByRef<int>)>(&GlobalNamespace::OVRExternalComposition::GetAndResetAudioData)> {
   static const MethodInfo* get() {
-    static auto* audioData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->this_arg;
+    static auto* audioData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->this_arg;
     static auto* audioFrames = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* channels = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExternalComposition*), "GetAndResetAudioData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{audioData, audioFrames, channels});

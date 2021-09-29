@@ -125,15 +125,15 @@ namespace System::Security::Util {
     // private System.Byte[] _inBytes
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* inBytes;
+    ::ArrayWrapper<uint8_t> inBytes;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Char[] _inChars
     // Size: 0x8
     // Offset: 0x20
-    ::Array<::Il2CppChar>* inChars;
+    ::ArrayWrapper<::Il2CppChar> inChars;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppChar>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
     // private System.String _inString
     // Size: 0x8
     // Offset: 0x28
@@ -179,15 +179,15 @@ namespace System::Security::Util {
     // private System.String[] _searchStrings
     // Size: 0x8
     // Offset: 0x50
-    ::Array<::Il2CppString*>* searchStrings;
+    ::ArrayWrapper<::Il2CppString*> searchStrings;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // private System.String[] _replaceStrings
     // Size: 0x8
     // Offset: 0x58
-    ::Array<::Il2CppString*>* replaceStrings;
+    ::ArrayWrapper<::Il2CppString*> replaceStrings;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // private System.Int32 _inNestedIndex
     // Size: 0x4
     // Offset: 0x60
@@ -207,15 +207,15 @@ namespace System::Security::Util {
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: Tokenizer
-    Tokenizer(int LineNo_ = {}, int inProcessingTag_ = {}, ::Array<uint8_t>* inBytes_ = {}, ::Array<::Il2CppChar>* inChars_ = {}, ::Il2CppString* inString_ = {}, int inIndex_ = {}, int inSize_ = {}, int inSavedCharacter_ = {}, System::Security::Util::Tokenizer::TokenSource inTokenSource_ = {}, System::Security::Util::Tokenizer::ITokenReader* inTokenReader_ = {}, System::Security::Util::Tokenizer::StringMaker* maker_ = {}, ::Array<::Il2CppString*>* searchStrings_ = {}, ::Array<::Il2CppString*>* replaceStrings_ = {}, int inNestedIndex_ = {}, int inNestedSize_ = {}, ::Il2CppString* inNestedString_ = {}) noexcept : LineNo{LineNo_}, inProcessingTag{inProcessingTag_}, inBytes{inBytes_}, inChars{inChars_}, inString{inString_}, inIndex{inIndex_}, inSize{inSize_}, inSavedCharacter{inSavedCharacter_}, inTokenSource{inTokenSource_}, inTokenReader{inTokenReader_}, maker{maker_}, searchStrings{searchStrings_}, replaceStrings{replaceStrings_}, inNestedIndex{inNestedIndex_}, inNestedSize{inNestedSize_}, inNestedString{inNestedString_} {}
+    Tokenizer(int LineNo_ = {}, int inProcessingTag_ = {}, ::ArrayWrapper<uint8_t> inBytes_ = {}, ::ArrayWrapper<::Il2CppChar> inChars_ = {}, ::Il2CppString* inString_ = {}, int inIndex_ = {}, int inSize_ = {}, int inSavedCharacter_ = {}, System::Security::Util::Tokenizer::TokenSource inTokenSource_ = {}, System::Security::Util::Tokenizer::ITokenReader* inTokenReader_ = {}, System::Security::Util::Tokenizer::StringMaker* maker_ = {}, ::ArrayWrapper<::Il2CppString*> searchStrings_ = {}, ::ArrayWrapper<::Il2CppString*> replaceStrings_ = {}, int inNestedIndex_ = {}, int inNestedSize_ = {}, ::Il2CppString* inNestedString_ = {}) noexcept : LineNo{LineNo_}, inProcessingTag{inProcessingTag_}, inBytes{inBytes_}, inChars{inChars_}, inString{inString_}, inIndex{inIndex_}, inSize{inSize_}, inSavedCharacter{inSavedCharacter_}, inTokenSource{inTokenSource_}, inTokenReader{inTokenReader_}, maker{maker_}, searchStrings{searchStrings_}, replaceStrings{replaceStrings_}, inNestedIndex{inNestedIndex_}, inNestedSize{inNestedSize_}, inNestedString{inNestedString_} {}
     // Get instance field reference: public System.Int32 LineNo
     int& dyn_LineNo();
     // Get instance field reference: private System.Int32 _inProcessingTag
     int& dyn__inProcessingTag();
     // Get instance field reference: private System.Byte[] _inBytes
-    ::Array<uint8_t>*& dyn__inBytes();
+    ::ArrayWrapper<uint8_t>& dyn__inBytes();
     // Get instance field reference: private System.Char[] _inChars
-    ::Array<::Il2CppChar>*& dyn__inChars();
+    ::ArrayWrapper<::Il2CppChar>& dyn__inChars();
     // Get instance field reference: private System.String _inString
     ::Il2CppString*& dyn__inString();
     // Get instance field reference: private System.Int32 _inIndex
@@ -231,9 +231,9 @@ namespace System::Security::Util {
     // Get instance field reference: private System.Security.Util.Tokenizer/System.Security.Util.StringMaker _maker
     System::Security::Util::Tokenizer::StringMaker*& dyn__maker();
     // Get instance field reference: private System.String[] _searchStrings
-    ::Array<::Il2CppString*>*& dyn__searchStrings();
+    ::ArrayWrapper<::Il2CppString*>& dyn__searchStrings();
     // Get instance field reference: private System.String[] _replaceStrings
-    ::Array<::Il2CppString*>*& dyn__replaceStrings();
+    ::ArrayWrapper<::Il2CppString*>& dyn__replaceStrings();
     // Get instance field reference: private System.Int32 _inNestedIndex
     int& dyn__inNestedIndex();
     // Get instance field reference: private System.Int32 _inNestedSize
@@ -241,26 +241,26 @@ namespace System::Security::Util {
     // Get instance field reference: private System.String _inNestedString
     ::Il2CppString*& dyn__inNestedString();
     // System.Void .ctor(System.String input)
-    // Offset: 0x1C2D4BC
+    // Offset: 0x1DE5324
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tokenizer* New_ctor(::Il2CppString* input) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Util::Tokenizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tokenizer*, creationType>(input)));
     }
     // System.Void BasicInitialization()
-    // Offset: 0x1C2D148
+    // Offset: 0x1DE4FB0
     void BasicInitialization();
     // public System.Void Recycle()
-    // Offset: 0x1C2D33C
+    // Offset: 0x1DE51A4
     void Recycle();
     // System.Void ChangeFormat(System.Text.Encoding encoding)
-    // Offset: 0x1C2D508
+    // Offset: 0x1DE5370
     void ChangeFormat(System::Text::Encoding* encoding);
     // System.Void GetTokens(System.Security.Util.TokenizerStream stream, System.Int32 maxNum, System.Boolean endAfterKet)
-    // Offset: 0x1C2D830
+    // Offset: 0x1DE5698
     void GetTokens(System::Security::Util::TokenizerStream* stream, int maxNum, bool endAfterKet);
     // private System.String GetStringToken()
-    // Offset: 0x1C2E774
+    // Offset: 0x1DE65DC
     ::Il2CppString* GetStringToken();
   }; // System.Security.Util.Tokenizer
   #pragma pack(pop)

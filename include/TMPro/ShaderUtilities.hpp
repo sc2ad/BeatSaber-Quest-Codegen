@@ -280,32 +280,32 @@ namespace TMPro {
     // Set static field: static private UnityEngine.Shader k_ShaderRef_MobileBitmap
     static void _set_k_ShaderRef_MobileBitmap(UnityEngine::Shader* value);
     // static UnityEngine.Shader get_ShaderRef_MobileSDF()
-    // Offset: 0x110A734
+    // Offset: 0x11EC4E8
     static UnityEngine::Shader* get_ShaderRef_MobileSDF();
     // static UnityEngine.Shader get_ShaderRef_MobileBitmap()
-    // Offset: 0x110A840
+    // Offset: 0x11EC5F4
     static UnityEngine::Shader* get_ShaderRef_MobileBitmap();
     // static private System.Void .cctor()
-    // Offset: 0x110A94C
+    // Offset: 0x11EC700
     static void _cctor();
     // static public System.Void GetShaderPropertyIDs()
-    // Offset: 0x110AA70
+    // Offset: 0x11EC824
     static void GetShaderPropertyIDs();
     // static public System.Void UpdateShaderRatios(UnityEngine.Material mat)
-    // Offset: 0x110B244
+    // Offset: 0x11ECFF8
     static void UpdateShaderRatios(UnityEngine::Material* mat);
     // static public UnityEngine.Vector4 GetFontExtent(UnityEngine.Material material)
-    // Offset: 0x110B778
+    // Offset: 0x11ED52C
     static UnityEngine::Vector4 GetFontExtent(UnityEngine::Material* material);
     // static public System.Boolean IsMaskingEnabled(UnityEngine.Material material)
-    // Offset: 0x110B7D8
+    // Offset: 0x11ED58C
     static bool IsMaskingEnabled(UnityEngine::Material* material);
     // static public System.Single GetPadding(UnityEngine.Material material, System.Boolean enableExtraPadding, System.Boolean isBold)
-    // Offset: 0x110B98C
+    // Offset: 0x11ED740
     static float GetPadding(UnityEngine::Material* material, bool enableExtraPadding, bool isBold);
     // static public System.Single GetPadding(UnityEngine.Material[] materials, System.Boolean enableExtraPadding, System.Boolean isBold)
-    // Offset: 0x110C258
-    static float GetPadding(::Array<UnityEngine::Material*>* materials, bool enableExtraPadding, bool isBold);
+    // Offset: 0x11EE00C
+    static float GetPadding(::ArrayWrapper<UnityEngine::Material*> materials, bool enableExtraPadding, bool isBold);
   }; // TMPro.ShaderUtilities
   #pragma pack(pop)
 }
@@ -385,9 +385,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 // Writing MetadataGetter for method: TMPro::ShaderUtilities::GetPadding
 // Il2CppName: GetPadding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Array<UnityEngine::Material*>*, bool, bool)>(&TMPro::ShaderUtilities::GetPadding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::ArrayWrapper<UnityEngine::Material*>, bool, bool)>(&TMPro::ShaderUtilities::GetPadding)> {
   static const MethodInfo* get() {
-    static auto* materials = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
+    static auto* materials = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Material")), 1)->byval_arg;
     static auto* enableExtraPadding = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* isBold = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::ShaderUtilities*), "GetPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{materials, enableExtraPadding, isBold});

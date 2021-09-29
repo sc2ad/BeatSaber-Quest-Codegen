@@ -56,13 +56,13 @@ namespace Mono {
     // Get instance field reference: private Mono.RuntimeStructs/Mono.GenericParamInfo* value
     Mono::RuntimeStructs::GenericParamInfo*& dyn_value();
     // System.Type[] get_Constraints()
-    // Offset: 0x1A7711C
-    ::Array<System::Type*>* get_Constraints();
+    // Offset: 0x1C3FAEC
+    ::ArrayWrapper<System::Type*> get_Constraints();
     // System.Reflection.GenericParameterAttributes get_Attributes()
-    // Offset: 0x1A77260
+    // Offset: 0x1C3FC30
     System::Reflection::GenericParameterAttributes get_Attributes();
     // System.Void .ctor(System.IntPtr ptr)
-    // Offset: 0x1A770F0
+    // Offset: 0x1C3FAC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RuntimeGenericParamInfoHandle(System::IntPtr ptr) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::RuntimeGenericParamInfoHandle::.ctor");
@@ -70,10 +70,10 @@ namespace Mono {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ptr);
     }
     // private System.Type[] GetConstraints()
-    // Offset: 0x1A77120
-    ::Array<System::Type*>* GetConstraints();
+    // Offset: 0x1C3FAF0
+    ::ArrayWrapper<System::Type*> GetConstraints();
     // private System.Int32 GetConstraintsCount()
-    // Offset: 0x1A7727C
+    // Offset: 0x1C3FC4C
     int GetConstraintsCount();
   }; // Mono.RuntimeGenericParamInfoHandle
   #pragma pack(pop)
@@ -85,7 +85,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeGenericParamInfoHandle, "Mono", "RuntimeGene
 // Writing MetadataGetter for method: Mono::RuntimeGenericParamInfoHandle::get_Constraints
 // Il2CppName: get_Constraints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (Mono::RuntimeGenericParamInfoHandle::*)()>(&Mono::RuntimeGenericParamInfoHandle::get_Constraints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Type*> (Mono::RuntimeGenericParamInfoHandle::*)()>(&Mono::RuntimeGenericParamInfoHandle::get_Constraints)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGenericParamInfoHandle), "get_Constraints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: Mono::RuntimeGenericParamInfoHandle::GetConstraints
 // Il2CppName: GetConstraints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (Mono::RuntimeGenericParamInfoHandle::*)()>(&Mono::RuntimeGenericParamInfoHandle::GetConstraints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Type*> (Mono::RuntimeGenericParamInfoHandle::*)()>(&Mono::RuntimeGenericParamInfoHandle::GetConstraints)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGenericParamInfoHandle), "GetConstraints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

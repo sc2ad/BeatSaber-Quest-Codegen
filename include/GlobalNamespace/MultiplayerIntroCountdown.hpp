@@ -29,8 +29,8 @@ namespace UnityEngine {
 }
 // Forward declaring namespace: Tweening
 namespace Tweening {
-  // Forward declaring type: TweeningManager
-  class TweeningManager;
+  // Forward declaring type: TimeTweeningManager
+  class TimeTweeningManager;
 }
 // Forward declaring namespace: System::Collections
 namespace System::Collections {
@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 targetLocalPosition;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [SpaceAttribute] Offset: 0xE40DD0
+    // [SpaceAttribute] Offset: 0xF09764
     // private UnityEngine.AudioClip _readyClip
     // Size: 0x8
     // Offset: 0x40
@@ -115,7 +115,7 @@ namespace GlobalNamespace {
     UnityEngine::AudioClip* buildUpClip;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioClip*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE40E38
+    // [SpaceAttribute] Offset: 0xF097CC
     // private MultiplayerIntroCountdownTextController _textController0
     // Size: 0x8
     // Offset: 0x60
@@ -134,20 +134,20 @@ namespace GlobalNamespace {
     UnityEngine::AudioSource* audioSource;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioSource*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE40E90
+    // [SpaceAttribute] Offset: 0xF09824
     // private MultiplayerOffsetPositionByLocalPlayerPosition _multiplayerOffsetByLocalPlayerPosition
     // Size: 0x8
     // Offset: 0x78
     GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* multiplayerOffsetByLocalPlayerPosition;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*) == 0x8);
-    // [InjectAttribute] Offset: 0xE40EC8
-    // private readonly Tweening.TweeningManager _tweeningManager
+    // [InjectAttribute] Offset: 0xF0985C
+    // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x80
-    Tweening::TweeningManager* tweeningManager;
+    Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
-    static_assert(sizeof(Tweening::TweeningManager*) == 0x8);
+    static_assert(sizeof(Tweening::TimeTweeningManager*) == 0x8);
     // private MultiplayerIntroCountdownTextController _currentTextController
     // Size: 0x8
     // Offset: 0x88
@@ -167,7 +167,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: MultiplayerIntroCountdown
-    MultiplayerIntroCountdown(float textAppearDuration_ = {}, float textDisappearDuration_ = {}, float goDisappearDuration_ = {}, float partsDistance_ = {}, UnityEngine::Vector3 startLocalPosition_ = {}, UnityEngine::Vector3 targetLocalPosition_ = {}, UnityEngine::AudioClip* readyClip_ = {}, UnityEngine::AudioClip* setClip_ = {}, UnityEngine::AudioClip* goClip_ = {}, UnityEngine::AudioClip* buildUpClip_ = {}, GlobalNamespace::MultiplayerIntroCountdownTextController* textController0_ = {}, GlobalNamespace::MultiplayerIntroCountdownTextController* textController1_ = {}, UnityEngine::AudioSource* audioSource_ = {}, GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* multiplayerOffsetByLocalPlayerPosition_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, GlobalNamespace::MultiplayerIntroCountdownTextController* currentTextController_ = {}, float fontSize_ = {}, float alpha_ = {}) noexcept : textAppearDuration{textAppearDuration_}, textDisappearDuration{textDisappearDuration_}, goDisappearDuration{goDisappearDuration_}, partsDistance{partsDistance_}, startLocalPosition{startLocalPosition_}, targetLocalPosition{targetLocalPosition_}, readyClip{readyClip_}, setClip{setClip_}, goClip{goClip_}, buildUpClip{buildUpClip_}, textController0{textController0_}, textController1{textController1_}, audioSource{audioSource_}, multiplayerOffsetByLocalPlayerPosition{multiplayerOffsetByLocalPlayerPosition_}, tweeningManager{tweeningManager_}, currentTextController{currentTextController_}, fontSize{fontSize_}, alpha{alpha_} {}
+    MultiplayerIntroCountdown(float textAppearDuration_ = {}, float textDisappearDuration_ = {}, float goDisappearDuration_ = {}, float partsDistance_ = {}, UnityEngine::Vector3 startLocalPosition_ = {}, UnityEngine::Vector3 targetLocalPosition_ = {}, UnityEngine::AudioClip* readyClip_ = {}, UnityEngine::AudioClip* setClip_ = {}, UnityEngine::AudioClip* goClip_ = {}, UnityEngine::AudioClip* buildUpClip_ = {}, GlobalNamespace::MultiplayerIntroCountdownTextController* textController0_ = {}, GlobalNamespace::MultiplayerIntroCountdownTextController* textController1_ = {}, UnityEngine::AudioSource* audioSource_ = {}, GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* multiplayerOffsetByLocalPlayerPosition_ = {}, Tweening::TimeTweeningManager* tweeningManager_ = {}, GlobalNamespace::MultiplayerIntroCountdownTextController* currentTextController_ = {}, float fontSize_ = {}, float alpha_ = {}) noexcept : textAppearDuration{textAppearDuration_}, textDisappearDuration{textDisappearDuration_}, goDisappearDuration{goDisappearDuration_}, partsDistance{partsDistance_}, startLocalPosition{startLocalPosition_}, targetLocalPosition{targetLocalPosition_}, readyClip{readyClip_}, setClip{setClip_}, goClip{goClip_}, buildUpClip{buildUpClip_}, textController0{textController0_}, textController1{textController1_}, audioSource{audioSource_}, multiplayerOffsetByLocalPlayerPosition{multiplayerOffsetByLocalPlayerPosition_}, tweeningManager{tweeningManager_}, currentTextController{currentTextController_}, fontSize{fontSize_}, alpha{alpha_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _textAppearDuration
@@ -198,8 +198,8 @@ namespace GlobalNamespace {
     UnityEngine::AudioSource*& dyn__audioSource();
     // Get instance field reference: private MultiplayerOffsetPositionByLocalPlayerPosition _multiplayerOffsetByLocalPlayerPosition
     GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*& dyn__multiplayerOffsetByLocalPlayerPosition();
-    // Get instance field reference: private readonly Tweening.TweeningManager _tweeningManager
-    Tweening::TweeningManager*& dyn__tweeningManager();
+    // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
+    Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private MultiplayerIntroCountdownTextController _currentTextController
     GlobalNamespace::MultiplayerIntroCountdownTextController*& dyn__currentTextController();
     // Get instance field reference: private System.Single _fontSize
@@ -207,28 +207,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _alpha
     float& dyn__alpha();
     // public System.Single get_textAppearDuration()
-    // Offset: 0x11D51AC
+    // Offset: 0x121B494
     float get_textAppearDuration();
     // protected System.Void Awake()
-    // Offset: 0x11D51B4
+    // Offset: 0x121B49C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x11D52DC
+    // Offset: 0x121B50C
     void OnDestroy();
     // public System.Void StartCountdown(System.Single seconds, System.Single delay, System.Single durationMultiplier)
-    // Offset: 0x11D5374
+    // Offset: 0x121B5A4
     void StartCountdown(float seconds, float delay, float durationMultiplier);
     // private System.Collections.IEnumerator CountdownRoutine(System.Single seconds, System.Single delay, System.Single durationMultiplier)
-    // Offset: 0x11D53F0
+    // Offset: 0x121B620
     System::Collections::IEnumerator* CountdownRoutine(float seconds, float delay, float durationMultiplier);
     // private System.Collections.IEnumerator PlayDelayed(UnityEngine.AudioClip audioClip, System.Single delay)
-    // Offset: 0x11D54B0
+    // Offset: 0x121B6E0
     System::Collections::IEnumerator* PlayDelayed(UnityEngine::AudioClip* audioClip, float delay);
     // private System.Collections.IEnumerator PhaseRoutine(System.String text, System.Single appearDuration, System.Single disappearDuration)
-    // Offset: 0x11D5568
+    // Offset: 0x121B798
     System::Collections::IEnumerator* PhaseRoutine(::Il2CppString* text, float appearDuration, float disappearDuration);
     // public System.Void .ctor()
-    // Offset: 0x11D5624
+    // Offset: 0x121B854
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

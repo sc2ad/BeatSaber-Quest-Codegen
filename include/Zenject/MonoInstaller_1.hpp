@@ -45,14 +45,14 @@ namespace Zenject {
     }
     // static public TDerived InstallFromResource(Zenject.DiContainer container, System.Object[] extraArgs)
     // Offset: 0xFFFFFFFF
-    static TDerived InstallFromResource(Zenject::DiContainer* container, ::Array<::Il2CppObject*>* extraArgs) {
+    static TDerived InstallFromResource(Zenject::DiContainer* container, ::ArrayWrapper<::Il2CppObject*> extraArgs) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoInstaller_1::InstallFromResource");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoInstaller_1<TDerived>*>::get(), "InstallFromResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(container), ::il2cpp_utils::ExtractType(extraArgs)})));
       return ::il2cpp_utils::RunMethodThrow<TDerived, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, container, extraArgs);
     }
     // static public TDerived InstallFromResource(System.String resourcePath, Zenject.DiContainer container, System.Object[] extraArgs)
     // Offset: 0xFFFFFFFF
-    static TDerived InstallFromResource(::Il2CppString* resourcePath, Zenject::DiContainer* container, ::Array<::Il2CppObject*>* extraArgs) {
+    static TDerived InstallFromResource(::Il2CppString* resourcePath, Zenject::DiContainer* container, ::ArrayWrapper<::Il2CppObject*> extraArgs) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MonoInstaller_1::InstallFromResource");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MonoInstaller_1<TDerived>*>::get(), "InstallFromResource", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(resourcePath), ::il2cpp_utils::ExtractType(container), ::il2cpp_utils::ExtractType(extraArgs)})));
       return ::il2cpp_utils::RunMethodThrow<TDerived, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, resourcePath, container, extraArgs);

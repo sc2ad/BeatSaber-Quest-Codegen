@@ -53,15 +53,15 @@ namespace GlobalNamespace {
     // private MissionNodeConnection[] <newEnabledConnection>5__2
     // Size: 0x8
     // Offset: 0x28
-    ::Array<GlobalNamespace::MissionNodeConnection*>* $newEnabledConnection$5__2;
+    ::ArrayWrapper<GlobalNamespace::MissionNodeConnection*> $newEnabledConnection$5__2;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MissionNodeConnection*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionNodeConnection*>) == 0x8);
     // private MissionNodeConnection[] <>7__wrap2
     // Size: 0x8
     // Offset: 0x30
-    ::Array<GlobalNamespace::MissionNodeConnection*>* $$7__wrap2;
+    ::ArrayWrapper<GlobalNamespace::MissionNodeConnection*> $$7__wrap2;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MissionNodeConnection*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionNodeConnection*>) == 0x8);
     // private System.Int32 <>7__wrap3
     // Size: 0x4
     // Offset: 0x38
@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: $UpdateNodesAndConnectionCoroutine$d__15
-    $UpdateNodesAndConnectionCoroutine$d__15(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::MissionMapAnimationController* $$4__this_ = {}, ::Array<GlobalNamespace::MissionNodeConnection*>* $newEnabledConnection$5__2_ = {}, ::Array<GlobalNamespace::MissionNodeConnection*>* $$7__wrap2_ = {}, int $$7__wrap3_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, $newEnabledConnection$5__2{$newEnabledConnection$5__2_}, $$7__wrap2{$$7__wrap2_}, $$7__wrap3{$$7__wrap3_} {}
+    $UpdateNodesAndConnectionCoroutine$d__15(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, GlobalNamespace::MissionMapAnimationController* $$4__this_ = {}, ::ArrayWrapper<GlobalNamespace::MissionNodeConnection*> $newEnabledConnection$5__2_ = {}, ::ArrayWrapper<GlobalNamespace::MissionNodeConnection*> $$7__wrap2_ = {}, int $$7__wrap3_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, $newEnabledConnection$5__2{$newEnabledConnection$5__2_}, $$7__wrap2{$$7__wrap2_}, $$7__wrap3{$$7__wrap3_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -81,32 +81,32 @@ namespace GlobalNamespace {
     // Get instance field reference: public MissionMapAnimationController <>4__this
     GlobalNamespace::MissionMapAnimationController*& dyn_$$4__this();
     // Get instance field reference: private MissionNodeConnection[] <newEnabledConnection>5__2
-    ::Array<GlobalNamespace::MissionNodeConnection*>*& dyn_$newEnabledConnection$5__2();
+    ::ArrayWrapper<GlobalNamespace::MissionNodeConnection*>& dyn_$newEnabledConnection$5__2();
     // Get instance field reference: private MissionNodeConnection[] <>7__wrap2
-    ::Array<GlobalNamespace::MissionNodeConnection*>*& dyn_$$7__wrap2();
+    ::ArrayWrapper<GlobalNamespace::MissionNodeConnection*>& dyn_$$7__wrap2();
     // Get instance field reference: private System.Int32 <>7__wrap3
     int& dyn_$$7__wrap3();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x11421CC
+    // Offset: 0x1188D1C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1142234
+    // Offset: 0x1188D84
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1141718
+    // Offset: 0x118826C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionMapAnimationController::$UpdateNodesAndConnectionCoroutine$d__15* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionMapAnimationController::$UpdateNodesAndConnectionCoroutine$d__15::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionMapAnimationController::$UpdateNodesAndConnectionCoroutine$d__15*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1141CA8
+    // Offset: 0x11887F8
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1141CAC
+    // Offset: 0x11887FC
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x11421D4
+    // Offset: 0x1188D24
     void System_Collections_IEnumerator_Reset();
   }; // MissionMapAnimationController/<UpdateNodesAndConnectionCoroutine>d__15
   #pragma pack(pop)

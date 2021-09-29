@@ -126,52 +126,52 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action didInitEvent
     System::Action*& dyn_didInitEvent();
     // public System.Single get_jumpOffsetY()
-    // Offset: 0x1149580
+    // Offset: 0x1190150
     float get_jumpOffsetY();
     // public System.Void set_jumpOffsetY(System.Single value)
-    // Offset: 0x1149588
+    // Offset: 0x1190158
     void set_jumpOffsetY(float value);
     // public System.Single get_currentBpm()
-    // Offset: 0x1149590
+    // Offset: 0x1190160
     float get_currentBpm();
     // public System.Single get_moveDuration()
-    // Offset: 0x1149598
+    // Offset: 0x1190168
     float get_moveDuration();
     // public System.Single get_jumpDuration()
-    // Offset: 0x11495A0
+    // Offset: 0x1190170
     float get_jumpDuration();
     // public System.Single get_jumpDistance()
-    // Offset: 0x11495A8
+    // Offset: 0x1190178
     float get_jumpDistance();
     // public System.Single get_verticalLayerDistance()
-    // Offset: 0x11495B0
+    // Offset: 0x1190180
     float get_verticalLayerDistance();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x11495B8
+    // Offset: 0x1190188
     float get_noteJumpMovementSpeed();
     // public System.Single get_noteLinesDistance()
-    // Offset: 0x11495C0
+    // Offset: 0x1190190
     float get_noteLinesDistance();
     // public BeatmapObjectSpawnMovementData get_beatmapObjectSpawnMovementData()
-    // Offset: 0x11495C8
+    // Offset: 0x1190198
     GlobalNamespace::BeatmapObjectSpawnMovementData* get_beatmapObjectSpawnMovementData();
     // public System.Boolean get_isInitialized()
-    // Offset: 0x11495D0
+    // Offset: 0x11901A0
     bool get_isInitialized();
     // public System.Void add_didInitEvent(System.Action value)
-    // Offset: 0x11495D8
+    // Offset: 0x11901A8
     void add_didInitEvent(System::Action* value);
     // public System.Void remove_didInitEvent(System.Action value)
-    // Offset: 0x114967C
+    // Offset: 0x119024C
     void remove_didInitEvent(System::Action* value);
     // public UnityEngine.Vector2 Get2DNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x1149720
+    // Offset: 0x11902F0
     UnityEngine::Vector2 Get2DNoteOffset(int noteLineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);
     // public System.Single JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(NoteLineLayer lineLayer, System.Single distanceFromPlayer)
-    // Offset: 0x1149780
+    // Offset: 0x1190350
     float JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(GlobalNamespace::NoteLineLayer lineLayer, float distanceFromPlayer);
     // public System.Void .ctor()
-    // Offset: 0x1149788
+    // Offset: 0x1190358
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

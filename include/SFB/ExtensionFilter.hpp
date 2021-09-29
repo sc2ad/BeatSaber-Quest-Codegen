@@ -14,8 +14,6 @@
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
-template<class T>
-struct Array;
 // Completed il2cpp-utils forward declares
 // Type namespace: SFB
 namespace SFB {
@@ -35,11 +33,11 @@ namespace SFB {
     // public readonly System.String[] _extensions
     // Size: 0x8
     // Offset: 0x8
-    ::Array<::Il2CppString*>* extensions;
+    ::ArrayWrapper<::Il2CppString*> extensions;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // Creating value type constructor for type: ExtensionFilter
-    constexpr ExtensionFilter(::Il2CppString* name_ = {}, ::Array<::Il2CppString*>* extensions_ = {}) noexcept : name{name_}, extensions{extensions_} {}
+    constexpr ExtensionFilter(::Il2CppString* name_ = {}, ::ArrayWrapper<::Il2CppString*> extensions_ = {}) noexcept : name{name_}, extensions{extensions_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -47,14 +45,14 @@ namespace SFB {
     // Get instance field reference: public readonly System.String _name
     ::Il2CppString*& dyn__name();
     // Get instance field reference: public readonly System.String[] _extensions
-    ::Array<::Il2CppString*>*& dyn__extensions();
+    ::ArrayWrapper<::Il2CppString*>& dyn__extensions();
     // public System.Void .ctor(System.String filterName, params System.String[] filterExtensions)
-    // Offset: 0x112BC34
+    // Offset: 0x11C52AC
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  ExtensionFilter(::Il2CppString* filterName, ::Array<::Il2CppString*>* filterExtensions)
+    // ABORTED: conflicts with another method.  ExtensionFilter(::Il2CppString* filterName, ::ArrayWrapper<::Il2CppString*> filterExtensions)
   }; // SFB.ExtensionFilter
   #pragma pack(pop)
-  static check_size<sizeof(ExtensionFilter), 8 + sizeof(::Array<::Il2CppString*>*)> __SFB_ExtensionFilterSizeCheck;
+  static check_size<sizeof(ExtensionFilter), 8 + sizeof(::ArrayWrapper<::Il2CppString*>)> __SFB_ExtensionFilterSizeCheck;
   static_assert(sizeof(ExtensionFilter) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(SFB::ExtensionFilter, "SFB", "ExtensionFilter");

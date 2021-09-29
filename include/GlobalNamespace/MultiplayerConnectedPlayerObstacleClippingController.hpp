@@ -34,30 +34,30 @@ namespace GlobalNamespace {
     // private MaterialPropertyBlockController[] _materialPropertyBlockControllers
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::MaterialPropertyBlockController*>* materialPropertyBlockControllers;
+    ::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*> materialPropertyBlockControllers;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MaterialPropertyBlockController*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*>) == 0x8);
     // Creating value type constructor for type: MultiplayerConnectedPlayerObstacleClippingController
-    MultiplayerConnectedPlayerObstacleClippingController(::Array<GlobalNamespace::MaterialPropertyBlockController*>* materialPropertyBlockControllers_ = {}) noexcept : materialPropertyBlockControllers{materialPropertyBlockControllers_} {}
+    MultiplayerConnectedPlayerObstacleClippingController(::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*> materialPropertyBlockControllers_ = {}) noexcept : materialPropertyBlockControllers{materialPropertyBlockControllers_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE4004C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF089E0
     // Get static field: static private readonly System.Int32 _clippingPlanePositionID
     static int _get__clippingPlanePositionID();
     // Set static field: static private readonly System.Int32 _clippingPlanePositionID
     static void _set__clippingPlanePositionID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE4005C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF089F0
     // Get static field: static private readonly System.Int32 _clippingPlaneNormalID
     static int _get__clippingPlaneNormalID();
     // Set static field: static private readonly System.Int32 _clippingPlaneNormalID
     static void _set__clippingPlaneNormalID(int value);
     // Get instance field reference: private MaterialPropertyBlockController[] _materialPropertyBlockControllers
-    ::Array<GlobalNamespace::MaterialPropertyBlockController*>*& dyn__materialPropertyBlockControllers();
+    ::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*>& dyn__materialPropertyBlockControllers();
     // public System.Void SetClippingParams(UnityEngine.Vector3 position, UnityEngine.Vector3 normal)
-    // Offset: 0x11CCF58
+    // Offset: 0x12134A8
     void SetClippingParams(UnityEngine::Vector3 position, UnityEngine::Vector3 normal);
     // public System.Void .ctor()
-    // Offset: 0x11CD104
+    // Offset: 0x1213654
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -70,13 +70,13 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerObstacleClippingController*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x11CD10C
+    // Offset: 0x121365C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // MultiplayerConnectedPlayerObstacleClippingController
   #pragma pack(pop)
-  static check_size<sizeof(MultiplayerConnectedPlayerObstacleClippingController), 24 + sizeof(::Array<GlobalNamespace::MaterialPropertyBlockController*>*)> __GlobalNamespace_MultiplayerConnectedPlayerObstacleClippingControllerSizeCheck;
+  static check_size<sizeof(MultiplayerConnectedPlayerObstacleClippingController), 24 + sizeof(::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*>)> __GlobalNamespace_MultiplayerConnectedPlayerObstacleClippingControllerSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerObstacleClippingController) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController*, "", "MultiplayerConnectedPlayerObstacleClippingController");

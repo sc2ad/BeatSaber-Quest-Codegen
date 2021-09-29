@@ -59,9 +59,9 @@ namespace System::Net {
     // System.Byte[] Buffer
     // Size: 0x8
     // Offset: 0x28
-    ::Array<uint8_t>* Buffer;
+    ::ArrayWrapper<uint8_t> Buffer;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // System.Int32 Offset
     // Size: 0x4
     // Offset: 0x30
@@ -101,7 +101,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(System::Exception*) == 0x8);
     // Creating value type constructor for type: HttpStreamAsyncResult
-    HttpStreamAsyncResult(::Il2CppObject* locker_ = {}, System::Threading::ManualResetEvent* handle_ = {}, bool completed_ = {}, ::Array<uint8_t>* Buffer_ = {}, int Offset_ = {}, int Count_ = {}, System::AsyncCallback* Callback_ = {}, ::Il2CppObject* State_ = {}, int SynchRead_ = {}, System::Exception* Error_ = {}) noexcept : locker{locker_}, handle{handle_}, completed{completed_}, Buffer{Buffer_}, Offset{Offset_}, Count{Count_}, Callback{Callback_}, State{State_}, SynchRead{SynchRead_}, Error{Error_} {}
+    HttpStreamAsyncResult(::Il2CppObject* locker_ = {}, System::Threading::ManualResetEvent* handle_ = {}, bool completed_ = {}, ::ArrayWrapper<uint8_t> Buffer_ = {}, int Offset_ = {}, int Count_ = {}, System::AsyncCallback* Callback_ = {}, ::Il2CppObject* State_ = {}, int SynchRead_ = {}, System::Exception* Error_ = {}) noexcept : locker{locker_}, handle{handle_}, completed{completed_}, Buffer{Buffer_}, Offset{Offset_}, Count{Count_}, Callback{Callback_}, State{State_}, SynchRead{SynchRead_}, Error{Error_} {}
     // Creating interface conversion operator: operator System::IAsyncResult
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);
@@ -113,7 +113,7 @@ namespace System::Net {
     // Get instance field reference: private System.Boolean completed
     bool& dyn_completed();
     // Get instance field reference: System.Byte[] Buffer
-    ::Array<uint8_t>*& dyn_Buffer();
+    ::ArrayWrapper<uint8_t>& dyn_Buffer();
     // Get instance field reference: System.Int32 Offset
     int& dyn_Offset();
     // Get instance field reference: System.Int32 Count
@@ -127,25 +127,25 @@ namespace System::Net {
     // Get instance field reference: System.Exception Error
     System::Exception*& dyn_Error();
     // public System.Object get_AsyncState()
-    // Offset: 0x167B11C
+    // Offset: 0x18464C0
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x167B124
+    // Offset: 0x18464C8
     System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x167B214
+    // Offset: 0x18465B8
     bool get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x167B228
+    // Offset: 0x18465CC
     bool get_IsCompleted();
     // public System.Void Complete(System.Exception e)
-    // Offset: 0x167B048
+    // Offset: 0x18463EC
     void Complete(System::Exception* e);
     // public System.Void Complete()
-    // Offset: 0x167B050
+    // Offset: 0x18463F4
     void Complete();
     // public System.Void .ctor()
-    // Offset: 0x167B2BC
+    // Offset: 0x1846660
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

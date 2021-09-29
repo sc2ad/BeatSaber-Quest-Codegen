@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* okButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [InjectAttribute] Offset: 0xE475AC
+    // [InjectAttribute] Offset: 0xF0FF70
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x80
@@ -76,16 +76,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<HMUI.ViewController> didFinishEvent
     System::Action_1<HMUI::ViewController*>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<HMUI.ViewController> value)
-    // Offset: 0x11FA2F8
+    // Offset: 0x12B9FE0
     void add_didFinishEvent(System::Action_1<HMUI::ViewController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<HMUI.ViewController> value)
-    // Offset: 0x11FA39C
+    // Offset: 0x12BA084
     void remove_didFinishEvent(System::Action_1<HMUI::ViewController*>* value);
     // private System.Void <DidActivate>b__6_0()
-    // Offset: 0x11FAAB8
+    // Offset: 0x12BA7A0
     void $DidActivate$b__6_0();
     // public System.Void .ctor()
-    // Offset: 0x11FAAB0
+    // Offset: 0x12BA798
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -99,12 +99,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerOptionsViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x11FA440
+    // Offset: 0x12BA128
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x11FA768
+    // Offset: 0x12BA450
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

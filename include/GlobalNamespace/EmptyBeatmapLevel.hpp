@@ -138,9 +138,9 @@ namespace GlobalNamespace {
     // private readonly PreviewDifficultyBeatmapSet[] <previewDifficultyBeatmapSets>k__BackingField
     // Size: 0x8
     // Offset: 0x68
-    ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* previewDifficultyBeatmapSets;
+    ::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*> previewDifficultyBeatmapSets;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*>) == 0x8);
     // private readonly IBeatmapLevelData <beatmapLevelData>k__BackingField
     // Size: 0x8
     // Offset: 0x70
@@ -148,7 +148,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapLevelData*) == 0x8);
     // Creating value type constructor for type: EmptyBeatmapLevel
-    EmptyBeatmapLevel(::Il2CppString* levelID_ = {}, ::Il2CppString* songName_ = {}, ::Il2CppString* songSubName_ = {}, ::Il2CppString* songAuthorName_ = {}, ::Il2CppString* levelAuthorName_ = {}, float beatsPerMinute_ = {}, float songTimeOffset_ = {}, float shuffle_ = {}, float shufflePeriod_ = {}, float previewStartTime_ = {}, float previewDuration_ = {}, float songDuration_ = {}, GlobalNamespace::EnvironmentInfoSO* environmentInfo_ = {}, GlobalNamespace::EnvironmentInfoSO* allDirectionsEnvironmentInfo_ = {}, ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* previewDifficultyBeatmapSets_ = {}, GlobalNamespace::IBeatmapLevelData* beatmapLevelData_ = {}) noexcept : levelID{levelID_}, songName{songName_}, songSubName{songSubName_}, songAuthorName{songAuthorName_}, levelAuthorName{levelAuthorName_}, beatsPerMinute{beatsPerMinute_}, songTimeOffset{songTimeOffset_}, shuffle{shuffle_}, shufflePeriod{shufflePeriod_}, previewStartTime{previewStartTime_}, previewDuration{previewDuration_}, songDuration{songDuration_}, environmentInfo{environmentInfo_}, allDirectionsEnvironmentInfo{allDirectionsEnvironmentInfo_}, previewDifficultyBeatmapSets{previewDifficultyBeatmapSets_}, beatmapLevelData{beatmapLevelData_} {}
+    EmptyBeatmapLevel(::Il2CppString* levelID_ = {}, ::Il2CppString* songName_ = {}, ::Il2CppString* songSubName_ = {}, ::Il2CppString* songAuthorName_ = {}, ::Il2CppString* levelAuthorName_ = {}, float beatsPerMinute_ = {}, float songTimeOffset_ = {}, float shuffle_ = {}, float shufflePeriod_ = {}, float previewStartTime_ = {}, float previewDuration_ = {}, float songDuration_ = {}, GlobalNamespace::EnvironmentInfoSO* environmentInfo_ = {}, GlobalNamespace::EnvironmentInfoSO* allDirectionsEnvironmentInfo_ = {}, ::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*> previewDifficultyBeatmapSets_ = {}, GlobalNamespace::IBeatmapLevelData* beatmapLevelData_ = {}) noexcept : levelID{levelID_}, songName{songName_}, songSubName{songSubName_}, songAuthorName{songAuthorName_}, levelAuthorName{levelAuthorName_}, beatsPerMinute{beatsPerMinute_}, songTimeOffset{songTimeOffset_}, shuffle{shuffle_}, shufflePeriod{shufflePeriod_}, previewStartTime{previewStartTime_}, previewDuration{previewDuration_}, songDuration{songDuration_}, environmentInfo{environmentInfo_}, allDirectionsEnvironmentInfo{allDirectionsEnvironmentInfo_}, previewDifficultyBeatmapSets{previewDifficultyBeatmapSets_}, beatmapLevelData{beatmapLevelData_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapLevel
     operator GlobalNamespace::IBeatmapLevel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevel*>(this);
@@ -182,65 +182,65 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly EnvironmentInfoSO <allDirectionsEnvironmentInfo>k__BackingField
     GlobalNamespace::EnvironmentInfoSO*& dyn_$allDirectionsEnvironmentInfo$k__BackingField();
     // Get instance field reference: private readonly PreviewDifficultyBeatmapSet[] <previewDifficultyBeatmapSets>k__BackingField
-    ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>*& dyn_$previewDifficultyBeatmapSets$k__BackingField();
+    ::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*>& dyn_$previewDifficultyBeatmapSets$k__BackingField();
     // Get instance field reference: private readonly IBeatmapLevelData <beatmapLevelData>k__BackingField
     GlobalNamespace::IBeatmapLevelData*& dyn_$beatmapLevelData$k__BackingField();
     // public System.String get_levelID()
-    // Offset: 0x1055D20
+    // Offset: 0x11AEB08
     ::Il2CppString* get_levelID();
     // public System.String get_songName()
-    // Offset: 0x1055D28
+    // Offset: 0x11AEB10
     ::Il2CppString* get_songName();
     // public System.String get_songSubName()
-    // Offset: 0x1055D30
+    // Offset: 0x11AEB18
     ::Il2CppString* get_songSubName();
     // public System.String get_songAuthorName()
-    // Offset: 0x1055D38
+    // Offset: 0x11AEB20
     ::Il2CppString* get_songAuthorName();
     // public System.String get_levelAuthorName()
-    // Offset: 0x1055D40
+    // Offset: 0x11AEB28
     ::Il2CppString* get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
-    // Offset: 0x1055D48
+    // Offset: 0x11AEB30
     float get_beatsPerMinute();
     // public System.Single get_songTimeOffset()
-    // Offset: 0x1055D50
+    // Offset: 0x11AEB38
     float get_songTimeOffset();
     // public System.Single get_shuffle()
-    // Offset: 0x1055D58
+    // Offset: 0x11AEB40
     float get_shuffle();
     // public System.Single get_shufflePeriod()
-    // Offset: 0x1055D60
+    // Offset: 0x11AEB48
     float get_shufflePeriod();
     // public System.Single get_previewStartTime()
-    // Offset: 0x1055D68
+    // Offset: 0x11AEB50
     float get_previewStartTime();
     // public System.Single get_previewDuration()
-    // Offset: 0x1055D70
+    // Offset: 0x11AEB58
     float get_previewDuration();
     // public System.Single get_songDuration()
-    // Offset: 0x1055D78
+    // Offset: 0x11AEB60
     float get_songDuration();
     // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0x1055D80
+    // Offset: 0x11AEB68
     GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
     // public EnvironmentInfoSO get_allDirectionsEnvironmentInfo()
-    // Offset: 0x1055D88
+    // Offset: 0x11AEB70
     GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
     // public PreviewDifficultyBeatmapSet[] get_previewDifficultyBeatmapSets()
-    // Offset: 0x1055D90
-    ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
+    // Offset: 0x11AEB78
+    ::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*> get_previewDifficultyBeatmapSets();
     // public IBeatmapLevelData get_beatmapLevelData()
-    // Offset: 0x1055E58
+    // Offset: 0x11AEC40
     GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> GetPreviewAudioClipAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1055D98
+    // Offset: 0x11AEB80
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* GetPreviewAudioClipAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1055DF8
+    // Offset: 0x11AEBE0
     System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* GetCoverImageAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x1055E60
+    // Offset: 0x11AEC48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -370,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::EmptyBeatmapLevel::get_previewDifficultyBeatmapSets
 // Il2CppName: get_previewDifficultyBeatmapSets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* (GlobalNamespace::EmptyBeatmapLevel::*)()>(&GlobalNamespace::EmptyBeatmapLevel::get_previewDifficultyBeatmapSets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*> (GlobalNamespace::EmptyBeatmapLevel::*)()>(&GlobalNamespace::EmptyBeatmapLevel::get_previewDifficultyBeatmapSets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EmptyBeatmapLevel*), "get_previewDifficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

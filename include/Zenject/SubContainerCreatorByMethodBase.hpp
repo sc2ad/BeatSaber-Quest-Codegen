@@ -61,7 +61,7 @@ namespace Zenject {
     // Get instance field reference: private readonly Zenject.SubContainerCreatorBindInfo _containerBindInfo
     Zenject::SubContainerCreatorBindInfo*& dyn__containerBindInfo();
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.SubContainerCreatorBindInfo containerBindInfo)
-    // Offset: 0x17270CC
+    // Offset: 0x18A2AC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorByMethodBase* New_ctor(Zenject::DiContainer* container, Zenject::SubContainerCreatorBindInfo* containerBindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerCreatorByMethodBase::.ctor");
@@ -71,7 +71,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* context);
     // protected Zenject.DiContainer CreateEmptySubContainer()
-    // Offset: 0x17271A8
+    // Offset: 0x18A2BA4
     Zenject::DiContainer* CreateEmptySubContainer();
   }; // Zenject.SubContainerCreatorByMethodBase
   #pragma pack(pop)

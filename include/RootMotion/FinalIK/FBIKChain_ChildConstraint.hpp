@@ -117,32 +117,32 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Int32 chain2Index
     int& dyn_chain2Index();
     // public System.Single get_nominalDistance()
-    // Offset: 0x1D3BB84
+    // Offset: 0x1EC8D00
     float get_nominalDistance();
     // private System.Void set_nominalDistance(System.Single value)
-    // Offset: 0x1D3BB8C
+    // Offset: 0x1EC8D08
     void set_nominalDistance(float value);
     // public System.Boolean get_isRigid()
-    // Offset: 0x1D3BB94
+    // Offset: 0x1EC8D10
     bool get_isRigid();
     // private System.Void set_isRigid(System.Boolean value)
-    // Offset: 0x1D3BB9C
+    // Offset: 0x1EC8D18
     void set_isRigid(bool value);
     // public System.Void .ctor(UnityEngine.Transform bone1, UnityEngine.Transform bone2, System.Single pushElasticity, System.Single pullElasticity)
-    // Offset: 0x1D3BBA8
+    // Offset: 0x1EC8D24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FBIKChain::ChildConstraint* New_ctor(UnityEngine::Transform* bone1, UnityEngine::Transform* bone2, float pushElasticity, float pullElasticity) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::FBIKChain::ChildConstraint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FBIKChain::ChildConstraint*, creationType>(bone1, bone2, pushElasticity, pullElasticity)));
     }
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1D39908
+    // Offset: 0x1EC6A84
     void Initiate(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void OnPreSolve(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1D39E48
+    // Offset: 0x1EC6FC4
     void OnPreSolve(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void Solve(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1D3B880
+    // Offset: 0x1EC89FC
     void Solve(RootMotion::FinalIK::IKSolverFullBody* solver);
   }; // RootMotion.FinalIK.FBIKChain/RootMotion.FinalIK.ChildConstraint
   #pragma pack(pop)

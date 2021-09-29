@@ -94,32 +94,32 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Get instance field reference: private System.Int32 <i>5__2
     int& dyn_$i$5__2();
     // private System.Boolean System.Collections.Generic.IEnumerator<System.Boolean>.get_Current()
-    // Offset: 0x23C99A0
+    // Offset: 0x25CE8C4
     bool System_Collections_Generic_IEnumerator$System_Boolean$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x23C9A08
+    // Offset: 0x25CE92C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x23C982C
+    // Offset: 0x25CE750
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixedBitArray3::$Enumerate$d__10* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::$Enumerate$d__10::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixedBitArray3::$Enumerate$d__10*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x23C9920
+    // Offset: 0x25CE844
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x23C9924
+    // Offset: 0x25CE848
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x23C99A8
+    // Offset: 0x25CE8CC
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.Boolean> System.Collections.Generic.IEnumerable<System.Boolean>.GetEnumerator()
-    // Offset: 0x23C9A6C
+    // Offset: 0x25CE990
     System::Collections::Generic::IEnumerator_1<bool>* System_Collections_Generic_IEnumerable$System_Boolean$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x23C9B20
+    // Offset: 0x25CEA44
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.ProBuilder.Poly2Tri.FixedBitArray3/UnityEngine.ProBuilder.Poly2Tri.<Enumerate>d__10
   #pragma pack(pop)

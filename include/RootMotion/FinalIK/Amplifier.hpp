@@ -29,19 +29,19 @@ namespace RootMotion::FinalIK {
     char ___base_padding[0x4] = {};
     // Nested type: RootMotion::FinalIK::Amplifier::Body
     class Body;
-    // [TooltipAttribute] Offset: 0xE2DCC0
+    // [TooltipAttribute] Offset: 0xEF4498
     // public RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body[] bodies
     // Size: 0x8
     // Offset: 0x30
-    ::Array<RootMotion::FinalIK::Amplifier::Body*>* bodies;
+    ::ArrayWrapper<RootMotion::FinalIK::Amplifier::Body*> bodies;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::Amplifier::Body*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::Amplifier::Body*>) == 0x8);
     // Creating value type constructor for type: Amplifier
-    Amplifier(::Array<RootMotion::FinalIK::Amplifier::Body*>* bodies_ = {}) noexcept : bodies{bodies_} {}
+    Amplifier(::ArrayWrapper<RootMotion::FinalIK::Amplifier::Body*> bodies_ = {}) noexcept : bodies{bodies_} {}
     // Get instance field reference: public RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body[] bodies
-    ::Array<RootMotion::FinalIK::Amplifier::Body*>*& dyn_bodies();
+    ::ArrayWrapper<RootMotion::FinalIK::Amplifier::Body*>& dyn_bodies();
     // public System.Void .ctor()
-    // Offset: 0x1D32710
+    // Offset: 0x1EBF88C
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -55,13 +55,13 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<Amplifier*, creationType>()));
     }
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1D3216C
+    // Offset: 0x1EBF2E8
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();
   }; // RootMotion.FinalIK.Amplifier
   #pragma pack(pop)
-  static check_size<sizeof(Amplifier), 48 + sizeof(::Array<RootMotion::FinalIK::Amplifier::Body*>*)> __RootMotion_FinalIK_AmplifierSizeCheck;
+  static check_size<sizeof(Amplifier), 48 + sizeof(::ArrayWrapper<RootMotion::FinalIK::Amplifier::Body*>)> __RootMotion_FinalIK_AmplifierSizeCheck;
   static_assert(sizeof(Amplifier) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Amplifier*, "RootMotion.FinalIK", "Amplifier");

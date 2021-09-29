@@ -60,27 +60,27 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.String[] memberNames
     // Size: 0x8
     // Offset: 0x28
-    ::Array<::Il2CppString*>* memberNames;
+    ::ArrayWrapper<::Il2CppString*> memberNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA
     // Size: 0x8
     // Offset: 0x30
-    ::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA;
+    ::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA;
     // Field size check
-    static_assert(sizeof(::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>) == 0x8);
     // System.Object[] typeInformationA
     // Size: 0x8
     // Offset: 0x38
-    ::Array<::Il2CppObject*>* typeInformationA;
+    ::ArrayWrapper<::Il2CppObject*> typeInformationA;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
     // System.Int32[] memberAssemIds
     // Size: 0x8
     // Offset: 0x40
-    ::Array<int>* memberAssemIds;
+    ::ArrayWrapper<int> memberAssemIds;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // System.Int32 assemId
     // Size: 0x4
     // Offset: 0x48
@@ -88,7 +88,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: BinaryObjectWithMapTyped
-    BinaryObjectWithMapTyped(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum_ = {}, int objectId_ = {}, ::Il2CppString* name_ = {}, int numMembers_ = {}, ::Array<::Il2CppString*>* memberNames_ = {}, ::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA_ = {}, ::Array<::Il2CppObject*>* typeInformationA_ = {}, ::Array<int>* memberAssemIds_ = {}, int assemId_ = {}) noexcept : binaryHeaderEnum{binaryHeaderEnum_}, objectId{objectId_}, name{name_}, numMembers{numMembers_}, memberNames{memberNames_}, binaryTypeEnumA{binaryTypeEnumA_}, typeInformationA{typeInformationA_}, memberAssemIds{memberAssemIds_}, assemId{assemId_} {}
+    BinaryObjectWithMapTyped(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum_ = {}, int objectId_ = {}, ::Il2CppString* name_ = {}, int numMembers_ = {}, ::ArrayWrapper<::Il2CppString*> memberNames_ = {}, ::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA_ = {}, ::ArrayWrapper<::Il2CppObject*> typeInformationA_ = {}, ::ArrayWrapper<int> memberAssemIds_ = {}, int assemId_ = {}) noexcept : binaryHeaderEnum{binaryHeaderEnum_}, objectId{objectId_}, name{name_}, numMembers{numMembers_}, memberNames{memberNames_}, binaryTypeEnumA{binaryTypeEnumA_}, typeInformationA{typeInformationA_}, memberAssemIds{memberAssemIds_}, assemId{assemId_} {}
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum
     System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum& dyn_binaryHeaderEnum();
     // Get instance field reference: System.Int32 objectId
@@ -98,33 +98,33 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Int32 numMembers
     int& dyn_numMembers();
     // Get instance field reference: System.String[] memberNames
-    ::Array<::Il2CppString*>*& dyn_memberNames();
+    ::ArrayWrapper<::Il2CppString*>& dyn_memberNames();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA
-    ::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*& dyn_binaryTypeEnumA();
+    ::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>& dyn_binaryTypeEnumA();
     // Get instance field reference: System.Object[] typeInformationA
-    ::Array<::Il2CppObject*>*& dyn_typeInformationA();
+    ::ArrayWrapper<::Il2CppObject*>& dyn_typeInformationA();
     // Get instance field reference: System.Int32[] memberAssemIds
-    ::Array<int>*& dyn_memberAssemIds();
+    ::ArrayWrapper<int>& dyn_memberAssemIds();
     // Get instance field reference: System.Int32 assemId
     int& dyn_assemId();
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
-    // Offset: 0x161E600
+    // Offset: 0x17EA260
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryObjectWithMapTyped* New_ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryObjectWithMapTyped*, creationType>(binaryHeaderEnum)));
     }
     // System.Void Set(System.Int32 objectId, System.String name, System.Int32 numMembers, System.String[] memberNames, System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA, System.Object[] typeInformationA, System.Int32[] memberAssemIds, System.Int32 assemId)
-    // Offset: 0x161E62C
-    void Set(int objectId, ::Il2CppString* name, int numMembers, ::Array<::Il2CppString*>* memberNames, ::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA, ::Array<::Il2CppObject*>* typeInformationA, ::Array<int>* memberAssemIds, int assemId);
+    // Offset: 0x17EA28C
+    void Set(int objectId, ::Il2CppString* name, int numMembers, ::ArrayWrapper<::Il2CppString*> memberNames, ::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA, ::ArrayWrapper<::Il2CppObject*> typeInformationA, ::ArrayWrapper<int> memberAssemIds, int assemId);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x161E658
+    // Offset: 0x17EA2B8
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x161E7FC
+    // Offset: 0x17EA45C
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // System.Void .ctor()
-    // Offset: 0x161E5F8
+    // Offset: 0x17EA258
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -146,15 +146,15 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::Binar
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::Set
 // Il2CppName: Set
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::*)(int, ::Il2CppString*, int, ::Array<::Il2CppString*>*, ::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*, ::Array<::Il2CppObject*>*, ::Array<int>*, int)>(&System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::Set)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::*)(int, ::Il2CppString*, int, ::ArrayWrapper<::Il2CppString*>, ::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>, ::ArrayWrapper<::Il2CppObject*>, ::ArrayWrapper<int>, int)>(&System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::Set)> {
   static const MethodInfo* get() {
     static auto* objectId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* numMembers = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* memberNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
-    static auto* binaryTypeEnumA = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "BinaryTypeEnum"), 1)->byval_arg;
-    static auto* typeInformationA = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
-    static auto* memberAssemIds = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* memberNames = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* binaryTypeEnumA = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "BinaryTypeEnum")), 1)->byval_arg;
+    static auto* typeInformationA = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
+    static auto* memberAssemIds = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     static auto* assemId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped*), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objectId, name, numMembers, memberNames, binaryTypeEnumA, typeInformationA, memberAssemIds, assemId});
   }

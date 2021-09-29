@@ -176,28 +176,28 @@ namespace System::Globalization {
     // Creating value type constructor for type: HebrewNumber
     HebrewNumber() noexcept {}
     // Get static field: static private System.Globalization.HebrewNumber/System.Globalization.HebrewValue[] HebrewValues
-    static ::Array<System::Globalization::HebrewNumber::HebrewValue*>* _get_HebrewValues();
+    static ::ArrayWrapper<System::Globalization::HebrewNumber::HebrewValue*> _get_HebrewValues();
     // Set static field: static private System.Globalization.HebrewNumber/System.Globalization.HebrewValue[] HebrewValues
-    static void _set_HebrewValues(::Array<System::Globalization::HebrewNumber::HebrewValue*>* value);
+    static void _set_HebrewValues(::ArrayWrapper<System::Globalization::HebrewNumber::HebrewValue*> value);
     // Get static field: static private System.Char maxHebrewNumberCh
     static ::Il2CppChar _get_maxHebrewNumberCh();
     // Set static field: static private System.Char maxHebrewNumberCh
     static void _set_maxHebrewNumberCh(::Il2CppChar value);
     // Get static field: static private readonly System.Globalization.HebrewNumber/System.Globalization.HS[][] NumberPasingState
-    static ::Array<::Array<System::Globalization::HebrewNumber::HS>*>* _get_NumberPasingState();
+    static ::ArrayWrapper<::ArrayWrapper<System::Globalization::HebrewNumber::HS>> _get_NumberPasingState();
     // Set static field: static private readonly System.Globalization.HebrewNumber/System.Globalization.HS[][] NumberPasingState
-    static void _set_NumberPasingState(::Array<::Array<System::Globalization::HebrewNumber::HS>*>* value);
+    static void _set_NumberPasingState(::ArrayWrapper<::ArrayWrapper<System::Globalization::HebrewNumber::HS>> value);
     // static private System.Void .cctor()
-    // Offset: 0x1A1B2EC
+    // Offset: 0x1BD6028
     static void _cctor();
     // static System.String ToString(System.Int32 Number)
-    // Offset: 0x1A1AD8C
+    // Offset: 0x1BD5AC8
     static ::Il2CppString* ToString(int Number);
     // static System.Globalization.HebrewNumberParsingState ParseByChar(System.Char ch, ref System.Globalization.HebrewNumberParsingContext context)
-    // Offset: 0x1A1AFF8
+    // Offset: 0x1BD5D34
     static System::Globalization::HebrewNumberParsingState ParseByChar(::Il2CppChar ch, ByRef<System::Globalization::HebrewNumberParsingContext> context);
     // static System.Boolean IsDigit(System.Char ch)
-    // Offset: 0x1A1B1EC
+    // Offset: 0x1BD5F28
     static bool IsDigit(::Il2CppChar ch);
   }; // System.Globalization.HebrewNumber
   #pragma pack(pop)

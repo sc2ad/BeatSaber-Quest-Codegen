@@ -24,12 +24,12 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: RC5Parameters
     RC5Parameters(int rounds_ = {}) noexcept : rounds{rounds_} {}
-    // Deleting conversion operator: operator ::Array<uint8_t>*
-    constexpr operator ::Array<uint8_t>*() const noexcept = delete;
+    // Deleting conversion operator: operator ::ArrayWrapper<uint8_t>
+    constexpr operator ::ArrayWrapper<uint8_t>() const noexcept = delete;
     // Get instance field reference: private readonly System.Int32 rounds
     int& dyn_rounds();
     // public System.Int32 get_Rounds()
-    // Offset: 0x127AB84
+    // Offset: 0x139738C
     int get_Rounds();
   }; // Org.BouncyCastle.Crypto.Parameters.RC5Parameters
   #pragma pack(pop)

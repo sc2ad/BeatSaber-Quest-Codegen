@@ -51,16 +51,16 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Set static field: static readonly System.String PRECOMP_NAME
     static void _set_PRECOMP_NAME(::Il2CppString* value);
     // static private System.Void .cctor()
-    // Offset: 0x1DCC4B4
+    // Offset: 0x1F88458
     static void _cctor();
     // private Org.BouncyCastle.Math.EC.AbstractF2mPoint MultiplyWTnaf(Org.BouncyCastle.Math.EC.AbstractF2mPoint p, Org.BouncyCastle.Math.EC.Abc.ZTauElement lambda, System.SByte a, System.SByte mu)
-    // Offset: 0x1DCBEDC
+    // Offset: 0x1F87E80
     Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyWTnaf(Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, Org::BouncyCastle::Math::EC::Abc::ZTauElement* lambda, int8_t a, int8_t mu);
     // static private Org.BouncyCastle.Math.EC.AbstractF2mPoint MultiplyFromWTnaf(Org.BouncyCastle.Math.EC.AbstractF2mPoint p, System.SByte[] u)
-    // Offset: 0x1DCC038
-    static Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyFromWTnaf(Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, ::Array<int8_t>* u);
+    // Offset: 0x1F87FDC
+    static Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyFromWTnaf(Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, ::ArrayWrapper<int8_t> u);
     // public System.Void .ctor()
-    // Offset: 0x1DCC510
+    // Offset: 0x1F884B4
     // Implemented from: Org.BouncyCastle.Math.EC.Multiplier.AbstractECMultiplier
     // Base method: System.Void AbstractECMultiplier::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -70,7 +70,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
       return THROW_UNLESS((::il2cpp_utils::New<WTauNafMultiplier*, creationType>()));
     }
     // protected override Org.BouncyCastle.Math.EC.ECPoint MultiplyPositive(Org.BouncyCastle.Math.EC.ECPoint point, Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0x1DCBD00
+    // Offset: 0x1F87CA4
     // Implemented from: Org.BouncyCastle.Math.EC.Multiplier.AbstractECMultiplier
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECMultiplier::MultiplyPositive(Org.BouncyCastle.Math.EC.ECPoint point, Org.BouncyCastle.Math.BigInteger k)
     Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(Org::BouncyCastle::Math::EC::ECPoint* point, Org::BouncyCastle::Math::BigInteger* k);
@@ -102,10 +102,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::MultiplyFromWTnaf
 // Il2CppName: MultiplyFromWTnaf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::AbstractF2mPoint* (*)(Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::Array<int8_t>*)>(&Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::MultiplyFromWTnaf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::AbstractF2mPoint* (*)(Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::ArrayWrapper<int8_t>)>(&Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::MultiplyFromWTnaf)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "AbstractF2mPoint")->byval_arg;
-    static auto* u = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "SByte"), 1)->byval_arg;
+    static auto* u = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "SByte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier*), "MultiplyFromWTnaf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p, u});
   }
 };

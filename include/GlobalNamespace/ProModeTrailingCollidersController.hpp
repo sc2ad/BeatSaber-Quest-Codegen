@@ -43,9 +43,9 @@ namespace GlobalNamespace {
     // private BoxCuttableBySaber[] _trailingSmallCuttableBySaberList
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::BoxCuttableBySaber*>* trailingSmallCuttableBySaberList;
+    ::ArrayWrapper<GlobalNamespace::BoxCuttableBySaber*> trailingSmallCuttableBySaberList;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::BoxCuttableBySaber*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BoxCuttableBySaber*>) == 0x8);
     // private NoteMovement _noteMovement
     // Size: 0x8
     // Offset: 0x28
@@ -59,28 +59,28 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
     // Creating value type constructor for type: ProModeTrailingCollidersController
-    ProModeTrailingCollidersController(GlobalNamespace::BoxCuttableBySaber* mainSmallCuttableBySaber_ = {}, ::Array<GlobalNamespace::BoxCuttableBySaber*>* trailingSmallCuttableBySaberList_ = {}, GlobalNamespace::NoteMovement* noteMovement_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : mainSmallCuttableBySaber{mainSmallCuttableBySaber_}, trailingSmallCuttableBySaberList{trailingSmallCuttableBySaberList_}, noteMovement{noteMovement_}, transform{transform_} {}
+    ProModeTrailingCollidersController(GlobalNamespace::BoxCuttableBySaber* mainSmallCuttableBySaber_ = {}, ::ArrayWrapper<GlobalNamespace::BoxCuttableBySaber*> trailingSmallCuttableBySaberList_ = {}, GlobalNamespace::NoteMovement* noteMovement_ = {}, UnityEngine::Transform* transform_ = {}) noexcept : mainSmallCuttableBySaber{mainSmallCuttableBySaber_}, trailingSmallCuttableBySaberList{trailingSmallCuttableBySaberList_}, noteMovement{noteMovement_}, transform{transform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BoxCuttableBySaber _mainSmallCuttableBySaber
     GlobalNamespace::BoxCuttableBySaber*& dyn__mainSmallCuttableBySaber();
     // Get instance field reference: private BoxCuttableBySaber[] _trailingSmallCuttableBySaberList
-    ::Array<GlobalNamespace::BoxCuttableBySaber*>*& dyn__trailingSmallCuttableBySaberList();
+    ::ArrayWrapper<GlobalNamespace::BoxCuttableBySaber*>& dyn__trailingSmallCuttableBySaberList();
     // Get instance field reference: private NoteMovement _noteMovement
     GlobalNamespace::NoteMovement*& dyn__noteMovement();
     // Get instance field reference: private UnityEngine.Transform _transform
     UnityEngine::Transform*& dyn__transform();
     // protected System.Void Start()
-    // Offset: 0x11250BC
+    // Offset: 0x11BE734
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1125158
+    // Offset: 0x11BE7D0
     void OnDestroy();
     // private System.Void HandleNoteDidMoveInJumpPhase()
-    // Offset: 0x112522C
+    // Offset: 0x11BE8A4
     void HandleNoteDidMoveInJumpPhase();
     // public System.Void .ctor()
-    // Offset: 0x11253D4
+    // Offset: 0x11BEA4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

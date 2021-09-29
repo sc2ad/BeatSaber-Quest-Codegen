@@ -84,7 +84,7 @@ namespace GlobalNamespace {
       int weight;
       // Field size check
       static_assert(sizeof(int) == 0x4);
-      // [HeaderAttribute] Offset: 0xE4CA08
+      // [HeaderAttribute] Offset: 0xF15634
       // public System.Int32 precisionVertexCount
       // Size: 0x4
       // Offset: 0x1C
@@ -159,9 +159,9 @@ namespace GlobalNamespace {
       // public System.Int32[] cloudIDs
       // Size: 0x8
       // Offset: 0x10
-      ::Array<int>* cloudIDs;
+      ::ArrayWrapper<int> cloudIDs;
       // Field size check
-      static_assert(sizeof(::Array<int>*) == 0x8);
+      static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
       // public System.Single sizeMultiplier
       // Size: 0x4
       // Offset: 0x18
@@ -169,7 +169,7 @@ namespace GlobalNamespace {
       // Field size check
       static_assert(sizeof(float) == 0x4);
       // Creating value type constructor for type: Ring
-      constexpr Ring(float radius_ = {}, float normalizedRadius_ = {}, int meshCount_ = {}, ::Array<int>* cloudIDs_ = {}, float sizeMultiplier_ = {}) noexcept : radius{radius_}, normalizedRadius{normalizedRadius_}, meshCount{meshCount_}, cloudIDs{cloudIDs_}, sizeMultiplier{sizeMultiplier_} {}
+      constexpr Ring(float radius_ = {}, float normalizedRadius_ = {}, int meshCount_ = {}, ::ArrayWrapper<int> cloudIDs_ = {}, float sizeMultiplier_ = {}) noexcept : radius{radius_}, normalizedRadius{normalizedRadius_}, meshCount{meshCount_}, cloudIDs{cloudIDs_}, sizeMultiplier{sizeMultiplier_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
@@ -181,7 +181,7 @@ namespace GlobalNamespace {
       // Get instance field reference: public System.Int32 meshCount
       int& dyn_meshCount();
       // Get instance field reference: public System.Int32[] cloudIDs
-      ::Array<int>*& dyn_cloudIDs();
+      ::ArrayWrapper<int>& dyn_cloudIDs();
       // Get instance field reference: public System.Single sizeMultiplier
       float& dyn_sizeMultiplier();
     }; // CloudsMeshGenerator/Ring
@@ -195,7 +195,7 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ProhibitedRadius/*, public System::ValueType*/ {
       public:
-      // [NullAllowed] Offset: 0xE4CA40
+      // [NullAllowed] Offset: 0xF1566C
       // public UnityEngine.Transform transform
       // Size: 0x8
       // Offset: 0x0
@@ -208,7 +208,7 @@ namespace GlobalNamespace {
       float distance;
       // Field size check
       static_assert(sizeof(float) == 0x4);
-      // [MinAttribute] Offset: 0xE4CA50
+      // [MinAttribute] Offset: 0xF1567C
       // public System.Single radius
       // Size: 0x4
       // Offset: 0xC
@@ -292,14 +292,14 @@ namespace GlobalNamespace {
     ::Il2CppString* meshName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE36470
+    // [HeaderAttribute] Offset: 0xEFEBC4
     // private System.Boolean _pauseGenerator
     // Size: 0x1
     // Offset: 0x28
     bool pauseGenerator;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [HeaderAttribute] Offset: 0xE364BC
+    // [HeaderAttribute] Offset: 0xEFEC10
     // private System.Boolean _bottomPushEnabled
     // Size: 0x1
     // Offset: 0x29
@@ -308,28 +308,28 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: bottomPushEnabled and: bottomPushDistance
     char __padding3[0x2] = {};
-    // [DrawIfAttribute] Offset: 0xE36508
+    // [DrawIfAttribute] Offset: 0xEFEC5C
     // private System.Single _bottomPushDistance
     // Size: 0x4
     // Offset: 0x2C
     float bottomPushDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0xE365B0
+    // [DrawIfAttribute] Offset: 0xEFED04
     // private UnityEngine.Vector2 _bottomScaleTopBottom
     // Size: 0x8
     // Offset: 0x30
     UnityEngine::Vector2 bottomScaleTopBottom;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    // [DrawIfAttribute] Offset: 0xE36658
+    // [DrawIfAttribute] Offset: 0xEFEDAC
     // private System.Single _bottomHorizontalScale
     // Size: 0x4
     // Offset: 0x38
     float bottomHorizontalScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xE36700
+    // [HeaderAttribute] Offset: 0xEFEE54
     // private System.Boolean _drawRingGizmos
     // Size: 0x1
     // Offset: 0x3C
@@ -341,33 +341,33 @@ namespace GlobalNamespace {
     // private CloudsMeshGenerator/ProhibitedRadius[] _prohibitedRadii
     // Size: 0x8
     // Offset: 0x40
-    ::Array<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>* prohibitedRadii;
+    ::ArrayWrapper<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius> prohibitedRadii;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE3675C
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>) == 0x8);
+    // [HeaderAttribute] Offset: 0xEFEEB0
     // private UnityEngine.Vector2 _meshSize
     // Size: 0x8
     // Offset: 0x48
     UnityEngine::Vector2 meshSize;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    // [RangeAttribute] Offset: 0xE367A8
+    // [RangeAttribute] Offset: 0xEFEEFC
     // private System.Single _sizeRandomness
     // Size: 0x4
     // Offset: 0x50
     float sizeRandomness;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE367E8
+    // [RangeAttribute] Offset: 0xEFEF3C
     // private System.Single _ratioRandomness
     // Size: 0x4
     // Offset: 0x54
     float ratioRandomness;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xE36828
-    // [TooltipAttribute] Offset: 0xE36828
-    // [RangeAttribute] Offset: 0xE36828
+    // [HeaderAttribute] Offset: 0xEFEF7C
+    // [TooltipAttribute] Offset: 0xEFEF7C
+    // [RangeAttribute] Offset: 0xEFEF7C
     // private System.Single _perMeshRadiusOffset
     // Size: 0x4
     // Offset: 0x58
@@ -382,7 +382,7 @@ namespace GlobalNamespace {
     UnityEngine::Gradient* possibleColors;
     // Field size check
     static_assert(sizeof(UnityEngine::Gradient*) == 0x8);
-    // [RangeAttribute] Offset: 0xE368C8
+    // [RangeAttribute] Offset: 0xEFF01C
     // private System.Int32 _randomSeed
     // Size: 0x4
     // Offset: 0x68
@@ -401,7 +401,7 @@ namespace GlobalNamespace {
     float ringRotationRandomness;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [MinAttribute] Offset: 0xE3692C
+    // [MinAttribute] Offset: 0xEFF080
     // private System.Int32 _ringCount
     // Size: 0x4
     // Offset: 0x74
@@ -414,7 +414,7 @@ namespace GlobalNamespace {
     float meshesPerRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xE36978
+    // [HeaderAttribute] Offset: 0xEFF0CC
     // private UnityEngine.Vector2 _radiusCloseFar
     // Size: 0x8
     // Offset: 0x7C
@@ -441,7 +441,7 @@ namespace GlobalNamespace {
     float lowPolyThreshold;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xE369F4
+    // [HeaderAttribute] Offset: 0xEFF148
     // private System.Boolean _flipNormals
     // Size: 0x1
     // Offset: 0x9C
@@ -459,10 +459,10 @@ namespace GlobalNamespace {
     // private CloudsMeshGenerator/Cloud[] _clouds
     // Size: 0x8
     // Offset: 0xA0
-    ::Array<GlobalNamespace::CloudsMeshGenerator::Cloud>* clouds;
+    ::ArrayWrapper<GlobalNamespace::CloudsMeshGenerator::Cloud> clouds;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::CloudsMeshGenerator::Cloud>*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE36A60
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::CloudsMeshGenerator::Cloud>) == 0x8);
+    // [HeaderAttribute] Offset: 0xEFF1B4
     // private System.Int32 _meshCount
     // Size: 0x4
     // Offset: 0xA8
@@ -490,23 +490,23 @@ namespace GlobalNamespace {
     // private CloudsMeshGenerator/RadiusChunk[] _radiusChunks
     // Size: 0x8
     // Offset: 0xD0
-    ::Array<GlobalNamespace::CloudsMeshGenerator::RadiusChunk>* radiusChunks;
+    ::ArrayWrapper<GlobalNamespace::CloudsMeshGenerator::RadiusChunk> radiusChunks;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::CloudsMeshGenerator::RadiusChunk>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::CloudsMeshGenerator::RadiusChunk>) == 0x8);
     // private CloudsMeshGenerator/Ring[] _rings
     // Size: 0x8
     // Offset: 0xD8
-    ::Array<GlobalNamespace::CloudsMeshGenerator::Ring>* rings;
+    ::ArrayWrapper<GlobalNamespace::CloudsMeshGenerator::Ring> rings;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::CloudsMeshGenerator::Ring>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::CloudsMeshGenerator::Ring>) == 0x8);
     // private CloudsMeshGenerator/ProhibitedRadius[] _sortedProhibitedRadii
     // Size: 0x8
     // Offset: 0xE0
-    ::Array<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>* sortedProhibitedRadii;
+    ::ArrayWrapper<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius> sortedProhibitedRadii;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>) == 0x8);
     // Creating value type constructor for type: CloudsMeshGenerator
-    CloudsMeshGenerator(UnityEngine::MeshFilter* meshFilter_ = {}, ::Il2CppString* meshName_ = {}, bool pauseGenerator_ = {}, bool bottomPushEnabled_ = {}, float bottomPushDistance_ = {}, UnityEngine::Vector2 bottomScaleTopBottom_ = {}, float bottomHorizontalScale_ = {}, bool drawRingGizmos_ = {}, ::Array<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>* prohibitedRadii_ = {}, UnityEngine::Vector2 meshSize_ = {}, float sizeRandomness_ = {}, float ratioRandomness_ = {}, float perMeshRadiusOffset_ = {}, UnityEngine::Gradient* possibleColors_ = {}, int randomSeed_ = {}, float heightRandomness_ = {}, float ringRotationRandomness_ = {}, int ringCount_ = {}, float meshesPerRadius_ = {}, UnityEngine::Vector2 radiusCloseFar_ = {}, UnityEngine::Vector2 sizeCloseFar_ = {}, UnityEngine::AnimationCurve* heightCloseFar_ = {}, float lowPolyThreshold_ = {}, bool flipNormals_ = {}, bool curveMesh_ = {}, ::Array<GlobalNamespace::CloudsMeshGenerator::Cloud>* clouds_ = {}, int meshCount_ = {}, int vertexCount_ = {}, UnityEngine::Mesh* generatedMesh_ = {}, UnityEngine::Bounds meshBounds_ = {}, ::Array<GlobalNamespace::CloudsMeshGenerator::RadiusChunk>* radiusChunks_ = {}, ::Array<GlobalNamespace::CloudsMeshGenerator::Ring>* rings_ = {}, ::Array<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>* sortedProhibitedRadii_ = {}) noexcept : meshFilter{meshFilter_}, meshName{meshName_}, pauseGenerator{pauseGenerator_}, bottomPushEnabled{bottomPushEnabled_}, bottomPushDistance{bottomPushDistance_}, bottomScaleTopBottom{bottomScaleTopBottom_}, bottomHorizontalScale{bottomHorizontalScale_}, drawRingGizmos{drawRingGizmos_}, prohibitedRadii{prohibitedRadii_}, meshSize{meshSize_}, sizeRandomness{sizeRandomness_}, ratioRandomness{ratioRandomness_}, perMeshRadiusOffset{perMeshRadiusOffset_}, possibleColors{possibleColors_}, randomSeed{randomSeed_}, heightRandomness{heightRandomness_}, ringRotationRandomness{ringRotationRandomness_}, ringCount{ringCount_}, meshesPerRadius{meshesPerRadius_}, radiusCloseFar{radiusCloseFar_}, sizeCloseFar{sizeCloseFar_}, heightCloseFar{heightCloseFar_}, lowPolyThreshold{lowPolyThreshold_}, flipNormals{flipNormals_}, curveMesh{curveMesh_}, clouds{clouds_}, meshCount{meshCount_}, vertexCount{vertexCount_}, generatedMesh{generatedMesh_}, meshBounds{meshBounds_}, radiusChunks{radiusChunks_}, rings{rings_}, sortedProhibitedRadii{sortedProhibitedRadii_} {}
+    CloudsMeshGenerator(UnityEngine::MeshFilter* meshFilter_ = {}, ::Il2CppString* meshName_ = {}, bool pauseGenerator_ = {}, bool bottomPushEnabled_ = {}, float bottomPushDistance_ = {}, UnityEngine::Vector2 bottomScaleTopBottom_ = {}, float bottomHorizontalScale_ = {}, bool drawRingGizmos_ = {}, ::ArrayWrapper<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius> prohibitedRadii_ = {}, UnityEngine::Vector2 meshSize_ = {}, float sizeRandomness_ = {}, float ratioRandomness_ = {}, float perMeshRadiusOffset_ = {}, UnityEngine::Gradient* possibleColors_ = {}, int randomSeed_ = {}, float heightRandomness_ = {}, float ringRotationRandomness_ = {}, int ringCount_ = {}, float meshesPerRadius_ = {}, UnityEngine::Vector2 radiusCloseFar_ = {}, UnityEngine::Vector2 sizeCloseFar_ = {}, UnityEngine::AnimationCurve* heightCloseFar_ = {}, float lowPolyThreshold_ = {}, bool flipNormals_ = {}, bool curveMesh_ = {}, ::ArrayWrapper<GlobalNamespace::CloudsMeshGenerator::Cloud> clouds_ = {}, int meshCount_ = {}, int vertexCount_ = {}, UnityEngine::Mesh* generatedMesh_ = {}, UnityEngine::Bounds meshBounds_ = {}, ::ArrayWrapper<GlobalNamespace::CloudsMeshGenerator::RadiusChunk> radiusChunks_ = {}, ::ArrayWrapper<GlobalNamespace::CloudsMeshGenerator::Ring> rings_ = {}, ::ArrayWrapper<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius> sortedProhibitedRadii_ = {}) noexcept : meshFilter{meshFilter_}, meshName{meshName_}, pauseGenerator{pauseGenerator_}, bottomPushEnabled{bottomPushEnabled_}, bottomPushDistance{bottomPushDistance_}, bottomScaleTopBottom{bottomScaleTopBottom_}, bottomHorizontalScale{bottomHorizontalScale_}, drawRingGizmos{drawRingGizmos_}, prohibitedRadii{prohibitedRadii_}, meshSize{meshSize_}, sizeRandomness{sizeRandomness_}, ratioRandomness{ratioRandomness_}, perMeshRadiusOffset{perMeshRadiusOffset_}, possibleColors{possibleColors_}, randomSeed{randomSeed_}, heightRandomness{heightRandomness_}, ringRotationRandomness{ringRotationRandomness_}, ringCount{ringCount_}, meshesPerRadius{meshesPerRadius_}, radiusCloseFar{radiusCloseFar_}, sizeCloseFar{sizeCloseFar_}, heightCloseFar{heightCloseFar_}, lowPolyThreshold{lowPolyThreshold_}, flipNormals{flipNormals_}, curveMesh{curveMesh_}, clouds{clouds_}, meshCount{meshCount_}, vertexCount{vertexCount_}, generatedMesh{generatedMesh_}, meshBounds{meshBounds_}, radiusChunks{radiusChunks_}, rings{rings_}, sortedProhibitedRadii{sortedProhibitedRadii_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.MeshFilter _meshFilter
@@ -526,7 +526,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _drawRingGizmos
     bool& dyn__drawRingGizmos();
     // Get instance field reference: private CloudsMeshGenerator/ProhibitedRadius[] _prohibitedRadii
-    ::Array<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>*& dyn__prohibitedRadii();
+    ::ArrayWrapper<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>& dyn__prohibitedRadii();
     // Get instance field reference: private UnityEngine.Vector2 _meshSize
     UnityEngine::Vector2& dyn__meshSize();
     // Get instance field reference: private System.Single _sizeRandomness
@@ -560,7 +560,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _curveMesh
     bool& dyn__curveMesh();
     // Get instance field reference: private CloudsMeshGenerator/Cloud[] _clouds
-    ::Array<GlobalNamespace::CloudsMeshGenerator::Cloud>*& dyn__clouds();
+    ::ArrayWrapper<GlobalNamespace::CloudsMeshGenerator::Cloud>& dyn__clouds();
     // Get instance field reference: private System.Int32 _meshCount
     int& dyn__meshCount();
     // Get instance field reference: private System.Int32 _vertexCount
@@ -570,13 +570,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Bounds _meshBounds
     UnityEngine::Bounds& dyn__meshBounds();
     // Get instance field reference: private CloudsMeshGenerator/RadiusChunk[] _radiusChunks
-    ::Array<GlobalNamespace::CloudsMeshGenerator::RadiusChunk>*& dyn__radiusChunks();
+    ::ArrayWrapper<GlobalNamespace::CloudsMeshGenerator::RadiusChunk>& dyn__radiusChunks();
     // Get instance field reference: private CloudsMeshGenerator/Ring[] _rings
-    ::Array<GlobalNamespace::CloudsMeshGenerator::Ring>*& dyn__rings();
+    ::ArrayWrapper<GlobalNamespace::CloudsMeshGenerator::Ring>& dyn__rings();
     // Get instance field reference: private CloudsMeshGenerator/ProhibitedRadius[] _sortedProhibitedRadii
-    ::Array<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>*& dyn__sortedProhibitedRadii();
+    ::ArrayWrapper<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>& dyn__sortedProhibitedRadii();
     // public System.Void .ctor()
-    // Offset: 0x10E0A6C
+    // Offset: 0x11984CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -590,7 +590,7 @@ namespace GlobalNamespace {
     }
   }; // CloudsMeshGenerator
   #pragma pack(pop)
-  static check_size<sizeof(CloudsMeshGenerator), 224 + sizeof(::Array<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>*)> __GlobalNamespace_CloudsMeshGeneratorSizeCheck;
+  static check_size<sizeof(CloudsMeshGenerator), 224 + sizeof(::ArrayWrapper<GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius>)> __GlobalNamespace_CloudsMeshGeneratorSizeCheck;
   static_assert(sizeof(CloudsMeshGenerator) == 0xE8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CloudsMeshGenerator*, "", "CloudsMeshGenerator");

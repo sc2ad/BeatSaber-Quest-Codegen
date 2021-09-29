@@ -35,64 +35,64 @@ namespace System::Xml {
     // Set static field: static private System.Xml.XmlCharType xmlCharType
     static void _set_xmlCharType(System::Xml::XmlCharType value);
     // Get static field: static System.Char[] crt
-    static ::Array<::Il2CppChar>* _get_crt();
+    static ::ArrayWrapper<::Il2CppChar> _get_crt();
     // Set static field: static System.Char[] crt
-    static void _set_crt(::Array<::Il2CppChar>* value);
+    static void _set_crt(::ArrayWrapper<::Il2CppChar> value);
     // Get static field: static private readonly System.Int32 c_EncodedCharLength
     static int _get_c_EncodedCharLength();
     // Set static field: static private readonly System.Int32 c_EncodedCharLength
     static void _set_c_EncodedCharLength(int value);
     // Get static field: static readonly System.Char[] WhitespaceChars
-    static ::Array<::Il2CppChar>* _get_WhitespaceChars();
+    static ::ArrayWrapper<::Il2CppChar> _get_WhitespaceChars();
     // Set static field: static readonly System.Char[] WhitespaceChars
-    static void _set_WhitespaceChars(::Array<::Il2CppChar>* value);
+    static void _set_WhitespaceChars(::ArrayWrapper<::Il2CppChar> value);
     // static private System.Void .cctor()
-    // Offset: 0x19602D8
+    // Offset: 0x1B01110
     static void _cctor();
     // static System.String VerifyQName(System.String name, System.Xml.ExceptionType exceptionType)
-    // Offset: 0x195F418
+    // Offset: 0x1B00250
     static ::Il2CppString* VerifyQName(::Il2CppString* name, System::Xml::ExceptionType exceptionType);
     // static System.String TrimString(System.String value)
-    // Offset: 0x195F690
+    // Offset: 0x1B004C8
     static ::Il2CppString* TrimString(::Il2CppString* value);
     // static System.String TrimStringStart(System.String value)
-    // Offset: 0x195F70C
+    // Offset: 0x1B00544
     static ::Il2CppString* TrimStringStart(::Il2CppString* value);
     // static System.String TrimStringEnd(System.String value)
-    // Offset: 0x195F788
+    // Offset: 0x1B005C0
     static ::Il2CppString* TrimStringEnd(::Il2CppString* value);
     // static System.Exception CreateException(System.String res, System.String arg, System.Xml.ExceptionType exceptionType, System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x195F804
+    // Offset: 0x1B0063C
     static System::Exception* CreateException(::Il2CppString* res, ::Il2CppString* arg, System::Xml::ExceptionType exceptionType, int lineNo, int linePos);
     // static System.Exception CreateException(System.String res, System.String[] args, System.Xml.ExceptionType exceptionType)
-    // Offset: 0x195FA24
-    static System::Exception* CreateException(::Il2CppString* res, ::Array<::Il2CppString*>* args, System::Xml::ExceptionType exceptionType);
+    // Offset: 0x1B0085C
+    static System::Exception* CreateException(::Il2CppString* res, ::ArrayWrapper<::Il2CppString*> args, System::Xml::ExceptionType exceptionType);
     // static System.Exception CreateException(System.String res, System.String[] args, System.Xml.ExceptionType exceptionType, System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x195F5C8
-    static System::Exception* CreateException(::Il2CppString* res, ::Array<::Il2CppString*>* args, System::Xml::ExceptionType exceptionType, int lineNo, int linePos);
+    // Offset: 0x1B00400
+    static System::Exception* CreateException(::Il2CppString* res, ::ArrayWrapper<::Il2CppString*> args, System::Xml::ExceptionType exceptionType, int lineNo, int linePos);
     // static System.Exception CreateInvalidSurrogatePairException(System.Char low, System.Char hi)
-    // Offset: 0x19552C8
+    // Offset: 0x1AF6100
     static System::Exception* CreateInvalidSurrogatePairException(::Il2CppChar low, ::Il2CppChar hi);
     // static System.Exception CreateInvalidSurrogatePairException(System.Char low, System.Char hi, System.Xml.ExceptionType exceptionType)
-    // Offset: 0x195FB24
+    // Offset: 0x1B0095C
     static System::Exception* CreateInvalidSurrogatePairException(::Il2CppChar low, ::Il2CppChar hi, System::Xml::ExceptionType exceptionType);
     // static System.Exception CreateInvalidSurrogatePairException(System.Char low, System.Char hi, System.Xml.ExceptionType exceptionType, System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x195FBA8
+    // Offset: 0x1B009E0
     static System::Exception* CreateInvalidSurrogatePairException(::Il2CppChar low, ::Il2CppChar hi, System::Xml::ExceptionType exceptionType, int lineNo, int linePos);
     // static System.Exception CreateInvalidHighSurrogateCharException(System.Char hi)
-    // Offset: 0x195FD50
+    // Offset: 0x1B00B88
     static System::Exception* CreateInvalidHighSurrogateCharException(::Il2CppChar hi);
     // static System.Exception CreateInvalidHighSurrogateCharException(System.Char hi, System.Xml.ExceptionType exceptionType)
-    // Offset: 0x195FDB8
+    // Offset: 0x1B00BF0
     static System::Exception* CreateInvalidHighSurrogateCharException(::Il2CppChar hi, System::Xml::ExceptionType exceptionType);
     // static System.Exception CreateInvalidHighSurrogateCharException(System.Char hi, System.Xml.ExceptionType exceptionType, System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x195FE34
+    // Offset: 0x1B00C6C
     static System::Exception* CreateInvalidHighSurrogateCharException(::Il2CppChar hi, System::Xml::ExceptionType exceptionType, int lineNo, int linePos);
     // static System.Exception CreateInvalidCharException(System.Char invChar, System.Char nextChar)
-    // Offset: 0x195FF24
+    // Offset: 0x1B00D5C
     static System::Exception* CreateInvalidCharException(::Il2CppChar invChar, ::Il2CppChar nextChar);
     // static System.Exception CreateInvalidCharException(System.Char invChar, System.Char nextChar, System.Xml.ExceptionType exceptionType)
-    // Offset: 0x195FF9C
+    // Offset: 0x1B00DD4
     static System::Exception* CreateInvalidCharException(::Il2CppChar invChar, ::Il2CppChar nextChar, System::Xml::ExceptionType exceptionType);
   }; // System.Xml.XmlConvert
   #pragma pack(pop)
@@ -161,10 +161,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Xml::XmlConvert::CreateException
 // Il2CppName: CreateException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppString*, ::Array<::Il2CppString*>*, System::Xml::ExceptionType)>(&System::Xml::XmlConvert::CreateException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppString*>, System::Xml::ExceptionType)>(&System::Xml::XmlConvert::CreateException)> {
   static const MethodInfo* get() {
     static auto* res = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
     static auto* exceptionType = &::il2cpp_utils::GetClassFromName("System.Xml", "ExceptionType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "CreateException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{res, args, exceptionType});
   }
@@ -172,10 +172,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Xml::XmlConvert::CreateException
 // Il2CppName: CreateException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppString*, ::Array<::Il2CppString*>*, System::Xml::ExceptionType, int, int)>(&System::Xml::XmlConvert::CreateException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppString*>, System::Xml::ExceptionType, int, int)>(&System::Xml::XmlConvert::CreateException)> {
   static const MethodInfo* get() {
     static auto* res = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
     static auto* exceptionType = &::il2cpp_utils::GetClassFromName("System.Xml", "ExceptionType")->byval_arg;
     static auto* lineNo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* linePos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform* rotatedObject;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE3C3EC
+    // [SpaceAttribute] Offset: 0xF04BD0
     // private System.Single _yAvoidanceUp
     // Size: 0x4
     // Offset: 0x20
@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     float yAvoidanceDown;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xE3C434
+    // [SpaceAttribute] Offset: 0xF04C18
     // private System.Single _endDistanceOffset
     // Size: 0x4
     // Offset: 0x28
@@ -72,21 +72,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: endDistanceOffset and: playerTransforms
     char __padding3[0x4] = {};
-    // [InjectAttribute] Offset: 0xE3C46C
+    // [InjectAttribute] Offset: 0xF04C50
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3C47C
+    // [InjectAttribute] Offset: 0xF04C60
     // private readonly PlayerSpaceConvertor _playerSpaceConvertor
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::PlayerSpaceConvertor* playerSpaceConvertor;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerSpaceConvertor*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3C48C
+    // [InjectAttribute] Offset: 0xF04C70
     // private readonly IAudioTimeSource _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x40
@@ -226,9 +226,9 @@ namespace GlobalNamespace {
     // private readonly UnityEngine.Vector3[] _randomRotations
     // Size: 0x8
     // Offset: 0xF0
-    ::Array<UnityEngine::Vector3>* randomRotations;
+    ::ArrayWrapper<UnityEngine::Vector3> randomRotations;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
     // private System.Int32 _randomRotationIdx
     // Size: 0x4
     // Offset: 0xF8
@@ -248,7 +248,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
     // Creating value type constructor for type: NoteJump
-    NoteJump(UnityEngine::Transform* rotatedObject_ = {}, float yAvoidanceUp_ = {}, float yAvoidanceDown_ = {}, float endDistanceOffset_ = {}, GlobalNamespace::PlayerTransforms* playerTransforms_ = {}, GlobalNamespace::PlayerSpaceConvertor* playerSpaceConvertor_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSyncController_ = {}, System::Action* noteJumpDidFinishEvent_ = {}, System::Action* noteJumpDidPassMissedMarkerEvent_ = {}, System::Action_1<GlobalNamespace::NoteJump*>* noteJumpDidPassThreeQuartersEvent_ = {}, System::Action* noteJumpDidPassHalfEvent_ = {}, System::Action_1<float>* noteJumpDidUpdateProgressEvent_ = {}, UnityEngine::Vector3 startPos_ = {}, UnityEngine::Vector3 endPos_ = {}, float jumpDuration_ = {}, UnityEngine::Vector3 moveVec_ = {}, float beatTime_ = {}, float startVerticalVelocity_ = {}, UnityEngine::Quaternion startRotation_ = {}, UnityEngine::Quaternion middleRotation_ = {}, UnityEngine::Quaternion endRotation_ = {}, float gravity_ = {}, float yAvoidance_ = {}, float missedTime_ = {}, bool missedMarkReported_ = {}, bool threeQuartersMarkReported_ = {}, bool halfJumpMarkReported_ = {}, UnityEngine::Vector3 localPosition_ = {}, ::Array<UnityEngine::Vector3>* randomRotations_ = {}, int randomRotationIdx_ = {}, UnityEngine::Quaternion worldRotation_ = {}, UnityEngine::Quaternion inverseWorldRotation_ = {}) noexcept : rotatedObject{rotatedObject_}, yAvoidanceUp{yAvoidanceUp_}, yAvoidanceDown{yAvoidanceDown_}, endDistanceOffset{endDistanceOffset_}, playerTransforms{playerTransforms_}, playerSpaceConvertor{playerSpaceConvertor_}, audioTimeSyncController{audioTimeSyncController_}, noteJumpDidFinishEvent{noteJumpDidFinishEvent_}, noteJumpDidPassMissedMarkerEvent{noteJumpDidPassMissedMarkerEvent_}, noteJumpDidPassThreeQuartersEvent{noteJumpDidPassThreeQuartersEvent_}, noteJumpDidPassHalfEvent{noteJumpDidPassHalfEvent_}, noteJumpDidUpdateProgressEvent{noteJumpDidUpdateProgressEvent_}, startPos{startPos_}, endPos{endPos_}, jumpDuration{jumpDuration_}, moveVec{moveVec_}, beatTime{beatTime_}, startVerticalVelocity{startVerticalVelocity_}, startRotation{startRotation_}, middleRotation{middleRotation_}, endRotation{endRotation_}, gravity{gravity_}, yAvoidance{yAvoidance_}, missedTime{missedTime_}, missedMarkReported{missedMarkReported_}, threeQuartersMarkReported{threeQuartersMarkReported_}, halfJumpMarkReported{halfJumpMarkReported_}, localPosition{localPosition_}, randomRotations{randomRotations_}, randomRotationIdx{randomRotationIdx_}, worldRotation{worldRotation_}, inverseWorldRotation{inverseWorldRotation_} {}
+    NoteJump(UnityEngine::Transform* rotatedObject_ = {}, float yAvoidanceUp_ = {}, float yAvoidanceDown_ = {}, float endDistanceOffset_ = {}, GlobalNamespace::PlayerTransforms* playerTransforms_ = {}, GlobalNamespace::PlayerSpaceConvertor* playerSpaceConvertor_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSyncController_ = {}, System::Action* noteJumpDidFinishEvent_ = {}, System::Action* noteJumpDidPassMissedMarkerEvent_ = {}, System::Action_1<GlobalNamespace::NoteJump*>* noteJumpDidPassThreeQuartersEvent_ = {}, System::Action* noteJumpDidPassHalfEvent_ = {}, System::Action_1<float>* noteJumpDidUpdateProgressEvent_ = {}, UnityEngine::Vector3 startPos_ = {}, UnityEngine::Vector3 endPos_ = {}, float jumpDuration_ = {}, UnityEngine::Vector3 moveVec_ = {}, float beatTime_ = {}, float startVerticalVelocity_ = {}, UnityEngine::Quaternion startRotation_ = {}, UnityEngine::Quaternion middleRotation_ = {}, UnityEngine::Quaternion endRotation_ = {}, float gravity_ = {}, float yAvoidance_ = {}, float missedTime_ = {}, bool missedMarkReported_ = {}, bool threeQuartersMarkReported_ = {}, bool halfJumpMarkReported_ = {}, UnityEngine::Vector3 localPosition_ = {}, ::ArrayWrapper<UnityEngine::Vector3> randomRotations_ = {}, int randomRotationIdx_ = {}, UnityEngine::Quaternion worldRotation_ = {}, UnityEngine::Quaternion inverseWorldRotation_ = {}) noexcept : rotatedObject{rotatedObject_}, yAvoidanceUp{yAvoidanceUp_}, yAvoidanceDown{yAvoidanceDown_}, endDistanceOffset{endDistanceOffset_}, playerTransforms{playerTransforms_}, playerSpaceConvertor{playerSpaceConvertor_}, audioTimeSyncController{audioTimeSyncController_}, noteJumpDidFinishEvent{noteJumpDidFinishEvent_}, noteJumpDidPassMissedMarkerEvent{noteJumpDidPassMissedMarkerEvent_}, noteJumpDidPassThreeQuartersEvent{noteJumpDidPassThreeQuartersEvent_}, noteJumpDidPassHalfEvent{noteJumpDidPassHalfEvent_}, noteJumpDidUpdateProgressEvent{noteJumpDidUpdateProgressEvent_}, startPos{startPos_}, endPos{endPos_}, jumpDuration{jumpDuration_}, moveVec{moveVec_}, beatTime{beatTime_}, startVerticalVelocity{startVerticalVelocity_}, startRotation{startRotation_}, middleRotation{middleRotation_}, endRotation{endRotation_}, gravity{gravity_}, yAvoidance{yAvoidance_}, missedTime{missedTime_}, missedMarkReported{missedMarkReported_}, threeQuartersMarkReported{threeQuartersMarkReported_}, halfJumpMarkReported{halfJumpMarkReported_}, localPosition{localPosition_}, randomRotations{randomRotations_}, randomRotationIdx{randomRotationIdx_}, worldRotation{worldRotation_}, inverseWorldRotation{inverseWorldRotation_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static public System.Single kMissedTimeOffset
@@ -314,7 +314,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _localPosition
     UnityEngine::Vector3& dyn__localPosition();
     // Get instance field reference: private readonly UnityEngine.Vector3[] _randomRotations
-    ::Array<UnityEngine::Vector3>*& dyn__randomRotations();
+    ::ArrayWrapper<UnityEngine::Vector3>& dyn__randomRotations();
     // Get instance field reference: private System.Int32 _randomRotationIdx
     int& dyn__randomRotationIdx();
     // Get instance field reference: private UnityEngine.Quaternion _worldRotation
@@ -322,58 +322,58 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Quaternion _inverseWorldRotation
     UnityEngine::Quaternion& dyn__inverseWorldRotation();
     // public System.Single get_distanceToPlayer()
-    // Offset: 0x124AE50
+    // Offset: 0x1356ECC
     float get_distanceToPlayer();
     // public UnityEngine.Vector3 get_beatPos()
-    // Offset: 0x124AF44
+    // Offset: 0x1356FC0
     UnityEngine::Vector3 get_beatPos();
     // public System.Single get_jumpDuration()
-    // Offset: 0x124AFF0
+    // Offset: 0x135706C
     float get_jumpDuration();
     // public UnityEngine.Vector3 get_moveVec()
-    // Offset: 0x124AFF8
+    // Offset: 0x1357074
     UnityEngine::Vector3 get_moveVec();
     // public UnityEngine.Vector3 get_localPosition()
-    // Offset: 0x124B004
+    // Offset: 0x1357080
     UnityEngine::Vector3 get_localPosition();
     // public System.Void add_noteJumpDidFinishEvent(System.Action value)
-    // Offset: 0x124A7E8
+    // Offset: 0x1356864
     void add_noteJumpDidFinishEvent(System::Action* value);
     // public System.Void remove_noteJumpDidFinishEvent(System.Action value)
-    // Offset: 0x124A88C
+    // Offset: 0x1356908
     void remove_noteJumpDidFinishEvent(System::Action* value);
     // public System.Void add_noteJumpDidPassMissedMarkerEvent(System.Action value)
-    // Offset: 0x124A930
+    // Offset: 0x13569AC
     void add_noteJumpDidPassMissedMarkerEvent(System::Action* value);
     // public System.Void remove_noteJumpDidPassMissedMarkerEvent(System.Action value)
-    // Offset: 0x124A9D4
+    // Offset: 0x1356A50
     void remove_noteJumpDidPassMissedMarkerEvent(System::Action* value);
     // public System.Void add_noteJumpDidPassThreeQuartersEvent(System.Action`1<NoteJump> value)
-    // Offset: 0x124AA78
+    // Offset: 0x1356AF4
     void add_noteJumpDidPassThreeQuartersEvent(System::Action_1<GlobalNamespace::NoteJump*>* value);
     // public System.Void remove_noteJumpDidPassThreeQuartersEvent(System.Action`1<NoteJump> value)
-    // Offset: 0x124AB1C
+    // Offset: 0x1356B98
     void remove_noteJumpDidPassThreeQuartersEvent(System::Action_1<GlobalNamespace::NoteJump*>* value);
     // public System.Void add_noteJumpDidPassHalfEvent(System.Action value)
-    // Offset: 0x124ABC0
+    // Offset: 0x1356C3C
     void add_noteJumpDidPassHalfEvent(System::Action* value);
     // public System.Void remove_noteJumpDidPassHalfEvent(System.Action value)
-    // Offset: 0x124AC64
+    // Offset: 0x1356CE0
     void remove_noteJumpDidPassHalfEvent(System::Action* value);
     // public System.Void add_noteJumpDidUpdateProgressEvent(System.Action`1<System.Single> value)
-    // Offset: 0x124AD08
+    // Offset: 0x1356D84
     void add_noteJumpDidUpdateProgressEvent(System::Action_1<float>* value);
     // public System.Void remove_noteJumpDidUpdateProgressEvent(System.Action`1<System.Single> value)
-    // Offset: 0x124ADAC
+    // Offset: 0x1356E28
     void remove_noteJumpDidUpdateProgressEvent(System::Action_1<float>* value);
     // public System.Void Init(System.Single beatTime, System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Single jumpDuration, System.Single gravity, System.Single flipYSide, System.Single endRotation)
-    // Offset: 0x124B010
+    // Offset: 0x135708C
     void Init(float beatTime, float worldRotation, UnityEngine::Vector3 startPos, UnityEngine::Vector3 endPos, float jumpDuration, float gravity, float flipYSide, float endRotation);
     // public UnityEngine.Vector3 ManualUpdate()
-    // Offset: 0x124B318
+    // Offset: 0x1357394
     UnityEngine::Vector3 ManualUpdate();
     // public System.Void .ctor()
-    // Offset: 0x124B9F4
+    // Offset: 0x1357A70
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

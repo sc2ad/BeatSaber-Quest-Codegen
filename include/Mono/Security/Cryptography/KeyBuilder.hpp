@@ -28,11 +28,11 @@ namespace Mono::Security::Cryptography {
     // Set static field: static private System.Security.Cryptography.RandomNumberGenerator rng
     static void _set_rng(System::Security::Cryptography::RandomNumberGenerator* value);
     // static private System.Security.Cryptography.RandomNumberGenerator get_Rng()
-    // Offset: 0x1E000BC
+    // Offset: 0x1F9C624
     static System::Security::Cryptography::RandomNumberGenerator* get_Rng();
     // static public System.Byte[] Key(System.Int32 size)
-    // Offset: 0x1DFF12C
-    static ::Array<uint8_t>* Key(int size);
+    // Offset: 0x1F9B694
+    static ::ArrayWrapper<uint8_t> Key(int size);
   }; // Mono.Security.Cryptography.KeyBuilder
   #pragma pack(pop)
 }
@@ -50,7 +50,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyBuilder::Key
 // Il2CppName: Key
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(int)>(&Mono::Security::Cryptography::KeyBuilder::Key)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(int)>(&Mono::Security::Cryptography::KeyBuilder::Key)> {
   static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyBuilder*), "Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});

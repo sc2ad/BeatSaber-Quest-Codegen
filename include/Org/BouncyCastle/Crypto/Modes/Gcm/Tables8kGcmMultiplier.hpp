@@ -23,33 +23,33 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     // private System.Byte[] H
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* H;
+    ::ArrayWrapper<uint8_t> H;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.UInt32[][][] M
     // Size: 0x8
     // Offset: 0x18
-    ::Array<::Array<::Array<uint>*>*>* M;
+    ::ArrayWrapper<::ArrayWrapper<::ArrayWrapper<uint>>> M;
     // Field size check
-    static_assert(sizeof(::Array<::Array<::Array<uint>*>*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::ArrayWrapper<::ArrayWrapper<uint>>>) == 0x8);
     // Creating value type constructor for type: Tables8kGcmMultiplier
-    Tables8kGcmMultiplier(::Array<uint8_t>* H_ = {}, ::Array<::Array<::Array<uint>*>*>* M_ = {}) noexcept : H{H_}, M{M_} {}
+    Tables8kGcmMultiplier(::ArrayWrapper<uint8_t> H_ = {}, ::ArrayWrapper<::ArrayWrapper<::ArrayWrapper<uint>>> M_ = {}) noexcept : H{H_}, M{M_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier
     operator Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*>(this);
     }
     // Get instance field reference: private System.Byte[] H
-    ::Array<uint8_t>*& dyn_H();
+    ::ArrayWrapper<uint8_t>& dyn_H();
     // Get instance field reference: private System.UInt32[][][] M
-    ::Array<::Array<::Array<uint>*>*>*& dyn_M();
+    ::ArrayWrapper<::ArrayWrapper<::ArrayWrapper<uint>>>& dyn_M();
     // public System.Void Init(System.Byte[] H)
-    // Offset: 0x192318C
-    void Init(::Array<uint8_t>* H);
+    // Offset: 0x1A92FC0
+    void Init(::ArrayWrapper<uint8_t> H);
     // public System.Void MultiplyH(System.Byte[] x)
-    // Offset: 0x1923A18
-    void MultiplyH(::Array<uint8_t>* x);
+    // Offset: 0x1A9384C
+    void MultiplyH(::ArrayWrapper<uint8_t> x);
     // public System.Void .ctor()
-    // Offset: 0x1923C3C
+    // Offset: 0x1A93A70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -59,7 +59,7 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     }
   }; // Org.BouncyCastle.Crypto.Modes.Gcm.Tables8kGcmMultiplier
   #pragma pack(pop)
-  static check_size<sizeof(Tables8kGcmMultiplier), 24 + sizeof(::Array<::Array<::Array<uint>*>*>*)> __Org_BouncyCastle_Crypto_Modes_Gcm_Tables8kGcmMultiplierSizeCheck;
+  static check_size<sizeof(Tables8kGcmMultiplier), 24 + sizeof(::ArrayWrapper<::ArrayWrapper<::ArrayWrapper<uint>>>)> __Org_BouncyCastle_Crypto_Modes_Gcm_Tables8kGcmMultiplierSizeCheck;
   static_assert(sizeof(Tables8kGcmMultiplier) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier*, "Org.BouncyCastle.Crypto.Modes.Gcm", "Tables8kGcmMultiplier");
@@ -67,18 +67,18 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultipl
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::Init)> {
   static const MethodInfo* get() {
-    static auto* H = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* H = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{H});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::MultiplyH
 // Il2CppName: MultiplyH
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::MultiplyH)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::MultiplyH)> {
   static const MethodInfo* get() {
-    static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* x = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier*), "MultiplyH", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };

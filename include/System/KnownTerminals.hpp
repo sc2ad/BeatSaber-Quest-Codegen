@@ -17,14 +17,14 @@ namespace System {
     // Creating value type constructor for type: KnownTerminals
     KnownTerminals() noexcept {}
     // static public System.Byte[] get_linux()
-    // Offset: 0x183B6B0
-    static ::Array<uint8_t>* get_linux();
+    // Offset: 0x1A0DAFC
+    static ::ArrayWrapper<uint8_t> get_linux();
     // static public System.Byte[] get_xterm()
-    // Offset: 0x183B71C
-    static ::Array<uint8_t>* get_xterm();
+    // Offset: 0x1A0DB68
+    static ::ArrayWrapper<uint8_t> get_xterm();
     // static public System.Byte[] get_ansi()
-    // Offset: 0x183B788
-    static ::Array<uint8_t>* get_ansi();
+    // Offset: 0x1A0DBD4
+    static ::ArrayWrapper<uint8_t> get_ansi();
   }; // System.KnownTerminals
   #pragma pack(pop)
 }
@@ -34,7 +34,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::KnownTerminals*, "System", "KnownTerminals");
 // Writing MetadataGetter for method: System::KnownTerminals::get_linux
 // Il2CppName: get_linux
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)()>(&System::KnownTerminals::get_linux)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)()>(&System::KnownTerminals::get_linux)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::KnownTerminals*), "get_linux", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -42,7 +42,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: System::KnownTerminals::get_xterm
 // Il2CppName: get_xterm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)()>(&System::KnownTerminals::get_xterm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)()>(&System::KnownTerminals::get_xterm)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::KnownTerminals*), "get_xterm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -50,7 +50,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: System::KnownTerminals::get_ansi
 // Il2CppName: get_ansi
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)()>(&System::KnownTerminals::get_ansi)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)()>(&System::KnownTerminals::get_ansi)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::KnownTerminals*), "get_ansi", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

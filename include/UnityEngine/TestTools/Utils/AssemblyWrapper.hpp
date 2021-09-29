@@ -52,10 +52,10 @@ namespace UnityEngine::TestTools::Utils {
     // Get instance field reference: private readonly System.Reflection.AssemblyName <Name>k__BackingField
     System::Reflection::AssemblyName*& dyn_$Name$k__BackingField();
     // public System.Reflection.Assembly get_Assembly()
-    // Offset: 0x23FF648
+    // Offset: 0x260A8D8
     System::Reflection::Assembly* get_Assembly();
     // public System.Void .ctor(System.Reflection.Assembly assembly)
-    // Offset: 0x23FF5F4
+    // Offset: 0x260A884
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyWrapper* New_ctor(System::Reflection::Assembly* assembly) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::Utils::AssemblyWrapper::.ctor");

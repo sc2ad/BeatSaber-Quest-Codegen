@@ -41,29 +41,29 @@ namespace NUnit::Framework::Constraints {
     // Get instance field reference: private readonly System.Object amount
     ::Il2CppObject*& dyn_amount();
     // static public NUnit.Framework.Constraints.Tolerance get_Default()
-    // Offset: 0x176A6E0
+    // Offset: 0x192972C
     static NUnit::Framework::Constraints::Tolerance* get_Default();
     // static public NUnit.Framework.Constraints.Tolerance get_Exact()
-    // Offset: 0x1772DAC
+    // Offset: 0x1931DF8
     static NUnit::Framework::Constraints::Tolerance* get_Exact();
     // public NUnit.Framework.Constraints.ToleranceMode get_Mode()
-    // Offset: 0x176CC7C
+    // Offset: 0x192BCC8
     NUnit::Framework::Constraints::ToleranceMode get_Mode();
     // public System.Object get_Value()
-    // Offset: 0x176CC74
+    // Offset: 0x192BCC0
     ::Il2CppObject* get_Value();
     // public System.Boolean get_IsUnsetOrDefault()
-    // Offset: 0x176CC64
+    // Offset: 0x192BCB0
     bool get_IsUnsetOrDefault();
     // public System.Void .ctor(System.Object amount)
-    // Offset: 0x1775B28
+    // Offset: 0x1934B74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tolerance* New_ctor(::Il2CppObject* amount) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::Tolerance::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tolerance*, creationType>(amount)));
     }
     // private System.Void .ctor(System.Object amount, NUnit.Framework.Constraints.ToleranceMode mode)
-    // Offset: 0x177638C
+    // Offset: 0x19353D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tolerance* New_ctor(::Il2CppObject* amount, NUnit::Framework::Constraints::ToleranceMode mode) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::Tolerance::.ctor");

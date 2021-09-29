@@ -37,73 +37,73 @@ namespace UnityEngine::Rendering {
     // Creating value type constructor for type: RenderPipelineAsset
     RenderPipelineAsset() noexcept {}
     // public System.String[] get_renderingLayerMaskNames()
-    // Offset: 0x1C75268
-    ::Array<::Il2CppString*>* get_renderingLayerMaskNames();
+    // Offset: 0x1E08C50
+    ::ArrayWrapper<::Il2CppString*> get_renderingLayerMaskNames();
     // public UnityEngine.Material get_defaultMaterial()
-    // Offset: 0x1C75270
+    // Offset: 0x1E08C58
     UnityEngine::Material* get_defaultMaterial();
     // public UnityEngine.Shader get_autodeskInteractiveShader()
-    // Offset: 0x1C75278
+    // Offset: 0x1E08C60
     UnityEngine::Shader* get_autodeskInteractiveShader();
     // public UnityEngine.Shader get_autodeskInteractiveTransparentShader()
-    // Offset: 0x1C75280
+    // Offset: 0x1E08C68
     UnityEngine::Shader* get_autodeskInteractiveTransparentShader();
     // public UnityEngine.Shader get_autodeskInteractiveMaskedShader()
-    // Offset: 0x1C75288
+    // Offset: 0x1E08C70
     UnityEngine::Shader* get_autodeskInteractiveMaskedShader();
     // public UnityEngine.Shader get_terrainDetailLitShader()
-    // Offset: 0x1C75290
+    // Offset: 0x1E08C78
     UnityEngine::Shader* get_terrainDetailLitShader();
     // public UnityEngine.Shader get_terrainDetailGrassShader()
-    // Offset: 0x1C75298
+    // Offset: 0x1E08C80
     UnityEngine::Shader* get_terrainDetailGrassShader();
     // public UnityEngine.Shader get_terrainDetailGrassBillboardShader()
-    // Offset: 0x1C752A0
+    // Offset: 0x1E08C88
     UnityEngine::Shader* get_terrainDetailGrassBillboardShader();
     // public UnityEngine.Material get_defaultParticleMaterial()
-    // Offset: 0x1C752A8
+    // Offset: 0x1E08C90
     UnityEngine::Material* get_defaultParticleMaterial();
     // public UnityEngine.Material get_defaultLineMaterial()
-    // Offset: 0x1C752B0
+    // Offset: 0x1E08C98
     UnityEngine::Material* get_defaultLineMaterial();
     // public UnityEngine.Material get_defaultTerrainMaterial()
-    // Offset: 0x1C752B8
+    // Offset: 0x1E08CA0
     UnityEngine::Material* get_defaultTerrainMaterial();
     // public UnityEngine.Material get_defaultUIMaterial()
-    // Offset: 0x1C752C0
+    // Offset: 0x1E08CA8
     UnityEngine::Material* get_defaultUIMaterial();
     // public UnityEngine.Material get_defaultUIOverdrawMaterial()
-    // Offset: 0x1C752C8
+    // Offset: 0x1E08CB0
     UnityEngine::Material* get_defaultUIOverdrawMaterial();
     // public UnityEngine.Material get_defaultUIETC1SupportedMaterial()
-    // Offset: 0x1C752D0
+    // Offset: 0x1E08CB8
     UnityEngine::Material* get_defaultUIETC1SupportedMaterial();
     // public UnityEngine.Material get_default2DMaterial()
-    // Offset: 0x1C752D8
+    // Offset: 0x1E08CC0
     UnityEngine::Material* get_default2DMaterial();
     // public UnityEngine.Shader get_defaultShader()
-    // Offset: 0x1C752E0
+    // Offset: 0x1E08CC8
     UnityEngine::Shader* get_defaultShader();
     // public UnityEngine.Shader get_defaultSpeedTree7Shader()
-    // Offset: 0x1C752E8
+    // Offset: 0x1E08CD0
     UnityEngine::Shader* get_defaultSpeedTree7Shader();
     // public UnityEngine.Shader get_defaultSpeedTree8Shader()
-    // Offset: 0x1C752F0
+    // Offset: 0x1E08CD8
     UnityEngine::Shader* get_defaultSpeedTree8Shader();
     // UnityEngine.Rendering.RenderPipeline InternalCreatePipeline()
-    // Offset: 0x1C74F78
+    // Offset: 0x1E08960
     UnityEngine::Rendering::RenderPipeline* InternalCreatePipeline();
     // protected UnityEngine.Rendering.RenderPipeline CreatePipeline()
     // Offset: 0xFFFFFFFF
     UnityEngine::Rendering::RenderPipeline* CreatePipeline();
     // protected System.Void OnValidate()
-    // Offset: 0x1C752F8
+    // Offset: 0x1E08CE0
     void OnValidate();
     // protected System.Void OnDisable()
-    // Offset: 0x1C75854
+    // Offset: 0x1E0923C
     void OnDisable();
     // protected System.Void .ctor()
-    // Offset: 0x1C758B0
+    // Offset: 0x1E09298
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -121,7 +121,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderPipelineAsset*, "UnityEngin
 // Writing MetadataGetter for method: UnityEngine::Rendering::RenderPipelineAsset::get_renderingLayerMaskNames
 // Il2CppName: get_renderingLayerMaskNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (UnityEngine::Rendering::RenderPipelineAsset::*)()>(&UnityEngine::Rendering::RenderPipelineAsset::get_renderingLayerMaskNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (UnityEngine::Rendering::RenderPipelineAsset::*)()>(&UnityEngine::Rendering::RenderPipelineAsset::get_renderingLayerMaskNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderPipelineAsset*), "get_renderingLayerMaskNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

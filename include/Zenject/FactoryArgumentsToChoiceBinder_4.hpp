@@ -102,7 +102,7 @@ namespace Zenject {
     }
     // public Zenject.FactoryToChoiceBinder`4<TParam1,TParam2,TParam3,TContract> WithFactoryArguments(System.Object[] args)
     // Offset: 0xFFFFFFFF
-    Zenject::FactoryToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>* WithFactoryArguments(::Array<::Il2CppObject*>* args) {
+    Zenject::FactoryToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>* WithFactoryArguments(::ArrayWrapper<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryArgumentsToChoiceBinder_4::WithFactoryArguments");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "WithFactoryArguments", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(args)})));
       auto ___instance_arg = this;

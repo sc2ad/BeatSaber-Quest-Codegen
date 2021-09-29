@@ -34,10 +34,10 @@ namespace UnityEngine::TestTools::Utils {
       return *reinterpret_cast<UnityEngine::TestTools::Utils::IAssemblyLoadProxy*>(this);
     }
     // public UnityEngine.TestTools.Utils.IAssemblyWrapper Load(System.String assemblyString)
-    // Offset: 0x23FF580
+    // Offset: 0x260A810
     UnityEngine::TestTools::Utils::IAssemblyWrapper* Load(::Il2CppString* assemblyString);
     // public System.Void .ctor()
-    // Offset: 0x23FF640
+    // Offset: 0x260A8D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

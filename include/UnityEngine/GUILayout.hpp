@@ -35,8 +35,8 @@ namespace UnityEngine {
     // Creating value type constructor for type: GUILayout
     GUILayout() noexcept {}
     // static public System.Void Label(System.String text, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1B2C230
-    static void Label(::Il2CppString* text, ::Array<UnityEngine::GUILayoutOption*>* options);
+    // Offset: 0x1C97AE8
+    static void Label(::Il2CppString* text, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
     // Creating initializer_list -> params proxy for: System.Void Label(System.String text, params UnityEngine.GUILayoutOption[] options)
     static void Label(::Il2CppString* text, std::initializer_list<UnityEngine::GUILayoutOption*> options);
     // Creating TArgs -> initializer_list proxy for: System.Void Label(System.String text, params UnityEngine.GUILayoutOption[] options)
@@ -45,8 +45,8 @@ namespace UnityEngine {
       Label(text, {options...});
     }
     // static public System.Void Label(System.String text, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1B2C3C4
-    static void Label(::Il2CppString* text, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
+    // Offset: 0x1C97C7C
+    static void Label(::Il2CppString* text, UnityEngine::GUIStyle* style, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
     // Creating initializer_list -> params proxy for: System.Void Label(System.String text, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
     static void Label(::Il2CppString* text, UnityEngine::GUIStyle* style, std::initializer_list<UnityEngine::GUILayoutOption*> options);
     // Creating TArgs -> initializer_list proxy for: System.Void Label(System.String text, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
@@ -55,11 +55,11 @@ namespace UnityEngine {
       Label(text, style, {options...});
     }
     // static private System.Void DoLabel(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1B2C2EC
-    static void DoLabel(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
+    // Offset: 0x1C97BA4
+    static void DoLabel(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
     // static public System.Void Box(UnityEngine.Texture image, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1B2C4C0
-    static void Box(UnityEngine::Texture* image, ::Array<UnityEngine::GUILayoutOption*>* options);
+    // Offset: 0x1C97D78
+    static void Box(UnityEngine::Texture* image, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
     // Creating initializer_list -> params proxy for: System.Void Box(UnityEngine.Texture image, params UnityEngine.GUILayoutOption[] options)
     static void Box(UnityEngine::Texture* image, std::initializer_list<UnityEngine::GUILayoutOption*> options);
     // Creating TArgs -> initializer_list proxy for: System.Void Box(UnityEngine.Texture image, params UnityEngine.GUILayoutOption[] options)
@@ -68,11 +68,11 @@ namespace UnityEngine {
       Box(image, {options...});
     }
     // static private System.Void DoBox(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1B2C57C
-    static void DoBox(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
+    // Offset: 0x1C97E34
+    static void DoBox(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
     // static public System.Boolean Button(System.String text, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1B2C654
-    static bool Button(::Il2CppString* text, ::Array<UnityEngine::GUILayoutOption*>* options);
+    // Offset: 0x1C97F0C
+    static bool Button(::Il2CppString* text, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
     // Creating initializer_list -> params proxy for: System.Boolean Button(System.String text, params UnityEngine.GUILayoutOption[] options)
     static bool Button(::Il2CppString* text, std::initializer_list<UnityEngine::GUILayoutOption*> options);
     // Creating TArgs -> initializer_list proxy for: System.Boolean Button(System.String text, params UnityEngine.GUILayoutOption[] options)
@@ -81,11 +81,11 @@ namespace UnityEngine {
       return Button(text, {options...});
     }
     // static private System.Boolean DoButton(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1B2C710
-    static bool DoButton(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
+    // Offset: 0x1C97FC8
+    static bool DoButton(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
     // static public System.String TextField(System.String text, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1B2C7E8
-    static ::Il2CppString* TextField(::Il2CppString* text, ::Array<UnityEngine::GUILayoutOption*>* options);
+    // Offset: 0x1C980A0
+    static ::Il2CppString* TextField(::Il2CppString* text, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
     // Creating initializer_list -> params proxy for: System.String TextField(System.String text, params UnityEngine.GUILayoutOption[] options)
     static ::Il2CppString* TextField(::Il2CppString* text, std::initializer_list<UnityEngine::GUILayoutOption*> options);
     // Creating TArgs -> initializer_list proxy for: System.String TextField(System.String text, params UnityEngine.GUILayoutOption[] options)
@@ -94,8 +94,8 @@ namespace UnityEngine {
       return TextField(text, {options...});
     }
     // static public System.String TextArea(System.String text, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1B2CAD0
-    static ::Il2CppString* TextArea(::Il2CppString* text, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
+    // Offset: 0x1C98388
+    static ::Il2CppString* TextArea(::Il2CppString* text, UnityEngine::GUIStyle* style, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
     // Creating initializer_list -> params proxy for: System.String TextArea(System.String text, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
     static ::Il2CppString* TextArea(::Il2CppString* text, UnityEngine::GUIStyle* style, std::initializer_list<UnityEngine::GUILayoutOption*> options);
     // Creating TArgs -> initializer_list proxy for: System.String TextArea(System.String text, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
@@ -104,11 +104,11 @@ namespace UnityEngine {
       return TextArea(text, style, {options...});
     }
     // static private System.String DoTextField(System.String text, System.Int32 maxLength, System.Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1B2C87C
-    static ::Il2CppString* DoTextField(::Il2CppString* text, int maxLength, bool multiline, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
+    // Offset: 0x1C98134
+    static ::Il2CppString* DoTextField(::Il2CppString* text, int maxLength, bool multiline, UnityEngine::GUIStyle* style, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
     // static public System.Boolean Toggle(System.Boolean value, System.String text, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1B2CAF0
-    static bool Toggle(bool value, ::Il2CppString* text, ::Array<UnityEngine::GUILayoutOption*>* options);
+    // Offset: 0x1C983A8
+    static bool Toggle(bool value, ::Il2CppString* text, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
     // Creating initializer_list -> params proxy for: System.Boolean Toggle(System.Boolean value, System.String text, params UnityEngine.GUILayoutOption[] options)
     static bool Toggle(bool value, ::Il2CppString* text, std::initializer_list<UnityEngine::GUILayoutOption*> options);
     // Creating TArgs -> initializer_list proxy for: System.Boolean Toggle(System.Boolean value, System.String text, params UnityEngine.GUILayoutOption[] options)
@@ -117,11 +117,11 @@ namespace UnityEngine {
       return Toggle(value, text, {options...});
     }
     // static private System.Boolean DoToggle(System.Boolean value, UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1B2CBB4
-    static bool DoToggle(bool value, UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
+    // Offset: 0x1C9846C
+    static bool DoToggle(bool value, UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
     // static public System.Single HorizontalSlider(System.Single value, System.Single leftValue, System.Single rightValue, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1B2CC9C
-    static float HorizontalSlider(float value, float leftValue, float rightValue, ::Array<UnityEngine::GUILayoutOption*>* options);
+    // Offset: 0x1C98554
+    static float HorizontalSlider(float value, float leftValue, float rightValue, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
     // Creating initializer_list -> params proxy for: System.Single HorizontalSlider(System.Single value, System.Single leftValue, System.Single rightValue, params UnityEngine.GUILayoutOption[] options)
     static float HorizontalSlider(float value, float leftValue, float rightValue, std::initializer_list<UnityEngine::GUILayoutOption*> options);
     // Creating TArgs -> initializer_list proxy for: System.Single HorizontalSlider(System.Single value, System.Single leftValue, System.Single rightValue, params UnityEngine.GUILayoutOption[] options)
@@ -130,17 +130,17 @@ namespace UnityEngine {
       return HorizontalSlider(value, leftValue, rightValue, {options...});
     }
     // static private System.Single DoHorizontalSlider(System.Single value, System.Single leftValue, System.Single rightValue, UnityEngine.GUIStyle slider, UnityEngine.GUIStyle thumb, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1B2CD58
-    static float DoHorizontalSlider(float value, float leftValue, float rightValue, UnityEngine::GUIStyle* slider, UnityEngine::GUIStyle* thumb, ::Array<UnityEngine::GUILayoutOption*>* options);
+    // Offset: 0x1C98610
+    static float DoHorizontalSlider(float value, float leftValue, float rightValue, UnityEngine::GUIStyle* slider, UnityEngine::GUIStyle* thumb, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
     // static public System.Void Space(System.Single pixels)
-    // Offset: 0x1B2CE90
+    // Offset: 0x1C98748
     static void Space(float pixels);
     // static public System.Void FlexibleSpace()
-    // Offset: 0x1B2D2A4
+    // Offset: 0x1C98B5C
     static void FlexibleSpace();
     // static public System.Void BeginHorizontal(params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1B2D5FC
-    static void BeginHorizontal(::Array<UnityEngine::GUILayoutOption*>* options);
+    // Offset: 0x1C98EB4
+    static void BeginHorizontal(::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
     // Creating initializer_list -> params proxy for: System.Void BeginHorizontal(params UnityEngine.GUILayoutOption[] options)
     static void BeginHorizontal(std::initializer_list<UnityEngine::GUILayoutOption*> options);
     // Creating TArgs -> initializer_list proxy for: System.Void BeginHorizontal(params UnityEngine.GUILayoutOption[] options)
@@ -149,8 +149,8 @@ namespace UnityEngine {
       BeginHorizontal({options...});
     }
     // static public System.Void BeginHorizontal(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1B2D69C
-    static void BeginHorizontal(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
+    // Offset: 0x1C98F54
+    static void BeginHorizontal(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
     // Creating initializer_list -> params proxy for: System.Void BeginHorizontal(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
     static void BeginHorizontal(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, std::initializer_list<UnityEngine::GUILayoutOption*> options);
     // Creating TArgs -> initializer_list proxy for: System.Void BeginHorizontal(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
@@ -159,11 +159,11 @@ namespace UnityEngine {
       BeginHorizontal(content, style, {options...});
     }
     // static public System.Void EndHorizontal()
-    // Offset: 0x1B2DB00
+    // Offset: 0x1C993B8
     static void EndHorizontal();
     // static public System.Void BeginVertical(params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1B2DD54
-    static void BeginVertical(::Array<UnityEngine::GUILayoutOption*>* options);
+    // Offset: 0x1C9960C
+    static void BeginVertical(::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
     // Creating initializer_list -> params proxy for: System.Void BeginVertical(params UnityEngine.GUILayoutOption[] options)
     static void BeginVertical(std::initializer_list<UnityEngine::GUILayoutOption*> options);
     // Creating TArgs -> initializer_list proxy for: System.Void BeginVertical(params UnityEngine.GUILayoutOption[] options)
@@ -172,8 +172,8 @@ namespace UnityEngine {
       BeginVertical({options...});
     }
     // static public System.Void BeginVertical(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1B2DDF4
-    static void BeginVertical(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::Array<UnityEngine::GUILayoutOption*>* options);
+    // Offset: 0x1C996AC
+    static void BeginVertical(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
     // Creating initializer_list -> params proxy for: System.Void BeginVertical(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
     static void BeginVertical(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, std::initializer_list<UnityEngine::GUILayoutOption*> options);
     // Creating TArgs -> initializer_list proxy for: System.Void BeginVertical(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
@@ -182,20 +182,20 @@ namespace UnityEngine {
       BeginVertical(content, style, {options...});
     }
     // static public System.Void EndVertical()
-    // Offset: 0x1B2DF90
+    // Offset: 0x1C99848
     static void EndVertical();
     // static public System.Void BeginArea(UnityEngine.Rect screenRect)
-    // Offset: 0x1B2DFEC
+    // Offset: 0x1C998A4
     static void BeginArea(UnityEngine::Rect screenRect);
     // static public System.Void BeginArea(UnityEngine.Rect screenRect, UnityEngine.GUIContent content, UnityEngine.GUIStyle style)
-    // Offset: 0x1B2E0B4
+    // Offset: 0x1C9996C
     static void BeginArea(UnityEngine::Rect screenRect, UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style);
     // static public System.Void EndArea()
-    // Offset: 0x1B2E578
+    // Offset: 0x1C99E30
     static void EndArea();
     // static public UnityEngine.Vector2 BeginScrollView(UnityEngine.Vector2 scrollPosition, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1B2E704
-    static UnityEngine::Vector2 BeginScrollView(UnityEngine::Vector2 scrollPosition, ::Array<UnityEngine::GUILayoutOption*>* options);
+    // Offset: 0x1C99FBC
+    static UnityEngine::Vector2 BeginScrollView(UnityEngine::Vector2 scrollPosition, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
     // Creating initializer_list -> params proxy for: UnityEngine.Vector2 BeginScrollView(UnityEngine.Vector2 scrollPosition, params UnityEngine.GUILayoutOption[] options)
     static UnityEngine::Vector2 BeginScrollView(UnityEngine::Vector2 scrollPosition, std::initializer_list<UnityEngine::GUILayoutOption*> options);
     // Creating TArgs -> initializer_list proxy for: UnityEngine.Vector2 BeginScrollView(UnityEngine.Vector2 scrollPosition, params UnityEngine.GUILayoutOption[] options)
@@ -204,8 +204,8 @@ namespace UnityEngine {
       return BeginScrollView(scrollPosition, {options...});
     }
     // static public UnityEngine.Vector2 BeginScrollView(UnityEngine.Vector2 scrollPosition, System.Boolean alwaysShowHorizontal, System.Boolean alwaysShowVertical, UnityEngine.GUIStyle horizontalScrollbar, UnityEngine.GUIStyle verticalScrollbar, UnityEngine.GUIStyle background, params UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1B2E7D8
-    static UnityEngine::Vector2 BeginScrollView(UnityEngine::Vector2 scrollPosition, bool alwaysShowHorizontal, bool alwaysShowVertical, UnityEngine::GUIStyle* horizontalScrollbar, UnityEngine::GUIStyle* verticalScrollbar, UnityEngine::GUIStyle* background, ::Array<UnityEngine::GUILayoutOption*>* options);
+    // Offset: 0x1C9A090
+    static UnityEngine::Vector2 BeginScrollView(UnityEngine::Vector2 scrollPosition, bool alwaysShowHorizontal, bool alwaysShowVertical, UnityEngine::GUIStyle* horizontalScrollbar, UnityEngine::GUIStyle* verticalScrollbar, UnityEngine::GUIStyle* background, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
     // Creating initializer_list -> params proxy for: UnityEngine.Vector2 BeginScrollView(UnityEngine.Vector2 scrollPosition, System.Boolean alwaysShowHorizontal, System.Boolean alwaysShowVertical, UnityEngine.GUIStyle horizontalScrollbar, UnityEngine.GUIStyle verticalScrollbar, UnityEngine.GUIStyle background, params UnityEngine.GUILayoutOption[] options)
     static UnityEngine::Vector2 BeginScrollView(UnityEngine::Vector2 scrollPosition, bool alwaysShowHorizontal, bool alwaysShowVertical, UnityEngine::GUIStyle* horizontalScrollbar, UnityEngine::GUIStyle* verticalScrollbar, UnityEngine::GUIStyle* background, std::initializer_list<UnityEngine::GUILayoutOption*> options);
     // Creating TArgs -> initializer_list proxy for: UnityEngine.Vector2 BeginScrollView(UnityEngine.Vector2 scrollPosition, System.Boolean alwaysShowHorizontal, System.Boolean alwaysShowVertical, UnityEngine.GUIStyle horizontalScrollbar, UnityEngine.GUIStyle verticalScrollbar, UnityEngine.GUIStyle background, params UnityEngine.GUILayoutOption[] options)
@@ -214,22 +214,22 @@ namespace UnityEngine {
       return BeginScrollView(scrollPosition, alwaysShowHorizontal, alwaysShowVertical, horizontalScrollbar, verticalScrollbar, background, {options...});
     }
     // static public System.Void EndScrollView()
-    // Offset: 0x1B2EA54
+    // Offset: 0x1C9A30C
     static void EndScrollView();
     // static System.Void EndScrollView(System.Boolean handleScrollWheel)
-    // Offset: 0x1B2EA5C
+    // Offset: 0x1C9A314
     static void EndScrollView(bool handleScrollWheel);
     // static public UnityEngine.GUILayoutOption Width(System.Single width)
-    // Offset: 0x1B2B2C0
+    // Offset: 0x1C96B78
     static UnityEngine::GUILayoutOption* Width(float width);
     // static public UnityEngine.GUILayoutOption Height(System.Single height)
-    // Offset: 0x1B2B350
+    // Offset: 0x1C96C08
     static UnityEngine::GUILayoutOption* Height(float height);
     // static public UnityEngine.GUILayoutOption ExpandWidth(System.Boolean expand)
-    // Offset: 0x1B2D564
+    // Offset: 0x1C98E1C
     static UnityEngine::GUILayoutOption* ExpandWidth(bool expand);
     // static public UnityEngine.GUILayoutOption ExpandHeight(System.Boolean expand)
-    // Offset: 0x1B2D4CC
+    // Offset: 0x1C98D84
     static UnityEngine::GUILayoutOption* ExpandHeight(bool expand);
   }; // UnityEngine.GUILayout
   #pragma pack(pop)
@@ -240,157 +240,157 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayout*, "UnityEngine", "GUILayout");
 // Writing MetadataGetter for method: UnityEngine::GUILayout::Label
 // Il2CppName: Label
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::Label)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::Label)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "Label", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, options});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUILayout::Label
 // Il2CppName: Label
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::Label)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::GUIStyle*, ::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::Label)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "Label", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, style, options});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUILayout::DoLabel
 // Il2CppName: DoLabel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::DoLabel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::DoLabel)> {
   static const MethodInfo* get() {
     static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "DoLabel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{content, style, options});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUILayout::Box
 // Il2CppName: Box
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::Box)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, ::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::Box)> {
   static const MethodInfo* get() {
     static auto* image = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "Box", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{image, options});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUILayout::DoBox
 // Il2CppName: DoBox
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::DoBox)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::DoBox)> {
   static const MethodInfo* get() {
     static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "DoBox", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{content, style, options});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUILayout::Button
 // Il2CppName: Button
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::Button)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::Button)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "Button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, options});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUILayout::DoButton
 // Il2CppName: DoButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::DoButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::DoButton)> {
   static const MethodInfo* get() {
     static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "DoButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{content, style, options});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUILayout::TextField
 // Il2CppName: TextField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::TextField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::TextField)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "TextField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, options});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUILayout::TextArea
 // Il2CppName: TextArea
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::TextArea)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, UnityEngine::GUIStyle*, ::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::TextArea)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "TextArea", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, style, options});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUILayout::DoTextField
 // Il2CppName: DoTextField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, bool, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::DoTextField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, bool, UnityEngine::GUIStyle*, ::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::DoTextField)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* maxLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* multiline = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "DoTextField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, maxLength, multiline, style, options});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUILayout::Toggle
 // Il2CppName: Toggle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, ::Il2CppString*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::Toggle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, ::Il2CppString*, ::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::Toggle)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "Toggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, text, options});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUILayout::DoToggle
 // Il2CppName: DoToggle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::DoToggle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::DoToggle)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "DoToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, content, style, options});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUILayout::HorizontalSlider
 // Il2CppName: HorizontalSlider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float, float, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::HorizontalSlider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float, float, ::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::HorizontalSlider)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* leftValue = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* rightValue = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "HorizontalSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, leftValue, rightValue, options});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUILayout::DoHorizontalSlider
 // Il2CppName: DoHorizontalSlider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float, float, UnityEngine::GUIStyle*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::DoHorizontalSlider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float, float, UnityEngine::GUIStyle*, UnityEngine::GUIStyle*, ::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::DoHorizontalSlider)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* leftValue = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* rightValue = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* slider = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     static auto* thumb = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "DoHorizontalSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, leftValue, rightValue, slider, thumb, options});
   }
 };
@@ -414,20 +414,20 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::GUILayout::BeginHorizontal
 // Il2CppName: BeginHorizontal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::BeginHorizontal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::BeginHorizontal)> {
   static const MethodInfo* get() {
-    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "BeginHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{options});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUILayout::BeginHorizontal
 // Il2CppName: BeginHorizontal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::BeginHorizontal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::BeginHorizontal)> {
   static const MethodInfo* get() {
     static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "BeginHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{content, style, options});
   }
 };
@@ -442,20 +442,20 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::GUILayout::BeginVertical
 // Il2CppName: BeginVertical
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::BeginVertical)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::BeginVertical)> {
   static const MethodInfo* get() {
-    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "BeginVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{options});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUILayout::BeginVertical
 // Il2CppName: BeginVertical
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::BeginVertical)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::BeginVertical)> {
   static const MethodInfo* get() {
     static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "BeginVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{content, style, options});
   }
 };
@@ -498,17 +498,17 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::GUILayout::BeginScrollView
 // Il2CppName: BeginScrollView
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::BeginScrollView)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2, ::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::BeginScrollView)> {
   static const MethodInfo* get() {
     static auto* scrollPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "BeginScrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scrollPosition, options});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUILayout::BeginScrollView
 // Il2CppName: BeginScrollView
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2, bool, bool, UnityEngine::GUIStyle*, UnityEngine::GUIStyle*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::BeginScrollView)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2, bool, bool, UnityEngine::GUIStyle*, UnityEngine::GUIStyle*, UnityEngine::GUIStyle*, ::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::BeginScrollView)> {
   static const MethodInfo* get() {
     static auto* scrollPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* alwaysShowHorizontal = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -516,7 +516,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     static auto* horizontalScrollbar = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     static auto* verticalScrollbar = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     static auto* background = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "BeginScrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scrollPosition, alwaysShowHorizontal, alwaysShowVertical, horizontalScrollbar, verticalScrollbar, background, options});
   }
 };

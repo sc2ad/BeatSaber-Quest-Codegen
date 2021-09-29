@@ -26,10 +26,10 @@ namespace System::Net {
     // Creating value type constructor for type: SecureStringHelper
     SecureStringHelper() noexcept {}
     // static System.String CreateString(System.Security.SecureString secureString)
-    // Offset: 0x15D4584
+    // Offset: 0x1777A3C
     static ::Il2CppString* CreateString(System::Security::SecureString* secureString);
     // static System.Security.SecureString CreateSecureString(System.String plainString)
-    // Offset: 0x15D46B0
+    // Offset: 0x1777B68
     static System::Security::SecureString* CreateSecureString(::Il2CppString* plainString);
   }; // System.Net.UnsafeNclNativeMethods/System.Net.SecureStringHelper
   #pragma pack(pop)

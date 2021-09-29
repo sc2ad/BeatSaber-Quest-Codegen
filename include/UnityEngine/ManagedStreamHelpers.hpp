@@ -29,16 +29,16 @@ namespace UnityEngine {
     // Creating value type constructor for type: ManagedStreamHelpers
     ManagedStreamHelpers() noexcept {}
     // static System.Void ValidateLoadFromStream(System.IO.Stream stream)
-    // Offset: 0x1CF86F0
+    // Offset: 0x1D9F234
     static void ValidateLoadFromStream(System::IO::Stream* stream);
     // static System.Void ManagedStreamRead(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.IO.Stream stream, System.IntPtr returnValueAddress)
-    // Offset: 0x1CF87F8
-    static void ManagedStreamRead(::Array<uint8_t>* buffer, int offset, int count, System::IO::Stream* stream, System::IntPtr returnValueAddress);
+    // Offset: 0x1D9F33C
+    static void ManagedStreamRead(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::IO::Stream* stream, System::IntPtr returnValueAddress);
     // static System.Void ManagedStreamSeek(System.Int64 offset, System.UInt32 origin, System.IO.Stream stream, System.IntPtr returnValueAddress)
-    // Offset: 0x1CF88F8
+    // Offset: 0x1D9F43C
     static void ManagedStreamSeek(int64_t offset, uint origin, System::IO::Stream* stream, System::IntPtr returnValueAddress);
     // static System.Void ManagedStreamLength(System.IO.Stream stream, System.IntPtr returnValueAddress)
-    // Offset: 0x1CF89F0
+    // Offset: 0x1D9F534
     static void ManagedStreamLength(System::IO::Stream* stream, System::IntPtr returnValueAddress);
   }; // UnityEngine.ManagedStreamHelpers
   #pragma pack(pop)
@@ -58,9 +58,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::ManagedStreamHelpers::ManagedStreamRead
 // Il2CppName: ManagedStreamRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, int, System::IO::Stream*, System::IntPtr)>(&UnityEngine::ManagedStreamHelpers::ManagedStreamRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, int, System::IO::Stream*, System::IntPtr)>(&UnityEngine::ManagedStreamHelpers::ManagedStreamRead)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;

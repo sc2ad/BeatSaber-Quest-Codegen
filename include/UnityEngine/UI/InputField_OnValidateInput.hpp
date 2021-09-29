@@ -34,20 +34,20 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: OnValidateInput
     OnValidateInput() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x19D27E4
+    // Offset: 0x1B4768C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InputField::OnValidateInput* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::InputField::OnValidateInput::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InputField::OnValidateInput*, creationType>(object, method)));
     }
     // public System.Char Invoke(System.String text, System.Int32 charIndex, System.Char addedChar)
-    // Offset: 0x19D27F4
+    // Offset: 0x1B4769C
     ::Il2CppChar Invoke(::Il2CppString* text, int charIndex, ::Il2CppChar addedChar);
     // public System.IAsyncResult BeginInvoke(System.String text, System.Int32 charIndex, System.Char addedChar, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x19D2C30
+    // Offset: 0x1B47AD8
     System::IAsyncResult* BeginInvoke(::Il2CppString* text, int charIndex, ::Il2CppChar addedChar, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Char EndInvoke(System.IAsyncResult result)
-    // Offset: 0x19D2CEC
+    // Offset: 0x1B47B94
     ::Il2CppChar EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.UI.InputField/UnityEngine.UI.OnValidateInput
   #pragma pack(pop)

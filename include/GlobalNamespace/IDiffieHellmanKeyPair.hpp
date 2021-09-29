@@ -14,10 +14,6 @@ namespace System::Threading::Tasks {
   class Task_1;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,13 +26,13 @@ namespace GlobalNamespace {
     IDiffieHellmanKeyPair() noexcept {}
     // public System.Byte[] get_publicKey()
     // Offset: 0xFFFFFFFF
-    ::Array<uint8_t>* get_publicKey();
+    ::ArrayWrapper<uint8_t> get_publicKey();
     // public System.Threading.Tasks.Task`1<System.Byte[]> GetPreMasterSecretAsync(System.Byte[] clientPublicKey)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<::Array<uint8_t>*>* GetPreMasterSecretAsync(::Array<uint8_t>* clientPublicKey);
+    System::Threading::Tasks::Task_1<::ArrayWrapper<uint8_t>>* GetPreMasterSecretAsync(::ArrayWrapper<uint8_t> clientPublicKey);
     // public System.Byte[] GetPreMasterSecret(System.Byte[] clientPublicKey)
     // Offset: 0xFFFFFFFF
-    ::Array<uint8_t>* GetPreMasterSecret(::Array<uint8_t>* clientPublicKey);
+    ::ArrayWrapper<uint8_t> GetPreMasterSecret(::ArrayWrapper<uint8_t> clientPublicKey);
   }; // IDiffieHellmanKeyPair
   #pragma pack(pop)
 }
@@ -46,7 +42,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IDiffieHellmanKeyPair*, "", "IDiffieHell
 // Writing MetadataGetter for method: GlobalNamespace::IDiffieHellmanKeyPair::get_publicKey
 // Il2CppName: get_publicKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (GlobalNamespace::IDiffieHellmanKeyPair::*)()>(&GlobalNamespace::IDiffieHellmanKeyPair::get_publicKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (GlobalNamespace::IDiffieHellmanKeyPair::*)()>(&GlobalNamespace::IDiffieHellmanKeyPair::get_publicKey)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IDiffieHellmanKeyPair*), "get_publicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -54,18 +50,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: GlobalNamespace::IDiffieHellmanKeyPair::GetPreMasterSecretAsync
 // Il2CppName: GetPreMasterSecretAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Array<uint8_t>*>* (GlobalNamespace::IDiffieHellmanKeyPair::*)(::Array<uint8_t>*)>(&GlobalNamespace::IDiffieHellmanKeyPair::GetPreMasterSecretAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::ArrayWrapper<uint8_t>>* (GlobalNamespace::IDiffieHellmanKeyPair::*)(::ArrayWrapper<uint8_t>)>(&GlobalNamespace::IDiffieHellmanKeyPair::GetPreMasterSecretAsync)> {
   static const MethodInfo* get() {
-    static auto* clientPublicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* clientPublicKey = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IDiffieHellmanKeyPair*), "GetPreMasterSecretAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clientPublicKey});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::IDiffieHellmanKeyPair::GetPreMasterSecret
 // Il2CppName: GetPreMasterSecret
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (GlobalNamespace::IDiffieHellmanKeyPair::*)(::Array<uint8_t>*)>(&GlobalNamespace::IDiffieHellmanKeyPair::GetPreMasterSecret)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (GlobalNamespace::IDiffieHellmanKeyPair::*)(::ArrayWrapper<uint8_t>)>(&GlobalNamespace::IDiffieHellmanKeyPair::GetPreMasterSecret)> {
   static const MethodInfo* get() {
-    static auto* clientPublicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* clientPublicKey = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IDiffieHellmanKeyPair*), "GetPreMasterSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clientPublicKey});
   }
 };

@@ -45,9 +45,9 @@ namespace GlobalNamespace {
     // public MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPackName[] localizedNames
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*>* localizedNames;
+    ::ArrayWrapper<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*> localizedNames;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*>) == 0x8);
     // public System.Collections.Generic.List`1<System.String> packIds
     // Size: 0x8
     // Offset: 0x28
@@ -55,17 +55,17 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
     // Creating value type constructor for type: LocalizedCustomPack
-    LocalizedCustomPack(::Il2CppString* serializedName_ = {}, int order_ = {}, ::Array<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*>* localizedNames_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* packIds_ = {}) noexcept : serializedName{serializedName_}, order{order_}, localizedNames{localizedNames_}, packIds{packIds_} {}
+    LocalizedCustomPack(::Il2CppString* serializedName_ = {}, int order_ = {}, ::ArrayWrapper<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*> localizedNames_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* packIds_ = {}) noexcept : serializedName{serializedName_}, order{order_}, localizedNames{localizedNames_}, packIds{packIds_} {}
     // Get instance field reference: public System.String serializedName
     ::Il2CppString*& dyn_serializedName();
     // Get instance field reference: public System.Int32 order
     int& dyn_order();
     // Get instance field reference: public MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPackName[] localizedNames
-    ::Array<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*>*& dyn_localizedNames();
+    ::ArrayWrapper<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*>& dyn_localizedNames();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> packIds
     System::Collections::Generic::List_1<::Il2CppString*>*& dyn_packIds();
     // public System.Void .ctor()
-    // Offset: 0x11A7248
+    // Offset: 0x1266B88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

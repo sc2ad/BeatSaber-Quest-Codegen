@@ -31,9 +31,9 @@ namespace GlobalNamespace {
     NamedPresetsSO() noexcept {}
     // public NamedPreset[] get_namedPresets()
     // Offset: 0xFFFFFFFF
-    ::Array<GlobalNamespace::NamedPreset*>* get_namedPresets();
+    ::ArrayWrapper<GlobalNamespace::NamedPreset*> get_namedPresets();
     // protected System.Void .ctor()
-    // Offset: 0x1045FB0
+    // Offset: 0x1134F50
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -52,7 +52,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedPresetsSO*, "", "NamedPresetsSO");
 // Writing MetadataGetter for method: GlobalNamespace::NamedPresetsSO::get_namedPresets
 // Il2CppName: get_namedPresets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::NamedPreset*>* (GlobalNamespace::NamedPresetsSO::*)()>(&GlobalNamespace::NamedPresetsSO::get_namedPresets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::NamedPreset*> (GlobalNamespace::NamedPresetsSO::*)()>(&GlobalNamespace::NamedPresetsSO::get_namedPresets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NamedPresetsSO*), "get_namedPresets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

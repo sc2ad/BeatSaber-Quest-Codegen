@@ -35,17 +35,17 @@ namespace System::IO {
     // Creating value type constructor for type: NullStreamReader
     NullStreamReader() noexcept {}
     // public override System.IO.Stream get_BaseStream()
-    // Offset: 0x19855C8
+    // Offset: 0x1AC5CF0
     // Implemented from: System.IO.StreamReader
     // Base method: System.IO.Stream StreamReader::get_BaseStream()
     System::IO::Stream* get_BaseStream();
     // public override System.Text.Encoding get_CurrentEncoding()
-    // Offset: 0x1985630
+    // Offset: 0x1AC5D58
     // Implemented from: System.IO.StreamReader
     // Base method: System.Text.Encoding StreamReader::get_CurrentEncoding()
     System::Text::Encoding* get_CurrentEncoding();
     // System.Void .ctor()
-    // Offset: 0x1985528
+    // Offset: 0x1AC5C50
     // Implemented from: System.IO.StreamReader
     // Base method: System.Void StreamReader::.ctor()
     // Base method: System.Void TextReader::.ctor()
@@ -57,37 +57,37 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<StreamReader::NullStreamReader*, creationType>()));
     }
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1985638
+    // Offset: 0x1AC5D60
     // Implemented from: System.IO.StreamReader
     // Base method: System.Void StreamReader::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Int32 Peek()
-    // Offset: 0x198563C
+    // Offset: 0x1AC5D64
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Peek()
     int Peek();
     // public override System.Int32 Read()
-    // Offset: 0x1985644
+    // Offset: 0x1AC5D6C
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Read()
     int Read();
     // public override System.Int32 Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x198564C
+    // Offset: 0x1AC5D74
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    int Read(::Array<::Il2CppChar>* buffer, int index, int count);
+    int Read(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
     // public override System.String ReadLine()
-    // Offset: 0x1985654
+    // Offset: 0x1AC5D7C
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadLine()
     ::Il2CppString* ReadLine();
     // public override System.String ReadToEnd()
-    // Offset: 0x198565C
+    // Offset: 0x1AC5D84
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadToEnd()
     ::Il2CppString* ReadToEnd();
     // override System.Int32 ReadBuffer()
-    // Offset: 0x19856AC
+    // Offset: 0x1AC5DD4
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::ReadBuffer()
     int ReadBuffer();
@@ -144,9 +144,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::StreamReader::NullStreamReader::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::StreamReader::NullStreamReader::*)(::Array<::Il2CppChar>*, int, int)>(&System::IO::StreamReader::NullStreamReader::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::StreamReader::NullStreamReader::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::IO::StreamReader::NullStreamReader::Read)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::StreamReader::NullStreamReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index, count});

@@ -53,13 +53,13 @@ namespace Zenject {
     // Get instance field reference: private UnityEngine.Animator _animator
     UnityEngine::Animator*& dyn__animator();
     // public System.Void Construct(Zenject.DiContainer container)
-    // Offset: 0x23E3DE0
+    // Offset: 0x25EF070
     void Construct(Zenject::DiContainer* container);
     // public System.Void Start()
-    // Offset: 0x23E3E4C
+    // Offset: 0x25EF0DC
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x23E3F40
+    // Offset: 0x25EF1D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

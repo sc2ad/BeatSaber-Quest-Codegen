@@ -23,9 +23,9 @@ namespace GlobalNamespace {
     // public VRControllersRecorderSaveData/PositionAndRotation[] positionsAndRotations
     // Size: 0x8
     // Offset: 0x10
-    ::Array<GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation*>* positionsAndRotations;
+    ::ArrayWrapper<GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation*> positionsAndRotations;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation*>) == 0x8);
     // public System.Single time
     // Size: 0x4
     // Offset: 0x18
@@ -33,13 +33,13 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: Keyframe
-    Keyframe(::Array<GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation*>* positionsAndRotations_ = {}, float time_ = {}) noexcept : positionsAndRotations{positionsAndRotations_}, time{time_} {}
+    Keyframe(::ArrayWrapper<GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation*> positionsAndRotations_ = {}, float time_ = {}) noexcept : positionsAndRotations{positionsAndRotations_}, time{time_} {}
     // Get instance field reference: public VRControllersRecorderSaveData/PositionAndRotation[] positionsAndRotations
-    ::Array<GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation*>*& dyn_positionsAndRotations();
+    ::ArrayWrapper<GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation*>& dyn_positionsAndRotations();
     // Get instance field reference: public System.Single time
     float& dyn_time();
     // public System.Void .ctor()
-    // Offset: 0x12A0500
+    // Offset: 0x134ACB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -30,9 +30,9 @@ namespace System::Text {
     // private System.Byte[] bytesUnknown
     // Size: 0x8
     // Offset: 0x90
-    ::Array<uint8_t>* bytesUnknown;
+    ::ArrayWrapper<uint8_t> bytesUnknown;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Int32 index
     // Size: 0x4
     // Offset: 0x98
@@ -40,22 +40,22 @@ namespace System::Text {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: DecoderFallbackException
-    DecoderFallbackException(::Array<uint8_t>* bytesUnknown_ = {}, int index_ = {}) noexcept : bytesUnknown{bytesUnknown_}, index{index_} {}
+    DecoderFallbackException(::ArrayWrapper<uint8_t> bytesUnknown_ = {}, int index_ = {}) noexcept : bytesUnknown{bytesUnknown_}, index{index_} {}
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // Get instance field reference: private System.Byte[] bytesUnknown
-    ::Array<uint8_t>*& dyn_bytesUnknown();
+    ::ArrayWrapper<uint8_t>& dyn_bytesUnknown();
     // Get instance field reference: private System.Int32 index
     int& dyn_index();
     // public System.Void .ctor(System.String message, System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x1C4099C
+    // Offset: 0x1DF8808
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DecoderFallbackException* New_ctor(::Il2CppString* message, ::Array<uint8_t>* bytesUnknown, int index) {
+    static DecoderFallbackException* New_ctor(::Il2CppString* message, ::ArrayWrapper<uint8_t> bytesUnknown, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::DecoderFallbackException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DecoderFallbackException*, creationType>(message, bytesUnknown, index)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1C411BC
+    // Offset: 0x1DF9028
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -67,7 +67,7 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<DecoderFallbackException*, creationType>()));
     }
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1C41230
+    // Offset: 0x1DF909C
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

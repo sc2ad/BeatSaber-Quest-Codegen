@@ -30,34 +30,34 @@ namespace GlobalNamespace {
     // private IBeatmapLevelPack[] _beatmapLevelPacks
     // Size: 0x8
     // Offset: 0x10
-    ::Array<GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks;
+    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> beatmapLevelPacks;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::IBeatmapLevelPack*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>) == 0x8);
     // Creating value type constructor for type: BeatmapLevelPackCollection
-    BeatmapLevelPackCollection(::Array<GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks_ = {}) noexcept : beatmapLevelPacks{beatmapLevelPacks_} {}
+    BeatmapLevelPackCollection(::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> beatmapLevelPacks_ = {}) noexcept : beatmapLevelPacks{beatmapLevelPacks_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapLevelPackCollection
     operator GlobalNamespace::IBeatmapLevelPackCollection() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevelPackCollection*>(this);
     }
-    // Creating conversion operator: operator ::Array<GlobalNamespace::IBeatmapLevelPack*>*
-    constexpr operator ::Array<GlobalNamespace::IBeatmapLevelPack*>*() const noexcept {
+    // Creating conversion operator: operator ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>
+    constexpr operator ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>() const noexcept {
       return beatmapLevelPacks;
     }
     // Get instance field reference: private IBeatmapLevelPack[] _beatmapLevelPacks
-    ::Array<GlobalNamespace::IBeatmapLevelPack*>*& dyn__beatmapLevelPacks();
+    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>& dyn__beatmapLevelPacks();
     // public IBeatmapLevelPack[] get_beatmapLevelPacks()
-    // Offset: 0x10C95D0
-    ::Array<GlobalNamespace::IBeatmapLevelPack*>* get_beatmapLevelPacks();
+    // Offset: 0x129AB9C
+    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> get_beatmapLevelPacks();
     // public System.Void .ctor(IBeatmapLevelPack[] beatmapLevelPacks)
-    // Offset: 0x10C95D8
+    // Offset: 0x129ABA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BeatmapLevelPackCollection* New_ctor(::Array<GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks) {
+    static BeatmapLevelPackCollection* New_ctor(::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> beatmapLevelPacks) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelPackCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelPackCollection*, creationType>(beatmapLevelPacks)));
     }
   }; // BeatmapLevelPackCollection
   #pragma pack(pop)
-  static check_size<sizeof(BeatmapLevelPackCollection), 16 + sizeof(::Array<GlobalNamespace::IBeatmapLevelPack*>*)> __GlobalNamespace_BeatmapLevelPackCollectionSizeCheck;
+  static check_size<sizeof(BeatmapLevelPackCollection), 16 + sizeof(::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>)> __GlobalNamespace_BeatmapLevelPackCollectionSizeCheck;
   static_assert(sizeof(BeatmapLevelPackCollection) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelPackCollection*, "", "BeatmapLevelPackCollection");
@@ -65,7 +65,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelPackCollection*, "", "Beatma
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelPackCollection::get_beatmapLevelPacks
 // Il2CppName: get_beatmapLevelPacks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::IBeatmapLevelPack*>* (GlobalNamespace::BeatmapLevelPackCollection::*)()>(&GlobalNamespace::BeatmapLevelPackCollection::get_beatmapLevelPacks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> (GlobalNamespace::BeatmapLevelPackCollection::*)()>(&GlobalNamespace::BeatmapLevelPackCollection::get_beatmapLevelPacks)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelPackCollection*), "get_beatmapLevelPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

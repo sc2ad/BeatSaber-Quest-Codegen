@@ -18,10 +18,6 @@ namespace OnlineServices {
   class LeaderboardEntryData;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
 // Type namespace: OnlineServices
 namespace OnlineServices {
   // Size: 0x14
@@ -43,9 +39,9 @@ namespace OnlineServices {
     // public readonly OnlineServices.LeaderboardEntryData[] leaderboardEntries
     // Size: 0x8
     // Offset: 0x8
-    ::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries;
+    ::ArrayWrapper<OnlineServices::LeaderboardEntryData*> leaderboardEntries;
     // Field size check
-    static_assert(sizeof(::Array<OnlineServices::LeaderboardEntryData*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<OnlineServices::LeaderboardEntryData*>) == 0x8);
     // public readonly System.Int32 referencePlayerScoreIndex
     // Size: 0x4
     // Offset: 0x10
@@ -53,7 +49,7 @@ namespace OnlineServices {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: GetLeaderboardEntriesResult
-    constexpr GetLeaderboardEntriesResult(bool isError_ = {}, ::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries_ = {}, int referencePlayerScoreIndex_ = {}) noexcept : isError{isError_}, leaderboardEntries{leaderboardEntries_}, referencePlayerScoreIndex{referencePlayerScoreIndex_} {}
+    constexpr GetLeaderboardEntriesResult(bool isError_ = {}, ::ArrayWrapper<OnlineServices::LeaderboardEntryData*> leaderboardEntries_ = {}, int referencePlayerScoreIndex_ = {}) noexcept : isError{isError_}, leaderboardEntries{leaderboardEntries_}, referencePlayerScoreIndex{referencePlayerScoreIndex_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -61,16 +57,16 @@ namespace OnlineServices {
     // Get instance field reference: public readonly System.Boolean isError
     bool& dyn_isError();
     // Get instance field reference: public readonly OnlineServices.LeaderboardEntryData[] leaderboardEntries
-    ::Array<OnlineServices::LeaderboardEntryData*>*& dyn_leaderboardEntries();
+    ::ArrayWrapper<OnlineServices::LeaderboardEntryData*>& dyn_leaderboardEntries();
     // Get instance field reference: public readonly System.Int32 referencePlayerScoreIndex
     int& dyn_referencePlayerScoreIndex();
     // static public OnlineServices.GetLeaderboardEntriesResult get_resultWithError()
-    // Offset: 0x1030D88
+    // Offset: 0x11201F8
     static OnlineServices::GetLeaderboardEntriesResult get_resultWithError();
     // public System.Void .ctor(System.Boolean isError, OnlineServices.LeaderboardEntryData[] leaderboardEntries, System.Int32 referencePlayerScoreIndex)
-    // Offset: 0x1030D74
+    // Offset: 0x11201E4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  GetLeaderboardEntriesResult(bool isError, ::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries, int referencePlayerScoreIndex)
+    // ABORTED: conflicts with another method.  GetLeaderboardEntriesResult(bool isError, ::ArrayWrapper<OnlineServices::LeaderboardEntryData*> leaderboardEntries, int referencePlayerScoreIndex)
   }; // OnlineServices.GetLeaderboardEntriesResult
   #pragma pack(pop)
   static check_size<sizeof(GetLeaderboardEntriesResult), 16 + sizeof(int)> __OnlineServices_GetLeaderboardEntriesResultSizeCheck;

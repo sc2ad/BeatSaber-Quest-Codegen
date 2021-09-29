@@ -33,25 +33,25 @@ namespace System::Net::Http {
     // Get instance field reference: private readonly System.Int64 maxSize
     int64_t& dyn_maxSize();
     // public System.Void .ctor(System.Int64 maxSize)
-    // Offset: 0x15B8CBC
+    // Offset: 0x175D174
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpContent::FixedMemoryStream* New_ctor(int64_t maxSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::HttpContent::FixedMemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpContent::FixedMemoryStream*, creationType>(maxSize)));
     }
     // private System.Void CheckOverflow(System.Int32 count)
-    // Offset: 0x15B9560
+    // Offset: 0x175DA18
     void CheckOverflow(int count);
     // public override System.Void WriteByte(System.Byte value)
-    // Offset: 0x15B96B0
+    // Offset: 0x175DB68
     // Implemented from: System.IO.MemoryStream
     // Base method: System.Void MemoryStream::WriteByte(System.Byte value)
     void WriteByte(uint8_t value);
     // public override System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x15B96E4
+    // Offset: 0x175DB9C
     // Implemented from: System.IO.MemoryStream
     // Base method: System.Void MemoryStream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    void Write(::Array<uint8_t>* buffer, int offset, int count);
+    void Write(::ArrayWrapper<uint8_t> buffer, int offset, int count);
   }; // System.Net.Http.HttpContent/System.Net.Http.FixedMemoryStream
   #pragma pack(pop)
   static check_size<sizeof(HttpContent::FixedMemoryStream), 80 + sizeof(int64_t)> __System_Net_Http_HttpContent_FixedMemoryStreamSizeCheck;
@@ -84,9 +84,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Http::HttpContent::FixedMemoryStream::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpContent::FixedMemoryStream::*)(::Array<uint8_t>*, int, int)>(&System::Net::Http::HttpContent::FixedMemoryStream::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpContent::FixedMemoryStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Net::Http::HttpContent::FixedMemoryStream::Write)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpContent::FixedMemoryStream*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, offset, count});

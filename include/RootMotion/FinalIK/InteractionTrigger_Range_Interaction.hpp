@@ -29,28 +29,28 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionTrigger::Range::Interaction : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xE3160C
+    // [TooltipAttribute] Offset: 0xEF7DE4
     // public RootMotion.FinalIK.InteractionObject interactionObject
     // Size: 0x8
     // Offset: 0x10
     RootMotion::FinalIK::InteractionObject* interactionObject;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::InteractionObject*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE31644
+    // [TooltipAttribute] Offset: 0xEF7E1C
     // public RootMotion.FinalIK.FullBodyBipedEffector[] effectors
     // Size: 0x8
     // Offset: 0x18
-    ::Array<RootMotion::FinalIK::FullBodyBipedEffector>* effectors;
+    ::ArrayWrapper<RootMotion::FinalIK::FullBodyBipedEffector> effectors;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::FullBodyBipedEffector>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::FullBodyBipedEffector>) == 0x8);
     // Creating value type constructor for type: Interaction
-    Interaction(RootMotion::FinalIK::InteractionObject* interactionObject_ = {}, ::Array<RootMotion::FinalIK::FullBodyBipedEffector>* effectors_ = {}) noexcept : interactionObject{interactionObject_}, effectors{effectors_} {}
+    Interaction(RootMotion::FinalIK::InteractionObject* interactionObject_ = {}, ::ArrayWrapper<RootMotion::FinalIK::FullBodyBipedEffector> effectors_ = {}) noexcept : interactionObject{interactionObject_}, effectors{effectors_} {}
     // Get instance field reference: public RootMotion.FinalIK.InteractionObject interactionObject
     RootMotion::FinalIK::InteractionObject*& dyn_interactionObject();
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector[] effectors
-    ::Array<RootMotion::FinalIK::FullBodyBipedEffector>*& dyn_effectors();
+    ::ArrayWrapper<RootMotion::FinalIK::FullBodyBipedEffector>& dyn_effectors();
     // public System.Void .ctor()
-    // Offset: 0x1ADA3A8
+    // Offset: 0x1C5CB28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,7 +60,7 @@ namespace RootMotion::FinalIK {
     }
   }; // RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range/RootMotion.FinalIK.Interaction
   #pragma pack(pop)
-  static check_size<sizeof(InteractionTrigger::Range::Interaction), 24 + sizeof(::Array<RootMotion::FinalIK::FullBodyBipedEffector>*)> __RootMotion_FinalIK_InteractionTrigger_Range_InteractionSizeCheck;
+  static check_size<sizeof(InteractionTrigger::Range::Interaction), 24 + sizeof(::ArrayWrapper<RootMotion::FinalIK::FullBodyBipedEffector>)> __RootMotion_FinalIK_InteractionTrigger_Range_InteractionSizeCheck;
   static_assert(sizeof(InteractionTrigger::Range::Interaction) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger::Range::Interaction*, "RootMotion.FinalIK", "InteractionTrigger/Range/Interaction");

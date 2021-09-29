@@ -40,9 +40,9 @@ namespace System::Xml {
     // private System.String[] args
     // Size: 0x8
     // Offset: 0x90
-    ::Array<::Il2CppString*>* args;
+    ::ArrayWrapper<::Il2CppString*> args;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // private System.Int32 lineNumber
     // Size: 0x4
     // Offset: 0x98
@@ -55,7 +55,7 @@ namespace System::Xml {
     int linePosition;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [OptionalFieldAttribute] Offset: 0xDABF48
+    // [OptionalFieldAttribute] Offset: 0xE68828
     // private System.String sourceUri
     // Size: 0x8
     // Offset: 0xA0
@@ -69,11 +69,11 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: XmlException
-    XmlException(::Il2CppString* res_ = {}, ::Array<::Il2CppString*>* args_ = {}, int lineNumber_ = {}, int linePosition_ = {}, ::Il2CppString* sourceUri_ = {}, ::Il2CppString* message_ = {}) noexcept : res{res_}, args{args_}, lineNumber{lineNumber_}, linePosition{linePosition_}, sourceUri{sourceUri_}, message{message_} {}
+    XmlException(::Il2CppString* res_ = {}, ::ArrayWrapper<::Il2CppString*> args_ = {}, int lineNumber_ = {}, int linePosition_ = {}, ::Il2CppString* sourceUri_ = {}, ::Il2CppString* message_ = {}) noexcept : res{res_}, args{args_}, lineNumber{lineNumber_}, linePosition{linePosition_}, sourceUri{sourceUri_}, message{message_} {}
     // Get instance field reference: private System.String res
     ::Il2CppString*& dyn_res();
     // Get instance field reference: private System.String[] args
-    ::Array<::Il2CppString*>*& dyn_args();
+    ::ArrayWrapper<::Il2CppString*>& dyn_args();
     // Get instance field reference: private System.Int32 lineNumber
     int& dyn_lineNumber();
     // Get instance field reference: private System.Int32 linePosition
@@ -83,73 +83,73 @@ namespace System::Xml {
     // Get instance field reference: private System.String message
     ::Il2CppString*& dyn_message();
     // public System.Void .ctor(System.String message, System.Exception innerException, System.Int32 lineNumber, System.Int32 linePosition)
-    // Offset: 0x1963E98
+    // Offset: 0x1B04CD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlException* New_ctor(::Il2CppString* message, System::Exception* innerException, int lineNumber, int linePosition) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlException*, creationType>(message, innerException, lineNumber, linePosition)));
     }
     // System.Void .ctor(System.String message, System.Exception innerException, System.Int32 lineNumber, System.Int32 linePosition, System.String sourceUri)
-    // Offset: 0x1963EA0
+    // Offset: 0x1B04CD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlException* New_ctor(::Il2CppString* message, System::Exception* innerException, int lineNumber, int linePosition, ::Il2CppString* sourceUri) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlException*, creationType>(message, innerException, lineNumber, linePosition, sourceUri)));
     }
     // System.Void .ctor(System.String res, System.String[] args)
-    // Offset: 0x19640B8
+    // Offset: 0x1B04EF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlException* New_ctor(::Il2CppString* res, ::Array<::Il2CppString*>* args) {
+    static XmlException* New_ctor(::Il2CppString* res, ::ArrayWrapper<::Il2CppString*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlException*, creationType>(res, args)));
     }
     // System.Void .ctor(System.String res, System.String arg)
-    // Offset: 0x195BCCC
+    // Offset: 0x1AFCB04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlException* New_ctor(::Il2CppString* res, ::Il2CppString* arg) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlException*, creationType>(res, arg)));
     }
     // System.Void .ctor(System.String res, System.String arg, System.Int32 lineNumber, System.Int32 linePosition)
-    // Offset: 0x195F928
+    // Offset: 0x1B00760
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlException* New_ctor(::Il2CppString* res, ::Il2CppString* arg, int lineNumber, int linePosition) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlException*, creationType>(res, arg, lineNumber, linePosition)));
     }
     // System.Void .ctor(System.String res, System.String[] args, System.Int32 lineNumber, System.Int32 linePosition)
-    // Offset: 0x195FAA8
+    // Offset: 0x1B008E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlException* New_ctor(::Il2CppString* res, ::Array<::Il2CppString*>* args, int lineNumber, int linePosition) {
+    static XmlException* New_ctor(::Il2CppString* res, ::ArrayWrapper<::Il2CppString*> args, int lineNumber, int linePosition) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlException*, creationType>(res, args, lineNumber, linePosition)));
     }
     // System.Void .ctor(System.String res, System.String[] args, System.Exception innerException, System.Int32 lineNumber, System.Int32 linePosition, System.String sourceUri)
-    // Offset: 0x1964120
+    // Offset: 0x1B04F58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlException* New_ctor(::Il2CppString* res, ::Array<::Il2CppString*>* args, System::Exception* innerException, int lineNumber, int linePosition, ::Il2CppString* sourceUri) {
+    static XmlException* New_ctor(::Il2CppString* res, ::ArrayWrapper<::Il2CppString*> args, System::Exception* innerException, int lineNumber, int linePosition, ::Il2CppString* sourceUri) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlException*, creationType>(res, args, innerException, lineNumber, linePosition, sourceUri)));
     }
     // static private System.String FormatUserMessage(System.String message, System.Int32 lineNumber, System.Int32 linePosition)
-    // Offset: 0x1963FC8
+    // Offset: 0x1B04E00
     static ::Il2CppString* FormatUserMessage(::Il2CppString* message, int lineNumber, int linePosition);
     // static private System.String CreateMessage(System.String res, System.String[] args, System.Int32 lineNumber, System.Int32 linePosition)
-    // Offset: 0x1963AA8
-    static ::Il2CppString* CreateMessage(::Il2CppString* res, ::Array<::Il2CppString*>* args, int lineNumber, int linePosition);
+    // Offset: 0x1B048E0
+    static ::Il2CppString* CreateMessage(::Il2CppString* res, ::ArrayWrapper<::Il2CppString*> args, int lineNumber, int linePosition);
     // static System.String[] BuildCharExceptionArgs(System.String data, System.Int32 invCharIndex)
-    // Offset: 0x195F568
-    static ::Array<::Il2CppString*>* BuildCharExceptionArgs(::Il2CppString* data, int invCharIndex);
+    // Offset: 0x1B003A0
+    static ::ArrayWrapper<::Il2CppString*> BuildCharExceptionArgs(::Il2CppString* data, int invCharIndex);
     // static System.String[] BuildCharExceptionArgs(System.Char invChar, System.Char nextChar)
-    // Offset: 0x1960034
-    static ::Array<::Il2CppString*>* BuildCharExceptionArgs(::Il2CppChar invChar, ::Il2CppChar nextChar);
+    // Offset: 0x1B00E6C
+    static ::ArrayWrapper<::Il2CppString*> BuildCharExceptionArgs(::Il2CppChar invChar, ::Il2CppChar nextChar);
     // public override System.String get_Message()
-    // Offset: 0x19641AC
+    // Offset: 0x1B04FE4
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
     ::Il2CppString* get_Message();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1963790
+    // Offset: 0x1B045C8
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -159,7 +159,7 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<XmlException*, creationType>(info, context)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1963E6C
+    // Offset: 0x1B04CA4
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
@@ -170,7 +170,7 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<XmlException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1963E84
+    // Offset: 0x1B04CBC
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
@@ -180,7 +180,7 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<XmlException*, creationType>(message)));
     }
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1963D44
+    // Offset: 0x1B04B7C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -233,10 +233,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Xml::XmlException::CreateMessage
 // Il2CppName: CreateMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<::Il2CppString*>*, int, int)>(&System::Xml::XmlException::CreateMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppString*>, int, int)>(&System::Xml::XmlException::CreateMessage)> {
   static const MethodInfo* get() {
     static auto* res = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
     static auto* lineNumber = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* linePosition = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlException*), "CreateMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{res, args, lineNumber, linePosition});
@@ -245,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Xml::XmlException::BuildCharExceptionArgs
 // Il2CppName: BuildCharExceptionArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, int)>(&System::Xml::XmlException::BuildCharExceptionArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(::Il2CppString*, int)>(&System::Xml::XmlException::BuildCharExceptionArgs)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* invCharIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -255,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Writing MetadataGetter for method: System::Xml::XmlException::BuildCharExceptionArgs
 // Il2CppName: BuildCharExceptionArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppChar, ::Il2CppChar)>(&System::Xml::XmlException::BuildCharExceptionArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(::Il2CppChar, ::Il2CppChar)>(&System::Xml::XmlException::BuildCharExceptionArgs)> {
   static const MethodInfo* get() {
     static auto* invChar = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* nextChar = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;

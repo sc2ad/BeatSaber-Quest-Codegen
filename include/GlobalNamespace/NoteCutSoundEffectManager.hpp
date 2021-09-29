@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AudioManagerSO* audioManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioManagerSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE37C48
+    // [SpaceAttribute] Offset: 0xF003BC
     // private System.Single _audioSamplesBeatAlignOffset
     // Size: 0x4
     // Offset: 0x20
@@ -74,51 +74,51 @@ namespace GlobalNamespace {
     // private UnityEngine.AudioClip[] _longCutEffectsAudioClips
     // Size: 0x8
     // Offset: 0x28
-    ::Array<UnityEngine::AudioClip*>* longCutEffectsAudioClips;
+    ::ArrayWrapper<UnityEngine::AudioClip*> longCutEffectsAudioClips;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::AudioClip*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::AudioClip*>) == 0x8);
     // private UnityEngine.AudioClip[] _shortCutEffectsAudioClips
     // Size: 0x8
     // Offset: 0x30
-    ::Array<UnityEngine::AudioClip*>* shortCutEffectsAudioClips;
+    ::ArrayWrapper<UnityEngine::AudioClip*> shortCutEffectsAudioClips;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::AudioClip*>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE37CA0
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::AudioClip*>) == 0x8);
+    // [SpaceAttribute] Offset: 0xF00414
     // private UnityEngine.AudioClip _testAudioClip
     // Size: 0x8
     // Offset: 0x38
     UnityEngine::AudioClip* testAudioClip;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioClip*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xE37CD8
+    // [InjectOptionalAttribute] Offset: 0xF0044C
     // private readonly NoteCutSoundEffectManager/InitData _initData
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::NoteCutSoundEffectManager::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteCutSoundEffectManager::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE37CE8
+    // [InjectAttribute] Offset: 0xF0045C
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE37CF8
+    // [InjectAttribute] Offset: 0xF0046C
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE37D08
+    // [InjectAttribute] Offset: 0xF0047C
     // private readonly NoteCutSoundEffect/Pool _noteCutSoundEffectPool
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::NoteCutSoundEffect::Pool* noteCutSoundEffectPool;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteCutSoundEffect::Pool*) == 0x8);
-    // [InjectAttribute] Offset: 0xE37D18
+    // [InjectAttribute] Offset: 0xF0048C
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x60
@@ -190,7 +190,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::NoteCutSoundEffect*>*) == 0x8);
     // Creating value type constructor for type: NoteCutSoundEffectManager
-    NoteCutSoundEffectManager(GlobalNamespace::AudioManagerSO* audioManager_ = {}, float audioSamplesBeatAlignOffset_ = {}, ::Array<UnityEngine::AudioClip*>* longCutEffectsAudioClips_ = {}, ::Array<UnityEngine::AudioClip*>* shortCutEffectsAudioClips_ = {}, UnityEngine::AudioClip* testAudioClip_ = {}, GlobalNamespace::NoteCutSoundEffectManager::InitData* initData_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::SaberManager* saberManager_ = {}, GlobalNamespace::NoteCutSoundEffect::Pool* noteCutSoundEffectPool_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, bool handleWrongSaberTypeAsGood_ = {}, GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomLongCutSoundPicker_ = {}, GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomShortCutSoundPicker_ = {}, float prevNoteATime_ = {}, float prevNoteBTime_ = {}, GlobalNamespace::NoteCutSoundEffect* prevNoteASoundEffect_ = {}, GlobalNamespace::NoteCutSoundEffect* prevNoteBSoundEffect_ = {}, float beatAlignOffset_ = {}, bool useTestAudioClips_ = {}, GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::NoteCutSoundEffect*>* noteCutSoundEffectPoolContainer_ = {}) noexcept : audioManager{audioManager_}, audioSamplesBeatAlignOffset{audioSamplesBeatAlignOffset_}, longCutEffectsAudioClips{longCutEffectsAudioClips_}, shortCutEffectsAudioClips{shortCutEffectsAudioClips_}, testAudioClip{testAudioClip_}, initData{initData_}, beatmapObjectManager{beatmapObjectManager_}, saberManager{saberManager_}, noteCutSoundEffectPool{noteCutSoundEffectPool_}, audioTimeSyncController{audioTimeSyncController_}, handleWrongSaberTypeAsGood{handleWrongSaberTypeAsGood_}, randomLongCutSoundPicker{randomLongCutSoundPicker_}, randomShortCutSoundPicker{randomShortCutSoundPicker_}, prevNoteATime{prevNoteATime_}, prevNoteBTime{prevNoteBTime_}, prevNoteASoundEffect{prevNoteASoundEffect_}, prevNoteBSoundEffect{prevNoteBSoundEffect_}, beatAlignOffset{beatAlignOffset_}, useTestAudioClips{useTestAudioClips_}, noteCutSoundEffectPoolContainer{noteCutSoundEffectPoolContainer_} {}
+    NoteCutSoundEffectManager(GlobalNamespace::AudioManagerSO* audioManager_ = {}, float audioSamplesBeatAlignOffset_ = {}, ::ArrayWrapper<UnityEngine::AudioClip*> longCutEffectsAudioClips_ = {}, ::ArrayWrapper<UnityEngine::AudioClip*> shortCutEffectsAudioClips_ = {}, UnityEngine::AudioClip* testAudioClip_ = {}, GlobalNamespace::NoteCutSoundEffectManager::InitData* initData_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::SaberManager* saberManager_ = {}, GlobalNamespace::NoteCutSoundEffect::Pool* noteCutSoundEffectPool_ = {}, GlobalNamespace::AudioTimeSyncController* audioTimeSyncController_ = {}, bool handleWrongSaberTypeAsGood_ = {}, GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomLongCutSoundPicker_ = {}, GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomShortCutSoundPicker_ = {}, float prevNoteATime_ = {}, float prevNoteBTime_ = {}, GlobalNamespace::NoteCutSoundEffect* prevNoteASoundEffect_ = {}, GlobalNamespace::NoteCutSoundEffect* prevNoteBSoundEffect_ = {}, float beatAlignOffset_ = {}, bool useTestAudioClips_ = {}, GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::NoteCutSoundEffect*>* noteCutSoundEffectPoolContainer_ = {}) noexcept : audioManager{audioManager_}, audioSamplesBeatAlignOffset{audioSamplesBeatAlignOffset_}, longCutEffectsAudioClips{longCutEffectsAudioClips_}, shortCutEffectsAudioClips{shortCutEffectsAudioClips_}, testAudioClip{testAudioClip_}, initData{initData_}, beatmapObjectManager{beatmapObjectManager_}, saberManager{saberManager_}, noteCutSoundEffectPool{noteCutSoundEffectPool_}, audioTimeSyncController{audioTimeSyncController_}, handleWrongSaberTypeAsGood{handleWrongSaberTypeAsGood_}, randomLongCutSoundPicker{randomLongCutSoundPicker_}, randomShortCutSoundPicker{randomShortCutSoundPicker_}, prevNoteATime{prevNoteATime_}, prevNoteBTime{prevNoteBTime_}, prevNoteASoundEffect{prevNoteASoundEffect_}, prevNoteBSoundEffect{prevNoteBSoundEffect_}, beatAlignOffset{beatAlignOffset_}, useTestAudioClips{useTestAudioClips_}, noteCutSoundEffectPoolContainer{noteCutSoundEffectPoolContainer_} {}
     // Creating interface conversion operator: operator GlobalNamespace::INoteCutSoundEffectDidFinishEvent
     operator GlobalNamespace::INoteCutSoundEffectDidFinishEvent() noexcept {
       return *reinterpret_cast<GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>(this);
@@ -220,9 +220,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _audioSamplesBeatAlignOffset
     float& dyn__audioSamplesBeatAlignOffset();
     // Get instance field reference: private UnityEngine.AudioClip[] _longCutEffectsAudioClips
-    ::Array<UnityEngine::AudioClip*>*& dyn__longCutEffectsAudioClips();
+    ::ArrayWrapper<UnityEngine::AudioClip*>& dyn__longCutEffectsAudioClips();
     // Get instance field reference: private UnityEngine.AudioClip[] _shortCutEffectsAudioClips
-    ::Array<UnityEngine::AudioClip*>*& dyn__shortCutEffectsAudioClips();
+    ::ArrayWrapper<UnityEngine::AudioClip*>& dyn__shortCutEffectsAudioClips();
     // Get instance field reference: private UnityEngine.AudioClip _testAudioClip
     UnityEngine::AudioClip*& dyn__testAudioClip();
     // Get instance field reference: private readonly NoteCutSoundEffectManager/InitData _initData
@@ -256,28 +256,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private MemoryPoolContainer`1<NoteCutSoundEffect> _noteCutSoundEffectPoolContainer
     GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::NoteCutSoundEffect*>*& dyn__noteCutSoundEffectPoolContainer();
     // public System.Boolean get_handleWrongSaberTypeAsGood()
-    // Offset: 0x1050724
+    // Offset: 0x13530B8
     bool get_handleWrongSaberTypeAsGood();
     // public System.Void set_handleWrongSaberTypeAsGood(System.Boolean value)
-    // Offset: 0x105072C
+    // Offset: 0x13530C0
     void set_handleWrongSaberTypeAsGood(bool value);
     // protected System.Void Start()
-    // Offset: 0x1050738
+    // Offset: 0x13530CC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x105093C
+    // Offset: 0x13532D0
     void OnDestroy();
     // private System.Void HandleNoteWasSpawned(NoteController noteController)
-    // Offset: 0x1050A24
+    // Offset: 0x13533B8
     void HandleNoteWasSpawned(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x1050F00
+    // Offset: 0x1353894
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo);
     // public System.Void HandleNoteCutSoundEffectDidFinish(NoteCutSoundEffect noteCutSoundEffect)
-    // Offset: 0x1051028
+    // Offset: 0x13539BC
     void HandleNoteCutSoundEffectDidFinish(GlobalNamespace::NoteCutSoundEffect* noteCutSoundEffect);
     // public System.Void .ctor()
-    // Offset: 0x105110C
+    // Offset: 0x1353AA0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

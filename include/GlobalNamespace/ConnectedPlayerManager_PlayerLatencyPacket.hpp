@@ -62,22 +62,22 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single latency
     float& dyn_latency();
     // static public PacketPool`1<ConnectedPlayerManager/PlayerLatencyPacket> get_pool()
-    // Offset: 0x1339930
+    // Offset: 0x1450F70
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerLatencyPacket*>* get_pool();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x133CC94
+    // Offset: 0x14542D4
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x133CCB4
+    // Offset: 0x14542F4
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public ConnectedPlayerManager/PlayerLatencyPacket Init(System.Single latency)
-    // Offset: 0x133B0B4
+    // Offset: 0x14526F4
     GlobalNamespace::ConnectedPlayerManager::PlayerLatencyPacket* Init(float latency);
     // public System.Void Release()
-    // Offset: 0x133BE8C
+    // Offset: 0x14534CC
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x133CCE8
+    // Offset: 0x1454328
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -48,38 +48,38 @@ namespace System::IO {
     // Get instance field reference: private System.TermInfoDriver driver
     System::TermInfoDriver*& dyn_driver();
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding, System.Boolean leaveOpen)
-    // Offset: 0x196F380
+    // Offset: 0x1AAF3CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CStreamWriter* New_ctor(System::IO::Stream* stream, System::Text::Encoding* encoding, bool leaveOpen) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::CStreamWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CStreamWriter*, creationType>(stream, encoding, leaveOpen)));
     }
     // public System.Void InternalWriteString(System.String val)
-    // Offset: 0x196FDFC
+    // Offset: 0x1AAFE48
     void InternalWriteString(::Il2CppString* val);
     // public System.Void InternalWriteChar(System.Char val)
-    // Offset: 0x196FD2C
+    // Offset: 0x1AAFD78
     void InternalWriteChar(::Il2CppChar val);
     // public System.Void InternalWriteChars(System.Char[] buffer, System.Int32 n)
-    // Offset: 0x197003C
-    void InternalWriteChars(::Array<::Il2CppChar>* buffer, int n);
+    // Offset: 0x1AB0088
+    void InternalWriteChars(::ArrayWrapper<::Il2CppChar> buffer, int n);
     // public override System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x196F62C
+    // Offset: 0x1AAF678
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    void Write(::Array<::Il2CppChar>* buffer, int index, int count);
+    void Write(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
     // public override System.Void Write(System.Char val)
-    // Offset: 0x196FB98
+    // Offset: 0x1AAFBE4
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.Char val)
     void Write(::Il2CppChar val);
     // public override System.Void Write(System.Char[] val)
-    // Offset: 0x1970118
+    // Offset: 0x1AB0164
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.Char[] val)
-    void Write(::Array<::Il2CppChar>* val);
+    void Write(::ArrayWrapper<::Il2CppChar> val);
     // public override System.Void Write(System.String val)
-    // Offset: 0x1970140
+    // Offset: 0x1AB018C
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.String val)
     void Write(::Il2CppString* val);
@@ -115,9 +115,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::CStreamWriter::InternalWriteChars
 // Il2CppName: InternalWriteChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::CStreamWriter::*)(::Array<::Il2CppChar>*, int)>(&System::IO::CStreamWriter::InternalWriteChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::CStreamWriter::*)(::ArrayWrapper<::Il2CppChar>, int)>(&System::IO::CStreamWriter::InternalWriteChars)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::CStreamWriter*), "InternalWriteChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, n});
   }
@@ -125,9 +125,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::CStreamWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::CStreamWriter::*)(::Array<::Il2CppChar>*, int, int)>(&System::IO::CStreamWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::CStreamWriter::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::IO::CStreamWriter::Write)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::CStreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index, count});
@@ -145,9 +145,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::CStreamWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::CStreamWriter::*)(::Array<::Il2CppChar>*)>(&System::IO::CStreamWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::CStreamWriter::*)(::ArrayWrapper<::Il2CppChar>)>(&System::IO::CStreamWriter::Write)> {
   static const MethodInfo* get() {
-    static auto* val = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
+    static auto* val = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::CStreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }
 };

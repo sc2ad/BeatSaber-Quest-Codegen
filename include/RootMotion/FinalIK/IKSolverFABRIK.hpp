@@ -36,90 +36,90 @@ namespace RootMotion::FinalIK {
     // private System.Boolean[] limitedBones
     // Size: 0x8
     // Offset: 0x90
-    ::Array<bool>* limitedBones;
+    ::ArrayWrapper<bool> limitedBones;
     // Field size check
-    static_assert(sizeof(::Array<bool>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<bool>) == 0x8);
     // private UnityEngine.Vector3[] solverLocalPositions
     // Size: 0x8
     // Offset: 0x98
-    ::Array<UnityEngine::Vector3>* solverLocalPositions;
+    ::ArrayWrapper<UnityEngine::Vector3> solverLocalPositions;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
     // Creating value type constructor for type: IKSolverFABRIK
-    IKSolverFABRIK(RootMotion::FinalIK::IKSolver::IterationDelegate* OnPreIteration_ = {}, ::Array<bool>* limitedBones_ = {}, ::Array<UnityEngine::Vector3>* solverLocalPositions_ = {}) noexcept : OnPreIteration{OnPreIteration_}, limitedBones{limitedBones_}, solverLocalPositions{solverLocalPositions_} {}
+    IKSolverFABRIK(RootMotion::FinalIK::IKSolver::IterationDelegate* OnPreIteration_ = {}, ::ArrayWrapper<bool> limitedBones_ = {}, ::ArrayWrapper<UnityEngine::Vector3> solverLocalPositions_ = {}) noexcept : OnPreIteration{OnPreIteration_}, limitedBones{limitedBones_}, solverLocalPositions{solverLocalPositions_} {}
     // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.IterationDelegate OnPreIteration
     RootMotion::FinalIK::IKSolver::IterationDelegate*& dyn_OnPreIteration();
     // Get instance field reference: private System.Boolean[] limitedBones
-    ::Array<bool>*& dyn_limitedBones();
+    ::ArrayWrapper<bool>& dyn_limitedBones();
     // Get instance field reference: private UnityEngine.Vector3[] solverLocalPositions
-    ::Array<UnityEngine::Vector3>*& dyn_solverLocalPositions();
+    ::ArrayWrapper<UnityEngine::Vector3>& dyn_solverLocalPositions();
     // public System.Void SolveForward(UnityEngine.Vector3 position)
-    // Offset: 0x1CAD2A4
+    // Offset: 0x1E5F304
     void SolveForward(UnityEngine::Vector3 position);
     // public System.Void SolveBackward(UnityEngine.Vector3 position)
-    // Offset: 0x1CAD9E8
+    // Offset: 0x1E5FA48
     void SolveBackward(UnityEngine::Vector3 position);
     // private UnityEngine.Vector3 SolveJoint(UnityEngine.Vector3 pos1, UnityEngine.Vector3 pos2, System.Single length)
-    // Offset: 0x1CAE4C4
+    // Offset: 0x1E60524
     UnityEngine::Vector3 SolveJoint(UnityEngine::Vector3 pos1, UnityEngine::Vector3 pos2, float length);
     // private System.Void OnPreSolve()
-    // Offset: 0x1CAD374
+    // Offset: 0x1E5F3D4
     void OnPreSolve();
     // private System.Void OnPostSolve()
-    // Offset: 0x1CADAC8
+    // Offset: 0x1E5FB28
     void OnPostSolve();
     // private System.Void Solve(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x1CAE460
+    // Offset: 0x1E604C0
     void Solve(UnityEngine::Vector3 targetPosition);
     // private System.Void ForwardReach(UnityEngine.Vector3 position)
-    // Offset: 0x1CAD810
+    // Offset: 0x1E5F870
     void ForwardReach(UnityEngine::Vector3 position);
     // private System.Void SolverMove(System.Int32 index, UnityEngine.Vector3 offset)
-    // Offset: 0x1CAED0C
+    // Offset: 0x1E60D6C
     void SolverMove(int index, UnityEngine::Vector3 offset);
     // private System.Void SolverRotate(System.Int32 index, UnityEngine.Quaternion rotation, System.Boolean recursive)
-    // Offset: 0x1CAEE1C
+    // Offset: 0x1E60E7C
     void SolverRotate(int index, UnityEngine::Quaternion rotation, bool recursive);
     // private System.Void SolverRotateChildren(System.Int32 index, UnityEngine.Quaternion rotation)
-    // Offset: 0x1CAEF48
+    // Offset: 0x1E60FA8
     void SolverRotateChildren(int index, UnityEngine::Quaternion rotation);
     // private System.Void SolverMoveChildrenAroundPoint(System.Int32 index, UnityEngine.Quaternion rotation)
-    // Offset: 0x1CAF060
+    // Offset: 0x1E610C0
     void SolverMoveChildrenAroundPoint(int index, UnityEngine::Quaternion rotation);
     // private UnityEngine.Quaternion GetParentSolverRotation(System.Int32 index)
-    // Offset: 0x1CADEC0
+    // Offset: 0x1E5FF20
     UnityEngine::Quaternion GetParentSolverRotation(int index);
     // private UnityEngine.Vector3 GetParentSolverPosition(System.Int32 index)
-    // Offset: 0x1CAE00C
+    // Offset: 0x1E6006C
     UnityEngine::Vector3 GetParentSolverPosition(int index);
     // private UnityEngine.Quaternion GetLimitedRotation(System.Int32 index, UnityEngine.Quaternion q, out System.Boolean changed)
-    // Offset: 0x1CAF24C
+    // Offset: 0x1E612AC
     UnityEngine::Quaternion GetLimitedRotation(int index, UnityEngine::Quaternion q, ByRef<bool> changed);
     // private System.Void LimitForward(System.Int32 rotateBone, System.Int32 limitBone)
-    // Offset: 0x1CAE780
+    // Offset: 0x1E607E0
     void LimitForward(int rotateBone, int limitBone);
     // private System.Void BackwardReach(UnityEngine.Vector3 position)
-    // Offset: 0x1CADAB8
+    // Offset: 0x1E5FB18
     void BackwardReach(UnityEngine::Vector3 position);
     // private System.Void BackwardReachUnlimited(UnityEngine.Vector3 position)
-    // Offset: 0x1CAF9BC
+    // Offset: 0x1E61A1C
     void BackwardReachUnlimited(UnityEngine::Vector3 position);
     // private System.Void BackwardReachLimited(UnityEngine.Vector3 position)
-    // Offset: 0x1CAF424
+    // Offset: 0x1E61484
     void BackwardReachLimited(UnityEngine::Vector3 position);
     // private System.Void MapToSolverPositions()
-    // Offset: 0x1CAE5DC
+    // Offset: 0x1E6063C
     void MapToSolverPositions();
     // private System.Void MapToSolverPositionsLimited()
-    // Offset: 0x1CAE6BC
+    // Offset: 0x1E6071C
     void MapToSolverPositionsLimited();
     // protected override System.Boolean get_boneLengthCanBeZero()
-    // Offset: 0x1CAE4BC
+    // Offset: 0x1E6051C
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Boolean IKSolverHeuristic::get_boneLengthCanBeZero()
     bool get_boneLengthCanBeZero();
     // public System.Void .ctor()
-    // Offset: 0x1CAFA88
+    // Offset: 0x1E61AE8
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::.ctor()
     // Base method: System.Void IKSolver::.ctor()
@@ -130,23 +130,23 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverFABRIK*, creationType>()));
     }
     // public override UnityEngine.Vector3 GetIKPosition()
-    // Offset: 0x1CADB1C
+    // Offset: 0x1E5FB7C
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: UnityEngine.Vector3 IKSolver::GetIKPosition()
     UnityEngine::Vector3 GetIKPosition();
     // protected override System.Void OnInitiate()
-    // Offset: 0x1CADBB4
+    // Offset: 0x1E5FC14
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::OnInitiate()
     void OnInitiate();
     // protected override System.Void OnUpdate()
-    // Offset: 0x1CAE158
+    // Offset: 0x1E601B8
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::OnUpdate()
     void OnUpdate();
   }; // RootMotion.FinalIK.IKSolverFABRIK
   #pragma pack(pop)
-  static check_size<sizeof(IKSolverFABRIK), 152 + sizeof(::Array<UnityEngine::Vector3>*)> __RootMotion_FinalIK_IKSolverFABRIKSizeCheck;
+  static check_size<sizeof(IKSolverFABRIK), 152 + sizeof(::ArrayWrapper<UnityEngine::Vector3>)> __RootMotion_FinalIK_IKSolverFABRIKSizeCheck;
   static_assert(sizeof(IKSolverFABRIK) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverFABRIK*, "RootMotion.FinalIK", "IKSolverFABRIK");

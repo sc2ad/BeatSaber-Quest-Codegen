@@ -43,16 +43,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.String> _lines
     System::Collections::Generic::List_1<::Il2CppString*>*& dyn__lines();
     // protected System.Void OnDestroy()
-    // Offset: 0x23943CC
+    // Offset: 0x259A2C4
     void OnDestroy();
     // public System.Void Log(System.String text)
-    // Offset: 0x2394064
+    // Offset: 0x2599F5C
     void Log(::Il2CppString* text);
     // public System.Void Clear()
-    // Offset: 0x2394358
+    // Offset: 0x259A250
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0x2394420
+    // Offset: 0x259A318
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

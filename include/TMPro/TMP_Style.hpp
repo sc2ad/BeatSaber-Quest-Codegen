@@ -47,17 +47,17 @@ namespace TMPro {
     // private System.Int32[] m_OpeningTagArray
     // Size: 0x8
     // Offset: 0x30
-    ::Array<int>* m_OpeningTagArray;
+    ::ArrayWrapper<int> m_OpeningTagArray;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // private System.Int32[] m_ClosingTagArray
     // Size: 0x8
     // Offset: 0x38
-    ::Array<int>* m_ClosingTagArray;
+    ::ArrayWrapper<int> m_ClosingTagArray;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // Creating value type constructor for type: TMP_Style
-    TMP_Style(::Il2CppString* m_Name_ = {}, int m_HashCode_ = {}, ::Il2CppString* m_OpeningDefinition_ = {}, ::Il2CppString* m_ClosingDefinition_ = {}, ::Array<int>* m_OpeningTagArray_ = {}, ::Array<int>* m_ClosingTagArray_ = {}) noexcept : m_Name{m_Name_}, m_HashCode{m_HashCode_}, m_OpeningDefinition{m_OpeningDefinition_}, m_ClosingDefinition{m_ClosingDefinition_}, m_OpeningTagArray{m_OpeningTagArray_}, m_ClosingTagArray{m_ClosingTagArray_} {}
+    TMP_Style(::Il2CppString* m_Name_ = {}, int m_HashCode_ = {}, ::Il2CppString* m_OpeningDefinition_ = {}, ::Il2CppString* m_ClosingDefinition_ = {}, ::ArrayWrapper<int> m_OpeningTagArray_ = {}, ::ArrayWrapper<int> m_ClosingTagArray_ = {}) noexcept : m_Name{m_Name_}, m_HashCode{m_HashCode_}, m_OpeningDefinition{m_OpeningDefinition_}, m_ClosingDefinition{m_ClosingDefinition_}, m_OpeningTagArray{m_OpeningTagArray_}, m_ClosingTagArray{m_ClosingTagArray_} {}
     // Get instance field reference: private System.String m_Name
     ::Il2CppString*& dyn_m_Name();
     // Get instance field reference: private System.Int32 m_HashCode
@@ -67,38 +67,38 @@ namespace TMPro {
     // Get instance field reference: private System.String m_ClosingDefinition
     ::Il2CppString*& dyn_m_ClosingDefinition();
     // Get instance field reference: private System.Int32[] m_OpeningTagArray
-    ::Array<int>*& dyn_m_OpeningTagArray();
+    ::ArrayWrapper<int>& dyn_m_OpeningTagArray();
     // Get instance field reference: private System.Int32[] m_ClosingTagArray
-    ::Array<int>*& dyn_m_ClosingTagArray();
+    ::ArrayWrapper<int>& dyn_m_ClosingTagArray();
     // public System.String get_name()
-    // Offset: 0x1157FF8
+    // Offset: 0x1226BA8
     ::Il2CppString* get_name();
     // public System.Void set_name(System.String value)
-    // Offset: 0x1158000
+    // Offset: 0x1226BB0
     void set_name(::Il2CppString* value);
     // public System.Int32 get_hashCode()
-    // Offset: 0x115803C
+    // Offset: 0x1226BEC
     int get_hashCode();
     // public System.Void set_hashCode(System.Int32 value)
-    // Offset: 0x1158044
+    // Offset: 0x1226BF4
     void set_hashCode(int value);
     // public System.String get_styleOpeningDefinition()
-    // Offset: 0x1158058
+    // Offset: 0x1226C08
     ::Il2CppString* get_styleOpeningDefinition();
     // public System.String get_styleClosingDefinition()
-    // Offset: 0x1158060
+    // Offset: 0x1226C10
     ::Il2CppString* get_styleClosingDefinition();
     // public System.Int32[] get_styleOpeningTagArray()
-    // Offset: 0x1158068
-    ::Array<int>* get_styleOpeningTagArray();
+    // Offset: 0x1226C18
+    ::ArrayWrapper<int> get_styleOpeningTagArray();
     // public System.Int32[] get_styleClosingTagArray()
-    // Offset: 0x1158070
-    ::Array<int>* get_styleClosingTagArray();
+    // Offset: 0x1226C20
+    ::ArrayWrapper<int> get_styleClosingTagArray();
     // public System.Void RefreshStyle()
-    // Offset: 0x1158078
+    // Offset: 0x1226C28
     void RefreshStyle();
     // public System.Void .ctor()
-    // Offset: 0x11581E8
+    // Offset: 0x1226D98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -108,7 +108,7 @@ namespace TMPro {
     }
   }; // TMPro.TMP_Style
   #pragma pack(pop)
-  static check_size<sizeof(TMP_Style), 56 + sizeof(::Array<int>*)> __TMPro_TMP_StyleSizeCheck;
+  static check_size<sizeof(TMP_Style), 56 + sizeof(::ArrayWrapper<int>)> __TMPro_TMP_StyleSizeCheck;
   static_assert(sizeof(TMP_Style) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Style*, "TMPro", "TMP_Style");
@@ -166,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: TMPro::TMP_Style::get_styleOpeningTagArray
 // Il2CppName: get_styleOpeningTagArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (TMPro::TMP_Style::*)()>(&TMPro::TMP_Style::get_styleOpeningTagArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (TMPro::TMP_Style::*)()>(&TMPro::TMP_Style::get_styleOpeningTagArray)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Style*), "get_styleOpeningTagArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int
 // Writing MetadataGetter for method: TMPro::TMP_Style::get_styleClosingTagArray
 // Il2CppName: get_styleClosingTagArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (TMPro::TMP_Style::*)()>(&TMPro::TMP_Style::get_styleClosingTagArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (TMPro::TMP_Style::*)()>(&TMPro::TMP_Style::get_styleClosingTagArray)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Style*), "get_styleClosingTagArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

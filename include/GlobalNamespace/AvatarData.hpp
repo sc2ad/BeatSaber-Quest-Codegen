@@ -151,113 +151,113 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String <skinColorId>k__BackingField
     ::Il2CppString*& dyn_$skinColorId$k__BackingField();
     // public System.String get_headTopId()
-    // Offset: 0x11799FC
+    // Offset: 0x1249D84
     ::Il2CppString* get_headTopId();
     // public System.Void set_headTopId(System.String value)
-    // Offset: 0x1179A04
+    // Offset: 0x1249D8C
     void set_headTopId(::Il2CppString* value);
     // public System.String get_glassesId()
-    // Offset: 0x1179A0C
+    // Offset: 0x1249D94
     ::Il2CppString* get_glassesId();
     // public System.Void set_glassesId(System.String value)
-    // Offset: 0x1179A14
+    // Offset: 0x1249D9C
     void set_glassesId(::Il2CppString* value);
     // public System.String get_facialHairId()
-    // Offset: 0x1179A1C
+    // Offset: 0x1249DA4
     ::Il2CppString* get_facialHairId();
     // public System.Void set_facialHairId(System.String value)
-    // Offset: 0x1179A24
+    // Offset: 0x1249DAC
     void set_facialHairId(::Il2CppString* value);
     // public System.String get_handsId()
-    // Offset: 0x1179A2C
+    // Offset: 0x1249DB4
     ::Il2CppString* get_handsId();
     // public System.Void set_handsId(System.String value)
-    // Offset: 0x1179A34
+    // Offset: 0x1249DBC
     void set_handsId(::Il2CppString* value);
     // public System.String get_clothesId()
-    // Offset: 0x1179A3C
+    // Offset: 0x1249DC4
     ::Il2CppString* get_clothesId();
     // public System.Void set_clothesId(System.String value)
-    // Offset: 0x1179A44
+    // Offset: 0x1249DCC
     void set_clothesId(::Il2CppString* value);
     // public System.String get_eyesId()
-    // Offset: 0x1179A4C
+    // Offset: 0x1249DD4
     ::Il2CppString* get_eyesId();
     // public System.Void set_eyesId(System.String value)
-    // Offset: 0x1179A54
+    // Offset: 0x1249DDC
     void set_eyesId(::Il2CppString* value);
     // public System.String get_mouthId()
-    // Offset: 0x1179A5C
+    // Offset: 0x1249DE4
     ::Il2CppString* get_mouthId();
     // public System.Void set_mouthId(System.String value)
-    // Offset: 0x1179A64
+    // Offset: 0x1249DEC
     void set_mouthId(::Il2CppString* value);
     // public UnityEngine.Color get_headTopPrimaryColor()
-    // Offset: 0x1179A6C
+    // Offset: 0x1249DF4
     UnityEngine::Color get_headTopPrimaryColor();
     // public System.Void set_headTopPrimaryColor(UnityEngine.Color value)
-    // Offset: 0x1179A78
+    // Offset: 0x1249E00
     void set_headTopPrimaryColor(UnityEngine::Color value);
     // public UnityEngine.Color get_headTopSecondaryColor()
-    // Offset: 0x1179A84
+    // Offset: 0x1249E0C
     UnityEngine::Color get_headTopSecondaryColor();
     // public System.Void set_headTopSecondaryColor(UnityEngine.Color value)
-    // Offset: 0x1179A90
+    // Offset: 0x1249E18
     void set_headTopSecondaryColor(UnityEngine::Color value);
     // public UnityEngine.Color get_glassesColor()
-    // Offset: 0x1179A9C
+    // Offset: 0x1249E24
     UnityEngine::Color get_glassesColor();
     // public System.Void set_glassesColor(UnityEngine.Color value)
-    // Offset: 0x1179AA8
+    // Offset: 0x1249E30
     void set_glassesColor(UnityEngine::Color value);
     // public UnityEngine.Color get_facialHairColor()
-    // Offset: 0x1179AB4
+    // Offset: 0x1249E3C
     UnityEngine::Color get_facialHairColor();
     // public System.Void set_facialHairColor(UnityEngine.Color value)
-    // Offset: 0x1179AC0
+    // Offset: 0x1249E48
     void set_facialHairColor(UnityEngine::Color value);
     // public UnityEngine.Color get_handsColor()
-    // Offset: 0x1179ACC
+    // Offset: 0x1249E54
     UnityEngine::Color get_handsColor();
     // public System.Void set_handsColor(UnityEngine.Color value)
-    // Offset: 0x1179AD8
+    // Offset: 0x1249E60
     void set_handsColor(UnityEngine::Color value);
     // public UnityEngine.Color get_clothesPrimaryColor()
-    // Offset: 0x1179AE4
+    // Offset: 0x1249E6C
     UnityEngine::Color get_clothesPrimaryColor();
     // public System.Void set_clothesPrimaryColor(UnityEngine.Color value)
-    // Offset: 0x1179AF0
+    // Offset: 0x1249E78
     void set_clothesPrimaryColor(UnityEngine::Color value);
     // public UnityEngine.Color get_clothesSecondaryColor()
-    // Offset: 0x1179AFC
+    // Offset: 0x1249E84
     UnityEngine::Color get_clothesSecondaryColor();
     // public System.Void set_clothesSecondaryColor(UnityEngine.Color value)
-    // Offset: 0x1179B08
+    // Offset: 0x1249E90
     void set_clothesSecondaryColor(UnityEngine::Color value);
     // public UnityEngine.Color get_clothesDetailColor()
-    // Offset: 0x1179B14
+    // Offset: 0x1249E9C
     UnityEngine::Color get_clothesDetailColor();
     // public System.Void set_clothesDetailColor(UnityEngine.Color value)
-    // Offset: 0x1179B20
+    // Offset: 0x1249EA8
     void set_clothesDetailColor(UnityEngine::Color value);
     // public System.String get_skinColorId()
-    // Offset: 0x1179B2C
+    // Offset: 0x1249EB4
     ::Il2CppString* get_skinColorId();
     // public System.Void set_skinColorId(System.String value)
-    // Offset: 0x1179B34
+    // Offset: 0x1249EBC
     void set_skinColorId(::Il2CppString* value);
     // public System.Void .ctor(System.String headTopId, UnityEngine.Color headTopPrimaryColor, UnityEngine.Color headTopSecondaryColor, System.String glassesId, UnityEngine.Color glassesColor, System.String facialHairId, UnityEngine.Color facialHairColor, System.String handsId, UnityEngine.Color handsColor, System.String clothesId, UnityEngine.Color clothesPrimaryColor, UnityEngine.Color clothesSecondaryColor, UnityEngine.Color clothesDetailColor, System.String skinColorId, System.String eyesId, System.String mouthId)
-    // Offset: 0x1179B44
+    // Offset: 0x1249ECC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarData* New_ctor(::Il2CppString* headTopId, UnityEngine::Color headTopPrimaryColor, UnityEngine::Color headTopSecondaryColor, ::Il2CppString* glassesId, UnityEngine::Color glassesColor, ::Il2CppString* facialHairId, UnityEngine::Color facialHairColor, ::Il2CppString* handsId, UnityEngine::Color handsColor, ::Il2CppString* clothesId, UnityEngine::Color clothesPrimaryColor, UnityEngine::Color clothesSecondaryColor, UnityEngine::Color clothesDetailColor, ::Il2CppString* skinColorId, ::Il2CppString* eyesId, ::Il2CppString* mouthId) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarData*, creationType>(headTopId, headTopPrimaryColor, headTopSecondaryColor, glassesId, glassesColor, facialHairId, facialHairColor, handsId, handsColor, clothesId, clothesPrimaryColor, clothesSecondaryColor, clothesDetailColor, skinColorId, eyesId, mouthId)));
     }
     // public AvatarData Clone()
-    // Offset: 0x1179C74
+    // Offset: 0x1249FFC
     GlobalNamespace::AvatarData* Clone();
     // public System.Void .ctor()
-    // Offset: 0x1179B3C
+    // Offset: 0x1249EC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

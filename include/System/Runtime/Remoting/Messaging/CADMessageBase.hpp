@@ -49,15 +49,15 @@ namespace System::Runtime::Remoting::Messaging {
     // protected System.Object[] _args
     // Size: 0x8
     // Offset: 0x10
-    ::Array<::Il2CppObject*>* args;
+    ::ArrayWrapper<::Il2CppObject*> args;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
     // protected System.Byte[] _serializedArgs
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* serializedArgs;
+    ::ArrayWrapper<uint8_t> serializedArgs;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // protected System.Int32 _propertyCount
     // Size: 0x4
     // Offset: 0x20
@@ -75,64 +75,64 @@ namespace System::Runtime::Remoting::Messaging {
     // System.Byte[] serializedMethod
     // Size: 0x8
     // Offset: 0x30
-    ::Array<uint8_t>* serializedMethod;
+    ::ArrayWrapper<uint8_t> serializedMethod;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: CADMessageBase
-    CADMessageBase(::Array<::Il2CppObject*>* args_ = {}, ::Array<uint8_t>* serializedArgs_ = {}, int propertyCount_ = {}, System::Runtime::Remoting::Messaging::CADArgHolder* callContext_ = {}, ::Array<uint8_t>* serializedMethod_ = {}) noexcept : args{args_}, serializedArgs{serializedArgs_}, propertyCount{propertyCount_}, callContext{callContext_}, serializedMethod{serializedMethod_} {}
+    CADMessageBase(::ArrayWrapper<::Il2CppObject*> args_ = {}, ::ArrayWrapper<uint8_t> serializedArgs_ = {}, int propertyCount_ = {}, System::Runtime::Remoting::Messaging::CADArgHolder* callContext_ = {}, ::ArrayWrapper<uint8_t> serializedMethod_ = {}) noexcept : args{args_}, serializedArgs{serializedArgs_}, propertyCount{propertyCount_}, callContext{callContext_}, serializedMethod{serializedMethod_} {}
     // Get instance field reference: protected System.Object[] _args
-    ::Array<::Il2CppObject*>*& dyn__args();
+    ::ArrayWrapper<::Il2CppObject*>& dyn__args();
     // Get instance field reference: protected System.Byte[] _serializedArgs
-    ::Array<uint8_t>*& dyn__serializedArgs();
+    ::ArrayWrapper<uint8_t>& dyn__serializedArgs();
     // Get instance field reference: protected System.Int32 _propertyCount
     int& dyn__propertyCount();
     // Get instance field reference: protected System.Runtime.Remoting.Messaging.CADArgHolder _callContext
     System::Runtime::Remoting::Messaging::CADArgHolder*& dyn__callContext();
     // Get instance field reference: System.Byte[] serializedMethod
-    ::Array<uint8_t>*& dyn_serializedMethod();
+    ::ArrayWrapper<uint8_t>& dyn_serializedMethod();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodMessage msg)
-    // Offset: 0x1A49540
+    // Offset: 0x1C11F10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADMessageBase* New_ctor(System::Runtime::Remoting::Messaging::IMethodMessage* msg) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::CADMessageBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CADMessageBase*, creationType>(msg)));
     }
     // System.Reflection.MethodBase GetMethod()
-    // Offset: 0x1A498C0
+    // Offset: 0x1C12290
     System::Reflection::MethodBase* GetMethod();
     // static protected System.Type[] GetSignature(System.Reflection.MethodBase methodBase, System.Boolean load)
-    // Offset: 0x1A49D64
-    static ::Array<System::Type*>* GetSignature(System::Reflection::MethodBase* methodBase, bool load);
+    // Offset: 0x1C12734
+    static ::ArrayWrapper<System::Type*> GetSignature(System::Reflection::MethodBase* methodBase, bool load);
     // static System.Int32 MarshalProperties(System.Collections.IDictionary dict, ref System.Collections.ArrayList args)
-    // Offset: 0x1A49F14
+    // Offset: 0x1C128E4
     static int MarshalProperties(System::Collections::IDictionary* dict, ByRef<System::Collections::ArrayList*> args);
     // static System.Void UnmarshalProperties(System.Collections.IDictionary dict, System.Int32 count, System.Collections.ArrayList args)
-    // Offset: 0x1A4A750
+    // Offset: 0x1C13120
     static void UnmarshalProperties(System::Collections::IDictionary* dict, int count, System::Collections::ArrayList* args);
     // static private System.Boolean IsPossibleToIgnoreMarshal(System.Object obj)
-    // Offset: 0x1A4A890
+    // Offset: 0x1C13260
     static bool IsPossibleToIgnoreMarshal(::Il2CppObject* obj);
     // protected System.Object MarshalArgument(System.Object arg, ref System.Collections.ArrayList args)
-    // Offset: 0x1A4AA1C
+    // Offset: 0x1C133EC
     ::Il2CppObject* MarshalArgument(::Il2CppObject* arg, ByRef<System::Collections::ArrayList*> args);
     // protected System.Object UnmarshalArgument(System.Object arg, System.Collections.ArrayList args)
-    // Offset: 0x1A4AC7C
+    // Offset: 0x1C1364C
     ::Il2CppObject* UnmarshalArgument(::Il2CppObject* arg, System::Collections::ArrayList* args);
     // System.Object[] MarshalArguments(System.Object[] arguments, ref System.Collections.ArrayList args)
-    // Offset: 0x1A4B344
-    ::Array<::Il2CppObject*>* MarshalArguments(::Array<::Il2CppObject*>* arguments, ByRef<System::Collections::ArrayList*> args);
+    // Offset: 0x1C13D14
+    ::ArrayWrapper<::Il2CppObject*> MarshalArguments(::ArrayWrapper<::Il2CppObject*> arguments, ByRef<System::Collections::ArrayList*> args);
     // System.Object[] UnmarshalArguments(System.Object[] arguments, System.Collections.ArrayList args)
-    // Offset: 0x1A4B454
-    ::Array<::Il2CppObject*>* UnmarshalArguments(::Array<::Il2CppObject*>* arguments, System::Collections::ArrayList* args);
+    // Offset: 0x1C13E24
+    ::ArrayWrapper<::Il2CppObject*> UnmarshalArguments(::ArrayWrapper<::Il2CppObject*> arguments, System::Collections::ArrayList* args);
     // protected System.Void SaveLogicalCallContext(System.Runtime.Remoting.Messaging.IMethodMessage msg, ref System.Collections.ArrayList serializeList)
-    // Offset: 0x1A4B564
+    // Offset: 0x1C13F34
     void SaveLogicalCallContext(System::Runtime::Remoting::Messaging::IMethodMessage* msg, ByRef<System::Collections::ArrayList*> serializeList);
     // System.Runtime.Remoting.Messaging.LogicalCallContext GetLogicalCallContext(System.Collections.ArrayList args)
-    // Offset: 0x1A4B808
+    // Offset: 0x1C141D8
     System::Runtime::Remoting::Messaging::LogicalCallContext* GetLogicalCallContext(System::Collections::ArrayList* args);
   }; // System.Runtime.Remoting.Messaging.CADMessageBase
   #pragma pack(pop)
-  static check_size<sizeof(CADMessageBase), 48 + sizeof(::Array<uint8_t>*)> __System_Runtime_Remoting_Messaging_CADMessageBaseSizeCheck;
+  static check_size<sizeof(CADMessageBase), 48 + sizeof(::ArrayWrapper<uint8_t>)> __System_Runtime_Remoting_Messaging_CADMessageBaseSizeCheck;
   static_assert(sizeof(CADMessageBase) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADMessageBase*, "System.Runtime.Remoting.Messaging", "CADMessageBase");
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMessageBase::GetSignature
 // Il2CppName: GetSignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (*)(System::Reflection::MethodBase*, bool)>(&System::Runtime::Remoting::Messaging::CADMessageBase::GetSignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Type*> (*)(System::Reflection::MethodBase*, bool)>(&System::Runtime::Remoting::Messaging::CADMessageBase::GetSignature)> {
   static const MethodInfo* get() {
     static auto* methodBase = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")->byval_arg;
     static auto* load = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -212,9 +212,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMessageBase::MarshalArguments
 // Il2CppName: MarshalArguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Runtime::Remoting::Messaging::CADMessageBase::*)(::Array<::Il2CppObject*>*, ByRef<System::Collections::ArrayList*>)>(&System::Runtime::Remoting::Messaging::CADMessageBase::MarshalArguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Runtime::Remoting::Messaging::CADMessageBase::*)(::ArrayWrapper<::Il2CppObject*>, ByRef<System::Collections::ArrayList*>)>(&System::Runtime::Remoting::Messaging::CADMessageBase::MarshalArguments)> {
   static const MethodInfo* get() {
-    static auto* arguments = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* arguments = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     static auto* args = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMessageBase*), "MarshalArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{arguments, args});
   }
@@ -222,9 +222,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMessageBase::UnmarshalArguments
 // Il2CppName: UnmarshalArguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Runtime::Remoting::Messaging::CADMessageBase::*)(::Array<::Il2CppObject*>*, System::Collections::ArrayList*)>(&System::Runtime::Remoting::Messaging::CADMessageBase::UnmarshalArguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Runtime::Remoting::Messaging::CADMessageBase::*)(::ArrayWrapper<::Il2CppObject*>, System::Collections::ArrayList*)>(&System::Runtime::Remoting::Messaging::CADMessageBase::UnmarshalArguments)> {
   static const MethodInfo* get() {
-    static auto* arguments = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* arguments = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     static auto* args = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMessageBase*), "UnmarshalArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{arguments, args});
   }

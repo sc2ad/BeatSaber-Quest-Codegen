@@ -84,19 +84,19 @@ namespace MasterServer {
     // Get instance field reference: public System.Int64 timestamp
     int64_t& dyn_timestamp();
     // static public PacketPool`1<MasterServer.AuthenticateDedicatedServerRequest> get_pool()
-    // Offset: 0x134714C
+    // Offset: 0x145E78C
     static GlobalNamespace::PacketPool_1<MasterServer::AuthenticateDedicatedServerRequest*>* get_pool();
     // public System.String get_dedicatedServerId()
-    // Offset: 0x1347194
+    // Offset: 0x145E7D4
     ::Il2CppString* get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x134719C
+    // Offset: 0x145E7DC
     void set_dedicatedServerId(::Il2CppString* value);
     // public MasterServer.AuthenticateDedicatedServerRequest Init(System.String dedicatedServerId, System.Byte[] nonce, System.Byte[] hash, System.Int64 timestamp)
-    // Offset: 0x13471A4
-    MasterServer::AuthenticateDedicatedServerRequest* Init(::Il2CppString* dedicatedServerId, ::Array<uint8_t>* nonce, ::Array<uint8_t>* hash, int64_t timestamp);
+    // Offset: 0x145E7E4
+    MasterServer::AuthenticateDedicatedServerRequest* Init(::Il2CppString* dedicatedServerId, ::ArrayWrapper<uint8_t> nonce, ::ArrayWrapper<uint8_t> hash, int64_t timestamp);
     // public System.Void .ctor()
-    // Offset: 0x134734C
+    // Offset: 0x145E98C
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -106,17 +106,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticateDedicatedServerRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1347200
+    // Offset: 0x145E840
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1347268
+    // Offset: 0x145E8A8
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x13472D8
+    // Offset: 0x145E918
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();
@@ -155,11 +155,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Writing MetadataGetter for method: MasterServer::AuthenticateDedicatedServerRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::AuthenticateDedicatedServerRequest* (MasterServer::AuthenticateDedicatedServerRequest::*)(::Il2CppString*, ::Array<uint8_t>*, ::Array<uint8_t>*, int64_t)>(&MasterServer::AuthenticateDedicatedServerRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::AuthenticateDedicatedServerRequest* (MasterServer::AuthenticateDedicatedServerRequest::*)(::Il2CppString*, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, int64_t)>(&MasterServer::AuthenticateDedicatedServerRequest::Init)> {
   static const MethodInfo* get() {
     static auto* dedicatedServerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* nonce = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* hash = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* nonce = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* hash = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* timestamp = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::AuthenticateDedicatedServerRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dedicatedServerId, nonce, hash, timestamp});
   }

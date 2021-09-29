@@ -46,7 +46,7 @@ namespace Zenject {
     // Get instance field reference: public System.Int32 Priority
     int& dyn_Priority();
     // public System.Void .ctor(Zenject.IGuiRenderable renderable, System.Int32 priority)
-    // Offset: 0x1667968
+    // Offset: 0x1831D0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GuiRenderableManager::RenderableInfo* New_ctor(Zenject::IGuiRenderable* renderable, int priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::GuiRenderableManager::RenderableInfo::.ctor");

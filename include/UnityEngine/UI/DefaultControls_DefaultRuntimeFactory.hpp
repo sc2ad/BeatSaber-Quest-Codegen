@@ -46,11 +46,11 @@ namespace UnityEngine::UI {
     // Set static field: static public UnityEngine.UI.DefaultControls/UnityEngine.UI.IFactoryControls Default
     static void _set_Default(UnityEngine::UI::DefaultControls::IFactoryControls* value);
     // static private System.Void .cctor()
-    // Offset: 0x1481280
+    // Offset: 0x16007DC
     static void _cctor();
     // public UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
-    // Offset: 0x1481204
-    UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, ::Array<System::Type*>* components);
+    // Offset: 0x1600760
+    UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, ::ArrayWrapper<System::Type*> components);
     // Creating initializer_list -> params proxy for: UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
     UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, std::initializer_list<System::Type*> components);
     // Creating TArgs -> initializer_list proxy for: UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
@@ -59,7 +59,7 @@ namespace UnityEngine::UI {
       return CreateGameObject(name, {components...});
     }
     // public System.Void .ctor()
-    // Offset: 0x1481278
+    // Offset: 0x16007D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -83,10 +83,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::DefaultRuntimeFactory::CreateGameObject
 // Il2CppName: CreateGameObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::UI::DefaultControls::DefaultRuntimeFactory::*)(::Il2CppString*, ::Array<System::Type*>*)>(&UnityEngine::UI::DefaultControls::DefaultRuntimeFactory::CreateGameObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::UI::DefaultControls::DefaultRuntimeFactory::*)(::Il2CppString*, ::ArrayWrapper<System::Type*>)>(&UnityEngine::UI::DefaultControls::DefaultRuntimeFactory::CreateGameObject)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* components = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
+    static auto* components = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Type")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls::DefaultRuntimeFactory*), "CreateGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, components});
   }
 };

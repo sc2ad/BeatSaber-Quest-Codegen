@@ -191,7 +191,7 @@ namespace System {
     // Get instance field reference: public System.BRECORD bRecord
     System::BRECORD& dyn_bRecord();
     // public System.Void Clear()
-    // Offset: 0x232D470
+    // Offset: 0x253752C
     void Clear();
   }; // System.Variant
   #pragma pack(pop)

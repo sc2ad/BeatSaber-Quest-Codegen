@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _w
     int& dyn__w();
     // public System.Void .ctor(UnityEngine.Vector4 v)
-    // Offset: 0x2379B28
+    // Offset: 0x2575388
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Vector4Serializable(UnityEngine::Vector4 v) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::Vector4Serializable::.ctor");
@@ -91,7 +91,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, v);
     }
     // public System.Void .ctor(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2379BF8
+    // Offset: 0x2575458
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Vector4Serializable(LiteNetLib::Utils::NetDataReader* reader) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::Vector4Serializable::.ctor");
@@ -99,32 +99,32 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, reader);
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2379570
+    // Offset: 0x2574DD0
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2379618
+    // Offset: 0x2574E78
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(Vector4Serializable other)
-    // Offset: 0x2379698
+    // Offset: 0x2574EF8
     bool Equals(GlobalNamespace::Vector4Serializable other);
     // public System.Boolean Approximately(Vector4Serializable other)
-    // Offset: 0x23796DC
+    // Offset: 0x2574F3C
     bool Approximately(GlobalNamespace::Vector4Serializable other);
     // public System.Int32 GetSize()
-    // Offset: 0x2379A7C
+    // Offset: 0x25752DC
     int GetSize();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2379760
+    // Offset: 0x2574FC0
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2379818
+    // Offset: 0x2575078
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x2379834
+    // Offset: 0x2575094
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -133,10 +133,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(Vector4Serializable), 12 + sizeof(int)> __GlobalNamespace_Vector4SerializableSizeCheck;
   static_assert(sizeof(Vector4Serializable) == 0x10);
   // static public Vector4Serializable op_Addition(Vector4Serializable a, Vector4Serializable b)
-  // Offset: 0x2379C88
+  // Offset: 0x25754E8
   GlobalNamespace::Vector4Serializable operator+(const GlobalNamespace::Vector4Serializable& a, const GlobalNamespace::Vector4Serializable& b);
   // static public Vector4Serializable op_Subtraction(Vector4Serializable a, Vector4Serializable b)
-  // Offset: 0x2379CB4
+  // Offset: 0x2575514
   GlobalNamespace::Vector4Serializable operator-(const GlobalNamespace::Vector4Serializable& a, const GlobalNamespace::Vector4Serializable& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector4Serializable, "", "Vector4Serializable");

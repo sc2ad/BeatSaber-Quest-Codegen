@@ -33,10 +33,6 @@ namespace LiteNetLib::Utils {
   class NetDataWriter;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -53,7 +49,7 @@ namespace GlobalNamespace {
     }
     // public System.Byte[] get_unconnectedPacketHeader()
     // Offset: 0xFFFFFFFF
-    ::Array<uint8_t>* get_unconnectedPacketHeader();
+    ::ArrayWrapper<uint8_t> get_unconnectedPacketHeader();
     // public PacketEncryptionLayer get_encryptionLayer()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::PacketEncryptionLayer* get_encryptionLayer();
@@ -81,7 +77,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IUnconnectedSenderReceiver*, "", "IUncon
 // Writing MetadataGetter for method: GlobalNamespace::IUnconnectedSenderReceiver::get_unconnectedPacketHeader
 // Il2CppName: get_unconnectedPacketHeader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (GlobalNamespace::IUnconnectedSenderReceiver::*)()>(&GlobalNamespace::IUnconnectedSenderReceiver::get_unconnectedPacketHeader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (GlobalNamespace::IUnconnectedSenderReceiver::*)()>(&GlobalNamespace::IUnconnectedSenderReceiver::get_unconnectedPacketHeader)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnconnectedSenderReceiver*), "get_unconnectedPacketHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

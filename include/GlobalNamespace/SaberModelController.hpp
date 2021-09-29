@@ -53,30 +53,30 @@ namespace GlobalNamespace {
     // private SetSaberGlowColor[] _setSaberGlowColors
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::SetSaberGlowColor*>* setSaberGlowColors;
+    ::ArrayWrapper<GlobalNamespace::SetSaberGlowColor*> setSaberGlowColors;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::SetSaberGlowColor*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SetSaberGlowColor*>) == 0x8);
     // private SetSaberFakeGlowColor[] _setSaberFakeGlowColors
     // Size: 0x8
     // Offset: 0x28
-    ::Array<GlobalNamespace::SetSaberFakeGlowColor*>* setSaberFakeGlowColors;
+    ::ArrayWrapper<GlobalNamespace::SetSaberFakeGlowColor*> setSaberFakeGlowColors;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::SetSaberFakeGlowColor*>*) == 0x8);
-    // [NullAllowed] Offset: 0xE42188
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SetSaberFakeGlowColor*>) == 0x8);
+    // [NullAllowed] Offset: 0xF0AB1C
     // private TubeBloomPrePassLight _saberLight
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::TubeBloomPrePassLight* saberLight;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TubeBloomPrePassLight*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xE421C0
+    // [InjectOptionalAttribute] Offset: 0xF0AB54
     // private readonly SaberModelController/InitData _initData
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::SaberModelController::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberModelController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE421D0
+    // [InjectAttribute] Offset: 0xF0AB64
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x40
@@ -84,15 +84,15 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorManager*) == 0x8);
     // Creating value type constructor for type: SaberModelController
-    SaberModelController(GlobalNamespace::SaberTrail* saberTrail_ = {}, ::Array<GlobalNamespace::SetSaberGlowColor*>* setSaberGlowColors_ = {}, ::Array<GlobalNamespace::SetSaberFakeGlowColor*>* setSaberFakeGlowColors_ = {}, GlobalNamespace::TubeBloomPrePassLight* saberLight_ = {}, GlobalNamespace::SaberModelController::InitData* initData_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}) noexcept : saberTrail{saberTrail_}, setSaberGlowColors{setSaberGlowColors_}, setSaberFakeGlowColors{setSaberFakeGlowColors_}, saberLight{saberLight_}, initData{initData_}, colorManager{colorManager_} {}
+    SaberModelController(GlobalNamespace::SaberTrail* saberTrail_ = {}, ::ArrayWrapper<GlobalNamespace::SetSaberGlowColor*> setSaberGlowColors_ = {}, ::ArrayWrapper<GlobalNamespace::SetSaberFakeGlowColor*> setSaberFakeGlowColors_ = {}, GlobalNamespace::TubeBloomPrePassLight* saberLight_ = {}, GlobalNamespace::SaberModelController::InitData* initData_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}) noexcept : saberTrail{saberTrail_}, setSaberGlowColors{setSaberGlowColors_}, setSaberFakeGlowColors{setSaberFakeGlowColors_}, saberLight{saberLight_}, initData{initData_}, colorManager{colorManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private SaberTrail _saberTrail
     GlobalNamespace::SaberTrail*& dyn__saberTrail();
     // Get instance field reference: private SetSaberGlowColor[] _setSaberGlowColors
-    ::Array<GlobalNamespace::SetSaberGlowColor*>*& dyn__setSaberGlowColors();
+    ::ArrayWrapper<GlobalNamespace::SetSaberGlowColor*>& dyn__setSaberGlowColors();
     // Get instance field reference: private SetSaberFakeGlowColor[] _setSaberFakeGlowColors
-    ::Array<GlobalNamespace::SetSaberFakeGlowColor*>*& dyn__setSaberFakeGlowColors();
+    ::ArrayWrapper<GlobalNamespace::SetSaberFakeGlowColor*>& dyn__setSaberFakeGlowColors();
     // Get instance field reference: private TubeBloomPrePassLight _saberLight
     GlobalNamespace::TubeBloomPrePassLight*& dyn__saberLight();
     // Get instance field reference: private readonly SaberModelController/InitData _initData
@@ -100,10 +100,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly ColorManager _colorManager
     GlobalNamespace::ColorManager*& dyn__colorManager();
     // public System.Void Init(UnityEngine.Transform parent, Saber saber)
-    // Offset: 0x1130B90
+    // Offset: 0x11CA1D0
     void Init(UnityEngine::Transform* parent, GlobalNamespace::Saber* saber);
     // public System.Void .ctor()
-    // Offset: 0x1130E68
+    // Offset: 0x11CA4A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

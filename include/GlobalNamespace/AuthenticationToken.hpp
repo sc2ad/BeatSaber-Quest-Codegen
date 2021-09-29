@@ -136,11 +136,11 @@ namespace GlobalNamespace {
     // public readonly System.Byte[] sessionToken
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* sessionToken;
+    ::ArrayWrapper<uint8_t> sessionToken;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: AuthenticationToken
-    constexpr AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform_ = {}, ::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, ::Array<uint8_t>* sessionToken_ = {}) noexcept : platform{platform_}, userId{userId_}, userName{userName_}, sessionToken{sessionToken_} {}
+    constexpr AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform_ = {}, ::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, ::ArrayWrapper<uint8_t> sessionToken_ = {}) noexcept : platform{platform_}, userId{userId_}, userName{userName_}, sessionToken{sessionToken_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -156,23 +156,23 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.String userName
     ::Il2CppString*& dyn_userName();
     // Get instance field reference: public readonly System.Byte[] sessionToken
-    ::Array<uint8_t>*& dyn_sessionToken();
+    ::ArrayWrapper<uint8_t>& dyn_sessionToken();
     // public System.Void .ctor(AuthenticationToken/Platform platform, System.String userId, System.String userName, System.Byte[] sessionToken)
-    // Offset: 0x1334D94
+    // Offset: 0x144C3D4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform, ::Il2CppString* userId, ::Il2CppString* userName, ::Array<uint8_t>* sessionToken)
+    // ABORTED: conflicts with another method.  AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform, ::Il2CppString* userId, ::Il2CppString* userName, ::ArrayWrapper<uint8_t> sessionToken)
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1334DA4
+    // Offset: 0x144C3E4
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public AuthenticationToken CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1334E20
+    // Offset: 0x144C460
     GlobalNamespace::AuthenticationToken CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // static public AuthenticationToken Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1334E28
+    // Offset: 0x144C468
     static GlobalNamespace::AuthenticationToken Deserialize(LiteNetLib::Utils::NetDataReader* reader);
   }; // AuthenticationToken
   #pragma pack(pop)
-  static check_size<sizeof(AuthenticationToken), 24 + sizeof(::Array<uint8_t>*)> __GlobalNamespace_AuthenticationTokenSizeCheck;
+  static check_size<sizeof(AuthenticationToken), 24 + sizeof(::ArrayWrapper<uint8_t>)> __GlobalNamespace_AuthenticationTokenSizeCheck;
   static_assert(sizeof(AuthenticationToken) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AuthenticationToken, "", "AuthenticationToken");

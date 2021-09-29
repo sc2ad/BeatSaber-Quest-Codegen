@@ -38,22 +38,22 @@ namespace System::Net {
       return *reinterpret_cast<System::Net::IAuthenticationModule*>(this);
     }
     // public System.String get_AuthenticationType()
-    // Offset: 0x16D42C8
+    // Offset: 0x156E5B4
     ::Il2CppString* get_AuthenticationType();
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x16D3DF0
+    // Offset: 0x156E0DC
     System::Net::Authorization* Authenticate(::Il2CppString* challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // static private System.Byte[] GetBytes(System.String str)
-    // Offset: 0x16D4204
-    static ::Array<uint8_t>* GetBytes(::Il2CppString* str);
+    // Offset: 0x156E4F0
+    static ::ArrayWrapper<uint8_t> GetBytes(::Il2CppString* str);
     // static private System.Net.Authorization InternalAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x16D3EA4
+    // Offset: 0x156E190
     static System::Net::Authorization* InternalAuthenticate(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.Net.Authorization PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x16D42BC
+    // Offset: 0x156E5A8
     System::Net::Authorization* PreAuthenticate(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.Void .ctor()
-    // Offset: 0x16D2E44
+    // Offset: 0x156D130
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::BasicClient::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*)>(&System::Net::BasicClient::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::Il2CppString*)>(&System::Net::BasicClient::GetBytes)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::BasicClient*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});

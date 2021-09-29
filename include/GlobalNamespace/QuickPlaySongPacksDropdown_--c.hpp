@@ -50,19 +50,19 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<QuickPlaySongPacksDropdown/SongPackMaskItem,System.String> <>9__15_3
     static void _set_$$9__15_3(System::Func_2<GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1126794
+    // Offset: 0x11BFE0C
     static void _cctor();
     // QuickPlaySongPacksDropdown/SongPackMaskItem <LazyInit>b__15_2(MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPack localizedPack)
-    // Offset: 0x1126800
+    // Offset: 0x11BFE78
     GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem* $LazyInit$b__15_2(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack* localizedPack);
     // System.Boolean <LazyInit>b__15_4(MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPackName packName)
-    // Offset: 0x1126984
+    // Offset: 0x11BFFFC
     bool $LazyInit$b__15_4(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName* packName);
     // System.String <LazyInit>b__15_3(QuickPlaySongPacksDropdown/SongPackMaskItem item)
-    // Offset: 0x11269CC
+    // Offset: 0x11C0044
     ::Il2CppString* $LazyInit$b__15_3(GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem* item);
     // public System.Void .ctor()
-    // Offset: 0x11267F8
+    // Offset: 0x11BFE70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

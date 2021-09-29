@@ -69,15 +69,15 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionNodeVisualController* missionNodeVisualController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionNodeVisualController*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE460C8
+    // [SpaceAttribute] Offset: 0xF0EA8C
     // private MissionNode[] _childNodes
     // Size: 0x8
     // Offset: 0x40
-    ::Array<GlobalNamespace::MissionNode*>* childNodes;
+    ::ArrayWrapper<GlobalNamespace::MissionNode*> childNodes;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MissionNode*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionNode*>) == 0x8);
     // Creating value type constructor for type: MissionNode
-    MissionNode(GlobalNamespace::MissionDataSO* missionDataSO_ = {}, ::Il2CppString* letterPartName_ = {}, int numberPartName_ = {}, UnityEngine::RectTransform* rectTransform_ = {}, GlobalNamespace::MissionNodeVisualController* missionNodeVisualController_ = {}, ::Array<GlobalNamespace::MissionNode*>* childNodes_ = {}) noexcept : missionDataSO{missionDataSO_}, letterPartName{letterPartName_}, numberPartName{numberPartName_}, rectTransform{rectTransform_}, missionNodeVisualController{missionNodeVisualController_}, childNodes{childNodes_} {}
+    MissionNode(GlobalNamespace::MissionDataSO* missionDataSO_ = {}, ::Il2CppString* letterPartName_ = {}, int numberPartName_ = {}, UnityEngine::RectTransform* rectTransform_ = {}, GlobalNamespace::MissionNodeVisualController* missionNodeVisualController_ = {}, ::ArrayWrapper<GlobalNamespace::MissionNode*> childNodes_ = {}) noexcept : missionDataSO{missionDataSO_}, letterPartName{letterPartName_}, numberPartName{numberPartName_}, rectTransform{rectTransform_}, missionNodeVisualController{missionNodeVisualController_}, childNodes{childNodes_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionDataSO _missionDataSO
@@ -91,36 +91,36 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionNodeVisualController _missionNodeVisualController
     GlobalNamespace::MissionNodeVisualController*& dyn__missionNodeVisualController();
     // Get instance field reference: private MissionNode[] _childNodes
-    ::Array<GlobalNamespace::MissionNode*>*& dyn__childNodes();
+    ::ArrayWrapper<GlobalNamespace::MissionNode*>& dyn__childNodes();
     // public MissionDataSO get_missionData()
-    // Offset: 0x1142538
+    // Offset: 0x1189088
     GlobalNamespace::MissionDataSO* get_missionData();
     // public MissionNode[] get_childNodes()
-    // Offset: 0x1142540
-    ::Array<GlobalNamespace::MissionNode*>* get_childNodes();
+    // Offset: 0x1189090
+    ::ArrayWrapper<GlobalNamespace::MissionNode*> get_childNodes();
     // public MissionNodeVisualController get_missionNodeVisualController()
-    // Offset: 0x1142548
+    // Offset: 0x1189098
     GlobalNamespace::MissionNodeVisualController* get_missionNodeVisualController();
     // public System.String get_letterPartName()
-    // Offset: 0x1142550
+    // Offset: 0x11890A0
     ::Il2CppString* get_letterPartName();
     // public System.Int32 get_numberPartName()
-    // Offset: 0x1142558
+    // Offset: 0x11890A8
     int get_numberPartName();
     // public System.String get_missionId()
-    // Offset: 0x113DD5C
+    // Offset: 0x1184EEC
     ::Il2CppString* get_missionId();
     // public System.String get_formattedMissionNodeName()
-    // Offset: 0x1142560
+    // Offset: 0x11890B0
     ::Il2CppString* get_formattedMissionNodeName();
     // public UnityEngine.Vector2 get_position()
-    // Offset: 0x11417EC
+    // Offset: 0x1188340
     UnityEngine::Vector2 get_position();
     // public System.Single get_radius()
-    // Offset: 0x11425E4
+    // Offset: 0x1189134
     float get_radius();
     // public System.Void .ctor()
-    // Offset: 0x1142628
+    // Offset: 0x1189178
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -134,7 +134,7 @@ namespace GlobalNamespace {
     }
   }; // MissionNode
   #pragma pack(pop)
-  static check_size<sizeof(MissionNode), 64 + sizeof(::Array<GlobalNamespace::MissionNode*>*)> __GlobalNamespace_MissionNodeSizeCheck;
+  static check_size<sizeof(MissionNode), 64 + sizeof(::ArrayWrapper<GlobalNamespace::MissionNode*>)> __GlobalNamespace_MissionNodeSizeCheck;
   static_assert(sizeof(MissionNode) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNode*, "", "MissionNode");
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::MissionNode::get_childNodes
 // Il2CppName: get_childNodes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::MissionNode*>* (GlobalNamespace::MissionNode::*)()>(&GlobalNamespace::MissionNode::get_childNodes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::MissionNode*> (GlobalNamespace::MissionNode::*)()>(&GlobalNamespace::MissionNode::get_childNodes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNode*), "get_childNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

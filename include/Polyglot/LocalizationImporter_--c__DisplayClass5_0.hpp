@@ -43,10 +43,10 @@ namespace Polyglot {
     // Get instance field reference: public Polyglot.Localization settings
     Polyglot::Localization*& dyn_settings();
     // System.Void <ImportFromGoogle>b__0(System.String s)
-    // Offset: 0x237DBD8
+    // Offset: 0x2584A0C
     void $ImportFromGoogle$b__0(::Il2CppString* s);
     // public System.Void .ctor()
-    // Offset: 0x237CC1C
+    // Offset: 0x2583A50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

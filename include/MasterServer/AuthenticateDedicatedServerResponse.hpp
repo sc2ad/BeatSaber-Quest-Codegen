@@ -116,26 +116,26 @@ namespace MasterServer {
     // Get instance field reference: public MasterServer.AuthenticateDedicatedServerResponse/MasterServer.Result result
     MasterServer::AuthenticateDedicatedServerResponse::Result& dyn_result();
     // static public PacketPool`1<MasterServer.AuthenticateDedicatedServerResponse> get_pool()
-    // Offset: 0x134740C
+    // Offset: 0x145EA4C
     static GlobalNamespace::PacketPool_1<MasterServer::AuthenticateDedicatedServerResponse*>* get_pool();
     // public System.Boolean get_isAuthenticated()
-    // Offset: 0x13474EC
+    // Offset: 0x145EB2C
     bool get_isAuthenticated();
     // public MasterServer.AuthenticateDedicatedServerResponse Init(MasterServer.AuthenticateDedicatedServerResponse/MasterServer.Result result)
-    // Offset: 0x13474FC
+    // Offset: 0x145EB3C
     MasterServer::AuthenticateDedicatedServerResponse* Init(MasterServer::AuthenticateDedicatedServerResponse::Result result);
     // public override System.Byte get_resultCode()
-    // Offset: 0x1347454
+    // Offset: 0x145EA94
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Byte BaseMasterServerReliableResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x134745C
+    // Offset: 0x145EA9C
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.String BaseMasterServerReliableResponse::get_resultCodeString()
     ::Il2CppString* get_resultCodeString();
     // public System.Void .ctor()
-    // Offset: 0x13475D8
+    // Offset: 0x145EC18
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -145,17 +145,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticateDedicatedServerResponse*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1347504
+    // Offset: 0x145EB44
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x134753C
+    // Offset: 0x145EB7C
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x134757C
+    // Offset: 0x145EBBC
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();

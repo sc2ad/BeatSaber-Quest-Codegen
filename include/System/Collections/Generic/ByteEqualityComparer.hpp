@@ -22,19 +22,19 @@ namespace System::Collections::Generic {
     // Creating value type constructor for type: ByteEqualityComparer
     ByteEqualityComparer() noexcept {}
     // public System.Boolean Equals(System.Byte x, System.Byte y)
-    // Offset: 0x17E21B8
+    // Offset: 0x199AA20
     bool Equals(uint8_t x, uint8_t y);
     // public System.Int32 GetHashCode(System.Byte b)
-    // Offset: 0x17E21C8
+    // Offset: 0x199AA30
     int GetHashCode(uint8_t b);
     // System.Int32 IndexOf(System.Byte[] array, System.Byte value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x17E21D0
-    int IndexOf(::Array<uint8_t>* array, uint8_t value, int startIndex, int count);
+    // Offset: 0x199AA38
+    int IndexOf(::ArrayWrapper<uint8_t> array, uint8_t value, int startIndex, int count);
     // System.Int32 LastIndexOf(System.Byte[] array, System.Byte value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x17E2380
-    int LastIndexOf(::Array<uint8_t>* array, uint8_t value, int startIndex, int count);
+    // Offset: 0x199ABE8
+    int LastIndexOf(::ArrayWrapper<uint8_t> array, uint8_t value, int startIndex, int count);
     // public System.Void .ctor()
-    // Offset: 0x17E249C
+    // Offset: 0x199AD04
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Void EqualityComparer_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -44,12 +44,12 @@ namespace System::Collections::Generic {
       return THROW_UNLESS((::il2cpp_utils::New<ByteEqualityComparer*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x17E23E4
+    // Offset: 0x199AC4C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x17E2464
+    // Offset: 0x199ACCC
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -79,9 +79,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Collections::Generic::ByteEqualityComparer::IndexOf
 // Il2CppName: IndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::ByteEqualityComparer::*)(::Array<uint8_t>*, uint8_t, int, int)>(&System::Collections::Generic::ByteEqualityComparer::IndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::ByteEqualityComparer::*)(::ArrayWrapper<uint8_t>, uint8_t, int, int)>(&System::Collections::Generic::ByteEqualityComparer::IndexOf)> {
   static const MethodInfo* get() {
-    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -91,9 +91,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Collections::Generic::ByteEqualityComparer::LastIndexOf
 // Il2CppName: LastIndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::ByteEqualityComparer::*)(::Array<uint8_t>*, uint8_t, int, int)>(&System::Collections::Generic::ByteEqualityComparer::LastIndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::ByteEqualityComparer::*)(::ArrayWrapper<uint8_t>, uint8_t, int, int)>(&System::Collections::Generic::ByteEqualityComparer::LastIndexOf)> {
   static const MethodInfo* get() {
-    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

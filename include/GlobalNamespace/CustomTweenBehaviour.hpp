@@ -43,13 +43,13 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::CustomTweenBehaviour::$$c
     class $$c;
-    // [NullAllowed] Offset: 0xE4B774
+    // [NullAllowed] Offset: 0xF14380
     // public UnityEngine.Transform[] _transforms
     // Size: 0x8
     // Offset: 0x10
-    ::Array<UnityEngine::Transform*>* transforms;
+    ::ArrayWrapper<UnityEngine::Transform*> transforms;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
     // public System.Boolean startLocationCurrentPosition
     // Size: 0x1
     // Offset: 0x18
@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: startLocationCurrentPosition and: startLocalPos
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xE4B7AC
+    // [DrawIfAttribute] Offset: 0xF143B8
     // public UnityEngine.Vector3 startLocalPos
     // Size: 0xC
     // Offset: 0x1C
@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     float elementDelay;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xE4B850
+    // [SpaceAttribute] Offset: 0xF1445C
     // public System.Boolean _lockX
     // Size: 0x1
     // Offset: 0x40
@@ -137,9 +137,9 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector3[] _originalLocalPos
     // Size: 0x8
     // Offset: 0x50
-    ::Array<UnityEngine::Vector3>* originalLocalPos;
+    ::ArrayWrapper<UnityEngine::Vector3> originalLocalPos;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
     // private System.Boolean _initialized
     // Size: 0x1
     // Offset: 0x58
@@ -151,19 +151,19 @@ namespace GlobalNamespace {
     // private System.Int32[] _randomizedOrder
     // Size: 0x8
     // Offset: 0x60
-    ::Array<int>* randomizedOrder;
+    ::ArrayWrapper<int> randomizedOrder;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // private System.Single[] _randomizedDuration
     // Size: 0x8
     // Offset: 0x68
-    ::Array<float>* randomizedDuration;
+    ::ArrayWrapper<float> randomizedDuration;
     // Field size check
-    static_assert(sizeof(::Array<float>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
     // Creating value type constructor for type: CustomTweenBehaviour
-    CustomTweenBehaviour(::Array<UnityEngine::Transform*>* transforms_ = {}, bool startLocationCurrentPosition_ = {}, UnityEngine::Vector3 startLocalPos_ = {}, UnityEngine::Vector3 endLocalPos_ = {}, Tweening::EaseType easeType_ = {}, bool endXRelativeToSelfRotation_ = {}, float elementDelay_ = {}, bool lockX_ = {}, bool lockY_ = {}, bool lockZ_ = {}, bool randomizeOrder_ = {}, float randomizedMinDurationMultiplier_ = {}, float duration_ = {}, float perItemDuration_ = {}, ::Array<UnityEngine::Vector3>* originalLocalPos_ = {}, bool initialized_ = {}, ::Array<int>* randomizedOrder_ = {}, ::Array<float>* randomizedDuration_ = {}) noexcept : transforms{transforms_}, startLocationCurrentPosition{startLocationCurrentPosition_}, startLocalPos{startLocalPos_}, endLocalPos{endLocalPos_}, easeType{easeType_}, endXRelativeToSelfRotation{endXRelativeToSelfRotation_}, elementDelay{elementDelay_}, lockX{lockX_}, lockY{lockY_}, lockZ{lockZ_}, randomizeOrder{randomizeOrder_}, randomizedMinDurationMultiplier{randomizedMinDurationMultiplier_}, duration{duration_}, perItemDuration{perItemDuration_}, originalLocalPos{originalLocalPos_}, initialized{initialized_}, randomizedOrder{randomizedOrder_}, randomizedDuration{randomizedDuration_} {}
+    CustomTweenBehaviour(::ArrayWrapper<UnityEngine::Transform*> transforms_ = {}, bool startLocationCurrentPosition_ = {}, UnityEngine::Vector3 startLocalPos_ = {}, UnityEngine::Vector3 endLocalPos_ = {}, Tweening::EaseType easeType_ = {}, bool endXRelativeToSelfRotation_ = {}, float elementDelay_ = {}, bool lockX_ = {}, bool lockY_ = {}, bool lockZ_ = {}, bool randomizeOrder_ = {}, float randomizedMinDurationMultiplier_ = {}, float duration_ = {}, float perItemDuration_ = {}, ::ArrayWrapper<UnityEngine::Vector3> originalLocalPos_ = {}, bool initialized_ = {}, ::ArrayWrapper<int> randomizedOrder_ = {}, ::ArrayWrapper<float> randomizedDuration_ = {}) noexcept : transforms{transforms_}, startLocationCurrentPosition{startLocationCurrentPosition_}, startLocalPos{startLocalPos_}, endLocalPos{endLocalPos_}, easeType{easeType_}, endXRelativeToSelfRotation{endXRelativeToSelfRotation_}, elementDelay{elementDelay_}, lockX{lockX_}, lockY{lockY_}, lockZ{lockZ_}, randomizeOrder{randomizeOrder_}, randomizedMinDurationMultiplier{randomizedMinDurationMultiplier_}, duration{duration_}, perItemDuration{perItemDuration_}, originalLocalPos{originalLocalPos_}, initialized{initialized_}, randomizedOrder{randomizedOrder_}, randomizedDuration{randomizedDuration_} {}
     // Get instance field reference: public UnityEngine.Transform[] _transforms
-    ::Array<UnityEngine::Transform*>*& dyn__transforms();
+    ::ArrayWrapper<UnityEngine::Transform*>& dyn__transforms();
     // Get instance field reference: public System.Boolean startLocationCurrentPosition
     bool& dyn_startLocationCurrentPosition();
     // Get instance field reference: public UnityEngine.Vector3 startLocalPos
@@ -191,15 +191,15 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _perItemDuration
     float& dyn__perItemDuration();
     // Get instance field reference: private UnityEngine.Vector3[] _originalLocalPos
-    ::Array<UnityEngine::Vector3>*& dyn__originalLocalPos();
+    ::ArrayWrapper<UnityEngine::Vector3>& dyn__originalLocalPos();
     // Get instance field reference: private System.Boolean _initialized
     bool& dyn__initialized();
     // Get instance field reference: private System.Int32[] _randomizedOrder
-    ::Array<int>*& dyn__randomizedOrder();
+    ::ArrayWrapper<int>& dyn__randomizedOrder();
     // Get instance field reference: private System.Single[] _randomizedDuration
-    ::Array<float>*& dyn__randomizedDuration();
+    ::ArrayWrapper<float>& dyn__randomizedDuration();
     // public System.Void .ctor()
-    // Offset: 0x10EB4BC
+    // Offset: 0x11A2E40
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -209,28 +209,28 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<CustomTweenBehaviour*, creationType>()));
     }
     // public override System.Void OnGraphStart(UnityEngine.Playables.Playable playable)
-    // Offset: 0x10EAB54
+    // Offset: 0x11A24D8
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnGraphStart(UnityEngine.Playables.Playable playable)
     void OnGraphStart(UnityEngine::Playables::Playable playable);
     // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x10EAC98
+    // Offset: 0x11A261C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
     // public override System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    // Offset: 0x10EB1C4
+    // Offset: 0x11A2B48
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
     void OnPlayableDestroy(UnityEngine::Playables::Playable playable);
     // public override System.Void OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x10EB2E0
+    // Offset: 0x11A2C64
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPlay(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
   }; // CustomTweenBehaviour
   #pragma pack(pop)
-  static check_size<sizeof(CustomTweenBehaviour), 104 + sizeof(::Array<float>*)> __GlobalNamespace_CustomTweenBehaviourSizeCheck;
+  static check_size<sizeof(CustomTweenBehaviour), 104 + sizeof(::ArrayWrapper<float>)> __GlobalNamespace_CustomTweenBehaviourSizeCheck;
   static_assert(sizeof(CustomTweenBehaviour) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomTweenBehaviour*, "", "CustomTweenBehaviour");

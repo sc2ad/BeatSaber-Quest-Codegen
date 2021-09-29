@@ -44,16 +44,16 @@ namespace HMUI {
     // Set static field: static public System.Func`2<System.Single,System.Single> <>9__38_3
     static void _set_$$9__38_3(System::Func_2<float, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13159FC
+    // Offset: 0x1417FAC
     static void _cctor();
     // System.Single <Awake>b__38_1(System.Single i)
-    // Offset: 0x1315A68
+    // Offset: 0x1418018
     float $Awake$b__38_1(float i);
     // System.Single <Awake>b__38_3(System.Single i)
-    // Offset: 0x1315A6C
+    // Offset: 0x141801C
     float $Awake$b__38_3(float i);
     // public System.Void .ctor()
-    // Offset: 0x1315A60
+    // Offset: 0x1418010
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

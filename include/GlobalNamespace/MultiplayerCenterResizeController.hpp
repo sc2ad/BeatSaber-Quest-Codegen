@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: platformWidth and: layoutProvider
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0xE407F4
+    // [InjectAttribute] Offset: 0xF09188
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x20
@@ -85,34 +85,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <edgeDistanceFromCenter>k__BackingField
     float& dyn_$edgeDistanceFromCenter$k__BackingField();
     // public System.Boolean get_isEdgeDistanceFromCenterCalculated()
-    // Offset: 0x11C71F8
+    // Offset: 0x120D878
     bool get_isEdgeDistanceFromCenterCalculated();
     // private System.Void set_isEdgeDistanceFromCenterCalculated(System.Boolean value)
-    // Offset: 0x11C7200
+    // Offset: 0x120D880
     void set_isEdgeDistanceFromCenterCalculated(bool value);
     // public System.Single get_edgeDistanceFromCenter()
-    // Offset: 0x11C720C
+    // Offset: 0x120D88C
     float get_edgeDistanceFromCenter();
     // private System.Void set_edgeDistanceFromCenter(System.Single value)
-    // Offset: 0x11C7214
+    // Offset: 0x120D894
     void set_edgeDistanceFromCenter(float value);
     // public System.Void add_edgeDistanceFromCenterWasCalculatedEvent(System.Action`1<System.Single> value)
-    // Offset: 0x11C70B0
+    // Offset: 0x120D730
     void add_edgeDistanceFromCenterWasCalculatedEvent(System::Action_1<float>* value);
     // public System.Void remove_edgeDistanceFromCenterWasCalculatedEvent(System.Action`1<System.Single> value)
-    // Offset: 0x11C7154
+    // Offset: 0x120D7D4
     void remove_edgeDistanceFromCenterWasCalculatedEvent(System::Action_1<float>* value);
     // protected System.Void Start()
-    // Offset: 0x11C721C
+    // Offset: 0x120D89C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11C7450
+    // Offset: 0x120DA30
     void OnDestroy();
     // private System.Void HandlePlayersLayoutWasCalculated(MultiplayerPlayerLayout layout, System.Int32 numberOfPlayers)
-    // Offset: 0x11C72CC
+    // Offset: 0x120D950
     void HandlePlayersLayoutWasCalculated(GlobalNamespace::MultiplayerPlayerLayout layout, int numberOfPlayers);
     // public System.Void .ctor()
-    // Offset: 0x11C7590
+    // Offset: 0x120DAD0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

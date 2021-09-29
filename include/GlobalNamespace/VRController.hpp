@@ -49,21 +49,21 @@ namespace GlobalNamespace {
     int nodeIdx;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [NullAllowed] Offset: 0xE08860
+    // [NullAllowed] Offset: 0xEC9EA0
     // private VRControllerTransformOffset _transformOffset
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::VRControllerTransformOffset* transformOffset;
     // Field size check
     static_assert(sizeof(GlobalNamespace::VRControllerTransformOffset*) == 0x8);
-    // [InjectAttribute] Offset: 0xE08898
+    // [InjectAttribute] Offset: 0xEC9ED8
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IVRPlatformHelper* vrPlatformHelper;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IVRPlatformHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0xE088A8
+    // [InjectAttribute] Offset: 0xEC9EE8
     // private readonly VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x30
@@ -93,43 +93,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _lastTrackedPosition
     UnityEngine::Vector3& dyn__lastTrackedPosition();
     // public UnityEngine.XR.XRNode get_node()
-    // Offset: 0x2397898
+    // Offset: 0x259D7BC
     UnityEngine::XR::XRNode get_node();
     // public System.Void set_node(UnityEngine.XR.XRNode value)
-    // Offset: 0x23978A0
+    // Offset: 0x259D7C4
     void set_node(UnityEngine::XR::XRNode value);
     // public System.Int32 get_nodeIdx()
-    // Offset: 0x23978A8
+    // Offset: 0x259D7CC
     int get_nodeIdx();
     // public System.Void set_nodeIdx(System.Int32 value)
-    // Offset: 0x23978B0
+    // Offset: 0x259D7D4
     void set_nodeIdx(int value);
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x23978B8
+    // Offset: 0x259D7DC
     UnityEngine::Vector3 get_position();
     // public UnityEngine.Quaternion get_rotation()
-    // Offset: 0x23978DC
+    // Offset: 0x259D800
     UnityEngine::Quaternion get_rotation();
     // public UnityEngine.Vector3 get_forward()
-    // Offset: 0x2397900
+    // Offset: 0x259D824
     UnityEngine::Vector3 get_forward();
     // public System.Single get_triggerValue()
-    // Offset: 0x2397924
+    // Offset: 0x259D848
     float get_triggerValue();
     // public System.Single get_verticalAxisValue()
-    // Offset: 0x2397AC8
+    // Offset: 0x259D9EC
     float get_verticalAxisValue();
     // public System.Single get_horizontalAxisValue()
-    // Offset: 0x2397B60
+    // Offset: 0x259DA84
     float get_horizontalAxisValue();
     // public System.Boolean get_active()
-    // Offset: 0x2397BF8
+    // Offset: 0x259DB1C
     bool get_active();
     // protected System.Void Update()
-    // Offset: 0x2397C1C
+    // Offset: 0x259DB40
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x2397FC8
+    // Offset: 0x259DEEC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

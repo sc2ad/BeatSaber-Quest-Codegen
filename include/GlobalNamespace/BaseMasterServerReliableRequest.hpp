@@ -48,25 +48,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.UInt32 <requestId>k__BackingField
     uint& dyn_$requestId$k__BackingField();
     // public System.UInt32 get_requestId()
-    // Offset: 0x13358B4
+    // Offset: 0x144CEF4
     uint get_requestId();
     // private System.Void set_requestId(System.UInt32 value)
-    // Offset: 0x13358BC
+    // Offset: 0x144CEFC
     void set_requestId(uint value);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x13358C4
+    // Offset: 0x144CF04
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x13358E8
+    // Offset: 0x144CF28
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
     // Offset: 0xFFFFFFFF
     void Release();
     // private MasterServer.IMasterServerReliableRequest MasterServer.IMasterServerReliableRequest.WithRequestId(System.UInt32 requestId)
-    // Offset: 0x133591C
+    // Offset: 0x144CF5C
     MasterServer::IMasterServerReliableRequest* MasterServer_IMasterServerReliableRequest_WithRequestId(uint requestId);
     // protected System.Void .ctor()
-    // Offset: 0x1335924
+    // Offset: 0x144CF64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

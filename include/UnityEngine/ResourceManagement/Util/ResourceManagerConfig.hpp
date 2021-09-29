@@ -40,33 +40,33 @@ namespace UnityEngine::ResourceManagement::Util {
     // Creating value type constructor for type: ResourceManagerConfig
     ResourceManagerConfig() noexcept {}
     // static System.Boolean ExtractKeyAndSubKey(System.Object keyObj, out System.String mainKey, out System.String subKey)
-    // Offset: 0x19F44B4
+    // Offset: 0x1B6935C
     static bool ExtractKeyAndSubKey(::Il2CppObject* keyObj, ByRef<::Il2CppString*> mainKey, ByRef<::Il2CppString*> subKey);
     // static public System.Boolean IsPathRemote(System.String path)
-    // Offset: 0x19F29B4
+    // Offset: 0x1B6785C
     static bool IsPathRemote(::Il2CppString* path);
     // static public System.Boolean ShouldPathUseWebRequest(System.String path)
-    // Offset: 0x19F3820
+    // Offset: 0x1B686C8
     static bool ShouldPathUseWebRequest(::Il2CppString* path);
     // static public System.Array CreateArrayResult(System.Type type, UnityEngine.Object[] allAssets)
-    // Offset: 0x19F528C
-    static System::Array* CreateArrayResult(System::Type* type, ::Array<UnityEngine::Object*>* allAssets);
+    // Offset: 0x1B6A134
+    static System::Array* CreateArrayResult(System::Type* type, ::ArrayWrapper<UnityEngine::Object*> allAssets);
     // static public TObject CreateArrayResult(UnityEngine.Object[] allAssets)
     // Offset: 0xFFFFFFFF
     template<class TObject>
-    static TObject CreateArrayResult(::Array<UnityEngine::Object*>* allAssets) {
+    static TObject CreateArrayResult(::ArrayWrapper<UnityEngine::Object*> allAssets) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateArrayResult");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ResourceManagement.Util", "ResourceManagerConfig", "CreateArrayResult", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(allAssets)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
       return ::il2cpp_utils::RunMethodThrow<TObject, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, allAssets);
     }
     // static public System.Collections.IList CreateListResult(System.Type type, UnityEngine.Object[] allAssets)
-    // Offset: 0x19F545C
-    static System::Collections::IList* CreateListResult(System::Type* type, ::Array<UnityEngine::Object*>* allAssets);
+    // Offset: 0x1B6A304
+    static System::Collections::IList* CreateListResult(System::Type* type, ::ArrayWrapper<UnityEngine::Object*> allAssets);
     // static public TObject CreateListResult(UnityEngine.Object[] allAssets)
     // Offset: 0xFFFFFFFF
     template<class TObject>
-    static TObject CreateListResult(::Array<UnityEngine::Object*>* allAssets) {
+    static TObject CreateListResult(::ArrayWrapper<UnityEngine::Object*> allAssets) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateListResult");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ResourceManagement.Util", "ResourceManagerConfig", "CreateListResult", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(allAssets)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
@@ -118,10 +118,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateArrayResult
 // Il2CppName: CreateArrayResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::Array<UnityEngine::Object*>*)>(&UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateArrayResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::ArrayWrapper<UnityEngine::Object*>)>(&UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateArrayResult)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* allAssets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Object"), 1)->byval_arg;
+    static auto* allAssets = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::ResourceManagerConfig*), "CreateArrayResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, allAssets});
   }
 };
@@ -131,10 +131,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Arr
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateListResult
 // Il2CppName: CreateListResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (*)(System::Type*, ::Array<UnityEngine::Object*>*)>(&UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateListResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (*)(System::Type*, ::ArrayWrapper<UnityEngine::Object*>)>(&UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateListResult)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* allAssets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Object"), 1)->byval_arg;
+    static auto* allAssets = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::ResourceManagerConfig*), "CreateListResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, allAssets});
   }
 };

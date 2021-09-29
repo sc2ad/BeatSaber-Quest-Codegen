@@ -68,14 +68,14 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* privacyAgreeToPrivacyPolicyLabel;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xE47734
+    // [InjectAttribute] Offset: 0xF100F8
     // private IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x90
     GlobalNamespace::IAnalyticsModel* analyticsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAnalyticsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE47744
+    // [InjectAttribute] Offset: 0xF10108
     // private AppStaticSettingsSO _appStaticSettings
     // Size: 0x8
     // Offset: 0x98
@@ -121,34 +121,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action didFinishEvent
     System::Action*& dyn_didFinishEvent();
     // public System.Void add_privacyPolicyButtonPressedEvent(System.Action value)
-    // Offset: 0x1186110
+    // Offset: 0x11447EC
     void add_privacyPolicyButtonPressedEvent(System::Action* value);
     // public System.Void remove_privacyPolicyButtonPressedEvent(System.Action value)
-    // Offset: 0x1186490
+    // Offset: 0x1144B6C
     void remove_privacyPolicyButtonPressedEvent(System::Action* value);
     // public System.Void add_openDataPrivacyPageButtonPressedEvent(System.Action value)
-    // Offset: 0x11861B4
+    // Offset: 0x1144890
     void add_openDataPrivacyPageButtonPressedEvent(System::Action* value);
     // public System.Void remove_openDataPrivacyPageButtonPressedEvent(System.Action value)
-    // Offset: 0x1186534
+    // Offset: 0x1144C10
     void remove_openDataPrivacyPageButtonPressedEvent(System::Action* value);
     // public System.Void add_didFinishEvent(System.Action value)
-    // Offset: 0x118606C
+    // Offset: 0x1144748
     void add_didFinishEvent(System::Action* value);
     // public System.Void remove_didFinishEvent(System.Action value)
-    // Offset: 0x11863EC
+    // Offset: 0x1144AC8
     void remove_didFinishEvent(System::Action* value);
     // private System.Void <DidActivate>b__15_0()
-    // Offset: 0x11870DC
+    // Offset: 0x11457B8
     void $DidActivate$b__15_0();
     // private System.Void <DidActivate>b__15_1()
-    // Offset: 0x11870F0
+    // Offset: 0x11457CC
     void $DidActivate$b__15_1();
     // private System.Void <DidActivate>b__15_2()
-    // Offset: 0x1187104
+    // Offset: 0x11457E0
     void $DidActivate$b__15_2();
     // public System.Void .ctor()
-    // Offset: 0x11870D4
+    // Offset: 0x11457B0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -162,7 +162,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1186E40
+    // Offset: 0x114551C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

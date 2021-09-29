@@ -18,10 +18,6 @@ namespace Org::BouncyCastle::Math {
   class BigInteger;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
 // Type namespace: Org.BouncyCastle.Crypto
 namespace Org::BouncyCastle::Crypto {
   // Size: 0x10
@@ -43,13 +39,13 @@ namespace Org::BouncyCastle::Crypto {
     int GetOutputBlockSize();
     // public Org.BouncyCastle.Math.BigInteger ConvertInput(System.Byte[] buf, System.Int32 off, System.Int32 len)
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::BigInteger* ConvertInput(::Array<uint8_t>* buf, int off, int len);
+    Org::BouncyCastle::Math::BigInteger* ConvertInput(::ArrayWrapper<uint8_t> buf, int off, int len);
     // public Org.BouncyCastle.Math.BigInteger ProcessBlock(Org.BouncyCastle.Math.BigInteger input)
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Math::BigInteger* ProcessBlock(Org::BouncyCastle::Math::BigInteger* input);
     // public System.Byte[] ConvertOutput(Org.BouncyCastle.Math.BigInteger result)
     // Offset: 0xFFFFFFFF
-    ::Array<uint8_t>* ConvertOutput(Org::BouncyCastle::Math::BigInteger* result);
+    ::ArrayWrapper<uint8_t> ConvertOutput(Org::BouncyCastle::Math::BigInteger* result);
   }; // Org.BouncyCastle.Crypto.IRsa
   #pragma pack(pop)
 }
@@ -85,9 +81,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::IRsa::ConvertInput
 // Il2CppName: ConvertInput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::IRsa::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::IRsa::ConvertInput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::IRsa::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::IRsa::ConvertInput)> {
   static const MethodInfo* get() {
-    static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buf = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::IRsa*), "ConvertInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buf, off, len});
@@ -105,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::IRsa::ConvertOutput
 // Il2CppName: ConvertOutput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::IRsa::*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Crypto::IRsa::ConvertOutput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::IRsa::*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Crypto::IRsa::ConvertOutput)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::IRsa*), "ConvertOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});

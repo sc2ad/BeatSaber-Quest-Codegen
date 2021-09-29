@@ -52,9 +52,9 @@ namespace GlobalNamespace {
     // private MissionNode[] _missionNodes
     // Size: 0x8
     // Offset: 0x28
-    ::Array<GlobalNamespace::MissionNode*>* missionNodes;
+    ::ArrayWrapper<GlobalNamespace::MissionNode*> missionNodes;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MissionNode*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionNode*>) == 0x8);
     // private MissionNodeVisualController _selectedNode
     // Size: 0x8
     // Offset: 0x30
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionNodeVisualController*) == 0x8);
     // Creating value type constructor for type: MissionNodeSelectionManager
-    MissionNodeSelectionManager(GlobalNamespace::MissionNodesManager* missionNodesManager_ = {}, System::Action_1<GlobalNamespace::MissionNodeVisualController*>* didSelectMissionNodeEvent_ = {}, ::Array<GlobalNamespace::MissionNode*>* missionNodes_ = {}, GlobalNamespace::MissionNodeVisualController* selectedNode_ = {}) noexcept : missionNodesManager{missionNodesManager_}, didSelectMissionNodeEvent{didSelectMissionNodeEvent_}, missionNodes{missionNodes_}, selectedNode{selectedNode_} {}
+    MissionNodeSelectionManager(GlobalNamespace::MissionNodesManager* missionNodesManager_ = {}, System::Action_1<GlobalNamespace::MissionNodeVisualController*>* didSelectMissionNodeEvent_ = {}, ::ArrayWrapper<GlobalNamespace::MissionNode*> missionNodes_ = {}, GlobalNamespace::MissionNodeVisualController* selectedNode_ = {}) noexcept : missionNodesManager{missionNodesManager_}, didSelectMissionNodeEvent{didSelectMissionNodeEvent_}, missionNodes{missionNodes_}, selectedNode{selectedNode_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionNodesManager _missionNodesManager
@@ -70,32 +70,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<MissionNodeVisualController> didSelectMissionNodeEvent
     System::Action_1<GlobalNamespace::MissionNodeVisualController*>*& dyn_didSelectMissionNodeEvent();
     // Get instance field reference: private MissionNode[] _missionNodes
-    ::Array<GlobalNamespace::MissionNode*>*& dyn__missionNodes();
+    ::ArrayWrapper<GlobalNamespace::MissionNode*>& dyn__missionNodes();
     // Get instance field reference: private MissionNodeVisualController _selectedNode
     GlobalNamespace::MissionNodeVisualController*& dyn__selectedNode();
     // public System.Void add_didSelectMissionNodeEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x114297C
+    // Offset: 0x11894CC
     void add_didSelectMissionNodeEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void remove_didSelectMissionNodeEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x1142A20
+    // Offset: 0x1189570
     void remove_didSelectMissionNodeEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void DeselectSelectedNode()
-    // Offset: 0x1142AC4
+    // Offset: 0x1189614
     void DeselectSelectedNode();
     // protected System.Void Start()
-    // Offset: 0x1142B80
+    // Offset: 0x11896D0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1142E00
+    // Offset: 0x1189950
     void OnDestroy();
     // private System.Void HandleNodeWasSelect(MissionNodeVisualController missionNode)
-    // Offset: 0x11430AC
+    // Offset: 0x1189BFC
     void HandleNodeWasSelect(GlobalNamespace::MissionNodeVisualController* missionNode);
     // private System.Void HandleNodeWasDisplayed(MissionNodeVisualController missionNode)
-    // Offset: 0x1143170
+    // Offset: 0x1189CC0
     void HandleNodeWasDisplayed(GlobalNamespace::MissionNodeVisualController* missionNode);
     // public System.Void .ctor()
-    // Offset: 0x1143200
+    // Offset: 0x1189D50
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

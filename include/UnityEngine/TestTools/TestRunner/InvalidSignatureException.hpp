@@ -30,12 +30,12 @@ namespace UnityEngine::TestTools::TestRunner {
     // Creating value type constructor for type: InvalidSignatureException
     InvalidSignatureException() noexcept {}
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
-    // Offset: 0x14CFE98
+    // Offset: 0x1675B14
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState()
     NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x14CFE90
+    // Offset: 0x1675B0C
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: System.Void ResultStateException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)

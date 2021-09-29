@@ -23,40 +23,40 @@ namespace System {
     // Set static field: static readonly System.Object EPHEMERON_TOMBSTONE
     static void _set_EPHEMERON_TOMBSTONE(::Il2CppObject* value);
     // static public System.Int32 get_MaxGeneration()
-    // Offset: 0x1809EB8
+    // Offset: 0x19A7A68
     static int get_MaxGeneration();
     // static private System.Void .cctor()
-    // Offset: 0x180A068
+    // Offset: 0x19A7C18
     static void _cctor();
     // static private System.Int32 GetMaxGeneration()
-    // Offset: 0x1809E48
+    // Offset: 0x19A79F8
     static int GetMaxGeneration();
     // static private System.Void InternalCollect(System.Int32 generation)
-    // Offset: 0x1809E4C
+    // Offset: 0x19A79FC
     static void InternalCollect(int generation);
     // static System.Void register_ephemeron_array(System.Runtime.CompilerServices.Ephemeron[] array)
-    // Offset: 0x1809E50
-    static void register_ephemeron_array(::Array<System::Runtime::CompilerServices::Ephemeron>* array);
+    // Offset: 0x19A7A00
+    static void register_ephemeron_array(::ArrayWrapper<System::Runtime::CompilerServices::Ephemeron> array);
     // static private System.Object get_ephemeron_tombstone()
-    // Offset: 0x1809E54
+    // Offset: 0x19A7A04
     static ::Il2CppObject* get_ephemeron_tombstone();
     // static public System.Void Collect()
-    // Offset: 0x1809E58
+    // Offset: 0x19A7A08
     static void Collect();
     // static public System.Void KeepAlive(System.Object obj)
-    // Offset: 0x1809F14
+    // Offset: 0x19A7AC4
     static void KeepAlive(::Il2CppObject* obj);
     // static private System.Void _SuppressFinalize(System.Object o)
-    // Offset: 0x1809F18
+    // Offset: 0x19A7AC8
     static void _SuppressFinalize(::Il2CppObject* o);
     // static public System.Void SuppressFinalize(System.Object obj)
-    // Offset: 0x1809F1C
+    // Offset: 0x19A7ACC
     static void SuppressFinalize(::Il2CppObject* obj);
     // static private System.Void _ReRegisterForFinalize(System.Object o)
-    // Offset: 0x1809FC0
+    // Offset: 0x19A7B70
     static void _ReRegisterForFinalize(::Il2CppObject* o);
     // static public System.Void ReRegisterForFinalize(System.Object obj)
-    // Offset: 0x1809FC4
+    // Offset: 0x19A7B74
     static void ReRegisterForFinalize(::Il2CppObject* obj);
   }; // System.GC
   #pragma pack(pop)
@@ -100,9 +100,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: System::GC::register_ephemeron_array
 // Il2CppName: register_ephemeron_array
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<System::Runtime::CompilerServices::Ephemeron>*)>(&System::GC::register_ephemeron_array)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<System::Runtime::CompilerServices::Ephemeron>)>(&System::GC::register_ephemeron_array)> {
   static const MethodInfo* get() {
-    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Runtime.CompilerServices", "Ephemeron"), 1)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Runtime.CompilerServices", "Ephemeron")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::GC*), "register_ephemeron_array", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
   }
 };

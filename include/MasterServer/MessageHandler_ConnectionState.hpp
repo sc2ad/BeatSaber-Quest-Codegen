@@ -81,9 +81,9 @@ namespace MasterServer {
     // private readonly System.Boolean[] _receivedRequest
     // Size: 0x8
     // Offset: 0x40
-    ::Array<bool>* receivedRequest;
+    ::ArrayWrapper<bool> receivedRequest;
     // Field size check
-    static_assert(sizeof(::Array<bool>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<bool>) == 0x8);
     // private System.UInt32 _currentRequestId
     // Size: 0x4
     // Offset: 0x48
@@ -97,7 +97,7 @@ namespace MasterServer {
     // Field size check
     static_assert(sizeof(uint) == 0x4);
     // Creating value type constructor for type: ConnectionState
-    ConnectionState(::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, uint protocolVersion_ = {}, bool hasIdentity_ = {}, GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState_ = {}, int lastReceivedRequestIndex_ = {}, uint lastReceivedRequestId_ = {}, int receivedRequestCount_ = {}, ::Array<bool>* receivedRequest_ = {}, uint currentRequestId_ = {}, uint currentEpoch_ = {}) noexcept : userId{userId_}, userName{userName_}, protocolVersion{protocolVersion_}, hasIdentity{hasIdentity_}, encryptionState{encryptionState_}, lastReceivedRequestIndex{lastReceivedRequestIndex_}, lastReceivedRequestId{lastReceivedRequestId_}, receivedRequestCount{receivedRequestCount_}, receivedRequest{receivedRequest_}, currentRequestId{currentRequestId_}, currentEpoch{currentEpoch_} {}
+    ConnectionState(::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, uint protocolVersion_ = {}, bool hasIdentity_ = {}, GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState_ = {}, int lastReceivedRequestIndex_ = {}, uint lastReceivedRequestId_ = {}, int receivedRequestCount_ = {}, ::ArrayWrapper<bool> receivedRequest_ = {}, uint currentRequestId_ = {}, uint currentEpoch_ = {}) noexcept : userId{userId_}, userName{userName_}, protocolVersion{protocolVersion_}, hasIdentity{hasIdentity_}, encryptionState{encryptionState_}, lastReceivedRequestIndex{lastReceivedRequestIndex_}, lastReceivedRequestId{lastReceivedRequestId_}, receivedRequestCount{receivedRequestCount_}, receivedRequest{receivedRequest_}, currentRequestId{currentRequestId_}, currentEpoch{currentEpoch_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -149,49 +149,49 @@ namespace MasterServer {
     // Get instance field reference: private System.Int32 _receivedRequestCount
     int& dyn__receivedRequestCount();
     // Get instance field reference: private readonly System.Boolean[] _receivedRequest
-    ::Array<bool>*& dyn__receivedRequest();
+    ::ArrayWrapper<bool>& dyn__receivedRequest();
     // Get instance field reference: private System.UInt32 _currentRequestId
     uint& dyn__currentRequestId();
     // Get instance field reference: private System.UInt32 _currentEpoch
     uint& dyn__currentEpoch();
     // public System.Boolean get_isEncrypted()
-    // Offset: 0x1221E00
+    // Offset: 0x12E11B4
     bool get_isEncrypted();
     // public System.UInt32 GetNextRequestId()
-    // Offset: 0x1221BF0
+    // Offset: 0x12E0FA4
     uint GetNextRequestId();
     // public System.Void BeginSession()
-    // Offset: 0x1221AF8
+    // Offset: 0x12E0EAC
     void BeginSession();
     // public System.Boolean IsValidSessionStartRequestId(System.UInt32 requestId)
-    // Offset: 0x1221D30
+    // Offset: 0x12E10E4
     bool IsValidSessionStartRequestId(uint requestId);
     // public System.Void BeginSession(System.UInt32 requestId)
-    // Offset: 0x1221BB8
+    // Offset: 0x12E0F6C
     void BeginSession(uint requestId);
     // private System.Void SetEpoch(System.UInt32 epoch)
-    // Offset: 0x12236E4
+    // Offset: 0x12E2A98
     void SetEpoch(uint epoch);
     // public System.Boolean CanAcceptRequest(System.UInt32 requestId)
-    // Offset: 0x1220200
+    // Offset: 0x12DF5A0
     bool CanAcceptRequest(uint requestId);
     // public System.Void SetEncryptionState(EncryptionUtility/IEncryptionState encryptionState)
-    // Offset: 0x1223708
+    // Offset: 0x12E2ABC
     void SetEncryptionState(GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState);
     // public System.Void SetIdentity(System.UInt32 protocolVersion, System.String userId, System.String userName)
-    // Offset: 0x1223710
+    // Offset: 0x12E2AC4
     void SetIdentity(uint protocolVersion, ::Il2CppString* userId, ::Il2CppString* userName);
     // public System.Boolean VerifyIdentity(System.UInt32 protocolVersion, System.String userId, System.String userName)
-    // Offset: 0x1223724
+    // Offset: 0x12E2AD8
     bool VerifyIdentity(uint protocolVersion, ::Il2CppString* userId, ::Il2CppString* userName);
     // public System.Void Dispose()
-    // Offset: 0x1223794
+    // Offset: 0x12E2B48
     void Dispose();
     // static private System.Void LogD(System.String message)
-    // Offset: 0x12237A4
+    // Offset: 0x12E2B58
     static void LogD(::Il2CppString* message);
     // public System.Void .ctor()
-    // Offset: 0x1221C0C
+    // Offset: 0x12E0FC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

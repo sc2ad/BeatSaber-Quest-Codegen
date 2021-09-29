@@ -34,20 +34,20 @@ namespace System::IO::Compression {
     // Creating value type constructor for type: WriteMethod
     WriteMethod() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x18BEBA4
+    // Offset: 0x1A2D838
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeflateStream::WriteMethod* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Compression::DeflateStream::WriteMethod::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeflateStream::WriteMethod*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Byte[] array, System.Int32 offset, System.Int32 count)
-    // Offset: 0x18BF574
-    void Invoke(::Array<uint8_t>* array, int offset, int count);
+    // Offset: 0x1A2E208
+    void Invoke(::ArrayWrapper<uint8_t> array, int offset, int count);
     // public System.IAsyncResult BeginInvoke(System.Byte[] array, System.Int32 offset, System.Int32 count, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x18BEBB4
-    System::IAsyncResult* BeginInvoke(::Array<uint8_t>* array, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x1A2D848
+    System::IAsyncResult* BeginInvoke(::ArrayWrapper<uint8_t> array, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x18BEED0
+    // Offset: 0x1A2DB64
     void EndInvoke(System::IAsyncResult* result);
   }; // System.IO.Compression.DeflateStream/System.IO.Compression.WriteMethod
   #pragma pack(pop)
@@ -61,9 +61,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStream::WriteMethod*, "Sy
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStream::WriteMethod::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::DeflateStream::WriteMethod::*)(::Array<uint8_t>*, int, int)>(&System::IO::Compression::DeflateStream::WriteMethod::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::DeflateStream::WriteMethod::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::IO::Compression::DeflateStream::WriteMethod::Invoke)> {
   static const MethodInfo* get() {
-    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStream::WriteMethod*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array, offset, count});
@@ -72,9 +72,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStream::WriteMethod::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Compression::DeflateStream::WriteMethod::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Compression::DeflateStream::WriteMethod::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Compression::DeflateStream::WriteMethod::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Compression::DeflateStream::WriteMethod::BeginInvoke)> {
   static const MethodInfo* get() {
-    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;

@@ -40,9 +40,9 @@ namespace GlobalNamespace {
     // private MissionStage[] _missionStages
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::MissionStage*>* missionStages;
+    ::ArrayWrapper<GlobalNamespace::MissionStage*> missionStages;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MissionStage*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionStage*>) == 0x8);
     // private MissionStage _firstLockedMissionStage
     // Size: 0x8
     // Offset: 0x28
@@ -50,35 +50,35 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionStage*) == 0x8);
     // Creating value type constructor for type: MissionStagesManager
-    MissionStagesManager(GlobalNamespace::MissionStageLockView* missionStageLockView_ = {}, ::Array<GlobalNamespace::MissionStage*>* missionStages_ = {}, GlobalNamespace::MissionStage* firstLockedMissionStage_ = {}) noexcept : missionStageLockView{missionStageLockView_}, missionStages{missionStages_}, firstLockedMissionStage{firstLockedMissionStage_} {}
+    MissionStagesManager(GlobalNamespace::MissionStageLockView* missionStageLockView_ = {}, ::ArrayWrapper<GlobalNamespace::MissionStage*> missionStages_ = {}, GlobalNamespace::MissionStage* firstLockedMissionStage_ = {}) noexcept : missionStageLockView{missionStageLockView_}, missionStages{missionStages_}, firstLockedMissionStage{firstLockedMissionStage_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionStageLockView _missionStageLockView
     GlobalNamespace::MissionStageLockView*& dyn__missionStageLockView();
     // Get instance field reference: private MissionStage[] _missionStages
-    ::Array<GlobalNamespace::MissionStage*>*& dyn__missionStages();
+    ::ArrayWrapper<GlobalNamespace::MissionStage*>& dyn__missionStages();
     // Get instance field reference: private MissionStage _firstLockedMissionStage
     GlobalNamespace::MissionStage*& dyn__firstLockedMissionStage();
     // public MissionStage get_firstLockedMissionStage()
-    // Offset: 0x1147890
+    // Offset: 0x118E3E0
     GlobalNamespace::MissionStage* get_firstLockedMissionStage();
     // public System.Void UpdateFirtsLockedMissionStage(System.Int32 numberOfClearedMissions)
-    // Offset: 0x1144174
+    // Offset: 0x118ACC4
     void UpdateFirtsLockedMissionStage(int numberOfClearedMissions);
     // public System.Void InitStages()
-    // Offset: 0x1147898
+    // Offset: 0x118E3E8
     void InitStages();
     // public System.Void UpdateStageLockPosition()
-    // Offset: 0x1144420
+    // Offset: 0x118AF70
     void UpdateStageLockPosition();
     // public System.Void UpdateStageLockPositionAnimated(System.Boolean animated, System.Single animationDuration)
-    // Offset: 0x11423CC
+    // Offset: 0x1188F1C
     void UpdateStageLockPositionAnimated(bool animated, float animationDuration);
     // public System.Void UpdateStageLockText(System.Int32 numberOfClearedMissions)
-    // Offset: 0x114420C
+    // Offset: 0x118AD5C
     void UpdateStageLockText(int numberOfClearedMissions);
     // public System.Void .ctor()
-    // Offset: 0x11479C0
+    // Offset: 0x118E510
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

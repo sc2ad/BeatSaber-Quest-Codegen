@@ -26,31 +26,31 @@ namespace UnityEngine::ProBuilder {
     // Creating value type constructor for type: Normals
     Normals() noexcept {}
     // Get static field: static private UnityEngine.Vector3[] s_SmoothAvg
-    static ::Array<UnityEngine::Vector3>* _get_s_SmoothAvg();
+    static ::ArrayWrapper<UnityEngine::Vector3> _get_s_SmoothAvg();
     // Set static field: static private UnityEngine.Vector3[] s_SmoothAvg
-    static void _set_s_SmoothAvg(::Array<UnityEngine::Vector3>* value);
+    static void _set_s_SmoothAvg(::ArrayWrapper<UnityEngine::Vector3> value);
     // Get static field: static private System.Single[] s_SmoothAvgCount
-    static ::Array<float>* _get_s_SmoothAvgCount();
+    static ::ArrayWrapper<float> _get_s_SmoothAvgCount();
     // Set static field: static private System.Single[] s_SmoothAvgCount
-    static void _set_s_SmoothAvgCount(::Array<float>* value);
+    static void _set_s_SmoothAvgCount(::ArrayWrapper<float> value);
     // Get static field: static private System.Int32[] s_CachedIntArray
-    static ::Array<int>* _get_s_CachedIntArray();
+    static ::ArrayWrapper<int> _get_s_CachedIntArray();
     // Set static field: static private System.Int32[] s_CachedIntArray
-    static void _set_s_CachedIntArray(::Array<int>* value);
+    static void _set_s_CachedIntArray(::ArrayWrapper<int> value);
     // static private System.Void .cctor()
-    // Offset: 0x1759274
+    // Offset: 0x190AA4C
     static void _cctor();
     // static private System.Void ClearIntArray(System.Int32 count)
-    // Offset: 0x1757EC0
+    // Offset: 0x1909698
     static void ClearIntArray(int count);
     // static public System.Void CalculateTangents(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x1757FE4
+    // Offset: 0x19097BC
     static void CalculateTangents(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static private System.Void CalculateHardNormals(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x1758638
+    // Offset: 0x1909E10
     static void CalculateHardNormals(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static public System.Void CalculateNormals(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x1758B64
+    // Offset: 0x190A33C
     static void CalculateNormals(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
   }; // UnityEngine.ProBuilder.Normals
   #pragma pack(pop)

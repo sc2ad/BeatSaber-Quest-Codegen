@@ -28,21 +28,21 @@ namespace System::Text::RegularExpressions {
     // System.Int32[] _positive
     // Size: 0x8
     // Offset: 0x10
-    ::Array<int>* positive;
+    ::ArrayWrapper<int> positive;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // System.Int32[] _negativeASCII
     // Size: 0x8
     // Offset: 0x18
-    ::Array<int>* negativeASCII;
+    ::ArrayWrapper<int> negativeASCII;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // System.Int32[][] _negativeUnicode
     // Size: 0x8
     // Offset: 0x20
-    ::Array<::Array<int>*>* negativeUnicode;
+    ::ArrayWrapper<::ArrayWrapper<int>> negativeUnicode;
     // Field size check
-    static_assert(sizeof(::Array<::Array<int>*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::ArrayWrapper<int>>) == 0x8);
     // System.String _pattern
     // Size: 0x8
     // Offset: 0x28
@@ -82,13 +82,13 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(System::Globalization::CultureInfo*) == 0x8);
     // Creating value type constructor for type: RegexBoyerMoore
-    RegexBoyerMoore(::Array<int>* positive_ = {}, ::Array<int>* negativeASCII_ = {}, ::Array<::Array<int>*>* negativeUnicode_ = {}, ::Il2CppString* pattern_ = {}, int lowASCII_ = {}, int highASCII_ = {}, bool rightToLeft_ = {}, bool caseInsensitive_ = {}, System::Globalization::CultureInfo* culture_ = {}) noexcept : positive{positive_}, negativeASCII{negativeASCII_}, negativeUnicode{negativeUnicode_}, pattern{pattern_}, lowASCII{lowASCII_}, highASCII{highASCII_}, rightToLeft{rightToLeft_}, caseInsensitive{caseInsensitive_}, culture{culture_} {}
+    RegexBoyerMoore(::ArrayWrapper<int> positive_ = {}, ::ArrayWrapper<int> negativeASCII_ = {}, ::ArrayWrapper<::ArrayWrapper<int>> negativeUnicode_ = {}, ::Il2CppString* pattern_ = {}, int lowASCII_ = {}, int highASCII_ = {}, bool rightToLeft_ = {}, bool caseInsensitive_ = {}, System::Globalization::CultureInfo* culture_ = {}) noexcept : positive{positive_}, negativeASCII{negativeASCII_}, negativeUnicode{negativeUnicode_}, pattern{pattern_}, lowASCII{lowASCII_}, highASCII{highASCII_}, rightToLeft{rightToLeft_}, caseInsensitive{caseInsensitive_}, culture{culture_} {}
     // Get instance field reference: System.Int32[] _positive
-    ::Array<int>*& dyn__positive();
+    ::ArrayWrapper<int>& dyn__positive();
     // Get instance field reference: System.Int32[] _negativeASCII
-    ::Array<int>*& dyn__negativeASCII();
+    ::ArrayWrapper<int>& dyn__negativeASCII();
     // Get instance field reference: System.Int32[][] _negativeUnicode
-    ::Array<::Array<int>*>*& dyn__negativeUnicode();
+    ::ArrayWrapper<::ArrayWrapper<int>>& dyn__negativeUnicode();
     // Get instance field reference: System.String _pattern
     ::Il2CppString*& dyn__pattern();
     // Get instance field reference: System.Int32 _lowASCII
@@ -102,23 +102,23 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Globalization.CultureInfo _culture
     System::Globalization::CultureInfo*& dyn__culture();
     // System.Void .ctor(System.String pattern, System.Boolean caseInsensitive, System.Boolean rightToLeft, System.Globalization.CultureInfo culture)
-    // Offset: 0x18726B8
+    // Offset: 0x19E4FA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexBoyerMoore* New_ctor(::Il2CppString* pattern, bool caseInsensitive, bool rightToLeft, System::Globalization::CultureInfo* culture) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexBoyerMoore::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexBoyerMoore*, creationType>(pattern, caseInsensitive, rightToLeft, culture)));
     }
     // private System.Boolean MatchPattern(System.String text, System.Int32 index)
-    // Offset: 0x1872B8C
+    // Offset: 0x19E5478
     bool MatchPattern(::Il2CppString* text, int index);
     // System.Boolean IsMatch(System.String text, System.Int32 index, System.Int32 beglimit, System.Int32 endlimit)
-    // Offset: 0x1872CB4
+    // Offset: 0x19E55A0
     bool IsMatch(::Il2CppString* text, int index, int beglimit, int endlimit);
     // System.Int32 Scan(System.String text, System.Int32 index, System.Int32 beglimit, System.Int32 endlimit)
-    // Offset: 0x1872D24
+    // Offset: 0x19E5610
     int Scan(::Il2CppString* text, int index, int beglimit, int endlimit);
     // public override System.String ToString()
-    // Offset: 0x1873068
+    // Offset: 0x19E5954
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

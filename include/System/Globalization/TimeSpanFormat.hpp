@@ -82,11 +82,11 @@ namespace System::Globalization {
       // private System.String[] literals
       // Size: 0x8
       // Offset: 0x20
-      ::Array<::Il2CppString*>* literals;
+      ::ArrayWrapper<::Il2CppString*> literals;
       // Field size check
-      static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+      static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
       // Creating value type constructor for type: FormatLiterals
-      constexpr FormatLiterals(::Il2CppString* AppCompatLiteral_ = {}, int dd_ = {}, int hh_ = {}, int mm_ = {}, int ss_ = {}, int ff_ = {}, ::Array<::Il2CppString*>* literals_ = {}) noexcept : AppCompatLiteral{AppCompatLiteral_}, dd{dd_}, hh{hh_}, mm{mm_}, ss{ss_}, ff{ff_}, literals{literals_} {}
+      constexpr FormatLiterals(::Il2CppString* AppCompatLiteral_ = {}, int dd_ = {}, int hh_ = {}, int mm_ = {}, int ss_ = {}, int ff_ = {}, ::ArrayWrapper<::Il2CppString*> literals_ = {}) noexcept : AppCompatLiteral{AppCompatLiteral_}, dd{dd_}, hh{hh_}, mm{mm_}, ss{ss_}, ff{ff_}, literals{literals_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
@@ -104,34 +104,34 @@ namespace System::Globalization {
       // Get instance field reference: System.Int32 ff
       int& dyn_ff();
       // Get instance field reference: private System.String[] literals
-      ::Array<::Il2CppString*>*& dyn_literals();
+      ::ArrayWrapper<::Il2CppString*>& dyn_literals();
       // System.String get_Start()
-      // Offset: 0x1A23618
+      // Offset: 0x1BDE354
       ::Il2CppString* get_Start();
       // System.String get_DayHourSep()
-      // Offset: 0x1A2364C
+      // Offset: 0x1BDE388
       ::Il2CppString* get_DayHourSep();
       // System.String get_HourMinuteSep()
-      // Offset: 0x1A23684
+      // Offset: 0x1BDE3C0
       ::Il2CppString* get_HourMinuteSep();
       // System.String get_MinuteSecondSep()
-      // Offset: 0x1A236BC
+      // Offset: 0x1BDE3F8
       ::Il2CppString* get_MinuteSecondSep();
       // System.String get_SecondFractionSep()
-      // Offset: 0x1A236F4
+      // Offset: 0x1BDE430
       ::Il2CppString* get_SecondFractionSep();
       // System.String get_End()
-      // Offset: 0x1A2372C
+      // Offset: 0x1BDE468
       ::Il2CppString* get_End();
       // static System.Globalization.TimeSpanFormat/System.Globalization.FormatLiterals InitInvariant(System.Boolean isNegative)
-      // Offset: 0x1A23800
+      // Offset: 0x1BDE53C
       static System::Globalization::TimeSpanFormat::FormatLiterals InitInvariant(bool isNegative);
       // System.Void Init(System.String format, System.Boolean useInvariantFieldLengths)
-      // Offset: 0x1A231E8
+      // Offset: 0x1BDDF24
       void Init(::Il2CppString* format, bool useInvariantFieldLengths);
     }; // System.Globalization.TimeSpanFormat/System.Globalization.FormatLiterals
     #pragma pack(pop)
-    static check_size<sizeof(TimeSpanFormat::FormatLiterals), 32 + sizeof(::Array<::Il2CppString*>*)> __System_Globalization_TimeSpanFormat_FormatLiteralsSizeCheck;
+    static check_size<sizeof(TimeSpanFormat::FormatLiterals), 32 + sizeof(::ArrayWrapper<::Il2CppString*>)> __System_Globalization_TimeSpanFormat_FormatLiteralsSizeCheck;
     static_assert(sizeof(TimeSpanFormat::FormatLiterals) == 0x28);
     // Creating value type constructor for type: TimeSpanFormat
     TimeSpanFormat() noexcept {}
@@ -144,19 +144,19 @@ namespace System::Globalization {
     // Set static field: static readonly System.Globalization.TimeSpanFormat/System.Globalization.FormatLiterals NegativeInvariantFormatLiterals
     static void _set_NegativeInvariantFormatLiterals(System::Globalization::TimeSpanFormat::FormatLiterals value);
     // static private System.Void .cctor()
-    // Offset: 0x1A23764
+    // Offset: 0x1BDE4A0
     static void _cctor();
     // static private System.String IntToString(System.Int32 n, System.Int32 digits)
-    // Offset: 0x1A222D4
+    // Offset: 0x1BDD010
     static ::Il2CppString* IntToString(int n, int digits);
     // static System.String Format(System.TimeSpan value, System.String format, System.IFormatProvider formatProvider)
-    // Offset: 0x1A222EC
+    // Offset: 0x1BDD028
     static ::Il2CppString* Format(System::TimeSpan value, ::Il2CppString* format, System::IFormatProvider* formatProvider);
     // static private System.String FormatStandard(System.TimeSpan value, System.Boolean isInvariant, System.String format, System.Globalization.TimeSpanFormat/System.Globalization.Pattern pattern)
-    // Offset: 0x1A22530
+    // Offset: 0x1BDD26C
     static ::Il2CppString* FormatStandard(System::TimeSpan value, bool isInvariant, ::Il2CppString* format, System::Globalization::TimeSpanFormat::Pattern pattern);
     // static System.String FormatCustomized(System.TimeSpan value, System.String format, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x1A22A48
+    // Offset: 0x1BDD784
     static ::Il2CppString* FormatCustomized(System::TimeSpan value, ::Il2CppString* format, System::Globalization::DateTimeFormatInfo* dtfi);
   }; // System.Globalization.TimeSpanFormat
   #pragma pack(pop)

@@ -42,33 +42,33 @@ namespace GlobalNamespace {
     // public UnityEngine.Vector3[] vertices
     // Size: 0x8
     // Offset: 0x18
-    ::Array<UnityEngine::Vector3>* vertices;
+    ::ArrayWrapper<UnityEngine::Vector3> vertices;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
     // public UnityEngine.Color[] colors
     // Size: 0x8
     // Offset: 0x20
-    ::Array<UnityEngine::Color>* colors;
+    ::ArrayWrapper<UnityEngine::Color> colors;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Color>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Color>) == 0x8);
     // public UnityEngine.Vector4[] viewPos
     // Size: 0x8
     // Offset: 0x28
-    ::Array<UnityEngine::Vector4>* viewPos;
+    ::ArrayWrapper<UnityEngine::Vector4> viewPos;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector4>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
     // Creating value type constructor for type: LightsRenderingData
-    LightsRenderingData(UnityEngine::Mesh* mesh_ = {}, ::Array<UnityEngine::Vector3>* vertices_ = {}, ::Array<UnityEngine::Color>* colors_ = {}, ::Array<UnityEngine::Vector4>* viewPos_ = {}) noexcept : mesh{mesh_}, vertices{vertices_}, colors{colors_}, viewPos{viewPos_} {}
+    LightsRenderingData(UnityEngine::Mesh* mesh_ = {}, ::ArrayWrapper<UnityEngine::Vector3> vertices_ = {}, ::ArrayWrapper<UnityEngine::Color> colors_ = {}, ::ArrayWrapper<UnityEngine::Vector4> viewPos_ = {}) noexcept : mesh{mesh_}, vertices{vertices_}, colors{colors_}, viewPos{viewPos_} {}
     // Get instance field reference: public UnityEngine.Mesh mesh
     UnityEngine::Mesh*& dyn_mesh();
     // Get instance field reference: public UnityEngine.Vector3[] vertices
-    ::Array<UnityEngine::Vector3>*& dyn_vertices();
+    ::ArrayWrapper<UnityEngine::Vector3>& dyn_vertices();
     // Get instance field reference: public UnityEngine.Color[] colors
-    ::Array<UnityEngine::Color>*& dyn_colors();
+    ::ArrayWrapper<UnityEngine::Color>& dyn_colors();
     // Get instance field reference: public UnityEngine.Vector4[] viewPos
-    ::Array<UnityEngine::Vector4>*& dyn_viewPos();
+    ::ArrayWrapper<UnityEngine::Vector4>& dyn_viewPos();
     // public System.Void .ctor()
-    // Offset: 0x1E14A3C
+    // Offset: 0x1E24980
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     }
   }; // BloomPrePassRendererSO/LightsRenderingData
   #pragma pack(pop)
-  static check_size<sizeof(BloomPrePassRendererSO::LightsRenderingData), 40 + sizeof(::Array<UnityEngine::Vector4>*)> __GlobalNamespace_BloomPrePassRendererSO_LightsRenderingDataSizeCheck;
+  static check_size<sizeof(BloomPrePassRendererSO::LightsRenderingData), 40 + sizeof(::ArrayWrapper<UnityEngine::Vector4>)> __GlobalNamespace_BloomPrePassRendererSO_LightsRenderingDataSizeCheck;
   static_assert(sizeof(BloomPrePassRendererSO::LightsRenderingData) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData*, "", "BloomPrePassRendererSO/LightsRenderingData");

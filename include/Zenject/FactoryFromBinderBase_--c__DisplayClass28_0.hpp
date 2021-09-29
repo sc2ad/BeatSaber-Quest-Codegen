@@ -64,10 +64,10 @@ namespace Zenject {
     // Get instance field reference: public UnityEngine.Object prefab
     UnityEngine::Object*& dyn_prefab();
     // Zenject.IProvider <FromNewComponentOnNewPrefab>b__0(Zenject.DiContainer container)
-    // Offset: 0x165F9B8
+    // Offset: 0x1829D5C
     Zenject::IProvider* $FromNewComponentOnNewPrefab$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x165EDD4
+    // Offset: 0x1829178
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

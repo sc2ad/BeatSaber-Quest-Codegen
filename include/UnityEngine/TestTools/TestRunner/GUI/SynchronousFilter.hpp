@@ -41,19 +41,19 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestFilter*>(this);
     }
     // public NUnit.Framework.Interfaces.TNode ToXml(System.Boolean recursive)
-    // Offset: 0x14CF3B4
+    // Offset: 0x1675030
     NUnit::Framework::Interfaces::TNode* ToXml(bool recursive);
     // public NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x14CF41C
+    // Offset: 0x1675098
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
     // public System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x14CF478
+    // Offset: 0x16750F4
     bool Pass(NUnit::Framework::Interfaces::ITest* test);
     // public System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x14CFCD0
+    // Offset: 0x167594C
     bool IsExplicitMatch(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void .ctor()
-    // Offset: 0x14CEEC4
+    // Offset: 0x1674B40
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

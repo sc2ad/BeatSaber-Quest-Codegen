@@ -17,7 +17,7 @@ namespace HMUI {
     // Creating value type constructor for type: EventSystemHelpers
     EventSystemHelpers() noexcept {}
     // static public System.Boolean IsInputFieldSelected()
-    // Offset: 0x13713F4
+    // Offset: 0x1486A34
     static bool IsInputFieldSelected();
   }; // HMUI.EventSystemHelpers
   #pragma pack(pop)

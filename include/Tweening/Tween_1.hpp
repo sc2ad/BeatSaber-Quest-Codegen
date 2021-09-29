@@ -118,6 +118,14 @@ namespace Tweening {
       auto ___instance_arg = this;
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, fromValue, toValue, onUpdate, duration, animationCurve, delay);
     }
+    // public System.Void ForceOnUpdate()
+    // Offset: 0xFFFFFFFF
+    void ForceOnUpdate() {
+      static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Tween_1::ForceOnUpdate");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ForceOnUpdate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+      auto ___instance_arg = this;
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method);
+    }
     // public T GetValue(System.Single t)
     // Offset: 0xFFFFFFFF
     T GetValue(float t) {
@@ -136,15 +144,15 @@ namespace Tweening {
       static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Tween_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tween_1<T>*, creationType>()));
     }
-    // public override System.Void Update(System.Single deltaTime)
+    // public override System.Void Update(System.Single currentTime)
     // Offset: 0xFFFFFFFF
     // Implemented from: Tweening.Tween
-    // Base method: System.Void Tween::Update(System.Single deltaTime)
-    void Update(float deltaTime) {
+    // Base method: System.Void Tween::Update(System.Single currentTime)
+    void Update(float currentTime) {
       static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Tween_1::Update");
-      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Update", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(deltaTime)})));
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Update", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(currentTime)})));
       auto ___instance_arg = this;
-      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, deltaTime);
+      ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___internal__method, currentTime);
     }
     // public override System.Void Sample(System.Single t)
     // Offset: 0xFFFFFFFF

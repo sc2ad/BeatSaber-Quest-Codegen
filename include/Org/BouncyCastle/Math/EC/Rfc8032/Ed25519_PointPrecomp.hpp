@@ -23,31 +23,31 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     // System.Int32[] ypx_h
     // Size: 0x8
     // Offset: 0x10
-    ::Array<int>* ypx_h;
+    ::ArrayWrapper<int> ypx_h;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // System.Int32[] ymx_h
     // Size: 0x8
     // Offset: 0x18
-    ::Array<int>* ymx_h;
+    ::ArrayWrapper<int> ymx_h;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // System.Int32[] xyd
     // Size: 0x8
     // Offset: 0x20
-    ::Array<int>* xyd;
+    ::ArrayWrapper<int> xyd;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // Creating value type constructor for type: PointPrecomp
-    PointPrecomp(::Array<int>* ypx_h_ = {}, ::Array<int>* ymx_h_ = {}, ::Array<int>* xyd_ = {}) noexcept : ypx_h{ypx_h_}, ymx_h{ymx_h_}, xyd{xyd_} {}
+    PointPrecomp(::ArrayWrapper<int> ypx_h_ = {}, ::ArrayWrapper<int> ymx_h_ = {}, ::ArrayWrapper<int> xyd_ = {}) noexcept : ypx_h{ypx_h_}, ymx_h{ymx_h_}, xyd{xyd_} {}
     // Get instance field reference: System.Int32[] ypx_h
-    ::Array<int>*& dyn_ypx_h();
+    ::ArrayWrapper<int>& dyn_ypx_h();
     // Get instance field reference: System.Int32[] ymx_h
-    ::Array<int>*& dyn_ymx_h();
+    ::ArrayWrapper<int>& dyn_ymx_h();
     // Get instance field reference: System.Int32[] xyd
-    ::Array<int>*& dyn_xyd();
+    ::ArrayWrapper<int>& dyn_xyd();
     // public System.Void .ctor()
-    // Offset: 0x1DD2C8C
+    // Offset: 0x1F8EC30
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -57,7 +57,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     }
   }; // Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointPrecomp
   #pragma pack(pop)
-  static check_size<sizeof(Ed25519::PointPrecomp), 32 + sizeof(::Array<int>*)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed25519_PointPrecompSizeCheck;
+  static check_size<sizeof(Ed25519::PointPrecomp), 32 + sizeof(::ArrayWrapper<int>)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed25519_PointPrecompSizeCheck;
   static_assert(sizeof(Ed25519::PointPrecomp) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointPrecomp*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/PointPrecomp");

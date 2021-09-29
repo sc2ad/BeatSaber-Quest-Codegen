@@ -139,33 +139,33 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // private readonly System.Byte[] mKey
     // Size: 0x8
     // Offset: 0x20
-    ::Array<uint8_t>* mKey;
+    ::ArrayWrapper<uint8_t> mKey;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private readonly System.Byte[] mNonce
     // Size: 0x8
     // Offset: 0x28
-    ::Array<uint8_t>* mNonce;
+    ::ArrayWrapper<uint8_t> mNonce;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private readonly System.Byte[] mBuf
     // Size: 0x8
     // Offset: 0x30
-    ::Array<uint8_t>* mBuf;
+    ::ArrayWrapper<uint8_t> mBuf;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private readonly System.Byte[] mMac
     // Size: 0x8
     // Offset: 0x38
-    ::Array<uint8_t>* mMac;
+    ::ArrayWrapper<uint8_t> mMac;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Byte[] mInitialAad
     // Size: 0x8
     // Offset: 0x40
-    ::Array<uint8_t>* mInitialAad;
+    ::ArrayWrapper<uint8_t> mInitialAad;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.UInt64 mAadCount
     // Size: 0x8
     // Offset: 0x48
@@ -191,29 +191,29 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ChaCha20Poly1305
-    ChaCha20Poly1305(Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine* mChacha20_ = {}, Org::BouncyCastle::Crypto::IMac* mPoly1305_ = {}, ::Array<uint8_t>* mKey_ = {}, ::Array<uint8_t>* mNonce_ = {}, ::Array<uint8_t>* mBuf_ = {}, ::Array<uint8_t>* mMac_ = {}, ::Array<uint8_t>* mInitialAad_ = {}, uint64_t mAadCount_ = {}, uint64_t mDataCount_ = {}, Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::State mState_ = {}, int mBufPos_ = {}) noexcept : mChacha20{mChacha20_}, mPoly1305{mPoly1305_}, mKey{mKey_}, mNonce{mNonce_}, mBuf{mBuf_}, mMac{mMac_}, mInitialAad{mInitialAad_}, mAadCount{mAadCount_}, mDataCount{mDataCount_}, mState{mState_}, mBufPos{mBufPos_} {}
+    ChaCha20Poly1305(Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine* mChacha20_ = {}, Org::BouncyCastle::Crypto::IMac* mPoly1305_ = {}, ::ArrayWrapper<uint8_t> mKey_ = {}, ::ArrayWrapper<uint8_t> mNonce_ = {}, ::ArrayWrapper<uint8_t> mBuf_ = {}, ::ArrayWrapper<uint8_t> mMac_ = {}, ::ArrayWrapper<uint8_t> mInitialAad_ = {}, uint64_t mAadCount_ = {}, uint64_t mDataCount_ = {}, Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::State mState_ = {}, int mBufPos_ = {}) noexcept : mChacha20{mChacha20_}, mPoly1305{mPoly1305_}, mKey{mKey_}, mNonce{mNonce_}, mBuf{mBuf_}, mMac{mMac_}, mInitialAad{mInitialAad_}, mAadCount{mAadCount_}, mDataCount{mDataCount_}, mState{mState_}, mBufPos{mBufPos_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::Modes::IAeadCipher
     operator Org::BouncyCastle::Crypto::Modes::IAeadCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Modes::IAeadCipher*>(this);
     }
     // Get static field: static private readonly System.Byte[] Zeroes
-    static ::Array<uint8_t>* _get_Zeroes();
+    static ::ArrayWrapper<uint8_t> _get_Zeroes();
     // Set static field: static private readonly System.Byte[] Zeroes
-    static void _set_Zeroes(::Array<uint8_t>* value);
+    static void _set_Zeroes(::ArrayWrapper<uint8_t> value);
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Engines.ChaCha7539Engine mChacha20
     Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*& dyn_mChacha20();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IMac mPoly1305
     Org::BouncyCastle::Crypto::IMac*& dyn_mPoly1305();
     // Get instance field reference: private readonly System.Byte[] mKey
-    ::Array<uint8_t>*& dyn_mKey();
+    ::ArrayWrapper<uint8_t>& dyn_mKey();
     // Get instance field reference: private readonly System.Byte[] mNonce
-    ::Array<uint8_t>*& dyn_mNonce();
+    ::ArrayWrapper<uint8_t>& dyn_mNonce();
     // Get instance field reference: private readonly System.Byte[] mBuf
-    ::Array<uint8_t>*& dyn_mBuf();
+    ::ArrayWrapper<uint8_t>& dyn_mBuf();
     // Get instance field reference: private readonly System.Byte[] mMac
-    ::Array<uint8_t>*& dyn_mMac();
+    ::ArrayWrapper<uint8_t>& dyn_mMac();
     // Get instance field reference: private System.Byte[] mInitialAad
-    ::Array<uint8_t>*& dyn_mInitialAad();
+    ::ArrayWrapper<uint8_t>& dyn_mInitialAad();
     // Get instance field reference: private System.UInt64 mAadCount
     uint64_t& dyn_mAadCount();
     // Get instance field reference: private System.UInt64 mDataCount
@@ -223,65 +223,65 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Get instance field reference: private System.Int32 mBufPos
     int& dyn_mBufPos();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IMac poly1305)
-    // Offset: 0x191D9D4
+    // Offset: 0x1A8D808
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChaCha20Poly1305* New_ctor(Org::BouncyCastle::Crypto::IMac* poly1305) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChaCha20Poly1305*, creationType>(poly1305)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x191F528
+    // Offset: 0x1A8F35C
     static void _cctor();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x191DB84
+    // Offset: 0x1A8D9B8
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetOutputSize(System.Int32 len)
-    // Offset: 0x191E104
+    // Offset: 0x1A8DF38
     int GetOutputSize(int len);
     // public System.Int32 GetUpdateOutputSize(System.Int32 len)
-    // Offset: 0x191E208
+    // Offset: 0x1A8E03C
     int GetUpdateOutputSize(int len);
     // public System.Void ProcessAadBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x191E310
-    void ProcessAadBytes(::Array<uint8_t>* inBytes, int inOff, int len);
+    // Offset: 0x1A8E144
+    void ProcessAadBytes(::ArrayWrapper<uint8_t> inBytes, int inOff, int len);
     // public System.Int32 ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x191E654
-    int ProcessBytes(::Array<uint8_t>* inBytes, int inOff, int len, ::Array<uint8_t>* outBytes, int outOff);
+    // Offset: 0x1A8E488
+    int ProcessBytes(::ArrayWrapper<uint8_t> inBytes, int inOff, int len, ::ArrayWrapper<uint8_t> outBytes, int outOff);
     // public System.Int32 DoFinal(System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x191ECFC
-    int DoFinal(::Array<uint8_t>* outBytes, int outOff);
+    // Offset: 0x1A8EB30
+    int DoFinal(::ArrayWrapper<uint8_t> outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x191F244
+    // Offset: 0x1A8F078
     void Reset();
     // private System.Void CheckAad()
-    // Offset: 0x191E4E4
+    // Offset: 0x1A8E318
     void CheckAad();
     // private System.Void CheckData()
-    // Offset: 0x191EB48
+    // Offset: 0x1A8E97C
     void CheckData();
     // private System.Void FinishAad(Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305/Org.BouncyCastle.Crypto.Modes.State nextState)
-    // Offset: 0x191F250
+    // Offset: 0x1A8F084
     void FinishAad(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::State nextState);
     // private System.Void FinishData(Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305/Org.BouncyCastle.Crypto.Modes.State nextState)
-    // Offset: 0x191F0A0
+    // Offset: 0x1A8EED4
     void FinishData(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::State nextState);
     // private System.UInt64 IncrementCount(System.UInt64 count, System.UInt32 increment, System.UInt64 limit)
-    // Offset: 0x191E5B4
+    // Offset: 0x1A8E3E8
     uint64_t IncrementCount(uint64_t count, uint increment, uint64_t limit);
     // private System.Void InitMac()
-    // Offset: 0x191F398
+    // Offset: 0x1A8F1CC
     void InitMac();
     // private System.Void PadMac(System.UInt64 count)
-    // Offset: 0x191F280
+    // Offset: 0x1A8F0B4
     void PadMac(uint64_t count);
     // private System.Void ProcessData(System.Byte[] inBytes, System.Int32 inOff, System.Int32 inLen, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x191EC30
-    void ProcessData(::Array<uint8_t>* inBytes, int inOff, int inLen, ::Array<uint8_t>* outBytes, int outOff);
+    // Offset: 0x1A8EA64
+    void ProcessData(::ArrayWrapper<uint8_t> inBytes, int inOff, int inLen, ::ArrayWrapper<uint8_t> outBytes, int outOff);
     // private System.Void Reset(System.Boolean clearMac, System.Boolean resetCipher)
-    // Offset: 0x191DFA0
+    // Offset: 0x1A8DDD4
     void Reset(bool clearMac, bool resetCipher);
     // public System.Void .ctor()
-    // Offset: 0x191D974
+    // Offset: 0x1A8D7A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -340,9 +340,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::ProcessAadBytes
 // Il2CppName: ProcessAadBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::ProcessAadBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::ProcessAadBytes)> {
   static const MethodInfo* get() {
-    static auto* inBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* inBytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*), "ProcessAadBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inBytes, inOff, len});
@@ -351,12 +351,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::ProcessBytes
 // Il2CppName: ProcessBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::ProcessBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::ProcessBytes)> {
   static const MethodInfo* get() {
-    static auto* inBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* inBytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* outBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* outBytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*), "ProcessBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inBytes, inOff, len, outBytes, outOff});
   }
@@ -364,9 +364,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::DoFinal)> {
   static const MethodInfo* get() {
-    static auto* outBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* outBytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{outBytes, outOff});
   }
@@ -444,12 +444,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::ProcessData
 // Il2CppName: ProcessData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::ProcessData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::ProcessData)> {
   static const MethodInfo* get() {
-    static auto* inBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* inBytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* inLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* outBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* outBytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*), "ProcessData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inBytes, inOff, inLen, outBytes, outOff});
   }

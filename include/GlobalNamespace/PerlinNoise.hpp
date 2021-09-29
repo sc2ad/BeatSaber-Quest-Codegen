@@ -20,39 +20,39 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: PerlinNoise
     PerlinNoise() noexcept {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE07F80
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEC95C0
     // Get static field: static private readonly System.Int32[] permutation
-    static ::Array<int>* _get_permutation();
+    static ::ArrayWrapper<int> _get_permutation();
     // Set static field: static private readonly System.Int32[] permutation
-    static void _set_permutation(::Array<int>* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE07F90
+    static void _set_permutation(::ArrayWrapper<int> value);
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEC95D0
     // Get static field: static private readonly System.Int32[] p
-    static ::Array<int>* _get_p();
+    static ::ArrayWrapper<int> _get_p();
     // Set static field: static private readonly System.Int32[] p
-    static void _set_p(::Array<int>* value);
+    static void _set_p(::ArrayWrapper<int> value);
     // static private System.Void .cctor()
-    // Offset: 0x126F1C4
+    // Offset: 0x138B9CC
     static void _cctor();
     // static public System.Single OctavePerlin3D(System.Single x, System.Single y, System.Single z, System.Int32 octaves, System.Single persistence, System.Int32 repeat)
-    // Offset: 0x126F2D0
+    // Offset: 0x138BAD8
     static float OctavePerlin3D(float x, float y, float z, int octaves, float persistence, int repeat);
     // static public System.Single Perlin3D(System.Single x, System.Single y, System.Single z, System.Int32 repeat)
-    // Offset: 0x126F3C4
+    // Offset: 0x138BBCC
     static float Perlin3D(float x, float y, float z, int repeat);
     // static private System.Int32 Inc(System.Int32 num, System.Int32 repeat)
-    // Offset: 0x126F970
+    // Offset: 0x138C178
     static int Inc(int num, int repeat);
     // static private System.Single Grad3D(System.Int32 hash, System.Single x, System.Single y, System.Single z)
-    // Offset: 0x126F988
+    // Offset: 0x138C190
     static float Grad3D(int hash, float x, float y, float z);
     // static private System.Single Fade(System.Single t)
-    // Offset: 0x126F944
+    // Offset: 0x138C14C
     static float Fade(float t);
     // static private System.Single Lerp(System.Single a, System.Single b, System.Single x)
-    // Offset: 0x126FA04
+    // Offset: 0x138C20C
     static float Lerp(float a, float b, float x);
     // public System.Void .ctor()
-    // Offset: 0x126FA14
+    // Offset: 0x138C21C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

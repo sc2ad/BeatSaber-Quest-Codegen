@@ -75,16 +75,16 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
     Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // public Org.BouncyCastle.Math.BigInteger get_Order()
-    // Offset: 0x127F314
+    // Offset: 0x139BB1C
     Org::BouncyCastle::Math::BigInteger* get_Order();
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x127F180
+    // Offset: 0x139B988
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public Org.BouncyCastle.Math.BigInteger[] GenerateSignature(System.Byte[] message)
-    // Offset: 0x127F33C
-    ::Array<Org::BouncyCastle::Math::BigInteger*>* GenerateSignature(::Array<uint8_t>* message);
+    // Offset: 0x139BB44
+    ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> GenerateSignature(::ArrayWrapper<uint8_t> message);
     // public System.Void .ctor()
-    // Offset: 0x127F69C
+    // Offset: 0x139BEA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -120,9 +120,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::ECNRSigner::GenerateSignature
 // Il2CppName: GenerateSignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::BigInteger*>* (Org::BouncyCastle::Crypto::Signers::ECNRSigner::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Signers::ECNRSigner::GenerateSignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> (Org::BouncyCastle::Crypto::Signers::ECNRSigner::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::ECNRSigner::GenerateSignature)> {
   static const MethodInfo* get() {
-    static auto* message = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* message = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::ECNRSigner*), "GenerateSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
 };

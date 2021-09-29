@@ -56,16 +56,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private RandomValueToShader _randomValueToShader
     GlobalNamespace::RandomValueToShader*& dyn__randomValueToShader();
     // protected System.Void OnEnable()
-    // Offset: 0x1E15BA0
+    // Offset: 0x1E25AE4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1E15CB8
+    // Offset: 0x1E25BFC
     void OnDisable();
     // public System.Void HandleCameraPreRender(UnityEngine.Camera camera)
-    // Offset: 0x1E15D7C
+    // Offset: 0x1E25CC0
     void HandleCameraPreRender(UnityEngine::Camera* camera);
     // public System.Void .ctor()
-    // Offset: 0x1E15E8C
+    // Offset: 0x1E25DD0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

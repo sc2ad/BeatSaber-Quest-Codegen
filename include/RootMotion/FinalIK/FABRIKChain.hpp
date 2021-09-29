@@ -36,14 +36,14 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::FABRIK* ik;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::FABRIK*) == 0x8);
-    // [RangeAttribute] Offset: 0xE2C0D8
+    // [RangeAttribute] Offset: 0xEF28B0
     // public System.Single pull
     // Size: 0x4
     // Offset: 0x18
     float pull;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE2C0F0
+    // [RangeAttribute] Offset: 0xEF28C8
     // public System.Single pin
     // Size: 0x4
     // Offset: 0x1C
@@ -53,11 +53,11 @@ namespace RootMotion::FinalIK {
     // public System.Int32[] children
     // Size: 0x8
     // Offset: 0x20
-    ::Array<int>* children;
+    ::ArrayWrapper<int> children;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // Creating value type constructor for type: FABRIKChain
-    FABRIKChain(RootMotion::FinalIK::FABRIK* ik_ = {}, float pull_ = {}, float pin_ = {}, ::Array<int>* children_ = {}) noexcept : ik{ik_}, pull{pull_}, pin{pin_}, children{children_} {}
+    FABRIKChain(RootMotion::FinalIK::FABRIK* ik_ = {}, float pull_ = {}, float pin_ = {}, ::ArrayWrapper<int> children_ = {}) noexcept : ik{ik_}, pull{pull_}, pin{pin_}, children{children_} {}
     // Get instance field reference: public RootMotion.FinalIK.FABRIK ik
     RootMotion::FinalIK::FABRIK*& dyn_ik();
     // Get instance field reference: public System.Single pull
@@ -65,24 +65,24 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single pin
     float& dyn_pin();
     // Get instance field reference: public System.Int32[] children
-    ::Array<int>*& dyn_children();
+    ::ArrayWrapper<int>& dyn_children();
     // public System.Boolean IsValid(ref System.String message)
-    // Offset: 0x1D34C38
+    // Offset: 0x1EC1DB4
     bool IsValid(ByRef<::Il2CppString*> message);
     // public System.Void Initiate()
-    // Offset: 0x1D34D00
+    // Offset: 0x1EC1E7C
     void Initiate();
     // public System.Void Stage1(RootMotion.FinalIK.FABRIKChain[] chain)
-    // Offset: 0x1D34D20
-    void Stage1(::Array<RootMotion::FinalIK::FABRIKChain*>* chain);
+    // Offset: 0x1EC1E9C
+    void Stage1(::ArrayWrapper<RootMotion::FinalIK::FABRIKChain*> chain);
     // public System.Void Stage2(UnityEngine.Vector3 rootPosition, RootMotion.FinalIK.FABRIKChain[] chain)
-    // Offset: 0x1D350F0
-    void Stage2(UnityEngine::Vector3 rootPosition, ::Array<RootMotion::FinalIK::FABRIKChain*>* chain);
+    // Offset: 0x1EC226C
+    void Stage2(UnityEngine::Vector3 rootPosition, ::ArrayWrapper<RootMotion::FinalIK::FABRIKChain*> chain);
     // private UnityEngine.Vector3 GetCentroid(RootMotion.FinalIK.FABRIKChain[] chain)
-    // Offset: 0x1D34DF4
-    UnityEngine::Vector3 GetCentroid(::Array<RootMotion::FinalIK::FABRIKChain*>* chain);
+    // Offset: 0x1EC1F70
+    UnityEngine::Vector3 GetCentroid(::ArrayWrapper<RootMotion::FinalIK::FABRIKChain*> chain);
     // public System.Void .ctor()
-    // Offset: 0x1D351E8
+    // Offset: 0x1EC2364
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -92,7 +92,7 @@ namespace RootMotion::FinalIK {
     }
   }; // RootMotion.FinalIK.FABRIKChain
   #pragma pack(pop)
-  static check_size<sizeof(FABRIKChain), 32 + sizeof(::Array<int>*)> __RootMotion_FinalIK_FABRIKChainSizeCheck;
+  static check_size<sizeof(FABRIKChain), 32 + sizeof(::ArrayWrapper<int>)> __RootMotion_FinalIK_FABRIKChainSizeCheck;
   static_assert(sizeof(FABRIKChain) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FABRIKChain*, "RootMotion.FinalIK", "FABRIKChain");
@@ -117,28 +117,28 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::FABRIKChain::Stage1
 // Il2CppName: Stage1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FABRIKChain::*)(::Array<RootMotion::FinalIK::FABRIKChain*>*)>(&RootMotion::FinalIK::FABRIKChain::Stage1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FABRIKChain::*)(::ArrayWrapper<RootMotion::FinalIK::FABRIKChain*>)>(&RootMotion::FinalIK::FABRIKChain::Stage1)> {
   static const MethodInfo* get() {
-    static auto* chain = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FABRIKChain"), 1)->byval_arg;
+    static auto* chain = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FABRIKChain")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FABRIKChain*), "Stage1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chain});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::FABRIKChain::Stage2
 // Il2CppName: Stage2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FABRIKChain::*)(UnityEngine::Vector3, ::Array<RootMotion::FinalIK::FABRIKChain*>*)>(&RootMotion::FinalIK::FABRIKChain::Stage2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FABRIKChain::*)(UnityEngine::Vector3, ::ArrayWrapper<RootMotion::FinalIK::FABRIKChain*>)>(&RootMotion::FinalIK::FABRIKChain::Stage2)> {
   static const MethodInfo* get() {
     static auto* rootPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
-    static auto* chain = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FABRIKChain"), 1)->byval_arg;
+    static auto* chain = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FABRIKChain")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FABRIKChain*), "Stage2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rootPosition, chain});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::FABRIKChain::GetCentroid
 // Il2CppName: GetCentroid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::FABRIKChain::*)(::Array<RootMotion::FinalIK::FABRIKChain*>*)>(&RootMotion::FinalIK::FABRIKChain::GetCentroid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::FABRIKChain::*)(::ArrayWrapper<RootMotion::FinalIK::FABRIKChain*>)>(&RootMotion::FinalIK::FABRIKChain::GetCentroid)> {
   static const MethodInfo* get() {
-    static auto* chain = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FABRIKChain"), 1)->byval_arg;
+    static auto* chain = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FABRIKChain")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FABRIKChain*), "GetCentroid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chain});
   }
 };

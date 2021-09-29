@@ -23,15 +23,15 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: CommonUnixIPGlobalProperties
     CommonUnixIPGlobalProperties() noexcept {}
     // static private System.Int32 getdomainname(System.Byte[] name, System.Int32 len)
-    // Offset: 0x1686854
-    static int getdomainname(::Array<uint8_t>* name, int len);
+    // Offset: 0x1851BF8
+    static int getdomainname(::ArrayWrapper<uint8_t> name, int len);
     // public override System.String get_DomainName()
-    // Offset: 0x16868EC
+    // Offset: 0x1851C90
     // Implemented from: System.Net.NetworkInformation.IPGlobalProperties
     // Base method: System.String IPGlobalProperties::get_DomainName()
     ::Il2CppString* get_DomainName();
     // protected System.Void .ctor()
-    // Offset: 0x1686A58
+    // Offset: 0x1851DFC
     // Implemented from: System.Net.NetworkInformation.IPGlobalProperties
     // Base method: System.Void IPGlobalProperties::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -48,9 +48,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::CommonUnixIPGlobalProper
 // Writing MetadataGetter for method: System::Net::NetworkInformation::CommonUnixIPGlobalProperties::getdomainname
 // Il2CppName: getdomainname
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int)>(&System::Net::NetworkInformation::CommonUnixIPGlobalProperties::getdomainname)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint8_t>, int)>(&System::Net::NetworkInformation::CommonUnixIPGlobalProperties::getdomainname)> {
   static const MethodInfo* get() {
-    static auto* name = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* name = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::CommonUnixIPGlobalProperties*), "getdomainname", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, len});
   }

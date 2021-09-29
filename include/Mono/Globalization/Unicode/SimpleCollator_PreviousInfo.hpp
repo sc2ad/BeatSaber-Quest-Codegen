@@ -48,7 +48,7 @@ namespace Mono::Globalization::Unicode {
     // Get instance field reference: public System.Byte* SortKey
     uint8_t*& dyn_SortKey();
     // public System.Void .ctor(System.Boolean dummy)
-    // Offset: 0x1A6EF08
+    // Offset: 0x1C378D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     PreviousInfo(bool dummy) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::SimpleCollator::PreviousInfo::.ctor");

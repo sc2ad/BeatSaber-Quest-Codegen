@@ -58,46 +58,46 @@ namespace HMUI {
     static_assert(sizeof(HMUI::CurvedCanvasSettingsHelper*) == 0x8);
     // Creating value type constructor for type: GradientImage
     GradientImage(UnityEngine::Color color0_ = {}, UnityEngine::Color color1_ = {}, HMUI::CurvedCanvasSettingsHelper* curvedCanvasSettingsHelper_ = {}) noexcept : color0{color0_}, color1{color1_}, curvedCanvasSettingsHelper{curvedCanvasSettingsHelper_} {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE1C3F4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEE2AD0
     // Get static field: static private readonly UnityEngine.Vector2 kVec2Zero
     static UnityEngine::Vector2 _get_kVec2Zero();
     // Set static field: static private readonly UnityEngine.Vector2 kVec2Zero
     static void _set_kVec2Zero(UnityEngine::Vector2 value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE1C404
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEE2AE0
     // Get static field: static private readonly UnityEngine.Vector3 kVec3Zero
     static UnityEngine::Vector3 _get_kVec3Zero();
     // Set static field: static private readonly UnityEngine.Vector3 kVec3Zero
     static void _set_kVec3Zero(UnityEngine::Vector3 value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE1C414
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEE2AF0
     // Get static field: static private readonly UnityEngine.Vector4 kVec4Zero
     static UnityEngine::Vector4 _get_kVec4Zero();
     // Set static field: static private readonly UnityEngine.Vector4 kVec4Zero
     static void _set_kVec4Zero(UnityEngine::Vector4 value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE1C424
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEE2B00
     // Get static field: static private readonly UnityEngine.Vector2[] s_VertScratch
-    static ::Array<UnityEngine::Vector2>* _get_s_VertScratch();
+    static ::ArrayWrapper<UnityEngine::Vector2> _get_s_VertScratch();
     // Set static field: static private readonly UnityEngine.Vector2[] s_VertScratch
-    static void _set_s_VertScratch(::Array<UnityEngine::Vector2>* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE1C434
+    static void _set_s_VertScratch(::ArrayWrapper<UnityEngine::Vector2> value);
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEE2B10
     // Get static field: static private readonly UnityEngine.Vector2[] s_UVScratch
-    static ::Array<UnityEngine::Vector2>* _get_s_UVScratch();
+    static ::ArrayWrapper<UnityEngine::Vector2> _get_s_UVScratch();
     // Set static field: static private readonly UnityEngine.Vector2[] s_UVScratch
-    static void _set_s_UVScratch(::Array<UnityEngine::Vector2>* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE1C444
+    static void _set_s_UVScratch(::ArrayWrapper<UnityEngine::Vector2> value);
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEE2B20
     // Get static field: static private readonly UnityEngine.Color[] s_ColorScratch
-    static ::Array<UnityEngine::Color>* _get_s_ColorScratch();
+    static ::ArrayWrapper<UnityEngine::Color> _get_s_ColorScratch();
     // Set static field: static private readonly UnityEngine.Color[] s_ColorScratch
-    static void _set_s_ColorScratch(::Array<UnityEngine::Color>* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE1C454
+    static void _set_s_ColorScratch(::ArrayWrapper<UnityEngine::Color> value);
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEE2B30
     // Get static field: static private readonly UnityEngine.Vector3[] s_Xy
-    static ::Array<UnityEngine::Vector3>* _get_s_Xy();
+    static ::ArrayWrapper<UnityEngine::Vector3> _get_s_Xy();
     // Set static field: static private readonly UnityEngine.Vector3[] s_Xy
-    static void _set_s_Xy(::Array<UnityEngine::Vector3>* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE1C464
+    static void _set_s_Xy(::ArrayWrapper<UnityEngine::Vector3> value);
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEE2B40
     // Get static field: static private readonly UnityEngine.Vector3[] s_Uv
-    static ::Array<UnityEngine::Vector3>* _get_s_Uv();
+    static ::ArrayWrapper<UnityEngine::Vector3> _get_s_Uv();
     // Set static field: static private readonly UnityEngine.Vector3[] s_Uv
-    static void _set_s_Uv(::Array<UnityEngine::Vector3>* value);
+    static void _set_s_Uv(::ArrayWrapper<UnityEngine::Vector3> value);
     // Get instance field reference: private UnityEngine.Color _color0
     UnityEngine::Color& dyn__color0();
     // Get instance field reference: private UnityEngine.Color _color1
@@ -105,28 +105,28 @@ namespace HMUI {
     // Get instance field reference: private readonly HMUI.CurvedCanvasSettingsHelper _curvedCanvasSettingsHelper
     HMUI::CurvedCanvasSettingsHelper*& dyn__curvedCanvasSettingsHelper();
     // public UnityEngine.Color get_color0()
-    // Offset: 0x1374210
+    // Offset: 0x1489850
     UnityEngine::Color get_color0();
     // public System.Void set_color0(UnityEngine.Color value)
-    // Offset: 0x1374220
+    // Offset: 0x1489860
     void set_color0(UnityEngine::Color value);
     // public UnityEngine.Color get_color1()
-    // Offset: 0x1374268
+    // Offset: 0x14898A8
     UnityEngine::Color get_color1();
     // public System.Void set_color1(UnityEngine.Color value)
-    // Offset: 0x137427C
+    // Offset: 0x14898BC
     void set_color1(UnityEngine::Color value);
     // private System.Void GenerateSimpleSprite(UnityEngine.UI.VertexHelper vh, System.Boolean lPreserveAspect, System.Single curvedUIRadius)
-    // Offset: 0x137444C
+    // Offset: 0x1489A8C
     void GenerateSimpleSprite(UnityEngine::UI::VertexHelper* vh, bool lPreserveAspect, float curvedUIRadius);
     // private System.Void GenerateSlicedSprite(UnityEngine.UI.VertexHelper vh, System.Single curvedUIRadius)
-    // Offset: 0x13748D4
+    // Offset: 0x1489F14
     void GenerateSlicedSprite(UnityEngine::UI::VertexHelper* vh, float curvedUIRadius);
     // static private System.Void AddQuad(UnityEngine.UI.VertexHelper vertexHelper, UnityEngine.Vector2 posMin, UnityEngine.Vector2 posMax, UnityEngine.Color32 color0, UnityEngine.Color32 color1, UnityEngine.Vector2 uv0Min, UnityEngine.Vector2 uv0Max, System.Single elementWidthScale, System.Single curvedUIRadius)
-    // Offset: 0x137767C
+    // Offset: 0x148CCBC
     static void AddQuad(UnityEngine::UI::VertexHelper* vertexHelper, UnityEngine::Vector2 posMin, UnityEngine::Vector2 posMax, UnityEngine::Color32 color0, UnityEngine::Color32 color1, UnityEngine::Vector2 uv0Min, UnityEngine::Vector2 uv0Max, float elementWidthScale, float curvedUIRadius);
     // public System.Void .ctor()
-    // Offset: 0x13784AC
+    // Offset: 0x148DAEC
     // Implemented from: UnityEngine.UI.Image
     // Base method: System.Void Image::.ctor()
     // Base method: System.Void MaskableGraphic::.ctor()
@@ -143,54 +143,54 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<GradientImage*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1378534
+    // Offset: 0x148DB74
     // Implemented from: UnityEngine.UI.Image
     // Base method: System.Void Image::.cctor()
     // Base method: System.Void Graphic::.cctor()
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // protected override System.Void OnPopulateMesh(UnityEngine.UI.VertexHelper toFill)
-    // Offset: 0x13742C4
+    // Offset: 0x1489904
     // Implemented from: UnityEngine.UI.Image
     // Base method: System.Void Image::OnPopulateMesh(UnityEngine.UI.VertexHelper toFill)
     void OnPopulateMesh(UnityEngine::UI::VertexHelper* toFill);
     // private System.Void GenerateTiledSprite(UnityEngine.UI.VertexHelper toFill)
-    // Offset: 0x13752D4
+    // Offset: 0x148A914
     // Implemented from: UnityEngine.UI.Image
     // Base method: System.Void Image::GenerateTiledSprite(UnityEngine.UI.VertexHelper toFill)
     void GenerateTiledSprite(UnityEngine::UI::VertexHelper* toFill);
     // static private System.Void AddQuad(UnityEngine.UI.VertexHelper vertexHelper, UnityEngine.Vector3[] quadPositions, UnityEngine.Color32 color, UnityEngine.Vector3[] quadUVs)
-    // Offset: 0x1377C40
+    // Offset: 0x148D280
     // Implemented from: UnityEngine.UI.Image
     // Base method: System.Void Image::AddQuad(UnityEngine.UI.VertexHelper vertexHelper, UnityEngine.Vector3[] quadPositions, UnityEngine.Color32 color, UnityEngine.Vector3[] quadUVs)
-    static void AddQuad(UnityEngine::UI::VertexHelper* vertexHelper, ::Array<UnityEngine::Vector3>* quadPositions, UnityEngine::Color32 color, ::Array<UnityEngine::Vector3>* quadUVs);
+    static void AddQuad(UnityEngine::UI::VertexHelper* vertexHelper, ::ArrayWrapper<UnityEngine::Vector3> quadPositions, UnityEngine::Color32 color, ::ArrayWrapper<UnityEngine::Vector3> quadUVs);
     // static private System.Void AddQuad(UnityEngine.UI.VertexHelper vertexHelper, UnityEngine.Vector2 posMin, UnityEngine.Vector2 posMax, UnityEngine.Color32 color, UnityEngine.Vector2 uvMin, UnityEngine.Vector2 uvMax)
-    // Offset: 0x1377A34
+    // Offset: 0x148D074
     // Implemented from: UnityEngine.UI.Image
     // Base method: System.Void Image::AddQuad(UnityEngine.UI.VertexHelper vertexHelper, UnityEngine.Vector2 posMin, UnityEngine.Vector2 posMax, UnityEngine.Color32 color, UnityEngine.Vector2 uvMin, UnityEngine.Vector2 uvMax)
     static void AddQuad(UnityEngine::UI::VertexHelper* vertexHelper, UnityEngine::Vector2 posMin, UnityEngine::Vector2 posMax, UnityEngine::Color32 color, UnityEngine::Vector2 uvMin, UnityEngine::Vector2 uvMax);
     // private UnityEngine.Vector4 GetAdjustedBorders(UnityEngine.Vector4 border, UnityEngine.Rect rect)
-    // Offset: 0x1377560
+    // Offset: 0x148CBA0
     // Implemented from: UnityEngine.UI.Image
     // Base method: UnityEngine.Vector4 Image::GetAdjustedBorders(UnityEngine.Vector4 border, UnityEngine.Rect rect)
     UnityEngine::Vector4 GetAdjustedBorders(UnityEngine::Vector4 border, UnityEngine::Rect rect);
     // private System.Void GenerateFilledSprite(UnityEngine.UI.VertexHelper toFill, System.Boolean preserveAspect)
-    // Offset: 0x1376280
+    // Offset: 0x148B8C0
     // Implemented from: UnityEngine.UI.Image
     // Base method: System.Void Image::GenerateFilledSprite(UnityEngine.UI.VertexHelper toFill, System.Boolean preserveAspect)
     void GenerateFilledSprite(UnityEngine::UI::VertexHelper* toFill, bool preserveAspect);
     // static private System.Boolean RadialCut(UnityEngine.Vector3[] xy, UnityEngine.Vector3[] uv, System.Single fill, System.Boolean invert, System.Int32 corner)
-    // Offset: 0x1377DC8
+    // Offset: 0x148D408
     // Implemented from: UnityEngine.UI.Image
     // Base method: System.Boolean Image::RadialCut(UnityEngine.Vector3[] xy, UnityEngine.Vector3[] uv, System.Single fill, System.Boolean invert, System.Int32 corner)
-    static bool RadialCut(::Array<UnityEngine::Vector3>* xy, ::Array<UnityEngine::Vector3>* uv, float fill, bool invert, int corner);
+    static bool RadialCut(::ArrayWrapper<UnityEngine::Vector3> xy, ::ArrayWrapper<UnityEngine::Vector3> uv, float fill, bool invert, int corner);
     // static private System.Void RadialCut(UnityEngine.Vector3[] xy, System.Single cos, System.Single sin, System.Boolean invert, System.Int32 corner)
-    // Offset: 0x1377F34
+    // Offset: 0x148D574
     // Implemented from: UnityEngine.UI.Image
     // Base method: System.Void Image::RadialCut(UnityEngine.Vector3[] xy, System.Single cos, System.Single sin, System.Boolean invert, System.Int32 corner)
-    static void RadialCut(::Array<UnityEngine::Vector3>* xy, float cos, float sin, bool invert, int corner);
+    static void RadialCut(::ArrayWrapper<UnityEngine::Vector3> xy, float cos, float sin, bool invert, int corner);
     // private UnityEngine.Vector4 GetDrawingDimensions(System.Boolean shouldPreserveAspect)
-    // Offset: 0x13770BC
+    // Offset: 0x148C6FC
     // Implemented from: UnityEngine.UI.Image
     // Base method: UnityEngine.Vector4 Image::GetDrawingDimensions(System.Boolean shouldPreserveAspect)
     UnityEngine::Vector4 GetDrawingDimensions(bool shouldPreserveAspect);
@@ -306,12 +306,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::GradientImage::AddQuad
 // Il2CppName: AddQuad
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::VertexHelper*, ::Array<UnityEngine::Vector3>*, UnityEngine::Color32, ::Array<UnityEngine::Vector3>*)>(&HMUI::GradientImage::AddQuad)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::VertexHelper*, ::ArrayWrapper<UnityEngine::Vector3>, UnityEngine::Color32, ::ArrayWrapper<UnityEngine::Vector3>)>(&HMUI::GradientImage::AddQuad)> {
   static const MethodInfo* get() {
     static auto* vertexHelper = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "VertexHelper")->byval_arg;
-    static auto* quadPositions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
+    static auto* quadPositions = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->byval_arg;
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")->byval_arg;
-    static auto* quadUVs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
+    static auto* quadUVs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::GradientImage*), "AddQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vertexHelper, quadPositions, color, quadUVs});
   }
 };
@@ -352,10 +352,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::GradientImage::RadialCut
 // Il2CppName: RadialCut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::Vector3>*, ::Array<UnityEngine::Vector3>*, float, bool, int)>(&HMUI::GradientImage::RadialCut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<UnityEngine::Vector3>, ::ArrayWrapper<UnityEngine::Vector3>, float, bool, int)>(&HMUI::GradientImage::RadialCut)> {
   static const MethodInfo* get() {
-    static auto* xy = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
-    static auto* uv = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
+    static auto* xy = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->byval_arg;
+    static auto* uv = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->byval_arg;
     static auto* fill = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* invert = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* corner = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -365,9 +365,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: HMUI::GradientImage::RadialCut
 // Il2CppName: RadialCut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<UnityEngine::Vector3>*, float, float, bool, int)>(&HMUI::GradientImage::RadialCut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<UnityEngine::Vector3>, float, float, bool, int)>(&HMUI::GradientImage::RadialCut)> {
   static const MethodInfo* get() {
-    static auto* xy = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
+    static auto* xy = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->byval_arg;
     static auto* cos = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* sin = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* invert = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

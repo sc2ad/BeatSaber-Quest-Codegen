@@ -32,9 +32,9 @@ namespace GlobalNamespace {
     // private UnityEngine.Renderer[] _renderers
     // Size: 0x8
     // Offset: 0x18
-    ::Array<UnityEngine::Renderer*>* renderers;
+    ::ArrayWrapper<UnityEngine::Renderer*> renderers;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Renderer*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Renderer*>) == 0x8);
     // private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     // Size: 0x8
     // Offset: 0x20
@@ -42,24 +42,24 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::MaterialPropertyBlock*) == 0x8);
     // Creating value type constructor for type: MaterialPropertyBlockController
-    MaterialPropertyBlockController(::Array<UnityEngine::Renderer*>* renderers_ = {}, UnityEngine::MaterialPropertyBlock* materialPropertyBlock_ = {}) noexcept : renderers{renderers_}, materialPropertyBlock{materialPropertyBlock_} {}
+    MaterialPropertyBlockController(::ArrayWrapper<UnityEngine::Renderer*> renderers_ = {}, UnityEngine::MaterialPropertyBlock* materialPropertyBlock_ = {}) noexcept : renderers{renderers_}, materialPropertyBlock{materialPropertyBlock_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Renderer[] _renderers
-    ::Array<UnityEngine::Renderer*>*& dyn__renderers();
+    ::ArrayWrapper<UnityEngine::Renderer*>& dyn__renderers();
     // Get instance field reference: private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     UnityEngine::MaterialPropertyBlock*& dyn__materialPropertyBlock();
     // public UnityEngine.Renderer[] get_renderers()
-    // Offset: 0x1E1C21C
-    ::Array<UnityEngine::Renderer*>* get_renderers();
+    // Offset: 0x1E2C7A4
+    ::ArrayWrapper<UnityEngine::Renderer*> get_renderers();
     // public UnityEngine.MaterialPropertyBlock get_materialPropertyBlock()
-    // Offset: 0x1E1BF9C
+    // Offset: 0x1E2C524
     UnityEngine::MaterialPropertyBlock* get_materialPropertyBlock();
     // public System.Void ApplyChanges()
-    // Offset: 0x1E1BE64
+    // Offset: 0x1E2C3EC
     void ApplyChanges();
     // public System.Void .ctor()
-    // Offset: 0x1E1C224
+    // Offset: 0x1E2C7AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -81,7 +81,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockController*, "", "M
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyBlockController::get_renderers
 // Il2CppName: get_renderers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Renderer*>* (GlobalNamespace::MaterialPropertyBlockController::*)()>(&GlobalNamespace::MaterialPropertyBlockController::get_renderers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Renderer*> (GlobalNamespace::MaterialPropertyBlockController::*)()>(&GlobalNamespace::MaterialPropertyBlockController::get_renderers)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialPropertyBlockController*), "get_renderers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -44,16 +44,16 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Creating value type constructor for type: InternalMeshUtility
     InternalMeshUtility() noexcept {}
     // static UnityEngine.Vector3 AverageNormalWithIndexes(UnityEngine.ProBuilder.SharedVertex shared, System.Int32[] all, System.Collections.Generic.IList`1<UnityEngine.Vector3> norm)
-    // Offset: 0x1565310
-    static UnityEngine::Vector3 AverageNormalWithIndexes(UnityEngine::ProBuilder::SharedVertex* shared, ::Array<int>* all, System::Collections::Generic::IList_1<UnityEngine::Vector3>* norm);
+    // Offset: 0x171E5D0
+    static UnityEngine::Vector3 AverageNormalWithIndexes(UnityEngine::ProBuilder::SharedVertex* shared, ::ArrayWrapper<int> all, System::Collections::Generic::IList_1<UnityEngine::Vector3>* norm);
     // static public UnityEngine.ProBuilder.ProBuilderMesh CreateMeshWithTransform(UnityEngine.Transform t, System.Boolean preserveFaces)
-    // Offset: 0x1566494
+    // Offset: 0x171F754
     static UnityEngine::ProBuilder::ProBuilderMesh* CreateMeshWithTransform(UnityEngine::Transform* t, bool preserveFaces);
     // static public System.Boolean ResetPbObjectWithMeshFilter(UnityEngine.ProBuilder.ProBuilderMesh pb, System.Boolean preserveFaces)
-    // Offset: 0x156719C
+    // Offset: 0x172045C
     static bool ResetPbObjectWithMeshFilter(UnityEngine::ProBuilder::ProBuilderMesh* pb, bool preserveFaces);
     // static System.Void FilterUnusedSubmeshIndexes(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x15576D0
+    // Offset: 0x1710990
     static void FilterUnusedSubmeshIndexes(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
   }; // UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility
   #pragma pack(pop)
@@ -64,10 +64,10 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtil
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::AverageNormalWithIndexes
 // Il2CppName: AverageNormalWithIndexes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::ProBuilder::SharedVertex*, ::Array<int>*, System::Collections::Generic::IList_1<UnityEngine::Vector3>*)>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::AverageNormalWithIndexes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::ProBuilder::SharedVertex*, ::ArrayWrapper<int>, System::Collections::Generic::IList_1<UnityEngine::Vector3>*)>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::AverageNormalWithIndexes)> {
   static const MethodInfo* get() {
     static auto* shared = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "SharedVertex")->byval_arg;
-    static auto* all = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* all = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     static auto* norm = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility*), "AverageNormalWithIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{shared, all, norm});
   }

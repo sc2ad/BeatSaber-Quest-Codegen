@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* textLabel;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE42820
+    // [TooltipAttribute] Offset: 0xF0B1B4
     // private UnityEngine.CanvasGroup _canvasGroup
     // Size: 0x8
     // Offset: 0x20
@@ -134,22 +134,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _fade
     float& dyn__fade();
     // protected System.Void Awake()
-    // Offset: 0x1072054
+    // Offset: 0x11609DC
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x10721B8
+    // Offset: 0x1160B40
     void Update();
     // private System.Void RefreshState()
-    // Offset: 0x10721BC
+    // Offset: 0x1160B44
     void RefreshState();
     // private System.Void RefreshTextAlpha()
-    // Offset: 0x10720D0
+    // Offset: 0x1160A58
     void RefreshTextAlpha();
     // public System.Void ShowText(System.String text)
-    // Offset: 0x1072348
+    // Offset: 0x1160CD0
     void ShowText(::Il2CppString* text);
     // public System.Void .ctor()
-    // Offset: 0x10723B4
+    // Offset: 0x1160D3C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

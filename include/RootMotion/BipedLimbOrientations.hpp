@@ -60,13 +60,13 @@ namespace RootMotion {
     // Get instance field reference: public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation rightLeg
     RootMotion::BipedLimbOrientations::LimbOrientation*& dyn_rightLeg();
     // static public RootMotion.BipedLimbOrientations get_UMA()
-    // Offset: 0x1D296E0
+    // Offset: 0x1EB685C
     static RootMotion::BipedLimbOrientations* get_UMA();
     // static public RootMotion.BipedLimbOrientations get_MaxBiped()
-    // Offset: 0x1D299CC
+    // Offset: 0x1EB6B48
     static RootMotion::BipedLimbOrientations* get_MaxBiped();
     // public System.Void .ctor(RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation leftArm, RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation rightArm, RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation leftLeg, RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation rightLeg)
-    // Offset: 0x1D29694
+    // Offset: 0x1EB6810
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BipedLimbOrientations* New_ctor(RootMotion::BipedLimbOrientations::LimbOrientation* leftArm, RootMotion::BipedLimbOrientations::LimbOrientation* rightArm, RootMotion::BipedLimbOrientations::LimbOrientation* leftLeg, RootMotion::BipedLimbOrientations::LimbOrientation* rightLeg) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BipedLimbOrientations::.ctor");

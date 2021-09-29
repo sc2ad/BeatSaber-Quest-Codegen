@@ -37,10 +37,10 @@ namespace Org::BouncyCastle::Utilities::IO {
     // Get instance field reference: private System.Int32 buf
     int& dyn_buf();
     // public System.Void Unread(System.Int32 b)
-    // Offset: 0x1FECFC0
+    // Offset: 0x21832B8
     void Unread(int b);
     // public System.Void .ctor(System.IO.Stream s)
-    // Offset: 0x1FECEFC
+    // Offset: 0x21831F4
     // Implemented from: Org.BouncyCastle.Utilities.IO.FilterStream
     // Base method: System.Void FilterStream::.ctor(System.IO.Stream s)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -49,15 +49,15 @@ namespace Org::BouncyCastle::Utilities::IO {
       return THROW_UNLESS((::il2cpp_utils::New<PushbackStream*, creationType>(s)));
     }
     // public override System.Int32 ReadByte()
-    // Offset: 0x1FECF08
+    // Offset: 0x2183200
     // Implemented from: Org.BouncyCastle.Utilities.IO.FilterStream
     // Base method: System.Int32 FilterStream::ReadByte()
     int ReadByte();
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1FECF48
+    // Offset: 0x2183240
     // Implemented from: Org.BouncyCastle.Utilities.IO.FilterStream
     // Base method: System.Int32 FilterStream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    int Read(::Array<uint8_t>* buffer, int offset, int count);
+    int Read(::ArrayWrapper<uint8_t> buffer, int offset, int count);
   }; // Org.BouncyCastle.Utilities.IO.PushbackStream
   #pragma pack(pop)
   static check_size<sizeof(PushbackStream), 48 + sizeof(int)> __Org_BouncyCastle_Utilities_IO_PushbackStreamSizeCheck;
@@ -89,9 +89,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::PushbackStream::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::IO::PushbackStream::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Utilities::IO::PushbackStream::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::IO::PushbackStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Utilities::IO::PushbackStream::Read)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::PushbackStream*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, offset, count});

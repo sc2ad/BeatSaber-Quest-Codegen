@@ -74,20 +74,20 @@ namespace System::Runtime::CompilerServices {
       // Get instance field reference: private readonly System.Boolean m_continueOnCapturedContext
       bool& dyn_m_continueOnCapturedContext();
       // public System.Boolean get_IsCompleted()
-      // Offset: 0x148EAE8
+      // Offset: 0x15AD624
       bool get_IsCompleted();
       // System.Void .ctor(System.Threading.Tasks.Task task, System.Boolean continueOnCapturedContext)
-      // Offset: 0x148EACC
+      // Offset: 0x15AD608
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  ConfiguredTaskAwaiter(System::Threading::Tasks::Task* task, bool continueOnCapturedContext)
       // public System.Void OnCompleted(System.Action continuation)
-      // Offset: 0x148EB04
+      // Offset: 0x15AD640
       void OnCompleted(System::Action* continuation);
       // public System.Void UnsafeOnCompleted(System.Action continuation)
-      // Offset: 0x148EBE4
+      // Offset: 0x15AD720
       void UnsafeOnCompleted(System::Action* continuation);
       // public System.Void GetResult()
-      // Offset: 0x148EBF8
+      // Offset: 0x15AD734
       void GetResult();
     }; // System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter
     #pragma pack(pop)
@@ -112,7 +112,7 @@ namespace System::Runtime::CompilerServices {
     // Get instance field reference: private readonly System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter m_configuredTaskAwaiter
     System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter& dyn_m_configuredTaskAwaiter();
     // System.Void .ctor(System.Threading.Tasks.Task task, System.Boolean continueOnCapturedContext)
-    // Offset: 0x148EAC0
+    // Offset: 0x15AD5FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ConfiguredTaskAwaitable(System::Threading::Tasks::Task* task, bool continueOnCapturedContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConfiguredTaskAwaitable::.ctor");
@@ -120,7 +120,7 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, task, continueOnCapturedContext);
     }
     // public System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter GetAwaiter()
-    // Offset: 0x148EADC
+    // Offset: 0x15AD618
     System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter GetAwaiter();
   }; // System.Runtime.CompilerServices.ConfiguredTaskAwaitable
   #pragma pack(pop)

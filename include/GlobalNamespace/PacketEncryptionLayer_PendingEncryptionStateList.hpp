@@ -60,28 +60,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Int32,EncryptionUtility/IEncryptionState> _pendingStatesByPort
     System::Collections::Generic::Dictionary_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*>*& dyn__pendingStatesByPort();
     // public System.Boolean get_isEmpty()
-    // Offset: 0x16F6834
+    // Offset: 0x18D0334
     bool get_isEmpty();
     // public System.Void Dispose()
-    // Offset: 0x16F8128
+    // Offset: 0x18D1C28
     void Dispose();
     // public EncryptionUtility/IEncryptionState[] GetSortedEncryptionStates(System.Int32 port)
-    // Offset: 0x16F71A0
-    ::Array<GlobalNamespace::EncryptionUtility::IEncryptionState*>* GetSortedEncryptionStates(int port);
+    // Offset: 0x18D0CA0
+    ::ArrayWrapper<GlobalNamespace::EncryptionUtility::IEncryptionState*> GetSortedEncryptionStates(int port);
     // public System.Boolean TryGetEncryptionState(System.Int32 port, out EncryptionUtility/IEncryptionState encryptionState)
-    // Offset: 0x16F6EF0
+    // Offset: 0x18D09F0
     bool TryGetEncryptionState(int port, ByRef<GlobalNamespace::EncryptionUtility::IEncryptionState*> encryptionState);
     // public System.Void Add(System.Int32 port, EncryptionUtility/IEncryptionState encryptionState)
-    // Offset: 0x16F7F4C
+    // Offset: 0x18D1A4C
     void Add(int port, GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState);
     // public System.Boolean Remove(System.Int32 port)
-    // Offset: 0x16F67CC
+    // Offset: 0x18D02CC
     bool Remove(int port);
     // public System.Boolean Remove(System.Int32 port, EncryptionUtility/IEncryptionState encryptionState)
-    // Offset: 0x16F757C
+    // Offset: 0x18D107C
     bool Remove(int port, GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState);
     // public System.Void .ctor()
-    // Offset: 0x16F7EDC
+    // Offset: 0x18D19DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::GetSortedEncryptionStates
 // Il2CppName: GetSortedEncryptionStates
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::EncryptionUtility::IEncryptionState*>* (GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::*)(int)>(&GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::GetSortedEncryptionStates)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::EncryptionUtility::IEncryptionState*> (GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::*)(int)>(&GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::GetSortedEncryptionStates)> {
   static const MethodInfo* get() {
     static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList*), "GetSortedEncryptionStates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{port});

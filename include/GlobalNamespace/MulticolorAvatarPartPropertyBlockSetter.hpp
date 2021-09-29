@@ -44,17 +44,17 @@ namespace GlobalNamespace {
     // private MulticolorAvatarPartPropertyBlockSetter/ColorData[] _colorDataList
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*>* colorDataList;
+    ::ArrayWrapper<GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*> colorDataList;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE386C0
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*>) == 0x8);
+    // [SpaceAttribute] Offset: 0xF00E64
     // private UnityEngine.Renderer _renderer
     // Size: 0x8
     // Offset: 0x20
     UnityEngine::Renderer* renderer;
     // Field size check
     static_assert(sizeof(UnityEngine::Renderer*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE386F8
+    // [SpaceAttribute] Offset: 0xF00E9C
     // private System.Boolean _editInPlayMode
     // Size: 0x1
     // Offset: 0x28
@@ -66,21 +66,21 @@ namespace GlobalNamespace {
     // private readonly UnityEngine.Vector4[] _colors
     // Size: 0x8
     // Offset: 0x30
-    ::Array<UnityEngine::Vector4>* colors;
+    ::ArrayWrapper<UnityEngine::Vector4> colors;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector4>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
     // private readonly UnityEngine.Vector4[] _rimLightColors
     // Size: 0x8
     // Offset: 0x38
-    ::Array<UnityEngine::Vector4>* rimLightColors;
+    ::ArrayWrapper<UnityEngine::Vector4> rimLightColors;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector4>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
     // private UnityEngine.Color[] _boostColors
     // Size: 0x8
     // Offset: 0x40
-    ::Array<UnityEngine::Color>* boostColors;
+    ::ArrayWrapper<UnityEngine::Color> boostColors;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Color>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Color>) == 0x8);
     // private System.Boolean _highlighted
     // Size: 0x1
     // Offset: 0x48
@@ -96,36 +96,36 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: MulticolorAvatarPartPropertyBlockSetter
-    MulticolorAvatarPartPropertyBlockSetter(::Array<GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*>* colorDataList_ = {}, UnityEngine::Renderer* renderer_ = {}, bool editInPlayMode_ = {}, ::Array<UnityEngine::Vector4>* colors_ = {}, ::Array<UnityEngine::Vector4>* rimLightColors_ = {}, ::Array<UnityEngine::Color>* boostColors_ = {}, bool highlighted_ = {}, int uvSegment_ = {}) noexcept : colorDataList{colorDataList_}, renderer{renderer_}, editInPlayMode{editInPlayMode_}, colors{colors_}, rimLightColors{rimLightColors_}, boostColors{boostColors_}, highlighted{highlighted_}, uvSegment{uvSegment_} {}
+    MulticolorAvatarPartPropertyBlockSetter(::ArrayWrapper<GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*> colorDataList_ = {}, UnityEngine::Renderer* renderer_ = {}, bool editInPlayMode_ = {}, ::ArrayWrapper<UnityEngine::Vector4> colors_ = {}, ::ArrayWrapper<UnityEngine::Vector4> rimLightColors_ = {}, ::ArrayWrapper<UnityEngine::Color> boostColors_ = {}, bool highlighted_ = {}, int uvSegment_ = {}) noexcept : colorDataList{colorDataList_}, renderer{renderer_}, editInPlayMode{editInPlayMode_}, colors{colors_}, rimLightColors{rimLightColors_}, boostColors{boostColors_}, highlighted{highlighted_}, uvSegment{uvSegment_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE38730
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF00ED4
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
     // Get instance field reference: private MulticolorAvatarPartPropertyBlockSetter/ColorData[] _colorDataList
-    ::Array<GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*>*& dyn__colorDataList();
+    ::ArrayWrapper<GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*>& dyn__colorDataList();
     // Get instance field reference: private UnityEngine.Renderer _renderer
     UnityEngine::Renderer*& dyn__renderer();
     // Get instance field reference: private System.Boolean _editInPlayMode
     bool& dyn__editInPlayMode();
     // Get instance field reference: private readonly UnityEngine.Vector4[] _colors
-    ::Array<UnityEngine::Vector4>*& dyn__colors();
+    ::ArrayWrapper<UnityEngine::Vector4>& dyn__colors();
     // Get instance field reference: private readonly UnityEngine.Vector4[] _rimLightColors
-    ::Array<UnityEngine::Vector4>*& dyn__rimLightColors();
+    ::ArrayWrapper<UnityEngine::Vector4>& dyn__rimLightColors();
     // Get instance field reference: private UnityEngine.Color[] _boostColors
-    ::Array<UnityEngine::Color>*& dyn__boostColors();
+    ::ArrayWrapper<UnityEngine::Color>& dyn__boostColors();
     // Get instance field reference: private System.Boolean _highlighted
     bool& dyn__highlighted();
     // Get instance field reference: private System.Int32 _uvSegment
     int& dyn__uvSegment();
     // protected System.Void OnValidate()
-    // Offset: 0x11C2860
+    // Offset: 0x1208EE0
     void OnValidate();
     // public System.Void SetColors(params UnityEngine.Color[] colors)
-    // Offset: 0x11C29D8
-    void SetColors(::Array<UnityEngine::Color>* colors);
+    // Offset: 0x1209058
+    void SetColors(::ArrayWrapper<UnityEngine::Color> colors);
     // Creating initializer_list -> params proxy for: System.Void SetColors(params UnityEngine.Color[] colors)
     void SetColors(std::initializer_list<UnityEngine::Color> colors);
     // Creating TArgs -> initializer_list proxy for: System.Void SetColors(params UnityEngine.Color[] colors)
@@ -134,13 +134,13 @@ namespace GlobalNamespace {
       SetColors({colors...});
     }
     // public System.Void SetHighlight(System.Boolean highlighted, System.Int32 uvSegment)
-    // Offset: 0x11C2D64
+    // Offset: 0x12093E4
     void SetHighlight(bool highlighted, int uvSegment);
     // private System.Void UpdateRenderer()
-    // Offset: 0x11C2BF8
+    // Offset: 0x1209278
     void UpdateRenderer();
     // public System.Void .ctor()
-    // Offset: 0x11C2D74
+    // Offset: 0x12093F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -170,9 +170,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::SetColors
 // Il2CppName: SetColors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::*)(::Array<UnityEngine::Color>*)>(&GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::SetColors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::*)(::ArrayWrapper<UnityEngine::Color>)>(&GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::SetColors)> {
   static const MethodInfo* get() {
-    static auto* colors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->byval_arg;
+    static auto* colors = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Color")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colors});
   }
 };

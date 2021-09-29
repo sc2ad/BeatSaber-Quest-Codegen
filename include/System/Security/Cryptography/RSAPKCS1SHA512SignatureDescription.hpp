@@ -23,7 +23,7 @@ namespace System::Security::Cryptography {
     // Creating value type constructor for type: RSAPKCS1SHA512SignatureDescription
     RSAPKCS1SHA512SignatureDescription() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1B3F6E4
+    // Offset: 0x1CC3DBC
     // Implemented from: System.Security.Cryptography.SignatureDescription
     // Base method: System.Void SignatureDescription::.ctor()
     // Base method: System.Void Object::.ctor()

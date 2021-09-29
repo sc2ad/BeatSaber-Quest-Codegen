@@ -76,7 +76,7 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
     }
     // public System.Boolean AreEqual(T[] a, T[] b)
     // Offset: 0xFFFFFFFF
-    bool AreEqual(::Array<T>* a, ::Array<T>* b) {
+    bool AreEqual(::ArrayWrapper<T> a, ::ArrayWrapper<T> b) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::Math::TypeMath_1::AreEqual");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AreEqual", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b)})));
       auto ___instance_arg = this;
@@ -108,7 +108,7 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
     }
     // public T DistanceSquaredBetweenPoints(T[] a, T[] b)
     // Offset: 0xFFFFFFFF
-    T DistanceSquaredBetweenPoints(::Array<T>* a, ::Array<T>* b) {
+    T DistanceSquaredBetweenPoints(::ArrayWrapper<T> a, ::ArrayWrapper<T> b) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::Math::TypeMath_1::DistanceSquaredBetweenPoints");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "DistanceSquaredBetweenPoints", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b)})));
       auto ___instance_arg = this;

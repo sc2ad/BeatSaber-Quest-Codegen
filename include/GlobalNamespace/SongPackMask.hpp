@@ -40,8 +40,6 @@ namespace LiteNetLib::Utils {
 // Completed forward declares
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
-template<class T>
-struct Array;
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
@@ -93,10 +91,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BitMask128 _bloomFilter
     GlobalNamespace::BitMask128& dyn__bloomFilter();
     // static public SongPackMask get_all()
-    // Offset: 0x2378A00
+    // Offset: 0x2574260
     static GlobalNamespace::SongPackMask get_all();
     // public System.Void .ctor(System.String packId)
-    // Offset: 0x2378920
+    // Offset: 0x2574180
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     SongPackMask(::Il2CppString* packId) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongPackMask::.ctor");
@@ -104,11 +102,11 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, packId);
     }
     // private System.Void .ctor(BitMask128 bloomFilter)
-    // Offset: 0x237898C
+    // Offset: 0x25741EC
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  SongPackMask(GlobalNamespace::BitMask128 bloomFilter)
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.String> packs)
-    // Offset: 0x2378994
+    // Offset: 0x25741F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     SongPackMask(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* packs) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongPackMask::.ctor");
@@ -116,50 +114,50 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, packs);
     }
     // public System.Boolean Contains(SongPackMask other)
-    // Offset: 0x2378A80
+    // Offset: 0x25742E0
     bool Contains(GlobalNamespace::SongPackMask other);
     // public System.Int32 DifferenceFrom(SongPackMask other)
-    // Offset: 0x2378A9C
+    // Offset: 0x25742FC
     int DifferenceFrom(GlobalNamespace::SongPackMask other);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2378B04
+    // Offset: 0x2574364
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public SongPackMask CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2378B08
+    // Offset: 0x2574368
     GlobalNamespace::SongPackMask CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // static public SongPackMask Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2378B10
+    // Offset: 0x2574370
     static GlobalNamespace::SongPackMask Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.String ToShortString()
-    // Offset: 0x2378BA0
+    // Offset: 0x2574400
     ::Il2CppString* ToShortString();
     // public System.Byte[] ToBytes()
-    // Offset: 0x2378BF0
-    ::Array<uint8_t>* ToBytes();
+    // Offset: 0x2574450
+    ::ArrayWrapper<uint8_t> ToBytes();
     // public System.Boolean Equals(SongPackMask other)
-    // Offset: 0x2378C94
+    // Offset: 0x25744F4
     bool Equals(GlobalNamespace::SongPackMask other);
     // static public System.Boolean TryParse(System.String stringSerializedMask, out SongPackMask songPackMask)
-    // Offset: 0x2378D4C
+    // Offset: 0x25745AC
     static bool TryParse(::Il2CppString* stringSerializedMask, ByRef<GlobalNamespace::SongPackMask> songPackMask);
     // static public SongPackMask Parse(System.String stringSerializedMask)
-    // Offset: 0x2378E58
+    // Offset: 0x25746B8
     static GlobalNamespace::SongPackMask Parse(::Il2CppString* stringSerializedMask);
     // static public SongPackMask FromBytes(System.Byte[] bytes, System.Int32 offset)
-    // Offset: 0x2378F0C
-    static GlobalNamespace::SongPackMask FromBytes(::Array<uint8_t>* bytes, int offset);
+    // Offset: 0x257476C
+    static GlobalNamespace::SongPackMask FromBytes(::ArrayWrapper<uint8_t> bytes, int offset);
     // public override System.String ToString()
-    // Offset: 0x2378B14
+    // Offset: 0x2574374
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2378C40
+    // Offset: 0x25744A0
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2378CB8
+    // Offset: 0x2574518
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
@@ -168,16 +166,16 @@ namespace GlobalNamespace {
   static check_size<sizeof(SongPackMask), 0 + sizeof(GlobalNamespace::BitMask128)> __GlobalNamespace_SongPackMaskSizeCheck;
   static_assert(sizeof(SongPackMask) == 0x10);
   // static public SongPackMask op_BitwiseOr(SongPackMask a, SongPackMask b)
-  // Offset: 0x2378A0C
+  // Offset: 0x257426C
   GlobalNamespace::SongPackMask operator|(const GlobalNamespace::SongPackMask& a, const GlobalNamespace::SongPackMask& b);
   // static public SongPackMask op_BitwiseAnd(SongPackMask a, SongPackMask b)
-  // Offset: 0x2378A18
+  // Offset: 0x2574278
   GlobalNamespace::SongPackMask operator&(const GlobalNamespace::SongPackMask& a, const GlobalNamespace::SongPackMask& b);
   // static public System.Boolean op_Equality(SongPackMask a, SongPackMask b)
-  // Offset: 0x2378A24
+  // Offset: 0x2574284
   bool operator ==(const GlobalNamespace::SongPackMask& a, const GlobalNamespace::SongPackMask& b);
   // static public System.Boolean op_Inequality(SongPackMask a, SongPackMask b)
-  // Offset: 0x2378A3C
+  // Offset: 0x257429C
   bool operator !=(const GlobalNamespace::SongPackMask& a, const GlobalNamespace::SongPackMask& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMask, "", "SongPackMask");
@@ -258,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMask::ToBytes
 // Il2CppName: ToBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (GlobalNamespace::SongPackMask::*)()>(&GlobalNamespace::SongPackMask::ToBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (GlobalNamespace::SongPackMask::*)()>(&GlobalNamespace::SongPackMask::ToBytes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMask), "ToBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -294,9 +292,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMask::FromBytes
 // Il2CppName: FromBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (*)(::Array<uint8_t>*, int)>(&GlobalNamespace::SongPackMask::FromBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (*)(::ArrayWrapper<uint8_t>, int)>(&GlobalNamespace::SongPackMask::FromBytes)> {
   static const MethodInfo* get() {
-    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* bytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMask), "FromBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes, offset});
   }

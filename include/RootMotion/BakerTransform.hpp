@@ -144,32 +144,32 @@ namespace RootMotion {
     // Get instance field reference: private UnityEngine.Quaternion relativeRotation
     UnityEngine::Quaternion& dyn_relativeRotation();
     // public System.Void .ctor(UnityEngine.Transform transform, UnityEngine.Transform root, System.Boolean recordPosition, System.Boolean isRootNode)
-    // Offset: 0x1D28764
+    // Offset: 0x1EB58E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakerTransform* New_ctor(UnityEngine::Transform* transform, UnityEngine::Transform* root, bool recordPosition, bool isRootNode) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BakerTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerTransform*, creationType>(transform, root, recordPosition, isRootNode)));
     }
     // public System.Void SetRelativeSpace(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x1D288F8
+    // Offset: 0x1EB5A74
     void SetRelativeSpace(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
     // public System.Void SetCurves(ref UnityEngine.AnimationClip clip)
-    // Offset: 0x1D2890C
+    // Offset: 0x1EB5A88
     void SetCurves(ByRef<UnityEngine::AnimationClip*> clip);
     // private System.Void AddRootMotionCurves(ref UnityEngine.AnimationClip clip)
-    // Offset: 0x1D28B9C
+    // Offset: 0x1EB5D18
     void AddRootMotionCurves(ByRef<UnityEngine::AnimationClip*> clip);
     // public System.Void Reset()
-    // Offset: 0x1D28800
+    // Offset: 0x1EB597C
     void Reset();
     // public System.Void ReduceKeyframes(System.Single maxError)
-    // Offset: 0x1D28DE8
+    // Offset: 0x1EB5F64
     void ReduceKeyframes(float maxError);
     // public System.Void SetKeyframes(System.Single time)
-    // Offset: 0x1D28E5C
+    // Offset: 0x1EB5FD8
     void SetKeyframes(float time);
     // public System.Void AddLoopFrame(System.Single time)
-    // Offset: 0x1D290A8
+    // Offset: 0x1EB6224
     void AddLoopFrame(float time);
   }; // RootMotion.BakerTransform
   #pragma pack(pop)

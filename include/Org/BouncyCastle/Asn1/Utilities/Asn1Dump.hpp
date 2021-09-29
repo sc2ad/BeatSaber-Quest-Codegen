@@ -37,26 +37,26 @@ namespace Org::BouncyCastle::Asn1::Utilities {
     // Set static field: static private readonly System.String NewLine
     static void _set_NewLine(::Il2CppString* value);
     // static private System.Void .cctor()
-    // Offset: 0x17CA6DC
+    // Offset: 0x1982F44
     static void _cctor();
     // static private System.Void AsString(System.String indent, System.Boolean verbose, Org.BouncyCastle.Asn1.Asn1Object obj, System.Text.StringBuilder buf)
-    // Offset: 0x17C74DC
+    // Offset: 0x197FD44
     static void AsString(::Il2CppString* indent, bool verbose, Org::BouncyCastle::Asn1::Asn1Object* obj, System::Text::StringBuilder* buf);
     // static private System.String outputApplicationSpecific(System.String type, System.String indent, System.Boolean verbose, Org.BouncyCastle.Asn1.DerApplicationSpecific app)
-    // Offset: 0x17C9C90
+    // Offset: 0x19824F8
     static ::Il2CppString* outputApplicationSpecific(::Il2CppString* type, ::Il2CppString* indent, bool verbose, Org::BouncyCastle::Asn1::DerApplicationSpecific* app);
     // static public System.String DumpAsString(Org.BouncyCastle.Asn1.Asn1Encodable obj)
-    // Offset: 0x17CA4D8
+    // Offset: 0x1982D40
     static ::Il2CppString* DumpAsString(Org::BouncyCastle::Asn1::Asn1Encodable* obj);
     // static public System.String DumpAsString(Org.BouncyCastle.Asn1.Asn1Encodable obj, System.Boolean verbose)
-    // Offset: 0x17CA540
+    // Offset: 0x1982DA8
     static ::Il2CppString* DumpAsString(Org::BouncyCastle::Asn1::Asn1Encodable* obj, bool verbose);
     // static private System.String dumpBinaryDataAsString(System.String indent, System.Byte[] bytes)
-    // Offset: 0x17C9A20
-    static ::Il2CppString* dumpBinaryDataAsString(::Il2CppString* indent, ::Array<uint8_t>* bytes);
+    // Offset: 0x1982288
+    static ::Il2CppString* dumpBinaryDataAsString(::Il2CppString* indent, ::ArrayWrapper<uint8_t> bytes);
     // static private System.String calculateAscString(System.Byte[] bytes, System.Int32 off, System.Int32 len)
-    // Offset: 0x17CA610
-    static ::Il2CppString* calculateAscString(::Array<uint8_t>* bytes, int off, int len);
+    // Offset: 0x1982E78
+    static ::Il2CppString* calculateAscString(::ArrayWrapper<uint8_t> bytes, int off, int len);
   }; // Org.BouncyCastle.Asn1.Utilities.Asn1Dump
   #pragma pack(pop)
 }
@@ -117,19 +117,19 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Utilities::Asn1Dump::dumpBinaryDataAsString
 // Il2CppName: dumpBinaryDataAsString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<uint8_t>*)>(&Org::BouncyCastle::Asn1::Utilities::Asn1Dump::dumpBinaryDataAsString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Asn1::Utilities::Asn1Dump::dumpBinaryDataAsString)> {
   static const MethodInfo* get() {
     static auto* indent = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* bytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Utilities::Asn1Dump*), "dumpBinaryDataAsString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{indent, bytes});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Utilities::Asn1Dump::calculateAscString
 // Il2CppName: calculateAscString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Asn1::Utilities::Asn1Dump::calculateAscString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Asn1::Utilities::Asn1Dump::calculateAscString)> {
   static const MethodInfo* get() {
-    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* bytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Utilities::Asn1Dump*), "calculateAscString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes, off, len});

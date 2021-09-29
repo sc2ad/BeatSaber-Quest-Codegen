@@ -41,21 +41,21 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: GetRayIntersectionAllCallback
     GetRayIntersectionAllCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x19DCA70
+    // Offset: 0x1B51918
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionMethodsCache::GetRayIntersectionAllCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionMethodsCache::GetRayIntersectionAllCallback*, creationType>(object, method)));
     }
     // public UnityEngine.RaycastHit2D[] Invoke(UnityEngine.Ray r, System.Single f, System.Int32 i)
-    // Offset: 0x19DCA80
-    ::Array<UnityEngine::RaycastHit2D>* Invoke(UnityEngine::Ray r, float f, int i);
+    // Offset: 0x1B51928
+    ::ArrayWrapper<UnityEngine::RaycastHit2D> Invoke(UnityEngine::Ray r, float f, int i);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Ray r, System.Single f, System.Int32 i, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x19DCDDC
+    // Offset: 0x1B51C84
     System::IAsyncResult* BeginInvoke(UnityEngine::Ray r, float f, int i, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public UnityEngine.RaycastHit2D[] EndInvoke(System.IAsyncResult result)
-    // Offset: 0x19DCEB0
-    ::Array<UnityEngine::RaycastHit2D>* EndInvoke(System::IAsyncResult* result);
+    // Offset: 0x1B51D58
+    ::ArrayWrapper<UnityEngine::RaycastHit2D> EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.GetRayIntersectionAllCallback
   #pragma pack(pop)
 }
@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ReflectionMethodsCache::GetRayIntersecti
 // Writing MetadataGetter for method: UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllCallback::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::RaycastHit2D>* (UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllCallback::*)(UnityEngine::Ray, float, int)>(&UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllCallback::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::RaycastHit2D> (UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllCallback::*)(UnityEngine::Ray, float, int)>(&UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllCallback::Invoke)> {
   static const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* f = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Writing MetadataGetter for method: UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllCallback::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::RaycastHit2D>* (UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllCallback::*)(System::IAsyncResult*)>(&UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllCallback::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::RaycastHit2D> (UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllCallback::*)(System::IAsyncResult*)>(&UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllCallback::EndInvoke)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});

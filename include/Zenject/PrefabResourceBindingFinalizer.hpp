@@ -87,20 +87,20 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Func`3<System.Type,Zenject.IPrefabInstantiator,Zenject.IProvider> _providerFactory
     System::Func_3<System::Type*, Zenject::IPrefabInstantiator*, Zenject::IProvider*>*& dyn__providerFactory();
     // public System.Void .ctor(Zenject.BindInfo bindInfo, Zenject.GameObjectCreationParameters gameObjectBindInfo, System.String resourcePath, System.Func`3<System.Type,Zenject.IPrefabInstantiator,Zenject.IProvider> providerFactory)
-    // Offset: 0x171D5D4
+    // Offset: 0x1898FD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrefabResourceBindingFinalizer* New_ctor(Zenject::BindInfo* bindInfo, Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::Il2CppString* resourcePath, System::Func_3<System::Type*, Zenject::IPrefabInstantiator*, Zenject::IProvider*>* providerFactory) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PrefabResourceBindingFinalizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrefabResourceBindingFinalizer*, creationType>(bindInfo, gameObjectBindInfo, resourcePath, providerFactory)));
     }
     // private System.Void FinalizeBindingConcrete(Zenject.DiContainer container, System.Collections.Generic.List`1<System.Type> concreteTypes)
-    // Offset: 0x171D960
+    // Offset: 0x189935C
     void FinalizeBindingConcrete(Zenject::DiContainer* container, System::Collections::Generic::List_1<System::Type*>* concreteTypes);
     // private System.Void FinalizeBindingSelf(Zenject.DiContainer container)
-    // Offset: 0x171D6B8
+    // Offset: 0x18990B4
     void FinalizeBindingSelf(Zenject::DiContainer* container);
     // protected override System.Void OnFinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0x171D620
+    // Offset: 0x189901C
     // Implemented from: Zenject.ProviderBindingFinalizer
     // Base method: System.Void ProviderBindingFinalizer::OnFinalizeBinding(Zenject.DiContainer container)
     void OnFinalizeBinding(Zenject::DiContainer* container);

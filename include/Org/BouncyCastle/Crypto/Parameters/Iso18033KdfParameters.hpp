@@ -19,27 +19,27 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // private System.Byte[] seed
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* seed;
+    ::ArrayWrapper<uint8_t> seed;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: Iso18033KdfParameters
-    Iso18033KdfParameters(::Array<uint8_t>* seed_ = {}) noexcept : seed{seed_} {}
+    Iso18033KdfParameters(::ArrayWrapper<uint8_t> seed_ = {}) noexcept : seed{seed_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDerivationParameters
     operator Org::BouncyCastle::Crypto::IDerivationParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDerivationParameters*>(this);
     }
-    // Creating conversion operator: operator ::Array<uint8_t>*
-    constexpr operator ::Array<uint8_t>*() const noexcept {
+    // Creating conversion operator: operator ::ArrayWrapper<uint8_t>
+    constexpr operator ::ArrayWrapper<uint8_t>() const noexcept {
       return seed;
     }
     // Get instance field reference: private System.Byte[] seed
-    ::Array<uint8_t>*& dyn_seed();
+    ::ArrayWrapper<uint8_t>& dyn_seed();
     // public System.Byte[] GetSeed()
-    // Offset: 0x127A8D4
-    ::Array<uint8_t>* GetSeed();
+    // Offset: 0x13970DC
+    ::ArrayWrapper<uint8_t> GetSeed();
   }; // Org.BouncyCastle.Crypto.Parameters.Iso18033KdfParameters
   #pragma pack(pop)
-  static check_size<sizeof(Iso18033KdfParameters), 16 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Parameters_Iso18033KdfParametersSizeCheck;
+  static check_size<sizeof(Iso18033KdfParameters), 16 + sizeof(::ArrayWrapper<uint8_t>)> __Org_BouncyCastle_Crypto_Parameters_Iso18033KdfParametersSizeCheck;
   static_assert(sizeof(Iso18033KdfParameters) == 0x18);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -48,7 +48,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParamet
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters::GetSeed
 // Il2CppName: GetSeed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters::GetSeed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters::GetSeed)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters*), "GetSeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

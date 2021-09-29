@@ -43,9 +43,9 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.IKSolverLookAt/RootMotion.FinalIK.LookAtBone[] spine
     // Size: 0x8
     // Offset: 0x60
-    ::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>* spine;
+    ::ArrayWrapper<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*> spine;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>) == 0x8);
     // public RootMotion.FinalIK.IKSolverLookAt/RootMotion.FinalIK.LookAtBone head
     // Size: 0x8
     // Offset: 0x68
@@ -55,52 +55,52 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.IKSolverLookAt/RootMotion.FinalIK.LookAtBone[] eyes
     // Size: 0x8
     // Offset: 0x70
-    ::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>* eyes;
+    ::ArrayWrapper<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*> eyes;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>*) == 0x8);
-    // [RangeAttribute] Offset: 0xE2CA94
+    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>) == 0x8);
+    // [RangeAttribute] Offset: 0xEF326C
     // public System.Single bodyWeight
     // Size: 0x4
     // Offset: 0x78
     float bodyWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE2CAAC
+    // [RangeAttribute] Offset: 0xEF3284
     // public System.Single headWeight
     // Size: 0x4
     // Offset: 0x7C
     float headWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE2CAC4
+    // [RangeAttribute] Offset: 0xEF329C
     // public System.Single eyesWeight
     // Size: 0x4
     // Offset: 0x80
     float eyesWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE2CADC
+    // [RangeAttribute] Offset: 0xEF32B4
     // public System.Single clampWeight
     // Size: 0x4
     // Offset: 0x84
     float clampWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE2CAF4
+    // [RangeAttribute] Offset: 0xEF32CC
     // public System.Single clampWeightHead
     // Size: 0x4
     // Offset: 0x88
     float clampWeightHead;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE2CB0C
+    // [RangeAttribute] Offset: 0xEF32E4
     // public System.Single clampWeightEyes
     // Size: 0x4
     // Offset: 0x8C
     float clampWeightEyes;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE2CB24
+    // [RangeAttribute] Offset: 0xEF32FC
     // public System.Int32 clampSmoothing
     // Size: 0x4
     // Offset: 0x90
@@ -126,31 +126,31 @@ namespace RootMotion::FinalIK {
     // protected UnityEngine.Vector3[] spineForwards
     // Size: 0x8
     // Offset: 0xB0
-    ::Array<UnityEngine::Vector3>* spineForwards;
+    ::ArrayWrapper<UnityEngine::Vector3> spineForwards;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
     // protected UnityEngine.Vector3[] headForwards
     // Size: 0x8
     // Offset: 0xB8
-    ::Array<UnityEngine::Vector3>* headForwards;
+    ::ArrayWrapper<UnityEngine::Vector3> headForwards;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
     // protected UnityEngine.Vector3[] eyeForward
     // Size: 0x8
     // Offset: 0xC0
-    ::Array<UnityEngine::Vector3>* eyeForward;
+    ::ArrayWrapper<UnityEngine::Vector3> eyeForward;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
     // Creating value type constructor for type: IKSolverLookAt
-    IKSolverLookAt(UnityEngine::Transform* target_ = {}, ::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>* spine_ = {}, RootMotion::FinalIK::IKSolverLookAt::LookAtBone* head_ = {}, ::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>* eyes_ = {}, float bodyWeight_ = {}, float headWeight_ = {}, float eyesWeight_ = {}, float clampWeight_ = {}, float clampWeightHead_ = {}, float clampWeightEyes_ = {}, int clampSmoothing_ = {}, UnityEngine::AnimationCurve* spineWeightCurve_ = {}, UnityEngine::Vector3 spineTargetOffset_ = {}, ::Array<UnityEngine::Vector3>* spineForwards_ = {}, ::Array<UnityEngine::Vector3>* headForwards_ = {}, ::Array<UnityEngine::Vector3>* eyeForward_ = {}) noexcept : target{target_}, spine{spine_}, head{head_}, eyes{eyes_}, bodyWeight{bodyWeight_}, headWeight{headWeight_}, eyesWeight{eyesWeight_}, clampWeight{clampWeight_}, clampWeightHead{clampWeightHead_}, clampWeightEyes{clampWeightEyes_}, clampSmoothing{clampSmoothing_}, spineWeightCurve{spineWeightCurve_}, spineTargetOffset{spineTargetOffset_}, spineForwards{spineForwards_}, headForwards{headForwards_}, eyeForward{eyeForward_} {}
+    IKSolverLookAt(UnityEngine::Transform* target_ = {}, ::ArrayWrapper<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*> spine_ = {}, RootMotion::FinalIK::IKSolverLookAt::LookAtBone* head_ = {}, ::ArrayWrapper<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*> eyes_ = {}, float bodyWeight_ = {}, float headWeight_ = {}, float eyesWeight_ = {}, float clampWeight_ = {}, float clampWeightHead_ = {}, float clampWeightEyes_ = {}, int clampSmoothing_ = {}, UnityEngine::AnimationCurve* spineWeightCurve_ = {}, UnityEngine::Vector3 spineTargetOffset_ = {}, ::ArrayWrapper<UnityEngine::Vector3> spineForwards_ = {}, ::ArrayWrapper<UnityEngine::Vector3> headForwards_ = {}, ::ArrayWrapper<UnityEngine::Vector3> eyeForward_ = {}) noexcept : target{target_}, spine{spine_}, head{head_}, eyes{eyes_}, bodyWeight{bodyWeight_}, headWeight{headWeight_}, eyesWeight{eyesWeight_}, clampWeight{clampWeight_}, clampWeightHead{clampWeightHead_}, clampWeightEyes{clampWeightEyes_}, clampSmoothing{clampSmoothing_}, spineWeightCurve{spineWeightCurve_}, spineTargetOffset{spineTargetOffset_}, spineForwards{spineForwards_}, headForwards{headForwards_}, eyeForward{eyeForward_} {}
     // Get instance field reference: public UnityEngine.Transform target
     UnityEngine::Transform*& dyn_target();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverLookAt/RootMotion.FinalIK.LookAtBone[] spine
-    ::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>*& dyn_spine();
+    ::ArrayWrapper<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>& dyn_spine();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverLookAt/RootMotion.FinalIK.LookAtBone head
     RootMotion::FinalIK::IKSolverLookAt::LookAtBone*& dyn_head();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverLookAt/RootMotion.FinalIK.LookAtBone[] eyes
-    ::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>*& dyn_eyes();
+    ::ArrayWrapper<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>& dyn_eyes();
     // Get instance field reference: public System.Single bodyWeight
     float& dyn_bodyWeight();
     // Get instance field reference: public System.Single headWeight
@@ -170,67 +170,67 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public UnityEngine.Vector3 spineTargetOffset
     UnityEngine::Vector3& dyn_spineTargetOffset();
     // Get instance field reference: protected UnityEngine.Vector3[] spineForwards
-    ::Array<UnityEngine::Vector3>*& dyn_spineForwards();
+    ::ArrayWrapper<UnityEngine::Vector3>& dyn_spineForwards();
     // Get instance field reference: protected UnityEngine.Vector3[] headForwards
-    ::Array<UnityEngine::Vector3>*& dyn_headForwards();
+    ::ArrayWrapper<UnityEngine::Vector3>& dyn_headForwards();
     // Get instance field reference: protected UnityEngine.Vector3[] eyeForward
-    ::Array<UnityEngine::Vector3>*& dyn_eyeForward();
+    ::ArrayWrapper<UnityEngine::Vector3>& dyn_eyeForward();
     // protected System.Boolean get_spineIsValid()
-    // Offset: 0x1CB8EEC
+    // Offset: 0x1E6AF4C
     bool get_spineIsValid();
     // protected System.Boolean get_spineIsEmpty()
-    // Offset: 0x1CB90C4
+    // Offset: 0x1E6B124
     bool get_spineIsEmpty();
     // protected System.Boolean get_headIsValid()
-    // Offset: 0x1CB8FD0
+    // Offset: 0x1E6B030
     bool get_headIsValid();
     // protected System.Boolean get_headIsEmpty()
-    // Offset: 0x1CB90E8
+    // Offset: 0x1E6B148
     bool get_headIsEmpty();
     // protected System.Boolean get_eyesIsValid()
-    // Offset: 0x1CB8FE0
+    // Offset: 0x1E6B040
     bool get_eyesIsValid();
     // protected System.Boolean get_eyesIsEmpty()
-    // Offset: 0x1CB9164
+    // Offset: 0x1E6B1C4
     bool get_eyesIsEmpty();
     // public System.Void SetLookAtWeight(System.Single weight)
-    // Offset: 0x1CB85AC
+    // Offset: 0x1E6A60C
     void SetLookAtWeight(float weight);
     // public System.Void SetLookAtWeight(System.Single weight, System.Single bodyWeight)
-    // Offset: 0x1CB8630
+    // Offset: 0x1E6A690
     void SetLookAtWeight(float weight, float bodyWeight);
     // public System.Void SetLookAtWeight(System.Single weight, System.Single bodyWeight, System.Single headWeight)
-    // Offset: 0x1CB86DC
+    // Offset: 0x1E6A73C
     void SetLookAtWeight(float weight, float bodyWeight, float headWeight);
     // public System.Void SetLookAtWeight(System.Single weight, System.Single bodyWeight, System.Single headWeight, System.Single eyesWeight)
-    // Offset: 0x1CB87A4
+    // Offset: 0x1E6A804
     void SetLookAtWeight(float weight, float bodyWeight, float headWeight, float eyesWeight);
     // public System.Void SetLookAtWeight(System.Single weight, System.Single bodyWeight, System.Single headWeight, System.Single eyesWeight, System.Single clampWeight)
-    // Offset: 0x1CB8890
+    // Offset: 0x1E6A8F0
     void SetLookAtWeight(float weight, float bodyWeight, float headWeight, float eyesWeight, float clampWeight);
     // public System.Void SetLookAtWeight(System.Single weight, System.Single bodyWeight, System.Single headWeight, System.Single eyesWeight, System.Single clampWeight, System.Single clampWeightHead, System.Single clampWeightEyes)
-    // Offset: 0x1CB899C
+    // Offset: 0x1E6A9FC
     void SetLookAtWeight(float weight, float bodyWeight, float headWeight, float eyesWeight, float clampWeight, float clampWeightHead, float clampWeightEyes);
     // public System.Boolean SetChain(UnityEngine.Transform[] spine, UnityEngine.Transform head, UnityEngine.Transform[] eyes, UnityEngine.Transform root)
-    // Offset: 0x1CB9560
-    bool SetChain(::Array<UnityEngine::Transform*>* spine, UnityEngine::Transform* head, ::Array<UnityEngine::Transform*>* eyes, UnityEngine::Transform* root);
+    // Offset: 0x1E6B5C0
+    bool SetChain(::ArrayWrapper<UnityEngine::Transform*> spine, UnityEngine::Transform* head, ::ArrayWrapper<UnityEngine::Transform*> eyes, UnityEngine::Transform* root);
     // protected System.Void SolveSpine()
-    // Offset: 0x1CB9D04
+    // Offset: 0x1E6BD64
     void SolveSpine();
     // protected System.Void SolveHead()
-    // Offset: 0x1CB9F30
+    // Offset: 0x1E6BF90
     void SolveHead();
     // protected System.Void SolveEyes()
-    // Offset: 0x1CBA18C
+    // Offset: 0x1E6C1EC
     void SolveEyes();
     // protected UnityEngine.Vector3[] GetForwards(ref UnityEngine.Vector3[] forwards, UnityEngine.Vector3 baseForward, UnityEngine.Vector3 targetForward, System.Int32 bones, System.Single clamp)
-    // Offset: 0x1CBA6B8
-    ::Array<UnityEngine::Vector3>* GetForwards(ByRef<::Array<UnityEngine::Vector3>*> forwards, UnityEngine::Vector3 baseForward, UnityEngine::Vector3 targetForward, int bones, float clamp);
+    // Offset: 0x1E6C718
+    ::ArrayWrapper<UnityEngine::Vector3> GetForwards(ByRef<::ArrayWrapper<UnityEngine::Vector3>> forwards, UnityEngine::Vector3 baseForward, UnityEngine::Vector3 targetForward, int bones, float clamp);
     // protected System.Void SetBones(UnityEngine.Transform[] array, ref RootMotion.FinalIK.IKSolverLookAt/RootMotion.FinalIK.LookAtBone[] bones)
-    // Offset: 0x1CB9610
-    void SetBones(::Array<UnityEngine::Transform*>* array, ByRef<::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>*> bones);
+    // Offset: 0x1E6B670
+    void SetBones(::ArrayWrapper<UnityEngine::Transform*> array, ByRef<::ArrayWrapper<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>> bones);
     // public System.Void .ctor()
-    // Offset: 0x1CBAB58
+    // Offset: 0x1E6CBB8
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -240,43 +240,43 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverLookAt*, creationType>()));
     }
     // public override System.Void StoreDefaultLocalState()
-    // Offset: 0x1CB8AE4
+    // Offset: 0x1E6AB44
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::StoreDefaultLocalState()
     void StoreDefaultLocalState();
     // public override System.Void FixTransforms()
-    // Offset: 0x1CB8C14
+    // Offset: 0x1E6AC74
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::FixTransforms()
     void FixTransforms();
     // public override System.Boolean IsValid(ref System.String message)
-    // Offset: 0x1CB8D58
+    // Offset: 0x1E6ADB8
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Boolean IKSolver::IsValid(ref System.String message)
     bool IsValid(ByRef<::Il2CppString*> message);
     // public override RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point[] GetPoints()
-    // Offset: 0x1CB9188
+    // Offset: 0x1E6B1E8
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point[] IKSolver::GetPoints()
-    ::Array<RootMotion::FinalIK::IKSolver::Point*>* GetPoints();
+    ::ArrayWrapper<RootMotion::FinalIK::IKSolver::Point*> GetPoints();
     // public override RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point GetPoint(UnityEngine.Transform transform)
-    // Offset: 0x1CB93C0
+    // Offset: 0x1E6B420
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point IKSolver::GetPoint(UnityEngine.Transform transform)
     RootMotion::FinalIK::IKSolver::Point* GetPoint(UnityEngine::Transform* transform);
     // protected override System.Void OnInitiate()
-    // Offset: 0x1CB97B4
+    // Offset: 0x1E6B814
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnInitiate()
     void OnInitiate();
     // protected override System.Void OnUpdate()
-    // Offset: 0x1CB9C00
+    // Offset: 0x1E6BC60
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnUpdate()
     void OnUpdate();
   }; // RootMotion.FinalIK.IKSolverLookAt
   #pragma pack(pop)
-  static check_size<sizeof(IKSolverLookAt), 192 + sizeof(::Array<UnityEngine::Vector3>*)> __RootMotion_FinalIK_IKSolverLookAtSizeCheck;
+  static check_size<sizeof(IKSolverLookAt), 192 + sizeof(::ArrayWrapper<UnityEngine::Vector3>)> __RootMotion_FinalIK_IKSolverLookAtSizeCheck;
   static_assert(sizeof(IKSolverLookAt) == 0xC8);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLookAt*, "RootMotion.FinalIK", "IKSolverLookAt");
@@ -402,11 +402,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::SetChain
 // Il2CppName: SetChain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::IKSolverLookAt::*)(::Array<UnityEngine::Transform*>*, UnityEngine::Transform*, ::Array<UnityEngine::Transform*>*, UnityEngine::Transform*)>(&RootMotion::FinalIK::IKSolverLookAt::SetChain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::IKSolverLookAt::*)(::ArrayWrapper<UnityEngine::Transform*>, UnityEngine::Transform*, ::ArrayWrapper<UnityEngine::Transform*>, UnityEngine::Transform*)>(&RootMotion::FinalIK::IKSolverLookAt::SetChain)> {
   static const MethodInfo* get() {
-    static auto* spine = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
+    static auto* spine = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")), 1)->byval_arg;
     static auto* head = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
-    static auto* eyes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
+    static auto* eyes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")), 1)->byval_arg;
     static auto* root = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "SetChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{spine, head, eyes, root});
   }
@@ -438,9 +438,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::GetForwards
 // Il2CppName: GetForwards
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (RootMotion::FinalIK::IKSolverLookAt::*)(ByRef<::Array<UnityEngine::Vector3>*>, UnityEngine::Vector3, UnityEngine::Vector3, int, float)>(&RootMotion::FinalIK::IKSolverLookAt::GetForwards)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector3> (RootMotion::FinalIK::IKSolverLookAt::*)(ByRef<::ArrayWrapper<UnityEngine::Vector3>>, UnityEngine::Vector3, UnityEngine::Vector3, int, float)>(&RootMotion::FinalIK::IKSolverLookAt::GetForwards)> {
   static const MethodInfo* get() {
-    static auto* forwards = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->this_arg;
+    static auto* forwards = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->this_arg;
     static auto* baseForward = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* targetForward = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* bones = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -451,10 +451,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::SetBones
 // Il2CppName: SetBones
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverLookAt::*)(::Array<UnityEngine::Transform*>*, ByRef<::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>*>)>(&RootMotion::FinalIK::IKSolverLookAt::SetBones)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverLookAt::*)(::ArrayWrapper<UnityEngine::Transform*>, ByRef<::ArrayWrapper<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>>)>(&RootMotion::FinalIK::IKSolverLookAt::SetBones)> {
   static const MethodInfo* get() {
-    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
-    static auto* bones = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverLookAt/LookAtBone"), 1)->this_arg;
+    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")), 1)->byval_arg;
+    static auto* bones = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverLookAt/LookAtBone")), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "SetBones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array, bones});
   }
 };
@@ -490,7 +490,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::GetPoints
 // Il2CppName: GetPoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<RootMotion::FinalIK::IKSolver::Point*>* (RootMotion::FinalIK::IKSolverLookAt::*)()>(&RootMotion::FinalIK::IKSolverLookAt::GetPoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<RootMotion::FinalIK::IKSolver::Point*> (RootMotion::FinalIK::IKSolverLookAt::*)()>(&RootMotion::FinalIK::IKSolverLookAt::GetPoints)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "GetPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

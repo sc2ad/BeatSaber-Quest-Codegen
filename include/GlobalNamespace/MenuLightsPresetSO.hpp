@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSO* playersPlaceNeonsColor;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorSO*) == 0x8);
-    // [RangeAttribute] Offset: 0xE3A258
+    // [RangeAttribute] Offset: 0xF02A3C
     // private System.Single _playersPlaceNeonsIntensity
     // Size: 0x4
     // Offset: 0x20
@@ -47,11 +47,11 @@ namespace GlobalNamespace {
     // private MenuLightsPresetSO/LightIdColorPair[] _lightIdColorPairs
     // Size: 0x8
     // Offset: 0x28
-    ::Array<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>* lightIdColorPairs;
+    ::ArrayWrapper<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*> lightIdColorPairs;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>) == 0x8);
     // Creating value type constructor for type: MenuLightsPresetSO
-    MenuLightsPresetSO(GlobalNamespace::ColorSO* playersPlaceNeonsColor_ = {}, float playersPlaceNeonsIntensity_ = {}, ::Array<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>* lightIdColorPairs_ = {}) noexcept : playersPlaceNeonsColor{playersPlaceNeonsColor_}, playersPlaceNeonsIntensity{playersPlaceNeonsIntensity_}, lightIdColorPairs{lightIdColorPairs_} {}
+    MenuLightsPresetSO(GlobalNamespace::ColorSO* playersPlaceNeonsColor_ = {}, float playersPlaceNeonsIntensity_ = {}, ::ArrayWrapper<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*> lightIdColorPairs_ = {}) noexcept : playersPlaceNeonsColor{playersPlaceNeonsColor_}, playersPlaceNeonsIntensity{playersPlaceNeonsIntensity_}, lightIdColorPairs{lightIdColorPairs_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ColorSO _playersPlaceNeonsColor
@@ -59,18 +59,18 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _playersPlaceNeonsIntensity
     float& dyn__playersPlaceNeonsIntensity();
     // Get instance field reference: private MenuLightsPresetSO/LightIdColorPair[] _lightIdColorPairs
-    ::Array<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>*& dyn__lightIdColorPairs();
+    ::ArrayWrapper<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>& dyn__lightIdColorPairs();
     // public ColorSO get_playersPlaceNeonsColor()
-    // Offset: 0x11A8374
+    // Offset: 0x1180518
     GlobalNamespace::ColorSO* get_playersPlaceNeonsColor();
     // public System.Single get_playersPlaceNeonsIntensity()
-    // Offset: 0x11A837C
+    // Offset: 0x1180520
     float get_playersPlaceNeonsIntensity();
     // public MenuLightsPresetSO/LightIdColorPair[] get_lightIdColorPairs()
-    // Offset: 0x11A8384
-    ::Array<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>* get_lightIdColorPairs();
+    // Offset: 0x1180528
+    ::ArrayWrapper<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*> get_lightIdColorPairs();
     // public System.Void .ctor()
-    // Offset: 0x11A838C
+    // Offset: 0x1180530
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     }
   }; // MenuLightsPresetSO
   #pragma pack(pop)
-  static check_size<sizeof(MenuLightsPresetSO), 40 + sizeof(::Array<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>*)> __GlobalNamespace_MenuLightsPresetSOSizeCheck;
+  static check_size<sizeof(MenuLightsPresetSO), 40 + sizeof(::ArrayWrapper<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>)> __GlobalNamespace_MenuLightsPresetSOSizeCheck;
   static_assert(sizeof(MenuLightsPresetSO) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuLightsPresetSO*, "", "MenuLightsPresetSO");
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::MenuLightsPresetSO::get_lightIdColorPairs
 // Il2CppName: get_lightIdColorPairs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>* (GlobalNamespace::MenuLightsPresetSO::*)()>(&GlobalNamespace::MenuLightsPresetSO::get_lightIdColorPairs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*> (GlobalNamespace::MenuLightsPresetSO::*)()>(&GlobalNamespace::MenuLightsPresetSO::get_lightIdColorPairs)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuLightsPresetSO*), "get_lightIdColorPairs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

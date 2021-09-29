@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair
     class PropertyTintColorPair;
-    // [NullAllowed] Offset: 0xE423EC
+    // [NullAllowed] Offset: 0xF0AD80
     // private SaberTypeObject _saberTypeObject
     // Size: 0x8
     // Offset: 0x18
@@ -53,14 +53,14 @@ namespace GlobalNamespace {
     UnityEngine::MeshRenderer* meshRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshRenderer*) == 0x8);
-    // [NullAllowed] Offset: 0xE42434
+    // [NullAllowed] Offset: 0xF0ADC8
     // private SetSaberGlowColor/PropertyTintColorPair[] _propertyTintColorPairs
     // Size: 0x8
     // Offset: 0x28
-    ::Array<GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*>* propertyTintColorPairs;
+    ::ArrayWrapper<GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*> propertyTintColorPairs;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE4246C
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*>) == 0x8);
+    // [InjectAttribute] Offset: 0xF0AE00
     // private ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x30
@@ -80,7 +80,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberType) == 0x4);
     // Creating value type constructor for type: SetSaberGlowColor
-    SetSaberGlowColor(GlobalNamespace::SaberTypeObject* saberTypeObject_ = {}, UnityEngine::MeshRenderer* meshRenderer_ = {}, ::Array<GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*>* propertyTintColorPairs_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, UnityEngine::MaterialPropertyBlock* materialPropertyBlock_ = {}, GlobalNamespace::SaberType saberType_ = {}) noexcept : saberTypeObject{saberTypeObject_}, meshRenderer{meshRenderer_}, propertyTintColorPairs{propertyTintColorPairs_}, colorManager{colorManager_}, materialPropertyBlock{materialPropertyBlock_}, saberType{saberType_} {}
+    SetSaberGlowColor(GlobalNamespace::SaberTypeObject* saberTypeObject_ = {}, UnityEngine::MeshRenderer* meshRenderer_ = {}, ::ArrayWrapper<GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*> propertyTintColorPairs_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, UnityEngine::MaterialPropertyBlock* materialPropertyBlock_ = {}, GlobalNamespace::SaberType saberType_ = {}) noexcept : saberTypeObject{saberTypeObject_}, meshRenderer{meshRenderer_}, propertyTintColorPairs{propertyTintColorPairs_}, colorManager{colorManager_}, materialPropertyBlock{materialPropertyBlock_}, saberType{saberType_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private SaberTypeObject _saberTypeObject
@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.MeshRenderer _meshRenderer
     UnityEngine::MeshRenderer*& dyn__meshRenderer();
     // Get instance field reference: private SetSaberGlowColor/PropertyTintColorPair[] _propertyTintColorPairs
-    ::Array<GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*>*& dyn__propertyTintColorPairs();
+    ::ArrayWrapper<GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*>& dyn__propertyTintColorPairs();
     // Get instance field reference: private ColorManager _colorManager
     GlobalNamespace::ColorManager*& dyn__colorManager();
     // Get instance field reference: private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
@@ -96,16 +96,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private SaberType _saberType
     GlobalNamespace::SaberType& dyn__saberType();
     // public System.Void set_saberType(SaberType value)
-    // Offset: 0x10944F0
+    // Offset: 0x1102F24
     void set_saberType(GlobalNamespace::SaberType value);
     // protected System.Void Start()
-    // Offset: 0x1094640
+    // Offset: 0x1103074
     void Start();
     // private System.Void SetColors()
-    // Offset: 0x10944FC
+    // Offset: 0x1102F30
     void SetColors();
     // public System.Void .ctor()
-    // Offset: 0x10946D0
+    // Offset: 0x1103104
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

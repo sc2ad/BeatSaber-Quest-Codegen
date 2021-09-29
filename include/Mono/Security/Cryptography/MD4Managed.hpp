@@ -25,80 +25,80 @@ namespace Mono::Security::Cryptography {
     // private System.UInt32[] state
     // Size: 0x8
     // Offset: 0x28
-    ::Array<uint>* state;
+    ::ArrayWrapper<uint> state;
     // Field size check
-    static_assert(sizeof(::Array<uint>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
     // private System.Byte[] buffer
     // Size: 0x8
     // Offset: 0x30
-    ::Array<uint8_t>* buffer;
+    ::ArrayWrapper<uint8_t> buffer;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.UInt32[] count
     // Size: 0x8
     // Offset: 0x38
-    ::Array<uint>* count;
+    ::ArrayWrapper<uint> count;
     // Field size check
-    static_assert(sizeof(::Array<uint>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
     // private System.UInt32[] x
     // Size: 0x8
     // Offset: 0x40
-    ::Array<uint>* x;
+    ::ArrayWrapper<uint> x;
     // Field size check
-    static_assert(sizeof(::Array<uint>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
     // private System.Byte[] digest
     // Size: 0x8
     // Offset: 0x48
-    ::Array<uint8_t>* digest;
+    ::ArrayWrapper<uint8_t> digest;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: MD4Managed
-    MD4Managed(::Array<uint>* state_ = {}, ::Array<uint8_t>* buffer_ = {}, ::Array<uint>* count_ = {}, ::Array<uint>* x_ = {}, ::Array<uint8_t>* digest_ = {}) noexcept : state{state_}, buffer{buffer_}, count{count_}, x{x_}, digest{digest_} {}
+    MD4Managed(::ArrayWrapper<uint> state_ = {}, ::ArrayWrapper<uint8_t> buffer_ = {}, ::ArrayWrapper<uint> count_ = {}, ::ArrayWrapper<uint> x_ = {}, ::ArrayWrapper<uint8_t> digest_ = {}) noexcept : state{state_}, buffer{buffer_}, count{count_}, x{x_}, digest{digest_} {}
     // Get instance field reference: private System.UInt32[] state
-    ::Array<uint>*& dyn_state();
+    ::ArrayWrapper<uint>& dyn_state();
     // Get instance field reference: private System.Byte[] buffer
-    ::Array<uint8_t>*& dyn_buffer();
+    ::ArrayWrapper<uint8_t>& dyn_buffer();
     // Get instance field reference: private System.UInt32[] count
-    ::Array<uint>*& dyn_count();
+    ::ArrayWrapper<uint>& dyn_count();
     // Get instance field reference: private System.UInt32[] x
-    ::Array<uint>*& dyn_x();
+    ::ArrayWrapper<uint>& dyn_x();
     // Get instance field reference: private System.Byte[] digest
-    ::Array<uint8_t>*& dyn_digest();
+    ::ArrayWrapper<uint8_t>& dyn_digest();
     // private System.Byte[] Padding(System.Int32 nLength)
-    // Offset: 0x1E01474
-    ::Array<uint8_t>* Padding(int nLength);
+    // Offset: 0x1F9D9DC
+    ::ArrayWrapper<uint8_t> Padding(int nLength);
     // private System.UInt32 F(System.UInt32 x, System.UInt32 y, System.UInt32 z)
-    // Offset: 0x1E014FC
+    // Offset: 0x1F9DA64
     uint F(uint x, uint y, uint z);
     // private System.UInt32 G(System.UInt32 x, System.UInt32 y, System.UInt32 z)
-    // Offset: 0x1E0150C
+    // Offset: 0x1F9DA74
     uint G(uint x, uint y, uint z);
     // private System.UInt32 H(System.UInt32 x, System.UInt32 y, System.UInt32 z)
-    // Offset: 0x1E01520
+    // Offset: 0x1F9DA88
     uint H(uint x, uint y, uint z);
     // private System.UInt32 ROL(System.UInt32 x, System.Byte n)
-    // Offset: 0x1E0152C
+    // Offset: 0x1F9DA94
     uint ROL(uint x, uint8_t n);
     // private System.Void FF(ref System.UInt32 a, System.UInt32 b, System.UInt32 c, System.UInt32 d, System.UInt32 x, System.Byte s)
-    // Offset: 0x1E01538
+    // Offset: 0x1F9DAA0
     void FF(ByRef<uint> a, uint b, uint c, uint d, uint x, uint8_t s);
     // private System.Void GG(ref System.UInt32 a, System.UInt32 b, System.UInt32 c, System.UInt32 d, System.UInt32 x, System.Byte s)
-    // Offset: 0x1E01560
+    // Offset: 0x1F9DAC8
     void GG(ByRef<uint> a, uint b, uint c, uint d, uint x, uint8_t s);
     // private System.Void HH(ref System.UInt32 a, System.UInt32 b, System.UInt32 c, System.UInt32 d, System.UInt32 x, System.Byte s)
-    // Offset: 0x1E01598
+    // Offset: 0x1F9DB00
     void HH(ByRef<uint> a, uint b, uint c, uint d, uint x, uint8_t s);
     // private System.Void Encode(System.Byte[] output, System.UInt32[] input)
-    // Offset: 0x1E01370
-    void Encode(::Array<uint8_t>* output, ::Array<uint>* input);
+    // Offset: 0x1F9D8D8
+    void Encode(::ArrayWrapper<uint8_t> output, ::ArrayWrapper<uint> input);
     // private System.Void Decode(System.UInt32[] output, System.Byte[] input, System.Int32 index)
-    // Offset: 0x1E015C8
-    void Decode(::Array<uint>* output, ::Array<uint8_t>* input, int index);
+    // Offset: 0x1F9DB30
+    void Decode(::ArrayWrapper<uint> output, ::ArrayWrapper<uint8_t> input, int index);
     // private System.Void MD4Transform(System.UInt32[] state, System.Byte[] block, System.Int32 index)
-    // Offset: 0x1E00BD8
-    void MD4Transform(::Array<uint>* state, ::Array<uint8_t>* block, int index);
+    // Offset: 0x1F9D140
+    void MD4Transform(::ArrayWrapper<uint> state, ::ArrayWrapper<uint8_t> block, int index);
     // public System.Void .ctor()
-    // Offset: 0x1E008D0
+    // Offset: 0x1F9CE38
     // Implemented from: Mono.Security.Cryptography.MD4
     // Base method: System.Void MD4::.ctor()
     // Base method: System.Void HashAlgorithm::.ctor()
@@ -109,23 +109,23 @@ namespace Mono::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<MD4Managed*, creationType>()));
     }
     // public override System.Void Initialize()
-    // Offset: 0x1E0099C
+    // Offset: 0x1F9CF04
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::Initialize()
     void Initialize();
     // protected override System.Void HashCore(System.Byte[] array, System.Int32 ibStart, System.Int32 cbSize)
-    // Offset: 0x1E00A94
+    // Offset: 0x1F9CFFC
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::HashCore(System.Byte[] array, System.Int32 ibStart, System.Int32 cbSize)
-    void HashCore(::Array<uint8_t>* array, int ibStart, int cbSize);
+    void HashCore(::ArrayWrapper<uint8_t> array, int ibStart, int cbSize);
     // protected override System.Byte[] HashFinal()
-    // Offset: 0x1E0125C
+    // Offset: 0x1F9D7C4
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
-    ::Array<uint8_t>* HashFinal();
+    ::ArrayWrapper<uint8_t> HashFinal();
   }; // Mono.Security.Cryptography.MD4Managed
   #pragma pack(pop)
-  static check_size<sizeof(MD4Managed), 72 + sizeof(::Array<uint8_t>*)> __Mono_Security_Cryptography_MD4ManagedSizeCheck;
+  static check_size<sizeof(MD4Managed), 72 + sizeof(::ArrayWrapper<uint8_t>)> __Mono_Security_Cryptography_MD4ManagedSizeCheck;
   static_assert(sizeof(MD4Managed) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::MD4Managed*, "Mono.Security.Cryptography", "MD4Managed");
@@ -133,7 +133,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::MD4Managed*, "Mono.Security
 // Writing MetadataGetter for method: Mono::Security::Cryptography::MD4Managed::Padding
 // Il2CppName: Padding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Cryptography::MD4Managed::*)(int)>(&Mono::Security::Cryptography::MD4Managed::Padding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::Cryptography::MD4Managed::*)(int)>(&Mono::Security::Cryptography::MD4Managed::Padding)> {
   static const MethodInfo* get() {
     static auto* nLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "Padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nLength});
@@ -227,20 +227,20 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Cryptography::MD4Managed::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)(::Array<uint8_t>*, ::Array<uint>*)>(&Mono::Security::Cryptography::MD4Managed::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint>)>(&Mono::Security::Cryptography::MD4Managed::Encode)> {
   static const MethodInfo* get() {
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{output, input});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Cryptography::MD4Managed::Decode
 // Il2CppName: Decode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)(::Array<uint>*, ::Array<uint8_t>*, int)>(&Mono::Security::Cryptography::MD4Managed::Decode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint8_t>, int)>(&Mono::Security::Cryptography::MD4Managed::Decode)> {
   static const MethodInfo* get() {
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{output, input, index});
   }
@@ -248,10 +248,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Cryptography::MD4Managed::MD4Transform
 // Il2CppName: MD4Transform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)(::Array<uint>*, ::Array<uint8_t>*, int)>(&Mono::Security::Cryptography::MD4Managed::MD4Transform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint8_t>, int)>(&Mono::Security::Cryptography::MD4Managed::MD4Transform)> {
   static const MethodInfo* get() {
-    static auto* state = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
-    static auto* block = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* state = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* block = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "MD4Transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state, block, index});
   }
@@ -271,9 +271,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Cryptography::MD4Managed::HashCore
 // Il2CppName: HashCore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)(::Array<uint8_t>*, int, int)>(&Mono::Security::Cryptography::MD4Managed::HashCore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)(::ArrayWrapper<uint8_t>, int, int)>(&Mono::Security::Cryptography::MD4Managed::HashCore)> {
   static const MethodInfo* get() {
-    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* ibStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cbSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "HashCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array, ibStart, cbSize});
@@ -282,7 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Cryptography::MD4Managed::HashFinal
 // Il2CppName: HashFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Cryptography::MD4Managed::*)()>(&Mono::Security::Cryptography::MD4Managed::HashFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::Cryptography::MD4Managed::*)()>(&Mono::Security::Cryptography::MD4Managed::HashFinal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

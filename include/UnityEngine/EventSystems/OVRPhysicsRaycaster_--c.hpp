@@ -46,16 +46,16 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public System.Comparison`1<UnityEngine.RaycastHit> <>9__16_0
     static void _set_$$9__16_0(System::Comparison_1<UnityEngine::RaycastHit>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1F5098C
+    // Offset: 0x20E5E28
     static void _cctor();
     // System.Int32 <Raycast>b__15_0(UnityEngine.RaycastHit r1, UnityEngine.RaycastHit r2)
-    // Offset: 0x1F509F8
+    // Offset: 0x20E5E94
     int $Raycast$b__15_0(UnityEngine::RaycastHit r1, UnityEngine::RaycastHit r2);
     // System.Int32 <Spherecast>b__16_0(UnityEngine.RaycastHit r1, UnityEngine.RaycastHit r2)
-    // Offset: 0x1F50A3C
+    // Offset: 0x20E5ED8
     int $Spherecast$b__16_0(UnityEngine::RaycastHit r1, UnityEngine::RaycastHit r2);
     // public System.Void .ctor()
-    // Offset: 0x1F509F0
+    // Offset: 0x20E5E8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

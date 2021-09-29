@@ -102,45 +102,45 @@ namespace System {
       return *reinterpret_cast<System::Collections::IList*>(this);
     }
     // private System.Int32 System.Collections.ICollection.get_Count()
-    // Offset: 0x17CF158
+    // Offset: 0x19879C0
     int System_Collections_ICollection_get_Count();
     // private System.Boolean System.Collections.IList.get_IsReadOnly()
-    // Offset: 0x17CF1C8
+    // Offset: 0x1987A30
     bool System_Collections_IList_get_IsReadOnly();
     // private System.Object System.Collections.IList.get_Item(System.Int32 index)
-    // Offset: 0x17CF1D0
+    // Offset: 0x1987A38
     ::Il2CppObject* System_Collections_IList_get_Item(int index);
     // private System.Void System.Collections.IList.set_Item(System.Int32 index, System.Object value)
-    // Offset: 0x17CF364
+    // Offset: 0x1987BCC
     void System_Collections_IList_set_Item(int index, ::Il2CppObject* value);
     // public System.Int64 get_LongLength()
-    // Offset: 0x17D0C20
+    // Offset: 0x1989488
     int64_t get_LongLength();
     // public System.Boolean get_IsFixedSize()
-    // Offset: 0x17D11F4
+    // Offset: 0x1989A5C
     bool get_IsFixedSize();
     // public System.Boolean get_IsReadOnly()
-    // Offset: 0x17D11FC
+    // Offset: 0x1989A64
     bool get_IsReadOnly();
     // public System.Boolean get_IsSynchronized()
-    // Offset: 0x17D1204
+    // Offset: 0x1989A6C
     bool get_IsSynchronized();
     // public System.Object get_SyncRoot()
-    // Offset: 0x17D120C
+    // Offset: 0x1989A74
     ::Il2CppObject* get_SyncRoot();
     // public System.Int32 get_Length()
-    // Offset: 0x17CF15C
+    // Offset: 0x19879C4
     int get_Length();
     // public System.Int32 get_Rank()
-    // Offset: 0x17CF9C8
+    // Offset: 0x1988230
     int get_Rank();
     // static public System.Array CreateInstance(System.Type elementType, System.Int64[] lengths)
-    // Offset: 0x17CED74
-    static System::Array* CreateInstance(System::Type* elementType, ::Array<int64_t>* lengths);
+    // Offset: 0x19875DC
+    static System::Array* CreateInstance(System::Type* elementType, ::ArrayWrapper<int64_t> lengths);
     // static public System.Collections.ObjectModel.ReadOnlyCollection`1<T> AsReadOnly(T[] array)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static System::Collections::ObjectModel::ReadOnlyCollection_1<T>* AsReadOnly(::Array<T>* array) {
+    static System::Collections::ObjectModel::ReadOnlyCollection_1<T>* AsReadOnly(::ArrayWrapper<T> array) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::AsReadOnly");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "AsReadOnly", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -149,112 +149,112 @@ namespace System {
     // static public System.Void Resize(ref T[] array, System.Int32 newSize)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void Resize(ByRef<::Array<T>*> array, int newSize) {
+    static void Resize(ByRef<::ArrayWrapper<T>> array, int newSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::Resize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "Resize", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(newSize)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, byref(array), newSize);
     }
     // private System.Int32 System.Collections.IList.Add(System.Object value)
-    // Offset: 0x17CF514
+    // Offset: 0x1987D7C
     int System_Collections_IList_Add(::Il2CppObject* value);
     // private System.Boolean System.Collections.IList.Contains(System.Object value)
-    // Offset: 0x17CF580
+    // Offset: 0x1987DE8
     bool System_Collections_IList_Contains(::Il2CppObject* value);
     // private System.Void System.Collections.IList.Clear()
-    // Offset: 0x17CF64C
+    // Offset: 0x1987EB4
     void System_Collections_IList_Clear();
     // private System.Int32 System.Collections.IList.IndexOf(System.Object value)
-    // Offset: 0x17CF7B8
+    // Offset: 0x1988020
     int System_Collections_IList_IndexOf(::Il2CppObject* value);
     // private System.Void System.Collections.IList.Insert(System.Int32 index, System.Object value)
-    // Offset: 0x17CF7BC
+    // Offset: 0x1988024
     void System_Collections_IList_Insert(int index, ::Il2CppObject* value);
     // private System.Void System.Collections.IList.Remove(System.Object value)
-    // Offset: 0x17CF828
+    // Offset: 0x1988090
     void System_Collections_IList_Remove(::Il2CppObject* value);
     // private System.Void System.Collections.IList.RemoveAt(System.Int32 index)
-    // Offset: 0x17CF894
+    // Offset: 0x19880FC
     void System_Collections_IList_RemoveAt(int index);
     // public System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x17CF900
+    // Offset: 0x1988168
     void CopyTo(System::Array* array, int index);
     // public System.Object Clone()
-    // Offset: 0x17CFECC
+    // Offset: 0x1988734
     ::Il2CppObject* Clone();
     // private System.Int32 System.Collections.IStructuralComparable.CompareTo(System.Object other, System.Collections.IComparer comparer)
-    // Offset: 0x17CFED4
+    // Offset: 0x198873C
     int System_Collections_IStructuralComparable_CompareTo(::Il2CppObject* other, System::Collections::IComparer* comparer);
     // private System.Boolean System.Collections.IStructuralEquatable.Equals(System.Object other, System.Collections.IEqualityComparer comparer)
-    // Offset: 0x17D00A8
+    // Offset: 0x1988910
     bool System_Collections_IStructuralEquatable_Equals(::Il2CppObject* other, System::Collections::IEqualityComparer* comparer);
     // static System.Int32 CombineHashCodes(System.Int32 h1, System.Int32 h2)
-    // Offset: 0x17D0244
+    // Offset: 0x1988AAC
     static int CombineHashCodes(int h1, int h2);
     // private System.Int32 System.Collections.IStructuralEquatable.GetHashCode(System.Collections.IEqualityComparer comparer)
-    // Offset: 0x17D0250
+    // Offset: 0x1988AB8
     int System_Collections_IStructuralEquatable_GetHashCode(System::Collections::IEqualityComparer* comparer);
     // static public System.Int32 BinarySearch(System.Array array, System.Object value)
-    // Offset: 0x17D03C0
+    // Offset: 0x1988C28
     static int BinarySearch(System::Array* array, ::Il2CppObject* value);
     // static public TOutput[] ConvertAll(TInput[] array, System.Converter`2<TInput,TOutput> converter)
     // Offset: 0xFFFFFFFF
     template<class TInput, class TOutput>
-    static ::Array<TOutput>* ConvertAll(::Array<TInput>* array, System::Converter_2<TInput, TOutput>* converter) {
+    static ::ArrayWrapper<TOutput> ConvertAll(::ArrayWrapper<TInput> array, System::Converter_2<TInput, TOutput>* converter) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::ConvertAll");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "ConvertAll", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInput>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TOutput>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(converter)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInput>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TOutput>::get()})));
-      return ::il2cpp_utils::RunMethodThrow<::Array<TOutput>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, array, converter);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<TOutput>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, array, converter);
     }
     // static public System.Void Copy(System.Array sourceArray, System.Array destinationArray, System.Int64 length)
-    // Offset: 0x17D08D8
+    // Offset: 0x1989140
     static void Copy(System::Array* sourceArray, System::Array* destinationArray, int64_t length);
     // static public System.Void Copy(System.Array sourceArray, System.Int64 sourceIndex, System.Array destinationArray, System.Int64 destinationIndex, System.Int64 length)
-    // Offset: 0x17D0A60
+    // Offset: 0x19892C8
     static void Copy(System::Array* sourceArray, int64_t sourceIndex, System::Array* destinationArray, int64_t destinationIndex, int64_t length);
     // public System.Void CopyTo(System.Array array, System.Int64 index)
-    // Offset: 0x17D0B74
+    // Offset: 0x19893DC
     void CopyTo(System::Array* array, int64_t index);
     // static public System.Void ForEach(T[] array, System.Action`1<T> action)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void ForEach(::Array<T>* array, System::Action_1<T>* action) {
+    static void ForEach(::ArrayWrapper<T> array, System::Action_1<T>* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::ForEach");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "ForEach", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(action)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, array, action);
     }
     // public System.Int64 GetLongLength(System.Int32 dimension)
-    // Offset: 0x17D0C94
+    // Offset: 0x19894FC
     int64_t GetLongLength(int dimension);
     // public System.Object GetValue(System.Int64 index)
-    // Offset: 0x17D0CAC
+    // Offset: 0x1989514
     ::Il2CppObject* GetValue(int64_t index);
     // public System.Object GetValue(System.Int64 index1, System.Int64 index2)
-    // Offset: 0x17D0D50
+    // Offset: 0x19895B8
     ::Il2CppObject* GetValue(int64_t index1, int64_t index2);
     // public System.Object GetValue(System.Int64 index1, System.Int64 index2, System.Int64 index3)
-    // Offset: 0x17D0EBC
+    // Offset: 0x1989724
     ::Il2CppObject* GetValue(int64_t index1, int64_t index2, int64_t index3);
     // public System.Object GetValue(System.Int64[] indices)
-    // Offset: 0x17D1078
-    ::Il2CppObject* GetValue(::Array<int64_t>* indices);
+    // Offset: 0x19898E0
+    ::Il2CppObject* GetValue(::ArrayWrapper<int64_t> indices);
     // static public System.Int32 BinarySearch(System.Array array, System.Int32 index, System.Int32 length, System.Object value)
-    // Offset: 0x17D1210
+    // Offset: 0x1989A78
     static int BinarySearch(System::Array* array, int index, int length, ::Il2CppObject* value);
     // static public System.Int32 BinarySearch(System.Array array, System.Object value, System.Collections.IComparer comparer)
-    // Offset: 0x17D1218
+    // Offset: 0x1989A80
     static int BinarySearch(System::Array* array, ::Il2CppObject* value, System::Collections::IComparer* comparer);
     // static public System.Int32 BinarySearch(System.Array array, System.Int32 index, System.Int32 length, System.Object value, System.Collections.IComparer comparer)
-    // Offset: 0x17D0474
+    // Offset: 0x1988CDC
     static int BinarySearch(System::Array* array, int index, int length, ::Il2CppObject* value, System::Collections::IComparer* comparer);
     // static private System.Int32 GetMedian(System.Int32 low, System.Int32 hi)
-    // Offset: 0x17D12D0
+    // Offset: 0x1989B38
     static int GetMedian(int low, int hi);
     // static public System.Int32 BinarySearch(T[] array, T value)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int BinarySearch(::Array<T>* array, T value) {
+    static int BinarySearch(::ArrayWrapper<T> array, T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::BinarySearch");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "BinarySearch", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -263,7 +263,7 @@ namespace System {
     // static public System.Int32 BinarySearch(T[] array, T value, System.Collections.Generic.IComparer`1<T> comparer)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int BinarySearch(::Array<T>* array, T value, System::Collections::Generic::IComparer_1<T>* comparer) {
+    static int BinarySearch(::ArrayWrapper<T> array, T value, System::Collections::Generic::IComparer_1<T>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::BinarySearch");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "BinarySearch", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(comparer)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -272,7 +272,7 @@ namespace System {
     // static public System.Int32 BinarySearch(T[] array, System.Int32 index, System.Int32 length, T value)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int BinarySearch(::Array<T>* array, int index, int length, T value) {
+    static int BinarySearch(::ArrayWrapper<T> array, int index, int length, T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::BinarySearch");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "BinarySearch", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(length), ::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -281,25 +281,25 @@ namespace System {
     // static public System.Int32 BinarySearch(T[] array, System.Int32 index, System.Int32 length, T value, System.Collections.Generic.IComparer`1<T> comparer)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int BinarySearch(::Array<T>* array, int index, int length, T value, System::Collections::Generic::IComparer_1<T>* comparer) {
+    static int BinarySearch(::ArrayWrapper<T> array, int index, int length, T value, System::Collections::Generic::IComparer_1<T>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::BinarySearch");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "BinarySearch", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(length), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(comparer)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, array, index, length, value, comparer);
     }
     // static public System.Int32 IndexOf(System.Array array, System.Object value)
-    // Offset: 0x17CF59C
+    // Offset: 0x1987E04
     static int IndexOf(System::Array* array, ::Il2CppObject* value);
     // static public System.Int32 IndexOf(System.Array array, System.Object value, System.Int32 startIndex)
-    // Offset: 0x17D1544
+    // Offset: 0x1989DAC
     static int IndexOf(System::Array* array, ::Il2CppObject* value, int startIndex);
     // static public System.Int32 IndexOf(System.Array array, System.Object value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x17D12DC
+    // Offset: 0x1989B44
     static int IndexOf(System::Array* array, ::Il2CppObject* value, int startIndex, int count);
     // static public System.Int32 IndexOf(T[] array, T value)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int IndexOf(::Array<T>* array, T value) {
+    static int IndexOf(::ArrayWrapper<T> array, T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::IndexOf");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "IndexOf", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -308,7 +308,7 @@ namespace System {
     // static public System.Int32 IndexOf(T[] array, T value, System.Int32 startIndex)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int IndexOf(::Array<T>* array, T value, int startIndex) {
+    static int IndexOf(::ArrayWrapper<T> array, T value, int startIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::IndexOf");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "IndexOf", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(startIndex)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -317,25 +317,25 @@ namespace System {
     // static public System.Int32 IndexOf(T[] array, T value, System.Int32 startIndex, System.Int32 count)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int IndexOf(::Array<T>* array, T value, int startIndex, int count) {
+    static int IndexOf(::ArrayWrapper<T> array, T value, int startIndex, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::IndexOf");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "IndexOf", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(startIndex), ::il2cpp_utils::ExtractType(count)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, array, value, startIndex, count);
     }
     // static public System.Int32 LastIndexOf(System.Array array, System.Object value)
-    // Offset: 0x17D15FC
+    // Offset: 0x1989E64
     static int LastIndexOf(System::Array* array, ::Il2CppObject* value);
     // static public System.Int32 LastIndexOf(System.Array array, System.Object value, System.Int32 startIndex)
-    // Offset: 0x17D1914
+    // Offset: 0x198A17C
     static int LastIndexOf(System::Array* array, ::Il2CppObject* value, int startIndex);
     // static public System.Int32 LastIndexOf(System.Array array, System.Object value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x17D16A8
+    // Offset: 0x1989F10
     static int LastIndexOf(System::Array* array, ::Il2CppObject* value, int startIndex, int count);
     // static public System.Int32 LastIndexOf(T[] array, T value)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int LastIndexOf(::Array<T>* array, T value) {
+    static int LastIndexOf(::ArrayWrapper<T> array, T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::LastIndexOf");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "LastIndexOf", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -344,7 +344,7 @@ namespace System {
     // static public System.Int32 LastIndexOf(T[] array, T value, System.Int32 startIndex)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int LastIndexOf(::Array<T>* array, T value, int startIndex) {
+    static int LastIndexOf(::ArrayWrapper<T> array, T value, int startIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::LastIndexOf");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "LastIndexOf", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(startIndex)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -353,22 +353,22 @@ namespace System {
     // static public System.Int32 LastIndexOf(T[] array, T value, System.Int32 startIndex, System.Int32 count)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int LastIndexOf(::Array<T>* array, T value, int startIndex, int count) {
+    static int LastIndexOf(::ArrayWrapper<T> array, T value, int startIndex, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::LastIndexOf");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "LastIndexOf", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(startIndex), ::il2cpp_utils::ExtractType(count)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, array, value, startIndex, count);
     }
     // static public System.Void Reverse(System.Array array)
-    // Offset: 0x17D19B0
+    // Offset: 0x198A218
     static void Reverse(System::Array* array);
     // static public System.Void Reverse(System.Array array, System.Int32 index, System.Int32 length)
-    // Offset: 0x17D1A50
+    // Offset: 0x198A2B8
     static void Reverse(System::Array* array, int index, int length);
     // static public System.Void Reverse(T[] array)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void Reverse(::Array<T>* array) {
+    static void Reverse(::ArrayWrapper<T> array) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::Reverse");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "Reverse", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -377,52 +377,52 @@ namespace System {
     // static public System.Void Reverse(T[] array, System.Int32 index, System.Int32 length)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void Reverse(::Array<T>* array, int index, int length) {
+    static void Reverse(::ArrayWrapper<T> array, int index, int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::Reverse");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "Reverse", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, array, index, length);
     }
     // public System.Void SetValue(System.Object value, System.Int64 index)
-    // Offset: 0x17D1D00
+    // Offset: 0x198A568
     void SetValue(::Il2CppObject* value, int64_t index);
     // public System.Void SetValue(System.Object value, System.Int64 index1, System.Int64 index2)
-    // Offset: 0x17D1DAC
+    // Offset: 0x198A614
     void SetValue(::Il2CppObject* value, int64_t index1, int64_t index2);
     // public System.Void SetValue(System.Object value, System.Int64 index1, System.Int64 index2, System.Int64 index3)
-    // Offset: 0x17D1F38
+    // Offset: 0x198A7A0
     void SetValue(::Il2CppObject* value, int64_t index1, int64_t index2, int64_t index3);
     // public System.Void SetValue(System.Object value, System.Int64[] indices)
-    // Offset: 0x17D2104
-    void SetValue(::Il2CppObject* value, ::Array<int64_t>* indices);
+    // Offset: 0x198A96C
+    void SetValue(::Il2CppObject* value, ::ArrayWrapper<int64_t> indices);
     // static public System.Void Sort(System.Array array)
-    // Offset: 0x17D2288
+    // Offset: 0x198AAF0
     static void Sort(System::Array* array);
     // static public System.Void Sort(System.Array array, System.Int32 index, System.Int32 length)
-    // Offset: 0x17D2560
+    // Offset: 0x198ADC8
     static void Sort(System::Array* array, int index, int length);
     // static public System.Void Sort(System.Array array, System.Collections.IComparer comparer)
-    // Offset: 0x17D2574
+    // Offset: 0x198ADDC
     static void Sort(System::Array* array, System::Collections::IComparer* comparer);
     // static public System.Void Sort(System.Array array, System.Int32 index, System.Int32 length, System.Collections.IComparer comparer)
-    // Offset: 0x17D2628
+    // Offset: 0x198AE90
     static void Sort(System::Array* array, int index, int length, System::Collections::IComparer* comparer);
     // static public System.Void Sort(System.Array keys, System.Array items)
-    // Offset: 0x17D263C
+    // Offset: 0x198AEA4
     static void Sort(System::Array* keys, System::Array* items);
     // static public System.Void Sort(System.Array keys, System.Array items, System.Collections.IComparer comparer)
-    // Offset: 0x17D26F0
+    // Offset: 0x198AF58
     static void Sort(System::Array* keys, System::Array* items, System::Collections::IComparer* comparer);
     // static public System.Void Sort(System.Array keys, System.Array items, System.Int32 index, System.Int32 length)
-    // Offset: 0x17D27A8
+    // Offset: 0x198B010
     static void Sort(System::Array* keys, System::Array* items, int index, int length);
     // static public System.Void Sort(System.Array keys, System.Array items, System.Int32 index, System.Int32 length, System.Collections.IComparer comparer)
-    // Offset: 0x17D2330
+    // Offset: 0x198AB98
     static void Sort(System::Array* keys, System::Array* items, int index, int length, System::Collections::IComparer* comparer);
     // static public System.Void Sort(T[] array)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void Sort(::Array<T>* array) {
+    static void Sort(::ArrayWrapper<T> array) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::Sort");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "Sort", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -431,7 +431,7 @@ namespace System {
     // static public System.Void Sort(T[] array, System.Int32 index, System.Int32 length)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void Sort(::Array<T>* array, int index, int length) {
+    static void Sort(::ArrayWrapper<T> array, int index, int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::Sort");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "Sort", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -440,7 +440,7 @@ namespace System {
     // static public System.Void Sort(T[] array, System.Collections.Generic.IComparer`1<T> comparer)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void Sort(::Array<T>* array, System::Collections::Generic::IComparer_1<T>* comparer) {
+    static void Sort(::ArrayWrapper<T> array, System::Collections::Generic::IComparer_1<T>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::Sort");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "Sort", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(comparer)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -449,7 +449,7 @@ namespace System {
     // static public System.Void Sort(T[] array, System.Int32 index, System.Int32 length, System.Collections.Generic.IComparer`1<T> comparer)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void Sort(::Array<T>* array, int index, int length, System::Collections::Generic::IComparer_1<T>* comparer) {
+    static void Sort(::ArrayWrapper<T> array, int index, int length, System::Collections::Generic::IComparer_1<T>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::Sort");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "Sort", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(length), ::il2cpp_utils::ExtractType(comparer)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -458,7 +458,7 @@ namespace System {
     // static public System.Void Sort(T[] array, System.Comparison`1<T> comparison)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void Sort(::Array<T>* array, System::Comparison_1<T>* comparison) {
+    static void Sort(::ArrayWrapper<T> array, System::Comparison_1<T>* comparison) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::Sort");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "Sort", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(comparison)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -467,7 +467,7 @@ namespace System {
     // static public System.Void Sort(TKey[] keys, TValue[] items)
     // Offset: 0xFFFFFFFF
     template<class TKey, class TValue>
-    static void Sort(::Array<TKey>* keys, ::Array<TValue>* items) {
+    static void Sort(::ArrayWrapper<TKey> keys, ::ArrayWrapper<TValue> items) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::Sort");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "Sort", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keys), ::il2cpp_utils::ExtractType(items)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()})));
@@ -476,7 +476,7 @@ namespace System {
     // static public System.Void Sort(TKey[] keys, TValue[] items, System.Int32 index, System.Int32 length)
     // Offset: 0xFFFFFFFF
     template<class TKey, class TValue>
-    static void Sort(::Array<TKey>* keys, ::Array<TValue>* items, int index, int length) {
+    static void Sort(::ArrayWrapper<TKey> keys, ::ArrayWrapper<TValue> items, int index, int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::Sort");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "Sort", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keys), ::il2cpp_utils::ExtractType(items), ::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()})));
@@ -485,7 +485,7 @@ namespace System {
     // static public System.Void Sort(TKey[] keys, TValue[] items, System.Collections.Generic.IComparer`1<TKey> comparer)
     // Offset: 0xFFFFFFFF
     template<class TKey, class TValue>
-    static void Sort(::Array<TKey>* keys, ::Array<TValue>* items, System::Collections::Generic::IComparer_1<TKey>* comparer) {
+    static void Sort(::ArrayWrapper<TKey> keys, ::ArrayWrapper<TValue> items, System::Collections::Generic::IComparer_1<TKey>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::Sort");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "Sort", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keys), ::il2cpp_utils::ExtractType(items), ::il2cpp_utils::ExtractType(comparer)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()})));
@@ -494,7 +494,7 @@ namespace System {
     // static public System.Void Sort(TKey[] keys, TValue[] items, System.Int32 index, System.Int32 length, System.Collections.Generic.IComparer`1<TKey> comparer)
     // Offset: 0xFFFFFFFF
     template<class TKey, class TValue>
-    static void Sort(::Array<TKey>* keys, ::Array<TValue>* items, int index, int length, System::Collections::Generic::IComparer_1<TKey>* comparer) {
+    static void Sort(::ArrayWrapper<TKey> keys, ::ArrayWrapper<TValue> items, int index, int length, System::Collections::Generic::IComparer_1<TKey>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::Sort");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "Sort", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keys), ::il2cpp_utils::ExtractType(items), ::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(length), ::il2cpp_utils::ExtractType(comparer)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()})));
@@ -503,7 +503,7 @@ namespace System {
     // static public System.Boolean Exists(T[] array, System.Predicate`1<T> match)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool Exists(::Array<T>* array, System::Predicate_1<T>* match) {
+    static bool Exists(::ArrayWrapper<T> array, System::Predicate_1<T>* match) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::Exists");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "Exists", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(match)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -512,7 +512,7 @@ namespace System {
     // static public System.Void Fill(T[] array, T value)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void Fill(::Array<T>* array, T value) {
+    static void Fill(::ArrayWrapper<T> array, T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::Fill");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "Fill", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -521,7 +521,7 @@ namespace System {
     // static public System.Void Fill(T[] array, T value, System.Int32 startIndex, System.Int32 count)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void Fill(::Array<T>* array, T value, int startIndex, int count) {
+    static void Fill(::ArrayWrapper<T> array, T value, int startIndex, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::Fill");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "Fill", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(startIndex), ::il2cpp_utils::ExtractType(count)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -530,7 +530,7 @@ namespace System {
     // static public T Find(T[] array, System.Predicate`1<T> match)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T Find(::Array<T>* array, System::Predicate_1<T>* match) {
+    static T Find(::ArrayWrapper<T> array, System::Predicate_1<T>* match) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::Find");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "Find", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(match)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -539,16 +539,16 @@ namespace System {
     // static public T[] FindAll(T[] array, System.Predicate`1<T> match)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::Array<T>* FindAll(::Array<T>* array, System::Predicate_1<T>* match) {
+    static ::ArrayWrapper<T> FindAll(::ArrayWrapper<T> array, System::Predicate_1<T>* match) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::FindAll");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "FindAll", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(match)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, array, match);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, array, match);
     }
     // static public System.Int32 FindIndex(T[] array, System.Predicate`1<T> match)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int FindIndex(::Array<T>* array, System::Predicate_1<T>* match) {
+    static int FindIndex(::ArrayWrapper<T> array, System::Predicate_1<T>* match) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::FindIndex");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "FindIndex", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(match)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -557,7 +557,7 @@ namespace System {
     // static public System.Int32 FindIndex(T[] array, System.Int32 startIndex, System.Predicate`1<T> match)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int FindIndex(::Array<T>* array, int startIndex, System::Predicate_1<T>* match) {
+    static int FindIndex(::ArrayWrapper<T> array, int startIndex, System::Predicate_1<T>* match) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::FindIndex");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "FindIndex", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(startIndex), ::il2cpp_utils::ExtractType(match)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -566,7 +566,7 @@ namespace System {
     // static public System.Int32 FindIndex(T[] array, System.Int32 startIndex, System.Int32 count, System.Predicate`1<T> match)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int FindIndex(::Array<T>* array, int startIndex, int count, System::Predicate_1<T>* match) {
+    static int FindIndex(::ArrayWrapper<T> array, int startIndex, int count, System::Predicate_1<T>* match) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::FindIndex");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "FindIndex", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(startIndex), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(match)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -575,7 +575,7 @@ namespace System {
     // static public T FindLast(T[] array, System.Predicate`1<T> match)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T FindLast(::Array<T>* array, System::Predicate_1<T>* match) {
+    static T FindLast(::ArrayWrapper<T> array, System::Predicate_1<T>* match) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::FindLast");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "FindLast", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(match)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -584,7 +584,7 @@ namespace System {
     // static public System.Int32 FindLastIndex(T[] array, System.Predicate`1<T> match)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int FindLastIndex(::Array<T>* array, System::Predicate_1<T>* match) {
+    static int FindLastIndex(::ArrayWrapper<T> array, System::Predicate_1<T>* match) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::FindLastIndex");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "FindLastIndex", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(match)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -593,7 +593,7 @@ namespace System {
     // static public System.Int32 FindLastIndex(T[] array, System.Int32 startIndex, System.Predicate`1<T> match)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int FindLastIndex(::Array<T>* array, int startIndex, System::Predicate_1<T>* match) {
+    static int FindLastIndex(::ArrayWrapper<T> array, int startIndex, System::Predicate_1<T>* match) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::FindLastIndex");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "FindLastIndex", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(startIndex), ::il2cpp_utils::ExtractType(match)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -602,7 +602,7 @@ namespace System {
     // static public System.Int32 FindLastIndex(T[] array, System.Int32 startIndex, System.Int32 count, System.Predicate`1<T> match)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int FindLastIndex(::Array<T>* array, int startIndex, int count, System::Predicate_1<T>* match) {
+    static int FindLastIndex(::ArrayWrapper<T> array, int startIndex, int count, System::Predicate_1<T>* match) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::FindLastIndex");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "FindLastIndex", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(startIndex), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(match)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -611,20 +611,20 @@ namespace System {
     // static public System.Boolean TrueForAll(T[] array, System.Predicate`1<T> match)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool TrueForAll(::Array<T>* array, System::Predicate_1<T>* match) {
+    static bool TrueForAll(::ArrayWrapper<T> array, System::Predicate_1<T>* match) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::TrueForAll");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "TrueForAll", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(match)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, array, match);
     }
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x17D28AC
+    // Offset: 0x198B114
     System::Collections::IEnumerator* GetEnumerator();
     // System.Int32 InternalArray__ICollection_get_Count()
-    // Offset: 0x17D295C
+    // Offset: 0x198B1C4
     int InternalArray__ICollection_get_Count();
     // System.Boolean InternalArray__ICollection_get_IsReadOnly()
-    // Offset: 0x17D2960
+    // Offset: 0x198B1C8
     bool InternalArray__ICollection_get_IsReadOnly();
     // System.Collections.Generic.IEnumerator`1<T> InternalArray__IEnumerable_GetEnumerator()
     // Offset: 0xFFFFFFFF
@@ -637,7 +637,7 @@ namespace System {
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerator_1<T>*, false>(___instance_arg, ___generic__method);
     }
     // System.Void InternalArray__ICollection_Clear()
-    // Offset: 0x17D2968
+    // Offset: 0x198B1D0
     void InternalArray__ICollection_Clear();
     // System.Void InternalArray__ICollection_Add(T item)
     // Offset: 0xFFFFFFFF
@@ -672,7 +672,7 @@ namespace System {
     // System.Void InternalArray__ICollection_CopyTo(T[] array, System.Int32 arrayIndex)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void InternalArray__ICollection_CopyTo(::Array<T>* array, int arrayIndex) {
+    void InternalArray__ICollection_CopyTo(::ArrayWrapper<T> array, int arrayIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::InternalArray__ICollection_CopyTo");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InternalArray__ICollection_CopyTo", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(arrayIndex)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -690,7 +690,7 @@ namespace System {
       return ::il2cpp_utils::RunMethodThrow<T, false>(___instance_arg, ___generic__method, index);
     }
     // System.Int32 InternalArray__IReadOnlyCollection_get_Count()
-    // Offset: 0x17D29D4
+    // Offset: 0x198B23C
     int InternalArray__IReadOnlyCollection_get_Count();
     // System.Void InternalArray__Insert(System.Int32 index, T item)
     // Offset: 0xFFFFFFFF
@@ -703,7 +703,7 @@ namespace System {
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, index, item);
     }
     // System.Void InternalArray__RemoveAt(System.Int32 index)
-    // Offset: 0x17D29D8
+    // Offset: 0x198B240
     void InternalArray__RemoveAt(int index);
     // System.Int32 InternalArray__IndexOf(T item)
     // Offset: 0xFFFFFFFF
@@ -756,114 +756,114 @@ namespace System {
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, pos, byref(value));
     }
     // private System.Int32 GetRank()
-    // Offset: 0x17D2A44
+    // Offset: 0x198B2AC
     int GetRank();
     // public System.Int32 GetLength(System.Int32 dimension)
-    // Offset: 0x17D0C90
+    // Offset: 0x19894F8
     int GetLength(int dimension);
     // public System.Int32 GetLowerBound(System.Int32 dimension)
-    // Offset: 0x17CF688
+    // Offset: 0x1987EF0
     int GetLowerBound(int dimension);
     // public System.Object GetValue(System.Int32[] indices)
-    // Offset: 0x17D11F0
-    ::Il2CppObject* GetValue(::Array<int>* indices);
+    // Offset: 0x1989A58
+    ::Il2CppObject* GetValue(::ArrayWrapper<int> indices);
     // public System.Void SetValue(System.Object value, System.Int32[] indices)
-    // Offset: 0x17D2284
-    void SetValue(::Il2CppObject* value, ::Array<int>* indices);
+    // Offset: 0x198AAEC
+    void SetValue(::Il2CppObject* value, ::ArrayWrapper<int> indices);
     // System.Object GetValueImpl(System.Int32 pos)
-    // Offset: 0x17D2A48
+    // Offset: 0x198B2B0
     ::Il2CppObject* GetValueImpl(int pos);
     // System.Void SetValueImpl(System.Object value, System.Int32 pos)
-    // Offset: 0x17D2A4C
+    // Offset: 0x198B2B4
     void SetValueImpl(::Il2CppObject* value, int pos);
     // static System.Boolean FastCopy(System.Array source, System.Int32 source_idx, System.Array dest, System.Int32 dest_idx, System.Int32 length)
-    // Offset: 0x17D2A50
+    // Offset: 0x198B2B8
     static bool FastCopy(System::Array* source, int source_idx, System::Array* dest, int dest_idx, int length);
     // static System.Array CreateInstanceImpl(System.Type elementType, System.Int32[] lengths, System.Int32[] bounds)
-    // Offset: 0x17D2A54
-    static System::Array* CreateInstanceImpl(System::Type* elementType, ::Array<int>* lengths, ::Array<int>* bounds);
+    // Offset: 0x198B2BC
+    static System::Array* CreateInstanceImpl(System::Type* elementType, ::ArrayWrapper<int> lengths, ::ArrayWrapper<int> bounds);
     // public System.Int32 GetUpperBound(System.Int32 dimension)
-    // Offset: 0x17D2A58
+    // Offset: 0x198B2C0
     int GetUpperBound(int dimension);
     // public System.Object GetValue(System.Int32 index)
-    // Offset: 0x17CF1D4
+    // Offset: 0x1987A3C
     ::Il2CppObject* GetValue(int index);
     // public System.Object GetValue(System.Int32 index1, System.Int32 index2)
-    // Offset: 0x17D0E24
+    // Offset: 0x198968C
     ::Il2CppObject* GetValue(int index1, int index2);
     // public System.Object GetValue(System.Int32 index1, System.Int32 index2, System.Int32 index3)
-    // Offset: 0x17D0FC8
+    // Offset: 0x1989830
     ::Il2CppObject* GetValue(int index1, int index2, int index3);
     // public System.Void SetValue(System.Object value, System.Int32 index)
-    // Offset: 0x17CF374
+    // Offset: 0x1987BDC
     void SetValue(::Il2CppObject* value, int index);
     // public System.Void SetValue(System.Object value, System.Int32 index1, System.Int32 index2)
-    // Offset: 0x17D1E90
+    // Offset: 0x198A6F8
     void SetValue(::Il2CppObject* value, int index1, int index2);
     // public System.Void SetValue(System.Object value, System.Int32 index1, System.Int32 index2, System.Int32 index3)
-    // Offset: 0x17D204C
+    // Offset: 0x198A8B4
     void SetValue(::Il2CppObject* value, int index1, int index2, int index3);
     // static System.Array UnsafeCreateInstance(System.Type elementType, System.Int32[] lengths, System.Int32[] lowerBounds)
-    // Offset: 0x17D2A9C
-    static System::Array* UnsafeCreateInstance(System::Type* elementType, ::Array<int>* lengths, ::Array<int>* lowerBounds);
+    // Offset: 0x198B304
+    static System::Array* UnsafeCreateInstance(System::Type* elementType, ::ArrayWrapper<int> lengths, ::ArrayWrapper<int> lowerBounds);
     // static System.Array UnsafeCreateInstance(System.Type elementType, System.Int32 length1, System.Int32 length2)
-    // Offset: 0x17D2E48
+    // Offset: 0x198B6B0
     static System::Array* UnsafeCreateInstance(System::Type* elementType, int length1, int length2);
     // static System.Array UnsafeCreateInstance(System.Type elementType, System.Int32[] lengths)
-    // Offset: 0x17D2EE4
-    static System::Array* UnsafeCreateInstance(System::Type* elementType, ::Array<int>* lengths);
+    // Offset: 0x198B74C
+    static System::Array* UnsafeCreateInstance(System::Type* elementType, ::ArrayWrapper<int> lengths);
     // static public System.Array CreateInstance(System.Type elementType, System.Int32 length)
-    // Offset: 0x17D2EE8
+    // Offset: 0x198B750
     static System::Array* CreateInstance(System::Type* elementType, int length);
     // static public System.Array CreateInstance(System.Type elementType, System.Int32 length1, System.Int32 length2)
-    // Offset: 0x17D2E4C
+    // Offset: 0x198B6B4
     static System::Array* CreateInstance(System::Type* elementType, int length1, int length2);
     // static public System.Array CreateInstance(System.Type elementType, System.Int32 length1, System.Int32 length2, System.Int32 length3)
-    // Offset: 0x17D2F70
+    // Offset: 0x198B7D8
     static System::Array* CreateInstance(System::Type* elementType, int length1, int length2, int length3);
     // static public System.Array CreateInstance(System.Type elementType, System.Int32[] lengths)
-    // Offset: 0x17CEEDC
-    static System::Array* CreateInstance(System::Type* elementType, ::Array<int>* lengths);
+    // Offset: 0x1987744
+    static System::Array* CreateInstance(System::Type* elementType, ::ArrayWrapper<int> lengths);
     // static public System.Array CreateInstance(System.Type elementType, System.Int32[] lengths, System.Int32[] lowerBounds)
-    // Offset: 0x17D2AA0
-    static System::Array* CreateInstance(System::Type* elementType, ::Array<int>* lengths, ::Array<int>* lowerBounds);
+    // Offset: 0x198B308
+    static System::Array* CreateInstance(System::Type* elementType, ::ArrayWrapper<int> lengths, ::ArrayWrapper<int> lowerBounds);
     // static public System.Void Clear(System.Array array, System.Int32 index, System.Int32 length)
-    // Offset: 0x17CF68C
+    // Offset: 0x1987EF4
     static void Clear(System::Array* array, int index, int length);
     // static private System.Void ClearInternal(System.Array a, System.Int32 index, System.Int32 count)
-    // Offset: 0x17D3020
+    // Offset: 0x198B888
     static void ClearInternal(System::Array* a, int index, int count);
     // static public System.Void Copy(System.Array sourceArray, System.Array destinationArray, System.Int32 length)
-    // Offset: 0x17D0984
+    // Offset: 0x19891EC
     static void Copy(System::Array* sourceArray, System::Array* destinationArray, int length);
     // static public System.Void Copy(System.Array sourceArray, System.Int32 sourceIndex, System.Array destinationArray, System.Int32 destinationIndex, System.Int32 length)
-    // Offset: 0x17CF9CC
+    // Offset: 0x1988234
     static void Copy(System::Array* sourceArray, int sourceIndex, System::Array* destinationArray, int destinationIndex, int length);
     // static private System.Exception CreateArrayTypeMismatchException()
-    // Offset: 0x17D3024
+    // Offset: 0x198B88C
     static System::Exception* CreateArrayTypeMismatchException();
     // static private System.Boolean CanAssignArrayElement(System.Type source, System.Type target)
-    // Offset: 0x17D307C
+    // Offset: 0x198B8E4
     static bool CanAssignArrayElement(System::Type* source, System::Type* target);
     // static public System.Void ConstrainedCopy(System.Array sourceArray, System.Int32 sourceIndex, System.Array destinationArray, System.Int32 destinationIndex, System.Int32 length)
-    // Offset: 0x17D31B8
+    // Offset: 0x198BA20
     static void ConstrainedCopy(System::Array* sourceArray, int sourceIndex, System::Array* destinationArray, int destinationIndex, int length);
     // static public T[] Empty()
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::Array<T>* Empty() {
+    static ::ArrayWrapper<T> Empty() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::Empty");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "Empty", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
     }
     // public System.Void Initialize()
-    // Offset: 0x17D31BC
+    // Offset: 0x198BA24
     void Initialize();
     // static private System.Int32 IndexOfImpl(T[] array, T value, System.Int32 startIndex, System.Int32 count)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int IndexOfImpl(::Array<T>* array, T value, int startIndex, int count) {
+    static int IndexOfImpl(::ArrayWrapper<T> array, T value, int startIndex, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::IndexOfImpl");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "IndexOfImpl", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(startIndex), ::il2cpp_utils::ExtractType(count)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -872,19 +872,19 @@ namespace System {
     // static private System.Int32 LastIndexOfImpl(T[] array, T value, System.Int32 startIndex, System.Int32 count)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int LastIndexOfImpl(::Array<T>* array, T value, int startIndex, int count) {
+    static int LastIndexOfImpl(::ArrayWrapper<T> array, T value, int startIndex, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::LastIndexOfImpl");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "LastIndexOfImpl", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(startIndex), ::il2cpp_utils::ExtractType(count)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, array, value, startIndex, count);
     }
     // static private System.Void SortImpl(System.Array keys, System.Array items, System.Int32 index, System.Int32 length, System.Collections.IComparer comparer)
-    // Offset: 0x17D27B0
+    // Offset: 0x198B018
     static void SortImpl(System::Array* keys, System::Array* items, int index, int length, System::Collections::IComparer* comparer);
     // static T UnsafeLoad(T[] array, System.Int32 index)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T UnsafeLoad(::Array<T>* array, int index) {
+    static T UnsafeLoad(::ArrayWrapper<T> array, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::UnsafeLoad");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "UnsafeLoad", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(index)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -893,7 +893,7 @@ namespace System {
     // static System.Void UnsafeStore(T[] array, System.Int32 index, T value)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void UnsafeStore(::Array<T>* array, int index, T value) {
+    static void UnsafeStore(::ArrayWrapper<T> array, int index, T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::UnsafeStore");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Array", "UnsafeStore", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -909,7 +909,7 @@ namespace System {
       return ::il2cpp_utils::RunMethodThrow<R, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, instance);
     }
     // private System.Void .ctor()
-    // Offset: 0x17D2954
+    // Offset: 0x198B1BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -1016,10 +1016,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Array::CreateInstance
 // Il2CppName: CreateInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::Array<int64_t>*)>(&System::Array::CreateInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::ArrayWrapper<int64_t>)>(&System::Array::CreateInstance)> {
   static const MethodInfo* get() {
     static auto* elementType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* lengths = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int64"), 1)->byval_arg;
+    static auto* lengths = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int64")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array*), "CreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{elementType, lengths});
   }
 };
@@ -1241,9 +1241,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Array::GetValue
 // Il2CppName: GetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Array::*)(::Array<int64_t>*)>(&System::Array::GetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Array::*)(::ArrayWrapper<int64_t>)>(&System::Array::GetValue)> {
   static const MethodInfo* get() {
-    static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int64"), 1)->byval_arg;
+    static auto* indices = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int64")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{indices});
   }
 };
@@ -1451,10 +1451,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Array::SetValue
 // Il2CppName: SetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::*)(::Il2CppObject*, ::Array<int64_t>*)>(&System::Array::SetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::*)(::Il2CppObject*, ::ArrayWrapper<int64_t>)>(&System::Array::SetValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int64"), 1)->byval_arg;
+    static auto* indices = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int64")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array*), "SetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, indices});
   }
 };
@@ -1726,19 +1726,19 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Array::GetValue
 // Il2CppName: GetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Array::*)(::Array<int>*)>(&System::Array::GetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Array::*)(::ArrayWrapper<int>)>(&System::Array::GetValue)> {
   static const MethodInfo* get() {
-    static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* indices = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{indices});
   }
 };
 // Writing MetadataGetter for method: System::Array::SetValue
 // Il2CppName: SetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::*)(::Il2CppObject*, ::Array<int>*)>(&System::Array::SetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::*)(::Il2CppObject*, ::ArrayWrapper<int>)>(&System::Array::SetValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* indices = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array*), "SetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, indices});
   }
 };
@@ -1777,11 +1777,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Array::CreateInstanceImpl
 // Il2CppName: CreateInstanceImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::Array<int>*, ::Array<int>*)>(&System::Array::CreateInstanceImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::ArrayWrapper<int>, ::ArrayWrapper<int>)>(&System::Array::CreateInstanceImpl)> {
   static const MethodInfo* get() {
     static auto* elementType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* lengths = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
-    static auto* bounds = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* lengths = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* bounds = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array*), "CreateInstanceImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{elementType, lengths, bounds});
   }
 };
@@ -1860,11 +1860,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Array::UnsafeCreateInstance
 // Il2CppName: UnsafeCreateInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::Array<int>*, ::Array<int>*)>(&System::Array::UnsafeCreateInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::ArrayWrapper<int>, ::ArrayWrapper<int>)>(&System::Array::UnsafeCreateInstance)> {
   static const MethodInfo* get() {
     static auto* elementType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* lengths = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
-    static auto* lowerBounds = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* lengths = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* lowerBounds = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array*), "UnsafeCreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{elementType, lengths, lowerBounds});
   }
 };
@@ -1882,10 +1882,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Arr
 // Writing MetadataGetter for method: System::Array::UnsafeCreateInstance
 // Il2CppName: UnsafeCreateInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::Array<int>*)>(&System::Array::UnsafeCreateInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::ArrayWrapper<int>)>(&System::Array::UnsafeCreateInstance)> {
   static const MethodInfo* get() {
     static auto* elementType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* lengths = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* lengths = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array*), "UnsafeCreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{elementType, lengths});
   }
 };
@@ -1925,21 +1925,21 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Arr
 // Writing MetadataGetter for method: System::Array::CreateInstance
 // Il2CppName: CreateInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::Array<int>*)>(&System::Array::CreateInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::ArrayWrapper<int>)>(&System::Array::CreateInstance)> {
   static const MethodInfo* get() {
     static auto* elementType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* lengths = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* lengths = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array*), "CreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{elementType, lengths});
   }
 };
 // Writing MetadataGetter for method: System::Array::CreateInstance
 // Il2CppName: CreateInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::Array<int>*, ::Array<int>*)>(&System::Array::CreateInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::ArrayWrapper<int>, ::ArrayWrapper<int>)>(&System::Array::CreateInstance)> {
   static const MethodInfo* get() {
     static auto* elementType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* lengths = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
-    static auto* lowerBounds = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* lengths = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* lowerBounds = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array*), "CreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{elementType, lengths, lowerBounds});
   }
 };

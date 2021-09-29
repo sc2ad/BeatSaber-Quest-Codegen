@@ -65,29 +65,29 @@ namespace Zenject {
     // Get instance field reference: private System.Int32 _defaultAsyncTickPriority
     int& dyn__defaultAsyncTickPriority();
     // public System.Int32 get_DefaultAsyncTickPriority()
-    // Offset: 0x23E3D44
+    // Offset: 0x25EEFD4
     int get_DefaultAsyncTickPriority();
     // public Zenject.SignalDefaultSyncModes get_DefaultSyncMode()
-    // Offset: 0x23E3D4C
+    // Offset: 0x25EEFDC
     Zenject::SignalDefaultSyncModes get_DefaultSyncMode();
     // public Zenject.SignalMissingHandlerResponses get_MissingHandlerDefaultResponse()
-    // Offset: 0x23E3D54
+    // Offset: 0x25EEFE4
     Zenject::SignalMissingHandlerResponses get_MissingHandlerDefaultResponse();
     // public System.Boolean get_RequireStrictUnsubscribe()
-    // Offset: 0x23E3D5C
+    // Offset: 0x25EEFEC
     bool get_RequireStrictUnsubscribe();
     // public System.Void .ctor(Zenject.SignalDefaultSyncModes defaultSyncMode, Zenject.SignalMissingHandlerResponses missingHandlerDefaultResponse, System.Boolean requireStrictUnsubscribe, System.Int32 defaultAsyncTickPriority)
-    // Offset: 0x23E3CB4
+    // Offset: 0x25EEF44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenjectSettings::SignalSettings* New_ctor(Zenject::SignalDefaultSyncModes defaultSyncMode, Zenject::SignalMissingHandlerResponses missingHandlerDefaultResponse, bool requireStrictUnsubscribe, int defaultAsyncTickPriority) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ZenjectSettings::SignalSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectSettings::SignalSettings*, creationType>(defaultSyncMode, missingHandlerDefaultResponse, requireStrictUnsubscribe, defaultAsyncTickPriority)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x23E3D64
+    // Offset: 0x25EEFF4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x23E3D08
+    // Offset: 0x25EEF98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

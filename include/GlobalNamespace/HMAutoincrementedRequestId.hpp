@@ -43,16 +43,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.UInt64 _requestId
     uint64_t& dyn__requestId();
     // public System.UInt64 get_RequestId()
-    // Offset: 0x1268A74
+    // Offset: 0x138527C
     uint64_t get_RequestId();
     // static private System.Void .cctor()
-    // Offset: 0x1268B8C
+    // Offset: 0x1385394
     static void _cctor();
     // public System.Boolean Equals(HMAutoincrementedRequestId obj)
-    // Offset: 0x1268A7C
+    // Offset: 0x1385284
     bool Equals(GlobalNamespace::HMAutoincrementedRequestId* obj);
     // public System.Void .ctor()
-    // Offset: 0x12689A8
+    // Offset: 0x13851B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -61,12 +61,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HMAutoincrementedRequestId*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1268A9C
+    // Offset: 0x13852A4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1268B64
+    // Offset: 0x138536C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

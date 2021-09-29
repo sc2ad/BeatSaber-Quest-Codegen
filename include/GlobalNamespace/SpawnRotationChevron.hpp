@@ -36,9 +36,9 @@ namespace GlobalNamespace {
     // private TubeBloomPrePassLight[] _lights
     // Size: 0x8
     // Offset: 0x30
-    ::Array<GlobalNamespace::TubeBloomPrePassLight*>* lights;
+    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> lights;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::TubeBloomPrePassLight*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
     // private UnityEngine.Color _color
     // Size: 0x10
     // Offset: 0x38
@@ -52,21 +52,21 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: SpawnRotationChevron
-    SpawnRotationChevron(::Array<GlobalNamespace::TubeBloomPrePassLight*>* lights_ = {}, UnityEngine::Color color_ = {}, float lightAmount_ = {}) noexcept : lights{lights_}, color{color_}, lightAmount{lightAmount_} {}
+    SpawnRotationChevron(::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> lights_ = {}, UnityEngine::Color color_ = {}, float lightAmount_ = {}) noexcept : lights{lights_}, color{color_}, lightAmount{lightAmount_} {}
     // Get instance field reference: private TubeBloomPrePassLight[] _lights
-    ::Array<GlobalNamespace::TubeBloomPrePassLight*>*& dyn__lights();
+    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>& dyn__lights();
     // Get instance field reference: private UnityEngine.Color _color
     UnityEngine::Color& dyn__color();
     // Get instance field reference: private System.Single _lightAmount
     float& dyn__lightAmount();
     // public System.Void SetLightAmount(System.Single amount)
-    // Offset: 0x109F548
+    // Offset: 0x110E22C
     void SetLightAmount(float amount);
     // private System.Void UpdateLights()
-    // Offset: 0x109F4B8
+    // Offset: 0x110E19C
     void UpdateLights();
     // public System.Void .ctor()
-    // Offset: 0x109F550
+    // Offset: 0x110E234
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -80,7 +80,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SpawnRotationChevron*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x109F4AC
+    // Offset: 0x110E190
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);

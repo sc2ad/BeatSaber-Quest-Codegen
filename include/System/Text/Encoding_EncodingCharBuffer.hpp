@@ -114,39 +114,39 @@ namespace System::Text {
     // Get instance field reference: private System.Text.DecoderFallbackBuffer fallbackBuffer
     System::Text::DecoderFallbackBuffer*& dyn_fallbackBuffer();
     // System.Boolean get_MoreData()
-    // Offset: 0x1D71154
+    // Offset: 0x1F113E4
     bool get_MoreData();
     // System.Int32 get_BytesUsed()
-    // Offset: 0x1D71188
+    // Offset: 0x1F11418
     int get_BytesUsed();
     // System.Int32 get_Count()
-    // Offset: 0x1D71308
+    // Offset: 0x1F11598
     int get_Count();
     // System.Void .ctor(System.Text.Encoding enc, System.Text.DecoderNLS decoder, System.Char* charStart, System.Int32 charCount, System.Byte* byteStart, System.Int32 byteCount)
-    // Offset: 0x1D71014
+    // Offset: 0x1F112A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Encoding::EncodingCharBuffer* New_ctor(System::Text::Encoding* enc, System::Text::DecoderNLS* decoder, ::Il2CppChar* charStart, int charCount, uint8_t* byteStart, int byteCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::Encoding::EncodingCharBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Encoding::EncodingCharBuffer*, creationType>(enc, decoder, charStart, charCount, byteStart, byteCount)));
     }
     // System.Boolean AddChar(System.Char ch, System.Int32 numBytes)
-    // Offset: 0x1D710C8
+    // Offset: 0x1F11358
     bool AddChar(::Il2CppChar ch, int numBytes);
     // System.Boolean AddChar(System.Char ch)
-    // Offset: 0x1D7113C
+    // Offset: 0x1F113CC
     bool AddChar(::Il2CppChar ch);
     // System.Void AdjustBytes(System.Int32 count)
-    // Offset: 0x1D71144
+    // Offset: 0x1F113D4
     void AdjustBytes(int count);
     // System.Byte GetNextByte()
-    // Offset: 0x1D71164
+    // Offset: 0x1F113F4
     uint8_t GetNextByte();
     // System.Boolean Fallback(System.Byte fallbackByte)
-    // Offset: 0x1D71198
+    // Offset: 0x1F11428
     bool Fallback(uint8_t fallbackByte);
     // System.Boolean Fallback(System.Byte[] byteBuffer)
-    // Offset: 0x1D71220
-    bool Fallback(::Array<uint8_t>* byteBuffer);
+    // Offset: 0x1F114B0
+    bool Fallback(::ArrayWrapper<uint8_t> byteBuffer);
   }; // System.Text.Encoding/System.Text.EncodingCharBuffer
   #pragma pack(pop)
   static check_size<sizeof(Encoding::EncodingCharBuffer), 88 + sizeof(System::Text::DecoderFallbackBuffer*)> __System_Text_Encoding_EncodingCharBufferSizeCheck;
@@ -230,9 +230,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Text::Encoding::EncodingCharBuffer::Fallback
 // Il2CppName: Fallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::Encoding::EncodingCharBuffer::*)(::Array<uint8_t>*)>(&System::Text::Encoding::EncodingCharBuffer::Fallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::Encoding::EncodingCharBuffer::*)(::ArrayWrapper<uint8_t>)>(&System::Text::Encoding::EncodingCharBuffer::Fallback)> {
   static const MethodInfo* get() {
-    static auto* byteBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* byteBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding::EncodingCharBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{byteBuffer});
   }
 };

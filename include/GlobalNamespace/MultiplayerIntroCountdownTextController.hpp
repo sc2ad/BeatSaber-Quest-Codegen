@@ -30,38 +30,38 @@ namespace GlobalNamespace {
     // private TMPro.TextMeshPro[] _texts
     // Size: 0x8
     // Offset: 0x18
-    ::Array<TMPro::TextMeshPro*>* texts;
+    ::ArrayWrapper<TMPro::TextMeshPro*> texts;
     // Field size check
-    static_assert(sizeof(::Array<TMPro::TextMeshPro*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<TMPro::TextMeshPro*>) == 0x8);
     // Creating value type constructor for type: MultiplayerIntroCountdownTextController
-    MultiplayerIntroCountdownTextController(::Array<TMPro::TextMeshPro*>* texts_ = {}) noexcept : texts{texts_} {}
+    MultiplayerIntroCountdownTextController(::ArrayWrapper<TMPro::TextMeshPro*> texts_ = {}) noexcept : texts{texts_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshPro[] _texts
-    ::Array<TMPro::TextMeshPro*>*& dyn__texts();
+    ::ArrayWrapper<TMPro::TextMeshPro*>& dyn__texts();
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x11D5214
+    // Offset: 0x116836C
     void set_hide(bool value);
     // public System.Single get_fontSize()
-    // Offset: 0x11D524C
+    // Offset: 0x1168420
     float get_fontSize();
     // public System.Void set_fontSize(System.Single value)
-    // Offset: 0x11D56D8
+    // Offset: 0x11683A4
     void set_fontSize(float value);
     // public System.Single get_alpha()
-    // Offset: 0x11D5290
+    // Offset: 0x1168540
     float get_alpha();
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0x11D576C
+    // Offset: 0x1168464
     void set_alpha(float value);
     // public System.Void SetText(System.String text)
-    // Offset: 0x11D626C
+    // Offset: 0x1168228
     void SetText(::Il2CppString* text);
     // public System.Void SetDistances(System.Single distance)
-    // Offset: 0x11D58C8
+    // Offset: 0x11682A4
     void SetDistances(float distance);
     // public System.Void .ctor()
-    // Offset: 0x11D6494
+    // Offset: 0x116858C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     }
   }; // MultiplayerIntroCountdownTextController
   #pragma pack(pop)
-  static check_size<sizeof(MultiplayerIntroCountdownTextController), 24 + sizeof(::Array<TMPro::TextMeshPro*>*)> __GlobalNamespace_MultiplayerIntroCountdownTextControllerSizeCheck;
+  static check_size<sizeof(MultiplayerIntroCountdownTextController), 24 + sizeof(::ArrayWrapper<TMPro::TextMeshPro*>)> __GlobalNamespace_MultiplayerIntroCountdownTextControllerSizeCheck;
   static_assert(sizeof(MultiplayerIntroCountdownTextController) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroCountdownTextController*, "", "MultiplayerIntroCountdownTextController");

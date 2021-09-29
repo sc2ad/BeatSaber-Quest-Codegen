@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* nameText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0xE38670
+    // [InjectAttribute] Offset: 0xF00E14
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x20
@@ -54,10 +54,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
     GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // protected System.Void Start()
-    // Offset: 0x10E62A4
+    // Offset: 0x119DCF0
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x10E6370
+    // Offset: 0x119DDBC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

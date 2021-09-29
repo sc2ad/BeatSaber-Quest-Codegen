@@ -134,16 +134,16 @@ namespace Zenject {
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.DisposeBlock/Zenject.SpawnedObjectPoolPair> _objectPoolPairs
     System::Collections::Generic::List_1<Zenject::DisposeBlock::SpawnedObjectPoolPair>*& dyn__objectPoolPairs();
     // static private System.Void .cctor()
-    // Offset: 0x165E094
+    // Offset: 0x1828438
     static void _cctor();
     // static private System.Void OnSpawned(Zenject.DisposeBlock that)
-    // Offset: 0x165DB54
+    // Offset: 0x1827EF8
     static void OnSpawned(Zenject::DisposeBlock* that);
     // static private System.Void OnDespawned(Zenject.DisposeBlock that)
-    // Offset: 0x165DB8C
+    // Offset: 0x1827F30
     static void OnDespawned(Zenject::DisposeBlock* that);
     // private System.Void LazyInitializeDisposableList()
-    // Offset: 0x165DDF0
+    // Offset: 0x1828194
     void LazyInitializeDisposableList();
     // public System.Void AddRange(System.Collections.Generic.IList`1<T> disposables)
     // Offset: 0xFFFFFFFF
@@ -157,10 +157,10 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, disposables);
     }
     // public System.Void Add(System.IDisposable disposable)
-    // Offset: 0x165DE84
+    // Offset: 0x1828228
     void Add(System::IDisposable* disposable);
     // public System.Void Remove(System.IDisposable disposable)
-    // Offset: 0x165DF20
+    // Offset: 0x18282C4
     void Remove(System::IDisposable* disposable);
     // private System.Void StoreSpawnedObject(T obj, Zenject.IDespawnableMemoryPool`1<T> pool)
     // Offset: 0xFFFFFFFF
@@ -273,13 +273,13 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::List_1<T>*, false>(___instance_arg, ___generic__method);
     }
     // static public Zenject.DisposeBlock Spawn()
-    // Offset: 0x165DF8C
+    // Offset: 0x1828330
     static Zenject::DisposeBlock* Spawn();
     // public System.Void Dispose()
-    // Offset: 0x165E008
+    // Offset: 0x18283AC
     void Dispose();
     // public System.Void .ctor()
-    // Offset: 0x165E08C
+    // Offset: 0x1828430
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

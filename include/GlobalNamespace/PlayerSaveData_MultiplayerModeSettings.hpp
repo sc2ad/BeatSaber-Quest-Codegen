@@ -37,9 +37,9 @@ namespace GlobalNamespace {
     // public System.Byte[] quickPlaySongPackMask
     // Size: 0x8
     // Offset: 0x20
-    ::Array<uint8_t>* quickPlaySongPackMask;
+    ::ArrayWrapper<uint8_t> quickPlaySongPackMask;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // public System.String quickPlaySongPackMaskSerializedName
     // Size: 0x8
     // Offset: 0x28
@@ -53,19 +53,19 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: MultiplayerModeSettings
-    MultiplayerModeSettings(int createServerNumberOfPlayers_ = {}, ::Il2CppString* quickPlayDifficulty_ = {}, ::Array<uint8_t>* quickPlaySongPackMask_ = {}, ::Il2CppString* quickPlaySongPackMaskSerializedName_ = {}, bool quickPlayEnableLevelSelection_ = {}) noexcept : createServerNumberOfPlayers{createServerNumberOfPlayers_}, quickPlayDifficulty{quickPlayDifficulty_}, quickPlaySongPackMask{quickPlaySongPackMask_}, quickPlaySongPackMaskSerializedName{quickPlaySongPackMaskSerializedName_}, quickPlayEnableLevelSelection{quickPlayEnableLevelSelection_} {}
+    MultiplayerModeSettings(int createServerNumberOfPlayers_ = {}, ::Il2CppString* quickPlayDifficulty_ = {}, ::ArrayWrapper<uint8_t> quickPlaySongPackMask_ = {}, ::Il2CppString* quickPlaySongPackMaskSerializedName_ = {}, bool quickPlayEnableLevelSelection_ = {}) noexcept : createServerNumberOfPlayers{createServerNumberOfPlayers_}, quickPlayDifficulty{quickPlayDifficulty_}, quickPlaySongPackMask{quickPlaySongPackMask_}, quickPlaySongPackMaskSerializedName{quickPlaySongPackMaskSerializedName_}, quickPlayEnableLevelSelection{quickPlayEnableLevelSelection_} {}
     // Get instance field reference: public System.Int32 createServerNumberOfPlayers
     int& dyn_createServerNumberOfPlayers();
     // Get instance field reference: public System.String quickPlayDifficulty
     ::Il2CppString*& dyn_quickPlayDifficulty();
     // Get instance field reference: public System.Byte[] quickPlaySongPackMask
-    ::Array<uint8_t>*& dyn_quickPlaySongPackMask();
+    ::ArrayWrapper<uint8_t>& dyn_quickPlaySongPackMask();
     // Get instance field reference: public System.String quickPlaySongPackMaskSerializedName
     ::Il2CppString*& dyn_quickPlaySongPackMaskSerializedName();
     // Get instance field reference: public System.Boolean quickPlayEnableLevelSelection
     bool& dyn_quickPlayEnableLevelSelection();
     // public System.Void .ctor()
-    // Offset: 0x11F6F14
+    // Offset: 0x12B6C98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

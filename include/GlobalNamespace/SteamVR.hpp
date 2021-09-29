@@ -96,15 +96,15 @@ namespace GlobalNamespace {
     // private Valve.VR.VRTextureBounds_t[] <textureBounds>k__BackingField
     // Size: 0x8
     // Offset: 0x40
-    ::Array<Valve::VR::VRTextureBounds_t>* textureBounds;
+    ::ArrayWrapper<Valve::VR::VRTextureBounds_t> textureBounds;
     // Field size check
-    static_assert(sizeof(::Array<Valve::VR::VRTextureBounds_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<Valve::VR::VRTextureBounds_t>) == 0x8);
     // private SteamVR_Utils/RigidTransform[] <eyes>k__BackingField
     // Size: 0x8
     // Offset: 0x48
-    ::Array<GlobalNamespace::SteamVR_Utils::RigidTransform>* eyes;
+    ::ArrayWrapper<GlobalNamespace::SteamVR_Utils::RigidTransform> eyes;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::SteamVR_Utils::RigidTransform>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SteamVR_Utils::RigidTransform>) == 0x8);
     // public Valve.VR.ETextureType textureType
     // Size: 0x4
     // Offset: 0x50
@@ -112,7 +112,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(Valve::VR::ETextureType) == 0x4);
     // Creating value type constructor for type: SteamVR
-    SteamVR(Valve::VR::CVRSystem* hmd_ = {}, Valve::VR::CVRCompositor* compositor_ = {}, Valve::VR::CVROverlay* overlay_ = {}, float sceneWidth_ = {}, float sceneHeight_ = {}, float aspect_ = {}, float fieldOfView_ = {}, UnityEngine::Vector2 tanHalfFov_ = {}, ::Array<Valve::VR::VRTextureBounds_t>* textureBounds_ = {}, ::Array<GlobalNamespace::SteamVR_Utils::RigidTransform>* eyes_ = {}, Valve::VR::ETextureType textureType_ = {}) noexcept : hmd{hmd_}, compositor{compositor_}, overlay{overlay_}, sceneWidth{sceneWidth_}, sceneHeight{sceneHeight_}, aspect{aspect_}, fieldOfView{fieldOfView_}, tanHalfFov{tanHalfFov_}, textureBounds{textureBounds_}, eyes{eyes_}, textureType{textureType_} {}
+    SteamVR(Valve::VR::CVRSystem* hmd_ = {}, Valve::VR::CVRCompositor* compositor_ = {}, Valve::VR::CVROverlay* overlay_ = {}, float sceneWidth_ = {}, float sceneHeight_ = {}, float aspect_ = {}, float fieldOfView_ = {}, UnityEngine::Vector2 tanHalfFov_ = {}, ::ArrayWrapper<Valve::VR::VRTextureBounds_t> textureBounds_ = {}, ::ArrayWrapper<GlobalNamespace::SteamVR_Utils::RigidTransform> eyes_ = {}, Valve::VR::ETextureType textureType_ = {}) noexcept : hmd{hmd_}, compositor{compositor_}, overlay{overlay_}, sceneWidth{sceneWidth_}, sceneHeight{sceneHeight_}, aspect{aspect_}, fieldOfView{fieldOfView_}, tanHalfFov{tanHalfFov_}, textureBounds{textureBounds_}, eyes{eyes_}, textureType{textureType_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -138,9 +138,9 @@ namespace GlobalNamespace {
     // Set static field: static private System.Boolean <outOfRange>k__BackingField
     static void _set_$outOfRange$k__BackingField(bool value);
     // Get static field: static public System.Boolean[] connected
-    static ::Array<bool>* _get_connected();
+    static ::ArrayWrapper<bool> _get_connected();
     // Set static field: static public System.Boolean[] connected
-    static void _set_connected(::Array<bool>* value);
+    static void _set_connected(::ArrayWrapper<bool> value);
     // Get instance field reference: private Valve.VR.CVRSystem <hmd>k__BackingField
     Valve::VR::CVRSystem*& dyn_$hmd$k__BackingField();
     // Get instance field reference: private Valve.VR.CVRCompositor <compositor>k__BackingField
@@ -158,163 +158,163 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector2 <tanHalfFov>k__BackingField
     UnityEngine::Vector2& dyn_$tanHalfFov$k__BackingField();
     // Get instance field reference: private Valve.VR.VRTextureBounds_t[] <textureBounds>k__BackingField
-    ::Array<Valve::VR::VRTextureBounds_t>*& dyn_$textureBounds$k__BackingField();
+    ::ArrayWrapper<Valve::VR::VRTextureBounds_t>& dyn_$textureBounds$k__BackingField();
     // Get instance field reference: private SteamVR_Utils/RigidTransform[] <eyes>k__BackingField
-    ::Array<GlobalNamespace::SteamVR_Utils::RigidTransform>*& dyn_$eyes$k__BackingField();
+    ::ArrayWrapper<GlobalNamespace::SteamVR_Utils::RigidTransform>& dyn_$eyes$k__BackingField();
     // Get instance field reference: public Valve.VR.ETextureType textureType
     Valve::VR::ETextureType& dyn_textureType();
     // static public System.Boolean get_active()
-    // Offset: 0x1422EA8
+    // Offset: 0x1533CF8
     static bool get_active();
     // static public System.Boolean get_enabled()
-    // Offset: 0x1422F18
+    // Offset: 0x1533D68
     static bool get_enabled();
     // static public System.Void set_enabled(System.Boolean value)
-    // Offset: 0x1422FB4
+    // Offset: 0x1533E04
     static void set_enabled(bool value);
     // static public SteamVR get_instance()
-    // Offset: 0x14230F8
+    // Offset: 0x1533F48
     static GlobalNamespace::SteamVR* get_instance();
     // static public System.Boolean get_usingNativeSupport()
-    // Offset: 0x1423438
+    // Offset: 0x1534288
     static bool get_usingNativeSupport();
     // public Valve.VR.CVRSystem get_hmd()
-    // Offset: 0x1423E08
+    // Offset: 0x1534C58
     Valve::VR::CVRSystem* get_hmd();
     // private System.Void set_hmd(Valve.VR.CVRSystem value)
-    // Offset: 0x1423E10
+    // Offset: 0x1534C60
     void set_hmd(Valve::VR::CVRSystem* value);
     // public Valve.VR.CVRCompositor get_compositor()
-    // Offset: 0x1423E18
+    // Offset: 0x1534C68
     Valve::VR::CVRCompositor* get_compositor();
     // private System.Void set_compositor(Valve.VR.CVRCompositor value)
-    // Offset: 0x1423E20
+    // Offset: 0x1534C70
     void set_compositor(Valve::VR::CVRCompositor* value);
     // public Valve.VR.CVROverlay get_overlay()
-    // Offset: 0x1423E28
+    // Offset: 0x1534C78
     Valve::VR::CVROverlay* get_overlay();
     // private System.Void set_overlay(Valve.VR.CVROverlay value)
-    // Offset: 0x1423E30
+    // Offset: 0x1534C80
     void set_overlay(Valve::VR::CVROverlay* value);
     // static public System.Boolean get_initializing()
-    // Offset: 0x1423E38
+    // Offset: 0x1534C88
     static bool get_initializing();
     // static private System.Void set_initializing(System.Boolean value)
-    // Offset: 0x1423EA0
+    // Offset: 0x1534CF0
     static void set_initializing(bool value);
     // static public System.Boolean get_calibrating()
-    // Offset: 0x1423F10
+    // Offset: 0x1534D60
     static bool get_calibrating();
     // static private System.Void set_calibrating(System.Boolean value)
-    // Offset: 0x1423F78
+    // Offset: 0x1534DC8
     static void set_calibrating(bool value);
     // static public System.Boolean get_outOfRange()
-    // Offset: 0x1423FE8
+    // Offset: 0x1534E38
     static bool get_outOfRange();
     // static private System.Void set_outOfRange(System.Boolean value)
-    // Offset: 0x1424050
+    // Offset: 0x1534EA0
     static void set_outOfRange(bool value);
     // public System.Single get_sceneWidth()
-    // Offset: 0x14240C0
+    // Offset: 0x1534F10
     float get_sceneWidth();
     // private System.Void set_sceneWidth(System.Single value)
-    // Offset: 0x14240C8
+    // Offset: 0x1534F18
     void set_sceneWidth(float value);
     // public System.Single get_sceneHeight()
-    // Offset: 0x14240D0
+    // Offset: 0x1534F20
     float get_sceneHeight();
     // private System.Void set_sceneHeight(System.Single value)
-    // Offset: 0x14240D8
+    // Offset: 0x1534F28
     void set_sceneHeight(float value);
     // public System.Single get_aspect()
-    // Offset: 0x14240E0
+    // Offset: 0x1534F30
     float get_aspect();
     // private System.Void set_aspect(System.Single value)
-    // Offset: 0x14240E8
+    // Offset: 0x1534F38
     void set_aspect(float value);
     // public System.Single get_fieldOfView()
-    // Offset: 0x14240F0
+    // Offset: 0x1534F40
     float get_fieldOfView();
     // private System.Void set_fieldOfView(System.Single value)
-    // Offset: 0x14240F8
+    // Offset: 0x1534F48
     void set_fieldOfView(float value);
     // public UnityEngine.Vector2 get_tanHalfFov()
-    // Offset: 0x1424100
+    // Offset: 0x1534F50
     UnityEngine::Vector2 get_tanHalfFov();
     // private System.Void set_tanHalfFov(UnityEngine.Vector2 value)
-    // Offset: 0x1424108
+    // Offset: 0x1534F58
     void set_tanHalfFov(UnityEngine::Vector2 value);
     // public Valve.VR.VRTextureBounds_t[] get_textureBounds()
-    // Offset: 0x1424110
-    ::Array<Valve::VR::VRTextureBounds_t>* get_textureBounds();
+    // Offset: 0x1534F60
+    ::ArrayWrapper<Valve::VR::VRTextureBounds_t> get_textureBounds();
     // private System.Void set_textureBounds(Valve.VR.VRTextureBounds_t[] value)
-    // Offset: 0x1424118
-    void set_textureBounds(::Array<Valve::VR::VRTextureBounds_t>* value);
+    // Offset: 0x1534F68
+    void set_textureBounds(::ArrayWrapper<Valve::VR::VRTextureBounds_t> value);
     // public SteamVR_Utils/RigidTransform[] get_eyes()
-    // Offset: 0x1424120
-    ::Array<GlobalNamespace::SteamVR_Utils::RigidTransform>* get_eyes();
+    // Offset: 0x1534F70
+    ::ArrayWrapper<GlobalNamespace::SteamVR_Utils::RigidTransform> get_eyes();
     // private System.Void set_eyes(SteamVR_Utils/RigidTransform[] value)
-    // Offset: 0x1424128
-    void set_eyes(::Array<GlobalNamespace::SteamVR_Utils::RigidTransform>* value);
+    // Offset: 0x1534F78
+    void set_eyes(::ArrayWrapper<GlobalNamespace::SteamVR_Utils::RigidTransform> value);
     // public System.String get_hmd_TrackingSystemName()
-    // Offset: 0x1424130
+    // Offset: 0x1534F80
     ::Il2CppString* get_hmd_TrackingSystemName();
     // public System.String get_hmd_ModelNumber()
-    // Offset: 0x1424284
+    // Offset: 0x15350D4
     ::Il2CppString* get_hmd_ModelNumber();
     // public System.String get_hmd_SerialNumber()
-    // Offset: 0x1424290
+    // Offset: 0x15350E0
     ::Il2CppString* get_hmd_SerialNumber();
     // public System.Single get_hmd_SecondsFromVsyncToPhotons()
-    // Offset: 0x142429C
+    // Offset: 0x15350EC
     float get_hmd_SecondsFromVsyncToPhotons();
     // public System.Single get_hmd_DisplayFrequency()
-    // Offset: 0x14242E8
+    // Offset: 0x1535138
     float get_hmd_DisplayFrequency();
     // static private System.Void .cctor()
-    // Offset: 0x1424E6C
+    // Offset: 0x1535CBC
     static void _cctor();
     // static private SteamVR CreateInstance()
-    // Offset: 0x1423210
+    // Offset: 0x1534060
     static GlobalNamespace::SteamVR* CreateInstance();
     // static private System.Void ReportError(Valve.VR.EVRInitError error)
-    // Offset: 0x14234A4
+    // Offset: 0x15342F4
     static void ReportError(Valve::VR::EVRInitError error);
     // public System.String GetTrackedDeviceString(System.UInt32 deviceId)
-    // Offset: 0x14242F4
+    // Offset: 0x1535144
     ::Il2CppString* GetTrackedDeviceString(uint deviceId);
     // public System.String GetStringProperty(Valve.VR.ETrackedDeviceProperty prop, System.UInt32 deviceId)
-    // Offset: 0x142413C
+    // Offset: 0x1534F8C
     ::Il2CppString* GetStringProperty(Valve::VR::ETrackedDeviceProperty prop, uint deviceId);
     // public System.Single GetFloatProperty(Valve.VR.ETrackedDeviceProperty prop, System.UInt32 deviceId)
-    // Offset: 0x14242A8
+    // Offset: 0x15350F8
     float GetFloatProperty(Valve::VR::ETrackedDeviceProperty prop, uint deviceId);
     // private System.Void OnInitializing(System.Boolean initializing)
-    // Offset: 0x14243DC
+    // Offset: 0x153522C
     void OnInitializing(bool initializing);
     // private System.Void OnCalibrating(System.Boolean calibrating)
-    // Offset: 0x1424490
+    // Offset: 0x15352E0
     void OnCalibrating(bool calibrating);
     // private System.Void OnOutOfRange(System.Boolean outOfRange)
-    // Offset: 0x1424544
+    // Offset: 0x1535394
     void OnOutOfRange(bool outOfRange);
     // private System.Void OnDeviceConnected(System.Int32 i, System.Boolean connected)
-    // Offset: 0x14245F8
+    // Offset: 0x1535448
     void OnDeviceConnected(int i, bool connected);
     // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
-    // Offset: 0x142469C
-    void OnNewPoses(::Array<Valve::VR::TrackedDevicePose_t>* poses);
+    // Offset: 0x15354EC
+    void OnNewPoses(::ArrayWrapper<Valve::VR::TrackedDevicePose_t> poses);
     // public System.Void Dispose()
-    // Offset: 0x1424DF8
+    // Offset: 0x1535C48
     void Dispose();
     // private System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1424BB4
+    // Offset: 0x1535A04
     void Dispose(bool disposing);
     // static public System.Void SafeDispose()
-    // Offset: 0x1423054
+    // Offset: 0x1533EA4
     static void SafeDispose();
     // private System.Void .ctor()
-    // Offset: 0x14235F8
+    // Offset: 0x1534448
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -323,7 +323,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1424B48
+    // Offset: 0x1535998
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -565,7 +565,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR::get_textureBounds
 // Il2CppName: get_textureBounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Valve::VR::VRTextureBounds_t>* (GlobalNamespace::SteamVR::*)()>(&GlobalNamespace::SteamVR::get_textureBounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Valve::VR::VRTextureBounds_t> (GlobalNamespace::SteamVR::*)()>(&GlobalNamespace::SteamVR::get_textureBounds)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR*), "get_textureBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -573,16 +573,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Val
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR::set_textureBounds
 // Il2CppName: set_textureBounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR::*)(::Array<Valve::VR::VRTextureBounds_t>*)>(&GlobalNamespace::SteamVR::set_textureBounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR::*)(::ArrayWrapper<Valve::VR::VRTextureBounds_t>)>(&GlobalNamespace::SteamVR::set_textureBounds)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "VRTextureBounds_t"), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Valve.VR", "VRTextureBounds_t")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR*), "set_textureBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR::get_eyes
 // Il2CppName: get_eyes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::SteamVR_Utils::RigidTransform>* (GlobalNamespace::SteamVR::*)()>(&GlobalNamespace::SteamVR::get_eyes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::SteamVR_Utils::RigidTransform> (GlobalNamespace::SteamVR::*)()>(&GlobalNamespace::SteamVR::get_eyes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR*), "get_eyes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -590,9 +590,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR::set_eyes
 // Il2CppName: set_eyes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR::*)(::Array<GlobalNamespace::SteamVR_Utils::RigidTransform>*)>(&GlobalNamespace::SteamVR::set_eyes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR::*)(::ArrayWrapper<GlobalNamespace::SteamVR_Utils::RigidTransform>)>(&GlobalNamespace::SteamVR::set_eyes)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "SteamVR_Utils/RigidTransform"), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "SteamVR_Utils/RigidTransform")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR*), "set_eyes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
@@ -730,9 +730,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR::OnNewPoses
 // Il2CppName: OnNewPoses
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR::*)(::Array<Valve::VR::TrackedDevicePose_t>*)>(&GlobalNamespace::SteamVR::OnNewPoses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR::*)(::ArrayWrapper<Valve::VR::TrackedDevicePose_t>)>(&GlobalNamespace::SteamVR::OnNewPoses)> {
   static const MethodInfo* get() {
-    static auto* poses = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)->byval_arg;
+    static auto* poses = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR*), "OnNewPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{poses});
   }
 };

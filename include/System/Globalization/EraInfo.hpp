@@ -52,21 +52,21 @@ namespace System::Globalization {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: maxEraYear and: eraName
     char __padding4[0x4] = {};
-    // [OptionalFieldAttribute] Offset: 0xDA6B9C
+    // [OptionalFieldAttribute] Offset: 0xE633C0
     // System.String eraName
     // Size: 0x8
     // Offset: 0x30
     ::Il2CppString* eraName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0xDA6BD4
+    // [OptionalFieldAttribute] Offset: 0xE633F8
     // System.String abbrevEraName
     // Size: 0x8
     // Offset: 0x38
     ::Il2CppString* abbrevEraName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0xDA6C0C
+    // [OptionalFieldAttribute] Offset: 0xE63430
     // System.String englishEraName
     // Size: 0x8
     // Offset: 0x40
@@ -92,14 +92,14 @@ namespace System::Globalization {
     // Get instance field reference: System.String englishEraName
     ::Il2CppString*& dyn_englishEraName();
     // System.Void .ctor(System.Int32 era, System.Int32 startYear, System.Int32 startMonth, System.Int32 startDay, System.Int32 yearOffset, System.Int32 minEraYear, System.Int32 maxEraYear)
-    // Offset: 0x1A18530
+    // Offset: 0x1BD326C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EraInfo* New_ctor(int era, int startYear, int startMonth, int startDay, int yearOffset, int minEraYear, int maxEraYear) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::EraInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EraInfo*, creationType>(era, startYear, startMonth, startDay, yearOffset, minEraYear, maxEraYear)));
     }
     // System.Void .ctor(System.Int32 era, System.Int32 startYear, System.Int32 startMonth, System.Int32 startDay, System.Int32 yearOffset, System.Int32 minEraYear, System.Int32 maxEraYear, System.String eraName, System.String abbrevEraName, System.String englishEraName)
-    // Offset: 0x1A185D0
+    // Offset: 0x1BD330C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EraInfo* New_ctor(int era, int startYear, int startMonth, int startDay, int yearOffset, int minEraYear, int maxEraYear, ::Il2CppString* eraName, ::Il2CppString* abbrevEraName, ::Il2CppString* englishEraName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::EraInfo::.ctor");

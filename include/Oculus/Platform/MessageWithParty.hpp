@@ -29,10 +29,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithParty
     MessageWithParty() noexcept {}
     // protected Oculus.Platform.Models.Party GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x1532E04
+    // Offset: 0x16BBB4C
     Oculus::Platform::Models::Party* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1532D60
+    // Offset: 0x16BBAA8
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -42,7 +42,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithParty*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.Party GetParty()
-    // Offset: 0x1532DC0
+    // Offset: 0x16BBB08
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.Party Message::GetParty()
     Oculus::Platform::Models::Party* GetParty();

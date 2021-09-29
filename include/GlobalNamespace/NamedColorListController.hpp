@@ -43,9 +43,9 @@ namespace GlobalNamespace {
     // private NamedColorListController/ColorValuePair[] _textValuePairs
     // Size: 0x8
     // Offset: 0x28
-    ::Array<GlobalNamespace::NamedColorListController::ColorValuePair*>* textValuePairs;
+    ::ArrayWrapper<GlobalNamespace::NamedColorListController::ColorValuePair*> textValuePairs;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::NamedColorListController::ColorValuePair*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::NamedColorListController::ColorValuePair*>) == 0x8);
     // private System.Int32 _value
     // Size: 0x4
     // Offset: 0x30
@@ -61,31 +61,31 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Action_1<int>*) == 0x8);
     // Creating value type constructor for type: NamedColorListController
-    NamedColorListController(::Array<GlobalNamespace::NamedColorListController::ColorValuePair*>* textValuePairs_ = {}, int value_ = {}, System::Action_1<int>* valueChangedEvent_ = {}) noexcept : textValuePairs{textValuePairs_}, value{value_}, valueChangedEvent{valueChangedEvent_} {}
+    NamedColorListController(::ArrayWrapper<GlobalNamespace::NamedColorListController::ColorValuePair*> textValuePairs_ = {}, int value_ = {}, System::Action_1<int>* valueChangedEvent_ = {}) noexcept : textValuePairs{textValuePairs_}, value{value_}, valueChangedEvent{valueChangedEvent_} {}
     // Creating interface conversion operator: operator HMUI::IValueChanger_1<int>
     operator HMUI::IValueChanger_1<int>() noexcept {
       return *reinterpret_cast<HMUI::IValueChanger_1<int>*>(this);
     }
     // Get instance field reference: private NamedColorListController/ColorValuePair[] _textValuePairs
-    ::Array<GlobalNamespace::NamedColorListController::ColorValuePair*>*& dyn__textValuePairs();
+    ::ArrayWrapper<GlobalNamespace::NamedColorListController::ColorValuePair*>& dyn__textValuePairs();
     // Get instance field reference: private System.Int32 _value
     int& dyn__value();
     // Get instance field reference: private System.Action`1<System.Int32> valueChangedEvent
     System::Action_1<int>*& dyn_valueChangedEvent();
     // public System.Void add_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x1045808
+    // Offset: 0x11347A8
     void add_valueChangedEvent(System::Action_1<int>* value);
     // public System.Void remove_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x10458AC
+    // Offset: 0x113484C
     void remove_valueChangedEvent(System::Action_1<int>* value);
     // public System.Void Init(NamedColorListController/ColorValuePair[] values, System.Int32 value)
-    // Offset: 0x1045950
-    void Init(::Array<GlobalNamespace::NamedColorListController::ColorValuePair*>* values, int value);
+    // Offset: 0x11348F0
+    void Init(::ArrayWrapper<GlobalNamespace::NamedColorListController::ColorValuePair*> values, int value);
     // public System.Void SetValue(System.Int32 value)
-    // Offset: 0x1045964
+    // Offset: 0x1134904
     void SetValue(int value);
     // public System.Void .ctor()
-    // Offset: 0x1045AD0
+    // Offset: 0x1134A70
     // Implemented from: ListColorController
     // Base method: System.Void ListColorController::.ctor()
     // Base method: System.Void IncDecColorController::.ctor()
@@ -100,17 +100,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NamedColorListController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x1045974
+    // Offset: 0x1134914
     // Implemented from: ListColorController
     // Base method: System.Boolean ListColorController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x1045A10
+    // Offset: 0x11349B0
     // Implemented from: ListColorController
     // Base method: System.Void ListColorController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override UnityEngine.Color ColorForValue(System.Int32 idx)
-    // Offset: 0x1045A88
+    // Offset: 0x1134A28
     // Implemented from: ListColorController
     // Base method: UnityEngine.Color ListColorController::ColorForValue(System.Int32 idx)
     UnityEngine::Color ColorForValue(int idx);
@@ -142,9 +142,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::NamedColorListController::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NamedColorListController::*)(::Array<GlobalNamespace::NamedColorListController::ColorValuePair*>*, int)>(&GlobalNamespace::NamedColorListController::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NamedColorListController::*)(::ArrayWrapper<GlobalNamespace::NamedColorListController::ColorValuePair*>, int)>(&GlobalNamespace::NamedColorListController::Init)> {
   static const MethodInfo* get() {
-    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "NamedColorListController/ColorValuePair"), 1)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "NamedColorListController/ColorValuePair")), 1)->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NamedColorListController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{values, value});
   }

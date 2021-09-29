@@ -33,24 +33,24 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static private System.Byte m_EventSourceExceptionRecurenceCount
     static void _set_m_EventSourceExceptionRecurenceCount(uint8_t value);
     // Get static field: static private readonly System.Byte[] namespaceBytes
-    static ::Array<uint8_t>* _get_namespaceBytes();
+    static ::ArrayWrapper<uint8_t> _get_namespaceBytes();
     // Set static field: static private readonly System.Byte[] namespaceBytes
-    static void _set_namespaceBytes(::Array<uint8_t>* value);
+    static void _set_namespaceBytes(::ArrayWrapper<uint8_t> value);
     // Get static field: static private readonly System.Guid AspNetEventSourceGuid
     static System::Guid _get_AspNetEventSourceGuid();
     // Set static field: static private readonly System.Guid AspNetEventSourceGuid
     static void _set_AspNetEventSourceGuid(System::Guid value);
     // static private System.Void .cctor()
-    // Offset: 0x18017DC
+    // Offset: 0x199F13C
     static void _cctor();
     // public System.Boolean IsEnabled()
-    // Offset: 0x1801758
+    // Offset: 0x199F0B8
     bool IsEnabled();
     // public System.Void Dispose()
-    // Offset: 0x18017D4
+    // Offset: 0x199F134
     void Dispose();
     // protected System.Void .ctor()
-    // Offset: 0x18017CC
+    // Offset: 0x199F12C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -59,12 +59,12 @@ namespace System::Diagnostics::Tracing {
       return THROW_UNLESS((::il2cpp_utils::New<EventSource*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x1801760
+    // Offset: 0x199F0C0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // protected override System.Void Finalize()
-    // Offset: 0x18017D8
+    // Offset: 0x199F138
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

@@ -49,9 +49,9 @@ namespace GlobalNamespace {
     // private MissionHelpViewController/MissionHelpGameObjectPair[] _missionHelpGameObjectPairs
     // Size: 0x8
     // Offset: 0x78
-    ::Array<GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*>* missionHelpGameObjectPairs;
+    ::ArrayWrapper<GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*> missionHelpGameObjectPairs;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*>) == 0x8);
     // private System.Action`1<MissionHelpViewController> didFinishEvent
     // Size: 0x8
     // Offset: 0x80
@@ -65,32 +65,32 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionHelpSO*) == 0x8);
     // Creating value type constructor for type: MissionHelpViewController
-    MissionHelpViewController(UnityEngine::UI::Button* okButton_ = {}, ::Array<GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*>* missionHelpGameObjectPairs_ = {}, System::Action_1<GlobalNamespace::MissionHelpViewController*>* didFinishEvent_ = {}, GlobalNamespace::MissionHelpSO* missionHelp_ = {}) noexcept : okButton{okButton_}, missionHelpGameObjectPairs{missionHelpGameObjectPairs_}, didFinishEvent{didFinishEvent_}, missionHelp{missionHelp_} {}
+    MissionHelpViewController(UnityEngine::UI::Button* okButton_ = {}, ::ArrayWrapper<GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*> missionHelpGameObjectPairs_ = {}, System::Action_1<GlobalNamespace::MissionHelpViewController*>* didFinishEvent_ = {}, GlobalNamespace::MissionHelpSO* missionHelp_ = {}) noexcept : okButton{okButton_}, missionHelpGameObjectPairs{missionHelpGameObjectPairs_}, didFinishEvent{didFinishEvent_}, missionHelp{missionHelp_} {}
     // Get instance field reference: private UnityEngine.UI.Button _okButton
     UnityEngine::UI::Button*& dyn__okButton();
     // Get instance field reference: private MissionHelpViewController/MissionHelpGameObjectPair[] _missionHelpGameObjectPairs
-    ::Array<GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*>*& dyn__missionHelpGameObjectPairs();
+    ::ArrayWrapper<GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*>& dyn__missionHelpGameObjectPairs();
     // Get instance field reference: private System.Action`1<MissionHelpViewController> didFinishEvent
     System::Action_1<GlobalNamespace::MissionHelpViewController*>*& dyn_didFinishEvent();
     // Get instance field reference: private MissionHelpSO _missionHelp
     GlobalNamespace::MissionHelpSO*& dyn__missionHelp();
     // public System.Void add_didFinishEvent(System.Action`1<MissionHelpViewController> value)
-    // Offset: 0x113E2F8
+    // Offset: 0x1185488
     void add_didFinishEvent(System::Action_1<GlobalNamespace::MissionHelpViewController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<MissionHelpViewController> value)
-    // Offset: 0x113E39C
+    // Offset: 0x118552C
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::MissionHelpViewController*>* value);
     // public System.Void Setup(MissionHelpSO missionHelp)
-    // Offset: 0x113E440
+    // Offset: 0x11855D0
     void Setup(GlobalNamespace::MissionHelpSO* missionHelp);
     // public System.Void RefreshContent()
-    // Offset: 0x113E47C
+    // Offset: 0x118560C
     void RefreshContent();
     // private System.Void OkButtonPressed()
-    // Offset: 0x113E610
+    // Offset: 0x11857A0
     void OkButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x113E674
+    // Offset: 0x1185804
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -104,7 +104,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionHelpViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x113E56C
+    // Offset: 0x11856FC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

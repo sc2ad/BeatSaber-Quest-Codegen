@@ -27,13 +27,13 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IInvitePlatformHandler*>(this);
     }
     // public System.Boolean get_isSupported()
-    // Offset: 0x106F228
+    // Offset: 0x115DBB0
     bool get_isSupported();
     // public System.Void OpenInvitePanel()
-    // Offset: 0x106F230
+    // Offset: 0x115DBB8
     void OpenInvitePanel();
     // public System.Void .ctor()
-    // Offset: 0x106F29C
+    // Offset: 0x115DC24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -65,25 +65,25 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Face> <>9__147_0
     static void _set_$$9__147_0(System::Func_2<UnityEngine::ProBuilder::Face*, UnityEngine::ProBuilder::Face*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1508390
+    // Offset: 0x16910D8
     static void _cctor();
     // UnityEngine.Vector2 <SetUVs>b__102_0(UnityEngine.Vector4 x)
-    // Offset: 0x15083FC
+    // Offset: 0x1691144
     UnityEngine::Vector2 $SetUVs$b__102_0(UnityEngine::Vector4 x);
     // UnityEngine.Vector2 <SetUVs>b__102_1(UnityEngine.Vector4 x)
-    // Offset: 0x150848C
+    // Offset: 0x16911D4
     UnityEngine::Vector2 $SetUVs$b__102_1(UnityEngine::Vector4 x);
     // System.Int32 <get_indexCount>b__110_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x150851C
+    // Offset: 0x1691264
     int $get_indexCount$b__110_0(UnityEngine::ProBuilder::Face* x);
     // System.Int32 <get_triangleCount>b__112_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1508540
+    // Offset: 0x1691288
     int $get_triangleCount$b__112_0(UnityEngine::ProBuilder::Face* x);
     // UnityEngine.ProBuilder.Face <CopyFrom>b__147_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1508564
+    // Offset: 0x16912AC
     UnityEngine::ProBuilder::Face* $CopyFrom$b__147_0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x15083F4
+    // Offset: 0x169113C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

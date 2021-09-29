@@ -52,9 +52,9 @@ namespace GlobalNamespace {
     // private UnityEngine.UI.Image[] _progressImages
     // Size: 0x8
     // Offset: 0x18
-    ::Array<UnityEngine::UI::Image*>* progressImages;
+    ::ArrayWrapper<UnityEngine::UI::Image*> progressImages;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::UI::Image*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::UI::Image*>) == 0x8);
     // private SaberType _saberType
     // Size: 0x4
     // Offset: 0x20
@@ -86,10 +86,10 @@ namespace GlobalNamespace {
     // private UnityEngine.UI.Image[] _ringGLowImages
     // Size: 0x8
     // Offset: 0x40
-    ::Array<UnityEngine::UI::Image*>* ringGLowImages;
+    ::ArrayWrapper<UnityEngine::UI::Image*> ringGLowImages;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::UI::Image*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE42800
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::UI::Image*>) == 0x8);
+    // [InjectAttribute] Offset: 0xF0B194
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x48
@@ -131,11 +131,11 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: IntroTutorialRing
-    IntroTutorialRing(::Array<UnityEngine::UI::Image*>* progressImages_ = {}, GlobalNamespace::SaberType saberType_ = {}, UnityEngine::ParticleSystem* particleSystem_ = {}, UnityEngine::CanvasGroup* canvasGroup_ = {}, float activationDuration_ = {}, ::Array<UnityEngine::UI::Image*>* ringGLowImages_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, bool highlighted_ = {}, float emitNextParticleTimer_ = {}, float activationProgress_ = {}, System::Collections::Generic::HashSet_1<GlobalNamespace::SaberType>* sabersInside_ = {}, bool sabersInsideAfterOnEnable_ = {}) noexcept : progressImages{progressImages_}, saberType{saberType_}, particleSystem{particleSystem_}, canvasGroup{canvasGroup_}, activationDuration{activationDuration_}, ringGLowImages{ringGLowImages_}, colorManager{colorManager_}, highlighted{highlighted_}, emitNextParticleTimer{emitNextParticleTimer_}, activationProgress{activationProgress_}, sabersInside{sabersInside_}, sabersInsideAfterOnEnable{sabersInsideAfterOnEnable_} {}
+    IntroTutorialRing(::ArrayWrapper<UnityEngine::UI::Image*> progressImages_ = {}, GlobalNamespace::SaberType saberType_ = {}, UnityEngine::ParticleSystem* particleSystem_ = {}, UnityEngine::CanvasGroup* canvasGroup_ = {}, float activationDuration_ = {}, ::ArrayWrapper<UnityEngine::UI::Image*> ringGLowImages_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, bool highlighted_ = {}, float emitNextParticleTimer_ = {}, float activationProgress_ = {}, System::Collections::Generic::HashSet_1<GlobalNamespace::SaberType>* sabersInside_ = {}, bool sabersInsideAfterOnEnable_ = {}) noexcept : progressImages{progressImages_}, saberType{saberType_}, particleSystem{particleSystem_}, canvasGroup{canvasGroup_}, activationDuration{activationDuration_}, ringGLowImages{ringGLowImages_}, colorManager{colorManager_}, highlighted{highlighted_}, emitNextParticleTimer{emitNextParticleTimer_}, activationProgress{activationProgress_}, sabersInside{sabersInside_}, sabersInsideAfterOnEnable{sabersInsideAfterOnEnable_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Image[] _progressImages
-    ::Array<UnityEngine::UI::Image*>*& dyn__progressImages();
+    ::ArrayWrapper<UnityEngine::UI::Image*>& dyn__progressImages();
     // Get instance field reference: private SaberType _saberType
     GlobalNamespace::SaberType& dyn__saberType();
     // Get instance field reference: private UnityEngine.ParticleSystem _particleSystem
@@ -145,7 +145,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _activationDuration
     float& dyn__activationDuration();
     // Get instance field reference: private UnityEngine.UI.Image[] _ringGLowImages
-    ::Array<UnityEngine::UI::Image*>*& dyn__ringGLowImages();
+    ::ArrayWrapper<UnityEngine::UI::Image*>& dyn__ringGLowImages();
     // Get instance field reference: private readonly ColorManager _colorManager
     GlobalNamespace::ColorManager*& dyn__colorManager();
     // Get instance field reference: private System.Boolean _highlighted
@@ -159,40 +159,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _sabersInsideAfterOnEnable
     bool& dyn__sabersInsideAfterOnEnable();
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0x1189DA0
+    // Offset: 0x114847C
     void set_alpha(float value);
     // public System.Boolean get_fullyActivated()
-    // Offset: 0x1189B1C
+    // Offset: 0x11481F8
     bool get_fullyActivated();
     // public SaberType get_saberType()
-    // Offset: 0x1189F68
+    // Offset: 0x1148644
     GlobalNamespace::SaberType get_saberType();
     // public System.Void set_saberType(SaberType value)
-    // Offset: 0x1189F70
+    // Offset: 0x114864C
     void set_saberType(GlobalNamespace::SaberType value);
     // protected System.Void Start()
-    // Offset: 0x1189F78
+    // Offset: 0x1148654
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x118A010
+    // Offset: 0x11486EC
     void OnEnable();
     // protected System.Void Update()
-    // Offset: 0x118A068
+    // Offset: 0x1148744
     void Update();
     // private System.Void SetProgressImagesfillAmount(System.Single fillAmount)
-    // Offset: 0x118A1D8
+    // Offset: 0x11488B4
     void SetProgressImagesfillAmount(float fillAmount);
     // private System.Void OnTriggerEnter(UnityEngine.Collider other)
-    // Offset: 0x118A254
+    // Offset: 0x1148930
     void OnTriggerEnter(UnityEngine::Collider* other);
     // private System.Void OnTriggerExit(UnityEngine.Collider other)
-    // Offset: 0x118A358
+    // Offset: 0x1148A34
     void OnTriggerExit(UnityEngine::Collider* other);
     // private System.Void OnTriggerStay(UnityEngine.Collider other)
-    // Offset: 0x118A45C
+    // Offset: 0x1148B38
     void OnTriggerStay(UnityEngine::Collider* other);
     // public System.Void .ctor()
-    // Offset: 0x118A56C
+    // Offset: 0x1148C48
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

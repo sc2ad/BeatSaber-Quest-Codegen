@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Factory
     class Factory;
-    // [HeaderAttribute] Offset: 0xE414E0
+    // [HeaderAttribute] Offset: 0xF09E74
     // private UnityEngine.Playables.PlayableDirector _badgeDirector
     // Size: 0x8
     // Offset: 0x18
@@ -94,7 +94,7 @@ namespace GlobalNamespace {
     ::Il2CppString* ghostSecondTrackName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE4154C
+    // [HeaderAttribute] Offset: 0xF09EE0
     // private UnityEngine.Transform _standWithAvatarTransform
     // Size: 0x8
     // Offset: 0x30
@@ -115,7 +115,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Padding between fields: localPlayerColor and: positionText
     char __padding5[0x4] = {};
-    // [HeaderAttribute] Offset: 0xE415B8
+    // [HeaderAttribute] Offset: 0xF09F4C
     // private TMPro.TextMeshProUGUI _positionText
     // Size: 0x8
     // Offset: 0x50
@@ -134,7 +134,7 @@ namespace GlobalNamespace {
     HMUI::ImageView* nameBackground;
     // Field size check
     static_assert(sizeof(HMUI::ImageView*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE41624
+    // [HeaderAttribute] Offset: 0xF09FB8
     // private UnityEngine.CanvasGroup _badgeCanvas
     // Size: 0x8
     // Offset: 0x68
@@ -144,16 +144,16 @@ namespace GlobalNamespace {
     // private TMPro.TextMeshProUGUI[] _badgeTitles
     // Size: 0x8
     // Offset: 0x70
-    ::Array<TMPro::TextMeshProUGUI*>* badgeTitles;
+    ::ArrayWrapper<TMPro::TextMeshProUGUI*> badgeTitles;
     // Field size check
-    static_assert(sizeof(::Array<TMPro::TextMeshProUGUI*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<TMPro::TextMeshProUGUI*>) == 0x8);
     // private HMUI.ImageView[] _badgeImages
     // Size: 0x8
     // Offset: 0x78
-    ::Array<HMUI::ImageView*>* badgeImages;
+    ::ArrayWrapper<HMUI::ImageView*> badgeImages;
     // Field size check
-    static_assert(sizeof(::Array<HMUI::ImageView*>*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE41690
+    static_assert(sizeof(::ArrayWrapper<HMUI::ImageView*>) == 0x8);
+    // [HeaderAttribute] Offset: 0xF0A024
     // private TMPro.TextMeshProUGUI _badgeSubtitleText
     // Size: 0x8
     // Offset: 0x80
@@ -166,7 +166,7 @@ namespace GlobalNamespace {
     UnityEngine::CanvasGroup* badgeSubtitleCanvas;
     // Field size check
     static_assert(sizeof(UnityEngine::CanvasGroup*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE416EC
+    // [HeaderAttribute] Offset: 0xF0A080
     // private GhostDuplicationEffect _ghostDuplicationEffect
     // Size: 0x8
     // Offset: 0x90
@@ -189,7 +189,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GhostDuplicationEffect::GhostEffectParams) == 0x45);
     // Padding between fields: ghostReceive and: trophyImage
     char __padding16[0x3] = {};
-    // [HeaderAttribute] Offset: 0xE41758
+    // [HeaderAttribute] Offset: 0xF0A0EC
     // private HMUI.ImageView _trophyImage
     // Size: 0x8
     // Offset: 0x128
@@ -226,14 +226,14 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* personalBestVisual;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xE417F4
+    // [InjectAttribute] Offset: 0xF0A188
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x160
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE41804
+    // [InjectAttribute] Offset: 0xF0A198
     // private readonly IDifficultyBeatmap _difficultyBeatmap
     // Size: 0x8
     // Offset: 0x168
@@ -296,7 +296,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: originalBadgeLocalPos and: connectedPlayer
     char __padding33[0x4] = {};
-    // [InjectAttribute] Offset: 0xE41814
+    // [InjectAttribute] Offset: 0xF0A1A8
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x1C0
@@ -304,7 +304,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
     // Creating value type constructor for type: MultiplayerResultsPyramidViewAvatar
-    MultiplayerResultsPyramidViewAvatar(UnityEngine::Playables::PlayableDirector* badgeDirector_ = {}, ::Il2CppString* ghostFirstTrackName_ = {}, ::Il2CppString* ghostSecondTrackName_ = {}, UnityEngine::Transform* standWithAvatarTransform_ = {}, float perPositionRotation_ = {}, UnityEngine::Color localPlayerColor_ = {}, TMPro::TextMeshProUGUI* positionText_ = {}, TMPro::TextMeshProUGUI* nameText_ = {}, HMUI::ImageView* nameBackground_ = {}, UnityEngine::CanvasGroup* badgeCanvas_ = {}, ::Array<TMPro::TextMeshProUGUI*>* badgeTitles_ = {}, ::Array<HMUI::ImageView*>* badgeImages_ = {}, TMPro::TextMeshProUGUI* badgeSubtitleText_ = {}, UnityEngine::CanvasGroup* badgeSubtitleCanvas_ = {}, GlobalNamespace::GhostDuplicationEffect* ghostDuplicationEffect_ = {}, GlobalNamespace::GhostDuplicationEffect::GhostEffectParams ghostAppear_ = {}, GlobalNamespace::GhostDuplicationEffect::GhostEffectParams ghostReceive_ = {}, HMUI::ImageView* trophyImage_ = {}, UnityEngine::Sprite* firstPlaceTrophy_ = {}, UnityEngine::Sprite* secondPlaceTrophy_ = {}, UnityEngine::Sprite* thirdPlaceTrophy_ = {}, UnityEngine::Color firstPlaceColor_ = {}, UnityEngine::GameObject* personalBestVisual_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, Tweening::Vector3Tween* riseTween_ = {}, Tweening::Vector3Tween* avatarRiseTween_ = {}, Tweening::Vector3Tween* badgePositionTween_ = {}, Tweening::FloatTween* badgeOpacityTween_ = {}, Tweening::FloatTween* nameOpacityTween_ = {}, Tweening::Vector3Tween* namePositionTween_ = {}, Tweening::ColorTween* localGlowTween_ = {}, Tweening::Vector3Tween* titleMakingSpaceForBadgeTween_ = {}, UnityEngine::Vector3 originalBadgeLocalPos_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}) noexcept : badgeDirector{badgeDirector_}, ghostFirstTrackName{ghostFirstTrackName_}, ghostSecondTrackName{ghostSecondTrackName_}, standWithAvatarTransform{standWithAvatarTransform_}, perPositionRotation{perPositionRotation_}, localPlayerColor{localPlayerColor_}, positionText{positionText_}, nameText{nameText_}, nameBackground{nameBackground_}, badgeCanvas{badgeCanvas_}, badgeTitles{badgeTitles_}, badgeImages{badgeImages_}, badgeSubtitleText{badgeSubtitleText_}, badgeSubtitleCanvas{badgeSubtitleCanvas_}, ghostDuplicationEffect{ghostDuplicationEffect_}, ghostAppear{ghostAppear_}, ghostReceive{ghostReceive_}, trophyImage{trophyImage_}, firstPlaceTrophy{firstPlaceTrophy_}, secondPlaceTrophy{secondPlaceTrophy_}, thirdPlaceTrophy{thirdPlaceTrophy_}, firstPlaceColor{firstPlaceColor_}, personalBestVisual{personalBestVisual_}, playerDataModel{playerDataModel_}, difficultyBeatmap{difficultyBeatmap_}, riseTween{riseTween_}, avatarRiseTween{avatarRiseTween_}, badgePositionTween{badgePositionTween_}, badgeOpacityTween{badgeOpacityTween_}, nameOpacityTween{nameOpacityTween_}, namePositionTween{namePositionTween_}, localGlowTween{localGlowTween_}, titleMakingSpaceForBadgeTween{titleMakingSpaceForBadgeTween_}, originalBadgeLocalPos{originalBadgeLocalPos_}, connectedPlayer{connectedPlayer_} {}
+    MultiplayerResultsPyramidViewAvatar(UnityEngine::Playables::PlayableDirector* badgeDirector_ = {}, ::Il2CppString* ghostFirstTrackName_ = {}, ::Il2CppString* ghostSecondTrackName_ = {}, UnityEngine::Transform* standWithAvatarTransform_ = {}, float perPositionRotation_ = {}, UnityEngine::Color localPlayerColor_ = {}, TMPro::TextMeshProUGUI* positionText_ = {}, TMPro::TextMeshProUGUI* nameText_ = {}, HMUI::ImageView* nameBackground_ = {}, UnityEngine::CanvasGroup* badgeCanvas_ = {}, ::ArrayWrapper<TMPro::TextMeshProUGUI*> badgeTitles_ = {}, ::ArrayWrapper<HMUI::ImageView*> badgeImages_ = {}, TMPro::TextMeshProUGUI* badgeSubtitleText_ = {}, UnityEngine::CanvasGroup* badgeSubtitleCanvas_ = {}, GlobalNamespace::GhostDuplicationEffect* ghostDuplicationEffect_ = {}, GlobalNamespace::GhostDuplicationEffect::GhostEffectParams ghostAppear_ = {}, GlobalNamespace::GhostDuplicationEffect::GhostEffectParams ghostReceive_ = {}, HMUI::ImageView* trophyImage_ = {}, UnityEngine::Sprite* firstPlaceTrophy_ = {}, UnityEngine::Sprite* secondPlaceTrophy_ = {}, UnityEngine::Sprite* thirdPlaceTrophy_ = {}, UnityEngine::Color firstPlaceColor_ = {}, UnityEngine::GameObject* personalBestVisual_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, Tweening::Vector3Tween* riseTween_ = {}, Tweening::Vector3Tween* avatarRiseTween_ = {}, Tweening::Vector3Tween* badgePositionTween_ = {}, Tweening::FloatTween* badgeOpacityTween_ = {}, Tweening::FloatTween* nameOpacityTween_ = {}, Tweening::Vector3Tween* namePositionTween_ = {}, Tweening::ColorTween* localGlowTween_ = {}, Tweening::Vector3Tween* titleMakingSpaceForBadgeTween_ = {}, UnityEngine::Vector3 originalBadgeLocalPos_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}) noexcept : badgeDirector{badgeDirector_}, ghostFirstTrackName{ghostFirstTrackName_}, ghostSecondTrackName{ghostSecondTrackName_}, standWithAvatarTransform{standWithAvatarTransform_}, perPositionRotation{perPositionRotation_}, localPlayerColor{localPlayerColor_}, positionText{positionText_}, nameText{nameText_}, nameBackground{nameBackground_}, badgeCanvas{badgeCanvas_}, badgeTitles{badgeTitles_}, badgeImages{badgeImages_}, badgeSubtitleText{badgeSubtitleText_}, badgeSubtitleCanvas{badgeSubtitleCanvas_}, ghostDuplicationEffect{ghostDuplicationEffect_}, ghostAppear{ghostAppear_}, ghostReceive{ghostReceive_}, trophyImage{trophyImage_}, firstPlaceTrophy{firstPlaceTrophy_}, secondPlaceTrophy{secondPlaceTrophy_}, thirdPlaceTrophy{thirdPlaceTrophy_}, firstPlaceColor{firstPlaceColor_}, personalBestVisual{personalBestVisual_}, playerDataModel{playerDataModel_}, difficultyBeatmap{difficultyBeatmap_}, riseTween{riseTween_}, avatarRiseTween{avatarRiseTween_}, badgePositionTween{badgePositionTween_}, badgeOpacityTween{badgeOpacityTween_}, nameOpacityTween{nameOpacityTween_}, namePositionTween{namePositionTween_}, localGlowTween{localGlowTween_}, titleMakingSpaceForBadgeTween{titleMakingSpaceForBadgeTween_}, originalBadgeLocalPos{originalBadgeLocalPos_}, connectedPlayer{connectedPlayer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _badgeDirector
@@ -328,9 +328,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.CanvasGroup _badgeCanvas
     UnityEngine::CanvasGroup*& dyn__badgeCanvas();
     // Get instance field reference: private TMPro.TextMeshProUGUI[] _badgeTitles
-    ::Array<TMPro::TextMeshProUGUI*>*& dyn__badgeTitles();
+    ::ArrayWrapper<TMPro::TextMeshProUGUI*>& dyn__badgeTitles();
     // Get instance field reference: private HMUI.ImageView[] _badgeImages
-    ::Array<HMUI::ImageView*>*& dyn__badgeImages();
+    ::ArrayWrapper<HMUI::ImageView*>& dyn__badgeImages();
     // Get instance field reference: private TMPro.TextMeshProUGUI _badgeSubtitleText
     TMPro::TextMeshProUGUI*& dyn__badgeSubtitleText();
     // Get instance field reference: private UnityEngine.CanvasGroup _badgeSubtitleCanvas
@@ -378,19 +378,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
     GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // public UnityEngine.Playables.PlayableDirector get_badgeDirector()
-    // Offset: 0x103DA50
+    // Offset: 0x112CA00
     UnityEngine::Playables::PlayableDirector* get_badgeDirector();
     // protected System.Void Awake()
-    // Offset: 0x103DA58
+    // Offset: 0x112CA08
     void Awake();
     // public System.Void Setup(MultiplayerPlayerResultsData resultData, System.Int32 position, System.Int32 playerCount)
-    // Offset: 0x103D4FC
+    // Offset: 0x112C4AC
     void Setup(GlobalNamespace::MultiplayerPlayerResultsData* resultData, int position, int playerCount);
     // public System.Void SetupBadgeTimeline(UnityEngine.Transform startTransform, UnityEngine.Transform midTransform)
-    // Offset: 0x103D00C
+    // Offset: 0x112BFBC
     void SetupBadgeTimeline(UnityEngine::Transform* startTransform, UnityEngine::Transform* midTransform);
     // public System.Void .ctor()
-    // Offset: 0x103DA78
+    // Offset: 0x112CA28
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

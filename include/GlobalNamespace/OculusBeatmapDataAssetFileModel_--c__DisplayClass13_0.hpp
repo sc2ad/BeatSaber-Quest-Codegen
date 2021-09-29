@@ -77,10 +77,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> taskSource
     System::Threading::Tasks::TaskCompletionSource_1<bool>*& dyn_taskSource();
     // System.Void <TryDeleteAssetBundleFileForPreviewLevelAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetFileDeleteResult> msg)
-    // Offset: 0x1252E24
+    // Offset: 0x135EEA0
     void $TryDeleteAssetBundleFileForPreviewLevelAsync$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDeleteResult*>* msg);
     // public System.Void .ctor()
-    // Offset: 0x1252E1C
+    // Offset: 0x135EE98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

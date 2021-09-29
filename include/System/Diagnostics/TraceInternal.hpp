@@ -52,31 +52,31 @@ namespace System::Diagnostics {
     // Set static field: static readonly System.Object critSec
     static void _set_critSec(::Il2CppObject* value);
     // static public System.Diagnostics.TraceListenerCollection get_Listeners()
-    // Offset: 0x18BB2FC
+    // Offset: 0x1A29F90
     static System::Diagnostics::TraceListenerCollection* get_Listeners();
     // static public System.Boolean get_AutoFlush()
-    // Offset: 0x18BB788
+    // Offset: 0x1A2A41C
     static bool get_AutoFlush();
     // static public System.Boolean get_UseGlobalLock()
-    // Offset: 0x18BB7F8
+    // Offset: 0x1A2A48C
     static bool get_UseGlobalLock();
     // static public System.Int32 get_IndentLevel()
-    // Offset: 0x18BB868
+    // Offset: 0x1A2A4FC
     static int get_IndentLevel();
     // static public System.Int32 get_IndentSize()
-    // Offset: 0x18BB8D0
+    // Offset: 0x1A2A564
     static int get_IndentSize();
     // static private System.Void .cctor()
-    // Offset: 0x18BC0D8
+    // Offset: 0x1A2AD6C
     static void _cctor();
     // static public System.Void Assert(System.Boolean condition)
-    // Offset: 0x18B8878
+    // Offset: 0x1A24DEC
     static void Assert_(bool condition);
     // static public System.Void Fail(System.String message)
-    // Offset: 0x18BB940
+    // Offset: 0x1A2A5D4
     static void Fail(::Il2CppString* message);
     // static private System.Void InitializeSettings()
-    // Offset: 0x18BB524
+    // Offset: 0x1A2A1B8
     static void InitializeSettings();
   }; // System.Diagnostics.TraceInternal
   #pragma pack(pop)

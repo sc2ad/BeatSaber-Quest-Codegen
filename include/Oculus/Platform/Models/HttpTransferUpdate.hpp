@@ -29,9 +29,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.Byte[] Payload
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* Payload;
+    ::ArrayWrapper<uint8_t> Payload;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // public readonly System.Boolean IsCompleted
     // Size: 0x1
     // Offset: 0x20
@@ -39,15 +39,15 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: HttpTransferUpdate
-    HttpTransferUpdate(uint64_t _ID_ = {}, ::Array<uint8_t>* Payload_ = {}, bool IsCompleted_ = {}) noexcept : _ID{_ID_}, Payload{Payload_}, IsCompleted{IsCompleted_} {}
+    HttpTransferUpdate(uint64_t _ID_ = {}, ::ArrayWrapper<uint8_t> Payload_ = {}, bool IsCompleted_ = {}) noexcept : _ID{_ID_}, Payload{Payload_}, IsCompleted{IsCompleted_} {}
     // Get instance field reference: public readonly System.UInt64 ID
     uint64_t& dyn_ID();
     // Get instance field reference: public readonly System.Byte[] Payload
-    ::Array<uint8_t>*& dyn_Payload();
+    ::ArrayWrapper<uint8_t>& dyn_Payload();
     // Get instance field reference: public readonly System.Boolean IsCompleted
     bool& dyn_IsCompleted();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x152F100
+    // Offset: 0x16B7E48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpTransferUpdate* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::HttpTransferUpdate::.ctor");

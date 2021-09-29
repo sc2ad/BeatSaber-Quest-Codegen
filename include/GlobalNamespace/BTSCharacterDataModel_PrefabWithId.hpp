@@ -48,13 +48,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.AddressableAssets.AssetReference _prefabAssetReference
     UnityEngine::AddressableAssets::AssetReference*& dyn__prefabAssetReference();
     // public System.Int32 get_id()
-    // Offset: 0x1180330
+    // Offset: 0x12506B8
     int get_id();
     // public UnityEngine.AddressableAssets.AssetReference get_prefabAssetReference()
-    // Offset: 0x1180338
+    // Offset: 0x12506C0
     UnityEngine::AddressableAssets::AssetReference* get_prefabAssetReference();
     // public System.Void .ctor()
-    // Offset: 0x1180340
+    // Offset: 0x12506C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

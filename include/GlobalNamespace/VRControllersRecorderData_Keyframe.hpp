@@ -23,9 +23,9 @@ namespace GlobalNamespace {
     // public readonly VRControllersRecorderData/PositionAndRotation[] positionsAndRotations
     // Size: 0x8
     // Offset: 0x10
-    ::Array<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>* positionsAndRotations;
+    ::ArrayWrapper<GlobalNamespace::VRControllersRecorderData::PositionAndRotation> positionsAndRotations;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>) == 0x8);
     // public readonly System.Single time
     // Size: 0x4
     // Offset: 0x18
@@ -33,15 +33,15 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: Keyframe
-    Keyframe(::Array<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>* positionsAndRotations_ = {}, float time_ = {}) noexcept : positionsAndRotations{positionsAndRotations_}, time{time_} {}
+    Keyframe(::ArrayWrapper<GlobalNamespace::VRControllersRecorderData::PositionAndRotation> positionsAndRotations_ = {}, float time_ = {}) noexcept : positionsAndRotations{positionsAndRotations_}, time{time_} {}
     // Get instance field reference: public readonly VRControllersRecorderData/PositionAndRotation[] positionsAndRotations
-    ::Array<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>*& dyn_positionsAndRotations();
+    ::ArrayWrapper<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>& dyn_positionsAndRotations();
     // Get instance field reference: public readonly System.Single time
     float& dyn_time();
     // public System.Void .ctor(VRControllersRecorderData/PositionAndRotation[] positionAndRotations, System.Single time)
-    // Offset: 0x129F79C
+    // Offset: 0x1349F54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static VRControllersRecorderData::Keyframe* New_ctor(::Array<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>* positionAndRotations, float time) {
+    static VRControllersRecorderData::Keyframe* New_ctor(::ArrayWrapper<GlobalNamespace::VRControllersRecorderData::PositionAndRotation> positionAndRotations, float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRControllersRecorderData::Keyframe::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersRecorderData::Keyframe*, creationType>(positionAndRotations, time)));
     }

@@ -90,31 +90,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private IDifficultyBeatmap <difficultyBeatmap>k__BackingField
     GlobalNamespace::IDifficultyBeatmap*& dyn_$difficultyBeatmap$k__BackingField();
     // public System.String get_missionId()
-    // Offset: 0x1140FC8
+    // Offset: 0x1187B1C
     ::Il2CppString* get_missionId();
     // private System.Void set_missionId(System.String value)
-    // Offset: 0x1140FD0
+    // Offset: 0x1187B24
     void set_missionId(::Il2CppString* value);
     // public IDifficultyBeatmap get_difficultyBeatmap()
-    // Offset: 0x1140FD8
+    // Offset: 0x1187B2C
     GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
     // private System.Void set_difficultyBeatmap(IDifficultyBeatmap value)
-    // Offset: 0x1140FE0
+    // Offset: 0x1187B34
     void set_difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
     // public System.Void add_didFinishEvent(System.Action`2<MissionLevelScenesTransitionSetupDataSO,MissionCompletionResults> value)
-    // Offset: 0x113E714
+    // Offset: 0x1180DD0
     void add_didFinishEvent(System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<MissionLevelScenesTransitionSetupDataSO,MissionCompletionResults> value)
-    // Offset: 0x113E848
+    // Offset: 0x1180D2C
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* value);
     // public System.Void Init(System.String missionId, IDifficultyBeatmap difficultyBeatmap, IPreviewBeatmapLevel previewBeatmapLevel, MissionObjective[] missionObjectives, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, System.String backButtonText)
-    // Offset: 0x1140964
-    void Init(::Il2CppString* missionId, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::Array<GlobalNamespace::MissionObjective*>* missionObjectives, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::Il2CppString* backButtonText);
+    // Offset: 0x1180E74
+    void Init(::Il2CppString* missionId, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::Il2CppString* backButtonText);
     // public System.Void Finish(MissionCompletionResults levelCompletionResults)
-    // Offset: 0x113F748
+    // Offset: 0x1186790
     void Finish(GlobalNamespace::MissionCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0x1140FE8
+    // Offset: 0x1187B3C
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -188,12 +188,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::*)(::Il2CppString*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::IPreviewBeatmapLevel*, ::Array<GlobalNamespace::MissionObjective*>*, GlobalNamespace::ColorScheme*, GlobalNamespace::GameplayModifiers*, GlobalNamespace::PlayerSpecificSettings*, ::Il2CppString*)>(&GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::*)(::Il2CppString*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::IPreviewBeatmapLevel*, ::ArrayWrapper<GlobalNamespace::MissionObjective*>, GlobalNamespace::ColorScheme*, GlobalNamespace::GameplayModifiers*, GlobalNamespace::PlayerSpecificSettings*, ::Il2CppString*)>(&GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::Init)> {
   static const MethodInfo* get() {
     static auto* missionId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     static auto* previewBeatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
-    static auto* missionObjectives = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "MissionObjective"), 1)->byval_arg;
+    static auto* missionObjectives = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "MissionObjective")), 1)->byval_arg;
     static auto* overrideColorScheme = &::il2cpp_utils::GetClassFromName("", "ColorScheme")->byval_arg;
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     static auto* playerSpecificSettings = &::il2cpp_utils::GetClassFromName("", "PlayerSpecificSettings")->byval_arg;

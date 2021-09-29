@@ -30,31 +30,31 @@ namespace Mono::Security::Cryptography {
     // Creating value type constructor for type: RC4
     RC4() noexcept {}
     // Get static field: static private System.Security.Cryptography.KeySizes[] s_legalBlockSizes
-    static ::Array<System::Security::Cryptography::KeySizes*>* _get_s_legalBlockSizes();
+    static ::ArrayWrapper<System::Security::Cryptography::KeySizes*> _get_s_legalBlockSizes();
     // Set static field: static private System.Security.Cryptography.KeySizes[] s_legalBlockSizes
-    static void _set_s_legalBlockSizes(::Array<System::Security::Cryptography::KeySizes*>* value);
+    static void _set_s_legalBlockSizes(::ArrayWrapper<System::Security::Cryptography::KeySizes*> value);
     // Get static field: static private System.Security.Cryptography.KeySizes[] s_legalKeySizes
-    static ::Array<System::Security::Cryptography::KeySizes*>* _get_s_legalKeySizes();
+    static ::ArrayWrapper<System::Security::Cryptography::KeySizes*> _get_s_legalKeySizes();
     // Set static field: static private System.Security.Cryptography.KeySizes[] s_legalKeySizes
-    static void _set_s_legalKeySizes(::Array<System::Security::Cryptography::KeySizes*>* value);
+    static void _set_s_legalKeySizes(::ArrayWrapper<System::Security::Cryptography::KeySizes*> value);
     // static private System.Void .cctor()
-    // Offset: 0x1E02F14
+    // Offset: 0x1F9F47C
     static void _cctor();
     // static public Mono.Security.Cryptography.RC4 Create()
-    // Offset: 0x1DFE3D0
+    // Offset: 0x1F9A938
     static Mono::Security::Cryptography::RC4* Create();
     // public override System.Byte[] get_IV()
-    // Offset: 0x1E02EC4
+    // Offset: 0x1F9F42C
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Byte[] SymmetricAlgorithm::get_IV()
-    ::Array<uint8_t>* get_IV();
+    ::ArrayWrapper<uint8_t> get_IV();
     // public override System.Void set_IV(System.Byte[] value)
-    // Offset: 0x1E02F10
+    // Offset: 0x1F9F478
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::set_IV(System.Byte[] value)
-    void set_IV(::Array<uint8_t>* value);
+    void set_IV(::ArrayWrapper<uint8_t> value);
     // public System.Void .ctor()
-    // Offset: 0x1DFEC08
+    // Offset: 0x1F9B170
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: Mono::Security::Cryptography::RC4::get_IV
 // Il2CppName: get_IV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Cryptography::RC4::*)()>(&Mono::Security::Cryptography::RC4::get_IV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::Cryptography::RC4::*)()>(&Mono::Security::Cryptography::RC4::get_IV)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::RC4*), "get_IV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -95,9 +95,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: Mono::Security::Cryptography::RC4::set_IV
 // Il2CppName: set_IV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::RC4::*)(::Array<uint8_t>*)>(&Mono::Security::Cryptography::RC4::set_IV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::RC4::*)(::ArrayWrapper<uint8_t>)>(&Mono::Security::Cryptography::RC4::set_IV)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::RC4*), "set_IV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };

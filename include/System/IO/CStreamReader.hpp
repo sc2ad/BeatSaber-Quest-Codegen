@@ -48,7 +48,7 @@ namespace System::IO {
     // Get instance field reference: private System.TermInfoDriver driver
     System::TermInfoDriver*& dyn_driver();
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding)
-    // Offset: 0x196EC74
+    // Offset: 0x1AAECC0
     // Implemented from: System.IO.StreamReader
     // Base method: System.Void StreamReader::.ctor(System.IO.Stream stream, System.Text.Encoding encoding)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -57,27 +57,27 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<CStreamReader*, creationType>(stream, encoding)));
     }
     // public override System.Int32 Peek()
-    // Offset: 0x196EDE8
+    // Offset: 0x1AAEE34
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Peek()
     int Peek();
     // public override System.Int32 Read()
-    // Offset: 0x196EF3C
+    // Offset: 0x1AAEF88
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Read()
     int Read();
     // public override System.Int32 Read(in System.Char[] dest, System.Int32 index, System.Int32 count)
-    // Offset: 0x196F01C
+    // Offset: 0x1AAF068
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Read(in System.Char[] dest, System.Int32 index, System.Int32 count)
-    int Read(ByRef<::Array<::Il2CppChar>*> dest, int index, int count);
+    int Read(ByRef<::ArrayWrapper<::Il2CppChar>> dest, int index, int count);
     // public override System.String ReadLine()
-    // Offset: 0x196F1E8
+    // Offset: 0x1AAF234
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadLine()
     ::Il2CppString* ReadLine();
     // public override System.String ReadToEnd()
-    // Offset: 0x196F2B4
+    // Offset: 0x1AAF300
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadToEnd()
     ::Il2CppString* ReadToEnd();
@@ -111,9 +111,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::CStreamReader::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::CStreamReader::*)(ByRef<::Array<::Il2CppChar>*>, int, int)>(&System::IO::CStreamReader::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::CStreamReader::*)(ByRef<::ArrayWrapper<::Il2CppChar>>, int, int)>(&System::IO::CStreamReader::Read)> {
   static const MethodInfo* get() {
-    static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->this_arg;
+    static auto* dest = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->this_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::CStreamReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dest, index, count});

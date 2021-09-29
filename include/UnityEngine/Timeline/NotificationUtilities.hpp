@@ -50,10 +50,10 @@ namespace UnityEngine::Timeline {
     // Creating value type constructor for type: NotificationUtilities
     NotificationUtilities() noexcept {}
     // static public UnityEngine.Playables.ScriptPlayable`1<UnityEngine.Timeline.TimeNotificationBehaviour> CreateNotificationsPlayable(UnityEngine.Playables.PlayableGraph graph, System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.IMarker> markers, UnityEngine.GameObject go)
-    // Offset: 0x1829540
+    // Offset: 0x19FC8E8
     static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::TimeNotificationBehaviour*> CreateNotificationsPlayable(UnityEngine::Playables::PlayableGraph graph, System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::IMarker*>* markers, UnityEngine::GameObject* go);
     // static public System.Boolean TrackTypeSupportsNotifications(System.Type type)
-    // Offset: 0x1829D54
+    // Offset: 0x19FD0FC
     static bool TrackTypeSupportsNotifications(System::Type* type);
   }; // UnityEngine.Timeline.NotificationUtilities
   #pragma pack(pop)

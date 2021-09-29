@@ -32,86 +32,86 @@ namespace GlobalNamespace {
     // private AvatarMeshPartSO[] _headTops
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::AvatarMeshPartSO*>* headTops;
+    ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> headTops;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::AvatarMeshPartSO*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*>) == 0x8);
     // private AvatarSpritePartSO[] _eyes
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::AvatarSpritePartSO*>* eyes;
+    ::ArrayWrapper<GlobalNamespace::AvatarSpritePartSO*> eyes;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::AvatarSpritePartSO*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::AvatarSpritePartSO*>) == 0x8);
     // private AvatarSpritePartSO[] _mouths
     // Size: 0x8
     // Offset: 0x28
-    ::Array<GlobalNamespace::AvatarSpritePartSO*>* mouths;
+    ::ArrayWrapper<GlobalNamespace::AvatarSpritePartSO*> mouths;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::AvatarSpritePartSO*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::AvatarSpritePartSO*>) == 0x8);
     // private AvatarMeshPartSO[] _glasses
     // Size: 0x8
     // Offset: 0x30
-    ::Array<GlobalNamespace::AvatarMeshPartSO*>* glasses;
+    ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> glasses;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::AvatarMeshPartSO*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*>) == 0x8);
     // private AvatarMeshPartSO[] _facialHair
     // Size: 0x8
     // Offset: 0x38
-    ::Array<GlobalNamespace::AvatarMeshPartSO*>* facialHair;
+    ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> facialHair;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::AvatarMeshPartSO*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*>) == 0x8);
     // private AvatarMeshPartSO[] _hands
     // Size: 0x8
     // Offset: 0x40
-    ::Array<GlobalNamespace::AvatarMeshPartSO*>* hands;
+    ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> hands;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::AvatarMeshPartSO*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*>) == 0x8);
     // private AvatarMeshPartSO[] _clothes
     // Size: 0x8
     // Offset: 0x48
-    ::Array<GlobalNamespace::AvatarMeshPartSO*>* clothes;
+    ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> clothes;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::AvatarMeshPartSO*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*>) == 0x8);
     // Creating value type constructor for type: AvatarPartsModelSO
-    AvatarPartsModelSO(::Array<GlobalNamespace::AvatarMeshPartSO*>* headTops_ = {}, ::Array<GlobalNamespace::AvatarSpritePartSO*>* eyes_ = {}, ::Array<GlobalNamespace::AvatarSpritePartSO*>* mouths_ = {}, ::Array<GlobalNamespace::AvatarMeshPartSO*>* glasses_ = {}, ::Array<GlobalNamespace::AvatarMeshPartSO*>* facialHair_ = {}, ::Array<GlobalNamespace::AvatarMeshPartSO*>* hands_ = {}, ::Array<GlobalNamespace::AvatarMeshPartSO*>* clothes_ = {}) noexcept : headTops{headTops_}, eyes{eyes_}, mouths{mouths_}, glasses{glasses_}, facialHair{facialHair_}, hands{hands_}, clothes{clothes_} {}
+    AvatarPartsModelSO(::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> headTops_ = {}, ::ArrayWrapper<GlobalNamespace::AvatarSpritePartSO*> eyes_ = {}, ::ArrayWrapper<GlobalNamespace::AvatarSpritePartSO*> mouths_ = {}, ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> glasses_ = {}, ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> facialHair_ = {}, ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> hands_ = {}, ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> clothes_ = {}) noexcept : headTops{headTops_}, eyes{eyes_}, mouths{mouths_}, glasses{glasses_}, facialHair{facialHair_}, hands{hands_}, clothes{clothes_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private AvatarMeshPartSO[] _headTops
-    ::Array<GlobalNamespace::AvatarMeshPartSO*>*& dyn__headTops();
+    ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*>& dyn__headTops();
     // Get instance field reference: private AvatarSpritePartSO[] _eyes
-    ::Array<GlobalNamespace::AvatarSpritePartSO*>*& dyn__eyes();
+    ::ArrayWrapper<GlobalNamespace::AvatarSpritePartSO*>& dyn__eyes();
     // Get instance field reference: private AvatarSpritePartSO[] _mouths
-    ::Array<GlobalNamespace::AvatarSpritePartSO*>*& dyn__mouths();
+    ::ArrayWrapper<GlobalNamespace::AvatarSpritePartSO*>& dyn__mouths();
     // Get instance field reference: private AvatarMeshPartSO[] _glasses
-    ::Array<GlobalNamespace::AvatarMeshPartSO*>*& dyn__glasses();
+    ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*>& dyn__glasses();
     // Get instance field reference: private AvatarMeshPartSO[] _facialHair
-    ::Array<GlobalNamespace::AvatarMeshPartSO*>*& dyn__facialHair();
+    ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*>& dyn__facialHair();
     // Get instance field reference: private AvatarMeshPartSO[] _hands
-    ::Array<GlobalNamespace::AvatarMeshPartSO*>*& dyn__hands();
+    ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*>& dyn__hands();
     // Get instance field reference: private AvatarMeshPartSO[] _clothes
-    ::Array<GlobalNamespace::AvatarMeshPartSO*>*& dyn__clothes();
+    ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*>& dyn__clothes();
     // public AvatarMeshPartSO[] get_headTops()
-    // Offset: 0x117B30C
-    ::Array<GlobalNamespace::AvatarMeshPartSO*>* get_headTops();
+    // Offset: 0x124B694
+    ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> get_headTops();
     // public AvatarSpritePartSO[] get_Eyes()
-    // Offset: 0x117B314
-    ::Array<GlobalNamespace::AvatarSpritePartSO*>* get_Eyes();
+    // Offset: 0x124B69C
+    ::ArrayWrapper<GlobalNamespace::AvatarSpritePartSO*> get_Eyes();
     // public AvatarSpritePartSO[] get_Mouths()
-    // Offset: 0x117B31C
-    ::Array<GlobalNamespace::AvatarSpritePartSO*>* get_Mouths();
+    // Offset: 0x124B6A4
+    ::ArrayWrapper<GlobalNamespace::AvatarSpritePartSO*> get_Mouths();
     // public AvatarMeshPartSO[] get_Glasses()
-    // Offset: 0x117B324
-    ::Array<GlobalNamespace::AvatarMeshPartSO*>* get_Glasses();
+    // Offset: 0x124B6AC
+    ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> get_Glasses();
     // public AvatarMeshPartSO[] get_FacialHair()
-    // Offset: 0x117B32C
-    ::Array<GlobalNamespace::AvatarMeshPartSO*>* get_FacialHair();
+    // Offset: 0x124B6B4
+    ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> get_FacialHair();
     // public AvatarMeshPartSO[] get_Hands()
-    // Offset: 0x117B334
-    ::Array<GlobalNamespace::AvatarMeshPartSO*>* get_Hands();
+    // Offset: 0x124B6BC
+    ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> get_Hands();
     // public AvatarMeshPartSO[] get_Clothes()
-    // Offset: 0x117B33C
-    ::Array<GlobalNamespace::AvatarMeshPartSO*>* get_Clothes();
+    // Offset: 0x124B6C4
+    ::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> get_Clothes();
     // public System.Void .ctor()
-    // Offset: 0x117B344
+    // Offset: 0x124B6CC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -124,7 +124,7 @@ namespace GlobalNamespace {
     }
   }; // AvatarPartsModelSO
   #pragma pack(pop)
-  static check_size<sizeof(AvatarPartsModelSO), 72 + sizeof(::Array<GlobalNamespace::AvatarMeshPartSO*>*)> __GlobalNamespace_AvatarPartsModelSOSizeCheck;
+  static check_size<sizeof(AvatarPartsModelSO), 72 + sizeof(::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*>)> __GlobalNamespace_AvatarPartsModelSOSizeCheck;
   static_assert(sizeof(AvatarPartsModelSO) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPartsModelSO*, "", "AvatarPartsModelSO");
@@ -132,7 +132,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPartsModelSO*, "", "AvatarPartsMod
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPartsModelSO::get_headTops
 // Il2CppName: get_headTops
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::AvatarMeshPartSO*>* (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_headTops)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_headTops)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModelSO*), "get_headTops", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPartsModelSO::get_Eyes
 // Il2CppName: get_Eyes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::AvatarSpritePartSO*>* (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_Eyes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::AvatarSpritePartSO*> (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_Eyes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModelSO*), "get_Eyes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPartsModelSO::get_Mouths
 // Il2CppName: get_Mouths
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::AvatarSpritePartSO*>* (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_Mouths)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::AvatarSpritePartSO*> (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_Mouths)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModelSO*), "get_Mouths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPartsModelSO::get_Glasses
 // Il2CppName: get_Glasses
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::AvatarMeshPartSO*>* (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_Glasses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_Glasses)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModelSO*), "get_Glasses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPartsModelSO::get_FacialHair
 // Il2CppName: get_FacialHair
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::AvatarMeshPartSO*>* (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_FacialHair)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_FacialHair)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModelSO*), "get_FacialHair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPartsModelSO::get_Hands
 // Il2CppName: get_Hands
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::AvatarMeshPartSO*>* (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_Hands)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_Hands)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModelSO*), "get_Hands", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPartsModelSO::get_Clothes
 // Il2CppName: get_Clothes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::AvatarMeshPartSO*>* (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_Clothes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::AvatarMeshPartSO*> (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_Clothes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModelSO*), "get_Clothes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -64,22 +64,22 @@ namespace System::Reflection {
     // Get instance field reference: private System.IntPtr handle
     System::IntPtr& dyn_handle();
     // public override System.Type get_DeclaringType()
-    // Offset: 0x1D1FD5C
+    // Offset: 0x1EACED8
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Type MemberInfo::get_DeclaringType()
     System::Type* get_DeclaringType();
     // public override System.Type get_ReflectedType()
-    // Offset: 0x1D1FD8C
+    // Offset: 0x1EACF08
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Type MemberInfo::get_ReflectedType()
     System::Type* get_ReflectedType();
     // public override System.String get_Name()
-    // Offset: 0x1D1FDBC
+    // Offset: 0x1EACF38
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.String MemberInfo::get_Name()
     ::Il2CppString* get_Name();
     // public System.Void .ctor()
-    // Offset: 0x1D1FFE8
+    // Offset: 0x1EAD164
     // Implemented from: System.Reflection.RuntimeEventInfo
     // Base method: System.Void RuntimeEventInfo::.ctor()
     // Base method: System.Void EventInfo::.ctor()
@@ -91,42 +91,42 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<MonoEvent*, creationType>()));
     }
     // public override System.Reflection.MethodInfo GetAddMethod(System.Boolean nonPublic)
-    // Offset: 0x1D1FB64
+    // Offset: 0x1EACCE0
     // Implemented from: System.Reflection.EventInfo
     // Base method: System.Reflection.MethodInfo EventInfo::GetAddMethod(System.Boolean nonPublic)
     System::Reflection::MethodInfo* GetAddMethod(bool nonPublic);
     // public override System.Reflection.MethodInfo GetRaiseMethod(System.Boolean nonPublic)
-    // Offset: 0x1D1FC3C
+    // Offset: 0x1EACDB8
     // Implemented from: System.Reflection.EventInfo
     // Base method: System.Reflection.MethodInfo EventInfo::GetRaiseMethod(System.Boolean nonPublic)
     System::Reflection::MethodInfo* GetRaiseMethod(bool nonPublic);
     // public override System.Reflection.MethodInfo GetRemoveMethod(System.Boolean nonPublic)
-    // Offset: 0x1D1FCCC
+    // Offset: 0x1EACE48
     // Implemented from: System.Reflection.EventInfo
     // Base method: System.Reflection.MethodInfo EventInfo::GetRemoveMethod(System.Boolean nonPublic)
     System::Reflection::MethodInfo* GetRemoveMethod(bool nonPublic);
     // public override System.String ToString()
-    // Offset: 0x1D1FDEC
+    // Offset: 0x1EACF68
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1D1FE6C
+    // Offset: 0x1EACFE8
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Boolean MemberInfo::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(System::Type* attributeType, bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Boolean inherit)
-    // Offset: 0x1D1FEEC
+    // Offset: 0x1EAD068
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Boolean inherit)
-    ::Array<::Il2CppObject*>* GetCustomAttributes(bool inherit);
+    ::ArrayWrapper<::Il2CppObject*> GetCustomAttributes(bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1D1FF64
+    // Offset: 0x1EAD0E0
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
+    ::ArrayWrapper<::Il2CppObject*> GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public override System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> GetCustomAttributesData()
-    // Offset: 0x1D1FFE4
+    // Offset: 0x1EAD160
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> MemberInfo::GetCustomAttributesData()
     System::Collections::Generic::IList_1<System::Reflection::CustomAttributeData*>* GetCustomAttributesData();
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Reflection::MonoEvent::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Reflection::MonoEvent::*)(bool)>(&System::Reflection::MonoEvent::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Reflection::MonoEvent::*)(bool)>(&System::Reflection::MonoEvent::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoEvent*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inherit});
@@ -222,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Writing MetadataGetter for method: System::Reflection::MonoEvent::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Reflection::MonoEvent::*)(System::Type*, bool)>(&System::Reflection::MonoEvent::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Reflection::MonoEvent::*)(System::Type*, bool)>(&System::Reflection::MonoEvent::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

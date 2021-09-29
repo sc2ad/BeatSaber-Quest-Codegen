@@ -32,25 +32,25 @@ namespace GlobalNamespace {
     // private MirrorRendererGraphicsSettingsPresets/Preset[] _presets
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>* presets;
+    ::ArrayWrapper<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*> presets;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>) == 0x8);
     // Creating value type constructor for type: MirrorRendererGraphicsSettingsPresets
-    MirrorRendererGraphicsSettingsPresets(::Array<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>* presets_ = {}) noexcept : presets{presets_} {}
+    MirrorRendererGraphicsSettingsPresets(::ArrayWrapper<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*> presets_ = {}) noexcept : presets{presets_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MirrorRendererGraphicsSettingsPresets/Preset[] _presets
-    ::Array<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>*& dyn__presets();
+    ::ArrayWrapper<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>& dyn__presets();
     // public MirrorRendererGraphicsSettingsPresets/Preset[] get_presets()
-    // Offset: 0x113B638
-    ::Array<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>* get_presets();
+    // Offset: 0x11827C4
+    ::ArrayWrapper<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*> get_presets();
     // public override NamedPreset[] get_namedPresets()
-    // Offset: 0x113B640
+    // Offset: 0x11827CC
     // Implemented from: NamedPresetsSO
     // Base method: NamedPreset[] NamedPresetsSO::get_namedPresets()
-    ::Array<GlobalNamespace::NamedPreset*>* get_namedPresets();
+    ::ArrayWrapper<GlobalNamespace::NamedPreset*> get_namedPresets();
     // public System.Void .ctor()
-    // Offset: 0x113B648
+    // Offset: 0x11827D4
     // Implemented from: NamedPresetsSO
     // Base method: System.Void NamedPresetsSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     }
   }; // MirrorRendererGraphicsSettingsPresets
   #pragma pack(pop)
-  static check_size<sizeof(MirrorRendererGraphicsSettingsPresets), 24 + sizeof(::Array<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>*)> __GlobalNamespace_MirrorRendererGraphicsSettingsPresetsSizeCheck;
+  static check_size<sizeof(MirrorRendererGraphicsSettingsPresets), 24 + sizeof(::ArrayWrapper<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>)> __GlobalNamespace_MirrorRendererGraphicsSettingsPresetsSizeCheck;
   static_assert(sizeof(MirrorRendererGraphicsSettingsPresets) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererGraphicsSettingsPresets*, "", "MirrorRendererGraphicsSettingsPresets");
@@ -72,7 +72,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererGraphicsSettingsPresets*, 
 // Writing MetadataGetter for method: GlobalNamespace::MirrorRendererGraphicsSettingsPresets::get_presets
 // Il2CppName: get_presets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>* (GlobalNamespace::MirrorRendererGraphicsSettingsPresets::*)()>(&GlobalNamespace::MirrorRendererGraphicsSettingsPresets::get_presets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*> (GlobalNamespace::MirrorRendererGraphicsSettingsPresets::*)()>(&GlobalNamespace::MirrorRendererGraphicsSettingsPresets::get_presets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirrorRendererGraphicsSettingsPresets*), "get_presets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Writing MetadataGetter for method: GlobalNamespace::MirrorRendererGraphicsSettingsPresets::get_namedPresets
 // Il2CppName: get_namedPresets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::NamedPreset*>* (GlobalNamespace::MirrorRendererGraphicsSettingsPresets::*)()>(&GlobalNamespace::MirrorRendererGraphicsSettingsPresets::get_namedPresets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::NamedPreset*> (GlobalNamespace::MirrorRendererGraphicsSettingsPresets::*)()>(&GlobalNamespace::MirrorRendererGraphicsSettingsPresets::get_namedPresets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirrorRendererGraphicsSettingsPresets*), "get_namedPresets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

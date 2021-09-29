@@ -125,27 +125,27 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector4[] _positions
     // Size: 0x8
     // Offset: 0x60
-    ::Array<UnityEngine::Vector4>* positions;
+    ::ArrayWrapper<UnityEngine::Vector4> positions;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector4>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
     // private UnityEngine.Vector4[] _sizes
     // Size: 0x8
     // Offset: 0x68
-    ::Array<UnityEngine::Vector4>* sizes;
+    ::ArrayWrapper<UnityEngine::Vector4> sizes;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector4>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
     // private UnityEngine.Vector4[] _colors
     // Size: 0x8
     // Offset: 0x70
-    ::Array<UnityEngine::Vector4>* colors;
+    ::ArrayWrapper<UnityEngine::Vector4> colors;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector4>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
     // private UnityEngine.Matrix4x4[] _matrices
     // Size: 0x8
     // Offset: 0x78
-    ::Array<UnityEngine::Matrix4x4>* matrices;
+    ::ArrayWrapper<UnityEngine::Matrix4x4> matrices;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Matrix4x4>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Matrix4x4>) == 0x8);
     // private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     // Size: 0x8
     // Offset: 0x80
@@ -159,25 +159,25 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: BlocksBlade
-    BlocksBlade(UnityEngine::Mesh* elementMesh_ = {}, UnityEngine::Material* material_ = {}, int numberOfElements_ = {}, float radius_ = {}, float length_ = {}, float minVelocity_ = {}, float maxVelocity_ = {}, float elementWidth_ = {}, float minElementLength_ = {}, float maxElementLength_ = {}, UnityEngine::Color color_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BlocksBlade::Element*>* elements_ = {}, ::Array<UnityEngine::Vector4>* positions_ = {}, ::Array<UnityEngine::Vector4>* sizes_ = {}, ::Array<UnityEngine::Vector4>* colors_ = {}, ::Array<UnityEngine::Matrix4x4>* matrices_ = {}, UnityEngine::MaterialPropertyBlock* materialPropertyBlock_ = {}, int layer_ = {}) noexcept : elementMesh{elementMesh_}, material{material_}, numberOfElements{numberOfElements_}, radius{radius_}, length{length_}, minVelocity{minVelocity_}, maxVelocity{maxVelocity_}, elementWidth{elementWidth_}, minElementLength{minElementLength_}, maxElementLength{maxElementLength_}, color{color_}, elements{elements_}, positions{positions_}, sizes{sizes_}, colors{colors_}, matrices{matrices_}, materialPropertyBlock{materialPropertyBlock_}, layer{layer_} {}
+    BlocksBlade(UnityEngine::Mesh* elementMesh_ = {}, UnityEngine::Material* material_ = {}, int numberOfElements_ = {}, float radius_ = {}, float length_ = {}, float minVelocity_ = {}, float maxVelocity_ = {}, float elementWidth_ = {}, float minElementLength_ = {}, float maxElementLength_ = {}, UnityEngine::Color color_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BlocksBlade::Element*>* elements_ = {}, ::ArrayWrapper<UnityEngine::Vector4> positions_ = {}, ::ArrayWrapper<UnityEngine::Vector4> sizes_ = {}, ::ArrayWrapper<UnityEngine::Vector4> colors_ = {}, ::ArrayWrapper<UnityEngine::Matrix4x4> matrices_ = {}, UnityEngine::MaterialPropertyBlock* materialPropertyBlock_ = {}, int layer_ = {}) noexcept : elementMesh{elementMesh_}, material{material_}, numberOfElements{numberOfElements_}, radius{radius_}, length{length_}, minVelocity{minVelocity_}, maxVelocity{maxVelocity_}, elementWidth{elementWidth_}, minElementLength{minElementLength_}, maxElementLength{maxElementLength_}, color{color_}, elements{elements_}, positions{positions_}, sizes{sizes_}, colors{colors_}, matrices{matrices_}, materialPropertyBlock{materialPropertyBlock_}, layer{layer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE41FA8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF0A93C
     // Get static field: static private readonly System.Int32 _positionPropertyID
     static int _get__positionPropertyID();
     // Set static field: static private readonly System.Int32 _positionPropertyID
     static void _set__positionPropertyID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE41FB8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF0A94C
     // Get static field: static private readonly System.Int32 _sizePropertyID
     static int _get__sizePropertyID();
     // Set static field: static private readonly System.Int32 _sizePropertyID
     static void _set__sizePropertyID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE41FC8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF0A95C
     // Get static field: static private readonly System.Int32 _colorPropertyID
     static int _get__colorPropertyID();
     // Set static field: static private readonly System.Int32 _colorPropertyID
     static void _set__colorPropertyID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE41FD8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF0A96C
     // Get static field: static private readonly System.Int32 _zClipPropertyID
     static int _get__zClipPropertyID();
     // Set static field: static private readonly System.Int32 _zClipPropertyID
@@ -207,37 +207,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<BlocksBlade/Element> _elements
     System::Collections::Generic::List_1<GlobalNamespace::BlocksBlade::Element*>*& dyn__elements();
     // Get instance field reference: private UnityEngine.Vector4[] _positions
-    ::Array<UnityEngine::Vector4>*& dyn__positions();
+    ::ArrayWrapper<UnityEngine::Vector4>& dyn__positions();
     // Get instance field reference: private UnityEngine.Vector4[] _sizes
-    ::Array<UnityEngine::Vector4>*& dyn__sizes();
+    ::ArrayWrapper<UnityEngine::Vector4>& dyn__sizes();
     // Get instance field reference: private UnityEngine.Vector4[] _colors
-    ::Array<UnityEngine::Vector4>*& dyn__colors();
+    ::ArrayWrapper<UnityEngine::Vector4>& dyn__colors();
     // Get instance field reference: private UnityEngine.Matrix4x4[] _matrices
-    ::Array<UnityEngine::Matrix4x4>*& dyn__matrices();
+    ::ArrayWrapper<UnityEngine::Matrix4x4>& dyn__matrices();
     // Get instance field reference: private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     UnityEngine::MaterialPropertyBlock*& dyn__materialPropertyBlock();
     // Get instance field reference: private System.Int32 _layer
     int& dyn__layer();
     // public UnityEngine.Color get_color()
-    // Offset: 0x10D803C
+    // Offset: 0x12A98DC
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x10D8048
+    // Offset: 0x12A98E8
     void set_color(UnityEngine::Color value);
     // protected System.Void Start()
-    // Offset: 0x10D8054
+    // Offset: 0x12A98F4
     void Start();
     // protected System.Void Update()
-    // Offset: 0x10D83EC
+    // Offset: 0x12A9C8C
     void Update();
     // private System.Void SetUpElement(BlocksBlade/Element element, System.Single velocity, UnityEngine.Color color)
-    // Offset: 0x10D820C
+    // Offset: 0x12A9AAC
     void SetUpElement(GlobalNamespace::BlocksBlade::Element* element, float velocity, UnityEngine::Color color);
     // private UnityEngine.Vector2 RandomPointOnCircle(System.Single radius)
-    // Offset: 0x10D87D8
+    // Offset: 0x12AA078
     UnityEngine::Vector2 RandomPointOnCircle(float radius);
     // public System.Void .ctor()
-    // Offset: 0x10D8898
+    // Offset: 0x12AA138
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -250,7 +250,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BlocksBlade*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x10D88D0
+    // Offset: 0x12AA170
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

@@ -45,19 +45,19 @@ namespace UnityEngine::TestRunner::TestLaunchers {
       return *reinterpret_cast<UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory*>(this);
     }
     // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData CreateFromTestResult(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x14C54BC
+    // Offset: 0x166B138
     UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* CreateFromTestResult(NUnit::Framework::Interfaces::ITestResult* result);
     // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData CreateFromTest(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x14C594C
+    // Offset: 0x166B5C8
     UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* CreateFromTest(NUnit::Framework::Interfaces::ITest* test);
     // private UnityEngine.TestRunner.TestLaunchers.RemoteTestData[] CreateTestDataList(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x14C5618
-    ::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>* CreateTestDataList(NUnit::Framework::Interfaces::ITest* test);
+    // Offset: 0x166B294
+    ::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*> CreateTestDataList(NUnit::Framework::Interfaces::ITest* test);
     // static private UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData[] CreateTestResultDataList(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x14C57B8
-    static ::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>* CreateTestResultDataList(NUnit::Framework::Interfaces::ITestResult* result);
+    // Offset: 0x166B434
+    static ::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*> CreateTestResultDataList(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void .ctor()
-    // Offset: 0x14C5A64
+    // Offset: 0x166B6E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::CreateTestDataList
 // Il2CppName: CreateTestDataList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>* (UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::*)(NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::CreateTestDataList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*> (UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::*)(NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::CreateTestDataList)> {
   static const MethodInfo* get() {
     static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory*), "CreateTestDataList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::CreateTestResultDataList
 // Il2CppName: CreateTestResultDataList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>* (*)(NUnit::Framework::Interfaces::ITestResult*)>(&UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::CreateTestResultDataList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*> (*)(NUnit::Framework::Interfaces::ITestResult*)>(&UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::CreateTestResultDataList)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITestResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory*), "CreateTestResultDataList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});

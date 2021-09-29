@@ -25,8 +25,8 @@ namespace TMPro {
 }
 // Forward declaring namespace: Tweening
 namespace Tweening {
-  // Forward declaring type: TweeningManager
-  class TweeningManager;
+  // Forward declaring type: TimeTweeningManager
+  class TimeTweeningManager;
   // Forward declaring type: Tween`1<T>
   template<typename T>
   class Tween_1;
@@ -61,13 +61,13 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* nameText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0xE41884
-    // private readonly Tweening.TweeningManager _tweeningManager
+    // [InjectAttribute] Offset: 0xF0A218
+    // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
-    Tweening::TweeningManager* tweeningManager;
+    Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
-    static_assert(sizeof(Tweening::TweeningManager*) == 0x8);
+    static_assert(sizeof(Tweening::TimeTweeningManager*) == 0x8);
     // private Tweening.Tween`1<UnityEngine.Color> _nameColorTween
     // Size: 0x8
     // Offset: 0x30
@@ -81,45 +81,45 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(Tweening::Tween_1<UnityEngine::Color>*) == 0x8);
     // Creating value type constructor for type: MultiplayerScoreRingItem
-    MultiplayerScoreRingItem(TMPro::TextMeshProUGUI* scoreText_ = {}, TMPro::TextMeshProUGUI* nameText_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, Tweening::Tween_1<UnityEngine::Color>* nameColorTween_ = {}, Tweening::Tween_1<UnityEngine::Color>* scoreColorTween_ = {}) noexcept : scoreText{scoreText_}, nameText{nameText_}, tweeningManager{tweeningManager_}, nameColorTween{nameColorTween_}, scoreColorTween{scoreColorTween_} {}
+    MultiplayerScoreRingItem(TMPro::TextMeshProUGUI* scoreText_ = {}, TMPro::TextMeshProUGUI* nameText_ = {}, Tweening::TimeTweeningManager* tweeningManager_ = {}, Tweening::Tween_1<UnityEngine::Color>* nameColorTween_ = {}, Tweening::Tween_1<UnityEngine::Color>* scoreColorTween_ = {}) noexcept : scoreText{scoreText_}, nameText{nameText_}, tweeningManager{tweeningManager_}, nameColorTween{nameColorTween_}, scoreColorTween{scoreColorTween_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _scoreText
     TMPro::TextMeshProUGUI*& dyn__scoreText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _nameText
     TMPro::TextMeshProUGUI*& dyn__nameText();
-    // Get instance field reference: private readonly Tweening.TweeningManager _tweeningManager
-    Tweening::TweeningManager*& dyn__tweeningManager();
+    // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
+    Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private Tweening.Tween`1<UnityEngine.Color> _nameColorTween
     Tweening::Tween_1<UnityEngine::Color>*& dyn__nameColorTween();
     // Get instance field reference: private Tweening.Tween`1<UnityEngine.Color> _scoreColorTween
     Tweening::Tween_1<UnityEngine::Color>*& dyn__scoreColorTween();
     // protected System.Void Awake()
-    // Offset: 0x10408DC
+    // Offset: 0x112F88C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1040AA4
+    // Offset: 0x112FA54
     void OnDestroy();
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x1040B3C
+    // Offset: 0x112FAEC
     void SetPositionAndRotation(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
     // public System.Void AnimateColors(UnityEngine.Color nameColor, UnityEngine.Color scoreColor, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x1040BB8
+    // Offset: 0x112FB68
     void AnimateColors(UnityEngine::Color nameColor, UnityEngine::Color scoreColor, float duration, Tweening::EaseType easeType);
     // public System.Void SetName(System.String text)
-    // Offset: 0x1040CE8
+    // Offset: 0x112FC98
     void SetName(::Il2CppString* text);
     // public System.Void SetScore(System.String text)
-    // Offset: 0x1040D04
+    // Offset: 0x112FCB4
     void SetScore(::Il2CppString* text);
     // private System.Void <Awake>b__6_0(UnityEngine.Color val)
-    // Offset: 0x1040D28
+    // Offset: 0x112FCD8
     void $Awake$b__6_0(UnityEngine::Color val);
     // private System.Void <Awake>b__6_1(UnityEngine.Color val)
-    // Offset: 0x1040D4C
+    // Offset: 0x112FCFC
     void $Awake$b__6_1(UnityEngine::Color val);
     // public System.Void .ctor()
-    // Offset: 0x1040D20
+    // Offset: 0x112FCD0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

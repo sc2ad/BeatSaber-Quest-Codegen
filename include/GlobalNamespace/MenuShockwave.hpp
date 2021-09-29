@@ -54,9 +54,9 @@ namespace GlobalNamespace {
     // private Signal[] _buttonClickEvents
     // Size: 0x8
     // Offset: 0x28
-    ::Array<GlobalNamespace::Signal*>* buttonClickEvents;
+    ::ArrayWrapper<GlobalNamespace::Signal*> buttonClickEvents;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::Signal*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::Signal*>) == 0x8);
     // private UnityEngine.ParticleSystem/UnityEngine.EmitParams _shockwavePSEmitParams
     // Size: 0x8F
     // Offset: 0x30
@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::EmitParams) == 0x8F);
     // Creating value type constructor for type: MenuShockwave
-    MenuShockwave(UnityEngine::ParticleSystem* shockwavePS_ = {}, VRUIControls::VRPointer* vrPointer_ = {}, ::Array<GlobalNamespace::Signal*>* buttonClickEvents_ = {}, UnityEngine::ParticleSystem::EmitParams shockwavePSEmitParams_ = {}) noexcept : shockwavePS{shockwavePS_}, vrPointer{vrPointer_}, buttonClickEvents{buttonClickEvents_}, shockwavePSEmitParams{shockwavePSEmitParams_} {}
+    MenuShockwave(UnityEngine::ParticleSystem* shockwavePS_ = {}, VRUIControls::VRPointer* vrPointer_ = {}, ::ArrayWrapper<GlobalNamespace::Signal*> buttonClickEvents_ = {}, UnityEngine::ParticleSystem::EmitParams shockwavePSEmitParams_ = {}) noexcept : shockwavePS{shockwavePS_}, vrPointer{vrPointer_}, buttonClickEvents{buttonClickEvents_}, shockwavePSEmitParams{shockwavePSEmitParams_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem _shockwavePS
@@ -72,26 +72,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private VRUIControls.VRPointer _vrPointer
     VRUIControls::VRPointer*& dyn__vrPointer();
     // Get instance field reference: private Signal[] _buttonClickEvents
-    ::Array<GlobalNamespace::Signal*>*& dyn__buttonClickEvents();
+    ::ArrayWrapper<GlobalNamespace::Signal*>& dyn__buttonClickEvents();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _shockwavePSEmitParams
     UnityEngine::ParticleSystem::EmitParams& dyn__shockwavePSEmitParams();
     // protected System.Void Awake()
-    // Offset: 0x11A85E0
+    // Offset: 0x1180784
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x11A85F0
+    // Offset: 0x1180794
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x11A86C4
+    // Offset: 0x1180868
     void OnDisable();
     // private System.Void HandleButtonClickEvent()
-    // Offset: 0x11A8798
+    // Offset: 0x118093C
     void HandleButtonClickEvent();
     // public System.Void SpawnShockwave(UnityEngine.Vector3 pos)
-    // Offset: 0x11A87CC
+    // Offset: 0x1180970
     void SpawnShockwave(UnityEngine::Vector3 pos);
     // public System.Void .ctor()
-    // Offset: 0x11A887C
+    // Offset: 0x1180A20
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

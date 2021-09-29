@@ -64,9 +64,9 @@ namespace NUnit::Framework::Internal::Commands {
     // private readonly System.Object[] _arguments
     // Size: 0x8
     // Offset: 0x28
-    ::Array<::Il2CppObject*>* arguments;
+    ::ArrayWrapper<::Il2CppObject*> arguments;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
     // private readonly System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> _setUpTearDown
     // Size: 0x8
     // Offset: 0x30
@@ -80,7 +80,7 @@ namespace NUnit::Framework::Internal::Commands {
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*) == 0x8);
     // Creating value type constructor for type: OneTimeSetUpCommand
-    OneTimeSetUpCommand(NUnit::Framework::Internal::TestSuite* suite_ = {}, NUnit::Framework::Interfaces::ITypeInfo* typeInfo_ = {}, ::Array<::Il2CppObject*>* arguments_ = {}, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* setUpTearDown_ = {}, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* actions_ = {}) noexcept : suite{suite_}, typeInfo{typeInfo_}, arguments{arguments_}, setUpTearDown{setUpTearDown_}, actions{actions_} {}
+    OneTimeSetUpCommand(NUnit::Framework::Internal::TestSuite* suite_ = {}, NUnit::Framework::Interfaces::ITypeInfo* typeInfo_ = {}, ::ArrayWrapper<::Il2CppObject*> arguments_ = {}, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* setUpTearDown_ = {}, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* actions_ = {}) noexcept : suite{suite_}, typeInfo{typeInfo_}, arguments{arguments_}, setUpTearDown{setUpTearDown_}, actions{actions_} {}
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestSuite _suite
@@ -88,20 +88,20 @@ namespace NUnit::Framework::Internal::Commands {
     // Get instance field reference: private readonly NUnit.Framework.Interfaces.ITypeInfo _typeInfo
     NUnit::Framework::Interfaces::ITypeInfo*& dyn__typeInfo();
     // Get instance field reference: private readonly System.Object[] _arguments
-    ::Array<::Il2CppObject*>*& dyn__arguments();
+    ::ArrayWrapper<::Il2CppObject*>& dyn__arguments();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> _setUpTearDown
     System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>*& dyn__setUpTearDown();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.TestActionItem> _actions
     System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*& dyn__actions();
     // public System.Void .ctor(NUnit.Framework.Internal.TestSuite suite, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> setUpTearDown, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.TestActionItem> actions)
-    // Offset: 0x177DA44
+    // Offset: 0x193CA90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OneTimeSetUpCommand* New_ctor(NUnit::Framework::Internal::TestSuite* suite, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* setUpTearDown, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* actions) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::OneTimeSetUpCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OneTimeSetUpCommand*, creationType>(suite, setUpTearDown, actions)));
     }
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x177DA9C
+    // Offset: 0x193CAE8
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);

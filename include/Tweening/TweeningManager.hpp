@@ -83,25 +83,34 @@ namespace Tweening {
     // Get instance field reference: private readonly System.Collections.Generic.Queue`1<System.Collections.Generic.HashSet`1<Tweening.Tween>> _reusableTweenHashSets
     System::Collections::Generic::Queue_1<System::Collections::Generic::HashSet_1<Tweening::Tween*>*>*& dyn__reusableTweenHashSets();
     // protected System.Void Start()
-    // Offset: 0x1293E70
+    // Offset: 0x133E644
     void Start();
-    // protected System.Void Update()
-    // Offset: 0x1293EDC
-    void Update();
+    // protected System.Void LateUpdate()
+    // Offset: 0x133E6B0
+    void LateUpdate();
+    // protected System.Single GetTime()
+    // Offset: 0xFFFFFFFF
+    float GetTime();
     // public Tweening.Tween AddTween(Tweening.Tween tween, UnityEngine.Object owner)
-    // Offset: 0x129408C
+    // Offset: 0x133E870
     Tweening::Tween* AddTween(Tweening::Tween* tween, UnityEngine::Object* owner);
     // public Tweening.Tween RestartTween(Tweening.Tween tween, UnityEngine.Object owner)
-    // Offset: 0x1294290
+    // Offset: 0x133E998
     Tweening::Tween* RestartTween(Tweening::Tween* tween, UnityEngine::Object* owner);
+    // public Tweening.Tween ResumeTween(Tweening.Tween tween, UnityEngine.Object owner)
+    // Offset: 0x133E9F8
+    Tweening::Tween* ResumeTween(Tweening::Tween* tween, UnityEngine::Object* owner);
     // public System.Void KillAllTweens(UnityEngine.Object owner)
-    // Offset: 0x12942EC
+    // Offset: 0x133EA28
     void KillAllTweens(UnityEngine::Object* owner);
+    // private System.Boolean AddTweenToDataStructures(Tweening.Tween tween, UnityEngine.Object owner)
+    // Offset: 0x133E8BC
+    bool AddTweenToDataStructures(Tweening::Tween* tween, UnityEngine::Object* owner);
     // private System.Void AddTweenToOwnerDictionary(Tweening.Tween tween, UnityEngine.Object owner)
-    // Offset: 0x129415C
+    // Offset: 0x133EB9C
     void AddTweenToOwnerDictionary(Tweening::Tween* tween, UnityEngine::Object* owner);
-    // public System.Void .ctor()
-    // Offset: 0x1294460
+    // protected System.Void .ctor()
+    // Offset: 0x133E430
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -128,12 +137,20 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tween
     return ::il2cpp_utils::FindMethod(classof(Tweening::TweeningManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Tweening::TweeningManager::Update
-// Il2CppName: Update
+// Writing MetadataGetter for method: Tweening::TweeningManager::LateUpdate
+// Il2CppName: LateUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::TweeningManager::*)()>(&Tweening::TweeningManager::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::TweeningManager::*)()>(&Tweening::TweeningManager::LateUpdate)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::TweeningManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Tweening::TweeningManager*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Tweening::TweeningManager::GetTime
+// Il2CppName: GetTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Tweening::TweeningManager::*)()>(&Tweening::TweeningManager::GetTime)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Tweening::TweeningManager*), "GetTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Tweening::TweeningManager::AddTween
@@ -156,6 +173,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::T
     return ::il2cpp_utils::FindMethod(classof(Tweening::TweeningManager*), "RestartTween", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tween, owner});
   }
 };
+// Writing MetadataGetter for method: Tweening::TweeningManager::ResumeTween
+// Il2CppName: ResumeTween
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::Tween* (Tweening::TweeningManager::*)(Tweening::Tween*, UnityEngine::Object*)>(&Tweening::TweeningManager::ResumeTween)> {
+  static const MethodInfo* get() {
+    static auto* tween = &::il2cpp_utils::GetClassFromName("Tweening", "Tween")->byval_arg;
+    static auto* owner = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Tweening::TweeningManager*), "ResumeTween", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tween, owner});
+  }
+};
 // Writing MetadataGetter for method: Tweening::TweeningManager::KillAllTweens
 // Il2CppName: KillAllTweens
 template<>
@@ -163,6 +190,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tween
   static const MethodInfo* get() {
     static auto* owner = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Tweening::TweeningManager*), "KillAllTweens", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{owner});
+  }
+};
+// Writing MetadataGetter for method: Tweening::TweeningManager::AddTweenToDataStructures
+// Il2CppName: AddTweenToDataStructures
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Tweening::TweeningManager::*)(Tweening::Tween*, UnityEngine::Object*)>(&Tweening::TweeningManager::AddTweenToDataStructures)> {
+  static const MethodInfo* get() {
+    static auto* tween = &::il2cpp_utils::GetClassFromName("Tweening", "Tween")->byval_arg;
+    static auto* owner = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Tweening::TweeningManager*), "AddTweenToDataStructures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tween, owner});
   }
 };
 // Writing MetadataGetter for method: Tweening::TweeningManager::AddTweenToOwnerDictionary

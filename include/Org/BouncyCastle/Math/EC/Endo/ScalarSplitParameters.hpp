@@ -84,36 +84,36 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Get instance field reference: protected readonly System.Int32 m_bits
     int& dyn_m_bits();
     // public Org.BouncyCastle.Math.BigInteger get_V1A()
-    // Offset: 0x2143FC0
+    // Offset: 0x2318FC4
     Org::BouncyCastle::Math::BigInteger* get_V1A();
     // public Org.BouncyCastle.Math.BigInteger get_V1B()
-    // Offset: 0x2143FC8
+    // Offset: 0x2318FCC
     Org::BouncyCastle::Math::BigInteger* get_V1B();
     // public Org.BouncyCastle.Math.BigInteger get_V2A()
-    // Offset: 0x2143FD0
+    // Offset: 0x2318FD4
     Org::BouncyCastle::Math::BigInteger* get_V2A();
     // public Org.BouncyCastle.Math.BigInteger get_V2B()
-    // Offset: 0x2143FD8
+    // Offset: 0x2318FDC
     Org::BouncyCastle::Math::BigInteger* get_V2B();
     // public Org.BouncyCastle.Math.BigInteger get_G1()
-    // Offset: 0x2143FE0
+    // Offset: 0x2318FE4
     Org::BouncyCastle::Math::BigInteger* get_G1();
     // public Org.BouncyCastle.Math.BigInteger get_G2()
-    // Offset: 0x2143FE8
+    // Offset: 0x2318FEC
     Org::BouncyCastle::Math::BigInteger* get_G2();
     // public System.Int32 get_Bits()
-    // Offset: 0x2143FF0
+    // Offset: 0x2318FF4
     int get_Bits();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger[] v1, Org.BouncyCastle.Math.BigInteger[] v2, Org.BouncyCastle.Math.BigInteger g1, Org.BouncyCastle.Math.BigInteger g2, System.Int32 bits)
-    // Offset: 0x2143EB8
+    // Offset: 0x2318EBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ScalarSplitParameters* New_ctor(::Array<Org::BouncyCastle::Math::BigInteger*>* v1, ::Array<Org::BouncyCastle::Math::BigInteger*>* v2, Org::BouncyCastle::Math::BigInteger* g1, Org::BouncyCastle::Math::BigInteger* g2, int bits) {
+    static ScalarSplitParameters* New_ctor(::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> v1, ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> v2, Org::BouncyCastle::Math::BigInteger* g1, Org::BouncyCastle::Math::BigInteger* g2, int bits) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScalarSplitParameters*, creationType>(v1, v2, g1, g2, bits)));
     }
     // static private System.Void CheckVector(Org.BouncyCastle.Math.BigInteger[] v, System.String name)
-    // Offset: 0x2143E0C
-    static void CheckVector(::Array<Org::BouncyCastle::Math::BigInteger*>* v, ::Il2CppString* name);
+    // Offset: 0x2318E10
+    static void CheckVector(::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> v, ::Il2CppString* name);
   }; // Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters
   #pragma pack(pop)
   static check_size<sizeof(ScalarSplitParameters), 64 + sizeof(int)> __Org_BouncyCastle_Math_EC_Endo_ScalarSplitParametersSizeCheck;
@@ -184,9 +184,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::CheckVector
 // Il2CppName: CheckVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<Org::BouncyCastle::Math::BigInteger*>*, ::Il2CppString*)>(&Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::CheckVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*>, ::Il2CppString*)>(&Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::CheckVector)> {
   static const MethodInfo* get() {
-    static auto* v = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger"), 1)->byval_arg;
+    static auto* v = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")), 1)->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*), "CheckVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v, name});
   }

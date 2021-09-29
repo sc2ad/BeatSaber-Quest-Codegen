@@ -48,15 +48,15 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Int32[] lengthA
     // Size: 0x8
     // Offset: 0x18
-    ::Array<int>* lengthA;
+    ::ArrayWrapper<int> lengthA;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // System.Int32[] lowerBoundA
     // Size: 0x8
     // Offset: 0x20
-    ::Array<int>* lowerBoundA;
+    ::ArrayWrapper<int> lowerBoundA;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum
     // Size: 0x4
     // Offset: 0x28
@@ -90,15 +90,15 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum) == 0x4);
     // Creating value type constructor for type: BinaryArray
-    BinaryArray(int objectId_ = {}, int rank_ = {}, ::Array<int>* lengthA_ = {}, ::Array<int>* lowerBoundA_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum_ = {}, ::Il2CppObject* typeInformation_ = {}, int assemId_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum_ = {}) noexcept : objectId{objectId_}, rank{rank_}, lengthA{lengthA_}, lowerBoundA{lowerBoundA_}, binaryTypeEnum{binaryTypeEnum_}, typeInformation{typeInformation_}, assemId{assemId_}, binaryHeaderEnum{binaryHeaderEnum_}, binaryArrayTypeEnum{binaryArrayTypeEnum_} {}
+    BinaryArray(int objectId_ = {}, int rank_ = {}, ::ArrayWrapper<int> lengthA_ = {}, ::ArrayWrapper<int> lowerBoundA_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum_ = {}, ::Il2CppObject* typeInformation_ = {}, int assemId_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum_ = {}) noexcept : objectId{objectId_}, rank{rank_}, lengthA{lengthA_}, lowerBoundA{lowerBoundA_}, binaryTypeEnum{binaryTypeEnum_}, typeInformation{typeInformation_}, assemId{assemId_}, binaryHeaderEnum{binaryHeaderEnum_}, binaryArrayTypeEnum{binaryArrayTypeEnum_} {}
     // Get instance field reference: System.Int32 objectId
     int& dyn_objectId();
     // Get instance field reference: System.Int32 rank
     int& dyn_rank();
     // Get instance field reference: System.Int32[] lengthA
-    ::Array<int>*& dyn_lengthA();
+    ::ArrayWrapper<int>& dyn_lengthA();
     // Get instance field reference: System.Int32[] lowerBoundA
-    ::Array<int>*& dyn_lowerBoundA();
+    ::ArrayWrapper<int>& dyn_lowerBoundA();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum
     System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum& dyn_binaryTypeEnum();
     // Get instance field reference: System.Object typeInformation
@@ -110,23 +110,23 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.BinaryArrayTypeEnum binaryArrayTypeEnum
     System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum& dyn_binaryArrayTypeEnum();
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
-    // Offset: 0x161AA60
+    // Offset: 0x17E66C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryArray* New_ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::BinaryArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryArray*, creationType>(binaryHeaderEnum)));
     }
     // System.Void Set(System.Int32 objectId, System.Int32 rank, System.Int32[] lengthA, System.Int32[] lowerBoundA, System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum, System.Object typeInformation, System.Runtime.Serialization.Formatters.Binary.BinaryArrayTypeEnum binaryArrayTypeEnum, System.Int32 assemId)
-    // Offset: 0x161AA8C
-    void Set(int objectId, int rank, ::Array<int>* lengthA, ::Array<int>* lowerBoundA, System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::Il2CppObject* typeInformation, System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum, int assemId);
+    // Offset: 0x17E66EC
+    void Set(int objectId, int rank, ::ArrayWrapper<int> lengthA, ::ArrayWrapper<int> lowerBoundA, System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::Il2CppObject* typeInformation, System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum, int assemId);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x161AAE0
+    // Offset: 0x17E6740
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x161AF58
+    // Offset: 0x17E6BB8
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // System.Void .ctor()
-    // Offset: 0x161AA58
+    // Offset: 0x17E66B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -148,12 +148,12 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::Binar
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryArray::Set
 // Il2CppName: Set
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryArray::*)(int, int, ::Array<int>*, ::Array<int>*, System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::Il2CppObject*, System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum, int)>(&System::Runtime::Serialization::Formatters::Binary::BinaryArray::Set)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryArray::*)(int, int, ::ArrayWrapper<int>, ::ArrayWrapper<int>, System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::Il2CppObject*, System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum, int)>(&System::Runtime::Serialization::Formatters::Binary::BinaryArray::Set)> {
   static const MethodInfo* get() {
     static auto* objectId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* rank = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* lengthA = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
-    static auto* lowerBoundA = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* lengthA = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* lowerBoundA = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     static auto* binaryTypeEnum = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "BinaryTypeEnum")->byval_arg;
     static auto* typeInformation = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* binaryArrayTypeEnum = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "BinaryArrayTypeEnum")->byval_arg;

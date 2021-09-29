@@ -151,9 +151,9 @@ namespace GlobalNamespace {
     // private OVRDisplay/EyeRenderDesc[] eyeDescs
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::OVRDisplay::EyeRenderDesc>* eyeDescs;
+    ::ArrayWrapper<GlobalNamespace::OVRDisplay::EyeRenderDesc> eyeDescs;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::OVRDisplay::EyeRenderDesc>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::OVRDisplay::EyeRenderDesc>) == 0x8);
     // private System.Boolean recenterRequested
     // Size: 0x1
     // Offset: 0x20
@@ -183,11 +183,11 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
     // Creating value type constructor for type: OVRDisplay
-    OVRDisplay(bool needsConfigureTexture_ = {}, ::Array<GlobalNamespace::OVRDisplay::EyeRenderDesc>* eyeDescs_ = {}, bool recenterRequested_ = {}, int recenterRequestedFrameCount_ = {}, int localTrackingSpaceRecenterCount_ = {}, System::Action* RecenteredPose_ = {}) noexcept : needsConfigureTexture{needsConfigureTexture_}, eyeDescs{eyeDescs_}, recenterRequested{recenterRequested_}, recenterRequestedFrameCount{recenterRequestedFrameCount_}, localTrackingSpaceRecenterCount{localTrackingSpaceRecenterCount_}, RecenteredPose{RecenteredPose_} {}
+    OVRDisplay(bool needsConfigureTexture_ = {}, ::ArrayWrapper<GlobalNamespace::OVRDisplay::EyeRenderDesc> eyeDescs_ = {}, bool recenterRequested_ = {}, int recenterRequestedFrameCount_ = {}, int localTrackingSpaceRecenterCount_ = {}, System::Action* RecenteredPose_ = {}) noexcept : needsConfigureTexture{needsConfigureTexture_}, eyeDescs{eyeDescs_}, recenterRequested{recenterRequested_}, recenterRequestedFrameCount{recenterRequestedFrameCount_}, localTrackingSpaceRecenterCount{localTrackingSpaceRecenterCount_}, RecenteredPose{RecenteredPose_} {}
     // Get instance field reference: private System.Boolean needsConfigureTexture
     bool& dyn_needsConfigureTexture();
     // Get instance field reference: private OVRDisplay/EyeRenderDesc[] eyeDescs
-    ::Array<GlobalNamespace::OVRDisplay::EyeRenderDesc>*& dyn_eyeDescs();
+    ::ArrayWrapper<GlobalNamespace::OVRDisplay::EyeRenderDesc>& dyn_eyeDescs();
     // Get instance field reference: private System.Boolean recenterRequested
     bool& dyn_recenterRequested();
     // Get instance field reference: private System.Int32 recenterRequestedFrameCount
@@ -197,58 +197,58 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action RecenteredPose
     System::Action*& dyn_RecenteredPose();
     // public UnityEngine.Vector3 get_acceleration()
-    // Offset: 0x12B6D28
+    // Offset: 0x13C003C
     UnityEngine::Vector3 get_acceleration();
     // public UnityEngine.Vector3 get_angularAcceleration()
-    // Offset: 0x12B6E54
+    // Offset: 0x13C0168
     UnityEngine::Vector3 get_angularAcceleration();
     // public UnityEngine.Vector3 get_velocity()
-    // Offset: 0x12B6F80
+    // Offset: 0x13C0294
     UnityEngine::Vector3 get_velocity();
     // public UnityEngine.Vector3 get_angularVelocity()
-    // Offset: 0x12B70AC
+    // Offset: 0x13C03C0
     UnityEngine::Vector3 get_angularVelocity();
     // public OVRDisplay/LatencyData get_latency()
-    // Offset: 0x12B71D8
+    // Offset: 0x13C04EC
     GlobalNamespace::OVRDisplay::LatencyData get_latency();
     // public System.Single get_appFramerate()
-    // Offset: 0x12B73A4
+    // Offset: 0x13C06B8
     float get_appFramerate();
     // public System.Int32 get_recommendedMSAALevel()
-    // Offset: 0x12B7440
+    // Offset: 0x13C0754
     int get_recommendedMSAALevel();
     // public System.Single[] get_displayFrequenciesAvailable()
-    // Offset: 0x12B74AC
-    ::Array<float>* get_displayFrequenciesAvailable();
+    // Offset: 0x13C07C0
+    ::ArrayWrapper<float> get_displayFrequenciesAvailable();
     // public System.Single get_displayFrequency()
-    // Offset: 0x12B750C
+    // Offset: 0x13C0820
     float get_displayFrequency();
     // public System.Void set_displayFrequency(System.Single value)
-    // Offset: 0x12B756C
+    // Offset: 0x13C0880
     void set_displayFrequency(float value);
     // public System.Void add_RecenteredPose(System.Action value)
-    // Offset: 0x12B6B64
+    // Offset: 0x13BFE78
     void add_RecenteredPose(System::Action* value);
     // public System.Void remove_RecenteredPose(System.Action value)
-    // Offset: 0x12B6C08
+    // Offset: 0x13BFF1C
     void remove_RecenteredPose(System::Action* value);
     // public System.Void Update()
-    // Offset: 0x12B69D0
+    // Offset: 0x13BFCE4
     void Update();
     // public System.Void RecenterPose()
-    // Offset: 0x12B6CAC
+    // Offset: 0x13BFFC0
     void RecenterPose();
     // public OVRDisplay/EyeRenderDesc GetEyeRenderDesc(UnityEngine.XR.XRNode eye)
-    // Offset: 0x12B68C8
+    // Offset: 0x13BFBDC
     GlobalNamespace::OVRDisplay::EyeRenderDesc GetEyeRenderDesc(UnityEngine::XR::XRNode eye);
     // private System.Void UpdateTextures()
-    // Offset: 0x12B69A4
+    // Offset: 0x13BFCB8
     void UpdateTextures();
     // private System.Void ConfigureEyeDesc(UnityEngine.XR.XRNode eye)
-    // Offset: 0x12B75DC
+    // Offset: 0x13C08F0
     void ConfigureEyeDesc(UnityEngine::XR::XRNode eye);
     // public System.Void .ctor()
-    // Offset: 0x12B6924
+    // Offset: 0x13BFC38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -324,7 +324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::OVRDisplay::get_displayFrequenciesAvailable
 // Il2CppName: get_displayFrequenciesAvailable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (GlobalNamespace::OVRDisplay::*)()>(&GlobalNamespace::OVRDisplay::get_displayFrequenciesAvailable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<float> (GlobalNamespace::OVRDisplay::*)()>(&GlobalNamespace::OVRDisplay::get_displayFrequenciesAvailable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRDisplay*), "get_displayFrequenciesAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TubeLightIntensityBehaviour : public UnityEngine::Playables::PlayableBehaviour {
     public:
-    // [HeaderAttribute] Offset: 0xE4BCF8
+    // [HeaderAttribute] Offset: 0xF14904
     // public System.Boolean _noPredefinedStartValue
     // Size: 0x1
     // Offset: 0x10
@@ -45,21 +45,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: noPredefinedStartValue and: startLightIntensity
     char __padding0[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xE4BD30
+    // [DrawIfAttribute] Offset: 0xF1493C
     // public System.Single _startLightIntensity
     // Size: 0x4
     // Offset: 0x14
     float startLightIntensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0xE4BDC4
+    // [DrawIfAttribute] Offset: 0xF149D0
     // public System.Single _startLaserIntensity
     // Size: 0x4
     // Offset: 0x18
     float startLaserIntensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xE4BE58
+    // [HeaderAttribute] Offset: 0xF14A64
     // public System.Single _endLightIntensity
     // Size: 0x4
     // Offset: 0x1C
@@ -109,15 +109,15 @@ namespace GlobalNamespace {
     // private TubeBloomPrePassLight[] _tubeLights
     // Size: 0x8
     // Offset: 0x38
-    ::Array<GlobalNamespace::TubeBloomPrePassLight*>* tubeLights;
+    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> tubeLights;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::TubeBloomPrePassLight*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
     // private DirectionalLight[] _directionalLights
     // Size: 0x8
     // Offset: 0x40
-    ::Array<GlobalNamespace::DirectionalLight*>* directionalLights;
+    ::ArrayWrapper<GlobalNamespace::DirectionalLight*> directionalLights;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::DirectionalLight*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::DirectionalLight*>) == 0x8);
     // private System.Boolean _started
     // Size: 0x1
     // Offset: 0x48
@@ -145,7 +145,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: TubeLightIntensityBehaviour
-    TubeLightIntensityBehaviour(bool noPredefinedStartValue_ = {}, float startLightIntensity_ = {}, float startLaserIntensity_ = {}, float endLightIntensity_ = {}, float endLaserIntensity_ = {}, bool disableWhenFinished_ = {}, float blend_ = {}, bool initialized_ = {}, float originalLightIntensity_ = {}, float originalLaserIntensity_ = {}, ::Array<GlobalNamespace::TubeBloomPrePassLight*>* tubeLights_ = {}, ::Array<GlobalNamespace::DirectionalLight*>* directionalLights_ = {}, bool started_ = {}, bool finished_ = {}, float firstFrameLightIntensity_ = {}, float firstFrameLaserIntensity_ = {}) noexcept : noPredefinedStartValue{noPredefinedStartValue_}, startLightIntensity{startLightIntensity_}, startLaserIntensity{startLaserIntensity_}, endLightIntensity{endLightIntensity_}, endLaserIntensity{endLaserIntensity_}, disableWhenFinished{disableWhenFinished_}, blend{blend_}, initialized{initialized_}, originalLightIntensity{originalLightIntensity_}, originalLaserIntensity{originalLaserIntensity_}, tubeLights{tubeLights_}, directionalLights{directionalLights_}, started{started_}, finished{finished_}, firstFrameLightIntensity{firstFrameLightIntensity_}, firstFrameLaserIntensity{firstFrameLaserIntensity_} {}
+    TubeLightIntensityBehaviour(bool noPredefinedStartValue_ = {}, float startLightIntensity_ = {}, float startLaserIntensity_ = {}, float endLightIntensity_ = {}, float endLaserIntensity_ = {}, bool disableWhenFinished_ = {}, float blend_ = {}, bool initialized_ = {}, float originalLightIntensity_ = {}, float originalLaserIntensity_ = {}, ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> tubeLights_ = {}, ::ArrayWrapper<GlobalNamespace::DirectionalLight*> directionalLights_ = {}, bool started_ = {}, bool finished_ = {}, float firstFrameLightIntensity_ = {}, float firstFrameLaserIntensity_ = {}) noexcept : noPredefinedStartValue{noPredefinedStartValue_}, startLightIntensity{startLightIntensity_}, startLaserIntensity{startLaserIntensity_}, endLightIntensity{endLightIntensity_}, endLaserIntensity{endLaserIntensity_}, disableWhenFinished{disableWhenFinished_}, blend{blend_}, initialized{initialized_}, originalLightIntensity{originalLightIntensity_}, originalLaserIntensity{originalLaserIntensity_}, tubeLights{tubeLights_}, directionalLights{directionalLights_}, started{started_}, finished{finished_}, firstFrameLightIntensity{firstFrameLightIntensity_}, firstFrameLaserIntensity{firstFrameLaserIntensity_} {}
     // Get instance field reference: public System.Boolean _noPredefinedStartValue
     bool& dyn__noPredefinedStartValue();
     // Get instance field reference: public System.Single _startLightIntensity
@@ -167,9 +167,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _originalLaserIntensity
     float& dyn__originalLaserIntensity();
     // Get instance field reference: private TubeBloomPrePassLight[] _tubeLights
-    ::Array<GlobalNamespace::TubeBloomPrePassLight*>*& dyn__tubeLights();
+    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>& dyn__tubeLights();
     // Get instance field reference: private DirectionalLight[] _directionalLights
-    ::Array<GlobalNamespace::DirectionalLight*>*& dyn__directionalLights();
+    ::ArrayWrapper<GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
     // Get instance field reference: private System.Boolean _started
     bool& dyn__started();
     // Get instance field reference: private System.Boolean _finished
@@ -179,10 +179,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _firstFrameLaserIntensity
     float& dyn__firstFrameLaserIntensity();
     // private System.Void EnableObjects(System.Boolean on)
-    // Offset: 0x107522C
+    // Offset: 0x1163BB4
     void EnableObjects(bool on);
     // public System.Void .ctor()
-    // Offset: 0x1075408
+    // Offset: 0x1163D90
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -192,12 +192,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TubeLightIntensityBehaviour*, creationType>()));
     }
     // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x1074E74
+    // Offset: 0x11637FC
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
     // public override System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    // Offset: 0x107530C
+    // Offset: 0x1163C94
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
     void OnPlayableDestroy(UnityEngine::Playables::Playable playable);

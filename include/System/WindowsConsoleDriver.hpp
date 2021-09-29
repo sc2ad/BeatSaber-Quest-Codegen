@@ -66,22 +66,22 @@ namespace System {
     // Get instance field reference: private System.Int16 defaultAttribute
     int16_t& dyn_defaultAttribute();
     // public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
-    // Offset: 0x232F364
+    // Offset: 0x2539450
     System::ConsoleKeyInfo ReadKey(bool intercept);
     // static private System.Boolean IsModifierKey(System.Int16 virtualKeyCode)
-    // Offset: 0x232F5CC
+    // Offset: 0x25396B8
     static bool IsModifierKey(int16_t virtualKeyCode);
     // static private System.IntPtr GetStdHandle(System.Handles handle)
-    // Offset: 0x232F23C
+    // Offset: 0x2539328
     static System::IntPtr GetStdHandle(System::Handles handle);
     // static private System.Boolean GetConsoleScreenBufferInfo(System.IntPtr handle, out System.ConsoleScreenBufferInfo info)
-    // Offset: 0x232F2C4
+    // Offset: 0x25393B0
     static bool GetConsoleScreenBufferInfo(System::IntPtr handle, ByRef<System::ConsoleScreenBufferInfo> info);
     // static private System.Boolean ReadConsoleInput(System.IntPtr handle, out System.InputRecord record, System.Int32 length, out System.Int32 nread)
-    // Offset: 0x232F4DC
+    // Offset: 0x25395C8
     static bool ReadConsoleInput(System::IntPtr handle, ByRef<System::InputRecord> record, int length, ByRef<int> nread);
     // public System.Void .ctor()
-    // Offset: 0x232F1DC
+    // Offset: 0x25392C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

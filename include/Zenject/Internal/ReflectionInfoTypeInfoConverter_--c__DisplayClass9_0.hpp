@@ -49,13 +49,13 @@ namespace Zenject::Internal {
     // Get instance field reference: public System.Reflection.PropertyInfo propInfo
     System::Reflection::PropertyInfo*& dyn_propInfo();
     // System.Void <GetSetter>b__0(System.Object injectable, System.Object value)
-    // Offset: 0x166BCD0
+    // Offset: 0x1836074
     void $GetSetter$b__0(::Il2CppObject* injectable, ::Il2CppObject* value);
     // System.Void <GetSetter>b__1(System.Object injectable, System.Object value)
-    // Offset: 0x166BCEC
+    // Offset: 0x1836090
     void $GetSetter$b__1(::Il2CppObject* injectable, ::Il2CppObject* value);
     // public System.Void .ctor()
-    // Offset: 0x166B9C0
+    // Offset: 0x1835D64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

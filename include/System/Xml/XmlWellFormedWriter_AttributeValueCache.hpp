@@ -53,9 +53,9 @@ namespace System::Xml {
     // private System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.Item[] items
     // Size: 0x8
     // Offset: 0x20
-    ::Array<System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*>* items;
+    ::ArrayWrapper<System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*> items;
     // Field size check
-    static_assert(sizeof(::Array<System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*>) == 0x8);
     // private System.Int32 firstItem
     // Size: 0x4
     // Offset: 0x28
@@ -69,64 +69,64 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: AttributeValueCache
-    AttributeValueCache(System::Text::StringBuilder* stringValue_ = {}, ::Il2CppString* singleStringValue_ = {}, ::Array<System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*>* items_ = {}, int firstItem_ = {}, int lastItem_ = {}) noexcept : stringValue{stringValue_}, singleStringValue{singleStringValue_}, items{items_}, firstItem{firstItem_}, lastItem{lastItem_} {}
+    AttributeValueCache(System::Text::StringBuilder* stringValue_ = {}, ::Il2CppString* singleStringValue_ = {}, ::ArrayWrapper<System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*> items_ = {}, int firstItem_ = {}, int lastItem_ = {}) noexcept : stringValue{stringValue_}, singleStringValue{singleStringValue_}, items{items_}, firstItem{firstItem_}, lastItem{lastItem_} {}
     // Get instance field reference: private System.Text.StringBuilder stringValue
     System::Text::StringBuilder*& dyn_stringValue();
     // Get instance field reference: private System.String singleStringValue
     ::Il2CppString*& dyn_singleStringValue();
     // Get instance field reference: private System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.Item[] items
-    ::Array<System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*>*& dyn_items();
+    ::ArrayWrapper<System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*>& dyn_items();
     // Get instance field reference: private System.Int32 firstItem
     int& dyn_firstItem();
     // Get instance field reference: private System.Int32 lastItem
     int& dyn_lastItem();
     // System.String get_StringValue()
-    // Offset: 0x23EB2D4
+    // Offset: 0x25F5564
     ::Il2CppString* get_StringValue();
     // System.Void WriteEntityRef(System.String name)
-    // Offset: 0x23EB304
+    // Offset: 0x25F5594
     void WriteEntityRef(::Il2CppString* name);
     // System.Void WriteCharEntity(System.Char ch)
-    // Offset: 0x23EB640
+    // Offset: 0x25F58D0
     void WriteCharEntity(::Il2CppChar ch);
     // System.Void WriteSurrogateCharEntity(System.Char lowChar, System.Char highChar)
-    // Offset: 0x23EB6DC
+    // Offset: 0x25F596C
     void WriteSurrogateCharEntity(::Il2CppChar lowChar, ::Il2CppChar highChar);
     // System.Void WriteWhitespace(System.String ws)
-    // Offset: 0x23EB7B0
+    // Offset: 0x25F5A40
     void WriteWhitespace(::Il2CppString* ws);
     // System.Void WriteString(System.String text)
-    // Offset: 0x23EB804
+    // Offset: 0x25F5A94
     void WriteString(::Il2CppString* text);
     // System.Void WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x23EB878
-    void WriteChars(::Array<::Il2CppChar>* buffer, int index, int count);
+    // Offset: 0x25F5B08
+    void WriteChars(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
     // System.Void WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x23EB974
-    void WriteRaw(::Array<::Il2CppChar>* buffer, int index, int count);
+    // Offset: 0x25F5C04
+    void WriteRaw(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
     // System.Void WriteRaw(System.String data)
-    // Offset: 0x23EBA30
+    // Offset: 0x25F5CC0
     void WriteRaw(::Il2CppString* data);
     // System.Void WriteValue(System.String value)
-    // Offset: 0x23EBA84
+    // Offset: 0x25F5D14
     void WriteValue(::Il2CppString* value);
     // System.Void Replay(System.Xml.XmlWriter writer)
-    // Offset: 0x23EBAD8
+    // Offset: 0x25F5D68
     void Replay(System::Xml::XmlWriter* writer);
     // System.Void Trim()
-    // Offset: 0x23EBDE4
+    // Offset: 0x25F6074
     void Trim();
     // System.Void Clear()
-    // Offset: 0x23EC258
+    // Offset: 0x25F64E8
     void Clear();
     // private System.Void StartComplexValue()
-    // Offset: 0x23EB480
+    // Offset: 0x25F5710
     void StartComplexValue();
     // private System.Void AddItem(System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType type, System.Object data)
-    // Offset: 0x23EB4C8
+    // Offset: 0x25F5758
     void AddItem(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType type, ::Il2CppObject* data);
     // public System.Void .ctor()
-    // Offset: 0x23EC29C
+    // Offset: 0x25F652C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -198,9 +198,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::AttributeValueCache::WriteChars
 // Il2CppName: WriteChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::AttributeValueCache::*)(::Array<::Il2CppChar>*, int, int)>(&System::Xml::XmlWellFormedWriter::AttributeValueCache::WriteChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::AttributeValueCache::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Xml::XmlWellFormedWriter::AttributeValueCache::WriteChars)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter::AttributeValueCache*), "WriteChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index, count});
@@ -209,9 +209,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::AttributeValueCache::WriteRaw
 // Il2CppName: WriteRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::AttributeValueCache::*)(::Array<::Il2CppChar>*, int, int)>(&System::Xml::XmlWellFormedWriter::AttributeValueCache::WriteRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::AttributeValueCache::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Xml::XmlWellFormedWriter::AttributeValueCache::WriteRaw)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter::AttributeValueCache*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index, count});

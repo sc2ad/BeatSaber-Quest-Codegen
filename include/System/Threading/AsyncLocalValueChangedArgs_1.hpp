@@ -6,6 +6,10 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: System.Threading
 namespace System::Threading {
@@ -16,17 +20,17 @@ namespace System::Threading {
   template<typename T>
   struct AsyncLocalValueChangedArgs_1/*, public System::ValueType*/ {
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xDA706C
+    // [CompilerGeneratedAttribute] Offset: 0xE63890
     // private T <PreviousValue>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T PreviousValue;
-    // [CompilerGeneratedAttribute] Offset: 0xDA707C
+    // [CompilerGeneratedAttribute] Offset: 0xE638A0
     // private T <CurrentValue>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T CurrentValue;
-    // [CompilerGeneratedAttribute] Offset: 0xDA708C
+    // [CompilerGeneratedAttribute] Offset: 0xE638B0
     // private System.Boolean <ThreadContextChanged>k__BackingField
     // Size: 0x1
     // Offset: 0x0
@@ -63,9 +67,40 @@ namespace System::Threading {
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<ThreadContextChanged>k__BackingField"))->offset;
       return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
+    // private System.Void set_PreviousValue(T value)
+    // Offset: 0xFFFFFFFF
+    void set_PreviousValue(T value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AsyncLocalValueChangedArgs_1::set_PreviousValue");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "set_PreviousValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
+    }
+    // public T get_CurrentValue()
+    // Offset: 0xFFFFFFFF
+    T get_CurrentValue() {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AsyncLocalValueChangedArgs_1::get_CurrentValue");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_CurrentValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(*this, ___internal__method);
+    }
+    // private System.Void set_CurrentValue(T value)
+    // Offset: 0xFFFFFFFF
+    void set_CurrentValue(T value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AsyncLocalValueChangedArgs_1::set_CurrentValue");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "set_CurrentValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
+    }
+    // private System.Void set_ThreadContextChanged(System.Boolean value)
+    // Offset: 0xFFFFFFFF
+    void set_ThreadContextChanged(bool value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::AsyncLocalValueChangedArgs_1::set_ThreadContextChanged");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "set_ThreadContextChanged", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
+    }
+    // System.Void .ctor(T previousValue, T currentValue, System.Boolean contextChanged)
+    // Offset: 0xFFFFFFFF
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: conflicts with another method.  AsyncLocalValueChangedArgs_1(T previousValue, T currentValue, bool contextChanged)
   }; // System.Threading.AsyncLocalValueChangedArgs`1
   // Could not write size check! Type: System.Threading.AsyncLocalValueChangedArgs`1 is generic, or has no fields that are valid for size checks!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Threading::AsyncLocalValueChangedArgs_1, "System.Threading", "AsyncLocalValueChangedArgs`1");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

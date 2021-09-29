@@ -102,36 +102,36 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BitMaskSparse _bloomFilter
     GlobalNamespace::BitMaskSparse*& dyn__bloomFilter();
     // public System.Void .ctor(System.String level)
-    // Offset: 0x2371B2C
+    // Offset: 0x256D38C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelMask* New_ctor(::Il2CppString* level) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelMask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelMask*, creationType>(level)));
     }
     // public System.Void .ctor(System.Collections.Generic.HashSet`1<System.String> levelSet)
-    // Offset: 0x2371BC0
+    // Offset: 0x256D420
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelMask* New_ctor(System::Collections::Generic::HashSet_1<::Il2CppString*>* levelSet) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelMask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelMask*, creationType>(levelSet)));
     }
     // public System.Boolean Contains(System.String state)
-    // Offset: 0x2371CF8
+    // Offset: 0x256D558
     bool Contains(::Il2CppString* state);
     // public System.Void AddLevel(System.String state)
-    // Offset: 0x2371D60
+    // Offset: 0x256D5C0
     void AddLevel(::Il2CppString* state);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2371DC8
+    // Offset: 0x256D628
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2371F2C
+    // Offset: 0x256D78C
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(BeatmapLevelMask other)
-    // Offset: 0x2372064
+    // Offset: 0x256D8C4
     bool Equals(GlobalNamespace::BeatmapLevelMask* other);
     // public System.Void .ctor()
-    // Offset: 0x2371A40
+    // Offset: 0x256D2A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -140,17 +140,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelMask*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x2371FE4
+    // Offset: 0x256D844
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2372044
+    // Offset: 0x256D8A4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2372084
+    // Offset: 0x256D8E4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

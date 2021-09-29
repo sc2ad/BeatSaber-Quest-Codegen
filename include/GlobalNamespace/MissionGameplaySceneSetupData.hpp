@@ -38,9 +38,9 @@ namespace GlobalNamespace {
     // public readonly MissionObjective[] missionObjectives
     // Size: 0x8
     // Offset: 0x10
-    ::Array<GlobalNamespace::MissionObjective*>* missionObjectives;
+    ::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MissionObjective*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionObjective*>) == 0x8);
     // public readonly System.Boolean autoRestart
     // Size: 0x1
     // Offset: 0x18
@@ -82,9 +82,9 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: MissionGameplaySceneSetupData
-    MissionGameplaySceneSetupData(::Array<GlobalNamespace::MissionObjective*>* missionObjectives_ = {}, bool autoRestart_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}, ::Il2CppString* backButtonText_ = {}) noexcept : missionObjectives{missionObjectives_}, autoRestart{autoRestart_}, previewBeatmapLevel{previewBeatmapLevel_}, beatmapDifficulty{beatmapDifficulty_}, beatmapCharacteristic{beatmapCharacteristic_}, gameplayModifiers{gameplayModifiers_}, backButtonText{backButtonText_} {}
+    MissionGameplaySceneSetupData(::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives_ = {}, bool autoRestart_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}, ::Il2CppString* backButtonText_ = {}) noexcept : missionObjectives{missionObjectives_}, autoRestart{autoRestart_}, previewBeatmapLevel{previewBeatmapLevel_}, beatmapDifficulty{beatmapDifficulty_}, beatmapCharacteristic{beatmapCharacteristic_}, gameplayModifiers{gameplayModifiers_}, backButtonText{backButtonText_} {}
     // Get instance field reference: public readonly MissionObjective[] missionObjectives
-    ::Array<GlobalNamespace::MissionObjective*>*& dyn_missionObjectives();
+    ::ArrayWrapper<GlobalNamespace::MissionObjective*>& dyn_missionObjectives();
     // Get instance field reference: public readonly System.Boolean autoRestart
     bool& dyn_autoRestart();
     // Get instance field reference: public readonly IPreviewBeatmapLevel previewBeatmapLevel
@@ -98,9 +98,9 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.String backButtonText
     ::Il2CppString*& dyn_backButtonText();
     // public System.Void .ctor(MissionObjective[] missionObjectives, System.Boolean autoRestart, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, GameplayModifiers gameplayModifiers, System.String backButtonText)
-    // Offset: 0x113E274
+    // Offset: 0x1185404
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MissionGameplaySceneSetupData* New_ctor(::Array<GlobalNamespace::MissionObjective*>* missionObjectives, bool autoRestart, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::GameplayModifiers* gameplayModifiers, ::Il2CppString* backButtonText) {
+    static MissionGameplaySceneSetupData* New_ctor(::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives, bool autoRestart, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::GameplayModifiers* gameplayModifiers, ::Il2CppString* backButtonText) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionGameplaySceneSetupData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionGameplaySceneSetupData*, creationType>(missionObjectives, autoRestart, previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic, gameplayModifiers, backButtonText)));
     }

@@ -70,10 +70,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__1
     System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x11A769C
+    // Offset: 0x1266FDC
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x11A7A1C
+    // Offset: 0x126735C
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServerQuickPlaySetupModel/<GetQuickPlaySetupInternal>d__10
   // WARNING Not writing size check since size may be invalid!

@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SharedCoroutineStarter
     SharedCoroutineStarter() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x2393638
+    // Offset: 0x2599530
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

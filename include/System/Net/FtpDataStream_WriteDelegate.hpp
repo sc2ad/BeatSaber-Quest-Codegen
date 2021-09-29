@@ -34,20 +34,20 @@ namespace System::Net {
     // Creating value type constructor for type: WriteDelegate
     WriteDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16E80D4
+    // Offset: 0x15823C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpDataStream::WriteDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FtpDataStream::WriteDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpDataStream::WriteDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x16E8A4C
-    void Invoke(::Array<uint8_t>* buffer, int offset, int size);
+    // Offset: 0x1582D38
+    void Invoke(::ArrayWrapper<uint8_t> buffer, int offset, int size);
     // public System.IAsyncResult BeginInvoke(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16E80E4
-    System::IAsyncResult* BeginInvoke(::Array<uint8_t>* buffer, int offset, int size, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x15823D0
+    System::IAsyncResult* BeginInvoke(::ArrayWrapper<uint8_t> buffer, int offset, int size, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16E82B8
+    // Offset: 0x15825A4
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Net.FtpDataStream/System.Net.WriteDelegate
   #pragma pack(pop)
@@ -61,9 +61,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpDataStream::WriteDelegate*, "System.Net",
 // Writing MetadataGetter for method: System::Net::FtpDataStream::WriteDelegate::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpDataStream::WriteDelegate::*)(::Array<uint8_t>*, int, int)>(&System::Net::FtpDataStream::WriteDelegate::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpDataStream::WriteDelegate::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Net::FtpDataStream::WriteDelegate::Invoke)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::FtpDataStream::WriteDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, offset, size});
@@ -72,9 +72,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::FtpDataStream::WriteDelegate::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::FtpDataStream::WriteDelegate::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::FtpDataStream::WriteDelegate::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::FtpDataStream::WriteDelegate::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::FtpDataStream::WriteDelegate::BeginInvoke)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;

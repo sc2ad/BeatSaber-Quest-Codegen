@@ -41,11 +41,11 @@ namespace GlobalNamespace {
     // private readonly IDifficultyBeatmapSet[] <difficultyBeatmapSets>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* difficultyBeatmapSets;
+    ::ArrayWrapper<GlobalNamespace::IDifficultyBeatmapSet*> difficultyBeatmapSets;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::IDifficultyBeatmapSet*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::IDifficultyBeatmapSet*>) == 0x8);
     // Creating value type constructor for type: EmptyBeatmapLevelData
-    EmptyBeatmapLevelData(UnityEngine::AudioClip* audioClip_ = {}, ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* difficultyBeatmapSets_ = {}) noexcept : audioClip{audioClip_}, difficultyBeatmapSets{difficultyBeatmapSets_} {}
+    EmptyBeatmapLevelData(UnityEngine::AudioClip* audioClip_ = {}, ::ArrayWrapper<GlobalNamespace::IDifficultyBeatmapSet*> difficultyBeatmapSets_ = {}) noexcept : audioClip{audioClip_}, difficultyBeatmapSets{difficultyBeatmapSets_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapLevelData
     operator GlobalNamespace::IBeatmapLevelData() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevelData*>(this);
@@ -53,15 +53,15 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly UnityEngine.AudioClip <audioClip>k__BackingField
     UnityEngine::AudioClip*& dyn_$audioClip$k__BackingField();
     // Get instance field reference: private readonly IDifficultyBeatmapSet[] <difficultyBeatmapSets>k__BackingField
-    ::Array<GlobalNamespace::IDifficultyBeatmapSet*>*& dyn_$difficultyBeatmapSets$k__BackingField();
+    ::ArrayWrapper<GlobalNamespace::IDifficultyBeatmapSet*>& dyn_$difficultyBeatmapSets$k__BackingField();
     // public UnityEngine.AudioClip get_audioClip()
-    // Offset: 0x1055ED4
+    // Offset: 0x11AECBC
     UnityEngine::AudioClip* get_audioClip();
     // public IDifficultyBeatmapSet[] get_difficultyBeatmapSets()
-    // Offset: 0x1055EDC
-    ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
+    // Offset: 0x11AECC4
+    ::ArrayWrapper<GlobalNamespace::IDifficultyBeatmapSet*> get_difficultyBeatmapSets();
     // public System.Void .ctor()
-    // Offset: 0x1055ECC
+    // Offset: 0x11AECB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     }
   }; // EmptyBeatmapLevelData
   #pragma pack(pop)
-  static check_size<sizeof(EmptyBeatmapLevelData), 24 + sizeof(::Array<GlobalNamespace::IDifficultyBeatmapSet*>*)> __GlobalNamespace_EmptyBeatmapLevelDataSizeCheck;
+  static check_size<sizeof(EmptyBeatmapLevelData), 24 + sizeof(::ArrayWrapper<GlobalNamespace::IDifficultyBeatmapSet*>)> __GlobalNamespace_EmptyBeatmapLevelDataSizeCheck;
   static_assert(sizeof(EmptyBeatmapLevelData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EmptyBeatmapLevelData*, "", "EmptyBeatmapLevelData");
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::EmptyBeatmapLevelData::get_difficultyBeatmapSets
 // Il2CppName: get_difficultyBeatmapSets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::IDifficultyBeatmapSet*>* (GlobalNamespace::EmptyBeatmapLevelData::*)()>(&GlobalNamespace::EmptyBeatmapLevelData::get_difficultyBeatmapSets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::IDifficultyBeatmapSet*> (GlobalNamespace::EmptyBeatmapLevelData::*)()>(&GlobalNamespace::EmptyBeatmapLevelData::get_difficultyBeatmapSets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EmptyBeatmapLevelData*), "get_difficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

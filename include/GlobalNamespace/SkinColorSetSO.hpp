@@ -30,20 +30,20 @@ namespace GlobalNamespace {
     // private SkinColorSO[] _colors
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::SkinColorSO*>* colors;
+    ::ArrayWrapper<GlobalNamespace::SkinColorSO*> colors;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::SkinColorSO*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SkinColorSO*>) == 0x8);
     // Creating value type constructor for type: SkinColorSetSO
-    SkinColorSetSO(::Array<GlobalNamespace::SkinColorSO*>* colors_ = {}) noexcept : colors{colors_} {}
+    SkinColorSetSO(::ArrayWrapper<GlobalNamespace::SkinColorSO*> colors_ = {}) noexcept : colors{colors_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private SkinColorSO[] _colors
-    ::Array<GlobalNamespace::SkinColorSO*>*& dyn__colors();
+    ::ArrayWrapper<GlobalNamespace::SkinColorSO*>& dyn__colors();
     // public SkinColorSO[] get_colors()
-    // Offset: 0x109A618
-    ::Array<GlobalNamespace::SkinColorSO*>* get_colors();
+    // Offset: 0x110904C
+    ::ArrayWrapper<GlobalNamespace::SkinColorSO*> get_colors();
     // public System.Void .ctor()
-    // Offset: 0x109A620
+    // Offset: 0x1109054
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     }
   }; // SkinColorSetSO
   #pragma pack(pop)
-  static check_size<sizeof(SkinColorSetSO), 24 + sizeof(::Array<GlobalNamespace::SkinColorSO*>*)> __GlobalNamespace_SkinColorSetSOSizeCheck;
+  static check_size<sizeof(SkinColorSetSO), 24 + sizeof(::ArrayWrapper<GlobalNamespace::SkinColorSO*>)> __GlobalNamespace_SkinColorSetSOSizeCheck;
   static_assert(sizeof(SkinColorSetSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SkinColorSetSO*, "", "SkinColorSetSO");
@@ -64,7 +64,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SkinColorSetSO*, "", "SkinColorSetSO");
 // Writing MetadataGetter for method: GlobalNamespace::SkinColorSetSO::get_colors
 // Il2CppName: get_colors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::SkinColorSO*>* (GlobalNamespace::SkinColorSetSO::*)()>(&GlobalNamespace::SkinColorSetSO::get_colors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::SkinColorSO*> (GlobalNamespace::SkinColorSetSO::*)()>(&GlobalNamespace::SkinColorSetSO::get_colors)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SkinColorSetSO*), "get_colors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

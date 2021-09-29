@@ -40,14 +40,14 @@ namespace GlobalNamespace {
     GlobalNamespace::AudioManagerSO* audioManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioManagerSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE40404
+    // [InjectAttribute] Offset: 0xF08D98
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE40414
+    // [InjectAttribute] Offset: 0xF08DA8
     // private readonly DataModels.Levels.PerceivedLoudnessPerLevelModel _beatmapLoudnessModel
     // Size: 0x8
     // Offset: 0x30
@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly DataModels.Levels.PerceivedLoudnessPerLevelModel _beatmapLoudnessModel
     DataModels::Levels::PerceivedLoudnessPerLevelModel*& dyn__beatmapLoudnessModel();
     // public System.Void .ctor()
-    // Offset: 0x108782C
+    // Offset: 0x1176E88
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -78,7 +78,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalInactivePlayerInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x108730C
+    // Offset: 0x1176968
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

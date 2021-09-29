@@ -21,9 +21,9 @@ namespace System::Security::Util {
     // System.String[] m_block
     // Size: 0x8
     // Offset: 0x10
-    ::Array<::Il2CppString*>* m_block;
+    ::ArrayWrapper<::Il2CppString*> m_block;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // System.Security.Util.TokenizerStringBlock m_next
     // Size: 0x8
     // Offset: 0x18
@@ -31,13 +31,13 @@ namespace System::Security::Util {
     // Field size check
     static_assert(sizeof(System::Security::Util::TokenizerStringBlock*) == 0x8);
     // Creating value type constructor for type: TokenizerStringBlock
-    TokenizerStringBlock(::Array<::Il2CppString*>* m_block_ = {}, System::Security::Util::TokenizerStringBlock* m_next_ = {}) noexcept : m_block{m_block_}, m_next{m_next_} {}
+    TokenizerStringBlock(::ArrayWrapper<::Il2CppString*> m_block_ = {}, System::Security::Util::TokenizerStringBlock* m_next_ = {}) noexcept : m_block{m_block_}, m_next{m_next_} {}
     // Get instance field reference: System.String[] m_block
-    ::Array<::Il2CppString*>*& dyn_m_block();
+    ::ArrayWrapper<::Il2CppString*>& dyn_m_block();
     // Get instance field reference: System.Security.Util.TokenizerStringBlock m_next
     System::Security::Util::TokenizerStringBlock*& dyn_m_next();
     // public System.Void .ctor()
-    // Offset: 0x1C2EE60
+    // Offset: 0x1DE6CC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

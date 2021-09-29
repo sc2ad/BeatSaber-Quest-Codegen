@@ -60,20 +60,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _accum
     float& dyn__accum();
     // public AveragingValueRecorder get_averagingValueRecorer()
-    // Offset: 0x11C26E4
+    // Offset: 0x1208D64
     GlobalNamespace::AveragingValueRecorder* get_averagingValueRecorer();
     // public System.Void .ctor(System.Single averageWindowDuration, System.Single historyValuesPerSecond, System.Single increaseSpeed, System.Single decreaseSpeed)
-    // Offset: 0x11C26EC
+    // Offset: 0x1208D6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MovementHistoryRecorder* New_ctor(float averageWindowDuration, float historyValuesPerSecond, float increaseSpeed, float decreaseSpeed) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MovementHistoryRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MovementHistoryRecorder*, creationType>(averageWindowDuration, historyValuesPerSecond, increaseSpeed, decreaseSpeed)));
     }
     // public System.Void AddMovement(System.Single distance)
-    // Offset: 0x11C2788
+    // Offset: 0x1208E08
     void AddMovement(float distance);
     // public System.Void ManualUpdate(System.Single deltaTime)
-    // Offset: 0x11C2824
+    // Offset: 0x1208EA4
     void ManualUpdate(float deltaTime);
   }; // MovementHistoryRecorder
   #pragma pack(pop)

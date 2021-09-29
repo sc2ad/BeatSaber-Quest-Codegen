@@ -41,20 +41,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: JoinRespondedDelegate
     JoinRespondedDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x119C194
+    // Offset: 0x125BF9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalNetworkDiscoveryManager::JoinRespondedDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalNetworkDiscoveryManager::JoinRespondedDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalNetworkDiscoveryManager::JoinRespondedDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.String userId, System.String secret, System.Int32 multiplayerPort, System.Boolean blocked, System.Boolean isPartyOwner, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
-    // Offset: 0x119A5E4
+    // Offset: 0x125A3EC
     void Invoke(::Il2CppString* userId, ::Il2CppString* secret, int multiplayerPort, bool blocked, bool isPartyOwner, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration);
     // public System.IAsyncResult BeginInvoke(System.String userId, System.String secret, System.Int32 multiplayerPort, System.Boolean blocked, System.Boolean isPartyOwner, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x119C1A4
+    // Offset: 0x125BFAC
     System::IAsyncResult* BeginInvoke(::Il2CppString* userId, ::Il2CppString* secret, int multiplayerPort, bool blocked, bool isPartyOwner, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x119C2C8
+    // Offset: 0x125C0D0
     void EndInvoke(System::IAsyncResult* result);
   }; // LocalNetworkDiscoveryManager/JoinRespondedDelegate
   #pragma pack(pop)

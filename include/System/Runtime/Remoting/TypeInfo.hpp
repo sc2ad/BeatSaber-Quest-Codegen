@@ -36,17 +36,17 @@ namespace System::Runtime::Remoting {
     // private System.String[] serverHierarchy
     // Size: 0x8
     // Offset: 0x18
-    ::Array<::Il2CppString*>* serverHierarchy;
+    ::ArrayWrapper<::Il2CppString*> serverHierarchy;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // private System.String[] interfacesImplemented
     // Size: 0x8
     // Offset: 0x20
-    ::Array<::Il2CppString*>* interfacesImplemented;
+    ::ArrayWrapper<::Il2CppString*> interfacesImplemented;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // Creating value type constructor for type: TypeInfo
-    TypeInfo(::Il2CppString* serverType_ = {}, ::Array<::Il2CppString*>* serverHierarchy_ = {}, ::Array<::Il2CppString*>* interfacesImplemented_ = {}) noexcept : serverType{serverType_}, serverHierarchy{serverHierarchy_}, interfacesImplemented{interfacesImplemented_} {}
+    TypeInfo(::Il2CppString* serverType_ = {}, ::ArrayWrapper<::Il2CppString*> serverHierarchy_ = {}, ::ArrayWrapper<::Il2CppString*> interfacesImplemented_ = {}) noexcept : serverType{serverType_}, serverHierarchy{serverHierarchy_}, interfacesImplemented{interfacesImplemented_} {}
     // Creating interface conversion operator: operator System::Runtime::Remoting::IRemotingTypeInfo
     operator System::Runtime::Remoting::IRemotingTypeInfo() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::IRemotingTypeInfo*>(this);
@@ -54,25 +54,25 @@ namespace System::Runtime::Remoting {
     // Get instance field reference: private System.String serverType
     ::Il2CppString*& dyn_serverType();
     // Get instance field reference: private System.String[] serverHierarchy
-    ::Array<::Il2CppString*>*& dyn_serverHierarchy();
+    ::ArrayWrapper<::Il2CppString*>& dyn_serverHierarchy();
     // Get instance field reference: private System.String[] interfacesImplemented
-    ::Array<::Il2CppString*>*& dyn_interfacesImplemented();
+    ::ArrayWrapper<::Il2CppString*>& dyn_interfacesImplemented();
     // public System.String get_TypeName()
-    // Offset: 0x1617618
+    // Offset: 0x17E3278
     ::Il2CppString* get_TypeName();
     // public System.Void .ctor(System.Type type)
-    // Offset: 0x1614E74
+    // Offset: 0x17E0AD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeInfo* New_ctor(System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::TypeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeInfo*, creationType>(type)));
     }
     // public System.Boolean CanCastTo(System.Type fromType, System.Object o)
-    // Offset: 0x1617620
+    // Offset: 0x17E3280
     bool CanCastTo(System::Type* fromType, ::Il2CppObject* o);
   }; // System.Runtime.Remoting.TypeInfo
   #pragma pack(pop)
-  static check_size<sizeof(TypeInfo), 32 + sizeof(::Array<::Il2CppString*>*)> __System_Runtime_Remoting_TypeInfoSizeCheck;
+  static check_size<sizeof(TypeInfo), 32 + sizeof(::ArrayWrapper<::Il2CppString*>)> __System_Runtime_Remoting_TypeInfoSizeCheck;
   static_assert(sizeof(TypeInfo) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::TypeInfo*, "System.Runtime.Remoting", "TypeInfo");

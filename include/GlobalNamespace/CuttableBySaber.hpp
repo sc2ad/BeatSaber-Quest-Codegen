@@ -56,19 +56,19 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     float get_radius();
     // public System.Void add_wasCutBySaberEvent(CuttableBySaber/WasCutBySaberDelegate value)
-    // Offset: 0x10EC1C8
+    // Offset: 0x11A3B4C
     void add_wasCutBySaberEvent(GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate* value);
     // public System.Void remove_wasCutBySaberEvent(CuttableBySaber/WasCutBySaberDelegate value)
-    // Offset: 0x10EC26C
+    // Offset: 0x11A3BF0
     void remove_wasCutBySaberEvent(GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate* value);
     // protected System.Void CallWasCutBySaberEvent(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x10EC310
+    // Offset: 0x1193698
     void CallWasCutBySaberEvent(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // public System.Void Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
     // Offset: 0xFFFFFFFF
     void Cut(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // protected System.Void .ctor()
-    // Offset: 0x10EC8DC
+    // Offset: 0x1193724
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

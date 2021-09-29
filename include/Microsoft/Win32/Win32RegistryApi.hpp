@@ -60,70 +60,70 @@ namespace Microsoft::Win32 {
     // Get instance field reference: private readonly System.Int32 NativeBytesPerCharacter
     int& dyn_NativeBytesPerCharacter();
     // static private System.Int32 RegCloseKey(System.IntPtr keyHandle)
-    // Offset: 0x1A67EA4
+    // Offset: 0x1C30874
     static int RegCloseKey(System::IntPtr keyHandle);
     // static private System.Int32 RegFlushKey(System.IntPtr keyHandle)
-    // Offset: 0x1A67F24
+    // Offset: 0x1C308F4
     static int RegFlushKey(System::IntPtr keyHandle);
     // static private System.Int32 RegOpenKeyEx(System.IntPtr keyBase, System.String keyName, System.IntPtr reserved, System.Int32 access, out System.IntPtr keyHandle)
-    // Offset: 0x1A67FA4
+    // Offset: 0x1C30974
     static int RegOpenKeyEx(System::IntPtr keyBase, ::Il2CppString* keyName, System::IntPtr reserved, int access, ByRef<System::IntPtr> keyHandle);
     // static System.Int32 RegEnumKeyEx(System.IntPtr keyHandle, System.Int32 dwIndex, System.Char* lpName, ref System.Int32 lpcbName, System.Int32[] lpReserved, out System.Text.StringBuilder lpClass, System.Int32[] lpcbClass, System.Int64[] lpftLastWriteTime)
-    // Offset: 0x1A68058
-    static int RegEnumKeyEx(System::IntPtr keyHandle, int dwIndex, ::Il2CppChar* lpName, ByRef<int> lpcbName, ::Array<int>* lpReserved, ByRef<System::Text::StringBuilder*> lpClass, ::Array<int>* lpcbClass, ::Array<int64_t>* lpftLastWriteTime);
+    // Offset: 0x1C30A28
+    static int RegEnumKeyEx(System::IntPtr keyHandle, int dwIndex, ::Il2CppChar* lpName, ByRef<int> lpcbName, ::ArrayWrapper<int> lpReserved, ByRef<System::Text::StringBuilder*> lpClass, ::ArrayWrapper<int> lpcbClass, ::ArrayWrapper<int64_t> lpftLastWriteTime);
     // static private System.Int32 RegQueryValueEx(System.IntPtr keyBase, System.String valueName, System.IntPtr reserved, ref Microsoft.Win32.RegistryValueKind type, System.IntPtr zero, ref System.Int32 dataSize)
-    // Offset: 0x1A68174
+    // Offset: 0x1C30B44
     static int RegQueryValueEx(System::IntPtr keyBase, ::Il2CppString* valueName, System::IntPtr reserved, ByRef<Microsoft::Win32::RegistryValueKind> type, System::IntPtr zero, ByRef<int> dataSize);
     // static private System.Int32 RegQueryValueEx(System.IntPtr keyBase, System.String valueName, System.IntPtr reserved, ref Microsoft.Win32.RegistryValueKind type, out System.Byte[] data, ref System.Int32 dataSize)
-    // Offset: 0x1A6823C
-    static int RegQueryValueEx(System::IntPtr keyBase, ::Il2CppString* valueName, System::IntPtr reserved, ByRef<Microsoft::Win32::RegistryValueKind> type, ByRef<::Array<uint8_t>*> data, ByRef<int> dataSize);
+    // Offset: 0x1C30C0C
+    static int RegQueryValueEx(System::IntPtr keyBase, ::Il2CppString* valueName, System::IntPtr reserved, ByRef<Microsoft::Win32::RegistryValueKind> type, ByRef<::ArrayWrapper<uint8_t>> data, ByRef<int> dataSize);
     // static private System.Int32 RegQueryValueEx(System.IntPtr keyBase, System.String valueName, System.IntPtr reserved, ref Microsoft.Win32.RegistryValueKind type, ref System.Int32 data, ref System.Int32 dataSize)
-    // Offset: 0x1A6839C
+    // Offset: 0x1C30D6C
     static int RegQueryValueEx(System::IntPtr keyBase, ::Il2CppString* valueName, System::IntPtr reserved, ByRef<Microsoft::Win32::RegistryValueKind> type, ByRef<int> data, ByRef<int> dataSize);
     // static private System.Int32 RegQueryValueEx(System.IntPtr keyBase, System.String valueName, System.IntPtr reserved, ref Microsoft.Win32.RegistryValueKind type, ref System.Int64 data, ref System.Int32 dataSize)
-    // Offset: 0x1A68464
+    // Offset: 0x1C30E34
     static int RegQueryValueEx(System::IntPtr keyBase, ::Il2CppString* valueName, System::IntPtr reserved, ByRef<Microsoft::Win32::RegistryValueKind> type, ByRef<int64_t> data, ByRef<int> dataSize);
     // static System.Int32 RegQueryInfoKey(System.IntPtr hKey, out System.Text.StringBuilder lpClass, System.Int32[] lpcbClass, System.IntPtr lpReserved_MustBeZero, ref System.Int32 lpcSubKeys, System.Int32[] lpcbMaxSubKeyLen, System.Int32[] lpcbMaxClassLen, ref System.Int32 lpcValues, System.Int32[] lpcbMaxValueNameLen, System.Int32[] lpcbMaxValueLen, System.Int32[] lpcbSecurityDescriptor, System.Int32[] lpftLastWriteTime)
-    // Offset: 0x1A6852C
-    static int RegQueryInfoKey(System::IntPtr hKey, ByRef<System::Text::StringBuilder*> lpClass, ::Array<int>* lpcbClass, System::IntPtr lpReserved_MustBeZero, ByRef<int> lpcSubKeys, ::Array<int>* lpcbMaxSubKeyLen, ::Array<int>* lpcbMaxClassLen, ByRef<int> lpcValues, ::Array<int>* lpcbMaxValueNameLen, ::Array<int>* lpcbMaxValueLen, ::Array<int>* lpcbSecurityDescriptor, ::Array<int>* lpftLastWriteTime);
+    // Offset: 0x1C30EFC
+    static int RegQueryInfoKey(System::IntPtr hKey, ByRef<System::Text::StringBuilder*> lpClass, ::ArrayWrapper<int> lpcbClass, System::IntPtr lpReserved_MustBeZero, ByRef<int> lpcSubKeys, ::ArrayWrapper<int> lpcbMaxSubKeyLen, ::ArrayWrapper<int> lpcbMaxClassLen, ByRef<int> lpcValues, ::ArrayWrapper<int> lpcbMaxValueNameLen, ::ArrayWrapper<int> lpcbMaxValueLen, ::ArrayWrapper<int> lpcbSecurityDescriptor, ::ArrayWrapper<int> lpftLastWriteTime);
     // public System.IntPtr GetHandle(Microsoft.Win32.RegistryKey key)
-    // Offset: 0x1A68680
+    // Offset: 0x1C31050
     System::IntPtr GetHandle(Microsoft::Win32::RegistryKey* key);
     // static private System.Boolean IsHandleValid(Microsoft.Win32.RegistryKey key)
-    // Offset: 0x1A686FC
+    // Offset: 0x1C310CC
     static bool IsHandleValid(Microsoft::Win32::RegistryKey* key);
     // public System.Object GetValue(Microsoft.Win32.RegistryKey rkey, System.String name, System.Object defaultValue, Microsoft.Win32.RegistryValueOptions options)
-    // Offset: 0x1A6871C
+    // Offset: 0x1C310EC
     ::Il2CppObject* GetValue(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* name, ::Il2CppObject* defaultValue, Microsoft::Win32::RegistryValueOptions options);
     // private System.Int32 GetBinaryValue(Microsoft.Win32.RegistryKey rkey, System.String name, Microsoft.Win32.RegistryValueKind type, out System.Byte[] data, System.Int32 size)
-    // Offset: 0x1A68BCC
-    int GetBinaryValue(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* name, Microsoft::Win32::RegistryValueKind type, ByRef<::Array<uint8_t>*> data, int size);
+    // Offset: 0x1C3159C
+    int GetBinaryValue(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* name, Microsoft::Win32::RegistryValueKind type, ByRef<::ArrayWrapper<uint8_t>> data, int size);
     // public System.Int32 SubKeyCount(Microsoft.Win32.RegistryKey rkey)
-    // Offset: 0x1A68C68
+    // Offset: 0x1C31638
     int SubKeyCount(Microsoft::Win32::RegistryKey* rkey);
     // public Microsoft.Win32.RegistryKey OpenSubKey(Microsoft.Win32.RegistryKey rkey, System.String keyName, System.Boolean writable)
-    // Offset: 0x1A68CF4
+    // Offset: 0x1C316C4
     Microsoft::Win32::RegistryKey* OpenSubKey(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* keyName, bool writable);
     // public System.Void Flush(Microsoft.Win32.RegistryKey rkey)
-    // Offset: 0x1A68E78
+    // Offset: 0x1C31848
     void Flush(Microsoft::Win32::RegistryKey* rkey);
     // public System.Void Close(Microsoft.Win32.RegistryKey rkey)
-    // Offset: 0x1A68EA4
+    // Offset: 0x1C31874
     void Close(Microsoft::Win32::RegistryKey* rkey);
     // public System.String[] GetSubKeyNames(Microsoft.Win32.RegistryKey rkey)
-    // Offset: 0x1A68F00
-    ::Array<::Il2CppString*>* GetSubKeyNames(Microsoft::Win32::RegistryKey* rkey);
+    // Offset: 0x1C318D0
+    ::ArrayWrapper<::Il2CppString*> GetSubKeyNames(Microsoft::Win32::RegistryKey* rkey);
     // private System.Void GenerateException(System.Int32 errorCode)
-    // Offset: 0x1A68A58
+    // Offset: 0x1C31428
     void GenerateException(int errorCode);
     // public System.String ToString(Microsoft.Win32.RegistryKey rkey)
-    // Offset: 0x1A690B4
+    // Offset: 0x1C31A84
     ::Il2CppString* ToString(Microsoft::Win32::RegistryKey* rkey);
     // static System.String CombineName(Microsoft.Win32.RegistryKey rkey, System.String localName)
-    // Offset: 0x1A68E0C
+    // Offset: 0x1C317DC
     static ::Il2CppString* CombineName(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* localName);
     // public System.Void .ctor()
-    // Offset: 0x1A66728
+    // Offset: 0x1C2F0F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -172,16 +172,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::RegEnumKeyEx
 // Il2CppName: RegEnumKeyEx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, int, ::Il2CppChar*, ByRef<int>, ::Array<int>*, ByRef<System::Text::StringBuilder*>, ::Array<int>*, ::Array<int64_t>*)>(&Microsoft::Win32::Win32RegistryApi::RegEnumKeyEx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, int, ::Il2CppChar*, ByRef<int>, ::ArrayWrapper<int>, ByRef<System::Text::StringBuilder*>, ::ArrayWrapper<int>, ::ArrayWrapper<int64_t>)>(&Microsoft::Win32::Win32RegistryApi::RegEnumKeyEx)> {
   static const MethodInfo* get() {
     static auto* keyHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* dwIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* lpName = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* lpcbName = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
-    static auto* lpReserved = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* lpReserved = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     static auto* lpClass = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->this_arg;
-    static auto* lpcbClass = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
-    static auto* lpftLastWriteTime = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int64"), 1)->byval_arg;
+    static auto* lpcbClass = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* lpftLastWriteTime = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int64")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "RegEnumKeyEx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyHandle, dwIndex, lpName, lpcbName, lpReserved, lpClass, lpcbClass, lpftLastWriteTime});
   }
 };
@@ -202,13 +202,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::RegQueryValueEx
 // Il2CppName: RegQueryValueEx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::Il2CppString*, System::IntPtr, ByRef<Microsoft::Win32::RegistryValueKind>, ByRef<::Array<uint8_t>*>, ByRef<int>)>(&Microsoft::Win32::Win32RegistryApi::RegQueryValueEx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::Il2CppString*, System::IntPtr, ByRef<Microsoft::Win32::RegistryValueKind>, ByRef<::ArrayWrapper<uint8_t>>, ByRef<int>)>(&Microsoft::Win32::Win32RegistryApi::RegQueryValueEx)> {
   static const MethodInfo* get() {
     static auto* keyBase = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* valueName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* reserved = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryValueKind")->this_arg;
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->this_arg;
     static auto* dataSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "RegQueryValueEx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyBase, valueName, reserved, type, data, dataSize});
   }
@@ -244,20 +244,20 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::RegQueryInfoKey
 // Il2CppName: RegQueryInfoKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ByRef<System::Text::StringBuilder*>, ::Array<int>*, System::IntPtr, ByRef<int>, ::Array<int>*, ::Array<int>*, ByRef<int>, ::Array<int>*, ::Array<int>*, ::Array<int>*, ::Array<int>*)>(&Microsoft::Win32::Win32RegistryApi::RegQueryInfoKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ByRef<System::Text::StringBuilder*>, ::ArrayWrapper<int>, System::IntPtr, ByRef<int>, ::ArrayWrapper<int>, ::ArrayWrapper<int>, ByRef<int>, ::ArrayWrapper<int>, ::ArrayWrapper<int>, ::ArrayWrapper<int>, ::ArrayWrapper<int>)>(&Microsoft::Win32::Win32RegistryApi::RegQueryInfoKey)> {
   static const MethodInfo* get() {
     static auto* hKey = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* lpClass = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->this_arg;
-    static auto* lpcbClass = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* lpcbClass = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     static auto* lpReserved_MustBeZero = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* lpcSubKeys = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
-    static auto* lpcbMaxSubKeyLen = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
-    static auto* lpcbMaxClassLen = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* lpcbMaxSubKeyLen = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* lpcbMaxClassLen = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     static auto* lpcValues = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
-    static auto* lpcbMaxValueNameLen = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
-    static auto* lpcbMaxValueLen = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
-    static auto* lpcbSecurityDescriptor = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
-    static auto* lpftLastWriteTime = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* lpcbMaxValueNameLen = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* lpcbMaxValueLen = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* lpcbSecurityDescriptor = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* lpftLastWriteTime = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "RegQueryInfoKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hKey, lpClass, lpcbClass, lpReserved_MustBeZero, lpcSubKeys, lpcbMaxSubKeyLen, lpcbMaxClassLen, lpcValues, lpcbMaxValueNameLen, lpcbMaxValueLen, lpcbSecurityDescriptor, lpftLastWriteTime});
   }
 };
@@ -294,12 +294,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::GetBinaryValue
 // Il2CppName: GetBinaryValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Microsoft::Win32::Win32RegistryApi::*)(Microsoft::Win32::RegistryKey*, ::Il2CppString*, Microsoft::Win32::RegistryValueKind, ByRef<::Array<uint8_t>*>, int)>(&Microsoft::Win32::Win32RegistryApi::GetBinaryValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Microsoft::Win32::Win32RegistryApi::*)(Microsoft::Win32::RegistryKey*, ::Il2CppString*, Microsoft::Win32::RegistryValueKind, ByRef<::ArrayWrapper<uint8_t>>, int)>(&Microsoft::Win32::Win32RegistryApi::GetBinaryValue)> {
   static const MethodInfo* get() {
     static auto* rkey = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryKey")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryValueKind")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->this_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "GetBinaryValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rkey, name, type, data, size});
   }
@@ -345,7 +345,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Micro
 // Writing MetadataGetter for method: Microsoft::Win32::Win32RegistryApi::GetSubKeyNames
 // Il2CppName: GetSubKeyNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (Microsoft::Win32::Win32RegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::Win32RegistryApi::GetSubKeyNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (Microsoft::Win32::Win32RegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::Win32RegistryApi::GetSubKeyNames)> {
   static const MethodInfo* get() {
     static auto* rkey = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryKey")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "GetSubKeyNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rkey});

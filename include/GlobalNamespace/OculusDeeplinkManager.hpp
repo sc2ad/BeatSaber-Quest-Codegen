@@ -77,34 +77,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _oculusPlatformWasInitialized
     bool& dyn__oculusPlatformWasInitialized();
     // public Deeplink get_currentDeeplink()
-    // Offset: 0x1256EE0
+    // Offset: 0x1362F44
     GlobalNamespace::Deeplink* get_currentDeeplink();
     // public System.Void add_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0x1256D98
+    // Offset: 0x1362DFC
     void add_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
     // public System.Void remove_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0x1256E3C
+    // Offset: 0x1362EA0
     void remove_didReceiveDeeplinkEvent(System::Action_1<GlobalNamespace::Deeplink*>* value);
     // public System.Void Init()
-    // Offset: 0x1256EE8
+    // Offset: 0x1362F4C
     void Init();
     // public System.Void OculusPlatformWasInitialized()
-    // Offset: 0x1256F64
+    // Offset: 0x1362FC8
     void OculusPlatformWasInitialized();
     // private System.Void SetJoinIntentReceivedNotificationCallback(Oculus.Platform.Message`1<Oculus.Platform.Models.GroupPresenceJoinIntent> message)
-    // Offset: 0x1256F7C
+    // Offset: 0x1362FE0
     void SetJoinIntentReceivedNotificationCallback(Oculus::Platform::Message_1<Oculus::Platform::Models::GroupPresenceJoinIntent*>* message);
     // private System.Void UpdateDeeplinkMessage(Oculus.Platform.Models.GroupPresenceJoinIntent joinIntent, Oculus.Platform.Models.LaunchDetails launchDetails)
-    // Offset: 0x125709C
+    // Offset: 0x1363100
     void UpdateDeeplinkMessage(Oculus::Platform::Models::GroupPresenceJoinIntent* joinIntent, Oculus::Platform::Models::LaunchDetails* launchDetails);
     // private System.Boolean IsAtLeastOneFieldPopulated(Deeplink deeplink)
-    // Offset: 0x125725C
+    // Offset: 0x13632C0
     bool IsAtLeastOneFieldPopulated(GlobalNamespace::Deeplink* deeplink);
     // static public System.Void Log(System.String message)
-    // Offset: 0x1257034
+    // Offset: 0x1363098
     static void Log(::Il2CppString* message);
     // public System.Void .ctor()
-    // Offset: 0x12572DC
+    // Offset: 0x1363340
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

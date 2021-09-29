@@ -24,18 +24,18 @@ namespace UnityEngine::TestTools::Utils {
     // Creating value type constructor for type: StackTraceFilter
     StackTraceFilter() noexcept {}
     // Get static field: static private readonly System.String[] s_FilteredLogMessages
-    static ::Array<::Il2CppString*>* _get_s_FilteredLogMessages();
+    static ::ArrayWrapper<::Il2CppString*> _get_s_FilteredLogMessages();
     // Set static field: static private readonly System.String[] s_FilteredLogMessages
-    static void _set_s_FilteredLogMessages(::Array<::Il2CppString*>* value);
+    static void _set_s_FilteredLogMessages(::ArrayWrapper<::Il2CppString*> value);
     // Get static field: static private readonly System.String[] s_LastMessages
-    static ::Array<::Il2CppString*>* _get_s_LastMessages();
+    static ::ArrayWrapper<::Il2CppString*> _get_s_LastMessages();
     // Set static field: static private readonly System.String[] s_LastMessages
-    static void _set_s_LastMessages(::Array<::Il2CppString*>* value);
+    static void _set_s_LastMessages(::ArrayWrapper<::Il2CppString*> value);
     // static private System.Void .cctor()
-    // Offset: 0x2400110
+    // Offset: 0x260B3A0
     static void _cctor();
     // static public System.String Filter(System.String inputStackTrace)
-    // Offset: 0x23FF090
+    // Offset: 0x260A320
     static ::Il2CppString* Filter(::Il2CppString* inputStackTrace);
   }; // UnityEngine.TestTools.Utils.StackTraceFilter
   #pragma pack(pop)

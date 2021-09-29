@@ -46,7 +46,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: public System.String assemblyName
     ::Il2CppString*& dyn_assemblyName();
     // public System.Void .ctor()
-    // Offset: 0x16264F8
+    // Offset: 0x17F2158
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -43,9 +43,9 @@ namespace GlobalNamespace {
     // public MissionObjective[] missionObjectives
     // Size: 0x8
     // Offset: 0x10
-    ::Array<GlobalNamespace::MissionObjective*>* missionObjectives;
+    ::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MissionObjective*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionObjective*>) == 0x8);
     // public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParamsList
     // Size: 0x8
     // Offset: 0x18
@@ -53,19 +53,19 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass14_0
-    $$c__DisplayClass14_0(::Array<GlobalNamespace::MissionObjective*>* missionObjectives_ = {}, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifierParamsList_ = {}) noexcept : missionObjectives{missionObjectives_}, modifierParamsList{modifierParamsList_} {}
+    $$c__DisplayClass14_0(::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives_ = {}, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifierParamsList_ = {}) noexcept : missionObjectives{missionObjectives_}, modifierParamsList{modifierParamsList_} {}
     // Get instance field reference: public MissionObjective[] missionObjectives
-    ::Array<GlobalNamespace::MissionObjective*>*& dyn_missionObjectives();
+    ::ArrayWrapper<GlobalNamespace::MissionObjective*>& dyn_missionObjectives();
     // Get instance field reference: public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParamsList
     System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*& dyn_modifierParamsList();
     // System.Void <RefreshContent>b__0(System.Int32 idx, ObjectiveListItem objectiveListItem)
-    // Offset: 0x113EF2C
+    // Offset: 0x1185F74
     void $RefreshContent$b__0(int idx, GlobalNamespace::ObjectiveListItem* objectiveListItem);
     // System.Void <RefreshContent>b__1(System.Int32 idx, GameplayModifierInfoListItem gameplayModifierInfoListItem)
-    // Offset: 0x113F108
+    // Offset: 0x1186150
     void $RefreshContent$b__1(int idx, GlobalNamespace::GameplayModifierInfoListItem* gameplayModifierInfoListItem);
     // public System.Void .ctor()
-    // Offset: 0x113EEB8
+    // Offset: 0x1185F00
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

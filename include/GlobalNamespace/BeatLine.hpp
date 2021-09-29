@@ -155,22 +155,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _rotation
     float& dyn__rotation();
     // public System.Boolean get_isFinished()
-    // Offset: 0x11DE22C
+    // Offset: 0x126E818
     bool get_isFinished();
     // public System.Single get_rotation()
-    // Offset: 0x11DE284
+    // Offset: 0x126E870
     float get_rotation();
     // public System.Void Init(UnityEngine.Vector3 position, System.Single rotation)
-    // Offset: 0x11DE28C
+    // Offset: 0x126E878
     void Init(UnityEngine::Vector3 position, float rotation);
     // public System.Void AddHighlight(System.Single startTime, System.Single arriveDuration, System.Single jumpDuration)
-    // Offset: 0x11DE3A4
+    // Offset: 0x126E990
     void AddHighlight(float startTime, float arriveDuration, float jumpDuration);
     // public System.Void ManualUpdate(System.Single songTime)
-    // Offset: 0x11DE428
+    // Offset: 0x126EA14
     void ManualUpdate(float songTime);
     // public System.Void .ctor()
-    // Offset: 0x11DE59C
+    // Offset: 0x126EB88
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -184,7 +184,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatLine*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x11DE398
+    // Offset: 0x126E984
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);

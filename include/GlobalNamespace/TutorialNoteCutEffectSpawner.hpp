@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     GlobalNamespace::FlyingTextSpawner* failFlyingTextSpawner;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FlyingTextSpawner*) == 0x8);
-    // [InjectAttribute] Offset: 0xE4295C
+    // [InjectAttribute] Offset: 0xF0B2F0
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
@@ -55,16 +55,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
     GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // protected System.Void Start()
-    // Offset: 0x1078350
+    // Offset: 0x11669D4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10783DC
+    // Offset: 0x1166A60
     void OnDestroy();
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x1078474
+    // Offset: 0x1166AF8
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0x10786AC
+    // Offset: 0x1166D30
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

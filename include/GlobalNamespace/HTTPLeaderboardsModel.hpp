@@ -64,14 +64,14 @@ namespace GlobalNamespace {
     struct $GetLeaderboardEntriesAsync$d__10;
     // Nested type: GlobalNamespace::HTTPLeaderboardsModel::$SendLevelScoreResultAsync$d__11
     struct $SendLevelScoreResultAsync$d__11;
-    // [InjectAttribute] Offset: 0xE3AF28
+    // [InjectAttribute] Offset: 0xF0370C
     // private readonly OnlineServices.API.IUserLoginDtoDataSource _userLoginDataSource
     // Size: 0x8
     // Offset: 0x10
     OnlineServices::API::IUserLoginDtoDataSource* userLoginDataSource;
     // Field size check
     static_assert(sizeof(OnlineServices::API::IUserLoginDtoDataSource*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3AF38
+    // [InjectAttribute] Offset: 0xF0371C
     // private readonly OnlineServices.API.IApiLeaderboardsModel _apiLeaderboardsModel
     // Size: 0x8
     // Offset: 0x18
@@ -93,9 +93,9 @@ namespace GlobalNamespace {
     // private System.String[] _friendsUserIds
     // Size: 0x8
     // Offset: 0x30
-    ::Array<::Il2CppString*>* friendsUserIds;
+    ::ArrayWrapper<::Il2CppString*> friendsUserIds;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // private System.String _platformUserId
     // Size: 0x8
     // Offset: 0x38
@@ -103,7 +103,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: HTTPLeaderboardsModel
-    HTTPLeaderboardsModel(OnlineServices::API::IUserLoginDtoDataSource* userLoginDataSource_ = {}, OnlineServices::API::IApiLeaderboardsModel* apiLeaderboardsModel_ = {}, System::Action_1<::Il2CppString*>* scoreForLeaderboardDidUploadEvent_ = {}, ::Il2CppString* guid_ = {}, ::Array<::Il2CppString*>* friendsUserIds_ = {}, ::Il2CppString* platformUserId_ = {}) noexcept : userLoginDataSource{userLoginDataSource_}, apiLeaderboardsModel{apiLeaderboardsModel_}, scoreForLeaderboardDidUploadEvent{scoreForLeaderboardDidUploadEvent_}, guid{guid_}, friendsUserIds{friendsUserIds_}, platformUserId{platformUserId_} {}
+    HTTPLeaderboardsModel(OnlineServices::API::IUserLoginDtoDataSource* userLoginDataSource_ = {}, OnlineServices::API::IApiLeaderboardsModel* apiLeaderboardsModel_ = {}, System::Action_1<::Il2CppString*>* scoreForLeaderboardDidUploadEvent_ = {}, ::Il2CppString* guid_ = {}, ::ArrayWrapper<::Il2CppString*> friendsUserIds_ = {}, ::Il2CppString* platformUserId_ = {}) noexcept : userLoginDataSource{userLoginDataSource_}, apiLeaderboardsModel{apiLeaderboardsModel_}, scoreForLeaderboardDidUploadEvent{scoreForLeaderboardDidUploadEvent_}, guid{guid_}, friendsUserIds{friendsUserIds_}, platformUserId{platformUserId_} {}
     // Creating interface conversion operator: operator OnlineServices::ILeaderboardsModel
     operator OnlineServices::ILeaderboardsModel() noexcept {
       return *reinterpret_cast<OnlineServices::ILeaderboardsModel*>(this);
@@ -117,29 +117,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.String _guid
     ::Il2CppString*& dyn__guid();
     // Get instance field reference: private System.String[] _friendsUserIds
-    ::Array<::Il2CppString*>*& dyn__friendsUserIds();
+    ::ArrayWrapper<::Il2CppString*>& dyn__friendsUserIds();
     // Get instance field reference: private System.String _platformUserId
     ::Il2CppString*& dyn__platformUserId();
     // public System.Void add_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0x11844A0
+    // Offset: 0x1142B7C
     void add_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0x1184544
+    // Offset: 0x1142C20
     void remove_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void LogoutAsync()
-    // Offset: 0x11845E8
+    // Offset: 0x1142CC4
     void LogoutAsync();
     // public System.String GetLeaderboardId(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x118469C
+    // Offset: 0x1142D78
     ::Il2CppString* GetLeaderboardId(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Threading.Tasks.Task`1<OnlineServices.GetLeaderboardEntriesResult> GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x118497C
+    // Offset: 0x1143058
     System::Threading::Tasks::Task_1<OnlineServices::GetLeaderboardEntriesResult>* GetLeaderboardEntriesAsync(OnlineServices::GetLeaderboardFilterData leaderboardFilterData, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<OnlineServices.SendLeaderboardEntryResult> SendLevelScoreResultAsync(OnlineServices.LevelScoreResultsData levelResultsData, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1184AAC
+    // Offset: 0x1143188
     System::Threading::Tasks::Task_1<OnlineServices::SendLeaderboardEntryResult>* SendLevelScoreResultAsync(OnlineServices::LevelScoreResultsData levelResultsData, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x1184BE4
+    // Offset: 0x11432C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

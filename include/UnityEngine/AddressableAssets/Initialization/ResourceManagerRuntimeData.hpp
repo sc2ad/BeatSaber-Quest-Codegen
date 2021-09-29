@@ -46,28 +46,28 @@ namespace UnityEngine::AddressableAssets::Initialization {
     ::Il2CppString* m_buildTarget;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xE25294
+    // [FormerlySerializedAsAttribute] Offset: 0xEECA6C
     // private System.String m_SettingsHash
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* m_SettingsHash;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xE252E0
+    // [FormerlySerializedAsAttribute] Offset: 0xEECAB8
     // private System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData> m_CatalogLocations
     // Size: 0x8
     // Offset: 0x20
     System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* m_CatalogLocations;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xE2532C
+    // [FormerlySerializedAsAttribute] Offset: 0xEECB04
     // private System.Boolean m_ProfileEvents
     // Size: 0x1
     // Offset: 0x28
     bool m_ProfileEvents;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [FormerlySerializedAsAttribute] Offset: 0xE25378
+    // [FormerlySerializedAsAttribute] Offset: 0xEECB50
     // private System.Boolean m_LogResourceManagerExceptions
     // Size: 0x1
     // Offset: 0x29
@@ -76,7 +76,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_LogResourceManagerExceptions and: m_ExtraInitializationData
     char __padding4[0x6] = {};
-    // [FormerlySerializedAsAttribute] Offset: 0xE253C4
+    // [FormerlySerializedAsAttribute] Offset: 0xEECB9C
     // private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.ObjectInitializationData> m_ExtraInitializationData
     // Size: 0x8
     // Offset: 0x30
@@ -148,67 +148,67 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Get instance field reference: private System.Int32 m_maxConcurrentWebRequests
     int& dyn_m_maxConcurrentWebRequests();
     // public System.String get_BuildTarget()
-    // Offset: 0x1451010
+    // Offset: 0x159E828
     ::Il2CppString* get_BuildTarget();
     // public System.Void set_BuildTarget(System.String value)
-    // Offset: 0x1451018
+    // Offset: 0x159E830
     void set_BuildTarget(::Il2CppString* value);
     // public System.String get_SettingsHash()
-    // Offset: 0x1451020
+    // Offset: 0x159E838
     ::Il2CppString* get_SettingsHash();
     // public System.Void set_SettingsHash(System.String value)
-    // Offset: 0x1451028
+    // Offset: 0x159E840
     void set_SettingsHash(::Il2CppString* value);
     // public System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData> get_CatalogLocations()
-    // Offset: 0x1451030
+    // Offset: 0x159E848
     System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* get_CatalogLocations();
     // public System.Boolean get_ProfileEvents()
-    // Offset: 0x1451038
+    // Offset: 0x159E850
     bool get_ProfileEvents();
     // public System.Void set_ProfileEvents(System.Boolean value)
-    // Offset: 0x1451040
+    // Offset: 0x159E858
     void set_ProfileEvents(bool value);
     // public System.Boolean get_LogResourceManagerExceptions()
-    // Offset: 0x145104C
+    // Offset: 0x159E864
     bool get_LogResourceManagerExceptions();
     // public System.Void set_LogResourceManagerExceptions(System.Boolean value)
-    // Offset: 0x1451054
+    // Offset: 0x159E86C
     void set_LogResourceManagerExceptions(bool value);
     // public System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.ObjectInitializationData> get_InitializationObjects()
-    // Offset: 0x1451060
+    // Offset: 0x159E878
     System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData>* get_InitializationObjects();
     // public System.Boolean get_DisableCatalogUpdateOnStartup()
-    // Offset: 0x1451068
+    // Offset: 0x159E880
     bool get_DisableCatalogUpdateOnStartup();
     // public System.Void set_DisableCatalogUpdateOnStartup(System.Boolean value)
-    // Offset: 0x1451070
+    // Offset: 0x159E888
     void set_DisableCatalogUpdateOnStartup(bool value);
     // public System.Boolean get_IsLocalCatalogInBundle()
-    // Offset: 0x145107C
+    // Offset: 0x159E894
     bool get_IsLocalCatalogInBundle();
     // public System.Void set_IsLocalCatalogInBundle(System.Boolean value)
-    // Offset: 0x1451084
+    // Offset: 0x159E89C
     void set_IsLocalCatalogInBundle(bool value);
     // public System.Type get_CertificateHandlerType()
-    // Offset: 0x144F138
+    // Offset: 0x159C950
     System::Type* get_CertificateHandlerType();
     // public System.Void set_CertificateHandlerType(System.Type value)
-    // Offset: 0x1451090
+    // Offset: 0x159E8A8
     void set_CertificateHandlerType(System::Type* value);
     // public System.String get_AddressablesVersion()
-    // Offset: 0x145109C
+    // Offset: 0x159E8B4
     ::Il2CppString* get_AddressablesVersion();
     // public System.Void set_AddressablesVersion(System.String value)
-    // Offset: 0x14510A4
+    // Offset: 0x159E8BC
     void set_AddressablesVersion(::Il2CppString* value);
     // public System.Int32 get_MaxConcurrentWebRequests()
-    // Offset: 0x14510AC
+    // Offset: 0x159E8C4
     int get_MaxConcurrentWebRequests();
     // public System.Void set_MaxConcurrentWebRequests(System.Int32 value)
-    // Offset: 0x14510B4
+    // Offset: 0x159E8CC
     void set_MaxConcurrentWebRequests(int value);
     // public System.Void .ctor()
-    // Offset: 0x1451138
+    // Offset: 0x159E950
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

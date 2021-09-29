@@ -55,9 +55,9 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // private readonly System.Byte[] seed
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* seed;
+    ::ArrayWrapper<uint8_t> seed;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier fieldIdentifier
     // Size: 0x8
     // Offset: 0x20
@@ -65,35 +65,35 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*) == 0x8);
     // Creating value type constructor for type: X9Curve
-    X9Curve(Org::BouncyCastle::Math::EC::ECCurve* curve_ = {}, ::Array<uint8_t>* seed_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* fieldIdentifier_ = {}) noexcept : curve{curve_}, seed{seed_}, fieldIdentifier{fieldIdentifier_} {}
+    X9Curve(Org::BouncyCastle::Math::EC::ECCurve* curve_ = {}, ::ArrayWrapper<uint8_t> seed_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* fieldIdentifier_ = {}) noexcept : curve{curve_}, seed{seed_}, fieldIdentifier{fieldIdentifier_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.ECCurve curve
     Org::BouncyCastle::Math::EC::ECCurve*& dyn_curve();
     // Get instance field reference: private readonly System.Byte[] seed
-    ::Array<uint8_t>*& dyn_seed();
+    ::ArrayWrapper<uint8_t>& dyn_seed();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier fieldIdentifier
     Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_fieldIdentifier();
     // public Org.BouncyCastle.Math.EC.ECCurve get_Curve()
-    // Offset: 0x1A0D330
+    // Offset: 0x1BC706C
     Org::BouncyCastle::Math::EC::ECCurve* get_Curve();
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, System.Byte[] seed)
-    // Offset: 0x1A0CAA4
+    // Offset: 0x1BC67E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static X9Curve* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, ::Array<uint8_t>* seed) {
+    static X9Curve* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, ::ArrayWrapper<uint8_t> seed) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9Curve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9Curve*, creationType>(curve, seed)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X9.X9FieldID fieldID, Org.BouncyCastle.Math.BigInteger order, Org.BouncyCastle.Math.BigInteger cofactor, Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1A0CC24
+    // Offset: 0x1BC6960
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9Curve* New_ctor(Org::BouncyCastle::Asn1::X9::X9FieldID* fieldID, Org::BouncyCastle::Math::BigInteger* order, Org::BouncyCastle::Math::BigInteger* cofactor, Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9Curve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9Curve*, creationType>(fieldID, order, cofactor, seq)));
     }
     // public System.Byte[] GetSeed()
-    // Offset: 0x1A0D338
-    ::Array<uint8_t>* GetSeed();
+    // Offset: 0x1BC7074
+    ::ArrayWrapper<uint8_t> GetSeed();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1A0D3A4
+    // Offset: 0x1BC70E0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::X9Curve::GetSeed
 // Il2CppName: GetSeed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Asn1::X9::X9Curve::*)()>(&Org::BouncyCastle::Asn1::X9::X9Curve::GetSeed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Asn1::X9::X9Curve::*)()>(&Org::BouncyCastle::Asn1::X9::X9Curve::GetSeed)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X9::X9Curve*), "GetSeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

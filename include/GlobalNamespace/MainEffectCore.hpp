@@ -20,24 +20,24 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: MainEffectCore
     MainEffectCore() noexcept {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE24088
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEB860
     // Get static field: static private readonly System.Int32 _baseColorBoostID
     static int _get__baseColorBoostID();
     // Set static field: static private readonly System.Int32 _baseColorBoostID
     static void _set__baseColorBoostID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE24098
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEB870
     // Get static field: static private readonly System.Int32 _baseColorBoostThresholdID
     static int _get__baseColorBoostThresholdID();
     // Set static field: static private readonly System.Int32 _baseColorBoostThresholdID
     static void _set__baseColorBoostThresholdID(int value);
     // static private System.Void .cctor()
-    // Offset: 0x238D600
+    // Offset: 0x2587F0C
     static void _cctor();
     // static public System.Void SetGlobalShaderValues(System.Single baseColorBoost, System.Single baseColorBoostThreshold)
-    // Offset: 0x238C9B8
+    // Offset: 0x25872C4
     static void SetGlobalShaderValues(float baseColorBoost, float baseColorBoostThreshold);
     // public System.Void .ctor()
-    // Offset: 0x238D5F8
+    // Offset: 0x2587F04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

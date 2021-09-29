@@ -34,13 +34,13 @@ namespace NUnit::Framework::Internal::Commands {
     // Creating value type constructor for type: SkipCommand
     SkipCommand() noexcept {}
     // private System.String GetSkipReason()
-    // Offset: 0x177EF60
+    // Offset: 0x193DFAC
     ::Il2CppString* GetSkipReason();
     // private System.String GetProviderStackTrace()
-    // Offset: 0x177F050
+    // Offset: 0x193E09C
     ::Il2CppString* GetProviderStackTrace();
     // public System.Void .ctor(NUnit.Framework.Internal.Test test)
-    // Offset: 0x177ED54
+    // Offset: 0x193DDA0
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: System.Void TestCommand::.ctor(NUnit.Framework.Internal.Test test)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -49,7 +49,7 @@ namespace NUnit::Framework::Internal::Commands {
       return THROW_UNLESS((::il2cpp_utils::New<SkipCommand*, creationType>(test)));
     }
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x177ED80
+    // Offset: 0x193DDCC
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);

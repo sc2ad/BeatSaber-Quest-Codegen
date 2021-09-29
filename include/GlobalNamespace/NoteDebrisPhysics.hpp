@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void AddVelocity(UnityEngine::Vector3 force);
     // protected System.Void .ctor()
-    // Offset: 0x1249170
+    // Offset: 0x13551EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

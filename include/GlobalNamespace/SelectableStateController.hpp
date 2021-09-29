@@ -19,8 +19,8 @@ namespace GlobalNamespace {
 }
 // Forward declaring namespace: Tweening
 namespace Tweening {
-  // Forward declaring type: TweeningManager
-  class TweeningManager;
+  // Forward declaring type: TimeTweeningManager
+  class TimeTweeningManager;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -103,13 +103,13 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(SelectableStateController::ViewState), 0 + sizeof(int)> __GlobalNamespace_SelectableStateController_ViewStateSizeCheck;
     static_assert(sizeof(SelectableStateController::ViewState) == 0x4);
-    // [InjectAttribute] Offset: 0xE44BA8
-    // private readonly Tweening.TweeningManager _tweeningManager
+    // [InjectAttribute] Offset: 0xF0D56C
+    // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x18
-    Tweening::TweeningManager* tweeningManager;
+    Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
-    static_assert(sizeof(Tweening::TweeningManager*) == 0x8);
+    static_assert(sizeof(Tweening::TimeTweeningManager*) == 0x8);
     // private System.Action`1<SelectableStateController/ViewState> stateDidChangeEvent
     // Size: 0x8
     // Offset: 0x20
@@ -123,35 +123,35 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::SelectableStateController::ViewState) == 0x4);
     // Creating value type constructor for type: SelectableStateController
-    SelectableStateController(Tweening::TweeningManager* tweeningManager_ = {}, System::Action_1<GlobalNamespace::SelectableStateController::ViewState>* stateDidChangeEvent_ = {}, GlobalNamespace::SelectableStateController::ViewState currentViewState_ = {}) noexcept : tweeningManager{tweeningManager_}, stateDidChangeEvent{stateDidChangeEvent_}, currentViewState{currentViewState_} {}
+    SelectableStateController(Tweening::TimeTweeningManager* tweeningManager_ = {}, System::Action_1<GlobalNamespace::SelectableStateController::ViewState>* stateDidChangeEvent_ = {}, GlobalNamespace::SelectableStateController::ViewState currentViewState_ = {}) noexcept : tweeningManager{tweeningManager_}, stateDidChangeEvent{stateDidChangeEvent_}, currentViewState{currentViewState_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field reference: private readonly Tweening.TweeningManager _tweeningManager
-    Tweening::TweeningManager*& dyn__tweeningManager();
+    // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
+    Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private System.Action`1<SelectableStateController/ViewState> stateDidChangeEvent
     System::Action_1<GlobalNamespace::SelectableStateController::ViewState>*& dyn_stateDidChangeEvent();
     // Get instance field reference: private SelectableStateController/ViewState <currentViewState>k__BackingField
     GlobalNamespace::SelectableStateController::ViewState& dyn_$currentViewState$k__BackingField();
-    // public Tweening.TweeningManager get_tweeningManager()
-    // Offset: 0x10925F4
-    Tweening::TweeningManager* get_tweeningManager();
+    // public Tweening.TimeTweeningManager get_tweeningManager()
+    // Offset: 0x1101028
+    Tweening::TimeTweeningManager* get_tweeningManager();
     // private SelectableStateController/ViewState get_currentViewState()
-    // Offset: 0x10925FC
+    // Offset: 0x1101030
     GlobalNamespace::SelectableStateController::ViewState get_currentViewState();
     // private System.Void set_currentViewState(SelectableStateController/ViewState value)
-    // Offset: 0x1092604
+    // Offset: 0x1101038
     void set_currentViewState(GlobalNamespace::SelectableStateController::ViewState value);
     // public System.Void add_stateDidChangeEvent(System.Action`1<SelectableStateController/ViewState> value)
-    // Offset: 0x10924AC
+    // Offset: 0x1100EE0
     void add_stateDidChangeEvent(System::Action_1<GlobalNamespace::SelectableStateController::ViewState>* value);
     // public System.Void remove_stateDidChangeEvent(System.Action`1<SelectableStateController/ViewState> value)
-    // Offset: 0x1092550
+    // Offset: 0x1100F84
     void remove_stateDidChangeEvent(System::Action_1<GlobalNamespace::SelectableStateController::ViewState>* value);
     // protected System.Void SetState(SelectableStateController/ViewState state)
-    // Offset: 0x109260C
+    // Offset: 0x1101040
     void SetState(GlobalNamespace::SelectableStateController::ViewState state);
     // protected System.Void .ctor()
-    // Offset: 0x1092684
+    // Offset: 0x11010B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -174,7 +174,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectableStateController::ViewState, ""
 // Writing MetadataGetter for method: GlobalNamespace::SelectableStateController::get_tweeningManager
 // Il2CppName: get_tweeningManager
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::TweeningManager* (GlobalNamespace::SelectableStateController::*)()>(&GlobalNamespace::SelectableStateController::get_tweeningManager)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::TimeTweeningManager* (GlobalNamespace::SelectableStateController::*)()>(&GlobalNamespace::SelectableStateController::get_tweeningManager)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectableStateController*), "get_tweeningManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

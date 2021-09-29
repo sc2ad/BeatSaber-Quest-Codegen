@@ -41,15 +41,15 @@ namespace System::Text::RegularExpressions {
     // System.Int32[] _codes
     // Size: 0x8
     // Offset: 0x10
-    ::Array<int>* codes;
+    ::ArrayWrapper<int> codes;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // System.String[] _strings
     // Size: 0x8
     // Offset: 0x18
-    ::Array<::Il2CppString*>* strings;
+    ::ArrayWrapper<::Il2CppString*> strings;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // System.Int32 _trackcount
     // Size: 0x4
     // Offset: 0x20
@@ -97,11 +97,11 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: RegexCode
-    RegexCode(::Array<int>* codes_ = {}, ::Array<::Il2CppString*>* strings_ = {}, int trackcount_ = {}, System::Collections::Hashtable* caps_ = {}, int capsize_ = {}, System::Text::RegularExpressions::RegexPrefix* fcPrefix_ = {}, System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix_ = {}, int anchors_ = {}, bool rightToLeft_ = {}) noexcept : codes{codes_}, strings{strings_}, trackcount{trackcount_}, caps{caps_}, capsize{capsize_}, fcPrefix{fcPrefix_}, bmPrefix{bmPrefix_}, anchors{anchors_}, rightToLeft{rightToLeft_} {}
+    RegexCode(::ArrayWrapper<int> codes_ = {}, ::ArrayWrapper<::Il2CppString*> strings_ = {}, int trackcount_ = {}, System::Collections::Hashtable* caps_ = {}, int capsize_ = {}, System::Text::RegularExpressions::RegexPrefix* fcPrefix_ = {}, System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix_ = {}, int anchors_ = {}, bool rightToLeft_ = {}) noexcept : codes{codes_}, strings{strings_}, trackcount{trackcount_}, caps{caps_}, capsize{capsize_}, fcPrefix{fcPrefix_}, bmPrefix{bmPrefix_}, anchors{anchors_}, rightToLeft{rightToLeft_} {}
     // Get instance field reference: System.Int32[] _codes
-    ::Array<int>*& dyn__codes();
+    ::ArrayWrapper<int>& dyn__codes();
     // Get instance field reference: System.String[] _strings
-    ::Array<::Il2CppString*>*& dyn__strings();
+    ::ArrayWrapper<::Il2CppString*>& dyn__strings();
     // Get instance field reference: System.Int32 _trackcount
     int& dyn__trackcount();
     // Get instance field reference: System.Collections.Hashtable _caps
@@ -117,14 +117,14 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Boolean _rightToLeft
     bool& dyn__rightToLeft();
     // System.Void .ctor(System.Int32[] codes, System.Collections.Generic.List`1<System.String> stringlist, System.Int32 trackcount, System.Collections.Hashtable caps, System.Int32 capsize, System.Text.RegularExpressions.RegexBoyerMoore bmPrefix, System.Text.RegularExpressions.RegexPrefix fcPrefix, System.Int32 anchors, System.Boolean rightToLeft)
-    // Offset: 0x199BB3C
+    // Offset: 0x1A35200
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RegexCode* New_ctor(::Array<int>* codes, System::Collections::Generic::List_1<::Il2CppString*>* stringlist, int trackcount, System::Collections::Hashtable* caps, int capsize, System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix, System::Text::RegularExpressions::RegexPrefix* fcPrefix, int anchors, bool rightToLeft) {
+    static RegexCode* New_ctor(::ArrayWrapper<int> codes, System::Collections::Generic::List_1<::Il2CppString*>* stringlist, int trackcount, System::Collections::Hashtable* caps, int capsize, System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix, System::Text::RegularExpressions::RegexPrefix* fcPrefix, int anchors, bool rightToLeft) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexCode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexCode*, creationType>(codes, stringlist, trackcount, caps, capsize, bmPrefix, fcPrefix, anchors, rightToLeft)));
     }
     // static System.Boolean OpcodeBacktracks(System.Int32 Op)
-    // Offset: 0x199BC38
+    // Offset: 0x1A352FC
     static bool OpcodeBacktracks(int Op);
   }; // System.Text.RegularExpressions.RegexCode
   #pragma pack(pop)

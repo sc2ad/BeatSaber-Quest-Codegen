@@ -44,20 +44,20 @@ namespace System::Net::Security {
     // Creating value type constructor for type: RemoteCertificateValidationCallback
     RemoteCertificateValidationCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x14A70D8
+    // Offset: 0x164CD54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteCertificateValidationCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Security::RemoteCertificateValidationCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemoteCertificateValidationCallback*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.Object sender, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, System.Net.Security.SslPolicyErrors sslPolicyErrors)
-    // Offset: 0x14A70E8
+    // Offset: 0x164CD64
     bool Invoke(::Il2CppObject* sender, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Security::Cryptography::X509Certificates::X509Chain* chain, System::Net::Security::SslPolicyErrors sslPolicyErrors);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, System.Net.Security.SslPolicyErrors sslPolicyErrors, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x14A752C
+    // Offset: 0x164D1A8
     System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Security::Cryptography::X509Certificates::X509Chain* chain, System::Net::Security::SslPolicyErrors sslPolicyErrors, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x14A75DC
+    // Offset: 0x164D258
     bool EndInvoke(System::IAsyncResult* result);
   }; // System.Net.Security.RemoteCertificateValidationCallback
   #pragma pack(pop)

@@ -38,9 +38,9 @@ namespace GlobalNamespace {
     // private PS4LevelProductsModelSO/LevelPackProductData[] _levelPackProductsData
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>* levelPackProductsData;
+    ::ArrayWrapper<GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*> levelPackProductsData;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>) == 0x8);
     // private System.Collections.Generic.Dictionary`2<System.String,PS4LevelProductsModelSO/LevelProductData> _levelIdToProductData
     // Size: 0x8
     // Offset: 0x20
@@ -54,26 +54,26 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>*) == 0x8);
     // Creating value type constructor for type: PS4LevelProductsModelSO
-    PS4LevelProductsModelSO(::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>* levelPackProductsData_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>* levelIdToProductData_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>* levelPackIdToProductData_ = {}) noexcept : levelPackProductsData{levelPackProductsData_}, levelIdToProductData{levelIdToProductData_}, levelPackIdToProductData{levelPackIdToProductData_} {}
+    PS4LevelProductsModelSO(::ArrayWrapper<GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*> levelPackProductsData_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>* levelIdToProductData_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>* levelPackIdToProductData_ = {}) noexcept : levelPackProductsData{levelPackProductsData_}, levelIdToProductData{levelIdToProductData_}, levelPackIdToProductData{levelPackIdToProductData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private PS4LevelProductsModelSO/LevelPackProductData[] _levelPackProductsData
-    ::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>*& dyn__levelPackProductsData();
+    ::ArrayWrapper<GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>& dyn__levelPackProductsData();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,PS4LevelProductsModelSO/LevelProductData> _levelIdToProductData
     System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>*& dyn__levelIdToProductData();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,PS4LevelProductsModelSO/LevelPackProductData> _levelPackIdToProductData
     System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>*& dyn__levelPackIdToProductData();
     // public PS4LevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
-    // Offset: 0x10359F0
-    ::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>* get_levelPackProductsData();
+    // Offset: 0x1124E60
+    ::ArrayWrapper<GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*> get_levelPackProductsData();
     // public PS4LevelProductsModelSO/LevelProductData GetLevelProductData(System.String levelId)
-    // Offset: 0x1035B50
+    // Offset: 0x1124FC0
     GlobalNamespace::PS4LevelProductsModelSO::LevelProductData* GetLevelProductData(::Il2CppString* levelId);
     // public PS4LevelProductsModelSO/LevelPackProductData GetLevelPackProductData(System.String levelPackId)
-    // Offset: 0x1035BD0
+    // Offset: 0x1125040
     GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::Il2CppString* levelPackId);
     // public System.Void .ctor()
-    // Offset: 0x1035C50
+    // Offset: 0x11250C0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -85,7 +85,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PS4LevelProductsModelSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x10359F8
+    // Offset: 0x1124E68
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
@@ -99,7 +99,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LevelProductsModelSO*, "", "PS4LevelP
 // Writing MetadataGetter for method: GlobalNamespace::PS4LevelProductsModelSO::get_levelPackProductsData
 // Il2CppName: get_levelPackProductsData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>* (GlobalNamespace::PS4LevelProductsModelSO::*)()>(&GlobalNamespace::PS4LevelProductsModelSO::get_levelPackProductsData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*> (GlobalNamespace::PS4LevelProductsModelSO::*)()>(&GlobalNamespace::PS4LevelProductsModelSO::get_levelPackProductsData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4LevelProductsModelSO*), "get_levelPackProductsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

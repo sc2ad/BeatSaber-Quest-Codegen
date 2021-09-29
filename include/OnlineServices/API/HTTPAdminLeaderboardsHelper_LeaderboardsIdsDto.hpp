@@ -23,19 +23,19 @@ namespace OnlineServices::API {
     // public System.String[] leaderboardsIds
     // Size: 0x8
     // Offset: 0x10
-    ::Array<::Il2CppString*>* leaderboardsIds;
+    ::ArrayWrapper<::Il2CppString*> leaderboardsIds;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // Creating value type constructor for type: LeaderboardsIdsDto
-    LeaderboardsIdsDto(::Array<::Il2CppString*>* leaderboardsIds_ = {}) noexcept : leaderboardsIds{leaderboardsIds_} {}
-    // Creating conversion operator: operator ::Array<::Il2CppString*>*
-    constexpr operator ::Array<::Il2CppString*>*() const noexcept {
+    LeaderboardsIdsDto(::ArrayWrapper<::Il2CppString*> leaderboardsIds_ = {}) noexcept : leaderboardsIds{leaderboardsIds_} {}
+    // Creating conversion operator: operator ::ArrayWrapper<::Il2CppString*>
+    constexpr operator ::ArrayWrapper<::Il2CppString*>() const noexcept {
       return leaderboardsIds;
     }
     // Get instance field reference: public System.String[] leaderboardsIds
-    ::Array<::Il2CppString*>*& dyn_leaderboardsIds();
+    ::ArrayWrapper<::Il2CppString*>& dyn_leaderboardsIds();
     // public System.Void .ctor()
-    // Offset: 0x102CA94
+    // Offset: 0x111BF04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -45,7 +45,7 @@ namespace OnlineServices::API {
     }
   }; // OnlineServices.API.HTTPAdminLeaderboardsHelper/OnlineServices.API.LeaderboardsIdsDto
   #pragma pack(pop)
-  static check_size<sizeof(HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto), 16 + sizeof(::Array<::Il2CppString*>*)> __OnlineServices_API_HTTPAdminLeaderboardsHelper_LeaderboardsIdsDtoSizeCheck;
+  static check_size<sizeof(HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto), 16 + sizeof(::ArrayWrapper<::Il2CppString*>)> __OnlineServices_API_HTTPAdminLeaderboardsHelper_LeaderboardsIdsDtoSizeCheck;
   static_assert(sizeof(HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto*, "OnlineServices.API", "HTTPAdminLeaderboardsHelper/LeaderboardsIdsDto");

@@ -65,17 +65,17 @@ namespace Org::BouncyCastle::Pkcs {
     // Set static field: static protected readonly Org.BouncyCastle.Utilities.Collections.ISet noParams
     static void _set_noParams(Org::BouncyCastle::Utilities::Collections::ISet* value);
     // static private System.Void .cctor()
-    // Offset: 0x13AD200
+    // Offset: 0x14BF3F4
     static void _cctor();
     // public System.Void .ctor(System.Byte[] encoded)
-    // Offset: 0x13AABA4
+    // Offset: 0x14BCD98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Pkcs10CertificationRequest* New_ctor(::Array<uint8_t>* encoded) {
+    static Pkcs10CertificationRequest* New_ctor(::ArrayWrapper<uint8_t> encoded) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Pkcs10CertificationRequest*, creationType>(encoded)));
     }
     // static private Org.BouncyCastle.Asn1.Pkcs.RsassaPssParameters CreatePssParams(Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier hashAlgId, System.Int32 saltSize)
-    // Offset: 0x13B03BC
+    // Offset: 0x14C25B0
     static Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* CreatePssParams(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgId, int saltSize);
   }; // Org.BouncyCastle.Pkcs.Pkcs10CertificationRequest
   #pragma pack(pop)

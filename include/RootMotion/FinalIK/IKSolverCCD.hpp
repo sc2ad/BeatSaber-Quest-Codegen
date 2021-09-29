@@ -41,13 +41,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.IterationDelegate OnPreIteration
     RootMotion::FinalIK::IKSolver::IterationDelegate*& dyn_OnPreIteration();
     // public System.Void FadeOutBoneWeights()
-    // Offset: 0x1CABD2C
+    // Offset: 0x1E5DD8C
     void FadeOutBoneWeights();
     // protected System.Void Solve(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x1CACB3C
+    // Offset: 0x1E5EB9C
     void Solve(UnityEngine::Vector3 targetPosition);
     // public System.Void .ctor()
-    // Offset: 0x1CAD2A0
+    // Offset: 0x1E5F300
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::.ctor()
     // Base method: System.Void IKSolver::.ctor()
@@ -58,12 +58,12 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverCCD*, creationType>()));
     }
     // protected override System.Void OnInitiate()
-    // Offset: 0x1CABDDC
+    // Offset: 0x1E5DE3C
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::OnInitiate()
     void OnInitiate();
     // protected override System.Void OnUpdate()
-    // Offset: 0x1CAC3DC
+    // Offset: 0x1E5E43C
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::OnUpdate()
     void OnUpdate();

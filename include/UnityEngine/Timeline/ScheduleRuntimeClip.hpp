@@ -93,49 +93,49 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private System.Boolean m_Started
     bool& dyn_m_Started();
     // public UnityEngine.Timeline.TimelineClip get_clip()
-    // Offset: 0x182B454
+    // Offset: 0x19FE7FC
     UnityEngine::Timeline::TimelineClip* get_clip();
     // public UnityEngine.Playables.Playable get_mixer()
-    // Offset: 0x182B45C
+    // Offset: 0x19FE804
     UnityEngine::Playables::Playable get_mixer();
     // public UnityEngine.Playables.Playable get_playable()
-    // Offset: 0x182B468
+    // Offset: 0x19FE810
     UnityEngine::Playables::Playable get_playable();
     // public System.Void .ctor(UnityEngine.Timeline.TimelineClip clip, UnityEngine.Playables.Playable clipPlayable, UnityEngine.Playables.Playable parentMixer, System.Double startDelay, System.Double finishTail)
-    // Offset: 0x1821CE8
+    // Offset: 0x19F5090
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScheduleRuntimeClip* New_ctor(UnityEngine::Timeline::TimelineClip* clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer, double startDelay, double finishTail) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::ScheduleRuntimeClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScheduleRuntimeClip*, creationType>(clip, clipPlayable, parentMixer, startDelay, finishTail)));
     }
     // public System.Void SetTime(System.Double time)
-    // Offset: 0x182B3F4
+    // Offset: 0x19FE79C
     void SetTime(double time);
     // private System.Void Create(UnityEngine.Timeline.TimelineClip clip, UnityEngine.Playables.Playable clipPlayable, UnityEngine.Playables.Playable parentMixer, System.Double startDelay, System.Double finishTail)
-    // Offset: 0x182B474
+    // Offset: 0x19FE81C
     void Create(UnityEngine::Timeline::TimelineClip* clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer, double startDelay, double finishTail);
     // public override System.Double get_start()
-    // Offset: 0x182B31C
+    // Offset: 0x19FE6C4
     // Implemented from: UnityEngine.Timeline.RuntimeClipBase
     // Base method: System.Double RuntimeClipBase::get_start()
     double get_start();
     // public override System.Double get_duration()
-    // Offset: 0x182B3A4
+    // Offset: 0x19FE74C
     // Implemented from: UnityEngine.Timeline.RuntimeClipBase
     // Base method: System.Double RuntimeClipBase::get_duration()
     double get_duration();
     // public override System.Void set_enable(System.Boolean value)
-    // Offset: 0x182B514
+    // Offset: 0x19FE8BC
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::set_enable(System.Boolean value)
     void set_enable(bool value);
     // public override System.Void EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
-    // Offset: 0x182B60C
+    // Offset: 0x19FE9B4
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
     void EvaluateAt(double localTime, UnityEngine::Playables::FrameData frameData);
     // public override System.Void DisableAt(System.Double localTime, System.Double rootDuration, UnityEngine.Playables.FrameData frameData)
-    // Offset: 0x182B884
+    // Offset: 0x19FEC2C
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::DisableAt(System.Double localTime, System.Double rootDuration, UnityEngine.Playables.FrameData frameData)
     void DisableAt(double localTime, double rootDuration, UnityEngine::Playables::FrameData frameData);

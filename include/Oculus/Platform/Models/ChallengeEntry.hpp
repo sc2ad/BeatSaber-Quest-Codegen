@@ -38,9 +38,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.Byte[] ExtraData
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* ExtraData;
+    ::ArrayWrapper<uint8_t> ExtraData;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // public readonly System.Int32 Rank
     // Size: 0x4
     // Offset: 0x20
@@ -68,11 +68,11 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::User*) == 0x8);
     // Creating value type constructor for type: ChallengeEntry
-    ChallengeEntry(::Il2CppString* DisplayScore_ = {}, ::Array<uint8_t>* ExtraData_ = {}, int Rank_ = {}, int64_t Score_ = {}, System::DateTime Timestamp_ = {}, Oculus::Platform::Models::User* User_ = {}) noexcept : DisplayScore{DisplayScore_}, ExtraData{ExtraData_}, Rank{Rank_}, Score{Score_}, Timestamp{Timestamp_}, User{User_} {}
+    ChallengeEntry(::Il2CppString* DisplayScore_ = {}, ::ArrayWrapper<uint8_t> ExtraData_ = {}, int Rank_ = {}, int64_t Score_ = {}, System::DateTime Timestamp_ = {}, Oculus::Platform::Models::User* User_ = {}) noexcept : DisplayScore{DisplayScore_}, ExtraData{ExtraData_}, Rank{Rank_}, Score{Score_}, Timestamp{Timestamp_}, User{User_} {}
     // Get instance field reference: public readonly System.String DisplayScore
     ::Il2CppString*& dyn_DisplayScore();
     // Get instance field reference: public readonly System.Byte[] ExtraData
-    ::Array<uint8_t>*& dyn_ExtraData();
+    ::ArrayWrapper<uint8_t>& dyn_ExtraData();
     // Get instance field reference: public readonly System.Int32 Rank
     int& dyn_Rank();
     // Get instance field reference: public readonly System.Int64 Score
@@ -82,7 +82,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly Oculus.Platform.Models.User User
     Oculus::Platform::Models::User*& dyn_User();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1535F28
+    // Offset: 0x16BEC70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChallengeEntry* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::ChallengeEntry::.ctor");

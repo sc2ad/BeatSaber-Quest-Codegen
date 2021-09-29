@@ -29,19 +29,19 @@ namespace UnityEngine::Timeline {
     // Creating value type constructor for type: TimelineUndo
     TimelineUndo() noexcept {}
     // static public System.Void PushDestroyUndo(UnityEngine.Timeline.TimelineAsset timeline, UnityEngine.Object thingToDirty, UnityEngine.Object objectToDestroy)
-    // Offset: 0x236AD80
+    // Offset: 0x25655E0
     static void PushDestroyUndo(UnityEngine::Timeline::TimelineAsset* timeline, UnityEngine::Object* thingToDirty, UnityEngine::Object* objectToDestroy);
     // static public System.Void PushUndo(UnityEngine.Object[] thingsToDirty, System.String operation)
-    // Offset: 0x236AE20
-    static void PushUndo(::Array<UnityEngine::Object*>* thingsToDirty, ::Il2CppString* operation);
+    // Offset: 0x2565680
+    static void PushUndo(::ArrayWrapper<UnityEngine::Object*> thingsToDirty, ::Il2CppString* operation);
     // static public System.Void PushUndo(UnityEngine.Object thingToDirty, System.String operation)
-    // Offset: 0x236AE24
+    // Offset: 0x2565684
     static void PushUndo(UnityEngine::Object* thingToDirty, ::Il2CppString* operation);
     // static public System.Void RegisterCreatedObjectUndo(UnityEngine.Object thingCreated, System.String operation)
-    // Offset: 0x236AE28
+    // Offset: 0x2565688
     static void RegisterCreatedObjectUndo(UnityEngine::Object* thingCreated, ::Il2CppString* operation);
     // static private System.String UndoName(System.String name)
-    // Offset: 0x236AE2C
+    // Offset: 0x256568C
     static ::Il2CppString* UndoName(::Il2CppString* name);
   }; // UnityEngine.Timeline.TimelineUndo
   #pragma pack(pop)
@@ -63,9 +63,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineUndo::PushUndo
 // Il2CppName: PushUndo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<UnityEngine::Object*>*, ::Il2CppString*)>(&UnityEngine::Timeline::TimelineUndo::PushUndo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<UnityEngine::Object*>, ::Il2CppString*)>(&UnityEngine::Timeline::TimelineUndo::PushUndo)> {
   static const MethodInfo* get() {
-    static auto* thingsToDirty = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Object"), 1)->byval_arg;
+    static auto* thingsToDirty = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Object")), 1)->byval_arg;
     static auto* operation = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineUndo*), "PushUndo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{thingsToDirty, operation});
   }

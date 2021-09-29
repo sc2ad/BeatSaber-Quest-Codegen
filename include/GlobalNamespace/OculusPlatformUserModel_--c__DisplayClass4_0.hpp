@@ -60,10 +60,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<PlatformUserAuthTokenData> tcs
     System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::PlatformUserAuthTokenData*>*& dyn_tcs();
     // System.Void <GetUserAuthToken>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.UserProof> message)
-    // Offset: 0x102AB3C
+    // Offset: 0x1119FAC
     void $GetUserAuthToken$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::UserProof*>* message);
     // public System.Void .ctor()
-    // Offset: 0x102AB34
+    // Offset: 0x1119FA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

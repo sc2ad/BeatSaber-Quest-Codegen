@@ -55,7 +55,7 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFF
     void WriteStartElement(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* ns);
     // public System.Void WriteStartElement(System.String localName)
-    // Offset: 0x23EC52C
+    // Offset: 0x25F67BC
     void WriteStartElement(::Il2CppString* localName);
     // public System.Void WriteEndElement()
     // Offset: 0xFFFFFFFF
@@ -64,10 +64,10 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFF
     void WriteFullEndElement();
     // public System.Void WriteAttributeString(System.String localName, System.String value)
-    // Offset: 0x23EC544
+    // Offset: 0x25F67D4
     void WriteAttributeString(::Il2CppString* localName, ::Il2CppString* value);
     // public System.Void WriteAttributeString(System.String prefix, System.String localName, System.String ns, System.String value)
-    // Offset: 0x23EC5A0
+    // Offset: 0x25F6830
     void WriteAttributeString(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* ns, ::Il2CppString* value);
     // public System.Void WriteStartAttribute(System.String prefix, System.String localName, System.String ns)
     // Offset: 0xFFFFFFFF
@@ -101,21 +101,21 @@ namespace System::Xml {
     void WriteSurrogateCharEntity(::Il2CppChar lowChar, ::Il2CppChar highChar);
     // public System.Void WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0xFFFFFFFF
-    void WriteChars(::Array<::Il2CppChar>* buffer, int index, int count);
+    void WriteChars(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
     // public System.Void WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0xFFFFFFFF
-    void WriteRaw(::Array<::Il2CppChar>* buffer, int index, int count);
+    void WriteRaw(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
     // public System.Void WriteRaw(System.String data)
     // Offset: 0xFFFFFFFF
     void WriteRaw(::Il2CppString* data);
     // public System.Void WriteBase64(System.Byte[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0xFFFFFFFF
-    void WriteBase64(::Array<uint8_t>* buffer, int index, int count);
+    void WriteBase64(::ArrayWrapper<uint8_t> buffer, int index, int count);
     // public System.Void WriteBinHex(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x23EC5F0
-    void WriteBinHex(::Array<uint8_t>* buffer, int index, int count);
+    // Offset: 0x25F6880
+    void WriteBinHex(::ArrayWrapper<uint8_t> buffer, int index, int count);
     // public System.Void Close()
-    // Offset: 0x23EC60C
+    // Offset: 0x25F689C
     void Close();
     // public System.Void Flush()
     // Offset: 0xFFFFFFFF
@@ -124,22 +124,22 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* LookupPrefix(::Il2CppString* ns);
     // public System.Void WriteValue(System.String value)
-    // Offset: 0x23EC610
+    // Offset: 0x25F68A0
     void WriteValue(::Il2CppString* value);
     // public System.Void Dispose()
-    // Offset: 0x23EC628
+    // Offset: 0x25F68B8
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x23EC63C
+    // Offset: 0x25F68CC
     void Dispose(bool disposing);
     // static public System.Xml.XmlWriter Create(System.IO.Stream output, System.Xml.XmlWriterSettings settings)
-    // Offset: 0x23EC690
+    // Offset: 0x25F6920
     static System::Xml::XmlWriter* Create(System::IO::Stream* output, System::Xml::XmlWriterSettings* settings);
     // static public System.Xml.XmlWriter Create(System.IO.TextWriter output, System.Xml.XmlWriterSettings settings)
-    // Offset: 0x23ECB40
+    // Offset: 0x25F6DD0
     static System::Xml::XmlWriter* Create(System::IO::TextWriter* output, System::Xml::XmlWriterSettings* settings);
     // protected System.Void .ctor()
-    // Offset: 0x23ECE48
+    // Offset: 0x25F70D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -334,9 +334,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWriter::WriteChars
 // Il2CppName: WriteChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWriter::*)(::Array<::Il2CppChar>*, int, int)>(&System::Xml::XmlWriter::WriteChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWriter::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Xml::XmlWriter::WriteChars)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriter*), "WriteChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index, count});
@@ -345,9 +345,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWriter::WriteRaw
 // Il2CppName: WriteRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWriter::*)(::Array<::Il2CppChar>*, int, int)>(&System::Xml::XmlWriter::WriteRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWriter::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Xml::XmlWriter::WriteRaw)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriter*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index, count});
@@ -365,9 +365,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWriter::WriteBase64
 // Il2CppName: WriteBase64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWriter::*)(::Array<uint8_t>*, int, int)>(&System::Xml::XmlWriter::WriteBase64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWriter::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Xml::XmlWriter::WriteBase64)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriter*), "WriteBase64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index, count});
@@ -376,9 +376,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWriter::WriteBinHex
 // Il2CppName: WriteBinHex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWriter::*)(::Array<uint8_t>*, int, int)>(&System::Xml::XmlWriter::WriteBinHex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWriter::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Xml::XmlWriter::WriteBinHex)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriter*), "WriteBinHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index, count});

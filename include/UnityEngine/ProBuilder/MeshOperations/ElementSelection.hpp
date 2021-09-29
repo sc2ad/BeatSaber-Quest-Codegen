@@ -73,85 +73,85 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static private readonly UnityEngine.Vector3 Vector3_Zero
     static void _set_Vector3_Zero(UnityEngine::Vector3 value);
     // static private System.Void .cctor()
-    // Offset: 0x1562050
+    // Offset: 0x171B310
     static void _cctor();
     // static System.Collections.Generic.List`1<UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Edge>> GetNeighborFaces(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Edge edge)
-    // Offset: 0x155D734
+    // Offset: 0x17169F4
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::Face*, UnityEngine::ProBuilder::Edge>>* GetNeighborFaces(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Edge edge);
     // static System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> GetNeighborFaces(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32[] indexes)
-    // Offset: 0x155D9A4
-    static System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>* GetNeighborFaces(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<int>* indexes);
+    // Offset: 0x1716C64
+    static System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>* GetNeighborFaces(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayWrapper<int> indexes);
     // static UnityEngine.ProBuilder.Edge[] GetConnectedEdges(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32[] indexes)
-    // Offset: 0x155DBE0
-    static ::Array<UnityEngine::ProBuilder::Edge>* GetConnectedEdges(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<int>* indexes);
+    // Offset: 0x1716EA0
+    static ::ArrayWrapper<UnityEngine::ProBuilder::Edge> GetConnectedEdges(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayWrapper<int> indexes);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> GetPerimeterEdges(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x155E0CC
+    // Offset: 0x171738C
     static System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* GetPerimeterEdges(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces);
     // static System.Int32[] GetPerimeterEdges(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Edge> edges)
-    // Offset: 0x155E590
-    static ::Array<int>* GetPerimeterEdges(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Edge>* edges);
+    // Offset: 0x1717850
+    static ::ArrayWrapper<int> GetPerimeterEdges(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Edge>* edges);
     // static System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> GetPerimeterFaces(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x155E88C
+    // Offset: 0x1717B4C
     static System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* GetPerimeterFaces(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces);
     // static System.Int32[] GetPerimeterVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32[] indexes, UnityEngine.ProBuilder.Edge[] universal_edges_all)
-    // Offset: 0x155EE40
-    static ::Array<int>* GetPerimeterVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<int>* indexes, ::Array<UnityEngine::ProBuilder::Edge>* universal_edges_all);
+    // Offset: 0x1718100
+    static ::ArrayWrapper<int> GetPerimeterVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayWrapper<int> indexes, ::ArrayWrapper<UnityEngine::ProBuilder::Edge> universal_edges_all);
     // static private UnityEngine.ProBuilder.WingedEdge EdgeRingNext(UnityEngine.ProBuilder.WingedEdge edge)
-    // Offset: 0x155F130
+    // Offset: 0x17183F0
     static UnityEngine::ProBuilder::WingedEdge* EdgeRingNext(UnityEngine::ProBuilder::WingedEdge* edge);
     // static System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> GetEdgeRing(UnityEngine.ProBuilder.ProBuilderMesh pb, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> edges)
-    // Offset: 0x155F1BC
+    // Offset: 0x171847C
     static System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* GetEdgeRing(UnityEngine::ProBuilder::ProBuilderMesh* pb, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges);
     // static System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> GetEdgeRingIterative(UnityEngine.ProBuilder.ProBuilderMesh pb, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> edges)
-    // Offset: 0x155F5BC
+    // Offset: 0x171887C
     static System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* GetEdgeRingIterative(UnityEngine::ProBuilder::ProBuilderMesh* pb, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges);
     // static System.Boolean GetEdgeLoop(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> edges, out UnityEngine.ProBuilder.Edge[] loop)
-    // Offset: 0x155F9EC
-    static bool GetEdgeLoop(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges, ByRef<::Array<UnityEngine::ProBuilder::Edge>*> loop);
+    // Offset: 0x1718CAC
+    static bool GetEdgeLoop(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges, ByRef<::ArrayWrapper<UnityEngine::ProBuilder::Edge>> loop);
     // static System.Boolean GetEdgeLoopIterative(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> edges, out UnityEngine.ProBuilder.Edge[] loop)
-    // Offset: 0x155FF30
-    static bool GetEdgeLoopIterative(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges, ByRef<::Array<UnityEngine::ProBuilder::Edge>*> loop);
+    // Offset: 0x17191F0
+    static bool GetEdgeLoopIterative(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges, ByRef<::ArrayWrapper<UnityEngine::ProBuilder::Edge>> loop);
     // static private System.Boolean GetEdgeLoopInternal(UnityEngine.ProBuilder.WingedEdge start, System.Int32 startIndex, System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.EdgeLookup> used)
-    // Offset: 0x155FD54
+    // Offset: 0x1719014
     static bool GetEdgeLoopInternal(UnityEngine::ProBuilder::WingedEdge* start, int startIndex, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::EdgeLookup>* used);
     // static private System.Void GetEdgeLoopInternalIterative(UnityEngine.ProBuilder.WingedEdge start, UnityEngine.ProBuilder.Edge edge, System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.EdgeLookup> used)
-    // Offset: 0x15601E4
+    // Offset: 0x17194A4
     static void GetEdgeLoopInternalIterative(UnityEngine::ProBuilder::WingedEdge* start, UnityEngine::ProBuilder::Edge edge, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::EdgeLookup>* used);
     // static private UnityEngine.ProBuilder.WingedEdge NextSpoke(UnityEngine.ProBuilder.WingedEdge wing, System.Int32 pivot, System.Boolean opp)
-    // Offset: 0x156071C
+    // Offset: 0x17199DC
     static UnityEngine::ProBuilder::WingedEdge* NextSpoke(UnityEngine::ProBuilder::WingedEdge* wing, int pivot, bool opp);
     // static System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> GetSpokes(UnityEngine.ProBuilder.WingedEdge wing, System.Int32 sharedIndex, System.Boolean allowHoles)
-    // Offset: 0x156050C
+    // Offset: 0x17197CC
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>* GetSpokes(UnityEngine::ProBuilder::WingedEdge* wing, int sharedIndex, bool allowHoles);
     // static public System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> GrowSelection(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Single maxAngleDiff)
-    // Offset: 0x15607B4
+    // Offset: 0x1719A74
     static System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* GrowSelection(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, float maxAngleDiff);
     // static System.Void Flood(UnityEngine.ProBuilder.WingedEdge wing, System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> selection)
-    // Offset: 0x1560C10
+    // Offset: 0x1719ED0
     static void Flood(UnityEngine::ProBuilder::WingedEdge* wing, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* selection);
     // static System.Void Flood(UnityEngine.ProBuilder.ProBuilderMesh pb, UnityEngine.ProBuilder.WingedEdge wing, UnityEngine.Vector3 wingNrm, System.Single maxAngle, System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> selection)
-    // Offset: 0x1560C9C
+    // Offset: 0x1719F5C
     static void Flood(UnityEngine::ProBuilder::ProBuilderMesh* pb, UnityEngine::ProBuilder::WingedEdge* wing, UnityEngine::Vector3 wingNrm, float maxAngle, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* selection);
     // static public System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> FloodSelection(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face> faces, System.Single maxAngleDiff)
-    // Offset: 0x1560E7C
+    // Offset: 0x171A13C
     static System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* FloodSelection(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Face*>* faces, float maxAngleDiff);
     // static public System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> GetFaceLoop(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face[] faces, System.Boolean ring)
-    // Offset: 0x1561130
-    static System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* GetFaceLoop(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<UnityEngine::ProBuilder::Face*>* faces, bool ring);
+    // Offset: 0x171A3F0
+    static System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* GetFaceLoop(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayWrapper<UnityEngine::ProBuilder::Face*> faces, bool ring);
     // static public System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> GetFaceRingAndLoop(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face[] faces)
-    // Offset: 0x15614B4
-    static System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* GetFaceRingAndLoop(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<UnityEngine::ProBuilder::Face*>* faces);
+    // Offset: 0x171A774
+    static System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* GetFaceRingAndLoop(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayWrapper<UnityEngine::ProBuilder::Face*> faces);
     // static private System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> GetFaceLoop(System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> wings, UnityEngine.ProBuilder.Face face, System.Boolean ring)
-    // Offset: 0x1561318
+    // Offset: 0x171A5D8
     static System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* GetFaceLoop(System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>* wings, UnityEngine::ProBuilder::Face* face, bool ring);
     // static System.Collections.Generic.List`1<System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge>> FindHoles(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<System.Int32> indexes)
-    // Offset: 0x15616B4
+    // Offset: 0x171A974
     static System::Collections::Generic::List_1<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>*>* FindHoles(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<int>* indexes);
     // static System.Collections.Generic.List`1<System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge>> FindHoles(System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> wings, System.Collections.Generic.HashSet`1<System.Int32> common)
-    // Offset: 0x156195C
+    // Offset: 0x171AC1C
     static System::Collections::Generic::List_1<System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>*>* FindHoles(System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>* wings, System::Collections::Generic::HashSet_1<int>* common);
     // static private UnityEngine.ProBuilder.WingedEdge FindNextEdgeInHole(UnityEngine.ProBuilder.WingedEdge wing, System.Int32 common)
-    // Offset: 0x1561FC0
+    // Offset: 0x171B280
     static UnityEngine::ProBuilder::WingedEdge* FindNextEdgeInHole(UnityEngine::ProBuilder::WingedEdge* wing, int common);
   }; // UnityEngine.ProBuilder.MeshOperations.ElementSelection
   #pragma pack(pop)
@@ -180,20 +180,20 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetNeighborFaces
 // Il2CppName: GetNeighborFaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::Array<int>*)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetNeighborFaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayWrapper<int>)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetNeighborFaces)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
-    static auto* indexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* indexes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection*), "GetNeighborFaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, indexes});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetConnectedEdges
 // Il2CppName: GetConnectedEdges
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ProBuilder::Edge>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::Array<int>*)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetConnectedEdges)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::ProBuilder::Edge> (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayWrapper<int>)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetConnectedEdges)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
-    static auto* indexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* indexes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection*), "GetConnectedEdges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, indexes});
   }
 };
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetPerimeterEdges
 // Il2CppName: GetPerimeterEdges
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Edge>*)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetPerimeterEdges)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Edge>*)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetPerimeterEdges)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* edges = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge")})->byval_arg;
@@ -230,11 +230,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetPerimeterVertices
 // Il2CppName: GetPerimeterVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::Array<int>*, ::Array<UnityEngine::ProBuilder::Edge>*)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetPerimeterVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayWrapper<int>, ::ArrayWrapper<UnityEngine::ProBuilder::Edge>)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetPerimeterVertices)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
-    static auto* indexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
-    static auto* universal_edges_all = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge"), 1)->byval_arg;
+    static auto* indexes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* universal_edges_all = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection*), "GetPerimeterVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, indexes, universal_edges_all});
   }
 };
@@ -270,22 +270,22 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetEdgeLoop
 // Il2CppName: GetEdgeLoop
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*, ByRef<::Array<UnityEngine::ProBuilder::Edge>*>)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetEdgeLoop)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*, ByRef<::ArrayWrapper<UnityEngine::ProBuilder::Edge>>)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetEdgeLoop)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* edges = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge")})->byval_arg;
-    static auto* loop = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge"), 1)->this_arg;
+    static auto* loop = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge")), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection*), "GetEdgeLoop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, edges, loop});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetEdgeLoopIterative
 // Il2CppName: GetEdgeLoopIterative
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*, ByRef<::Array<UnityEngine::ProBuilder::Edge>*>)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetEdgeLoopIterative)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*, ByRef<::ArrayWrapper<UnityEngine::ProBuilder::Edge>>)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetEdgeLoopIterative)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* edges = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge")})->byval_arg;
-    static auto* loop = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge"), 1)->this_arg;
+    static auto* loop = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge")), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection*), "GetEdgeLoopIterative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, edges, loop});
   }
 };
@@ -381,10 +381,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetFaceLoop
 // Il2CppName: GetFaceLoop
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::Array<UnityEngine::ProBuilder::Face*>*, bool)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetFaceLoop)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayWrapper<UnityEngine::ProBuilder::Face*>, bool)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetFaceLoop)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
-    static auto* faces = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face"), 1)->byval_arg;
+    static auto* faces = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")), 1)->byval_arg;
     static auto* ring = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection*), "GetFaceLoop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, faces, ring});
   }
@@ -392,10 +392,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetFaceRingAndLoop
 // Il2CppName: GetFaceRingAndLoop
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::Array<UnityEngine::ProBuilder::Face*>*)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetFaceRingAndLoop)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayWrapper<UnityEngine::ProBuilder::Face*>)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetFaceRingAndLoop)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
-    static auto* faces = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face"), 1)->byval_arg;
+    static auto* faces = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection*), "GetFaceRingAndLoop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, faces});
   }
 };

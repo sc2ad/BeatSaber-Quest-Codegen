@@ -34,20 +34,20 @@ namespace UnityEngine::XR::WSA {
     // Creating value type constructor for type: OnTrackingChangedDelegate
     OnTrackingChangedDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2419DBC
+    // Offset: 0x262520C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WorldAnchor::OnTrackingChangedDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WorldAnchor::OnTrackingChangedDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.XR.WSA.WorldAnchor worldAnchor, System.Boolean located)
-    // Offset: 0x2419994
+    // Offset: 0x2624DE4
     void Invoke(UnityEngine::XR::WSA::WorldAnchor* worldAnchor, bool located);
     // public System.IAsyncResult BeginInvoke(UnityEngine.XR.WSA.WorldAnchor worldAnchor, System.Boolean located, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2419DCC
+    // Offset: 0x262521C
     System::IAsyncResult* BeginInvoke(UnityEngine::XR::WSA::WorldAnchor* worldAnchor, bool located, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2419E6C
+    // Offset: 0x26252BC
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.XR.WSA.WorldAnchor/UnityEngine.XR.WSA.OnTrackingChangedDelegate
   #pragma pack(pop)

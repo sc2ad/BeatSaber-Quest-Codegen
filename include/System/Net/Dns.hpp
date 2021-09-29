@@ -26,37 +26,37 @@ namespace System::Net {
     // Creating value type constructor for type: Dns
     Dns() noexcept {}
     // static private System.Boolean GetHostByName_internal(System.String host, out System.String h_name, out System.String[] h_aliases, out System.String[] h_addr_list, System.Int32 hint)
-    // Offset: 0x16DFE54
-    static bool GetHostByName_internal(::Il2CppString* host, ByRef<::Il2CppString*> h_name, ByRef<::Array<::Il2CppString*>*> h_aliases, ByRef<::Array<::Il2CppString*>*> h_addr_list, int hint);
+    // Offset: 0x157A140
+    static bool GetHostByName_internal(::Il2CppString* host, ByRef<::Il2CppString*> h_name, ByRef<::ArrayWrapper<::Il2CppString*>> h_aliases, ByRef<::ArrayWrapper<::Il2CppString*>> h_addr_list, int hint);
     // static private System.Boolean GetHostByAddr_internal(System.String addr, out System.String h_name, out System.String[] h_aliases, out System.String[] h_addr_list, System.Int32 hint)
-    // Offset: 0x16DFE58
-    static bool GetHostByAddr_internal(::Il2CppString* addr, ByRef<::Il2CppString*> h_name, ByRef<::Array<::Il2CppString*>*> h_aliases, ByRef<::Array<::Il2CppString*>*> h_addr_list, int hint);
+    // Offset: 0x157A144
+    static bool GetHostByAddr_internal(::Il2CppString* addr, ByRef<::Il2CppString*> h_name, ByRef<::ArrayWrapper<::Il2CppString*>> h_aliases, ByRef<::ArrayWrapper<::Il2CppString*>> h_addr_list, int hint);
     // static private System.Boolean GetHostName_internal(out System.String h_name)
-    // Offset: 0x16DFE5C
+    // Offset: 0x157A148
     static bool GetHostName_internal(ByRef<::Il2CppString*> h_name);
     // static private System.Void Error_11001(System.String hostName)
-    // Offset: 0x16DFE60
+    // Offset: 0x157A14C
     static void Error_11001(::Il2CppString* hostName);
     // static private System.Net.IPHostEntry hostent_to_IPHostEntry(System.String originalHostName, System.String h_name, System.String[] h_aliases, System.String[] h_addrlist)
-    // Offset: 0x16DFEEC
-    static System::Net::IPHostEntry* hostent_to_IPHostEntry(::Il2CppString* originalHostName, ::Il2CppString* h_name, ::Array<::Il2CppString*>* h_aliases, ::Array<::Il2CppString*>* h_addrlist);
+    // Offset: 0x157A1D8
+    static System::Net::IPHostEntry* hostent_to_IPHostEntry(::Il2CppString* originalHostName, ::Il2CppString* h_name, ::ArrayWrapper<::Il2CppString*> h_aliases, ::ArrayWrapper<::Il2CppString*> h_addrlist);
     // static private System.Net.IPHostEntry GetHostByAddressFromString(System.String address, System.Boolean parse)
-    // Offset: 0x16E01D8
+    // Offset: 0x157A4C4
     static System::Net::IPHostEntry* GetHostByAddressFromString(::Il2CppString* address, bool parse);
     // static public System.Net.IPHostEntry GetHostEntry(System.String hostNameOrAddress)
-    // Offset: 0x16E02F8
+    // Offset: 0x157A5E4
     static System::Net::IPHostEntry* GetHostEntry(::Il2CppString* hostNameOrAddress);
     // static public System.Net.IPHostEntry GetHostEntry(System.Net.IPAddress address)
-    // Offset: 0x16E0448
+    // Offset: 0x157A734
     static System::Net::IPHostEntry* GetHostEntry(System::Net::IPAddress* address);
     // static public System.Net.IPAddress[] GetHostAddresses(System.String hostNameOrAddress)
-    // Offset: 0x16E05C8
-    static ::Array<System::Net::IPAddress*>* GetHostAddresses(::Il2CppString* hostNameOrAddress);
+    // Offset: 0x157A8B4
+    static ::ArrayWrapper<System::Net::IPAddress*> GetHostAddresses(::Il2CppString* hostNameOrAddress);
     // static public System.Net.IPHostEntry GetHostByName(System.String hostName)
-    // Offset: 0x16E04DC
+    // Offset: 0x157A7C8
     static System::Net::IPHostEntry* GetHostByName(::Il2CppString* hostName);
     // static public System.String GetHostName()
-    // Offset: 0x16E077C
+    // Offset: 0x157AA68
     static ::Il2CppString* GetHostName();
   }; // System.Net.Dns
   #pragma pack(pop)
@@ -67,12 +67,12 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Dns*, "System.Net", "Dns");
 // Writing MetadataGetter for method: System::Net::Dns::GetHostByName_internal
 // Il2CppName: GetHostByName_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<::Il2CppString*>, ByRef<::Array<::Il2CppString*>*>, ByRef<::Array<::Il2CppString*>*>, int)>(&System::Net::Dns::GetHostByName_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<::Il2CppString*>, ByRef<::ArrayWrapper<::Il2CppString*>>, ByRef<::ArrayWrapper<::Il2CppString*>>, int)>(&System::Net::Dns::GetHostByName_internal)> {
   static const MethodInfo* get() {
     static auto* host = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* h_name = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
-    static auto* h_aliases = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->this_arg;
-    static auto* h_addr_list = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->this_arg;
+    static auto* h_aliases = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->this_arg;
+    static auto* h_addr_list = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->this_arg;
     static auto* hint = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Dns*), "GetHostByName_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{host, h_name, h_aliases, h_addr_list, hint});
   }
@@ -80,12 +80,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Net::Dns::GetHostByAddr_internal
 // Il2CppName: GetHostByAddr_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<::Il2CppString*>, ByRef<::Array<::Il2CppString*>*>, ByRef<::Array<::Il2CppString*>*>, int)>(&System::Net::Dns::GetHostByAddr_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<::Il2CppString*>, ByRef<::ArrayWrapper<::Il2CppString*>>, ByRef<::ArrayWrapper<::Il2CppString*>>, int)>(&System::Net::Dns::GetHostByAddr_internal)> {
   static const MethodInfo* get() {
     static auto* addr = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* h_name = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
-    static auto* h_aliases = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->this_arg;
-    static auto* h_addr_list = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->this_arg;
+    static auto* h_aliases = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->this_arg;
+    static auto* h_addr_list = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->this_arg;
     static auto* hint = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Dns*), "GetHostByAddr_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{addr, h_name, h_aliases, h_addr_list, hint});
   }
@@ -111,12 +111,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Net::Dns::hostent_to_IPHostEntry
 // Il2CppName: hostent_to_IPHostEntry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPHostEntry* (*)(::Il2CppString*, ::Il2CppString*, ::Array<::Il2CppString*>*, ::Array<::Il2CppString*>*)>(&System::Net::Dns::hostent_to_IPHostEntry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPHostEntry* (*)(::Il2CppString*, ::Il2CppString*, ::ArrayWrapper<::Il2CppString*>, ::ArrayWrapper<::Il2CppString*>)>(&System::Net::Dns::hostent_to_IPHostEntry)> {
   static const MethodInfo* get() {
     static auto* originalHostName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* h_name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* h_aliases = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
-    static auto* h_addrlist = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* h_aliases = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* h_addrlist = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Dns*), "hostent_to_IPHostEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{originalHostName, h_name, h_aliases, h_addrlist});
   }
 };
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::Dns::GetHostAddresses
 // Il2CppName: GetHostAddresses
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Net::IPAddress*>* (*)(::Il2CppString*)>(&System::Net::Dns::GetHostAddresses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Net::IPAddress*> (*)(::Il2CppString*)>(&System::Net::Dns::GetHostAddresses)> {
   static const MethodInfo* get() {
     static auto* hostNameOrAddress = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Dns*), "GetHostAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hostNameOrAddress});

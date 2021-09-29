@@ -39,13 +39,13 @@ namespace Org::BouncyCastle::Math::Field {
     // Set static field: static readonly Org.BouncyCastle.Math.Field.IFiniteField GF_3
     static void _set_GF_3(Org::BouncyCastle::Math::Field::IFiniteField* value);
     // static private System.Void .cctor()
-    // Offset: 0x1DD6AD8
+    // Offset: 0x1F92A7C
     static void _cctor();
     // static public Org.BouncyCastle.Math.Field.IPolynomialExtensionField GetBinaryExtensionField(System.Int32[] exponents)
-    // Offset: 0x1DD6708
-    static Org::BouncyCastle::Math::Field::IPolynomialExtensionField* GetBinaryExtensionField(::Array<int>* exponents);
+    // Offset: 0x1F926AC
+    static Org::BouncyCastle::Math::Field::IPolynomialExtensionField* GetBinaryExtensionField(::ArrayWrapper<int> exponents);
     // static public Org.BouncyCastle.Math.Field.IFiniteField GetPrimeField(Org.BouncyCastle.Math.BigInteger characteristic)
-    // Offset: 0x1DD6934
+    // Offset: 0x1F928D8
     static Org::BouncyCastle::Math::Field::IFiniteField* GetPrimeField(Org::BouncyCastle::Math::BigInteger* characteristic);
   }; // Org.BouncyCastle.Math.Field.FiniteFields
   #pragma pack(pop)
@@ -64,9 +64,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::FiniteFields::GetBinaryExtensionField
 // Il2CppName: GetBinaryExtensionField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::Field::IPolynomialExtensionField* (*)(::Array<int>*)>(&Org::BouncyCastle::Math::Field::FiniteFields::GetBinaryExtensionField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::Field::IPolynomialExtensionField* (*)(::ArrayWrapper<int>)>(&Org::BouncyCastle::Math::Field::FiniteFields::GetBinaryExtensionField)> {
   static const MethodInfo* get() {
-    static auto* exponents = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* exponents = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::FiniteFields*), "GetBinaryExtensionField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exponents});
   }
 };

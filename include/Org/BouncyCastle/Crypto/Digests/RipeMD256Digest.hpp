@@ -77,9 +77,9 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // private System.Int32[] X
     // Size: 0x8
     // Offset: 0x48
-    ::Array<int>* X;
+    ::ArrayWrapper<int> X;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // private System.Int32 xOff
     // Size: 0x4
     // Offset: 0x50
@@ -87,7 +87,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: RipeMD256Digest
-    RipeMD256Digest(int H0_ = {}, int H1_ = {}, int H2_ = {}, int H3_ = {}, int H4_ = {}, int H5_ = {}, int H6_ = {}, int H7_ = {}, ::Array<int>* X_ = {}, int xOff_ = {}) noexcept : H0{H0_}, H1{H1_}, H2{H2_}, H3{H3_}, H4{H4_}, H5{H5_}, H6{H6_}, H7{H7_}, X{X_}, xOff{xOff_} {}
+    RipeMD256Digest(int H0_ = {}, int H1_ = {}, int H2_ = {}, int H3_ = {}, int H4_ = {}, int H5_ = {}, int H6_ = {}, int H7_ = {}, ::ArrayWrapper<int> X_ = {}, int xOff_ = {}) noexcept : H0{H0_}, H1{H1_}, H2{H2_}, H3{H3_}, H4{H4_}, H5{H5_}, H6{H6_}, H7{H7_}, X{X_}, xOff{xOff_} {}
     // Get instance field reference: private System.Int32 H0
     int& dyn_H0();
     // Get instance field reference: private System.Int32 H1
@@ -105,68 +105,68 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Get instance field reference: private System.Int32 H7
     int& dyn_H7();
     // Get instance field reference: private System.Int32[] X
-    ::Array<int>*& dyn_X();
+    ::ArrayWrapper<int>& dyn_X();
     // Get instance field reference: private System.Int32 xOff
     int& dyn_xOff();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.RipeMD256Digest t)
-    // Offset: 0x1D69894
+    // Offset: 0x1F09B24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RipeMD256Digest* New_ctor(Org::BouncyCastle::Crypto::Digests::RipeMD256Digest* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::RipeMD256Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RipeMD256Digest*, creationType>(t)));
     }
     // private System.Void CopyIn(Org.BouncyCastle.Crypto.Digests.RipeMD256Digest t)
-    // Offset: 0x1D6990C
+    // Offset: 0x1F09B9C
     void CopyIn(Org::BouncyCastle::Crypto::Digests::RipeMD256Digest* t);
     // private System.Void UnpackWord(System.Int32 word, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1D69AEC
-    void UnpackWord(int word, ::Array<uint8_t>* outBytes, int outOff);
+    // Offset: 0x1F09D7C
+    void UnpackWord(int word, ::ArrayWrapper<uint8_t> outBytes, int outOff);
     // private System.Int32 RL(System.Int32 x, System.Int32 n)
-    // Offset: 0x1D69CBC
+    // Offset: 0x1F09F4C
     int RL(int x, int n);
     // private System.Int32 F1(System.Int32 x, System.Int32 y, System.Int32 z)
-    // Offset: 0x1D69CC8
+    // Offset: 0x1F09F58
     int F1(int x, int y, int z);
     // private System.Int32 F2(System.Int32 x, System.Int32 y, System.Int32 z)
-    // Offset: 0x1D69CD4
+    // Offset: 0x1F09F64
     int F2(int x, int y, int z);
     // private System.Int32 F3(System.Int32 x, System.Int32 y, System.Int32 z)
-    // Offset: 0x1D69CE4
+    // Offset: 0x1F09F74
     int F3(int x, int y, int z);
     // private System.Int32 F4(System.Int32 x, System.Int32 y, System.Int32 z)
-    // Offset: 0x1D69CF0
+    // Offset: 0x1F09F80
     int F4(int x, int y, int z);
     // private System.Int32 F1(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d, System.Int32 x, System.Int32 s)
-    // Offset: 0x1D69D00
+    // Offset: 0x1F09F90
     int F1(int a, int b, int c, int d, int x, int s);
     // private System.Int32 F2(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d, System.Int32 x, System.Int32 s)
-    // Offset: 0x1D69D1C
+    // Offset: 0x1F09FAC
     int F2(int a, int b, int c, int d, int x, int s);
     // private System.Int32 F3(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d, System.Int32 x, System.Int32 s)
-    // Offset: 0x1D69D48
+    // Offset: 0x1F09FD8
     int F3(int a, int b, int c, int d, int x, int s);
     // private System.Int32 F4(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d, System.Int32 x, System.Int32 s)
-    // Offset: 0x1D69D70
+    // Offset: 0x1F0A000
     int F4(int a, int b, int c, int d, int x, int s);
     // private System.Int32 FF1(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d, System.Int32 x, System.Int32 s)
-    // Offset: 0x1D69D9C
+    // Offset: 0x1F0A02C
     int FF1(int a, int b, int c, int d, int x, int s);
     // private System.Int32 FF2(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d, System.Int32 x, System.Int32 s)
-    // Offset: 0x1D69DB8
+    // Offset: 0x1F0A048
     int FF2(int a, int b, int c, int d, int x, int s);
     // private System.Int32 FF3(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d, System.Int32 x, System.Int32 s)
-    // Offset: 0x1D69DE4
+    // Offset: 0x1F0A074
     int FF3(int a, int b, int c, int d, int x, int s);
     // private System.Int32 FF4(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d, System.Int32 x, System.Int32 s)
-    // Offset: 0x1D69E0C
+    // Offset: 0x1F0A09C
     int FF4(int a, int b, int c, int d, int x, int s);
     // public override System.String get_AlgorithmName()
-    // Offset: 0x1D697D4
+    // Offset: 0x1F09A64
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.String GeneralDigest::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public System.Void .ctor()
-    // Offset: 0x1D69824
+    // Offset: 0x1F09AB4
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Void GeneralDigest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -176,42 +176,42 @@ namespace Org::BouncyCastle::Crypto::Digests {
       return THROW_UNLESS((::il2cpp_utils::New<RipeMD256Digest*, creationType>()));
     }
     // public override System.Int32 GetDigestSize()
-    // Offset: 0x1D6981C
+    // Offset: 0x1F09AAC
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Int32 GeneralDigest::GetDigestSize()
     int GetDigestSize();
     // override System.Void ProcessWord(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x1D699A0
+    // Offset: 0x1F09C30
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Void GeneralDigest::ProcessWord(System.Byte[] input, System.Int32 inOff)
-    void ProcessWord(::Array<uint8_t>* input, int inOff);
+    void ProcessWord(::ArrayWrapper<uint8_t> input, int inOff);
     // override System.Void ProcessLength(System.Int64 bitLength)
-    // Offset: 0x1D69A68
+    // Offset: 0x1F09CF8
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Void GeneralDigest::ProcessLength(System.Int64 bitLength)
     void ProcessLength(int64_t bitLength);
     // public override System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1D69B78
+    // Offset: 0x1F09E08
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Int32 GeneralDigest::DoFinal(System.Byte[] output, System.Int32 outOff)
-    int DoFinal(::Array<uint8_t>* output, int outOff);
+    int DoFinal(::ArrayWrapper<uint8_t> output, int outOff);
     // public override System.Void Reset()
-    // Offset: 0x1D69C40
+    // Offset: 0x1F09ED0
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Void GeneralDigest::Reset()
     void Reset();
     // override System.Void ProcessBlock()
-    // Offset: 0x1D69E38
+    // Offset: 0x1F0A0C8
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Void GeneralDigest::ProcessBlock()
     void ProcessBlock();
     // public override Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x1D6AD40
+    // Offset: 0x1F0AFD0
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: Org.BouncyCastle.Utilities.IMemoable GeneralDigest::Copy()
     Org::BouncyCastle::Utilities::IMemoable* Copy();
     // public override System.Void Reset(Org.BouncyCastle.Utilities.IMemoable other)
-    // Offset: 0x1D6ADA0
+    // Offset: 0x1F0B030
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Void GeneralDigest::Reset(Org.BouncyCastle.Utilities.IMemoable other)
     void Reset(Org::BouncyCastle::Utilities::IMemoable* other);
@@ -238,10 +238,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::RipeMD256Digest::UnpackWord
 // Il2CppName: UnpackWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::RipeMD256Digest::*)(int, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Digests::RipeMD256Digest::UnpackWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::RipeMD256Digest::*)(int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::RipeMD256Digest::UnpackWord)> {
   static const MethodInfo* get() {
     static auto* word = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* outBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* outBytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::RipeMD256Digest*), "UnpackWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{word, outBytes, outOff});
   }
@@ -435,9 +435,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::RipeMD256Digest::ProcessWord
 // Il2CppName: ProcessWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::RipeMD256Digest::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Digests::RipeMD256Digest::ProcessWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::RipeMD256Digest::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::RipeMD256Digest::ProcessWord)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::RipeMD256Digest*), "ProcessWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, inOff});
   }
@@ -454,9 +454,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::RipeMD256Digest::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::RipeMD256Digest::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Digests::RipeMD256Digest::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::RipeMD256Digest::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::RipeMD256Digest::DoFinal)> {
   static const MethodInfo* get() {
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::RipeMD256Digest*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{output, outOff});
   }

@@ -74,25 +74,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.IO.FileStream _fileStream
     System::IO::FileStream*& dyn__fileStream();
     // protected System.Void Awake()
-    // Offset: 0x125C838
+    // Offset: 0x1379040
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x125C870
+    // Offset: 0x1379078
     void Update();
     // private System.Void StartWriting(System.String name)
-    // Offset: 0x125C920
+    // Offset: 0x1379128
     void StartWriting(::Il2CppString* name);
     // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0x125CDC0
-    void OnAudioFilterRead(::Array<float>* data, int channels);
+    // Offset: 0x13795C8
+    void OnAudioFilterRead(::ArrayWrapper<float> data, int channels);
     // private System.Void ConvertAndWrite(System.Single[] dataSource)
-    // Offset: 0x125CDD0
-    void ConvertAndWrite(::Array<float>* dataSource);
+    // Offset: 0x13795D8
+    void ConvertAndWrite(::ArrayWrapper<float> dataSource);
     // private System.Void WriteHeader()
-    // Offset: 0x125C9DC
+    // Offset: 0x13791E4
     void WriteHeader();
     // public System.Void .ctor()
-    // Offset: 0x125CF8C
+    // Offset: 0x1379794
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -139,9 +139,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::CaptureAudioToWav::OnAudioFilterRead
 // Il2CppName: OnAudioFilterRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CaptureAudioToWav::*)(::Array<float>*, int)>(&GlobalNamespace::CaptureAudioToWav::OnAudioFilterRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CaptureAudioToWav::*)(::ArrayWrapper<float>, int)>(&GlobalNamespace::CaptureAudioToWav::OnAudioFilterRead)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
     static auto* channels = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CaptureAudioToWav*), "OnAudioFilterRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, channels});
   }
@@ -149,9 +149,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::CaptureAudioToWav::ConvertAndWrite
 // Il2CppName: ConvertAndWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CaptureAudioToWav::*)(::Array<float>*)>(&GlobalNamespace::CaptureAudioToWav::ConvertAndWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CaptureAudioToWav::*)(::ArrayWrapper<float>)>(&GlobalNamespace::CaptureAudioToWav::ConvertAndWrite)> {
   static const MethodInfo* get() {
-    static auto* dataSource = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
+    static auto* dataSource = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CaptureAudioToWav*), "ConvertAndWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dataSource});
   }
 };

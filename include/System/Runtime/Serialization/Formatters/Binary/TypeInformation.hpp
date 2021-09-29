@@ -45,16 +45,16 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: private System.Boolean hasTypeForwardedFrom
     bool& dyn_hasTypeForwardedFrom();
     // System.String get_FullTypeName()
-    // Offset: 0x1629F24
+    // Offset: 0x17F5B84
     ::Il2CppString* get_FullTypeName();
     // System.String get_AssemblyString()
-    // Offset: 0x1629F2C
+    // Offset: 0x17F5B8C
     ::Il2CppString* get_AssemblyString();
     // System.Boolean get_HasTypeForwardedFrom()
-    // Offset: 0x1629F34
+    // Offset: 0x17F5B94
     bool get_HasTypeForwardedFrom();
     // System.Void .ctor(System.String fullTypeName, System.String assemblyString, System.Boolean hasTypeForwardedFrom)
-    // Offset: 0x161DBFC
+    // Offset: 0x17E985C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeInformation* New_ctor(::Il2CppString* fullTypeName, ::Il2CppString* assemblyString, bool hasTypeForwardedFrom) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::TypeInformation::.ctor");

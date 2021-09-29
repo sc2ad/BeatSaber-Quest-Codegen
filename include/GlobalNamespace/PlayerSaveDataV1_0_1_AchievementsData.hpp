@@ -23,23 +23,23 @@ namespace GlobalNamespace {
     // public System.String[] unlockedAchievements
     // Size: 0x8
     // Offset: 0x10
-    ::Array<::Il2CppString*>* unlockedAchievements;
+    ::ArrayWrapper<::Il2CppString*> unlockedAchievements;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // public System.String[] unlockedAchievementsToUpload
     // Size: 0x8
     // Offset: 0x18
-    ::Array<::Il2CppString*>* unlockedAchievementsToUpload;
+    ::ArrayWrapper<::Il2CppString*> unlockedAchievementsToUpload;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // Creating value type constructor for type: AchievementsData
-    AchievementsData(::Array<::Il2CppString*>* unlockedAchievements_ = {}, ::Array<::Il2CppString*>* unlockedAchievementsToUpload_ = {}) noexcept : unlockedAchievements{unlockedAchievements_}, unlockedAchievementsToUpload{unlockedAchievementsToUpload_} {}
+    AchievementsData(::ArrayWrapper<::Il2CppString*> unlockedAchievements_ = {}, ::ArrayWrapper<::Il2CppString*> unlockedAchievementsToUpload_ = {}) noexcept : unlockedAchievements{unlockedAchievements_}, unlockedAchievementsToUpload{unlockedAchievementsToUpload_} {}
     // Get instance field reference: public System.String[] unlockedAchievements
-    ::Array<::Il2CppString*>*& dyn_unlockedAchievements();
+    ::ArrayWrapper<::Il2CppString*>& dyn_unlockedAchievements();
     // Get instance field reference: public System.String[] unlockedAchievementsToUpload
-    ::Array<::Il2CppString*>*& dyn_unlockedAchievementsToUpload();
+    ::ArrayWrapper<::Il2CppString*>& dyn_unlockedAchievementsToUpload();
     // public System.Void .ctor()
-    // Offset: 0x11FAB2C
+    // Offset: 0x12BA814
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     }
   }; // PlayerSaveDataV1_0_1/AchievementsData
   #pragma pack(pop)
-  static check_size<sizeof(PlayerSaveDataV1_0_1::AchievementsData), 24 + sizeof(::Array<::Il2CppString*>*)> __GlobalNamespace_PlayerSaveDataV1_0_1_AchievementsDataSizeCheck;
+  static check_size<sizeof(PlayerSaveDataV1_0_1::AchievementsData), 24 + sizeof(::ArrayWrapper<::Il2CppString*>)> __GlobalNamespace_PlayerSaveDataV1_0_1_AchievementsDataSizeCheck;
   static_assert(sizeof(PlayerSaveDataV1_0_1::AchievementsData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData*, "", "PlayerSaveDataV1_0_1/AchievementsData");

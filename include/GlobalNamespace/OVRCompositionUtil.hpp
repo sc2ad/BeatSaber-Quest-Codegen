@@ -44,28 +44,28 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRCompositionUtil
     OVRCompositionUtil() noexcept {}
     // static public System.Void SafeDestroy(UnityEngine.GameObject obj)
-    // Offset: 0x12AF390
+    // Offset: 0x13B86A4
     static void SafeDestroy(UnityEngine::GameObject* obj);
     // static public System.Void SafeDestroy(ref UnityEngine.GameObject obj)
-    // Offset: 0x12AF430
+    // Offset: 0x13B8744
     static void SafeDestroy_(ByRef<UnityEngine::GameObject*> obj);
     // static public OVRPlugin/CameraDevice ConvertCameraDevice(OVRManager/CameraDevice cameraDevice)
-    // Offset: 0x12AF4B4
+    // Offset: 0x13B87C8
     static GlobalNamespace::OVRPlugin::CameraDevice ConvertCameraDevice(GlobalNamespace::OVRManager_CameraDevice cameraDevice);
     // static public OVRBoundary/BoundaryType ToBoundaryType(OVRManager/VirtualGreenScreenType type)
-    // Offset: 0x12AF4E0
+    // Offset: 0x13B87F4
     static GlobalNamespace::OVRBoundary::BoundaryType ToBoundaryType(GlobalNamespace::OVRManager_VirtualGreenScreenType type);
     // static public UnityEngine.Vector3 GetWorldPosition(UnityEngine.Vector3 trackingSpacePosition)
-    // Offset: 0x12AF574
+    // Offset: 0x13B8888
     static UnityEngine::Vector3 GetWorldPosition(UnityEngine::Vector3 trackingSpacePosition);
     // static public System.Single GetMaximumBoundaryDistance(UnityEngine.Camera camera, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x12AF620
+    // Offset: 0x13B8934
     static float GetMaximumBoundaryDistance(UnityEngine::Camera* camera, GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // static public UnityEngine.Mesh BuildBoundaryMesh(OVRBoundary/BoundaryType boundaryType, System.Single topY, System.Single bottomY)
-    // Offset: 0x12AF860
+    // Offset: 0x13B8B74
     static UnityEngine::Mesh* BuildBoundaryMesh(GlobalNamespace::OVRBoundary::BoundaryType boundaryType, float topY, float bottomY);
     // public System.Void .ctor()
-    // Offset: 0x12AFD08
+    // Offset: 0x13B901C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

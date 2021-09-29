@@ -36,23 +36,23 @@ namespace GlobalNamespace {
     // private BeatmapLevelPackSO[] _beatmapLevelPacks
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::BeatmapLevelPackSO*>* beatmapLevelPacks;
+    ::ArrayWrapper<GlobalNamespace::BeatmapLevelPackSO*> beatmapLevelPacks;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::BeatmapLevelPackSO*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BeatmapLevelPackSO*>) == 0x8);
     // private PreviewBeatmapLevelPackSO[] _previewBeatmapLevelPack
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::PreviewBeatmapLevelPackSO*>* previewBeatmapLevelPack;
+    ::ArrayWrapper<GlobalNamespace::PreviewBeatmapLevelPackSO*> previewBeatmapLevelPack;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::PreviewBeatmapLevelPackSO*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::PreviewBeatmapLevelPackSO*>) == 0x8);
     // private IBeatmapLevelPack[] _allBeatmapLevelPacks
     // Size: 0x8
     // Offset: 0x28
-    ::Array<GlobalNamespace::IBeatmapLevelPack*>* allBeatmapLevelPacks;
+    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> allBeatmapLevelPacks;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::IBeatmapLevelPack*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>) == 0x8);
     // Creating value type constructor for type: BeatmapLevelPackCollectionSO
-    BeatmapLevelPackCollectionSO(::Array<GlobalNamespace::BeatmapLevelPackSO*>* beatmapLevelPacks_ = {}, ::Array<GlobalNamespace::PreviewBeatmapLevelPackSO*>* previewBeatmapLevelPack_ = {}, ::Array<GlobalNamespace::IBeatmapLevelPack*>* allBeatmapLevelPacks_ = {}) noexcept : beatmapLevelPacks{beatmapLevelPacks_}, previewBeatmapLevelPack{previewBeatmapLevelPack_}, allBeatmapLevelPacks{allBeatmapLevelPacks_} {}
+    BeatmapLevelPackCollectionSO(::ArrayWrapper<GlobalNamespace::BeatmapLevelPackSO*> beatmapLevelPacks_ = {}, ::ArrayWrapper<GlobalNamespace::PreviewBeatmapLevelPackSO*> previewBeatmapLevelPack_ = {}, ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> allBeatmapLevelPacks_ = {}) noexcept : beatmapLevelPacks{beatmapLevelPacks_}, previewBeatmapLevelPack{previewBeatmapLevelPack_}, allBeatmapLevelPacks{allBeatmapLevelPacks_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapLevelPackCollection
     operator GlobalNamespace::IBeatmapLevelPackCollection() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevelPackCollection*>(this);
@@ -60,19 +60,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapLevelPackSO[] _beatmapLevelPacks
-    ::Array<GlobalNamespace::BeatmapLevelPackSO*>*& dyn__beatmapLevelPacks();
+    ::ArrayWrapper<GlobalNamespace::BeatmapLevelPackSO*>& dyn__beatmapLevelPacks();
     // Get instance field reference: private PreviewBeatmapLevelPackSO[] _previewBeatmapLevelPack
-    ::Array<GlobalNamespace::PreviewBeatmapLevelPackSO*>*& dyn__previewBeatmapLevelPack();
+    ::ArrayWrapper<GlobalNamespace::PreviewBeatmapLevelPackSO*>& dyn__previewBeatmapLevelPack();
     // Get instance field reference: private IBeatmapLevelPack[] _allBeatmapLevelPacks
-    ::Array<GlobalNamespace::IBeatmapLevelPack*>*& dyn__allBeatmapLevelPacks();
+    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>& dyn__allBeatmapLevelPacks();
     // public IBeatmapLevelPack[] get_beatmapLevelPacks()
-    // Offset: 0x10C9614
-    ::Array<GlobalNamespace::IBeatmapLevelPack*>* get_beatmapLevelPacks();
+    // Offset: 0x129ABE0
+    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> get_beatmapLevelPacks();
     // private System.Void LoadAllBeatmapLevelPacks()
-    // Offset: 0x10C9644
+    // Offset: 0x129AC10
     void LoadAllBeatmapLevelPacks();
     // public System.Void .ctor()
-    // Offset: 0x10C9798
+    // Offset: 0x129AD64
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     }
   }; // BeatmapLevelPackCollectionSO
   #pragma pack(pop)
-  static check_size<sizeof(BeatmapLevelPackCollectionSO), 40 + sizeof(::Array<GlobalNamespace::IBeatmapLevelPack*>*)> __GlobalNamespace_BeatmapLevelPackCollectionSOSizeCheck;
+  static check_size<sizeof(BeatmapLevelPackCollectionSO), 40 + sizeof(::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>)> __GlobalNamespace_BeatmapLevelPackCollectionSOSizeCheck;
   static_assert(sizeof(BeatmapLevelPackCollectionSO) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelPackCollectionSO*, "", "BeatmapLevelPackCollectionSO");
@@ -93,7 +93,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelPackCollectionSO*, "", "Beat
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelPackCollectionSO::get_beatmapLevelPacks
 // Il2CppName: get_beatmapLevelPacks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::IBeatmapLevelPack*>* (GlobalNamespace::BeatmapLevelPackCollectionSO::*)()>(&GlobalNamespace::BeatmapLevelPackCollectionSO::get_beatmapLevelPacks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> (GlobalNamespace::BeatmapLevelPackCollectionSO::*)()>(&GlobalNamespace::BeatmapLevelPackCollectionSO::get_beatmapLevelPacks)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelPackCollectionSO*), "get_beatmapLevelPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

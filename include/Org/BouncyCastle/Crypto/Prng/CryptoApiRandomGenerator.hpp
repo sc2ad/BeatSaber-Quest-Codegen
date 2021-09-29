@@ -46,17 +46,17 @@ namespace Org::BouncyCastle::Crypto::Prng {
     // Get instance field reference: private readonly System.Security.Cryptography.RandomNumberGenerator rndProv
     System::Security::Cryptography::RandomNumberGenerator*& dyn_rndProv();
     // public System.Void .ctor(System.Security.Cryptography.RandomNumberGenerator rng)
-    // Offset: 0x127C2D8
+    // Offset: 0x1398AE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CryptoApiRandomGenerator* New_ctor(System::Security::Cryptography::RandomNumberGenerator* rng) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CryptoApiRandomGenerator*, creationType>(rng)));
     }
     // public System.Void NextBytes(System.Byte[] bytes)
-    // Offset: 0x127C304
-    void NextBytes(::Array<uint8_t>* bytes);
+    // Offset: 0x1398B0C
+    void NextBytes(::ArrayWrapper<uint8_t> bytes);
     // public System.Void .ctor()
-    // Offset: 0x127C2A0
+    // Offset: 0x1398AA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -78,9 +78,9 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::NextBytes
 // Il2CppName: NextBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::NextBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::NextBytes)> {
   static const MethodInfo* get() {
-    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* bytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator*), "NextBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes});
   }
 };

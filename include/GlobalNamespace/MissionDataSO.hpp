@@ -60,17 +60,17 @@ namespace GlobalNamespace {
     // private MissionObjective[] _missionObjectives
     // Size: 0x8
     // Offset: 0x30
-    ::Array<GlobalNamespace::MissionObjective*>* missionObjectives;
+    ::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MissionObjective*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionObjective*>) == 0x8);
     // private GameplayModifiers _gameplayModifiers
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE3A308
-    // [NullAllowed] Offset: 0xE3A308
+    // [SpaceAttribute] Offset: 0xF02AEC
+    // [NullAllowed] Offset: 0xF02AEC
     // private MissionHelpSO _missionHelp
     // Size: 0x8
     // Offset: 0x40
@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionHelpSO*) == 0x8);
     // Creating value type constructor for type: MissionDataSO
-    MissionDataSO(GlobalNamespace::BeatmapLevelSO* level_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, ::Array<GlobalNamespace::MissionObjective*>* missionObjectives_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}, GlobalNamespace::MissionHelpSO* missionHelp_ = {}) noexcept : level{level_}, beatmapCharacteristic{beatmapCharacteristic_}, beatmapDifficulty{beatmapDifficulty_}, missionObjectives{missionObjectives_}, gameplayModifiers{gameplayModifiers_}, missionHelp{missionHelp_} {}
+    MissionDataSO(GlobalNamespace::BeatmapLevelSO* level_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, ::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}, GlobalNamespace::MissionHelpSO* missionHelp_ = {}) noexcept : level{level_}, beatmapCharacteristic{beatmapCharacteristic_}, beatmapDifficulty{beatmapDifficulty_}, missionObjectives{missionObjectives_}, gameplayModifiers{gameplayModifiers_}, missionHelp{missionHelp_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapLevelSO _level
@@ -88,34 +88,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDifficulty _beatmapDifficulty
     GlobalNamespace::BeatmapDifficulty& dyn__beatmapDifficulty();
     // Get instance field reference: private MissionObjective[] _missionObjectives
-    ::Array<GlobalNamespace::MissionObjective*>*& dyn__missionObjectives();
+    ::ArrayWrapper<GlobalNamespace::MissionObjective*>& dyn__missionObjectives();
     // Get instance field reference: private GameplayModifiers _gameplayModifiers
     GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // Get instance field reference: private MissionHelpSO _missionHelp
     GlobalNamespace::MissionHelpSO*& dyn__missionHelp();
     // public MissionObjective[] get_missionObjectives()
-    // Offset: 0x113DE20
-    ::Array<GlobalNamespace::MissionObjective*>* get_missionObjectives();
+    // Offset: 0x1184FB0
+    ::ArrayWrapper<GlobalNamespace::MissionObjective*> get_missionObjectives();
     // public BeatmapLevelSO get_level()
-    // Offset: 0x113DE28
+    // Offset: 0x1184FB8
     GlobalNamespace::BeatmapLevelSO* get_level();
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x113DE30
+    // Offset: 0x1184FC0
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public BeatmapDifficulty get_beatmapDifficulty()
-    // Offset: 0x113DE38
+    // Offset: 0x1184FC8
     GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x113DE40
+    // Offset: 0x1184FD0
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public MissionHelpSO get_missionHelp()
-    // Offset: 0x113DE48
+    // Offset: 0x1184FD8
     GlobalNamespace::MissionHelpSO* get_missionHelp();
     // private System.Void OnValidate()
-    // Offset: 0x113DE50
+    // Offset: 0x1184FE0
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0x113DEF4
+    // Offset: 0x1185084
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -136,7 +136,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionDataSO*, "", "MissionDataSO");
 // Writing MetadataGetter for method: GlobalNamespace::MissionDataSO::get_missionObjectives
 // Il2CppName: get_missionObjectives
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::MissionObjective*>* (GlobalNamespace::MissionDataSO::*)()>(&GlobalNamespace::MissionDataSO::get_missionObjectives)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::MissionObjective*> (GlobalNamespace::MissionDataSO::*)()>(&GlobalNamespace::MissionDataSO::get_missionObjectives)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionDataSO*), "get_missionObjectives", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

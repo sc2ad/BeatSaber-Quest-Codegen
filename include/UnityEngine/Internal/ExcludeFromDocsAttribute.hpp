@@ -23,7 +23,7 @@ namespace UnityEngine::Internal {
     // Creating value type constructor for type: ExcludeFromDocsAttribute
     ExcludeFromDocsAttribute() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1C5A464
+    // Offset: 0x1D9DD3C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

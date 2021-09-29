@@ -102,15 +102,15 @@ namespace GlobalNamespace {
     // public UnityEngine.KeyCode[] activateKeys
     // Size: 0x8
     // Offset: 0x20
-    ::Array<UnityEngine::KeyCode>* activateKeys;
+    ::ArrayWrapper<UnityEngine::KeyCode> activateKeys;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::KeyCode>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::KeyCode>) == 0x8);
     // public UnityEngine.KeyCode[] pitchKeys
     // Size: 0x8
     // Offset: 0x28
-    ::Array<UnityEngine::KeyCode>* pitchKeys;
+    ::ArrayWrapper<UnityEngine::KeyCode> pitchKeys;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::KeyCode>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::KeyCode>) == 0x8);
     // private OVRManager manager
     // Size: 0x8
     // Offset: 0x30
@@ -158,7 +158,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::CursorLockMode) == 0x4);
     // Creating value type constructor for type: OVRHeadsetEmulator
-    OVRHeadsetEmulator(GlobalNamespace::OVRHeadsetEmulator::OpMode opMode_ = {}, bool resetHmdPoseOnRelease_ = {}, bool resetHmdPoseByMiddleMouseButton_ = {}, ::Array<UnityEngine::KeyCode>* activateKeys_ = {}, ::Array<UnityEngine::KeyCode>* pitchKeys_ = {}, GlobalNamespace::OVRManager* manager_ = {}, bool lastFrameEmulationActivated_ = {}, UnityEngine::Vector3 recordedHeadPoseRelativeOffsetTranslation_ = {}, UnityEngine::Vector3 recordedHeadPoseRelativeOffsetRotation_ = {}, bool hasSentEvent_ = {}, bool emulatorHasInitialized_ = {}, UnityEngine::CursorLockMode previousCursorLockMode_ = {}) noexcept : opMode{opMode_}, resetHmdPoseOnRelease{resetHmdPoseOnRelease_}, resetHmdPoseByMiddleMouseButton{resetHmdPoseByMiddleMouseButton_}, activateKeys{activateKeys_}, pitchKeys{pitchKeys_}, manager{manager_}, lastFrameEmulationActivated{lastFrameEmulationActivated_}, recordedHeadPoseRelativeOffsetTranslation{recordedHeadPoseRelativeOffsetTranslation_}, recordedHeadPoseRelativeOffsetRotation{recordedHeadPoseRelativeOffsetRotation_}, hasSentEvent{hasSentEvent_}, emulatorHasInitialized{emulatorHasInitialized_}, previousCursorLockMode{previousCursorLockMode_} {}
+    OVRHeadsetEmulator(GlobalNamespace::OVRHeadsetEmulator::OpMode opMode_ = {}, bool resetHmdPoseOnRelease_ = {}, bool resetHmdPoseByMiddleMouseButton_ = {}, ::ArrayWrapper<UnityEngine::KeyCode> activateKeys_ = {}, ::ArrayWrapper<UnityEngine::KeyCode> pitchKeys_ = {}, GlobalNamespace::OVRManager* manager_ = {}, bool lastFrameEmulationActivated_ = {}, UnityEngine::Vector3 recordedHeadPoseRelativeOffsetTranslation_ = {}, UnityEngine::Vector3 recordedHeadPoseRelativeOffsetRotation_ = {}, bool hasSentEvent_ = {}, bool emulatorHasInitialized_ = {}, UnityEngine::CursorLockMode previousCursorLockMode_ = {}) noexcept : opMode{opMode_}, resetHmdPoseOnRelease{resetHmdPoseOnRelease_}, resetHmdPoseByMiddleMouseButton{resetHmdPoseByMiddleMouseButton_}, activateKeys{activateKeys_}, pitchKeys{pitchKeys_}, manager{manager_}, lastFrameEmulationActivated{lastFrameEmulationActivated_}, recordedHeadPoseRelativeOffsetTranslation{recordedHeadPoseRelativeOffsetTranslation_}, recordedHeadPoseRelativeOffsetRotation{recordedHeadPoseRelativeOffsetRotation_}, hasSentEvent{hasSentEvent_}, emulatorHasInitialized{emulatorHasInitialized_}, previousCursorLockMode{previousCursorLockMode_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single MOUSE_SCALE_X
@@ -198,9 +198,9 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean resetHmdPoseByMiddleMouseButton
     bool& dyn_resetHmdPoseByMiddleMouseButton();
     // Get instance field reference: public UnityEngine.KeyCode[] activateKeys
-    ::Array<UnityEngine::KeyCode>*& dyn_activateKeys();
+    ::ArrayWrapper<UnityEngine::KeyCode>& dyn_activateKeys();
     // Get instance field reference: public UnityEngine.KeyCode[] pitchKeys
-    ::Array<UnityEngine::KeyCode>*& dyn_pitchKeys();
+    ::ArrayWrapper<UnityEngine::KeyCode>& dyn_pitchKeys();
     // Get instance field reference: private OVRManager manager
     GlobalNamespace::OVRManager*& dyn_manager();
     // Get instance field reference: private System.Boolean lastFrameEmulationActivated
@@ -216,19 +216,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.CursorLockMode previousCursorLockMode
     UnityEngine::CursorLockMode& dyn_previousCursorLockMode();
     // private System.Void Start()
-    // Offset: 0x153F910
+    // Offset: 0x16C8658
     void Start();
     // private System.Void Update()
-    // Offset: 0x153F914
+    // Offset: 0x16C865C
     void Update();
     // private System.Boolean IsEmulationActivated()
-    // Offset: 0x153FCFC
+    // Offset: 0x16C8A44
     bool IsEmulationActivated();
     // private System.Boolean IsTweakingPitch()
-    // Offset: 0x1540018
+    // Offset: 0x16C8D60
     bool IsTweakingPitch();
     // public System.Void .ctor()
-    // Offset: 0x15400A8
+    // Offset: 0x16C8DF0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

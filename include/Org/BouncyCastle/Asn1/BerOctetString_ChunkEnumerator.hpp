@@ -32,9 +32,9 @@ namespace Org::BouncyCastle::Asn1 {
     // private readonly System.Byte[] octets
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* octets;
+    ::ArrayWrapper<uint8_t> octets;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private readonly System.Int32 chunkSize
     // Size: 0x4
     // Offset: 0x18
@@ -56,13 +56,13 @@ namespace Org::BouncyCastle::Asn1 {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ChunkEnumerator
-    ChunkEnumerator(::Array<uint8_t>* octets_ = {}, int chunkSize_ = {}, Org::BouncyCastle::Asn1::DerOctetString* currentChunk_ = {}, int nextChunkPos_ = {}) noexcept : octets{octets_}, chunkSize{chunkSize_}, currentChunk{currentChunk_}, nextChunkPos{nextChunkPos_} {}
+    ChunkEnumerator(::ArrayWrapper<uint8_t> octets_ = {}, int chunkSize_ = {}, Org::BouncyCastle::Asn1::DerOctetString* currentChunk_ = {}, int nextChunkPos_ = {}) noexcept : octets{octets_}, chunkSize{chunkSize_}, currentChunk{currentChunk_}, nextChunkPos{nextChunkPos_} {}
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // Get instance field reference: private readonly System.Byte[] octets
-    ::Array<uint8_t>*& dyn_octets();
+    ::ArrayWrapper<uint8_t>& dyn_octets();
     // Get instance field reference: private readonly System.Int32 chunkSize
     int& dyn_chunkSize();
     // Get instance field reference: private Org.BouncyCastle.Asn1.DerOctetString currentChunk
@@ -70,20 +70,20 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: private System.Int32 nextChunkPos
     int& dyn_nextChunkPos();
     // public System.Object get_Current()
-    // Offset: 0x17357E0
+    // Offset: 0x18E6FB8
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Byte[] octets, System.Int32 chunkSize)
-    // Offset: 0x1735404
+    // Offset: 0x18E6BDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BerOctetString::ChunkEnumerator* New_ctor(::Array<uint8_t>* octets, int chunkSize) {
+    static BerOctetString::ChunkEnumerator* New_ctor(::ArrayWrapper<uint8_t> octets, int chunkSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerOctetString::ChunkEnumerator*, creationType>(octets, chunkSize)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1735858
+    // Offset: 0x18E7030
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1735970
+    // Offset: 0x18E7148
     void Reset();
   }; // Org.BouncyCastle.Asn1.BerOctetString/Org.BouncyCastle.Asn1.ChunkEnumerator
   #pragma pack(pop)

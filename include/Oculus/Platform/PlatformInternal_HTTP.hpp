@@ -28,7 +28,7 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: HTTP
     HTTP() noexcept {}
     // static public System.Void SetHttpTransferUpdateCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.HttpTransferUpdate> callback)
-    // Offset: 0x23B3358
+    // Offset: 0x25B827C
     static void SetHttpTransferUpdateCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::HttpTransferUpdate*>::Callback* callback);
   }; // Oculus.Platform.PlatformInternal/Oculus.Platform.HTTP
   #pragma pack(pop)

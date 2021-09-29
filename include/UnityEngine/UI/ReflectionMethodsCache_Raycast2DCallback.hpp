@@ -41,20 +41,20 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: Raycast2DCallback
     Raycast2DCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x19DD7D4
+    // Offset: 0x1B5267C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionMethodsCache::Raycast2DCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::ReflectionMethodsCache::Raycast2DCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionMethodsCache::Raycast2DCallback*, creationType>(object, method)));
     }
     // public UnityEngine.RaycastHit2D Invoke(UnityEngine.Vector2 p1, UnityEngine.Vector2 p2, System.Single f, System.Int32 i)
-    // Offset: 0x19DD7E4
+    // Offset: 0x1B5268C
     UnityEngine::RaycastHit2D Invoke(UnityEngine::Vector2 p1, UnityEngine::Vector2 p2, float f, int i);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Vector2 p1, UnityEngine.Vector2 p2, System.Single f, System.Int32 i, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x19DDB38
+    // Offset: 0x1B529E0
     System::IAsyncResult* BeginInvoke(UnityEngine::Vector2 p1, UnityEngine::Vector2 p2, float f, int i, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public UnityEngine.RaycastHit2D EndInvoke(System.IAsyncResult result)
-    // Offset: 0x19DDC1C
+    // Offset: 0x1B52AC4
     UnityEngine::RaycastHit2D EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.Raycast2DCallback
   #pragma pack(pop)

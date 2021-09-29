@@ -159,71 +159,71 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Get instance field reference: private System.Collections.Generic.List`1<NUnit.Framework.ITestAction> <Actions>k__BackingField
     System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*& dyn_$Actions$k__BackingField();
     // public System.Boolean get_ResultedInDomainReload()
-    // Offset: 0x14C1360
+    // Offset: 0x1666FDC
     bool get_ResultedInDomainReload();
     // System.Void set_ResultedInDomainReload(System.Boolean value)
-    // Offset: 0x14C1368
+    // Offset: 0x1666FE4
     void set_ResultedInDomainReload(bool value);
     // public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext get_Context()
-    // Offset: 0x14C1374
+    // Offset: 0x1666FF0
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* get_Context();
     // private System.Void set_Context(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext value)
-    // Offset: 0x14C137C
+    // Offset: 0x1666FF8
     void set_Context(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* value);
     // public NUnit.Framework.Internal.Test get_Test()
-    // Offset: 0x14C1384
+    // Offset: 0x1667000
     NUnit::Framework::Internal::Test* get_Test();
     // private System.Void set_Test(NUnit.Framework.Internal.Test value)
-    // Offset: 0x14C138C
+    // Offset: 0x1667008
     void set_Test(NUnit::Framework::Internal::Test* value);
     // public NUnit.Framework.Internal.TestResult get_Result()
-    // Offset: 0x14C1394
+    // Offset: 0x1667010
     NUnit::Framework::Internal::TestResult* get_Result();
     // protected System.Void set_Result(NUnit.Framework.Internal.TestResult value)
-    // Offset: 0x14C139C
+    // Offset: 0x1667018
     void set_Result(NUnit::Framework::Internal::TestResult* value);
     // public NUnit.Framework.Internal.Execution.WorkItemState get_State()
-    // Offset: 0x14C13A4
+    // Offset: 0x1667020
     NUnit::Framework::Internal::Execution::WorkItemState get_State();
     // private System.Void set_State(NUnit.Framework.Internal.Execution.WorkItemState value)
-    // Offset: 0x14C13AC
+    // Offset: 0x1667028
     void set_State(NUnit::Framework::Internal::Execution::WorkItemState value);
     // public System.Collections.Generic.List`1<NUnit.Framework.ITestAction> get_Actions()
-    // Offset: 0x14C13B4
+    // Offset: 0x1667030
     System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* get_Actions();
     // private System.Void set_Actions(System.Collections.Generic.List`1<NUnit.Framework.ITestAction> value)
-    // Offset: 0x14C13BC
+    // Offset: 0x1667038
     void set_Actions(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* value);
     // protected System.Void .ctor(NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory factory)
-    // Offset: 0x14B86B4
+    // Offset: 0x165E330
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityWorkItem* New_ctor(NUnit::Framework::Internal::Test* test, UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory* factory) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityWorkItem*, creationType>(test, factory)));
     }
     // static protected System.Boolean ShouldRestore(NUnit.Framework.Interfaces.ITest loadedTest)
-    // Offset: 0x14C14C4
+    // Offset: 0x1667140
     static bool ShouldRestore(NUnit::Framework::Interfaces::ITest* loadedTest);
     // protected System.Boolean ShouldExecuteStartEvent()
-    // Offset: 0x14C13C4
+    // Offset: 0x1667040
     bool ShouldExecuteStartEvent();
     // protected System.Collections.IEnumerable PerformWork()
     // Offset: 0xFFFFFFFF
     System::Collections::IEnumerable* PerformWork();
     // public System.Void InitializeContext(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x14BBB38
+    // Offset: 0x16617B4
     void InitializeContext(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
     // public System.Collections.IEnumerable Execute()
-    // Offset: 0x14C16EC
+    // Offset: 0x1667368
     System::Collections::IEnumerable* Execute();
     // protected System.Void WorkItemComplete()
-    // Offset: 0x14BA83C
+    // Offset: 0x16604B8
     void WorkItemComplete();
     // public System.Void Cancel(System.Boolean force)
-    // Offset: 0x14C1868
+    // Offset: 0x16674E4
     void Cancel(bool force);
     // private System.Boolean <ShouldExecuteStartEvent>b__33_0(System.String x)
-    // Offset: 0x14C1980
+    // Offset: 0x16675FC
     bool $ShouldExecuteStartEvent$b__33_0(::Il2CppString* x);
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
   #pragma pack(pop)

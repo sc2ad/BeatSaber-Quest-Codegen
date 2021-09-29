@@ -52,10 +52,10 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: public System.Boolean autoReleaseHandle
     bool& dyn_autoReleaseHandle();
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> <CreateUnloadSceneWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle completedHandle)
-    // Offset: 0x144A414
+    // Offset: 0x1597C2C
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> $CreateUnloadSceneWithChain$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle completedHandle);
     // public System.Void .ctor()
-    // Offset: 0x1448B24
+    // Offset: 0x159633C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

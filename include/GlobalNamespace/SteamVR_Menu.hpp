@@ -185,40 +185,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean savedCursorVisible
     bool& dyn_savedCursorVisible();
     // public UnityEngine.RenderTexture get_texture()
-    // Offset: 0x142FFD0
+    // Offset: 0x1540E20
     UnityEngine::RenderTexture* get_texture();
     // public System.Single get_scale()
-    // Offset: 0x143009C
+    // Offset: 0x1540EEC
     float get_scale();
     // private System.Void set_scale(System.Single value)
-    // Offset: 0x14300A4
+    // Offset: 0x1540EF4
     void set_scale(float value);
     // private System.Void Awake()
-    // Offset: 0x14300AC
+    // Offset: 0x1540EFC
     void Awake();
     // private System.Void OnGUI()
-    // Offset: 0x1430214
+    // Offset: 0x1541064
     void OnGUI();
     // public System.Void ShowMenu()
-    // Offset: 0x1431DD0
+    // Offset: 0x1542C20
     void ShowMenu();
     // public System.Void HideMenu()
-    // Offset: 0x1431CCC
+    // Offset: 0x1542B1C
     void HideMenu();
     // private System.Void Update()
-    // Offset: 0x1432188
+    // Offset: 0x1542FD8
     void Update();
     // private System.Void SetScale(System.Single scale)
-    // Offset: 0x1431BE0
+    // Offset: 0x1542A30
     void SetScale(float scale);
     // private System.Void SaveCursorState()
-    // Offset: 0x1432120
+    // Offset: 0x1542F70
     void SaveCursorState();
     // private System.Void RestoreCursorState()
-    // Offset: 0x1432158
+    // Offset: 0x1542FA8
     void RestoreCursorState();
     // public System.Void .ctor()
-    // Offset: 0x1432358
+    // Offset: 0x15431A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

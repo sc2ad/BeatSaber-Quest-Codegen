@@ -32,20 +32,20 @@ namespace GlobalNamespace {
     // private BTSCharacterMaterialSwitcher/RendererMaterialsPairs[] _rendererMaterialsPairs
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>* rendererMaterialsPairs;
+    ::ArrayWrapper<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*> rendererMaterialsPairs;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>) == 0x8);
     // Creating value type constructor for type: BTSCharacterMaterialSwitcher
-    BTSCharacterMaterialSwitcher(::Array<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>* rendererMaterialsPairs_ = {}) noexcept : rendererMaterialsPairs{rendererMaterialsPairs_} {}
+    BTSCharacterMaterialSwitcher(::ArrayWrapper<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*> rendererMaterialsPairs_ = {}) noexcept : rendererMaterialsPairs{rendererMaterialsPairs_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BTSCharacterMaterialSwitcher/RendererMaterialsPairs[] _rendererMaterialsPairs
-    ::Array<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>*& dyn__rendererMaterialsPairs();
+    ::ArrayWrapper<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>& dyn__rendererMaterialsPairs();
     // public System.Void SwapMaterials(System.Boolean alternative)
-    // Offset: 0x11800C0
+    // Offset: 0x1250448
     void SwapMaterials(bool alternative);
     // public System.Void .ctor()
-    // Offset: 0x1180348
+    // Offset: 0x12506D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     }
   }; // BTSCharacterMaterialSwitcher
   #pragma pack(pop)
-  static check_size<sizeof(BTSCharacterMaterialSwitcher), 24 + sizeof(::Array<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>*)> __GlobalNamespace_BTSCharacterMaterialSwitcherSizeCheck;
+  static check_size<sizeof(BTSCharacterMaterialSwitcher), 24 + sizeof(::ArrayWrapper<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>)> __GlobalNamespace_BTSCharacterMaterialSwitcherSizeCheck;
   static_assert(sizeof(BTSCharacterMaterialSwitcher) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterMaterialSwitcher*, "", "BTSCharacterMaterialSwitcher");

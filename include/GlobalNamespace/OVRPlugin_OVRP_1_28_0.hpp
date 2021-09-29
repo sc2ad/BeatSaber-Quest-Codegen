@@ -32,16 +32,16 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x1635818
+    // Offset: 0x1802478
     static void _cctor();
     // static public OVRPlugin/Result ovrp_GetDominantHand(out OVRPlugin/Handedness dominantHand)
-    // Offset: 0x16355E8
+    // Offset: 0x1802248
     static GlobalNamespace::OVRPlugin::Result ovrp_GetDominantHand(ByRef<GlobalNamespace::OVRPlugin::Handedness> dominantHand);
     // static public OVRPlugin/Result ovrp_SendEvent(System.String name, System.String param)
-    // Offset: 0x1635668
+    // Offset: 0x18022C8
     static GlobalNamespace::OVRPlugin::Result ovrp_SendEvent(::Il2CppString* name, ::Il2CppString* param);
     // static public OVRPlugin/Result ovrp_EnqueueSetupLayer2(ref OVRPlugin/LayerDesc desc, System.Int32 compositionDepth, System.IntPtr layerId)
-    // Offset: 0x1635728
+    // Offset: 0x1802388
     static GlobalNamespace::OVRPlugin::Result ovrp_EnqueueSetupLayer2(ByRef<GlobalNamespace::OVRPlugin::LayerDesc> desc, int compositionDepth, System::IntPtr layerId);
   }; // OVRPlugin/OVRP_1_28_0
   #pragma pack(pop)

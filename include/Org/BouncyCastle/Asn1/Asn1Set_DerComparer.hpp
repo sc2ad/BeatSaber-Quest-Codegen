@@ -29,10 +29,10 @@ namespace Org::BouncyCastle::Asn1 {
       return *reinterpret_cast<System::Collections::IComparer*>(this);
     }
     // public System.Int32 Compare(System.Object x, System.Object y)
-    // Offset: 0x17333F4
+    // Offset: 0x18E4BCC
     int Compare(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Void .ctor()
-    // Offset: 0x17333E0
+    // Offset: 0x18E4BB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

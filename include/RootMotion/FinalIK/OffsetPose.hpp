@@ -36,23 +36,23 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.OffsetPose/RootMotion.FinalIK.EffectorLink[] effectorLinks
     // Size: 0x8
     // Offset: 0x18
-    ::Array<RootMotion::FinalIK::OffsetPose::EffectorLink*>* effectorLinks;
+    ::ArrayWrapper<RootMotion::FinalIK::OffsetPose::EffectorLink*> effectorLinks;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::OffsetPose::EffectorLink*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::OffsetPose::EffectorLink*>) == 0x8);
     // Creating value type constructor for type: OffsetPose
-    OffsetPose(::Array<RootMotion::FinalIK::OffsetPose::EffectorLink*>* effectorLinks_ = {}) noexcept : effectorLinks{effectorLinks_} {}
+    OffsetPose(::ArrayWrapper<RootMotion::FinalIK::OffsetPose::EffectorLink*> effectorLinks_ = {}) noexcept : effectorLinks{effectorLinks_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.OffsetPose/RootMotion.FinalIK.EffectorLink[] effectorLinks
-    ::Array<RootMotion::FinalIK::OffsetPose::EffectorLink*>*& dyn_effectorLinks();
+    ::ArrayWrapper<RootMotion::FinalIK::OffsetPose::EffectorLink*>& dyn_effectorLinks();
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
-    // Offset: 0x1ADC480
+    // Offset: 0x1C5EC00
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight, UnityEngine.Quaternion rotation)
-    // Offset: 0x1ADC878
+    // Offset: 0x1C5EFF8
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
-    // Offset: 0x1ADC930
+    // Offset: 0x1C5F0B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -66,7 +66,7 @@ namespace RootMotion::FinalIK {
     }
   }; // RootMotion.FinalIK.OffsetPose
   #pragma pack(pop)
-  static check_size<sizeof(OffsetPose), 24 + sizeof(::Array<RootMotion::FinalIK::OffsetPose::EffectorLink*>*)> __RootMotion_FinalIK_OffsetPoseSizeCheck;
+  static check_size<sizeof(OffsetPose), 24 + sizeof(::ArrayWrapper<RootMotion::FinalIK::OffsetPose::EffectorLink*>)> __RootMotion_FinalIK_OffsetPoseSizeCheck;
   static_assert(sizeof(OffsetPose) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetPose*, "RootMotion.FinalIK", "OffsetPose");

@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: DoesNotRequireDomainReloadInitAttribute
     DoesNotRequireDomainReloadInitAttribute() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x126092C
+    // Offset: 0x137D134
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

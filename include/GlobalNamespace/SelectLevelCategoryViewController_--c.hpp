@@ -46,16 +46,16 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<SelectLevelCategoryViewController/LevelCategoryInfo,SelectLevelCategoryViewController/LevelCategory> <>9__12_2
     static void _set_$$9__12_2(System::Func_2<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1092064
+    // Offset: 0x1100AA0
     static void _cctor();
     // HMUI.IconSegmentedControl/HMUI.DataItem <Setup>b__12_1(SelectLevelCategoryViewController/LevelCategoryInfo x)
-    // Offset: 0x10920D0
+    // Offset: 0x1100B0C
     HMUI::IconSegmentedControl::DataItem* $Setup$b__12_1(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo* x);
     // SelectLevelCategoryViewController/LevelCategory <Setup>b__12_2(SelectLevelCategoryViewController/LevelCategoryInfo x)
-    // Offset: 0x109215C
+    // Offset: 0x1100B98
     GlobalNamespace::SelectLevelCategoryViewController::LevelCategory $Setup$b__12_2(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo* x);
     // public System.Void .ctor()
-    // Offset: 0x10920C8
+    // Offset: 0x1100B04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

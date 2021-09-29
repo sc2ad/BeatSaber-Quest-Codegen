@@ -64,10 +64,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<NetEase.Docker.LogoutData> <>u__1
     System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::LogoutData>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x10493E4
+    // Offset: 0x1138384
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x10495F4
+    // Offset: 0x1138594
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // NetEaseManager/<LogoutAsync>d__15
   // WARNING Not writing size check since size may be invalid!

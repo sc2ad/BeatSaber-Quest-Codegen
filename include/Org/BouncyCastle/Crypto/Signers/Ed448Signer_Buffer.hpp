@@ -32,13 +32,13 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Creating value type constructor for type: Buffer
     Buffer() noexcept {}
     // System.Byte[] GenerateSignature(Org.BouncyCastle.Crypto.Parameters.Ed448PrivateKeyParameters privateKey, System.Byte[] ctx)
-    // Offset: 0x128065C
-    ::Array<uint8_t>* GenerateSignature(Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters* privateKey, ::Array<uint8_t>* ctx);
+    // Offset: 0x139CE64
+    ::ArrayWrapper<uint8_t> GenerateSignature(Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters* privateKey, ::ArrayWrapper<uint8_t> ctx);
     // System.Void Reset()
-    // Offset: 0x12807D4
+    // Offset: 0x139CFDC
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x12804DC
+    // Offset: 0x139CCE4
     // Implemented from: System.IO.MemoryStream
     // Base method: System.Void MemoryStream::.ctor()
     // Base method: System.Void Stream::.ctor()
@@ -57,10 +57,10 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer*,
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::GenerateSignature
 // Il2CppName: GenerateSignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::*)(Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters*, ::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::GenerateSignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::*)(Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters*, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::GenerateSignature)> {
   static const MethodInfo* get() {
     static auto* privateKey = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto.Parameters", "Ed448PrivateKeyParameters")->byval_arg;
-    static auto* ctx = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* ctx = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer*), "GenerateSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{privateKey, ctx});
   }
 };

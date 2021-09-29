@@ -62,10 +62,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<PlatformUserAuthTokenData> <>u__1
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::PlatformUserAuthTokenData*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x102AE08
+    // Offset: 0x111A278
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x102B07C
+    // Offset: 0x111A4EC
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusPlatformUserModel/<GetUserAuthToken>d__4
   // WARNING Not writing size check since size may be invalid!

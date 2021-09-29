@@ -46,21 +46,21 @@ namespace GlobalNamespace {
     // public System.Byte[] preMasterSecret
     // Size: 0x8
     // Offset: 0x20
-    ::Array<uint8_t>* preMasterSecret;
+    ::ArrayWrapper<uint8_t> preMasterSecret;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // public System.Byte[] serverRandom
     // Size: 0x8
     // Offset: 0x28
-    ::Array<uint8_t>* serverRandom;
+    ::ArrayWrapper<uint8_t> serverRandom;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // public System.Byte[] clientRandom
     // Size: 0x8
     // Offset: 0x30
-    ::Array<uint8_t>* clientRandom;
+    ::ArrayWrapper<uint8_t> clientRandom;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // public System.Boolean isClient
     // Size: 0x1
     // Offset: 0x38
@@ -84,7 +84,7 @@ namespace GlobalNamespace {
     // Offset: 0x50
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> $$u__1;
     // Creating value type constructor for type: $AddEncryptedEndpointAsync$d__24
-    constexpr $AddEncryptedEndpointAsync$d__24(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> $$t__builder_ = {}, ::Array<uint8_t>* preMasterSecret_ = {}, ::Array<uint8_t>* serverRandom_ = {}, ::Array<uint8_t>* clientRandom_ = {}, bool isClient_ = {}, GlobalNamespace::PacketEncryptionLayer* $$4__this_ = {}, System::Net::IPEndPoint* endPoint_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, preMasterSecret{preMasterSecret_}, serverRandom{serverRandom_}, clientRandom{clientRandom_}, isClient{isClient_}, $$4__this{$$4__this_}, endPoint{endPoint_}, $$u__1{$$u__1_} {}
+    constexpr $AddEncryptedEndpointAsync$d__24(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> $$t__builder_ = {}, ::ArrayWrapper<uint8_t> preMasterSecret_ = {}, ::ArrayWrapper<uint8_t> serverRandom_ = {}, ::ArrayWrapper<uint8_t> clientRandom_ = {}, bool isClient_ = {}, GlobalNamespace::PacketEncryptionLayer* $$4__this_ = {}, System::Net::IPEndPoint* endPoint_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, preMasterSecret{preMasterSecret_}, serverRandom{serverRandom_}, clientRandom{clientRandom_}, isClient{isClient_}, $$4__this{$$4__this_}, endPoint{endPoint_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -98,11 +98,11 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<EncryptionUtility/IEncryptionState> <>t__builder
     System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::EncryptionUtility::IEncryptionState*>& dyn_$$t__builder();
     // Get instance field reference: public System.Byte[] preMasterSecret
-    ::Array<uint8_t>*& dyn_preMasterSecret();
+    ::ArrayWrapper<uint8_t>& dyn_preMasterSecret();
     // Get instance field reference: public System.Byte[] serverRandom
-    ::Array<uint8_t>*& dyn_serverRandom();
+    ::ArrayWrapper<uint8_t>& dyn_serverRandom();
     // Get instance field reference: public System.Byte[] clientRandom
-    ::Array<uint8_t>*& dyn_clientRandom();
+    ::ArrayWrapper<uint8_t>& dyn_clientRandom();
     // Get instance field reference: public System.Boolean isClient
     bool& dyn_isClient();
     // Get instance field reference: public PacketEncryptionLayer <>4__this
@@ -112,10 +112,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<EncryptionUtility/IEncryptionState> <>u__1
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x16F784C
+    // Offset: 0x18D134C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x16F7B08
+    // Offset: 0x18D1608
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // PacketEncryptionLayer/<AddEncryptedEndpointAsync>d__24
   // WARNING Not writing size check since size may be invalid!

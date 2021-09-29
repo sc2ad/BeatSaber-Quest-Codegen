@@ -56,10 +56,10 @@ namespace Zenject {
     // Get instance field reference: public System.Type installerType
     System::Type*& dyn_installerType();
     // Zenject.ISubContainerCreator <ByInstaller>b__0(Zenject.DiContainer container)
-    // Offset: 0x172589C
+    // Offset: 0x18A1298
     Zenject::ISubContainerCreator* $ByInstaller$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x1724B10
+    // Offset: 0x18A050C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -33,7 +33,7 @@ namespace UnityEngine::Events {
     // Creating value type constructor for type: BaseInvokableCall
     BaseInvokableCall() noexcept {}
     // protected System.Void .ctor(System.Object target, System.Reflection.MethodInfo function)
-    // Offset: 0x1C526F0
+    // Offset: 0x1CB9174
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseInvokableCall* New_ctor(::Il2CppObject* target, System::Reflection::MethodInfo* function) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::BaseInvokableCall::.ctor");
@@ -41,7 +41,7 @@ namespace UnityEngine::Events {
     }
     // public System.Void Invoke(System.Object[] args)
     // Offset: 0xFFFFFFFF
-    void Invoke(::Array<::Il2CppObject*>* args);
+    void Invoke(::ArrayWrapper<::Il2CppObject*> args);
     // static protected System.Void ThrowOnInvalidArg(System.Object arg)
     // Offset: 0xFFFFFFFF
     template<class T>
@@ -52,13 +52,13 @@ namespace UnityEngine::Events {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, arg);
     }
     // static protected System.Boolean AllowInvoke(System.Delegate delegate)
-    // Offset: 0x1C527AC
+    // Offset: 0x1CB9230
     static bool AllowInvoke(System::Delegate* delegate);
     // public System.Boolean Find(System.Object targetObj, System.Reflection.MethodInfo method)
     // Offset: 0xFFFFFFFF
     bool Find(::Il2CppObject* targetObj, System::Reflection::MethodInfo* method);
     // protected System.Void .ctor()
-    // Offset: 0x1C526E8
+    // Offset: 0x1CB916C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -78,9 +78,9 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::BaseInvokableCall*, "UnityEngine.Eve
 // Writing MetadataGetter for method: UnityEngine::Events::BaseInvokableCall::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::BaseInvokableCall::*)(::Array<::Il2CppObject*>*)>(&UnityEngine::Events::BaseInvokableCall::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::BaseInvokableCall::*)(::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::Events::BaseInvokableCall::Invoke)> {
   static const MethodInfo* get() {
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::BaseInvokableCall*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
   }
 };

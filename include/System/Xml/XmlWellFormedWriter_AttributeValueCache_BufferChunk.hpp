@@ -23,9 +23,9 @@ namespace System::Xml {
     // System.Char[] buffer
     // Size: 0x8
     // Offset: 0x10
-    ::Array<::Il2CppChar>* buffer;
+    ::ArrayWrapper<::Il2CppChar> buffer;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppChar>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
     // System.Int32 index
     // Size: 0x4
     // Offset: 0x18
@@ -39,17 +39,17 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: BufferChunk
-    BufferChunk(::Array<::Il2CppChar>* buffer_ = {}, int index_ = {}, int count_ = {}) noexcept : buffer{buffer_}, index{index_}, count{count_} {}
+    BufferChunk(::ArrayWrapper<::Il2CppChar> buffer_ = {}, int index_ = {}, int count_ = {}) noexcept : buffer{buffer_}, index{index_}, count{count_} {}
     // Get instance field reference: System.Char[] buffer
-    ::Array<::Il2CppChar>*& dyn_buffer();
+    ::ArrayWrapper<::Il2CppChar>& dyn_buffer();
     // Get instance field reference: System.Int32 index
     int& dyn_index();
     // Get instance field reference: System.Int32 count
     int& dyn_count();
     // System.Void .ctor(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x23EB934
+    // Offset: 0x25F5BC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlWellFormedWriter::AttributeValueCache::BufferChunk* New_ctor(::Array<::Il2CppChar>* buffer, int index, int count) {
+    static XmlWellFormedWriter::AttributeValueCache::BufferChunk* New_ctor(::ArrayWrapper<::Il2CppChar> buffer, int index, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlWellFormedWriter::AttributeValueCache::BufferChunk*, creationType>(buffer, index, count)));
     }

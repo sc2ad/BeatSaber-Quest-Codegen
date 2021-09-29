@@ -101,38 +101,38 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: System.Nullable`1<System.Boolean> transferEncodingChunked
     System::Nullable_1<bool>& dyn_transferEncodingChunked();
     // static private System.Void .cctor()
-    // Offset: 0x15AA790
+    // Offset: 0x174EC48
     static void _cctor();
     // System.Void .ctor(System.Net.Http.Headers.HttpHeaderKind headerKind)
-    // Offset: 0x15AA590
+    // Offset: 0x174EA48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpHeaders* New_ctor(System::Net::Http::Headers::HttpHeaderKind headerKind) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaders::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpHeaders*, creationType>(headerKind)));
     }
     // private System.Boolean AddInternal(System.String name, System.Collections.Generic.IEnumerable`1<System.String> values, System.Net.Http.Headers.HeaderInfo headerInfo, System.Boolean ignoreInvalid)
-    // Offset: 0x15AC2E4
+    // Offset: 0x175079C
     bool AddInternal(::Il2CppString* name, System::Collections::Generic::IEnumerable_1<::Il2CppString*>* values, System::Net::Http::Headers::HeaderInfo* headerInfo, bool ignoreInvalid);
     // public System.Boolean TryAddWithoutValidation(System.String name, System.Collections.Generic.IEnumerable`1<System.String> values)
-    // Offset: 0x15AC888
+    // Offset: 0x1750D40
     bool TryAddWithoutValidation(::Il2CppString* name, System::Collections::Generic::IEnumerable_1<::Il2CppString*>* values);
     // private System.Boolean TryCheckName(System.String name, out System.Net.Http.Headers.HeaderInfo headerInfo)
-    // Offset: 0x15AC960
+    // Offset: 0x1750E18
     bool TryCheckName(::Il2CppString* name, ByRef<System::Net::Http::Headers::HeaderInfo*> headerInfo);
     // public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IEnumerable`1<System.String>>> GetEnumerator()
-    // Offset: 0x15ACAC0
+    // Offset: 0x1750F78
     System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>>* GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x15ACB5C
+    // Offset: 0x1751014
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // static System.String GetSingleHeaderString(System.String key, System.Collections.Generic.IEnumerable`1<System.String> values)
-    // Offset: 0x15ACB60
+    // Offset: 0x1751018
     static ::Il2CppString* GetSingleHeaderString(::Il2CppString* key, System::Collections::Generic::IEnumerable_1<::Il2CppString*>* values);
     // private System.Collections.Generic.List`1<System.String> GetAllHeaderValues(System.Net.Http.Headers.HttpHeaders/System.Net.Http.Headers.HeaderBucket bucket, System.Net.Http.Headers.HeaderInfo headerInfo)
-    // Offset: 0x15AD1D4
+    // Offset: 0x175168C
     System::Collections::Generic::List_1<::Il2CppString*>* GetAllHeaderValues(System::Net::Http::Headers::HttpHeaders::HeaderBucket* bucket, System::Net::Http::Headers::HeaderInfo* headerInfo);
     // static System.Net.Http.Headers.HttpHeaderKind GetKnownHeaderKind(System.String name)
-    // Offset: 0x15AD434
+    // Offset: 0x17518EC
     static System::Net::Http::Headers::HttpHeaderKind GetKnownHeaderKind(::Il2CppString* name);
     // T GetValue(System.String name)
     // Offset: 0xFFFFFFFF
@@ -165,7 +165,7 @@ namespace System::Net::Http::Headers {
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, name, value, toStringConverter);
     }
     // protected System.Void .ctor()
-    // Offset: 0x15AC1FC
+    // Offset: 0x17506B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -174,7 +174,7 @@ namespace System::Net::Http::Headers {
       return THROW_UNLESS((::il2cpp_utils::New<HttpHeaders*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x15ACF0C
+    // Offset: 0x17513C4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

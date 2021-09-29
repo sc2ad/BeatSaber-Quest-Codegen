@@ -14,10 +14,6 @@ namespace Org::BouncyCastle::Math {
   class BigInteger;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
 // Type namespace: Org.BouncyCastle.Math.EC.Endo
 namespace Org::BouncyCastle::Math::EC::Endo {
   // Size: 0x10
@@ -34,7 +30,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     }
     // public Org.BouncyCastle.Math.BigInteger[] DecomposeScalar(Org.BouncyCastle.Math.BigInteger k)
     // Offset: 0xFFFFFFFF
-    ::Array<Org::BouncyCastle::Math::BigInteger*>* DecomposeScalar(Org::BouncyCastle::Math::BigInteger* k);
+    ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> DecomposeScalar(Org::BouncyCastle::Math::BigInteger* k);
   }; // Org.BouncyCastle.Math.EC.Endo.GlvEndomorphism
   #pragma pack(pop)
 }
@@ -44,7 +40,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*, "Org
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism::DecomposeScalar
 // Il2CppName: DecomposeScalar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::BigInteger*>* (Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism::*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism::DecomposeScalar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> (Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism::*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism::DecomposeScalar)> {
   static const MethodInfo* get() {
     static auto* k = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*), "DecomposeScalar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{k});

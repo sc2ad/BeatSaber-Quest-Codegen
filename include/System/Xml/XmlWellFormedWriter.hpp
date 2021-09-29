@@ -369,13 +369,13 @@ namespace System::Xml {
       // Get instance field reference: System.String xmlLang
       ::Il2CppString*& dyn_xmlLang();
       // System.Void Set(System.String prefix, System.String localName, System.String namespaceUri, System.Int32 prevNSTop)
-      // Offset: 0x23EC30C
+      // Offset: 0x25F659C
       void Set(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* namespaceUri, int prevNSTop);
       // System.Void WriteEndElement(System.Xml.XmlRawWriter rawWriter)
-      // Offset: 0x23EC328
+      // Offset: 0x25F65B8
       void WriteEndElement(System::Xml::XmlRawWriter* rawWriter);
       // System.Void WriteFullEndElement(System.Xml.XmlRawWriter rawWriter)
-      // Offset: 0x23EC358
+      // Offset: 0x25F65E8
       void WriteFullEndElement(System::Xml::XmlRawWriter* rawWriter);
     }; // System.Xml.XmlWellFormedWriter/System.Xml.ElementScope
     #pragma pack(pop)
@@ -479,10 +479,10 @@ namespace System::Xml {
       // Get instance field reference: System.Int32 prevNsIndex
       int& dyn_prevNsIndex();
       // System.Void Set(System.String prefix, System.String namespaceUri, System.Xml.XmlWellFormedWriter/System.Xml.NamespaceKind kind)
-      // Offset: 0x23EC388
+      // Offset: 0x25F6618
       void Set(::Il2CppString* prefix, ::Il2CppString* namespaceUri, System::Xml::XmlWellFormedWriter::NamespaceKind kind);
       // System.Void WriteDecl(System.Xml.XmlWriter writer, System.Xml.XmlRawWriter rawWriter)
-      // Offset: 0x23EC398
+      // Offset: 0x25F6628
       void WriteDecl(System::Xml::XmlWriter* writer, System::Xml::XmlRawWriter* rawWriter);
     }; // System.Xml.XmlWellFormedWriter/System.Xml.Namespace
     #pragma pack(pop)
@@ -534,10 +534,10 @@ namespace System::Xml {
       // Get instance field reference: System.Int32 prev
       int& dyn_prev();
       // System.Void Set(System.String prefix, System.String localName, System.String namespaceUri)
-      // Offset: 0x23EB248
+      // Offset: 0x25F54D8
       void Set(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* namespaceUri);
       // System.Boolean IsDuplicate(System.String prefix, System.String localName, System.String namespaceUri)
-      // Offset: 0x23EB258
+      // Offset: 0x25F54E8
       bool IsDuplicate(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* namespaceUri);
     }; // System.Xml.XmlWellFormedWriter/System.Xml.AttrName
     #pragma pack(pop)
@@ -622,9 +622,9 @@ namespace System::Xml {
     // private System.Xml.XmlWellFormedWriter/System.Xml.Namespace[] nsStack
     // Size: 0x8
     // Offset: 0x28
-    ::Array<System::Xml::XmlWellFormedWriter::Namespace>* nsStack;
+    ::ArrayWrapper<System::Xml::XmlWellFormedWriter::Namespace> nsStack;
     // Field size check
-    static_assert(sizeof(::Array<System::Xml::XmlWellFormedWriter::Namespace>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Xml::XmlWellFormedWriter::Namespace>) == 0x8);
     // private System.Int32 nsTop
     // Size: 0x4
     // Offset: 0x30
@@ -650,9 +650,9 @@ namespace System::Xml {
     // private System.Xml.XmlWellFormedWriter/System.Xml.ElementScope[] elemScopeStack
     // Size: 0x8
     // Offset: 0x48
-    ::Array<System::Xml::XmlWellFormedWriter::ElementScope>* elemScopeStack;
+    ::ArrayWrapper<System::Xml::XmlWellFormedWriter::ElementScope> elemScopeStack;
     // Field size check
-    static_assert(sizeof(::Array<System::Xml::XmlWellFormedWriter::ElementScope>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Xml::XmlWellFormedWriter::ElementScope>) == 0x8);
     // private System.Int32 elemTop
     // Size: 0x4
     // Offset: 0x50
@@ -664,9 +664,9 @@ namespace System::Xml {
     // private System.Xml.XmlWellFormedWriter/System.Xml.AttrName[] attrStack
     // Size: 0x8
     // Offset: 0x58
-    ::Array<System::Xml::XmlWellFormedWriter::AttrName>* attrStack;
+    ::ArrayWrapper<System::Xml::XmlWellFormedWriter::AttrName> attrStack;
     // Field size check
-    static_assert(sizeof(::Array<System::Xml::XmlWellFormedWriter::AttrName>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Xml::XmlWellFormedWriter::AttrName>) == 0x8);
     // private System.Int32 attrCount
     // Size: 0x4
     // Offset: 0x60
@@ -704,9 +704,9 @@ namespace System::Xml {
     // private System.Xml.XmlWellFormedWriter/System.Xml.State[] stateTable
     // Size: 0x8
     // Offset: 0x88
-    ::Array<System::Xml::XmlWellFormedWriter::State>* stateTable;
+    ::ArrayWrapper<System::Xml::XmlWellFormedWriter::State> stateTable;
     // Field size check
-    static_assert(sizeof(::Array<System::Xml::XmlWellFormedWriter::State>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Xml::XmlWellFormedWriter::State>) == 0x8);
     // private System.Xml.XmlWellFormedWriter/System.Xml.State currentState
     // Size: 0x4
     // Offset: 0x90
@@ -766,27 +766,27 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(System::Xml::SecureStringHasher*) == 0x8);
     // Creating value type constructor for type: XmlWellFormedWriter
-    XmlWellFormedWriter(System::Xml::XmlWriter* writer_ = {}, System::Xml::XmlRawWriter* rawWriter_ = {}, System::Xml::IXmlNamespaceResolver* predefinedNamespaces_ = {}, ::Array<System::Xml::XmlWellFormedWriter::Namespace>* nsStack_ = {}, int nsTop_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* nsHashtable_ = {}, bool useNsHashtable_ = {}, ::Array<System::Xml::XmlWellFormedWriter::ElementScope>* elemScopeStack_ = {}, int elemTop_ = {}, ::Array<System::Xml::XmlWellFormedWriter::AttrName>* attrStack_ = {}, int attrCount_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* attrHashTable_ = {}, System::Xml::XmlWellFormedWriter::SpecialAttribute specAttr_ = {}, System::Xml::XmlWellFormedWriter::AttributeValueCache* attrValueCache_ = {}, ::Il2CppString* curDeclPrefix_ = {}, ::Array<System::Xml::XmlWellFormedWriter::State>* stateTable_ = {}, System::Xml::XmlWellFormedWriter::State currentState_ = {}, bool checkCharacters_ = {}, bool omitDuplNamespaces_ = {}, bool writeEndDocumentOnClose_ = {}, System::Xml::ConformanceLevel conformanceLevel_ = {}, bool dtdWritten_ = {}, bool xmlDeclFollows_ = {}, System::Xml::XmlCharType xmlCharType_ = {}, System::Xml::SecureStringHasher* hasher_ = {}) noexcept : writer{writer_}, rawWriter{rawWriter_}, predefinedNamespaces{predefinedNamespaces_}, nsStack{nsStack_}, nsTop{nsTop_}, nsHashtable{nsHashtable_}, useNsHashtable{useNsHashtable_}, elemScopeStack{elemScopeStack_}, elemTop{elemTop_}, attrStack{attrStack_}, attrCount{attrCount_}, attrHashTable{attrHashTable_}, specAttr{specAttr_}, attrValueCache{attrValueCache_}, curDeclPrefix{curDeclPrefix_}, stateTable{stateTable_}, currentState{currentState_}, checkCharacters{checkCharacters_}, omitDuplNamespaces{omitDuplNamespaces_}, writeEndDocumentOnClose{writeEndDocumentOnClose_}, conformanceLevel{conformanceLevel_}, dtdWritten{dtdWritten_}, xmlDeclFollows{xmlDeclFollows_}, xmlCharType{xmlCharType_}, hasher{hasher_} {}
+    XmlWellFormedWriter(System::Xml::XmlWriter* writer_ = {}, System::Xml::XmlRawWriter* rawWriter_ = {}, System::Xml::IXmlNamespaceResolver* predefinedNamespaces_ = {}, ::ArrayWrapper<System::Xml::XmlWellFormedWriter::Namespace> nsStack_ = {}, int nsTop_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* nsHashtable_ = {}, bool useNsHashtable_ = {}, ::ArrayWrapper<System::Xml::XmlWellFormedWriter::ElementScope> elemScopeStack_ = {}, int elemTop_ = {}, ::ArrayWrapper<System::Xml::XmlWellFormedWriter::AttrName> attrStack_ = {}, int attrCount_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* attrHashTable_ = {}, System::Xml::XmlWellFormedWriter::SpecialAttribute specAttr_ = {}, System::Xml::XmlWellFormedWriter::AttributeValueCache* attrValueCache_ = {}, ::Il2CppString* curDeclPrefix_ = {}, ::ArrayWrapper<System::Xml::XmlWellFormedWriter::State> stateTable_ = {}, System::Xml::XmlWellFormedWriter::State currentState_ = {}, bool checkCharacters_ = {}, bool omitDuplNamespaces_ = {}, bool writeEndDocumentOnClose_ = {}, System::Xml::ConformanceLevel conformanceLevel_ = {}, bool dtdWritten_ = {}, bool xmlDeclFollows_ = {}, System::Xml::XmlCharType xmlCharType_ = {}, System::Xml::SecureStringHasher* hasher_ = {}) noexcept : writer{writer_}, rawWriter{rawWriter_}, predefinedNamespaces{predefinedNamespaces_}, nsStack{nsStack_}, nsTop{nsTop_}, nsHashtable{nsHashtable_}, useNsHashtable{useNsHashtable_}, elemScopeStack{elemScopeStack_}, elemTop{elemTop_}, attrStack{attrStack_}, attrCount{attrCount_}, attrHashTable{attrHashTable_}, specAttr{specAttr_}, attrValueCache{attrValueCache_}, curDeclPrefix{curDeclPrefix_}, stateTable{stateTable_}, currentState{currentState_}, checkCharacters{checkCharacters_}, omitDuplNamespaces{omitDuplNamespaces_}, writeEndDocumentOnClose{writeEndDocumentOnClose_}, conformanceLevel{conformanceLevel_}, dtdWritten{dtdWritten_}, xmlDeclFollows{xmlDeclFollows_}, xmlCharType{xmlCharType_}, hasher{hasher_} {}
     // Get static field: static readonly System.String[] stateName
-    static ::Array<::Il2CppString*>* _get_stateName();
+    static ::ArrayWrapper<::Il2CppString*> _get_stateName();
     // Set static field: static readonly System.String[] stateName
-    static void _set_stateName(::Array<::Il2CppString*>* value);
+    static void _set_stateName(::ArrayWrapper<::Il2CppString*> value);
     // Get static field: static readonly System.String[] tokenName
-    static ::Array<::Il2CppString*>* _get_tokenName();
+    static ::ArrayWrapper<::Il2CppString*> _get_tokenName();
     // Set static field: static readonly System.String[] tokenName
-    static void _set_tokenName(::Array<::Il2CppString*>* value);
+    static void _set_tokenName(::ArrayWrapper<::Il2CppString*> value);
     // Get static field: static private System.Xml.WriteState[] state2WriteState
-    static ::Array<System::Xml::WriteState>* _get_state2WriteState();
+    static ::ArrayWrapper<System::Xml::WriteState> _get_state2WriteState();
     // Set static field: static private System.Xml.WriteState[] state2WriteState
-    static void _set_state2WriteState(::Array<System::Xml::WriteState>* value);
+    static void _set_state2WriteState(::ArrayWrapper<System::Xml::WriteState> value);
     // Get static field: static private readonly System.Xml.XmlWellFormedWriter/System.Xml.State[] StateTableDocument
-    static ::Array<System::Xml::XmlWellFormedWriter::State>* _get_StateTableDocument();
+    static ::ArrayWrapper<System::Xml::XmlWellFormedWriter::State> _get_StateTableDocument();
     // Set static field: static private readonly System.Xml.XmlWellFormedWriter/System.Xml.State[] StateTableDocument
-    static void _set_StateTableDocument(::Array<System::Xml::XmlWellFormedWriter::State>* value);
+    static void _set_StateTableDocument(::ArrayWrapper<System::Xml::XmlWellFormedWriter::State> value);
     // Get static field: static private readonly System.Xml.XmlWellFormedWriter/System.Xml.State[] StateTableAuto
-    static ::Array<System::Xml::XmlWellFormedWriter::State>* _get_StateTableAuto();
+    static ::ArrayWrapper<System::Xml::XmlWellFormedWriter::State> _get_StateTableAuto();
     // Set static field: static private readonly System.Xml.XmlWellFormedWriter/System.Xml.State[] StateTableAuto
-    static void _set_StateTableAuto(::Array<System::Xml::XmlWellFormedWriter::State>* value);
+    static void _set_StateTableAuto(::ArrayWrapper<System::Xml::XmlWellFormedWriter::State> value);
     // Get instance field reference: private System.Xml.XmlWriter writer
     System::Xml::XmlWriter*& dyn_writer();
     // Get instance field reference: private System.Xml.XmlRawWriter rawWriter
@@ -794,7 +794,7 @@ namespace System::Xml {
     // Get instance field reference: private System.Xml.IXmlNamespaceResolver predefinedNamespaces
     System::Xml::IXmlNamespaceResolver*& dyn_predefinedNamespaces();
     // Get instance field reference: private System.Xml.XmlWellFormedWriter/System.Xml.Namespace[] nsStack
-    ::Array<System::Xml::XmlWellFormedWriter::Namespace>*& dyn_nsStack();
+    ::ArrayWrapper<System::Xml::XmlWellFormedWriter::Namespace>& dyn_nsStack();
     // Get instance field reference: private System.Int32 nsTop
     int& dyn_nsTop();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Int32> nsHashtable
@@ -802,11 +802,11 @@ namespace System::Xml {
     // Get instance field reference: private System.Boolean useNsHashtable
     bool& dyn_useNsHashtable();
     // Get instance field reference: private System.Xml.XmlWellFormedWriter/System.Xml.ElementScope[] elemScopeStack
-    ::Array<System::Xml::XmlWellFormedWriter::ElementScope>*& dyn_elemScopeStack();
+    ::ArrayWrapper<System::Xml::XmlWellFormedWriter::ElementScope>& dyn_elemScopeStack();
     // Get instance field reference: private System.Int32 elemTop
     int& dyn_elemTop();
     // Get instance field reference: private System.Xml.XmlWellFormedWriter/System.Xml.AttrName[] attrStack
-    ::Array<System::Xml::XmlWellFormedWriter::AttrName>*& dyn_attrStack();
+    ::ArrayWrapper<System::Xml::XmlWellFormedWriter::AttrName>& dyn_attrStack();
     // Get instance field reference: private System.Int32 attrCount
     int& dyn_attrCount();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Int32> attrHashTable
@@ -818,7 +818,7 @@ namespace System::Xml {
     // Get instance field reference: private System.String curDeclPrefix
     ::Il2CppString*& dyn_curDeclPrefix();
     // Get instance field reference: private System.Xml.XmlWellFormedWriter/System.Xml.State[] stateTable
-    ::Array<System::Xml::XmlWellFormedWriter::State>*& dyn_stateTable();
+    ::ArrayWrapper<System::Xml::XmlWellFormedWriter::State>& dyn_stateTable();
     // Get instance field reference: private System.Xml.XmlWellFormedWriter/System.Xml.State currentState
     System::Xml::XmlWellFormedWriter::State& dyn_currentState();
     // Get instance field reference: private System.Boolean checkCharacters
@@ -838,215 +838,215 @@ namespace System::Xml {
     // Get instance field reference: private System.Xml.SecureStringHasher hasher
     System::Xml::SecureStringHasher*& dyn_hasher();
     // System.Xml.XmlRawWriter get_RawWriter()
-    // Offset: 0x196CB20
+    // Offset: 0x1B0D958
     System::Xml::XmlRawWriter* get_RawWriter();
     // private System.Boolean get_SaveAttrValue()
-    // Offset: 0x196B3E0
+    // Offset: 0x1B0C218
     bool get_SaveAttrValue();
     // private System.Boolean get_InBase64()
-    // Offset: 0x196C4C4
+    // Offset: 0x1B0D2FC
     bool get_InBase64();
     // private System.Boolean get_IsClosedOrErrorState()
-    // Offset: 0x196CB10
+    // Offset: 0x1B0D948
     bool get_IsClosedOrErrorState();
     // System.Void .ctor(System.Xml.XmlWriter writer, System.Xml.XmlWriterSettings settings)
-    // Offset: 0x1967850
+    // Offset: 0x1B08688
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlWellFormedWriter* New_ctor(System::Xml::XmlWriter* writer, System::Xml::XmlWriterSettings* settings) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlWellFormedWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlWellFormedWriter*, creationType>(writer, settings)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x196D5B8
+    // Offset: 0x1B0E3F0
     static void _cctor();
     // private System.Void SetSpecialAttribute(System.Xml.XmlWellFormedWriter/System.Xml.SpecialAttribute special)
-    // Offset: 0x1969BD0
+    // Offset: 0x1B0AA08
     void SetSpecialAttribute(System::Xml::XmlWellFormedWriter::SpecialAttribute special);
     // private System.Void WriteStartDocumentImpl(System.Xml.XmlStandalone standalone)
-    // Offset: 0x1967CEC
+    // Offset: 0x1B08B24
     void WriteStartDocumentImpl(System::Xml::XmlStandalone standalone);
     // private System.Void StartFragment()
-    // Offset: 0x196CB28
+    // Offset: 0x1B0D960
     void StartFragment();
     // private System.Void PushNamespaceImplicit(System.String prefix, System.String ns)
-    // Offset: 0x1968C44
+    // Offset: 0x1B09A7C
     void PushNamespaceImplicit(::Il2CppString* prefix, ::Il2CppString* ns);
     // private System.Boolean PushNamespaceExplicit(System.String prefix, System.String ns)
-    // Offset: 0x196A8E8
+    // Offset: 0x1B0B720
     bool PushNamespaceExplicit(::Il2CppString* prefix, ::Il2CppString* ns);
     // private System.Void AddNamespace(System.String prefix, System.String ns, System.Xml.XmlWellFormedWriter/System.Xml.NamespaceKind kind)
-    // Offset: 0x196CC34
+    // Offset: 0x1B0DA6C
     void AddNamespace(::Il2CppString* prefix, ::Il2CppString* ns, System::Xml::XmlWellFormedWriter::NamespaceKind kind);
     // private System.Void AddToNamespaceHashtable(System.Int32 namespaceIndex)
-    // Offset: 0x196CEAC
+    // Offset: 0x1B0DCE4
     void AddToNamespaceHashtable(int namespaceIndex);
     // private System.Int32 LookupNamespaceIndex(System.String prefix)
-    // Offset: 0x196CB34
+    // Offset: 0x1B0D96C
     int LookupNamespaceIndex(::Il2CppString* prefix);
     // private System.Void PopNamespaces(System.Int32 indexFrom, System.Int32 indexTo)
-    // Offset: 0x196926C
+    // Offset: 0x1B0A0A4
     void PopNamespaces(int indexFrom, int indexTo);
     // static private System.Xml.XmlException DupAttrException(System.String prefix, System.String localName)
-    // Offset: 0x196CDB0
+    // Offset: 0x1B0DBE8
     static System::Xml::XmlException* DupAttrException(::Il2CppString* prefix, ::Il2CppString* localName);
     // private System.Void AdvanceState(System.Xml.XmlWellFormedWriter/System.Xml.Token token)
-    // Offset: 0x19682E0
+    // Offset: 0x1B09118
     void AdvanceState(System::Xml::XmlWellFormedWriter::Token token);
     // private System.Void StartElementContent()
-    // Offset: 0x196D22C
+    // Offset: 0x1B0E064
     void StartElementContent();
     // static private System.String GetStateName(System.Xml.XmlWellFormedWriter/System.Xml.State state)
-    // Offset: 0x196CFA0
+    // Offset: 0x1B0DDD8
     static ::Il2CppString* GetStateName(System::Xml::XmlWellFormedWriter::State state);
     // System.String LookupNamespace(System.String prefix)
-    // Offset: 0x1968AE0
+    // Offset: 0x1B09918
     ::Il2CppString* LookupNamespace(::Il2CppString* prefix);
     // private System.String LookupLocalNamespace(System.String prefix)
-    // Offset: 0x1969DAC
+    // Offset: 0x1B0ABE4
     ::Il2CppString* LookupLocalNamespace(::Il2CppString* prefix);
     // private System.String GeneratePrefix()
-    // Offset: 0x1969C6C
+    // Offset: 0x1B0AAA4
     ::Il2CppString* GeneratePrefix();
     // private System.Void CheckNCName(System.String ncname)
-    // Offset: 0x196898C
+    // Offset: 0x1B097C4
     void CheckNCName(::Il2CppString* ncname);
     // static private System.Exception InvalidCharsException(System.String name, System.Int32 badCharIndex)
-    // Offset: 0x196D304
+    // Offset: 0x1B0E13C
     static System::Exception* InvalidCharsException(::Il2CppString* name, int badCharIndex);
     // private System.Void ThrowInvalidStateTransition(System.Xml.XmlWellFormedWriter/System.Xml.Token token, System.Xml.XmlWellFormedWriter/System.Xml.State currentState)
-    // Offset: 0x196D04C
+    // Offset: 0x1B0DE84
     void ThrowInvalidStateTransition(System::Xml::XmlWellFormedWriter::Token token, System::Xml::XmlWellFormedWriter::State currentState);
     // private System.Void AddAttribute(System.String prefix, System.String localName, System.String namespaceName)
-    // Offset: 0x1969E88
+    // Offset: 0x1B0ACC0
     void AddAttribute(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* namespaceName);
     // private System.Void AddToAttrHashTable(System.Int32 attributeIndex)
-    // Offset: 0x196D470
+    // Offset: 0x1B0E2A8
     void AddToAttrHashTable(int attributeIndex);
     // public override System.Xml.WriteState get_WriteState()
-    // Offset: 0x1967C38
+    // Offset: 0x1B08A70
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Xml.WriteState XmlWriter::get_WriteState()
     System::Xml::WriteState get_WriteState();
     // public override System.Void WriteStartDocument()
-    // Offset: 0x1967CE4
+    // Offset: 0x1B08B1C
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteStartDocument()
     void WriteStartDocument();
     // public override System.Void WriteDocType(System.String name, System.String pubid, System.String sysid, System.String subset)
-    // Offset: 0x1967EA0
+    // Offset: 0x1B08CD8
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteDocType(System.String name, System.String pubid, System.String sysid, System.String subset)
     void WriteDocType(::Il2CppString* name, ::Il2CppString* pubid, ::Il2CppString* sysid, ::Il2CppString* subset);
     // public override System.Void WriteStartElement(System.String prefix, System.String localName, System.String ns)
-    // Offset: 0x196860C
+    // Offset: 0x1B09444
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteStartElement(System.String prefix, System.String localName, System.String ns)
     void WriteStartElement(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* ns);
     // public override System.Void WriteEndElement()
-    // Offset: 0x1969044
+    // Offset: 0x1B09E7C
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteEndElement()
     void WriteEndElement();
     // public override System.Void WriteFullEndElement()
-    // Offset: 0x1969344
+    // Offset: 0x1B0A17C
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteFullEndElement()
     void WriteFullEndElement();
     // public override System.Void WriteStartAttribute(System.String prefix, System.String localName, System.String namespaceName)
-    // Offset: 0x196956C
+    // Offset: 0x1B0A3A4
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteStartAttribute(System.String prefix, System.String localName, System.String namespaceName)
     void WriteStartAttribute(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* namespaceName);
     // public override System.Void WriteEndAttribute()
-    // Offset: 0x196A100
+    // Offset: 0x1B0AF38
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteEndAttribute()
     void WriteEndAttribute();
     // public override System.Void WriteCData(System.String text)
-    // Offset: 0x196ADA4
+    // Offset: 0x1B0BBDC
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteCData(System.String text)
     void WriteCData(::Il2CppString* text);
     // public override System.Void WriteComment(System.String text)
-    // Offset: 0x196AEBC
+    // Offset: 0x1B0BCF4
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteComment(System.String text)
     void WriteComment(::Il2CppString* text);
     // public override System.Void WriteProcessingInstruction(System.String name, System.String text)
-    // Offset: 0x196AFD8
+    // Offset: 0x1B0BE10
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteProcessingInstruction(System.String name, System.String text)
     void WriteProcessingInstruction(::Il2CppString* name, ::Il2CppString* text);
     // public override System.Void WriteEntityRef(System.String name)
-    // Offset: 0x196B258
+    // Offset: 0x1B0C090
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteEntityRef(System.String name)
     void WriteEntityRef(::Il2CppString* name);
     // public override System.Void WriteCharEntity(System.Char ch)
-    // Offset: 0x196B3F0
+    // Offset: 0x1B0C228
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteCharEntity(System.Char ch)
     void WriteCharEntity(::Il2CppChar ch);
     // public override System.Void WriteSurrogateCharEntity(System.Char lowChar, System.Char highChar)
-    // Offset: 0x196B598
+    // Offset: 0x1B0C3D0
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteSurrogateCharEntity(System.Char lowChar, System.Char highChar)
     void WriteSurrogateCharEntity(::Il2CppChar lowChar, ::Il2CppChar highChar);
     // public override System.Void WriteWhitespace(System.String ws)
-    // Offset: 0x196B750
+    // Offset: 0x1B0C588
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteWhitespace(System.String ws)
     void WriteWhitespace(::Il2CppString* ws);
     // public override System.Void WriteString(System.String text)
-    // Offset: 0x196B900
+    // Offset: 0x1B0C738
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteString(System.String text)
     void WriteString(::Il2CppString* text);
     // public override System.Void WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x196BA30
+    // Offset: 0x1B0C868
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    void WriteChars(::Array<::Il2CppChar>* buffer, int index, int count);
+    void WriteChars(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
     // public override System.Void WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x196BC98
+    // Offset: 0x1B0CAD0
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    void WriteRaw(::Array<::Il2CppChar>* buffer, int index, int count);
+    void WriteRaw(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
     // public override System.Void WriteRaw(System.String data)
-    // Offset: 0x196BF00
+    // Offset: 0x1B0CD38
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteRaw(System.String data)
     void WriteRaw(::Il2CppString* data);
     // public override System.Void WriteBase64(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x196C030
+    // Offset: 0x1B0CE68
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteBase64(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    void WriteBase64(::Array<uint8_t>* buffer, int index, int count);
+    void WriteBase64(::ArrayWrapper<uint8_t> buffer, int index, int count);
     // public override System.Void Close()
-    // Offset: 0x196C268
+    // Offset: 0x1B0D0A0
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::Close()
     void Close();
     // public override System.Void Flush()
-    // Offset: 0x196C4F0
+    // Offset: 0x1B0D328
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::Flush()
     void Flush();
     // public override System.String LookupPrefix(System.String ns)
-    // Offset: 0x196C5DC
+    // Offset: 0x1B0D414
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.String XmlWriter::LookupPrefix(System.String ns)
     ::Il2CppString* LookupPrefix(::Il2CppString* ns);
     // public override System.Void WriteValue(System.String value)
-    // Offset: 0x196C88C
+    // Offset: 0x1B0D6C4
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteValue(System.String value)
     void WriteValue(::Il2CppString* value);
     // public override System.Void WriteBinHex(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x196C9C8
+    // Offset: 0x1B0D800
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteBinHex(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    void WriteBinHex(::Array<uint8_t>* buffer, int index, int count);
+    void WriteBinHex(::ArrayWrapper<uint8_t> buffer, int index, int count);
   }; // System.Xml.XmlWellFormedWriter
   #pragma pack(pop)
   static check_size<sizeof(XmlWellFormedWriter), 168 + sizeof(System::Xml::SecureStringHasher*)> __System_Xml_XmlWellFormedWriterSizeCheck;
@@ -1451,9 +1451,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteChars
 // Il2CppName: WriteChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Array<::Il2CppChar>*, int, int)>(&System::Xml::XmlWellFormedWriter::WriteChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Xml::XmlWellFormedWriter::WriteChars)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index, count});
@@ -1462,9 +1462,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteRaw
 // Il2CppName: WriteRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Array<::Il2CppChar>*, int, int)>(&System::Xml::XmlWellFormedWriter::WriteRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Xml::XmlWellFormedWriter::WriteRaw)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index, count});
@@ -1482,9 +1482,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteBase64
 // Il2CppName: WriteBase64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Array<uint8_t>*, int, int)>(&System::Xml::XmlWellFormedWriter::WriteBase64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Xml::XmlWellFormedWriter::WriteBase64)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteBase64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index, count});
@@ -1527,9 +1527,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteBinHex
 // Il2CppName: WriteBinHex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Array<uint8_t>*, int, int)>(&System::Xml::XmlWellFormedWriter::WriteBinHex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Xml::XmlWellFormedWriter::WriteBinHex)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteBinHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index, count});

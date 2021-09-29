@@ -53,31 +53,31 @@ namespace Mono::Xml {
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> attrValues
     System::Collections::Generic::List_1<::Il2CppString*>*& dyn_attrValues();
     // public System.Int32 get_Length()
-    // Offset: 0x1AAB66C
+    // Offset: 0x1C59EBC
     int get_Length();
     // public System.String[] get_Names()
-    // Offset: 0x1AAB880
-    ::Array<::Il2CppString*>* get_Names();
+    // Offset: 0x1C5A0D0
+    ::ArrayWrapper<::Il2CppString*> get_Names();
     // public System.String[] get_Values()
-    // Offset: 0x1AAB8D8
-    ::Array<::Il2CppString*>* get_Values();
+    // Offset: 0x1C5A128
+    ::ArrayWrapper<::Il2CppString*> get_Values();
     // public System.String GetName(System.Int32 i)
-    // Offset: 0x1AAB6BC
+    // Offset: 0x1C59F0C
     ::Il2CppString* GetName(int i);
     // public System.String GetValue(System.Int32 i)
-    // Offset: 0x1AAB734
+    // Offset: 0x1C59F84
     ::Il2CppString* GetValue(int i);
     // public System.String GetValue(System.String name)
-    // Offset: 0x1AAB7AC
+    // Offset: 0x1C59FFC
     ::Il2CppString* GetValue(::Il2CppString* name);
     // System.Void Clear()
-    // Offset: 0x1AAB098
+    // Offset: 0x1C598E8
     void Clear();
     // System.Void Add(System.String name, System.String value)
-    // Offset: 0x1AAB5EC
+    // Offset: 0x1C59E3C
     void Add(::Il2CppString* name, ::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1AA9CDC
+    // Offset: 0x1C5852C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::AttrListImpl::get_Names
 // Il2CppName: get_Names
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (Mono::Xml::SmallXmlParser::AttrListImpl::*)()>(&Mono::Xml::SmallXmlParser::AttrListImpl::get_Names)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (Mono::Xml::SmallXmlParser::AttrListImpl::*)()>(&Mono::Xml::SmallXmlParser::AttrListImpl::get_Names)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::AttrListImpl*), "get_Names", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::AttrListImpl::get_Values
 // Il2CppName: get_Values
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (Mono::Xml::SmallXmlParser::AttrListImpl::*)()>(&Mono::Xml::SmallXmlParser::AttrListImpl::get_Values)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (Mono::Xml::SmallXmlParser::AttrListImpl::*)()>(&Mono::Xml::SmallXmlParser::AttrListImpl::get_Values)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::AttrListImpl*), "get_Values", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

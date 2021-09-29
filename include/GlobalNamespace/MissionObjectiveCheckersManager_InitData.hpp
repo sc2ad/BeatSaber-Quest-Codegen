@@ -30,27 +30,27 @@ namespace GlobalNamespace {
     // public readonly MissionObjective[] missionObjectives
     // Size: 0x8
     // Offset: 0x10
-    ::Array<GlobalNamespace::MissionObjective*>* missionObjectives;
+    ::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MissionObjective*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionObjective*>) == 0x8);
     // Creating value type constructor for type: InitData
-    InitData(::Array<GlobalNamespace::MissionObjective*>* missionObjectives_ = {}) noexcept : missionObjectives{missionObjectives_} {}
-    // Creating conversion operator: operator ::Array<GlobalNamespace::MissionObjective*>*
-    constexpr operator ::Array<GlobalNamespace::MissionObjective*>*() const noexcept {
+    InitData(::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives_ = {}) noexcept : missionObjectives{missionObjectives_} {}
+    // Creating conversion operator: operator ::ArrayWrapper<GlobalNamespace::MissionObjective*>
+    constexpr operator ::ArrayWrapper<GlobalNamespace::MissionObjective*>() const noexcept {
       return missionObjectives;
     }
     // Get instance field reference: public readonly MissionObjective[] missionObjectives
-    ::Array<GlobalNamespace::MissionObjective*>*& dyn_missionObjectives();
+    ::ArrayWrapper<GlobalNamespace::MissionObjective*>& dyn_missionObjectives();
     // public System.Void .ctor(MissionObjective[] missionObjectives)
-    // Offset: 0x113E1E0
+    // Offset: 0x1185370
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MissionObjectiveCheckersManager::InitData* New_ctor(::Array<GlobalNamespace::MissionObjective*>* missionObjectives) {
+    static MissionObjectiveCheckersManager::InitData* New_ctor(::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionObjectiveCheckersManager::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionObjectiveCheckersManager::InitData*, creationType>(missionObjectives)));
     }
   }; // MissionObjectiveCheckersManager/InitData
   #pragma pack(pop)
-  static check_size<sizeof(MissionObjectiveCheckersManager::InitData), 16 + sizeof(::Array<GlobalNamespace::MissionObjective*>*)> __GlobalNamespace_MissionObjectiveCheckersManager_InitDataSizeCheck;
+  static check_size<sizeof(MissionObjectiveCheckersManager::InitData), 16 + sizeof(::ArrayWrapper<GlobalNamespace::MissionObjective*>)> __GlobalNamespace_MissionObjectiveCheckersManager_InitDataSizeCheck;
   static_assert(sizeof(MissionObjectiveCheckersManager::InitData) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveCheckersManager::InitData*, "", "MissionObjectiveCheckersManager/InitData");

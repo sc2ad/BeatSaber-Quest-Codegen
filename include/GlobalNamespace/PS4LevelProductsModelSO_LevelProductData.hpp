@@ -47,16 +47,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _levelId
     ::Il2CppString*& dyn__levelId();
     // public System.String get_entitlementLabel()
-    // Offset: 0x1035D88
+    // Offset: 0x11251F8
     ::Il2CppString* get_entitlementLabel();
     // public System.String get_productLabel()
-    // Offset: 0x1035D90
+    // Offset: 0x1125200
     ::Il2CppString* get_productLabel();
     // public System.String get_levelId()
-    // Offset: 0x1035D98
+    // Offset: 0x1125208
     ::Il2CppString* get_levelId();
     // public System.Void .ctor()
-    // Offset: 0x1035DA0
+    // Offset: 0x1125210
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

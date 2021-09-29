@@ -58,7 +58,7 @@ namespace HMUI {
     UnityEngine::Sprite* disabledStateSprite;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE1C284
+    // [SpaceAttribute] Offset: 0xEE2960
     // private HMUI.NoTransitionsButton _button
     // Size: 0x8
     // Offset: 0x38
@@ -68,9 +68,9 @@ namespace HMUI {
     // protected UnityEngine.UI.Image[] _images
     // Size: 0x8
     // Offset: 0x40
-    ::Array<UnityEngine::UI::Image*>* images;
+    ::ArrayWrapper<UnityEngine::UI::Image*> images;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::UI::Image*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::UI::Image*>) == 0x8);
     // protected System.Boolean _didStart
     // Size: 0x1
     // Offset: 0x48
@@ -78,7 +78,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: ButtonSpriteSwap
-    ButtonSpriteSwap(UnityEngine::Sprite* normalStateSprite_ = {}, UnityEngine::Sprite* highlightStateSprite_ = {}, UnityEngine::Sprite* pressedStateSprite_ = {}, UnityEngine::Sprite* disabledStateSprite_ = {}, HMUI::NoTransitionsButton* button_ = {}, ::Array<UnityEngine::UI::Image*>* images_ = {}, bool didStart_ = {}) noexcept : normalStateSprite{normalStateSprite_}, highlightStateSprite{highlightStateSprite_}, pressedStateSprite{pressedStateSprite_}, disabledStateSprite{disabledStateSprite_}, button{button_}, images{images_}, didStart{didStart_} {}
+    ButtonSpriteSwap(UnityEngine::Sprite* normalStateSprite_ = {}, UnityEngine::Sprite* highlightStateSprite_ = {}, UnityEngine::Sprite* pressedStateSprite_ = {}, UnityEngine::Sprite* disabledStateSprite_ = {}, HMUI::NoTransitionsButton* button_ = {}, ::ArrayWrapper<UnityEngine::UI::Image*> images_ = {}, bool didStart_ = {}) noexcept : normalStateSprite{normalStateSprite_}, highlightStateSprite{highlightStateSprite_}, pressedStateSprite{pressedStateSprite_}, disabledStateSprite{disabledStateSprite_}, button{button_}, images{images_}, didStart{didStart_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: protected UnityEngine.Sprite _normalStateSprite
@@ -92,26 +92,26 @@ namespace HMUI {
     // Get instance field reference: private HMUI.NoTransitionsButton _button
     HMUI::NoTransitionsButton*& dyn__button();
     // Get instance field reference: protected UnityEngine.UI.Image[] _images
-    ::Array<UnityEngine::UI::Image*>*& dyn__images();
+    ::ArrayWrapper<UnityEngine::UI::Image*>& dyn__images();
     // Get instance field reference: protected System.Boolean _didStart
     bool& dyn__didStart();
     // protected System.Void Awake()
-    // Offset: 0x136C5B0
+    // Offset: 0x1481BF0
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x136C644
+    // Offset: 0x1481C84
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x136C670
+    // Offset: 0x1481CB0
     void OnEnable();
     // protected System.Void OnDestroy()
-    // Offset: 0x136C694
+    // Offset: 0x1481CD4
     void OnDestroy();
     // protected System.Void HandleButtonSelectionStateDidChange(HMUI.NoTransitionsButton/HMUI.SelectionState state)
-    // Offset: 0x136C76C
+    // Offset: 0x1481DAC
     void HandleButtonSelectionStateDidChange(HMUI::NoTransitionsButton::SelectionState state);
     // public System.Void .ctor()
-    // Offset: 0x136C848
+    // Offset: 0x1481E88
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

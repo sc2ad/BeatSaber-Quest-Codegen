@@ -122,16 +122,16 @@ namespace System::Net {
     // private System.Int32[] m_port_list
     // Size: 0x8
     // Offset: 0x68
-    ::Array<int>* m_port_list;
+    ::ArrayWrapper<int> m_port_list;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // private System.Boolean m_secure
     // Size: 0x1
     // Offset: 0x70
     bool m_secure;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [OptionalFieldAttribute] Offset: 0xDADB98
+    // [OptionalFieldAttribute] Offset: 0xE6A62C
     // private System.Boolean m_httpOnly
     // Size: 0x1
     // Offset: 0x71
@@ -179,19 +179,19 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: Cookie
-    Cookie(::Il2CppString* m_comment_ = {}, System::Uri* m_commentUri_ = {}, System::Net::CookieVariant m_cookieVariant_ = {}, bool m_discard_ = {}, ::Il2CppString* m_domain_ = {}, bool m_domain_implicit_ = {}, System::DateTime m_expires_ = {}, ::Il2CppString* m_name_ = {}, ::Il2CppString* m_path_ = {}, bool m_path_implicit_ = {}, ::Il2CppString* m_port_ = {}, bool m_port_implicit_ = {}, ::Array<int>* m_port_list_ = {}, bool m_secure_ = {}, bool m_httpOnly_ = {}, System::DateTime m_timeStamp_ = {}, ::Il2CppString* m_value_ = {}, int m_version_ = {}, ::Il2CppString* m_domainKey_ = {}, bool IsQuotedVersion_ = {}, bool IsQuotedDomain_ = {}) noexcept : m_comment{m_comment_}, m_commentUri{m_commentUri_}, m_cookieVariant{m_cookieVariant_}, m_discard{m_discard_}, m_domain{m_domain_}, m_domain_implicit{m_domain_implicit_}, m_expires{m_expires_}, m_name{m_name_}, m_path{m_path_}, m_path_implicit{m_path_implicit_}, m_port{m_port_}, m_port_implicit{m_port_implicit_}, m_port_list{m_port_list_}, m_secure{m_secure_}, m_httpOnly{m_httpOnly_}, m_timeStamp{m_timeStamp_}, m_value{m_value_}, m_version{m_version_}, m_domainKey{m_domainKey_}, IsQuotedVersion{IsQuotedVersion_}, IsQuotedDomain{IsQuotedDomain_} {}
+    Cookie(::Il2CppString* m_comment_ = {}, System::Uri* m_commentUri_ = {}, System::Net::CookieVariant m_cookieVariant_ = {}, bool m_discard_ = {}, ::Il2CppString* m_domain_ = {}, bool m_domain_implicit_ = {}, System::DateTime m_expires_ = {}, ::Il2CppString* m_name_ = {}, ::Il2CppString* m_path_ = {}, bool m_path_implicit_ = {}, ::Il2CppString* m_port_ = {}, bool m_port_implicit_ = {}, ::ArrayWrapper<int> m_port_list_ = {}, bool m_secure_ = {}, bool m_httpOnly_ = {}, System::DateTime m_timeStamp_ = {}, ::Il2CppString* m_value_ = {}, int m_version_ = {}, ::Il2CppString* m_domainKey_ = {}, bool IsQuotedVersion_ = {}, bool IsQuotedDomain_ = {}) noexcept : m_comment{m_comment_}, m_commentUri{m_commentUri_}, m_cookieVariant{m_cookieVariant_}, m_discard{m_discard_}, m_domain{m_domain_}, m_domain_implicit{m_domain_implicit_}, m_expires{m_expires_}, m_name{m_name_}, m_path{m_path_}, m_path_implicit{m_path_implicit_}, m_port{m_port_}, m_port_implicit{m_port_implicit_}, m_port_list{m_port_list_}, m_secure{m_secure_}, m_httpOnly{m_httpOnly_}, m_timeStamp{m_timeStamp_}, m_value{m_value_}, m_version{m_version_}, m_domainKey{m_domainKey_}, IsQuotedVersion{IsQuotedVersion_}, IsQuotedDomain{IsQuotedDomain_} {}
     // Get static field: static readonly System.Char[] PortSplitDelimiters
-    static ::Array<::Il2CppChar>* _get_PortSplitDelimiters();
+    static ::ArrayWrapper<::Il2CppChar> _get_PortSplitDelimiters();
     // Set static field: static readonly System.Char[] PortSplitDelimiters
-    static void _set_PortSplitDelimiters(::Array<::Il2CppChar>* value);
+    static void _set_PortSplitDelimiters(::ArrayWrapper<::Il2CppChar> value);
     // Get static field: static readonly System.Char[] Reserved2Name
-    static ::Array<::Il2CppChar>* _get_Reserved2Name();
+    static ::ArrayWrapper<::Il2CppChar> _get_Reserved2Name();
     // Set static field: static readonly System.Char[] Reserved2Name
-    static void _set_Reserved2Name(::Array<::Il2CppChar>* value);
+    static void _set_Reserved2Name(::ArrayWrapper<::Il2CppChar> value);
     // Get static field: static readonly System.Char[] Reserved2Value
-    static ::Array<::Il2CppChar>* _get_Reserved2Value();
+    static ::ArrayWrapper<::Il2CppChar> _get_Reserved2Value();
     // Set static field: static readonly System.Char[] Reserved2Value
-    static void _set_Reserved2Value(::Array<::Il2CppChar>* value);
+    static void _set_Reserved2Value(::ArrayWrapper<::Il2CppChar> value);
     // Get static field: static private System.Net.Comparer staticComparer
     static System::Net::Comparer* _get_staticComparer();
     // Set static field: static private System.Net.Comparer staticComparer
@@ -221,7 +221,7 @@ namespace System::Net {
     // Get instance field reference: private System.Boolean m_port_implicit
     bool& dyn_m_port_implicit();
     // Get instance field reference: private System.Int32[] m_port_list
-    ::Array<int>*& dyn_m_port_list();
+    ::ArrayWrapper<int>& dyn_m_port_list();
     // Get instance field reference: private System.Boolean m_secure
     bool& dyn_m_secure();
     // Get instance field reference: private System.Boolean m_httpOnly
@@ -239,112 +239,112 @@ namespace System::Net {
     // Get instance field reference: System.Boolean IsQuotedDomain
     bool& dyn_IsQuotedDomain();
     // public System.String get_Comment()
-    // Offset: 0x16D63A8
+    // Offset: 0x1570694
     ::Il2CppString* get_Comment();
     // public System.Void set_Comment(System.String value)
-    // Offset: 0x16D63B0
+    // Offset: 0x157069C
     void set_Comment(::Il2CppString* value);
     // public System.Void set_CommentUri(System.Uri value)
-    // Offset: 0x16D6418
+    // Offset: 0x1570704
     void set_CommentUri(System::Uri* value);
     // public System.Void set_HttpOnly(System.Boolean value)
-    // Offset: 0x16D6420
+    // Offset: 0x157070C
     void set_HttpOnly(bool value);
     // public System.Void set_Discard(System.Boolean value)
-    // Offset: 0x16D642C
+    // Offset: 0x1570718
     void set_Discard(bool value);
     // public System.String get_Domain()
-    // Offset: 0x16D6438
+    // Offset: 0x1570724
     ::Il2CppString* get_Domain();
     // public System.Void set_Domain(System.String value)
-    // Offset: 0x16D6440
+    // Offset: 0x157072C
     void set_Domain(::Il2CppString* value);
     // private System.String get__Domain()
-    // Offset: 0x16D64D4
+    // Offset: 0x15707C0
     ::Il2CppString* get__Domain();
     // public System.Boolean get_Expired()
-    // Offset: 0x16D65A8
+    // Offset: 0x1570894
     bool get_Expired();
     // public System.Void set_Expires(System.DateTime value)
-    // Offset: 0x16D6684
+    // Offset: 0x1570970
     void set_Expires(System::DateTime value);
     // public System.String get_Name()
-    // Offset: 0x16D668C
+    // Offset: 0x1570978
     ::Il2CppString* get_Name();
     // public System.Void set_Name(System.String value)
-    // Offset: 0x16D6694
+    // Offset: 0x1570980
     void set_Name(::Il2CppString* value);
     // public System.String get_Path()
-    // Offset: 0x16D68FC
+    // Offset: 0x1570BE8
     ::Il2CppString* get_Path();
     // public System.Void set_Path(System.String value)
-    // Offset: 0x16D6904
+    // Offset: 0x1570BF0
     void set_Path(::Il2CppString* value);
     // private System.String get__Path()
-    // Offset: 0x16D6980
+    // Offset: 0x1570C6C
     ::Il2CppString* get__Path();
     // System.Boolean get_Plain()
-    // Offset: 0x16D6598
+    // Offset: 0x1570884
     bool get_Plain();
     // public System.String get_Port()
-    // Offset: 0x16D75C4
+    // Offset: 0x15718B0
     ::Il2CppString* get_Port();
     // public System.Void set_Port(System.String value)
-    // Offset: 0x16D75CC
+    // Offset: 0x15718B8
     void set_Port(::Il2CppString* value);
     // System.Int32[] get_PortList()
-    // Offset: 0x16D7890
-    ::Array<int>* get_PortList();
+    // Offset: 0x1571B7C
+    ::ArrayWrapper<int> get_PortList();
     // private System.String get__Port()
-    // Offset: 0x16D7898
+    // Offset: 0x1571B84
     ::Il2CppString* get__Port();
     // public System.Boolean get_Secure()
-    // Offset: 0x16D7958
+    // Offset: 0x1571C44
     bool get_Secure();
     // public System.Void set_Secure(System.Boolean value)
-    // Offset: 0x16D7960
+    // Offset: 0x1571C4C
     void set_Secure(bool value);
     // public System.String get_Value()
-    // Offset: 0x16D796C
+    // Offset: 0x1571C58
     ::Il2CppString* get_Value();
     // public System.Void set_Value(System.String value)
-    // Offset: 0x16D7974
+    // Offset: 0x1571C60
     void set_Value(::Il2CppString* value);
     // System.Net.CookieVariant get_Variant()
-    // Offset: 0x16D79EC
+    // Offset: 0x1571CD8
     System::Net::CookieVariant get_Variant();
     // System.String get_DomainKey()
-    // Offset: 0x16D79F4
+    // Offset: 0x1571CE0
     ::Il2CppString* get_DomainKey();
     // public System.Int32 get_Version()
-    // Offset: 0x16D7A10
+    // Offset: 0x1571CFC
     int get_Version();
     // public System.Void set_Version(System.Int32 value)
-    // Offset: 0x16D7A18
+    // Offset: 0x1571D04
     void set_Version(int value);
     // private System.String get__Version()
-    // Offset: 0x16D7AC0
+    // Offset: 0x1571DAC
     ::Il2CppString* get__Version();
     // static private System.Void .cctor()
-    // Offset: 0x16D8290
+    // Offset: 0x157257C
     static void _cctor();
     // System.Boolean InternalSetName(System.String value)
-    // Offset: 0x16D67EC
+    // Offset: 0x1570AD8
     bool InternalSetName(::Il2CppString* value);
     // static private System.Boolean IsDomainEqualToHost(System.String domain, System.String host)
-    // Offset: 0x16D6A18
+    // Offset: 0x1570D04
     static bool IsDomainEqualToHost(::Il2CppString* domain, ::Il2CppString* host);
     // System.Boolean VerifySetDefaults(System.Net.CookieVariant variant, System.Uri uri, System.Boolean isLocalDomain, System.String localDomain, System.Boolean set_default, System.Boolean isThrow)
-    // Offset: 0x16D6A7C
+    // Offset: 0x1570D68
     bool VerifySetDefaults(System::Net::CookieVariant variant, System::Uri* uri, bool isLocalDomain, ::Il2CppString* localDomain, bool set_default, bool isThrow);
     // static private System.Boolean DomainCharsTest(System.String name)
-    // Offset: 0x16D7458
+    // Offset: 0x1571744
     static bool DomainCharsTest(::Il2CppString* name);
     // static System.Collections.IComparer GetComparer()
-    // Offset: 0x16D7BBC
+    // Offset: 0x1571EA8
     static System::Collections::IComparer* GetComparer();
     // public System.Void .ctor()
-    // Offset: 0x16D629C
+    // Offset: 0x1570588
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -353,17 +353,17 @@ namespace System::Net {
       return THROW_UNLESS((::il2cpp_utils::New<Cookie*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object comparand)
-    // Offset: 0x16D7C24
+    // Offset: 0x1571F10
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object comparand)
     bool Equals(::Il2CppObject* comparand);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x16D7D04
+    // Offset: 0x1571FF0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x16D7F64
+    // Offset: 0x1572250
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -530,7 +530,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Cookie::get_PortList
 // Il2CppName: get_PortList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (System::Net::Cookie::*)()>(&System::Net::Cookie::get_PortList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (System::Net::Cookie::*)()>(&System::Net::Cookie::get_PortList)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Cookie*), "get_PortList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

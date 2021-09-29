@@ -72,7 +72,7 @@ namespace TMPro {
     // Get instance field reference: public System.Int32 count
     int& dyn_count();
     // public System.Void .ctor()
-    // Offset: 0x1151964
+    // Offset: 0x1220514
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

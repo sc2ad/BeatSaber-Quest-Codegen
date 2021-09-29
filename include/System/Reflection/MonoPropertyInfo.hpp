@@ -90,13 +90,13 @@ namespace System::Reflection {
     // Get instance field reference: public System.Reflection.PropertyAttributes attrs
     System::Reflection::PropertyAttributes& dyn_attrs();
     // static System.Void get_property_info(System.Reflection.MonoProperty prop, ref System.Reflection.MonoPropertyInfo info, System.Reflection.PInfo req_info)
-    // Offset: 0x1D21AC0
+    // Offset: 0x1EAEC3C
     static void get_property_info(System::Reflection::MonoProperty* prop, ByRef<System::Reflection::MonoPropertyInfo> info, System::Reflection::PInfo req_info);
     // static System.Type[] GetTypeModifiers(System.Reflection.MonoProperty prop, System.Boolean optional)
-    // Offset: 0x1D22C64
-    static ::Array<System::Type*>* GetTypeModifiers(System::Reflection::MonoProperty* prop, bool optional);
+    // Offset: 0x1EAFDE0
+    static ::ArrayWrapper<System::Type*> GetTypeModifiers(System::Reflection::MonoProperty* prop, bool optional);
     // static System.Object get_default_value(System.Reflection.MonoProperty prop)
-    // Offset: 0x1D22320
+    // Offset: 0x1EAF49C
     static ::Il2CppObject* get_default_value(System::Reflection::MonoProperty* prop);
   }; // System.Reflection.MonoPropertyInfo
   #pragma pack(pop)
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Reflection::MonoPropertyInfo::GetTypeModifiers
 // Il2CppName: GetTypeModifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (*)(System::Reflection::MonoProperty*, bool)>(&System::Reflection::MonoPropertyInfo::GetTypeModifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Type*> (*)(System::Reflection::MonoProperty*, bool)>(&System::Reflection::MonoPropertyInfo::GetTypeModifiers)> {
   static const MethodInfo* get() {
     static auto* prop = &::il2cpp_utils::GetClassFromName("System.Reflection", "MonoProperty")->byval_arg;
     static auto* optional = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

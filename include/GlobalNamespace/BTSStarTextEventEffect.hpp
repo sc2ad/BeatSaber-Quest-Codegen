@@ -59,23 +59,23 @@ namespace GlobalNamespace {
     // private BTSStarTextEventEffect/StarTextSprite[] _starTextSprites
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*>* starTextSprites;
+    ::ArrayWrapper<GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*> starTextSprites;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*>) == 0x8);
     // private BTSStarTextEventEffect/StartTextPosition[] _startTextPositions
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*>* startTextPositions;
+    ::ArrayWrapper<GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*> startTextPositions;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE36274
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*>) == 0x8);
+    // [InjectAttribute] Offset: 0xEFE9C8
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE36284
+    // [InjectAttribute] Offset: 0xEFE9D8
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x30
@@ -101,7 +101,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, UnityEngine::Transform*>*) == 0x8);
     // Creating value type constructor for type: BTSStarTextEventEffect
-    BTSStarTextEventEffect(::Array<GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*>* starTextSprites_ = {}, ::Array<GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*>* startTextPositions_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSource_ = {}, System::Action_3<UnityEngine::Sprite*, UnityEngine::Transform*, float>* startStarTextAnimationEvent_ = {}, System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*>* idsToStarTextSpriteDictionary_ = {}, System::Collections::Generic::Dictionary_2<int, UnityEngine::Transform*>* idsToStarTextPositionDictionary_ = {}) noexcept : starTextSprites{starTextSprites_}, startTextPositions{startTextPositions_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, audioTimeSource{audioTimeSource_}, startStarTextAnimationEvent{startStarTextAnimationEvent_}, idsToStarTextSpriteDictionary{idsToStarTextSpriteDictionary_}, idsToStarTextPositionDictionary{idsToStarTextPositionDictionary_} {}
+    BTSStarTextEventEffect(::ArrayWrapper<GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*> starTextSprites_ = {}, ::ArrayWrapper<GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*> startTextPositions_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSource_ = {}, System::Action_3<UnityEngine::Sprite*, UnityEngine::Transform*, float>* startStarTextAnimationEvent_ = {}, System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*>* idsToStarTextSpriteDictionary_ = {}, System::Collections::Generic::Dictionary_2<int, UnityEngine::Transform*>* idsToStarTextPositionDictionary_ = {}) noexcept : starTextSprites{starTextSprites_}, startTextPositions{startTextPositions_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, audioTimeSource{audioTimeSource_}, startStarTextAnimationEvent{startStarTextAnimationEvent_}, idsToStarTextSpriteDictionary{idsToStarTextSpriteDictionary_}, idsToStarTextPositionDictionary{idsToStarTextPositionDictionary_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private BeatmapEventType kStarTextAppearEventType
@@ -111,9 +111,9 @@ namespace GlobalNamespace {
     // Set static field: static private BeatmapEventType kStarTextAppearEventType
     static void _set_kStarTextAppearEventType(GlobalNamespace::BeatmapEventType value);
     // Get instance field reference: private BTSStarTextEventEffect/StarTextSprite[] _starTextSprites
-    ::Array<GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*>*& dyn__starTextSprites();
+    ::ArrayWrapper<GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*>& dyn__starTextSprites();
     // Get instance field reference: private BTSStarTextEventEffect/StartTextPosition[] _startTextPositions
-    ::Array<GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*>*& dyn__startTextPositions();
+    ::ArrayWrapper<GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*>& dyn__startTextPositions();
     // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
@@ -125,22 +125,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.Transform> _idsToStarTextPositionDictionary
     System::Collections::Generic::Dictionary_2<int, UnityEngine::Transform*>*& dyn__idsToStarTextPositionDictionary();
     // public System.Void add_startStarTextAnimationEvent(System.Action`3<UnityEngine.Sprite,UnityEngine.Transform,System.Single> value)
-    // Offset: 0x1182A38
+    // Offset: 0x126861C
     void add_startStarTextAnimationEvent(System::Action_3<UnityEngine::Sprite*, UnityEngine::Transform*, float>* value);
     // public System.Void remove_startStarTextAnimationEvent(System.Action`3<UnityEngine.Sprite,UnityEngine.Transform,System.Single> value)
-    // Offset: 0x1182B6C
+    // Offset: 0x1268750
     void remove_startStarTextAnimationEvent(System::Action_3<UnityEngine::Sprite*, UnityEngine::Transform*, float>* value);
     // protected System.Void Start()
-    // Offset: 0x1182EA0
+    // Offset: 0x1268A84
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1183054
+    // Offset: 0x1268C38
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x1183148
+    // Offset: 0x1268D2C
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x1183348
+    // Offset: 0x1268F2C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

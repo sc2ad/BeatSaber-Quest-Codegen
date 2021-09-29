@@ -92,28 +92,28 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _isFadingIn
     bool& dyn__isFadingIn();
     // protected System.Void Awake()
-    // Offset: 0x1379CD4
+    // Offset: 0x148F314
     void Awake();
     // protected System.Void OnDisable()
-    // Offset: 0x1379CF4
+    // Offset: 0x148F334
     void OnDisable();
     // protected System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x1379D1C
+    // Offset: 0x148F35C
     void OnApplicationFocus(bool hasFocus);
     // public System.Void ShowText(System.String text)
-    // Offset: 0x1379D44
+    // Offset: 0x148F384
     void ShowText(::Il2CppString* text);
     // private System.Collections.IEnumerator ShowTextCoroutine()
-    // Offset: 0x1379DAC
+    // Offset: 0x148F3EC
     System::Collections::IEnumerator* ShowTextCoroutine();
     // public System.Void HideText()
-    // Offset: 0x1379E48
+    // Offset: 0x148F488
     void HideText();
     // private System.Collections.IEnumerator HideTextCoroutine()
-    // Offset: 0x1379EC8
+    // Offset: 0x148F508
     System::Collections::IEnumerator* HideTextCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x1379F64
+    // Offset: 0x148F5A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -52,13 +52,13 @@ namespace HMUI {
     // Get instance field reference: private System.Collections.Generic.List`1<HMUI.TableCell> _cells
     System::Collections::Generic::List_1<HMUI::TableCell*>*& dyn__cells();
     // public System.String get_reuseIdentifier()
-    // Offset: 0x131DA8C
+    // Offset: 0x142003C
     ::Il2CppString* get_reuseIdentifier();
     // public System.Collections.Generic.List`1<HMUI.TableCell> get_cells()
-    // Offset: 0x131DA94
+    // Offset: 0x1420044
     System::Collections::Generic::List_1<HMUI::TableCell*>* get_cells();
     // public System.Void .ctor()
-    // Offset: 0x131DA9C
+    // Offset: 0x142004C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

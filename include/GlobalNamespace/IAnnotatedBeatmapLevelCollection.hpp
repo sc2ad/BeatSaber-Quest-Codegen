@@ -36,6 +36,9 @@ namespace GlobalNamespace {
     // public UnityEngine.Sprite get_coverImage()
     // Offset: 0xFFFFFFFF
     UnityEngine::Sprite* get_coverImage();
+    // public UnityEngine.Sprite get_smallCoverImage()
+    // Offset: 0xFFFFFFFF
+    UnityEngine::Sprite* get_smallCoverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
@@ -59,6 +62,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::IAnnotatedBeatmapLevelCollection::*)()>(&GlobalNamespace::IAnnotatedBeatmapLevelCollection::get_coverImage)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAnnotatedBeatmapLevelCollection*), "get_coverImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::IAnnotatedBeatmapLevelCollection::get_smallCoverImage
+// Il2CppName: get_smallCoverImage
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::IAnnotatedBeatmapLevelCollection::*)()>(&GlobalNamespace::IAnnotatedBeatmapLevelCollection::get_smallCoverImage)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAnnotatedBeatmapLevelCollection*), "get_smallCoverImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::IAnnotatedBeatmapLevelCollection::get_beatmapLevelCollection

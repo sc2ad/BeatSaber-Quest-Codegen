@@ -40,9 +40,9 @@ namespace System::Text {
     // System.Char[] arrayBestFit
     // Size: 0x8
     // Offset: 0x20
-    ::Array<::Il2CppChar>* arrayBestFit;
+    ::ArrayWrapper<::Il2CppChar> arrayBestFit;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppChar>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
     // System.Char cReplacement
     // Size: 0x2
     // Offset: 0x28
@@ -50,39 +50,39 @@ namespace System::Text {
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
     // Creating value type constructor for type: InternalDecoderBestFitFallback
-    InternalDecoderBestFitFallback(System::Text::Encoding* encoding_ = {}, ::Array<::Il2CppChar>* arrayBestFit_ = {}, ::Il2CppChar cReplacement_ = {}) noexcept : encoding{encoding_}, arrayBestFit{arrayBestFit_}, cReplacement{cReplacement_} {}
+    InternalDecoderBestFitFallback(System::Text::Encoding* encoding_ = {}, ::ArrayWrapper<::Il2CppChar> arrayBestFit_ = {}, ::Il2CppChar cReplacement_ = {}) noexcept : encoding{encoding_}, arrayBestFit{arrayBestFit_}, cReplacement{cReplacement_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get instance field reference: System.Text.Encoding encoding
     System::Text::Encoding*& dyn_encoding();
     // Get instance field reference: System.Char[] arrayBestFit
-    ::Array<::Il2CppChar>*& dyn_arrayBestFit();
+    ::ArrayWrapper<::Il2CppChar>& dyn_arrayBestFit();
     // Get instance field reference: System.Char cReplacement
     ::Il2CppChar& dyn_cReplacement();
     // System.Void .ctor(System.Text.Encoding encoding)
-    // Offset: 0x1D6CA8C
+    // Offset: 0x1F0CD1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InternalDecoderBestFitFallback* New_ctor(System::Text::Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::InternalDecoderBestFitFallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InternalDecoderBestFitFallback*, creationType>(encoding)));
     }
     // public override System.Int32 get_MaxCharCount()
-    // Offset: 0x1D72C24
+    // Offset: 0x1F12EB4
     // Implemented from: System.Text.DecoderFallback
     // Base method: System.Int32 DecoderFallback::get_MaxCharCount()
     int get_MaxCharCount();
     // public override System.Text.DecoderFallbackBuffer CreateFallbackBuffer()
-    // Offset: 0x1D72AD0
+    // Offset: 0x1F12D60
     // Implemented from: System.Text.DecoderFallback
     // Base method: System.Text.DecoderFallbackBuffer DecoderFallback::CreateFallbackBuffer()
     System::Text::DecoderFallbackBuffer* CreateFallbackBuffer();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x1D72C2C
+    // Offset: 0x1F12EBC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1D72CE4
+    // Offset: 0x1F12F74
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

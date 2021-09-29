@@ -51,15 +51,15 @@ namespace GlobalNamespace {
     // private TestPlatformAdditionalContentModel/Entitlement[] _levelsEntitlements
     // Size: 0x8
     // Offset: 0x28
-    ::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>* levelsEntitlements;
+    ::ArrayWrapper<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*> levelsEntitlements;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>) == 0x8);
     // private TestPlatformAdditionalContentModel/Entitlement[] _levelPacksEntitlements
     // Size: 0x8
     // Offset: 0x30
-    ::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>* levelPacksEntitlements;
+    ::ArrayWrapper<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*> levelPacksEntitlements;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>) == 0x8);
     // private System.Boolean _packBetterBuyThanLevel
     // Size: 0x1
     // Offset: 0x38
@@ -67,18 +67,18 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: TestPlatformAdditionalContentModel
-    TestPlatformAdditionalContentModel(::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>* levelsEntitlements_ = {}, ::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>* levelPacksEntitlements_ = {}, bool packBetterBuyThanLevel_ = {}) noexcept : levelsEntitlements{levelsEntitlements_}, levelPacksEntitlements{levelPacksEntitlements_}, packBetterBuyThanLevel{packBetterBuyThanLevel_} {}
+    TestPlatformAdditionalContentModel(::ArrayWrapper<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*> levelsEntitlements_ = {}, ::ArrayWrapper<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*> levelPacksEntitlements_ = {}, bool packBetterBuyThanLevel_ = {}) noexcept : levelsEntitlements{levelsEntitlements_}, levelPacksEntitlements{levelPacksEntitlements_}, packBetterBuyThanLevel{packBetterBuyThanLevel_} {}
     // Get instance field reference: private TestPlatformAdditionalContentModel/Entitlement[] _levelsEntitlements
-    ::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>*& dyn__levelsEntitlements();
+    ::ArrayWrapper<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>& dyn__levelsEntitlements();
     // Get instance field reference: private TestPlatformAdditionalContentModel/Entitlement[] _levelPacksEntitlements
-    ::Array<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>*& dyn__levelPacksEntitlements();
+    ::ArrayWrapper<GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*>& dyn__levelPacksEntitlements();
     // Get instance field reference: private System.Boolean _packBetterBuyThanLevel
     bool& dyn__packBetterBuyThanLevel();
     // private System.Void BuyLevel(System.String levelId)
-    // Offset: 0x107013C
+    // Offset: 0x115EAC4
     void BuyLevel(::Il2CppString* levelId);
     // public System.Void .ctor()
-    // Offset: 0x10703A8
+    // Offset: 0x115ED30
     // Implemented from: AdditionalContentModel
     // Base method: System.Void AdditionalContentModel::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -92,32 +92,32 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TestPlatformAdditionalContentModel*, creationType>()));
     }
     // protected override System.Void InvalidateDataInternal()
-    // Offset: 0x106FCD8
+    // Offset: 0x115E660
     // Implemented from: AdditionalContentModel
     // Base method: System.Void AdditionalContentModel::InvalidateDataInternal()
     void InvalidateDataInternal();
     // protected override System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> GetLevelEntitlementStatusInternalAsync(System.String levelId, System.Threading.CancellationToken token)
-    // Offset: 0x106FCDC
+    // Offset: 0x115E664
     // Implemented from: AdditionalContentModel
     // Base method: System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> AdditionalContentModel::GetLevelEntitlementStatusInternalAsync(System.String levelId, System.Threading.CancellationToken token)
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* GetLevelEntitlementStatusInternalAsync(::Il2CppString* levelId, System::Threading::CancellationToken token);
     // protected override System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> GetPackEntitlementStatusInternalAsync(System.String levelPackId, System.Threading.CancellationToken token)
-    // Offset: 0x106FDF0
+    // Offset: 0x115E778
     // Implemented from: AdditionalContentModel
     // Base method: System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> AdditionalContentModel::GetPackEntitlementStatusInternalAsync(System.String levelPackId, System.Threading.CancellationToken token)
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::Il2CppString* levelPackId, System::Threading::CancellationToken token);
     // public override System.Threading.Tasks.Task`1<AdditionalContentModel/IsPackBetterBuyThanLevelResult> IsPackBetterBuyThanLevelAsync(System.String levelPackId, System.Threading.CancellationToken token)
-    // Offset: 0x106FF04
+    // Offset: 0x115E88C
     // Implemented from: AdditionalContentModel
     // Base method: System.Threading.Tasks.Task`1<AdditionalContentModel/IsPackBetterBuyThanLevelResult> AdditionalContentModel::IsPackBetterBuyThanLevelAsync(System.String levelPackId, System.Threading.CancellationToken token)
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult>* IsPackBetterBuyThanLevelAsync(::Il2CppString* levelPackId, System::Threading::CancellationToken token);
     // public override System.Threading.Tasks.Task`1<AdditionalContentModel/OpenProductStoreResult> OpenLevelProductStoreAsync(System.String levelId, System.Threading.CancellationToken token)
-    // Offset: 0x1070028
+    // Offset: 0x115E9B0
     // Implemented from: AdditionalContentModel
     // Base method: System.Threading.Tasks.Task`1<AdditionalContentModel/OpenProductStoreResult> AdditionalContentModel::OpenLevelProductStoreAsync(System.String levelId, System.Threading.CancellationToken token)
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* OpenLevelProductStoreAsync(::Il2CppString* levelId, System::Threading::CancellationToken token);
     // public override System.Threading.Tasks.Task`1<AdditionalContentModel/OpenProductStoreResult> OpenLevelPackProductStoreAsync(System.String levelPackId, System.Threading.CancellationToken token)
-    // Offset: 0x1070284
+    // Offset: 0x115EC0C
     // Implemented from: AdditionalContentModel
     // Base method: System.Threading.Tasks.Task`1<AdditionalContentModel/OpenProductStoreResult> AdditionalContentModel::OpenLevelPackProductStoreAsync(System.String levelPackId, System.Threading.CancellationToken token)
     System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::Il2CppString* levelPackId, System::Threading::CancellationToken token);

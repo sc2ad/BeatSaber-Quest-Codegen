@@ -36,23 +36,23 @@ namespace GlobalNamespace {
     // private UnityEngine.ParticleSystem[] _particleSystems
     // Size: 0x8
     // Offset: 0x18
-    ::Array<UnityEngine::ParticleSystem*>* particleSystems;
+    ::ArrayWrapper<UnityEngine::ParticleSystem*> particleSystems;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::ParticleSystem*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::ParticleSystem*>) == 0x8);
     // Creating value type constructor for type: VFXAnimationEvent
-    VFXAnimationEvent(::Il2CppString* name_ = {}, ::Array<UnityEngine::ParticleSystem*>* particleSystems_ = {}) noexcept : name{name_}, particleSystems{particleSystems_} {}
+    VFXAnimationEvent(::Il2CppString* name_ = {}, ::ArrayWrapper<UnityEngine::ParticleSystem*> particleSystems_ = {}) noexcept : name{name_}, particleSystems{particleSystems_} {}
     // Get instance field reference: private System.String _name
     ::Il2CppString*& dyn__name();
     // Get instance field reference: private UnityEngine.ParticleSystem[] _particleSystems
-    ::Array<UnityEngine::ParticleSystem*>*& dyn__particleSystems();
+    ::ArrayWrapper<UnityEngine::ParticleSystem*>& dyn__particleSystems();
     // public System.String get_name()
-    // Offset: 0x2397448
+    // Offset: 0x259D36C
     ::Il2CppString* get_name();
     // public UnityEngine.ParticleSystem[] get_particleSystems()
-    // Offset: 0x2397450
-    ::Array<UnityEngine::ParticleSystem*>* get_particleSystems();
+    // Offset: 0x259D374
+    ::ArrayWrapper<UnityEngine::ParticleSystem*> get_particleSystems();
     // public System.Void .ctor()
-    // Offset: 0x2397458
+    // Offset: 0x259D37C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     }
   }; // VFXAnimationEvents/VFXAnimationEvent
   #pragma pack(pop)
-  static check_size<sizeof(VFXAnimationEvents::VFXAnimationEvent), 24 + sizeof(::Array<UnityEngine::ParticleSystem*>*)> __GlobalNamespace_VFXAnimationEvents_VFXAnimationEventSizeCheck;
+  static check_size<sizeof(VFXAnimationEvents::VFXAnimationEvent), 24 + sizeof(::ArrayWrapper<UnityEngine::ParticleSystem*>)> __GlobalNamespace_VFXAnimationEvents_VFXAnimationEventSizeCheck;
   static_assert(sizeof(VFXAnimationEvents::VFXAnimationEvent) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*, "", "VFXAnimationEvents/VFXAnimationEvent");
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent::get_particleSystems
 // Il2CppName: get_particleSystems
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ParticleSystem*>* (GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent::*)()>(&GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent::get_particleSystems)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::ParticleSystem*> (GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent::*)()>(&GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent::get_particleSystems)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*), "get_particleSystems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

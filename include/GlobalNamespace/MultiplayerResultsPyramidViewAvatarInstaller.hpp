@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerResultsPyramidViewAvatarInstaller : public Zenject::MonoInstaller {
     public:
-    // [InjectAttribute] Offset: 0xE41824
+    // [InjectAttribute] Offset: 0xF0A1B8
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x20
@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
     GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // public System.Void .ctor()
-    // Offset: 0x103DB78
+    // Offset: 0x112CB28
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -54,7 +54,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsPyramidViewAvatarInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x103DB1C
+    // Offset: 0x112CACC
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

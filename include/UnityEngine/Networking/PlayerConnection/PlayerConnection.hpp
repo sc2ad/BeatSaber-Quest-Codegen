@@ -95,61 +95,61 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Get instance field reference: private System.Boolean m_IsInitilized
     bool& dyn_m_IsInitilized();
     // static public UnityEngine.Networking.PlayerConnection.PlayerConnection get_instance()
-    // Offset: 0x1D07E24
+    // Offset: 0x1DAEE94
     static UnityEngine::Networking::PlayerConnection::PlayerConnection* get_instance();
     // public System.Boolean get_isConnected()
-    // Offset: 0x1D07FE0
+    // Offset: 0x1DAF050
     bool get_isConnected();
     // static private UnityEngine.Networking.PlayerConnection.PlayerConnection CreateInstance()
-    // Offset: 0x1D07F30
+    // Offset: 0x1DAEFA0
     static UnityEngine::Networking::PlayerConnection::PlayerConnection* CreateInstance();
     // public System.Void OnEnable()
-    // Offset: 0x1D08158
+    // Offset: 0x1DAF1C8
     void OnEnable();
     // private UnityEngine.IPlayerEditorConnectionNative GetConnectionNativeApi()
-    // Offset: 0x1D08094
+    // Offset: 0x1DAF104
     UnityEngine::IPlayerEditorConnectionNative* GetConnectionNativeApi();
     // public System.Void Register(System.Guid messageId, UnityEngine.Events.UnityAction`1<UnityEngine.Networking.PlayerConnection.MessageEventArgs> callback)
-    // Offset: 0x1D08228
+    // Offset: 0x1DAF298
     void Register(System::Guid messageId, UnityEngine::Events::UnityAction_1<UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* callback);
     // public System.Void Unregister(System.Guid messageId, UnityEngine.Events.UnityAction`1<UnityEngine.Networking.PlayerConnection.MessageEventArgs> callback)
-    // Offset: 0x1D08598
+    // Offset: 0x1DAF608
     void Unregister(System::Guid messageId, UnityEngine::Events::UnityAction_1<UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* callback);
     // public System.Void RegisterConnection(UnityEngine.Events.UnityAction`1<System.Int32> callback)
-    // Offset: 0x1D08868
+    // Offset: 0x1DAF8D8
     void RegisterConnection(UnityEngine::Events::UnityAction_1<int>* callback);
     // public System.Void RegisterDisconnection(UnityEngine.Events.UnityAction`1<System.Int32> callback)
-    // Offset: 0x1D089AC
+    // Offset: 0x1DAFA1C
     void RegisterDisconnection(UnityEngine::Events::UnityAction_1<int>* callback);
     // public System.Void UnregisterConnection(UnityEngine.Events.UnityAction`1<System.Int32> callback)
-    // Offset: 0x1D08A1C
+    // Offset: 0x1DAFA8C
     void UnregisterConnection(UnityEngine::Events::UnityAction_1<int>* callback);
     // public System.Void UnregisterDisconnection(UnityEngine.Events.UnityAction`1<System.Int32> callback)
-    // Offset: 0x1D08A8C
+    // Offset: 0x1DAFAFC
     void UnregisterDisconnection(UnityEngine::Events::UnityAction_1<int>* callback);
     // public System.Void Send(System.Guid messageId, System.Byte[] data)
-    // Offset: 0x1D08AFC
-    void Send(System::Guid messageId, ::Array<uint8_t>* data);
+    // Offset: 0x1DAFB6C
+    void Send(System::Guid messageId, ::ArrayWrapper<uint8_t> data);
     // public System.Boolean TrySend(System.Guid messageId, System.Byte[] data)
-    // Offset: 0x1D08C5C
-    bool TrySend(System::Guid messageId, ::Array<uint8_t>* data);
+    // Offset: 0x1DAFCCC
+    bool TrySend(System::Guid messageId, ::ArrayWrapper<uint8_t> data);
     // public System.Boolean BlockUntilRecvMsg(System.Guid messageId, System.Int32 timeout)
-    // Offset: 0x1D08DBC
+    // Offset: 0x1DAFE2C
     bool BlockUntilRecvMsg(System::Guid messageId, int timeout);
     // public System.Void DisconnectAll()
-    // Offset: 0x1D08FC8
+    // Offset: 0x1DB0038
     void DisconnectAll();
     // static private System.Void MessageCallbackInternal(System.IntPtr data, System.UInt64 size, System.UInt64 guid, System.String messageId)
-    // Offset: 0x1D0907C
+    // Offset: 0x1DB00EC
     static void MessageCallbackInternal(System::IntPtr data, uint64_t size, uint64_t guid, ::Il2CppString* messageId);
     // static private System.Void ConnectedCallbackInternal(System.Int32 playerId)
-    // Offset: 0x1D09550
+    // Offset: 0x1DB05C0
     static void ConnectedCallbackInternal(int playerId);
     // static private System.Void DisconnectedCallback(System.Int32 playerId)
-    // Offset: 0x1D095E0
+    // Offset: 0x1DB0650
     static void DisconnectedCallback(int playerId);
     // public System.Void .ctor()
-    // Offset: 0x1D09670
+    // Offset: 0x1DB06E0
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -265,20 +265,20 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::PlayerConnection::Send
 // Il2CppName: Send
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::PlayerConnection::PlayerConnection::*)(System::Guid, ::Array<uint8_t>*)>(&UnityEngine::Networking::PlayerConnection::PlayerConnection::Send)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::PlayerConnection::PlayerConnection::*)(System::Guid, ::ArrayWrapper<uint8_t>)>(&UnityEngine::Networking::PlayerConnection::PlayerConnection::Send)> {
   static const MethodInfo* get() {
     static auto* messageId = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::PlayerConnection::PlayerConnection*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{messageId, data});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::PlayerConnection::TrySend
 // Il2CppName: TrySend
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Networking::PlayerConnection::PlayerConnection::*)(System::Guid, ::Array<uint8_t>*)>(&UnityEngine::Networking::PlayerConnection::PlayerConnection::TrySend)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Networking::PlayerConnection::PlayerConnection::*)(System::Guid, ::ArrayWrapper<uint8_t>)>(&UnityEngine::Networking::PlayerConnection::PlayerConnection::TrySend)> {
   static const MethodInfo* get() {
     static auto* messageId = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::PlayerConnection::PlayerConnection*), "TrySend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{messageId, data});
   }
 };

@@ -21,11 +21,11 @@ namespace RootMotion {
     // Creating value type constructor for type: LayerMaskExtensions
     LayerMaskExtensions() noexcept {}
     // static public System.Boolean Contains(UnityEngine.LayerMask mask, System.Int32 layer)
-    // Offset: 0x1AECB58
+    // Offset: 0x1C6F2D8
     static bool Contains(UnityEngine::LayerMask mask, int layer);
     // static public UnityEngine.LayerMask Create(params System.String[] layerNames)
-    // Offset: 0x1AECBB0
-    static UnityEngine::LayerMask Create(::Array<::Il2CppString*>* layerNames);
+    // Offset: 0x1C6F330
+    static UnityEngine::LayerMask Create(::ArrayWrapper<::Il2CppString*> layerNames);
     // Creating initializer_list -> params proxy for: UnityEngine.LayerMask Create(params System.String[] layerNames)
     static UnityEngine::LayerMask Create(std::initializer_list<::Il2CppString*> layerNames);
     // Creating TArgs -> initializer_list proxy for: UnityEngine.LayerMask Create(params System.String[] layerNames)
@@ -34,13 +34,13 @@ namespace RootMotion {
       return Create({layerNames...});
     }
     // static public UnityEngine.LayerMask Create(params System.Int32[] layerNumbers)
-    // Offset: 0x1AECC7C
-    static UnityEngine::LayerMask Create(::Array<int>* layerNumbers);
+    // Offset: 0x1C6F3FC
+    static UnityEngine::LayerMask Create(::ArrayWrapper<int> layerNumbers);
     // Creating initializer_list -> params proxy for: UnityEngine.LayerMask Create(params System.Int32[] layerNumbers)
     static UnityEngine::LayerMask Create(std::initializer_list<int> layerNumbers);
     // static public UnityEngine.LayerMask NamesToMask(params System.String[] layerNames)
-    // Offset: 0x1AECBC8
-    static UnityEngine::LayerMask NamesToMask(::Array<::Il2CppString*>* layerNames);
+    // Offset: 0x1C6F348
+    static UnityEngine::LayerMask NamesToMask(::ArrayWrapper<::Il2CppString*> layerNames);
     // Creating initializer_list -> params proxy for: UnityEngine.LayerMask NamesToMask(params System.String[] layerNames)
     static UnityEngine::LayerMask NamesToMask(std::initializer_list<::Il2CppString*> layerNames);
     // Creating TArgs -> initializer_list proxy for: UnityEngine.LayerMask NamesToMask(params System.String[] layerNames)
@@ -49,8 +49,8 @@ namespace RootMotion {
       return NamesToMask({layerNames...});
     }
     // static public UnityEngine.LayerMask LayerNumbersToMask(params System.Int32[] layerNumbers)
-    // Offset: 0x1AECC94
-    static UnityEngine::LayerMask LayerNumbersToMask(::Array<int>* layerNumbers);
+    // Offset: 0x1C6F414
+    static UnityEngine::LayerMask LayerNumbersToMask(::ArrayWrapper<int> layerNumbers);
     // Creating initializer_list -> params proxy for: UnityEngine.LayerMask LayerNumbersToMask(params System.Int32[] layerNumbers)
     static UnityEngine::LayerMask LayerNumbersToMask(std::initializer_list<int> layerNumbers);
     // Creating TArgs -> initializer_list proxy for: UnityEngine.LayerMask LayerNumbersToMask(params System.Int32[] layerNumbers)
@@ -59,11 +59,11 @@ namespace RootMotion {
       return LayerNumbersToMask({layerNumbers...});
     }
     // static public UnityEngine.LayerMask Inverse(UnityEngine.LayerMask original)
-    // Offset: 0x1AECD38
+    // Offset: 0x1C6F4B8
     static UnityEngine::LayerMask Inverse(UnityEngine::LayerMask original);
     // static public UnityEngine.LayerMask AddToMask(UnityEngine.LayerMask original, params System.String[] layerNames)
-    // Offset: 0x1AECD64
-    static UnityEngine::LayerMask AddToMask(UnityEngine::LayerMask original, ::Array<::Il2CppString*>* layerNames);
+    // Offset: 0x1C6F4E4
+    static UnityEngine::LayerMask AddToMask(UnityEngine::LayerMask original, ::ArrayWrapper<::Il2CppString*> layerNames);
     // Creating initializer_list -> params proxy for: UnityEngine.LayerMask AddToMask(UnityEngine.LayerMask original, params System.String[] layerNames)
     static UnityEngine::LayerMask AddToMask(UnityEngine::LayerMask original, std::initializer_list<::Il2CppString*> layerNames);
     // Creating TArgs -> initializer_list proxy for: UnityEngine.LayerMask AddToMask(UnityEngine.LayerMask original, params System.String[] layerNames)
@@ -72,8 +72,8 @@ namespace RootMotion {
       return AddToMask(original, {layerNames...});
     }
     // static public UnityEngine.LayerMask RemoveFromMask(UnityEngine.LayerMask original, params System.String[] layerNames)
-    // Offset: 0x1AECDB4
-    static UnityEngine::LayerMask RemoveFromMask(UnityEngine::LayerMask original, ::Array<::Il2CppString*>* layerNames);
+    // Offset: 0x1C6F534
+    static UnityEngine::LayerMask RemoveFromMask(UnityEngine::LayerMask original, ::ArrayWrapper<::Il2CppString*> layerNames);
     // Creating initializer_list -> params proxy for: UnityEngine.LayerMask RemoveFromMask(UnityEngine.LayerMask original, params System.String[] layerNames)
     static UnityEngine::LayerMask RemoveFromMask(UnityEngine::LayerMask original, std::initializer_list<::Il2CppString*> layerNames);
     // Creating TArgs -> initializer_list proxy for: UnityEngine.LayerMask RemoveFromMask(UnityEngine.LayerMask original, params System.String[] layerNames)
@@ -82,16 +82,16 @@ namespace RootMotion {
       return RemoveFromMask(original, {layerNames...});
     }
     // static public System.String[] MaskToNames(UnityEngine.LayerMask original)
-    // Offset: 0x1AECE20
-    static ::Array<::Il2CppString*>* MaskToNames(UnityEngine::LayerMask original);
+    // Offset: 0x1C6F5A0
+    static ::ArrayWrapper<::Il2CppString*> MaskToNames(UnityEngine::LayerMask original);
     // static public System.Int32[] MaskToNumbers(UnityEngine.LayerMask original)
-    // Offset: 0x1AECF14
-    static ::Array<int>* MaskToNumbers(UnityEngine::LayerMask original);
+    // Offset: 0x1C6F694
+    static ::ArrayWrapper<int> MaskToNumbers(UnityEngine::LayerMask original);
     // static public System.String MaskToString(UnityEngine.LayerMask original)
-    // Offset: 0x1AECFEC
+    // Offset: 0x1C6F76C
     static ::Il2CppString* MaskToString(UnityEngine::LayerMask original);
     // static public System.String MaskToString(UnityEngine.LayerMask original, System.String delimiter)
-    // Offset: 0x1AED04C
+    // Offset: 0x1C6F7CC
     static ::Il2CppString* MaskToString(UnityEngine::LayerMask original, ::Il2CppString* delimiter);
   }; // RootMotion.LayerMaskExtensions
   #pragma pack(pop)
@@ -112,36 +112,36 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: RootMotion::LayerMaskExtensions::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(::Array<::Il2CppString*>*)>(&RootMotion::LayerMaskExtensions::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(::ArrayWrapper<::Il2CppString*>)>(&RootMotion::LayerMaskExtensions::Create)> {
   static const MethodInfo* get() {
-    static auto* layerNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* layerNames = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::LayerMaskExtensions*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerNames});
   }
 };
 // Writing MetadataGetter for method: RootMotion::LayerMaskExtensions::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(::Array<int>*)>(&RootMotion::LayerMaskExtensions::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(::ArrayWrapper<int>)>(&RootMotion::LayerMaskExtensions::Create)> {
   static const MethodInfo* get() {
-    static auto* layerNumbers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* layerNumbers = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::LayerMaskExtensions*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerNumbers});
   }
 };
 // Writing MetadataGetter for method: RootMotion::LayerMaskExtensions::NamesToMask
 // Il2CppName: NamesToMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(::Array<::Il2CppString*>*)>(&RootMotion::LayerMaskExtensions::NamesToMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(::ArrayWrapper<::Il2CppString*>)>(&RootMotion::LayerMaskExtensions::NamesToMask)> {
   static const MethodInfo* get() {
-    static auto* layerNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* layerNames = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::LayerMaskExtensions*), "NamesToMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerNames});
   }
 };
 // Writing MetadataGetter for method: RootMotion::LayerMaskExtensions::LayerNumbersToMask
 // Il2CppName: LayerNumbersToMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(::Array<int>*)>(&RootMotion::LayerMaskExtensions::LayerNumbersToMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(::ArrayWrapper<int>)>(&RootMotion::LayerMaskExtensions::LayerNumbersToMask)> {
   static const MethodInfo* get() {
-    static auto* layerNumbers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* layerNumbers = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::LayerMaskExtensions*), "LayerNumbersToMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerNumbers});
   }
 };
@@ -157,27 +157,27 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::LayerMaskExtensions::AddToMask
 // Il2CppName: AddToMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(UnityEngine::LayerMask, ::Array<::Il2CppString*>*)>(&RootMotion::LayerMaskExtensions::AddToMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(UnityEngine::LayerMask, ::ArrayWrapper<::Il2CppString*>)>(&RootMotion::LayerMaskExtensions::AddToMask)> {
   static const MethodInfo* get() {
     static auto* original = &::il2cpp_utils::GetClassFromName("UnityEngine", "LayerMask")->byval_arg;
-    static auto* layerNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* layerNames = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::LayerMaskExtensions*), "AddToMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{original, layerNames});
   }
 };
 // Writing MetadataGetter for method: RootMotion::LayerMaskExtensions::RemoveFromMask
 // Il2CppName: RemoveFromMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(UnityEngine::LayerMask, ::Array<::Il2CppString*>*)>(&RootMotion::LayerMaskExtensions::RemoveFromMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(UnityEngine::LayerMask, ::ArrayWrapper<::Il2CppString*>)>(&RootMotion::LayerMaskExtensions::RemoveFromMask)> {
   static const MethodInfo* get() {
     static auto* original = &::il2cpp_utils::GetClassFromName("UnityEngine", "LayerMask")->byval_arg;
-    static auto* layerNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* layerNames = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::LayerMaskExtensions*), "RemoveFromMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{original, layerNames});
   }
 };
 // Writing MetadataGetter for method: RootMotion::LayerMaskExtensions::MaskToNames
 // Il2CppName: MaskToNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(UnityEngine::LayerMask)>(&RootMotion::LayerMaskExtensions::MaskToNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(UnityEngine::LayerMask)>(&RootMotion::LayerMaskExtensions::MaskToNames)> {
   static const MethodInfo* get() {
     static auto* original = &::il2cpp_utils::GetClassFromName("UnityEngine", "LayerMask")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::LayerMaskExtensions*), "MaskToNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{original});
@@ -186,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Writing MetadataGetter for method: RootMotion::LayerMaskExtensions::MaskToNumbers
 // Il2CppName: MaskToNumbers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(UnityEngine::LayerMask)>(&RootMotion::LayerMaskExtensions::MaskToNumbers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(UnityEngine::LayerMask)>(&RootMotion::LayerMaskExtensions::MaskToNumbers)> {
   static const MethodInfo* get() {
     static auto* original = &::il2cpp_utils::GetClassFromName("UnityEngine", "LayerMask")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::LayerMaskExtensions*), "MaskToNumbers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{original});

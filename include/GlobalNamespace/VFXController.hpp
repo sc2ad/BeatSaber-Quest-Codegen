@@ -39,14 +39,14 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::VFXController::$MainCoroutine$d__9
     class $MainCoroutine$d__9;
-    // [NullAllowed] Offset: 0xE08320
+    // [NullAllowed] Offset: 0xEC9960
     // private UnityEngine.ParticleSystem[] _particleSystems
     // Size: 0x8
     // Offset: 0x18
-    ::Array<UnityEngine::ParticleSystem*>* particleSystems;
+    ::ArrayWrapper<UnityEngine::ParticleSystem*> particleSystems;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::ParticleSystem*>*) == 0x8);
-    // [NullAllowed] Offset: 0xE08358
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::ParticleSystem*>) == 0x8);
+    // [NullAllowed] Offset: 0xEC9998
     // private UnityEngine.Animation _animation
     // Size: 0x8
     // Offset: 0x20
@@ -60,32 +60,32 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: VFXController
-    VFXController(::Array<UnityEngine::ParticleSystem*>* particleSystems_ = {}, UnityEngine::Animation* animation_ = {}, bool deactivateAfterAnimationDuration_ = {}) noexcept : particleSystems{particleSystems_}, animation{animation_}, deactivateAfterAnimationDuration{deactivateAfterAnimationDuration_} {}
+    VFXController(::ArrayWrapper<UnityEngine::ParticleSystem*> particleSystems_ = {}, UnityEngine::Animation* animation_ = {}, bool deactivateAfterAnimationDuration_ = {}) noexcept : particleSystems{particleSystems_}, animation{animation_}, deactivateAfterAnimationDuration{deactivateAfterAnimationDuration_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem[] _particleSystems
-    ::Array<UnityEngine::ParticleSystem*>*& dyn__particleSystems();
+    ::ArrayWrapper<UnityEngine::ParticleSystem*>& dyn__particleSystems();
     // Get instance field reference: private UnityEngine.Animation _animation
     UnityEngine::Animation*& dyn__animation();
     // Get instance field reference: private System.Boolean _deactivateAfterAnimationDuration
     bool& dyn__deactivateAfterAnimationDuration();
     // public UnityEngine.Animation get_animation()
-    // Offset: 0x2397460
+    // Offset: 0x259D384
     UnityEngine::Animation* get_animation();
     // public UnityEngine.ParticleSystem[] get_particleSystems()
-    // Offset: 0x2397468
-    ::Array<UnityEngine::ParticleSystem*>* get_particleSystems();
+    // Offset: 0x259D38C
+    ::ArrayWrapper<UnityEngine::ParticleSystem*> get_particleSystems();
     // protected System.Void Awake()
-    // Offset: 0x2397470
+    // Offset: 0x259D394
     void Awake();
     // public System.Void Play()
-    // Offset: 0x2397498
+    // Offset: 0x259D3BC
     void Play();
     // private System.Collections.IEnumerator MainCoroutine(System.Boolean deactivateAfterDuration, System.Single duration)
-    // Offset: 0x23975C8
+    // Offset: 0x259D4EC
     System::Collections::IEnumerator* MainCoroutine(bool deactivateAfterDuration, float duration);
     // public System.Void .ctor()
-    // Offset: 0x2397688
+    // Offset: 0x259D5AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::VFXController::get_particleSystems
 // Il2CppName: get_particleSystems
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ParticleSystem*>* (GlobalNamespace::VFXController::*)()>(&GlobalNamespace::VFXController::get_particleSystems)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::ParticleSystem*> (GlobalNamespace::VFXController::*)()>(&GlobalNamespace::VFXController::get_particleSystems)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VFXController*), "get_particleSystems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

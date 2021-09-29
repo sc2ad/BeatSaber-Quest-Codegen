@@ -54,31 +54,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <syncTime>k__BackingField
     float& dyn_$syncTime$k__BackingField();
     // public System.Single get_syncTime()
-    // Offset: 0x16FBD80
+    // Offset: 0x18D5880
     float get_syncTime();
     // public System.Void set_syncTime(System.Single value)
-    // Offset: 0x16FBD88
+    // Offset: 0x18D5888
     void set_syncTime(float value);
     // protected System.Void SerializeData(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16FBD90
+    // Offset: 0x18D5890
     void SerializeData(LiteNetLib::Utils::NetDataWriter* writer);
     // protected System.Void DeserializeData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16FBD94
+    // Offset: 0x18D5894
     void DeserializeData(LiteNetLib::Utils::NetDataReader* reader);
     // private System.Void LiteNetLib.Utils.INetSerializable.Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16FBD98
+    // Offset: 0x18D5898
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // private System.Void LiteNetLib.Utils.INetSerializable.Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16FBDE0
+    // Offset: 0x18D58E0
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x16FBE28
+    // Offset: 0x18D5928
     void Release();
     // public IRemoteProcedureCall Init(System.Single syncTime)
-    // Offset: 0x16FBF48
+    // Offset: 0x18D5A48
     GlobalNamespace::IRemoteProcedureCall* Init(float syncTime);
     // protected System.Void .ctor()
-    // Offset: 0x16EECD0
+    // Offset: 0x18C884C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

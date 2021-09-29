@@ -17,28 +17,28 @@ namespace System::Net {
     // Creating value type constructor for type: ValidationHelper
     ValidationHelper() noexcept {}
     // Get static field: static public System.String[] EmptyArray
-    static ::Array<::Il2CppString*>* _get_EmptyArray();
+    static ::ArrayWrapper<::Il2CppString*> _get_EmptyArray();
     // Set static field: static public System.String[] EmptyArray
-    static void _set_EmptyArray(::Array<::Il2CppString*>* value);
+    static void _set_EmptyArray(::ArrayWrapper<::Il2CppString*> value);
     // Get static field: static readonly System.Char[] InvalidMethodChars
-    static ::Array<::Il2CppChar>* _get_InvalidMethodChars();
+    static ::ArrayWrapper<::Il2CppChar> _get_InvalidMethodChars();
     // Set static field: static readonly System.Char[] InvalidMethodChars
-    static void _set_InvalidMethodChars(::Array<::Il2CppChar>* value);
+    static void _set_InvalidMethodChars(::ArrayWrapper<::Il2CppChar> value);
     // Get static field: static readonly System.Char[] InvalidParamChars
-    static ::Array<::Il2CppChar>* _get_InvalidParamChars();
+    static ::ArrayWrapper<::Il2CppChar> _get_InvalidParamChars();
     // Set static field: static readonly System.Char[] InvalidParamChars
-    static void _set_InvalidParamChars(::Array<::Il2CppChar>* value);
+    static void _set_InvalidParamChars(::ArrayWrapper<::Il2CppChar> value);
     // static private System.Void .cctor()
-    // Offset: 0x15D4790
+    // Offset: 0x1777C48
     static void _cctor();
     // static public System.String MakeStringNull(System.String stringValue)
-    // Offset: 0x15D4760
+    // Offset: 0x1777C18
     static ::Il2CppString* MakeStringNull(::Il2CppString* stringValue);
     // static public System.Boolean IsBlankString(System.String stringValue)
-    // Offset: 0x15D4774
+    // Offset: 0x1777C2C
     static bool IsBlankString(::Il2CppString* stringValue);
     // static public System.Boolean ValidateTcpPort(System.Int32 port)
-    // Offset: 0x15D22F4
+    // Offset: 0x17757AC
     static bool ValidateTcpPort(int port);
   }; // System.Net.ValidationHelper
   #pragma pack(pop)

@@ -64,13 +64,13 @@ namespace MasterServer {
     // Get instance field reference: public AuthenticationToken authenticationToken
     GlobalNamespace::AuthenticationToken& dyn_authenticationToken();
     // static public PacketPool`1<MasterServer.AuthenticateUserRequest> get_pool()
-    // Offset: 0x13475E0
+    // Offset: 0x145EC20
     static GlobalNamespace::PacketPool_1<MasterServer::AuthenticateUserRequest*>* get_pool();
     // public MasterServer.AuthenticateUserRequest Init(AuthenticationToken authenticationToken)
-    // Offset: 0x1347628
+    // Offset: 0x145EC68
     MasterServer::AuthenticateUserRequest* Init(GlobalNamespace::AuthenticationToken authenticationToken);
     // public System.Void .ctor()
-    // Offset: 0x1347704
+    // Offset: 0x145ED44
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -80,17 +80,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticateUserRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1347638
+    // Offset: 0x145EC78
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1347664
+    // Offset: 0x145ECA4
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x13476A8
+    // Offset: 0x145ECE8
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();

@@ -219,68 +219,68 @@ namespace System::Net {
     // Get instance field reference: private System.Boolean force_close_chunked
     bool& dyn_force_close_chunked();
     // System.Boolean get_ForceCloseChunked()
-    // Offset: 0x1679D20
+    // Offset: 0x18450C4
     bool get_ForceCloseChunked();
     // public System.Text.Encoding get_ContentEncoding()
-    // Offset: 0x1673B64
+    // Offset: 0x183EF08
     System::Text::Encoding* get_ContentEncoding();
     // public System.Void set_ContentLength64(System.Int64 value)
-    // Offset: 0x1679D28
+    // Offset: 0x18450CC
     void set_ContentLength64(int64_t value);
     // public System.Void set_ContentType(System.String value)
-    // Offset: 0x1673744
+    // Offset: 0x183EAE8
     void set_ContentType(::Il2CppString* value);
     // public System.Net.WebHeaderCollection get_Headers()
-    // Offset: 0x1679E68
+    // Offset: 0x184520C
     System::Net::WebHeaderCollection* get_Headers();
     // public System.IO.Stream get_OutputStream()
-    // Offset: 0x1679E70
+    // Offset: 0x1845214
     System::IO::Stream* get_OutputStream();
     // public System.Boolean get_SendChunked()
-    // Offset: 0x1679EB0
+    // Offset: 0x1845254
     bool get_SendChunked();
     // public System.Void set_SendChunked(System.Boolean value)
-    // Offset: 0x1671278
+    // Offset: 0x183C61C
     void set_SendChunked(bool value);
     // public System.Void set_StatusCode(System.Int32 value)
-    // Offset: 0x1673604
+    // Offset: 0x183E9A8
     void set_StatusCode(int value);
     // System.Void .ctor(System.Net.HttpListenerContext context)
-    // Offset: 0x1676B90
+    // Offset: 0x1841F34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerResponse* New_ctor(System::Net::HttpListenerContext* context) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpListenerResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerResponse*, creationType>(context)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x167AE10
+    // Offset: 0x18461B4
     static void _cctor();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1679EB8
+    // Offset: 0x184525C
     void System_IDisposable_Dispose();
     // private System.Void Close(System.Boolean force)
-    // Offset: 0x1679EC0
+    // Offset: 0x1845264
     void Close(bool force);
     // public System.Void Close()
-    // Offset: 0x1679EF0
+    // Offset: 0x1845294
     void Close();
     // public System.Void Close(System.Byte[] responseEntity, System.Boolean willBlock)
-    // Offset: 0x1673B90
-    void Close(::Array<uint8_t>* responseEntity, bool willBlock);
+    // Offset: 0x183EF34
+    void Close(::ArrayWrapper<uint8_t> responseEntity, bool willBlock);
     // System.Void SendHeaders(System.Boolean closing, System.IO.MemoryStream ms)
-    // Offset: 0x1679F04
+    // Offset: 0x18452A8
     void SendHeaders(bool closing, System::IO::MemoryStream* ms);
     // static private System.String FormatHeaders(System.Net.WebHeaderCollection headers)
-    // Offset: 0x167AA04
+    // Offset: 0x1845DA8
     static ::Il2CppString* FormatHeaders(System::Net::WebHeaderCollection* headers);
     // static private System.String CookieToClientString(System.Net.Cookie cookie)
-    // Offset: 0x167A7A4
+    // Offset: 0x1845B48
     static ::Il2CppString* CookieToClientString(System::Net::Cookie* cookie);
     // static private System.String QuotedString(System.Net.Cookie cookie, System.String value)
-    // Offset: 0x167AC54
+    // Offset: 0x1845FF8
     static ::Il2CppString* QuotedString(System::Net::Cookie* cookie, ::Il2CppString* value);
     // static private System.Boolean IsToken(System.String value)
-    // Offset: 0x167AD28
+    // Offset: 0x18460CC
     static bool IsToken(::Il2CppString* value);
   }; // System.Net.HttpListenerResponse
   #pragma pack(pop)
@@ -405,9 +405,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::HttpListenerResponse::Close
 // Il2CppName: Close
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerResponse::*)(::Array<uint8_t>*, bool)>(&System::Net::HttpListenerResponse::Close)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerResponse::*)(::ArrayWrapper<uint8_t>, bool)>(&System::Net::HttpListenerResponse::Close)> {
   static const MethodInfo* get() {
-    static auto* responseEntity = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* responseEntity = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* willBlock = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerResponse*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{responseEntity, willBlock});
   }

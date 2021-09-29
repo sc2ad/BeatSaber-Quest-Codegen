@@ -23,23 +23,23 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     // System.UInt32[] x
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint>* x;
+    ::ArrayWrapper<uint> x;
     // Field size check
-    static_assert(sizeof(::Array<uint>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
     // System.UInt32[] y
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint>* y;
+    ::ArrayWrapper<uint> y;
     // Field size check
-    static_assert(sizeof(::Array<uint>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
     // Creating value type constructor for type: PointPrecomp
-    PointPrecomp(::Array<uint>* x_ = {}, ::Array<uint>* y_ = {}) noexcept : x{x_}, y{y_} {}
+    PointPrecomp(::ArrayWrapper<uint> x_ = {}, ::ArrayWrapper<uint> y_ = {}) noexcept : x{x_}, y{y_} {}
     // Get instance field reference: System.UInt32[] x
-    ::Array<uint>*& dyn_x();
+    ::ArrayWrapper<uint>& dyn_x();
     // Get instance field reference: System.UInt32[] y
-    ::Array<uint>*& dyn_y();
+    ::ArrayWrapper<uint>& dyn_y();
     // public System.Void .ctor()
-    // Offset: 0x1DD62F0
+    // Offset: 0x1F92294
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -49,7 +49,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     }
   }; // Org.BouncyCastle.Math.EC.Rfc8032.Ed448/Org.BouncyCastle.Math.EC.Rfc8032.PointPrecomp
   #pragma pack(pop)
-  static check_size<sizeof(Ed448::PointPrecomp), 24 + sizeof(::Array<uint>*)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed448_PointPrecompSizeCheck;
+  static check_size<sizeof(Ed448::PointPrecomp), 24 + sizeof(::ArrayWrapper<uint>)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed448_PointPrecompSizeCheck;
   static_assert(sizeof(Ed448::PointPrecomp) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointPrecomp*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed448/PointPrecomp");

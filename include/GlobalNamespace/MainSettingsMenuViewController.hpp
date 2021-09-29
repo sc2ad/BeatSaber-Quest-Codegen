@@ -49,9 +49,9 @@ namespace GlobalNamespace {
     // private SettingsSubMenuInfo[] _settingsSubMenuInfos
     // Size: 0x8
     // Offset: 0x78
-    ::Array<GlobalNamespace::SettingsSubMenuInfo*>* settingsSubMenuInfos;
+    ::ArrayWrapper<GlobalNamespace::SettingsSubMenuInfo*> settingsSubMenuInfos;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::SettingsSubMenuInfo*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SettingsSubMenuInfo*>) == 0x8);
     // private HMUI.TextSegmentedControl _settingsMenuSegmentedControl
     // Size: 0x8
     // Offset: 0x80
@@ -71,11 +71,11 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: MainSettingsMenuViewController
-    MainSettingsMenuViewController(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>* didSelectSettingsSubMenuEvent_ = {}, ::Array<GlobalNamespace::SettingsSubMenuInfo*>* settingsSubMenuInfos_ = {}, HMUI::TextSegmentedControl* settingsMenuSegmentedControl_ = {}, GlobalNamespace::SettingsSubMenuInfo* selectedSubMenuInfo_ = {}, int selectedSubMenuInfoIdx_ = {}) noexcept : didSelectSettingsSubMenuEvent{didSelectSettingsSubMenuEvent_}, settingsSubMenuInfos{settingsSubMenuInfos_}, settingsMenuSegmentedControl{settingsMenuSegmentedControl_}, selectedSubMenuInfo{selectedSubMenuInfo_}, selectedSubMenuInfoIdx{selectedSubMenuInfoIdx_} {}
+    MainSettingsMenuViewController(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>* didSelectSettingsSubMenuEvent_ = {}, ::ArrayWrapper<GlobalNamespace::SettingsSubMenuInfo*> settingsSubMenuInfos_ = {}, HMUI::TextSegmentedControl* settingsMenuSegmentedControl_ = {}, GlobalNamespace::SettingsSubMenuInfo* selectedSubMenuInfo_ = {}, int selectedSubMenuInfoIdx_ = {}) noexcept : didSelectSettingsSubMenuEvent{didSelectSettingsSubMenuEvent_}, settingsSubMenuInfos{settingsSubMenuInfos_}, settingsMenuSegmentedControl{settingsMenuSegmentedControl_}, selectedSubMenuInfo{selectedSubMenuInfo_}, selectedSubMenuInfoIdx{selectedSubMenuInfoIdx_} {}
     // Get instance field reference: private System.Action`2<SettingsSubMenuInfo,System.Int32> didSelectSettingsSubMenuEvent
     System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>*& dyn_didSelectSettingsSubMenuEvent();
     // Get instance field reference: private SettingsSubMenuInfo[] _settingsSubMenuInfos
-    ::Array<GlobalNamespace::SettingsSubMenuInfo*>*& dyn__settingsSubMenuInfos();
+    ::ArrayWrapper<GlobalNamespace::SettingsSubMenuInfo*>& dyn__settingsSubMenuInfos();
     // Get instance field reference: private HMUI.TextSegmentedControl _settingsMenuSegmentedControl
     HMUI::TextSegmentedControl*& dyn__settingsMenuSegmentedControl();
     // Get instance field reference: private SettingsSubMenuInfo _selectedSubMenuInfo
@@ -83,25 +83,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _selectedSubMenuInfoIdx
     int& dyn__selectedSubMenuInfoIdx();
     // public System.Int32 get_numberOfSubMenus()
-    // Offset: 0x11A438C
+    // Offset: 0x1263CCC
     int get_numberOfSubMenus();
     // public SettingsSubMenuInfo get_selectedSubMenuInfo()
-    // Offset: 0x11A43A8
+    // Offset: 0x1263CE8
     GlobalNamespace::SettingsSubMenuInfo* get_selectedSubMenuInfo();
     // public System.Void add_didSelectSettingsSubMenuEvent(System.Action`2<SettingsSubMenuInfo,System.Int32> value)
-    // Offset: 0x11A4244
+    // Offset: 0x1263B84
     void add_didSelectSettingsSubMenuEvent(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>* value);
     // public System.Void remove_didSelectSettingsSubMenuEvent(System.Action`2<SettingsSubMenuInfo,System.Int32> value)
-    // Offset: 0x11A42E8
+    // Offset: 0x1263C28
     void remove_didSelectSettingsSubMenuEvent(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>* value);
     // public System.Void Init(System.Int32 selectedSubMenuInfoIdx)
-    // Offset: 0x11A43B0
+    // Offset: 0x1263CF0
     void Init(int selectedSubMenuInfoIdx);
     // private System.Void HandleSettingsMenuSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0x11A457C
+    // Offset: 0x1263EBC
     void HandleSettingsMenuSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // public System.Void .ctor()
-    // Offset: 0x11A4624
+    // Offset: 0x1263F64
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -115,7 +115,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MainSettingsMenuViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x11A43F4
+    // Offset: 0x1263D34
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

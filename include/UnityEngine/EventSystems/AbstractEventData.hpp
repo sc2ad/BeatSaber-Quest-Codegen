@@ -33,16 +33,16 @@ namespace UnityEngine::EventSystems {
     // Get instance field reference: protected System.Boolean m_Used
     bool& dyn_m_Used();
     // public System.Boolean get_used()
-    // Offset: 0x146DCAC
+    // Offset: 0x15ED208
     bool get_used();
     // public System.Void Reset()
-    // Offset: 0x146DC98
+    // Offset: 0x15ED1F4
     void Reset();
     // public System.Void Use()
-    // Offset: 0x146DCA0
+    // Offset: 0x15ED1FC
     void Use();
     // protected System.Void .ctor()
-    // Offset: 0x146DCB4
+    // Offset: 0x15ED210
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

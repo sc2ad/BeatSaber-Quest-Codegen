@@ -61,7 +61,7 @@ namespace TMPro {
     // Get instance field reference: public UnityEngine.Color bottomRight
     UnityEngine::Color& dyn_bottomRight();
     // public System.Void .ctor(UnityEngine.Color color)
-    // Offset: 0x1C69994
+    // Offset: 0x1E20838
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     VertexGradient(UnityEngine::Color color) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::VertexGradient::.ctor");
@@ -69,7 +69,7 @@ namespace TMPro {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, color);
     }
     // public System.Void .ctor(UnityEngine.Color color0, UnityEngine.Color color1, UnityEngine.Color color2, UnityEngine.Color color3)
-    // Offset: 0x1C699B8
+    // Offset: 0x1E2085C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  VertexGradient(UnityEngine::Color color0, UnityEngine::Color color1, UnityEngine::Color color2, UnityEngine::Color color3)
   }; // TMPro.VertexGradient

@@ -96,41 +96,41 @@ namespace Org::BouncyCastle::X509 {
     // Get instance field reference: private System.Int32 hashValue
     int& dyn_hashValue();
     // public Org.BouncyCastle.Math.BigInteger get_SerialNumber()
-    // Offset: 0x1FF1C6C
+    // Offset: 0x2187F64
     Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
     // public System.DateTime get_RevocationDate()
-    // Offset: 0x1FF1C94
+    // Offset: 0x2187F8C
     System::DateTime get_RevocationDate();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.CrlEntry c, System.Boolean isIndirect, Org.BouncyCastle.Asn1.X509.X509Name previousCertificateIssuer)
-    // Offset: 0x1FF0804
+    // Offset: 0x2186AFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CrlEntry* New_ctor(Org::BouncyCastle::Asn1::X509::CrlEntry* c, bool isIndirect, Org::BouncyCastle::Asn1::X509::X509Name* previousCertificateIssuer) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::X509::X509CrlEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CrlEntry*, creationType>(c, isIndirect, previousCertificateIssuer)));
     }
     // private Org.BouncyCastle.Asn1.X509.X509Name loadCertificateIssuer()
-    // Offset: 0x1FF1A84
+    // Offset: 0x2187D7C
     Org::BouncyCastle::Asn1::X509::X509Name* loadCertificateIssuer();
     // public Org.BouncyCastle.Asn1.X509.X509Name GetCertificateIssuer()
-    // Offset: 0x1FF1C48
+    // Offset: 0x2187F40
     Org::BouncyCastle::Asn1::X509::X509Name* GetCertificateIssuer();
     // protected override Org.BouncyCastle.Asn1.X509.X509Extensions GetX509Extensions()
-    // Offset: 0x1FF1C50
+    // Offset: 0x2187F48
     // Implemented from: Org.BouncyCastle.X509.X509ExtensionBase
     // Base method: Org.BouncyCastle.Asn1.X509.X509Extensions X509ExtensionBase::GetX509Extensions()
     Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0x1FF1CBC
+    // Offset: 0x2187FB4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1FF1DB8
+    // Offset: 0x21880B0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1FF1E20
+    // Offset: 0x2188118
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

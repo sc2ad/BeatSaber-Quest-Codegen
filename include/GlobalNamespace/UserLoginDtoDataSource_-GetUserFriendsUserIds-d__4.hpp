@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String[]> <>t__builder
     // Size: 0xFFFFFFFF
     // Offset: 0x8
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Array<::Il2CppString*>*> $$t__builder;
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayWrapper<::Il2CppString*>> $$t__builder;
     // public UserLoginDtoDataSource <>4__this
     // Size: 0x8
     // Offset: 0x20
@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*> $$u__1;
     // Creating value type constructor for type: $GetUserFriendsUserIds$d__4
-    constexpr $GetUserFriendsUserIds$d__4(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Array<::Il2CppString*>*> $$t__builder_ = {}, GlobalNamespace::UserLoginDtoDataSource* $$4__this_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
+    constexpr $GetUserFriendsUserIds$d__4(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayWrapper<::Il2CppString*>> $$t__builder_ = {}, GlobalNamespace::UserLoginDtoDataSource* $$4__this_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -65,16 +65,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 <>1__state
     int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String[]> <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Array<::Il2CppString*>*>& dyn_$$t__builder();
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayWrapper<::Il2CppString*>>& dyn_$$t__builder();
     // Get instance field reference: public UserLoginDtoDataSource <>4__this
     GlobalNamespace::UserLoginDtoDataSource*& dyn_$$4__this();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Collections.Generic.IReadOnlyList`1<System.String>> <>u__1
     System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x129C1E4
+    // Offset: 0x134699C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x129C448
+    // Offset: 0x1346C00
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // UserLoginDtoDataSource/<GetUserFriendsUserIds>d__4
   // WARNING Not writing size check since size may be invalid!

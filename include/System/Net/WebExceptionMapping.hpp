@@ -24,14 +24,14 @@ namespace System::Net {
     // Creating value type constructor for type: WebExceptionMapping
     WebExceptionMapping() noexcept {}
     // Get static field: static private readonly System.String[] s_Mapping
-    static ::Array<::Il2CppString*>* _get_s_Mapping();
+    static ::ArrayWrapper<::Il2CppString*> _get_s_Mapping();
     // Set static field: static private readonly System.String[] s_Mapping
-    static void _set_s_Mapping(::Array<::Il2CppString*>* value);
+    static void _set_s_Mapping(::ArrayWrapper<::Il2CppString*> value);
     // static private System.Void .cctor()
-    // Offset: 0x15DF794
+    // Offset: 0x1782C4C
     static void _cctor();
     // static System.String GetWebStatusString(System.Net.WebExceptionStatus status)
-    // Offset: 0x15DF5DC
+    // Offset: 0x1782A94
     static ::Il2CppString* GetWebStatusString(System::Net::WebExceptionStatus status);
   }; // System.Net.WebExceptionMapping
   #pragma pack(pop)

@@ -50,13 +50,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public System.Int32 index
     int& dyn_index();
     // UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint <Triangulate>b__0(UnityEngine.Vector2 x)
-    // Offset: 0x174E2E8
+    // Offset: 0x18FFAC0
     UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* $Triangulate$b__0(UnityEngine::Vector2 x);
     // UnityEngine.ProBuilder.Poly2Tri.PolygonPoint <Triangulate>b__1(UnityEngine.Vector2 x)
-    // Offset: 0x174E370
+    // Offset: 0x18FFB48
     UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* $Triangulate$b__1(UnityEngine::Vector2 x);
     // public System.Void .ctor()
-    // Offset: 0x174E2D8
+    // Offset: 0x18FFAB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

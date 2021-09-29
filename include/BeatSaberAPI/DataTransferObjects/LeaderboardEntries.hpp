@@ -28,19 +28,19 @@ namespace BeatSaberAPI::DataTransferObjects {
     // public BeatSaberAPI.DataTransferObjects.LeaderboardEntry[] entries
     // Size: 0x8
     // Offset: 0x10
-    ::Array<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>* entries;
+    ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*> entries;
     // Field size check
-    static_assert(sizeof(::Array<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>) == 0x8);
     // Creating value type constructor for type: LeaderboardEntries
-    LeaderboardEntries(::Array<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>* entries_ = {}) noexcept : entries{entries_} {}
-    // Creating conversion operator: operator ::Array<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>*
-    constexpr operator ::Array<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>*() const noexcept {
+    LeaderboardEntries(::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*> entries_ = {}) noexcept : entries{entries_} {}
+    // Creating conversion operator: operator ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>
+    constexpr operator ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>() const noexcept {
       return entries;
     }
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.LeaderboardEntry[] entries
-    ::Array<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>*& dyn_entries();
+    ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>& dyn_entries();
     // public System.Void .ctor()
-    // Offset: 0x11DEE44
+    // Offset: 0x126F430
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -50,7 +50,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     }
   }; // BeatSaberAPI.DataTransferObjects.LeaderboardEntries
   #pragma pack(pop)
-  static check_size<sizeof(LeaderboardEntries), 16 + sizeof(::Array<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>*)> __BeatSaberAPI_DataTransferObjects_LeaderboardEntriesSizeCheck;
+  static check_size<sizeof(LeaderboardEntries), 16 + sizeof(::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>)> __BeatSaberAPI_DataTransferObjects_LeaderboardEntriesSizeCheck;
   static_assert(sizeof(LeaderboardEntries) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::LeaderboardEntries*, "BeatSaberAPI.DataTransferObjects", "LeaderboardEntries");

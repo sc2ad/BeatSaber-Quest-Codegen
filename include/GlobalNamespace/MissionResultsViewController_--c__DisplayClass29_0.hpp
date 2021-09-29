@@ -49,30 +49,30 @@ namespace GlobalNamespace {
     // public MissionObjective[] missionObjectives
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::MissionObjective*>* missionObjectives;
+    ::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MissionObjective*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionObjective*>) == 0x8);
     // public MissionObjectiveResult[] missionObjectiveResults
     // Size: 0x8
     // Offset: 0x28
-    ::Array<GlobalNamespace::MissionObjectiveResult*>* missionObjectiveResults;
+    ::ArrayWrapper<GlobalNamespace::MissionObjectiveResult*> missionObjectiveResults;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MissionObjectiveResult*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionObjectiveResult*>) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass29_0
-    $$c__DisplayClass29_0(bool levelCleared_ = {}, GlobalNamespace::MissionResultsViewController* $$4__this_ = {}, ::Array<GlobalNamespace::MissionObjective*>* missionObjectives_ = {}, ::Array<GlobalNamespace::MissionObjectiveResult*>* missionObjectiveResults_ = {}) noexcept : levelCleared{levelCleared_}, $$4__this{$$4__this_}, missionObjectives{missionObjectives_}, missionObjectiveResults{missionObjectiveResults_} {}
+    $$c__DisplayClass29_0(bool levelCleared_ = {}, GlobalNamespace::MissionResultsViewController* $$4__this_ = {}, ::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives_ = {}, ::ArrayWrapper<GlobalNamespace::MissionObjectiveResult*> missionObjectiveResults_ = {}) noexcept : levelCleared{levelCleared_}, $$4__this{$$4__this_}, missionObjectives{missionObjectives_}, missionObjectiveResults{missionObjectiveResults_} {}
     // Get instance field reference: public System.Boolean levelCleared
     bool& dyn_levelCleared();
     // Get instance field reference: public MissionResultsViewController <>4__this
     GlobalNamespace::MissionResultsViewController*& dyn_$$4__this();
     // Get instance field reference: public MissionObjective[] missionObjectives
-    ::Array<GlobalNamespace::MissionObjective*>*& dyn_missionObjectives();
+    ::ArrayWrapper<GlobalNamespace::MissionObjective*>& dyn_missionObjectives();
     // Get instance field reference: public MissionObjectiveResult[] missionObjectiveResults
-    ::Array<GlobalNamespace::MissionObjectiveResult*>*& dyn_missionObjectiveResults();
+    ::ArrayWrapper<GlobalNamespace::MissionObjectiveResult*>& dyn_missionObjectiveResults();
     // System.Void <SetDataToUI>b__0(System.Int32 idx, ResultObjectiveListItem objectiveListItem)
-    // Offset: 0x11465BC
+    // Offset: 0x118D10C
     void $SetDataToUI$b__0(int idx, GlobalNamespace::ResultObjectiveListItem* objectiveListItem);
     // public System.Void .ctor()
-    // Offset: 0x11464E4
+    // Offset: 0x118D034
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     }
   }; // MissionResultsViewController/<>c__DisplayClass29_0
   #pragma pack(pop)
-  static check_size<sizeof(MissionResultsViewController::$$c__DisplayClass29_0), 40 + sizeof(::Array<GlobalNamespace::MissionObjectiveResult*>*)> __GlobalNamespace_MissionResultsViewController_$$c__DisplayClass29_0SizeCheck;
+  static check_size<sizeof(MissionResultsViewController::$$c__DisplayClass29_0), 40 + sizeof(::ArrayWrapper<GlobalNamespace::MissionObjectiveResult*>)> __GlobalNamespace_MissionResultsViewController_$$c__DisplayClass29_0SizeCheck;
   static_assert(sizeof(MissionResultsViewController::$$c__DisplayClass29_0) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0*, "", "MissionResultsViewController/<>c__DisplayClass29_0");

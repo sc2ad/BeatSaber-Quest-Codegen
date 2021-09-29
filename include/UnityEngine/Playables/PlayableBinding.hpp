@@ -28,8 +28,6 @@ namespace System {
 // Completed forward declares
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
-template<class T>
-struct Array;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
@@ -73,9 +71,9 @@ namespace UnityEngine::Playables {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get static field: static public readonly UnityEngine.Playables.PlayableBinding[] None
-    static ::Array<UnityEngine::Playables::PlayableBinding>* _get_None();
+    static ::ArrayWrapper<UnityEngine::Playables::PlayableBinding> _get_None();
     // Set static field: static public readonly UnityEngine.Playables.PlayableBinding[] None
-    static void _set_None(::Array<UnityEngine::Playables::PlayableBinding>* value);
+    static void _set_None(::ArrayWrapper<UnityEngine::Playables::PlayableBinding> value);
     // Get static field: static public readonly System.Double DefaultDuration
     static double _get_DefaultDuration();
     // Set static field: static public readonly System.Double DefaultDuration
@@ -89,19 +87,19 @@ namespace UnityEngine::Playables {
     // Get instance field reference: private UnityEngine.Playables.PlayableBinding/UnityEngine.Playables.CreateOutputMethod m_CreateOutputMethod
     UnityEngine::Playables::PlayableBinding::CreateOutputMethod*& dyn_m_CreateOutputMethod();
     // public System.String get_streamName()
-    // Offset: 0x1D0BE90
+    // Offset: 0x1DB2F00
     ::Il2CppString* get_streamName();
     // public UnityEngine.Object get_sourceObject()
-    // Offset: 0x1D0BE98
+    // Offset: 0x1DB2F08
     UnityEngine::Object* get_sourceObject();
     // static private System.Void .cctor()
-    // Offset: 0x1D0C250
+    // Offset: 0x1DB325C
     static void _cctor();
     // UnityEngine.Playables.PlayableOutput CreateOutput(UnityEngine.Playables.PlayableGraph graph)
-    // Offset: 0x1D0BEA0
+    // Offset: 0x1DB2F10
     UnityEngine::Playables::PlayableOutput CreateOutput(UnityEngine::Playables::PlayableGraph graph);
     // static UnityEngine.Playables.PlayableBinding CreateInternal(System.String name, UnityEngine.Object sourceObject, System.Type sourceType, UnityEngine.Playables.PlayableBinding/UnityEngine.Playables.CreateOutputMethod createFunction)
-    // Offset: 0x1D0C244
+    // Offset: 0x1DB3250
     static UnityEngine::Playables::PlayableBinding CreateInternal(::Il2CppString* name, UnityEngine::Object* sourceObject, System::Type* sourceType, UnityEngine::Playables::PlayableBinding::CreateOutputMethod* createFunction);
   }; // UnityEngine.Playables.PlayableBinding
   #pragma pack(pop)

@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     HMUI::SimpleTextDropdown* simpleTextDropdown;
     // Field size check
     static_assert(sizeof(HMUI::SimpleTextDropdown*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE4679C
+    // [SpaceAttribute] Offset: 0xF0F160
     // private SongPackMaskModelSO _songPackMaskModel
     // Size: 0x8
     // Offset: 0x20
@@ -112,40 +112,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<QuickPlaySongPacksDropdown/SongPackMaskItem> _data
     System::Collections::Generic::List_1<GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*>*& dyn__data();
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x1125DE0
+    // Offset: 0x11BF458
     void add_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x1125E84
+    // Offset: 0x11BF4FC
     void remove_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // protected System.Void Start()
-    // Offset: 0x1125F28
+    // Offset: 0x11BF5A0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1125FBC
+    // Offset: 0x11BF634
     void OnDestroy();
     // public System.Void SetOverrideSongPacks(MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride quickPlaySongPacksOverride)
-    // Offset: 0x1126098
+    // Offset: 0x11BF710
     void SetOverrideSongPacks(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride* quickPlaySongPacksOverride);
     // public System.String GetSelectedSerializedName()
-    // Offset: 0x11260A0
+    // Offset: 0x11BF718
     ::Il2CppString* GetSelectedSerializedName();
     // public System.Void SelectCellWithSerializedName(System.String serializedName)
-    // Offset: 0x1126470
+    // Offset: 0x11BFAE8
     void SelectCellWithSerializedName(::Il2CppString* serializedName);
     // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x11265C0
+    // Offset: 0x11BFC38
     void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // private System.Void LazyInit()
-    // Offset: 0x1126128
+    // Offset: 0x11BF7A0
     void LazyInit();
     // private QuickPlaySongPacksDropdown/SongPackMaskItem <LazyInit>b__15_0(System.String serializedName)
-    // Offset: 0x112663C
+    // Offset: 0x11BFCB4
     GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem* $LazyInit$b__15_0(::Il2CppString* serializedName);
     // private QuickPlaySongPacksDropdown/SongPackMaskItem <LazyInit>b__15_1(MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride/PredefinedPack pack)
-    // Offset: 0x11266E4
+    // Offset: 0x11BFD5C
     GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem* $LazyInit$b__15_1(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack* pack);
     // public System.Void .ctor()
-    // Offset: 0x1126634
+    // Offset: 0x11BFCAC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

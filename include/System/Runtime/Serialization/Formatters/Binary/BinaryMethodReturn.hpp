@@ -41,9 +41,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // private System.Object[] args
     // Size: 0x8
     // Offset: 0x18
-    ::Array<::Il2CppObject*>* args;
+    ::ArrayWrapper<::Il2CppObject*> args;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
     // private System.Object callContext
     // Size: 0x8
     // Offset: 0x20
@@ -53,9 +53,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // private System.Type[] argTypes
     // Size: 0x8
     // Offset: 0x28
-    ::Array<System::Type*>* argTypes;
+    ::ArrayWrapper<System::Type*> argTypes;
     // Field size check
-    static_assert(sizeof(::Array<System::Type*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
     // private System.Boolean bArgsPrimitive
     // Size: 0x1
     // Offset: 0x30
@@ -77,7 +77,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
     // Creating value type constructor for type: BinaryMethodReturn
-    BinaryMethodReturn(::Il2CppObject* returnValue_ = {}, ::Array<::Il2CppObject*>* args_ = {}, ::Il2CppObject* callContext_ = {}, ::Array<System::Type*>* argTypes_ = {}, bool bArgsPrimitive_ = {}, System::Runtime::Serialization::Formatters::Binary::MessageEnum messageEnum_ = {}, System::Type* returnType_ = {}) noexcept : returnValue{returnValue_}, args{args_}, callContext{callContext_}, argTypes{argTypes_}, bArgsPrimitive{bArgsPrimitive_}, messageEnum{messageEnum_}, returnType{returnType_} {}
+    BinaryMethodReturn(::Il2CppObject* returnValue_ = {}, ::ArrayWrapper<::Il2CppObject*> args_ = {}, ::Il2CppObject* callContext_ = {}, ::ArrayWrapper<System::Type*> argTypes_ = {}, bool bArgsPrimitive_ = {}, System::Runtime::Serialization::Formatters::Binary::MessageEnum messageEnum_ = {}, System::Type* returnType_ = {}) noexcept : returnValue{returnValue_}, args{args_}, callContext{callContext_}, argTypes{argTypes_}, bArgsPrimitive{bArgsPrimitive_}, messageEnum{messageEnum_}, returnType{returnType_} {}
     // Get static field: static private System.Object instanceOfVoid
     static ::Il2CppObject* _get_instanceOfVoid();
     // Set static field: static private System.Object instanceOfVoid
@@ -85,11 +85,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: private System.Object returnValue
     ::Il2CppObject*& dyn_returnValue();
     // Get instance field reference: private System.Object[] args
-    ::Array<::Il2CppObject*>*& dyn_args();
+    ::ArrayWrapper<::Il2CppObject*>& dyn_args();
     // Get instance field reference: private System.Object callContext
     ::Il2CppObject*& dyn_callContext();
     // Get instance field reference: private System.Type[] argTypes
-    ::Array<System::Type*>*& dyn_argTypes();
+    ::ArrayWrapper<System::Type*>& dyn_argTypes();
     // Get instance field reference: private System.Boolean bArgsPrimitive
     bool& dyn_bArgsPrimitive();
     // Get instance field reference: private System.Runtime.Serialization.Formatters.Binary.MessageEnum messageEnum
@@ -97,16 +97,16 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: private System.Type returnType
     System::Type*& dyn_returnType();
     // static private System.Void .cctor()
-    // Offset: 0x161DFA0
+    // Offset: 0x17E9C00
     static void _cctor();
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x161E058
+    // Offset: 0x17E9CB8
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Dump()
-    // Offset: 0x161E198
+    // Offset: 0x17E9DF8
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x161E048
+    // Offset: 0x17E9CA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

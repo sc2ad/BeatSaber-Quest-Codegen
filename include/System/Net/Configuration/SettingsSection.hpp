@@ -30,12 +30,12 @@ namespace System::Net::Configuration {
     // Creating value type constructor for type: SettingsSection
     SettingsSection() noexcept {}
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x16D5FA0
+    // Offset: 0x157028C
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();
     // public System.Void .ctor()
-    // Offset: 0x16D5F60
+    // Offset: 0x157024C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

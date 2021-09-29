@@ -31,14 +31,14 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class HitReactionVRIK::PositionOffset::PositionOffsetLink : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xE317E8
+    // [TooltipAttribute] Offset: 0xEF7FC0
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.PositionOffset positionOffset
     // Size: 0x4
     // Offset: 0x10
     RootMotion::FinalIK::IKSolverVR::PositionOffset positionOffset;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IKSolverVR::PositionOffset) == 0x4);
-    // [TooltipAttribute] Offset: 0xE31820
+    // [TooltipAttribute] Offset: 0xEF7FF8
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x14
@@ -68,13 +68,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Vector3 current
     UnityEngine::Vector3& dyn_current();
     // public System.Void Apply(RootMotion.FinalIK.VRIK ik, UnityEngine.Vector3 offset, System.Single crossFader)
-    // Offset: 0x1CD0610
+    // Offset: 0x1E938D0
     void Apply(RootMotion::FinalIK::VRIK* ik, UnityEngine::Vector3 offset, float crossFader);
     // public System.Void CrossFadeStart()
-    // Offset: 0x1CD03CC
+    // Offset: 0x1E9368C
     void CrossFadeStart();
     // public System.Void .ctor()
-    // Offset: 0x1CD072C
+    // Offset: 0x1E939EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

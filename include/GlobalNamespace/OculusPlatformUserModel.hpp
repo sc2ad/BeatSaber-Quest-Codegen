@@ -62,9 +62,9 @@ namespace GlobalNamespace {
     // private System.String[] _friendsUserIds
     // Size: 0x8
     // Offset: 0x10
-    ::Array<::Il2CppString*>* friendsUserIds;
+    ::ArrayWrapper<::Il2CppString*> friendsUserIds;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // private UserInfo _userInfo
     // Size: 0x8
     // Offset: 0x18
@@ -72,29 +72,29 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::UserInfo*) == 0x8);
     // Creating value type constructor for type: OculusPlatformUserModel
-    OculusPlatformUserModel(::Array<::Il2CppString*>* friendsUserIds_ = {}, GlobalNamespace::UserInfo* userInfo_ = {}) noexcept : friendsUserIds{friendsUserIds_}, userInfo{userInfo_} {}
+    OculusPlatformUserModel(::ArrayWrapper<::Il2CppString*> friendsUserIds_ = {}, GlobalNamespace::UserInfo* userInfo_ = {}) noexcept : friendsUserIds{friendsUserIds_}, userInfo{userInfo_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IPlatformUserModel
     operator GlobalNamespace::IPlatformUserModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IPlatformUserModel*>(this);
     }
     // Get instance field reference: private System.String[] _friendsUserIds
-    ::Array<::Il2CppString*>*& dyn__friendsUserIds();
+    ::ArrayWrapper<::Il2CppString*>& dyn__friendsUserIds();
     // Get instance field reference: private UserInfo _userInfo
     GlobalNamespace::UserInfo*& dyn__userInfo();
     // public System.Threading.Tasks.Task`1<UserInfo> GetUserInfo()
-    // Offset: 0x102A2D8
+    // Offset: 0x1119748
     System::Threading::Tasks::Task_1<GlobalNamespace::UserInfo*>* GetUserInfo();
     // public System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> GetUserFriendsUserIds(System.Boolean cached)
-    // Offset: 0x102A3D8
+    // Offset: 0x1119848
     System::Threading::Tasks::Task_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* GetUserFriendsUserIds(bool cached);
     // public System.Threading.Tasks.Task`1<PlatformUserAuthTokenData> GetUserAuthToken()
-    // Offset: 0x102A504
+    // Offset: 0x1119974
     System::Threading::Tasks::Task_1<GlobalNamespace::PlatformUserAuthTokenData*>* GetUserAuthToken();
     // public System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> GetUserNamesForUserIds(System.Collections.Generic.IReadOnlyList`1<System.String> userIds)
-    // Offset: 0x102A604
+    // Offset: 0x1119A74
     System::Threading::Tasks::Task_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* GetUserNamesForUserIds(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* userIds);
     // public System.Void .ctor()
-    // Offset: 0x102A704
+    // Offset: 0x1119B74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

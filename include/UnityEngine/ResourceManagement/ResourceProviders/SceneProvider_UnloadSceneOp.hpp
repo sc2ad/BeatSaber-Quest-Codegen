@@ -47,21 +47,21 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> m_sceneLoadHandle
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>& dyn_m_sceneLoadHandle();
     // public System.Void Init(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> sceneLoadHandle)
-    // Offset: 0x19F7074
+    // Offset: 0x1B6BF1C
     void Init(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> sceneLoadHandle);
     // private System.Void UnloadSceneCompleted(UnityEngine.AsyncOperation obj)
-    // Offset: 0x19F7DFC
+    // Offset: 0x1B6CCA4
     void UnloadSceneCompleted(UnityEngine::AsyncOperation* obj);
     // private System.Void UnloadSceneCompletedNoRelease(UnityEngine.AsyncOperation obj)
-    // Offset: 0x19F7D98
+    // Offset: 0x1B6CC40
     void UnloadSceneCompletedNoRelease(UnityEngine::AsyncOperation* obj);
     // protected override System.Single get_Progress()
-    // Offset: 0x19F7F14
+    // Offset: 0x1B6CDBC
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Single AsyncOperationBase_1::get_Progress()
     float get_Progress();
     // public System.Void .ctor()
-    // Offset: 0x19F7024
+    // Offset: 0x1B6BECC
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -71,12 +71,12 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
       return THROW_UNLESS((::il2cpp_utils::New<SceneProvider::UnloadSceneOp*, creationType>()));
     }
     // protected override System.Void Execute()
-    // Offset: 0x19F7C80
+    // Offset: 0x1B6CB28
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x19F7E9C
+    // Offset: 0x1B6CD44
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();

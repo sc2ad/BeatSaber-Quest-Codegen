@@ -363,11 +363,11 @@ namespace System::Linq {
     // static public TSource[] ToArray(System.Collections.Generic.IEnumerable`1<TSource> source)
     // Offset: 0xFFFFFFFF
     template<class TSource>
-    static ::Array<TSource>* ToArray(System::Collections::Generic::IEnumerable_1<TSource>* source) {
+    static ::ArrayWrapper<TSource> ToArray(System::Collections::Generic::IEnumerable_1<TSource>* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::ToArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Linq", "Enumerable", "ToArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::Array<TSource>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, source);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<TSource>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, source);
     }
     // static public System.Collections.Generic.List`1<TSource> ToList(System.Collections.Generic.IEnumerable`1<TSource> source)
     // Offset: 0xFFFFFFFF
@@ -541,10 +541,10 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodThrow<TSource, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, source, index);
     }
     // static public System.Collections.Generic.IEnumerable`1<System.Int32> Range(System.Int32 start, System.Int32 count)
-    // Offset: 0x23BC0F0
+    // Offset: 0x25C1014
     static System::Collections::Generic::IEnumerable_1<int>* Range(int start, int count);
     // static private System.Collections.Generic.IEnumerable`1<System.Int32> RangeIterator(System.Int32 start, System.Int32 count)
-    // Offset: 0x23BC1E0
+    // Offset: 0x25C1104
     static System::Collections::Generic::IEnumerable_1<int>* RangeIterator(int start, int count);
     // static public System.Collections.Generic.IEnumerable`1<TResult> Repeat(TResult element, System.Int32 count)
     // Offset: 0xFFFFFFFF
@@ -636,6 +636,15 @@ namespace System::Linq {
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, source, value, comparer);
     }
+    // static public TSource Aggregate(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`3<TSource,TSource,TSource> func)
+    // Offset: 0xFFFFFFFF
+    template<class TSource>
+    static TSource Aggregate(System::Collections::Generic::IEnumerable_1<TSource>* source, System::Func_3<TSource, TSource, TSource>* func) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::Aggregate");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Linq", "Enumerable", "Aggregate", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source), ::il2cpp_utils::ExtractType(func)})));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<TSource, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, source, func);
+    }
     // static public TAccumulate Aggregate(System.Collections.Generic.IEnumerable`1<TSource> source, TAccumulate seed, System.Func`3<TAccumulate,TSource,TAccumulate> func)
     // Offset: 0xFFFFFFFF
     template<class TSource, class TAccumulate>
@@ -646,7 +655,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodThrow<TAccumulate, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, source, seed, func);
     }
     // static public System.Int32 Sum(System.Collections.Generic.IEnumerable`1<System.Int32> source)
-    // Offset: 0x23BC2A8
+    // Offset: 0x25C11CC
     static int Sum(System::Collections::Generic::IEnumerable_1<int>* source);
     // static public System.Int32 Sum(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Int32> selector)
     // Offset: 0xFFFFFFFF
@@ -658,13 +667,13 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, source, selector);
     }
     // static public System.Single Min(System.Collections.Generic.IEnumerable`1<System.Single> source)
-    // Offset: 0x23BC59C
+    // Offset: 0x25C14C0
     static float Min(System::Collections::Generic::IEnumerable_1<float>* source);
     // static public System.Int32 Max(System.Collections.Generic.IEnumerable`1<System.Int32> source)
-    // Offset: 0x23BC8CC
+    // Offset: 0x25C17F0
     static int Max(System::Collections::Generic::IEnumerable_1<int>* source);
     // static public System.Single Max(System.Collections.Generic.IEnumerable`1<System.Single> source)
-    // Offset: 0x23BCB68
+    // Offset: 0x25C1A8C
     static float Max(System::Collections::Generic::IEnumerable_1<float>* source);
     // static public System.Int32 Max(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Int32> selector)
     // Offset: 0xFFFFFFFF
@@ -867,6 +876,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: System::Linq::Enumerable::Contains
 // Il2CppName: Contains
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: System::Linq::Enumerable::Aggregate
+// Il2CppName: Aggregate
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: System::Linq::Enumerable::Aggregate
 // Il2CppName: Aggregate

@@ -56,26 +56,26 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteControllerBase* noteController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteControllerBase*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE3C04C
+    // [SpaceAttribute] Offset: 0xF04830
     // private MaterialPropertyBlockController[] _materialPropertyBlockControllers
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::MaterialPropertyBlockController*>* materialPropertyBlockControllers;
+    ::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*> materialPropertyBlockControllers;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MaterialPropertyBlockController*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*>) == 0x8);
     // private UnityEngine.MeshRenderer[] _arrowMeshRenderers
     // Size: 0x8
     // Offset: 0x28
-    ::Array<UnityEngine::MeshRenderer*>* arrowMeshRenderers;
+    ::ArrayWrapper<UnityEngine::MeshRenderer*> arrowMeshRenderers;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::MeshRenderer*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::MeshRenderer*>) == 0x8);
     // private UnityEngine.MeshRenderer[] _circleMeshRenderers
     // Size: 0x8
     // Offset: 0x30
-    ::Array<UnityEngine::MeshRenderer*>* circleMeshRenderers;
+    ::ArrayWrapper<UnityEngine::MeshRenderer*> circleMeshRenderers;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::MeshRenderer*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3C0A4
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::MeshRenderer*>) == 0x8);
+    // [InjectAttribute] Offset: 0xF04888
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x38
@@ -95,7 +95,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Creating value type constructor for type: ColorNoteVisuals
-    ColorNoteVisuals(GlobalNamespace::NoteControllerBase* noteController_ = {}, ::Array<GlobalNamespace::MaterialPropertyBlockController*>* materialPropertyBlockControllers_ = {}, ::Array<UnityEngine::MeshRenderer*>* arrowMeshRenderers_ = {}, ::Array<UnityEngine::MeshRenderer*>* circleMeshRenderers_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteControllerBase*>* didInitEvent_ = {}, UnityEngine::Color noteColor_ = {}) noexcept : noteController{noteController_}, materialPropertyBlockControllers{materialPropertyBlockControllers_}, arrowMeshRenderers{arrowMeshRenderers_}, circleMeshRenderers{circleMeshRenderers_}, colorManager{colorManager_}, didInitEvent{didInitEvent_}, noteColor{noteColor_} {}
+    ColorNoteVisuals(GlobalNamespace::NoteControllerBase* noteController_ = {}, ::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*> materialPropertyBlockControllers_ = {}, ::ArrayWrapper<UnityEngine::MeshRenderer*> arrowMeshRenderers_ = {}, ::ArrayWrapper<UnityEngine::MeshRenderer*> circleMeshRenderers_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteControllerBase*>* didInitEvent_ = {}, UnityEngine::Color noteColor_ = {}) noexcept : noteController{noteController_}, materialPropertyBlockControllers{materialPropertyBlockControllers_}, arrowMeshRenderers{arrowMeshRenderers_}, circleMeshRenderers{circleMeshRenderers_}, colorManager{colorManager_}, didInitEvent{didInitEvent_}, noteColor{noteColor_} {}
     // Creating interface conversion operator: operator GlobalNamespace::INoteControllerDidInitEvent
     operator GlobalNamespace::INoteControllerDidInitEvent() noexcept {
       return *reinterpret_cast<GlobalNamespace::INoteControllerDidInitEvent*>(this);
@@ -110,7 +110,7 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE3C0C4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF048A8
     // Get static field: static private readonly System.Int32 _colorId
     static int _get__colorId();
     // Set static field: static private readonly System.Int32 _colorId
@@ -118,11 +118,11 @@ namespace GlobalNamespace {
     // Get instance field reference: private NoteControllerBase _noteController
     GlobalNamespace::NoteControllerBase*& dyn__noteController();
     // Get instance field reference: private MaterialPropertyBlockController[] _materialPropertyBlockControllers
-    ::Array<GlobalNamespace::MaterialPropertyBlockController*>*& dyn__materialPropertyBlockControllers();
+    ::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*>& dyn__materialPropertyBlockControllers();
     // Get instance field reference: private UnityEngine.MeshRenderer[] _arrowMeshRenderers
-    ::Array<UnityEngine::MeshRenderer*>*& dyn__arrowMeshRenderers();
+    ::ArrayWrapper<UnityEngine::MeshRenderer*>& dyn__arrowMeshRenderers();
     // Get instance field reference: private UnityEngine.MeshRenderer[] _circleMeshRenderers
-    ::Array<UnityEngine::MeshRenderer*>*& dyn__circleMeshRenderers();
+    ::ArrayWrapper<UnityEngine::MeshRenderer*>& dyn__circleMeshRenderers();
     // Get instance field reference: private readonly ColorManager _colorManager
     GlobalNamespace::ColorManager*& dyn__colorManager();
     // Get instance field reference: private System.Action`2<ColorNoteVisuals,NoteControllerBase> didInitEvent
@@ -130,34 +130,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _noteColor
     UnityEngine::Color& dyn__noteColor();
     // private System.Void set_showArrow(System.Boolean value)
-    // Offset: 0x10E19E0
+    // Offset: 0x1199440
     void set_showArrow(bool value);
     // private System.Void set_showCircle(System.Boolean value)
-    // Offset: 0x10E1A5C
+    // Offset: 0x11994BC
     void set_showCircle(bool value);
     // public System.Void add_didInitEvent(System.Action`2<ColorNoteVisuals,NoteControllerBase> value)
-    // Offset: 0x10E1898
+    // Offset: 0x11992F8
     void add_didInitEvent(System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteControllerBase*>* value);
     // public System.Void remove_didInitEvent(System.Action`2<ColorNoteVisuals,NoteControllerBase> value)
-    // Offset: 0x10E193C
+    // Offset: 0x119939C
     void remove_didInitEvent(System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteControllerBase*>* value);
     // protected System.Void Awake()
-    // Offset: 0x10E1AD8
+    // Offset: 0x1199538
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x10E1CB0
+    // Offset: 0x1199710
     void OnDestroy();
     // public System.Void HandleNoteControllerDidInit(NoteControllerBase noteController)
-    // Offset: 0x10E1ED4
+    // Offset: 0x1199934
     void HandleNoteControllerDidInit(GlobalNamespace::NoteControllerBase* noteController);
     // public System.Void HandleNoteControllerNoteDidPassJumpThreeQuarters(NoteControllerBase noteController)
-    // Offset: 0x10E20A0
+    // Offset: 0x1199B00
     void HandleNoteControllerNoteDidPassJumpThreeQuarters(GlobalNamespace::NoteControllerBase* noteController);
     // public System.Void HandleNoteControllerNoteDidStartDissolving(NoteControllerBase noteController, System.Single duration)
-    // Offset: 0x10E20CC
+    // Offset: 0x1199B2C
     void HandleNoteControllerNoteDidStartDissolving(GlobalNamespace::NoteControllerBase* noteController, float duration);
     // public System.Void .ctor()
-    // Offset: 0x10E20F8
+    // Offset: 0x1199B58
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -170,7 +170,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ColorNoteVisuals*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x10E2100
+    // Offset: 0x1199B60
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

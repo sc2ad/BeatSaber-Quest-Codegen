@@ -99,7 +99,7 @@ namespace OVR::OpenVR {
     // Get instance field reference: public System.UInt64 uUserValue
     uint64_t& dyn_uUserValue();
     // public System.String get_cNewInput()
-    // Offset: 0x12AB76C
+    // Offset: 0x13B4A80
     ::Il2CppString* get_cNewInput();
   }; // OVR.OpenVR.VREvent_Keyboard_t
   #pragma pack(pop)

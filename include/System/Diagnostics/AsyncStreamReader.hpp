@@ -54,15 +54,15 @@ namespace System::Diagnostics {
     // private System.Byte[] byteBuffer
     // Size: 0x8
     // Offset: 0x28
-    ::Array<uint8_t>* byteBuffer;
+    ::ArrayWrapper<uint8_t> byteBuffer;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Char[] charBuffer
     // Size: 0x8
     // Offset: 0x30
-    ::Array<::Il2CppChar>* charBuffer;
+    ::ArrayWrapper<::Il2CppChar> charBuffer;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppChar>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
     // private System.Boolean cancelOperation
     // Size: 0x1
     // Offset: 0x38
@@ -84,7 +84,7 @@ namespace System::Diagnostics {
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: AsyncStreamReader
-    AsyncStreamReader(System::IO::Stream* stream_ = {}, System::Text::Encoding* encoding_ = {}, System::Text::Decoder* decoder_ = {}, ::Array<uint8_t>* byteBuffer_ = {}, ::Array<::Il2CppChar>* charBuffer_ = {}, bool cancelOperation_ = {}, System::Threading::ManualResetEvent* eofEvent_ = {}, ::Il2CppObject* syncObject_ = {}) noexcept : stream{stream_}, encoding{encoding_}, decoder{decoder_}, byteBuffer{byteBuffer_}, charBuffer{charBuffer_}, cancelOperation{cancelOperation_}, eofEvent{eofEvent_}, syncObject{syncObject_} {}
+    AsyncStreamReader(System::IO::Stream* stream_ = {}, System::Text::Encoding* encoding_ = {}, System::Text::Decoder* decoder_ = {}, ::ArrayWrapper<uint8_t> byteBuffer_ = {}, ::ArrayWrapper<::Il2CppChar> charBuffer_ = {}, bool cancelOperation_ = {}, System::Threading::ManualResetEvent* eofEvent_ = {}, ::Il2CppObject* syncObject_ = {}) noexcept : stream{stream_}, encoding{encoding_}, decoder{decoder_}, byteBuffer{byteBuffer_}, charBuffer{charBuffer_}, cancelOperation{cancelOperation_}, eofEvent{eofEvent_}, syncObject{syncObject_} {}
     // Get instance field reference: private System.IO.Stream stream
     System::IO::Stream*& dyn_stream();
     // Get instance field reference: private System.Text.Encoding encoding
@@ -92,9 +92,9 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.Text.Decoder decoder
     System::Text::Decoder*& dyn_decoder();
     // Get instance field reference: private System.Byte[] byteBuffer
-    ::Array<uint8_t>*& dyn_byteBuffer();
+    ::ArrayWrapper<uint8_t>& dyn_byteBuffer();
     // Get instance field reference: private System.Char[] charBuffer
-    ::Array<::Il2CppChar>*& dyn_charBuffer();
+    ::ArrayWrapper<::Il2CppChar>& dyn_charBuffer();
     // Get instance field reference: private System.Boolean cancelOperation
     bool& dyn_cancelOperation();
     // Get instance field reference: private System.Threading.ManualResetEvent eofEvent
@@ -102,13 +102,13 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.Object syncObject
     ::Il2CppObject*& dyn_syncObject();
     // public System.Void Close()
-    // Offset: 0x18B8718
+    // Offset: 0x1A24C8C
     void Close();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x18B8728
+    // Offset: 0x1A24C9C
     void Dispose(bool disposing);
     // System.Void CancelOperation()
-    // Offset: 0x18B8808
+    // Offset: 0x1A24D7C
     void CancelOperation();
   }; // System.Diagnostics.AsyncStreamReader
   #pragma pack(pop)

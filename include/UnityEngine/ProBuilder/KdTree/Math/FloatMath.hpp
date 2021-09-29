@@ -22,37 +22,37 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
     // Creating value type constructor for type: FloatMath
     FloatMath() noexcept {}
     // public System.Single get_MinValue()
-    // Offset: 0x241EB34
+    // Offset: 0x2629F84
     float get_MinValue();
     // public System.Single get_Zero()
-    // Offset: 0x241EB40
+    // Offset: 0x2629F90
     float get_Zero();
     // public System.Single get_NegativeInfinity()
-    // Offset: 0x241EB48
+    // Offset: 0x2629F98
     float get_NegativeInfinity();
     // public System.Single get_PositiveInfinity()
-    // Offset: 0x241EB54
+    // Offset: 0x2629FA4
     float get_PositiveInfinity();
     // public System.Int32 Compare(System.Single a, System.Single b)
-    // Offset: 0x241EAFC
+    // Offset: 0x2629F4C
     int Compare(float a, float b);
     // public System.Boolean AreEqual(System.Single a, System.Single b)
-    // Offset: 0x241EB28
+    // Offset: 0x2629F78
     bool AreEqual(float a, float b);
     // public System.Single Add(System.Single a, System.Single b)
-    // Offset: 0x241EB60
+    // Offset: 0x2629FB0
     float Add(float a, float b);
     // public System.Single Subtract(System.Single a, System.Single b)
-    // Offset: 0x241EB68
+    // Offset: 0x2629FB8
     float Subtract(float a, float b);
     // public System.Single Multiply(System.Single a, System.Single b)
-    // Offset: 0x241EB70
+    // Offset: 0x2629FC0
     float Multiply(float a, float b);
     // public System.Single DistanceSquaredBetweenPoints(System.Single[] a, System.Single[] b)
-    // Offset: 0x241EB78
-    float DistanceSquaredBetweenPoints(::Array<float>* a, ::Array<float>* b);
+    // Offset: 0x2629FC8
+    float DistanceSquaredBetweenPoints(::ArrayWrapper<float> a, ::ArrayWrapper<float> b);
     // public System.Void .ctor()
-    // Offset: 0x241EC8C
+    // Offset: 0x262A0DC
     // Implemented from: UnityEngine.ProBuilder.KdTree.Math.TypeMath`1
     // Base method: System.Void TypeMath_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -150,10 +150,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::KdTree::Math::FloatMath::DistanceSquaredBetweenPoints
 // Il2CppName: DistanceSquaredBetweenPoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(::Array<float>*, ::Array<float>*)>(&UnityEngine::ProBuilder::KdTree::Math::FloatMath::DistanceSquaredBetweenPoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(::ArrayWrapper<float>, ::ArrayWrapper<float>)>(&UnityEngine::ProBuilder::KdTree::Math::FloatMath::DistanceSquaredBetweenPoints)> {
   static const MethodInfo* get() {
-    static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
-    static auto* b = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
+    static auto* a = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* b = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::KdTree::Math::FloatMath*), "DistanceSquaredBetweenPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
   }
 };

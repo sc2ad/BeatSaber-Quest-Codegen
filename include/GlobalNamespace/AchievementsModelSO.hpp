@@ -66,16 +66,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initialized
     bool& dyn__initialized();
     // public System.Void Initialize()
-    // Offset: 0x11705F0
+    // Offset: 0x123F1A0
     void Initialize();
     // public System.Void UnlockAchievement(AchievementSO achievement)
-    // Offset: 0x1171568
+    // Offset: 0x1240118
     void UnlockAchievement(GlobalNamespace::AchievementSO* achievement);
     // private System.Void <Initialize>b__3_0(PlatformAchievementsModelSO/GetUnlockedAchievementsResult result, System.String[] achievementIds)
-    // Offset: 0x11716EC
-    void $Initialize$b__3_0(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::Array<::Il2CppString*>* achievementIds);
+    // Offset: 0x124029C
+    void $Initialize$b__3_0(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::ArrayWrapper<::Il2CppString*> achievementIds);
     // public System.Void .ctor()
-    // Offset: 0x117167C
+    // Offset: 0x124022C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -113,10 +113,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AchievementsModelSO::$Initialize$b__3_0
 // Il2CppName: <Initialize>b__3_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsModelSO::*)(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult, ::Array<::Il2CppString*>*)>(&GlobalNamespace::AchievementsModelSO::$Initialize$b__3_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsModelSO::*)(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult, ::ArrayWrapper<::Il2CppString*>)>(&GlobalNamespace::AchievementsModelSO::$Initialize$b__3_0)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("", "PlatformAchievementsModelSO/GetUnlockedAchievementsResult")->byval_arg;
-    static auto* achievementIds = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* achievementIds = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsModelSO*), "<Initialize>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result, achievementIds});
   }
 };

@@ -183,25 +183,25 @@ namespace HMUI {
     // Get instance field reference: private System.Single _viewControllersSeparator
     float& dyn__viewControllersSeparator();
     // public System.Void PushViewController(HMUI.ViewController viewController, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x1310980
+    // Offset: 0x1412F30
     void PushViewController(HMUI::ViewController* viewController, System::Action* finishedCallback, bool immediately);
     // public System.Void PopViewController(System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x1310A5C
+    // Offset: 0x141300C
     void PopViewController(System::Action* finishedCallback, bool immediately);
     // public System.Void PopViewControllers(System.Int32 numberOfViewControllersToPop, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x1310A70
+    // Offset: 0x1413020
     void PopViewControllers(int numberOfViewControllersToPop, System::Action* finishedCallback, bool immediately);
     // private UnityEngine.Vector3 PositionVector(System.Single pos)
-    // Offset: 0x1310924
+    // Offset: 0x1412ED4
     UnityEngine::Vector3 PositionVector(float pos);
     // private System.Void SetupViewControllerRect(HMUI.ViewController viewController)
-    // Offset: 0x13108CC
+    // Offset: 0x1412E7C
     void SetupViewControllerRect(HMUI::ViewController* viewController);
     // private System.Single[] GetNewPositionsForViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers, System.Collections.Generic.HashSet`1<HMUI.ViewController> fixedViewControllers, System.Single fixedEndPos)
-    // Offset: 0x131044C
-    ::Array<float>* GetNewPositionsForViewControllers(System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers, System::Collections::Generic::HashSet_1<HMUI::ViewController*>* fixedViewControllers, float fixedEndPos);
+    // Offset: 0x14129FC
+    ::ArrayWrapper<float> GetNewPositionsForViewControllers(System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers, System::Collections::Generic::HashSet_1<HMUI::ViewController*>* fixedViewControllers, float fixedEndPos);
     // public System.Void .ctor()
-    // Offset: 0x1310CDC
+    // Offset: 0x141328C
     // Implemented from: HMUI.ContainerViewController
     // Base method: System.Void ContainerViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()
@@ -216,7 +216,7 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<NavigationController*, creationType>()));
     }
     // protected override System.Void LayoutViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers)
-    // Offset: 0x1310318
+    // Offset: 0x14128C8
     // Implemented from: HMUI.ContainerViewController
     // Base method: System.Void ContainerViewController::LayoutViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers)
     void LayoutViewControllers(System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers);
@@ -282,7 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::NavigationController::GetNewPositionsForViewControllers
 // Il2CppName: GetNewPositionsForViewControllers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (HMUI::NavigationController::*)(System::Collections::Generic::List_1<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*, float)>(&HMUI::NavigationController::GetNewPositionsForViewControllers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<float> (HMUI::NavigationController::*)(System::Collections::Generic::List_1<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*, float)>(&HMUI::NavigationController::GetNewPositionsForViewControllers)> {
   static const MethodInfo* get() {
     static auto* viewControllers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("HMUI", "ViewController")})->byval_arg;
     static auto* fixedViewControllers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "HashSet`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("HMUI", "ViewController")})->byval_arg;

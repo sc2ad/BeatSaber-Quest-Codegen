@@ -23,10 +23,10 @@ namespace System::Text {
     // Creating value type constructor for type: DecoderExceptionFallbackBuffer
     DecoderExceptionFallbackBuffer() noexcept {}
     // private System.Void Throw(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x1C40760
-    void Throw(::Array<uint8_t>* bytesUnknown, int index);
+    // Offset: 0x1DF85CC
+    void Throw(::ArrayWrapper<uint8_t> bytesUnknown, int index);
     // public System.Void .ctor()
-    // Offset: 0x1C406D8
+    // Offset: 0x1DF8544
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Void DecoderFallbackBuffer::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -36,12 +36,12 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<DecoderExceptionFallbackBuffer*, creationType>()));
     }
     // public override System.Boolean Fallback(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x1C40754
+    // Offset: 0x1DF85C0
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Boolean DecoderFallbackBuffer::Fallback(System.Byte[] bytesUnknown, System.Int32 index)
-    bool Fallback(::Array<uint8_t>* bytesUnknown, int index);
+    bool Fallback(::ArrayWrapper<uint8_t> bytesUnknown, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x1C40994
+    // Offset: 0x1DF8800
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Char DecoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();
@@ -53,9 +53,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderExceptionFallbackBuffer*, "System.Te
 // Writing MetadataGetter for method: System::Text::DecoderExceptionFallbackBuffer::Throw
 // Il2CppName: Throw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::DecoderExceptionFallbackBuffer::*)(::Array<uint8_t>*, int)>(&System::Text::DecoderExceptionFallbackBuffer::Throw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::DecoderExceptionFallbackBuffer::*)(::ArrayWrapper<uint8_t>, int)>(&System::Text::DecoderExceptionFallbackBuffer::Throw)> {
   static const MethodInfo* get() {
-    static auto* bytesUnknown = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* bytesUnknown = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderExceptionFallbackBuffer*), "Throw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytesUnknown, index});
   }
@@ -67,9 +67,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::DecoderExceptionFallbackBuffer::Fallback
 // Il2CppName: Fallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::DecoderExceptionFallbackBuffer::*)(::Array<uint8_t>*, int)>(&System::Text::DecoderExceptionFallbackBuffer::Fallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::DecoderExceptionFallbackBuffer::*)(::ArrayWrapper<uint8_t>, int)>(&System::Text::DecoderExceptionFallbackBuffer::Fallback)> {
   static const MethodInfo* get() {
-    static auto* bytesUnknown = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* bytesUnknown = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderExceptionFallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytesUnknown, index});
   }

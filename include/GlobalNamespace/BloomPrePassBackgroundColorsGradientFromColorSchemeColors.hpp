@@ -29,26 +29,23 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassBackgroundColorsGradientFromColorSchemeColors : public UnityEngine::MonoBehaviour {
     public:
+    // Nested type: GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element
+    class Element;
+    // Nested type: GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor
+    struct EnvironmentColor;
     // private BloomPrePassBackgroundColorsGradient _bloomPrePassBackgroundColorsGradient
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::BloomPrePassBackgroundColorsGradient* bloomPrePassBackgroundColorsGradient;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomPrePassBackgroundColorsGradient*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE4A9A8
-    // private System.Single _skyColorIntensity
-    // Size: 0x4
+    // private BloomPrePassBackgroundColorsGradientFromColorSchemeColors/Element[] _elements
+    // Size: 0x8
     // Offset: 0x20
-    float skyColorIntensity;
+    ::ArrayWrapper<GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element*> elements;
     // Field size check
-    static_assert(sizeof(float) == 0x4);
-    // private System.Single _groundColorIntensity
-    // Size: 0x4
-    // Offset: 0x24
-    float groundColorIntensity;
-    // Field size check
-    static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xE4A9F0
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element*>) == 0x8);
+    // [InjectAttribute] Offset: 0xF135EC
     // private readonly EnvironmentColorManager _colorManager
     // Size: 0x8
     // Offset: 0x28
@@ -56,22 +53,20 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentColorManager*) == 0x8);
     // Creating value type constructor for type: BloomPrePassBackgroundColorsGradientFromColorSchemeColors
-    BloomPrePassBackgroundColorsGradientFromColorSchemeColors(GlobalNamespace::BloomPrePassBackgroundColorsGradient* bloomPrePassBackgroundColorsGradient_ = {}, float skyColorIntensity_ = {}, float groundColorIntensity_ = {}, GlobalNamespace::EnvironmentColorManager* colorManager_ = {}) noexcept : bloomPrePassBackgroundColorsGradient{bloomPrePassBackgroundColorsGradient_}, skyColorIntensity{skyColorIntensity_}, groundColorIntensity{groundColorIntensity_}, colorManager{colorManager_} {}
+    BloomPrePassBackgroundColorsGradientFromColorSchemeColors(GlobalNamespace::BloomPrePassBackgroundColorsGradient* bloomPrePassBackgroundColorsGradient_ = {}, ::ArrayWrapper<GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element*> elements_ = {}, GlobalNamespace::EnvironmentColorManager* colorManager_ = {}) noexcept : bloomPrePassBackgroundColorsGradient{bloomPrePassBackgroundColorsGradient_}, elements{elements_}, colorManager{colorManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BloomPrePassBackgroundColorsGradient _bloomPrePassBackgroundColorsGradient
     GlobalNamespace::BloomPrePassBackgroundColorsGradient*& dyn__bloomPrePassBackgroundColorsGradient();
-    // Get instance field reference: private System.Single _skyColorIntensity
-    float& dyn__skyColorIntensity();
-    // Get instance field reference: private System.Single _groundColorIntensity
-    float& dyn__groundColorIntensity();
+    // Get instance field reference: private BloomPrePassBackgroundColorsGradientFromColorSchemeColors/Element[] _elements
+    ::ArrayWrapper<GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element*>& dyn__elements();
     // Get instance field reference: private readonly EnvironmentColorManager _colorManager
     GlobalNamespace::EnvironmentColorManager*& dyn__colorManager();
     // protected System.Void Start()
-    // Offset: 0x10D8BF8
+    // Offset: 0x12AA790
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x10D8DD4
+    // Offset: 0x12AA498
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

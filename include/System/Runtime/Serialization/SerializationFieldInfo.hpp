@@ -66,83 +66,83 @@ namespace System::Runtime::Serialization {
     // Get instance field reference: private System.String m_serializationName
     ::Il2CppString*& dyn_m_serializationName();
     // System.Reflection.RuntimeFieldInfo get_FieldInfo()
-    // Offset: 0x16C3D54
+    // Offset: 0x1916B24
     System::Reflection::RuntimeFieldInfo* get_FieldInfo();
     // System.Void .ctor(System.Reflection.RuntimeFieldInfo field, System.String namePrefix)
-    // Offset: 0x16C3974
+    // Offset: 0x1916744
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerializationFieldInfo* New_ctor(System::Reflection::RuntimeFieldInfo* field, ::Il2CppString* namePrefix) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::SerializationFieldInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationFieldInfo*, creationType>(field, namePrefix)));
     }
     // System.Object InternalGetValue(System.Object obj)
-    // Offset: 0x16C3B08
+    // Offset: 0x19168D8
     ::Il2CppObject* InternalGetValue(::Il2CppObject* obj);
     // System.Void InternalSetValue(System.Object obj, System.Object value, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Globalization.CultureInfo culture)
-    // Offset: 0x16C3C1C
+    // Offset: 0x19169EC
     void InternalSetValue(::Il2CppObject* obj, ::Il2CppObject* value, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, System::Globalization::CultureInfo* culture);
     // public override System.Reflection.Module get_Module()
-    // Offset: 0x16C392C
+    // Offset: 0x19166FC
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Reflection.Module MemberInfo::get_Module()
     System::Reflection::Module* get_Module();
     // public override System.Int32 get_MetadataToken()
-    // Offset: 0x16C3950
+    // Offset: 0x1916720
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Int32 MemberInfo::get_MetadataToken()
     int get_MetadataToken();
     // public override System.String get_Name()
-    // Offset: 0x16C3A0C
+    // Offset: 0x19167DC
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.String MemberInfo::get_Name()
     ::Il2CppString* get_Name();
     // public override System.Type get_DeclaringType()
-    // Offset: 0x16C3A14
+    // Offset: 0x19167E4
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Type MemberInfo::get_DeclaringType()
     System::Type* get_DeclaringType();
     // public override System.Type get_ReflectedType()
-    // Offset: 0x16C3A34
+    // Offset: 0x1916804
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Type MemberInfo::get_ReflectedType()
     System::Type* get_ReflectedType();
     // public override System.Type get_FieldType()
-    // Offset: 0x16C3AC0
+    // Offset: 0x1916890
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.Type FieldInfo::get_FieldType()
     System::Type* get_FieldType();
     // public override System.RuntimeFieldHandle get_FieldHandle()
-    // Offset: 0x16C3D5C
+    // Offset: 0x1916B2C
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.RuntimeFieldHandle FieldInfo::get_FieldHandle()
     System::RuntimeFieldHandle get_FieldHandle();
     // public override System.Reflection.FieldAttributes get_Attributes()
-    // Offset: 0x16C3D80
+    // Offset: 0x1916B50
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.Reflection.FieldAttributes FieldInfo::get_Attributes()
     System::Reflection::FieldAttributes get_Attributes();
     // public override System.Object[] GetCustomAttributes(System.Boolean inherit)
-    // Offset: 0x16C3A54
+    // Offset: 0x1916824
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Boolean inherit)
-    ::Array<::Il2CppObject*>* GetCustomAttributes(bool inherit);
+    ::ArrayWrapper<::Il2CppObject*> GetCustomAttributes(bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x16C3A78
+    // Offset: 0x1916848
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
+    ::ArrayWrapper<::Il2CppObject*> GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x16C3A9C
+    // Offset: 0x191686C
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Boolean MemberInfo::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(System::Type* attributeType, bool inherit);
     // public override System.Object GetValue(System.Object obj)
-    // Offset: 0x16C3AE4
+    // Offset: 0x19168B4
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.Object FieldInfo::GetValue(System.Object obj)
     ::Il2CppObject* GetValue(::Il2CppObject* obj);
     // public override System.Void SetValue(System.Object obj, System.Object value, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Globalization.CultureInfo culture)
-    // Offset: 0x16C3BF8
+    // Offset: 0x19169C8
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.Void FieldInfo::SetValue(System.Object obj, System.Object value, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Globalization.CultureInfo culture)
     void SetValue(::Il2CppObject* obj, ::Il2CppObject* value, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, System::Globalization::CultureInfo* culture);
@@ -254,7 +254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationFieldInfo::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Runtime::Serialization::SerializationFieldInfo::*)(bool)>(&System::Runtime::Serialization::SerializationFieldInfo::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Runtime::Serialization::SerializationFieldInfo::*)(bool)>(&System::Runtime::Serialization::SerializationFieldInfo::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationFieldInfo*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inherit});
@@ -263,7 +263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationFieldInfo::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Runtime::Serialization::SerializationFieldInfo::*)(System::Type*, bool)>(&System::Runtime::Serialization::SerializationFieldInfo::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Runtime::Serialization::SerializationFieldInfo::*)(System::Type*, bool)>(&System::Runtime::Serialization::SerializationFieldInfo::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

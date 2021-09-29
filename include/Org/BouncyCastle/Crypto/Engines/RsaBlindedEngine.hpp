@@ -70,26 +70,26 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
     Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IRsa rsa)
-    // Offset: 0x1EC2318
+    // Offset: 0x203F188
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsaBlindedEngine* New_ctor(Org::BouncyCastle::Crypto::IRsa* rsa) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsaBlindedEngine*, creationType>(rsa)));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters param)
-    // Offset: 0x1EC2344
+    // Offset: 0x203F1B4
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* param);
     // public System.Int32 GetInputBlockSize()
-    // Offset: 0x1EC256C
+    // Offset: 0x203F3DC
     int GetInputBlockSize();
     // public System.Int32 GetOutputBlockSize()
-    // Offset: 0x1EC2620
+    // Offset: 0x203F490
     int GetOutputBlockSize();
     // public System.Byte[] ProcessBlock(System.Byte[] inBuf, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x1EC26D4
-    ::Array<uint8_t>* ProcessBlock(::Array<uint8_t>* inBuf, int inOff, int inLen);
+    // Offset: 0x203F544
+    ::ArrayWrapper<uint8_t> ProcessBlock(::ArrayWrapper<uint8_t> inBuf, int inOff, int inLen);
     // public System.Void .ctor()
-    // Offset: 0x1EC22A4
+    // Offset: 0x203F114
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -137,9 +137,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::ProcessBlock
 // Il2CppName: ProcessBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::ProcessBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::ProcessBlock)> {
   static const MethodInfo* get() {
-    static auto* inBuf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* inBuf = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* inLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inBuf, inOff, inLen});

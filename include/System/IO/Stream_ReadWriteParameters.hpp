@@ -10,10 +10,6 @@
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x10
@@ -26,9 +22,9 @@ namespace System::IO {
     // System.Byte[] Buffer
     // Size: 0x8
     // Offset: 0x0
-    ::Array<uint8_t>* Buffer;
+    ::ArrayWrapper<uint8_t> Buffer;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // System.Int32 Offset
     // Size: 0x4
     // Offset: 0x8
@@ -42,13 +38,13 @@ namespace System::IO {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ReadWriteParameters
-    constexpr ReadWriteParameters(::Array<uint8_t>* Buffer_ = {}, int Offset_ = {}, int Count_ = {}) noexcept : Buffer{Buffer_}, Offset{Offset_}, Count{Count_} {}
+    constexpr ReadWriteParameters(::ArrayWrapper<uint8_t> Buffer_ = {}, int Offset_ = {}, int Count_ = {}) noexcept : Buffer{Buffer_}, Offset{Offset_}, Count{Count_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: System.Byte[] Buffer
-    ::Array<uint8_t>*& dyn_Buffer();
+    ::ArrayWrapper<uint8_t>& dyn_Buffer();
     // Get instance field reference: System.Int32 Offset
     int& dyn_Offset();
     // Get instance field reference: System.Int32 Count

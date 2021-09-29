@@ -38,17 +38,17 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector2Int[] _windowResolutions
     // Size: 0x8
     // Offset: 0x30
-    ::Array<UnityEngine::Vector2Int>* windowResolutions;
+    ::ArrayWrapper<UnityEngine::Vector2Int> windowResolutions;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector2Int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector2Int>) == 0x8);
     // Creating value type constructor for type: WindowResolutionSettingsController
-    WindowResolutionSettingsController(GlobalNamespace::Vector2IntSO* windowResolution_ = {}, ::Array<UnityEngine::Vector2Int>* windowResolutions_ = {}) noexcept : windowResolution{windowResolution_}, windowResolutions{windowResolutions_} {}
+    WindowResolutionSettingsController(GlobalNamespace::Vector2IntSO* windowResolution_ = {}, ::ArrayWrapper<UnityEngine::Vector2Int> windowResolutions_ = {}) noexcept : windowResolution{windowResolution_}, windowResolutions{windowResolutions_} {}
     // Get instance field reference: private Vector2IntSO _windowResolution
     GlobalNamespace::Vector2IntSO*& dyn__windowResolution();
     // Get instance field reference: private UnityEngine.Vector2Int[] _windowResolutions
-    ::Array<UnityEngine::Vector2Int>*& dyn__windowResolutions();
+    ::ArrayWrapper<UnityEngine::Vector2Int>& dyn__windowResolutions();
     // public System.Void .ctor()
-    // Offset: 0x12A6514
+    // Offset: 0x1350CCC
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -63,23 +63,23 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<WindowResolutionSettingsController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x12A6104
+    // Offset: 0x13508BC
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x12A6388
+    // Offset: 0x1350B40
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x12A6414
+    // Offset: 0x1350BCC
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::Il2CppString* TextForValue(int idx);
   }; // WindowResolutionSettingsController
   #pragma pack(pop)
-  static check_size<sizeof(WindowResolutionSettingsController), 48 + sizeof(::Array<UnityEngine::Vector2Int>*)> __GlobalNamespace_WindowResolutionSettingsControllerSizeCheck;
+  static check_size<sizeof(WindowResolutionSettingsController), 48 + sizeof(::ArrayWrapper<UnityEngine::Vector2Int>)> __GlobalNamespace_WindowResolutionSettingsControllerSizeCheck;
   static_assert(sizeof(WindowResolutionSettingsController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WindowResolutionSettingsController*, "", "WindowResolutionSettingsController");

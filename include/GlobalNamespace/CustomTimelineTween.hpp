@@ -30,28 +30,28 @@ namespace GlobalNamespace {
     // public UnityEngine.Transform[] transforms
     // Size: 0x8
     // Offset: 0x18
-    ::Array<UnityEngine::Transform*>* transforms;
+    ::ArrayWrapper<UnityEngine::Transform*> transforms;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
     // public UnityEngine.Vector3[] startPositions
     // Size: 0x8
     // Offset: 0x20
-    ::Array<UnityEngine::Vector3>* startPositions;
+    ::ArrayWrapper<UnityEngine::Vector3> startPositions;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
     // Creating value type constructor for type: CustomTimelineTween
-    CustomTimelineTween(::Array<UnityEngine::Transform*>* transforms_ = {}, ::Array<UnityEngine::Vector3>* startPositions_ = {}) noexcept : transforms{transforms_}, startPositions{startPositions_} {}
+    CustomTimelineTween(::ArrayWrapper<UnityEngine::Transform*> transforms_ = {}, ::ArrayWrapper<UnityEngine::Vector3> startPositions_ = {}) noexcept : transforms{transforms_}, startPositions{startPositions_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Transform[] transforms
-    ::Array<UnityEngine::Transform*>*& dyn_transforms();
+    ::ArrayWrapper<UnityEngine::Transform*>& dyn_transforms();
     // Get instance field reference: public UnityEngine.Vector3[] startPositions
-    ::Array<UnityEngine::Vector3>*& dyn_startPositions();
+    ::ArrayWrapper<UnityEngine::Vector3>& dyn_startPositions();
     // private System.Void OnValidate()
-    // Offset: 0x10EAA68
+    // Offset: 0x11A23EC
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0x10EAB4C
+    // Offset: 0x11A24D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     }
   }; // CustomTimelineTween
   #pragma pack(pop)
-  static check_size<sizeof(CustomTimelineTween), 32 + sizeof(::Array<UnityEngine::Vector3>*)> __GlobalNamespace_CustomTimelineTweenSizeCheck;
+  static check_size<sizeof(CustomTimelineTween), 32 + sizeof(::ArrayWrapper<UnityEngine::Vector3>)> __GlobalNamespace_CustomTimelineTweenSizeCheck;
   static_assert(sizeof(CustomTimelineTween) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomTimelineTween*, "", "CustomTimelineTween");

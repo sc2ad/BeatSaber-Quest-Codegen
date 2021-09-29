@@ -71,11 +71,11 @@ namespace GlobalNamespace {
     // private System.String[] <renderModelNames>5__4
     // Size: 0x8
     // Offset: 0x40
-    ::Array<::Il2CppString*>* $renderModelNames$5__4;
+    ::ArrayWrapper<::Il2CppString*> $renderModelNames$5__4;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // Creating value type constructor for type: $SetModelAsync$d__21
-    $SetModelAsync$d__21(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, ::Il2CppString* renderModelName_ = {}, GlobalNamespace::SteamVR_RenderModel* $$4__this_ = {}, GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder* $holder$5__2_ = {}, Valve::VR::CVRRenderModels* $renderModels$5__3_ = {}, ::Array<::Il2CppString*>* $renderModelNames$5__4_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, renderModelName{renderModelName_}, $$4__this{$$4__this_}, $holder$5__2{$holder$5__2_}, $renderModels$5__3{$renderModels$5__3_}, $renderModelNames$5__4{$renderModelNames$5__4_} {}
+    $SetModelAsync$d__21(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, ::Il2CppString* renderModelName_ = {}, GlobalNamespace::SteamVR_RenderModel* $$4__this_ = {}, GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder* $holder$5__2_ = {}, Valve::VR::CVRRenderModels* $renderModels$5__3_ = {}, ::ArrayWrapper<::Il2CppString*> $renderModelNames$5__4_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, renderModelName{renderModelName_}, $$4__this{$$4__this_}, $holder$5__2{$holder$5__2_}, $renderModels$5__3{$renderModels$5__3_}, $renderModelNames$5__4{$renderModelNames$5__4_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -93,35 +93,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private Valve.VR.CVRRenderModels <renderModels>5__3
     Valve::VR::CVRRenderModels*& dyn_$renderModels$5__3();
     // Get instance field reference: private System.String[] <renderModelNames>5__4
-    ::Array<::Il2CppString*>*& dyn_$renderModelNames$5__4();
+    ::ArrayWrapper<::Il2CppString*>& dyn_$renderModelNames$5__4();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1438F14
+    // Offset: 0x1549D64
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1438F7C
+    // Offset: 0x1549DCC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1435C5C
+    // Offset: 0x1546AAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_RenderModel::$SetModelAsync$d__21* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_RenderModel::$SetModelAsync$d__21::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_RenderModel::$SetModelAsync$d__21*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1438594
+    // Offset: 0x15493E4
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1438670
+    // Offset: 0x15494C0
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x14385B0
+    // Offset: 0x1549400
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1438F1C
+    // Offset: 0x1549D6C
     void System_Collections_IEnumerator_Reset();
   }; // SteamVR_RenderModel/<SetModelAsync>d__21
   #pragma pack(pop)
-  static check_size<sizeof(SteamVR_RenderModel::$SetModelAsync$d__21), 64 + sizeof(::Array<::Il2CppString*>*)> __GlobalNamespace_SteamVR_RenderModel_$SetModelAsync$d__21SizeCheck;
+  static check_size<sizeof(SteamVR_RenderModel::$SetModelAsync$d__21), 64 + sizeof(::ArrayWrapper<::Il2CppString*>)> __GlobalNamespace_SteamVR_RenderModel_$SetModelAsync$d__21SizeCheck;
   static_assert(sizeof(SteamVR_RenderModel::$SetModelAsync$d__21) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_RenderModel::$SetModelAsync$d__21*, "", "SteamVR_RenderModel/<SetModelAsync>d__21");

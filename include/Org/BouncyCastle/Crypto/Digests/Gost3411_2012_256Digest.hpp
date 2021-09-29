@@ -29,23 +29,23 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Creating value type constructor for type: Gost3411_2012_256Digest
     Gost3411_2012_256Digest() noexcept {}
     // Get static field: static private readonly System.Byte[] IV
-    static ::Array<uint8_t>* _get_IV();
+    static ::ArrayWrapper<uint8_t> _get_IV();
     // Set static field: static private readonly System.Byte[] IV
-    static void _set_IV(::Array<uint8_t>* value);
+    static void _set_IV(::ArrayWrapper<uint8_t> value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.Gost3411_2012_256Digest other)
-    // Offset: 0x1D6159C
+    // Offset: 0x1F0182C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3411_2012_256Digest* New_ctor(Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3411_2012_256Digest*, creationType>(other)));
     }
     // public override System.String get_AlgorithmName()
-    // Offset: 0x1D614BC
+    // Offset: 0x1F0174C
     // Implemented from: Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
     // Base method: System.String Gost3411_2012Digest::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public System.Void .ctor()
-    // Offset: 0x1D61504
+    // Offset: 0x1F01794
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -54,22 +54,22 @@ namespace Org::BouncyCastle::Crypto::Digests {
       return THROW_UNLESS((::il2cpp_utils::New<Gost3411_2012_256Digest*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D6174C
+    // Offset: 0x1F019DC
     // Implemented from: Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
     // Base method: System.Void Gost3411_2012Digest::.cctor()
     static void _cctor();
     // public override System.Int32 GetDigestSize()
-    // Offset: 0x1D6164C
+    // Offset: 0x1F018DC
     // Implemented from: Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
     // Base method: System.Int32 Gost3411_2012Digest::GetDigestSize()
     int GetDigestSize();
     // public override System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1D61654
+    // Offset: 0x1F018E4
     // Implemented from: Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
     // Base method: System.Int32 Gost3411_2012Digest::DoFinal(System.Byte[] output, System.Int32 outOff)
-    int DoFinal(::Array<uint8_t>* output, int outOff);
+    int DoFinal(::ArrayWrapper<uint8_t> output, int outOff);
     // public override Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x1D616EC
+    // Offset: 0x1F0197C
     // Implemented from: Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
     // Base method: Org.BouncyCastle.Utilities.IMemoable Gost3411_2012Digest::Copy()
     Org::BouncyCastle::Utilities::IMemoable* Copy();
@@ -113,9 +113,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::DoFinal)> {
   static const MethodInfo* get() {
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{output, outOff});
   }

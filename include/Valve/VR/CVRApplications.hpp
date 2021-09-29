@@ -55,104 +55,104 @@ namespace Valve::VR {
     // Get instance field reference: private Valve.VR.IVRApplications FnTable
     Valve::VR::IVRApplications& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x1708584
+    // Offset: 0x1883F80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRApplications* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVRApplications::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRApplications*, creationType>(pInterface)));
     }
     // public Valve.VR.EVRApplicationError AddApplicationManifest(System.String pchApplicationManifestFullPath, System.Boolean bTemporary)
-    // Offset: 0x170868C
+    // Offset: 0x1884088
     Valve::VR::EVRApplicationError AddApplicationManifest(::Il2CppString* pchApplicationManifestFullPath, bool bTemporary);
     // public Valve.VR.EVRApplicationError RemoveApplicationManifest(System.String pchApplicationManifestFullPath)
-    // Offset: 0x1708AD8
+    // Offset: 0x18844D4
     Valve::VR::EVRApplicationError RemoveApplicationManifest(::Il2CppString* pchApplicationManifestFullPath);
     // public System.Boolean IsApplicationInstalled(System.String pchAppKey)
-    // Offset: 0x1708E8C
+    // Offset: 0x1884888
     bool IsApplicationInstalled(::Il2CppString* pchAppKey);
     // public System.UInt32 GetApplicationCount()
-    // Offset: 0x1709244
+    // Offset: 0x1884C40
     uint GetApplicationCount();
     // public Valve.VR.EVRApplicationError GetApplicationKeyByIndex(System.UInt32 unApplicationIndex, System.Text.StringBuilder pchAppKeyBuffer, System.UInt32 unAppKeyBufferLen)
-    // Offset: 0x1709470
+    // Offset: 0x1884E6C
     Valve::VR::EVRApplicationError GetApplicationKeyByIndex(uint unApplicationIndex, System::Text::StringBuilder* pchAppKeyBuffer, uint unAppKeyBufferLen);
     // public Valve.VR.EVRApplicationError GetApplicationKeyByProcessId(System.UInt32 unProcessId, System.Text.StringBuilder pchAppKeyBuffer, System.UInt32 unAppKeyBufferLen)
-    // Offset: 0x1709728
+    // Offset: 0x1885124
     Valve::VR::EVRApplicationError GetApplicationKeyByProcessId(uint unProcessId, System::Text::StringBuilder* pchAppKeyBuffer, uint unAppKeyBufferLen);
     // public Valve.VR.EVRApplicationError LaunchApplication(System.String pchAppKey)
-    // Offset: 0x17099E0
+    // Offset: 0x18853DC
     Valve::VR::EVRApplicationError LaunchApplication(::Il2CppString* pchAppKey);
     // public Valve.VR.EVRApplicationError LaunchTemplateApplication(System.String pchTemplateAppKey, System.String pchNewAppKey, Valve.VR.AppOverrideKeys_t[] pKeys)
-    // Offset: 0x1709D94
-    Valve::VR::EVRApplicationError LaunchTemplateApplication(::Il2CppString* pchTemplateAppKey, ::Il2CppString* pchNewAppKey, ::Array<Valve::VR::AppOverrideKeys_t>* pKeys);
+    // Offset: 0x1885790
+    Valve::VR::EVRApplicationError LaunchTemplateApplication(::Il2CppString* pchTemplateAppKey, ::Il2CppString* pchNewAppKey, ::ArrayWrapper<Valve::VR::AppOverrideKeys_t> pKeys);
     // public Valve.VR.EVRApplicationError LaunchApplicationFromMimeType(System.String pchMimeType, System.String pchArgs)
-    // Offset: 0x170A1F8
+    // Offset: 0x1885BF4
     Valve::VR::EVRApplicationError LaunchApplicationFromMimeType(::Il2CppString* pchMimeType, ::Il2CppString* pchArgs);
     // public Valve.VR.EVRApplicationError LaunchDashboardOverlay(System.String pchAppKey)
-    // Offset: 0x170A600
+    // Offset: 0x1885FFC
     Valve::VR::EVRApplicationError LaunchDashboardOverlay(::Il2CppString* pchAppKey);
     // public System.Boolean CancelApplicationLaunch(System.String pchAppKey)
-    // Offset: 0x170A9B4
+    // Offset: 0x18863B0
     bool CancelApplicationLaunch(::Il2CppString* pchAppKey);
     // public Valve.VR.EVRApplicationError IdentifyApplication(System.UInt32 unProcessId, System.String pchAppKey)
-    // Offset: 0x170AD6C
+    // Offset: 0x1886768
     Valve::VR::EVRApplicationError IdentifyApplication(uint unProcessId, ::Il2CppString* pchAppKey);
     // public System.UInt32 GetApplicationProcessId(System.String pchAppKey)
-    // Offset: 0x170B008
+    // Offset: 0x1886A04
     uint GetApplicationProcessId(::Il2CppString* pchAppKey);
     // public System.String GetApplicationsErrorNameFromEnum(Valve.VR.EVRApplicationError error)
-    // Offset: 0x170B3BC
+    // Offset: 0x1886DB8
     ::Il2CppString* GetApplicationsErrorNameFromEnum(Valve::VR::EVRApplicationError error);
     // public System.UInt32 GetApplicationPropertyString(System.String pchAppKey, Valve.VR.EVRApplicationProperty eProperty, System.Text.StringBuilder pchPropertyValueBuffer, System.UInt32 unPropertyValueBufferLen, ref Valve.VR.EVRApplicationError peError)
-    // Offset: 0x170B6C4
+    // Offset: 0x18870C0
     uint GetApplicationPropertyString(::Il2CppString* pchAppKey, Valve::VR::EVRApplicationProperty eProperty, System::Text::StringBuilder* pchPropertyValueBuffer, uint unPropertyValueBufferLen, ByRef<Valve::VR::EVRApplicationError> peError);
     // public System.Boolean GetApplicationPropertyBool(System.String pchAppKey, Valve.VR.EVRApplicationProperty eProperty, ref Valve.VR.EVRApplicationError peError)
-    // Offset: 0x170BB6C
+    // Offset: 0x1887568
     bool GetApplicationPropertyBool(::Il2CppString* pchAppKey, Valve::VR::EVRApplicationProperty eProperty, ByRef<Valve::VR::EVRApplicationError> peError);
     // public System.UInt64 GetApplicationPropertyUint64(System.String pchAppKey, Valve.VR.EVRApplicationProperty eProperty, ref Valve.VR.EVRApplicationError peError)
-    // Offset: 0x170BFC4
+    // Offset: 0x18879C0
     uint64_t GetApplicationPropertyUint64(::Il2CppString* pchAppKey, Valve::VR::EVRApplicationProperty eProperty, ByRef<Valve::VR::EVRApplicationError> peError);
     // public Valve.VR.EVRApplicationError SetApplicationAutoLaunch(System.String pchAppKey, System.Boolean bAutoLaunch)
-    // Offset: 0x170C418
+    // Offset: 0x1887E14
     Valve::VR::EVRApplicationError SetApplicationAutoLaunch(::Il2CppString* pchAppKey, bool bAutoLaunch);
     // public System.Boolean GetApplicationAutoLaunch(System.String pchAppKey)
-    // Offset: 0x170C864
+    // Offset: 0x1888260
     bool GetApplicationAutoLaunch(::Il2CppString* pchAppKey);
     // public Valve.VR.EVRApplicationError SetDefaultApplicationForMimeType(System.String pchAppKey, System.String pchMimeType)
-    // Offset: 0x170CC1C
+    // Offset: 0x1888618
     Valve::VR::EVRApplicationError SetDefaultApplicationForMimeType(::Il2CppString* pchAppKey, ::Il2CppString* pchMimeType);
     // public System.Boolean GetDefaultApplicationForMimeType(System.String pchMimeType, System.Text.StringBuilder pchAppKeyBuffer, System.UInt32 unAppKeyBufferLen)
-    // Offset: 0x170D024
+    // Offset: 0x1888A20
     bool GetDefaultApplicationForMimeType(::Il2CppString* pchMimeType, System::Text::StringBuilder* pchAppKeyBuffer, uint unAppKeyBufferLen);
     // public System.Boolean GetApplicationSupportedMimeTypes(System.String pchAppKey, System.Text.StringBuilder pchMimeTypesBuffer, System.UInt32 unMimeTypesBuffer)
-    // Offset: 0x170D458
+    // Offset: 0x1888E54
     bool GetApplicationSupportedMimeTypes(::Il2CppString* pchAppKey, System::Text::StringBuilder* pchMimeTypesBuffer, uint unMimeTypesBuffer);
     // public System.UInt32 GetApplicationsThatSupportMimeType(System.String pchMimeType, System.Text.StringBuilder pchAppKeysThatSupportBuffer, System.UInt32 unAppKeysThatSupportBuffer)
-    // Offset: 0x170D88C
+    // Offset: 0x1889288
     uint GetApplicationsThatSupportMimeType(::Il2CppString* pchMimeType, System::Text::StringBuilder* pchAppKeysThatSupportBuffer, uint unAppKeysThatSupportBuffer);
     // public System.UInt32 GetApplicationLaunchArguments(System.UInt32 unHandle, System.Text.StringBuilder pchArgs, System.UInt32 unArgs)
-    // Offset: 0x170DCBC
+    // Offset: 0x18896B8
     uint GetApplicationLaunchArguments(uint unHandle, System::Text::StringBuilder* pchArgs, uint unArgs);
     // public Valve.VR.EVRApplicationError GetStartingApplication(System.Text.StringBuilder pchAppKeyBuffer, System.UInt32 unAppKeyBufferLen)
-    // Offset: 0x170DF74
+    // Offset: 0x1889970
     Valve::VR::EVRApplicationError GetStartingApplication(System::Text::StringBuilder* pchAppKeyBuffer, uint unAppKeyBufferLen);
     // public Valve.VR.EVRApplicationTransitionState GetTransitionState()
-    // Offset: 0x170E3A0
+    // Offset: 0x1889D9C
     Valve::VR::EVRApplicationTransitionState GetTransitionState();
     // public Valve.VR.EVRApplicationError PerformApplicationPrelaunchCheck(System.String pchAppKey)
-    // Offset: 0x170E5CC
+    // Offset: 0x1889FC8
     Valve::VR::EVRApplicationError PerformApplicationPrelaunchCheck(::Il2CppString* pchAppKey);
     // public System.String GetApplicationsTransitionStateNameFromEnum(Valve.VR.EVRApplicationTransitionState state)
-    // Offset: 0x170E980
+    // Offset: 0x188A37C
     ::Il2CppString* GetApplicationsTransitionStateNameFromEnum(Valve::VR::EVRApplicationTransitionState state);
     // public System.Boolean IsQuitUserPromptRequested()
-    // Offset: 0x170EC88
+    // Offset: 0x188A684
     bool IsQuitUserPromptRequested();
     // public Valve.VR.EVRApplicationError LaunchInternalProcess(System.String pchBinaryPath, System.String pchArguments, System.String pchWorkingDirectory)
-    // Offset: 0x170EEB8
+    // Offset: 0x188A8B4
     Valve::VR::EVRApplicationError LaunchInternalProcess(::Il2CppString* pchBinaryPath, ::Il2CppString* pchArguments, ::Il2CppString* pchWorkingDirectory);
     // public System.UInt32 GetCurrentSceneProcessId()
-    // Offset: 0x170F2E8
+    // Offset: 0x188ACE4
     uint GetCurrentSceneProcessId();
   }; // Valve.VR.CVRApplications
   #pragma pack(pop)
@@ -235,11 +235,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVRApplications::LaunchTemplateApplication
 // Il2CppName: LaunchTemplateApplication
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (Valve::VR::CVRApplications::*)(::Il2CppString*, ::Il2CppString*, ::Array<Valve::VR::AppOverrideKeys_t>*)>(&Valve::VR::CVRApplications::LaunchTemplateApplication)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (Valve::VR::CVRApplications::*)(::Il2CppString*, ::Il2CppString*, ::ArrayWrapper<Valve::VR::AppOverrideKeys_t>)>(&Valve::VR::CVRApplications::LaunchTemplateApplication)> {
   static const MethodInfo* get() {
     static auto* pchTemplateAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchNewAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* pKeys = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "AppOverrideKeys_t"), 1)->byval_arg;
+    static auto* pKeys = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Valve.VR", "AppOverrideKeys_t")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRApplications*), "LaunchTemplateApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchTemplateAppKey, pchNewAppKey, pKeys});
   }
 };

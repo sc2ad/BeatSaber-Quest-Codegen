@@ -58,7 +58,7 @@ namespace TMPro {
     // Get instance field reference: public System.Int32 materialHashCode
     int& dyn_materialHashCode();
     // public System.Void .ctor()
-    // Offset: 0x110D000
+    // Offset: 0x11EEDB4
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

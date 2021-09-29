@@ -53,9 +53,9 @@ namespace MasterServer {
     // private readonly ByteArrayNetSerializable[] _certificateList
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::ByteArrayNetSerializable*>* certificateList;
+    ::ArrayWrapper<GlobalNamespace::ByteArrayNetSerializable*> certificateList;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::ByteArrayNetSerializable*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::ByteArrayNetSerializable*>) == 0x8);
     // private System.Int32 _certificateCount
     // Size: 0x4
     // Offset: 0x20
@@ -63,26 +63,26 @@ namespace MasterServer {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ServerCertificateRequest
-    ServerCertificateRequest(::Array<GlobalNamespace::ByteArrayNetSerializable*>* certificateList_ = {}, int certificateCount_ = {}) noexcept : certificateList{certificateList_}, certificateCount{certificateCount_} {}
+    ServerCertificateRequest(::ArrayWrapper<GlobalNamespace::ByteArrayNetSerializable*> certificateList_ = {}, int certificateCount_ = {}) noexcept : certificateList{certificateList_}, certificateCount{certificateCount_} {}
     // Creating interface conversion operator: operator MasterServer::IHandshakeServerToClientMessage
     operator MasterServer::IHandshakeServerToClientMessage() noexcept {
       return *reinterpret_cast<MasterServer::IHandshakeServerToClientMessage*>(this);
     }
     // Get instance field reference: private readonly ByteArrayNetSerializable[] _certificateList
-    ::Array<GlobalNamespace::ByteArrayNetSerializable*>*& dyn__certificateList();
+    ::ArrayWrapper<GlobalNamespace::ByteArrayNetSerializable*>& dyn__certificateList();
     // Get instance field reference: private System.Int32 _certificateCount
     int& dyn__certificateCount();
     // static public PacketPool`1<MasterServer.ServerCertificateRequest> get_pool()
-    // Offset: 0x121E3C0
+    // Offset: 0x12DD760
     static GlobalNamespace::PacketPool_1<MasterServer::ServerCertificateRequest*>* get_pool();
     // public System.Collections.Generic.IEnumerable`1<System.Byte[]> get_certificateList()
-    // Offset: 0x1218E1C
-    System::Collections::Generic::IEnumerable_1<::Array<uint8_t>*>* get_certificateList();
+    // Offset: 0x12D81BC
+    System::Collections::Generic::IEnumerable_1<::ArrayWrapper<uint8_t>>* get_certificateList();
     // public MasterServer.ServerCertificateRequest Init(System.Collections.Generic.IEnumerable`1<System.Byte[]> certificateList)
-    // Offset: 0x1224958
-    MasterServer::ServerCertificateRequest* Init(System::Collections::Generic::IEnumerable_1<::Array<uint8_t>*>* certificateList);
+    // Offset: 0x12E3D0C
+    MasterServer::ServerCertificateRequest* Init(System::Collections::Generic::IEnumerable_1<::ArrayWrapper<uint8_t>>* certificateList);
     // public System.Void .ctor()
-    // Offset: 0x1224F5C
+    // Offset: 0x12E4310
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -92,17 +92,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<ServerCertificateRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1224C9C
+    // Offset: 0x12E4050
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1224D38
+    // Offset: 0x12E40EC
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x1224EAC
+    // Offset: 0x12E4260
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: MasterServer::ServerCertificateRequest::get_certificateList
 // Il2CppName: get_certificateList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Array<uint8_t>*>* (MasterServer::ServerCertificateRequest::*)()>(&MasterServer::ServerCertificateRequest::get_certificateList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::ArrayWrapper<uint8_t>>* (MasterServer::ServerCertificateRequest::*)()>(&MasterServer::ServerCertificateRequest::get_certificateList)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerCertificateRequest*), "get_certificateList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -132,9 +132,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: MasterServer::ServerCertificateRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ServerCertificateRequest* (MasterServer::ServerCertificateRequest::*)(System::Collections::Generic::IEnumerable_1<::Array<uint8_t>*>*)>(&MasterServer::ServerCertificateRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ServerCertificateRequest* (MasterServer::ServerCertificateRequest::*)(System::Collections::Generic::IEnumerable_1<::ArrayWrapper<uint8_t>>*)>(&MasterServer::ServerCertificateRequest::Init)> {
   static const MethodInfo* get() {
-    static auto* certificateList = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)})->byval_arg;
+    static auto* certificateList = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerCertificateRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{certificateList});
   }
 };

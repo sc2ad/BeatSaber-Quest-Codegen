@@ -55,9 +55,9 @@ namespace HMUI {
     // private HMUI.ScrollViewItemForVisibilityController[] _items
     // Size: 0x8
     // Offset: 0x28
-    ::Array<HMUI::ScrollViewItemForVisibilityController*>* items;
+    ::ArrayWrapper<HMUI::ScrollViewItemForVisibilityController*> items;
     // Field size check
-    static_assert(sizeof(::Array<HMUI::ScrollViewItemForVisibilityController*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<HMUI::ScrollViewItemForVisibilityController*>) == 0x8);
     // private System.Single _lastContentAnchoredPositionY
     // Size: 0x4
     // Offset: 0x30
@@ -69,21 +69,21 @@ namespace HMUI {
     // private UnityEngine.Vector3[] _viewportWorldCorners
     // Size: 0x8
     // Offset: 0x38
-    ::Array<UnityEngine::Vector3>* viewportWorldCorners;
+    ::ArrayWrapper<UnityEngine::Vector3> viewportWorldCorners;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
     // private System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single>[] _upperItemsCornes
     // Size: 0x8
     // Offset: 0x40
-    ::Array<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>* upperItemsCornes;
+    ::ArrayWrapper<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*> upperItemsCornes;
     // Field size check
-    static_assert(sizeof(::Array<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>) == 0x8);
     // private System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single>[] _lowerItemsCornes
     // Size: 0x8
     // Offset: 0x48
-    ::Array<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>* lowerItemsCornes;
+    ::ArrayWrapper<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*> lowerItemsCornes;
     // Field size check
-    static_assert(sizeof(::Array<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>) == 0x8);
     // private System.Int32 _lowerLastVisibleIndex
     // Size: 0x4
     // Offset: 0x50
@@ -109,7 +109,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: ScrollViewItemsVisibilityController
-    ScrollViewItemsVisibilityController(UnityEngine::RectTransform* viewport_ = {}, UnityEngine::RectTransform* contentRectTransform_ = {}, ::Array<HMUI::ScrollViewItemForVisibilityController*>* items_ = {}, float lastContentAnchoredPositionY_ = {}, ::Array<UnityEngine::Vector3>* viewportWorldCorners_ = {}, ::Array<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>* upperItemsCornes_ = {}, ::Array<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>* lowerItemsCornes_ = {}, int lowerLastVisibleIndex_ = {}, int upperLastVisibleIndex_ = {}, float contentMaxY_ = {}, float contentMinY_ = {}) noexcept : viewport{viewport_}, contentRectTransform{contentRectTransform_}, items{items_}, lastContentAnchoredPositionY{lastContentAnchoredPositionY_}, viewportWorldCorners{viewportWorldCorners_}, upperItemsCornes{upperItemsCornes_}, lowerItemsCornes{lowerItemsCornes_}, lowerLastVisibleIndex{lowerLastVisibleIndex_}, upperLastVisibleIndex{upperLastVisibleIndex_}, contentMaxY{contentMaxY_}, contentMinY{contentMinY_} {}
+    ScrollViewItemsVisibilityController(UnityEngine::RectTransform* viewport_ = {}, UnityEngine::RectTransform* contentRectTransform_ = {}, ::ArrayWrapper<HMUI::ScrollViewItemForVisibilityController*> items_ = {}, float lastContentAnchoredPositionY_ = {}, ::ArrayWrapper<UnityEngine::Vector3> viewportWorldCorners_ = {}, ::ArrayWrapper<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*> upperItemsCornes_ = {}, ::ArrayWrapper<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*> lowerItemsCornes_ = {}, int lowerLastVisibleIndex_ = {}, int upperLastVisibleIndex_ = {}, float contentMaxY_ = {}, float contentMinY_ = {}) noexcept : viewport{viewport_}, contentRectTransform{contentRectTransform_}, items{items_}, lastContentAnchoredPositionY{lastContentAnchoredPositionY_}, viewportWorldCorners{viewportWorldCorners_}, upperItemsCornes{upperItemsCornes_}, lowerItemsCornes{lowerItemsCornes_}, lowerLastVisibleIndex{lowerLastVisibleIndex_}, upperLastVisibleIndex{upperLastVisibleIndex_}, contentMaxY{contentMaxY_}, contentMinY{contentMinY_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.RectTransform _viewport
@@ -117,15 +117,15 @@ namespace HMUI {
     // Get instance field reference: private UnityEngine.RectTransform _contentRectTransform
     UnityEngine::RectTransform*& dyn__contentRectTransform();
     // Get instance field reference: private HMUI.ScrollViewItemForVisibilityController[] _items
-    ::Array<HMUI::ScrollViewItemForVisibilityController*>*& dyn__items();
+    ::ArrayWrapper<HMUI::ScrollViewItemForVisibilityController*>& dyn__items();
     // Get instance field reference: private System.Single _lastContentAnchoredPositionY
     float& dyn__lastContentAnchoredPositionY();
     // Get instance field reference: private UnityEngine.Vector3[] _viewportWorldCorners
-    ::Array<UnityEngine::Vector3>*& dyn__viewportWorldCorners();
+    ::ArrayWrapper<UnityEngine::Vector3>& dyn__viewportWorldCorners();
     // Get instance field reference: private System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single>[] _upperItemsCornes
-    ::Array<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>*& dyn__upperItemsCornes();
+    ::ArrayWrapper<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>& dyn__upperItemsCornes();
     // Get instance field reference: private System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single>[] _lowerItemsCornes
-    ::Array<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>*& dyn__lowerItemsCornes();
+    ::ArrayWrapper<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>& dyn__lowerItemsCornes();
     // Get instance field reference: private System.Int32 _lowerLastVisibleIndex
     int& dyn__lowerLastVisibleIndex();
     // Get instance field reference: private System.Int32 _upperLastVisibleIndex
@@ -135,19 +135,19 @@ namespace HMUI {
     // Get instance field reference: private System.Single _contentMinY
     float& dyn__contentMinY();
     // protected System.Void Start()
-    // Offset: 0x1315B28
+    // Offset: 0x14180D8
     void Start();
     // protected System.Void Update()
-    // Offset: 0x13161B8
+    // Offset: 0x1418768
     void Update();
     // private System.Void UpdateVisibilityUpDirection(System.Single newContentAnchoredPositionY)
-    // Offset: 0x1316000
+    // Offset: 0x14185B0
     void UpdateVisibilityUpDirection(float newContentAnchoredPositionY);
     // private System.Void UpdateVisibilityDownDirection(System.Single newContentAnchoredPositionY)
-    // Offset: 0x13162A8
+    // Offset: 0x1418858
     void UpdateVisibilityDownDirection(float newContentAnchoredPositionY);
     // public System.Void .ctor()
-    // Offset: 0x131644C
+    // Offset: 0x14189FC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

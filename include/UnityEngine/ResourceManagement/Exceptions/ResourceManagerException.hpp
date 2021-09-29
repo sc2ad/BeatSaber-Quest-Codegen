@@ -30,7 +30,7 @@ namespace UnityEngine::ResourceManagement::Exceptions {
     // Creating value type constructor for type: ResourceManagerException
     ResourceManagerException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x19ED6F8
+    // Offset: 0x1B625A0
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -40,7 +40,7 @@ namespace UnityEngine::ResourceManagement::Exceptions {
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManagerException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x19ED760
+    // Offset: 0x1B62608
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -49,7 +49,7 @@ namespace UnityEngine::ResourceManagement::Exceptions {
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManagerException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x19ED7D8
+    // Offset: 0x1B62680
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -58,7 +58,7 @@ namespace UnityEngine::ResourceManagement::Exceptions {
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManagerException*, creationType>(message, innerException)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo message, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x19ED858
+    // Offset: 0x1B62700
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo message, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

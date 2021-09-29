@@ -25,24 +25,24 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Creating value type constructor for type: Threefish512Cipher
     Threefish512Cipher() noexcept {}
     // System.Void .ctor(System.UInt64[] kw, System.UInt64[] t)
-    // Offset: 0x1ECC570
+    // Offset: 0x20493E0
     // Implemented from: Org.BouncyCastle.Crypto.Engines.ThreefishEngine/Org.BouncyCastle.Crypto.Engines.ThreefishCipher
     // Base method: System.Void ThreefishCipher::.ctor(System.UInt64[] kw, System.UInt64[] t)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ThreefishEngine::Threefish512Cipher* New_ctor(::Array<uint64_t>* kw, ::Array<uint64_t>* t) {
+    static ThreefishEngine::Threefish512Cipher* New_ctor(::ArrayWrapper<uint64_t> kw, ::ArrayWrapper<uint64_t> t) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Threefish512Cipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreefishEngine::Threefish512Cipher*, creationType>(kw, t)));
     }
     // override System.Void EncryptBlock(System.UInt64[] block, System.UInt64[] outWords)
-    // Offset: 0x1ECF1A8
+    // Offset: 0x204C018
     // Implemented from: Org.BouncyCastle.Crypto.Engines.ThreefishEngine/Org.BouncyCastle.Crypto.Engines.ThreefishCipher
     // Base method: System.Void ThreefishCipher::EncryptBlock(System.UInt64[] block, System.UInt64[] outWords)
-    void EncryptBlock(::Array<uint64_t>* block, ::Array<uint64_t>* outWords);
+    void EncryptBlock(::ArrayWrapper<uint64_t> block, ::ArrayWrapper<uint64_t> outWords);
     // override System.Void DecryptBlock(System.UInt64[] block, System.UInt64[] state)
-    // Offset: 0x1ECF710
+    // Offset: 0x204C580
     // Implemented from: Org.BouncyCastle.Crypto.Engines.ThreefishEngine/Org.BouncyCastle.Crypto.Engines.ThreefishCipher
     // Base method: System.Void ThreefishCipher::DecryptBlock(System.UInt64[] block, System.UInt64[] state)
-    void DecryptBlock(::Array<uint64_t>* block, ::Array<uint64_t>* state);
+    void DecryptBlock(::ArrayWrapper<uint64_t> block, ::ArrayWrapper<uint64_t> state);
   }; // Org.BouncyCastle.Crypto.Engines.ThreefishEngine/Org.BouncyCastle.Crypto.Engines.Threefish512Cipher
   #pragma pack(pop)
 }
@@ -55,20 +55,20 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Thre
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Threefish512Cipher::EncryptBlock
 // Il2CppName: EncryptBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Threefish512Cipher::*)(::Array<uint64_t>*, ::Array<uint64_t>*)>(&Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Threefish512Cipher::EncryptBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Threefish512Cipher::*)(::ArrayWrapper<uint64_t>, ::ArrayWrapper<uint64_t>)>(&Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Threefish512Cipher::EncryptBlock)> {
   static const MethodInfo* get() {
-    static auto* block = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
-    static auto* outWords = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
+    static auto* block = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt64")), 1)->byval_arg;
+    static auto* outWords = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt64")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Threefish512Cipher*), "EncryptBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{block, outWords});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Threefish512Cipher::DecryptBlock
 // Il2CppName: DecryptBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Threefish512Cipher::*)(::Array<uint64_t>*, ::Array<uint64_t>*)>(&Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Threefish512Cipher::DecryptBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Threefish512Cipher::*)(::ArrayWrapper<uint64_t>, ::ArrayWrapper<uint64_t>)>(&Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Threefish512Cipher::DecryptBlock)> {
   static const MethodInfo* get() {
-    static auto* block = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
-    static auto* state = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
+    static auto* block = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt64")), 1)->byval_arg;
+    static auto* state = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt64")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Threefish512Cipher*), "DecryptBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{block, state});
   }
 };

@@ -31,13 +31,13 @@ namespace Org::BouncyCastle::Asn1 {
     // private System.Byte[] zeroBytes
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* zeroBytes;
+    ::ArrayWrapper<uint8_t> zeroBytes;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: DerNull
-    DerNull(::Array<uint8_t>* zeroBytes_ = {}) noexcept : zeroBytes{zeroBytes_} {}
-    // Creating conversion operator: operator ::Array<uint8_t>*
-    constexpr operator ::Array<uint8_t>*() const noexcept {
+    DerNull(::ArrayWrapper<uint8_t> zeroBytes_ = {}) noexcept : zeroBytes{zeroBytes_} {}
+    // Creating conversion operator: operator ::ArrayWrapper<uint8_t>
+    constexpr operator ::ArrayWrapper<uint8_t>() const noexcept {
       return zeroBytes;
     }
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerNull Instance
@@ -45,35 +45,35 @@ namespace Org::BouncyCastle::Asn1 {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerNull Instance
     static void _set_Instance(Org::BouncyCastle::Asn1::DerNull* value);
     // Get instance field reference: private System.Byte[] zeroBytes
-    ::Array<uint8_t>*& dyn_zeroBytes();
+    ::ArrayWrapper<uint8_t>& dyn_zeroBytes();
     // protected internal System.Void .ctor(System.Int32 dummy)
-    // Offset: 0x173F284
+    // Offset: 0x18F0A5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerNull* New_ctor(int dummy) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerNull::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerNull*, creationType>(dummy)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x173F390
+    // Offset: 0x18F0B68
     static void _cctor();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x173F2E4
+    // Offset: 0x18F0ABC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x173F308
+    // Offset: 0x18F0AE0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x173F388
+    // Offset: 0x18F0B60
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
   }; // Org.BouncyCastle.Asn1.DerNull
   #pragma pack(pop)
-  static check_size<sizeof(DerNull), 16 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Asn1_DerNullSizeCheck;
+  static check_size<sizeof(DerNull), 16 + sizeof(::ArrayWrapper<uint8_t>)> __Org_BouncyCastle_Asn1_DerNullSizeCheck;
   static_assert(sizeof(DerNull) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerNull*, "Org.BouncyCastle.Asn1", "DerNull");

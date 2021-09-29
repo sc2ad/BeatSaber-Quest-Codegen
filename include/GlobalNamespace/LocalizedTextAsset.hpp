@@ -34,9 +34,9 @@ namespace GlobalNamespace {
     // private LocalizedTextAsset/TextInfo[] _textInfos
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::LocalizedTextAsset::TextInfo*>* textInfos;
+    ::ArrayWrapper<GlobalNamespace::LocalizedTextAsset::TextInfo*> textInfos;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::LocalizedTextAsset::TextInfo*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::LocalizedTextAsset::TextInfo*>) == 0x8);
     // private LocalizedTextAsset/TextInfo _lastTextInfo
     // Size: 0x8
     // Offset: 0x20
@@ -44,21 +44,21 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalizedTextAsset::TextInfo*) == 0x8);
     // Creating value type constructor for type: LocalizedTextAsset
-    LocalizedTextAsset(::Array<GlobalNamespace::LocalizedTextAsset::TextInfo*>* textInfos_ = {}, GlobalNamespace::LocalizedTextAsset::TextInfo* lastTextInfo_ = {}) noexcept : textInfos{textInfos_}, lastTextInfo{lastTextInfo_} {}
+    LocalizedTextAsset(::ArrayWrapper<GlobalNamespace::LocalizedTextAsset::TextInfo*> textInfos_ = {}, GlobalNamespace::LocalizedTextAsset::TextInfo* lastTextInfo_ = {}) noexcept : textInfos{textInfos_}, lastTextInfo{lastTextInfo_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private LocalizedTextAsset/TextInfo[] _textInfos
-    ::Array<GlobalNamespace::LocalizedTextAsset::TextInfo*>*& dyn__textInfos();
+    ::ArrayWrapper<GlobalNamespace::LocalizedTextAsset::TextInfo*>& dyn__textInfos();
     // Get instance field reference: private LocalizedTextAsset/TextInfo _lastTextInfo
     GlobalNamespace::LocalizedTextAsset::TextInfo*& dyn__lastTextInfo();
     // public LocalizedTextAsset/TextInfo[] get_textInfos()
-    // Offset: 0x11A0378
-    ::Array<GlobalNamespace::LocalizedTextAsset::TextInfo*>* get_textInfos();
+    // Offset: 0x1260180
+    ::ArrayWrapper<GlobalNamespace::LocalizedTextAsset::TextInfo*> get_textInfos();
     // public System.String get_localizedText()
-    // Offset: 0x11A0380
+    // Offset: 0x1260188
     ::Il2CppString* get_localizedText();
     // public System.Void .ctor()
-    // Offset: 0x11A0680
+    // Offset: 0x1260488
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -78,7 +78,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedTextAsset*, "", "LocalizedTextA
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedTextAsset::get_textInfos
 // Il2CppName: get_textInfos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::LocalizedTextAsset::TextInfo*>* (GlobalNamespace::LocalizedTextAsset::*)()>(&GlobalNamespace::LocalizedTextAsset::get_textInfos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::LocalizedTextAsset::TextInfo*> (GlobalNamespace::LocalizedTextAsset::*)()>(&GlobalNamespace::LocalizedTextAsset::get_textInfos)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedTextAsset*), "get_textInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

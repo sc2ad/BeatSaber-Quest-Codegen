@@ -95,7 +95,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapSaveData
     BeatmapSaveData(::Il2CppString* version_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::EventData*>* events_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::NoteData*>* notes_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::WaypointData*>* waypoints_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::ObstacleData*>* obstacles_ = {}, GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData* specialEventsKeywordFilters_ = {}) noexcept : version{version_}, events{events_}, notes{notes_}, waypoints{waypoints_}, obstacles{obstacles_}, specialEventsKeywordFilters{specialEventsKeywordFilters_} {}
     // static field const value: static private System.String kCurrentVersion
-    static constexpr const char* kCurrentVersion = "2.4.0";
+    static constexpr const char* kCurrentVersion = "2.5.0";
     // Get static field: static private System.String kCurrentVersion
     static ::Il2CppString* _get_kCurrentVersion();
     // Set static field: static private System.String kCurrentVersion
@@ -113,42 +113,45 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapSaveData/SpecialEventKeywordFiltersData _specialEventsKeywordFilters
     GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData*& dyn__specialEventsKeywordFilters();
     // public System.String get_version()
-    // Offset: 0x10D5F90
+    // Offset: 0x12A7568
     ::Il2CppString* get_version();
     // public System.Collections.Generic.List`1<BeatmapSaveData/EventData> get_events()
-    // Offset: 0x10D5F98
+    // Offset: 0x12A7570
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::EventData*>* get_events();
     // public System.Collections.Generic.List`1<BeatmapSaveData/NoteData> get_notes()
-    // Offset: 0x10D5FA0
+    // Offset: 0x12A7578
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::NoteData*>* get_notes();
     // public System.Collections.Generic.List`1<BeatmapSaveData/WaypointData> get_waypoints()
-    // Offset: 0x10D5FA8
+    // Offset: 0x12A7580
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::WaypointData*>* get_waypoints();
     // public System.Collections.Generic.List`1<BeatmapSaveData/ObstacleData> get_obstacles()
-    // Offset: 0x10D5FB0
+    // Offset: 0x12A7588
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::ObstacleData*>* get_obstacles();
     // public BeatmapSaveData/SpecialEventKeywordFiltersData get_specialEventsKeywordFilters()
-    // Offset: 0x10D5FB8
+    // Offset: 0x12A7590
     GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData* get_specialEventsKeywordFilters();
     // public System.Void .ctor(System.Collections.Generic.List`1<BeatmapSaveData/EventData> events, System.Collections.Generic.List`1<BeatmapSaveData/NoteData> notes, System.Collections.Generic.List`1<BeatmapSaveData/WaypointData> waypoints, System.Collections.Generic.List`1<BeatmapSaveData/ObstacleData> obstacles, BeatmapSaveData/SpecialEventKeywordFiltersData specialEventsKeywordFilters)
-    // Offset: 0x10D5FC0
+    // Offset: 0x12A7598
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData* New_ctor(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::EventData*>* events, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::NoteData*>* notes, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::WaypointData*>* waypoints, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::ObstacleData*>* obstacles, GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData* specialEventsKeywordFilters) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapSaveData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData*, creationType>(events, notes, waypoints, obstacles, specialEventsKeywordFilters)));
     }
     // public System.Byte[] SerializeToBinary()
-    // Offset: 0x10D6050
-    ::Array<uint8_t>* SerializeToBinary();
+    // Offset: 0x12A7628
+    ::ArrayWrapper<uint8_t> SerializeToBinary();
     // static public BeatmapSaveData DeserializeFromFromBinary(System.Byte[] data)
-    // Offset: 0x10D61D0
-    static GlobalNamespace::BeatmapSaveData* DeserializeFromFromBinary(::Array<uint8_t>* data);
+    // Offset: 0x12A77A8
+    static GlobalNamespace::BeatmapSaveData* DeserializeFromFromBinary(::ArrayWrapper<uint8_t> data);
     // public System.String SerializeToJSONString()
-    // Offset: 0x10D6360
+    // Offset: 0x12A7938
     ::Il2CppString* SerializeToJSONString();
     // static public BeatmapSaveData DeserializeFromJSONString(System.String stringData)
-    // Offset: 0x10D6368
+    // Offset: 0x12A7940
     static GlobalNamespace::BeatmapSaveData* DeserializeFromJSONString(::Il2CppString* stringData);
+    // static private System.Void ConvertBeatmapSaveDataPreV2_5_0(BeatmapSaveData beatmapSaveData)
+    // Offset: 0x12A7A38
+    static void ConvertBeatmapSaveDataPreV2_5_0(GlobalNamespace::BeatmapSaveData* beatmapSaveData);
   }; // BeatmapSaveData
   #pragma pack(pop)
   static check_size<sizeof(BeatmapSaveData), 56 + sizeof(GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData*)> __GlobalNamespace_BeatmapSaveDataSizeCheck;
@@ -211,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::SerializeToBinary
 // Il2CppName: SerializeToBinary
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (GlobalNamespace::BeatmapSaveData::*)()>(&GlobalNamespace::BeatmapSaveData::SerializeToBinary)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (GlobalNamespace::BeatmapSaveData::*)()>(&GlobalNamespace::BeatmapSaveData::SerializeToBinary)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData*), "SerializeToBinary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -219,9 +222,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::DeserializeFromFromBinary
 // Il2CppName: DeserializeFromFromBinary
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapSaveData* (*)(::Array<uint8_t>*)>(&GlobalNamespace::BeatmapSaveData::DeserializeFromFromBinary)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapSaveData* (*)(::ArrayWrapper<uint8_t>)>(&GlobalNamespace::BeatmapSaveData::DeserializeFromFromBinary)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData*), "DeserializeFromFromBinary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }
 };
@@ -240,5 +243,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
   static const MethodInfo* get() {
     static auto* stringData = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData*), "DeserializeFromJSONString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stringData});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::ConvertBeatmapSaveDataPreV2_5_0
+// Il2CppName: ConvertBeatmapSaveDataPreV2_5_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::BeatmapSaveData*)>(&GlobalNamespace::BeatmapSaveData::ConvertBeatmapSaveDataPreV2_5_0)> {
+  static const MethodInfo* get() {
+    static auto* beatmapSaveData = &::il2cpp_utils::GetClassFromName("", "BeatmapSaveData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData*), "ConvertBeatmapSaveDataPreV2_5_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapSaveData});
   }
 };

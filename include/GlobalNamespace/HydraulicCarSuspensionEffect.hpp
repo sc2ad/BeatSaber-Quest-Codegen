@@ -55,10 +55,10 @@ namespace GlobalNamespace {
     // private System.Int32[] _contractEventValues
     // Size: 0x8
     // Offset: 0x20
-    ::Array<int>* contractEventValues;
+    ::ArrayWrapper<int> contractEventValues;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE36C54
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    // [SpaceAttribute] Offset: 0xEFF3A8
     // private BeatmapEventType _expandEvent
     // Size: 0x4
     // Offset: 0x28
@@ -70,10 +70,10 @@ namespace GlobalNamespace {
     // private System.Int32[] _expandEventValues
     // Size: 0x8
     // Offset: 0x30
-    ::Array<int>* expandEventValues;
+    ::ArrayWrapper<int> expandEventValues;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE36C9C
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    // [SpaceAttribute] Offset: 0xEFF3F0
     // private UnityEngine.SpringJoint _springJoint
     // Size: 0x8
     // Offset: 0x38
@@ -92,14 +92,14 @@ namespace GlobalNamespace {
     float expandDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xE36CF4
+    // [SpaceAttribute] Offset: 0xEFF448
     // private UnityEngine.Rigidbody _rigidbody
     // Size: 0x8
     // Offset: 0x48
     UnityEngine::Rigidbody* rigidbody;
     // Field size check
     static_assert(sizeof(UnityEngine::Rigidbody*) == 0x8);
-    // [InjectAttribute] Offset: 0xE36D2C
+    // [InjectAttribute] Offset: 0xEFF480
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x50
@@ -119,17 +119,17 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<int>*) == 0x8);
     // Creating value type constructor for type: HydraulicCarSuspensionEffect
-    HydraulicCarSuspensionEffect(GlobalNamespace::BeatmapEventType contractEvent_ = {}, ::Array<int>* contractEventValues_ = {}, GlobalNamespace::BeatmapEventType expandEvent_ = {}, ::Array<int>* expandEventValues_ = {}, UnityEngine::SpringJoint* springJoint_ = {}, float contractDistance_ = {}, float expandDistance_ = {}, UnityEngine::Rigidbody* rigidbody_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, System::Collections::Generic::HashSet_1<int>* contractEventValuesHashSet_ = {}, System::Collections::Generic::HashSet_1<int>* expandEventValuesHashSet_ = {}) noexcept : contractEvent{contractEvent_}, contractEventValues{contractEventValues_}, expandEvent{expandEvent_}, expandEventValues{expandEventValues_}, springJoint{springJoint_}, contractDistance{contractDistance_}, expandDistance{expandDistance_}, rigidbody{rigidbody_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, contractEventValuesHashSet{contractEventValuesHashSet_}, expandEventValuesHashSet{expandEventValuesHashSet_} {}
+    HydraulicCarSuspensionEffect(GlobalNamespace::BeatmapEventType contractEvent_ = {}, ::ArrayWrapper<int> contractEventValues_ = {}, GlobalNamespace::BeatmapEventType expandEvent_ = {}, ::ArrayWrapper<int> expandEventValues_ = {}, UnityEngine::SpringJoint* springJoint_ = {}, float contractDistance_ = {}, float expandDistance_ = {}, UnityEngine::Rigidbody* rigidbody_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, System::Collections::Generic::HashSet_1<int>* contractEventValuesHashSet_ = {}, System::Collections::Generic::HashSet_1<int>* expandEventValuesHashSet_ = {}) noexcept : contractEvent{contractEvent_}, contractEventValues{contractEventValues_}, expandEvent{expandEvent_}, expandEventValues{expandEventValues_}, springJoint{springJoint_}, contractDistance{contractDistance_}, expandDistance{expandDistance_}, rigidbody{rigidbody_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, contractEventValuesHashSet{contractEventValuesHashSet_}, expandEventValuesHashSet{expandEventValuesHashSet_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapEventType _contractEvent
     GlobalNamespace::BeatmapEventType& dyn__contractEvent();
     // Get instance field reference: private System.Int32[] _contractEventValues
-    ::Array<int>*& dyn__contractEventValues();
+    ::ArrayWrapper<int>& dyn__contractEventValues();
     // Get instance field reference: private BeatmapEventType _expandEvent
     GlobalNamespace::BeatmapEventType& dyn__expandEvent();
     // Get instance field reference: private System.Int32[] _expandEventValues
-    ::Array<int>*& dyn__expandEventValues();
+    ::ArrayWrapper<int>& dyn__expandEventValues();
     // Get instance field reference: private UnityEngine.SpringJoint _springJoint
     UnityEngine::SpringJoint*& dyn__springJoint();
     // Get instance field reference: private System.Single _contractDistance
@@ -145,16 +145,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.Int32> _expandEventValuesHashSet
     System::Collections::Generic::HashSet_1<int>*& dyn__expandEventValuesHashSet();
     // protected System.Void Start()
-    // Offset: 0x118840C
+    // Offset: 0x1146AE8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1188554
+    // Offset: 0x1146C30
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x1188654
+    // Offset: 0x1146D30
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x118876C
+    // Offset: 0x1146E48
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

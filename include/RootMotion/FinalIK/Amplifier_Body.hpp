@@ -36,42 +36,42 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::Amplifier::Body::EffectorLink
     class EffectorLink;
-    // [TooltipAttribute] Offset: 0xE306A4
+    // [TooltipAttribute] Offset: 0xEF6E7C
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE306DC
+    // [TooltipAttribute] Offset: 0xEF6EB4
     // public UnityEngine.Transform relativeTo
     // Size: 0x8
     // Offset: 0x18
     UnityEngine::Transform* relativeTo;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE30714
+    // [TooltipAttribute] Offset: 0xEF6EEC
     // public RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body/RootMotion.FinalIK.EffectorLink[] effectorLinks
     // Size: 0x8
     // Offset: 0x20
-    ::Array<RootMotion::FinalIK::Amplifier::Body::EffectorLink*>* effectorLinks;
+    ::ArrayWrapper<RootMotion::FinalIK::Amplifier::Body::EffectorLink*> effectorLinks;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::Amplifier::Body::EffectorLink*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE3074C
+    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::Amplifier::Body::EffectorLink*>) == 0x8);
+    // [TooltipAttribute] Offset: 0xEF6F24
     // public System.Single verticalWeight
     // Size: 0x4
     // Offset: 0x28
     float verticalWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE30784
+    // [TooltipAttribute] Offset: 0xEF6F5C
     // public System.Single horizontalWeight
     // Size: 0x4
     // Offset: 0x2C
     float horizontalWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE307BC
+    // [TooltipAttribute] Offset: 0xEF6F94
     // public System.Single speed
     // Size: 0x4
     // Offset: 0x30
@@ -97,13 +97,13 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: Body
-    Body(UnityEngine::Transform* transform_ = {}, UnityEngine::Transform* relativeTo_ = {}, ::Array<RootMotion::FinalIK::Amplifier::Body::EffectorLink*>* effectorLinks_ = {}, float verticalWeight_ = {}, float horizontalWeight_ = {}, float speed_ = {}, UnityEngine::Vector3 lastRelativePos_ = {}, UnityEngine::Vector3 smoothDelta_ = {}, bool firstUpdate_ = {}) noexcept : transform{transform_}, relativeTo{relativeTo_}, effectorLinks{effectorLinks_}, verticalWeight{verticalWeight_}, horizontalWeight{horizontalWeight_}, speed{speed_}, lastRelativePos{lastRelativePos_}, smoothDelta{smoothDelta_}, firstUpdate{firstUpdate_} {}
+    Body(UnityEngine::Transform* transform_ = {}, UnityEngine::Transform* relativeTo_ = {}, ::ArrayWrapper<RootMotion::FinalIK::Amplifier::Body::EffectorLink*> effectorLinks_ = {}, float verticalWeight_ = {}, float horizontalWeight_ = {}, float speed_ = {}, UnityEngine::Vector3 lastRelativePos_ = {}, UnityEngine::Vector3 smoothDelta_ = {}, bool firstUpdate_ = {}) noexcept : transform{transform_}, relativeTo{relativeTo_}, effectorLinks{effectorLinks_}, verticalWeight{verticalWeight_}, horizontalWeight{horizontalWeight_}, speed{speed_}, lastRelativePos{lastRelativePos_}, smoothDelta{smoothDelta_}, firstUpdate{firstUpdate_} {}
     // Get instance field reference: public UnityEngine.Transform transform
     UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public UnityEngine.Transform relativeTo
     UnityEngine::Transform*& dyn_relativeTo();
     // Get instance field reference: public RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body/RootMotion.FinalIK.EffectorLink[] effectorLinks
-    ::Array<RootMotion::FinalIK::Amplifier::Body::EffectorLink*>*& dyn_effectorLinks();
+    ::ArrayWrapper<RootMotion::FinalIK::Amplifier::Body::EffectorLink*>& dyn_effectorLinks();
     // Get instance field reference: public System.Single verticalWeight
     float& dyn_verticalWeight();
     // Get instance field reference: public System.Single horizontalWeight
@@ -117,13 +117,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Boolean firstUpdate
     bool& dyn_firstUpdate();
     // public System.Void Update(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single w, System.Single deltaTime)
-    // Offset: 0x1D322AC
+    // Offset: 0x1EBF428
     void Update(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float w, float deltaTime);
     // static private UnityEngine.Vector3 Multiply(UnityEngine.Vector3 v1, UnityEngine.Vector3 v2)
-    // Offset: 0x1D32718
+    // Offset: 0x1EBF894
     static UnityEngine::Vector3 Multiply(UnityEngine::Vector3 v1, UnityEngine::Vector3 v2);
     // public System.Void .ctor()
-    // Offset: 0x1D32728
+    // Offset: 0x1EBF8A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -45,7 +45,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Get instance field reference: public System.Collections.Generic.List`1<TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteData> frames
     System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*& dyn_frames();
     // public System.Void .ctor()
-    // Offset: 0x110CD10
+    // Offset: 0x11EEAC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

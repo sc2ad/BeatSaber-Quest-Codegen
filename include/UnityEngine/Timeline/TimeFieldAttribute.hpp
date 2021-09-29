@@ -85,10 +85,10 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private readonly UnityEngine.Timeline.TimeFieldAttribute/UnityEngine.Timeline.UseEditMode <useEditMode>k__BackingField
     UnityEngine::Timeline::TimeFieldAttribute::UseEditMode& dyn_$useEditMode$k__BackingField();
     // public UnityEngine.Timeline.TimeFieldAttribute/UnityEngine.Timeline.UseEditMode get_useEditMode()
-    // Offset: 0x182CB84
+    // Offset: 0x19FFF2C
     UnityEngine::Timeline::TimeFieldAttribute::UseEditMode get_useEditMode();
     // public System.Void .ctor(UnityEngine.Timeline.TimeFieldAttribute/UnityEngine.Timeline.UseEditMode useEditMode)
-    // Offset: 0x182CB8C
+    // Offset: 0x19FFF34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeFieldAttribute* New_ctor(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode useEditMode) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TimeFieldAttribute::.ctor");

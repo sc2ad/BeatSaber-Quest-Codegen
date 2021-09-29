@@ -91,9 +91,9 @@ namespace LeaderboardsDTO {
     // public System.String[] friendsUserIds
     // Size: 0x8
     // Offset: 0x28
-    ::Array<::Il2CppString*>* friendsUserIds;
+    ::ArrayWrapper<::Il2CppString*> friendsUserIds;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // public System.Boolean includedScoreWithModifiers
     // Size: 0x1
     // Offset: 0x30
@@ -101,7 +101,7 @@ namespace LeaderboardsDTO {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: LeaderboardQueryDTO
-    LeaderboardQueryDTO(::Il2CppString* leaderboardId_ = {}, int count_ = {}, int fromRank_ = {}, LeaderboardsDTO::LeaderboardQueryDTO::ScoresScope scope_ = {}, ::Array<::Il2CppString*>* friendsUserIds_ = {}, bool includedScoreWithModifiers_ = {}) noexcept : leaderboardId{leaderboardId_}, count{count_}, fromRank{fromRank_}, scope{scope_}, friendsUserIds{friendsUserIds_}, includedScoreWithModifiers{includedScoreWithModifiers_} {}
+    LeaderboardQueryDTO(::Il2CppString* leaderboardId_ = {}, int count_ = {}, int fromRank_ = {}, LeaderboardsDTO::LeaderboardQueryDTO::ScoresScope scope_ = {}, ::ArrayWrapper<::Il2CppString*> friendsUserIds_ = {}, bool includedScoreWithModifiers_ = {}) noexcept : leaderboardId{leaderboardId_}, count{count_}, fromRank{fromRank_}, scope{scope_}, friendsUserIds{friendsUserIds_}, includedScoreWithModifiers{includedScoreWithModifiers_} {}
     // Get instance field reference: public System.String leaderboardId
     ::Il2CppString*& dyn_leaderboardId();
     // Get instance field reference: public System.Int32 count
@@ -111,11 +111,11 @@ namespace LeaderboardsDTO {
     // Get instance field reference: public LeaderboardsDTO.LeaderboardQueryDTO/LeaderboardsDTO.ScoresScope scope
     LeaderboardsDTO::LeaderboardQueryDTO::ScoresScope& dyn_scope();
     // Get instance field reference: public System.String[] friendsUserIds
-    ::Array<::Il2CppString*>*& dyn_friendsUserIds();
+    ::ArrayWrapper<::Il2CppString*>& dyn_friendsUserIds();
     // Get instance field reference: public System.Boolean includedScoreWithModifiers
     bool& dyn_includedScoreWithModifiers();
     // public System.Void .ctor()
-    // Offset: 0x118C698
+    // Offset: 0x114AD74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

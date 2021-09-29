@@ -37,12 +37,12 @@ namespace System::Net::NetworkInformation {
     NetworkInterfaceFactory() noexcept {}
     // public System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
     // Offset: 0xFFFFFFFF
-    ::Array<System::Net::NetworkInformation::NetworkInterface*>* GetAllNetworkInterfaces();
+    ::ArrayWrapper<System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();
     // static public System.Net.NetworkInformation.NetworkInterfaceFactory Create()
-    // Offset: 0x14A152C
+    // Offset: 0x16471A8
     static System::Net::NetworkInformation::NetworkInterfaceFactory* Create();
     // protected System.Void .ctor()
-    // Offset: 0x14A165C
+    // Offset: 0x16472D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -58,7 +58,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterfaceFactory*
 // Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterfaceFactory::GetAllNetworkInterfaces
 // Il2CppName: GetAllNetworkInterfaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Net::NetworkInformation::NetworkInterface*>* (System::Net::NetworkInformation::NetworkInterfaceFactory::*)()>(&System::Net::NetworkInformation::NetworkInterfaceFactory::GetAllNetworkInterfaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Net::NetworkInformation::NetworkInterface*> (System::Net::NetworkInformation::NetworkInterfaceFactory::*)()>(&System::Net::NetworkInformation::NetworkInterfaceFactory::GetAllNetworkInterfaces)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterfaceFactory*), "GetAllNetworkInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

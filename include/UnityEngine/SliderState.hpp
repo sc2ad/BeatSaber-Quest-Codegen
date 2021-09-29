@@ -45,7 +45,7 @@ namespace UnityEngine {
     // Get instance field reference: public System.Boolean isDragging
     bool& dyn_isDragging();
     // public System.Void .ctor()
-    // Offset: 0x1B39DFC
+    // Offset: 0x1CA56B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

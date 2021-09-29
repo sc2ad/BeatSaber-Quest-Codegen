@@ -38,25 +38,25 @@ namespace GlobalNamespace {
     // private ShowTextOnGameEventController/EventTextBinding[] _eventTextBindings
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*>* eventTextBindings;
+    ::ArrayWrapper<GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*> eventTextBindings;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*>) == 0x8);
     // Creating value type constructor for type: ShowTextOnGameEventController
-    ShowTextOnGameEventController(GlobalNamespace::TextFadeTransitions* textFadeTransitions_ = {}, ::Array<GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*>* eventTextBindings_ = {}) noexcept : textFadeTransitions{textFadeTransitions_}, eventTextBindings{eventTextBindings_} {}
+    ShowTextOnGameEventController(GlobalNamespace::TextFadeTransitions* textFadeTransitions_ = {}, ::ArrayWrapper<GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*> eventTextBindings_ = {}) noexcept : textFadeTransitions{textFadeTransitions_}, eventTextBindings{eventTextBindings_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TextFadeTransitions _textFadeTransitions
     GlobalNamespace::TextFadeTransitions*& dyn__textFadeTransitions();
     // Get instance field reference: private ShowTextOnGameEventController/EventTextBinding[] _eventTextBindings
-    ::Array<GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*>*& dyn__eventTextBindings();
+    ::ArrayWrapper<GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*>& dyn__eventTextBindings();
     // protected System.Void Awake()
-    // Offset: 0x1095840
+    // Offset: 0x1104274
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x109594C
+    // Offset: 0x1104380
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1095A40
+    // Offset: 0x1104474
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     }
   }; // ShowTextOnGameEventController
   #pragma pack(pop)
-  static check_size<sizeof(ShowTextOnGameEventController), 32 + sizeof(::Array<GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*>*)> __GlobalNamespace_ShowTextOnGameEventControllerSizeCheck;
+  static check_size<sizeof(ShowTextOnGameEventController), 32 + sizeof(::ArrayWrapper<GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*>)> __GlobalNamespace_ShowTextOnGameEventControllerSizeCheck;
   static_assert(sizeof(ShowTextOnGameEventController) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowTextOnGameEventController*, "", "ShowTextOnGameEventController");

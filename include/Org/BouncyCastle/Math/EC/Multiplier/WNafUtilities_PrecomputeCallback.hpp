@@ -67,21 +67,21 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Get instance field reference: private readonly System.Boolean m_includeNegated
     bool& dyn_m_includeNegated();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECPoint p, System.Int32 minWidth, System.Boolean includeNegated)
-    // Offset: 0x1DCA9EC
+    // Offset: 0x1F86990
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WNafUtilities::PrecomputeCallback* New_ctor(Org::BouncyCastle::Math::EC::ECPoint* p, int minWidth, bool includeNegated) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WNafUtilities::PrecomputeCallback*, creationType>(p, minWidth, includeNegated)));
     }
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
-    // Offset: 0x1DCAED4
+    // Offset: 0x1F86E78
     Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
     // private System.Boolean CheckExisting(Org.BouncyCastle.Math.EC.Multiplier.WNafPreCompInfo existingWNaf, System.Int32 width, System.Int32 reqPreCompLen, System.Boolean includeNegated)
-    // Offset: 0x1DCB6F4
+    // Offset: 0x1F87698
     bool CheckExisting(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* existingWNaf, int width, int reqPreCompLen, bool includeNegated);
     // private System.Boolean CheckTable(Org.BouncyCastle.Math.EC.ECPoint[] table, System.Int32 reqLen)
-    // Offset: 0x1DCB80C
-    bool CheckTable(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* table, int reqLen);
+    // Offset: 0x1F877B0
+    bool CheckTable(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> table, int reqLen);
   }; // Org.BouncyCastle.Math.EC.Multiplier.WNafUtilities/Org.BouncyCastle.Math.EC.Multiplier.PrecomputeCallback
   #pragma pack(pop)
   static check_size<sizeof(WNafUtilities::PrecomputeCallback), 28 + sizeof(bool)> __Org_BouncyCastle_Math_EC_Multiplier_WNafUtilities_PrecomputeCallbackSizeCheck;
@@ -117,9 +117,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeCallback::CheckTable
 // Il2CppName: CheckTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeCallback::*)(::Array<Org::BouncyCastle::Math::EC::ECPoint*>*, int)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeCallback::CheckTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeCallback::*)(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*>, int)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeCallback::CheckTable)> {
   static const MethodInfo* get() {
-    static auto* table = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint"), 1)->byval_arg;
+    static auto* table = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint")), 1)->byval_arg;
     static auto* reqLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeCallback*), "CheckTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{table, reqLen});
   }

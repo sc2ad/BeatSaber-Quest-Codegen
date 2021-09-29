@@ -20,24 +20,24 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StringListSO : public GlobalNamespace::PersistentScriptableObject {
     public:
-    // [ReorderableAttribute] Offset: 0xE088F8
+    // [ReorderableAttribute] Offset: 0xEC9F38
     // private System.String[] _strings
     // Size: 0x8
     // Offset: 0x18
-    ::Array<::Il2CppString*>* strings;
+    ::ArrayWrapper<::Il2CppString*> strings;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // Creating value type constructor for type: StringListSO
-    StringListSO(::Array<::Il2CppString*>* strings_ = {}) noexcept : strings{strings_} {}
+    StringListSO(::ArrayWrapper<::Il2CppString*> strings_ = {}) noexcept : strings{strings_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String[] _strings
-    ::Array<::Il2CppString*>*& dyn__strings();
+    ::ArrayWrapper<::Il2CppString*>& dyn__strings();
     // public System.String[] get_strings()
-    // Offset: 0x23950CC
-    ::Array<::Il2CppString*>* get_strings();
+    // Offset: 0x259AFC4
+    ::ArrayWrapper<::Il2CppString*> get_strings();
     // public System.Void .ctor()
-    // Offset: 0x23950D4
+    // Offset: 0x259AFCC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     }
   }; // StringListSO
   #pragma pack(pop)
-  static check_size<sizeof(StringListSO), 24 + sizeof(::Array<::Il2CppString*>*)> __GlobalNamespace_StringListSOSizeCheck;
+  static check_size<sizeof(StringListSO), 24 + sizeof(::ArrayWrapper<::Il2CppString*>)> __GlobalNamespace_StringListSOSizeCheck;
   static_assert(sizeof(StringListSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StringListSO*, "", "StringListSO");
@@ -58,7 +58,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StringListSO*, "", "StringListSO");
 // Writing MetadataGetter for method: GlobalNamespace::StringListSO::get_strings
 // Il2CppName: get_strings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (GlobalNamespace::StringListSO::*)()>(&GlobalNamespace::StringListSO::get_strings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (GlobalNamespace::StringListSO::*)()>(&GlobalNamespace::StringListSO::get_strings)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StringListSO*), "get_strings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

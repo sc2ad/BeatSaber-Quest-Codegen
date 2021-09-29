@@ -58,11 +58,11 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 payloadLength
     int& dyn_payloadLength();
     // public System.Byte[] ToBytes()
-    // Offset: 0x134FAD4
-    ::Array<uint8_t>* ToBytes();
+    // Offset: 0x1466114
+    ::ArrayWrapper<uint8_t> ToBytes();
     // static public OVRNetwork/FrameHeader FromBytes(System.Byte[] arr)
-    // Offset: 0x134FBD8
-    static GlobalNamespace::OVRNetwork::FrameHeader FromBytes(::Array<uint8_t>* arr);
+    // Offset: 0x1466218
+    static GlobalNamespace::OVRNetwork::FrameHeader FromBytes(::ArrayWrapper<uint8_t> arr);
   }; // OVRNetwork/FrameHeader
   #pragma pack(pop)
   static check_size<sizeof(OVRNetwork::FrameHeader), 8 + sizeof(int)> __GlobalNamespace_OVRNetwork_FrameHeaderSizeCheck;
@@ -74,7 +74,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNetwork::FrameHeader, "", "OVRNetwork
 // Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::FrameHeader::ToBytes
 // Il2CppName: ToBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (GlobalNamespace::OVRNetwork::FrameHeader::*)()>(&GlobalNamespace::OVRNetwork::FrameHeader::ToBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (GlobalNamespace::OVRNetwork::FrameHeader::*)()>(&GlobalNamespace::OVRNetwork::FrameHeader::ToBytes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNetwork::FrameHeader), "ToBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -82,9 +82,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::FrameHeader::FromBytes
 // Il2CppName: FromBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRNetwork::FrameHeader (*)(::Array<uint8_t>*)>(&GlobalNamespace::OVRNetwork::FrameHeader::FromBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRNetwork::FrameHeader (*)(::ArrayWrapper<uint8_t>)>(&GlobalNamespace::OVRNetwork::FrameHeader::FromBytes)> {
   static const MethodInfo* get() {
-    static auto* arr = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* arr = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNetwork::FrameHeader), "FromBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{arr});
   }
 };

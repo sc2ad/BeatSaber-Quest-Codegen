@@ -42,9 +42,9 @@ namespace GlobalNamespace {
     // private CutoutEffect[] _cuttoutEffects
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::CutoutEffect*>* cuttoutEffects;
+    ::ArrayWrapper<GlobalNamespace::CutoutEffect*> cuttoutEffects;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::CutoutEffect*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::CutoutEffect*>) == 0x8);
     // private UnityEngine.AnimationCurve _transitionCurve
     // Size: 0x8
     // Offset: 0x20
@@ -58,38 +58,38 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: CutoutAnimateEffect
-    CutoutAnimateEffect(::Array<GlobalNamespace::CutoutEffect*>* cuttoutEffects_ = {}, UnityEngine::AnimationCurve* transitionCurve_ = {}, bool animating_ = {}) noexcept : cuttoutEffects{cuttoutEffects_}, transitionCurve{transitionCurve_}, animating{animating_} {}
+    CutoutAnimateEffect(::ArrayWrapper<GlobalNamespace::CutoutEffect*> cuttoutEffects_ = {}, UnityEngine::AnimationCurve* transitionCurve_ = {}, bool animating_ = {}) noexcept : cuttoutEffects{cuttoutEffects_}, transitionCurve{transitionCurve_}, animating{animating_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private CutoutEffect[] _cuttoutEffects
-    ::Array<GlobalNamespace::CutoutEffect*>*& dyn__cuttoutEffects();
+    ::ArrayWrapper<GlobalNamespace::CutoutEffect*>& dyn__cuttoutEffects();
     // Get instance field reference: private UnityEngine.AnimationCurve _transitionCurve
     UnityEngine::AnimationCurve*& dyn__transitionCurve();
     // Get instance field reference: private System.Boolean <animating>k__BackingField
     bool& dyn_$animating$k__BackingField();
     // public System.Boolean get_animating()
-    // Offset: 0x10EBA78
+    // Offset: 0x11A33FC
     bool get_animating();
     // private System.Void set_animating(System.Boolean value)
-    // Offset: 0x10EBA80
+    // Offset: 0x11A3404
     void set_animating(bool value);
     // protected System.Void Start()
-    // Offset: 0x10EBA8C
+    // Offset: 0x11A3410
     void Start();
     // private System.Collections.IEnumerator AnimateToCutoutCoroutine(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0x10EBB0C
+    // Offset: 0x11A3490
     System::Collections::IEnumerator* AnimateToCutoutCoroutine(float cutoutStart, float cutoutEnd, float duration);
     // private System.Void SetCutout(System.Single cutout)
-    // Offset: 0x10EBA94
+    // Offset: 0x11A3418
     void SetCutout(float cutout);
     // public System.Void ResetEffect()
-    // Offset: 0x10EBC94
+    // Offset: 0x11A3618
     void ResetEffect();
     // public System.Void AnimateCutout(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0x10EBCC4
+    // Offset: 0x11A3648
     void AnimateCutout(float cutoutStart, float cutoutEnd, float duration);
     // public System.Void .ctor()
-    // Offset: 0x10EBD24
+    // Offset: 0x11A36A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

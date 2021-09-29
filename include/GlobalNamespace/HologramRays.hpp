@@ -33,8 +33,8 @@ namespace UnityEngine {
 }
 // Forward declaring namespace: Tweening
 namespace Tweening {
-  // Forward declaring type: TweeningManager
-  class TweeningManager;
+  // Forward declaring type: TimeTweeningManager
+  class TimeTweeningManager;
   // Forward declaring type: FloatTween
   class FloatTween;
   // Forward declaring type: EaseType
@@ -104,7 +104,7 @@ namespace GlobalNamespace {
     float bottomYPosition;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE3FA34
+    // [TooltipAttribute] Offset: 0xF083B8
     // private System.Single cachedExtent
     // Size: 0x4
     // Offset: 0x50
@@ -113,13 +113,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: cachedExtent and: tweeningManager
     char __padding8[0x4] = {};
-    // [InjectAttribute] Offset: 0xE3FA80
-    // private readonly Tweening.TweeningManager _tweeningManager
+    // [InjectAttribute] Offset: 0xF08404
+    // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x58
-    Tweening::TweeningManager* tweeningManager;
+    Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
-    static_assert(sizeof(Tweening::TweeningManager*) == 0x8);
+    static_assert(sizeof(Tweening::TimeTweeningManager*) == 0x8);
     // private Tweening.FloatTween _transitionTween
     // Size: 0x8
     // Offset: 0x60
@@ -163,20 +163,20 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: HologramRays
-    HologramRays(GlobalNamespace::TubeBloomPrePassLight* bloomLight_ = {}, UnityEngine::MeshRenderer* raysMeshRenderer_ = {}, UnityEngine::Transform* targetTransform_ = {}, UnityEngine::Transform* laserHolderTransform_ = {}, UnityEngine::Transform* hologramRaysTransform_ = {}, UnityEngine::Mesh* hologramRaysMesh_ = {}, float topYPosition_ = {}, float bottomYPosition_ = {}, float cachedExtent_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, Tweening::FloatTween* transitionTween_ = {}, UnityEngine::Color bloomColor_ = {}, UnityEngine::Color bloomTransparentColor_ = {}, float alpha_ = {}, float raysDistance_ = {}, UnityEngine::Vector3 raysLocalScale_ = {}, bool boundsInitialized_ = {}) noexcept : bloomLight{bloomLight_}, raysMeshRenderer{raysMeshRenderer_}, targetTransform{targetTransform_}, laserHolderTransform{laserHolderTransform_}, hologramRaysTransform{hologramRaysTransform_}, hologramRaysMesh{hologramRaysMesh_}, topYPosition{topYPosition_}, bottomYPosition{bottomYPosition_}, cachedExtent{cachedExtent_}, tweeningManager{tweeningManager_}, transitionTween{transitionTween_}, bloomColor{bloomColor_}, bloomTransparentColor{bloomTransparentColor_}, alpha{alpha_}, raysDistance{raysDistance_}, raysLocalScale{raysLocalScale_}, boundsInitialized{boundsInitialized_} {}
+    HologramRays(GlobalNamespace::TubeBloomPrePassLight* bloomLight_ = {}, UnityEngine::MeshRenderer* raysMeshRenderer_ = {}, UnityEngine::Transform* targetTransform_ = {}, UnityEngine::Transform* laserHolderTransform_ = {}, UnityEngine::Transform* hologramRaysTransform_ = {}, UnityEngine::Mesh* hologramRaysMesh_ = {}, float topYPosition_ = {}, float bottomYPosition_ = {}, float cachedExtent_ = {}, Tweening::TimeTweeningManager* tweeningManager_ = {}, Tweening::FloatTween* transitionTween_ = {}, UnityEngine::Color bloomColor_ = {}, UnityEngine::Color bloomTransparentColor_ = {}, float alpha_ = {}, float raysDistance_ = {}, UnityEngine::Vector3 raysLocalScale_ = {}, bool boundsInitialized_ = {}) noexcept : bloomLight{bloomLight_}, raysMeshRenderer{raysMeshRenderer_}, targetTransform{targetTransform_}, laserHolderTransform{laserHolderTransform_}, hologramRaysTransform{hologramRaysTransform_}, hologramRaysMesh{hologramRaysMesh_}, topYPosition{topYPosition_}, bottomYPosition{bottomYPosition_}, cachedExtent{cachedExtent_}, tweeningManager{tweeningManager_}, transitionTween{transitionTween_}, bloomColor{bloomColor_}, bloomTransparentColor{bloomTransparentColor_}, alpha{alpha_}, raysDistance{raysDistance_}, raysLocalScale{raysLocalScale_}, boundsInitialized{boundsInitialized_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE3FA90
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF08414
     // Get static field: static private readonly System.Int32 _materialBottomPositionID
     static int _get__materialBottomPositionID();
     // Set static field: static private readonly System.Int32 _materialBottomPositionID
     static void _set__materialBottomPositionID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE3FAA0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF08424
     // Get static field: static private readonly System.Int32 _materialTopPositionID
     static int _get__materialTopPositionID();
     // Set static field: static private readonly System.Int32 _materialTopPositionID
     static void _set__materialTopPositionID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE3FAB0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF08434
     // Get static field: static private readonly System.Int32 _materialAlphaID
     static int _get__materialAlphaID();
     // Set static field: static private readonly System.Int32 _materialAlphaID
@@ -203,8 +203,8 @@ namespace GlobalNamespace {
     float& dyn__bottomYPosition();
     // Get instance field reference: private System.Single cachedExtent
     float& dyn_cachedExtent();
-    // Get instance field reference: private readonly Tweening.TweeningManager _tweeningManager
-    Tweening::TweeningManager*& dyn__tweeningManager();
+    // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
+    Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private Tweening.FloatTween _transitionTween
     Tweening::FloatTween*& dyn__transitionTween();
     // Get instance field reference: private UnityEngine.Color _bloomColor
@@ -220,37 +220,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean boundsInitialized
     bool& dyn_boundsInitialized();
     // static private System.Void RuntimeInit()
-    // Offset: 0x11871C8
+    // Offset: 0x11458A4
     static void RuntimeInit();
     // protected System.Void Awake()
-    // Offset: 0x1187230
+    // Offset: 0x114590C
     void Awake();
     // protected System.Void OnDisable()
-    // Offset: 0x1187364
+    // Offset: 0x1145A40
     void OnDisable();
     // protected System.Void OnValidate()
-    // Offset: 0x1187384
+    // Offset: 0x1145A60
     void OnValidate();
     // private System.Void Update()
-    // Offset: 0x1187704
+    // Offset: 0x1145DE0
     void Update();
     // private System.Void Refresh()
-    // Offset: 0x1187494
+    // Offset: 0x1145B70
     void Refresh();
     // public System.Void Animate(System.Boolean turningOn, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x1187708
+    // Offset: 0x1145DE4
     void Animate(bool turningOn, float duration, Tweening::EaseType easeType);
     // private System.Collections.IEnumerator FadingCoroutine(System.Boolean turningOn, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x11877D8
+    // Offset: 0x1145EB4
     System::Collections::IEnumerator* FadingCoroutine(bool turningOn, float duration, Tweening::EaseType easeType);
     // private System.Void UpdateBounds()
-    // Offset: 0x1187874
+    // Offset: 0x1145F50
     void UpdateBounds();
     // private System.Void <Awake>b__22_0(System.Single f)
-    // Offset: 0x1187A6C
+    // Offset: 0x1146148
     void $Awake$b__22_0(float f);
     // public System.Void .ctor()
-    // Offset: 0x11879A0
+    // Offset: 0x114607C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -263,7 +263,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HologramRays*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x11879C0
+    // Offset: 0x114609C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

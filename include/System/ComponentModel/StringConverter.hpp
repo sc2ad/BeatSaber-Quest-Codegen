@@ -23,7 +23,7 @@ namespace System::ComponentModel {
     // Creating value type constructor for type: StringConverter
     StringConverter() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x18B7014
+    // Offset: 0x1A234EC
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Void TypeConverter::.ctor()
     // Base method: System.Void Object::.ctor()

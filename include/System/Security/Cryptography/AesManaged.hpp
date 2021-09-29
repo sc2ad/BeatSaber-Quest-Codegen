@@ -48,62 +48,62 @@ namespace System::Security::Cryptography {
     // Get instance field reference: private System.Security.Cryptography.RijndaelManaged m_rijndael
     System::Security::Cryptography::RijndaelManaged*& dyn_m_rijndael();
     // public override System.Int32 get_FeedbackSize()
-    // Offset: 0x23BDE44
+    // Offset: 0x25C2D68
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Int32 SymmetricAlgorithm::get_FeedbackSize()
     int get_FeedbackSize();
     // public override System.Byte[] get_IV()
-    // Offset: 0x23BDE64
+    // Offset: 0x25C2D88
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Byte[] SymmetricAlgorithm::get_IV()
-    ::Array<uint8_t>* get_IV();
+    ::ArrayWrapper<uint8_t> get_IV();
     // public override System.Void set_IV(System.Byte[] value)
-    // Offset: 0x23BDE84
+    // Offset: 0x25C2DA8
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::set_IV(System.Byte[] value)
-    void set_IV(::Array<uint8_t>* value);
+    void set_IV(::ArrayWrapper<uint8_t> value);
     // public override System.Byte[] get_Key()
-    // Offset: 0x23BDEA4
+    // Offset: 0x25C2DC8
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Byte[] SymmetricAlgorithm::get_Key()
-    ::Array<uint8_t>* get_Key();
+    ::ArrayWrapper<uint8_t> get_Key();
     // public override System.Void set_Key(System.Byte[] value)
-    // Offset: 0x23BDEC4
+    // Offset: 0x25C2DE8
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::set_Key(System.Byte[] value)
-    void set_Key(::Array<uint8_t>* value);
+    void set_Key(::ArrayWrapper<uint8_t> value);
     // public override System.Int32 get_KeySize()
-    // Offset: 0x23BDEE4
+    // Offset: 0x25C2E08
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Int32 SymmetricAlgorithm::get_KeySize()
     int get_KeySize();
     // public override System.Void set_KeySize(System.Int32 value)
-    // Offset: 0x23BDF08
+    // Offset: 0x25C2E2C
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::set_KeySize(System.Int32 value)
     void set_KeySize(int value);
     // public override System.Security.Cryptography.CipherMode get_Mode()
-    // Offset: 0x23BDF2C
+    // Offset: 0x25C2E50
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.CipherMode SymmetricAlgorithm::get_Mode()
     System::Security::Cryptography::CipherMode get_Mode();
     // public override System.Void set_Mode(System.Security.Cryptography.CipherMode value)
-    // Offset: 0x23BDF50
+    // Offset: 0x25C2E74
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::set_Mode(System.Security.Cryptography.CipherMode value)
     void set_Mode(System::Security::Cryptography::CipherMode value);
     // public override System.Security.Cryptography.PaddingMode get_Padding()
-    // Offset: 0x23BE004
+    // Offset: 0x25C2F28
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.PaddingMode SymmetricAlgorithm::get_Padding()
     System::Security::Cryptography::PaddingMode get_Padding();
     // public override System.Void set_Padding(System.Security.Cryptography.PaddingMode value)
-    // Offset: 0x23BE028
+    // Offset: 0x25C2F4C
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::set_Padding(System.Security.Cryptography.PaddingMode value)
     void set_Padding(System::Security::Cryptography::PaddingMode value);
     // public System.Void .ctor()
-    // Offset: 0x23BDD10
+    // Offset: 0x25C2C34
     // Implemented from: System.Security.Cryptography.Aes
     // Base method: System.Void Aes::.ctor()
     // Base method: System.Void SymmetricAlgorithm::.ctor()
@@ -114,37 +114,37 @@ namespace System::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<AesManaged*, creationType>()));
     }
     // public override System.Security.Cryptography.ICryptoTransform CreateDecryptor()
-    // Offset: 0x23BE04C
+    // Offset: 0x25C2F70
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateDecryptor()
     System::Security::Cryptography::ICryptoTransform* CreateDecryptor();
     // public override System.Security.Cryptography.ICryptoTransform CreateDecryptor(System.Byte[] key, System.Byte[] iv)
-    // Offset: 0x23BE070
+    // Offset: 0x25C2F94
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateDecryptor(System.Byte[] key, System.Byte[] iv)
-    System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::Array<uint8_t>* key, ::Array<uint8_t>* iv);
+    System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayWrapper<uint8_t> key, ::ArrayWrapper<uint8_t> iv);
     // public override System.Security.Cryptography.ICryptoTransform CreateEncryptor()
-    // Offset: 0x23BE1C4
+    // Offset: 0x25C30E8
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateEncryptor()
     System::Security::Cryptography::ICryptoTransform* CreateEncryptor();
     // public override System.Security.Cryptography.ICryptoTransform CreateEncryptor(System.Byte[] key, System.Byte[] iv)
-    // Offset: 0x23BE1E8
+    // Offset: 0x25C310C
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateEncryptor(System.Byte[] key, System.Byte[] iv)
-    System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::Array<uint8_t>* key, ::Array<uint8_t>* iv);
+    System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayWrapper<uint8_t> key, ::ArrayWrapper<uint8_t> iv);
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x23BE33C
+    // Offset: 0x25C3260
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Void GenerateIV()
-    // Offset: 0x23BE454
+    // Offset: 0x25C3378
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::GenerateIV()
     void GenerateIV();
     // public override System.Void GenerateKey()
-    // Offset: 0x23BE478
+    // Offset: 0x25C339C
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::GenerateKey()
     void GenerateKey();
@@ -166,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Security::Cryptography::AesManaged::get_IV
 // Il2CppName: get_IV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::AesManaged::*)()>(&System::Security::Cryptography::AesManaged::get_IV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::AesManaged::*)()>(&System::Security::Cryptography::AesManaged::get_IV)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AesManaged*), "get_IV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -174,16 +174,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: System::Security::Cryptography::AesManaged::set_IV
 // Il2CppName: set_IV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AesManaged::*)(::Array<uint8_t>*)>(&System::Security::Cryptography::AesManaged::set_IV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AesManaged::*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::AesManaged::set_IV)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AesManaged*), "set_IV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Security::Cryptography::AesManaged::get_Key
 // Il2CppName: get_Key
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::AesManaged::*)()>(&System::Security::Cryptography::AesManaged::get_Key)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::AesManaged::*)()>(&System::Security::Cryptography::AesManaged::get_Key)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AesManaged*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -191,9 +191,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: System::Security::Cryptography::AesManaged::set_Key
 // Il2CppName: set_Key
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AesManaged::*)(::Array<uint8_t>*)>(&System::Security::Cryptography::AesManaged::set_Key)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AesManaged::*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::AesManaged::set_Key)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AesManaged*), "set_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
@@ -263,10 +263,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::Cryptography::AesManaged::CreateDecryptor
 // Il2CppName: CreateDecryptor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (System::Security::Cryptography::AesManaged::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&System::Security::Cryptography::AesManaged::CreateDecryptor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (System::Security::Cryptography::AesManaged::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::AesManaged::CreateDecryptor)> {
   static const MethodInfo* get() {
-    static auto* key = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* iv = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* key = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* iv = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AesManaged*), "CreateDecryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key, iv});
   }
 };
@@ -281,10 +281,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::Cryptography::AesManaged::CreateEncryptor
 // Il2CppName: CreateEncryptor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (System::Security::Cryptography::AesManaged::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&System::Security::Cryptography::AesManaged::CreateEncryptor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (System::Security::Cryptography::AesManaged::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::AesManaged::CreateEncryptor)> {
   static const MethodInfo* get() {
-    static auto* key = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* iv = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* key = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* iv = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AesManaged*), "CreateEncryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key, iv});
   }
 };

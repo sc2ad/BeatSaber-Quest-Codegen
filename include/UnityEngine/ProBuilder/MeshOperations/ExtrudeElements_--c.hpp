@@ -51,16 +51,16 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__4_0
     static void _set_$$9__4_0(System::Func_2<UnityEngine::ProBuilder::Face*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x15663AC
+    // Offset: 0x171F66C
     static void _cctor();
     // UnityEngine.ProBuilder.Face <DetachFaces>b__3_0(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0x1566418
+    // Offset: 0x171F6D8
     UnityEngine::ProBuilder::Face* $DetachFaces$b__3_0(UnityEngine::ProBuilder::FaceRebuildData* x);
     // System.Int32 <ExtrudePerFace>b__4_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1566430
+    // Offset: 0x171F6F0
     int $ExtrudePerFace$b__4_0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x1566410
+    // Offset: 0x171F6D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -112,51 +112,51 @@ namespace GlobalNamespace {
     // public TubeBloomPrePassLight[] _tubeLightArray
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::TubeBloomPrePassLight*>* tubeLightArray;
+    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> tubeLightArray;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::TubeBloomPrePassLight*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
     // public UnityEngine.CanvasGroup[] _canvasGroupArray
     // Size: 0x8
     // Offset: 0x28
-    ::Array<UnityEngine::CanvasGroup*>* canvasGroupArray;
+    ::ArrayWrapper<UnityEngine::CanvasGroup*> canvasGroupArray;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::CanvasGroup*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::CanvasGroup*>) == 0x8);
     // public TMPro.TextMeshPro[] _tmproArray
     // Size: 0x8
     // Offset: 0x30
-    ::Array<TMPro::TextMeshPro*>* tmproArray;
+    ::ArrayWrapper<TMPro::TextMeshPro*> tmproArray;
     // Field size check
-    static_assert(sizeof(::Array<TMPro::TextMeshPro*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<TMPro::TextMeshPro*>) == 0x8);
     // public UnityEngine.Transform[] _transformArray
     // Size: 0x8
     // Offset: 0x38
-    ::Array<UnityEngine::Transform*>* transformArray;
+    ::ArrayWrapper<UnityEngine::Transform*> transformArray;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
     // public DirectionalLight[] _directionalLights
     // Size: 0x8
     // Offset: 0x40
-    ::Array<GlobalNamespace::DirectionalLight*>* directionalLights;
+    ::ArrayWrapper<GlobalNamespace::DirectionalLight*> directionalLights;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::DirectionalLight*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::DirectionalLight*>) == 0x8);
     // Creating value type constructor for type: TimelineArrayReference
-    TimelineArrayReference(GlobalNamespace::TimelineArrayReference::ArrayTypes arrayType_ = {}, ::Array<GlobalNamespace::TubeBloomPrePassLight*>* tubeLightArray_ = {}, ::Array<UnityEngine::CanvasGroup*>* canvasGroupArray_ = {}, ::Array<TMPro::TextMeshPro*>* tmproArray_ = {}, ::Array<UnityEngine::Transform*>* transformArray_ = {}, ::Array<GlobalNamespace::DirectionalLight*>* directionalLights_ = {}) noexcept : arrayType{arrayType_}, tubeLightArray{tubeLightArray_}, canvasGroupArray{canvasGroupArray_}, tmproArray{tmproArray_}, transformArray{transformArray_}, directionalLights{directionalLights_} {}
+    TimelineArrayReference(GlobalNamespace::TimelineArrayReference::ArrayTypes arrayType_ = {}, ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> tubeLightArray_ = {}, ::ArrayWrapper<UnityEngine::CanvasGroup*> canvasGroupArray_ = {}, ::ArrayWrapper<TMPro::TextMeshPro*> tmproArray_ = {}, ::ArrayWrapper<UnityEngine::Transform*> transformArray_ = {}, ::ArrayWrapper<GlobalNamespace::DirectionalLight*> directionalLights_ = {}) noexcept : arrayType{arrayType_}, tubeLightArray{tubeLightArray_}, canvasGroupArray{canvasGroupArray_}, tmproArray{tmproArray_}, transformArray{transformArray_}, directionalLights{directionalLights_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TimelineArrayReference/ArrayTypes arrayType
     GlobalNamespace::TimelineArrayReference::ArrayTypes& dyn_arrayType();
     // Get instance field reference: public TubeBloomPrePassLight[] _tubeLightArray
-    ::Array<GlobalNamespace::TubeBloomPrePassLight*>*& dyn__tubeLightArray();
+    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>& dyn__tubeLightArray();
     // Get instance field reference: public UnityEngine.CanvasGroup[] _canvasGroupArray
-    ::Array<UnityEngine::CanvasGroup*>*& dyn__canvasGroupArray();
+    ::ArrayWrapper<UnityEngine::CanvasGroup*>& dyn__canvasGroupArray();
     // Get instance field reference: public TMPro.TextMeshPro[] _tmproArray
-    ::Array<TMPro::TextMeshPro*>*& dyn__tmproArray();
+    ::ArrayWrapper<TMPro::TextMeshPro*>& dyn__tmproArray();
     // Get instance field reference: public UnityEngine.Transform[] _transformArray
-    ::Array<UnityEngine::Transform*>*& dyn__transformArray();
+    ::ArrayWrapper<UnityEngine::Transform*>& dyn__transformArray();
     // Get instance field reference: public DirectionalLight[] _directionalLights
-    ::Array<GlobalNamespace::DirectionalLight*>*& dyn__directionalLights();
+    ::ArrayWrapper<GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
     // public System.Void .ctor()
-    // Offset: 0x1072544
+    // Offset: 0x1160ECC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -170,7 +170,7 @@ namespace GlobalNamespace {
     }
   }; // TimelineArrayReference
   #pragma pack(pop)
-  static check_size<sizeof(TimelineArrayReference), 64 + sizeof(::Array<GlobalNamespace::DirectionalLight*>*)> __GlobalNamespace_TimelineArrayReferenceSizeCheck;
+  static check_size<sizeof(TimelineArrayReference), 64 + sizeof(::ArrayWrapper<GlobalNamespace::DirectionalLight*>)> __GlobalNamespace_TimelineArrayReferenceSizeCheck;
   static_assert(sizeof(TimelineArrayReference) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimelineArrayReference*, "", "TimelineArrayReference");

@@ -36,22 +36,22 @@ namespace NUnit::Framework::Internal {
     // public System.Type[] argTypes
     // Size: 0x8
     // Offset: 0x10
-    ::Array<System::Type*>* argTypes;
+    ::ArrayWrapper<System::Type*> argTypes;
     // Field size check
-    static_assert(sizeof(::Array<System::Type*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass36_0
-    $$c__DisplayClass36_0(::Array<System::Type*>* argTypes_ = {}) noexcept : argTypes{argTypes_} {}
-    // Creating conversion operator: operator ::Array<System::Type*>*
-    constexpr operator ::Array<System::Type*>*() const noexcept {
+    $$c__DisplayClass36_0(::ArrayWrapper<System::Type*> argTypes_ = {}) noexcept : argTypes{argTypes_} {}
+    // Creating conversion operator: operator ::ArrayWrapper<System::Type*>
+    constexpr operator ::ArrayWrapper<System::Type*>() const noexcept {
       return argTypes;
     }
     // Get instance field reference: public System.Type[] argTypes
-    ::Array<System::Type*>*& dyn_argTypes();
+    ::ArrayWrapper<System::Type*>& dyn_argTypes();
     // System.Boolean <GetConstructor>b__0(System.Reflection.ConstructorInfo c)
-    // Offset: 0x22A17F0
+    // Offset: 0x24A9B38
     bool $GetConstructor$b__0(System::Reflection::ConstructorInfo* c);
     // public System.Void .ctor()
-    // Offset: 0x22A1734
+    // Offset: 0x24A9A7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -61,7 +61,7 @@ namespace NUnit::Framework::Internal {
     }
   }; // NUnit.Framework.Internal.TypeWrapper/NUnit.Framework.Internal.<>c__DisplayClass36_0
   #pragma pack(pop)
-  static check_size<sizeof(TypeWrapper::$$c__DisplayClass36_0), 16 + sizeof(::Array<System::Type*>*)> __NUnit_Framework_Internal_TypeWrapper_$$c__DisplayClass36_0SizeCheck;
+  static check_size<sizeof(TypeWrapper::$$c__DisplayClass36_0), 16 + sizeof(::ArrayWrapper<System::Type*>)> __NUnit_Framework_Internal_TypeWrapper_$$c__DisplayClass36_0SizeCheck;
   static_assert(sizeof(TypeWrapper::$$c__DisplayClass36_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0*, "NUnit.Framework.Internal", "TypeWrapper/<>c__DisplayClass36_0");

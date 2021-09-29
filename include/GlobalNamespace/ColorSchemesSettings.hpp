@@ -73,48 +73,48 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _selectedColorSchemeId
     ::Il2CppString*& dyn__selectedColorSchemeId();
     // public System.String get_selectedColorSchemeId()
-    // Offset: 0x10E3B90
+    // Offset: 0x119B5F0
     ::Il2CppString* get_selectedColorSchemeId();
     // public System.Void set_selectedColorSchemeId(System.String value)
-    // Offset: 0x10E3B88
+    // Offset: 0x119B5E8
     void set_selectedColorSchemeId(::Il2CppString* value);
     // public System.Void .ctor(ColorScheme[] colorSchemes)
-    // Offset: 0x10E3B98
+    // Offset: 0x119B5F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ColorSchemesSettings* New_ctor(::Array<GlobalNamespace::ColorScheme*>* colorSchemes) {
+    static ColorSchemesSettings* New_ctor(::ArrayWrapper<GlobalNamespace::ColorScheme*> colorSchemes) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorSchemesSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorSchemesSettings*, creationType>(colorSchemes)));
     }
     // public System.Void .ctor(ColorSchemeSO[] colorSchemeSOs)
-    // Offset: 0x10E3CC8
+    // Offset: 0x119B728
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ColorSchemesSettings* New_ctor(::Array<GlobalNamespace::ColorSchemeSO*>* colorSchemeSOs) {
+    static ColorSchemesSettings* New_ctor(::ArrayWrapper<GlobalNamespace::ColorSchemeSO*> colorSchemeSOs) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorSchemesSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorSchemesSettings*, creationType>(colorSchemeSOs)));
     }
     // static private ColorScheme[] ConvertColorSchemeSOs(ColorSchemeSO[] colorSchemeSOs)
-    // Offset: 0x10E3CF4
-    static ::Array<GlobalNamespace::ColorScheme*>* ConvertColorSchemeSOs(::Array<GlobalNamespace::ColorSchemeSO*>* colorSchemeSOs);
+    // Offset: 0x119B754
+    static ::ArrayWrapper<GlobalNamespace::ColorScheme*> ConvertColorSchemeSOs(::ArrayWrapper<GlobalNamespace::ColorSchemeSO*> colorSchemeSOs);
     // public System.Int32 GetNumberOfColorSchemes()
-    // Offset: 0x10E3E0C
+    // Offset: 0x119B86C
     int GetNumberOfColorSchemes();
     // public ColorScheme GetColorSchemeForIdx(System.Int32 idx)
-    // Offset: 0x10E3E5C
+    // Offset: 0x119B8BC
     GlobalNamespace::ColorScheme* GetColorSchemeForIdx(int idx);
     // public ColorScheme GetColorSchemeForId(System.String id)
-    // Offset: 0x10E3ED4
+    // Offset: 0x119B934
     GlobalNamespace::ColorScheme* GetColorSchemeForId(::Il2CppString* id);
     // public System.Void SetColorSchemeForId(ColorScheme colorScheme)
-    // Offset: 0x10E3F3C
+    // Offset: 0x119B99C
     void SetColorSchemeForId(GlobalNamespace::ColorScheme* colorScheme);
     // public ColorScheme GetSelectedColorScheme()
-    // Offset: 0x10E4038
+    // Offset: 0x119BA98
     GlobalNamespace::ColorScheme* GetSelectedColorScheme();
     // public System.Int32 GetSelectedColorSchemeIdx()
-    // Offset: 0x10E4094
+    // Offset: 0x119BAF4
     int GetSelectedColorSchemeIdx();
     // public ColorScheme GetOverrideColorScheme()
-    // Offset: 0x10E4140
+    // Offset: 0x1194FC8
     GlobalNamespace::ColorScheme* GetOverrideColorScheme();
   }; // ColorSchemesSettings
   #pragma pack(pop)
@@ -151,9 +151,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemesSettings::ConvertColorSchemeSOs
 // Il2CppName: ConvertColorSchemeSOs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::ColorScheme*>* (*)(::Array<GlobalNamespace::ColorSchemeSO*>*)>(&GlobalNamespace::ColorSchemesSettings::ConvertColorSchemeSOs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::ColorScheme*> (*)(::ArrayWrapper<GlobalNamespace::ColorSchemeSO*>)>(&GlobalNamespace::ColorSchemesSettings::ConvertColorSchemeSOs)> {
   static const MethodInfo* get() {
-    static auto* colorSchemeSOs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "ColorSchemeSO"), 1)->byval_arg;
+    static auto* colorSchemeSOs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "ColorSchemeSO")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemesSettings*), "ConvertColorSchemeSOs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorSchemeSOs});
   }
 };

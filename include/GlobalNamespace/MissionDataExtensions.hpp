@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MissionDataExtensions
     MissionDataExtensions() noexcept {}
     // static public System.String Name(MissionObjective/ReferenceValueComparisonType comparisonType)
-    // Offset: 0x113DD9C
+    // Offset: 0x1184F2C
     static ::Il2CppString* Name(GlobalNamespace::MissionObjective::ReferenceValueComparisonType comparisonType);
   }; // MissionDataExtensions
   #pragma pack(pop)

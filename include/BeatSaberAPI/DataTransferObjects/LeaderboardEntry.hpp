@@ -67,11 +67,11 @@ namespace BeatSaberAPI::DataTransferObjects {
     // public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers
     // Size: 0x8
     // Offset: 0x38
-    ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* gameplayModifiers;
+    ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers> gameplayModifiers;
     // Field size check
-    static_assert(sizeof(::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>) == 0x8);
     // Creating value type constructor for type: LeaderboardEntry
-    LeaderboardEntry(int id_ = {}, int score_ = {}, int unmodifiedScore_ = {}, int rank_ = {}, System::DateTime updated_ = {}, ::Il2CppString* userDisplayName_ = {}, ::Il2CppString* platformUserId_ = {}, ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* gameplayModifiers_ = {}) noexcept : id{id_}, score{score_}, unmodifiedScore{unmodifiedScore_}, rank{rank_}, updated{updated_}, userDisplayName{userDisplayName_}, platformUserId{platformUserId_}, gameplayModifiers{gameplayModifiers_} {}
+    LeaderboardEntry(int id_ = {}, int score_ = {}, int unmodifiedScore_ = {}, int rank_ = {}, System::DateTime updated_ = {}, ::Il2CppString* userDisplayName_ = {}, ::Il2CppString* platformUserId_ = {}, ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers> gameplayModifiers_ = {}) noexcept : id{id_}, score{score_}, unmodifiedScore{unmodifiedScore_}, rank{rank_}, updated{updated_}, userDisplayName{userDisplayName_}, platformUserId{platformUserId_}, gameplayModifiers{gameplayModifiers_} {}
     // Get instance field reference: public System.Int32 id
     int& dyn_id();
     // Get instance field reference: public System.Int32 score
@@ -87,9 +87,9 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Get instance field reference: public System.String platformUserId
     ::Il2CppString*& dyn_platformUserId();
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers
-    ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>*& dyn_gameplayModifiers();
+    ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>& dyn_gameplayModifiers();
     // public System.Void .ctor()
-    // Offset: 0x11DEE4C
+    // Offset: 0x126F438
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -99,7 +99,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     }
   }; // BeatSaberAPI.DataTransferObjects.LeaderboardEntry
   #pragma pack(pop)
-  static check_size<sizeof(LeaderboardEntry), 56 + sizeof(::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>*)> __BeatSaberAPI_DataTransferObjects_LeaderboardEntrySizeCheck;
+  static check_size<sizeof(LeaderboardEntry), 56 + sizeof(::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>)> __BeatSaberAPI_DataTransferObjects_LeaderboardEntrySizeCheck;
   static_assert(sizeof(LeaderboardEntry) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::LeaderboardEntry*, "BeatSaberAPI.DataTransferObjects", "LeaderboardEntry");

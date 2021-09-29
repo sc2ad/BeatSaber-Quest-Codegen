@@ -39,25 +39,25 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static private System.Int32 primitiveTypeEnumLength
     static void _set_primitiveTypeEnumLength(int value);
     // Get static field: static private System.Type[] typeA
-    static ::Array<System::Type*>* _get_typeA();
+    static ::ArrayWrapper<System::Type*> _get_typeA();
     // Set static field: static private System.Type[] typeA
-    static void _set_typeA(::Array<System::Type*>* value);
+    static void _set_typeA(::ArrayWrapper<System::Type*> value);
     // Get static field: static private System.Type[] arrayTypeA
-    static ::Array<System::Type*>* _get_arrayTypeA();
+    static ::ArrayWrapper<System::Type*> _get_arrayTypeA();
     // Set static field: static private System.Type[] arrayTypeA
-    static void _set_arrayTypeA(::Array<System::Type*>* value);
+    static void _set_arrayTypeA(::ArrayWrapper<System::Type*> value);
     // Get static field: static private System.String[] valueA
-    static ::Array<::Il2CppString*>* _get_valueA();
+    static ::ArrayWrapper<::Il2CppString*> _get_valueA();
     // Set static field: static private System.String[] valueA
-    static void _set_valueA(::Array<::Il2CppString*>* value);
+    static void _set_valueA(::ArrayWrapper<::Il2CppString*> value);
     // Get static field: static private System.TypeCode[] typeCodeA
-    static ::Array<System::TypeCode>* _get_typeCodeA();
+    static ::ArrayWrapper<System::TypeCode> _get_typeCodeA();
     // Set static field: static private System.TypeCode[] typeCodeA
-    static void _set_typeCodeA(::Array<System::TypeCode>* value);
+    static void _set_typeCodeA(::ArrayWrapper<System::TypeCode> value);
     // Get static field: static private System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE[] codeA
-    static ::Array<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>* _get_codeA();
+    static ::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE> _get_codeA();
     // Set static field: static private System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE[] codeA
-    static void _set_codeA(::Array<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>* value);
+    static void _set_codeA(::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE> value);
     // Get static field: static System.Type typeofISerializable
     static System::Type* _get_typeofISerializable();
     // Set static field: static System.Type typeofISerializable
@@ -223,55 +223,55 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static System.Type typeofMarshalByRefObject
     static void _set_typeofMarshalByRefObject(System::Type* value);
     // static private System.Void .cctor()
-    // Offset: 0x161FD20
+    // Offset: 0x17EB980
     static void _cctor();
     // static System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE ToCode(System.Type type)
-    // Offset: 0x161C11C
+    // Offset: 0x17E7D7C
     static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE ToCode(System::Type* type);
     // static System.Boolean IsWriteAsByteArray(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
-    // Offset: 0x161EBB8
+    // Offset: 0x17EA818
     static bool IsWriteAsByteArray(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
     // static System.Int32 TypeLength(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
-    // Offset: 0x161EBDC
+    // Offset: 0x17EA83C
     static int TypeLength(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
     // static System.Type ToArrayType(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
-    // Offset: 0x161C7C8
+    // Offset: 0x17E8428
     static System::Type* ToArrayType(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
     // static private System.Void InitTypeA()
-    // Offset: 0x161EFCC
+    // Offset: 0x17EAC2C
     static void InitTypeA();
     // static private System.Void InitArrayTypeA()
-    // Offset: 0x161EC00
+    // Offset: 0x17EA860
     static void InitArrayTypeA();
     // static System.Type ToType(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
-    // Offset: 0x161C6E0
+    // Offset: 0x17E8340
     static System::Type* ToType(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
     // static System.Array CreatePrimitiveArray(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code, System.Int32 length)
-    // Offset: 0x161F398
+    // Offset: 0x17EAFF8
     static System::Array* CreatePrimitiveArray(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, int length);
     // static System.Boolean IsPrimitiveArray(System.Type type, out System.Object typeInformation)
-    // Offset: 0x161BAD0
+    // Offset: 0x17E7730
     static bool IsPrimitiveArray(System::Type* type, ByRef<::Il2CppObject*> typeInformation);
     // static private System.Void InitValueA()
-    // Offset: 0x161F424
+    // Offset: 0x17EB084
     static void InitValueA();
     // static System.String ToComType(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
-    // Offset: 0x161C5F8
+    // Offset: 0x17E8258
     static ::Il2CppString* ToComType(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
     // static private System.Void InitTypeCodeA()
-    // Offset: 0x161F7F0
+    // Offset: 0x17EB450
     static void InitTypeCodeA();
     // static System.TypeCode ToTypeCode(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
-    // Offset: 0x161F990
+    // Offset: 0x17EB5F0
     static System::TypeCode ToTypeCode(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
     // static private System.Void InitCodeA()
-    // Offset: 0x161FA78
+    // Offset: 0x17EB6D8
     static void InitCodeA();
     // static System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE ToPrimitiveTypeEnum(System.TypeCode typeCode)
-    // Offset: 0x161EAD0
+    // Offset: 0x17EA730
     static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE ToPrimitiveTypeEnum(System::TypeCode typeCode);
     // static System.Object FromString(System.String value, System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
-    // Offset: 0x161FC2C
+    // Offset: 0x17EB88C
     static ::Il2CppObject* FromString(::Il2CppString* value, System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
   }; // System.Runtime.Serialization.Formatters.Binary.Converter
   #pragma pack(pop)

@@ -58,9 +58,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.String[] memberNames
     // Size: 0x8
     // Offset: 0x28
-    ::Array<::Il2CppString*>* memberNames;
+    ::ArrayWrapper<::Il2CppString*> memberNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // System.Int32 assemId
     // Size: 0x4
     // Offset: 0x30
@@ -68,7 +68,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: BinaryObjectWithMap
-    BinaryObjectWithMap(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum_ = {}, int objectId_ = {}, ::Il2CppString* name_ = {}, int numMembers_ = {}, ::Array<::Il2CppString*>* memberNames_ = {}, int assemId_ = {}) noexcept : binaryHeaderEnum{binaryHeaderEnum_}, objectId{objectId_}, name{name_}, numMembers{numMembers_}, memberNames{memberNames_}, assemId{assemId_} {}
+    BinaryObjectWithMap(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum_ = {}, int objectId_ = {}, ::Il2CppString* name_ = {}, int numMembers_ = {}, ::ArrayWrapper<::Il2CppString*> memberNames_ = {}, int assemId_ = {}) noexcept : binaryHeaderEnum{binaryHeaderEnum_}, objectId{objectId_}, name{name_}, numMembers{numMembers_}, memberNames{memberNames_}, assemId{assemId_} {}
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum
     System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum& dyn_binaryHeaderEnum();
     // Get instance field reference: System.Int32 objectId
@@ -78,30 +78,30 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Int32 numMembers
     int& dyn_numMembers();
     // Get instance field reference: System.String[] memberNames
-    ::Array<::Il2CppString*>*& dyn_memberNames();
+    ::ArrayWrapper<::Il2CppString*>& dyn_memberNames();
     // Get instance field reference: System.Int32 assemId
     int& dyn_assemId();
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
-    // Offset: 0x161E338
+    // Offset: 0x17E9F98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryObjectWithMap* New_ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryObjectWithMap*, creationType>(binaryHeaderEnum)));
     }
     // System.Void Set(System.Int32 objectId, System.String name, System.Int32 numMembers, System.String[] memberNames, System.Int32 assemId)
-    // Offset: 0x161E364
-    void Set(int objectId, ::Il2CppString* name, int numMembers, ::Array<::Il2CppString*>* memberNames, int assemId);
+    // Offset: 0x17E9FC4
+    void Set(int objectId, ::Il2CppString* name, int numMembers, ::ArrayWrapper<::Il2CppString*> memberNames, int assemId);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x161E388
+    // Offset: 0x17E9FE8
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x161E470
+    // Offset: 0x17EA0D0
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x161E5F4
+    // Offset: 0x17EA254
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x161E330
+    // Offset: 0x17E9F90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -123,12 +123,12 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::Binar
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::Set
 // Il2CppName: Set
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::*)(int, ::Il2CppString*, int, ::Array<::Il2CppString*>*, int)>(&System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::Set)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::*)(int, ::Il2CppString*, int, ::ArrayWrapper<::Il2CppString*>, int)>(&System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::Set)> {
   static const MethodInfo* get() {
     static auto* objectId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* numMembers = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* memberNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* memberNames = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
     static auto* assemId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objectId, name, numMembers, memberNames, assemId});
   }

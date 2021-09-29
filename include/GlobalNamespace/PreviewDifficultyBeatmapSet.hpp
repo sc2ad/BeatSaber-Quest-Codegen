@@ -36,31 +36,31 @@ namespace GlobalNamespace {
     // private BeatmapDifficulty[] _beatmapDifficulties
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::BeatmapDifficulty>* beatmapDifficulties;
+    ::ArrayWrapper<GlobalNamespace::BeatmapDifficulty> beatmapDifficulties;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::BeatmapDifficulty>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BeatmapDifficulty>) == 0x8);
     // Creating value type constructor for type: PreviewDifficultyBeatmapSet
-    PreviewDifficultyBeatmapSet(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, ::Array<GlobalNamespace::BeatmapDifficulty>* beatmapDifficulties_ = {}) noexcept : beatmapCharacteristic{beatmapCharacteristic_}, beatmapDifficulties{beatmapDifficulties_} {}
+    PreviewDifficultyBeatmapSet(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, ::ArrayWrapper<GlobalNamespace::BeatmapDifficulty> beatmapDifficulties_ = {}) noexcept : beatmapCharacteristic{beatmapCharacteristic_}, beatmapDifficulties{beatmapDifficulties_} {}
     // Get instance field reference: private BeatmapCharacteristicSO _beatmapCharacteristic
     GlobalNamespace::BeatmapCharacteristicSO*& dyn__beatmapCharacteristic();
     // Get instance field reference: private BeatmapDifficulty[] _beatmapDifficulties
-    ::Array<GlobalNamespace::BeatmapDifficulty>*& dyn__beatmapDifficulties();
+    ::ArrayWrapper<GlobalNamespace::BeatmapDifficulty>& dyn__beatmapDifficulties();
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x11FF3FC
+    // Offset: 0x11BE1D0
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public BeatmapDifficulty[] get_beatmapDifficulties()
-    // Offset: 0x11FF404
-    ::Array<GlobalNamespace::BeatmapDifficulty>* get_beatmapDifficulties();
+    // Offset: 0x11BE1D8
+    ::ArrayWrapper<GlobalNamespace::BeatmapDifficulty> get_beatmapDifficulties();
     // public System.Void .ctor(BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty[] beatmapDifficulties)
-    // Offset: 0x11FF40C
+    // Offset: 0x11BE1E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PreviewDifficultyBeatmapSet* New_ctor(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::Array<GlobalNamespace::BeatmapDifficulty>* beatmapDifficulties) {
+    static PreviewDifficultyBeatmapSet* New_ctor(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::ArrayWrapper<GlobalNamespace::BeatmapDifficulty> beatmapDifficulties) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PreviewDifficultyBeatmapSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PreviewDifficultyBeatmapSet*, creationType>(beatmapCharacteristic, beatmapDifficulties)));
     }
   }; // PreviewDifficultyBeatmapSet
   #pragma pack(pop)
-  static check_size<sizeof(PreviewDifficultyBeatmapSet), 24 + sizeof(::Array<GlobalNamespace::BeatmapDifficulty>*)> __GlobalNamespace_PreviewDifficultyBeatmapSetSizeCheck;
+  static check_size<sizeof(PreviewDifficultyBeatmapSet), 24 + sizeof(::ArrayWrapper<GlobalNamespace::BeatmapDifficulty>)> __GlobalNamespace_PreviewDifficultyBeatmapSetSizeCheck;
   static_assert(sizeof(PreviewDifficultyBeatmapSet) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PreviewDifficultyBeatmapSet*, "", "PreviewDifficultyBeatmapSet");
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PreviewDifficultyBeatmapSet::get_beatmapDifficulties
 // Il2CppName: get_beatmapDifficulties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::BeatmapDifficulty>* (GlobalNamespace::PreviewDifficultyBeatmapSet::*)()>(&GlobalNamespace::PreviewDifficultyBeatmapSet::get_beatmapDifficulties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::BeatmapDifficulty> (GlobalNamespace::PreviewDifficultyBeatmapSet::*)()>(&GlobalNamespace::PreviewDifficultyBeatmapSet::get_beatmapDifficulties)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviewDifficultyBeatmapSet*), "get_beatmapDifficulties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

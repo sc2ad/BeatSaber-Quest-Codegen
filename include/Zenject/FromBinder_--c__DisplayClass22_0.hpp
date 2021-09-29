@@ -64,10 +64,10 @@ namespace Zenject {
     // Get instance field reference: public System.Boolean matchAll
     bool& dyn_matchAll();
     // Zenject.IProvider <FromResolveInternal>b__0(Zenject.DiContainer container, System.Type type)
-    // Offset: 0x1663A84
+    // Offset: 0x182DE28
     Zenject::IProvider* $FromResolveInternal$b__0(Zenject::DiContainer* container, System::Type* type);
     // public System.Void .ctor()
-    // Offset: 0x1660A3C
+    // Offset: 0x182ADE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

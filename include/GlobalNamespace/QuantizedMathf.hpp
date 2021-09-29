@@ -62,22 +62,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kVectorSerializableEpsilon
     static void _set_kVectorSerializableEpsilon(float value);
     // static public System.Boolean Approximately(UnityEngine.Quaternion a, UnityEngine.Quaternion b)
-    // Offset: 0x2377C40
+    // Offset: 0x25734A0
     static bool Approximately(UnityEngine::Quaternion a, UnityEngine::Quaternion b);
     // static public System.Boolean Approximately(System.Single a, System.Single b, System.Single epsilon)
-    // Offset: 0x2377DF8
+    // Offset: 0x2573658
     static bool Approximately(float a, float b, float epsilon);
     // static public System.Boolean Approximately(System.Int32 a, System.Int32 b, System.Int32 epsilon)
-    // Offset: 0x2377E7C
+    // Offset: 0x25736DC
     static bool Approximately(int a, int b, int epsilon);
     // static public System.Boolean Approximately(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
-    // Offset: 0x2377F00
+    // Offset: 0x2573760
     static bool Approximately(UnityEngine::Vector3 a, UnityEngine::Vector3 b);
     // static public System.Boolean Approximately(UnityEngine.Pose a, UnityEngine.Pose b)
-    // Offset: 0x2377F88
+    // Offset: 0x25737E8
     static bool Approximately(UnityEngine::Pose a, UnityEngine::Pose b);
     // static public System.String QuantizedVectorComponentToString(System.Int32 v)
-    // Offset: 0x2377FE0
+    // Offset: 0x2573840
     static ::Il2CppString* QuantizedVectorComponentToString(int v);
   }; // QuantizedMathf
   #pragma pack(pop)

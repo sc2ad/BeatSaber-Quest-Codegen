@@ -38,22 +38,22 @@ namespace GlobalNamespace {
     // private TubeBloomPrePassLight[] _tubeLights
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::TubeBloomPrePassLight*>* tubeLights;
+    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> tubeLights;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::TubeBloomPrePassLight*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
     // Creating value type constructor for type: SetTubeBloomPrePassLightColor
-    SetTubeBloomPrePassLightColor(GlobalNamespace::ColorSO* color_ = {}, ::Array<GlobalNamespace::TubeBloomPrePassLight*>* tubeLights_ = {}) noexcept : color{color_}, tubeLights{tubeLights_} {}
+    SetTubeBloomPrePassLightColor(GlobalNamespace::ColorSO* color_ = {}, ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> tubeLights_ = {}) noexcept : color{color_}, tubeLights{tubeLights_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ColorSO _color
     GlobalNamespace::ColorSO*& dyn__color();
     // Get instance field reference: private TubeBloomPrePassLight[] _tubeLights
-    ::Array<GlobalNamespace::TubeBloomPrePassLight*>*& dyn__tubeLights();
+    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>& dyn__tubeLights();
     // protected System.Void Start()
-    // Offset: 0x10946E0
+    // Offset: 0x1103114
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x1094764
+    // Offset: 0x1103198
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     }
   }; // SetTubeBloomPrePassLightColor
   #pragma pack(pop)
-  static check_size<sizeof(SetTubeBloomPrePassLightColor), 32 + sizeof(::Array<GlobalNamespace::TubeBloomPrePassLight*>*)> __GlobalNamespace_SetTubeBloomPrePassLightColorSizeCheck;
+  static check_size<sizeof(SetTubeBloomPrePassLightColor), 32 + sizeof(::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>)> __GlobalNamespace_SetTubeBloomPrePassLightColorSizeCheck;
   static_assert(sizeof(SetTubeBloomPrePassLightColor) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetTubeBloomPrePassLightColor*, "", "SetTubeBloomPrePassLightColor");

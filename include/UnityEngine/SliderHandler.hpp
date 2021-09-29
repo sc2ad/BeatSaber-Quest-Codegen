@@ -125,7 +125,7 @@ namespace UnityEngine {
     // Get instance field reference: private readonly System.Int32 id
     int& dyn_id();
     // public System.Void .ctor(UnityEngine.Rect position, System.Single currentValue, System.Single size, System.Single start, System.Single end, UnityEngine.GUIStyle slider, UnityEngine.GUIStyle thumb, System.Boolean horiz, System.Int32 id, UnityEngine.GUIStyle thumbExtent)
-    // Offset: 0x1B28190
+    // Offset: 0x1C93A48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     SliderHandler(UnityEngine::Rect position, float currentValue, float size, float start, float end, UnityEngine::GUIStyle* slider, UnityEngine::GUIStyle* thumb, bool horiz, int id, UnityEngine::GUIStyle* thumbExtent) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::SliderHandler::.ctor");
@@ -133,85 +133,85 @@ namespace UnityEngine {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, position, currentValue, size, start, end, slider, thumb, horiz, id, thumbExtent);
     }
     // public System.Single Handle()
-    // Offset: 0x1B281B8
+    // Offset: 0x1C93A70
     float Handle();
     // private System.Single OnMouseDown()
-    // Offset: 0x1B38340
+    // Offset: 0x1CA3BF8
     float OnMouseDown();
     // private System.Single OnMouseDrag()
-    // Offset: 0x1B38860
+    // Offset: 0x1CA4118
     float OnMouseDrag();
     // private System.Single OnMouseUp()
-    // Offset: 0x1B389C0
+    // Offset: 0x1CA4278
     float OnMouseUp();
     // private System.Single OnRepaint()
-    // Offset: 0x1B38A7C
+    // Offset: 0x1CA4334
     float OnRepaint();
     // private UnityEngine.EventType CurrentEventType()
-    // Offset: 0x1B382B0
+    // Offset: 0x1CA3B68
     UnityEngine::EventType CurrentEventType();
     // private System.Int32 CurrentScrollTroughSide()
-    // Offset: 0x1B392B0
+    // Offset: 0x1CA4B68
     int CurrentScrollTroughSide();
     // private System.Boolean IsEmptySlider()
-    // Offset: 0x1B390F8
+    // Offset: 0x1CA49B0
     bool IsEmptySlider();
     // private System.Boolean SupportsPageMovements()
-    // Offset: 0x1B3915C
+    // Offset: 0x1CA4A14
     bool SupportsPageMovements();
     // private System.Single PageMovementValue()
-    // Offset: 0x1B39370
+    // Offset: 0x1CA4C28
     float PageMovementValue();
     // private System.Single PageUpMovementBound()
-    // Offset: 0x1B39784
+    // Offset: 0x1CA503C
     float PageUpMovementBound();
     // private UnityEngine.Event CurrentEvent()
-    // Offset: 0x1B390A4
+    // Offset: 0x1CA495C
     UnityEngine::Event* CurrentEvent();
     // private System.Single ValueForCurrentMousePosition()
-    // Offset: 0x1B393EC
+    // Offset: 0x1CA4CA4
     float ValueForCurrentMousePosition();
     // private System.Single Clamp(System.Single value)
-    // Offset: 0x1B39478
+    // Offset: 0x1CA4D30
     float Clamp(float value);
     // private UnityEngine.Rect ThumbSelectionRect()
-    // Offset: 0x1B390F4
+    // Offset: 0x1CA49AC
     UnityEngine::Rect ThumbSelectionRect();
     // private System.Void StartDraggingWithValue(System.Single dragStartValue)
-    // Offset: 0x1B39110
+    // Offset: 0x1CA49C8
     void StartDraggingWithValue(float dragStartValue);
     // private UnityEngine.SliderState SliderState()
-    // Offset: 0x1B391F4
+    // Offset: 0x1CA4AAC
     UnityEngine::SliderState* SliderState();
     // private UnityEngine.Rect ThumbExtRect()
-    // Offset: 0x1B39684
+    // Offset: 0x1CA4F3C
     UnityEngine::Rect ThumbExtRect();
     // private UnityEngine.Rect ThumbRect()
-    // Offset: 0x1B39774
+    // Offset: 0x1CA502C
     UnityEngine::Rect ThumbRect();
     // private UnityEngine.Rect VerticalThumbRect()
-    // Offset: 0x1B39908
+    // Offset: 0x1CA51C0
     UnityEngine::Rect VerticalThumbRect();
     // private UnityEngine.Rect HorizontalThumbRect()
-    // Offset: 0x1B39AE4
+    // Offset: 0x1CA539C
     UnityEngine::Rect HorizontalThumbRect();
     // private System.Single ClampedCurrentValue()
-    // Offset: 0x1B39108
+    // Offset: 0x1CA49C0
     float ClampedCurrentValue();
     // private System.Single MousePosition()
-    // Offset: 0x1B39514
+    // Offset: 0x1CA4DCC
     float MousePosition();
     // private System.Single ValuesPerPixel()
-    // Offset: 0x1B395D4
+    // Offset: 0x1CA4E8C
     float ValuesPerPixel();
     // private System.Single ThumbSize()
-    // Offset: 0x1B39CD4
+    // Offset: 0x1CA558C
     float ThumbSize();
     // private System.Single MaxValue()
-    // Offset: 0x1B39884
+    // Offset: 0x1CA513C
     float MaxValue();
     // private System.Single MinValue()
-    // Offset: 0x1B3980C
+    // Offset: 0x1CA50C4
     float MinValue();
   }; // UnityEngine.SliderHandler
   #pragma pack(pop)

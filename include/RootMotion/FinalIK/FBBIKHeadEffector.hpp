@@ -38,39 +38,39 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::FBBIKHeadEffector::BendBone
     class BendBone;
-    // [TooltipAttribute] Offset: 0xE2C108
+    // [TooltipAttribute] Offset: 0xEF28E0
     // public RootMotion.FinalIK.FullBodyBipedIK ik
     // Size: 0x8
     // Offset: 0x18
     RootMotion::FinalIK::FullBodyBipedIK* ik;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::FullBodyBipedIK*) == 0x8);
-    // [LargeHeader] Offset: 0xE2C140
-    // [TooltipAttribute] Offset: 0xE2C140
-    // [RangeAttribute] Offset: 0xE2C140
+    // [LargeHeader] Offset: 0xEF2918
+    // [TooltipAttribute] Offset: 0xEF2918
+    // [RangeAttribute] Offset: 0xEF2918
     // public System.Single positionWeight
     // Size: 0x4
     // Offset: 0x20
     float positionWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2C1B8
-    // [RangeAttribute] Offset: 0xE2C1B8
+    // [TooltipAttribute] Offset: 0xEF2990
+    // [RangeAttribute] Offset: 0xEF2990
     // public System.Single bodyWeight
     // Size: 0x4
     // Offset: 0x24
     float bodyWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2C20C
-    // [RangeAttribute] Offset: 0xE2C20C
+    // [TooltipAttribute] Offset: 0xEF29E4
+    // [RangeAttribute] Offset: 0xEF29E4
     // public System.Single thighWeight
     // Size: 0x4
     // Offset: 0x28
     float thighWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2C260
+    // [TooltipAttribute] Offset: 0xEF2A38
     // public System.Boolean handsPullBody
     // Size: 0x1
     // Offset: 0x2C
@@ -79,65 +79,65 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: handsPullBody and: rotationWeight
     char __padding4[0x3] = {};
-    // [LargeHeader] Offset: 0xE2C298
-    // [TooltipAttribute] Offset: 0xE2C298
-    // [RangeAttribute] Offset: 0xE2C298
+    // [LargeHeader] Offset: 0xEF2A70
+    // [TooltipAttribute] Offset: 0xEF2A70
+    // [RangeAttribute] Offset: 0xEF2A70
     // public System.Single rotationWeight
     // Size: 0x4
     // Offset: 0x30
     float rotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2C310
-    // [RangeAttribute] Offset: 0xE2C310
+    // [TooltipAttribute] Offset: 0xEF2AE8
+    // [RangeAttribute] Offset: 0xEF2AE8
     // public System.Single bodyClampWeight
     // Size: 0x4
     // Offset: 0x34
     float bodyClampWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2C364
-    // [RangeAttribute] Offset: 0xE2C364
+    // [TooltipAttribute] Offset: 0xEF2B3C
+    // [RangeAttribute] Offset: 0xEF2B3C
     // public System.Single headClampWeight
     // Size: 0x4
     // Offset: 0x38
     float headClampWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2C3B8
-    // [RangeAttribute] Offset: 0xE2C3B8
+    // [TooltipAttribute] Offset: 0xEF2B90
+    // [RangeAttribute] Offset: 0xEF2B90
     // public System.Single bendWeight
     // Size: 0x4
     // Offset: 0x3C
     float bendWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2C40C
+    // [TooltipAttribute] Offset: 0xEF2BE4
     // public RootMotion.FinalIK.FBBIKHeadEffector/RootMotion.FinalIK.BendBone[] bendBones
     // Size: 0x8
     // Offset: 0x40
-    ::Array<RootMotion::FinalIK::FBBIKHeadEffector::BendBone*>* bendBones;
+    ::ArrayWrapper<RootMotion::FinalIK::FBBIKHeadEffector::BendBone*> bendBones;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::FBBIKHeadEffector::BendBone*>*) == 0x8);
-    // [LargeHeader] Offset: 0xE2C444
-    // [TooltipAttribute] Offset: 0xE2C444
-    // [RangeAttribute] Offset: 0xE2C444
+    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::FBBIKHeadEffector::BendBone*>) == 0x8);
+    // [LargeHeader] Offset: 0xEF2C1C
+    // [TooltipAttribute] Offset: 0xEF2C1C
+    // [RangeAttribute] Offset: 0xEF2C1C
     // public System.Single CCDWeight
     // Size: 0x4
     // Offset: 0x48
     float CCDWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2C4BC
-    // [RangeAttribute] Offset: 0xE2C4BC
+    // [TooltipAttribute] Offset: 0xEF2C94
+    // [RangeAttribute] Offset: 0xEF2C94
     // public System.Single roll
     // Size: 0x4
     // Offset: 0x4C
     float roll;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2C510
-    // [RangeAttribute] Offset: 0xE2C510
+    // [TooltipAttribute] Offset: 0xEF2CE8
+    // [RangeAttribute] Offset: 0xEF2CE8
     // public System.Single damper
     // Size: 0x4
     // Offset: 0x50
@@ -146,37 +146,37 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: damper and: CCDBones
     char __padding12[0x4] = {};
-    // [TooltipAttribute] Offset: 0xE2C568
+    // [TooltipAttribute] Offset: 0xEF2D40
     // public UnityEngine.Transform[] CCDBones
     // Size: 0x8
     // Offset: 0x58
-    ::Array<UnityEngine::Transform*>* CCDBones;
+    ::ArrayWrapper<UnityEngine::Transform*> CCDBones;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
-    // [LargeHeader] Offset: 0xE2C5A0
-    // [TooltipAttribute] Offset: 0xE2C5A0
-    // [RangeAttribute] Offset: 0xE2C5A0
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    // [LargeHeader] Offset: 0xEF2D78
+    // [TooltipAttribute] Offset: 0xEF2D78
+    // [RangeAttribute] Offset: 0xEF2D78
     // public System.Single postStretchWeight
     // Size: 0x4
     // Offset: 0x60
     float postStretchWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2C618
+    // [TooltipAttribute] Offset: 0xEF2DF0
     // public System.Single maxStretch
     // Size: 0x4
     // Offset: 0x64
     float maxStretch;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2C650
+    // [TooltipAttribute] Offset: 0xEF2E28
     // public System.Single stretchDamper
     // Size: 0x4
     // Offset: 0x68
     float stretchDamper;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2C688
+    // [TooltipAttribute] Offset: 0xEF2E60
     // public System.Boolean fixHead
     // Size: 0x1
     // Offset: 0x6C
@@ -185,21 +185,21 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fixHead and: stretchBones
     char __padding17[0x3] = {};
-    // [TooltipAttribute] Offset: 0xE2C6C0
+    // [TooltipAttribute] Offset: 0xEF2E98
     // public UnityEngine.Transform[] stretchBones
     // Size: 0x8
     // Offset: 0x70
-    ::Array<UnityEngine::Transform*>* stretchBones;
+    ::ArrayWrapper<UnityEngine::Transform*> stretchBones;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
-    // [LargeHeader] Offset: 0xE2C6F8
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    // [LargeHeader] Offset: 0xEF2ED0
     // public UnityEngine.Vector3 chestDirection
     // Size: 0xC
     // Offset: 0x78
     UnityEngine::Vector3 chestDirection;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [RangeAttribute] Offset: 0xE2C730
+    // [RangeAttribute] Offset: 0xEF2F08
     // public System.Single chestDirectionWeight
     // Size: 0x4
     // Offset: 0x84
@@ -209,9 +209,9 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Transform[] chestBones
     // Size: 0x8
     // Offset: 0x88
-    ::Array<UnityEngine::Transform*>* chestBones;
+    ::ArrayWrapper<UnityEngine::Transform*> chestBones;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
     // public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPostHeadEffectorFK
     // Size: 0x8
     // Offset: 0x90
@@ -293,9 +293,9 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Quaternion[] ccdDefaultLocalRotations
     // Size: 0x8
     // Offset: 0x118
-    ::Array<UnityEngine::Quaternion>* ccdDefaultLocalRotations;
+    ::ArrayWrapper<UnityEngine::Quaternion> ccdDefaultLocalRotations;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Quaternion>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Quaternion>) == 0x8);
     // private UnityEngine.Vector3 headLocalPosition
     // Size: 0xC
     // Offset: 0x120
@@ -313,27 +313,27 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Vector3[] stretchLocalPositions
     // Size: 0x8
     // Offset: 0x140
-    ::Array<UnityEngine::Vector3>* stretchLocalPositions;
+    ::ArrayWrapper<UnityEngine::Vector3> stretchLocalPositions;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
     // private UnityEngine.Quaternion[] stretchLocalRotations
     // Size: 0x8
     // Offset: 0x148
-    ::Array<UnityEngine::Quaternion>* stretchLocalRotations;
+    ::ArrayWrapper<UnityEngine::Quaternion> stretchLocalRotations;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Quaternion>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Quaternion>) == 0x8);
     // private UnityEngine.Vector3[] chestLocalPositions
     // Size: 0x8
     // Offset: 0x150
-    ::Array<UnityEngine::Vector3>* chestLocalPositions;
+    ::ArrayWrapper<UnityEngine::Vector3> chestLocalPositions;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
     // private UnityEngine.Quaternion[] chestLocalRotations
     // Size: 0x8
     // Offset: 0x158
-    ::Array<UnityEngine::Quaternion>* chestLocalRotations;
+    ::ArrayWrapper<UnityEngine::Quaternion> chestLocalRotations;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Quaternion>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Quaternion>) == 0x8);
     // private System.Int32 bendBonesCount
     // Size: 0x4
     // Offset: 0x160
@@ -359,7 +359,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: FBBIKHeadEffector
-    FBBIKHeadEffector(RootMotion::FinalIK::FullBodyBipedIK* ik_ = {}, float positionWeight_ = {}, float bodyWeight_ = {}, float thighWeight_ = {}, bool handsPullBody_ = {}, float rotationWeight_ = {}, float bodyClampWeight_ = {}, float headClampWeight_ = {}, float bendWeight_ = {}, ::Array<RootMotion::FinalIK::FBBIKHeadEffector::BendBone*>* bendBones_ = {}, float CCDWeight_ = {}, float roll_ = {}, float damper_ = {}, ::Array<UnityEngine::Transform*>* CCDBones_ = {}, float postStretchWeight_ = {}, float maxStretch_ = {}, float stretchDamper_ = {}, bool fixHead_ = {}, ::Array<UnityEngine::Transform*>* stretchBones_ = {}, UnityEngine::Vector3 chestDirection_ = {}, float chestDirectionWeight_ = {}, ::Array<UnityEngine::Transform*>* chestBones_ = {}, RootMotion::FinalIK::IKSolver::UpdateDelegate* OnPostHeadEffectorFK_ = {}, UnityEngine::Vector3 offset_ = {}, UnityEngine::Vector3 headToBody_ = {}, UnityEngine::Vector3 shoulderCenterToHead_ = {}, UnityEngine::Vector3 headToLeftThigh_ = {}, UnityEngine::Vector3 headToRightThigh_ = {}, UnityEngine::Vector3 leftShoulderPos_ = {}, UnityEngine::Vector3 rightShoulderPos_ = {}, float shoulderDist_ = {}, float leftShoulderDist_ = {}, float rightShoulderDist_ = {}, UnityEngine::Quaternion chestRotation_ = {}, UnityEngine::Quaternion headRotationRelativeToRoot_ = {}, ::Array<UnityEngine::Quaternion>* ccdDefaultLocalRotations_ = {}, UnityEngine::Vector3 headLocalPosition_ = {}, UnityEngine::Quaternion headLocalRotation_ = {}, ::Array<UnityEngine::Vector3>* stretchLocalPositions_ = {}, ::Array<UnityEngine::Quaternion>* stretchLocalRotations_ = {}, ::Array<UnityEngine::Vector3>* chestLocalPositions_ = {}, ::Array<UnityEngine::Quaternion>* chestLocalRotations_ = {}, int bendBonesCount_ = {}, int ccdBonesCount_ = {}, int stretchBonesCount_ = {}, int chestBonesCount_ = {}) noexcept : ik{ik_}, positionWeight{positionWeight_}, bodyWeight{bodyWeight_}, thighWeight{thighWeight_}, handsPullBody{handsPullBody_}, rotationWeight{rotationWeight_}, bodyClampWeight{bodyClampWeight_}, headClampWeight{headClampWeight_}, bendWeight{bendWeight_}, bendBones{bendBones_}, CCDWeight{CCDWeight_}, roll{roll_}, damper{damper_}, CCDBones{CCDBones_}, postStretchWeight{postStretchWeight_}, maxStretch{maxStretch_}, stretchDamper{stretchDamper_}, fixHead{fixHead_}, stretchBones{stretchBones_}, chestDirection{chestDirection_}, chestDirectionWeight{chestDirectionWeight_}, chestBones{chestBones_}, OnPostHeadEffectorFK{OnPostHeadEffectorFK_}, offset{offset_}, headToBody{headToBody_}, shoulderCenterToHead{shoulderCenterToHead_}, headToLeftThigh{headToLeftThigh_}, headToRightThigh{headToRightThigh_}, leftShoulderPos{leftShoulderPos_}, rightShoulderPos{rightShoulderPos_}, shoulderDist{shoulderDist_}, leftShoulderDist{leftShoulderDist_}, rightShoulderDist{rightShoulderDist_}, chestRotation{chestRotation_}, headRotationRelativeToRoot{headRotationRelativeToRoot_}, ccdDefaultLocalRotations{ccdDefaultLocalRotations_}, headLocalPosition{headLocalPosition_}, headLocalRotation{headLocalRotation_}, stretchLocalPositions{stretchLocalPositions_}, stretchLocalRotations{stretchLocalRotations_}, chestLocalPositions{chestLocalPositions_}, chestLocalRotations{chestLocalRotations_}, bendBonesCount{bendBonesCount_}, ccdBonesCount{ccdBonesCount_}, stretchBonesCount{stretchBonesCount_}, chestBonesCount{chestBonesCount_} {}
+    FBBIKHeadEffector(RootMotion::FinalIK::FullBodyBipedIK* ik_ = {}, float positionWeight_ = {}, float bodyWeight_ = {}, float thighWeight_ = {}, bool handsPullBody_ = {}, float rotationWeight_ = {}, float bodyClampWeight_ = {}, float headClampWeight_ = {}, float bendWeight_ = {}, ::ArrayWrapper<RootMotion::FinalIK::FBBIKHeadEffector::BendBone*> bendBones_ = {}, float CCDWeight_ = {}, float roll_ = {}, float damper_ = {}, ::ArrayWrapper<UnityEngine::Transform*> CCDBones_ = {}, float postStretchWeight_ = {}, float maxStretch_ = {}, float stretchDamper_ = {}, bool fixHead_ = {}, ::ArrayWrapper<UnityEngine::Transform*> stretchBones_ = {}, UnityEngine::Vector3 chestDirection_ = {}, float chestDirectionWeight_ = {}, ::ArrayWrapper<UnityEngine::Transform*> chestBones_ = {}, RootMotion::FinalIK::IKSolver::UpdateDelegate* OnPostHeadEffectorFK_ = {}, UnityEngine::Vector3 offset_ = {}, UnityEngine::Vector3 headToBody_ = {}, UnityEngine::Vector3 shoulderCenterToHead_ = {}, UnityEngine::Vector3 headToLeftThigh_ = {}, UnityEngine::Vector3 headToRightThigh_ = {}, UnityEngine::Vector3 leftShoulderPos_ = {}, UnityEngine::Vector3 rightShoulderPos_ = {}, float shoulderDist_ = {}, float leftShoulderDist_ = {}, float rightShoulderDist_ = {}, UnityEngine::Quaternion chestRotation_ = {}, UnityEngine::Quaternion headRotationRelativeToRoot_ = {}, ::ArrayWrapper<UnityEngine::Quaternion> ccdDefaultLocalRotations_ = {}, UnityEngine::Vector3 headLocalPosition_ = {}, UnityEngine::Quaternion headLocalRotation_ = {}, ::ArrayWrapper<UnityEngine::Vector3> stretchLocalPositions_ = {}, ::ArrayWrapper<UnityEngine::Quaternion> stretchLocalRotations_ = {}, ::ArrayWrapper<UnityEngine::Vector3> chestLocalPositions_ = {}, ::ArrayWrapper<UnityEngine::Quaternion> chestLocalRotations_ = {}, int bendBonesCount_ = {}, int ccdBonesCount_ = {}, int stretchBonesCount_ = {}, int chestBonesCount_ = {}) noexcept : ik{ik_}, positionWeight{positionWeight_}, bodyWeight{bodyWeight_}, thighWeight{thighWeight_}, handsPullBody{handsPullBody_}, rotationWeight{rotationWeight_}, bodyClampWeight{bodyClampWeight_}, headClampWeight{headClampWeight_}, bendWeight{bendWeight_}, bendBones{bendBones_}, CCDWeight{CCDWeight_}, roll{roll_}, damper{damper_}, CCDBones{CCDBones_}, postStretchWeight{postStretchWeight_}, maxStretch{maxStretch_}, stretchDamper{stretchDamper_}, fixHead{fixHead_}, stretchBones{stretchBones_}, chestDirection{chestDirection_}, chestDirectionWeight{chestDirectionWeight_}, chestBones{chestBones_}, OnPostHeadEffectorFK{OnPostHeadEffectorFK_}, offset{offset_}, headToBody{headToBody_}, shoulderCenterToHead{shoulderCenterToHead_}, headToLeftThigh{headToLeftThigh_}, headToRightThigh{headToRightThigh_}, leftShoulderPos{leftShoulderPos_}, rightShoulderPos{rightShoulderPos_}, shoulderDist{shoulderDist_}, leftShoulderDist{leftShoulderDist_}, rightShoulderDist{rightShoulderDist_}, chestRotation{chestRotation_}, headRotationRelativeToRoot{headRotationRelativeToRoot_}, ccdDefaultLocalRotations{ccdDefaultLocalRotations_}, headLocalPosition{headLocalPosition_}, headLocalRotation{headLocalRotation_}, stretchLocalPositions{stretchLocalPositions_}, stretchLocalRotations{stretchLocalRotations_}, chestLocalPositions{chestLocalPositions_}, chestLocalRotations{chestLocalRotations_}, bendBonesCount{bendBonesCount_}, ccdBonesCount{ccdBonesCount_}, stretchBonesCount{stretchBonesCount_}, chestBonesCount{chestBonesCount_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedIK ik
@@ -381,7 +381,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single bendWeight
     float& dyn_bendWeight();
     // Get instance field reference: public RootMotion.FinalIK.FBBIKHeadEffector/RootMotion.FinalIK.BendBone[] bendBones
-    ::Array<RootMotion::FinalIK::FBBIKHeadEffector::BendBone*>*& dyn_bendBones();
+    ::ArrayWrapper<RootMotion::FinalIK::FBBIKHeadEffector::BendBone*>& dyn_bendBones();
     // Get instance field reference: public System.Single CCDWeight
     float& dyn_CCDWeight();
     // Get instance field reference: public System.Single roll
@@ -389,7 +389,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single damper
     float& dyn_damper();
     // Get instance field reference: public UnityEngine.Transform[] CCDBones
-    ::Array<UnityEngine::Transform*>*& dyn_CCDBones();
+    ::ArrayWrapper<UnityEngine::Transform*>& dyn_CCDBones();
     // Get instance field reference: public System.Single postStretchWeight
     float& dyn_postStretchWeight();
     // Get instance field reference: public System.Single maxStretch
@@ -399,13 +399,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Boolean fixHead
     bool& dyn_fixHead();
     // Get instance field reference: public UnityEngine.Transform[] stretchBones
-    ::Array<UnityEngine::Transform*>*& dyn_stretchBones();
+    ::ArrayWrapper<UnityEngine::Transform*>& dyn_stretchBones();
     // Get instance field reference: public UnityEngine.Vector3 chestDirection
     UnityEngine::Vector3& dyn_chestDirection();
     // Get instance field reference: public System.Single chestDirectionWeight
     float& dyn_chestDirectionWeight();
     // Get instance field reference: public UnityEngine.Transform[] chestBones
-    ::Array<UnityEngine::Transform*>*& dyn_chestBones();
+    ::ArrayWrapper<UnityEngine::Transform*>& dyn_chestBones();
     // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPostHeadEffectorFK
     RootMotion::FinalIK::IKSolver::UpdateDelegate*& dyn_OnPostHeadEffectorFK();
     // Get instance field reference: private UnityEngine.Vector3 offset
@@ -433,19 +433,19 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Quaternion headRotationRelativeToRoot
     UnityEngine::Quaternion& dyn_headRotationRelativeToRoot();
     // Get instance field reference: private UnityEngine.Quaternion[] ccdDefaultLocalRotations
-    ::Array<UnityEngine::Quaternion>*& dyn_ccdDefaultLocalRotations();
+    ::ArrayWrapper<UnityEngine::Quaternion>& dyn_ccdDefaultLocalRotations();
     // Get instance field reference: private UnityEngine.Vector3 headLocalPosition
     UnityEngine::Vector3& dyn_headLocalPosition();
     // Get instance field reference: private UnityEngine.Quaternion headLocalRotation
     UnityEngine::Quaternion& dyn_headLocalRotation();
     // Get instance field reference: private UnityEngine.Vector3[] stretchLocalPositions
-    ::Array<UnityEngine::Vector3>*& dyn_stretchLocalPositions();
+    ::ArrayWrapper<UnityEngine::Vector3>& dyn_stretchLocalPositions();
     // Get instance field reference: private UnityEngine.Quaternion[] stretchLocalRotations
-    ::Array<UnityEngine::Quaternion>*& dyn_stretchLocalRotations();
+    ::ArrayWrapper<UnityEngine::Quaternion>& dyn_stretchLocalRotations();
     // Get instance field reference: private UnityEngine.Vector3[] chestLocalPositions
-    ::Array<UnityEngine::Vector3>*& dyn_chestLocalPositions();
+    ::ArrayWrapper<UnityEngine::Vector3>& dyn_chestLocalPositions();
     // Get instance field reference: private UnityEngine.Quaternion[] chestLocalRotations
-    ::Array<UnityEngine::Quaternion>*& dyn_chestLocalRotations();
+    ::ArrayWrapper<UnityEngine::Quaternion>& dyn_chestLocalRotations();
     // Get instance field reference: private System.Int32 bendBonesCount
     int& dyn_bendBonesCount();
     // Get instance field reference: private System.Int32 ccdBonesCount
@@ -455,46 +455,46 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Int32 chestBonesCount
     int& dyn_chestBonesCount();
     // private System.Void Start()
-    // Offset: 0x1D35C18
+    // Offset: 0x1EC2D94
     void Start();
     // private System.Void OnStoreDefaultLocalState()
-    // Offset: 0x1D35F48
+    // Offset: 0x1EC30C4
     void OnStoreDefaultLocalState();
     // private System.Void OnFixTransforms()
-    // Offset: 0x1D36408
+    // Offset: 0x1EC3584
     void OnFixTransforms();
     // private System.Void OnPreRead()
-    // Offset: 0x1D367FC
+    // Offset: 0x1EC3978
     void OnPreRead();
     // private System.Void SpineBend()
-    // Offset: 0x1D37174
+    // Offset: 0x1EC42F0
     void SpineBend();
     // private System.Void CCDPass()
-    // Offset: 0x1D374C0
+    // Offset: 0x1EC463C
     void CCDPass();
     // private System.Void Iterate(System.Int32 iteration)
-    // Offset: 0x1D3785C
+    // Offset: 0x1EC49D8
     void Iterate(int iteration);
     // private System.Void OnPostUpdate()
-    // Offset: 0x1D382C8
+    // Offset: 0x1EC5444
     void OnPostUpdate();
     // private System.Void ChestDirection()
-    // Offset: 0x1D36EA0
+    // Offset: 0x1EC401C
     void ChestDirection();
     // private System.Void PostStretching()
-    // Offset: 0x1D384D8
+    // Offset: 0x1EC5654
     void PostStretching();
     // private System.Void LerpSolverPosition(RootMotion.FinalIK.IKEffector effector, UnityEngine.Vector3 position, System.Single weight, UnityEngine.Vector3 offset)
-    // Offset: 0x1D38184
+    // Offset: 0x1EC5300
     void LerpSolverPosition(RootMotion::FinalIK::IKEffector* effector, UnityEngine::Vector3 position, float weight, UnityEngine::Vector3 offset);
     // private System.Void Solve(ref UnityEngine.Vector3 pos1, ref UnityEngine.Vector3 pos2, System.Single nominalDistance)
-    // Offset: 0x1D37FE8
+    // Offset: 0x1EC5164
     void Solve(ByRef<UnityEngine::Vector3> pos1, ByRef<UnityEngine::Vector3> pos2, float nominalDistance);
     // private System.Void OnDestroy()
-    // Offset: 0x1D38844
+    // Offset: 0x1EC59C0
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1D38AC4
+    // Offset: 0x1EC5C40
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

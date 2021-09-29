@@ -59,16 +59,16 @@ namespace UnityEngine::TestTools {
     // Creating value type constructor for type: EnumerableSetUpTearDownCommand
     EnumerableSetUpTearDownCommand() noexcept {}
     // static private System.Reflection.MethodInfo[] GetMethodsWithAttributeFromFixture(System.Type fixtureType, System.Type setUpType)
-    // Offset: 0x14C81A8
-    static ::Array<System::Reflection::MethodInfo*>* GetMethodsWithAttributeFromFixture(System::Type* fixtureType, System::Type* setUpType);
+    // Offset: 0x166DE24
+    static ::ArrayWrapper<System::Reflection::MethodInfo*> GetMethodsWithAttributeFromFixture(System::Type* fixtureType, System::Type* setUpType);
     // protected System.Collections.IEnumerator InvokeBefore(System.Reflection.MethodInfo action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x14C82E8
+    // Offset: 0x166DF64
     System::Collections::IEnumerator* InvokeBefore(System::Reflection::MethodInfo* action, NUnit::Framework::Internal::Test* test, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
     // protected System.Collections.IEnumerator InvokeAfter(System.Reflection.MethodInfo action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x14C839C
+    // Offset: 0x166E018
     System::Collections::IEnumerator* InvokeAfter(System::Reflection::MethodInfo* action, NUnit::Framework::Internal::Test* test, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
-    // Offset: 0x14BEC74
+    // Offset: 0x16648F0
     // Implemented from: NUnit.Framework.Internal.Commands.DelegatingTestCommand
     // Base method: System.Void DelegatingTestCommand::.ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -77,7 +77,7 @@ namespace UnityEngine::TestTools {
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableSetUpTearDownCommand*, creationType>(innerCommand)));
     }
     // protected override UnityEngine.TestTools.BeforeAfterTestCommandState GetState(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x14C8450
+    // Offset: 0x166E0CC
     // Implemented from: UnityEngine.TestTools.BeforeAfterTestCommandBase`1
     // Base method: UnityEngine.TestTools.BeforeAfterTestCommandState BeforeAfterTestCommandBase_1::GetState(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
     UnityEngine::TestTools::BeforeAfterTestCommandState* GetState(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
@@ -88,7 +88,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableSetUpTearDownCommand*, 
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableSetUpTearDownCommand::GetMethodsWithAttributeFromFixture
 // Il2CppName: GetMethodsWithAttributeFromFixture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::MethodInfo*>* (*)(System::Type*, System::Type*)>(&UnityEngine::TestTools::EnumerableSetUpTearDownCommand::GetMethodsWithAttributeFromFixture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Reflection::MethodInfo*> (*)(System::Type*, System::Type*)>(&UnityEngine::TestTools::EnumerableSetUpTearDownCommand::GetMethodsWithAttributeFromFixture)> {
   static const MethodInfo* get() {
     static auto* fixtureType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* setUpType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;

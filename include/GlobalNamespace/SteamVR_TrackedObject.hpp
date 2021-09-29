@@ -169,7 +169,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SteamVR_TrackedObject::EIndex) == 0x4);
     // Padding between fields: index and: origin
     char __padding0[0x4] = {};
-    // [TooltipAttribute] Offset: 0xDF95EC
+    // [TooltipAttribute] Offset: 0xEB6B10
     // public UnityEngine.Transform origin
     // Size: 0x8
     // Offset: 0x20
@@ -203,25 +203,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private SteamVR_Events/Action newPosesAction
     GlobalNamespace::SteamVR_Events::Action*& dyn_newPosesAction();
     // public System.Boolean get_isValid()
-    // Offset: 0x1704948
+    // Offset: 0x1880344
     bool get_isValid();
     // private System.Void set_isValid(System.Boolean value)
-    // Offset: 0x1704950
+    // Offset: 0x188034C
     void set_isValid(bool value);
     // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
-    // Offset: 0x170495C
-    void OnNewPoses(::Array<Valve::VR::TrackedDevicePose_t>* poses);
+    // Offset: 0x1880358
+    void OnNewPoses(::ArrayWrapper<Valve::VR::TrackedDevicePose_t> poses);
     // private System.Void OnEnable()
-    // Offset: 0x1704C68
+    // Offset: 0x1880664
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x1704D18
+    // Offset: 0x1880714
     void OnDisable();
     // public System.Void SetDeviceIndex(System.Int32 index)
-    // Offset: 0x1704D50
+    // Offset: 0x188074C
     void SetDeviceIndex(int index);
     // private System.Void .ctor()
-    // Offset: 0x1704BB8
+    // Offset: 0x18805B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -261,9 +261,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedObject::OnNewPoses
 // Il2CppName: OnNewPoses
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_TrackedObject::*)(::Array<Valve::VR::TrackedDevicePose_t>*)>(&GlobalNamespace::SteamVR_TrackedObject::OnNewPoses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_TrackedObject::*)(::ArrayWrapper<Valve::VR::TrackedDevicePose_t>)>(&GlobalNamespace::SteamVR_TrackedObject::OnNewPoses)> {
   static const MethodInfo* get() {
-    static auto* poses = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)->byval_arg;
+    static auto* poses = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedObject*), "OnNewPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{poses});
   }
 };

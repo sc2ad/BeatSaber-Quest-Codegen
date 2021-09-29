@@ -51,14 +51,14 @@ namespace Zenject {
     // Creating value type constructor for type: ConditionCopyNonLazyBinder
     ConditionCopyNonLazyBinder() noexcept {}
     // public Zenject.CopyNonLazyBinder When(Zenject.BindingCondition condition)
-    // Offset: 0x13E619C
+    // Offset: 0x14F8390
     Zenject::CopyNonLazyBinder* When(Zenject::BindingCondition* condition);
     // public Zenject.CopyNonLazyBinder WhenInjectedIntoInstance(System.Object instance)
-    // Offset: 0x13E61B8
+    // Offset: 0x14F83AC
     Zenject::CopyNonLazyBinder* WhenInjectedIntoInstance(::Il2CppObject* instance);
     // public Zenject.CopyNonLazyBinder WhenInjectedInto(params System.Type[] targets)
-    // Offset: 0x13E626C
-    Zenject::CopyNonLazyBinder* WhenInjectedInto(::Array<System::Type*>* targets);
+    // Offset: 0x14F8460
+    Zenject::CopyNonLazyBinder* WhenInjectedInto(::ArrayWrapper<System::Type*> targets);
     // Creating initializer_list -> params proxy for: Zenject.CopyNonLazyBinder WhenInjectedInto(params System.Type[] targets)
     Zenject::CopyNonLazyBinder* WhenInjectedInto(std::initializer_list<System::Type*> targets);
     // Creating TArgs -> initializer_list proxy for: Zenject.CopyNonLazyBinder WhenInjectedInto(params System.Type[] targets)
@@ -87,7 +87,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodThrow<Zenject::CopyNonLazyBinder*, false>(___instance_arg, ___generic__method);
     }
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x13E618C
+    // Offset: 0x14F8380
     // Implemented from: Zenject.CopyNonLazyBinder
     // Base method: System.Void CopyNonLazyBinder::.ctor(Zenject.BindInfo bindInfo)
     // Base method: System.Void NonLazyBinder::.ctor(Zenject.BindInfo bindInfo)
@@ -123,9 +123,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 // Writing MetadataGetter for method: Zenject::ConditionCopyNonLazyBinder::WhenInjectedInto
 // Il2CppName: WhenInjectedInto
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::CopyNonLazyBinder* (Zenject::ConditionCopyNonLazyBinder::*)(::Array<System::Type*>*)>(&Zenject::ConditionCopyNonLazyBinder::WhenInjectedInto)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::CopyNonLazyBinder* (Zenject::ConditionCopyNonLazyBinder::*)(::ArrayWrapper<System::Type*>)>(&Zenject::ConditionCopyNonLazyBinder::WhenInjectedInto)> {
   static const MethodInfo* get() {
-    static auto* targets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
+    static auto* targets = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Type")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConditionCopyNonLazyBinder*), "WhenInjectedInto", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{targets});
   }
 };

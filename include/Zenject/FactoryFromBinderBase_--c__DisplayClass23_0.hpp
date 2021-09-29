@@ -54,10 +54,10 @@ namespace Zenject {
     // Get instance field reference: public UnityEngine.GameObject gameObject
     UnityEngine::GameObject*& dyn_gameObject();
     // Zenject.IProvider <FromComponentOn>b__0(Zenject.DiContainer container)
-    // Offset: 0x165F658
+    // Offset: 0x18299FC
     Zenject::IProvider* $FromComponentOn$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x165E990
+    // Offset: 0x1828D34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

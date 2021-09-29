@@ -22,7 +22,7 @@ namespace Zenject {
     // Creating value type constructor for type: ZenjectManagersInstaller
     ZenjectManagersInstaller() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x23E3380
+    // Offset: 0x25EE610
     // Implemented from: Zenject.Installer`1
     // Base method: System.Void Installer_1::.ctor()
     // Base method: System.Void InstallerBase::.ctor()
@@ -33,7 +33,7 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectManagersInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x23E31E4
+    // Offset: 0x25EE474
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();

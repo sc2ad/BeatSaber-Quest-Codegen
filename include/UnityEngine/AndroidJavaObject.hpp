@@ -63,51 +63,51 @@ namespace UnityEngine {
     // Get instance field reference: UnityEngine.GlobalJavaObjectRef m_jclass
     UnityEngine::GlobalJavaObjectRef*& dyn_m_jclass();
     // public System.Void .ctor(System.String className, System.String[] args)
-    // Offset: 0x23A87C4
+    // Offset: 0x25AD6E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AndroidJavaObject* New_ctor(::Il2CppString* className, ::Array<::Il2CppString*>* args) {
+    static AndroidJavaObject* New_ctor(::Il2CppString* className, ::ArrayWrapper<::Il2CppString*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>(className, args)));
     }
     // public System.Void .ctor(System.String className, UnityEngine.AndroidJavaObject[] args)
-    // Offset: 0x23A8A40
+    // Offset: 0x25AD964
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AndroidJavaObject* New_ctor(::Il2CppString* className, ::Array<UnityEngine::AndroidJavaObject*>* args) {
+    static AndroidJavaObject* New_ctor(::Il2CppString* className, ::ArrayWrapper<UnityEngine::AndroidJavaObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>(className, args)));
     }
     // public System.Void .ctor(System.String className, UnityEngine.AndroidJavaClass[] args)
-    // Offset: 0x23A8B04
+    // Offset: 0x25ADA28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AndroidJavaObject* New_ctor(::Il2CppString* className, ::Array<UnityEngine::AndroidJavaClass*>* args) {
+    static AndroidJavaObject* New_ctor(::Il2CppString* className, ::ArrayWrapper<UnityEngine::AndroidJavaClass*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>(className, args)));
     }
     // public System.Void .ctor(System.String className, UnityEngine.AndroidJavaProxy[] args)
-    // Offset: 0x23A8BC8
+    // Offset: 0x25ADAEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AndroidJavaObject* New_ctor(::Il2CppString* className, ::Array<UnityEngine::AndroidJavaProxy*>* args) {
+    static AndroidJavaObject* New_ctor(::Il2CppString* className, ::ArrayWrapper<UnityEngine::AndroidJavaProxy*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>(className, args)));
     }
     // public System.Void .ctor(System.String className, UnityEngine.AndroidJavaRunnable[] args)
-    // Offset: 0x23A8C8C
+    // Offset: 0x25ADBB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AndroidJavaObject* New_ctor(::Il2CppString* className, ::Array<UnityEngine::AndroidJavaRunnable*>* args) {
+    static AndroidJavaObject* New_ctor(::Il2CppString* className, ::ArrayWrapper<UnityEngine::AndroidJavaRunnable*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>(className, args)));
     }
     // public System.Void .ctor(System.String className, params System.Object[] args)
-    // Offset: 0x23A8D50
+    // Offset: 0x25ADC74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AndroidJavaObject* New_ctor(::Il2CppString* className, ::Array<::Il2CppObject*>* args) {
+    static AndroidJavaObject* New_ctor(::Il2CppString* className, ::ArrayWrapper<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>(className, args)));
     }
     // Creating initializer_list -> params proxy for: System.Void .ctor(System.String className, params System.Object[] args)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaObject* New_ctor(::Il2CppString* className, std::initializer_list<::Il2CppObject*> args) {
-      return New_ctor<creationType>(className, ::Array<::Il2CppObject*>::New(args));
+      return New_ctor<creationType>(className, ::ArrayWrapper<::Il2CppObject*>(args));
     }
     // Creating TArgs -> initializer_list proxy for: System.Void .ctor(System.String className, params System.Object[] args)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
@@ -115,22 +115,22 @@ namespace UnityEngine {
       return New_ctor<creationType>(className, {args...});
     }
     // System.Void .ctor(System.IntPtr jobject)
-    // Offset: 0x23A93F0
+    // Offset: 0x25AE314
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaObject* New_ctor(System::IntPtr jobject) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>(jobject)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x23A9740
+    // Offset: 0x25AE664
     static void _cctor();
     // public System.Void Dispose()
-    // Offset: 0x23A8D90
+    // Offset: 0x25ADCB4
     void Dispose();
     // public System.Void Call(System.String methodName, T[] args)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void Call(::Il2CppString* methodName, ::Array<T>* args) {
+    void Call(::Il2CppString* methodName, ::ArrayWrapper<T> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::Call");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Call", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(methodName), ::il2cpp_utils::ExtractType(args)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -138,8 +138,8 @@ namespace UnityEngine {
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, methodName, args);
     }
     // public System.Void Call(System.String methodName, params System.Object[] args)
-    // Offset: 0x23A8E0C
-    void Call(::Il2CppString* methodName, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x25ADD30
+    void Call(::Il2CppString* methodName, ::ArrayWrapper<::Il2CppObject*> args);
     // Creating initializer_list -> params proxy for: System.Void Call(System.String methodName, params System.Object[] args)
     void Call(::Il2CppString* methodName, std::initializer_list<::Il2CppObject*> args);
     // Creating TArgs -> initializer_list proxy for: System.Void Call(System.String methodName, params System.Object[] args)
@@ -150,7 +150,7 @@ namespace UnityEngine {
     // public System.Void CallStatic(System.String methodName, T[] args)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void CallStatic(::Il2CppString* methodName, ::Array<T>* args) {
+    void CallStatic(::Il2CppString* methodName, ::ArrayWrapper<T> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::CallStatic");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CallStatic", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(methodName), ::il2cpp_utils::ExtractType(args)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -158,8 +158,8 @@ namespace UnityEngine {
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, methodName, args);
     }
     // public System.Void CallStatic(System.String methodName, params System.Object[] args)
-    // Offset: 0x23A8F24
-    void CallStatic(::Il2CppString* methodName, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x25ADE48
+    void CallStatic(::Il2CppString* methodName, ::ArrayWrapper<::Il2CppObject*> args);
     // Creating initializer_list -> params proxy for: System.Void CallStatic(System.String methodName, params System.Object[] args)
     void CallStatic(::Il2CppString* methodName, std::initializer_list<::Il2CppObject*> args);
     // Creating TArgs -> initializer_list proxy for: System.Void CallStatic(System.String methodName, params System.Object[] args)
@@ -208,15 +208,15 @@ namespace UnityEngine {
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, fieldName, val);
     }
     // public System.IntPtr GetRawObject()
-    // Offset: 0x23A903C
+    // Offset: 0x25ADF60
     System::IntPtr GetRawObject();
     // public System.IntPtr GetRawClass()
-    // Offset: 0x23A9074
+    // Offset: 0x25ADF98
     System::IntPtr GetRawClass();
     // public ReturnType Call(System.String methodName, T[] args)
     // Offset: 0xFFFFFFFF
     template<class ReturnType, class T>
-    ReturnType Call(::Il2CppString* methodName, ::Array<T>* args) {
+    ReturnType Call(::Il2CppString* methodName, ::ArrayWrapper<T> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::Call");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Call", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(methodName), ::il2cpp_utils::ExtractType(args)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
@@ -226,7 +226,7 @@ namespace UnityEngine {
     // public ReturnType Call(System.String methodName, params System.Object[] args)
     // Offset: 0xFFFFFFFF
     template<class ReturnType>
-    ReturnType Call(::Il2CppString* methodName, ::Array<::Il2CppObject*>* args) {
+    ReturnType Call(::Il2CppString* methodName, ::ArrayWrapper<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::Call");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Call", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(methodName), ::il2cpp_utils::ExtractType(args)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}));
@@ -236,7 +236,7 @@ namespace UnityEngine {
     // Creating initializer_list -> params proxy for: ReturnType Call(System.String methodName, params System.Object[] args)
     template<class ReturnType>
     ReturnType Call(::Il2CppString* methodName, std::initializer_list<::Il2CppObject*> args) {
-      return Call(methodName, ::Array<::Il2CppObject*>::New(args));
+      return Call(methodName, ::ArrayWrapper<::Il2CppObject*>(args));
     }
     // Creating TArgs -> initializer_list proxy for: ReturnType Call(System.String methodName, params System.Object[] args)
     template<class ReturnType, class ...TParams>
@@ -246,7 +246,7 @@ namespace UnityEngine {
     // public ReturnType CallStatic(System.String methodName, T[] args)
     // Offset: 0xFFFFFFFF
     template<class ReturnType, class T>
-    ReturnType CallStatic(::Il2CppString* methodName, ::Array<T>* args) {
+    ReturnType CallStatic(::Il2CppString* methodName, ::ArrayWrapper<T> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::CallStatic");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CallStatic", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(methodName), ::il2cpp_utils::ExtractType(args)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
@@ -256,7 +256,7 @@ namespace UnityEngine {
     // public ReturnType CallStatic(System.String methodName, params System.Object[] args)
     // Offset: 0xFFFFFFFF
     template<class ReturnType>
-    ReturnType CallStatic(::Il2CppString* methodName, ::Array<::Il2CppObject*>* args) {
+    ReturnType CallStatic(::Il2CppString* methodName, ::ArrayWrapper<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::CallStatic");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CallStatic", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(methodName), ::il2cpp_utils::ExtractType(args)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}));
@@ -266,7 +266,7 @@ namespace UnityEngine {
     // Creating initializer_list -> params proxy for: ReturnType CallStatic(System.String methodName, params System.Object[] args)
     template<class ReturnType>
     ReturnType CallStatic(::Il2CppString* methodName, std::initializer_list<::Il2CppObject*> args) {
-      return CallStatic(methodName, ::Array<::Il2CppObject*>::New(args));
+      return CallStatic(methodName, ::ArrayWrapper<::Il2CppObject*>(args));
     }
     // Creating TArgs -> initializer_list proxy for: ReturnType CallStatic(System.String methodName, params System.Object[] args)
     template<class ReturnType, class ...TParams>
@@ -274,14 +274,14 @@ namespace UnityEngine {
       return CallStatic<ReturnType>(methodName, {args...});
     }
     // protected System.Void DebugPrint(System.String msg)
-    // Offset: 0x23A854C
+    // Offset: 0x25AD470
     void DebugPrint(::Il2CppString* msg);
     // protected System.Void DebugPrint(System.String call, System.String methodName, System.String signature, System.Object[] args)
-    // Offset: 0x23A90AC
-    void DebugPrint(::Il2CppString* call, ::Il2CppString* methodName, ::Il2CppString* signature, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x25ADFD0
+    void DebugPrint(::Il2CppString* call, ::Il2CppString* methodName, ::Il2CppString* signature, ::ArrayWrapper<::Il2CppObject*> args);
     // private System.Void _AndroidJavaObject(System.String className, params System.Object[] args)
-    // Offset: 0x23A8888
-    void _AndroidJavaObject(::Il2CppString* className, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x25AD7AC
+    void _AndroidJavaObject(::Il2CppString* className, ::ArrayWrapper<::Il2CppObject*> args);
     // Creating initializer_list -> params proxy for: System.Void _AndroidJavaObject(System.String className, params System.Object[] args)
     void _AndroidJavaObject(::Il2CppString* className, std::initializer_list<::Il2CppObject*> args);
     // Creating TArgs -> initializer_list proxy for: System.Void _AndroidJavaObject(System.String className, params System.Object[] args)
@@ -290,11 +290,11 @@ namespace UnityEngine {
       _AndroidJavaObject(className, {args...});
     }
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x23A9560
+    // Offset: 0x25AE484
     void Dispose(bool disposing);
     // protected System.Void _Call(System.String methodName, params System.Object[] args)
-    // Offset: 0x23A8E10
-    void _Call(::Il2CppString* methodName, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x25ADD34
+    void _Call(::Il2CppString* methodName, ::ArrayWrapper<::Il2CppObject*> args);
     // Creating initializer_list -> params proxy for: System.Void _Call(System.String methodName, params System.Object[] args)
     void _Call(::Il2CppString* methodName, std::initializer_list<::Il2CppObject*> args);
     // Creating TArgs -> initializer_list proxy for: System.Void _Call(System.String methodName, params System.Object[] args)
@@ -305,7 +305,7 @@ namespace UnityEngine {
     // protected ReturnType _Call(System.String methodName, params System.Object[] args)
     // Offset: 0xFFFFFFFF
     template<class ReturnType>
-    ReturnType _Call(::Il2CppString* methodName, ::Array<::Il2CppObject*>* args) {
+    ReturnType _Call(::Il2CppString* methodName, ::ArrayWrapper<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::_Call");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "_Call", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(methodName), ::il2cpp_utils::ExtractType(args)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}));
@@ -315,7 +315,7 @@ namespace UnityEngine {
     // Creating initializer_list -> params proxy for: ReturnType _Call(System.String methodName, params System.Object[] args)
     template<class ReturnType>
     ReturnType _Call(::Il2CppString* methodName, std::initializer_list<::Il2CppObject*> args) {
-      return _Call(methodName, ::Array<::Il2CppObject*>::New(args));
+      return _Call(methodName, ::ArrayWrapper<::Il2CppObject*>(args));
     }
     // Creating TArgs -> initializer_list proxy for: ReturnType _Call(System.String methodName, params System.Object[] args)
     template<class ReturnType, class ...TParams>
@@ -343,8 +343,8 @@ namespace UnityEngine {
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, fieldName, val);
     }
     // protected System.Void _CallStatic(System.String methodName, params System.Object[] args)
-    // Offset: 0x23A8F28
-    void _CallStatic(::Il2CppString* methodName, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x25ADE4C
+    void _CallStatic(::Il2CppString* methodName, ::ArrayWrapper<::Il2CppObject*> args);
     // Creating initializer_list -> params proxy for: System.Void _CallStatic(System.String methodName, params System.Object[] args)
     void _CallStatic(::Il2CppString* methodName, std::initializer_list<::Il2CppObject*> args);
     // Creating TArgs -> initializer_list proxy for: System.Void _CallStatic(System.String methodName, params System.Object[] args)
@@ -355,7 +355,7 @@ namespace UnityEngine {
     // protected ReturnType _CallStatic(System.String methodName, params System.Object[] args)
     // Offset: 0xFFFFFFFF
     template<class ReturnType>
-    ReturnType _CallStatic(::Il2CppString* methodName, ::Array<::Il2CppObject*>* args) {
+    ReturnType _CallStatic(::Il2CppString* methodName, ::ArrayWrapper<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::_CallStatic");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "_CallStatic", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(methodName), ::il2cpp_utils::ExtractType(args)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}));
@@ -365,7 +365,7 @@ namespace UnityEngine {
     // Creating initializer_list -> params proxy for: ReturnType _CallStatic(System.String methodName, params System.Object[] args)
     template<class ReturnType>
     ReturnType _CallStatic(::Il2CppString* methodName, std::initializer_list<::Il2CppObject*> args) {
-      return _CallStatic(methodName, ::Array<::Il2CppObject*>::New(args));
+      return _CallStatic(methodName, ::ArrayWrapper<::Il2CppObject*>(args));
     }
     // Creating TArgs -> initializer_list proxy for: ReturnType _CallStatic(System.String methodName, params System.Object[] args)
     template<class ReturnType, class ...TParams>
@@ -393,19 +393,19 @@ namespace UnityEngine {
       ::il2cpp_utils::RunMethodThrow<void, false>(___instance_arg, ___generic__method, fieldName, val);
     }
     // static UnityEngine.AndroidJavaObject AndroidJavaObjectDeleteLocalRef(System.IntPtr jobject)
-    // Offset: 0x23A9610
+    // Offset: 0x25AE534
     static UnityEngine::AndroidJavaObject* AndroidJavaObjectDeleteLocalRef(System::IntPtr jobject);
     // static UnityEngine.AndroidJavaClass AndroidJavaClassDeleteLocalRef(System.IntPtr jclass)
-    // Offset: 0x23A96A8
+    // Offset: 0x25AE5CC
     static UnityEngine::AndroidJavaClass* AndroidJavaClassDeleteLocalRef(System::IntPtr jclass);
     // protected System.IntPtr _GetRawObject()
-    // Offset: 0x23A9058
+    // Offset: 0x25ADF7C
     System::IntPtr _GetRawObject();
     // protected System.IntPtr _GetRawClass()
-    // Offset: 0x23A9090
+    // Offset: 0x25ADFB4
     System::IntPtr _GetRawClass();
     // System.Void .ctor()
-    // Offset: 0x23A8474
+    // Offset: 0x25AD398
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -414,7 +414,7 @@ namespace UnityEngine {
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x23A94EC
+    // Offset: 0x25AE410
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -475,10 +475,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaObject::Call
 // Il2CppName: Call
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AndroidJavaObject::*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&UnityEngine::AndroidJavaObject::Call)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AndroidJavaObject::*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::AndroidJavaObject::Call)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJavaObject*), "Call", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{methodName, args});
   }
 };
@@ -488,10 +488,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaObject::CallStatic
 // Il2CppName: CallStatic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AndroidJavaObject::*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&UnityEngine::AndroidJavaObject::CallStatic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AndroidJavaObject::*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::AndroidJavaObject::CallStatic)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJavaObject*), "CallStatic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{methodName, args});
   }
 };
@@ -547,22 +547,22 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaObject::DebugPrint
 // Il2CppName: DebugPrint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AndroidJavaObject::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&UnityEngine::AndroidJavaObject::DebugPrint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AndroidJavaObject::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::AndroidJavaObject::DebugPrint)> {
   static const MethodInfo* get() {
     static auto* call = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* signature = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJavaObject*), "DebugPrint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{call, methodName, signature, args});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaObject::_AndroidJavaObject
 // Il2CppName: _AndroidJavaObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AndroidJavaObject::*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&UnityEngine::AndroidJavaObject::_AndroidJavaObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AndroidJavaObject::*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::AndroidJavaObject::_AndroidJavaObject)> {
   static const MethodInfo* get() {
     static auto* className = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJavaObject*), "_AndroidJavaObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{className, args});
   }
 };
@@ -578,10 +578,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaObject::_Call
 // Il2CppName: _Call
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AndroidJavaObject::*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&UnityEngine::AndroidJavaObject::_Call)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AndroidJavaObject::*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::AndroidJavaObject::_Call)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJavaObject*), "_Call", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{methodName, args});
   }
 };
@@ -597,10 +597,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaObject::_CallStatic
 // Il2CppName: _CallStatic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AndroidJavaObject::*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&UnityEngine::AndroidJavaObject::_CallStatic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AndroidJavaObject::*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::AndroidJavaObject::_CallStatic)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJavaObject*), "_CallStatic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{methodName, args});
   }
 };

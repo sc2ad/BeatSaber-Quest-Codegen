@@ -38,43 +38,43 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Net
     Net() noexcept {}
     // static public Oculus.Platform.Packet ReadPacket()
-    // Offset: 0x23B0EA4
+    // Offset: 0x25B5DC8
     static Oculus::Platform::Packet* ReadPacket();
     // static public System.Boolean SendPacket(System.UInt64 userID, System.Byte[] bytes, Oculus.Platform.SendPolicy policy)
-    // Offset: 0x23B1074
-    static bool SendPacket(uint64_t userID, ::Array<uint8_t>* bytes, Oculus::Platform::SendPolicy policy);
+    // Offset: 0x25B5F98
+    static bool SendPacket(uint64_t userID, ::ArrayWrapper<uint8_t> bytes, Oculus::Platform::SendPolicy policy);
     // static public System.Void Connect(System.UInt64 userID)
-    // Offset: 0x23B11C0
+    // Offset: 0x25B60E4
     static void Connect(uint64_t userID);
     // static public System.Void Accept(System.UInt64 userID)
-    // Offset: 0x23B12AC
+    // Offset: 0x25B61D0
     static void Accept(uint64_t userID);
     // static public System.Void Close(System.UInt64 userID)
-    // Offset: 0x23B1398
+    // Offset: 0x25B62BC
     static void Close(uint64_t userID);
     // static public System.Boolean IsConnected(System.UInt64 userID)
-    // Offset: 0x23B1484
+    // Offset: 0x25B63A8
     static bool IsConnected(uint64_t userID);
     // static public System.Boolean SendPacketToCurrentRoom(System.Byte[] bytes, Oculus.Platform.SendPolicy policy)
-    // Offset: 0x23B1574
-    static bool SendPacketToCurrentRoom(::Array<uint8_t>* bytes, Oculus::Platform::SendPolicy policy);
+    // Offset: 0x25B6498
+    static bool SendPacketToCurrentRoom(::ArrayWrapper<uint8_t> bytes, Oculus::Platform::SendPolicy policy);
     // static public System.Boolean AcceptForCurrentRoom()
-    // Offset: 0x23B16AC
+    // Offset: 0x25B65D0
     static bool AcceptForCurrentRoom();
     // static public System.Void CloseForCurrentRoom()
-    // Offset: 0x23B1788
+    // Offset: 0x25B66AC
     static void CloseForCurrentRoom();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.PingResult> Ping(System.UInt64 userID)
-    // Offset: 0x23B1860
+    // Offset: 0x25B6784
     static Oculus::Platform::Request_1<Oculus::Platform::Models::PingResult*>* Ping(uint64_t userID);
     // static public System.Void SetConnectionStateChangedCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.NetworkingPeer> callback)
-    // Offset: 0x23B197C
+    // Offset: 0x25B68A0
     static void SetConnectionStateChangedCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>::Callback* callback);
     // static public System.Void SetPeerConnectRequestCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.NetworkingPeer> callback)
-    // Offset: 0x23B19F4
+    // Offset: 0x25B6918
     static void SetPeerConnectRequestCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>::Callback* callback);
     // static public System.Void SetPingResultNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.PingResult> callback)
-    // Offset: 0x23B1A6C
+    // Offset: 0x25B6990
     static void SetPingResultNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::PingResult*>::Callback* callback);
   }; // Oculus.Platform.Net
   #pragma pack(pop)
@@ -93,10 +93,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Net::SendPacket
 // Il2CppName: SendPacket
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::Array<uint8_t>*, Oculus::Platform::SendPolicy)>(&Oculus::Platform::Net::SendPacket)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::ArrayWrapper<uint8_t>, Oculus::Platform::SendPolicy)>(&Oculus::Platform::Net::SendPacket)> {
   static const MethodInfo* get() {
     static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
-    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* bytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* policy = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "SendPolicy")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Net*), "SendPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userID, bytes, policy});
   }
@@ -140,9 +140,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ui
 // Writing MetadataGetter for method: Oculus::Platform::Net::SendPacketToCurrentRoom
 // Il2CppName: SendPacketToCurrentRoom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint8_t>*, Oculus::Platform::SendPolicy)>(&Oculus::Platform::Net::SendPacketToCurrentRoom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint8_t>, Oculus::Platform::SendPolicy)>(&Oculus::Platform::Net::SendPacketToCurrentRoom)> {
   static const MethodInfo* get() {
-    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* bytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* policy = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "SendPolicy")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Net*), "SendPacketToCurrentRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes, policy});
   }

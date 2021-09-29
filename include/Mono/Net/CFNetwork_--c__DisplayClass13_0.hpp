@@ -38,9 +38,9 @@ namespace Mono::Net {
     // public Mono.Net.CFProxy[] proxies
     // Size: 0x8
     // Offset: 0x10
-    ::Array<Mono::Net::CFProxy*>* proxies;
+    ::ArrayWrapper<Mono::Net::CFProxy*> proxies;
     // Field size check
-    static_assert(sizeof(::Array<Mono::Net::CFProxy*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<Mono::Net::CFProxy*>) == 0x8);
     // public Mono.Net.CFRunLoop runLoop
     // Size: 0x8
     // Offset: 0x18
@@ -48,16 +48,16 @@ namespace Mono::Net {
     // Field size check
     static_assert(sizeof(Mono::Net::CFRunLoop*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass13_0
-    $$c__DisplayClass13_0(::Array<Mono::Net::CFProxy*>* proxies_ = {}, Mono::Net::CFRunLoop* runLoop_ = {}) noexcept : proxies{proxies_}, runLoop{runLoop_} {}
+    $$c__DisplayClass13_0(::ArrayWrapper<Mono::Net::CFProxy*> proxies_ = {}, Mono::Net::CFRunLoop* runLoop_ = {}) noexcept : proxies{proxies_}, runLoop{runLoop_} {}
     // Get instance field reference: public Mono.Net.CFProxy[] proxies
-    ::Array<Mono::Net::CFProxy*>*& dyn_proxies();
+    ::ArrayWrapper<Mono::Net::CFProxy*>& dyn_proxies();
     // Get instance field reference: public Mono.Net.CFRunLoop runLoop
     Mono::Net::CFRunLoop*& dyn_runLoop();
     // System.Void <ExecuteProxyAutoConfigurationURL>b__0(System.IntPtr client, System.IntPtr proxyList, System.IntPtr error)
-    // Offset: 0x15EC4E8
+    // Offset: 0x17B8090
     void $ExecuteProxyAutoConfigurationURL$b__0(System::IntPtr client, System::IntPtr proxyList, System::IntPtr error);
     // public System.Void .ctor()
-    // Offset: 0x15EBC8C
+    // Offset: 0x17B7834
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

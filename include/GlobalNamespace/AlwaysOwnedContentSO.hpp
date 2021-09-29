@@ -32,31 +32,31 @@ namespace GlobalNamespace {
     // private BeatmapLevelPackSO[] _alwaysOwnedPacks
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::BeatmapLevelPackSO*>* alwaysOwnedPacks;
+    ::ArrayWrapper<GlobalNamespace::BeatmapLevelPackSO*> alwaysOwnedPacks;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::BeatmapLevelPackSO*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BeatmapLevelPackSO*>) == 0x8);
     // private BeatmapLevelSO[] _alwaysOwnedBeatmapLevels
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::BeatmapLevelSO*>* alwaysOwnedBeatmapLevels;
+    ::ArrayWrapper<GlobalNamespace::BeatmapLevelSO*> alwaysOwnedBeatmapLevels;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::BeatmapLevelSO*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BeatmapLevelSO*>) == 0x8);
     // Creating value type constructor for type: AlwaysOwnedContentSO
-    AlwaysOwnedContentSO(::Array<GlobalNamespace::BeatmapLevelPackSO*>* alwaysOwnedPacks_ = {}, ::Array<GlobalNamespace::BeatmapLevelSO*>* alwaysOwnedBeatmapLevels_ = {}) noexcept : alwaysOwnedPacks{alwaysOwnedPacks_}, alwaysOwnedBeatmapLevels{alwaysOwnedBeatmapLevels_} {}
+    AlwaysOwnedContentSO(::ArrayWrapper<GlobalNamespace::BeatmapLevelPackSO*> alwaysOwnedPacks_ = {}, ::ArrayWrapper<GlobalNamespace::BeatmapLevelSO*> alwaysOwnedBeatmapLevels_ = {}) noexcept : alwaysOwnedPacks{alwaysOwnedPacks_}, alwaysOwnedBeatmapLevels{alwaysOwnedBeatmapLevels_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapLevelPackSO[] _alwaysOwnedPacks
-    ::Array<GlobalNamespace::BeatmapLevelPackSO*>*& dyn__alwaysOwnedPacks();
+    ::ArrayWrapper<GlobalNamespace::BeatmapLevelPackSO*>& dyn__alwaysOwnedPacks();
     // Get instance field reference: private BeatmapLevelSO[] _alwaysOwnedBeatmapLevels
-    ::Array<GlobalNamespace::BeatmapLevelSO*>*& dyn__alwaysOwnedBeatmapLevels();
+    ::ArrayWrapper<GlobalNamespace::BeatmapLevelSO*>& dyn__alwaysOwnedBeatmapLevels();
     // public BeatmapLevelPackSO[] get_alwaysOwnedPacks()
-    // Offset: 0x1172968
-    ::Array<GlobalNamespace::BeatmapLevelPackSO*>* get_alwaysOwnedPacks();
+    // Offset: 0x1241518
+    ::ArrayWrapper<GlobalNamespace::BeatmapLevelPackSO*> get_alwaysOwnedPacks();
     // public BeatmapLevelSO[] get_alwaysOwnedBeatmapLevels()
-    // Offset: 0x1172970
-    ::Array<GlobalNamespace::BeatmapLevelSO*>* get_alwaysOwnedBeatmapLevels();
+    // Offset: 0x1241520
+    ::ArrayWrapper<GlobalNamespace::BeatmapLevelSO*> get_alwaysOwnedBeatmapLevels();
     // public System.Void .ctor()
-    // Offset: 0x1172978
+    // Offset: 0x1241528
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     }
   }; // AlwaysOwnedContentSO
   #pragma pack(pop)
-  static check_size<sizeof(AlwaysOwnedContentSO), 32 + sizeof(::Array<GlobalNamespace::BeatmapLevelSO*>*)> __GlobalNamespace_AlwaysOwnedContentSOSizeCheck;
+  static check_size<sizeof(AlwaysOwnedContentSO), 32 + sizeof(::ArrayWrapper<GlobalNamespace::BeatmapLevelSO*>)> __GlobalNamespace_AlwaysOwnedContentSOSizeCheck;
   static_assert(sizeof(AlwaysOwnedContentSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlwaysOwnedContentSO*, "", "AlwaysOwnedContentSO");
@@ -77,7 +77,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlwaysOwnedContentSO*, "", "AlwaysOwnedC
 // Writing MetadataGetter for method: GlobalNamespace::AlwaysOwnedContentSO::get_alwaysOwnedPacks
 // Il2CppName: get_alwaysOwnedPacks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::BeatmapLevelPackSO*>* (GlobalNamespace::AlwaysOwnedContentSO::*)()>(&GlobalNamespace::AlwaysOwnedContentSO::get_alwaysOwnedPacks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::BeatmapLevelPackSO*> (GlobalNamespace::AlwaysOwnedContentSO::*)()>(&GlobalNamespace::AlwaysOwnedContentSO::get_alwaysOwnedPacks)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AlwaysOwnedContentSO*), "get_alwaysOwnedPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Writing MetadataGetter for method: GlobalNamespace::AlwaysOwnedContentSO::get_alwaysOwnedBeatmapLevels
 // Il2CppName: get_alwaysOwnedBeatmapLevels
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::BeatmapLevelSO*>* (GlobalNamespace::AlwaysOwnedContentSO::*)()>(&GlobalNamespace::AlwaysOwnedContentSO::get_alwaysOwnedBeatmapLevels)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::BeatmapLevelSO*> (GlobalNamespace::AlwaysOwnedContentSO::*)()>(&GlobalNamespace::AlwaysOwnedContentSO::get_alwaysOwnedBeatmapLevels)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AlwaysOwnedContentSO*), "get_alwaysOwnedBeatmapLevels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -45,9 +45,9 @@ namespace GlobalNamespace {
     // private TMPro.TextMeshProUGUI[] _multiplierTexts
     // Size: 0x8
     // Offset: 0x18
-    ::Array<TMPro::TextMeshProUGUI*>* multiplierTexts;
+    ::ArrayWrapper<TMPro::TextMeshProUGUI*> multiplierTexts;
     // Field size check
-    static_assert(sizeof(::Array<TMPro::TextMeshProUGUI*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<TMPro::TextMeshProUGUI*>) == 0x8);
     // private UnityEngine.UI.Image _multiplierProgressImage
     // Size: 0x8
     // Offset: 0x20
@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     UnityEngine::Animator* multiplierAnimator;
     // Field size check
     static_assert(sizeof(UnityEngine::Animator*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3EAF4
+    // [InjectAttribute] Offset: 0xF07478
     // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x30
@@ -86,11 +86,11 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: ScoreMultiplierUIController
-    ScoreMultiplierUIController(::Array<TMPro::TextMeshProUGUI*>* multiplierTexts_ = {}, UnityEngine::UI::Image* multiplierProgressImage_ = {}, UnityEngine::Animator* multiplierAnimator_ = {}, GlobalNamespace::IScoreController* scoreController_ = {}, int prevMultiplier_ = {}, int multiplierIncreasedTriggerId_ = {}, float progressTarget_ = {}) noexcept : multiplierTexts{multiplierTexts_}, multiplierProgressImage{multiplierProgressImage_}, multiplierAnimator{multiplierAnimator_}, scoreController{scoreController_}, prevMultiplier{prevMultiplier_}, multiplierIncreasedTriggerId{multiplierIncreasedTriggerId_}, progressTarget{progressTarget_} {}
+    ScoreMultiplierUIController(::ArrayWrapper<TMPro::TextMeshProUGUI*> multiplierTexts_ = {}, UnityEngine::UI::Image* multiplierProgressImage_ = {}, UnityEngine::Animator* multiplierAnimator_ = {}, GlobalNamespace::IScoreController* scoreController_ = {}, int prevMultiplier_ = {}, int multiplierIncreasedTriggerId_ = {}, float progressTarget_ = {}) noexcept : multiplierTexts{multiplierTexts_}, multiplierProgressImage{multiplierProgressImage_}, multiplierAnimator{multiplierAnimator_}, scoreController{scoreController_}, prevMultiplier{prevMultiplier_}, multiplierIncreasedTriggerId{multiplierIncreasedTriggerId_}, progressTarget{progressTarget_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI[] _multiplierTexts
-    ::Array<TMPro::TextMeshProUGUI*>*& dyn__multiplierTexts();
+    ::ArrayWrapper<TMPro::TextMeshProUGUI*>& dyn__multiplierTexts();
     // Get instance field reference: private UnityEngine.UI.Image _multiplierProgressImage
     UnityEngine::UI::Image*& dyn__multiplierProgressImage();
     // Get instance field reference: private UnityEngine.Animator _multiplierAnimator
@@ -104,28 +104,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _progressTarget
     float& dyn__progressTarget();
     // protected System.Void Start()
-    // Offset: 0x11382D0
+    // Offset: 0x10FE5E0
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1138558
+    // Offset: 0x10FE868
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x113855C
+    // Offset: 0x10FE86C
     void OnDisable();
     // private System.Void RegisterForEvents()
-    // Offset: 0x11383B0
+    // Offset: 0x10FE6C0
     void RegisterForEvents();
     // private System.Void UnregisterFromEvents()
-    // Offset: 0x1138560
+    // Offset: 0x10FE870
     void UnregisterFromEvents();
     // protected System.Void Update()
-    // Offset: 0x1138660
+    // Offset: 0x10FE970
     void Update();
     // private System.Void HandleMultiplierDidChange(System.Int32 multiplier, System.Single progress)
-    // Offset: 0x113876C
+    // Offset: 0x10FEA7C
     void HandleMultiplierDidChange(int multiplier, float progress);
     // public System.Void .ctor()
-    // Offset: 0x113884C
+    // Offset: 0x10FEB5C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

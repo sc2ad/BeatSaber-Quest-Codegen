@@ -39,19 +39,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<BeatmapEditorScenesTransitionSetupDataSO> didFinishEvent
     System::Action_1<GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<BeatmapEditorScenesTransitionSetupDataSO> value)
-    // Offset: 0x11EB050
+    // Offset: 0x127B68C
     void add_didFinishEvent(System::Action_1<GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<BeatmapEditorScenesTransitionSetupDataSO> value)
-    // Offset: 0x11EB0F4
+    // Offset: 0x127B730
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* value);
     // public System.Void Init()
-    // Offset: 0x11EB198
+    // Offset: 0x127B7D4
     void Init();
     // public System.Void Finish()
-    // Offset: 0x11EB204
+    // Offset: 0x127B840
     void Finish();
     // public System.Void .ctor()
-    // Offset: 0x11EB268
+    // Offset: 0x127B8A4
     // Implemented from: SingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()

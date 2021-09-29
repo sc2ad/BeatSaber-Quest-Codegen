@@ -35,16 +35,16 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.IntPtr Handle
     System::IntPtr& dyn_Handle();
     // public System.Void AddSuggestedUser(System.UInt64 userID)
-    // Offset: 0x23B664C
+    // Offset: 0x25BB570
     void AddSuggestedUser(uint64_t userID);
     // public System.Void ClearSuggestedUsers()
-    // Offset: 0x23B66C8
+    // Offset: 0x25BB5EC
     void ClearSuggestedUsers();
     // static public System.IntPtr op_Explicit(Oculus.Platform.RosterOptions options)
-    // Offset: 0x23B6734
+    // Offset: 0x25BB658
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x23B65D4
+    // Offset: 0x25BB4F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -53,7 +53,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<RosterOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x23B6784
+    // Offset: 0x25BB6A8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

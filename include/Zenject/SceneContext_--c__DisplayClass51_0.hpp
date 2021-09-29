@@ -49,10 +49,10 @@ namespace Zenject {
     // Get instance field reference: public System.Collections.Generic.IEnumerable`1<Zenject.DiContainer> parents
     System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>*& dyn_parents();
     // System.Boolean <Install>b__0(Zenject.DiContainer x)
-    // Offset: 0x1722D40
+    // Offset: 0x189E73C
     bool $Install$b__0(Zenject::DiContainer* x);
     // public System.Void .ctor()
-    // Offset: 0x1722050
+    // Offset: 0x189DA4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

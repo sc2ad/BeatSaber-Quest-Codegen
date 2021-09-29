@@ -130,7 +130,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single pelvisRotationWeight
     float& dyn_pelvisRotationWeight();
     // public System.Void .ctor()
-    // Offset: 0x1AE7544
+    // Offset: 0x1C69CC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

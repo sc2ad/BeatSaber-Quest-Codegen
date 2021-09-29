@@ -239,152 +239,152 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _invitedMeToJoinTheirParty
     bool& dyn__invitedMeToJoinTheirParty();
     // public System.String get_userId()
-    // Offset: 0x119F714
+    // Offset: 0x125F51C
     ::Il2CppString* get_userId();
     // public System.String get_userName()
-    // Offset: 0x119F71C
+    // Offset: 0x125F524
     ::Il2CppString* get_userName();
     // public System.Net.IPAddress get_ipAddress()
-    // Offset: 0x119F724
+    // Offset: 0x125F52C
     System::Net::IPAddress* get_ipAddress();
     // public System.Boolean get_isMe()
-    // Offset: 0x119F72C
+    // Offset: 0x125F534
     bool get_isMe();
     // public System.Boolean get_isPartyOwner()
-    // Offset: 0x119F734
+    // Offset: 0x125F53C
     bool get_isPartyOwner();
     // public System.Int32 get_currentPartySize()
-    // Offset: 0x119F73C
+    // Offset: 0x125F544
     int get_currentPartySize();
     // public BeatmapLevelSelectionMask get_selectionMask()
-    // Offset: 0x119F744
+    // Offset: 0x125F54C
     GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
     // public GameplayServerConfiguration get_configuration()
-    // Offset: 0x119F758
+    // Offset: 0x125F560
     GlobalNamespace::GameplayServerConfiguration get_configuration();
     // public IConnectedPlayer get_connectedPlayer()
-    // Offset: 0x119F76C
+    // Offset: 0x125F574
     GlobalNamespace::IConnectedPlayer* get_connectedPlayer();
     // public System.Boolean get_isBlocked()
-    // Offset: 0x119F774
+    // Offset: 0x125F57C
     bool get_isBlocked();
     // public System.Boolean get_hasBlockedMe()
-    // Offset: 0x119F77C
+    // Offset: 0x125F584
     bool get_hasBlockedMe();
     // public System.String get_secret()
-    // Offset: 0x119F784
+    // Offset: 0x125F58C
     ::Il2CppString* get_secret();
     // public System.Int32 get_multiplayerPort()
-    // Offset: 0x119F78C
+    // Offset: 0x125F594
     int get_multiplayerPort();
     // public System.Boolean get_isMyPartyOwner()
-    // Offset: 0x119EFC0
+    // Offset: 0x125EDC8
     bool get_isMyPartyOwner();
     // public System.Boolean get_isConnected()
-    // Offset: 0x119F794
+    // Offset: 0x125F59C
     bool get_isConnected();
     // public System.Boolean get_allowedJoinToMyParty()
-    // Offset: 0x119F854
+    // Offset: 0x125F65C
     bool get_allowedJoinToMyParty();
     // public System.Boolean get_isConnecting()
-    // Offset: 0x119EB78
+    // Offset: 0x125E980
     bool get_isConnecting();
     // private System.Boolean get_wasConnecting()
-    // Offset: 0x119F85C
+    // Offset: 0x125F664
     bool get_wasConnecting();
     // public System.Boolean get_isTimedOut()
-    // Offset: 0x119CF08
+    // Offset: 0x125CD10
     bool get_isTimedOut();
     // public System.Boolean get_isWaitingOnJoin()
-    // Offset: 0x119F8A0
+    // Offset: 0x125F6A8
     bool get_isWaitingOnJoin();
     // public System.Boolean get_canJoin()
-    // Offset: 0x119F8E8
+    // Offset: 0x125F6F0
     bool get_canJoin();
     // public System.Boolean get_requiresPassword()
-    // Offset: 0x119F9FC
+    // Offset: 0x125F804
     bool get_requiresPassword();
     // public System.Boolean get_isWaitingOnInvite()
-    // Offset: 0x119FA08
+    // Offset: 0x125F810
     bool get_isWaitingOnInvite();
     // public System.Boolean get_canInvite()
-    // Offset: 0x119FA50
+    // Offset: 0x125F858
     bool get_canInvite();
     // public System.Boolean get_canKick()
-    // Offset: 0x119FB7C
+    // Offset: 0x125F984
     bool get_canKick();
     // public System.Boolean get_canLeave()
-    // Offset: 0x119FBE8
+    // Offset: 0x125F9F0
     bool get_canLeave();
     // public System.Boolean get_canBlock()
-    // Offset: 0x119FC68
+    // Offset: 0x125FA70
     bool get_canBlock();
     // public System.Boolean get_canUnblock()
-    // Offset: 0x119FCE8
+    // Offset: 0x125FAF0
     bool get_canUnblock();
     // private System.Boolean get_isConnectable()
-    // Offset: 0x119FD5C
+    // Offset: 0x125FB64
     bool get_isConnectable();
     // public System.Void .ctor(LocalNetworkPlayerModel playerModel, System.String userId, System.String userName, System.Net.IPAddress ipAddress, System.Boolean isMe)
-    // Offset: 0x119D74C
+    // Offset: 0x125D554
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalNetworkPlayerModel::LocalNetworkPlayer* New_ctor(GlobalNamespace::LocalNetworkPlayerModel* playerModel, ::Il2CppString* userId, ::Il2CppString* userName, System::Net::IPAddress* ipAddress, bool isMe) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalNetworkPlayerModel::LocalNetworkPlayer*, creationType>(playerModel, userId, userName, ipAddress, isMe)));
     }
     // public System.Void Join()
-    // Offset: 0x119F9A4
+    // Offset: 0x125F7AC
     void Join();
     // public System.Void Join(System.String password)
-    // Offset: 0x119FA04
+    // Offset: 0x125F80C
     void Join(::Il2CppString* password);
     // public System.Void Invite()
-    // Offset: 0x119FB0C
+    // Offset: 0x125F914
     void Invite();
     // public System.Void Kick()
-    // Offset: 0x119FBC8
+    // Offset: 0x125F9D0
     void Kick();
     // public System.Void Leave()
-    // Offset: 0x119FC44
+    // Offset: 0x125FA4C
     void Leave();
     // public System.Void Block()
-    // Offset: 0x119FCDC
+    // Offset: 0x125FAE4
     void Block();
     // public System.Void Unblock()
-    // Offset: 0x119FCF0
+    // Offset: 0x125FAF8
     void Unblock();
     // public System.Void SendJoinResponse(System.Boolean accept)
-    // Offset: 0x119D9D4
+    // Offset: 0x125D7DC
     void SendJoinResponse(bool accept);
     // public System.Void SendInviteResponse(System.Boolean accept)
-    // Offset: 0x119E278
+    // Offset: 0x125E080
     void SendInviteResponse(bool accept);
     // public System.Boolean Update(System.Boolean isPartyOwner, System.Int32 currentPartySize, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
-    // Offset: 0x119D3E8
+    // Offset: 0x125D1F0
     bool Update(bool isPartyOwner, int currentPartySize, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration);
     // public System.Boolean HasFailedToConnect()
-    // Offset: 0x119CE74
+    // Offset: 0x125CC7C
     bool HasFailedToConnect();
     // public System.Void SetInvited(System.Boolean isPartyOwner, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.String secret, System.Int32 multiplayerPort)
-    // Offset: 0x119E23C
+    // Offset: 0x125E044
     void SetInvited(bool isPartyOwner, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* secret, int multiplayerPort);
     // public System.Void SetJoinResponse(System.Boolean isPartyOwner, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.String secret, System.Int32 multiplayerPort, System.Boolean blocked)
-    // Offset: 0x119DEC4
+    // Offset: 0x125DCCC
     void SetJoinResponse(bool isPartyOwner, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* secret, int multiplayerPort, bool blocked);
     // public System.Void SetInviteResponse(System.Boolean accepted, System.Boolean blocked)
-    // Offset: 0x119E448
+    // Offset: 0x125E250
     void SetInviteResponse(bool accepted, bool blocked);
     // public System.Void SetJoinRequested()
-    // Offset: 0x119D9C8
+    // Offset: 0x125D7D0
     void SetJoinRequested();
     // public System.Boolean SetConnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0x119EA84
+    // Offset: 0x125E88C
     bool SetConnected(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // public System.Boolean SetDisconnected()
-    // Offset: 0x119EBBC
+    // Offset: 0x125E9C4
     bool SetDisconnected();
     // public System.Void Connect()
-    // Offset: 0x119FCF8
+    // Offset: 0x125FB00
     void Connect();
   }; // LocalNetworkPlayerModel/LocalNetworkPlayer
   #pragma pack(pop)

@@ -71,25 +71,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _selectedAndHighlightedState
     UnityEngine::Vector3& dyn__selectedAndHighlightedState();
     // public UnityEngine.Vector3 get_normalState()
-    // Offset: 0x12A2FA0
+    // Offset: 0x134D754
     UnityEngine::Vector3 get_normalState();
     // public UnityEngine.Vector3 get_highlightedState()
-    // Offset: 0x12A2FAC
+    // Offset: 0x134D760
     UnityEngine::Vector3 get_highlightedState();
     // public UnityEngine.Vector3 get_pressedState()
-    // Offset: 0x12A2FB8
+    // Offset: 0x134D76C
     UnityEngine::Vector3 get_pressedState();
     // public UnityEngine.Vector3 get_disabledState()
-    // Offset: 0x12A2FC4
+    // Offset: 0x134D778
     UnityEngine::Vector3 get_disabledState();
     // public UnityEngine.Vector3 get_selectedState()
-    // Offset: 0x12A2FD0
+    // Offset: 0x134D784
     UnityEngine::Vector3 get_selectedState();
     // public UnityEngine.Vector3 get_selectedAndHighlightedState()
-    // Offset: 0x12A2FDC
+    // Offset: 0x134D790
     UnityEngine::Vector3 get_selectedAndHighlightedState();
     // public System.Void .ctor()
-    // Offset: 0x12A2FE8
+    // Offset: 0x134D79C
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

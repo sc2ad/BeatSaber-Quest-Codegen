@@ -23,8 +23,6 @@ namespace System::Security::Cryptography::X509Certificates {
 // Completed forward declares
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
-template<class T>
-struct Array;
 // Completed il2cpp-utils forward declares
 // Type namespace: Mono.Security.Interface
 namespace Mono::Security::Interface {
@@ -41,7 +39,7 @@ namespace Mono::Security::Interface {
     Mono::Security::Interface::MonoTlsSettings* get_Settings();
     // public System.Boolean SelectClientCertificate(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection localCertificates, System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate, System.String[] acceptableIssuers, out System.Security.Cryptography.X509Certificates.X509Certificate clientCertificate)
     // Offset: 0xFFFFFFFF
-    bool SelectClientCertificate(::Il2CppString* targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::Array<::Il2CppString*>* acceptableIssuers, ByRef<System::Security::Cryptography::X509Certificates::X509Certificate*> clientCertificate);
+    bool SelectClientCertificate(::Il2CppString* targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayWrapper<::Il2CppString*> acceptableIssuers, ByRef<System::Security::Cryptography::X509Certificates::X509Certificate*> clientCertificate);
     // public Mono.Security.Interface.ValidationResult ValidateCertificate(System.String targetHost, System.Boolean serverMode, System.Security.Cryptography.X509Certificates.X509CertificateCollection certificates)
     // Offset: 0xFFFFFFFF
     Mono::Security::Interface::ValidationResult* ValidateCertificate(::Il2CppString* targetHost, bool serverMode, System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates);
@@ -62,12 +60,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: Mono::Security::Interface::ICertificateValidator::SelectClientCertificate
 // Il2CppName: SelectClientCertificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Interface::ICertificateValidator::*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Cryptography::X509Certificates::X509Certificate*, ::Array<::Il2CppString*>*, ByRef<System::Security::Cryptography::X509Certificates::X509Certificate*>)>(&Mono::Security::Interface::ICertificateValidator::SelectClientCertificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Interface::ICertificateValidator::*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayWrapper<::Il2CppString*>, ByRef<System::Security::Cryptography::X509Certificates::X509Certificate*>)>(&Mono::Security::Interface::ICertificateValidator::SelectClientCertificate)> {
   static const MethodInfo* get() {
     static auto* targetHost = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* localCertificates = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509CertificateCollection")->byval_arg;
     static auto* remoteCertificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;
-    static auto* acceptableIssuers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* acceptableIssuers = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
     static auto* clientCertificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::ICertificateValidator*), "SelectClientCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{targetHost, localCertificates, remoteCertificate, acceptableIssuers, clientCertificate});
   }

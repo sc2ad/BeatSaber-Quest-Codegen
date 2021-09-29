@@ -46,40 +46,40 @@ namespace UnityEngine::UI {
     // Get instance field reference: private UnityEngine.Sprite m_Image
     UnityEngine::Sprite*& dyn_m_Image();
     // public System.String get_text()
-    // Offset: 0x193D2DC
+    // Offset: 0x1AC7CB8
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x193D2E4
+    // Offset: 0x1AC7CC0
     void set_text(::Il2CppString* value);
     // public UnityEngine.Sprite get_image()
-    // Offset: 0x193D2EC
+    // Offset: 0x1AC7CC8
     UnityEngine::Sprite* get_image();
     // public System.Void set_image(UnityEngine.Sprite value)
-    // Offset: 0x193D2F4
+    // Offset: 0x1AC7CD0
     void set_image(UnityEngine::Sprite* value);
     // public System.Void .ctor(System.String text)
-    // Offset: 0x193D304
+    // Offset: 0x1AC7CE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Dropdown::OptionData* New_ctor(::Il2CppString* text) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::Dropdown::OptionData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Dropdown::OptionData*, creationType>(text)));
     }
     // public System.Void .ctor(UnityEngine.Sprite image)
-    // Offset: 0x193D330
+    // Offset: 0x1AC7D0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Dropdown::OptionData* New_ctor(UnityEngine::Sprite* image) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::Dropdown::OptionData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Dropdown::OptionData*, creationType>(image)));
     }
     // public System.Void .ctor(System.String text, UnityEngine.Sprite image)
-    // Offset: 0x193D35C
+    // Offset: 0x1AC7D38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Dropdown::OptionData* New_ctor(::Il2CppString* text, UnityEngine::Sprite* image) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::Dropdown::OptionData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Dropdown::OptionData*, creationType>(text, image)));
     }
     // public System.Void .ctor()
-    // Offset: 0x193D2FC
+    // Offset: 0x1AC7CD8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

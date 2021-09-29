@@ -39,15 +39,15 @@ namespace GlobalNamespace {
     // private readonly UnityEngine.Collider[] _colliders
     // Size: 0x8
     // Offset: 0x10
-    ::Array<UnityEngine::Collider*>* colliders;
+    ::ArrayWrapper<UnityEngine::Collider*> colliders;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Collider*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Collider*>) == 0x8);
     // private readonly NoteCutter/CuttableBySaberSortParams[] _cuttableBySaberSortParams
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::NoteCutter::CuttableBySaberSortParams*>* cuttableBySaberSortParams;
+    ::ArrayWrapper<GlobalNamespace::NoteCutter::CuttableBySaberSortParams*> cuttableBySaberSortParams;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::NoteCutter::CuttableBySaberSortParams*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::NoteCutter::CuttableBySaberSortParams*>) == 0x8);
     // private readonly NoteCutter/CuttableBySaberSortParamsComparer _comparer
     // Size: 0x8
     // Offset: 0x20
@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*) == 0x8);
     // Creating value type constructor for type: NoteCutter
-    NoteCutter(::Array<UnityEngine::Collider*>* colliders_ = {}, ::Array<GlobalNamespace::NoteCutter::CuttableBySaberSortParams*>* cuttableBySaberSortParams_ = {}, GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer* comparer_ = {}) noexcept : colliders{colliders_}, cuttableBySaberSortParams{cuttableBySaberSortParams_}, comparer{comparer_} {}
+    NoteCutter(::ArrayWrapper<UnityEngine::Collider*> colliders_ = {}, ::ArrayWrapper<GlobalNamespace::NoteCutter::CuttableBySaberSortParams*> cuttableBySaberSortParams_ = {}, GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer* comparer_ = {}) noexcept : colliders{colliders_}, cuttableBySaberSortParams{cuttableBySaberSortParams_}, comparer{comparer_} {}
     // static field const value: static private System.Int32 kMaxNumberOfColliders
     static constexpr const int kMaxNumberOfColliders = 16;
     // Get static field: static private System.Int32 kMaxNumberOfColliders
@@ -63,16 +63,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxNumberOfColliders
     static void _set_kMaxNumberOfColliders(int value);
     // Get instance field reference: private readonly UnityEngine.Collider[] _colliders
-    ::Array<UnityEngine::Collider*>*& dyn__colliders();
+    ::ArrayWrapper<UnityEngine::Collider*>& dyn__colliders();
     // Get instance field reference: private readonly NoteCutter/CuttableBySaberSortParams[] _cuttableBySaberSortParams
-    ::Array<GlobalNamespace::NoteCutter::CuttableBySaberSortParams*>*& dyn__cuttableBySaberSortParams();
+    ::ArrayWrapper<GlobalNamespace::NoteCutter::CuttableBySaberSortParams*>& dyn__cuttableBySaberSortParams();
     // Get instance field reference: private readonly NoteCutter/CuttableBySaberSortParamsComparer _comparer
     GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*& dyn__comparer();
     // public System.Void Cut(Saber saber)
-    // Offset: 0x1247C20
+    // Offset: 0x1353C9C
     void Cut(GlobalNamespace::Saber* saber);
     // public System.Void .ctor()
-    // Offset: 0x1247AE8
+    // Offset: 0x1353B64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

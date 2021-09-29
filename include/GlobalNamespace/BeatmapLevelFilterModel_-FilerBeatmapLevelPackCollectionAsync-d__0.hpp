@@ -74,9 +74,9 @@ namespace GlobalNamespace {
     // public IBeatmapLevelPack[] beatmapLevelPacks
     // Size: 0x8
     // Offset: 0x30
-    ::Array<GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks;
+    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> beatmapLevelPacks;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::IBeatmapLevelPack*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>) == 0x8);
     // public AdditionalContentModel additionalContentModel
     // Size: 0x8
     // Offset: 0x38
@@ -100,7 +100,7 @@ namespace GlobalNamespace {
     // Offset: 0x50
     System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>*> $$u__1;
     // Creating value type constructor for type: $FilerBeatmapLevelPackCollectionAsync$d__0
-    constexpr $FilerBeatmapLevelPackCollectionAsync$d__0(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::IBeatmapLevelCollection*> $$t__builder_ = {}, GlobalNamespace::LevelFilterParams* levelFilterParams_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, ::Array<GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks_ = {}, GlobalNamespace::AdditionalContentModel* additionalContentModel_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0* $$8__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, levelFilterParams{levelFilterParams_}, playerDataModel{playerDataModel_}, beatmapLevelPacks{beatmapLevelPacks_}, additionalContentModel{additionalContentModel_}, cancellationToken{cancellationToken_}, $$8__1{$$8__1_}, $$u__1{$$u__1_} {}
+    constexpr $FilerBeatmapLevelPackCollectionAsync$d__0(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::IBeatmapLevelCollection*> $$t__builder_ = {}, GlobalNamespace::LevelFilterParams* levelFilterParams_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> beatmapLevelPacks_ = {}, GlobalNamespace::AdditionalContentModel* additionalContentModel_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0* $$8__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, levelFilterParams{levelFilterParams_}, playerDataModel{playerDataModel_}, beatmapLevelPacks{beatmapLevelPacks_}, additionalContentModel{additionalContentModel_}, cancellationToken{cancellationToken_}, $$8__1{$$8__1_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -118,7 +118,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public PlayerDataModel playerDataModel
     GlobalNamespace::PlayerDataModel*& dyn_playerDataModel();
     // Get instance field reference: public IBeatmapLevelPack[] beatmapLevelPacks
-    ::Array<GlobalNamespace::IBeatmapLevelPack*>*& dyn_beatmapLevelPacks();
+    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>& dyn_beatmapLevelPacks();
     // Get instance field reference: public AdditionalContentModel additionalContentModel
     GlobalNamespace::AdditionalContentModel*& dyn_additionalContentModel();
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
@@ -128,10 +128,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Collections.Generic.List`1<IPreviewBeatmapLevel>> <>u__1
     System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x10C80CC
+    // Offset: 0x1299614
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x10C84A4
+    // Offset: 0x12999EC
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BeatmapLevelFilterModel/<FilerBeatmapLevelPackCollectionAsync>d__0
   // WARNING Not writing size check since size may be invalid!

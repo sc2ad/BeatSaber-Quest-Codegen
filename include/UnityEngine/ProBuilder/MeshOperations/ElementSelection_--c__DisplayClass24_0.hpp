@@ -45,10 +45,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public UnityEngine.ProBuilder.Face face
     UnityEngine::ProBuilder::Face*& dyn_face();
     // System.Boolean <GetFaceLoop>b__0(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x15623A4
+    // Offset: 0x171B664
     bool $GetFaceLoop$b__0(UnityEngine::ProBuilder::WingedEdge* x);
     // public System.Void .ctor()
-    // Offset: 0x15616AC
+    // Offset: 0x171A96C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

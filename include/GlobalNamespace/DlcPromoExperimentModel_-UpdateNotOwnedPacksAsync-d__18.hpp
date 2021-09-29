@@ -63,9 +63,9 @@ namespace GlobalNamespace {
     // private DlcPromoExperimentDataSO/MusicPackPromoInfo[] <>7__wrap2
     // Size: 0x8
     // Offset: 0x38
-    ::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* $$7__wrap2;
+    ::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*> $$7__wrap2;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>) == 0x8);
     // private System.Int32 <>7__wrap3
     // Size: 0x4
     // Offset: 0x40
@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     // Offset: 0x50
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1;
     // Creating value type constructor for type: $UpdateNotOwnedPacksAsync$d__18
-    constexpr $UpdateNotOwnedPacksAsync$d__18(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::DlcPromoExperimentModel* $$4__this_ = {}, System::Collections::Generic::List_1<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* $newNotOwnedMusicPackPromoInfos$5__2_ = {}, ::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* $$7__wrap2_ = {}, int $$7__wrap3_ = {}, GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo* $packData$5__5_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $newNotOwnedMusicPackPromoInfos$5__2{$newNotOwnedMusicPackPromoInfos$5__2_}, $$7__wrap2{$$7__wrap2_}, $$7__wrap3{$$7__wrap3_}, $packData$5__5{$packData$5__5_}, $$u__1{$$u__1_} {}
+    constexpr $UpdateNotOwnedPacksAsync$d__18(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::DlcPromoExperimentModel* $$4__this_ = {}, System::Collections::Generic::List_1<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* $newNotOwnedMusicPackPromoInfos$5__2_ = {}, ::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*> $$7__wrap2_ = {}, int $$7__wrap3_ = {}, GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo* $packData$5__5_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $newNotOwnedMusicPackPromoInfos$5__2{$newNotOwnedMusicPackPromoInfos$5__2_}, $$7__wrap2{$$7__wrap2_}, $$7__wrap3{$$7__wrap3_}, $packData$5__5{$packData$5__5_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -101,7 +101,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<DlcPromoExperimentDataSO/MusicPackPromoInfo> <newNotOwnedMusicPackPromoInfos>5__2
     System::Collections::Generic::List_1<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>*& dyn_$newNotOwnedMusicPackPromoInfos$5__2();
     // Get instance field reference: private DlcPromoExperimentDataSO/MusicPackPromoInfo[] <>7__wrap2
-    ::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>*& dyn_$$7__wrap2();
+    ::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>& dyn_$$7__wrap2();
     // Get instance field reference: private System.Int32 <>7__wrap3
     int& dyn_$$7__wrap3();
     // Get instance field reference: private DlcPromoExperimentDataSO/MusicPackPromoInfo <packData>5__5
@@ -109,10 +109,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/EntitlementStatus> <>u__1
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1051190
+    // Offset: 0x11A9F78
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x10514D4
+    // Offset: 0x11AA2BC
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // DlcPromoExperimentModel/<UpdateNotOwnedPacksAsync>d__18
   // WARNING Not writing size check since size may be invalid!

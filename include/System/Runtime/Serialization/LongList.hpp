@@ -21,9 +21,9 @@ namespace System::Runtime::Serialization {
     // private System.Int64[] m_values
     // Size: 0x8
     // Offset: 0x10
-    ::Array<int64_t>* m_values;
+    ::ArrayWrapper<int64_t> m_values;
     // Field size check
-    static_assert(sizeof(::Array<int64_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int64_t>) == 0x8);
     // private System.Int32 m_count
     // Size: 0x4
     // Offset: 0x18
@@ -43,9 +43,9 @@ namespace System::Runtime::Serialization {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: LongList
-    LongList(::Array<int64_t>* m_values_ = {}, int m_count_ = {}, int m_totalItems_ = {}, int m_currentItem_ = {}) noexcept : m_values{m_values_}, m_count{m_count_}, m_totalItems{m_totalItems_}, m_currentItem{m_currentItem_} {}
+    LongList(::ArrayWrapper<int64_t> m_values_ = {}, int m_count_ = {}, int m_totalItems_ = {}, int m_currentItem_ = {}) noexcept : m_values{m_values_}, m_count{m_count_}, m_totalItems{m_totalItems_}, m_currentItem{m_currentItem_} {}
     // Get instance field reference: private System.Int64[] m_values
-    ::Array<int64_t>*& dyn_m_values();
+    ::ArrayWrapper<int64_t>& dyn_m_values();
     // Get instance field reference: private System.Int32 m_count
     int& dyn_m_count();
     // Get instance field reference: private System.Int32 m_totalItems
@@ -53,35 +53,35 @@ namespace System::Runtime::Serialization {
     // Get instance field reference: private System.Int32 m_currentItem
     int& dyn_m_currentItem();
     // System.Int32 get_Count()
-    // Offset: 0x16BC920
+    // Offset: 0x190F6F0
     int get_Count();
     // System.Int64 get_Current()
-    // Offset: 0x16BC99C
+    // Offset: 0x190F76C
     int64_t get_Current();
     // System.Void .ctor(System.Int32 startingSize)
-    // Offset: 0x16BC790
+    // Offset: 0x190F560
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LongList* New_ctor(int startingSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::LongList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LongList*, creationType>(startingSize)));
     }
     // System.Void Add(System.Int64 value)
-    // Offset: 0x16BC804
+    // Offset: 0x190F5D4
     void Add(int64_t value);
     // System.Void StartEnumeration()
-    // Offset: 0x16BC928
+    // Offset: 0x190F6F8
     void StartEnumeration();
     // System.Boolean MoveNext()
-    // Offset: 0x16BC934
+    // Offset: 0x190F704
     bool MoveNext();
     // System.Boolean RemoveElement(System.Int64 value)
-    // Offset: 0x16BC9DC
+    // Offset: 0x190F7AC
     bool RemoveElement(int64_t value);
     // private System.Void EnlargeArray()
-    // Offset: 0x16BC890
+    // Offset: 0x190F660
     void EnlargeArray();
     // System.Void .ctor()
-    // Offset: 0x16BC788
+    // Offset: 0x190F558
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -82,35 +82,35 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier prf
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& dyn_prf();
     // public Org.BouncyCastle.Math.BigInteger get_IterationCount()
-    // Offset: 0x17B8B40
+    // Offset: 0x19713A8
     Org::BouncyCastle::Math::BigInteger* get_IterationCount();
     // public Org.BouncyCastle.Math.BigInteger get_KeyLength()
-    // Offset: 0x17B8B5C
+    // Offset: 0x19713C4
     Org::BouncyCastle::Math::BigInteger* get_KeyLength();
     // public System.Boolean get_IsDefaultPrf()
-    // Offset: 0x17B8B70
+    // Offset: 0x19713D8
     bool get_IsDefaultPrf();
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_Prf()
-    // Offset: 0x17B8BFC
+    // Offset: 0x1971464
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Prf();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x17B8874
+    // Offset: 0x19710DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Pbkdf2Params* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Pbkdf2Params*, creationType>(seq)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x17B8DF4
+    // Offset: 0x197165C
     static void _cctor();
     // static public Org.BouncyCastle.Asn1.Pkcs.Pbkdf2Params GetInstance(System.Object obj)
-    // Offset: 0x17B85EC
+    // Offset: 0x1970E54
     static Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* GetInstance(::Il2CppObject* obj);
     // public System.Byte[] GetSalt()
-    // Offset: 0x17B8B20
-    ::Array<uint8_t>* GetSalt();
+    // Offset: 0x1971388
+    ::ArrayWrapper<uint8_t> GetSalt();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x17B8C70
+    // Offset: 0x19714D8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::GetSalt
 // Il2CppName: GetSalt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)()>(&Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::GetSalt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)()>(&Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::GetSalt)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*), "GetSalt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

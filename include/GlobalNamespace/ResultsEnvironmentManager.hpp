@@ -34,9 +34,9 @@ namespace GlobalNamespace {
     // private ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword[] _resultEnvironmentControllersWithKeyword
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>* resultEnvironmentControllersWithKeyword;
+    ::ArrayWrapper<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*> resultEnvironmentControllersWithKeyword;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>) == 0x8);
     // private System.String _currentShownKeyword
     // Size: 0x8
     // Offset: 0x20
@@ -44,24 +44,24 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: ResultsEnvironmentManager
-    ResultsEnvironmentManager(::Array<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>* resultEnvironmentControllersWithKeyword_ = {}, ::Il2CppString* currentShownKeyword_ = {}) noexcept : resultEnvironmentControllersWithKeyword{resultEnvironmentControllersWithKeyword_}, currentShownKeyword{currentShownKeyword_} {}
+    ResultsEnvironmentManager(::ArrayWrapper<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*> resultEnvironmentControllersWithKeyword_ = {}, ::Il2CppString* currentShownKeyword_ = {}) noexcept : resultEnvironmentControllersWithKeyword{resultEnvironmentControllersWithKeyword_}, currentShownKeyword{currentShownKeyword_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword[] _resultEnvironmentControllersWithKeyword
-    ::Array<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>*& dyn__resultEnvironmentControllersWithKeyword();
+    ::ArrayWrapper<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>& dyn__resultEnvironmentControllersWithKeyword();
     // Get instance field reference: private System.String _currentShownKeyword
     ::Il2CppString*& dyn__currentShownKeyword();
     // public BaseResultsEnvironmentController GetResultEnvironmentControllerForKeyword(System.String keyword)
-    // Offset: 0x11282D4
+    // Offset: 0x11C194C
     GlobalNamespace::BaseResultsEnvironmentController* GetResultEnvironmentControllerForKeyword(::Il2CppString* keyword);
     // public System.Void ShowResultForKeyword(System.String keyword, System.Boolean immediately)
-    // Offset: 0x11283A8
+    // Offset: 0x11C1A20
     void ShowResultForKeyword(::Il2CppString* keyword, bool immediately);
     // public System.Void HideResultForKeyword(System.String keyword, System.Boolean immediately)
-    // Offset: 0x1128458
+    // Offset: 0x11C1AD0
     void HideResultForKeyword(::Il2CppString* keyword, bool immediately);
     // public System.Void .ctor()
-    // Offset: 0x1128500
+    // Offset: 0x11C1B78
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

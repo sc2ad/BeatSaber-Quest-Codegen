@@ -37,9 +37,9 @@ namespace Org::BouncyCastle::Asn1 {
     // private readonly System.Byte[] bytes
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* bytes;
+    ::ArrayWrapper<uint8_t> bytes;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private readonly System.Int32 start
     // Size: 0x4
     // Offset: 0x18
@@ -47,83 +47,83 @@ namespace Org::BouncyCastle::Asn1 {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: DerInteger
-    DerInteger(::Array<uint8_t>* bytes_ = {}, int start_ = {}) noexcept : bytes{bytes_}, start{start_} {}
+    DerInteger(::ArrayWrapper<uint8_t> bytes_ = {}, int start_ = {}) noexcept : bytes{bytes_}, start{start_} {}
     // Get instance field reference: private readonly System.Byte[] bytes
-    ::Array<uint8_t>*& dyn_bytes();
+    ::ArrayWrapper<uint8_t>& dyn_bytes();
     // Get instance field reference: private readonly System.Int32 start
     int& dyn_start();
     // public Org.BouncyCastle.Math.BigInteger get_PositiveValue()
-    // Offset: 0x173AB34
+    // Offset: 0x18EC30C
     Org::BouncyCastle::Math::BigInteger* get_PositiveValue();
     // public Org.BouncyCastle.Math.BigInteger get_Value()
-    // Offset: 0x173EFF0
+    // Offset: 0x18F07C8
     Org::BouncyCastle::Math::BigInteger* get_Value();
     // public System.Int32 get_IntValueExact()
-    // Offset: 0x173F058
+    // Offset: 0x18F0830
     int get_IntValueExact();
     // public System.Void .ctor(System.Int32 value)
-    // Offset: 0x173AD3C
+    // Offset: 0x18EC514
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerInteger* New_ctor(int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerInteger*, creationType>(value)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger value)
-    // Offset: 0x173AA70
+    // Offset: 0x18EC248
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerInteger* New_ctor(Org::BouncyCastle::Math::BigInteger* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerInteger*, creationType>(value)));
     }
     // public System.Void .ctor(System.Byte[] bytes)
-    // Offset: 0x173EFE8
+    // Offset: 0x18F07C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DerInteger* New_ctor(::Array<uint8_t>* bytes) {
+    static DerInteger* New_ctor(::ArrayWrapper<uint8_t> bytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerInteger*, creationType>(bytes)));
     }
     // System.Void .ctor(System.Byte[] bytes, System.Boolean clone)
-    // Offset: 0x1730AB4
+    // Offset: 0x18E228C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DerInteger* New_ctor(::Array<uint8_t>* bytes, bool clone) {
+    static DerInteger* New_ctor(::ArrayWrapper<uint8_t> bytes, bool clone) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerInteger*, creationType>(bytes, clone)));
     }
     // static System.Boolean AllowUnsafe()
-    // Offset: 0x173ED10
+    // Offset: 0x18F04E8
     static bool AllowUnsafe();
     // static public Org.BouncyCastle.Asn1.DerInteger GetInstance(System.Object obj)
-    // Offset: 0x173EDC0
+    // Offset: 0x18F0598
     static Org::BouncyCastle::Asn1::DerInteger* GetInstance(::Il2CppObject* obj);
     // static public Org.BouncyCastle.Asn1.DerInteger GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean isExplicit)
-    // Offset: 0x173EEC0
+    // Offset: 0x18F0698
     static Org::BouncyCastle::Asn1::DerInteger* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
     // static System.Int32 IntValue(System.Byte[] bytes, System.Int32 start, System.Int32 signExt)
-    // Offset: 0x173D000
-    static int IntValue(::Array<uint8_t>* bytes, int start, int signExt);
+    // Offset: 0x18EE7D8
+    static int IntValue(::ArrayWrapper<uint8_t> bytes, int start, int signExt);
     // static System.Boolean IsMalformed(System.Byte[] bytes)
-    // Offset: 0x173CE04
-    static bool IsMalformed(::Array<uint8_t>* bytes);
+    // Offset: 0x18EE5DC
+    static bool IsMalformed(::ArrayWrapper<uint8_t> bytes);
     // static System.Int32 SignBytesToSkip(System.Byte[] bytes)
-    // Offset: 0x173CE8C
-    static int SignBytesToSkip(::Array<uint8_t>* bytes);
+    // Offset: 0x18EE664
+    static int SignBytesToSkip(::ArrayWrapper<uint8_t> bytes);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x173F0F8
+    // Offset: 0x18F08D0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x173F11C
+    // Offset: 0x18F08F4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x173F188
+    // Offset: 0x18F0960
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // public override System.String ToString()
-    // Offset: 0x173F260
+    // Offset: 0x18F0A38
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -204,9 +204,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerInteger::IntValue
 // Il2CppName: IntValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Asn1::DerInteger::IntValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Asn1::DerInteger::IntValue)> {
   static const MethodInfo* get() {
-    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* bytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* signExt = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerInteger*), "IntValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes, start, signExt});
@@ -215,18 +215,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerInteger::IsMalformed
 // Il2CppName: IsMalformed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Asn1::DerInteger::IsMalformed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Asn1::DerInteger::IsMalformed)> {
   static const MethodInfo* get() {
-    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* bytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerInteger*), "IsMalformed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerInteger::SignBytesToSkip
 // Il2CppName: SignBytesToSkip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Asn1::DerInteger::SignBytesToSkip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Asn1::DerInteger::SignBytesToSkip)> {
   static const MethodInfo* get() {
-    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* bytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerInteger*), "SignBytesToSkip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes});
   }
 };

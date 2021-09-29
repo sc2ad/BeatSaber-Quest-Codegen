@@ -47,17 +47,17 @@ namespace Org::BouncyCastle::Security {
     // Set static field: static private readonly System.Collections.IDictionary oids
     static void _set_oids(System::Collections::IDictionary* value);
     // static private System.Void .cctor()
-    // Offset: 0x13B4878
+    // Offset: 0x14C6A6C
     static void _cctor();
     // static public Org.BouncyCastle.Crypto.IDigest GetDigest(Org.BouncyCastle.Asn1.DerObjectIdentifier id)
-    // Offset: 0x13B830C
+    // Offset: 0x14CA500
     static Org::BouncyCastle::Crypto::IDigest* GetDigest(Org::BouncyCastle::Asn1::DerObjectIdentifier* id);
     // static public Org.BouncyCastle.Crypto.IDigest GetDigest(System.String algorithm)
-    // Offset: 0x13B837C
+    // Offset: 0x14CA570
     static Org::BouncyCastle::Crypto::IDigest* GetDigest(::Il2CppString* algorithm);
     // static public System.Byte[] DoFinal(Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x13B8D08
-    static ::Array<uint8_t>* DoFinal(Org::BouncyCastle::Crypto::IDigest* digest);
+    // Offset: 0x14CAEFC
+    static ::ArrayWrapper<uint8_t> DoFinal(Org::BouncyCastle::Crypto::IDigest* digest);
   }; // Org.BouncyCastle.Security.DigestUtilities
   #pragma pack(pop)
 }
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::DigestUtilities::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(Org::BouncyCastle::Crypto::IDigest*)>(&Org::BouncyCastle::Security::DigestUtilities::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(Org::BouncyCastle::Crypto::IDigest*)>(&Org::BouncyCastle::Security::DigestUtilities::DoFinal)> {
   static const MethodInfo* get() {
     static auto* digest = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto", "IDigest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::DigestUtilities*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{digest});

@@ -13,10 +13,6 @@ namespace Org::BouncyCastle::Crypto {
   class IDerivationParameters;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
 // Type namespace: Org.BouncyCastle.Crypto
 namespace Org::BouncyCastle::Crypto {
   // Size: 0x10
@@ -32,7 +28,7 @@ namespace Org::BouncyCastle::Crypto {
     void Init(Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
     // public System.Int32 GenerateBytes(System.Byte[] output, System.Int32 outOff, System.Int32 length)
     // Offset: 0xFFFFFFFF
-    int GenerateBytes(::Array<uint8_t>* output, int outOff, int length);
+    int GenerateBytes(::ArrayWrapper<uint8_t> output, int outOff, int length);
   }; // Org.BouncyCastle.Crypto.IDerivationFunction
   #pragma pack(pop)
 }
@@ -51,9 +47,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::IDerivationFunction::GenerateBytes
 // Il2CppName: GenerateBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::IDerivationFunction::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::IDerivationFunction::GenerateBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::IDerivationFunction::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::IDerivationFunction::GenerateBytes)> {
   static const MethodInfo* get() {
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::IDerivationFunction*), "GenerateBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{output, outOff, length});

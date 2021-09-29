@@ -8,10 +8,6 @@
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // Size: 0x10
@@ -32,11 +28,11 @@ namespace System::Net::NetworkInformation {
     // public System.Byte[] AddressData
     // Size: 0x8
     // Offset: 0x8
-    ::Array<uint8_t>* AddressData;
+    ::ArrayWrapper<uint8_t> AddressData;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: Win32_SOCKADDR
-    constexpr Win32_SOCKADDR(uint16_t AddressFamily_ = {}, ::Array<uint8_t>* AddressData_ = {}) noexcept : AddressFamily{AddressFamily_}, AddressData{AddressData_} {}
+    constexpr Win32_SOCKADDR(uint16_t AddressFamily_ = {}, ::ArrayWrapper<uint8_t> AddressData_ = {}) noexcept : AddressFamily{AddressFamily_}, AddressData{AddressData_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -44,10 +40,10 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: public System.UInt16 AddressFamily
     uint16_t& dyn_AddressFamily();
     // Get instance field reference: public System.Byte[] AddressData
-    ::Array<uint8_t>*& dyn_AddressData();
+    ::ArrayWrapper<uint8_t>& dyn_AddressData();
   }; // System.Net.NetworkInformation.Win32_SOCKADDR
   #pragma pack(pop)
-  static check_size<sizeof(Win32_SOCKADDR), 8 + sizeof(::Array<uint8_t>*)> __System_Net_NetworkInformation_Win32_SOCKADDRSizeCheck;
+  static check_size<sizeof(Win32_SOCKADDR), 8 + sizeof(::ArrayWrapper<uint8_t>)> __System_Net_NetworkInformation_Win32_SOCKADDRSizeCheck;
   static_assert(sizeof(Win32_SOCKADDR) == 0x10);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -435,10 +435,10 @@ namespace GlobalNamespace {
       // Get instance field reference: public System.Single z
       float& dyn_z();
       // static private System.Void .cctor()
-      // Offset: 0x163A6BC
+      // Offset: 0x180731C
       static void _cctor();
       // public override System.String ToString()
-      // Offset: 0x163A5C8
+      // Offset: 0x1807228
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
       ::Il2CppString* ToString();
@@ -496,10 +496,10 @@ namespace GlobalNamespace {
       // Get instance field reference: public System.Single w
       float& dyn_w();
       // static private System.Void .cctor()
-      // Offset: 0x163A1D8
+      // Offset: 0x1806E38
       static void _cctor();
       // public override System.String ToString()
-      // Offset: 0x1639FF8
+      // Offset: 0x1806C58
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
       ::Il2CppString* ToString();
@@ -541,10 +541,10 @@ namespace GlobalNamespace {
       // Get instance field reference: public OVRPlugin/Vector3f Position
       GlobalNamespace::OVRPlugin::Vector3f& dyn_Position();
       // static private System.Void .cctor()
-      // Offset: 0x1639F30
+      // Offset: 0x1806B90
       static void _cctor();
       // public override System.String ToString()
-      // Offset: 0x1639E50
+      // Offset: 0x1806AB0
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
       ::Il2CppString* ToString();
@@ -1435,17 +1435,17 @@ namespace GlobalNamespace {
       // public OVRPlugin/Bone[] Bones
       // Size: 0x8
       // Offset: 0x10
-      ::Array<GlobalNamespace::OVRPlugin::Bone>* Bones;
+      ::ArrayWrapper<GlobalNamespace::OVRPlugin::Bone> Bones;
       // Field size check
-      static_assert(sizeof(::Array<GlobalNamespace::OVRPlugin::Bone>*) == 0x8);
+      static_assert(sizeof(::ArrayWrapper<GlobalNamespace::OVRPlugin::Bone>) == 0x8);
       // public OVRPlugin/BoneCapsule[] BoneCapsules
       // Size: 0x8
       // Offset: 0x18
-      ::Array<GlobalNamespace::OVRPlugin::BoneCapsule>* BoneCapsules;
+      ::ArrayWrapper<GlobalNamespace::OVRPlugin::BoneCapsule> BoneCapsules;
       // Field size check
-      static_assert(sizeof(::Array<GlobalNamespace::OVRPlugin::BoneCapsule>*) == 0x8);
+      static_assert(sizeof(::ArrayWrapper<GlobalNamespace::OVRPlugin::BoneCapsule>) == 0x8);
       // Creating value type constructor for type: Skeleton
-      constexpr Skeleton(GlobalNamespace::OVRPlugin::SkeletonType Type_ = {}, uint NumBones_ = {}, uint NumBoneCapsules_ = {}, ::Array<GlobalNamespace::OVRPlugin::Bone>* Bones_ = {}, ::Array<GlobalNamespace::OVRPlugin::BoneCapsule>* BoneCapsules_ = {}) noexcept : Type{Type_}, NumBones{NumBones_}, NumBoneCapsules{NumBoneCapsules_}, Bones{Bones_}, BoneCapsules{BoneCapsules_} {}
+      constexpr Skeleton(GlobalNamespace::OVRPlugin::SkeletonType Type_ = {}, uint NumBones_ = {}, uint NumBoneCapsules_ = {}, ::ArrayWrapper<GlobalNamespace::OVRPlugin::Bone> Bones_ = {}, ::ArrayWrapper<GlobalNamespace::OVRPlugin::BoneCapsule> BoneCapsules_ = {}) noexcept : Type{Type_}, NumBones{NumBones_}, NumBoneCapsules{NumBoneCapsules_}, Bones{Bones_}, BoneCapsules{BoneCapsules_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
@@ -1457,12 +1457,12 @@ namespace GlobalNamespace {
       // Get instance field reference: public System.UInt32 NumBoneCapsules
       uint& dyn_NumBoneCapsules();
       // Get instance field reference: public OVRPlugin/Bone[] Bones
-      ::Array<GlobalNamespace::OVRPlugin::Bone>*& dyn_Bones();
+      ::ArrayWrapper<GlobalNamespace::OVRPlugin::Bone>& dyn_Bones();
       // Get instance field reference: public OVRPlugin/BoneCapsule[] BoneCapsules
-      ::Array<GlobalNamespace::OVRPlugin::BoneCapsule>*& dyn_BoneCapsules();
+      ::ArrayWrapper<GlobalNamespace::OVRPlugin::BoneCapsule>& dyn_BoneCapsules();
     }; // OVRPlugin/Skeleton
     #pragma pack(pop)
-    static check_size<sizeof(OVRPlugin::Skeleton), 24 + sizeof(::Array<GlobalNamespace::OVRPlugin::BoneCapsule>*)> __GlobalNamespace_OVRPlugin_SkeletonSizeCheck;
+    static check_size<sizeof(OVRPlugin::Skeleton), 24 + sizeof(::ArrayWrapper<GlobalNamespace::OVRPlugin::BoneCapsule>)> __GlobalNamespace_OVRPlugin_SkeletonSizeCheck;
     static_assert(sizeof(OVRPlugin::Skeleton) == 0x20);
     // Size: 0x974
     #pragma pack(push, 1)
@@ -2128,9 +2128,9 @@ namespace GlobalNamespace {
     // Set static field: static private OVRNativeBuffer _nativeSystemDisplayFrequenciesAvailable
     static void _set__nativeSystemDisplayFrequenciesAvailable(GlobalNamespace::OVRNativeBuffer* value);
     // Get static field: static private System.Single[] _cachedSystemDisplayFrequenciesAvailable
-    static ::Array<float>* _get__cachedSystemDisplayFrequenciesAvailable();
+    static ::ArrayWrapper<float> _get__cachedSystemDisplayFrequenciesAvailable();
     // Set static field: static private System.Single[] _cachedSystemDisplayFrequenciesAvailable
-    static void _set__cachedSystemDisplayFrequenciesAvailable(::Array<float>* value);
+    static void _set__cachedSystemDisplayFrequenciesAvailable(::ArrayWrapper<float> value);
     // Get static field: static private OVRPlugin/HandStateInternal cachedHandState
     static GlobalNamespace::OVRPlugin::HandStateInternal _get_cachedHandState();
     // Set static field: static private OVRPlugin/HandStateInternal cachedHandState
@@ -2154,499 +2154,499 @@ namespace GlobalNamespace {
     // Set static field: static private System.Version _versionZero
     static void _set__versionZero(System::Version* value);
     // static public System.Version get_version()
-    // Offset: 0x135E454
+    // Offset: 0x1474A94
     static System::Version* get_version();
     // static public System.Version get_nativeSDKVersion()
-    // Offset: 0x135EA08
+    // Offset: 0x1475048
     static System::Version* get_nativeSDKVersion();
     // static public System.Boolean get_initialized()
-    // Offset: 0x134B8C8
+    // Offset: 0x1461F08
     static bool get_initialized();
     // static public OVRPlugin/XrApi get_nativeXrApi()
-    // Offset: 0x1358224
+    // Offset: 0x146E864
     static GlobalNamespace::OVRPlugin::XrApi get_nativeXrApi();
     // static public System.Boolean get_chromatic()
-    // Offset: 0x135ED54
+    // Offset: 0x1475394
     static bool get_chromatic();
     // static public System.Void set_chromatic(System.Boolean value)
-    // Offset: 0x135EE74
+    // Offset: 0x14754B4
     static void set_chromatic(bool value);
     // static public System.Boolean get_monoscopic()
-    // Offset: 0x135EFC8
+    // Offset: 0x1475608
     static bool get_monoscopic();
     // static public System.Void set_monoscopic(System.Boolean value)
-    // Offset: 0x135F064
+    // Offset: 0x14756A4
     static void set_monoscopic(bool value);
     // static public System.Boolean get_rotation()
-    // Offset: 0x135F11C
+    // Offset: 0x147575C
     static bool get_rotation();
     // static public System.Void set_rotation(System.Boolean value)
-    // Offset: 0x135F1B8
+    // Offset: 0x14757F8
     static void set_rotation(bool value);
     // static public System.Boolean get_position()
-    // Offset: 0x135F270
+    // Offset: 0x14758B0
     static bool get_position();
     // static public System.Void set_position(System.Boolean value)
-    // Offset: 0x135F30C
+    // Offset: 0x147594C
     static void set_position(bool value);
     // static public System.Boolean get_useIPDInPositionTracking()
-    // Offset: 0x135F3C4
+    // Offset: 0x1475A04
     static bool get_useIPDInPositionTracking();
     // static public System.Void set_useIPDInPositionTracking(System.Boolean value)
-    // Offset: 0x135F4E4
+    // Offset: 0x1475B24
     static void set_useIPDInPositionTracking(bool value);
     // static public System.Boolean get_positionSupported()
-    // Offset: 0x135F630
+    // Offset: 0x1475C70
     static bool get_positionSupported();
     // static public System.Boolean get_positionTracked()
-    // Offset: 0x135F6CC
+    // Offset: 0x1475D0C
     static bool get_positionTracked();
     // static public System.Boolean get_powerSaving()
-    // Offset: 0x134F5A0
+    // Offset: 0x1465BE0
     static bool get_powerSaving();
     // static public System.Boolean get_hmdPresent()
-    // Offset: 0x1352048
+    // Offset: 0x1468688
     static bool get_hmdPresent();
     // static public System.Boolean get_userPresent()
-    // Offset: 0x135F76C
+    // Offset: 0x1475DAC
     static bool get_userPresent();
     // static public System.Boolean get_headphonesPresent()
-    // Offset: 0x135F808
+    // Offset: 0x1475E48
     static bool get_headphonesPresent();
     // static public System.Int32 get_recommendedMSAALevel()
-    // Offset: 0x135F8A4
+    // Offset: 0x1475EE4
     static int get_recommendedMSAALevel();
     // static public OVRPlugin/SystemRegion get_systemRegion()
-    // Offset: 0x135F9C4
+    // Offset: 0x1476004
     static GlobalNamespace::OVRPlugin::SystemRegion get_systemRegion();
     // static public System.String get_audioOutId()
-    // Offset: 0x135FAE4
+    // Offset: 0x1476124
     static ::Il2CppString* get_audioOutId();
     // static public System.String get_audioInId()
-    // Offset: 0x135FE18
+    // Offset: 0x1476458
     static ::Il2CppString* get_audioInId();
     // static public System.Boolean get_hasVrFocus()
-    // Offset: 0x136014C
+    // Offset: 0x147678C
     static bool get_hasVrFocus();
     // static public System.Boolean get_hasInputFocus()
-    // Offset: 0x13601B8
+    // Offset: 0x14767F8
     static bool get_hasInputFocus();
     // static public System.Boolean get_shouldQuit()
-    // Offset: 0x13602D4
+    // Offset: 0x1476914
     static bool get_shouldQuit();
     // static public System.Boolean get_shouldRecenter()
-    // Offset: 0x1360340
+    // Offset: 0x1476980
     static bool get_shouldRecenter();
     // static public System.String get_productName()
-    // Offset: 0x13603AC
+    // Offset: 0x14769EC
     static ::Il2CppString* get_productName();
     // static public System.String get_latency()
-    // Offset: 0x136040C
+    // Offset: 0x1476A4C
     static ::Il2CppString* get_latency();
     // static public System.Single get_eyeDepth()
-    // Offset: 0x13604B4
+    // Offset: 0x1476AF4
     static float get_eyeDepth();
     // static public System.Void set_eyeDepth(System.Single value)
-    // Offset: 0x136054C
+    // Offset: 0x1476B8C
     static void set_eyeDepth(float value);
     // static public System.Single get_eyeHeight()
-    // Offset: 0x13605BC
+    // Offset: 0x1476BFC
     static float get_eyeHeight();
     // static public System.Void set_eyeHeight(System.Single value)
-    // Offset: 0x136061C
+    // Offset: 0x1476C5C
     static void set_eyeHeight(float value);
     // static public System.Single get_batteryLevel()
-    // Offset: 0x136068C
+    // Offset: 0x1476CCC
     static float get_batteryLevel();
     // static public System.Single get_batteryTemperature()
-    // Offset: 0x13606EC
+    // Offset: 0x1476D2C
     static float get_batteryTemperature();
     // static public System.Int32 get_cpuLevel()
-    // Offset: 0x136074C
+    // Offset: 0x1476D8C
     static int get_cpuLevel();
     // static public System.Void set_cpuLevel(System.Int32 value)
-    // Offset: 0x134F430
+    // Offset: 0x1465A70
     static void set_cpuLevel(int value);
     // static public System.Int32 get_gpuLevel()
-    // Offset: 0x13607AC
+    // Offset: 0x1476DEC
     static int get_gpuLevel();
     // static public System.Void set_gpuLevel(System.Int32 value)
-    // Offset: 0x134F498
+    // Offset: 0x1465AD8
     static void set_gpuLevel(int value);
     // static public System.Int32 get_vsyncCount()
-    // Offset: 0x136080C
+    // Offset: 0x1476E4C
     static int get_vsyncCount();
     // static public System.Void set_vsyncCount(System.Int32 value)
-    // Offset: 0x136086C
+    // Offset: 0x1476EAC
     static void set_vsyncCount(int value);
     // static public System.Single get_systemVolume()
-    // Offset: 0x13608D4
+    // Offset: 0x1476F14
     static float get_systemVolume();
     // static public System.Single get_ipd()
-    // Offset: 0x1360934
+    // Offset: 0x1476F74
     static float get_ipd();
     // static public System.Void set_ipd(System.Single value)
-    // Offset: 0x1360994
+    // Offset: 0x1476FD4
     static void set_ipd(float value);
     // static public System.Boolean get_occlusionMesh()
-    // Offset: 0x1360A04
+    // Offset: 0x1477044
     static bool get_occlusionMesh();
     // static public System.Void set_occlusionMesh(System.Boolean value)
-    // Offset: 0x1360AA0
+    // Offset: 0x14770E0
     static void set_occlusionMesh(bool value);
     // static public OVRPlugin/BatteryStatus get_batteryStatus()
-    // Offset: 0x1360B58
+    // Offset: 0x1477198
     static GlobalNamespace::OVRPlugin::BatteryStatus get_batteryStatus();
     // static public System.Boolean get_fixedFoveatedRenderingSupported()
-    // Offset: 0x13637DC
+    // Offset: 0x1479E1C
     static bool get_fixedFoveatedRenderingSupported();
     // static public OVRPlugin/FixedFoveatedRenderingLevel get_fixedFoveatedRenderingLevel()
-    // Offset: 0x13638EC
+    // Offset: 0x1479F2C
     static GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel get_fixedFoveatedRenderingLevel();
     // static public System.Void set_fixedFoveatedRenderingLevel(OVRPlugin/FixedFoveatedRenderingLevel value)
-    // Offset: 0x1363A18
+    // Offset: 0x147A058
     static void set_fixedFoveatedRenderingLevel(GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel value);
     // static public System.Boolean get_useDynamicFixedFoveatedRendering()
-    // Offset: 0x1363B48
+    // Offset: 0x147A188
     static bool get_useDynamicFixedFoveatedRendering();
     // static public System.Void set_useDynamicFixedFoveatedRendering(System.Boolean value)
-    // Offset: 0x1363C80
+    // Offset: 0x147A2C0
     static void set_useDynamicFixedFoveatedRendering(bool value);
     // static public System.Boolean get_tiledMultiResSupported()
-    // Offset: 0x1363DB4
+    // Offset: 0x147A3F4
     static bool get_tiledMultiResSupported();
     // static public OVRPlugin/TiledMultiResLevel get_tiledMultiResLevel()
-    // Offset: 0x1363E10
+    // Offset: 0x147A450
     static GlobalNamespace::OVRPlugin::TiledMultiResLevel get_tiledMultiResLevel();
     // static public System.Void set_tiledMultiResLevel(OVRPlugin/TiledMultiResLevel value)
-    // Offset: 0x1363E6C
+    // Offset: 0x147A4AC
     static void set_tiledMultiResLevel(GlobalNamespace::OVRPlugin::TiledMultiResLevel value);
     // static public System.Boolean get_gpuUtilSupported()
-    // Offset: 0x1363ED0
+    // Offset: 0x147A510
     static bool get_gpuUtilSupported();
     // static public System.Single get_gpuUtilLevel()
-    // Offset: 0x1363FE0
+    // Offset: 0x147A620
     static float get_gpuUtilLevel();
     // static public System.Single[] get_systemDisplayFrequenciesAvailable()
-    // Offset: 0x1364118
-    static ::Array<float>* get_systemDisplayFrequenciesAvailable();
+    // Offset: 0x147A758
+    static ::ArrayWrapper<float> get_systemDisplayFrequenciesAvailable();
     // static public System.Single get_systemDisplayFrequency()
-    // Offset: 0x1364438
+    // Offset: 0x147AA78
     static float get_systemDisplayFrequency();
     // static public System.Void set_systemDisplayFrequency(System.Single value)
-    // Offset: 0x13645EC
+    // Offset: 0x147AC2C
     static void set_systemDisplayFrequency(float value);
     // static public System.Boolean get_eyeFovPremultipliedAlphaModeEnabled()
-    // Offset: 0x13646FC
+    // Offset: 0x147AD3C
     static bool get_eyeFovPremultipliedAlphaModeEnabled();
     // static public System.Void set_eyeFovPremultipliedAlphaModeEnabled(System.Boolean value)
-    // Offset: 0x136480C
+    // Offset: 0x147AE4C
     static void set_eyeFovPremultipliedAlphaModeEnabled(bool value);
     // static public System.Boolean get_AsymmetricFovEnabled()
-    // Offset: 0x1364A58
+    // Offset: 0x147B098
     static bool get_AsymmetricFovEnabled();
     // static public System.Boolean get_EyeTextureArrayEnabled()
-    // Offset: 0x1364B6C
+    // Offset: 0x147B1AC
     static bool get_EyeTextureArrayEnabled();
     // static private System.Void .cctor()
-    // Offset: 0x1368DF0
+    // Offset: 0x147F430
     static void _cctor();
     // static public OVRPlugin/Frustumf GetEyeFrustum(OVRPlugin/Eye eyeId)
-    // Offset: 0x1360BB8
+    // Offset: 0x14771F8
     static GlobalNamespace::OVRPlugin::Frustumf GetEyeFrustum(GlobalNamespace::OVRPlugin::Eye eyeId);
     // static public OVRPlugin/Sizei GetEyeTextureSize(OVRPlugin/Eye eyeId)
-    // Offset: 0x1360C20
+    // Offset: 0x1477260
     static GlobalNamespace::OVRPlugin::Sizei GetEyeTextureSize(GlobalNamespace::OVRPlugin::Eye eyeId);
     // static public OVRPlugin/Posef GetTrackerPose(OVRPlugin/Tracker trackerId)
-    // Offset: 0x1360C88
+    // Offset: 0x14772C8
     static GlobalNamespace::OVRPlugin::Posef GetTrackerPose(GlobalNamespace::OVRPlugin::Tracker trackerId);
     // static public OVRPlugin/Frustumf GetTrackerFrustum(OVRPlugin/Tracker trackerId)
-    // Offset: 0x1360D00
+    // Offset: 0x1477340
     static GlobalNamespace::OVRPlugin::Frustumf GetTrackerFrustum(GlobalNamespace::OVRPlugin::Tracker trackerId);
     // static public System.Boolean ShowUI(OVRPlugin/PlatformUI ui)
-    // Offset: 0x1360D68
+    // Offset: 0x14773A8
     static bool ShowUI(GlobalNamespace::OVRPlugin::PlatformUI ui);
     // static public System.Boolean EnqueueSubmitLayer(System.Boolean onTop, System.Boolean headLocked, System.Boolean noDepthBufferTesting, System.IntPtr leftTexture, System.IntPtr rightTexture, System.Int32 layerId, System.Int32 frameIndex, OVRPlugin/Posef pose, OVRPlugin/Vector3f scale, System.Int32 layerIndex, OVRPlugin/OverlayShape shape, System.Boolean overrideTextureRectMatrix, OVRPlugin/TextureRectMatrixf textureRectMatrix, System.Boolean overridePerLayerColorScaleAndOffset, UnityEngine.Vector4 colorScale, UnityEngine.Vector4 colorOffset, System.Boolean expensiveSuperSample, System.Boolean hidden)
-    // Offset: 0x1354ED0
+    // Offset: 0x146B510
     static bool EnqueueSubmitLayer(bool onTop, bool headLocked, bool noDepthBufferTesting, System::IntPtr leftTexture, System::IntPtr rightTexture, int layerId, int frameIndex, GlobalNamespace::OVRPlugin::Posef pose, GlobalNamespace::OVRPlugin::Vector3f scale, int layerIndex, GlobalNamespace::OVRPlugin::OverlayShape shape, bool overrideTextureRectMatrix, GlobalNamespace::OVRPlugin::TextureRectMatrixf textureRectMatrix, bool overridePerLayerColorScaleAndOffset, UnityEngine::Vector4 colorScale, UnityEngine::Vector4 colorOffset, bool expensiveSuperSample, bool hidden);
     // static public OVRPlugin/LayerDesc CalculateLayerDesc(OVRPlugin/OverlayShape shape, OVRPlugin/LayerLayout layout, OVRPlugin/Sizei textureSize, System.Int32 mipLevels, System.Int32 sampleCount, OVRPlugin/EyeTextureFormat format, System.Int32 layerFlags)
-    // Offset: 0x1353CB0
+    // Offset: 0x146A2F0
     static GlobalNamespace::OVRPlugin::LayerDesc CalculateLayerDesc(GlobalNamespace::OVRPlugin::OverlayShape shape, GlobalNamespace::OVRPlugin::LayerLayout layout, GlobalNamespace::OVRPlugin::Sizei textureSize, int mipLevels, int sampleCount, GlobalNamespace::OVRPlugin::EyeTextureFormat format, int layerFlags);
     // static public System.Boolean EnqueueSetupLayer(OVRPlugin/LayerDesc desc, System.Int32 compositionDepth, System.IntPtr layerID)
-    // Offset: 0x1353E40
+    // Offset: 0x146A480
     static bool EnqueueSetupLayer(GlobalNamespace::OVRPlugin::LayerDesc desc, int compositionDepth, System::IntPtr layerID);
     // static public System.Boolean EnqueueDestroyLayer(System.IntPtr layerID)
-    // Offset: 0x1355624
+    // Offset: 0x146BC64
     static bool EnqueueDestroyLayer(System::IntPtr layerID);
     // static public System.IntPtr GetLayerTexture(System.Int32 layerId, System.Int32 stage, OVRPlugin/Eye eyeId)
-    // Offset: 0x13549D0
+    // Offset: 0x146B010
     static System::IntPtr GetLayerTexture(int layerId, int stage, GlobalNamespace::OVRPlugin::Eye eyeId);
     // static public System.Int32 GetLayerTextureStageCount(System.Int32 layerId)
-    // Offset: 0x1354068
+    // Offset: 0x146A6A8
     static int GetLayerTextureStageCount(int layerId);
     // static public System.IntPtr GetLayerAndroidSurfaceObject(System.Int32 layerId)
-    // Offset: 0x1354688
+    // Offset: 0x146ACC8
     static System::IntPtr GetLayerAndroidSurfaceObject(int layerId);
     // static public System.Boolean UpdateNodePhysicsPoses(System.Int32 frameIndex, System.Double predictionSeconds)
-    // Offset: 0x1360DDC
+    // Offset: 0x147741C
     static bool UpdateNodePhysicsPoses(int frameIndex, double predictionSeconds);
     // static public OVRPlugin/Posef GetNodePose(OVRPlugin/Node nodeId, OVRPlugin/Step stepId)
-    // Offset: 0x1352E38
+    // Offset: 0x1469478
     static GlobalNamespace::OVRPlugin::Posef GetNodePose(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::Step stepId);
     // static public OVRPlugin/Vector3f GetNodeVelocity(OVRPlugin/Node nodeId, OVRPlugin/Step stepId)
-    // Offset: 0x1352A40
+    // Offset: 0x1469080
     static GlobalNamespace::OVRPlugin::Vector3f GetNodeVelocity(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::Step stepId);
     // static public OVRPlugin/Vector3f GetNodeAngularVelocity(OVRPlugin/Node nodeId, OVRPlugin/Step stepId)
-    // Offset: 0x1352CB0
+    // Offset: 0x14692F0
     static GlobalNamespace::OVRPlugin::Vector3f GetNodeAngularVelocity(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::Step stepId);
     // static public OVRPlugin/Vector3f GetNodeAcceleration(OVRPlugin/Node nodeId, OVRPlugin/Step stepId)
-    // Offset: 0x13524D4
+    // Offset: 0x1468B14
     static GlobalNamespace::OVRPlugin::Vector3f GetNodeAcceleration(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::Step stepId);
     // static public OVRPlugin/Vector3f GetNodeAngularAcceleration(OVRPlugin/Node nodeId, OVRPlugin/Step stepId)
-    // Offset: 0x13528B8
+    // Offset: 0x1468EF8
     static GlobalNamespace::OVRPlugin::Vector3f GetNodeAngularAcceleration(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::Step stepId);
     // static public System.Boolean GetNodePresent(OVRPlugin/Node nodeId)
-    // Offset: 0x1360EF8
+    // Offset: 0x1477538
     static bool GetNodePresent(GlobalNamespace::OVRPlugin::Node nodeId);
     // static public System.Boolean GetNodeOrientationTracked(OVRPlugin/Node nodeId)
-    // Offset: 0x1360F6C
+    // Offset: 0x14775AC
     static bool GetNodeOrientationTracked(GlobalNamespace::OVRPlugin::Node nodeId);
     // static public System.Boolean GetNodeOrientationValid(OVRPlugin/Node nodeId)
-    // Offset: 0x1360FE0
+    // Offset: 0x1477620
     static bool GetNodeOrientationValid(GlobalNamespace::OVRPlugin::Node nodeId);
     // static public System.Boolean GetNodePositionTracked(OVRPlugin/Node nodeId)
-    // Offset: 0x136112C
+    // Offset: 0x147776C
     static bool GetNodePositionTracked(GlobalNamespace::OVRPlugin::Node nodeId);
     // static public System.Boolean GetNodePositionValid(OVRPlugin/Node nodeId)
-    // Offset: 0x13611A0
+    // Offset: 0x14777E0
     static bool GetNodePositionValid(GlobalNamespace::OVRPlugin::Node nodeId);
     // static public OVRPlugin/PoseStatef GetNodePoseStateRaw(OVRPlugin/Node nodeId, OVRPlugin/Step stepId)
-    // Offset: 0x13612EC
+    // Offset: 0x147792C
     static GlobalNamespace::OVRPlugin::PoseStatef GetNodePoseStateRaw(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::Step stepId);
     // static public OVRPlugin/Posef GetCurrentTrackingTransformPose()
-    // Offset: 0x136156C
+    // Offset: 0x1477BAC
     static GlobalNamespace::OVRPlugin::Posef GetCurrentTrackingTransformPose();
     // static public OVRPlugin/Posef GetTrackingTransformRawPose()
-    // Offset: 0x13616C0
+    // Offset: 0x1477D00
     static GlobalNamespace::OVRPlugin::Posef GetTrackingTransformRawPose();
     // static public OVRPlugin/Posef GetTrackingTransformRelativePose(OVRPlugin/TrackingOrigin trackingOrigin)
-    // Offset: 0x134E3C4
+    // Offset: 0x1464A04
     static GlobalNamespace::OVRPlugin::Posef GetTrackingTransformRelativePose(GlobalNamespace::OVRPlugin::TrackingOrigin trackingOrigin);
     // static public OVRPlugin/ControllerState GetControllerState(System.UInt32 controllerMask)
-    // Offset: 0x1361814
+    // Offset: 0x1477E54
     static GlobalNamespace::OVRPlugin::ControllerState GetControllerState(uint controllerMask);
     // static public OVRPlugin/ControllerState2 GetControllerState2(System.UInt32 controllerMask)
-    // Offset: 0x136188C
+    // Offset: 0x1477ECC
     static GlobalNamespace::OVRPlugin::ControllerState2 GetControllerState2(uint controllerMask);
     // static public OVRPlugin/ControllerState4 GetControllerState4(System.UInt32 controllerMask)
-    // Offset: 0x1361A0C
+    // Offset: 0x147804C
     static GlobalNamespace::OVRPlugin::ControllerState4 GetControllerState4(uint controllerMask);
     // static public System.Boolean SetControllerVibration(System.UInt32 controllerMask, System.Single frequency, System.Single amplitude)
-    // Offset: 0x1361BAC
+    // Offset: 0x14781EC
     static bool SetControllerVibration(uint controllerMask, float frequency, float amplitude);
     // static public OVRPlugin/HapticsDesc GetControllerHapticsDesc(System.UInt32 controllerMask)
-    // Offset: 0x1361C38
+    // Offset: 0x1478278
     static GlobalNamespace::OVRPlugin::HapticsDesc GetControllerHapticsDesc(uint controllerMask);
     // static public OVRPlugin/HapticsState GetControllerHapticsState(System.UInt32 controllerMask)
-    // Offset: 0x1361D58
+    // Offset: 0x1478398
     static GlobalNamespace::OVRPlugin::HapticsState GetControllerHapticsState(uint controllerMask);
     // static public System.Boolean SetControllerHaptics(System.UInt32 controllerMask, OVRPlugin/HapticsBuffer hapticsBuffer)
-    // Offset: 0x1361E60
+    // Offset: 0x14784A0
     static bool SetControllerHaptics(uint controllerMask, GlobalNamespace::OVRPlugin::HapticsBuffer hapticsBuffer);
     // static public System.Single GetEyeRecommendedResolutionScale()
-    // Offset: 0x1361F80
+    // Offset: 0x14785C0
     static float GetEyeRecommendedResolutionScale();
     // static public System.Single GetAppCpuStartToGpuEndTime()
-    // Offset: 0x1362080
+    // Offset: 0x14786C0
     static float GetAppCpuStartToGpuEndTime();
     // static public System.Boolean GetBoundaryConfigured()
-    // Offset: 0x1362180
+    // Offset: 0x14787C0
     static bool GetBoundaryConfigured();
     // static public OVRPlugin/BoundaryTestResult TestBoundaryNode(OVRPlugin/Node nodeId, OVRPlugin/BoundaryType boundaryType)
-    // Offset: 0x1362280
+    // Offset: 0x14788C0
     static GlobalNamespace::OVRPlugin::BoundaryTestResult TestBoundaryNode(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
     // static public OVRPlugin/BoundaryTestResult TestBoundaryPoint(OVRPlugin/Vector3f point, OVRPlugin/BoundaryType boundaryType)
-    // Offset: 0x13623A8
+    // Offset: 0x14789E8
     static GlobalNamespace::OVRPlugin::BoundaryTestResult TestBoundaryPoint(GlobalNamespace::OVRPlugin::Vector3f point, GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
     // static public OVRPlugin/BoundaryGeometry GetBoundaryGeometry(OVRPlugin/BoundaryType boundaryType)
-    // Offset: 0x13624F8
+    // Offset: 0x1478B38
     static GlobalNamespace::OVRPlugin::BoundaryGeometry GetBoundaryGeometry(GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
     // static public System.Boolean GetBoundaryGeometry2(OVRPlugin/BoundaryType boundaryType, System.IntPtr points, ref System.Int32 pointsCount)
-    // Offset: 0x1362618
+    // Offset: 0x1478C58
     static bool GetBoundaryGeometry2(GlobalNamespace::OVRPlugin::BoundaryType boundaryType, System::IntPtr points, ByRef<int> pointsCount);
     // static public OVRPlugin/AppPerfStats GetAppPerfStats()
-    // Offset: 0x136273C
+    // Offset: 0x1478D7C
     static GlobalNamespace::OVRPlugin::AppPerfStats GetAppPerfStats();
     // static public System.Boolean ResetAppPerfStats()
-    // Offset: 0x1362848
+    // Offset: 0x1478E88
     static bool ResetAppPerfStats();
     // static public System.Single GetAppFramerate()
-    // Offset: 0x1362948
+    // Offset: 0x1478F88
     static float GetAppFramerate();
     // static public System.Boolean SetHandNodePoseStateLatency(System.Double latencyInSeconds)
-    // Offset: 0x1362A48
+    // Offset: 0x1479088
     static bool SetHandNodePoseStateLatency(double latencyInSeconds);
     // static public System.Double GetHandNodePoseStateLatency()
-    // Offset: 0x1362B58
+    // Offset: 0x1479198
     static double GetHandNodePoseStateLatency();
     // static public OVRPlugin/EyeTextureFormat GetDesiredEyeTextureFormat()
-    // Offset: 0x1362C68
+    // Offset: 0x14792A8
     static GlobalNamespace::OVRPlugin::EyeTextureFormat GetDesiredEyeTextureFormat();
     // static public System.Boolean SetDesiredEyeTextureFormat(OVRPlugin/EyeTextureFormat value)
-    // Offset: 0x1362D68
+    // Offset: 0x14793A8
     static bool SetDesiredEyeTextureFormat(GlobalNamespace::OVRPlugin::EyeTextureFormat value);
     // static public System.Boolean InitializeMixedReality()
-    // Offset: 0x134BA34
+    // Offset: 0x1462074
     static bool InitializeMixedReality();
     // static public System.Boolean ShutdownMixedReality()
-    // Offset: 0x134BD30
+    // Offset: 0x1462370
     static bool ShutdownMixedReality();
     // static public System.Boolean IsMixedRealityInitialized()
-    // Offset: 0x134B934
+    // Offset: 0x1461F74
     static bool IsMixedRealityInitialized();
     // static public System.Int32 GetExternalCameraCount()
-    // Offset: 0x134DD1C
+    // Offset: 0x146435C
     static int GetExternalCameraCount();
     // static public System.Boolean UpdateExternalCamera()
-    // Offset: 0x134BB34
+    // Offset: 0x1462174
     static bool UpdateExternalCamera();
     // static public System.Boolean GetMixedRealityCameraInfo(System.Int32 cameraId, out OVRPlugin/CameraExtrinsics cameraExtrinsics, out OVRPlugin/CameraIntrinsics cameraIntrinsics)
-    // Offset: 0x134E254
+    // Offset: 0x1464894
     static bool GetMixedRealityCameraInfo(int cameraId, ByRef<GlobalNamespace::OVRPlugin::CameraExtrinsics> cameraExtrinsics, ByRef<GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics);
     // static public System.Boolean OverrideExternalCameraFov(System.Int32 cameraId, System.Boolean useOverriddenFov, OVRPlugin/Fovf fov)
-    // Offset: 0x134EE2C
+    // Offset: 0x146546C
     static bool OverrideExternalCameraFov(int cameraId, bool useOverriddenFov, GlobalNamespace::OVRPlugin::Fovf fov);
     // static public System.Boolean GetUseOverriddenExternalCameraFov(System.Int32 cameraId)
-    // Offset: 0x134F080
+    // Offset: 0x14656C0
     static bool GetUseOverriddenExternalCameraFov(int cameraId);
     // static public System.Boolean OverrideExternalCameraStaticPose(System.Int32 cameraId, System.Boolean useOverriddenPose, OVRPlugin/Posef poseInStageOrigin)
-    // Offset: 0x134EF5C
+    // Offset: 0x146559C
     static bool OverrideExternalCameraStaticPose(int cameraId, bool useOverriddenPose, GlobalNamespace::OVRPlugin::Posef poseInStageOrigin);
     // static public System.Boolean GetUseOverriddenExternalCameraStaticPose(System.Int32 cameraId)
-    // Offset: 0x134F1AC
+    // Offset: 0x14657EC
     static bool GetUseOverriddenExternalCameraStaticPose(int cameraId);
     // static public System.Boolean ResetDefaultExternalCamera()
-    // Offset: 0x134DC1C
+    // Offset: 0x146425C
     static bool ResetDefaultExternalCamera();
     // static public System.Boolean SetDefaultExternalCamera(System.String cameraName, ref OVRPlugin/CameraIntrinsics cameraIntrinsics, ref OVRPlugin/CameraExtrinsics cameraExtrinsics)
-    // Offset: 0x134E584
+    // Offset: 0x1464BC4
     static bool SetDefaultExternalCamera(::Il2CppString* cameraName, ByRef<GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics, ByRef<GlobalNamespace::OVRPlugin::CameraExtrinsics> cameraExtrinsics);
     // static public System.Boolean SetExternalCameraProperties(System.String cameraName, ref OVRPlugin/CameraIntrinsics cameraIntrinsics, ref OVRPlugin/CameraExtrinsics cameraExtrinsics)
-    // Offset: 0x1362E70
+    // Offset: 0x14794B0
     static bool SetExternalCameraProperties(::Il2CppString* cameraName, ByRef<GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics, ByRef<GlobalNamespace::OVRPlugin::CameraExtrinsics> cameraExtrinsics);
     // static public OVRPlugin/Vector3f GetBoundaryDimensions(OVRPlugin/BoundaryType boundaryType)
-    // Offset: 0x1362F90
+    // Offset: 0x14795D0
     static GlobalNamespace::OVRPlugin::Vector3f GetBoundaryDimensions(GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
     // static public System.Boolean GetBoundaryVisible()
-    // Offset: 0x1363094
+    // Offset: 0x14796D4
     static bool GetBoundaryVisible();
     // static public System.Boolean SetBoundaryVisible(System.Boolean value)
-    // Offset: 0x1363194
+    // Offset: 0x14797D4
     static bool SetBoundaryVisible(bool value);
     // static public OVRPlugin/SystemHeadset GetSystemHeadsetType()
-    // Offset: 0x13632C0
+    // Offset: 0x1479900
     static GlobalNamespace::OVRPlugin::SystemHeadset GetSystemHeadsetType();
     // static public OVRPlugin/Controller GetActiveController()
-    // Offset: 0x13633C0
+    // Offset: 0x1479A00
     static GlobalNamespace::OVRPlugin::Controller GetActiveController();
     // static public OVRPlugin/Controller GetConnectedControllers()
-    // Offset: 0x13634C0
+    // Offset: 0x1479B00
     static GlobalNamespace::OVRPlugin::Controller GetConnectedControllers();
     // static private OVRPlugin/Bool ToBool(System.Boolean b)
-    // Offset: 0x135EFC0
+    // Offset: 0x1475600
     static GlobalNamespace::OVRPlugin::Bool ToBool(bool b);
     // static public OVRPlugin/TrackingOrigin GetTrackingOriginType()
-    // Offset: 0x13635C0
+    // Offset: 0x1479C00
     static GlobalNamespace::OVRPlugin::TrackingOrigin GetTrackingOriginType();
     // static public System.Boolean SetTrackingOriginType(OVRPlugin/TrackingOrigin originType)
-    // Offset: 0x1363620
+    // Offset: 0x1479C60
     static bool SetTrackingOriginType(GlobalNamespace::OVRPlugin::TrackingOrigin originType);
     // static public OVRPlugin/Posef GetTrackingCalibratedOrigin()
-    // Offset: 0x1363694
+    // Offset: 0x1479CD4
     static GlobalNamespace::OVRPlugin::Posef GetTrackingCalibratedOrigin();
     // static public System.Boolean SetTrackingCalibratedOrigin()
-    // Offset: 0x13636FC
+    // Offset: 0x1479D3C
     static bool SetTrackingCalibratedOrigin();
     // static public System.Boolean RecenterTrackingOrigin(OVRPlugin/RecenterFlags flags)
-    // Offset: 0x1363768
+    // Offset: 0x1479DA8
     static bool RecenterTrackingOrigin(GlobalNamespace::OVRPlugin::RecenterFlags flags);
     // static public System.Boolean GetNodeFrustum2(OVRPlugin/Node nodeId, out OVRPlugin/Frustumf2 frustum)
-    // Offset: 0x1364938
+    // Offset: 0x147AF78
     static bool GetNodeFrustum2(GlobalNamespace::OVRPlugin::Node nodeId, ByRef<GlobalNamespace::OVRPlugin::Frustumf2> frustum);
     // static public OVRPlugin/Handedness GetDominantHand()
-    // Offset: 0x1364C6C
+    // Offset: 0x147B2AC
     static GlobalNamespace::OVRPlugin::Handedness GetDominantHand();
     // static public System.Boolean SendEvent(System.String name, System.String param, System.String source)
-    // Offset: 0x1364D78
+    // Offset: 0x147B3B8
     static bool SendEvent(::Il2CppString* name, ::Il2CppString* param, ::Il2CppString* source);
     // static public System.Boolean SetHeadPoseModifier(ref OVRPlugin/Quatf relativeRotation, ref OVRPlugin/Vector3f relativeTranslation)
-    // Offset: 0x1364F68
+    // Offset: 0x147B5A8
     static bool SetHeadPoseModifier(ByRef<GlobalNamespace::OVRPlugin::Quatf> relativeRotation, ByRef<GlobalNamespace::OVRPlugin::Vector3f> relativeTranslation);
     // static public System.Boolean GetHeadPoseModifier(out OVRPlugin/Quatf relativeRotation, out OVRPlugin/Vector3f relativeTranslation)
-    // Offset: 0x1365080
+    // Offset: 0x147B6C0
     static bool GetHeadPoseModifier(ByRef<GlobalNamespace::OVRPlugin::Quatf> relativeRotation, ByRef<GlobalNamespace::OVRPlugin::Vector3f> relativeTranslation);
     // static public System.Boolean IsPerfMetricsSupported(OVRPlugin/PerfMetrics perfMetrics)
-    // Offset: 0x1365204
+    // Offset: 0x147B844
     static bool IsPerfMetricsSupported(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics);
     // static public System.Nullable`1<System.Single> GetPerfMetricsFloat(OVRPlugin/PerfMetrics perfMetrics)
-    // Offset: 0x1365324
+    // Offset: 0x147B964
     static System::Nullable_1<float> GetPerfMetricsFloat(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics);
     // static public System.Nullable`1<System.Int32> GetPerfMetricsInt(OVRPlugin/PerfMetrics perfMetrics)
-    // Offset: 0x136545C
+    // Offset: 0x147BA9C
     static System::Nullable_1<int> GetPerfMetricsInt(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics);
     // static public System.Double GetTimeInSeconds()
-    // Offset: 0x1365594
+    // Offset: 0x147BBD4
     static double GetTimeInSeconds();
     // static public System.Boolean SetColorScaleAndOffset(UnityEngine.Vector4 colorScale, UnityEngine.Vector4 colorOffset, System.Boolean applyToAllLayers)
-    // Offset: 0x13656A0
+    // Offset: 0x147BCE0
     static bool SetColorScaleAndOffset(UnityEngine::Vector4 colorScale, UnityEngine::Vector4 colorOffset, bool applyToAllLayers);
     // static public System.Boolean AddCustomMetadata(System.String name, System.String param)
-    // Offset: 0x136580C
+    // Offset: 0x147BE4C
     static bool AddCustomMetadata(::Il2CppString* name, ::Il2CppString* param);
     // static public System.Boolean SetDeveloperMode(OVRPlugin/Bool active)
-    // Offset: 0x1365924
+    // Offset: 0x147BF64
     static bool SetDeveloperMode(GlobalNamespace::OVRPlugin::Bool active);
     // static public System.Single GetAdaptiveGPUPerformanceScale()
-    // Offset: 0x1365A2C
+    // Offset: 0x147C06C
     static float GetAdaptiveGPUPerformanceScale();
     // static public System.Boolean GetHandTrackingEnabled()
-    // Offset: 0x1365B44
+    // Offset: 0x147C184
     static bool GetHandTrackingEnabled();
     // static public System.Boolean GetHandState(OVRPlugin/Step stepId, OVRPlugin/Hand hand, ref OVRPlugin/HandState handState)
-    // Offset: 0x1365C58
+    // Offset: 0x147C298
     static bool GetHandState(GlobalNamespace::OVRPlugin::Step stepId, GlobalNamespace::OVRPlugin::Hand hand, ByRef<GlobalNamespace::OVRPlugin::HandState> handState);
     // static public System.Boolean GetSkeleton(OVRPlugin/SkeletonType skeletonType, out OVRPlugin/Skeleton skeleton)
-    // Offset: 0x13663FC
+    // Offset: 0x147CA3C
     static bool GetSkeleton(GlobalNamespace::OVRPlugin::SkeletonType skeletonType, ByRef<GlobalNamespace::OVRPlugin::Skeleton> skeleton);
     // static public System.Boolean GetSkeleton2(OVRPlugin/SkeletonType skeletonType, ref OVRPlugin/Skeleton2 skeleton)
-    // Offset: 0x136651C
+    // Offset: 0x147CB5C
     static bool GetSkeleton2(GlobalNamespace::OVRPlugin::SkeletonType skeletonType, ByRef<GlobalNamespace::OVRPlugin::Skeleton2> skeleton);
     // static public System.Boolean GetMesh(OVRPlugin/MeshType meshType, out OVRPlugin/Mesh mesh)
-    // Offset: 0x134A6E0
+    // Offset: 0x1460D20
     static bool GetMesh(GlobalNamespace::OVRPlugin::MeshType meshType, ByRef<GlobalNamespace::OVRPlugin::Mesh*> mesh);
     // static public System.Int32 GetLocalTrackingSpaceRecenterCount()
-    // Offset: 0x1368388
+    // Offset: 0x147E9C8
     static int GetLocalTrackingSpaceRecenterCount();
     // static public System.Boolean GetSystemHmd3DofModeEnabled()
-    // Offset: 0x1368498
+    // Offset: 0x147EAD8
     static bool GetSystemHmd3DofModeEnabled();
     // static public System.Boolean SetClientColorDesc(OVRPlugin/ColorSpace colorSpace)
-    // Offset: 0x13685AC
+    // Offset: 0x147EBEC
     static bool SetClientColorDesc(GlobalNamespace::OVRPlugin::ColorSpace colorSpace);
     // static public OVRPlugin/ColorSpace GetHmdColorDesc()
-    // Offset: 0x13686F0
+    // Offset: 0x147ED30
     static GlobalNamespace::OVRPlugin::ColorSpace GetHmdColorDesc();
     // static public System.Boolean PollEvent(ref OVRPlugin/EventDataBuffer eventDataBuffer)
-    // Offset: 0x1368850
+    // Offset: 0x147EE90
     static bool PollEvent(ByRef<GlobalNamespace::OVRPlugin::EventDataBuffer> eventDataBuffer);
     // static public System.UInt64 GetNativeOpenXRInstance()
-    // Offset: 0x1368AA0
+    // Offset: 0x147F0E0
     static uint64_t GetNativeOpenXRInstance();
     // static public System.UInt64 GetNativeOpenXRSession()
-    // Offset: 0x1368BBC
+    // Offset: 0x147F1FC
     static uint64_t GetNativeOpenXRSession();
     // static public System.Boolean SetKeyboardOverlayUV(OVRPlugin/Vector2f uv)
-    // Offset: 0x1368CD8
+    // Offset: 0x147F318
     static bool SetKeyboardOverlayUV(GlobalNamespace::OVRPlugin::Vector2f uv);
   }; // OVRPlugin
   #pragma pack(pop)
@@ -3150,7 +3150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::get_systemDisplayFrequenciesAvailable
 // Il2CppName: get_systemDisplayFrequenciesAvailable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (*)()>(&GlobalNamespace::OVRPlugin::get_systemDisplayFrequenciesAvailable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<float> (*)()>(&GlobalNamespace::OVRPlugin::get_systemDisplayFrequenciesAvailable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "get_systemDisplayFrequenciesAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

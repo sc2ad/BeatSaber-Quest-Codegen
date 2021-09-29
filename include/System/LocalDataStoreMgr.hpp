@@ -43,9 +43,9 @@ namespace System {
     // private System.Boolean[] m_SlotInfoTable
     // Size: 0x8
     // Offset: 0x10
-    ::Array<bool>* m_SlotInfoTable;
+    ::ArrayWrapper<bool> m_SlotInfoTable;
     // Field size check
-    static_assert(sizeof(::Array<bool>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<bool>) == 0x8);
     // private System.Int32 m_FirstAvailableSlot
     // Size: 0x4
     // Offset: 0x18
@@ -73,7 +73,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
     // Creating value type constructor for type: LocalDataStoreMgr
-    LocalDataStoreMgr(::Array<bool>* m_SlotInfoTable_ = {}, int m_FirstAvailableSlot_ = {}, System::Collections::Generic::List_1<System::LocalDataStore*>* m_ManagedLocalDataStores_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::LocalDataStoreSlot*>* m_KeyToSlotMap_ = {}, int64_t m_CookieGenerator_ = {}) noexcept : m_SlotInfoTable{m_SlotInfoTable_}, m_FirstAvailableSlot{m_FirstAvailableSlot_}, m_ManagedLocalDataStores{m_ManagedLocalDataStores_}, m_KeyToSlotMap{m_KeyToSlotMap_}, m_CookieGenerator{m_CookieGenerator_} {}
+    LocalDataStoreMgr(::ArrayWrapper<bool> m_SlotInfoTable_ = {}, int m_FirstAvailableSlot_ = {}, System::Collections::Generic::List_1<System::LocalDataStore*>* m_ManagedLocalDataStores_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::LocalDataStoreSlot*>* m_KeyToSlotMap_ = {}, int64_t m_CookieGenerator_ = {}) noexcept : m_SlotInfoTable{m_SlotInfoTable_}, m_FirstAvailableSlot{m_FirstAvailableSlot_}, m_ManagedLocalDataStores{m_ManagedLocalDataStores_}, m_KeyToSlotMap{m_KeyToSlotMap_}, m_CookieGenerator{m_CookieGenerator_} {}
     // static field const value: static private System.Int32 InitialSlotTableSize
     static constexpr const int InitialSlotTableSize = 64;
     // Get static field: static private System.Int32 InitialSlotTableSize
@@ -93,7 +93,7 @@ namespace System {
     // Set static field: static private System.Int32 LargeSlotTableSizeIncrease
     static void _set_LargeSlotTableSizeIncrease(int value);
     // Get instance field reference: private System.Boolean[] m_SlotInfoTable
-    ::Array<bool>*& dyn_m_SlotInfoTable();
+    ::ArrayWrapper<bool>& dyn_m_SlotInfoTable();
     // Get instance field reference: private System.Int32 m_FirstAvailableSlot
     int& dyn_m_FirstAvailableSlot();
     // Get instance field reference: private System.Collections.Generic.List`1<System.LocalDataStore> m_ManagedLocalDataStores
@@ -103,34 +103,34 @@ namespace System {
     // Get instance field reference: private System.Int64 m_CookieGenerator
     int64_t& dyn_m_CookieGenerator();
     // public System.LocalDataStoreHolder CreateLocalDataStore()
-    // Offset: 0x183C070
+    // Offset: 0x1A0E4BC
     System::LocalDataStoreHolder* CreateLocalDataStore();
     // public System.Void DeleteLocalDataStore(System.LocalDataStore store)
-    // Offset: 0x183B8F4
+    // Offset: 0x1A0DD40
     void DeleteLocalDataStore(System::LocalDataStore* store);
     // public System.LocalDataStoreSlot AllocateDataSlot()
-    // Offset: 0x183C190
+    // Offset: 0x1A0E5DC
     System::LocalDataStoreSlot* AllocateDataSlot();
     // public System.LocalDataStoreSlot AllocateNamedDataSlot(System.String name)
-    // Offset: 0x183C3D4
+    // Offset: 0x1A0E820
     System::LocalDataStoreSlot* AllocateNamedDataSlot(::Il2CppString* name);
     // public System.LocalDataStoreSlot GetNamedDataSlot(System.String name)
-    // Offset: 0x183C4C0
+    // Offset: 0x1A0E90C
     System::LocalDataStoreSlot* GetNamedDataSlot(::Il2CppString* name);
     // public System.Void FreeNamedDataSlot(System.String name)
-    // Offset: 0x183C5AC
+    // Offset: 0x1A0E9F8
     void FreeNamedDataSlot(::Il2CppString* name);
     // System.Void FreeDataSlot(System.Int32 slot, System.Int64 cookie)
-    // Offset: 0x183C67C
+    // Offset: 0x1A0EAC8
     void FreeDataSlot(int slot, int64_t cookie);
     // public System.Void ValidateSlot(System.LocalDataStoreSlot slot)
-    // Offset: 0x183BACC
+    // Offset: 0x1A0DF18
     void ValidateSlot(System::LocalDataStoreSlot* slot);
     // System.Int32 GetSlotTableLength()
-    // Offset: 0x183BF6C
+    // Offset: 0x1A0E3B8
     int GetSlotTableLength();
     // public System.Void .ctor()
-    // Offset: 0x183C7E4
+    // Offset: 0x1A0EC30
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

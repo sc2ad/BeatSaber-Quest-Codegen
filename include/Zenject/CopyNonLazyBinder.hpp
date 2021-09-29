@@ -49,25 +49,25 @@ namespace Zenject {
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.BindInfo> _secondaryBindInfos
     System::Collections::Generic::List_1<Zenject::BindInfo*>*& dyn__secondaryBindInfos();
     // System.Void AddSecondaryCopyBindInfo(Zenject.BindInfo bindInfo)
-    // Offset: 0x13E9D08
+    // Offset: 0x14FBEFC
     void AddSecondaryCopyBindInfo(Zenject::BindInfo* bindInfo);
     // public Zenject.NonLazyBinder CopyIntoAllSubContainers()
-    // Offset: 0x13E9DA0
+    // Offset: 0x14FBF94
     Zenject::NonLazyBinder* CopyIntoAllSubContainers();
     // public Zenject.NonLazyBinder CopyIntoDirectSubContainers()
-    // Offset: 0x13E9ED0
+    // Offset: 0x14FC0C4
     Zenject::NonLazyBinder* CopyIntoDirectSubContainers();
     // public Zenject.NonLazyBinder MoveIntoAllSubContainers()
-    // Offset: 0x13E9EF8
+    // Offset: 0x14FC0EC
     Zenject::NonLazyBinder* MoveIntoAllSubContainers();
     // public Zenject.NonLazyBinder MoveIntoDirectSubContainers()
-    // Offset: 0x13E9F20
+    // Offset: 0x14FC114
     Zenject::NonLazyBinder* MoveIntoDirectSubContainers();
     // private System.Void SetInheritanceMethod(Zenject.BindingInheritanceMethods method)
-    // Offset: 0x13E9DC8
+    // Offset: 0x14FBFBC
     void SetInheritanceMethod(Zenject::BindingInheritanceMethods method);
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x13E6194
+    // Offset: 0x14F8388
     // Implemented from: Zenject.NonLazyBinder
     // Base method: System.Void NonLazyBinder::.ctor(Zenject.BindInfo bindInfo)
     // Base method: System.Void IfNotBoundBinder::.ctor(Zenject.BindInfo bindInfo)

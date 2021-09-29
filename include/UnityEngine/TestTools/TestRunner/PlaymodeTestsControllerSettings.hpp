@@ -38,9 +38,9 @@ namespace UnityEngine::TestTools::TestRunner {
     // public UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter[] filters
     // Size: 0x8
     // Offset: 0x10
-    ::Array<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>* filters;
+    ::ArrayWrapper<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*> filters;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>) == 0x8);
     // public System.Boolean sceneBased
     // Size: 0x1
     // Offset: 0x18
@@ -62,9 +62,9 @@ namespace UnityEngine::TestTools::TestRunner {
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: PlaymodeTestsControllerSettings
-    PlaymodeTestsControllerSettings(::Array<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>* filters_ = {}, bool sceneBased_ = {}, ::Il2CppString* originalScene_ = {}, ::Il2CppString* bootstrapScene_ = {}) noexcept : filters{filters_}, sceneBased{sceneBased_}, originalScene{originalScene_}, bootstrapScene{bootstrapScene_} {}
+    PlaymodeTestsControllerSettings(::ArrayWrapper<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*> filters_ = {}, bool sceneBased_ = {}, ::Il2CppString* originalScene_ = {}, ::Il2CppString* bootstrapScene_ = {}) noexcept : filters{filters_}, sceneBased{sceneBased_}, originalScene{originalScene_}, bootstrapScene{bootstrapScene_} {}
     // Get instance field reference: public UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter[] filters
-    ::Array<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>*& dyn_filters();
+    ::ArrayWrapper<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>& dyn_filters();
     // Get instance field reference: public System.Boolean sceneBased
     bool& dyn_sceneBased();
     // Get instance field reference: public System.String originalScene
@@ -72,10 +72,10 @@ namespace UnityEngine::TestTools::TestRunner {
     // Get instance field reference: public System.String bootstrapScene
     ::Il2CppString*& dyn_bootstrapScene();
     // NUnit.Framework.Interfaces.ITestFilter BuildNUnitFilter()
-    // Offset: 0x14D09C4
+    // Offset: 0x1676640
     NUnit::Framework::Interfaces::ITestFilter* BuildNUnitFilter();
     // public System.Void .ctor()
-    // Offset: 0x14D04A4
+    // Offset: 0x1676120
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

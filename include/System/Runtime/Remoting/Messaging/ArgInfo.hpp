@@ -30,9 +30,9 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.Int32[] _paramMap
     // Size: 0x8
     // Offset: 0x10
-    ::Array<int>* paramMap;
+    ::ArrayWrapper<int> paramMap;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // private System.Int32 _inoutArgCount
     // Size: 0x4
     // Offset: 0x18
@@ -48,23 +48,23 @@ namespace System::Runtime::Remoting::Messaging {
     // Field size check
     static_assert(sizeof(System::Reflection::MethodBase*) == 0x8);
     // Creating value type constructor for type: ArgInfo
-    ArgInfo(::Array<int>* paramMap_ = {}, int inoutArgCount_ = {}, System::Reflection::MethodBase* method_ = {}) noexcept : paramMap{paramMap_}, inoutArgCount{inoutArgCount_}, method{method_} {}
+    ArgInfo(::ArrayWrapper<int> paramMap_ = {}, int inoutArgCount_ = {}, System::Reflection::MethodBase* method_ = {}) noexcept : paramMap{paramMap_}, inoutArgCount{inoutArgCount_}, method{method_} {}
     // Get instance field reference: private System.Int32[] _paramMap
-    ::Array<int>*& dyn__paramMap();
+    ::ArrayWrapper<int>& dyn__paramMap();
     // Get instance field reference: private System.Int32 _inoutArgCount
     int& dyn__inoutArgCount();
     // Get instance field reference: private System.Reflection.MethodBase _method
     System::Reflection::MethodBase*& dyn__method();
     // public System.Void .ctor(System.Reflection.MethodBase method, System.Runtime.Remoting.Messaging.ArgInfoType type)
-    // Offset: 0x1A48BA8
+    // Offset: 0x1C11578
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArgInfo* New_ctor(System::Reflection::MethodBase* method, System::Runtime::Remoting::Messaging::ArgInfoType type) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::ArgInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArgInfo*, creationType>(method, type)));
     }
     // public System.Object[] GetInOutArgs(System.Object[] args)
-    // Offset: 0x1A48D6C
-    ::Array<::Il2CppObject*>* GetInOutArgs(::Array<::Il2CppObject*>* args);
+    // Offset: 0x1C1173C
+    ::ArrayWrapper<::Il2CppObject*> GetInOutArgs(::ArrayWrapper<::Il2CppObject*> args);
   }; // System.Runtime.Remoting.Messaging.ArgInfo
   #pragma pack(pop)
   static check_size<sizeof(ArgInfo), 32 + sizeof(System::Reflection::MethodBase*)> __System_Runtime_Remoting_Messaging_ArgInfoSizeCheck;
@@ -79,9 +79,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ArgInfo*, "System.R
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ArgInfo::GetInOutArgs
 // Il2CppName: GetInOutArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Runtime::Remoting::Messaging::ArgInfo::*)(::Array<::Il2CppObject*>*)>(&System::Runtime::Remoting::Messaging::ArgInfo::GetInOutArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Runtime::Remoting::Messaging::ArgInfo::*)(::ArrayWrapper<::Il2CppObject*>)>(&System::Runtime::Remoting::Messaging::ArgInfo::GetInOutArgs)> {
   static const MethodInfo* get() {
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ArgInfo*), "GetInOutArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
   }
 };

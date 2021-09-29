@@ -35,31 +35,31 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     class $$c;
     // Creating value type constructor for type: Lightmapping
     Lightmapping() noexcept {}
-    // [RequiredByNativeCodeAttribute] Offset: 0xDBA498
+    // [RequiredByNativeCodeAttribute] Offset: 0xE776C4
     // Get static field: static private readonly UnityEngine.Experimental.GlobalIllumination.Lightmapping/UnityEngine.Experimental.GlobalIllumination.RequestLightsDelegate s_DefaultDelegate
     static UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate* _get_s_DefaultDelegate();
     // Set static field: static private readonly UnityEngine.Experimental.GlobalIllumination.Lightmapping/UnityEngine.Experimental.GlobalIllumination.RequestLightsDelegate s_DefaultDelegate
     static void _set_s_DefaultDelegate(UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate* value);
-    // [RequiredByNativeCodeAttribute] Offset: 0xDBA4A8
+    // [RequiredByNativeCodeAttribute] Offset: 0xE776D4
     // Get static field: static private UnityEngine.Experimental.GlobalIllumination.Lightmapping/UnityEngine.Experimental.GlobalIllumination.RequestLightsDelegate s_RequestLightsDelegate
     static UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate* _get_s_RequestLightsDelegate();
     // Set static field: static private UnityEngine.Experimental.GlobalIllumination.Lightmapping/UnityEngine.Experimental.GlobalIllumination.RequestLightsDelegate s_RequestLightsDelegate
     static void _set_s_RequestLightsDelegate(UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate* value);
     // static private System.Void .cctor()
-    // Offset: 0x1C555F4
+    // Offset: 0x1CBC0E0
     static void _cctor();
     // static public System.Void SetDelegate(UnityEngine.Experimental.GlobalIllumination.Lightmapping/UnityEngine.Experimental.GlobalIllumination.RequestLightsDelegate del)
-    // Offset: 0x1C54FB4
+    // Offset: 0x1CBBAA0
     static void SetDelegate(UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate* del);
     // static public UnityEngine.Experimental.GlobalIllumination.Lightmapping/UnityEngine.Experimental.GlobalIllumination.RequestLightsDelegate GetDelegate()
-    // Offset: 0x1C55044
+    // Offset: 0x1CBBB30
     static UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate* GetDelegate();
     // static public System.Void ResetDelegate()
-    // Offset: 0x1C550AC
+    // Offset: 0x1CBBB98
     static void ResetDelegate();
     // static System.Void RequestLights(UnityEngine.Light[] lights, System.IntPtr outLightsPtr, System.Int32 outLightsCount)
-    // Offset: 0x1C55118
-    static void RequestLights(::Array<UnityEngine::Light*>* lights, System::IntPtr outLightsPtr, int outLightsCount);
+    // Offset: 0x1CBBC04
+    static void RequestLights(::ArrayWrapper<UnityEngine::Light*> lights, System::IntPtr outLightsPtr, int outLightsCount);
   }; // UnityEngine.Experimental.GlobalIllumination.Lightmapping
   #pragma pack(pop)
 }
@@ -102,9 +102,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLights
 // Il2CppName: RequestLights
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<UnityEngine::Light*>*, System::IntPtr, int)>(&UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLights)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<UnityEngine::Light*>, System::IntPtr, int)>(&UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLights)> {
   static const MethodInfo* get() {
-    static auto* lights = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Light"), 1)->byval_arg;
+    static auto* lights = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Light")), 1)->byval_arg;
     static auto* outLightsPtr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* outLightsCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::Lightmapping*), "RequestLights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lights, outLightsPtr, outLightsCount});

@@ -18,26 +18,26 @@ namespace UnityEngine::Timeline {
     // Creating value type constructor for type: HashUtility
     HashUtility() noexcept {}
     // static public System.Int32 CombineHash(System.Int32 h1, System.Int32 h2)
-    // Offset: 0x181DEB0
+    // Offset: 0x19F1258
     static int CombineHash(int h1, int h2);
     // static public System.Int32 CombineHash(System.Int32 h1, System.Int32 h2, System.Int32 h3)
-    // Offset: 0x1828098
+    // Offset: 0x19FB440
     static int CombineHash(int h1, int h2, int h3);
     // static public System.Int32 CombineHash(System.Int32 h1, System.Int32 h2, System.Int32 h3, System.Int32 h4)
-    // Offset: 0x18280C4
+    // Offset: 0x19FB46C
     static int CombineHash(int h1, int h2, int h3, int h4);
     // static public System.Int32 CombineHash(System.Int32 h1, System.Int32 h2, System.Int32 h3, System.Int32 h4, System.Int32 h5)
-    // Offset: 0x1828100
+    // Offset: 0x19FB4A8
     static int CombineHash(int h1, int h2, int h3, int h4, int h5);
     // static public System.Int32 CombineHash(System.Int32 h1, System.Int32 h2, System.Int32 h3, System.Int32 h4, System.Int32 h5, System.Int32 h6)
-    // Offset: 0x182814C
+    // Offset: 0x19FB4F4
     static int CombineHash(int h1, int h2, int h3, int h4, int h5, int h6);
     // static public System.Int32 CombineHash(System.Int32 h1, System.Int32 h2, System.Int32 h3, System.Int32 h4, System.Int32 h5, System.Int32 h6, System.Int32 h7)
-    // Offset: 0x18281A8
+    // Offset: 0x19FB550
     static int CombineHash(int h1, int h2, int h3, int h4, int h5, int h6, int h7);
     // static public System.Int32 CombineHash(System.Int32[] hashes)
-    // Offset: 0x18281E0
-    static int CombineHash(::Array<int>* hashes);
+    // Offset: 0x19FB588
+    static int CombineHash(::ArrayWrapper<int> hashes);
   }; // UnityEngine.Timeline.HashUtility
   #pragma pack(pop)
 }
@@ -122,9 +122,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: UnityEngine::Timeline::HashUtility::CombineHash
 // Il2CppName: CombineHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<int>*)>(&UnityEngine::Timeline::HashUtility::CombineHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<int>)>(&UnityEngine::Timeline::HashUtility::CombineHash)> {
   static const MethodInfo* get() {
-    static auto* hashes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* hashes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::HashUtility*), "CombineHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hashes});
   }
 };

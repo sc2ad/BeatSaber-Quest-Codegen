@@ -37,9 +37,9 @@ namespace Mono::Security::X509 {
     // private System.Byte[] sn
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* sn;
+    ::ArrayWrapper<uint8_t> sn;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.DateTime revocationDate
     // Size: 0x8
     // Offset: 0x18
@@ -53,24 +53,24 @@ namespace Mono::Security::X509 {
     // Field size check
     static_assert(sizeof(Mono::Security::X509::X509ExtensionCollection*) == 0x8);
     // Creating value type constructor for type: X509CrlEntry
-    X509CrlEntry(::Array<uint8_t>* sn_ = {}, System::DateTime revocationDate_ = {}, Mono::Security::X509::X509ExtensionCollection* extensions_ = {}) noexcept : sn{sn_}, revocationDate{revocationDate_}, extensions{extensions_} {}
+    X509CrlEntry(::ArrayWrapper<uint8_t> sn_ = {}, System::DateTime revocationDate_ = {}, Mono::Security::X509::X509ExtensionCollection* extensions_ = {}) noexcept : sn{sn_}, revocationDate{revocationDate_}, extensions{extensions_} {}
     // Get instance field reference: private System.Byte[] sn
-    ::Array<uint8_t>*& dyn_sn();
+    ::ArrayWrapper<uint8_t>& dyn_sn();
     // Get instance field reference: private System.DateTime revocationDate
     System::DateTime& dyn_revocationDate();
     // Get instance field reference: private Mono.Security.X509.X509ExtensionCollection extensions
     Mono::Security::X509::X509ExtensionCollection*& dyn_extensions();
     // public System.Byte[] get_SerialNumber()
-    // Offset: 0x23DA658
-    ::Array<uint8_t>* get_SerialNumber();
+    // Offset: 0x25DFE34
+    ::ArrayWrapper<uint8_t> get_SerialNumber();
     // public System.DateTime get_RevocationDate()
-    // Offset: 0x23DABC8
+    // Offset: 0x25E03A4
     System::DateTime get_RevocationDate();
     // public Mono.Security.X509.X509ExtensionCollection get_Extensions()
-    // Offset: 0x23DABD0
+    // Offset: 0x25E03AC
     Mono::Security::X509::X509ExtensionCollection* get_Extensions();
     // System.Void .ctor(Mono.Security.ASN1 entry)
-    // Offset: 0x23DA154
+    // Offset: 0x25DF930
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Crl::X509CrlEntry* New_ctor(Mono::Security::ASN1* entry) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Crl::X509CrlEntry::.ctor");
@@ -86,7 +86,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Crl::X509CrlEntry*, "Mono.Secur
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::X509CrlEntry::get_SerialNumber
 // Il2CppName: get_SerialNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::X509::X509Crl::X509CrlEntry::*)()>(&Mono::Security::X509::X509Crl::X509CrlEntry::get_SerialNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::X509::X509Crl::X509CrlEntry::*)()>(&Mono::Security::X509::X509Crl::X509CrlEntry::get_SerialNumber)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl::X509CrlEntry*), "get_SerialNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

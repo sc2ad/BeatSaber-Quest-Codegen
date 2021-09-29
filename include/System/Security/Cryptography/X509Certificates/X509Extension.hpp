@@ -35,23 +35,23 @@ namespace System::Security::Cryptography::X509Certificates {
     // Get instance field reference: private System.Boolean _critical
     bool& dyn__critical();
     // public System.Boolean get_Critical()
-    // Offset: 0x186CC48
+    // Offset: 0x19DF02C
     bool get_Critical();
     // public System.Void set_Critical(System.Boolean value)
-    // Offset: 0x186CC50
+    // Offset: 0x19DF034
     void set_Critical(bool value);
     // public System.Void .ctor(System.String oid, System.Byte[] rawData, System.Boolean critical)
-    // Offset: 0x186CC18
+    // Offset: 0x19DEFFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static X509Extension* New_ctor(::Il2CppString* oid, ::Array<uint8_t>* rawData, bool critical) {
+    static X509Extension* New_ctor(::Il2CppString* oid, ::ArrayWrapper<uint8_t> rawData, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(oid, rawData, critical)));
     }
     // System.String FormatUnkownData(System.Byte[] data)
-    // Offset: 0x1860F24
-    ::Il2CppString* FormatUnkownData(::Array<uint8_t>* data);
+    // Offset: 0x19D3308
+    ::Il2CppString* FormatUnkownData(::ArrayWrapper<uint8_t> data);
     // protected System.Void .ctor()
-    // Offset: 0x186048C
+    // Offset: 0x19D2870
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.Void AsnEncodedData::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -61,7 +61,7 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>()));
     }
     // public override System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x186CC5C
+    // Offset: 0x19DF040
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.Void AsnEncodedData::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);
@@ -96,9 +96,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Extension::FormatUnkownData
 // Il2CppName: FormatUnkownData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::X509Certificates::X509Extension::*)(::Array<uint8_t>*)>(&System::Security::Cryptography::X509Certificates::X509Extension::FormatUnkownData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::X509Certificates::X509Extension::*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509Extension::FormatUnkownData)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Extension*), "FormatUnkownData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }
 };

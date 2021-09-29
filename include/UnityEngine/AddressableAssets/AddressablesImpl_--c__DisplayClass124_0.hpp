@@ -61,13 +61,13 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: public System.Boolean autoReleaseHandle
     bool& dyn_autoReleaseHandle();
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator>> <UpdateCatalogs>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.List`1<System.String>> depOp)
-    // Offset: 0x144A508
+    // Offset: 0x1597D20
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> $UpdateCatalogs$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::List_1<::Il2CppString*>*> depOp);
     // System.Void <UpdateCatalogs>b__1(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle o)
-    // Offset: 0x144A554
+    // Offset: 0x1597D6C
     void $UpdateCatalogs$b__1(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle o);
     // public System.Void .ctor()
-    // Offset: 0x14492B0
+    // Offset: 0x1596AC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

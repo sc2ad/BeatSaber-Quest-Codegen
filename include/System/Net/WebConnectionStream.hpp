@@ -83,9 +83,9 @@ namespace System::Net {
     // private System.Byte[] readBuffer
     // Size: 0x8
     // Offset: 0x40
-    ::Array<uint8_t>* readBuffer;
+    ::ArrayWrapper<uint8_t> readBuffer;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Int32 readBufferOffset
     // Size: 0x4
     // Offset: 0x48
@@ -183,9 +183,9 @@ namespace System::Net {
     // private System.Byte[] headers
     // Size: 0x8
     // Offset: 0xA0
-    ::Array<uint8_t>* headers;
+    ::ArrayWrapper<uint8_t> headers;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Boolean disposed
     // Size: 0x1
     // Offset: 0xA8
@@ -259,11 +259,11 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: WebConnectionStream
-    WebConnectionStream(bool isRead_ = {}, System::Net::WebConnection* cnc_ = {}, System::Net::HttpWebRequest* request_ = {}, ::Array<uint8_t>* readBuffer_ = {}, int readBufferOffset_ = {}, int readBufferSize_ = {}, int stream_length_ = {}, int64_t contentLength_ = {}, int64_t totalRead_ = {}, int64_t totalWritten_ = {}, bool nextReadCalled_ = {}, int pendingReads_ = {}, int pendingWrites_ = {}, System::Threading::ManualResetEvent* pending_ = {}, bool allowBuffering_ = {}, bool sendChunked_ = {}, System::IO::MemoryStream* writeBuffer_ = {}, bool requestWritten_ = {}, ::Array<uint8_t>* headers_ = {}, bool disposed_ = {}, bool headersSent_ = {}, ::Il2CppObject* locker_ = {}, bool initRead_ = {}, bool read_eof_ = {}, bool complete_request_written_ = {}, int read_timeout_ = {}, int write_timeout_ = {}, System::AsyncCallback* cb_wrapper_ = {}, bool IgnoreIOErrors_ = {}, bool GetResponseOnClose_ = {}) noexcept : isRead{isRead_}, cnc{cnc_}, request{request_}, readBuffer{readBuffer_}, readBufferOffset{readBufferOffset_}, readBufferSize{readBufferSize_}, stream_length{stream_length_}, contentLength{contentLength_}, totalRead{totalRead_}, totalWritten{totalWritten_}, nextReadCalled{nextReadCalled_}, pendingReads{pendingReads_}, pendingWrites{pendingWrites_}, pending{pending_}, allowBuffering{allowBuffering_}, sendChunked{sendChunked_}, writeBuffer{writeBuffer_}, requestWritten{requestWritten_}, headers{headers_}, disposed{disposed_}, headersSent{headersSent_}, locker{locker_}, initRead{initRead_}, read_eof{read_eof_}, complete_request_written{complete_request_written_}, read_timeout{read_timeout_}, write_timeout{write_timeout_}, cb_wrapper{cb_wrapper_}, IgnoreIOErrors{IgnoreIOErrors_}, GetResponseOnClose{GetResponseOnClose_} {}
+    WebConnectionStream(bool isRead_ = {}, System::Net::WebConnection* cnc_ = {}, System::Net::HttpWebRequest* request_ = {}, ::ArrayWrapper<uint8_t> readBuffer_ = {}, int readBufferOffset_ = {}, int readBufferSize_ = {}, int stream_length_ = {}, int64_t contentLength_ = {}, int64_t totalRead_ = {}, int64_t totalWritten_ = {}, bool nextReadCalled_ = {}, int pendingReads_ = {}, int pendingWrites_ = {}, System::Threading::ManualResetEvent* pending_ = {}, bool allowBuffering_ = {}, bool sendChunked_ = {}, System::IO::MemoryStream* writeBuffer_ = {}, bool requestWritten_ = {}, ::ArrayWrapper<uint8_t> headers_ = {}, bool disposed_ = {}, bool headersSent_ = {}, ::Il2CppObject* locker_ = {}, bool initRead_ = {}, bool read_eof_ = {}, bool complete_request_written_ = {}, int read_timeout_ = {}, int write_timeout_ = {}, System::AsyncCallback* cb_wrapper_ = {}, bool IgnoreIOErrors_ = {}, bool GetResponseOnClose_ = {}) noexcept : isRead{isRead_}, cnc{cnc_}, request{request_}, readBuffer{readBuffer_}, readBufferOffset{readBufferOffset_}, readBufferSize{readBufferSize_}, stream_length{stream_length_}, contentLength{contentLength_}, totalRead{totalRead_}, totalWritten{totalWritten_}, nextReadCalled{nextReadCalled_}, pendingReads{pendingReads_}, pendingWrites{pendingWrites_}, pending{pending_}, allowBuffering{allowBuffering_}, sendChunked{sendChunked_}, writeBuffer{writeBuffer_}, requestWritten{requestWritten_}, headers{headers_}, disposed{disposed_}, headersSent{headersSent_}, locker{locker_}, initRead{initRead_}, read_eof{read_eof_}, complete_request_written{complete_request_written_}, read_timeout{read_timeout_}, write_timeout{write_timeout_}, cb_wrapper{cb_wrapper_}, IgnoreIOErrors{IgnoreIOErrors_}, GetResponseOnClose{GetResponseOnClose_} {}
     // Get static field: static private System.Byte[] crlf
-    static ::Array<uint8_t>* _get_crlf();
+    static ::ArrayWrapper<uint8_t> _get_crlf();
     // Set static field: static private System.Byte[] crlf
-    static void _set_crlf(::Array<uint8_t>* value);
+    static void _set_crlf(::ArrayWrapper<uint8_t> value);
     // Get instance field reference: private System.Boolean isRead
     bool& dyn_isRead();
     // Get instance field reference: private System.Net.WebConnection cnc
@@ -271,7 +271,7 @@ namespace System::Net {
     // Get instance field reference: private System.Net.HttpWebRequest request
     System::Net::HttpWebRequest*& dyn_request();
     // Get instance field reference: private System.Byte[] readBuffer
-    ::Array<uint8_t>*& dyn_readBuffer();
+    ::ArrayWrapper<uint8_t>& dyn_readBuffer();
     // Get instance field reference: private System.Int32 readBufferOffset
     int& dyn_readBufferOffset();
     // Get instance field reference: private System.Int32 readBufferSize
@@ -301,7 +301,7 @@ namespace System::Net {
     // Get instance field reference: private System.Boolean requestWritten
     bool& dyn_requestWritten();
     // Get instance field reference: private System.Byte[] headers
-    ::Array<uint8_t>*& dyn_headers();
+    ::ArrayWrapper<uint8_t>& dyn_headers();
     // Get instance field reference: private System.Boolean disposed
     bool& dyn_disposed();
     // Get instance field reference: private System.Boolean headersSent
@@ -325,186 +325,186 @@ namespace System::Net {
     // Get instance field reference: private System.Boolean <GetResponseOnClose>k__BackingField
     bool& dyn_$GetResponseOnClose$k__BackingField();
     // System.Net.WebConnection get_Connection()
-    // Offset: 0x15DC8A4
+    // Offset: 0x177FD5C
     System::Net::WebConnection* get_Connection();
     // System.Boolean get_CompleteRequestWritten()
-    // Offset: 0x15DC8BC
+    // Offset: 0x177FD74
     bool get_CompleteRequestWritten();
     // System.Void set_SendChunked(System.Boolean value)
-    // Offset: 0x15DC8C4
+    // Offset: 0x177FD7C
     void set_SendChunked(bool value);
     // System.Void set_ReadBuffer(System.Byte[] value)
-    // Offset: 0x15DC8D0
-    void set_ReadBuffer(::Array<uint8_t>* value);
+    // Offset: 0x177FD88
+    void set_ReadBuffer(::ArrayWrapper<uint8_t> value);
     // System.Void set_ReadBufferOffset(System.Int32 value)
-    // Offset: 0x15DC8D8
+    // Offset: 0x177FD90
     void set_ReadBufferOffset(int value);
     // System.Void set_ReadBufferSize(System.Int32 value)
-    // Offset: 0x15DC8E0
+    // Offset: 0x177FD98
     void set_ReadBufferSize(int value);
     // System.Byte[] get_WriteBuffer()
-    // Offset: 0x15DC8E8
-    ::Array<uint8_t>* get_WriteBuffer();
+    // Offset: 0x177FDA0
+    ::ArrayWrapper<uint8_t> get_WriteBuffer();
     // System.Int32 get_WriteBufferLength()
-    // Offset: 0x15DC90C
+    // Offset: 0x177FDC4
     int get_WriteBufferLength();
     // System.Boolean get_RequestWritten()
-    // Offset: 0x15DE6EC
+    // Offset: 0x1781BA4
     bool get_RequestWritten();
     // System.Boolean get_GetResponseOnClose()
-    // Offset: 0x15DE8C4
+    // Offset: 0x1781D7C
     bool get_GetResponseOnClose();
     // public System.Void .ctor(System.Net.WebConnection cnc, System.Net.WebConnectionData data)
-    // Offset: 0x15D7E00
+    // Offset: 0x177B2B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionStream* New_ctor(System::Net::WebConnection* cnc, System::Net::WebConnectionData* data) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebConnectionStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionStream*, creationType>(cnc, data)));
     }
     // public System.Void .ctor(System.Net.WebConnection cnc, System.Net.HttpWebRequest request)
-    // Offset: 0x15D87F4
+    // Offset: 0x177BCAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionStream* New_ctor(System::Net::WebConnection* cnc, System::Net::HttpWebRequest* request) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebConnectionStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionStream*, creationType>(cnc, request)));
     }
     // private System.Boolean CheckAuthHeader(System.String headerName)
-    // Offset: 0x15DC80C
+    // Offset: 0x177FCC4
     bool CheckAuthHeader(::Il2CppString* headerName);
     // private System.Boolean IsNtlmAuth()
-    // Offset: 0x15DC2F4
+    // Offset: 0x177F7AC
     bool IsNtlmAuth();
     // System.Void CheckResponseInBuffer()
-    // Offset: 0x15D8180
+    // Offset: 0x177B638
     void CheckResponseInBuffer();
     // System.Void ForceCompletion()
-    // Offset: 0x15D81D4
+    // Offset: 0x177B68C
     void ForceCompletion();
     // System.Void CheckComplete()
-    // Offset: 0x15DC938
+    // Offset: 0x177FDF0
     void CheckComplete();
     // System.Void ReadAll()
-    // Offset: 0x15DC438
+    // Offset: 0x177F8F0
     void ReadAll();
     // private System.Void WriteCallbackWrapper(System.IAsyncResult r)
-    // Offset: 0x15DC97C
+    // Offset: 0x177FE34
     void WriteCallbackWrapper(System::IAsyncResult* r);
     // private System.Void ReadCallbackWrapper(System.IAsyncResult r)
-    // Offset: 0x15DCBC0
+    // Offset: 0x1780078
     void ReadCallbackWrapper(System::IAsyncResult* r);
     // private System.Void WriteAsyncCB(System.IAsyncResult r)
-    // Offset: 0x15DD5A4
+    // Offset: 0x1780A5C
     void WriteAsyncCB(System::IAsyncResult* r);
     // private System.Void CheckWriteOverflow(System.Int64 contentLength, System.Int64 totalWritten, System.Int64 size)
-    // Offset: 0x15DDEF4
+    // Offset: 0x17813AC
     void CheckWriteOverflow(int64_t contentLength, int64_t totalWritten, int64_t size);
     // System.Void SetHeadersAsync(System.Boolean setInternalLength, System.Net.SimpleAsyncCallback callback)
-    // Offset: 0x15DE338
+    // Offset: 0x17817F0
     void SetHeadersAsync(bool setInternalLength, System::Net::SimpleAsyncCallback* callback);
     // private System.Boolean SetHeadersAsync(System.Net.SimpleAsyncResult result, System.Boolean setInternalLength)
-    // Offset: 0x15DE400
+    // Offset: 0x17818B8
     bool SetHeadersAsync(System::Net::SimpleAsyncResult* result, bool setInternalLength);
     // System.Boolean WriteRequestAsync(System.Net.SimpleAsyncResult result)
-    // Offset: 0x15DE6F4
+    // Offset: 0x1781BAC
     bool WriteRequestAsync(System::Net::SimpleAsyncResult* result);
     // System.Void InternalClose()
-    // Offset: 0x15DE8B8
+    // Offset: 0x1781D70
     void InternalClose();
     // System.Void KillBuffer()
-    // Offset: 0x15DD874
+    // Offset: 0x1780D2C
     void KillBuffer();
     // public override System.Int32 get_ReadTimeout()
-    // Offset: 0x15DC8AC
+    // Offset: 0x177FD64
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::get_ReadTimeout()
     int get_ReadTimeout();
     // public override System.Int32 get_WriteTimeout()
-    // Offset: 0x15DC8B4
+    // Offset: 0x177FD6C
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::get_WriteTimeout()
     int get_WriteTimeout();
     // public override System.Boolean get_CanSeek()
-    // Offset: 0x15DEC98
+    // Offset: 0x1782150
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanSeek()
     bool get_CanSeek();
     // public override System.Boolean get_CanRead()
-    // Offset: 0x15DECA0
+    // Offset: 0x1782158
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanRead()
     bool get_CanRead();
     // public override System.Boolean get_CanWrite()
-    // Offset: 0x15DECC0
+    // Offset: 0x1782178
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanWrite()
     bool get_CanWrite();
     // public override System.Int64 get_Length()
-    // Offset: 0x15DECE0
+    // Offset: 0x1782198
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Length()
     int64_t get_Length();
     // public override System.Int64 get_Position()
-    // Offset: 0x15DED5C
+    // Offset: 0x1782214
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Position()
     int64_t get_Position();
     // public override System.Void set_Position(System.Int64 value)
-    // Offset: 0x15DEDBC
+    // Offset: 0x1782274
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::set_Position(System.Int64 value)
     void set_Position(int64_t value);
     // static private System.Void .cctor()
-    // Offset: 0x15DEE1C
+    // Offset: 0x17822D4
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::.cctor()
     static void _cctor();
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x15DCDCC
+    // Offset: 0x1780284
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    int Read(::Array<uint8_t>* buffer, int offset, int size);
+    int Read(::ArrayWrapper<uint8_t> buffer, int offset, int size);
     // public override System.IAsyncResult BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
-    // Offset: 0x15DCF44
+    // Offset: 0x17803FC
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
-    System::IAsyncResult* BeginRead(::Array<uint8_t>* buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
+    System::IAsyncResult* BeginRead(::ArrayWrapper<uint8_t> buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
     // public override System.Int32 EndRead(System.IAsyncResult r)
-    // Offset: 0x15DD25C
+    // Offset: 0x1780714
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::EndRead(System.IAsyncResult r)
     int EndRead(System::IAsyncResult* r);
     // public override System.IAsyncResult BeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
-    // Offset: 0x15DD87C
+    // Offset: 0x1780D34
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
-    System::IAsyncResult* BeginWrite(::Array<uint8_t>* buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
+    System::IAsyncResult* BeginWrite(::ArrayWrapper<uint8_t> buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
     // public override System.Void EndWrite(System.IAsyncResult r)
-    // Offset: 0x15DDFC4
+    // Offset: 0x178147C
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::EndWrite(System.IAsyncResult r)
     void EndWrite(System::IAsyncResult* r);
     // public override System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x15DE1B8
+    // Offset: 0x1781670
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    void Write(::Array<uint8_t>* buffer, int offset, int size);
+    void Write(::ArrayWrapper<uint8_t> buffer, int offset, int size);
     // public override System.Void Flush()
-    // Offset: 0x15DE334
+    // Offset: 0x17817EC
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Flush()
     void Flush();
     // public override System.Void Close()
-    // Offset: 0x15DE8CC
+    // Offset: 0x1781D84
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Close()
     void Close();
     // public override System.Int64 Seek(System.Int64 a, System.IO.SeekOrigin b)
-    // Offset: 0x15DEBD8
+    // Offset: 0x1782090
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::Seek(System.Int64 a, System.IO.SeekOrigin b)
     int64_t Seek(int64_t a, System::IO::SeekOrigin b);
     // public override System.Void SetLength(System.Int64 a)
-    // Offset: 0x15DEC38
+    // Offset: 0x17820F0
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::SetLength(System.Int64 a)
     void SetLength(int64_t a);
@@ -543,9 +543,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::set_ReadBuffer
 // Il2CppName: set_ReadBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnectionStream::*)(::Array<uint8_t>*)>(&System::Net::WebConnectionStream::set_ReadBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnectionStream::*)(::ArrayWrapper<uint8_t>)>(&System::Net::WebConnectionStream::set_ReadBuffer)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionStream*), "set_ReadBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
@@ -570,7 +570,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::get_WriteBuffer
 // Il2CppName: get_WriteBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Net::WebConnectionStream::*)()>(&System::Net::WebConnectionStream::get_WriteBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Net::WebConnectionStream::*)()>(&System::Net::WebConnectionStream::get_WriteBuffer)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionStream*), "get_WriteBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -815,9 +815,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::WebConnectionStream::*)(::Array<uint8_t>*, int, int)>(&System::Net::WebConnectionStream::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::WebConnectionStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Net::WebConnectionStream::Read)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionStream*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, offset, size});
@@ -826,9 +826,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::BeginRead
 // Il2CppName: BeginRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::WebConnectionStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::WebConnectionStream::BeginRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::WebConnectionStream::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::WebConnectionStream::BeginRead)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cb = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -848,9 +848,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::BeginWrite
 // Il2CppName: BeginWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::WebConnectionStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::WebConnectionStream::BeginWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::WebConnectionStream::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::WebConnectionStream::BeginWrite)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cb = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -870,9 +870,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnectionStream::*)(::Array<uint8_t>*, int, int)>(&System::Net::WebConnectionStream::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnectionStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Net::WebConnectionStream::Write)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionStream*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, offset, size});

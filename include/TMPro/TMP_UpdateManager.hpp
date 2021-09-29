@@ -99,52 +99,52 @@ namespace TMPro {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_InternalUpdateLookup
     System::Collections::Generic::Dictionary_2<int, int>*& dyn_m_InternalUpdateLookup();
     // static public TMPro.TMP_UpdateManager get_instance()
-    // Offset: 0x145ADA0
+    // Offset: 0x15C2E30
     static TMPro::TMP_UpdateManager* get_instance();
     // static System.Void RegisterTextObjectForUpdate(TMPro.TMP_Text textObject)
-    // Offset: 0x145AFF8
+    // Offset: 0x15C3088
     static void RegisterTextObjectForUpdate(TMPro::TMP_Text* textObject);
     // private System.Void InternalRegisterTextObjectForUpdate(TMPro.TMP_Text textObject)
-    // Offset: 0x145B024
+    // Offset: 0x15C30B4
     void InternalRegisterTextObjectForUpdate(TMPro::TMP_Text* textObject);
     // static public System.Void RegisterTextElementForLayoutRebuild(TMPro.TMP_Text element)
-    // Offset: 0x145B0F4
+    // Offset: 0x15C3184
     static void RegisterTextElementForLayoutRebuild(TMPro::TMP_Text* element);
     // private System.Boolean InternalRegisterTextElementForLayoutRebuild(TMPro.TMP_Text element)
-    // Offset: 0x145B120
+    // Offset: 0x15C31B0
     bool InternalRegisterTextElementForLayoutRebuild(TMPro::TMP_Text* element);
     // static public System.Void RegisterTextElementForGraphicRebuild(TMPro.TMP_Text element)
-    // Offset: 0x145B1F0
+    // Offset: 0x15C3280
     static void RegisterTextElementForGraphicRebuild(TMPro::TMP_Text* element);
     // private System.Boolean InternalRegisterTextElementForGraphicRebuild(TMPro.TMP_Text element)
-    // Offset: 0x145B21C
+    // Offset: 0x15C32AC
     bool InternalRegisterTextElementForGraphicRebuild(TMPro::TMP_Text* element);
     // private System.Void OnBeginFrameRendering(UnityEngine.Rendering.ScriptableRenderContext renderContext, UnityEngine.Camera[] cameras)
-    // Offset: 0x145B2EC
-    void OnBeginFrameRendering(UnityEngine::Rendering::ScriptableRenderContext renderContext, ::Array<UnityEngine::Camera*>* cameras);
+    // Offset: 0x15C337C
+    void OnBeginFrameRendering(UnityEngine::Rendering::ScriptableRenderContext renderContext, ::ArrayWrapper<UnityEngine::Camera*> cameras);
     // private System.Void OnCameraPreCull(UnityEngine.Camera cam)
-    // Offset: 0x145B4C0
+    // Offset: 0x15C3550
     void OnCameraPreCull(UnityEngine::Camera* cam);
     // private System.Void DoRebuilds()
-    // Offset: 0x145B2F0
+    // Offset: 0x15C3380
     void DoRebuilds();
     // static System.Void UnRegisterTextObjectForUpdate(TMPro.TMP_Text textObject)
-    // Offset: 0x145B4C4
+    // Offset: 0x15C3554
     static void UnRegisterTextObjectForUpdate(TMPro::TMP_Text* textObject);
     // static public System.Void UnRegisterTextElementForRebuild(TMPro.TMP_Text element)
-    // Offset: 0x145B590
+    // Offset: 0x15C3620
     static void UnRegisterTextElementForRebuild(TMPro::TMP_Text* element);
     // private System.Void InternalUnRegisterTextElementForGraphicRebuild(TMPro.TMP_Text element)
-    // Offset: 0x145B5DC
+    // Offset: 0x15C366C
     void InternalUnRegisterTextElementForGraphicRebuild(TMPro::TMP_Text* element);
     // private System.Void InternalUnRegisterTextElementForLayoutRebuild(TMPro.TMP_Text element)
-    // Offset: 0x145B67C
+    // Offset: 0x15C370C
     void InternalUnRegisterTextElementForLayoutRebuild(TMPro::TMP_Text* element);
     // private System.Void InternalUnRegisterTextObjectForUpdate(TMPro.TMP_Text textObject)
-    // Offset: 0x145B4F0
+    // Offset: 0x15C3580
     void InternalUnRegisterTextObjectForUpdate(TMPro::TMP_Text* textObject);
     // protected System.Void .ctor()
-    // Offset: 0x145AE1C
+    // Offset: 0x15C2EAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -224,10 +224,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_UpdateManager::OnBeginFrameRendering
 // Il2CppName: OnBeginFrameRendering
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_UpdateManager::*)(UnityEngine::Rendering::ScriptableRenderContext, ::Array<UnityEngine::Camera*>*)>(&TMPro::TMP_UpdateManager::OnBeginFrameRendering)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_UpdateManager::*)(UnityEngine::Rendering::ScriptableRenderContext, ::ArrayWrapper<UnityEngine::Camera*>)>(&TMPro::TMP_UpdateManager::OnBeginFrameRendering)> {
   static const MethodInfo* get() {
     static auto* renderContext = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ScriptableRenderContext")->byval_arg;
-    static auto* cameras = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Camera"), 1)->byval_arg;
+    static auto* cameras = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "OnBeginFrameRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{renderContext, cameras});
   }
 };

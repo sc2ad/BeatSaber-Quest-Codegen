@@ -78,32 +78,32 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: private System.Net.NetworkInformation.IPInterfaceProperties ip_if_props
     System::Net::NetworkInformation::IPInterfaceProperties*& dyn_ip_if_props();
     // System.Void .ctor(System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr)
-    // Offset: 0x14A2E5C
+    // Offset: 0x1648AD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32NetworkInterface2* New_ctor(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES addr) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::Win32NetworkInterface2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32NetworkInterface2*, creationType>(addr)));
     }
     // static private System.Int32 GetIfEntry(ref System.Net.NetworkInformation.Win32_MIB_IFROW row)
-    // Offset: 0x14A404C
+    // Offset: 0x1649CC8
     static int GetIfEntry(ByRef<System::Net::NetworkInformation::Win32_MIB_IFROW> row);
     // public override System.String get_Name()
-    // Offset: 0x14A4130
+    // Offset: 0x1649DAC
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.String NetworkInterface::get_Name()
     ::Il2CppString* get_Name();
     // public override System.Net.NetworkInformation.NetworkInterfaceType get_NetworkInterfaceType()
-    // Offset: 0x14A4138
+    // Offset: 0x1649DB4
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.NetworkInterfaceType NetworkInterface::get_NetworkInterfaceType()
     System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
     // public override System.Net.NetworkInformation.OperationalStatus get_OperationalStatus()
-    // Offset: 0x14A4140
+    // Offset: 0x1649DBC
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.OperationalStatus NetworkInterface::get_OperationalStatus()
     System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
     // public override System.Net.NetworkInformation.IPInterfaceProperties GetIPProperties()
-    // Offset: 0x14A4128
+    // Offset: 0x1649DA4
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.IPInterfaceProperties NetworkInterface::GetIPProperties()
     System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();

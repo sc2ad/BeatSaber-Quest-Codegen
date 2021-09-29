@@ -75,26 +75,26 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static System.Int32 hardRangeMax
     static void _set_hardRangeMax(int value);
     // static public System.Int32 GetUnusedSmoothingGroup(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x22C3B50
+    // Offset: 0x24ECC0C
     static int GetUnusedSmoothingGroup(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static private System.Int32 GetNextUnusedSmoothingGroup(System.Int32 start, System.Collections.Generic.HashSet`1<System.Int32> used)
-    // Offset: 0x22C3CF4
+    // Offset: 0x24ECDB0
     static int GetNextUnusedSmoothingGroup(int start, System::Collections::Generic::HashSet_1<int>* used);
     // static public System.Boolean IsSmooth(System.Int32 index)
-    // Offset: 0x22C3DAC
+    // Offset: 0x24ECE68
     static bool IsSmooth(int index);
     // static public System.Void ApplySmoothingGroups(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Single angleThreshold)
-    // Offset: 0x22C3DCC
+    // Offset: 0x24ECE88
     static void ApplySmoothingGroups(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, float angleThreshold);
     // static System.Void ApplySmoothingGroups(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Single angleThreshold, UnityEngine.Vector3[] normals)
-    // Offset: 0x22C3DD4
-    static void ApplySmoothingGroups(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, float angleThreshold, ::Array<UnityEngine::Vector3>* normals);
+    // Offset: 0x24ECE90
+    static void ApplySmoothingGroups(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, float angleThreshold, ::ArrayWrapper<UnityEngine::Vector3> normals);
     // static private System.Boolean FindSoftEdgesRecursive(UnityEngine.Vector3[] normals, UnityEngine.ProBuilder.WingedEdge wing, System.Single angleThreshold, System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> processed)
-    // Offset: 0x22C4A60
-    static bool FindSoftEdgesRecursive(::Array<UnityEngine::Vector3>* normals, UnityEngine::ProBuilder::WingedEdge* wing, float angleThreshold, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* processed);
+    // Offset: 0x24EDB1C
+    static bool FindSoftEdgesRecursive(::ArrayWrapper<UnityEngine::Vector3> normals, UnityEngine::ProBuilder::WingedEdge* wing, float angleThreshold, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* processed);
     // static private System.Boolean IsSoftEdge(UnityEngine.Vector3[] normals, UnityEngine.ProBuilder.EdgeLookup left, UnityEngine.ProBuilder.EdgeLookup right, System.Single threshold)
-    // Offset: 0x22C4D60
-    static bool IsSoftEdge(::Array<UnityEngine::Vector3>* normals, UnityEngine::ProBuilder::EdgeLookup left, UnityEngine::ProBuilder::EdgeLookup right, float threshold);
+    // Offset: 0x24EDE1C
+    static bool IsSoftEdge(::ArrayWrapper<UnityEngine::Vector3> normals, UnityEngine::ProBuilder::EdgeLookup left, UnityEngine::ProBuilder::EdgeLookup right, float threshold);
   }; // UnityEngine.ProBuilder.Smoothing
   #pragma pack(pop)
 }
@@ -143,21 +143,21 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Smoothing::ApplySmoothingGroups
 // Il2CppName: ApplySmoothingGroups
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*, float, ::Array<UnityEngine::Vector3>*)>(&UnityEngine::ProBuilder::Smoothing::ApplySmoothingGroups)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*, float, ::ArrayWrapper<UnityEngine::Vector3>)>(&UnityEngine::ProBuilder::Smoothing::ApplySmoothingGroups)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* faces = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")})->byval_arg;
     static auto* angleThreshold = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    static auto* normals = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
+    static auto* normals = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Smoothing*), "ApplySmoothingGroups", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, faces, angleThreshold, normals});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Smoothing::FindSoftEdgesRecursive
 // Il2CppName: FindSoftEdgesRecursive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::Vector3>*, UnityEngine::ProBuilder::WingedEdge*, float, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*)>(&UnityEngine::ProBuilder::Smoothing::FindSoftEdgesRecursive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<UnityEngine::Vector3>, UnityEngine::ProBuilder::WingedEdge*, float, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*)>(&UnityEngine::ProBuilder::Smoothing::FindSoftEdgesRecursive)> {
   static const MethodInfo* get() {
-    static auto* normals = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
+    static auto* normals = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->byval_arg;
     static auto* wing = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "WingedEdge")->byval_arg;
     static auto* angleThreshold = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* processed = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "HashSet`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")})->byval_arg;
@@ -167,9 +167,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Smoothing::IsSoftEdge
 // Il2CppName: IsSoftEdge
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::Vector3>*, UnityEngine::ProBuilder::EdgeLookup, UnityEngine::ProBuilder::EdgeLookup, float)>(&UnityEngine::ProBuilder::Smoothing::IsSoftEdge)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<UnityEngine::Vector3>, UnityEngine::ProBuilder::EdgeLookup, UnityEngine::ProBuilder::EdgeLookup, float)>(&UnityEngine::ProBuilder::Smoothing::IsSoftEdge)> {
   static const MethodInfo* get() {
-    static auto* normals = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
+    static auto* normals = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->byval_arg;
     static auto* left = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "EdgeLookup")->byval_arg;
     static auto* right = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "EdgeLookup")->byval_arg;
     static auto* threshold = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

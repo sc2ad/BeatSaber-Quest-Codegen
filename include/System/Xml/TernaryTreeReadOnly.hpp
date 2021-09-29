@@ -21,30 +21,30 @@ namespace System::Xml {
     // private System.Byte[] nodeBuffer
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* nodeBuffer;
+    ::ArrayWrapper<uint8_t> nodeBuffer;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: TernaryTreeReadOnly
-    TernaryTreeReadOnly(::Array<uint8_t>* nodeBuffer_ = {}) noexcept : nodeBuffer{nodeBuffer_} {}
-    // Creating conversion operator: operator ::Array<uint8_t>*
-    constexpr operator ::Array<uint8_t>*() const noexcept {
+    TernaryTreeReadOnly(::ArrayWrapper<uint8_t> nodeBuffer_ = {}) noexcept : nodeBuffer{nodeBuffer_} {}
+    // Creating conversion operator: operator ::ArrayWrapper<uint8_t>
+    constexpr operator ::ArrayWrapper<uint8_t>() const noexcept {
       return nodeBuffer;
     }
     // Get instance field reference: private System.Byte[] nodeBuffer
-    ::Array<uint8_t>*& dyn_nodeBuffer();
+    ::ArrayWrapper<uint8_t>& dyn_nodeBuffer();
     // public System.Void .ctor(System.Byte[] nodeBuffer)
-    // Offset: 0x195764C
+    // Offset: 0x1AF8484
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TernaryTreeReadOnly* New_ctor(::Array<uint8_t>* nodeBuffer) {
+    static TernaryTreeReadOnly* New_ctor(::ArrayWrapper<uint8_t> nodeBuffer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::TernaryTreeReadOnly::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TernaryTreeReadOnly*, creationType>(nodeBuffer)));
     }
     // public System.Byte FindCaseInsensitiveString(System.String stringToFind)
-    // Offset: 0x1955D14
+    // Offset: 0x1AF6B4C
     uint8_t FindCaseInsensitiveString(::Il2CppString* stringToFind);
   }; // System.Xml.TernaryTreeReadOnly
   #pragma pack(pop)
-  static check_size<sizeof(TernaryTreeReadOnly), 16 + sizeof(::Array<uint8_t>*)> __System_Xml_TernaryTreeReadOnlySizeCheck;
+  static check_size<sizeof(TernaryTreeReadOnly), 16 + sizeof(::ArrayWrapper<uint8_t>)> __System_Xml_TernaryTreeReadOnlySizeCheck;
   static_assert(sizeof(TernaryTreeReadOnly) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::TernaryTreeReadOnly*, "System.Xml", "TernaryTreeReadOnly");

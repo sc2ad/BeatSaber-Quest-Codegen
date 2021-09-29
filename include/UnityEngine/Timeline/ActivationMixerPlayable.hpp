@@ -70,16 +70,16 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private UnityEngine.GameObject m_BoundGameObject
     UnityEngine::GameObject*& dyn_m_BoundGameObject();
     // public UnityEngine.Timeline.ActivationTrack/UnityEngine.Timeline.PostPlaybackState get_postPlaybackState()
-    // Offset: 0x181B164
+    // Offset: 0x19EE50C
     UnityEngine::Timeline::ActivationTrack::PostPlaybackState get_postPlaybackState();
     // public System.Void set_postPlaybackState(UnityEngine.Timeline.ActivationTrack/UnityEngine.Timeline.PostPlaybackState value)
-    // Offset: 0x181B16C
+    // Offset: 0x19EE514
     void set_postPlaybackState(UnityEngine::Timeline::ActivationTrack::PostPlaybackState value);
     // static public UnityEngine.Playables.ScriptPlayable`1<UnityEngine.Timeline.ActivationMixerPlayable> Create(UnityEngine.Playables.PlayableGraph graph, System.Int32 inputCount)
-    // Offset: 0x181B0DC
+    // Offset: 0x19EE484
     static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::ActivationMixerPlayable*> Create(UnityEngine::Playables::PlayableGraph graph, int inputCount);
     // public System.Void .ctor()
-    // Offset: 0x181B3FC
+    // Offset: 0x19EE7A4
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -89,12 +89,12 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<ActivationMixerPlayable*, creationType>()));
     }
     // public override System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    // Offset: 0x181B174
+    // Offset: 0x19EE51C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
     void OnPlayableDestroy(UnityEngine::Playables::Playable playable);
     // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x181B244
+    // Offset: 0x19EE5EC
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);

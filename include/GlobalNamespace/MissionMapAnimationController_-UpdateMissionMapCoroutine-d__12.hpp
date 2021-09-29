@@ -84,26 +84,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action finishCallback
     System::Action*& dyn_finishCallback();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1141C38
+    // Offset: 0x1188788
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1141CA0
+    // Offset: 0x11887F0
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1141538
+    // Offset: 0x118808C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionMapAnimationController::$UpdateMissionMapCoroutine$d__12*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1141A3C
+    // Offset: 0x118858C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1141A40
+    // Offset: 0x1188590
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1141C40
+    // Offset: 0x1188790
     void System_Collections_IEnumerator_Reset();
   }; // MissionMapAnimationController/<UpdateMissionMapCoroutine>d__12
   #pragma pack(pop)

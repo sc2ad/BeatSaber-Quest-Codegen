@@ -51,9 +51,9 @@ namespace BeatSaberAPI::DataTransferObjects {
     // public System.String[] friendsUserIds
     // Size: 0x8
     // Offset: 0x28
-    ::Array<::Il2CppString*>* friendsUserIds;
+    ::ArrayWrapper<::Il2CppString*> friendsUserIds;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // public System.Boolean onlyWithSpecificGameplayModifiers
     // Size: 0x1
     // Offset: 0x30
@@ -65,11 +65,11 @@ namespace BeatSaberAPI::DataTransferObjects {
     // public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers
     // Size: 0x8
     // Offset: 0x38
-    ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* gameplayModifiers;
+    ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers> gameplayModifiers;
     // Field size check
-    static_assert(sizeof(::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>) == 0x8);
     // Creating value type constructor for type: LeaderboardQuery
-    LeaderboardQuery(::Il2CppString* leaderboardId_ = {}, int count_ = {}, int fromRank_ = {}, BeatSaberAPI::DataTransferObjects::ScoresScope scope_ = {}, ::Array<::Il2CppString*>* friendsUserIds_ = {}, bool onlyWithSpecificGameplayModifiers_ = {}, ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* gameplayModifiers_ = {}) noexcept : leaderboardId{leaderboardId_}, count{count_}, fromRank{fromRank_}, scope{scope_}, friendsUserIds{friendsUserIds_}, onlyWithSpecificGameplayModifiers{onlyWithSpecificGameplayModifiers_}, gameplayModifiers{gameplayModifiers_} {}
+    LeaderboardQuery(::Il2CppString* leaderboardId_ = {}, int count_ = {}, int fromRank_ = {}, BeatSaberAPI::DataTransferObjects::ScoresScope scope_ = {}, ::ArrayWrapper<::Il2CppString*> friendsUserIds_ = {}, bool onlyWithSpecificGameplayModifiers_ = {}, ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers> gameplayModifiers_ = {}) noexcept : leaderboardId{leaderboardId_}, count{count_}, fromRank{fromRank_}, scope{scope_}, friendsUserIds{friendsUserIds_}, onlyWithSpecificGameplayModifiers{onlyWithSpecificGameplayModifiers_}, gameplayModifiers{gameplayModifiers_} {}
     // Get instance field reference: public System.String leaderboardId
     ::Il2CppString*& dyn_leaderboardId();
     // Get instance field reference: public System.Int32 count
@@ -79,13 +79,13 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.ScoresScope scope
     BeatSaberAPI::DataTransferObjects::ScoresScope& dyn_scope();
     // Get instance field reference: public System.String[] friendsUserIds
-    ::Array<::Il2CppString*>*& dyn_friendsUserIds();
+    ::ArrayWrapper<::Il2CppString*>& dyn_friendsUserIds();
     // Get instance field reference: public System.Boolean onlyWithSpecificGameplayModifiers
     bool& dyn_onlyWithSpecificGameplayModifiers();
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers
-    ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>*& dyn_gameplayModifiers();
+    ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>& dyn_gameplayModifiers();
     // public System.Void .ctor()
-    // Offset: 0x11DEE54
+    // Offset: 0x126F440
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -95,7 +95,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     }
   }; // BeatSaberAPI.DataTransferObjects.LeaderboardQuery
   #pragma pack(pop)
-  static check_size<sizeof(LeaderboardQuery), 56 + sizeof(::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>*)> __BeatSaberAPI_DataTransferObjects_LeaderboardQuerySizeCheck;
+  static check_size<sizeof(LeaderboardQuery), 56 + sizeof(::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>)> __BeatSaberAPI_DataTransferObjects_LeaderboardQuerySizeCheck;
   static_assert(sizeof(LeaderboardQuery) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::LeaderboardQuery*, "BeatSaberAPI.DataTransferObjects", "LeaderboardQuery");

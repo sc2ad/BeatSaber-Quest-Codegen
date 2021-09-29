@@ -32,7 +32,7 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: MacOsNetworkInterfaceAPI
     MacOsNetworkInterfaceAPI() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x14A1644
+    // Offset: 0x16472C0
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory/System.Net.NetworkInformation.UnixNetworkInterfaceAPI
     // Base method: System.Void UnixNetworkInterfaceAPI::.ctor()
     // Base method: System.Void NetworkInterfaceFactory::.ctor()
@@ -43,10 +43,10 @@ namespace System::Net::NetworkInformation {
       return THROW_UNLESS((::il2cpp_utils::New<NetworkInterfaceFactory::MacOsNetworkInterfaceAPI*, creationType>()));
     }
     // public override System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
-    // Offset: 0x14A2120
+    // Offset: 0x1647D9C
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Net.NetworkInformation.NetworkInterface[] NetworkInterfaceFactory::GetAllNetworkInterfaces()
-    ::Array<System::Net::NetworkInformation::NetworkInterface*>* GetAllNetworkInterfaces();
+    ::ArrayWrapper<System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();
   }; // System.Net.NetworkInformation.NetworkInterfaceFactory/System.Net.NetworkInformation.MacOsNetworkInterfaceAPI
   #pragma pack(pop)
 }
@@ -59,7 +59,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterfaceFactory:
 // Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterfaceFactory::MacOsNetworkInterfaceAPI::GetAllNetworkInterfaces
 // Il2CppName: GetAllNetworkInterfaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Net::NetworkInformation::NetworkInterface*>* (System::Net::NetworkInformation::NetworkInterfaceFactory::MacOsNetworkInterfaceAPI::*)()>(&System::Net::NetworkInformation::NetworkInterfaceFactory::MacOsNetworkInterfaceAPI::GetAllNetworkInterfaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Net::NetworkInformation::NetworkInterface*> (System::Net::NetworkInformation::NetworkInterfaceFactory::MacOsNetworkInterfaceAPI::*)()>(&System::Net::NetworkInformation::NetworkInterfaceFactory::MacOsNetworkInterfaceAPI::GetAllNetworkInterfaces)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterfaceFactory::MacOsNetworkInterfaceAPI*), "GetAllNetworkInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

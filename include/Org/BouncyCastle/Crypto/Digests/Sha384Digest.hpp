@@ -29,19 +29,19 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Creating value type constructor for type: Sha384Digest
     Sha384Digest() noexcept {}
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.Sha384Digest t)
-    // Offset: 0x192CB88
+    // Offset: 0x1A9D9BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Sha384Digest* New_ctor(Org::BouncyCastle::Crypto::Digests::Sha384Digest* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::Sha384Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Sha384Digest*, creationType>(t)));
     }
     // public override System.String get_AlgorithmName()
-    // Offset: 0x192CC00
+    // Offset: 0x1A9DA34
     // Implemented from: Org.BouncyCastle.Crypto.Digests.LongDigest
     // Base method: System.String LongDigest::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public System.Void .ctor()
-    // Offset: 0x192CB20
+    // Offset: 0x1A9D954
     // Implemented from: Org.BouncyCastle.Crypto.Digests.LongDigest
     // Base method: System.Void LongDigest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -51,27 +51,27 @@ namespace Org::BouncyCastle::Crypto::Digests {
       return THROW_UNLESS((::il2cpp_utils::New<Sha384Digest*, creationType>()));
     }
     // public override System.Int32 GetDigestSize()
-    // Offset: 0x192CC48
+    // Offset: 0x1A9DA7C
     // Implemented from: Org.BouncyCastle.Crypto.Digests.LongDigest
     // Base method: System.Int32 LongDigest::GetDigestSize()
     int GetDigestSize();
     // public override System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x192CC50
+    // Offset: 0x1A9DA84
     // Implemented from: Org.BouncyCastle.Crypto.Digests.LongDigest
     // Base method: System.Int32 LongDigest::DoFinal(System.Byte[] output, System.Int32 outOff)
-    int DoFinal(::Array<uint8_t>* output, int outOff);
+    int DoFinal(::ArrayWrapper<uint8_t> output, int outOff);
     // public override System.Void Reset()
-    // Offset: 0x192CD14
+    // Offset: 0x1A9DB48
     // Implemented from: Org.BouncyCastle.Crypto.Digests.LongDigest
     // Base method: System.Void LongDigest::Reset()
     void Reset();
     // public override Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x192CD68
+    // Offset: 0x1A9DB9C
     // Implemented from: Org.BouncyCastle.Crypto.Digests.LongDigest
     // Base method: Org.BouncyCastle.Utilities.IMemoable LongDigest::Copy()
     Org::BouncyCastle::Utilities::IMemoable* Copy();
     // public override System.Void Reset(Org.BouncyCastle.Utilities.IMemoable other)
-    // Offset: 0x192CDC8
+    // Offset: 0x1A9DBFC
     // Implemented from: Org.BouncyCastle.Crypto.Digests.LongDigest
     // Base method: System.Void LongDigest::Reset(Org.BouncyCastle.Utilities.IMemoable other)
     void Reset(Org::BouncyCastle::Utilities::IMemoable* other);
@@ -107,9 +107,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Sha384Digest::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::Sha384Digest::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Digests::Sha384Digest::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::Sha384Digest::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::Sha384Digest::DoFinal)> {
   static const MethodInfo* get() {
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::Sha384Digest*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{output, outOff});
   }

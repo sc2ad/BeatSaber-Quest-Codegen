@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // private MultiplayerLeaderboardPanelItem[] _items
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::MultiplayerLeaderboardPanelItem*>* items;
+    ::ArrayWrapper<GlobalNamespace::MultiplayerLeaderboardPanelItem*> items;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MultiplayerLeaderboardPanelItem*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3E964
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MultiplayerLeaderboardPanelItem*>) == 0x8);
+    // [InjectAttribute] Offset: 0xF072E8
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x20
@@ -43,21 +43,21 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
     // Creating value type constructor for type: MultiplayerLeaderboardPanelController
-    MultiplayerLeaderboardPanelController(::Array<GlobalNamespace::MultiplayerLeaderboardPanelItem*>* items_ = {}, GlobalNamespace::MultiplayerScoreProvider* scoreProvider_ = {}) noexcept : items{items_}, scoreProvider{scoreProvider_} {}
+    MultiplayerLeaderboardPanelController(::ArrayWrapper<GlobalNamespace::MultiplayerLeaderboardPanelItem*> items_ = {}, GlobalNamespace::MultiplayerScoreProvider* scoreProvider_ = {}) noexcept : items{items_}, scoreProvider{scoreProvider_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MultiplayerLeaderboardPanelItem[] _items
-    ::Array<GlobalNamespace::MultiplayerLeaderboardPanelItem*>*& dyn__items();
+    ::ArrayWrapper<GlobalNamespace::MultiplayerLeaderboardPanelItem*>& dyn__items();
     // Get instance field reference: private readonly MultiplayerScoreProvider _scoreProvider
     GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreProvider();
     // protected System.Void Start()
-    // Offset: 0x11D6ACC
+    // Offset: 0x1168E5C
     void Start();
     // protected System.Void Update()
-    // Offset: 0x11D6B70
+    // Offset: 0x1168F00
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x11D7104
+    // Offset: 0x1169494
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

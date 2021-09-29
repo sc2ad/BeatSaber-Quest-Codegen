@@ -38,13 +38,13 @@ namespace Org::BouncyCastle::Asn1 {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerSequence Empty
     static void _set_Empty(Org::BouncyCastle::Asn1::DerSequence* value);
     // static private System.Void .cctor()
-    // Offset: 0x1740DA4
+    // Offset: 0x18F257C
     static void _cctor();
     // static public Org.BouncyCastle.Asn1.DerSequence FromVector(Org.BouncyCastle.Asn1.Asn1EncodableVector elementVector)
-    // Offset: 0x172EF10
+    // Offset: 0x18E06E8
     static Org::BouncyCastle::Asn1::DerSequence* FromVector(Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
     // public System.Void .ctor()
-    // Offset: 0x1735AF8
+    // Offset: 0x18E72D0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Sequence
     // Base method: System.Void Asn1Sequence::.ctor()
     // Base method: System.Void Asn1Object::.ctor()
@@ -56,7 +56,7 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<DerSequence*, creationType>()));
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Encodable element)
-    // Offset: 0x1731FE4
+    // Offset: 0x18E37BC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Sequence
     // Base method: System.Void Asn1Sequence::.ctor(Org.BouncyCastle.Asn1.Asn1Encodable element)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -65,18 +65,18 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<DerSequence*, creationType>(element)));
     }
     // public System.Void .ctor(params Org.BouncyCastle.Asn1.Asn1Encodable[] elements)
-    // Offset: 0x173ADD8
+    // Offset: 0x18EC5B0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Sequence
     // Base method: System.Void Asn1Sequence::.ctor(params Org.BouncyCastle.Asn1.Asn1Encodable[] elements)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DerSequence* New_ctor(::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>* elements) {
+    static DerSequence* New_ctor(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*> elements) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerSequence::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerSequence*, creationType>(elements)));
     }
     // Creating initializer_list -> params proxy for: System.Void .ctor(params Org.BouncyCastle.Asn1.Asn1Encodable[] elements)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerSequence* New_ctor(std::initializer_list<Org::BouncyCastle::Asn1::Asn1Encodable*> elements) {
-      return New_ctor<creationType>(::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>::New(elements));
+      return New_ctor<creationType>(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*>(elements));
     }
     // Creating TArgs -> initializer_list proxy for: System.Void .ctor(params Org.BouncyCastle.Asn1.Asn1Encodable[] elements)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
@@ -84,7 +84,7 @@ namespace Org::BouncyCastle::Asn1 {
       return New_ctor<creationType>({elements...});
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1EncodableVector elementVector)
-    // Offset: 0x1735AFC
+    // Offset: 0x18E72D4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Sequence
     // Base method: System.Void Asn1Sequence::.ctor(Org.BouncyCastle.Asn1.Asn1EncodableVector elementVector)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -93,7 +93,7 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<DerSequence*, creationType>(elementVector)));
     }
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x1735E28
+    // Offset: 0x18E7600
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);

@@ -20,26 +20,26 @@ namespace UnityEngine::Profiling::Experimental {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DebugScreenCapture/*, public System::ValueType*/ {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xDB9218
+    // [DebuggerBrowsableAttribute] Offset: 0xE76444
     // private Unity.Collections.NativeArray`1<System.Byte> <rawImageDataReference>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     Unity::Collections::NativeArray_1<uint8_t> rawImageDataReference;
-    // [DebuggerBrowsableAttribute] Offset: 0xDB9254
+    // [DebuggerBrowsableAttribute] Offset: 0xE76480
     // private UnityEngine.TextureFormat <imageFormat>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     UnityEngine::TextureFormat imageFormat;
     // Field size check
     static_assert(sizeof(UnityEngine::TextureFormat) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xDB9290
+    // [DebuggerBrowsableAttribute] Offset: 0xE764BC
     // private System.Int32 <width>k__BackingField
     // Size: 0x4
     // Offset: 0x14
     int width;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xDB92CC
+    // [DebuggerBrowsableAttribute] Offset: 0xE764F8
     // private System.Int32 <height>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -61,16 +61,16 @@ namespace UnityEngine::Profiling::Experimental {
     // Get instance field reference: private System.Int32 <height>k__BackingField
     int& dyn_$height$k__BackingField();
     // public System.Void set_rawImageDataReference(Unity.Collections.NativeArray`1<System.Byte> value)
-    // Offset: 0x1C6AFD8
+    // Offset: 0x1DFE62C
     void set_rawImageDataReference(Unity::Collections::NativeArray_1<uint8_t> value);
     // public System.Void set_imageFormat(UnityEngine.TextureFormat value)
-    // Offset: 0x1C6AFE0
+    // Offset: 0x1DFE634
     void set_imageFormat(UnityEngine::TextureFormat value);
     // public System.Void set_width(System.Int32 value)
-    // Offset: 0x1C6AFE8
+    // Offset: 0x1DFE63C
     void set_width(int value);
     // public System.Void set_height(System.Int32 value)
-    // Offset: 0x1C6AFF0
+    // Offset: 0x1DFE644
     void set_height(int value);
   }; // UnityEngine.Profiling.Experimental.DebugScreenCapture
   // WARNING Not writing size check since size may be invalid!

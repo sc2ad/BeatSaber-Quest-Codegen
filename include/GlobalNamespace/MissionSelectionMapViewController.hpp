@@ -71,14 +71,14 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionMapAnimationController* missionMapAnimationController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionMapAnimationController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE483DC
+    // [InjectAttribute] Offset: 0xF10DF0
     // private readonly SongPreviewPlayer _songPreviewPlayer
     // Size: 0x8
     // Offset: 0x88
     GlobalNamespace::SongPreviewPlayer* songPreviewPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPreviewPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0xE483EC
+    // [InjectAttribute] Offset: 0xF10E00
     // private readonly DataModels.Levels.PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
     // Size: 0x8
     // Offset: 0x90
@@ -114,25 +114,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionNode _selectedMissionNode
     GlobalNamespace::MissionNode*& dyn__selectedMissionNode();
     // public System.Boolean get_animatedUpdateIsRequired()
-    // Offset: 0x1146C28
+    // Offset: 0x118D778
     bool get_animatedUpdateIsRequired();
     // public System.Void add_didSelectMissionLevelEvent(System.Action`2<MissionSelectionMapViewController,MissionNode> value)
-    // Offset: 0x1146AE0
+    // Offset: 0x118D630
     void add_didSelectMissionLevelEvent(System::Action_2<GlobalNamespace::MissionSelectionMapViewController*, GlobalNamespace::MissionNode*>* value);
     // public System.Void remove_didSelectMissionLevelEvent(System.Action`2<MissionSelectionMapViewController,MissionNode> value)
-    // Offset: 0x1146B84
+    // Offset: 0x118D6D4
     void remove_didSelectMissionLevelEvent(System::Action_2<GlobalNamespace::MissionSelectionMapViewController*, GlobalNamespace::MissionNode*>* value);
     // private System.Void HandleMissionNodeSelectionManagerDidSelectMissionNode(MissionNodeVisualController missionNodeVisualController)
-    // Offset: 0x1146EA4
+    // Offset: 0x118D9F4
     void HandleMissionNodeSelectionManagerDidSelectMissionNode(GlobalNamespace::MissionNodeVisualController* missionNodeVisualController);
     // public System.Void ShowMissionClearedAnimation(System.Action finishCallback)
-    // Offset: 0x1146F6C
+    // Offset: 0x118DABC
     void ShowMissionClearedAnimation(System::Action* finishCallback);
     // public System.Void DeselectSelectedNode()
-    // Offset: 0x1146F8C
+    // Offset: 0x118DADC
     void DeselectSelectedNode();
     // public System.Void .ctor()
-    // Offset: 0x1146FA4
+    // Offset: 0x118DAF4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -146,12 +146,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionSelectionMapViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1146C40
+    // Offset: 0x118D790
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1146D78
+    // Offset: 0x118D8C8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

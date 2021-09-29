@@ -96,10 +96,10 @@ namespace OnlineServices::API {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__2
     System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x102EC54
+    // Offset: 0x111E0C4
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x102F09C
+    // Offset: 0x111E50C
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.HTTPLeaderboardsOathHelper/OnlineServices.API.<GetAccessTokenAsync>d__9
   // WARNING Not writing size check since size may be invalid!

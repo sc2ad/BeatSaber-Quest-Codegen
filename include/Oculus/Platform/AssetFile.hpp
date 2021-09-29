@@ -42,46 +42,46 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: AssetFile
     AssetFile() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetFileDeleteResult> Delete(System.UInt64 assetFileID)
-    // Offset: 0x1B935D4
+    // Offset: 0x1D1ACC4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDeleteResult*>* Delete(uint64_t assetFileID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetFileDeleteResult> DeleteById(System.UInt64 assetFileID)
-    // Offset: 0x1B9376C
+    // Offset: 0x1D1AE5C
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDeleteResult*>* DeleteById(uint64_t assetFileID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetFileDeleteResult> DeleteByName(System.String assetFileName)
-    // Offset: 0x1B93904
+    // Offset: 0x1D1AFF4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDeleteResult*>* DeleteByName(::Il2CppString* assetFileName);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetFileDownloadResult> Download(System.UInt64 assetFileID)
-    // Offset: 0x1B93AC4
+    // Offset: 0x1D1B1B4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadResult*>* Download(uint64_t assetFileID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetFileDownloadResult> DownloadById(System.UInt64 assetFileID)
-    // Offset: 0x1B93C5C
+    // Offset: 0x1D1B34C
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadResult*>* DownloadById(uint64_t assetFileID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetFileDownloadResult> DownloadByName(System.String assetFileName)
-    // Offset: 0x1B93DF4
+    // Offset: 0x1D1B4E4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadResult*>* DownloadByName(::Il2CppString* assetFileName);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetFileDownloadCancelResult> DownloadCancel(System.UInt64 assetFileID)
-    // Offset: 0x1B93FB4
+    // Offset: 0x1D1B6A4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadCancelResult*>* DownloadCancel(uint64_t assetFileID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetFileDownloadCancelResult> DownloadCancelById(System.UInt64 assetFileID)
-    // Offset: 0x1B9414C
+    // Offset: 0x1D1B83C
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadCancelResult*>* DownloadCancelById(uint64_t assetFileID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetFileDownloadCancelResult> DownloadCancelByName(System.String assetFileName)
-    // Offset: 0x1B942E4
+    // Offset: 0x1D1B9D4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadCancelResult*>* DownloadCancelByName(::Il2CppString* assetFileName);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetDetailsList> GetList()
-    // Offset: 0x1B944A4
+    // Offset: 0x1D1BB94
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetDetailsList*>* GetList();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetDetails> Status(System.UInt64 assetFileID)
-    // Offset: 0x1B94620
+    // Offset: 0x1D1BD10
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetDetails*>* Status(uint64_t assetFileID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetDetails> StatusById(System.UInt64 assetFileID)
-    // Offset: 0x1B947B8
+    // Offset: 0x1D1BEA8
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetDetails*>* StatusById(uint64_t assetFileID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetDetails> StatusByName(System.String assetFileName)
-    // Offset: 0x1B94950
+    // Offset: 0x1D1C040
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetDetails*>* StatusByName(::Il2CppString* assetFileName);
     // static public System.Void SetDownloadUpdateNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.AssetFileDownloadUpdate> callback)
-    // Offset: 0x1B94B10
+    // Offset: 0x1D1C200
     static void SetDownloadUpdateNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadUpdate*>::Callback* callback);
   }; // Oculus.Platform.AssetFile
   #pragma pack(pop)

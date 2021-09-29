@@ -30,24 +30,24 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // private readonly System.Byte[] id
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* id;
+    ::ArrayWrapper<uint8_t> id;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: ParametersWithID
-    ParametersWithID(Org::BouncyCastle::Crypto::ICipherParameters* parameters_ = {}, ::Array<uint8_t>* id_ = {}) noexcept : parameters{parameters_}, id{id_} {}
+    ParametersWithID(Org::BouncyCastle::Crypto::ICipherParameters* parameters_ = {}, ::ArrayWrapper<uint8_t> id_ = {}) noexcept : parameters{parameters_}, id{id_} {}
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.ICipherParameters parameters
     Org::BouncyCastle::Crypto::ICipherParameters*& dyn_parameters();
     // Get instance field reference: private readonly System.Byte[] id
-    ::Array<uint8_t>*& dyn_id();
+    ::ArrayWrapper<uint8_t>& dyn_id();
     // public Org.BouncyCastle.Crypto.ICipherParameters get_Parameters()
-    // Offset: 0x127A9AC
+    // Offset: 0x13971B4
     Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
     // public System.Byte[] GetID()
-    // Offset: 0x127A9A4
-    ::Array<uint8_t>* GetID();
+    // Offset: 0x13971AC
+    ::ArrayWrapper<uint8_t> GetID();
   }; // Org.BouncyCastle.Crypto.Parameters.ParametersWithID
   #pragma pack(pop)
-  static check_size<sizeof(ParametersWithID), 24 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Parameters_ParametersWithIDSizeCheck;
+  static check_size<sizeof(ParametersWithID), 24 + sizeof(::ArrayWrapper<uint8_t>)> __Org_BouncyCastle_Crypto_Parameters_ParametersWithIDSizeCheck;
   static_assert(sizeof(ParametersWithID) == 0x20);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -64,7 +64,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ParametersWithID::GetID
 // Il2CppName: GetID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Parameters::ParametersWithID::*)()>(&Org::BouncyCastle::Crypto::Parameters::ParametersWithID::GetID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Parameters::ParametersWithID::*)()>(&Org::BouncyCastle::Crypto::Parameters::ParametersWithID::GetID)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::ParametersWithID*), "GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

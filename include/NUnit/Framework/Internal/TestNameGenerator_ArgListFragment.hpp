@@ -44,17 +44,17 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.Int32 _maxStringLength
     int& dyn__maxStringLength();
     // public System.Void .ctor(System.Int32 maxStringLength)
-    // Offset: 0x229B2FC
+    // Offset: 0x24A3644
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestNameGenerator::ArgListFragment* New_ctor(int maxStringLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestNameGenerator::ArgListFragment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator::ArgListFragment*, creationType>(maxStringLength)));
     }
     // public override System.String GetText(System.Reflection.MethodInfo method, System.Object[] arglist)
-    // Offset: 0x229B3C4
+    // Offset: 0x24A370C
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment
     // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] arglist)
-    ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::Array<::Il2CppObject*>* arglist);
+    ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::ArrayWrapper<::Il2CppObject*> arglist);
   }; // NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.ArgListFragment
   #pragma pack(pop)
   static check_size<sizeof(TestNameGenerator::ArgListFragment), 16 + sizeof(int)> __NUnit_Framework_Internal_TestNameGenerator_ArgListFragmentSizeCheck;
@@ -69,10 +69,10 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator::ArgListFra
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::ArgListFragment::GetText
 // Il2CppName: GetText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestNameGenerator::ArgListFragment::*)(System::Reflection::MethodInfo*, ::Array<::Il2CppObject*>*)>(&NUnit::Framework::Internal::TestNameGenerator::ArgListFragment::GetText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestNameGenerator::ArgListFragment::*)(System::Reflection::MethodInfo*, ::ArrayWrapper<::Il2CppObject*>)>(&NUnit::Framework::Internal::TestNameGenerator::ArgListFragment::GetText)> {
   static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
-    static auto* arglist = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* arglist = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestNameGenerator::ArgListFragment*), "GetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method, arglist});
   }
 };

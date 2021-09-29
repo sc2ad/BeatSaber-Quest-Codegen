@@ -28,14 +28,14 @@ namespace GlobalNamespace {
     ::Il2CppString* id;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0xE3B628
+    // [LocalizationKeyAttribute] Offset: 0xF03E0C
     // private System.String _localizationKey
     // Size: 0x8
     // Offset: 0x0
     ::Il2CppString* localizationKey;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [NullAllowed] Offset: 0xE3B660
+    // [NullAllowed] Offset: 0xF03E44
     // private T _partAsset
     // Size: 0xFFFFFFFF
     // Offset: 0x0

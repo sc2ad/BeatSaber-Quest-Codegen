@@ -91,35 +91,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.IEnumerator`1<INetworkPlayer> <>7__wrap1
     System::Collections::Generic::IEnumerator_1<GlobalNamespace::INetworkPlayer*>*& dyn_$$7__wrap1();
     // private INetworkPlayer System.Collections.Generic.IEnumerator<INetworkPlayer>.get_Current()
-    // Offset: 0x129AFF0
+    // Offset: 0x1345778
     GlobalNamespace::INetworkPlayer* System_Collections_Generic_IEnumerator$INetworkPlayer$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x129B058
+    // Offset: 0x13457E0
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x12975B0
+    // Offset: 0x1341D38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnifiedNetworkPlayerModel::$get_friends$d__66* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::UnifiedNetworkPlayerModel::$get_friends$d__66::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnifiedNetworkPlayerModel::$get_friends$d__66*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x129ABE4
+    // Offset: 0x134536C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x129ACC0
+    // Offset: 0x1345448
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x129AC00
+    // Offset: 0x1345388
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x129AFF8
+    // Offset: 0x1345780
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<INetworkPlayer> System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator()
-    // Offset: 0x129B060
+    // Offset: 0x13457E8
     System::Collections::Generic::IEnumerator_1<GlobalNamespace::INetworkPlayer*>* System_Collections_Generic_IEnumerable$INetworkPlayer$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x129B10C
+    // Offset: 0x1345894
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnifiedNetworkPlayerModel/<get_friends>d__66
   #pragma pack(pop)

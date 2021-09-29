@@ -63,11 +63,11 @@ namespace LeaderboardsDTO {
     // public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
     // Size: 0x8
     // Offset: 0x38
-    ::Array<LeaderboardsDTO::GameplayModifiersDto>* gameplayModifiers;
+    ::ArrayWrapper<LeaderboardsDTO::GameplayModifiersDto> gameplayModifiers;
     // Field size check
-    static_assert(sizeof(::Array<LeaderboardsDTO::GameplayModifiersDto>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<LeaderboardsDTO::GameplayModifiersDto>) == 0x8);
     // Creating value type constructor for type: LeaderboardEntryDTO
-    LeaderboardEntryDTO(int score_ = {}, int unmodifiedScore_ = {}, int rank_ = {}, System::DateTime updated_ = {}, ::Il2CppString* userDisplayName_ = {}, ::Il2CppString* platformUserId_ = {}, ::Array<LeaderboardsDTO::GameplayModifiersDto>* gameplayModifiers_ = {}) noexcept : score{score_}, unmodifiedScore{unmodifiedScore_}, rank{rank_}, updated{updated_}, userDisplayName{userDisplayName_}, platformUserId{platformUserId_}, gameplayModifiers{gameplayModifiers_} {}
+    LeaderboardEntryDTO(int score_ = {}, int unmodifiedScore_ = {}, int rank_ = {}, System::DateTime updated_ = {}, ::Il2CppString* userDisplayName_ = {}, ::Il2CppString* platformUserId_ = {}, ::ArrayWrapper<LeaderboardsDTO::GameplayModifiersDto> gameplayModifiers_ = {}) noexcept : score{score_}, unmodifiedScore{unmodifiedScore_}, rank{rank_}, updated{updated_}, userDisplayName{userDisplayName_}, platformUserId{platformUserId_}, gameplayModifiers{gameplayModifiers_} {}
     // Get instance field reference: public System.Int32 score
     int& dyn_score();
     // Get instance field reference: public System.Int32 unmodifiedScore
@@ -81,9 +81,9 @@ namespace LeaderboardsDTO {
     // Get instance field reference: public System.String platformUserId
     ::Il2CppString*& dyn_platformUserId();
     // Get instance field reference: public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
-    ::Array<LeaderboardsDTO::GameplayModifiersDto>*& dyn_gameplayModifiers();
+    ::ArrayWrapper<LeaderboardsDTO::GameplayModifiersDto>& dyn_gameplayModifiers();
     // public System.Void .ctor()
-    // Offset: 0x118C690
+    // Offset: 0x114AD6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -93,7 +93,7 @@ namespace LeaderboardsDTO {
     }
   }; // LeaderboardsDTO.LeaderboardEntryDTO
   #pragma pack(pop)
-  static check_size<sizeof(LeaderboardEntryDTO), 56 + sizeof(::Array<LeaderboardsDTO::GameplayModifiersDto>*)> __LeaderboardsDTO_LeaderboardEntryDTOSizeCheck;
+  static check_size<sizeof(LeaderboardEntryDTO), 56 + sizeof(::ArrayWrapper<LeaderboardsDTO::GameplayModifiersDto>)> __LeaderboardsDTO_LeaderboardEntryDTOSizeCheck;
   static_assert(sizeof(LeaderboardEntryDTO) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LeaderboardEntryDTO*, "LeaderboardsDTO", "LeaderboardEntryDTO");

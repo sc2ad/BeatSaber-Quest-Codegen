@@ -71,26 +71,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public BTSStarTextEffectsManager <>4__this
     GlobalNamespace::BTSStarTextEffectsManager*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1182E30
+    // Offset: 0x1268A14
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1182E98
+    // Offset: 0x1268A7C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1182D28
+    // Offset: 0x126890C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSStarTextEffectsManager::$DespawnEffectDelayed$d__5* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BTSStarTextEffectsManager::$DespawnEffectDelayed$d__5::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSStarTextEffectsManager::$DespawnEffectDelayed$d__5*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1182D5C
+    // Offset: 0x1268940
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1182D60
+    // Offset: 0x1268944
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1182E38
+    // Offset: 0x1268A1C
     void System_Collections_IEnumerator_Reset();
   }; // BTSStarTextEffectsManager/<DespawnEffectDelayed>d__5
   #pragma pack(pop)

@@ -21,9 +21,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Object[] objects
     // Size: 0x8
     // Offset: 0x10
-    ::Array<::Il2CppObject*>* objects;
+    ::ArrayWrapper<::Il2CppObject*> objects;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
     // System.String stackId
     // Size: 0x8
     // Offset: 0x18
@@ -37,37 +37,37 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: SerStack
-    SerStack(::Array<::Il2CppObject*>* objects_ = {}, ::Il2CppString* stackId_ = {}, int top_ = {}) noexcept : objects{objects_}, stackId{stackId_}, top{top_} {}
+    SerStack(::ArrayWrapper<::Il2CppObject*> objects_ = {}, ::Il2CppString* stackId_ = {}, int top_ = {}) noexcept : objects{objects_}, stackId{stackId_}, top{top_} {}
     // Get instance field reference: System.Object[] objects
-    ::Array<::Il2CppObject*>*& dyn_objects();
+    ::ArrayWrapper<::Il2CppObject*>& dyn_objects();
     // Get instance field reference: System.String stackId
     ::Il2CppString*& dyn_stackId();
     // Get instance field reference: System.Int32 top
     int& dyn_top();
     // System.Void .ctor(System.String stackId)
-    // Offset: 0x1622308
+    // Offset: 0x17EDF68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerStack* New_ctor(::Il2CppString* stackId) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::SerStack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerStack*, creationType>(stackId)));
     }
     // System.Void Push(System.Object obj)
-    // Offset: 0x1623DA0
+    // Offset: 0x17EFA00
     void Push(::Il2CppObject* obj);
     // System.Object Pop()
-    // Offset: 0x1623E58
+    // Offset: 0x17EFAB8
     ::Il2CppObject* Pop();
     // System.Void IncreaseCapacity()
-    // Offset: 0x162959C
+    // Offset: 0x17F51FC
     void IncreaseCapacity();
     // System.Object Peek()
-    // Offset: 0x1624510
+    // Offset: 0x17F0170
     ::Il2CppObject* Peek();
     // System.Object PeekPeek()
-    // Offset: 0x162962C
+    // Offset: 0x17F528C
     ::Il2CppObject* PeekPeek();
     // System.Boolean IsEmpty()
-    // Offset: 0x16289A4
+    // Offset: 0x17F4604
     bool IsEmpty();
   }; // System.Runtime.Serialization.Formatters.Binary.SerStack
   #pragma pack(pop)

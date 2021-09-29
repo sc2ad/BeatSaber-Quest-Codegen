@@ -39,15 +39,15 @@ namespace System::Net {
     // private System.String[] values
     // Size: 0x8
     // Offset: 0x20
-    ::Array<::Il2CppString*>* values;
+    ::ArrayWrapper<::Il2CppString*> values;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // Creating value type constructor for type: DigestHeaderParser
-    DigestHeaderParser(::Il2CppString* header_ = {}, int length_ = {}, int pos_ = {}, ::Array<::Il2CppString*>* values_ = {}) noexcept : header{header_}, length{length_}, pos{pos_}, values{values_} {}
+    DigestHeaderParser(::Il2CppString* header_ = {}, int length_ = {}, int pos_ = {}, ::ArrayWrapper<::Il2CppString*> values_ = {}) noexcept : header{header_}, length{length_}, pos{pos_}, values{values_} {}
     // Get static field: static private System.String[] keywords
-    static ::Array<::Il2CppString*>* _get_keywords();
+    static ::ArrayWrapper<::Il2CppString*> _get_keywords();
     // Set static field: static private System.String[] keywords
-    static void _set_keywords(::Array<::Il2CppString*>* value);
+    static void _set_keywords(::ArrayWrapper<::Il2CppString*> value);
     // Get instance field reference: private System.String header
     ::Il2CppString*& dyn_header();
     // Get instance field reference: private System.Int32 length
@@ -55,47 +55,47 @@ namespace System::Net {
     // Get instance field reference: private System.Int32 pos
     int& dyn_pos();
     // Get instance field reference: private System.String[] values
-    ::Array<::Il2CppString*>*& dyn_values();
+    ::ArrayWrapper<::Il2CppString*>& dyn_values();
     // public System.String get_Realm()
-    // Offset: 0x16DF0BC
+    // Offset: 0x15793A8
     ::Il2CppString* get_Realm();
     // public System.String get_Opaque()
-    // Offset: 0x16DF0F0
+    // Offset: 0x15793DC
     ::Il2CppString* get_Opaque();
     // public System.String get_Nonce()
-    // Offset: 0x16DF128
+    // Offset: 0x1579414
     ::Il2CppString* get_Nonce();
     // public System.String get_Algorithm()
-    // Offset: 0x16DF160
+    // Offset: 0x157944C
     ::Il2CppString* get_Algorithm();
     // public System.String get_QOP()
-    // Offset: 0x16DF198
+    // Offset: 0x1579484
     ::Il2CppString* get_QOP();
     // public System.Void .ctor(System.String header)
-    // Offset: 0x16DF004
+    // Offset: 0x15792F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DigestHeaderParser* New_ctor(::Il2CppString* header) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::DigestHeaderParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DigestHeaderParser*, creationType>(header)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x16DF674
+    // Offset: 0x1579960
     static void _cctor();
     // public System.Boolean Parse()
-    // Offset: 0x16DF1D0
+    // Offset: 0x15794BC
     bool Parse();
     // private System.Void SkipWhitespace()
-    // Offset: 0x16DF554
+    // Offset: 0x1579840
     void SkipWhitespace();
     // private System.String GetKey()
-    // Offset: 0x16DF5E0
+    // Offset: 0x15798CC
     ::Il2CppString* GetKey();
     // private System.Boolean GetKeywordAndValue(out System.String key, out System.String value)
-    // Offset: 0x16DF3B8
+    // Offset: 0x15796A4
     bool GetKeywordAndValue(ByRef<::Il2CppString*> key, ByRef<::Il2CppString*> value);
   }; // System.Net.DigestHeaderParser
   #pragma pack(pop)
-  static check_size<sizeof(DigestHeaderParser), 32 + sizeof(::Array<::Il2CppString*>*)> __System_Net_DigestHeaderParserSizeCheck;
+  static check_size<sizeof(DigestHeaderParser), 32 + sizeof(::ArrayWrapper<::Il2CppString*>)> __System_Net_DigestHeaderParserSizeCheck;
   static_assert(sizeof(DigestHeaderParser) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::DigestHeaderParser*, "System.Net", "DigestHeaderParser");

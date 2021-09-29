@@ -23,7 +23,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: ImageEffectAllowedInSceneView
     ImageEffectAllowedInSceneView() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1C5A338
+    // Offset: 0x1D9DC10
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

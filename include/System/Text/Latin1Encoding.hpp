@@ -45,24 +45,24 @@ namespace System::Text {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
     }
     // Get static field: static private readonly System.Char[] arrayCharBestFit
-    static ::Array<::Il2CppChar>* _get_arrayCharBestFit();
+    static ::ArrayWrapper<::Il2CppChar> _get_arrayCharBestFit();
     // Set static field: static private readonly System.Char[] arrayCharBestFit
-    static void _set_arrayCharBestFit(::Array<::Il2CppChar>* value);
+    static void _set_arrayCharBestFit(::ArrayWrapper<::Il2CppChar> value);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1D736A4
+    // Offset: 0x1F13934
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Latin1Encoding* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::Latin1Encoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Latin1Encoding*, creationType>(info, context)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D73FF0
+    // Offset: 0x1F14280
     static void _cctor();
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1D736D4
+    // Offset: 0x1F13964
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Void .ctor()
-    // Offset: 0x1D6EDC8
+    // Offset: 0x1F0F058
     // Implemented from: System.Text.Encoding
     // Base method: System.Void Encoding::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -72,40 +72,40 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<Latin1Encoding*, creationType>()));
     }
     // override System.Int32 GetByteCount(System.Char* chars, System.Int32 charCount, System.Text.EncoderNLS encoder)
-    // Offset: 0x1D73798
+    // Offset: 0x1F13A28
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetByteCount(System.Char* chars, System.Int32 charCount, System.Text.EncoderNLS encoder)
     int GetByteCount(::Il2CppChar* chars, int charCount, System::Text::EncoderNLS* encoder);
     // override System.Int32 GetBytes(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Text.EncoderNLS encoder)
-    // Offset: 0x1D73988
+    // Offset: 0x1F13C18
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetBytes(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Text.EncoderNLS encoder)
     int GetBytes(::Il2CppChar* chars, int charCount, uint8_t* bytes, int byteCount, System::Text::EncoderNLS* encoder);
     // override System.Int32 GetCharCount(System.Byte* bytes, System.Int32 count, System.Text.DecoderNLS decoder)
-    // Offset: 0x1D73CF4
+    // Offset: 0x1F13F84
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetCharCount(System.Byte* bytes, System.Int32 count, System.Text.DecoderNLS decoder)
     int GetCharCount(uint8_t* bytes, int count, System::Text::DecoderNLS* decoder);
     // override System.Int32 GetChars(System.Byte* bytes, System.Int32 byteCount, System.Char* chars, System.Int32 charCount, System.Text.DecoderNLS decoder)
-    // Offset: 0x1D73CFC
+    // Offset: 0x1F13F8C
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetChars(System.Byte* bytes, System.Int32 byteCount, System.Char* chars, System.Int32 charCount, System.Text.DecoderNLS decoder)
     int GetChars(uint8_t* bytes, int byteCount, ::Il2CppChar* chars, int charCount, System::Text::DecoderNLS* decoder);
     // public override System.Int32 GetMaxByteCount(System.Int32 charCount)
-    // Offset: 0x1D73D74
+    // Offset: 0x1F14004
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetMaxByteCount(System.Int32 charCount)
     int GetMaxByteCount(int charCount);
     // public override System.Int32 GetMaxCharCount(System.Int32 byteCount)
-    // Offset: 0x1D73E80
+    // Offset: 0x1F14110
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetMaxCharCount(System.Int32 byteCount)
     int GetMaxCharCount(int byteCount);
     // override System.Char[] GetBestFitUnicodeToBytesData()
-    // Offset: 0x1D73F88
+    // Offset: 0x1F14218
     // Implemented from: System.Text.Encoding
     // Base method: System.Char[] Encoding::GetBestFitUnicodeToBytesData()
-    ::Array<::Il2CppChar>* GetBestFitUnicodeToBytesData();
+    ::ArrayWrapper<::Il2CppChar> GetBestFitUnicodeToBytesData();
   }; // System.Text.Latin1Encoding
   #pragma pack(pop)
 }
@@ -206,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Text::Latin1Encoding::GetBestFitUnicodeToBytesData
 // Il2CppName: GetBestFitUnicodeToBytesData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (System::Text::Latin1Encoding::*)()>(&System::Text::Latin1Encoding::GetBestFitUnicodeToBytesData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppChar> (System::Text::Latin1Encoding::*)()>(&System::Text::Latin1Encoding::GetBestFitUnicodeToBytesData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::Latin1Encoding*), "GetBestFitUnicodeToBytesData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

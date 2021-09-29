@@ -47,10 +47,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public ResultsViewController resultsViewController
     GlobalNamespace::ResultsViewController*& dyn_resultsViewController();
     // System.Void <HandleResultsViewControllerRestartButtonPressed>b__0()
-    // Offset: 0x10473F4
+    // Offset: 0x1136394
     void $HandleResultsViewControllerRestartButtonPressed$b__0();
     // public System.Void .ctor()
-    // Offset: 0x10473BC
+    // Offset: 0x113635C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -52,20 +52,20 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public System.Single z
     float& dyn_z();
     // public System.Void .ctor(System.Single x, System.Single y, System.Single z)
-    // Offset: 0x22D0FC0
+    // Offset: 0x24FA07C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XYZColor* New_ctor(float x, float y, float z) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::XYZColor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XYZColor*, creationType>(x, y, z)));
     }
     // static public UnityEngine.ProBuilder.XYZColor FromRGB(UnityEngine.Color col)
-    // Offset: 0x22D1008
+    // Offset: 0x24FA0C4
     static UnityEngine::ProBuilder::XYZColor* FromRGB(UnityEngine::Color col);
     // static public UnityEngine.ProBuilder.XYZColor FromRGB(System.Single R, System.Single G, System.Single B)
-    // Offset: 0x22D1098
+    // Offset: 0x24FA154
     static UnityEngine::ProBuilder::XYZColor* FromRGB(float R, float G, float B);
     // public override System.String ToString()
-    // Offset: 0x22D1120
+    // Offset: 0x24FA1DC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

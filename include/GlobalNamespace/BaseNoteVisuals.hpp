@@ -62,22 +62,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private CutoutAnimateEffect _cutoutAnimateEffect
     GlobalNamespace::CutoutAnimateEffect*& dyn__cutoutAnimateEffect();
     // protected System.Void Awake()
-    // Offset: 0x11DB7D0
+    // Offset: 0x126BDBC
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x11DB920
+    // Offset: 0x126BF0C
     void OnDestroy();
     // public System.Void HandleNoteControllerDidInit(NoteControllerBase noteController)
-    // Offset: 0x11DBAB8
+    // Offset: 0x126C0A4
     void HandleNoteControllerDidInit(GlobalNamespace::NoteControllerBase* noteController);
     // public System.Void HandleNoteControllerNoteDidStartDissolving(NoteControllerBase noteController, System.Single duration)
-    // Offset: 0x11DBAD4
+    // Offset: 0x126C0C0
     void HandleNoteControllerNoteDidStartDissolving(GlobalNamespace::NoteControllerBase* noteController, float duration);
     // private System.Void AnimateCutout(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0x11DBAE4
+    // Offset: 0x126C0D0
     void AnimateCutout(float cutoutStart, float cutoutEnd, float duration);
     // public System.Void .ctor()
-    // Offset: 0x11DBB0C
+    // Offset: 0x126C0F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

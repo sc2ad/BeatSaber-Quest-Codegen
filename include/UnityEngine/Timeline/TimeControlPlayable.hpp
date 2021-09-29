@@ -58,13 +58,13 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private System.Boolean m_started
     bool& dyn_m_started();
     // static public UnityEngine.Playables.ScriptPlayable`1<UnityEngine.Timeline.TimeControlPlayable> Create(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Timeline.ITimeControl timeControl)
-    // Offset: 0x1824634
+    // Offset: 0x19F79DC
     static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::TimeControlPlayable*> Create(UnityEngine::Playables::PlayableGraph graph, UnityEngine::Timeline::ITimeControl* timeControl);
     // public System.Void Initialize(UnityEngine.Timeline.ITimeControl timeControl)
-    // Offset: 0x182C8F8
+    // Offset: 0x19FFCA0
     void Initialize(UnityEngine::Timeline::ITimeControl* timeControl);
     // public System.Void .ctor()
-    // Offset: 0x182CB7C
+    // Offset: 0x19FFF24
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -74,17 +74,17 @@ namespace UnityEngine::Timeline {
       return THROW_UNLESS((::il2cpp_utils::New<TimeControlPlayable*, creationType>()));
     }
     // public override System.Void PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x182C900
+    // Offset: 0x19FFCA8
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void PrepareFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public override System.Void OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x182C9F8
+    // Offset: 0x19FFDA0
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPlay(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public override System.Void OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x182CABC
+    // Offset: 0x19FFE64
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPause(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);

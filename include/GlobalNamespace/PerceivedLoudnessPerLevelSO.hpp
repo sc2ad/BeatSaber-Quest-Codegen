@@ -30,17 +30,17 @@ namespace GlobalNamespace {
     // public PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair[] perceivedLoudnessPerLevel
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>* perceivedLoudnessPerLevel;
+    ::ArrayWrapper<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*> perceivedLoudnessPerLevel;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>) == 0x8);
     // Creating value type constructor for type: PerceivedLoudnessPerLevelSO
-    PerceivedLoudnessPerLevelSO(::Array<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>* perceivedLoudnessPerLevel_ = {}) noexcept : perceivedLoudnessPerLevel{perceivedLoudnessPerLevel_} {}
+    PerceivedLoudnessPerLevelSO(::ArrayWrapper<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*> perceivedLoudnessPerLevel_ = {}) noexcept : perceivedLoudnessPerLevel{perceivedLoudnessPerLevel_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair[] perceivedLoudnessPerLevel
-    ::Array<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>*& dyn_perceivedLoudnessPerLevel();
+    ::ArrayWrapper<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>& dyn_perceivedLoudnessPerLevel();
     // public System.Void .ctor()
-    // Offset: 0x11F0A0C
+    // Offset: 0x12B07DC
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     }
   }; // PerceivedLoudnessPerLevelSO
   #pragma pack(pop)
-  static check_size<sizeof(PerceivedLoudnessPerLevelSO), 24 + sizeof(::Array<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>*)> __GlobalNamespace_PerceivedLoudnessPerLevelSOSizeCheck;
+  static check_size<sizeof(PerceivedLoudnessPerLevelSO), 24 + sizeof(::ArrayWrapper<GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>)> __GlobalNamespace_PerceivedLoudnessPerLevelSOSizeCheck;
   static_assert(sizeof(PerceivedLoudnessPerLevelSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PerceivedLoudnessPerLevelSO*, "", "PerceivedLoudnessPerLevelSO");

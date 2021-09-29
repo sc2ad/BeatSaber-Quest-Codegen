@@ -37,9 +37,9 @@ namespace GlobalNamespace {
     // private readonly System.Int64[] _buffer
     // Size: 0x8
     // Offset: 0x20
-    ::Array<int64_t>* buffer;
+    ::ArrayWrapper<int64_t> buffer;
     // Field size check
-    static_assert(sizeof(::Array<int64_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int64_t>) == 0x8);
     // private System.Int32 _index
     // Size: 0x4
     // Offset: 0x28
@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: RollingAverage
-    RollingAverage(int64_t currentTotal_ = {}, float currentAverage_ = {}, ::Array<int64_t>* buffer_ = {}, int index_ = {}, int length_ = {}) noexcept : currentTotal{currentTotal_}, currentAverage{currentAverage_}, buffer{buffer_}, index{index_}, length{length_} {}
+    RollingAverage(int64_t currentTotal_ = {}, float currentAverage_ = {}, ::ArrayWrapper<int64_t> buffer_ = {}, int index_ = {}, int length_ = {}) noexcept : currentTotal{currentTotal_}, currentAverage{currentAverage_}, buffer{buffer_}, index{index_}, length{length_} {}
     // static field const value: static private System.Int64 kGranularity
     static constexpr const int64_t kGranularity = 1000;
     // Get static field: static private System.Int64 kGranularity
@@ -65,29 +65,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _currentAverage
     float& dyn__currentAverage();
     // Get instance field reference: private readonly System.Int64[] _buffer
-    ::Array<int64_t>*& dyn__buffer();
+    ::ArrayWrapper<int64_t>& dyn__buffer();
     // Get instance field reference: private System.Int32 _index
     int& dyn__index();
     // Get instance field reference: private System.Int32 _length
     int& dyn__length();
     // public System.Single get_currentAverage()
-    // Offset: 0x16FBF50
+    // Offset: 0x18D5A50
     float get_currentAverage();
     // public System.Boolean get_hasValue()
-    // Offset: 0x16FBF58
+    // Offset: 0x18D5A58
     bool get_hasValue();
     // public System.Void .ctor(System.Int32 window)
-    // Offset: 0x16FBF68
+    // Offset: 0x18D5A68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RollingAverage* New_ctor(int window) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RollingAverage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RollingAverage*, creationType>(window)));
     }
     // public System.Void Update(System.Single value)
-    // Offset: 0x16FBFD8
+    // Offset: 0x18D5AD8
     void Update(float value);
     // public System.Void Reset()
-    // Offset: 0x16FC128
+    // Offset: 0x18D5C28
     void Reset();
   }; // RollingAverage
   #pragma pack(pop)

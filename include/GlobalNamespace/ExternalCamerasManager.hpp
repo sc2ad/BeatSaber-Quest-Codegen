@@ -65,16 +65,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Camera _mrcForegroundCameraPrefab
     UnityEngine::Camera*& dyn__mrcForegroundCameraPrefab();
     // private System.Void Init(ExternalCamerasManager/InitData initData)
-    // Offset: 0x238BFD4
+    // Offset: 0x258681C
     void Init(GlobalNamespace::ExternalCamerasManager::InitData* initData);
     // private UnityEngine.GameObject InstantiateMixedRealityBackgroundCameraGameObject(UnityEngine.GameObject mainCameraGameObject)
-    // Offset: 0x238C0BC
+    // Offset: 0x2586904
     UnityEngine::GameObject* InstantiateMixedRealityBackgroundCameraGameObject(UnityEngine::GameObject* mainCameraGameObject);
     // private UnityEngine.GameObject InstantiateMixedRealityForegroundCameraGameObject(UnityEngine.GameObject mainCameraGameObject)
-    // Offset: 0x238C140
+    // Offset: 0x2586988
     UnityEngine::GameObject* InstantiateMixedRealityForegroundCameraGameObject(UnityEngine::GameObject* mainCameraGameObject);
     // public System.Void .ctor()
-    // Offset: 0x238C1C4
+    // Offset: 0x2586A0C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

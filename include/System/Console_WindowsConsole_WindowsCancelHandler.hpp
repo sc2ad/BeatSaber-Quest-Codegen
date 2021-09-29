@@ -34,20 +34,20 @@ namespace System {
     // Creating value type constructor for type: WindowsCancelHandler
     WindowsCancelHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x19BFE18
+    // Offset: 0x1B19054
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Console::WindowsConsole::WindowsCancelHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Console::WindowsConsole::WindowsCancelHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Console::WindowsConsole::WindowsCancelHandler*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.Int32 keyCode)
-    // Offset: 0x19BFE28
+    // Offset: 0x1B19064
     bool Invoke(int keyCode);
     // public System.IAsyncResult BeginInvoke(System.Int32 keyCode, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x19C0094
+    // Offset: 0x1B192D0
     System::IAsyncResult* BeginInvoke(int keyCode, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x19C0120
+    // Offset: 0x1B1935C
     bool EndInvoke(System::IAsyncResult* result);
   }; // System.Console/System.WindowsConsole/System.WindowsCancelHandler
   #pragma pack(pop)

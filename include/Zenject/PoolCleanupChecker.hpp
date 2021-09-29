@@ -63,14 +63,14 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Type> _ignoredPools
     System::Collections::Generic::List_1<System::Type*>*& dyn__ignoredPools();
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IMemoryPool> poolFactories, System.Collections.Generic.List`1<System.Type> ignoredPools)
-    // Offset: 0x171A65C
+    // Offset: 0x1896058
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PoolCleanupChecker* New_ctor(System::Collections::Generic::List_1<Zenject::IMemoryPool*>* poolFactories, System::Collections::Generic::List_1<System::Type*>* ignoredPools) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolCleanupChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PoolCleanupChecker*, creationType>(poolFactories, ignoredPools)));
     }
     // public System.Void LateDispose()
-    // Offset: 0x171A76C
+    // Offset: 0x1896168
     void LateDispose();
   }; // Zenject.PoolCleanupChecker
   #pragma pack(pop)

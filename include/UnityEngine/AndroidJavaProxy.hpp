@@ -58,45 +58,45 @@ namespace UnityEngine {
     // Get instance field reference: System.IntPtr proxyObject
     System::IntPtr& dyn_proxyObject();
     // public System.Void .ctor(System.String javaInterface)
-    // Offset: 0x23A9790
+    // Offset: 0x25AE6B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaProxy* New_ctor(::Il2CppString* javaInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaProxy*, creationType>(javaInterface)));
     }
     // public System.Void .ctor(UnityEngine.AndroidJavaClass javaInterface)
-    // Offset: 0x23A9800
+    // Offset: 0x25AE724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaProxy* New_ctor(UnityEngine::AndroidJavaClass* javaInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaProxy*, creationType>(javaInterface)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x23AB3F0
+    // Offset: 0x25B0314
     static void _cctor();
     // public UnityEngine.AndroidJavaObject Invoke(System.String methodName, System.Object[] args)
-    // Offset: 0x23A98CC
-    UnityEngine::AndroidJavaObject* Invoke(::Il2CppString* methodName, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x25AE7F0
+    UnityEngine::AndroidJavaObject* Invoke(::Il2CppString* methodName, ::ArrayWrapper<::Il2CppObject*> args);
     // public UnityEngine.AndroidJavaObject Invoke(System.String methodName, UnityEngine.AndroidJavaObject[] javaArgs)
-    // Offset: 0x23AAA18
-    UnityEngine::AndroidJavaObject* Invoke(::Il2CppString* methodName, ::Array<UnityEngine::AndroidJavaObject*>* javaArgs);
+    // Offset: 0x25AF93C
+    UnityEngine::AndroidJavaObject* Invoke(::Il2CppString* methodName, ::ArrayWrapper<UnityEngine::AndroidJavaObject*> javaArgs);
     // public System.Boolean equals(UnityEngine.AndroidJavaObject obj)
-    // Offset: 0x23AB1D4
+    // Offset: 0x25B00F8
     bool equals(UnityEngine::AndroidJavaObject* obj);
     // public System.Int32 hashCode()
-    // Offset: 0x23AB260
+    // Offset: 0x25B0184
     int hashCode();
     // public System.String toString()
-    // Offset: 0x23AB31C
+    // Offset: 0x25B0240
     ::Il2CppString* toString();
     // UnityEngine.AndroidJavaObject GetProxyObject()
-    // Offset: 0x23AB37C
+    // Offset: 0x25B02A0
     UnityEngine::AndroidJavaObject* GetProxyObject();
     // System.IntPtr GetRawProxy()
-    // Offset: 0x23AA7DC
+    // Offset: 0x25AF700
     System::IntPtr GetRawProxy();
     // protected override System.Void Finalize()
-    // Offset: 0x23A9860
+    // Offset: 0x25AE784
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -126,20 +126,20 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaProxy::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AndroidJavaObject* (UnityEngine::AndroidJavaProxy::*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&UnityEngine::AndroidJavaProxy::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AndroidJavaObject* (UnityEngine::AndroidJavaProxy::*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::AndroidJavaProxy::Invoke)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJavaProxy*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{methodName, args});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaProxy::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AndroidJavaObject* (UnityEngine::AndroidJavaProxy::*)(::Il2CppString*, ::Array<UnityEngine::AndroidJavaObject*>*)>(&UnityEngine::AndroidJavaProxy::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AndroidJavaObject* (UnityEngine::AndroidJavaProxy::*)(::Il2CppString*, ::ArrayWrapper<UnityEngine::AndroidJavaObject*>)>(&UnityEngine::AndroidJavaProxy::Invoke)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* javaArgs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "AndroidJavaObject"), 1)->byval_arg;
+    static auto* javaArgs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "AndroidJavaObject")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJavaProxy*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{methodName, javaArgs});
   }
 };

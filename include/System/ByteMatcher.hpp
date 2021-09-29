@@ -49,19 +49,19 @@ namespace System {
     // Get instance field reference: private System.Collections.Hashtable starts
     System::Collections::Hashtable*& dyn_starts();
     // public System.Void AddMapping(System.TermInfoStrings key, System.Byte[] val)
-    // Offset: 0x17DA7A4
-    void AddMapping(System::TermInfoStrings key, ::Array<uint8_t>* val);
+    // Offset: 0x199300C
+    void AddMapping(System::TermInfoStrings key, ::ArrayWrapper<uint8_t> val);
     // public System.Void Sort()
-    // Offset: 0x17DA8BC
+    // Offset: 0x1993124
     void Sort();
     // public System.Boolean StartsWith(System.Int32 c)
-    // Offset: 0x17DA8C0
+    // Offset: 0x1993128
     bool StartsWith(int c);
     // public System.TermInfoStrings Match(System.Char[] buffer, System.Int32 offset, System.Int32 length, out System.Int32 used)
-    // Offset: 0x17DA950
-    System::TermInfoStrings Match(::Array<::Il2CppChar>* buffer, int offset, int length, ByRef<int> used);
+    // Offset: 0x19931B8
+    System::TermInfoStrings Match(::ArrayWrapper<::Il2CppChar> buffer, int offset, int length, ByRef<int> used);
     // public System.Void .ctor()
-    // Offset: 0x17DAD78
+    // Offset: 0x19935E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -79,10 +79,10 @@ DEFINE_IL2CPP_ARG_TYPE(System::ByteMatcher*, "System", "ByteMatcher");
 // Writing MetadataGetter for method: System::ByteMatcher::AddMapping
 // Il2CppName: AddMapping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ByteMatcher::*)(System::TermInfoStrings, ::Array<uint8_t>*)>(&System::ByteMatcher::AddMapping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ByteMatcher::*)(System::TermInfoStrings, ::ArrayWrapper<uint8_t>)>(&System::ByteMatcher::AddMapping)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "TermInfoStrings")->byval_arg;
-    static auto* val = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* val = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ByteMatcher*), "AddMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key, val});
   }
 };
@@ -106,9 +106,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::ByteMatcher::Match
 // Il2CppName: Match
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TermInfoStrings (System::ByteMatcher::*)(::Array<::Il2CppChar>*, int, int, ByRef<int>)>(&System::ByteMatcher::Match)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TermInfoStrings (System::ByteMatcher::*)(::ArrayWrapper<::Il2CppChar>, int, int, ByRef<int>)>(&System::ByteMatcher::Match)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* used = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

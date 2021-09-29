@@ -30,12 +30,12 @@ namespace System::Net::Configuration {
     // Creating value type constructor for type: Ipv6Element
     Ipv6Element() noexcept {}
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x16D5D60
+    // Offset: 0x157004C
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();
     // public System.Void .ctor()
-    // Offset: 0x16D5D20
+    // Offset: 0x157000C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -58,26 +58,26 @@ namespace MasterServer {
     // Get instance field reference: private readonly System.Threading.CancellationTokenRegistration _requestCancellationTokenRegistration
     System::Threading::CancellationTokenRegistration& dyn__requestCancellationTokenRegistration();
     // public System.Threading.Tasks.Task get_task()
-    // Offset: 0x1222DD8
+    // Offset: 0x12E218C
     System::Threading::Tasks::Task* get_task();
     // public System.Boolean get_isWaiting()
-    // Offset: 0x1222E28
+    // Offset: 0x12E21DC
     bool get_isWaiting();
     // public System.Void .ctor(System.Threading.CancellationToken disposedCancellationToken, System.Threading.CancellationToken requestCancellationToken)
-    // Offset: 0x1222CBC
+    // Offset: 0x12E2070
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageHandler::SentRequestWaiter* New_ctor(System::Threading::CancellationToken disposedCancellationToken, System::Threading::CancellationToken requestCancellationToken) {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::SentRequestWaiter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageHandler::SentRequestWaiter*, creationType>(disposedCancellationToken, requestCancellationToken)));
     }
     // public System.Void Complete(System.Boolean handled)
-    // Offset: 0x12204BC
+    // Offset: 0x12DF85C
     void Complete(bool handled);
     // public System.Void Cancel()
-    // Offset: 0x1222E98
+    // Offset: 0x12E224C
     void Cancel();
     // public override System.Void Dispose()
-    // Offset: 0x1224844
+    // Offset: 0x12E3BF8
     // Implemented from: MasterServer.MessageHandler/MasterServer.RequestWaiter
     // Base method: System.Void RequestWaiter::Dispose()
     void Dispose();

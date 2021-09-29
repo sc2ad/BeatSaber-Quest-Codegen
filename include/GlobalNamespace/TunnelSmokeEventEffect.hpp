@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     UnityEngine::ParticleSystem* particleSystem;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3E018
+    // [InjectAttribute] Offset: 0xF0699C
     // private BeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x28
@@ -77,11 +77,11 @@ namespace GlobalNamespace {
     // private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
     // Size: 0x8
     // Offset: 0x40
-    ::Array<UnityEngine::ParticleSystem::Particle>* particles;
+    ::ArrayWrapper<UnityEngine::ParticleSystem::Particle> particles;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::ParticleSystem::Particle>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::ParticleSystem::Particle>) == 0x8);
     // Creating value type constructor for type: TunnelSmokeEventEffect
-    TunnelSmokeEventEffect(GlobalNamespace::BeatmapEventType event_ = {}, UnityEngine::ParticleSystem* particleSystem_ = {}, GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, UnityEngine::ParticleSystem::MainModule mainModule_ = {}, UnityEngine::ParticleSystem::ShapeModule shapeModule_ = {}, ::Array<UnityEngine::ParticleSystem::Particle>* particles_ = {}) noexcept : event{event_}, particleSystem{particleSystem_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, mainModule{mainModule_}, shapeModule{shapeModule_}, particles{particles_} {}
+    TunnelSmokeEventEffect(GlobalNamespace::BeatmapEventType event_ = {}, UnityEngine::ParticleSystem* particleSystem_ = {}, GlobalNamespace::BeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, UnityEngine::ParticleSystem::MainModule mainModule_ = {}, UnityEngine::ParticleSystem::ShapeModule shapeModule_ = {}, ::ArrayWrapper<UnityEngine::ParticleSystem::Particle> particles_ = {}) noexcept : event{event_}, particleSystem{particleSystem_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, mainModule{mainModule_}, shapeModule{shapeModule_}, particles{particles_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kSpeedMultiplier
@@ -107,18 +107,18 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _shapeModule
     UnityEngine::ParticleSystem::ShapeModule& dyn__shapeModule();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
-    ::Array<UnityEngine::ParticleSystem::Particle>*& dyn__particles();
+    ::ArrayWrapper<UnityEngine::ParticleSystem::Particle>& dyn__particles();
     // protected System.Void Start()
-    // Offset: 0x10754E0
+    // Offset: 0x1163E68
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x10755BC
+    // Offset: 0x1163F44
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x1075694
+    // Offset: 0x116401C
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x1075874
+    // Offset: 0x11641FC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -132,7 +132,7 @@ namespace GlobalNamespace {
     }
   }; // TunnelSmokeEventEffect
   #pragma pack(pop)
-  static check_size<sizeof(TunnelSmokeEventEffect), 64 + sizeof(::Array<UnityEngine::ParticleSystem::Particle>*)> __GlobalNamespace_TunnelSmokeEventEffectSizeCheck;
+  static check_size<sizeof(TunnelSmokeEventEffect), 64 + sizeof(::ArrayWrapper<UnityEngine::ParticleSystem::Particle>)> __GlobalNamespace_TunnelSmokeEventEffectSizeCheck;
   static_assert(sizeof(TunnelSmokeEventEffect) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TunnelSmokeEventEffect*, "", "TunnelSmokeEventEffect");

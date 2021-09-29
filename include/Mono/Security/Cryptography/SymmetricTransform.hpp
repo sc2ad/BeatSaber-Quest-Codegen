@@ -54,27 +54,27 @@ namespace Mono::Security::Cryptography {
     // protected System.Byte[] temp
     // Size: 0x8
     // Offset: 0x20
-    ::Array<uint8_t>* temp;
+    ::ArrayWrapper<uint8_t> temp;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // protected System.Byte[] temp2
     // Size: 0x8
     // Offset: 0x28
-    ::Array<uint8_t>* temp2;
+    ::ArrayWrapper<uint8_t> temp2;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Byte[] workBuff
     // Size: 0x8
     // Offset: 0x30
-    ::Array<uint8_t>* workBuff;
+    ::ArrayWrapper<uint8_t> workBuff;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Byte[] workout
     // Size: 0x8
     // Offset: 0x38
-    ::Array<uint8_t>* workout;
+    ::ArrayWrapper<uint8_t> workout;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // protected System.Security.Cryptography.PaddingMode padmode
     // Size: 0x4
     // Offset: 0x40
@@ -108,7 +108,7 @@ namespace Mono::Security::Cryptography {
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::RandomNumberGenerator*) == 0x8);
     // Creating value type constructor for type: SymmetricTransform
-    SymmetricTransform(System::Security::Cryptography::SymmetricAlgorithm* algo_ = {}, bool encrypt_ = {}, int BlockSizeByte_ = {}, ::Array<uint8_t>* temp_ = {}, ::Array<uint8_t>* temp2_ = {}, ::Array<uint8_t>* workBuff_ = {}, ::Array<uint8_t>* workout_ = {}, System::Security::Cryptography::PaddingMode padmode_ = {}, int FeedBackByte_ = {}, bool m_disposed_ = {}, bool lastBlock_ = {}, System::Security::Cryptography::RandomNumberGenerator* rng_ = {}) noexcept : algo{algo_}, encrypt{encrypt_}, BlockSizeByte{BlockSizeByte_}, temp{temp_}, temp2{temp2_}, workBuff{workBuff_}, workout{workout_}, padmode{padmode_}, FeedBackByte{FeedBackByte_}, m_disposed{m_disposed_}, lastBlock{lastBlock_}, rng{rng_} {}
+    SymmetricTransform(System::Security::Cryptography::SymmetricAlgorithm* algo_ = {}, bool encrypt_ = {}, int BlockSizeByte_ = {}, ::ArrayWrapper<uint8_t> temp_ = {}, ::ArrayWrapper<uint8_t> temp2_ = {}, ::ArrayWrapper<uint8_t> workBuff_ = {}, ::ArrayWrapper<uint8_t> workout_ = {}, System::Security::Cryptography::PaddingMode padmode_ = {}, int FeedBackByte_ = {}, bool m_disposed_ = {}, bool lastBlock_ = {}, System::Security::Cryptography::RandomNumberGenerator* rng_ = {}) noexcept : algo{algo_}, encrypt{encrypt_}, BlockSizeByte{BlockSizeByte_}, temp{temp_}, temp2{temp2_}, workBuff{workBuff_}, workout{workout_}, padmode{padmode_}, FeedBackByte{FeedBackByte_}, m_disposed{m_disposed_}, lastBlock{lastBlock_}, rng{rng_} {}
     // Creating interface conversion operator: operator System::Security::Cryptography::ICryptoTransform
     operator System::Security::Cryptography::ICryptoTransform() noexcept {
       return *reinterpret_cast<System::Security::Cryptography::ICryptoTransform*>(this);
@@ -120,13 +120,13 @@ namespace Mono::Security::Cryptography {
     // Get instance field reference: protected System.Int32 BlockSizeByte
     int& dyn_BlockSizeByte();
     // Get instance field reference: protected System.Byte[] temp
-    ::Array<uint8_t>*& dyn_temp();
+    ::ArrayWrapper<uint8_t>& dyn_temp();
     // Get instance field reference: protected System.Byte[] temp2
-    ::Array<uint8_t>*& dyn_temp2();
+    ::ArrayWrapper<uint8_t>& dyn_temp2();
     // Get instance field reference: private System.Byte[] workBuff
-    ::Array<uint8_t>*& dyn_workBuff();
+    ::ArrayWrapper<uint8_t>& dyn_workBuff();
     // Get instance field reference: private System.Byte[] workout
-    ::Array<uint8_t>*& dyn_workout();
+    ::ArrayWrapper<uint8_t>& dyn_workout();
     // Get instance field reference: protected System.Security.Cryptography.PaddingMode padmode
     System::Security::Cryptography::PaddingMode& dyn_padmode();
     // Get instance field reference: protected System.Int32 FeedBackByte
@@ -138,74 +138,74 @@ namespace Mono::Security::Cryptography {
     // Get instance field reference: private System.Security.Cryptography.RandomNumberGenerator _rng
     System::Security::Cryptography::RandomNumberGenerator*& dyn__rng();
     // public System.Boolean get_CanTransformMultipleBlocks()
-    // Offset: 0x1A9E3E8
+    // Offset: 0x1C4CC38
     bool get_CanTransformMultipleBlocks();
     // public System.Int32 get_InputBlockSize()
-    // Offset: 0x1A9E3F0
+    // Offset: 0x1C4CC40
     int get_InputBlockSize();
     // public System.Int32 get_OutputBlockSize()
-    // Offset: 0x1A9E3F8
+    // Offset: 0x1C4CC48
     int get_OutputBlockSize();
     // private System.Boolean get_KeepLastBlock()
-    // Offset: 0x1A9ED50
+    // Offset: 0x1C4D5A0
     bool get_KeepLastBlock();
     // public System.Void .ctor(System.Security.Cryptography.SymmetricAlgorithm symmAlgo, System.Boolean encryption, System.Byte[] rgbIV)
-    // Offset: 0x1A9DFD0
+    // Offset: 0x1C4C820
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SymmetricTransform* New_ctor(System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption, ::Array<uint8_t>* rgbIV) {
+    static SymmetricTransform* New_ctor(System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption, ::ArrayWrapper<uint8_t> rgbIV) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Cryptography::SymmetricTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SymmetricTransform*, creationType>(symmAlgo, encryption, rgbIV)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1A9E308
+    // Offset: 0x1C4CB58
     void System_IDisposable_Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1A9E384
+    // Offset: 0x1C4CBD4
     void Dispose(bool disposing);
     // protected System.Void Transform(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1A9E400
-    void Transform(::Array<uint8_t>* input, ::Array<uint8_t>* output);
+    // Offset: 0x1C4CC50
+    void Transform(::ArrayWrapper<uint8_t> input, ::ArrayWrapper<uint8_t> output);
     // protected System.Void ECB(System.Byte[] input, System.Byte[] output)
     // Offset: 0xFFFFFFFF
-    void ECB(::Array<uint8_t>* input, ::Array<uint8_t>* output);
+    void ECB(::ArrayWrapper<uint8_t> input, ::ArrayWrapper<uint8_t> output);
     // protected System.Void CBC(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1A9E5B4
-    void CBC(::Array<uint8_t>* input, ::Array<uint8_t>* output);
+    // Offset: 0x1C4CE04
+    void CBC(::ArrayWrapper<uint8_t> input, ::ArrayWrapper<uint8_t> output);
     // protected System.Void CFB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1A9E72C
-    void CFB(::Array<uint8_t>* input, ::Array<uint8_t>* output);
+    // Offset: 0x1C4CF7C
+    void CFB(::ArrayWrapper<uint8_t> input, ::ArrayWrapper<uint8_t> output);
     // protected System.Void OFB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1A9E908
-    void OFB(::Array<uint8_t>* input, ::Array<uint8_t>* output);
+    // Offset: 0x1C4D158
+    void OFB(::ArrayWrapper<uint8_t> input, ::ArrayWrapper<uint8_t> output);
     // protected System.Void CTS(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1A9E974
-    void CTS(::Array<uint8_t>* input, ::Array<uint8_t>* output);
+    // Offset: 0x1C4D1C4
+    void CTS(::ArrayWrapper<uint8_t> input, ::ArrayWrapper<uint8_t> output);
     // private System.Void CheckInput(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1A9E9E0
-    void CheckInput(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
+    // Offset: 0x1C4D230
+    void CheckInput(::ArrayWrapper<uint8_t> inputBuffer, int inputOffset, int inputCount);
     // public System.Int32 TransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
-    // Offset: 0x1A9EB38
-    int TransformBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount, ::Array<uint8_t>* outputBuffer, int outputOffset);
+    // Offset: 0x1C4D388
+    int TransformBlock(::ArrayWrapper<uint8_t> inputBuffer, int inputOffset, int inputCount, ::ArrayWrapper<uint8_t> outputBuffer, int outputOffset);
     // private System.Int32 InternalTransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
-    // Offset: 0x1A9ED74
-    int InternalTransformBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount, ::Array<uint8_t>* outputBuffer, int outputOffset);
+    // Offset: 0x1C4D5C4
+    int InternalTransformBlock(::ArrayWrapper<uint8_t> inputBuffer, int inputOffset, int inputCount, ::ArrayWrapper<uint8_t> outputBuffer, int outputOffset);
     // private System.Void Random(System.Byte[] buffer, System.Int32 start, System.Int32 length)
-    // Offset: 0x1A9EF54
-    void Random(::Array<uint8_t>* buffer, int start, int length);
+    // Offset: 0x1C4D7A4
+    void Random(::ArrayWrapper<uint8_t> buffer, int start, int length);
     // private System.Void ThrowBadPaddingException(System.Security.Cryptography.PaddingMode padding, System.Int32 length, System.Int32 position)
-    // Offset: 0x1A9F014
+    // Offset: 0x1C4D864
     void ThrowBadPaddingException(System::Security::Cryptography::PaddingMode padding, int length, int position);
     // protected System.Byte[] FinalEncrypt(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1A9F180
-    ::Array<uint8_t>* FinalEncrypt(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
+    // Offset: 0x1C4D9D0
+    ::ArrayWrapper<uint8_t> FinalEncrypt(::ArrayWrapper<uint8_t> inputBuffer, int inputOffset, int inputCount);
     // protected System.Byte[] FinalDecrypt(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1A9F424
-    ::Array<uint8_t>* FinalDecrypt(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
+    // Offset: 0x1C4DC74
+    ::ArrayWrapper<uint8_t> FinalDecrypt(::ArrayWrapper<uint8_t> inputBuffer, int inputOffset, int inputCount);
     // public System.Byte[] TransformFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1A9F6D8
-    ::Array<uint8_t>* TransformFinalBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
+    // Offset: 0x1C4DF28
+    ::ArrayWrapper<uint8_t> TransformFinalBlock(::ArrayWrapper<uint8_t> inputBuffer, int inputOffset, int inputCount);
     // protected override System.Void Finalize()
-    // Offset: 0x1A9E294
+    // Offset: 0x1C4CAE4
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -272,69 +272,69 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::Transform
 // Il2CppName: Transform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Mono::Security::Cryptography::SymmetricTransform::Transform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&Mono::Security::Cryptography::SymmetricTransform::Transform)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "Transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, output});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::ECB
 // Il2CppName: ECB
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Mono::Security::Cryptography::SymmetricTransform::ECB)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&Mono::Security::Cryptography::SymmetricTransform::ECB)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "ECB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, output});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::CBC
 // Il2CppName: CBC
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Mono::Security::Cryptography::SymmetricTransform::CBC)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&Mono::Security::Cryptography::SymmetricTransform::CBC)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "CBC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, output});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::CFB
 // Il2CppName: CFB
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Mono::Security::Cryptography::SymmetricTransform::CFB)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&Mono::Security::Cryptography::SymmetricTransform::CFB)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "CFB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, output});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::OFB
 // Il2CppName: OFB
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Mono::Security::Cryptography::SymmetricTransform::OFB)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&Mono::Security::Cryptography::SymmetricTransform::OFB)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "OFB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, output});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::CTS
 // Il2CppName: CTS
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Mono::Security::Cryptography::SymmetricTransform::CTS)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&Mono::Security::Cryptography::SymmetricTransform::CTS)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "CTS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, output});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::CheckInput
 // Il2CppName: CheckInput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, int, int)>(&Mono::Security::Cryptography::SymmetricTransform::CheckInput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayWrapper<uint8_t>, int, int)>(&Mono::Security::Cryptography::SymmetricTransform::CheckInput)> {
   static const MethodInfo* get() {
-    static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* inputBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* inputCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "CheckInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputBuffer, inputOffset, inputCount});
@@ -343,12 +343,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::TransformBlock
 // Il2CppName: TransformBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&Mono::Security::Cryptography::SymmetricTransform::TransformBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<uint8_t>, int)>(&Mono::Security::Cryptography::SymmetricTransform::TransformBlock)> {
   static const MethodInfo* get() {
-    static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* inputBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* inputCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* outputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* outputBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* outputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "TransformBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputBuffer, inputOffset, inputCount, outputBuffer, outputOffset});
   }
@@ -356,12 +356,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::InternalTransformBlock
 // Il2CppName: InternalTransformBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&Mono::Security::Cryptography::SymmetricTransform::InternalTransformBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<uint8_t>, int)>(&Mono::Security::Cryptography::SymmetricTransform::InternalTransformBlock)> {
   static const MethodInfo* get() {
-    static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* inputBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* inputCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* outputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* outputBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* outputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "InternalTransformBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputBuffer, inputOffset, inputCount, outputBuffer, outputOffset});
   }
@@ -369,9 +369,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::Random
 // Il2CppName: Random
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, int, int)>(&Mono::Security::Cryptography::SymmetricTransform::Random)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayWrapper<uint8_t>, int, int)>(&Mono::Security::Cryptography::SymmetricTransform::Random)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "Random", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, start, length});
@@ -391,9 +391,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::FinalEncrypt
 // Il2CppName: FinalEncrypt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, int, int)>(&Mono::Security::Cryptography::SymmetricTransform::FinalEncrypt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayWrapper<uint8_t>, int, int)>(&Mono::Security::Cryptography::SymmetricTransform::FinalEncrypt)> {
   static const MethodInfo* get() {
-    static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* inputBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* inputCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "FinalEncrypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputBuffer, inputOffset, inputCount});
@@ -402,9 +402,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::FinalDecrypt
 // Il2CppName: FinalDecrypt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, int, int)>(&Mono::Security::Cryptography::SymmetricTransform::FinalDecrypt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayWrapper<uint8_t>, int, int)>(&Mono::Security::Cryptography::SymmetricTransform::FinalDecrypt)> {
   static const MethodInfo* get() {
-    static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* inputBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* inputCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "FinalDecrypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputBuffer, inputOffset, inputCount});
@@ -413,9 +413,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::TransformFinalBlock
 // Il2CppName: TransformFinalBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, int, int)>(&Mono::Security::Cryptography::SymmetricTransform::TransformFinalBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayWrapper<uint8_t>, int, int)>(&Mono::Security::Cryptography::SymmetricTransform::TransformFinalBlock)> {
   static const MethodInfo* get() {
-    static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* inputBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* inputCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "TransformFinalBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputBuffer, inputOffset, inputCount});

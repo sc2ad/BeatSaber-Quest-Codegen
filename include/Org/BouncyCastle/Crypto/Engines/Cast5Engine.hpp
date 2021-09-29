@@ -30,15 +30,15 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // private System.Int32[] _Kr
     // Size: 0x8
     // Offset: 0x10
-    ::Array<int>* Kr;
+    ::ArrayWrapper<int> Kr;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // private System.UInt32[] _Km
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint>* Km;
+    ::ArrayWrapper<uint> Km;
     // Field size check
-    static_assert(sizeof(::Array<uint>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
     // private System.Boolean _encrypting
     // Size: 0x1
     // Offset: 0x20
@@ -50,9 +50,9 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // private System.Byte[] _workingKey
     // Size: 0x8
     // Offset: 0x28
-    ::Array<uint8_t>* workingKey;
+    ::ArrayWrapper<uint8_t> workingKey;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Int32 _rounds
     // Size: 0x4
     // Offset: 0x30
@@ -60,43 +60,43 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: Cast5Engine
-    Cast5Engine(::Array<int>* Kr_ = {}, ::Array<uint>* Km_ = {}, bool encrypting_ = {}, ::Array<uint8_t>* workingKey_ = {}, int rounds_ = {}) noexcept : Kr{Kr_}, Km{Km_}, encrypting{encrypting_}, workingKey{workingKey_}, rounds{rounds_} {}
+    Cast5Engine(::ArrayWrapper<int> Kr_ = {}, ::ArrayWrapper<uint> Km_ = {}, bool encrypting_ = {}, ::ArrayWrapper<uint8_t> workingKey_ = {}, int rounds_ = {}) noexcept : Kr{Kr_}, Km{Km_}, encrypting{encrypting_}, workingKey{workingKey_}, rounds{rounds_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);
     }
     // Get static field: static private readonly System.UInt32[] S1
-    static ::Array<uint>* _get_S1();
+    static ::ArrayWrapper<uint> _get_S1();
     // Set static field: static private readonly System.UInt32[] S1
-    static void _set_S1(::Array<uint>* value);
+    static void _set_S1(::ArrayWrapper<uint> value);
     // Get static field: static private readonly System.UInt32[] S2
-    static ::Array<uint>* _get_S2();
+    static ::ArrayWrapper<uint> _get_S2();
     // Set static field: static private readonly System.UInt32[] S2
-    static void _set_S2(::Array<uint>* value);
+    static void _set_S2(::ArrayWrapper<uint> value);
     // Get static field: static private readonly System.UInt32[] S3
-    static ::Array<uint>* _get_S3();
+    static ::ArrayWrapper<uint> _get_S3();
     // Set static field: static private readonly System.UInt32[] S3
-    static void _set_S3(::Array<uint>* value);
+    static void _set_S3(::ArrayWrapper<uint> value);
     // Get static field: static private readonly System.UInt32[] S4
-    static ::Array<uint>* _get_S4();
+    static ::ArrayWrapper<uint> _get_S4();
     // Set static field: static private readonly System.UInt32[] S4
-    static void _set_S4(::Array<uint>* value);
+    static void _set_S4(::ArrayWrapper<uint> value);
     // Get static field: static private readonly System.UInt32[] S5
-    static ::Array<uint>* _get_S5();
+    static ::ArrayWrapper<uint> _get_S5();
     // Set static field: static private readonly System.UInt32[] S5
-    static void _set_S5(::Array<uint>* value);
+    static void _set_S5(::ArrayWrapper<uint> value);
     // Get static field: static private readonly System.UInt32[] S6
-    static ::Array<uint>* _get_S6();
+    static ::ArrayWrapper<uint> _get_S6();
     // Set static field: static private readonly System.UInt32[] S6
-    static void _set_S6(::Array<uint>* value);
+    static void _set_S6(::ArrayWrapper<uint> value);
     // Get static field: static private readonly System.UInt32[] S7
-    static ::Array<uint>* _get_S7();
+    static ::ArrayWrapper<uint> _get_S7();
     // Set static field: static private readonly System.UInt32[] S7
-    static void _set_S7(::Array<uint>* value);
+    static void _set_S7(::ArrayWrapper<uint> value);
     // Get static field: static private readonly System.UInt32[] S8
-    static ::Array<uint>* _get_S8();
+    static ::ArrayWrapper<uint> _get_S8();
     // Set static field: static private readonly System.UInt32[] S8
-    static void _set_S8(::Array<uint>* value);
+    static void _set_S8(::ArrayWrapper<uint> value);
     // Get static field: static readonly System.Int32 MAX_ROUNDS
     static int _get_MAX_ROUNDS();
     // Set static field: static readonly System.Int32 MAX_ROUNDS
@@ -106,68 +106,68 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static readonly System.Int32 RED_ROUNDS
     static void _set_RED_ROUNDS(int value);
     // Get instance field reference: private System.Int32[] _Kr
-    ::Array<int>*& dyn__Kr();
+    ::ArrayWrapper<int>& dyn__Kr();
     // Get instance field reference: private System.UInt32[] _Km
-    ::Array<uint>*& dyn__Km();
+    ::ArrayWrapper<uint>& dyn__Km();
     // Get instance field reference: private System.Boolean _encrypting
     bool& dyn__encrypting();
     // Get instance field reference: private System.Byte[] _workingKey
-    ::Array<uint8_t>*& dyn__workingKey();
+    ::ArrayWrapper<uint8_t>& dyn__workingKey();
     // Get instance field reference: private System.Int32 _rounds
     int& dyn__rounds();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1E6B500
+    // Offset: 0x1FC5F8C
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1E6B548
+    // Offset: 0x1FC5FD4
     bool get_IsPartialBlockOkay();
     // static private System.Void .cctor()
-    // Offset: 0x1E6FC64
+    // Offset: 0x1FCA6F0
     static void _cctor();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1E6B370
+    // Offset: 0x1FC5DFC
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E6B550
-    int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
+    // Offset: 0x1FC5FDC
+    int ProcessBlock(::ArrayWrapper<uint8_t> input, int inOff, ::ArrayWrapper<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1E6B6A4
+    // Offset: 0x1FC6130
     void Reset();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1E6B6A8
+    // Offset: 0x1FC6134
     int GetBlockSize();
     // System.Void SetKey(System.Byte[] key)
-    // Offset: 0x1E6B6B0
-    void SetKey(::Array<uint8_t>* key);
+    // Offset: 0x1FC613C
+    void SetKey(::ArrayWrapper<uint8_t> key);
     // System.Int32 EncryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
-    // Offset: 0x1E6F230
-    int EncryptBlock(::Array<uint8_t>* src, int srcIndex, ::Array<uint8_t>* dst, int dstIndex);
+    // Offset: 0x1FC9CBC
+    int EncryptBlock(::ArrayWrapper<uint8_t> src, int srcIndex, ::ArrayWrapper<uint8_t> dst, int dstIndex);
     // System.Int32 DecryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
-    // Offset: 0x1E6F58C
-    int DecryptBlock(::Array<uint8_t>* src, int srcIndex, ::Array<uint8_t>* dst, int dstIndex);
+    // Offset: 0x1FCA018
+    int DecryptBlock(::ArrayWrapper<uint8_t> src, int srcIndex, ::ArrayWrapper<uint8_t> dst, int dstIndex);
     // static System.UInt32 F1(System.UInt32 D, System.UInt32 Kmi, System.Int32 Kri)
-    // Offset: 0x1E6F904
+    // Offset: 0x1FCA390
     static uint F1(uint D, uint Kmi, int Kri);
     // static System.UInt32 F2(System.UInt32 D, System.UInt32 Kmi, System.Int32 Kri)
-    // Offset: 0x1E6FA24
+    // Offset: 0x1FCA4B0
     static uint F2(uint D, uint Kmi, int Kri);
     // static System.UInt32 F3(System.UInt32 D, System.UInt32 Kmi, System.Int32 Kri)
-    // Offset: 0x1E6FB44
+    // Offset: 0x1FCA5D0
     static uint F3(uint D, uint Kmi, int Kri);
     // System.Void CAST_Encipher(System.UInt32 L0, System.UInt32 R0, System.UInt32[] result)
-    // Offset: 0x1E6F33C
-    void CAST_Encipher(uint L0, uint R0, ::Array<uint>* result);
+    // Offset: 0x1FC9DC8
+    void CAST_Encipher(uint L0, uint R0, ::ArrayWrapper<uint> result);
     // System.Void CAST_Decipher(System.UInt32 L16, System.UInt32 R16, System.UInt32[] result)
-    // Offset: 0x1E6F698
-    void CAST_Decipher(uint L16, uint R16, ::Array<uint>* result);
+    // Offset: 0x1FCA124
+    void CAST_Decipher(uint L16, uint R16, ::ArrayWrapper<uint> result);
     // static System.Void Bits32ToInts(System.UInt32 inData, System.Int32[] b, System.Int32 offset)
-    // Offset: 0x1E6F1A0
-    static void Bits32ToInts(uint inData, ::Array<int>* b, int offset);
+    // Offset: 0x1FC9C2C
+    static void Bits32ToInts(uint inData, ::ArrayWrapper<int> b, int offset);
     // static System.UInt32 IntsTo32bits(System.Int32[] b, System.Int32 i)
-    // Offset: 0x1E6F11C
-    static uint IntsTo32bits(::Array<int>* b, int i);
+    // Offset: 0x1FC9BA8
+    static uint IntsTo32bits(::ArrayWrapper<int> b, int i);
     // public System.Void .ctor()
-    // Offset: 0x1E6B2C8
+    // Offset: 0x1FC5D54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -219,11 +219,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Cast5Engine::ProcessBlock
 // Il2CppName: ProcessBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::Cast5Engine::*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Engines::Cast5Engine::ProcessBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::Cast5Engine::*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::Cast5Engine::ProcessBlock)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::Cast5Engine*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, inOff, output, outOff});
   }
@@ -247,20 +247,20 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Cast5Engine::SetKey
 // Il2CppName: SetKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::Cast5Engine::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Engines::Cast5Engine::SetKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::Cast5Engine::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Engines::Cast5Engine::SetKey)> {
   static const MethodInfo* get() {
-    static auto* key = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* key = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::Cast5Engine*), "SetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Cast5Engine::EncryptBlock
 // Il2CppName: EncryptBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::Cast5Engine::*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Engines::Cast5Engine::EncryptBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::Cast5Engine::*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::Cast5Engine::EncryptBlock)> {
   static const MethodInfo* get() {
-    static auto* src = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* src = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* srcIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* dst = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* dst = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* dstIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::Cast5Engine*), "EncryptBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, srcIndex, dst, dstIndex});
   }
@@ -268,11 +268,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Cast5Engine::DecryptBlock
 // Il2CppName: DecryptBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::Cast5Engine::*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Engines::Cast5Engine::DecryptBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::Cast5Engine::*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::Cast5Engine::DecryptBlock)> {
   static const MethodInfo* get() {
-    static auto* src = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* src = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* srcIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* dst = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* dst = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* dstIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::Cast5Engine*), "DecryptBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, srcIndex, dst, dstIndex});
   }
@@ -313,32 +313,32 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(ui
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Cast5Engine::CAST_Encipher
 // Il2CppName: CAST_Encipher
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::Cast5Engine::*)(uint, uint, ::Array<uint>*)>(&Org::BouncyCastle::Crypto::Engines::Cast5Engine::CAST_Encipher)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::Cast5Engine::*)(uint, uint, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Crypto::Engines::Cast5Engine::CAST_Encipher)> {
   static const MethodInfo* get() {
     static auto* L0 = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* R0 = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
-    static auto* result = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* result = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::Cast5Engine*), "CAST_Encipher", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{L0, R0, result});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Cast5Engine::CAST_Decipher
 // Il2CppName: CAST_Decipher
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::Cast5Engine::*)(uint, uint, ::Array<uint>*)>(&Org::BouncyCastle::Crypto::Engines::Cast5Engine::CAST_Decipher)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::Cast5Engine::*)(uint, uint, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Crypto::Engines::Cast5Engine::CAST_Decipher)> {
   static const MethodInfo* get() {
     static auto* L16 = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* R16 = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
-    static auto* result = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* result = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::Cast5Engine*), "CAST_Decipher", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{L16, R16, result});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Cast5Engine::Bits32ToInts
 // Il2CppName: Bits32ToInts
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint, ::Array<int>*, int)>(&Org::BouncyCastle::Crypto::Engines::Cast5Engine::Bits32ToInts)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint, ::ArrayWrapper<int>, int)>(&Org::BouncyCastle::Crypto::Engines::Cast5Engine::Bits32ToInts)> {
   static const MethodInfo* get() {
     static auto* inData = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
-    static auto* b = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* b = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::Cast5Engine*), "Bits32ToInts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inData, b, offset});
   }
@@ -346,9 +346,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ui
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Cast5Engine::IntsTo32bits
 // Il2CppName: IntsTo32bits
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Array<int>*, int)>(&Org::BouncyCastle::Crypto::Engines::Cast5Engine::IntsTo32bits)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayWrapper<int>, int)>(&Org::BouncyCastle::Crypto::Engines::Cast5Engine::IntsTo32bits)> {
   static const MethodInfo* get() {
-    static auto* b = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* b = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::Cast5Engine*), "IntsTo32bits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{b, i});
   }

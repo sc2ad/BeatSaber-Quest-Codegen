@@ -22,8 +22,8 @@ namespace GlobalNamespace {
 }
 // Forward declaring namespace: Tweening
 namespace Tweening {
-  // Forward declaring type: TweeningManager
-  class TweeningManager;
+  // Forward declaring type: TimeTweeningManager
+  class TimeTweeningManager;
   // Forward declaring type: ColorTween
   class ColorTween;
   // Forward declaring type: EaseType
@@ -53,22 +53,22 @@ namespace GlobalNamespace {
     // private TubeBloomPrePassLight[] _lights
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::TubeBloomPrePassLight*>* lights;
+    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> lights;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::TubeBloomPrePassLight*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
     // private DirectionalLight[] _directionalLights
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::DirectionalLight*>* directionalLights;
+    ::ArrayWrapper<GlobalNamespace::DirectionalLight*> directionalLights;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::DirectionalLight*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE4009C
-    // private readonly Tweening.TweeningManager _tweeningManager
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::DirectionalLight*>) == 0x8);
+    // [InjectAttribute] Offset: 0xF08A30
+    // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
-    Tweening::TweeningManager* tweeningManager;
+    Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
-    static_assert(sizeof(Tweening::TweeningManager*) == 0x8);
+    static_assert(sizeof(Tweening::TimeTweeningManager*) == 0x8);
     // private Tweening.ColorTween _tween
     // Size: 0x8
     // Offset: 0x30
@@ -76,43 +76,43 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(Tweening::ColorTween*) == 0x8);
     // Creating value type constructor for type: LightsAnimator
-    LightsAnimator(::Array<GlobalNamespace::TubeBloomPrePassLight*>* lights_ = {}, ::Array<GlobalNamespace::DirectionalLight*>* directionalLights_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, Tweening::ColorTween* tween_ = {}) noexcept : lights{lights_}, directionalLights{directionalLights_}, tweeningManager{tweeningManager_}, tween{tween_} {}
+    LightsAnimator(::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> lights_ = {}, ::ArrayWrapper<GlobalNamespace::DirectionalLight*> directionalLights_ = {}, Tweening::TimeTweeningManager* tweeningManager_ = {}, Tweening::ColorTween* tween_ = {}) noexcept : lights{lights_}, directionalLights{directionalLights_}, tweeningManager{tweeningManager_}, tween{tween_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TubeBloomPrePassLight[] _lights
-    ::Array<GlobalNamespace::TubeBloomPrePassLight*>*& dyn__lights();
+    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>& dyn__lights();
     // Get instance field reference: private DirectionalLight[] _directionalLights
-    ::Array<GlobalNamespace::DirectionalLight*>*& dyn__directionalLights();
-    // Get instance field reference: private readonly Tweening.TweeningManager _tweeningManager
-    Tweening::TweeningManager*& dyn__tweeningManager();
+    ::ArrayWrapper<GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
+    // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
+    Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private Tweening.ColorTween _tween
     Tweening::ColorTween*& dyn__tween();
     // protected System.Void Awake()
-    // Offset: 0x1207EA8
+    // Offset: 0x1314828
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1207FCC
+    // Offset: 0x131494C
     void OnDestroy();
     // public System.Void AnimateToColor(UnityEngine.Color color, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x1208064
+    // Offset: 0x13149E4
     void AnimateToColor(UnityEngine::Color color, float duration, Tweening::EaseType easeType);
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x1208174
+    // Offset: 0x1314AF4
     void SetColor(UnityEngine::Color color);
     // private System.Void SetLightsColor(UnityEngine.Color color)
-    // Offset: 0x12081D8
+    // Offset: 0x1314B58
     void SetLightsColor(UnityEngine::Color color);
     // public System.Void SetLightsWidth(System.Single width)
-    // Offset: 0x12082E0
+    // Offset: 0x1314C60
     void SetLightsWidth(float width);
     // public System.Void DisableDirectionalLights(System.Single delay)
-    // Offset: 0x120835C
+    // Offset: 0x1314CDC
     void DisableDirectionalLights(float delay);
     // private System.Collections.IEnumerator DisableDirectionalLightsCoroutine(System.Single delay)
-    // Offset: 0x120839C
+    // Offset: 0x1314D1C
     System::Collections::IEnumerator* DisableDirectionalLightsCoroutine(float delay);
     // public System.Void .ctor()
-    // Offset: 0x1208448
+    // Offset: 0x1314DC8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -48,7 +48,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly Oculus.Platform.Models.RoomList Rooms
     Oculus::Platform::Models::RoomList*& dyn_Rooms();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1531328
+    // Offset: 0x16BA070
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingBrowseResult* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::MatchmakingBrowseResult::.ctor");

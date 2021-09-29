@@ -46,16 +46,16 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     // Get instance field reference: private System.Collections.IList lookupPowX2
     System::Collections::IList*& dyn_lookupPowX2();
     // public System.Void Init(System.Byte[] x)
-    // Offset: 0x1922B48
-    void Init(::Array<uint8_t>* x);
+    // Offset: 0x1A9297C
+    void Init(::ArrayWrapper<uint8_t> x);
     // public System.Void ExponentiateX(System.Int64 pow, System.Byte[] output)
-    // Offset: 0x1922D5C
-    void ExponentiateX(int64_t pow, ::Array<uint8_t>* output);
+    // Offset: 0x1A92B90
+    void ExponentiateX(int64_t pow, ::ArrayWrapper<uint8_t> output);
     // private System.Void EnsureAvailable(System.Int32 bit)
-    // Offset: 0x1922F1C
+    // Offset: 0x1A92D50
     void EnsureAvailable(int bit);
     // public System.Void .ctor()
-    // Offset: 0x1923184
+    // Offset: 0x1A92FB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -73,19 +73,19 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponen
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::Init)> {
   static const MethodInfo* get() {
-    static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* x = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::ExponentiateX
 // Il2CppName: ExponentiateX
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::*)(int64_t, ::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::ExponentiateX)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::*)(int64_t, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::ExponentiateX)> {
   static const MethodInfo* get() {
     static auto* pow = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator*), "ExponentiateX", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pow, output});
   }
 };

@@ -104,28 +104,28 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Sequence seq
     Org::BouncyCastle::Asn1::Asn1Sequence*& dyn_seq();
     // public System.Boolean get_IsIndirectCrl()
-    // Offset: 0x1A00520
+    // Offset: 0x1BBA25C
     bool get_IsIndirectCrl();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1A00274
+    // Offset: 0x1BB9FB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IssuingDistributionPoint* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IssuingDistributionPoint*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X509.IssuingDistributionPoint GetInstance(System.Object obj)
-    // Offset: 0x1A000F4
+    // Offset: 0x1BB9E30
     static Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint* GetInstance(::Il2CppObject* obj);
     // private System.Void appendObject(System.Text.StringBuilder buf, System.String sep, System.String name, System.String val)
-    // Offset: 0x1A00768
+    // Offset: 0x1BBA4A4
     void appendObject(System::Text::StringBuilder* buf, ::Il2CppString* sep, ::Il2CppString* name, ::Il2CppString* val);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1A00528
+    // Offset: 0x1BBA264
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x1A00530
+    // Offset: 0x1BBA26C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

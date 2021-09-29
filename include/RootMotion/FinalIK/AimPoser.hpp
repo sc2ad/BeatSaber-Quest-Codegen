@@ -42,25 +42,25 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.AimPoser/RootMotion.FinalIK.Pose[] poses
     // Size: 0x8
     // Offset: 0x20
-    ::Array<RootMotion::FinalIK::AimPoser::Pose*>* poses;
+    ::ArrayWrapper<RootMotion::FinalIK::AimPoser::Pose*> poses;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::AimPoser::Pose*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::AimPoser::Pose*>) == 0x8);
     // Creating value type constructor for type: AimPoser
-    AimPoser(float angleBuffer_ = {}, ::Array<RootMotion::FinalIK::AimPoser::Pose*>* poses_ = {}) noexcept : angleBuffer{angleBuffer_}, poses{poses_} {}
+    AimPoser(float angleBuffer_ = {}, ::ArrayWrapper<RootMotion::FinalIK::AimPoser::Pose*> poses_ = {}) noexcept : angleBuffer{angleBuffer_}, poses{poses_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single angleBuffer
     float& dyn_angleBuffer();
     // Get instance field reference: public RootMotion.FinalIK.AimPoser/RootMotion.FinalIK.Pose[] poses
-    ::Array<RootMotion::FinalIK::AimPoser::Pose*>*& dyn_poses();
+    ::ArrayWrapper<RootMotion::FinalIK::AimPoser::Pose*>& dyn_poses();
     // public RootMotion.FinalIK.AimPoser/RootMotion.FinalIK.Pose GetPose(UnityEngine.Vector3 localDirection)
-    // Offset: 0x1D31D00
+    // Offset: 0x1EBEE7C
     RootMotion::FinalIK::AimPoser::Pose* GetPose(UnityEngine::Vector3 localDirection);
     // public System.Void SetPoseActive(RootMotion.FinalIK.AimPoser/RootMotion.FinalIK.Pose pose)
-    // Offset: 0x1D32074
+    // Offset: 0x1EBF1F0
     void SetPoseActive(RootMotion::FinalIK::AimPoser::Pose* pose);
     // public System.Void .ctor()
-    // Offset: 0x1D320E0
+    // Offset: 0x1EBF25C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -74,7 +74,7 @@ namespace RootMotion::FinalIK {
     }
   }; // RootMotion.FinalIK.AimPoser
   #pragma pack(pop)
-  static check_size<sizeof(AimPoser), 32 + sizeof(::Array<RootMotion::FinalIK::AimPoser::Pose*>*)> __RootMotion_FinalIK_AimPoserSizeCheck;
+  static check_size<sizeof(AimPoser), 32 + sizeof(::ArrayWrapper<RootMotion::FinalIK::AimPoser::Pose*>)> __RootMotion_FinalIK_AimPoserSizeCheck;
   static_assert(sizeof(AimPoser) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimPoser*, "RootMotion.FinalIK", "AimPoser");

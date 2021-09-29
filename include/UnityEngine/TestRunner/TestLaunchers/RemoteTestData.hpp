@@ -79,9 +79,9 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // public System.String[] childrenIds
     // Size: 0x8
     // Offset: 0x38
-    ::Array<::Il2CppString*>* childrenIds;
+    ::ArrayWrapper<::Il2CppString*> childrenIds;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // public System.Int32 testCaseTimeout
     // Size: 0x4
     // Offset: 0x40
@@ -93,9 +93,9 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // public System.String[] Categories
     // Size: 0x8
     // Offset: 0x48
-    ::Array<::Il2CppString*>* Categories;
+    ::ArrayWrapper<::Il2CppString*> Categories;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // public System.Boolean IsTestAssembly
     // Size: 0x1
     // Offset: 0x50
@@ -147,7 +147,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: RemoteTestData
-    RemoteTestData(::Il2CppString* id_ = {}, ::Il2CppString* name_ = {}, ::Il2CppString* fullName_ = {}, int testCaseCount_ = {}, int ChildIndex_ = {}, bool hasChildren_ = {}, bool isSuite_ = {}, ::Array<::Il2CppString*>* childrenIds_ = {}, int testCaseTimeout_ = {}, ::Array<::Il2CppString*>* Categories_ = {}, bool IsTestAssembly_ = {}, NUnit::Framework::Interfaces::RunState RunState_ = {}, ::Il2CppString* Description_ = {}, ::Il2CppString* SkipReason_ = {}, ::Il2CppString* ParentId_ = {}, ::Il2CppString* UniqueName_ = {}, ::Il2CppString* ParentUniqueName_ = {}, ::Il2CppString* ParentFullName_ = {}) noexcept : id{id_}, name{name_}, fullName{fullName_}, testCaseCount{testCaseCount_}, ChildIndex{ChildIndex_}, hasChildren{hasChildren_}, isSuite{isSuite_}, childrenIds{childrenIds_}, testCaseTimeout{testCaseTimeout_}, Categories{Categories_}, IsTestAssembly{IsTestAssembly_}, RunState{RunState_}, Description{Description_}, SkipReason{SkipReason_}, ParentId{ParentId_}, UniqueName{UniqueName_}, ParentUniqueName{ParentUniqueName_}, ParentFullName{ParentFullName_} {}
+    RemoteTestData(::Il2CppString* id_ = {}, ::Il2CppString* name_ = {}, ::Il2CppString* fullName_ = {}, int testCaseCount_ = {}, int ChildIndex_ = {}, bool hasChildren_ = {}, bool isSuite_ = {}, ::ArrayWrapper<::Il2CppString*> childrenIds_ = {}, int testCaseTimeout_ = {}, ::ArrayWrapper<::Il2CppString*> Categories_ = {}, bool IsTestAssembly_ = {}, NUnit::Framework::Interfaces::RunState RunState_ = {}, ::Il2CppString* Description_ = {}, ::Il2CppString* SkipReason_ = {}, ::Il2CppString* ParentId_ = {}, ::Il2CppString* UniqueName_ = {}, ::Il2CppString* ParentUniqueName_ = {}, ::Il2CppString* ParentFullName_ = {}) noexcept : id{id_}, name{name_}, fullName{fullName_}, testCaseCount{testCaseCount_}, ChildIndex{ChildIndex_}, hasChildren{hasChildren_}, isSuite{isSuite_}, childrenIds{childrenIds_}, testCaseTimeout{testCaseTimeout_}, Categories{Categories_}, IsTestAssembly{IsTestAssembly_}, RunState{RunState_}, Description{Description_}, SkipReason{SkipReason_}, ParentId{ParentId_}, UniqueName{UniqueName_}, ParentUniqueName{ParentUniqueName_}, ParentFullName{ParentFullName_} {}
     // Get instance field reference: public System.String id
     ::Il2CppString*& dyn_id();
     // Get instance field reference: public System.String name
@@ -163,11 +163,11 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Get instance field reference: public System.Boolean isSuite
     bool& dyn_isSuite();
     // Get instance field reference: public System.String[] childrenIds
-    ::Array<::Il2CppString*>*& dyn_childrenIds();
+    ::ArrayWrapper<::Il2CppString*>& dyn_childrenIds();
     // Get instance field reference: public System.Int32 testCaseTimeout
     int& dyn_testCaseTimeout();
     // Get instance field reference: public System.String[] Categories
-    ::Array<::Il2CppString*>*& dyn_Categories();
+    ::ArrayWrapper<::Il2CppString*>& dyn_Categories();
     // Get instance field reference: public System.Boolean IsTestAssembly
     bool& dyn_IsTestAssembly();
     // Get instance field reference: public NUnit.Framework.Interfaces.RunState RunState
@@ -185,7 +185,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Get instance field reference: public System.String ParentFullName
     ::Il2CppString*& dyn_ParentFullName();
     // System.Void .ctor(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x14C3EA0
+    // Offset: 0x1669B1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestData* New_ctor(NUnit::Framework::Interfaces::ITest* test) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::TestLaunchers::RemoteTestData::.ctor");

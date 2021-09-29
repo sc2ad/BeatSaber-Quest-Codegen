@@ -53,10 +53,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public OculusNetworkPlayerModel <>4__this
     GlobalNamespace::OculusNetworkPlayerModel*& dyn_$$4__this();
     // System.Void <HandleRoomInviteReceived>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.Room> result)
-    // Offset: 0x12597F0
+    // Offset: 0x13656FC
     void $HandleRoomInviteReceived$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>* result);
     // public System.Void .ctor()
-    // Offset: 0x12597E8
+    // Offset: 0x13656F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -52,16 +52,16 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.InitializableManager/Zenject.InitializableInfo,System.Int32> <>9__5_0
     static void _set_$$9__5_0(System::Func_2<Zenject::InitializableManager::InitializableInfo*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1668D3C
+    // Offset: 0x18330E0
     static void _cctor();
     // System.Int32 <.ctor>b__2_1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1668DA8
+    // Offset: 0x183314C
     int $_ctor$b__2_1(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Int32 <Initialize>b__5_0(Zenject.InitializableManager/Zenject.InitializableInfo x)
-    // Offset: 0x1668DC0
+    // Offset: 0x1833164
     int $Initialize$b__5_0(Zenject::InitializableManager::InitializableInfo* x);
     // public System.Void .ctor()
-    // Offset: 0x1668DA0
+    // Offset: 0x1833144
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

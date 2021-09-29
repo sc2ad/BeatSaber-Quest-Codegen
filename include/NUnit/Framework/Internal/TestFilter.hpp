@@ -45,31 +45,31 @@ namespace NUnit::Framework::Internal {
     // Set static field: static public readonly NUnit.Framework.Internal.TestFilter Empty
     static void _set_Empty(NUnit::Framework::Internal::TestFilter* value);
     // static private System.Void .cctor()
-    // Offset: 0x2299FF0
+    // Offset: 0x24A2338
     static void _cctor();
     // public System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x2299934
+    // Offset: 0x24A1C7C
     bool Pass(NUnit::Framework::Interfaces::ITest* test);
     // public System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x2299B54
+    // Offset: 0x24A1E9C
     bool IsExplicitMatch(NUnit::Framework::Interfaces::ITest* test);
     // public System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0xFFFFFFFF
     bool Match(NUnit::Framework::Interfaces::ITest* test);
     // public System.Boolean MatchParent(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x2299994
+    // Offset: 0x24A1CDC
     bool MatchParent(NUnit::Framework::Interfaces::ITest* test);
     // protected System.Boolean MatchDescendant(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x2299BA4
+    // Offset: 0x24A1EEC
     bool MatchDescendant(NUnit::Framework::Interfaces::ITest* test);
     // public NUnit.Framework.Interfaces.TNode ToXml(System.Boolean recursive)
-    // Offset: 0x2299F68
+    // Offset: 0x24A22B0
     NUnit::Framework::Interfaces::TNode* ToXml(bool recursive);
     // public NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
     // protected System.Void .ctor()
-    // Offset: 0x2293A8C
+    // Offset: 0x249BDD4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

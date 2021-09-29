@@ -25,9 +25,9 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Vector3[] tetrahedron
     // Size: 0x8
     // Offset: 0x10
-    ::Array<UnityEngine::Vector3>* tetrahedron;
+    ::ArrayWrapper<UnityEngine::Vector3> tetrahedron;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
     // public System.Single volume
     // Size: 0x4
     // Offset: 0x18
@@ -47,9 +47,9 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: ReachCone
-    ReachCone(::Array<UnityEngine::Vector3>* tetrahedron_ = {}, float volume_ = {}, UnityEngine::Vector3 S_ = {}, UnityEngine::Vector3 B_ = {}) noexcept : tetrahedron{tetrahedron_}, volume{volume_}, S{S_}, B{B_} {}
+    ReachCone(::ArrayWrapper<UnityEngine::Vector3> tetrahedron_ = {}, float volume_ = {}, UnityEngine::Vector3 S_ = {}, UnityEngine::Vector3 B_ = {}) noexcept : tetrahedron{tetrahedron_}, volume{volume_}, S{S_}, B{B_} {}
     // Get instance field reference: public UnityEngine.Vector3[] tetrahedron
-    ::Array<UnityEngine::Vector3>*& dyn_tetrahedron();
+    ::ArrayWrapper<UnityEngine::Vector3>& dyn_tetrahedron();
     // Get instance field reference: public System.Single volume
     float& dyn_volume();
     // Get instance field reference: public UnityEngine.Vector3 S
@@ -57,29 +57,29 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public UnityEngine.Vector3 B
     UnityEngine::Vector3& dyn_B();
     // public UnityEngine.Vector3 get_o()
-    // Offset: 0x1AE3288
+    // Offset: 0x1C65A08
     UnityEngine::Vector3 get_o();
     // public UnityEngine.Vector3 get_a()
-    // Offset: 0x1AE32C0
+    // Offset: 0x1C65A40
     UnityEngine::Vector3 get_a();
     // public UnityEngine.Vector3 get_b()
-    // Offset: 0x1AE32FC
+    // Offset: 0x1C65A7C
     UnityEngine::Vector3 get_b();
     // public UnityEngine.Vector3 get_c()
-    // Offset: 0x1AE3338
+    // Offset: 0x1C65AB8
     UnityEngine::Vector3 get_c();
     // public System.Boolean get_isValid()
-    // Offset: 0x1AE23EC
+    // Offset: 0x1C64B6C
     bool get_isValid();
     // public System.Void .ctor(UnityEngine.Vector3 _o, UnityEngine.Vector3 _a, UnityEngine.Vector3 _b, UnityEngine.Vector3 _c)
-    // Offset: 0x1AE2A38
+    // Offset: 0x1C651B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RotationLimitPolygonal::ReachCone* New_ctor(UnityEngine::Vector3 _o, UnityEngine::Vector3 _a, UnityEngine::Vector3 _b, UnityEngine::Vector3 _c) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RotationLimitPolygonal::ReachCone*, creationType>(_o, _a, _b, _c)));
     }
     // public System.Void Calculate()
-    // Offset: 0x1AE2B98
+    // Offset: 0x1C65318
     void Calculate();
   }; // RootMotion.FinalIK.RotationLimitPolygonal/RootMotion.FinalIK.ReachCone
   #pragma pack(pop)

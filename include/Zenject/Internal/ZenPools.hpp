@@ -81,7 +81,7 @@ namespace Zenject::Internal {
     // Set static field: static private readonly Zenject.StaticMemoryPool`1<Zenject.BindStatement> _bindStatementPool
     static void _set__bindStatementPool(Zenject::StaticMemoryPool_1<Zenject::BindStatement*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x166E27C
+    // Offset: 0x1838620
     static void _cctor();
     // static public System.Collections.Generic.HashSet`1<T> SpawnHashSet()
     // Offset: 0xFFFFFFFF
@@ -102,16 +102,16 @@ namespace Zenject::Internal {
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::Dictionary_2<TKey, TValue>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
     }
     // static public Zenject.BindStatement SpawnStatement()
-    // Offset: 0x166DDC4
+    // Offset: 0x1838168
     static Zenject::BindStatement* SpawnStatement();
     // static public System.Void DespawnStatement(Zenject.BindStatement statement)
-    // Offset: 0x166DE40
+    // Offset: 0x18381E4
     static void DespawnStatement(Zenject::BindStatement* statement);
     // static public Zenject.BindInfo SpawnBindInfo()
-    // Offset: 0x166DED4
+    // Offset: 0x1838278
     static Zenject::BindInfo* SpawnBindInfo();
     // static public System.Void DespawnBindInfo(Zenject.BindInfo bindInfo)
-    // Offset: 0x166DF50
+    // Offset: 0x18382F4
     static void DespawnBindInfo(Zenject::BindInfo* bindInfo);
     // static public System.Void DespawnDictionary(System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary)
     // Offset: 0xFFFFFFFF
@@ -132,10 +132,10 @@ namespace Zenject::Internal {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, set);
     }
     // static public Zenject.Internal.LookupId SpawnLookupId(Zenject.IProvider provider, Zenject.BindingId bindingId)
-    // Offset: 0x166DFE4
+    // Offset: 0x1838388
     static Zenject::Internal::LookupId* SpawnLookupId(Zenject::IProvider* provider, Zenject::BindingId bindingId);
     // static public System.Void DespawnLookupId(Zenject.Internal.LookupId lookupId)
-    // Offset: 0x166E084
+    // Offset: 0x1838428
     static void DespawnLookupId(Zenject::Internal::LookupId* lookupId);
     // static public System.Collections.Generic.List`1<T> SpawnList()
     // Offset: 0xFFFFFFFF
@@ -158,7 +158,7 @@ namespace Zenject::Internal {
     // static public System.Void DespawnArray(T[] arr)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void DespawnArray(::Array<T>* arr) {
+    static void DespawnArray(::ArrayWrapper<T> arr) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::ZenPools::DespawnArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject.Internal", "ZenPools", "DespawnArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arr)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -167,20 +167,20 @@ namespace Zenject::Internal {
     // static public T[] SpawnArray(System.Int32 length)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::Array<T>* SpawnArray(int length) {
+    static ::ArrayWrapper<T> SpawnArray(int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::ZenPools::SpawnArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject.Internal", "ZenPools", "SpawnArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, length);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, length);
     }
     // static public Zenject.InjectContext SpawnInjectContext(Zenject.DiContainer container, System.Type memberType)
-    // Offset: 0x166E108
+    // Offset: 0x18384AC
     static Zenject::InjectContext* SpawnInjectContext(Zenject::DiContainer* container, System::Type* memberType);
     // static public System.Void DespawnInjectContext(Zenject.InjectContext context)
-    // Offset: 0x1669024
+    // Offset: 0x18333C8
     static void DespawnInjectContext(Zenject::InjectContext* context);
     // static public Zenject.InjectContext SpawnInjectContext(Zenject.DiContainer container, Zenject.InjectableInfo injectableInfo, Zenject.InjectContext currentContext, System.Object targetInstance, System.Type targetType, System.Object concreteIdentifier)
-    // Offset: 0x166E1A4
+    // Offset: 0x1838548
     static Zenject::InjectContext* SpawnInjectContext(Zenject::DiContainer* container, Zenject::InjectableInfo* injectableInfo, Zenject::InjectContext* currentContext, ::Il2CppObject* targetInstance, System::Type* targetType, ::Il2CppObject* concreteIdentifier);
   }; // Zenject.Internal.ZenPools
   #pragma pack(pop)

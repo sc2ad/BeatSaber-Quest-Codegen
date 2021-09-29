@@ -46,44 +46,44 @@ namespace GlobalNamespace {
     float offset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [NullAllowed] Offset: 0xE4D3D0
+    // [NullAllowed] Offset: 0xF1600C
     // private TubeBloomPrePassLight[] _lights
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::TubeBloomPrePassLight*>* lights;
+    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> lights;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::TubeBloomPrePassLight*>*) == 0x8);
-    // [NullAllowed] Offset: 0xE4D408
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
+    // [NullAllowed] Offset: 0xF16044
     // private UnityEngine.Transform[] _otherTransforms
     // Size: 0x8
     // Offset: 0x20
-    ::Array<UnityEngine::Transform*>* otherTransforms;
+    ::ArrayWrapper<UnityEngine::Transform*> otherTransforms;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
     // Creating value type constructor for type: ResizeData
-    ResizeData(GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType resizeType_ = {}, float offset_ = {}, ::Array<GlobalNamespace::TubeBloomPrePassLight*>* lights_ = {}, ::Array<UnityEngine::Transform*>* otherTransforms_ = {}) noexcept : resizeType{resizeType_}, offset{offset_}, lights{lights_}, otherTransforms{otherTransforms_} {}
+    ResizeData(GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType resizeType_ = {}, float offset_ = {}, ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> lights_ = {}, ::ArrayWrapper<UnityEngine::Transform*> otherTransforms_ = {}) noexcept : resizeType{resizeType_}, offset{offset_}, lights{lights_}, otherTransforms{otherTransforms_} {}
     // Get instance field reference: private MultiplayerEnvironmentResizeController/ResizeType _resizeType
     GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType& dyn__resizeType();
     // Get instance field reference: private System.Single _offset
     float& dyn__offset();
     // Get instance field reference: private TubeBloomPrePassLight[] _lights
-    ::Array<GlobalNamespace::TubeBloomPrePassLight*>*& dyn__lights();
+    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>& dyn__lights();
     // Get instance field reference: private UnityEngine.Transform[] _otherTransforms
-    ::Array<UnityEngine::Transform*>*& dyn__otherTransforms();
+    ::ArrayWrapper<UnityEngine::Transform*>& dyn__otherTransforms();
     // public MultiplayerEnvironmentResizeController/ResizeType get_resizeType()
-    // Offset: 0x11D3328
+    // Offset: 0x1219610
     GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType get_resizeType();
     // public System.Single get_offset()
-    // Offset: 0x11D3330
+    // Offset: 0x1219618
     float get_offset();
     // public TubeBloomPrePassLight[] get_lights()
-    // Offset: 0x11D3338
-    ::Array<GlobalNamespace::TubeBloomPrePassLight*>* get_lights();
+    // Offset: 0x1219620
+    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> get_lights();
     // public UnityEngine.Transform[] get_otherTransforms()
-    // Offset: 0x11D3340
-    ::Array<UnityEngine::Transform*>* get_otherTransforms();
+    // Offset: 0x1219628
+    ::ArrayWrapper<UnityEngine::Transform*> get_otherTransforms();
     // public System.Void .ctor()
-    // Offset: 0x11D3348
+    // Offset: 0x1219630
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -93,7 +93,7 @@ namespace GlobalNamespace {
     }
   }; // MultiplayerEnvironmentResizeController/ResizeData
   #pragma pack(pop)
-  static check_size<sizeof(MultiplayerEnvironmentResizeController::ResizeData), 32 + sizeof(::Array<UnityEngine::Transform*>*)> __GlobalNamespace_MultiplayerEnvironmentResizeController_ResizeDataSizeCheck;
+  static check_size<sizeof(MultiplayerEnvironmentResizeController::ResizeData), 32 + sizeof(::ArrayWrapper<UnityEngine::Transform*>)> __GlobalNamespace_MultiplayerEnvironmentResizeController_ResizeDataSizeCheck;
   static_assert(sizeof(MultiplayerEnvironmentResizeController::ResizeData) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*, "", "MultiplayerEnvironmentResizeController/ResizeData");
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData::get_lights
 // Il2CppName: get_lights
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::TubeBloomPrePassLight*>* (GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData::*)()>(&GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData::get_lights)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> (GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData::*)()>(&GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData::get_lights)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*), "get_lights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData::get_otherTransforms
 // Il2CppName: get_otherTransforms
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Transform*>* (GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData::*)()>(&GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData::get_otherTransforms)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Transform*> (GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData::*)()>(&GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData::get_otherTransforms)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*), "get_otherTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

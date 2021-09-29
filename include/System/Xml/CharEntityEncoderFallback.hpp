@@ -43,9 +43,9 @@ namespace System::Xml {
     // private System.Int32[] textContentMarks
     // Size: 0x8
     // Offset: 0x20
-    ::Array<int>* textContentMarks;
+    ::ArrayWrapper<int> textContentMarks;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // private System.Int32 endMarkPos
     // Size: 0x4
     // Offset: 0x28
@@ -65,13 +65,13 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: CharEntityEncoderFallback
-    CharEntityEncoderFallback(System::Xml::CharEntityEncoderFallbackBuffer* fallbackBuffer_ = {}, ::Array<int>* textContentMarks_ = {}, int endMarkPos_ = {}, int curMarkPos_ = {}, int startOffset_ = {}) noexcept : fallbackBuffer{fallbackBuffer_}, textContentMarks{textContentMarks_}, endMarkPos{endMarkPos_}, curMarkPos{curMarkPos_}, startOffset{startOffset_} {}
+    CharEntityEncoderFallback(System::Xml::CharEntityEncoderFallbackBuffer* fallbackBuffer_ = {}, ::ArrayWrapper<int> textContentMarks_ = {}, int endMarkPos_ = {}, int curMarkPos_ = {}, int startOffset_ = {}) noexcept : fallbackBuffer{fallbackBuffer_}, textContentMarks{textContentMarks_}, endMarkPos{endMarkPos_}, curMarkPos{curMarkPos_}, startOffset{startOffset_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get instance field reference: private System.Xml.CharEntityEncoderFallbackBuffer fallbackBuffer
     System::Xml::CharEntityEncoderFallbackBuffer*& dyn_fallbackBuffer();
     // Get instance field reference: private System.Int32[] textContentMarks
-    ::Array<int>*& dyn_textContentMarks();
+    ::ArrayWrapper<int>& dyn_textContentMarks();
     // Get instance field reference: private System.Int32 endMarkPos
     int& dyn_endMarkPos();
     // Get instance field reference: private System.Int32 curMarkPos
@@ -79,21 +79,21 @@ namespace System::Xml {
     // Get instance field reference: private System.Int32 startOffset
     int& dyn_startOffset();
     // System.Void set_StartOffset(System.Int32 value)
-    // Offset: 0x1954DF8
+    // Offset: 0x1AF5C30
     void set_StartOffset(int value);
     // System.Void Reset(System.Int32[] textContentMarks, System.Int32 endMarkPos)
-    // Offset: 0x1954E00
-    void Reset(::Array<int>* textContentMarks, int endMarkPos);
+    // Offset: 0x1AF5C38
+    void Reset(::ArrayWrapper<int> textContentMarks, int endMarkPos);
     // System.Boolean CanReplaceAt(System.Int32 index)
-    // Offset: 0x1954E0C
+    // Offset: 0x1AF5C44
     bool CanReplaceAt(int index);
     // public override System.Int32 get_MaxCharCount()
-    // Offset: 0x1954DF0
+    // Offset: 0x1AF5C28
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Int32 EncoderFallback::get_MaxCharCount()
     int get_MaxCharCount();
     // System.Void .ctor()
-    // Offset: 0x1954D00
+    // Offset: 0x1AF5B38
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Void EncoderFallback::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -103,7 +103,7 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<CharEntityEncoderFallback*, creationType>()));
     }
     // public override System.Text.EncoderFallbackBuffer CreateFallbackBuffer()
-    // Offset: 0x1954D08
+    // Offset: 0x1AF5B40
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Text.EncoderFallbackBuffer EncoderFallback::CreateFallbackBuffer()
     System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
@@ -126,9 +126,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::CharEntityEncoderFallback::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::CharEntityEncoderFallback::*)(::Array<int>*, int)>(&System::Xml::CharEntityEncoderFallback::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::CharEntityEncoderFallback::*)(::ArrayWrapper<int>, int)>(&System::Xml::CharEntityEncoderFallback::Reset)> {
   static const MethodInfo* get() {
-    static auto* textContentMarks = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* textContentMarks = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     static auto* endMarkPos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::CharEntityEncoderFallback*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{textContentMarks, endMarkPos});
   }

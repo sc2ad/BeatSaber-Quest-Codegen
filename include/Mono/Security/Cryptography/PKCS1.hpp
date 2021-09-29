@@ -24,32 +24,32 @@ namespace Mono::Security::Cryptography {
     // Creating value type constructor for type: PKCS1
     PKCS1() noexcept {}
     // Get static field: static private System.Byte[] emptySHA1
-    static ::Array<uint8_t>* _get_emptySHA1();
+    static ::ArrayWrapper<uint8_t> _get_emptySHA1();
     // Set static field: static private System.Byte[] emptySHA1
-    static void _set_emptySHA1(::Array<uint8_t>* value);
+    static void _set_emptySHA1(::ArrayWrapper<uint8_t> value);
     // Get static field: static private System.Byte[] emptySHA256
-    static ::Array<uint8_t>* _get_emptySHA256();
+    static ::ArrayWrapper<uint8_t> _get_emptySHA256();
     // Set static field: static private System.Byte[] emptySHA256
-    static void _set_emptySHA256(::Array<uint8_t>* value);
+    static void _set_emptySHA256(::ArrayWrapper<uint8_t> value);
     // Get static field: static private System.Byte[] emptySHA384
-    static ::Array<uint8_t>* _get_emptySHA384();
+    static ::ArrayWrapper<uint8_t> _get_emptySHA384();
     // Set static field: static private System.Byte[] emptySHA384
-    static void _set_emptySHA384(::Array<uint8_t>* value);
+    static void _set_emptySHA384(::ArrayWrapper<uint8_t> value);
     // Get static field: static private System.Byte[] emptySHA512
-    static ::Array<uint8_t>* _get_emptySHA512();
+    static ::ArrayWrapper<uint8_t> _get_emptySHA512();
     // Set static field: static private System.Byte[] emptySHA512
-    static void _set_emptySHA512(::Array<uint8_t>* value);
+    static void _set_emptySHA512(::ArrayWrapper<uint8_t> value);
     // static private System.Void .cctor()
-    // Offset: 0x1E01D3C
+    // Offset: 0x1F9E2A4
     static void _cctor();
     // static System.String HashNameFromOid(System.String oid, System.Boolean throwOnError)
-    // Offset: 0x1E01688
+    // Offset: 0x1F9DBF0
     static ::Il2CppString* HashNameFromOid(::Il2CppString* oid, bool throwOnError);
     // static System.Security.Cryptography.HashAlgorithm CreateFromOid(System.String oid)
-    // Offset: 0x1E01958
+    // Offset: 0x1F9DEC0
     static System::Security::Cryptography::HashAlgorithm* CreateFromOid(::Il2CppString* oid);
     // static System.Security.Cryptography.HashAlgorithm CreateFromName(System.String name)
-    // Offset: 0x1E019C4
+    // Offset: 0x1F9DF2C
     static System::Security::Cryptography::HashAlgorithm* CreateFromName(::Il2CppString* name);
   }; // Mono.Security.Cryptography.PKCS1
   #pragma pack(pop)

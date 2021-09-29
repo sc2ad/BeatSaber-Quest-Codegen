@@ -14,10 +14,6 @@ namespace System {
   class Type;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {
   // Size: 0x10
@@ -34,7 +30,7 @@ namespace NUnit::Framework::Interfaces {
     }
     // public System.Type[] get_TypeArgs()
     // Offset: 0xFFFFFFFF
-    ::Array<System::Type*>* get_TypeArgs();
+    ::ArrayWrapper<System::Type*> get_TypeArgs();
   }; // NUnit.Framework.Interfaces.ITestFixtureData
   #pragma pack(pop)
 }
@@ -44,7 +40,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestFixtureData*, "NUnit.F
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITestFixtureData::get_TypeArgs
 // Il2CppName: get_TypeArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (NUnit::Framework::Interfaces::ITestFixtureData::*)()>(&NUnit::Framework::Interfaces::ITestFixtureData::get_TypeArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Type*> (NUnit::Framework::Interfaces::ITestFixtureData::*)()>(&NUnit::Framework::Interfaces::ITestFixtureData::get_TypeArgs)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITestFixtureData*), "get_TypeArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

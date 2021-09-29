@@ -30,9 +30,9 @@ namespace GlobalNamespace {
     // private UnityEngine.RenderTexture[] _temporalFilteringTextures
     // Size: 0x8
     // Offset: 0x10
-    ::Array<UnityEngine::RenderTexture*>* temporalFilteringTextures;
+    ::ArrayWrapper<UnityEngine::RenderTexture*> temporalFilteringTextures;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::RenderTexture*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::RenderTexture*>) == 0x8);
     // private System.Int32 _prevTemporalFilteringTextureIdx
     // Size: 0x4
     // Offset: 0x18
@@ -54,9 +54,9 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: SimpleTemporalFiltering
-    SimpleTemporalFiltering(::Array<UnityEngine::RenderTexture*>* temporalFilteringTextures_ = {}, int prevTemporalFilteringTextureIdx_ = {}, UnityEngine::Material* temporalFilteringMaterial_ = {}, int bufferTexID_ = {}) noexcept : temporalFilteringTextures{temporalFilteringTextures_}, prevTemporalFilteringTextureIdx{prevTemporalFilteringTextureIdx_}, temporalFilteringMaterial{temporalFilteringMaterial_}, bufferTexID{bufferTexID_} {}
+    SimpleTemporalFiltering(::ArrayWrapper<UnityEngine::RenderTexture*> temporalFilteringTextures_ = {}, int prevTemporalFilteringTextureIdx_ = {}, UnityEngine::Material* temporalFilteringMaterial_ = {}, int bufferTexID_ = {}) noexcept : temporalFilteringTextures{temporalFilteringTextures_}, prevTemporalFilteringTextureIdx{prevTemporalFilteringTextureIdx_}, temporalFilteringMaterial{temporalFilteringMaterial_}, bufferTexID{bufferTexID_} {}
     // Get instance field reference: private UnityEngine.RenderTexture[] _temporalFilteringTextures
-    ::Array<UnityEngine::RenderTexture*>*& dyn__temporalFilteringTextures();
+    ::ArrayWrapper<UnityEngine::RenderTexture*>& dyn__temporalFilteringTextures();
     // Get instance field reference: private System.Int32 _prevTemporalFilteringTextureIdx
     int& dyn__prevTemporalFilteringTextureIdx();
     // Get instance field reference: private UnityEngine.Material _temporalFilteringMaterial
@@ -64,13 +64,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _bufferTexID
     int& dyn__bufferTexID();
     // public UnityEngine.RenderTexture FilterTexture(UnityEngine.RenderTexture src)
-    // Offset: 0x2390DC4
+    // Offset: 0x258B6D0
     UnityEngine::RenderTexture* FilterTexture(UnityEngine::RenderTexture* src);
     // private System.Void CreateRenderTexturesIfNeeded(System.Int32 width, System.Int32 height)
-    // Offset: 0x2390F6C
+    // Offset: 0x258B878
     void CreateRenderTexturesIfNeeded(int width, int height);
     // public System.Void .ctor()
-    // Offset: 0x2390D10
+    // Offset: 0x258B61C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

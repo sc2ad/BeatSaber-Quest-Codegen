@@ -160,7 +160,7 @@ namespace LiteNetLib::Utils {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Type,LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.CustomType> _registeredTypes
     System::Collections::Generic::Dictionary_2<System::Type*, LiteNetLib::Utils::NetSerializer::CustomType*>*& dyn__registeredTypes();
     // public System.Void .ctor(System.Int32 maxStringLength)
-    // Offset: 0x240DBE8
+    // Offset: 0x26182B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSerializer* New_ctor(int maxStringLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::.ctor");
@@ -251,15 +251,15 @@ namespace LiteNetLib::Utils {
     // public System.Byte[] Serialize(T obj)
     // Offset: 0xFFFFFFFF
     template<class T>
-    ::Array<uint8_t>* Serialize(T obj) {
+    ::ArrayWrapper<uint8_t> Serialize(T obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::Serialize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Serialize", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::Array<uint8_t>*, false>(___instance_arg, ___generic__method, obj);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<uint8_t>, false>(___instance_arg, ___generic__method, obj);
     }
     // public System.Void .ctor()
-    // Offset: 0x240DB20
+    // Offset: 0x26181EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

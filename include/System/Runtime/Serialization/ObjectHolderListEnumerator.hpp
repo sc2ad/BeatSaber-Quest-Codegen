@@ -64,17 +64,17 @@ namespace System::Runtime::Serialization {
     // Get instance field reference: private System.Int32 m_currPos
     int& dyn_m_currPos();
     // System.Runtime.Serialization.ObjectHolder get_Current()
-    // Offset: 0x16BE130
+    // Offset: 0x1910F00
     System::Runtime::Serialization::ObjectHolder* get_Current();
     // System.Void .ctor(System.Runtime.Serialization.ObjectHolderList list, System.Boolean isFixupEnumerator)
-    // Offset: 0x16BE018
+    // Offset: 0x1910DE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectHolderListEnumerator* New_ctor(System::Runtime::Serialization::ObjectHolderList* list, bool isFixupEnumerator) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::ObjectHolderListEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectHolderListEnumerator*, creationType>(list, isFixupEnumerator)));
     }
     // System.Boolean MoveNext()
-    // Offset: 0x16BE07C
+    // Offset: 0x1910E4C
     bool MoveNext();
   }; // System.Runtime.Serialization.ObjectHolderListEnumerator
   #pragma pack(pop)

@@ -48,14 +48,14 @@ namespace GlobalNamespace {
     UnityEngine::MeshRenderer* meshRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshRenderer*) == 0x8);
-    // [NullAllowed] Offset: 0xE4232C
+    // [NullAllowed] Offset: 0xF0ACC0
     // private SetSaberBladeParams/PropertyTintColorPair[] _propertyTintColorPairs
     // Size: 0x8
     // Offset: 0x28
-    ::Array<GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*>* propertyTintColorPairs;
+    ::ArrayWrapper<GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*> propertyTintColorPairs;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE42364
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*>) == 0x8);
+    // [InjectAttribute] Offset: 0xF0ACF8
     // private ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x30
@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorManager*) == 0x8);
     // Creating value type constructor for type: SetSaberBladeParams
-    SetSaberBladeParams(GlobalNamespace::SaberTypeObject* saber_ = {}, UnityEngine::MeshRenderer* meshRenderer_ = {}, ::Array<GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*>* propertyTintColorPairs_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}) noexcept : saber{saber_}, meshRenderer{meshRenderer_}, propertyTintColorPairs{propertyTintColorPairs_}, colorManager{colorManager_} {}
+    SetSaberBladeParams(GlobalNamespace::SaberTypeObject* saber_ = {}, UnityEngine::MeshRenderer* meshRenderer_ = {}, ::ArrayWrapper<GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*> propertyTintColorPairs_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}) noexcept : saber{saber_}, meshRenderer{meshRenderer_}, propertyTintColorPairs{propertyTintColorPairs_}, colorManager{colorManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private SaberTypeObject _saber
@@ -71,14 +71,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.MeshRenderer _meshRenderer
     UnityEngine::MeshRenderer*& dyn__meshRenderer();
     // Get instance field reference: private SetSaberBladeParams/PropertyTintColorPair[] _propertyTintColorPairs
-    ::Array<GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*>*& dyn__propertyTintColorPairs();
+    ::ArrayWrapper<GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*>& dyn__propertyTintColorPairs();
     // Get instance field reference: private ColorManager _colorManager
     GlobalNamespace::ColorManager*& dyn__colorManager();
     // protected System.Void Start()
-    // Offset: 0x10942D0
+    // Offset: 0x1102D04
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x10943DC
+    // Offset: 0x1102E10
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

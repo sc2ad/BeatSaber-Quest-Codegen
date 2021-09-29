@@ -39,19 +39,19 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.UInt64 senderID
     uint64_t& dyn_senderID();
     // public System.Int32 GetPCM(System.Single[] dest, System.Int32 length)
-    // Offset: 0x23BA6F8
-    int GetPCM(::Array<float>* dest, int length);
+    // Offset: 0x25BF61C
+    int GetPCM(::ArrayWrapper<float> dest, int length);
     // public System.Void SetSenderID(System.UInt64 senderID)
-    // Offset: 0x23BA7B8
+    // Offset: 0x25BF6DC
     void SetSenderID(uint64_t senderID);
     // public System.Int32 PeekSizeElements()
-    // Offset: 0x23BA7C0
+    // Offset: 0x25BF6E4
     int PeekSizeElements();
     // public System.Void Update()
-    // Offset: 0x23BA860
+    // Offset: 0x25BF784
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x23B9BD4
+    // Offset: 0x25BEAF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -69,9 +69,9 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipPCMSourceNative*, "Oculus.Platform"
 // Writing MetadataGetter for method: Oculus::Platform::VoipPCMSourceNative::GetPCM
 // Il2CppName: GetPCM
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Oculus::Platform::VoipPCMSourceNative::*)(::Array<float>*, int)>(&Oculus::Platform::VoipPCMSourceNative::GetPCM)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Oculus::Platform::VoipPCMSourceNative::*)(::ArrayWrapper<float>, int)>(&Oculus::Platform::VoipPCMSourceNative::GetPCM)> {
   static const MethodInfo* get() {
-    static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
+    static auto* dest = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::VoipPCMSourceNative*), "GetPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dest, length});
   }

@@ -32,9 +32,9 @@ namespace System::Threading {
     // System.Threading.IThreadPoolWorkItem[] m_array
     // Size: 0x8
     // Offset: 0x10
-    ::Array<System::Threading::IThreadPoolWorkItem*>* m_array;
+    ::ArrayWrapper<System::Threading::IThreadPoolWorkItem*> m_array;
     // Field size check
-    static_assert(sizeof(::Array<System::Threading::IThreadPoolWorkItem*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Threading::IThreadPoolWorkItem*>) == 0x8);
     // private System.Int32 m_mask
     // Size: 0x4
     // Offset: 0x18
@@ -60,9 +60,9 @@ namespace System::Threading {
     // Field size check
     static_assert(sizeof(System::Threading::SpinLock) == 0x4);
     // Creating value type constructor for type: WorkStealingQueue
-    WorkStealingQueue(::Array<System::Threading::IThreadPoolWorkItem*>* m_array_ = {}, int m_mask_ = {}, int m_headIndex_ = {}, int m_tailIndex_ = {}, System::Threading::SpinLock m_foreignLock_ = {}) noexcept : m_array{m_array_}, m_mask{m_mask_}, m_headIndex{m_headIndex_}, m_tailIndex{m_tailIndex_}, m_foreignLock{m_foreignLock_} {}
+    WorkStealingQueue(::ArrayWrapper<System::Threading::IThreadPoolWorkItem*> m_array_ = {}, int m_mask_ = {}, int m_headIndex_ = {}, int m_tailIndex_ = {}, System::Threading::SpinLock m_foreignLock_ = {}) noexcept : m_array{m_array_}, m_mask{m_mask_}, m_headIndex{m_headIndex_}, m_tailIndex{m_tailIndex_}, m_foreignLock{m_foreignLock_} {}
     // Get instance field reference: System.Threading.IThreadPoolWorkItem[] m_array
-    ::Array<System::Threading::IThreadPoolWorkItem*>*& dyn_m_array();
+    ::ArrayWrapper<System::Threading::IThreadPoolWorkItem*>& dyn_m_array();
     // Get instance field reference: private System.Int32 m_mask
     int& dyn_m_mask();
     // Get instance field reference: private System.Int32 m_headIndex
@@ -72,22 +72,22 @@ namespace System::Threading {
     // Get instance field reference: private System.Threading.SpinLock m_foreignLock
     System::Threading::SpinLock& dyn_m_foreignLock();
     // public System.Void LocalPush(System.Threading.IThreadPoolWorkItem obj)
-    // Offset: 0x1881134
+    // Offset: 0x19BF644
     void LocalPush(System::Threading::IThreadPoolWorkItem* obj);
     // public System.Boolean LocalFindAndPop(System.Threading.IThreadPoolWorkItem obj)
-    // Offset: 0x1881640
+    // Offset: 0x19BFB50
     bool LocalFindAndPop(System::Threading::IThreadPoolWorkItem* obj);
     // public System.Boolean LocalPop(out System.Threading.IThreadPoolWorkItem obj)
-    // Offset: 0x1881AD8
+    // Offset: 0x19BFFE8
     bool LocalPop(ByRef<System::Threading::IThreadPoolWorkItem*> obj);
     // public System.Boolean TrySteal(out System.Threading.IThreadPoolWorkItem obj, ref System.Boolean missedSteal)
-    // Offset: 0x1881EC4
+    // Offset: 0x19C03D4
     bool TrySteal(ByRef<System::Threading::IThreadPoolWorkItem*> obj, ByRef<bool> missedSteal);
     // private System.Boolean TrySteal(out System.Threading.IThreadPoolWorkItem obj, ref System.Boolean missedSteal, System.Int32 millisecondsTimeout)
-    // Offset: 0x1882588
+    // Offset: 0x19C0A98
     bool TrySteal(ByRef<System::Threading::IThreadPoolWorkItem*> obj, ByRef<bool> missedSteal, int millisecondsTimeout);
     // public System.Void .ctor()
-    // Offset: 0x1882808
+    // Offset: 0x19C0D18
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

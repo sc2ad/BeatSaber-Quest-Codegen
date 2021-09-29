@@ -69,29 +69,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<IConnectedPlayer> _activePlayersAtGameStart
     System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>*& dyn__activePlayersAtGameStart();
     // public System.Collections.Generic.List`1<IConnectedPlayer> get_activePlayersAtGameStart()
-    // Offset: 0x16F9178
+    // Offset: 0x18D2C78
     System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* get_activePlayersAtGameStart();
     // public System.Collections.Generic.IReadOnlyList`1<PlayerSpecificSettingsNetSerializable> get_activePlayerSpecificSettingsAtGameStart()
-    // Offset: 0x16F9368
+    // Offset: 0x18D2E68
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* get_activePlayerSpecificSettingsAtGameStart();
     // private System.Void set_activePlayerSpecificSettingsAtGameStart(System.Collections.Generic.IReadOnlyList`1<PlayerSpecificSettingsNetSerializable> value)
-    // Offset: 0x16F9370
+    // Offset: 0x18D2E70
     void set_activePlayerSpecificSettingsAtGameStart(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* value);
     // public System.Void .ctor(System.Collections.Generic.List`1<PlayerSpecificSettingsNetSerializable> activePlayerSpecificSettingsAtGameStart)
-    // Offset: 0x16F9380
+    // Offset: 0x18D2E80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSpecificSettingsAtStartNetSerializable* New_ctor(System::Collections::Generic::List_1<GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* activePlayerSpecificSettingsAtGameStart) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSpecificSettingsAtStartNetSerializable*, creationType>(activePlayerSpecificSettingsAtGameStart)));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16F93AC
+    // Offset: 0x18D2EAC
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16F9728
+    // Offset: 0x18D3228
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x16F9378
+    // Offset: 0x18D2E78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

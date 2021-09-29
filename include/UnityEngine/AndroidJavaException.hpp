@@ -35,14 +35,14 @@ namespace UnityEngine {
     // Get instance field reference: private System.String mJavaStackTrace
     ::Il2CppString*& dyn_mJavaStackTrace();
     // System.Void .ctor(System.String message, System.String javaStackTrace)
-    // Offset: 0x23A4E28
+    // Offset: 0x25A9D4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaException* New_ctor(::Il2CppString* message, ::Il2CppString* javaStackTrace) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaException*, creationType>(message, javaStackTrace)));
     }
     // public override System.String get_StackTrace()
-    // Offset: 0x23A8794
+    // Offset: 0x25AD6B8
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_StackTrace()
     ::Il2CppString* get_StackTrace();

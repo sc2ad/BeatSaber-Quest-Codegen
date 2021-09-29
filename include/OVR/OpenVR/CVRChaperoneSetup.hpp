@@ -53,71 +53,71 @@ namespace OVR::OpenVR {
     // Get instance field reference: private OVR.OpenVR.IVRChaperoneSetup FnTable
     OVR::OpenVR::IVRChaperoneSetup& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x15C40D8
+    // Offset: 0x1767590
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRChaperoneSetup* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRChaperoneSetup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRChaperoneSetup*, creationType>(pInterface)));
     }
     // public System.Boolean CommitWorkingCopy(OVR.OpenVR.EChaperoneConfigFile configFile)
-    // Offset: 0x15C41E0
+    // Offset: 0x1767698
     bool CommitWorkingCopy(OVR::OpenVR::EChaperoneConfigFile configFile);
     // public System.Void RevertWorkingCopy()
-    // Offset: 0x15C4474
+    // Offset: 0x176792C
     void RevertWorkingCopy();
     // public System.Boolean GetWorkingPlayAreaSize(ref System.Single pSizeX, ref System.Single pSizeZ)
-    // Offset: 0x15C4698
+    // Offset: 0x1767B50
     bool GetWorkingPlayAreaSize(ByRef<float> pSizeX, ByRef<float> pSizeZ);
     // public System.Boolean GetWorkingPlayAreaRect(ref OVR.OpenVR.HmdQuad_t rect)
-    // Offset: 0x15C4930
+    // Offset: 0x1767DE8
     bool GetWorkingPlayAreaRect(ByRef<OVR::OpenVR::HmdQuad_t> rect);
     // public System.Boolean GetWorkingCollisionBoundsInfo(out OVR.OpenVR.HmdQuad_t[] pQuadsBuffer)
-    // Offset: 0x15C4BA8
-    bool GetWorkingCollisionBoundsInfo(ByRef<::Array<OVR::OpenVR::HmdQuad_t>*> pQuadsBuffer);
+    // Offset: 0x1768060
+    bool GetWorkingCollisionBoundsInfo(ByRef<::ArrayWrapper<OVR::OpenVR::HmdQuad_t>> pQuadsBuffer);
     // public System.Boolean GetLiveCollisionBoundsInfo(out OVR.OpenVR.HmdQuad_t[] pQuadsBuffer)
-    // Offset: 0x15C4EBC
-    bool GetLiveCollisionBoundsInfo(ByRef<::Array<OVR::OpenVR::HmdQuad_t>*> pQuadsBuffer);
+    // Offset: 0x1768374
+    bool GetLiveCollisionBoundsInfo(ByRef<::ArrayWrapper<OVR::OpenVR::HmdQuad_t>> pQuadsBuffer);
     // public System.Boolean GetWorkingSeatedZeroPoseToRawTrackingPose(ref OVR.OpenVR.HmdMatrix34_t pmatSeatedZeroPoseToRawTrackingPose)
-    // Offset: 0x15C51D0
+    // Offset: 0x1768688
     bool GetWorkingSeatedZeroPoseToRawTrackingPose(ByRef<OVR::OpenVR::HmdMatrix34_t> pmatSeatedZeroPoseToRawTrackingPose);
     // public System.Boolean GetWorkingStandingZeroPoseToRawTrackingPose(ref OVR.OpenVR.HmdMatrix34_t pmatStandingZeroPoseToRawTrackingPose)
-    // Offset: 0x15C5448
+    // Offset: 0x1768900
     bool GetWorkingStandingZeroPoseToRawTrackingPose(ByRef<OVR::OpenVR::HmdMatrix34_t> pmatStandingZeroPoseToRawTrackingPose);
     // public System.Void SetWorkingPlayAreaSize(System.Single sizeX, System.Single sizeZ)
-    // Offset: 0x15C56C0
+    // Offset: 0x1768B78
     void SetWorkingPlayAreaSize(float sizeX, float sizeZ);
     // public System.Void SetWorkingCollisionBoundsInfo(OVR.OpenVR.HmdQuad_t[] pQuadsBuffer)
-    // Offset: 0x15C5950
-    void SetWorkingCollisionBoundsInfo(::Array<OVR::OpenVR::HmdQuad_t>* pQuadsBuffer);
+    // Offset: 0x1768E08
+    void SetWorkingCollisionBoundsInfo(::ArrayWrapper<OVR::OpenVR::HmdQuad_t> pQuadsBuffer);
     // public System.Void SetWorkingSeatedZeroPoseToRawTrackingPose(ref OVR.OpenVR.HmdMatrix34_t pMatSeatedZeroPoseToRawTrackingPose)
-    // Offset: 0x15C5BE4
+    // Offset: 0x176909C
     void SetWorkingSeatedZeroPoseToRawTrackingPose(ByRef<OVR::OpenVR::HmdMatrix34_t> pMatSeatedZeroPoseToRawTrackingPose);
     // public System.Void SetWorkingStandingZeroPoseToRawTrackingPose(ref OVR.OpenVR.HmdMatrix34_t pMatStandingZeroPoseToRawTrackingPose)
-    // Offset: 0x15C5E50
+    // Offset: 0x1769308
     void SetWorkingStandingZeroPoseToRawTrackingPose(ByRef<OVR::OpenVR::HmdMatrix34_t> pMatStandingZeroPoseToRawTrackingPose);
     // public System.Void ReloadFromDisk(OVR.OpenVR.EChaperoneConfigFile configFile)
-    // Offset: 0x15C60BC
+    // Offset: 0x1769574
     void ReloadFromDisk(OVR::OpenVR::EChaperoneConfigFile configFile);
     // public System.Boolean GetLiveSeatedZeroPoseToRawTrackingPose(ref OVR.OpenVR.HmdMatrix34_t pmatSeatedZeroPoseToRawTrackingPose)
-    // Offset: 0x15C6344
+    // Offset: 0x17697FC
     bool GetLiveSeatedZeroPoseToRawTrackingPose(ByRef<OVR::OpenVR::HmdMatrix34_t> pmatSeatedZeroPoseToRawTrackingPose);
     // public System.Void SetWorkingCollisionBoundsTagsInfo(System.Byte[] pTagsBuffer)
-    // Offset: 0x15C65BC
-    void SetWorkingCollisionBoundsTagsInfo(::Array<uint8_t>* pTagsBuffer);
+    // Offset: 0x1769A74
+    void SetWorkingCollisionBoundsTagsInfo(::ArrayWrapper<uint8_t> pTagsBuffer);
     // public System.Boolean GetLiveCollisionBoundsTagsInfo(out System.Byte[] pTagsBuffer)
-    // Offset: 0x15C6850
-    bool GetLiveCollisionBoundsTagsInfo(ByRef<::Array<uint8_t>*> pTagsBuffer);
+    // Offset: 0x1769D08
+    bool GetLiveCollisionBoundsTagsInfo(ByRef<::ArrayWrapper<uint8_t>> pTagsBuffer);
     // public System.Boolean SetWorkingPhysicalBoundsInfo(OVR.OpenVR.HmdQuad_t[] pQuadsBuffer)
-    // Offset: 0x15C6B64
-    bool SetWorkingPhysicalBoundsInfo(::Array<OVR::OpenVR::HmdQuad_t>* pQuadsBuffer);
+    // Offset: 0x176A01C
+    bool SetWorkingPhysicalBoundsInfo(::ArrayWrapper<OVR::OpenVR::HmdQuad_t> pQuadsBuffer);
     // public System.Boolean GetLivePhysicalBoundsInfo(out OVR.OpenVR.HmdQuad_t[] pQuadsBuffer)
-    // Offset: 0x15C6E04
-    bool GetLivePhysicalBoundsInfo(ByRef<::Array<OVR::OpenVR::HmdQuad_t>*> pQuadsBuffer);
+    // Offset: 0x176A2BC
+    bool GetLivePhysicalBoundsInfo(ByRef<::ArrayWrapper<OVR::OpenVR::HmdQuad_t>> pQuadsBuffer);
     // public System.Boolean ExportLiveToBuffer(System.Text.StringBuilder pBuffer, ref System.UInt32 pnBufferLength)
-    // Offset: 0x15C7118
+    // Offset: 0x176A5D0
     bool ExportLiveToBuffer(System::Text::StringBuilder* pBuffer, ByRef<uint> pnBufferLength);
     // public System.Boolean ImportFromBufferToWorking(System.String pBuffer, System.UInt32 nImportFlags)
-    // Offset: 0x15C7528
+    // Offset: 0x176A9E0
     bool ImportFromBufferToWorking(::Il2CppString* pBuffer, uint nImportFlags);
   }; // OVR.OpenVR.CVRChaperoneSetup
   #pragma pack(pop)
@@ -169,18 +169,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRChaperoneSetup::GetWorkingCollisionBoundsInfo
 // Il2CppName: GetWorkingCollisionBoundsInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRChaperoneSetup::*)(ByRef<::Array<OVR::OpenVR::HmdQuad_t>*>)>(&OVR::OpenVR::CVRChaperoneSetup::GetWorkingCollisionBoundsInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRChaperoneSetup::*)(ByRef<::ArrayWrapper<OVR::OpenVR::HmdQuad_t>>)>(&OVR::OpenVR::CVRChaperoneSetup::GetWorkingCollisionBoundsInfo)> {
   static const MethodInfo* get() {
-    static auto* pQuadsBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdQuad_t"), 1)->this_arg;
+    static auto* pQuadsBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdQuad_t")), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRChaperoneSetup*), "GetWorkingCollisionBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pQuadsBuffer});
   }
 };
 // Writing MetadataGetter for method: OVR::OpenVR::CVRChaperoneSetup::GetLiveCollisionBoundsInfo
 // Il2CppName: GetLiveCollisionBoundsInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRChaperoneSetup::*)(ByRef<::Array<OVR::OpenVR::HmdQuad_t>*>)>(&OVR::OpenVR::CVRChaperoneSetup::GetLiveCollisionBoundsInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRChaperoneSetup::*)(ByRef<::ArrayWrapper<OVR::OpenVR::HmdQuad_t>>)>(&OVR::OpenVR::CVRChaperoneSetup::GetLiveCollisionBoundsInfo)> {
   static const MethodInfo* get() {
-    static auto* pQuadsBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdQuad_t"), 1)->this_arg;
+    static auto* pQuadsBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdQuad_t")), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRChaperoneSetup*), "GetLiveCollisionBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pQuadsBuffer});
   }
 };
@@ -215,9 +215,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRChaperoneSetup::SetWorkingCollisionBoundsInfo
 // Il2CppName: SetWorkingCollisionBoundsInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRChaperoneSetup::*)(::Array<OVR::OpenVR::HmdQuad_t>*)>(&OVR::OpenVR::CVRChaperoneSetup::SetWorkingCollisionBoundsInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRChaperoneSetup::*)(::ArrayWrapper<OVR::OpenVR::HmdQuad_t>)>(&OVR::OpenVR::CVRChaperoneSetup::SetWorkingCollisionBoundsInfo)> {
   static const MethodInfo* get() {
-    static auto* pQuadsBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdQuad_t"), 1)->byval_arg;
+    static auto* pQuadsBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdQuad_t")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRChaperoneSetup*), "SetWorkingCollisionBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pQuadsBuffer});
   }
 };
@@ -260,36 +260,36 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRChaperoneSetup::SetWorkingCollisionBoundsTagsInfo
 // Il2CppName: SetWorkingCollisionBoundsTagsInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRChaperoneSetup::*)(::Array<uint8_t>*)>(&OVR::OpenVR::CVRChaperoneSetup::SetWorkingCollisionBoundsTagsInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRChaperoneSetup::*)(::ArrayWrapper<uint8_t>)>(&OVR::OpenVR::CVRChaperoneSetup::SetWorkingCollisionBoundsTagsInfo)> {
   static const MethodInfo* get() {
-    static auto* pTagsBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* pTagsBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRChaperoneSetup*), "SetWorkingCollisionBoundsTagsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pTagsBuffer});
   }
 };
 // Writing MetadataGetter for method: OVR::OpenVR::CVRChaperoneSetup::GetLiveCollisionBoundsTagsInfo
 // Il2CppName: GetLiveCollisionBoundsTagsInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRChaperoneSetup::*)(ByRef<::Array<uint8_t>*>)>(&OVR::OpenVR::CVRChaperoneSetup::GetLiveCollisionBoundsTagsInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRChaperoneSetup::*)(ByRef<::ArrayWrapper<uint8_t>>)>(&OVR::OpenVR::CVRChaperoneSetup::GetLiveCollisionBoundsTagsInfo)> {
   static const MethodInfo* get() {
-    static auto* pTagsBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
+    static auto* pTagsBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRChaperoneSetup*), "GetLiveCollisionBoundsTagsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pTagsBuffer});
   }
 };
 // Writing MetadataGetter for method: OVR::OpenVR::CVRChaperoneSetup::SetWorkingPhysicalBoundsInfo
 // Il2CppName: SetWorkingPhysicalBoundsInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRChaperoneSetup::*)(::Array<OVR::OpenVR::HmdQuad_t>*)>(&OVR::OpenVR::CVRChaperoneSetup::SetWorkingPhysicalBoundsInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRChaperoneSetup::*)(::ArrayWrapper<OVR::OpenVR::HmdQuad_t>)>(&OVR::OpenVR::CVRChaperoneSetup::SetWorkingPhysicalBoundsInfo)> {
   static const MethodInfo* get() {
-    static auto* pQuadsBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdQuad_t"), 1)->byval_arg;
+    static auto* pQuadsBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdQuad_t")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRChaperoneSetup*), "SetWorkingPhysicalBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pQuadsBuffer});
   }
 };
 // Writing MetadataGetter for method: OVR::OpenVR::CVRChaperoneSetup::GetLivePhysicalBoundsInfo
 // Il2CppName: GetLivePhysicalBoundsInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRChaperoneSetup::*)(ByRef<::Array<OVR::OpenVR::HmdQuad_t>*>)>(&OVR::OpenVR::CVRChaperoneSetup::GetLivePhysicalBoundsInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRChaperoneSetup::*)(ByRef<::ArrayWrapper<OVR::OpenVR::HmdQuad_t>>)>(&OVR::OpenVR::CVRChaperoneSetup::GetLivePhysicalBoundsInfo)> {
   static const MethodInfo* get() {
-    static auto* pQuadsBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdQuad_t"), 1)->this_arg;
+    static auto* pQuadsBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdQuad_t")), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRChaperoneSetup*), "GetLivePhysicalBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pQuadsBuffer});
   }
 };

@@ -67,10 +67,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean practice
     bool& dyn_practice();
     // System.Void <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0(EnterPlayerGuestNameViewController viewController, System.String playerName)
-    // Offset: 0x1096870
+    // Offset: 0x11052A4
     void $ProcessLevelCompletionResultsAfterLevelDidFinish$b__0(GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::Il2CppString* playerName);
     // public System.Void .ctor()
-    // Offset: 0x10961B4
+    // Offset: 0x1104BE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

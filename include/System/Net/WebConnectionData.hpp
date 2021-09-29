@@ -86,9 +86,9 @@ namespace System::Net {
     // public System.String[] Challenge
     // Size: 0x8
     // Offset: 0x48
-    ::Array<::Il2CppString*>* Challenge;
+    ::ArrayWrapper<::Il2CppString*> Challenge;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // private System.Net.ReadState _readState
     // Size: 0x4
     // Offset: 0x50
@@ -96,7 +96,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(System::Net::ReadState) == 0x4);
     // Creating value type constructor for type: WebConnectionData
-    WebConnectionData(System::Net::HttpWebRequest* request_ = {}, int StatusCode_ = {}, ::Il2CppString* StatusDescription_ = {}, System::Net::WebHeaderCollection* Headers_ = {}, System::Version* Version_ = {}, System::Version* ProxyVersion_ = {}, System::IO::Stream* stream_ = {}, ::Array<::Il2CppString*>* Challenge_ = {}, System::Net::ReadState readState_ = {}) noexcept : request{request_}, StatusCode{StatusCode_}, StatusDescription{StatusDescription_}, Headers{Headers_}, Version{Version_}, ProxyVersion{ProxyVersion_}, stream{stream_}, Challenge{Challenge_}, readState{readState_} {}
+    WebConnectionData(System::Net::HttpWebRequest* request_ = {}, int StatusCode_ = {}, ::Il2CppString* StatusDescription_ = {}, System::Net::WebHeaderCollection* Headers_ = {}, System::Version* Version_ = {}, System::Version* ProxyVersion_ = {}, System::IO::Stream* stream_ = {}, ::ArrayWrapper<::Il2CppString*> Challenge_ = {}, System::Net::ReadState readState_ = {}) noexcept : request{request_}, StatusCode{StatusCode_}, StatusDescription{StatusDescription_}, Headers{Headers_}, Version{Version_}, ProxyVersion{ProxyVersion_}, stream{stream_}, Challenge{Challenge_}, readState{readState_} {}
     // Get instance field reference: private System.Net.HttpWebRequest _request
     System::Net::HttpWebRequest*& dyn__request();
     // Get instance field reference: public System.Int32 StatusCode
@@ -112,30 +112,30 @@ namespace System::Net {
     // Get instance field reference: public System.IO.Stream stream
     System::IO::Stream*& dyn_stream();
     // Get instance field reference: public System.String[] Challenge
-    ::Array<::Il2CppString*>*& dyn_Challenge();
+    ::ArrayWrapper<::Il2CppString*>& dyn_Challenge();
     // Get instance field reference: private System.Net.ReadState _readState
     System::Net::ReadState& dyn__readState();
     // public System.Net.HttpWebRequest get_request()
-    // Offset: 0x15DAF7C
+    // Offset: 0x177E434
     System::Net::HttpWebRequest* get_request();
     // public System.Void set_request(System.Net.HttpWebRequest value)
-    // Offset: 0x15DAF84
+    // Offset: 0x177E43C
     void set_request(System::Net::HttpWebRequest* value);
     // public System.Net.ReadState get_ReadState()
-    // Offset: 0x15DAF8C
+    // Offset: 0x177E444
     System::Net::ReadState get_ReadState();
     // public System.Void set_ReadState(System.Net.ReadState value)
-    // Offset: 0x15D7B98
+    // Offset: 0x177B050
     void set_ReadState(System::Net::ReadState value);
     // public System.Void .ctor(System.Net.HttpWebRequest request)
-    // Offset: 0x15D87B4
+    // Offset: 0x177BC6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionData* New_ctor(System::Net::HttpWebRequest* request) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebConnectionData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionData*, creationType>(request)));
     }
     // public System.Void .ctor()
-    // Offset: 0x15D4B0C
+    // Offset: 0x1777FC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

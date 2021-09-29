@@ -39,7 +39,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFF
     void OpenScriptReference();
     // protected System.Void .ctor()
-    // Offset: 0x1CC3B38
+    // Offset: 0x1E86DF8
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -53,17 +53,17 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IK*, creationType>()));
     }
     // protected override System.Void UpdateSolver()
-    // Offset: 0x1CD0D58
+    // Offset: 0x1E94018
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::UpdateSolver()
     void UpdateSolver();
     // protected override System.Void InitiateSolver()
-    // Offset: 0x1CD0E4C
+    // Offset: 0x1E9410C
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::InitiateSolver()
     void InitiateSolver();
     // protected override System.Void FixTransforms()
-    // Offset: 0x1CD1010
+    // Offset: 0x1E942D0
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::FixTransforms()
     void FixTransforms();

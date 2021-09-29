@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     // private System.Runtime.CompilerServices.TaskAwaiter`1<System.String[]> <>u__1
     // Size: 0xFFFFFFFF
     // Offset: 0x58
-    System::Runtime::CompilerServices::TaskAwaiter_1<::Array<::Il2CppString*>*> $$u__1;
+    System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayWrapper<::Il2CppString*>> $$u__1;
     // private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__2
     // Size: 0xFFFFFFFF
     // Offset: 0x60
@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     // Offset: 0x68
     System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>> $$u__3;
     // Creating value type constructor for type: $GetLeaderboardEntriesAsync$d__10
-    constexpr $GetLeaderboardEntriesAsync$d__10(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::GetLeaderboardEntriesResult> $$t__builder_ = {}, GlobalNamespace::HTTPLeaderboardsModel* $$4__this_ = {}, OnlineServices::GetLeaderboardFilterData leaderboardFilterData_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, ::Il2CppString* $leaderboardId$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Array<::Il2CppString*>*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>> $$u__3_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, leaderboardFilterData{leaderboardFilterData_}, cancellationToken{cancellationToken_}, $leaderboardId$5__2{$leaderboardId$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_}, $$u__3{$$u__3_} {}
+    constexpr $GetLeaderboardEntriesAsync$d__10(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::GetLeaderboardEntriesResult> $$t__builder_ = {}, GlobalNamespace::HTTPLeaderboardsModel* $$4__this_ = {}, OnlineServices::GetLeaderboardFilterData leaderboardFilterData_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, ::Il2CppString* $leaderboardId$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayWrapper<::Il2CppString*>> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>> $$u__3_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, leaderboardFilterData{leaderboardFilterData_}, cancellationToken{cancellationToken_}, $leaderboardId$5__2{$leaderboardId$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_}, $$u__3{$$u__3_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -108,16 +108,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String <leaderboardId>5__2
     ::Il2CppString*& dyn_$leaderboardId$5__2();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String[]> <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter_1<::Array<::Il2CppString*>*>& dyn_$$u__1();
+    System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayWrapper<::Il2CppString*>>& dyn_$$u__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__2
     System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>& dyn_$$u__2();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.API.ApiResponse`1<BeatSaberAPI.DataTransferObjects.LeaderboardEntries>> <>u__3
     System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>& dyn_$$u__3();
     // private System.Void MoveNext()
-    // Offset: 0x1184CFC
+    // Offset: 0x11433D8
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x11855FC
+    // Offset: 0x1143CD8
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // HTTPLeaderboardsModel/<GetLeaderboardEntriesAsync>d__10
   // WARNING Not writing size check since size may be invalid!

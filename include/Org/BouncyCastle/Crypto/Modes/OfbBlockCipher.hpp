@@ -30,21 +30,21 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // private System.Byte[] IV
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* IV;
+    ::ArrayWrapper<uint8_t> IV;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Byte[] ofbV
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* ofbV;
+    ::ArrayWrapper<uint8_t> ofbV;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Byte[] ofbOutV
     // Size: 0x8
     // Offset: 0x20
-    ::Array<uint8_t>* ofbOutV;
+    ::ArrayWrapper<uint8_t> ofbOutV;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private readonly System.Int32 blockSize
     // Size: 0x4
     // Offset: 0x28
@@ -60,45 +60,45 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::IBlockCipher*) == 0x8);
     // Creating value type constructor for type: OfbBlockCipher
-    OfbBlockCipher(::Array<uint8_t>* IV_ = {}, ::Array<uint8_t>* ofbV_ = {}, ::Array<uint8_t>* ofbOutV_ = {}, int blockSize_ = {}, Org::BouncyCastle::Crypto::IBlockCipher* cipher_ = {}) noexcept : IV{IV_}, ofbV{ofbV_}, ofbOutV{ofbOutV_}, blockSize{blockSize_}, cipher{cipher_} {}
+    OfbBlockCipher(::ArrayWrapper<uint8_t> IV_ = {}, ::ArrayWrapper<uint8_t> ofbV_ = {}, ::ArrayWrapper<uint8_t> ofbOutV_ = {}, int blockSize_ = {}, Org::BouncyCastle::Crypto::IBlockCipher* cipher_ = {}) noexcept : IV{IV_}, ofbV{ofbV_}, ofbOutV{ofbOutV_}, blockSize{blockSize_}, cipher{cipher_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);
     }
     // Get instance field reference: private System.Byte[] IV
-    ::Array<uint8_t>*& dyn_IV();
+    ::ArrayWrapper<uint8_t>& dyn_IV();
     // Get instance field reference: private System.Byte[] ofbV
-    ::Array<uint8_t>*& dyn_ofbV();
+    ::ArrayWrapper<uint8_t>& dyn_ofbV();
     // Get instance field reference: private System.Byte[] ofbOutV
-    ::Array<uint8_t>*& dyn_ofbOutV();
+    ::ArrayWrapper<uint8_t>& dyn_ofbOutV();
     // Get instance field reference: private readonly System.Int32 blockSize
     int& dyn_blockSize();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
     Org::BouncyCastle::Crypto::IBlockCipher*& dyn_cipher();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1927B30
+    // Offset: 0x1A97964
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1927C2C
+    // Offset: 0x1A97A60
     bool get_IsPartialBlockOkay();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher, System.Int32 blockSize)
-    // Offset: 0x1927690
+    // Offset: 0x1A974C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OfbBlockCipher* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* cipher, int blockSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Modes::OfbBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OfbBlockCipher*, creationType>(cipher, blockSize)));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1927884
+    // Offset: 0x1A976B8
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1927C34
+    // Offset: 0x1A97A68
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1927C3C
-    int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
+    // Offset: 0x1A97A70
+    int ProcessBlock(::ArrayWrapper<uint8_t> input, int inOff, ::ArrayWrapper<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1927A5C
+    // Offset: 0x1A97890
     void Reset();
   }; // Org.BouncyCastle.Crypto.Modes.OfbBlockCipher
   #pragma pack(pop)
@@ -148,11 +148,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::OfbBlockCipher::ProcessBlock
 // Il2CppName: ProcessBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Modes::OfbBlockCipher::*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Modes::OfbBlockCipher::ProcessBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Modes::OfbBlockCipher::*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Modes::OfbBlockCipher::ProcessBlock)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Modes::OfbBlockCipher*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, inOff, output, outOff});
   }

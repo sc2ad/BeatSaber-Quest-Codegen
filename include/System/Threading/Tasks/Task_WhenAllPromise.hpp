@@ -28,9 +28,9 @@ namespace System::Threading::Tasks {
     // private readonly System.Threading.Tasks.Task[] m_tasks
     // Size: 0x8
     // Offset: 0x58
-    ::Array<System::Threading::Tasks::Task*>* m_tasks;
+    ::ArrayWrapper<System::Threading::Tasks::Task*> m_tasks;
     // Field size check
-    static_assert(sizeof(::Array<System::Threading::Tasks::Task*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Threading::Tasks::Task*>) == 0x8);
     // private System.Int32 m_count
     // Size: 0x4
     // Offset: 0x60
@@ -38,27 +38,27 @@ namespace System::Threading::Tasks {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: WhenAllPromise
-    WhenAllPromise(::Array<System::Threading::Tasks::Task*>* m_tasks_ = {}, int m_count_ = {}) noexcept : m_tasks{m_tasks_}, m_count{m_count_} {}
+    WhenAllPromise(::ArrayWrapper<System::Threading::Tasks::Task*> m_tasks_ = {}, int m_count_ = {}) noexcept : m_tasks{m_tasks_}, m_count{m_count_} {}
     // Creating interface conversion operator: operator System::Threading::Tasks::ITaskCompletionAction
     operator System::Threading::Tasks::ITaskCompletionAction() noexcept {
       return *reinterpret_cast<System::Threading::Tasks::ITaskCompletionAction*>(this);
     }
     // Get instance field reference: private readonly System.Threading.Tasks.Task[] m_tasks
-    ::Array<System::Threading::Tasks::Task*>*& dyn_m_tasks();
+    ::ArrayWrapper<System::Threading::Tasks::Task*>& dyn_m_tasks();
     // Get instance field reference: private System.Int32 m_count
     int& dyn_m_count();
     // System.Void .ctor(System.Threading.Tasks.Task[] tasks)
-    // Offset: 0x187B158
+    // Offset: 0x19B92BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Task::WhenAllPromise* New_ctor(::Array<System::Threading::Tasks::Task*>* tasks) {
+    static Task::WhenAllPromise* New_ctor(::ArrayWrapper<System::Threading::Tasks::Task*> tasks) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task::WhenAllPromise::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Task::WhenAllPromise*, creationType>(tasks)));
     }
     // public System.Void Invoke(System.Threading.Tasks.Task completedTask)
-    // Offset: 0x187B2E8
+    // Offset: 0x19B944C
     void Invoke(System::Threading::Tasks::Task* completedTask);
     // override System.Boolean get_ShouldNotifyDebuggerOfWaitCompletion()
-    // Offset: 0x187B5EC
+    // Offset: 0x19B9750
     // Implemented from: System.Threading.Tasks.Task
     // Base method: System.Boolean Task::get_ShouldNotifyDebuggerOfWaitCompletion()
     bool get_ShouldNotifyDebuggerOfWaitCompletion();

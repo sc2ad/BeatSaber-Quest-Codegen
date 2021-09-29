@@ -96,28 +96,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BeatmapData <beatmapData>k__BackingField
     GlobalNamespace::BeatmapData*& dyn_$beatmapData$k__BackingField();
     // public IBeatmapLevel get_level()
-    // Offset: 0x1055EE4
+    // Offset: 0x11AECCC
     GlobalNamespace::IBeatmapLevel* get_level();
     // public IDifficultyBeatmapSet get_parentDifficultyBeatmapSet()
-    // Offset: 0x1055EEC
+    // Offset: 0x11AECD4
     GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet();
     // public BeatmapDifficulty get_difficulty()
-    // Offset: 0x1055EF4
+    // Offset: 0x11AECDC
     GlobalNamespace::BeatmapDifficulty get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0x1055EFC
+    // Offset: 0x11AECE4
     int get_difficultyRank();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x1055F04
+    // Offset: 0x11AECEC
     float get_noteJumpMovementSpeed();
     // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0x1055F0C
+    // Offset: 0x11AECF4
     float get_noteJumpStartBeatOffset();
     // public BeatmapData get_beatmapData()
-    // Offset: 0x1055F14
+    // Offset: 0x11AECFC
     GlobalNamespace::BeatmapData* get_beatmapData();
     // public System.Void .ctor()
-    // Offset: 0x1055F1C
+    // Offset: 0x11AED04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -34,14 +34,14 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class GregorianCalendarHelper : public ::Il2CppObject {
     public:
-    // [OptionalFieldAttribute] Offset: 0xDA6C44
+    // [OptionalFieldAttribute] Offset: 0xE63468
     // System.Int32 m_maxYear
     // Size: 0x4
     // Offset: 0x10
     int m_maxYear;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [OptionalFieldAttribute] Offset: 0xDA6C7C
+    // [OptionalFieldAttribute] Offset: 0xE634A0
     // System.Int32 m_minYear
     // Size: 0x4
     // Offset: 0x14
@@ -54,21 +54,21 @@ namespace System::Globalization {
     System::Globalization::Calendar* m_Cal;
     // Field size check
     static_assert(sizeof(System::Globalization::Calendar*) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0xDA6CB4
+    // [OptionalFieldAttribute] Offset: 0xE634D8
     // System.Globalization.EraInfo[] m_EraInfo
     // Size: 0x8
     // Offset: 0x20
-    ::Array<System::Globalization::EraInfo*>* m_EraInfo;
+    ::ArrayWrapper<System::Globalization::EraInfo*> m_EraInfo;
     // Field size check
-    static_assert(sizeof(::Array<System::Globalization::EraInfo*>*) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0xDA6CEC
+    static_assert(sizeof(::ArrayWrapper<System::Globalization::EraInfo*>) == 0x8);
+    // [OptionalFieldAttribute] Offset: 0xE63510
     // System.Int32[] m_eras
     // Size: 0x8
     // Offset: 0x28
-    ::Array<int>* m_eras;
+    ::ArrayWrapper<int> m_eras;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0xDA6D24
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    // [OptionalFieldAttribute] Offset: 0xE63548
     // System.DateTime m_minDate
     // Size: 0x8
     // Offset: 0x30
@@ -76,15 +76,15 @@ namespace System::Globalization {
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
     // Creating value type constructor for type: GregorianCalendarHelper
-    GregorianCalendarHelper(int m_maxYear_ = {}, int m_minYear_ = {}, System::Globalization::Calendar* m_Cal_ = {}, ::Array<System::Globalization::EraInfo*>* m_EraInfo_ = {}, ::Array<int>* m_eras_ = {}, System::DateTime m_minDate_ = {}) noexcept : m_maxYear{m_maxYear_}, m_minYear{m_minYear_}, m_Cal{m_Cal_}, m_EraInfo{m_EraInfo_}, m_eras{m_eras_}, m_minDate{m_minDate_} {}
+    GregorianCalendarHelper(int m_maxYear_ = {}, int m_minYear_ = {}, System::Globalization::Calendar* m_Cal_ = {}, ::ArrayWrapper<System::Globalization::EraInfo*> m_EraInfo_ = {}, ::ArrayWrapper<int> m_eras_ = {}, System::DateTime m_minDate_ = {}) noexcept : m_maxYear{m_maxYear_}, m_minYear{m_minYear_}, m_Cal{m_Cal_}, m_EraInfo{m_EraInfo_}, m_eras{m_eras_}, m_minDate{m_minDate_} {}
     // Get static field: static readonly System.Int32[] DaysToMonth365
-    static ::Array<int>* _get_DaysToMonth365();
+    static ::ArrayWrapper<int> _get_DaysToMonth365();
     // Set static field: static readonly System.Int32[] DaysToMonth365
-    static void _set_DaysToMonth365(::Array<int>* value);
+    static void _set_DaysToMonth365(::ArrayWrapper<int> value);
     // Get static field: static readonly System.Int32[] DaysToMonth366
-    static ::Array<int>* _get_DaysToMonth366();
+    static ::ArrayWrapper<int> _get_DaysToMonth366();
     // Set static field: static readonly System.Int32[] DaysToMonth366
-    static void _set_DaysToMonth366(::Array<int>* value);
+    static void _set_DaysToMonth366(::ArrayWrapper<int> value);
     // Get instance field reference: System.Int32 m_maxYear
     int& dyn_m_maxYear();
     // Get instance field reference: System.Int32 m_minYear
@@ -92,74 +92,74 @@ namespace System::Globalization {
     // Get instance field reference: System.Globalization.Calendar m_Cal
     System::Globalization::Calendar*& dyn_m_Cal();
     // Get instance field reference: System.Globalization.EraInfo[] m_EraInfo
-    ::Array<System::Globalization::EraInfo*>*& dyn_m_EraInfo();
+    ::ArrayWrapper<System::Globalization::EraInfo*>& dyn_m_EraInfo();
     // Get instance field reference: System.Int32[] m_eras
-    ::Array<int>*& dyn_m_eras();
+    ::ArrayWrapper<int>& dyn_m_eras();
     // Get instance field reference: System.DateTime m_minDate
     System::DateTime& dyn_m_minDate();
     // System.Int32 get_MaxYear()
-    // Offset: 0x1A1992C
+    // Offset: 0x1BD4668
     int get_MaxYear();
     // public System.Int32[] get_Eras()
-    // Offset: 0x1A1A8DC
-    ::Array<int>* get_Eras();
+    // Offset: 0x1BD5618
+    ::ArrayWrapper<int> get_Eras();
     // System.Void .ctor(System.Globalization.Calendar cal, System.Globalization.EraInfo[] eraInfo)
-    // Offset: 0x1A19934
+    // Offset: 0x1BD4670
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GregorianCalendarHelper* New_ctor(System::Globalization::Calendar* cal, ::Array<System::Globalization::EraInfo*>* eraInfo) {
+    static GregorianCalendarHelper* New_ctor(System::Globalization::Calendar* cal, ::ArrayWrapper<System::Globalization::EraInfo*> eraInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::GregorianCalendarHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GregorianCalendarHelper*, creationType>(cal, eraInfo)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1A1ACD8
+    // Offset: 0x1BD5A14
     static void _cctor();
     // System.Int32 GetGregorianYear(System.Int32 year, System.Int32 era)
-    // Offset: 0x1A199D4
+    // Offset: 0x1BD4710
     int GetGregorianYear(int year, int era);
     // System.Boolean IsValidYear(System.Int32 year, System.Int32 era)
-    // Offset: 0x1A19C3C
+    // Offset: 0x1BD4978
     bool IsValidYear(int year, int era);
     // System.Int32 GetDatePart(System.Int64 ticks, System.Int32 part)
-    // Offset: 0x1A19CF4
+    // Offset: 0x1BD4A30
     int GetDatePart(int64_t ticks, int part);
     // static System.Int64 GetAbsoluteDate(System.Int32 year, System.Int32 month, System.Int32 day)
-    // Offset: 0x1A1A110
+    // Offset: 0x1BD4E4C
     static int64_t GetAbsoluteDate(int year, int month, int day);
     // static System.Int64 DateToTicks(System.Int32 year, System.Int32 month, System.Int32 day)
-    // Offset: 0x1A1A308
+    // Offset: 0x1BD5044
     static int64_t DateToTicks(int year, int month, int day);
     // static System.Int64 TimeToTicks(System.Int32 hour, System.Int32 minute, System.Int32 second, System.Int32 millisecond)
-    // Offset: 0x1A1A398
+    // Offset: 0x1BD50D4
     static int64_t TimeToTicks(int hour, int minute, int second, int millisecond);
     // System.Void CheckTicksRange(System.Int64 ticks)
-    // Offset: 0x1A19F40
+    // Offset: 0x1BD4C7C
     void CheckTicksRange(int64_t ticks);
     // public System.Int32 GetDayOfMonth(System.DateTime time)
-    // Offset: 0x1A1A560
+    // Offset: 0x1BD529C
     int GetDayOfMonth(System::DateTime time);
     // public System.DayOfWeek GetDayOfWeek(System.DateTime time)
-    // Offset: 0x1A1A5A4
+    // Offset: 0x1BD52E0
     System::DayOfWeek GetDayOfWeek(System::DateTime time);
     // public System.Int32 GetDaysInMonth(System.Int32 year, System.Int32 month, System.Int32 era)
-    // Offset: 0x1A1A634
+    // Offset: 0x1BD5370
     int GetDaysInMonth(int year, int month, int era);
     // public System.Int32 GetEra(System.DateTime time)
-    // Offset: 0x1A1A7DC
+    // Offset: 0x1BD5518
     int GetEra(System::DateTime time);
     // public System.Int32 GetMonth(System.DateTime time)
-    // Offset: 0x1A1A9E4
+    // Offset: 0x1BD5720
     int GetMonth(System::DateTime time);
     // public System.Int32 GetMonthsInYear(System.Int32 year, System.Int32 era)
-    // Offset: 0x1A1AA28
+    // Offset: 0x1BD5764
     int GetMonthsInYear(int year, int era);
     // public System.Int32 GetYear(System.DateTime time)
-    // Offset: 0x1A1AA40
+    // Offset: 0x1BD577C
     int GetYear(System::DateTime time);
     // public System.Boolean IsLeapYear(System.Int32 year, System.Int32 era)
-    // Offset: 0x1A1AB60
+    // Offset: 0x1BD589C
     bool IsLeapYear(int year, int era);
     // public System.DateTime ToDateTime(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 hour, System.Int32 minute, System.Int32 second, System.Int32 millisecond, System.Int32 era)
-    // Offset: 0x1A1ABC8
+    // Offset: 0x1BD5904
     System::DateTime ToDateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, int era);
   }; // System.Globalization.GregorianCalendarHelper
   #pragma pack(pop)
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Globalization::GregorianCalendarHelper::get_Eras
 // Il2CppName: get_Eras
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (System::Globalization::GregorianCalendarHelper::*)()>(&System::Globalization::GregorianCalendarHelper::get_Eras)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (System::Globalization::GregorianCalendarHelper::*)()>(&System::Globalization::GregorianCalendarHelper::get_Eras)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::GregorianCalendarHelper*), "get_Eras", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

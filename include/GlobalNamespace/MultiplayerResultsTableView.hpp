@@ -43,8 +43,8 @@ namespace UnityEngine {
 }
 // Forward declaring namespace: Tweening
 namespace Tweening {
-  // Forward declaring type: TweeningManager
-  class TweeningManager;
+  // Forward declaring type: TimeTweeningManager
+  class TimeTweeningManager;
 }
 // Forward declaring namespace: Zenject
 namespace Zenject {
@@ -108,7 +108,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerResultsTableCell* cellPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerResultsTableCell*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE4A55C
+    // [SpaceAttribute] Offset: 0xF130A8
     // private System.Single _startRowXPosition
     // Size: 0x4
     // Offset: 0x38
@@ -159,7 +159,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* multiplayerOffsetByLocalPlayerPosition;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE4A604
+    // [HeaderAttribute] Offset: 0xF13150
     // private UnityEngine.AudioSource _outroSfxAudioSource
     // Size: 0x8
     // Offset: 0x60
@@ -169,30 +169,30 @@ namespace GlobalNamespace {
     // private UnityEngine.AudioClip[] _rowSlideAudioClips
     // Size: 0x8
     // Offset: 0x68
-    ::Array<UnityEngine::AudioClip*>* rowSlideAudioClips;
+    ::ArrayWrapper<UnityEngine::AudioClip*> rowSlideAudioClips;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::AudioClip*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::AudioClip*>) == 0x8);
     // private UnityEngine.AudioClip _avatarSlideAudioClip
     // Size: 0x8
     // Offset: 0x70
     UnityEngine::AudioClip* avatarSlideAudioClip;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioClip*) == 0x8);
-    // [InjectAttribute] Offset: 0xE4A670
-    // private readonly Tweening.TweeningManager _tweeningManager
+    // [InjectAttribute] Offset: 0xF131BC
+    // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x78
-    Tweening::TweeningManager* tweeningManager;
+    Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
-    static_assert(sizeof(Tweening::TweeningManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE4A680
+    static_assert(sizeof(Tweening::TimeTweeningManager*) == 0x8);
+    // [InjectAttribute] Offset: 0xF131CC
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x80
     GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xE4A690
+    // [InjectAttribute] Offset: 0xF131DC
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x88
@@ -230,7 +230,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
     // Creating value type constructor for type: MultiplayerResultsTableView
-    MultiplayerResultsTableView(HMUI::TableView* tableView_ = {}, UnityEngine::RectTransform* tableViewRectTransform_ = {}, GlobalNamespace::MultiplayerResultsTableCell* winnerTableCell_ = {}, GlobalNamespace::MultiplayerResultsTableCell* cellPrefab_ = {}, float startRowXPosition_ = {}, float rowHeight_ = {}, float rowXOffset_ = {}, float animationDuration_ = {}, float animationSeparationTime_ = {}, float winnerAnimationDuration_ = {}, float duelTablePosXOffset_ = {}, GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* multiplayerOffsetByLocalPlayerPosition_ = {}, UnityEngine::AudioSource* outroSfxAudioSource_ = {}, ::Array<UnityEngine::AudioClip*>* rowSlideAudioClips_ = {}, UnityEngine::AudioClip* avatarSlideAudioClip_ = {}, Tweening::TweeningManager* tweeningManager_ = {}, GlobalNamespace::MultiplayerLayoutProvider* layoutProvider_ = {}, Zenject::DiContainer* container_ = {}, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* dataList_ = {}, UnityEngine::Vector3 positionOffset_ = {}, UnityEngine::Quaternion rotationOffset_ = {}, UnityEngine::Vector3 lastParentPosition_ = {}, UnityEngine::Quaternion lastParentRotation_ = {}) noexcept : tableView{tableView_}, tableViewRectTransform{tableViewRectTransform_}, winnerTableCell{winnerTableCell_}, cellPrefab{cellPrefab_}, startRowXPosition{startRowXPosition_}, rowHeight{rowHeight_}, rowXOffset{rowXOffset_}, animationDuration{animationDuration_}, animationSeparationTime{animationSeparationTime_}, winnerAnimationDuration{winnerAnimationDuration_}, duelTablePosXOffset{duelTablePosXOffset_}, multiplayerOffsetByLocalPlayerPosition{multiplayerOffsetByLocalPlayerPosition_}, outroSfxAudioSource{outroSfxAudioSource_}, rowSlideAudioClips{rowSlideAudioClips_}, avatarSlideAudioClip{avatarSlideAudioClip_}, tweeningManager{tweeningManager_}, layoutProvider{layoutProvider_}, container{container_}, dataList{dataList_}, positionOffset{positionOffset_}, rotationOffset{rotationOffset_}, lastParentPosition{lastParentPosition_}, lastParentRotation{lastParentRotation_} {}
+    MultiplayerResultsTableView(HMUI::TableView* tableView_ = {}, UnityEngine::RectTransform* tableViewRectTransform_ = {}, GlobalNamespace::MultiplayerResultsTableCell* winnerTableCell_ = {}, GlobalNamespace::MultiplayerResultsTableCell* cellPrefab_ = {}, float startRowXPosition_ = {}, float rowHeight_ = {}, float rowXOffset_ = {}, float animationDuration_ = {}, float animationSeparationTime_ = {}, float winnerAnimationDuration_ = {}, float duelTablePosXOffset_ = {}, GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* multiplayerOffsetByLocalPlayerPosition_ = {}, UnityEngine::AudioSource* outroSfxAudioSource_ = {}, ::ArrayWrapper<UnityEngine::AudioClip*> rowSlideAudioClips_ = {}, UnityEngine::AudioClip* avatarSlideAudioClip_ = {}, Tweening::TimeTweeningManager* tweeningManager_ = {}, GlobalNamespace::MultiplayerLayoutProvider* layoutProvider_ = {}, Zenject::DiContainer* container_ = {}, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* dataList_ = {}, UnityEngine::Vector3 positionOffset_ = {}, UnityEngine::Quaternion rotationOffset_ = {}, UnityEngine::Vector3 lastParentPosition_ = {}, UnityEngine::Quaternion lastParentRotation_ = {}) noexcept : tableView{tableView_}, tableViewRectTransform{tableViewRectTransform_}, winnerTableCell{winnerTableCell_}, cellPrefab{cellPrefab_}, startRowXPosition{startRowXPosition_}, rowHeight{rowHeight_}, rowXOffset{rowXOffset_}, animationDuration{animationDuration_}, animationSeparationTime{animationSeparationTime_}, winnerAnimationDuration{winnerAnimationDuration_}, duelTablePosXOffset{duelTablePosXOffset_}, multiplayerOffsetByLocalPlayerPosition{multiplayerOffsetByLocalPlayerPosition_}, outroSfxAudioSource{outroSfxAudioSource_}, rowSlideAudioClips{rowSlideAudioClips_}, avatarSlideAudioClip{avatarSlideAudioClip_}, tweeningManager{tweeningManager_}, layoutProvider{layoutProvider_}, container{container_}, dataList{dataList_}, positionOffset{positionOffset_}, rotationOffset{rotationOffset_}, lastParentPosition{lastParentPosition_}, lastParentRotation{lastParentRotation_} {}
     // Creating interface conversion operator: operator HMUI::TableView::IDataSource
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);
@@ -270,11 +270,11 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.AudioSource _outroSfxAudioSource
     UnityEngine::AudioSource*& dyn__outroSfxAudioSource();
     // Get instance field reference: private UnityEngine.AudioClip[] _rowSlideAudioClips
-    ::Array<UnityEngine::AudioClip*>*& dyn__rowSlideAudioClips();
+    ::ArrayWrapper<UnityEngine::AudioClip*>& dyn__rowSlideAudioClips();
     // Get instance field reference: private UnityEngine.AudioClip _avatarSlideAudioClip
     UnityEngine::AudioClip*& dyn__avatarSlideAudioClip();
-    // Get instance field reference: private readonly Tweening.TweeningManager _tweeningManager
-    Tweening::TweeningManager*& dyn__tweeningManager();
+    // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
+    Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private readonly MultiplayerLayoutProvider _layoutProvider
     GlobalNamespace::MultiplayerLayoutProvider*& dyn__layoutProvider();
     // Get instance field reference: private readonly Zenject.DiContainer _container
@@ -290,43 +290,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Quaternion _lastParentRotation
     UnityEngine::Quaternion& dyn__lastParentRotation();
     // public System.Single CellSize()
-    // Offset: 0x103DFE4
+    // Offset: 0x112CF94
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x103DFEC
+    // Offset: 0x112CF9C
     int NumberOfCells();
     // protected System.Void Awake()
-    // Offset: 0x103E05C
+    // Offset: 0x112D00C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x103E0BC
+    // Offset: 0x112D06C
     void OnDestroy();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x103E154
+    // Offset: 0x112D104
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
     // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> dataList)
-    // Offset: 0x103E5B4
+    // Offset: 0x112D564
     void SetData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* dataList);
     // public System.Single StartAnimation()
-    // Offset: 0x103E864
+    // Offset: 0x112D814
     float StartAnimation();
     // private System.Collections.IEnumerator PlayRandomRowSlideInSound(System.Single delay)
-    // Offset: 0x103F0E8
+    // Offset: 0x112E098
     System::Collections::IEnumerator* PlayRandomRowSlideInSound(float delay);
     // private System.Collections.IEnumerator PlayAvatarSlideInSound(System.Single delay)
-    // Offset: 0x103F194
+    // Offset: 0x112E144
     System::Collections::IEnumerator* PlayAvatarSlideInSound(float delay);
     // private System.Void <StartAnimation>b__30_1()
-    // Offset: 0x103F25C
+    // Offset: 0x112E20C
     void $StartAnimation$b__30_1();
     // private System.Void <StartAnimation>b__30_4()
-    // Offset: 0x103F290
+    // Offset: 0x112E240
     void $StartAnimation$b__30_4();
     // private System.Void <StartAnimation>b__30_5(System.Single val)
-    // Offset: 0x103F2C4
+    // Offset: 0x112E274
     void $StartAnimation$b__30_5(float val);
     // public System.Void .ctor()
-    // Offset: 0x103F240
+    // Offset: 0x112E1F0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

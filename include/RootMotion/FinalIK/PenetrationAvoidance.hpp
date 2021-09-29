@@ -29,19 +29,19 @@ namespace RootMotion::FinalIK {
     char ___base_padding[0x4] = {};
     // Nested type: RootMotion::FinalIK::PenetrationAvoidance::Avoider
     class Avoider;
-    // [TooltipAttribute] Offset: 0xE2E2E4
+    // [TooltipAttribute] Offset: 0xEF4ABC
     // public RootMotion.FinalIK.PenetrationAvoidance/RootMotion.FinalIK.Avoider[] avoiders
     // Size: 0x8
     // Offset: 0x30
-    ::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>* avoiders;
+    ::ArrayWrapper<RootMotion::FinalIK::PenetrationAvoidance::Avoider*> avoiders;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>) == 0x8);
     // Creating value type constructor for type: PenetrationAvoidance
-    PenetrationAvoidance(::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>* avoiders_ = {}) noexcept : avoiders{avoiders_} {}
+    PenetrationAvoidance(::ArrayWrapper<RootMotion::FinalIK::PenetrationAvoidance::Avoider*> avoiders_ = {}) noexcept : avoiders{avoiders_} {}
     // Get instance field reference: public RootMotion.FinalIK.PenetrationAvoidance/RootMotion.FinalIK.Avoider[] avoiders
-    ::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>*& dyn_avoiders();
+    ::ArrayWrapper<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>& dyn_avoiders();
     // public System.Void .ctor()
-    // Offset: 0x1ADCC18
+    // Offset: 0x1C5F398
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -55,13 +55,13 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<PenetrationAvoidance*, creationType>()));
     }
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1ADC998
+    // Offset: 0x1C5F118
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();
   }; // RootMotion.FinalIK.PenetrationAvoidance
   #pragma pack(pop)
-  static check_size<sizeof(PenetrationAvoidance), 48 + sizeof(::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>*)> __RootMotion_FinalIK_PenetrationAvoidanceSizeCheck;
+  static check_size<sizeof(PenetrationAvoidance), 48 + sizeof(::ArrayWrapper<RootMotion::FinalIK::PenetrationAvoidance::Avoider*>)> __RootMotion_FinalIK_PenetrationAvoidanceSizeCheck;
   static_assert(sizeof(PenetrationAvoidance) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::PenetrationAvoidance*, "RootMotion.FinalIK", "PenetrationAvoidance");

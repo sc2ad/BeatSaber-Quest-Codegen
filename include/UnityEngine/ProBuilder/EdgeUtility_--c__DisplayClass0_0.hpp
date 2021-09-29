@@ -45,10 +45,10 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public UnityEngine.ProBuilder.ProBuilderMesh mesh
     UnityEngine::ProBuilder::ProBuilderMesh*& dyn_mesh();
     // UnityEngine.ProBuilder.Edge <GetSharedVertexHandleEdges>b__0(UnityEngine.ProBuilder.Edge x)
-    // Offset: 0x1AF0FA4
+    // Offset: 0x1C74724
     UnityEngine::ProBuilder::Edge $GetSharedVertexHandleEdges$b__0(UnityEngine::ProBuilder::Edge x);
     // public System.Void .ctor()
-    // Offset: 0x1AF06D0
+    // Offset: 0x1C73E50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

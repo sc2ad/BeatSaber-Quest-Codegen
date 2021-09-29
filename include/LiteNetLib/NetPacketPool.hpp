@@ -35,9 +35,9 @@ namespace LiteNetLib {
     // private readonly LiteNetLib.NetPacket[] _pool
     // Size: 0x8
     // Offset: 0x10
-    ::Array<LiteNetLib::NetPacket*>* pool;
+    ::ArrayWrapper<LiteNetLib::NetPacket*> pool;
     // Field size check
-    static_assert(sizeof(::Array<LiteNetLib::NetPacket*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<LiteNetLib::NetPacket*>) == 0x8);
     // private readonly System.Threading.ReaderWriterLockSlim _lock
     // Size: 0x8
     // Offset: 0x18
@@ -51,30 +51,30 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: NetPacketPool
-    NetPacketPool(::Array<LiteNetLib::NetPacket*>* pool_ = {}, System::Threading::ReaderWriterLockSlim* lock_ = {}, int count_ = {}) noexcept : pool{pool_}, lock{lock_}, count{count_} {}
+    NetPacketPool(::ArrayWrapper<LiteNetLib::NetPacket*> pool_ = {}, System::Threading::ReaderWriterLockSlim* lock_ = {}, int count_ = {}) noexcept : pool{pool_}, lock{lock_}, count{count_} {}
     // Get instance field reference: private readonly LiteNetLib.NetPacket[] _pool
-    ::Array<LiteNetLib::NetPacket*>*& dyn__pool();
+    ::ArrayWrapper<LiteNetLib::NetPacket*>& dyn__pool();
     // Get instance field reference: private readonly System.Threading.ReaderWriterLockSlim _lock
     System::Threading::ReaderWriterLockSlim*& dyn__lock();
     // Get instance field reference: private System.Int32 _count
     int& dyn__count();
     // public LiteNetLib.NetPacket GetWithData(LiteNetLib.PacketProperty property, System.Byte[] data, System.Int32 start, System.Int32 length)
-    // Offset: 0x1C2325C
-    LiteNetLib::NetPacket* GetWithData(LiteNetLib::PacketProperty property, ::Array<uint8_t>* data, int start, int length);
+    // Offset: 0x1DDB0C4
+    LiteNetLib::NetPacket* GetWithData(LiteNetLib::PacketProperty property, ::ArrayWrapper<uint8_t> data, int start, int length);
     // public LiteNetLib.NetPacket GetWithProperty(LiteNetLib.PacketProperty property, System.Int32 size)
-    // Offset: 0x1C21220
+    // Offset: 0x1DD9088
     LiteNetLib::NetPacket* GetWithProperty(LiteNetLib::PacketProperty property, int size);
     // public LiteNetLib.NetPacket GetWithProperty(LiteNetLib.PacketProperty property)
-    // Offset: 0x1C21CBC
+    // Offset: 0x1DD9B24
     LiteNetLib::NetPacket* GetWithProperty(LiteNetLib::PacketProperty property);
     // public LiteNetLib.NetPacket GetPacket(System.Int32 size)
-    // Offset: 0x1C1F8FC
+    // Offset: 0x1DD7764
     LiteNetLib::NetPacket* GetPacket(int size);
     // public System.Void Recycle(LiteNetLib.NetPacket packet)
-    // Offset: 0x1C1F77C
+    // Offset: 0x1DD75E4
     void Recycle(LiteNetLib::NetPacket* packet);
     // public System.Void .ctor()
-    // Offset: 0x1C1F0A4
+    // Offset: 0x1DD6F0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -92,10 +92,10 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacketPool*, "LiteNetLib", "NetPacketPool"
 // Writing MetadataGetter for method: LiteNetLib::NetPacketPool::GetWithData
 // Il2CppName: GetWithData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPacket* (LiteNetLib::NetPacketPool::*)(LiteNetLib::PacketProperty, ::Array<uint8_t>*, int, int)>(&LiteNetLib::NetPacketPool::GetWithData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPacket* (LiteNetLib::NetPacketPool::*)(LiteNetLib::PacketProperty, ::ArrayWrapper<uint8_t>, int, int)>(&LiteNetLib::NetPacketPool::GetWithData)> {
   static const MethodInfo* get() {
     static auto* property = &::il2cpp_utils::GetClassFromName("LiteNetLib", "PacketProperty")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacketPool*), "GetWithData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{property, data, start, length});

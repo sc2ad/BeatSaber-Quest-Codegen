@@ -79,14 +79,14 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapEventType colorEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0xE3DF50
+    // [SpaceAttribute] Offset: 0xF068D4
     // private UnityEngine.ParticleSystem _particleSystem
     // Size: 0x8
     // Offset: 0x40
     UnityEngine::ParticleSystem* particleSystem;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3DF88
+    // [InjectAttribute] Offset: 0xF0690C
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x48
@@ -146,9 +146,9 @@ namespace GlobalNamespace {
     // private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
     // Size: 0x8
     // Offset: 0x98
-    ::Array<UnityEngine::ParticleSystem::Particle>* particles;
+    ::ArrayWrapper<UnityEngine::ParticleSystem::Particle> particles;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::ParticleSystem::Particle>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::ParticleSystem::Particle>) == 0x8);
     // private UnityEngine.Color _particleColor
     // Size: 0x10
     // Offset: 0xA0
@@ -162,7 +162,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: ParticleSystemEventEffect
-    ParticleSystemEventEffect(GlobalNamespace::ColorSO* lightColor0_ = {}, GlobalNamespace::ColorSO* lightColor1_ = {}, GlobalNamespace::ColorSO* highlightColor0_ = {}, GlobalNamespace::ColorSO* highlightColor1_ = {}, bool lightOnStart_ = {}, GlobalNamespace::BeatmapEventType colorEvent_ = {}, UnityEngine::ParticleSystem* particleSystem_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, bool lightIsOn_ = {}, UnityEngine::Color offColor_ = {}, float highlightValue_ = {}, UnityEngine::Color afterHighlightColor_ = {}, UnityEngine::Color highlightColor_ = {}, float kFadeSpeed_ = {}, float particleSpeedMultiplier_ = {}, UnityEngine::ParticleSystem::MainModule mainModule_ = {}, ::Array<UnityEngine::ParticleSystem::Particle>* particles_ = {}, UnityEngine::Color particleColor_ = {}, float particleSpeed_ = {}) noexcept : lightColor0{lightColor0_}, lightColor1{lightColor1_}, highlightColor0{highlightColor0_}, highlightColor1{highlightColor1_}, lightOnStart{lightOnStart_}, colorEvent{colorEvent_}, particleSystem{particleSystem_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, lightIsOn{lightIsOn_}, offColor{offColor_}, highlightValue{highlightValue_}, afterHighlightColor{afterHighlightColor_}, highlightColor{highlightColor_}, kFadeSpeed{kFadeSpeed_}, particleSpeedMultiplier{particleSpeedMultiplier_}, mainModule{mainModule_}, particles{particles_}, particleColor{particleColor_}, particleSpeed{particleSpeed_} {}
+    ParticleSystemEventEffect(GlobalNamespace::ColorSO* lightColor0_ = {}, GlobalNamespace::ColorSO* lightColor1_ = {}, GlobalNamespace::ColorSO* highlightColor0_ = {}, GlobalNamespace::ColorSO* highlightColor1_ = {}, bool lightOnStart_ = {}, GlobalNamespace::BeatmapEventType colorEvent_ = {}, UnityEngine::ParticleSystem* particleSystem_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, bool lightIsOn_ = {}, UnityEngine::Color offColor_ = {}, float highlightValue_ = {}, UnityEngine::Color afterHighlightColor_ = {}, UnityEngine::Color highlightColor_ = {}, float kFadeSpeed_ = {}, float particleSpeedMultiplier_ = {}, UnityEngine::ParticleSystem::MainModule mainModule_ = {}, ::ArrayWrapper<UnityEngine::ParticleSystem::Particle> particles_ = {}, UnityEngine::Color particleColor_ = {}, float particleSpeed_ = {}) noexcept : lightColor0{lightColor0_}, lightColor1{lightColor1_}, highlightColor0{highlightColor0_}, highlightColor1{highlightColor1_}, lightOnStart{lightOnStart_}, colorEvent{colorEvent_}, particleSystem{particleSystem_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, lightIsOn{lightIsOn_}, offColor{offColor_}, highlightValue{highlightValue_}, afterHighlightColor{afterHighlightColor_}, highlightColor{highlightColor_}, kFadeSpeed{kFadeSpeed_}, particleSpeedMultiplier{particleSpeedMultiplier_}, mainModule{mainModule_}, particles{particles_}, particleColor{particleColor_}, particleSpeed{particleSpeed_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ColorSO _lightColor0
@@ -198,28 +198,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.MainModule _mainModule
     UnityEngine::ParticleSystem::MainModule& dyn__mainModule();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
-    ::Array<UnityEngine::ParticleSystem::Particle>*& dyn__particles();
+    ::ArrayWrapper<UnityEngine::ParticleSystem::Particle>& dyn__particles();
     // Get instance field reference: private UnityEngine.Color _particleColor
     UnityEngine::Color& dyn__particleColor();
     // Get instance field reference: private System.Single _particleSpeed
     float& dyn__particleSpeed();
     // protected System.Void Start()
-    // Offset: 0x1036368
+    // Offset: 0x112605C
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x1036660
+    // Offset: 0x1126354
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1036760
+    // Offset: 0x1126454
     void Update();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x1036884
+    // Offset: 0x1126578
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void RefreshParticles()
-    // Offset: 0x1036524
+    // Offset: 0x1126218
     void RefreshParticles();
     // public System.Void .ctor()
-    // Offset: 0x1036A6C
+    // Offset: 0x1126760
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -30,9 +30,9 @@ namespace System::Threading {
     // readonly System.Threading.IThreadPoolWorkItem[] nodes
     // Size: 0x8
     // Offset: 0x10
-    ::Array<System::Threading::IThreadPoolWorkItem*>* nodes;
+    ::ArrayWrapper<System::Threading::IThreadPoolWorkItem*> nodes;
     // Field size check
-    static_assert(sizeof(::Array<System::Threading::IThreadPoolWorkItem*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Threading::IThreadPoolWorkItem*>) == 0x8);
     // private System.Int32 indexes
     // Size: 0x4
     // Offset: 0x18
@@ -48,30 +48,30 @@ namespace System::Threading {
     // Field size check
     static_assert(sizeof(System::Threading::ThreadPoolWorkQueue::QueueSegment*) == 0x8);
     // Creating value type constructor for type: QueueSegment
-    QueueSegment(::Array<System::Threading::IThreadPoolWorkItem*>* nodes_ = {}, int indexes_ = {}, System::Threading::ThreadPoolWorkQueue::QueueSegment* Next_ = {}) noexcept : nodes{nodes_}, indexes{indexes_}, Next{Next_} {}
+    QueueSegment(::ArrayWrapper<System::Threading::IThreadPoolWorkItem*> nodes_ = {}, int indexes_ = {}, System::Threading::ThreadPoolWorkQueue::QueueSegment* Next_ = {}) noexcept : nodes{nodes_}, indexes{indexes_}, Next{Next_} {}
     // Get instance field reference: readonly System.Threading.IThreadPoolWorkItem[] nodes
-    ::Array<System::Threading::IThreadPoolWorkItem*>*& dyn_nodes();
+    ::ArrayWrapper<System::Threading::IThreadPoolWorkItem*>& dyn_nodes();
     // Get instance field reference: private System.Int32 indexes
     int& dyn_indexes();
     // Get instance field reference: public System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment Next
     System::Threading::ThreadPoolWorkQueue::QueueSegment*& dyn_Next();
     // private System.Void GetIndexes(out System.Int32 upper, out System.Int32 lower)
-    // Offset: 0x18824D0
+    // Offset: 0x19C09E0
     void GetIndexes(ByRef<int> upper, ByRef<int> lower);
     // private System.Boolean CompareExchangeIndexes(ref System.Int32 prevUpper, System.Int32 newUpper, ref System.Int32 prevLower, System.Int32 newLower)
-    // Offset: 0x1882510
+    // Offset: 0x19C0A20
     bool CompareExchangeIndexes(ByRef<int> prevUpper, int newUpper, ByRef<int> prevLower, int newLower);
     // public System.Boolean IsUsedUp()
-    // Offset: 0x1881E74
+    // Offset: 0x19C0384
     bool IsUsedUp();
     // public System.Boolean TryEnqueue(System.Threading.IThreadPoolWorkItem node)
-    // Offset: 0x1881574
+    // Offset: 0x19BFA84
     bool TryEnqueue(System::Threading::IThreadPoolWorkItem* node);
     // public System.Boolean TryDequeue(out System.Threading.IThreadPoolWorkItem node)
-    // Offset: 0x1881D78
+    // Offset: 0x19C0288
     bool TryDequeue(ByRef<System::Threading::IThreadPoolWorkItem*> node);
     // public System.Void .ctor()
-    // Offset: 0x1880E48
+    // Offset: 0x19BF358
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

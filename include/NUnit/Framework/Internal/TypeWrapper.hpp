@@ -46,7 +46,7 @@ namespace NUnit::Framework::Internal {
     public:
     // Nested type: NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0
     class $$c__DisplayClass36_0;
-    // [DebuggerBrowsableAttribute] Offset: 0xE285A0
+    // [DebuggerBrowsableAttribute] Offset: 0xEEED78
     // private System.Type <Type>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -66,72 +66,72 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.Type <Type>k__BackingField
     System::Type*& dyn_$Type$k__BackingField();
     // public System.Type get_Type()
-    // Offset: 0x22A108C
+    // Offset: 0x24A93D4
     System::Type* get_Type();
     // private System.Void set_Type(System.Type value)
-    // Offset: 0x22A1094
+    // Offset: 0x24A93DC
     void set_Type(System::Type* value);
     // public NUnit.Framework.Interfaces.ITypeInfo get_BaseType()
-    // Offset: 0x22A109C
+    // Offset: 0x24A93E4
     NUnit::Framework::Interfaces::ITypeInfo* get_BaseType();
     // public System.String get_FullName()
-    // Offset: 0x22A1130
+    // Offset: 0x24A9478
     ::Il2CppString* get_FullName();
     // public System.Reflection.Assembly get_Assembly()
-    // Offset: 0x22A1154
+    // Offset: 0x24A949C
     System::Reflection::Assembly* get_Assembly();
     // public System.String get_Namespace()
-    // Offset: 0x22A1184
+    // Offset: 0x24A94CC
     ::Il2CppString* get_Namespace();
     // public System.Boolean get_IsAbstract()
-    // Offset: 0x22A11A8
+    // Offset: 0x24A94F0
     bool get_IsAbstract();
     // public System.Boolean get_IsGenericType()
-    // Offset: 0x22A11D0
+    // Offset: 0x24A9518
     bool get_IsGenericType();
     // public System.Boolean get_ContainsGenericParameters()
-    // Offset: 0x22A1210
+    // Offset: 0x24A9558
     bool get_ContainsGenericParameters();
     // public System.Boolean get_IsGenericTypeDefinition()
-    // Offset: 0x22A1240
+    // Offset: 0x24A9588
     bool get_IsGenericTypeDefinition();
     // public System.Boolean get_IsSealed()
-    // Offset: 0x22A1270
+    // Offset: 0x24A95B8
     bool get_IsSealed();
     // public System.Boolean get_IsStaticClass()
-    // Offset: 0x22A1298
+    // Offset: 0x24A95E0
     bool get_IsStaticClass();
     // public System.Void .ctor(System.Type type)
-    // Offset: 0x229521C
+    // Offset: 0x249D564
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeWrapper* New_ctor(System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TypeWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeWrapper*, creationType>(type)));
     }
     // public System.Boolean IsType(System.Type type)
-    // Offset: 0x22A1200
+    // Offset: 0x24A9548
     bool IsType(System::Type* type);
     // public System.String GetDisplayName()
-    // Offset: 0x22A12F8
+    // Offset: 0x24A9640
     ::Il2CppString* GetDisplayName();
     // public System.String GetDisplayName(System.Object[] args)
-    // Offset: 0x22A1360
-    ::Il2CppString* GetDisplayName(::Array<::Il2CppObject*>* args);
+    // Offset: 0x24A96A8
+    ::Il2CppString* GetDisplayName(::ArrayWrapper<::Il2CppObject*> args);
     // public NUnit.Framework.Interfaces.ITypeInfo MakeGenericType(System.Type[] typeArgs)
-    // Offset: 0x22A13D8
-    NUnit::Framework::Interfaces::ITypeInfo* MakeGenericType(::Array<System::Type*>* typeArgs);
+    // Offset: 0x24A9720
+    NUnit::Framework::Interfaces::ITypeInfo* MakeGenericType(::ArrayWrapper<System::Type*> typeArgs);
     // public System.Type GetGenericTypeDefinition()
-    // Offset: 0x22A146C
+    // Offset: 0x24A97B4
     System::Type* GetGenericTypeDefinition();
     // public T[] GetCustomAttributes(System.Boolean inherit)
     // Offset: 0xFFFFFFFF
     template<class T>
-    ::Array<T>* GetCustomAttributes(bool inherit) {
+    ::ArrayWrapper<T> GetCustomAttributes(bool inherit) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TypeWrapper::GetCustomAttributes");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetCustomAttributes", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inherit)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(___instance_arg, ___generic__method, inherit);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(___instance_arg, ___generic__method, inherit);
     }
     // public System.Boolean IsDefined(System.Boolean inherit)
     // Offset: 0xFFFFFFFF
@@ -144,22 +144,22 @@ namespace NUnit::Framework::Internal {
       return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___generic__method, inherit);
     }
     // public System.Boolean HasMethodWithAttribute(System.Type attributeType)
-    // Offset: 0x22A1490
+    // Offset: 0x24A97D8
     bool HasMethodWithAttribute(System::Type* attributeType);
     // public NUnit.Framework.Interfaces.IMethodInfo[] GetMethods(System.Reflection.BindingFlags flags)
-    // Offset: 0x22A1508
-    ::Array<NUnit::Framework::Interfaces::IMethodInfo*>* GetMethods(System::Reflection::BindingFlags flags);
+    // Offset: 0x24A9850
+    ::ArrayWrapper<NUnit::Framework::Interfaces::IMethodInfo*> GetMethods(System::Reflection::BindingFlags flags);
     // public System.Reflection.ConstructorInfo GetConstructor(System.Type[] argTypes)
-    // Offset: 0x22A1650
-    System::Reflection::ConstructorInfo* GetConstructor(::Array<System::Type*>* argTypes);
+    // Offset: 0x24A9998
+    System::Reflection::ConstructorInfo* GetConstructor(::ArrayWrapper<System::Type*> argTypes);
     // public System.Boolean HasConstructor(System.Type[] argTypes)
-    // Offset: 0x22A173C
-    bool HasConstructor(::Array<System::Type*>* argTypes);
+    // Offset: 0x24A9A84
+    bool HasConstructor(::ArrayWrapper<System::Type*> argTypes);
     // public System.Object Construct(System.Object[] args)
-    // Offset: 0x22A1758
-    ::Il2CppObject* Construct(::Array<::Il2CppObject*>* args);
+    // Offset: 0x24A9AA0
+    ::Il2CppObject* Construct(::ArrayWrapper<::Il2CppObject*> args);
     // public override System.String ToString()
-    // Offset: 0x22A17D0
+    // Offset: 0x24A9B18
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -291,18 +291,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TypeWrapper::GetDisplayName
 // Il2CppName: GetDisplayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TypeWrapper::*)(::Array<::Il2CppObject*>*)>(&NUnit::Framework::Internal::TypeWrapper::GetDisplayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TypeWrapper::*)(::ArrayWrapper<::Il2CppObject*>)>(&NUnit::Framework::Internal::TypeWrapper::GetDisplayName)> {
   static const MethodInfo* get() {
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TypeWrapper*), "GetDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TypeWrapper::MakeGenericType
 // Il2CppName: MakeGenericType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITypeInfo* (NUnit::Framework::Internal::TypeWrapper::*)(::Array<System::Type*>*)>(&NUnit::Framework::Internal::TypeWrapper::MakeGenericType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITypeInfo* (NUnit::Framework::Internal::TypeWrapper::*)(::ArrayWrapper<System::Type*>)>(&NUnit::Framework::Internal::TypeWrapper::MakeGenericType)> {
   static const MethodInfo* get() {
-    static auto* typeArgs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
+    static auto* typeArgs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Type")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TypeWrapper*), "MakeGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeArgs});
   }
 };
@@ -332,7 +332,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TypeWrapper::GetMethods
 // Il2CppName: GetMethods
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<NUnit::Framework::Interfaces::IMethodInfo*>* (NUnit::Framework::Internal::TypeWrapper::*)(System::Reflection::BindingFlags)>(&NUnit::Framework::Internal::TypeWrapper::GetMethods)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<NUnit::Framework::Interfaces::IMethodInfo*> (NUnit::Framework::Internal::TypeWrapper::*)(System::Reflection::BindingFlags)>(&NUnit::Framework::Internal::TypeWrapper::GetMethods)> {
   static const MethodInfo* get() {
     static auto* flags = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TypeWrapper*), "GetMethods", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flags});
@@ -341,27 +341,27 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<NUn
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TypeWrapper::GetConstructor
 // Il2CppName: GetConstructor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ConstructorInfo* (NUnit::Framework::Internal::TypeWrapper::*)(::Array<System::Type*>*)>(&NUnit::Framework::Internal::TypeWrapper::GetConstructor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ConstructorInfo* (NUnit::Framework::Internal::TypeWrapper::*)(::ArrayWrapper<System::Type*>)>(&NUnit::Framework::Internal::TypeWrapper::GetConstructor)> {
   static const MethodInfo* get() {
-    static auto* argTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
+    static auto* argTypes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Type")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TypeWrapper*), "GetConstructor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{argTypes});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TypeWrapper::HasConstructor
 // Il2CppName: HasConstructor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::TypeWrapper::*)(::Array<System::Type*>*)>(&NUnit::Framework::Internal::TypeWrapper::HasConstructor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::TypeWrapper::*)(::ArrayWrapper<System::Type*>)>(&NUnit::Framework::Internal::TypeWrapper::HasConstructor)> {
   static const MethodInfo* get() {
-    static auto* argTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
+    static auto* argTypes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Type")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TypeWrapper*), "HasConstructor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{argTypes});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TypeWrapper::Construct
 // Il2CppName: Construct
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NUnit::Framework::Internal::TypeWrapper::*)(::Array<::Il2CppObject*>*)>(&NUnit::Framework::Internal::TypeWrapper::Construct)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NUnit::Framework::Internal::TypeWrapper::*)(::ArrayWrapper<::Il2CppObject*>)>(&NUnit::Framework::Internal::TypeWrapper::Construct)> {
   static const MethodInfo* get() {
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TypeWrapper*), "Construct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
   }
 };

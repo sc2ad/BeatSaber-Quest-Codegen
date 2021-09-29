@@ -35,7 +35,7 @@ namespace UnityEngine::Events {
   // [TokenAttribute] Offset: FFFFFFFF
   class PersistentCallGroup : public ::Il2CppObject {
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0xDB9814
+    // [FormerlySerializedAsAttribute] Offset: 0xE76A40
     // private System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall> m_Calls
     // Size: 0x8
     // Offset: 0x10
@@ -50,11 +50,14 @@ namespace UnityEngine::Events {
     }
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall> m_Calls
     System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>*& dyn_m_Calls();
+    // public System.Int32 get_Count()
+    // Offset: 0x1CBA33C
+    int get_Count();
     // public System.Void Initialize(UnityEngine.Events.InvokableCallList invokableList, UnityEngine.Events.UnityEventBase unityEventBase)
-    // Offset: 0x1C538B8
+    // Offset: 0x1CBA38C
     void Initialize(UnityEngine::Events::InvokableCallList* invokableList, UnityEngine::Events::UnityEventBase* unityEventBase);
     // public System.Void .ctor()
-    // Offset: 0x1C53844
+    // Offset: 0x1CBA2C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -69,6 +72,14 @@ namespace UnityEngine::Events {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::PersistentCallGroup*, "UnityEngine.Events", "PersistentCallGroup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::Events::PersistentCallGroup::get_Count
+// Il2CppName: get_Count
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Events::PersistentCallGroup::*)()>(&UnityEngine::Events::PersistentCallGroup::get_Count)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::PersistentCallGroup*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: UnityEngine::Events::PersistentCallGroup::Initialize
 // Il2CppName: Initialize
 template<>

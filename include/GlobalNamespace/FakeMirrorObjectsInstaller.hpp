@@ -21,8 +21,8 @@ namespace GlobalNamespace {
   class MirroredBombNoteController;
   // Forward declaring type: MirroredObstacleController
   class MirroredObstacleController;
-  // Forward declaring type: MainSettingsModelSO
-  class MainSettingsModelSO;
+  // Forward declaring type: IntSO
+  class IntSO;
   // Forward declaring type: MirrorRendererGraphicsSettingsPresets
   class MirrorRendererGraphicsSettingsPresets;
 }
@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::FakeMirrorObjectsInstaller::$$c
     class $$c;
-    // [SpaceAttribute] Offset: 0xE434F4
+    // [SpaceAttribute] Offset: 0xF0BE88
     // private MirroredCubeNoteController _mirroredGameNoteControllerPrefab
     // Size: 0x8
     // Offset: 0x20
@@ -56,13 +56,13 @@ namespace GlobalNamespace {
     GlobalNamespace::MirroredObstacleController* mirroredObstacleControllerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MirroredObstacleController*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE4354C
-    // private MainSettingsModelSO _mainSettingsModel
+    // [SpaceAttribute] Offset: 0xF0BEE0
+    // private IntSO _mirrorGraphicsSettings
     // Size: 0x8
     // Offset: 0x38
-    GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
+    GlobalNamespace::IntSO* mirrorGraphicsSettings;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MainSettingsModelSO*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::IntSO*) == 0x8);
     // private MirrorRendererGraphicsSettingsPresets _mirrorRendererGraphicsSettingsPresets
     // Size: 0x8
     // Offset: 0x40
@@ -70,22 +70,22 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::MirrorRendererGraphicsSettingsPresets*) == 0x8);
     // Creating value type constructor for type: FakeMirrorObjectsInstaller
-    FakeMirrorObjectsInstaller(GlobalNamespace::MirroredCubeNoteController* mirroredGameNoteControllerPrefab_ = {}, GlobalNamespace::MirroredBombNoteController* mirroredBombNoteControllerPrefab_ = {}, GlobalNamespace::MirroredObstacleController* mirroredObstacleControllerPrefab_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::MirrorRendererGraphicsSettingsPresets* mirrorRendererGraphicsSettingsPresets_ = {}) noexcept : mirroredGameNoteControllerPrefab{mirroredGameNoteControllerPrefab_}, mirroredBombNoteControllerPrefab{mirroredBombNoteControllerPrefab_}, mirroredObstacleControllerPrefab{mirroredObstacleControllerPrefab_}, mainSettingsModel{mainSettingsModel_}, mirrorRendererGraphicsSettingsPresets{mirrorRendererGraphicsSettingsPresets_} {}
+    FakeMirrorObjectsInstaller(GlobalNamespace::MirroredCubeNoteController* mirroredGameNoteControllerPrefab_ = {}, GlobalNamespace::MirroredBombNoteController* mirroredBombNoteControllerPrefab_ = {}, GlobalNamespace::MirroredObstacleController* mirroredObstacleControllerPrefab_ = {}, GlobalNamespace::IntSO* mirrorGraphicsSettings_ = {}, GlobalNamespace::MirrorRendererGraphicsSettingsPresets* mirrorRendererGraphicsSettingsPresets_ = {}) noexcept : mirroredGameNoteControllerPrefab{mirroredGameNoteControllerPrefab_}, mirroredBombNoteControllerPrefab{mirroredBombNoteControllerPrefab_}, mirroredObstacleControllerPrefab{mirroredObstacleControllerPrefab_}, mirrorGraphicsSettings{mirrorGraphicsSettings_}, mirrorRendererGraphicsSettingsPresets{mirrorRendererGraphicsSettingsPresets_} {}
     // Get instance field reference: private MirroredCubeNoteController _mirroredGameNoteControllerPrefab
     GlobalNamespace::MirroredCubeNoteController*& dyn__mirroredGameNoteControllerPrefab();
     // Get instance field reference: private MirroredBombNoteController _mirroredBombNoteControllerPrefab
     GlobalNamespace::MirroredBombNoteController*& dyn__mirroredBombNoteControllerPrefab();
     // Get instance field reference: private MirroredObstacleController _mirroredObstacleControllerPrefab
     GlobalNamespace::MirroredObstacleController*& dyn__mirroredObstacleControllerPrefab();
-    // Get instance field reference: private MainSettingsModelSO _mainSettingsModel
-    GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
+    // Get instance field reference: private IntSO _mirrorGraphicsSettings
+    GlobalNamespace::IntSO*& dyn__mirrorGraphicsSettings();
     // Get instance field reference: private MirrorRendererGraphicsSettingsPresets _mirrorRendererGraphicsSettingsPresets
     GlobalNamespace::MirrorRendererGraphicsSettingsPresets*& dyn__mirrorRendererGraphicsSettingsPresets();
     // public MirroredCubeNoteController get_mirroredGameNoteControllerPrefab()
-    // Offset: 0x105B454
+    // Offset: 0x11B42F4
     GlobalNamespace::MirroredCubeNoteController* get_mirroredGameNoteControllerPrefab();
     // public System.Void .ctor()
-    // Offset: 0x105B798
+    // Offset: 0x11B4620
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -100,7 +100,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FakeMirrorObjectsInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x105B45C
+    // Offset: 0x11B42FC
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

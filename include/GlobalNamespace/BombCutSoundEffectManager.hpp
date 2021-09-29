@@ -54,24 +54,24 @@ namespace GlobalNamespace {
     // private UnityEngine.AudioClip[] _bombExplosionAudioClips
     // Size: 0x8
     // Offset: 0x20
-    ::Array<UnityEngine::AudioClip*>* bombExplosionAudioClips;
+    ::ArrayWrapper<UnityEngine::AudioClip*> bombExplosionAudioClips;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::AudioClip*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE37B08
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::AudioClip*>) == 0x8);
+    // [InjectAttribute] Offset: 0xF0025C
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE37B18
+    // [InjectAttribute] Offset: 0xF0026C
     // private readonly SaberManager saberManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE37B28
+    // [InjectAttribute] Offset: 0xF0027C
     // private readonly BombCutSoundEffect/Pool _bombCutSoundEffectPool
     // Size: 0x8
     // Offset: 0x38
@@ -85,13 +85,13 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*) == 0x8);
     // Creating value type constructor for type: BombCutSoundEffectManager
-    BombCutSoundEffectManager(float volume_ = {}, ::Array<UnityEngine::AudioClip*>* bombExplosionAudioClips_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::SaberManager* saberManager_ = {}, GlobalNamespace::BombCutSoundEffect::Pool* bombCutSoundEffectPool_ = {}, GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomSoundPicker_ = {}) noexcept : volume{volume_}, bombExplosionAudioClips{bombExplosionAudioClips_}, beatmapObjectManager{beatmapObjectManager_}, saberManager{saberManager_}, bombCutSoundEffectPool{bombCutSoundEffectPool_}, randomSoundPicker{randomSoundPicker_} {}
+    BombCutSoundEffectManager(float volume_ = {}, ::ArrayWrapper<UnityEngine::AudioClip*> bombExplosionAudioClips_ = {}, GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::SaberManager* saberManager_ = {}, GlobalNamespace::BombCutSoundEffect::Pool* bombCutSoundEffectPool_ = {}, GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomSoundPicker_ = {}) noexcept : volume{volume_}, bombExplosionAudioClips{bombExplosionAudioClips_}, beatmapObjectManager{beatmapObjectManager_}, saberManager{saberManager_}, bombCutSoundEffectPool{bombCutSoundEffectPool_}, randomSoundPicker{randomSoundPicker_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _volume
     float& dyn__volume();
     // Get instance field reference: private UnityEngine.AudioClip[] _bombExplosionAudioClips
-    ::Array<UnityEngine::AudioClip*>*& dyn__bombExplosionAudioClips();
+    ::ArrayWrapper<UnityEngine::AudioClip*>& dyn__bombExplosionAudioClips();
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
     GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // Get instance field reference: private readonly SaberManager saberManager
@@ -101,19 +101,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomSoundPicker
     GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*& dyn__randomSoundPicker();
     // protected System.Void Start()
-    // Offset: 0x10D9AFC
+    // Offset: 0x12AB620
     void Start();
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x10D9BB4
+    // Offset: 0x12AB6D8
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo);
     // protected System.Void OnDestroy()
-    // Offset: 0x10D9DA0
+    // Offset: 0x12AB8C4
     void OnDestroy();
     // private System.Void HandleBombCutSoundEffectDidFinish(BombCutSoundEffect bombCutSoundEffect)
-    // Offset: 0x10D9E24
+    // Offset: 0x12AB948
     void HandleBombCutSoundEffectDidFinish(GlobalNamespace::BombCutSoundEffect* bombCutSoundEffect);
     // public System.Void .ctor()
-    // Offset: 0x10D9ED0
+    // Offset: 0x12AB9F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

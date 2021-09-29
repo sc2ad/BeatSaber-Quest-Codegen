@@ -17,8 +17,8 @@
 // Begin forward declares
 // Forward declaring namespace: Tweening
 namespace Tweening {
-  // Forward declaring type: TweeningManager
-  class TweeningManager;
+  // Forward declaring type: TimeTweeningManager
+  class TimeTweeningManager;
 }
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
@@ -46,62 +46,62 @@ namespace GlobalNamespace {
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: protected SelectableStateController _selectableStateController
     GlobalNamespace::SelectableStateController*& dyn__selectableStateController();
-    // protected Tweening.TweeningManager get_tweeningManager()
-    // Offset: 0x11DBB6C
-    Tweening::TweeningManager* get_tweeningManager();
+    // protected Tweening.TimeTweeningManager get_tweeningManager()
+    // Offset: 0x126C158
+    Tweening::TimeTweeningManager* get_tweeningManager();
     // protected BaseTransitionSO get_transition()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::BaseTransitionSO* get_transition();
     // public System.Void SetState(SelectableStateController/ViewState viewState)
-    // Offset: 0x11DBB88
+    // Offset: 0x126C174
     void SetState(GlobalNamespace::SelectableStateController::ViewState viewState);
     // protected System.Void OnEnable()
-    // Offset: 0x11DBC00
+    // Offset: 0x126C1EC
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x11DBC94
+    // Offset: 0x126C280
     void OnDisable();
     // private System.Void HandleSelectableStateControllerStateDidChange(SelectableStateController/ViewState state)
-    // Offset: 0x11DBD28
+    // Offset: 0x126C314
     void HandleSelectableStateControllerStateDidChange(GlobalNamespace::SelectableStateController::ViewState state);
     // protected System.Void TransitionToNormalState()
-    // Offset: 0x11DBD90
+    // Offset: 0x126C37C
     void TransitionToNormalState();
     // protected System.Void TransitionToHighlightedState()
-    // Offset: 0x11DBD94
+    // Offset: 0x126C380
     void TransitionToHighlightedState();
     // protected System.Void TransitionToPressedState()
-    // Offset: 0x11DBD98
+    // Offset: 0x126C384
     void TransitionToPressedState();
     // protected System.Void TransitionToDisabledState()
-    // Offset: 0x11DBD9C
+    // Offset: 0x126C388
     void TransitionToDisabledState();
     // protected System.Void TransitionToSelectedState()
-    // Offset: 0x11DBDA0
+    // Offset: 0x126C38C
     void TransitionToSelectedState();
     // protected System.Void TransitionToSelectedAndHighlightedState()
-    // Offset: 0x11DBDA4
+    // Offset: 0x126C390
     void TransitionToSelectedAndHighlightedState();
     // protected System.Void SetNormalState()
-    // Offset: 0x11DBDA8
+    // Offset: 0x126C394
     void SetNormalState();
     // protected System.Void SetHighlightedState()
-    // Offset: 0x11DBDAC
+    // Offset: 0x126C398
     void SetHighlightedState();
     // protected System.Void SetPressedState()
-    // Offset: 0x11DBDB0
+    // Offset: 0x126C39C
     void SetPressedState();
     // protected System.Void SetDisabledState()
-    // Offset: 0x11DBDB4
+    // Offset: 0x126C3A0
     void SetDisabledState();
     // protected System.Void SetSelectedState()
-    // Offset: 0x11DBDB8
+    // Offset: 0x126C3A4
     void SetSelectedState();
     // protected System.Void SetSelectedAndHighlightedState()
-    // Offset: 0x11DBDBC
+    // Offset: 0x126C3A8
     void SetSelectedAndHighlightedState();
     // protected System.Void .ctor()
-    // Offset: 0x11DBDC0
+    // Offset: 0x126C3AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -123,7 +123,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseStateTransition*, "", "BaseStateTran
 // Writing MetadataGetter for method: GlobalNamespace::BaseStateTransition::get_tweeningManager
 // Il2CppName: get_tweeningManager
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::TweeningManager* (GlobalNamespace::BaseStateTransition::*)()>(&GlobalNamespace::BaseStateTransition::get_tweeningManager)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::TimeTweeningManager* (GlobalNamespace::BaseStateTransition::*)()>(&GlobalNamespace::BaseStateTransition::get_tweeningManager)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseStateTransition*), "get_tweeningManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

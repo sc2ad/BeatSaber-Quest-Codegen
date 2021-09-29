@@ -82,31 +82,31 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.Boolean> <>9__198_0
     static void _set_$$9__198_0(System::Func_2<System::Type*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x165BE94
+    // Offset: 0x1826238
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<Zenject.DiContainer/Zenject.ProviderInfo> <get_AllProviders>b__33_0(System.Collections.Generic.List`1<Zenject.DiContainer/Zenject.ProviderInfo> x)
-    // Offset: 0x165BF00
+    // Offset: 0x18262A4
     System::Collections::Generic::IEnumerable_1<Zenject::DiContainer::ProviderInfo*>* $get_AllProviders$b__33_0(System::Collections::Generic::List_1<Zenject::DiContainer::ProviderInfo*>* x);
     // Zenject.IProvider <get_AllProviders>b__33_1(Zenject.DiContainer/Zenject.ProviderInfo x)
-    // Offset: 0x165BF08
+    // Offset: 0x18262AC
     Zenject::IProvider* $get_AllProviders$b__33_1(Zenject::DiContainer::ProviderInfo* x);
     // System.Boolean <ResolveTypeAll>b__86_1(System.Type x)
-    // Offset: 0x165BF20
+    // Offset: 0x18262C4
     bool $ResolveTypeAll$b__86_1(System::Type* x);
     // System.String <InstantiateInternal>b__97_0(Zenject.TypeValuePair x)
-    // Offset: 0x165BF8C
+    // Offset: 0x1826330
     ::Il2CppString* $InstantiateInternal$b__97_0(Zenject::TypeValuePair x);
     // System.String <InjectExplicitInternal>b__102_0(Zenject.TypeValuePair x)
-    // Offset: 0x165BFF4
+    // Offset: 0x1826398
     ::Il2CppString* $InjectExplicitInternal$b__102_0(Zenject::TypeValuePair x);
     // System.Boolean <BindInternal>b__197_0(System.Type x)
-    // Offset: 0x165C05C
+    // Offset: 0x1826400
     bool $BindInternal$b__197_0(System::Type* x);
     // System.Boolean <Bind>b__198_0(System.Type x)
-    // Offset: 0x165C0D8
+    // Offset: 0x182647C
     bool $Bind$b__198_0(System::Type* x);
     // public System.Void .ctor()
-    // Offset: 0x165BEF8
+    // Offset: 0x182629C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

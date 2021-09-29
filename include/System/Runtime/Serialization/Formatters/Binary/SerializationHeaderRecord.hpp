@@ -88,26 +88,26 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Int32 minorVersion
     int& dyn_minorVersion();
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum, System.Int32 topId, System.Int32 headerId, System.Int32 majorVersion, System.Int32 minorVersion)
-    // Offset: 0x162968C
+    // Offset: 0x17F52EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerializationHeaderRecord* New_ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum, int topId, int headerId, int majorVersion, int minorVersion) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationHeaderRecord*, creationType>(binaryHeaderEnum, topId, headerId, majorVersion, minorVersion)));
     }
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x16296E8
+    // Offset: 0x17F5348
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // static private System.Int32 GetInt32(System.Byte[] buffer, System.Int32 index)
-    // Offset: 0x1629764
-    static int GetInt32(::Array<uint8_t>* buffer, int index);
+    // Offset: 0x17F53C4
+    static int GetInt32(::ArrayWrapper<uint8_t> buffer, int index);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x16297E4
+    // Offset: 0x17F5444
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x16299C0
+    // Offset: 0x17F5620
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x162967C
+    // Offset: 0x17F52DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -138,9 +138,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::GetInt32
 // Il2CppName: GetInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int)>(&System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::GetInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint8_t>, int)>(&System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::GetInt32)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord*), "GetInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index});
   }

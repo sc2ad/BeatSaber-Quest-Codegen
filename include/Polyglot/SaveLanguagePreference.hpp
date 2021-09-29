@@ -39,13 +39,13 @@ namespace Polyglot {
     // Get instance field reference: private System.String preferenceKey
     ::Il2CppString*& dyn_preferenceKey();
     // public System.Void Start()
-    // Offset: 0x237E5A4
+    // Offset: 0x25853D8
     void Start();
     // public System.Void OnLocalize()
-    // Offset: 0x237E5F8
+    // Offset: 0x258542C
     void OnLocalize();
     // public System.Void .ctor()
-    // Offset: 0x237E62C
+    // Offset: 0x2585460
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

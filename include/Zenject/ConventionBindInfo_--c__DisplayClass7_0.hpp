@@ -46,10 +46,10 @@ namespace Zenject {
     // Get instance field reference: public System.Type type
     System::Type*& dyn_type();
     // System.Boolean <ShouldIncludeType>b__0(System.Func`2<System.Type,System.Boolean> predicate)
-    // Offset: 0x13E8994
+    // Offset: 0x14FAB88
     bool $ShouldIncludeType$b__0(System::Func_2<System::Type*, bool>* predicate);
     // public System.Void .ctor()
-    // Offset: 0x13E87AC
+    // Offset: 0x14FA9A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

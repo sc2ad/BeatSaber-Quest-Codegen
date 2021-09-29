@@ -63,7 +63,7 @@ namespace NUnit::Framework::Constraints {
     // Get instance field reference: public System.Boolean ActualHasData
     bool& dyn_ActualHasData();
     // public System.Void .ctor()
-    // Offset: 0x17747F4
+    // Offset: 0x1933840
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

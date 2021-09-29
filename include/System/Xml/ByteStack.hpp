@@ -21,9 +21,9 @@ namespace System::Xml {
     // private System.Byte[] stack
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* stack;
+    ::ArrayWrapper<uint8_t> stack;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Int32 growthRate
     // Size: 0x4
     // Offset: 0x18
@@ -43,9 +43,9 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ByteStack
-    ByteStack(::Array<uint8_t>* stack_ = {}, int growthRate_ = {}, int top_ = {}, int size_ = {}) noexcept : stack{stack_}, growthRate{growthRate_}, top{top_}, size{size_} {}
+    ByteStack(::ArrayWrapper<uint8_t> stack_ = {}, int growthRate_ = {}, int top_ = {}, int size_ = {}) noexcept : stack{stack_}, growthRate{growthRate_}, top{top_}, size{size_} {}
     // Get instance field reference: private System.Byte[] stack
-    ::Array<uint8_t>*& dyn_stack();
+    ::ArrayWrapper<uint8_t>& dyn_stack();
     // Get instance field reference: private System.Int32 growthRate
     int& dyn_growthRate();
     // Get instance field reference: private System.Int32 top
@@ -53,17 +53,17 @@ namespace System::Xml {
     // Get instance field reference: private System.Int32 size
     int& dyn_size();
     // public System.Void .ctor(System.Int32 growthRate)
-    // Offset: 0x1954B4C
+    // Offset: 0x1AF5984
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ByteStack* New_ctor(int growthRate) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::ByteStack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ByteStack*, creationType>(growthRate)));
     }
     // public System.Void Push(System.Byte data)
-    // Offset: 0x1954BC4
+    // Offset: 0x1AF59FC
     void Push(uint8_t data);
     // public System.Byte Pop()
-    // Offset: 0x1954CAC
+    // Offset: 0x1AF5AE4
     uint8_t Pop();
   }; // System.Xml.ByteStack
   #pragma pack(pop)

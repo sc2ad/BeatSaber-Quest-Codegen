@@ -21,7 +21,7 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: GatewayIPAddressInformation
     GatewayIPAddressInformation() noexcept {}
     // protected System.Void .ctor()
-    // Offset: 0x149F28C
+    // Offset: 0x1644F08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

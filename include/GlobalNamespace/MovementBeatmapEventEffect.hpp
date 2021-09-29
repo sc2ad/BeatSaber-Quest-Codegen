@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapEventType beatmapEventType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0xE3E198
+    // [SpaceAttribute] Offset: 0xF06B1C
     // private System.Single _transitionSpeed
     // Size: 0x4
     // Offset: 0x1C
@@ -54,17 +54,17 @@ namespace GlobalNamespace {
     // private MovementBeatmapEventEffect/MovementData[] _movementData
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::MovementBeatmapEventEffect::MovementData*>* movementData;
+    ::ArrayWrapper<GlobalNamespace::MovementBeatmapEventEffect::MovementData*> movementData;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MovementBeatmapEventEffect::MovementData*>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE3E1E0
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MovementBeatmapEventEffect::MovementData*>) == 0x8);
+    // [SpaceAttribute] Offset: 0xF06B64
     // private UnityEngine.Transform[] _transforms
     // Size: 0x8
     // Offset: 0x28
-    ::Array<UnityEngine::Transform*>* transforms;
+    ::ArrayWrapper<UnityEngine::Transform*> transforms;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3E218
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    // [InjectAttribute] Offset: 0xF06B9C
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x30
@@ -94,11 +94,11 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector3[] _startLocalPositions
     // Size: 0x8
     // Offset: 0x58
-    ::Array<UnityEngine::Vector3>* startLocalPositions;
+    ::ArrayWrapper<UnityEngine::Vector3> startLocalPositions;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
     // Creating value type constructor for type: MovementBeatmapEventEffect
-    MovementBeatmapEventEffect(GlobalNamespace::BeatmapEventType beatmapEventType_ = {}, float transitionSpeed_ = {}, ::Array<GlobalNamespace::MovementBeatmapEventEffect::MovementData*>* movementData_ = {}, ::Array<UnityEngine::Transform*>* transforms_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, int currentMovementDataIdx_ = {}, UnityEngine::Vector3 currentPositionOffset_ = {}, UnityEngine::Vector3 prevPositionOffset_ = {}, ::Array<UnityEngine::Vector3>* startLocalPositions_ = {}) noexcept : beatmapEventType{beatmapEventType_}, transitionSpeed{transitionSpeed_}, movementData{movementData_}, transforms{transforms_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, currentMovementDataIdx{currentMovementDataIdx_}, currentPositionOffset{currentPositionOffset_}, prevPositionOffset{prevPositionOffset_}, startLocalPositions{startLocalPositions_} {}
+    MovementBeatmapEventEffect(GlobalNamespace::BeatmapEventType beatmapEventType_ = {}, float transitionSpeed_ = {}, ::ArrayWrapper<GlobalNamespace::MovementBeatmapEventEffect::MovementData*> movementData_ = {}, ::ArrayWrapper<UnityEngine::Transform*> transforms_ = {}, GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController_ = {}, int currentMovementDataIdx_ = {}, UnityEngine::Vector3 currentPositionOffset_ = {}, UnityEngine::Vector3 prevPositionOffset_ = {}, ::ArrayWrapper<UnityEngine::Vector3> startLocalPositions_ = {}) noexcept : beatmapEventType{beatmapEventType_}, transitionSpeed{transitionSpeed_}, movementData{movementData_}, transforms{transforms_}, beatmapObjectCallbackController{beatmapObjectCallbackController_}, currentMovementDataIdx{currentMovementDataIdx_}, currentPositionOffset{currentPositionOffset_}, prevPositionOffset{prevPositionOffset_}, startLocalPositions{startLocalPositions_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapEventType _beatmapEventType
@@ -106,9 +106,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _transitionSpeed
     float& dyn__transitionSpeed();
     // Get instance field reference: private MovementBeatmapEventEffect/MovementData[] _movementData
-    ::Array<GlobalNamespace::MovementBeatmapEventEffect::MovementData*>*& dyn__movementData();
+    ::ArrayWrapper<GlobalNamespace::MovementBeatmapEventEffect::MovementData*>& dyn__movementData();
     // Get instance field reference: private UnityEngine.Transform[] _transforms
-    ::Array<UnityEngine::Transform*>*& dyn__transforms();
+    ::ArrayWrapper<UnityEngine::Transform*>& dyn__transforms();
     // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
     // Get instance field reference: private System.Int32 _currentMovementDataIdx
@@ -118,27 +118,27 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _prevPositionOffset
     UnityEngine::Vector3& dyn__prevPositionOffset();
     // Get instance field reference: private UnityEngine.Vector3[] _startLocalPositions
-    ::Array<UnityEngine::Vector3>*& dyn__startLocalPositions();
+    ::ArrayWrapper<UnityEngine::Vector3>& dyn__startLocalPositions();
     // protected System.Void Start()
-    // Offset: 0x11C2008
+    // Offset: 0x1208688
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11C2304
+    // Offset: 0x1208984
     void OnDestroy();
     // protected System.Void FixedUpdate()
-    // Offset: 0x11C2404
+    // Offset: 0x1208A84
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0x11C2584
+    // Offset: 0x1208C04
     void LateUpdate();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x11C2670
+    // Offset: 0x1208CF0
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void SetLocalPositionOffsetsForAllObjects(UnityEngine.Vector3 localPositionOffset)
-    // Offset: 0x11C21CC
+    // Offset: 0x120884C
     void SetLocalPositionOffsetsForAllObjects(UnityEngine::Vector3 localPositionOffset);
     // public System.Void .ctor()
-    // Offset: 0x11C26C8
+    // Offset: 0x1208D48
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -152,7 +152,7 @@ namespace GlobalNamespace {
     }
   }; // MovementBeatmapEventEffect
   #pragma pack(pop)
-  static check_size<sizeof(MovementBeatmapEventEffect), 88 + sizeof(::Array<UnityEngine::Vector3>*)> __GlobalNamespace_MovementBeatmapEventEffectSizeCheck;
+  static check_size<sizeof(MovementBeatmapEventEffect), 88 + sizeof(::ArrayWrapper<UnityEngine::Vector3>)> __GlobalNamespace_MovementBeatmapEventEffectSizeCheck;
   static_assert(sizeof(MovementBeatmapEventEffect) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MovementBeatmapEventEffect*, "", "MovementBeatmapEventEffect");

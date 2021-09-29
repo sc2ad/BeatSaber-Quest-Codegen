@@ -19,14 +19,14 @@ namespace System::Net {
     // Creating value type constructor for type: HTTP_REQUEST_HEADER_ID
     HTTP_REQUEST_HEADER_ID() noexcept {}
     // Get static field: static private System.String[] m_Strings
-    static ::Array<::Il2CppString*>* _get_m_Strings();
+    static ::ArrayWrapper<::Il2CppString*> _get_m_Strings();
     // Set static field: static private System.String[] m_Strings
-    static void _set_m_Strings(::Array<::Il2CppString*>* value);
+    static void _set_m_Strings(::ArrayWrapper<::Il2CppString*> value);
     // static private System.Void .cctor()
-    // Offset: 0x15D3CA0
+    // Offset: 0x1777158
     static void _cctor();
     // static System.String ToString(System.Int32 position)
-    // Offset: 0x15D3C0C
+    // Offset: 0x17770C4
     static ::Il2CppString* ToString(int position);
   }; // System.Net.UnsafeNclNativeMethods/System.Net.HttpApi/System.Net.HTTP_REQUEST_HEADER_ID
   #pragma pack(pop)

@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CancelLevelStartRpc
     CancelLevelStartRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x16EECD8
+    // Offset: 0x18C8854
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     // Base method: System.Void Object::.ctor()

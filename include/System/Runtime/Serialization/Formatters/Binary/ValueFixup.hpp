@@ -56,9 +56,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Int32[] indexMap
     // Size: 0x8
     // Offset: 0x20
-    ::Array<int>* indexMap;
+    ::ArrayWrapper<int> indexMap;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // System.Object header
     // Size: 0x8
     // Offset: 0x28
@@ -84,7 +84,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: ValueFixup
-    ValueFixup(System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum valueFixupEnum_ = {}, System::Array* arrayObj_ = {}, ::Array<int>* indexMap_ = {}, ::Il2CppObject* header_ = {}, ::Il2CppObject* memberObject_ = {}, System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo_ = {}, ::Il2CppString* memberName_ = {}) noexcept : valueFixupEnum{valueFixupEnum_}, arrayObj{arrayObj_}, indexMap{indexMap_}, header{header_}, memberObject{memberObject_}, objectInfo{objectInfo_}, memberName{memberName_} {}
+    ValueFixup(System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum valueFixupEnum_ = {}, System::Array* arrayObj_ = {}, ::ArrayWrapper<int> indexMap_ = {}, ::Il2CppObject* header_ = {}, ::Il2CppObject* memberObject_ = {}, System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo_ = {}, ::Il2CppString* memberName_ = {}) noexcept : valueFixupEnum{valueFixupEnum_}, arrayObj{arrayObj_}, indexMap{indexMap_}, header{header_}, memberObject{memberObject_}, objectInfo{objectInfo_}, memberName{memberName_} {}
     // Get static field: static System.Reflection.MemberInfo valueInfo
     static System::Reflection::MemberInfo* _get_valueInfo();
     // Set static field: static System.Reflection.MemberInfo valueInfo
@@ -94,7 +94,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Array arrayObj
     System::Array*& dyn_arrayObj();
     // Get instance field reference: System.Int32[] indexMap
-    ::Array<int>*& dyn_indexMap();
+    ::ArrayWrapper<int>& dyn_indexMap();
     // Get instance field reference: System.Object header
     ::Il2CppObject*& dyn_header();
     // Get instance field reference: System.Object memberObject
@@ -104,21 +104,21 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.String memberName
     ::Il2CppString*& dyn_memberName();
     // System.Void .ctor(System.Array arrayObj, System.Int32[] indexMap)
-    // Offset: 0x16251B4
+    // Offset: 0x17F0E14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ValueFixup* New_ctor(System::Array* arrayObj, ::Array<int>* indexMap) {
+    static ValueFixup* New_ctor(System::Array* arrayObj, ::ArrayWrapper<int> indexMap) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::ValueFixup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValueFixup*, creationType>(arrayObj, indexMap)));
     }
     // System.Void .ctor(System.Object memberObject, System.String memberName, System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo objectInfo)
-    // Offset: 0x16258EC
+    // Offset: 0x17F154C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValueFixup* New_ctor(::Il2CppObject* memberObject, ::Il2CppString* memberName, System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::ValueFixup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValueFixup*, creationType>(memberObject, memberName, objectInfo)));
     }
     // System.Void Fixup(System.Runtime.Serialization.Formatters.Binary.ParseRecord record, System.Runtime.Serialization.Formatters.Binary.ParseRecord parent)
-    // Offset: 0x162460C
+    // Offset: 0x17F026C
     void Fixup(System::Runtime::Serialization::Formatters::Binary::ParseRecord* record, System::Runtime::Serialization::Formatters::Binary::ParseRecord* parent);
   }; // System.Runtime.Serialization.Formatters.Binary.ValueFixup
   #pragma pack(pop)

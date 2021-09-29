@@ -28,19 +28,19 @@ namespace RootMotion {
     // Creating value type constructor for type: BakerUtilities
     BakerUtilities() noexcept {}
     // static public System.Void ReduceKeyframes(UnityEngine.AnimationCurve curve, System.Single maxError)
-    // Offset: 0x1D27DD8
+    // Offset: 0x1EB4F54
     static void ReduceKeyframes(UnityEngine::AnimationCurve* curve, float maxError);
     // static public UnityEngine.Keyframe[] GetReducedKeyframes(UnityEngine.AnimationCurve curve, System.Single maxError)
-    // Offset: 0x1D292AC
-    static ::Array<UnityEngine::Keyframe>* GetReducedKeyframes(UnityEngine::AnimationCurve* curve, float maxError);
+    // Offset: 0x1EB6428
+    static ::ArrayWrapper<UnityEngine::Keyframe> GetReducedKeyframes(UnityEngine::AnimationCurve* curve, float maxError);
     // static public System.Void SetLoopFrame(System.Single time, UnityEngine.AnimationCurve curve)
-    // Offset: 0x1D277EC
+    // Offset: 0x1EB4968
     static void SetLoopFrame(float time, UnityEngine::AnimationCurve* curve);
     // static public System.Void SetTangentMode(UnityEngine.AnimationCurve curve)
-    // Offset: 0x1D27E20
+    // Offset: 0x1EB4F9C
     static void SetTangentMode(UnityEngine::AnimationCurve* curve);
     // static public UnityEngine.Quaternion EnsureQuaternionContinuity(UnityEngine.Quaternion lastQ, UnityEngine.Quaternion q)
-    // Offset: 0x1D27324
+    // Offset: 0x1EB44A0
     static UnityEngine::Quaternion EnsureQuaternionContinuity(UnityEngine::Quaternion lastQ, UnityEngine::Quaternion q);
   }; // RootMotion.BakerUtilities
   #pragma pack(pop)
@@ -61,7 +61,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: RootMotion::BakerUtilities::GetReducedKeyframes
 // Il2CppName: GetReducedKeyframes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Keyframe>* (*)(UnityEngine::AnimationCurve*, float)>(&RootMotion::BakerUtilities::GetReducedKeyframes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Keyframe> (*)(UnityEngine::AnimationCurve*, float)>(&RootMotion::BakerUtilities::GetReducedKeyframes)> {
   static const MethodInfo* get() {
     static auto* curve = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")->byval_arg;
     static auto* maxError = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

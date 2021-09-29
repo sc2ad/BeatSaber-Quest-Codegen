@@ -62,13 +62,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean blocked
     bool& dyn_blocked();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x119C008
+    // Offset: 0x125BE10
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x119C05C
+    // Offset: 0x125BE64
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x1199624
+    // Offset: 0x125942C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

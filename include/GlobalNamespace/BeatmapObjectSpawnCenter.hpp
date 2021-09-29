@@ -36,9 +36,9 @@ namespace GlobalNamespace {
     // private BeatmapObjectSpawnCenter/PlayerCountToDistance[] _distances
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*>* distances;
+    ::ArrayWrapper<GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*> distances;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*>) == 0x8);
     // private System.Single _defaultDistnace
     // Size: 0x4
     // Offset: 0x20
@@ -68,11 +68,11 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: BeatmapObjectSpawnCenter
-    BeatmapObjectSpawnCenter(::Array<GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*>* distances_ = {}, float defaultDistnace_ = {}, System::Action_1<float>* spawnCenterDistanceWasFoundEvent_ = {}, bool spawnCenterDistanceWasFound_ = {}, float spawnCenterDistance_ = {}) noexcept : distances{distances_}, defaultDistnace{defaultDistnace_}, spawnCenterDistanceWasFoundEvent{spawnCenterDistanceWasFoundEvent_}, spawnCenterDistanceWasFound{spawnCenterDistanceWasFound_}, spawnCenterDistance{spawnCenterDistance_} {}
+    BeatmapObjectSpawnCenter(::ArrayWrapper<GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*> distances_ = {}, float defaultDistnace_ = {}, System::Action_1<float>* spawnCenterDistanceWasFoundEvent_ = {}, bool spawnCenterDistanceWasFound_ = {}, float spawnCenterDistance_ = {}) noexcept : distances{distances_}, defaultDistnace{defaultDistnace_}, spawnCenterDistanceWasFoundEvent{spawnCenterDistanceWasFoundEvent_}, spawnCenterDistanceWasFound{spawnCenterDistanceWasFound_}, spawnCenterDistance{spawnCenterDistance_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapObjectSpawnCenter/PlayerCountToDistance[] _distances
-    ::Array<GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*>*& dyn__distances();
+    ::ArrayWrapper<GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*>& dyn__distances();
     // Get instance field reference: private System.Single _defaultDistnace
     float& dyn__defaultDistnace();
     // Get instance field reference: private System.Action`1<System.Single> spawnCenterDistanceWasFoundEvent
@@ -82,25 +82,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _spawnCenterDistance
     float& dyn__spawnCenterDistance();
     // public System.Single get_spawnCenterDistance()
-    // Offset: 0x10D23CC
+    // Offset: 0x12A39A0
     float get_spawnCenterDistance();
     // public System.Boolean get_spawnCenterDistanceWasFound()
-    // Offset: 0x10D23D4
+    // Offset: 0x12A39A8
     bool get_spawnCenterDistanceWasFound();
     // public System.Void add_spawnCenterDistanceWasFoundEvent(System.Action`1<System.Single> value)
-    // Offset: 0x10D23DC
+    // Offset: 0x12A39B0
     void add_spawnCenterDistanceWasFoundEvent(System::Action_1<float>* value);
     // public System.Void remove_spawnCenterDistanceWasFoundEvent(System.Action`1<System.Single> value)
-    // Offset: 0x10D2480
+    // Offset: 0x12A3A54
     void remove_spawnCenterDistanceWasFoundEvent(System::Action_1<float>* value);
     // public System.Single CalculateSpawnCenterPosition(System.Int32 numberOfPlayers)
-    // Offset: 0x10D2524
+    // Offset: 0x12A3AF8
     float CalculateSpawnCenterPosition(int numberOfPlayers);
     // private System.Void ReportAndSaveSpawnCenterDistance(System.Single distance)
-    // Offset: 0x10D2650
+    // Offset: 0x12A3C24
     void ReportAndSaveSpawnCenterDistance(float distance);
     // public System.Void .ctor()
-    // Offset: 0x10D26D0
+    // Offset: 0x12A3CA4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

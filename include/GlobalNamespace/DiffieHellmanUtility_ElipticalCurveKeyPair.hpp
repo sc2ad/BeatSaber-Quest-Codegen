@@ -54,11 +54,11 @@ namespace GlobalNamespace {
     // private readonly System.Byte[] _publicKey
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* publicKey;
+    ::ArrayWrapper<uint8_t> publicKey;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: ElipticalCurveKeyPair
-    ElipticalCurveKeyPair(Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* ecdhBasicAgreement_ = {}, ::Array<uint8_t>* publicKey_ = {}) noexcept : ecdhBasicAgreement{ecdhBasicAgreement_}, publicKey{publicKey_} {}
+    ElipticalCurveKeyPair(Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* ecdhBasicAgreement_ = {}, ::ArrayWrapper<uint8_t> publicKey_ = {}) noexcept : ecdhBasicAgreement{ecdhBasicAgreement_}, publicKey{publicKey_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IDiffieHellmanKeyPair
     operator GlobalNamespace::IDiffieHellmanKeyPair() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDiffieHellmanKeyPair*>(this);
@@ -66,26 +66,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Agreement.ECDHBasicAgreement _ecdhBasicAgreement
     Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*& dyn__ecdhBasicAgreement();
     // Get instance field reference: private readonly System.Byte[] _publicKey
-    ::Array<uint8_t>*& dyn__publicKey();
+    ::ArrayWrapper<uint8_t>& dyn__publicKey();
     // public System.Byte[] get_publicKey()
-    // Offset: 0x133DD70
-    ::Array<uint8_t>* get_publicKey();
+    // Offset: 0x14553B0
+    ::ArrayWrapper<uint8_t> get_publicKey();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters privateKeyParameters, System.Byte[] publicKey)
-    // Offset: 0x133D6E8
+    // Offset: 0x1454D28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DiffieHellmanUtility::ElipticalCurveKeyPair* New_ctor(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privateKeyParameters, ::Array<uint8_t>* publicKey) {
+    static DiffieHellmanUtility::ElipticalCurveKeyPair* New_ctor(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privateKeyParameters, ::ArrayWrapper<uint8_t> publicKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiffieHellmanUtility::ElipticalCurveKeyPair*, creationType>(privateKeyParameters, publicKey)));
     }
     // public System.Threading.Tasks.Task`1<System.Byte[]> GetPreMasterSecretAsync(System.Byte[] clientPublicKey)
-    // Offset: 0x133DD78
-    System::Threading::Tasks::Task_1<::Array<uint8_t>*>* GetPreMasterSecretAsync(::Array<uint8_t>* clientPublicKey);
+    // Offset: 0x14553B8
+    System::Threading::Tasks::Task_1<::ArrayWrapper<uint8_t>>* GetPreMasterSecretAsync(::ArrayWrapper<uint8_t> clientPublicKey);
     // public System.Byte[] GetPreMasterSecret(System.Byte[] clientPublicKey)
-    // Offset: 0x133DE58
-    ::Array<uint8_t>* GetPreMasterSecret(::Array<uint8_t>* clientPublicKey);
+    // Offset: 0x1455498
+    ::ArrayWrapper<uint8_t> GetPreMasterSecret(::ArrayWrapper<uint8_t> clientPublicKey);
   }; // DiffieHellmanUtility/ElipticalCurveKeyPair
   #pragma pack(pop)
-  static check_size<sizeof(DiffieHellmanUtility::ElipticalCurveKeyPair), 24 + sizeof(::Array<uint8_t>*)> __GlobalNamespace_DiffieHellmanUtility_ElipticalCurveKeyPairSizeCheck;
+  static check_size<sizeof(DiffieHellmanUtility::ElipticalCurveKeyPair), 24 + sizeof(::ArrayWrapper<uint8_t>)> __GlobalNamespace_DiffieHellmanUtility_ElipticalCurveKeyPairSizeCheck;
   static_assert(sizeof(DiffieHellmanUtility::ElipticalCurveKeyPair) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair*, "", "DiffieHellmanUtility/ElipticalCurveKeyPair");
@@ -93,7 +93,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyP
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::get_publicKey
 // Il2CppName: get_publicKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::*)()>(&GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::get_publicKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::*)()>(&GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::get_publicKey)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair*), "get_publicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -105,18 +105,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::GetPreMasterSecretAsync
 // Il2CppName: GetPreMasterSecretAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Array<uint8_t>*>* (GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::*)(::Array<uint8_t>*)>(&GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::GetPreMasterSecretAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::ArrayWrapper<uint8_t>>* (GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::*)(::ArrayWrapper<uint8_t>)>(&GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::GetPreMasterSecretAsync)> {
   static const MethodInfo* get() {
-    static auto* clientPublicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* clientPublicKey = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair*), "GetPreMasterSecretAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clientPublicKey});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::GetPreMasterSecret
 // Il2CppName: GetPreMasterSecret
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::*)(::Array<uint8_t>*)>(&GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::GetPreMasterSecret)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::*)(::ArrayWrapper<uint8_t>)>(&GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::GetPreMasterSecret)> {
   static const MethodInfo* get() {
-    static auto* clientPublicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* clientPublicKey = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair*), "GetPreMasterSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clientPublicKey});
   }
 };

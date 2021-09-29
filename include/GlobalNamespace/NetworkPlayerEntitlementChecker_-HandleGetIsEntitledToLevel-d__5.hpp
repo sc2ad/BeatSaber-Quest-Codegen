@@ -75,10 +75,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<EntitlementsStatus> <>u__1
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EntitlementsStatus>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x104A1E0
+    // Offset: 0x1139180
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x104A424
+    // Offset: 0x11393C4
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // NetworkPlayerEntitlementChecker/<HandleGetIsEntitledToLevel>d__5
   // WARNING Not writing size check since size may be invalid!

@@ -49,40 +49,40 @@ namespace System::Resources {
     // Set static field: static readonly System.Resources.FastResourceComparer Default
     static void _set_Default(System::Resources::FastResourceComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0x1486F6C
+    // Offset: 0x15A5AA8
     static void _cctor();
     // public System.Int32 GetHashCode(System.Object key)
-    // Offset: 0x1486A94
+    // Offset: 0x15A55D0
     int GetHashCode(::Il2CppObject* key);
     // public System.Int32 GetHashCode(System.String key)
-    // Offset: 0x1486B9C
+    // Offset: 0x15A56D8
     int GetHashCode(::Il2CppString* key);
     // static System.Int32 HashFunction(System.String key)
-    // Offset: 0x1486B24
+    // Offset: 0x15A5660
     static int HashFunction(::Il2CppString* key);
     // public System.Int32 Compare(System.Object a, System.Object b)
-    // Offset: 0x1486C00
+    // Offset: 0x15A573C
     int Compare(::Il2CppObject* a, ::Il2CppObject* b);
     // public System.Int32 Compare(System.String a, System.String b)
-    // Offset: 0x1486CB0
+    // Offset: 0x15A57EC
     int Compare(::Il2CppString* a, ::Il2CppString* b);
     // public System.Boolean Equals(System.String a, System.String b)
-    // Offset: 0x1486CC0
+    // Offset: 0x15A57FC
     bool Equals(::Il2CppString* a, ::Il2CppString* b);
     // public System.Boolean Equals(System.Object a, System.Object b)
-    // Offset: 0x1486CD0
+    // Offset: 0x15A580C
     bool Equals(::Il2CppObject* a, ::Il2CppObject* b);
     // static public System.Int32 CompareOrdinal(System.String a, System.Byte[] bytes, System.Int32 bCharLength)
-    // Offset: 0x1486D80
-    static int CompareOrdinal(::Il2CppString* a, ::Array<uint8_t>* bytes, int bCharLength);
+    // Offset: 0x15A58BC
+    static int CompareOrdinal(::Il2CppString* a, ::ArrayWrapper<uint8_t> bytes, int bCharLength);
     // static public System.Int32 CompareOrdinal(System.Byte[] bytes, System.Int32 aCharLength, System.String b)
-    // Offset: 0x1486E40
-    static int CompareOrdinal(::Array<uint8_t>* bytes, int aCharLength, ::Il2CppString* b);
+    // Offset: 0x15A597C
+    static int CompareOrdinal(::ArrayWrapper<uint8_t> bytes, int aCharLength, ::Il2CppString* b);
     // static System.Int32 CompareOrdinal(System.Byte* a, System.Int32 byteLen, System.String b)
-    // Offset: 0x1486EC4
+    // Offset: 0x15A5A00
     static int CompareOrdinal(uint8_t* a, int byteLen, ::Il2CppString* b);
     // public System.Void .ctor()
-    // Offset: 0x1486F64
+    // Offset: 0x15A5AA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -173,10 +173,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Resources::FastResourceComparer::CompareOrdinal
 // Il2CppName: CompareOrdinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::Array<uint8_t>*, int)>(&System::Resources::FastResourceComparer::CompareOrdinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::ArrayWrapper<uint8_t>, int)>(&System::Resources::FastResourceComparer::CompareOrdinal)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* bytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* bCharLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Resources::FastResourceComparer*), "CompareOrdinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, bytes, bCharLength});
   }
@@ -184,9 +184,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: System::Resources::FastResourceComparer::CompareOrdinal
 // Il2CppName: CompareOrdinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int, ::Il2CppString*)>(&System::Resources::FastResourceComparer::CompareOrdinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint8_t>, int, ::Il2CppString*)>(&System::Resources::FastResourceComparer::CompareOrdinal)> {
   static const MethodInfo* get() {
-    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* bytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* aCharLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Resources::FastResourceComparer*), "CompareOrdinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes, aCharLength, b});

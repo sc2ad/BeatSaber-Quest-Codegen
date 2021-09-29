@@ -38,9 +38,9 @@ namespace GlobalNamespace {
     // private SteamLevelProductsModelSO/LevelPackProductData[] _levelPackProductsData
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>* levelPackProductsData;
+    ::ArrayWrapper<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*> levelPackProductsData;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>) == 0x8);
     // private System.Collections.Generic.Dictionary`2<System.String,SteamLevelProductsModelSO/LevelProductData> _levelIdToProductData
     // Size: 0x8
     // Offset: 0x20
@@ -54,26 +54,26 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>*) == 0x8);
     // Creating value type constructor for type: SteamLevelProductsModelSO
-    SteamLevelProductsModelSO(::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>* levelPackProductsData_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>* levelIdToProductData_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>* levelPackIdToProductData_ = {}) noexcept : levelPackProductsData{levelPackProductsData_}, levelIdToProductData{levelIdToProductData_}, levelPackIdToProductData{levelPackIdToProductData_} {}
+    SteamLevelProductsModelSO(::ArrayWrapper<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*> levelPackProductsData_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>* levelIdToProductData_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>* levelPackIdToProductData_ = {}) noexcept : levelPackProductsData{levelPackProductsData_}, levelIdToProductData{levelIdToProductData_}, levelPackIdToProductData{levelPackIdToProductData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private SteamLevelProductsModelSO/LevelPackProductData[] _levelPackProductsData
-    ::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>*& dyn__levelPackProductsData();
+    ::ArrayWrapper<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>& dyn__levelPackProductsData();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,SteamLevelProductsModelSO/LevelProductData> _levelIdToProductData
     System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>*& dyn__levelIdToProductData();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,SteamLevelProductsModelSO/LevelPackProductData> _levelPackIdToProductData
     System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>*& dyn__levelPackIdToProductData();
     // public SteamLevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
-    // Offset: 0x106A070
-    ::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>* get_levelPackProductsData();
+    // Offset: 0x11589F8
+    ::ArrayWrapper<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*> get_levelPackProductsData();
     // public SteamLevelProductsModelSO/LevelProductData GetLevelProductData(System.String levelId)
-    // Offset: 0x106A1D0
+    // Offset: 0x1158B58
     GlobalNamespace::SteamLevelProductsModelSO::LevelProductData* GetLevelProductData(::Il2CppString* levelId);
     // public SteamLevelProductsModelSO/LevelPackProductData GetLevelPackProductData(System.String levelPackId)
-    // Offset: 0x106A250
+    // Offset: 0x1158BD8
     GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::Il2CppString* levelPackId);
     // public System.Void .ctor()
-    // Offset: 0x106A2D0
+    // Offset: 0x1158C58
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -85,7 +85,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SteamLevelProductsModelSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x106A078
+    // Offset: 0x1158A00
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
@@ -99,7 +99,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamLevelProductsModelSO*, "", "SteamLe
 // Writing MetadataGetter for method: GlobalNamespace::SteamLevelProductsModelSO::get_levelPackProductsData
 // Il2CppName: get_levelPackProductsData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>* (GlobalNamespace::SteamLevelProductsModelSO::*)()>(&GlobalNamespace::SteamLevelProductsModelSO::get_levelPackProductsData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*> (GlobalNamespace::SteamLevelProductsModelSO::*)()>(&GlobalNamespace::SteamLevelProductsModelSO::get_levelPackProductsData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamLevelProductsModelSO*), "get_levelPackProductsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

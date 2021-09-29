@@ -29,13 +29,13 @@ namespace UnityEngine::Networking {
     // Creating value type constructor for type: UnityWebRequestAssetBundle
     UnityWebRequestAssetBundle() noexcept {}
     // static public UnityEngine.Networking.UnityWebRequest GetAssetBundle(System.String uri)
-    // Offset: 0x241CCB0
+    // Offset: 0x2628100
     static UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::Il2CppString* uri);
     // static public UnityEngine.Networking.UnityWebRequest GetAssetBundle(System.String uri, System.UInt32 crc)
-    // Offset: 0x241CCB8
+    // Offset: 0x2628108
     static UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::Il2CppString* uri, uint crc);
     // static public UnityEngine.Networking.UnityWebRequest GetAssetBundle(System.String uri, UnityEngine.CachedAssetBundle cachedAssetBundle, System.UInt32 crc)
-    // Offset: 0x241CD5C
+    // Offset: 0x26281AC
     static UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::Il2CppString* uri, UnityEngine::CachedAssetBundle cachedAssetBundle, uint crc);
   }; // UnityEngine.Networking.UnityWebRequestAssetBundle
   #pragma pack(pop)

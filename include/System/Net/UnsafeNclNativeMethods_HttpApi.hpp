@@ -26,11 +26,11 @@ namespace System::Net {
     // Creating value type constructor for type: HttpApi
     HttpApi() noexcept {}
     // Get static field: static private System.String[] m_Strings
-    static ::Array<::Il2CppString*>* _get_m_Strings();
+    static ::ArrayWrapper<::Il2CppString*> _get_m_Strings();
     // Set static field: static private System.String[] m_Strings
-    static void _set_m_Strings(::Array<::Il2CppString*>* value);
+    static void _set_m_Strings(::ArrayWrapper<::Il2CppString*> value);
     // static private System.Void .cctor()
-    // Offset: 0x15D3564
+    // Offset: 0x1776A1C
     static void _cctor();
   }; // System.Net.UnsafeNclNativeMethods/System.Net.HttpApi
   #pragma pack(pop)

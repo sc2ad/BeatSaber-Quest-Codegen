@@ -47,10 +47,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public MissionHelpViewController viewController
     GlobalNamespace::MissionHelpViewController*& dyn_viewController();
     // System.Void <HandleMissionHelpViewControllerDidFinish>b__0()
-    // Offset: 0x10DD880
+    // Offset: 0x119533C
     void $HandleMissionHelpViewControllerDidFinish$b__0();
     // public System.Void .ctor()
-    // Offset: 0x10DD878
+    // Offset: 0x1194E64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

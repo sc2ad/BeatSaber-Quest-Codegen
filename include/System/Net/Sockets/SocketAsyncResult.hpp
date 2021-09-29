@@ -89,9 +89,9 @@ namespace System::Net::Sockets {
     // public System.Byte[] Buffer
     // Size: 0x8
     // Offset: 0x50
-    ::Array<uint8_t>* Buffer;
+    ::ArrayWrapper<uint8_t> Buffer;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // public System.Int32 Offset
     // Size: 0x4
     // Offset: 0x58
@@ -121,9 +121,9 @@ namespace System::Net::Sockets {
     // public System.Net.IPAddress[] Addresses
     // Size: 0x8
     // Offset: 0x70
-    ::Array<System::Net::IPAddress*>* Addresses;
+    ::ArrayWrapper<System::Net::IPAddress*> Addresses;
     // Field size check
-    static_assert(sizeof(::Array<System::Net::IPAddress*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Net::IPAddress*>) == 0x8);
     // public System.Int32 Port
     // Size: 0x4
     // Offset: 0x78
@@ -177,7 +177,7 @@ namespace System::Net::Sockets {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: SocketAsyncResult
-    SocketAsyncResult(System::Net::Sockets::Socket* socket_ = {}, System::Net::Sockets::SocketOperation operation_ = {}, System::Exception* DelayedException_ = {}, System::Net::EndPoint* EndPoint_ = {}, ::Array<uint8_t>* Buffer_ = {}, int Offset_ = {}, int Size_ = {}, System::Net::Sockets::SocketFlags SockFlags_ = {}, System::Net::Sockets::Socket* AcceptSocket_ = {}, ::Array<System::Net::IPAddress*>* Addresses_ = {}, int Port_ = {}, System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* Buffers_ = {}, bool ReuseSocket_ = {}, int CurrentAddress_ = {}, System::Net::Sockets::Socket* AcceptedSocket_ = {}, int Total_ = {}, int error_ = {}, int EndCalled_ = {}) noexcept : socket{socket_}, operation{operation_}, DelayedException{DelayedException_}, EndPoint{EndPoint_}, Buffer{Buffer_}, Offset{Offset_}, Size{Size_}, SockFlags{SockFlags_}, AcceptSocket{AcceptSocket_}, Addresses{Addresses_}, Port{Port_}, Buffers{Buffers_}, ReuseSocket{ReuseSocket_}, CurrentAddress{CurrentAddress_}, AcceptedSocket{AcceptedSocket_}, Total{Total_}, error{error_}, EndCalled{EndCalled_} {}
+    SocketAsyncResult(System::Net::Sockets::Socket* socket_ = {}, System::Net::Sockets::SocketOperation operation_ = {}, System::Exception* DelayedException_ = {}, System::Net::EndPoint* EndPoint_ = {}, ::ArrayWrapper<uint8_t> Buffer_ = {}, int Offset_ = {}, int Size_ = {}, System::Net::Sockets::SocketFlags SockFlags_ = {}, System::Net::Sockets::Socket* AcceptSocket_ = {}, ::ArrayWrapper<System::Net::IPAddress*> Addresses_ = {}, int Port_ = {}, System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* Buffers_ = {}, bool ReuseSocket_ = {}, int CurrentAddress_ = {}, System::Net::Sockets::Socket* AcceptedSocket_ = {}, int Total_ = {}, int error_ = {}, int EndCalled_ = {}) noexcept : socket{socket_}, operation{operation_}, DelayedException{DelayedException_}, EndPoint{EndPoint_}, Buffer{Buffer_}, Offset{Offset_}, Size{Size_}, SockFlags{SockFlags_}, AcceptSocket{AcceptSocket_}, Addresses{Addresses_}, Port{Port_}, Buffers{Buffers_}, ReuseSocket{ReuseSocket_}, CurrentAddress{CurrentAddress_}, AcceptedSocket{AcceptedSocket_}, Total{Total_}, error{error_}, EndCalled{EndCalled_} {}
     // Get instance field reference: public System.Net.Sockets.Socket socket
     System::Net::Sockets::Socket*& dyn_socket();
     // Get instance field reference: public System.Net.Sockets.SocketOperation operation
@@ -187,7 +187,7 @@ namespace System::Net::Sockets {
     // Get instance field reference: public System.Net.EndPoint EndPoint
     System::Net::EndPoint*& dyn_EndPoint();
     // Get instance field reference: public System.Byte[] Buffer
-    ::Array<uint8_t>*& dyn_Buffer();
+    ::ArrayWrapper<uint8_t>& dyn_Buffer();
     // Get instance field reference: public System.Int32 Offset
     int& dyn_Offset();
     // Get instance field reference: public System.Int32 Size
@@ -197,7 +197,7 @@ namespace System::Net::Sockets {
     // Get instance field reference: public System.Net.Sockets.Socket AcceptSocket
     System::Net::Sockets::Socket*& dyn_AcceptSocket();
     // Get instance field reference: public System.Net.IPAddress[] Addresses
-    ::Array<System::Net::IPAddress*>*& dyn_Addresses();
+    ::ArrayWrapper<System::Net::IPAddress*>& dyn_Addresses();
     // Get instance field reference: public System.Int32 Port
     int& dyn_Port();
     // Get instance field reference: public System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> Buffers
@@ -215,47 +215,47 @@ namespace System::Net::Sockets {
     // Get instance field reference: public System.Int32 EndCalled
     int& dyn_EndCalled();
     // public System.IntPtr get_Handle()
-    // Offset: 0x15D1538
+    // Offset: 0x17749F0
     System::IntPtr get_Handle();
     // public System.Net.Sockets.SocketError get_ErrorCode()
-    // Offset: 0x15D1640
+    // Offset: 0x1774AF8
     System::Net::Sockets::SocketError get_ErrorCode();
     // public System.Void .ctor(System.Net.Sockets.Socket socket, System.AsyncCallback callback, System.Object state, System.Net.Sockets.SocketOperation operation)
-    // Offset: 0x15D15FC
+    // Offset: 0x1774AB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SocketAsyncResult* New_ctor(System::Net::Sockets::Socket* socket, System::AsyncCallback* callback, ::Il2CppObject* state, System::Net::Sockets::SocketOperation operation) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::SocketAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SocketAsyncResult*, creationType>(socket, callback, state, operation)));
     }
     // public System.Void Init(System.Net.Sockets.Socket socket, System.AsyncCallback callback, System.Object state, System.Net.Sockets.SocketOperation operation)
-    // Offset: 0x15D1590
+    // Offset: 0x1774A48
     void Init(System::Net::Sockets::Socket* socket, System::AsyncCallback* callback, ::Il2CppObject* state, System::Net::Sockets::SocketOperation operation);
     // public System.Void CheckIfThrowDelayedException()
-    // Offset: 0x15D16C8
+    // Offset: 0x1774B80
     void CheckIfThrowDelayedException();
     // public System.Void Complete()
-    // Offset: 0x15CFBC0
+    // Offset: 0x1773078
     void Complete();
     // public System.Void Complete(System.Boolean synch)
-    // Offset: 0x15D1784
+    // Offset: 0x1774C3C
     void Complete(bool synch);
     // public System.Void Complete(System.Int32 total)
-    // Offset: 0x15D0508
+    // Offset: 0x17739C0
     void Complete(int total);
     // public System.Void Complete(System.Exception e, System.Boolean synch)
-    // Offset: 0x15D1790
+    // Offset: 0x1774C48
     void Complete(System::Exception* e, bool synch);
     // public System.Void Complete(System.Exception e)
-    // Offset: 0x15CF41C
+    // Offset: 0x17728D4
     void Complete(System::Exception* e);
     // public System.Void Complete(System.Net.Sockets.Socket s)
-    // Offset: 0x15CF424
+    // Offset: 0x17728DC
     void Complete(System::Net::Sockets::Socket* s);
     // public System.Void Complete(System.Net.Sockets.Socket s, System.Int32 total)
-    // Offset: 0x15CF6C0
+    // Offset: 0x1772B78
     void Complete(System::Net::Sockets::Socket* s, int total);
     // public System.Void .ctor()
-    // Offset: 0x15D1350
+    // Offset: 0x1774808
     // Implemented from: System.IOAsyncResult
     // Base method: System.Void IOAsyncResult::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -265,7 +265,7 @@ namespace System::Net::Sockets {
       return THROW_UNLESS((::il2cpp_utils::New<SocketAsyncResult*, creationType>()));
     }
     // override System.Void CompleteDisposed()
-    // Offset: 0x15D1780
+    // Offset: 0x1774C38
     // Implemented from: System.IOAsyncResult
     // Base method: System.Void IOAsyncResult::CompleteDisposed()
     void CompleteDisposed();

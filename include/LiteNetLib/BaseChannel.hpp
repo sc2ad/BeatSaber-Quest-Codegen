@@ -60,17 +60,17 @@ namespace LiteNetLib {
     // Get instance field reference: protected readonly System.Collections.Generic.Queue`1<LiteNetLib.NetPacket> OutgoingQueue
     System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>*& dyn_OutgoingQueue();
     // public System.Int32 get_PacketsInQueue()
-    // Offset: 0x1C177C4
+    // Offset: 0x1DCF62C
     int get_PacketsInQueue();
     // protected System.Void .ctor(LiteNetLib.NetPeer peer)
-    // Offset: 0x1C1773C
+    // Offset: 0x1DCF5A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseChannel* New_ctor(LiteNetLib::NetPeer* peer) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::BaseChannel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseChannel*, creationType>(peer)));
     }
     // public System.Void AddToQueue(LiteNetLib.NetPacket packet)
-    // Offset: 0x1C17814
+    // Offset: 0x1DCF67C
     void AddToQueue(LiteNetLib::NetPacket* packet);
     // public System.Void SendNextPackets()
     // Offset: 0xFFFFFFFF

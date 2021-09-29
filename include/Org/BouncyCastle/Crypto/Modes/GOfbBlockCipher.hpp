@@ -30,21 +30,21 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // private System.Byte[] IV
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* IV;
+    ::ArrayWrapper<uint8_t> IV;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Byte[] ofbV
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* ofbV;
+    ::ArrayWrapper<uint8_t> ofbV;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Byte[] ofbOutV
     // Size: 0x8
     // Offset: 0x20
-    ::Array<uint8_t>* ofbOutV;
+    ::ArrayWrapper<uint8_t> ofbOutV;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private readonly System.Int32 blockSize
     // Size: 0x4
     // Offset: 0x28
@@ -80,17 +80,17 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: GOfbBlockCipher
-    GOfbBlockCipher(::Array<uint8_t>* IV_ = {}, ::Array<uint8_t>* ofbV_ = {}, ::Array<uint8_t>* ofbOutV_ = {}, int blockSize_ = {}, Org::BouncyCastle::Crypto::IBlockCipher* cipher_ = {}, bool firstStep_ = {}, int N3_ = {}, int N4_ = {}) noexcept : IV{IV_}, ofbV{ofbV_}, ofbOutV{ofbOutV_}, blockSize{blockSize_}, cipher{cipher_}, firstStep{firstStep_}, N3{N3_}, N4{N4_} {}
+    GOfbBlockCipher(::ArrayWrapper<uint8_t> IV_ = {}, ::ArrayWrapper<uint8_t> ofbV_ = {}, ::ArrayWrapper<uint8_t> ofbOutV_ = {}, int blockSize_ = {}, Org::BouncyCastle::Crypto::IBlockCipher* cipher_ = {}, bool firstStep_ = {}, int N3_ = {}, int N4_ = {}) noexcept : IV{IV_}, ofbV{ofbV_}, ofbOutV{ofbOutV_}, blockSize{blockSize_}, cipher{cipher_}, firstStep{firstStep_}, N3{N3_}, N4{N4_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);
     }
     // Get instance field reference: private System.Byte[] IV
-    ::Array<uint8_t>*& dyn_IV();
+    ::ArrayWrapper<uint8_t>& dyn_IV();
     // Get instance field reference: private System.Byte[] ofbV
-    ::Array<uint8_t>*& dyn_ofbV();
+    ::ArrayWrapper<uint8_t>& dyn_ofbV();
     // Get instance field reference: private System.Byte[] ofbOutV
-    ::Array<uint8_t>*& dyn_ofbOutV();
+    ::ArrayWrapper<uint8_t>& dyn_ofbOutV();
     // Get instance field reference: private readonly System.Int32 blockSize
     int& dyn_blockSize();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
@@ -102,36 +102,36 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Get instance field reference: private System.Int32 N4
     int& dyn_N4();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1921A60
+    // Offset: 0x1A91894
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1921B24
+    // Offset: 0x1A91958
     bool get_IsPartialBlockOkay();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
-    // Offset: 0x1921518
+    // Offset: 0x1A9134C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GOfbBlockCipher* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* cipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GOfbBlockCipher*, creationType>(cipher)));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x19217A8
+    // Offset: 0x1A915DC
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1921B2C
+    // Offset: 0x1A91960
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1921B34
-    int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
+    // Offset: 0x1A91968
+    int ProcessBlock(::ArrayWrapper<uint8_t> input, int inOff, ::ArrayWrapper<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x192198C
+    // Offset: 0x1A917C0
     void Reset();
     // private System.Int32 bytesToint(System.Byte[] inBytes, System.Int32 inOff)
-    // Offset: 0x1921EDC
-    int bytesToint(::Array<uint8_t>* inBytes, int inOff);
+    // Offset: 0x1A91D10
+    int bytesToint(::ArrayWrapper<uint8_t> inBytes, int inOff);
     // private System.Void intTobytes(System.Int32 num, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1921F5C
-    void intTobytes(int num, ::Array<uint8_t>* outBytes, int outOff);
+    // Offset: 0x1A91D90
+    void intTobytes(int num, ::ArrayWrapper<uint8_t> outBytes, int outOff);
   }; // Org.BouncyCastle.Crypto.Modes.GOfbBlockCipher
   #pragma pack(pop)
   static check_size<sizeof(GOfbBlockCipher), 64 + sizeof(int)> __Org_BouncyCastle_Crypto_Modes_GOfbBlockCipherSizeCheck;
@@ -180,11 +180,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::ProcessBlock
 // Il2CppName: ProcessBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::ProcessBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::ProcessBlock)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, inOff, output, outOff});
   }
@@ -200,9 +200,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::bytesToint
 // Il2CppName: bytesToint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::bytesToint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::bytesToint)> {
   static const MethodInfo* get() {
-    static auto* inBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* inBytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher*), "bytesToint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inBytes, inOff});
   }
@@ -210,10 +210,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::intTobytes
 // Il2CppName: intTobytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::*)(int, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::intTobytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::*)(int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::intTobytes)> {
   static const MethodInfo* get() {
     static auto* num = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* outBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* outBytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher*), "intTobytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{num, outBytes, outOff});
   }

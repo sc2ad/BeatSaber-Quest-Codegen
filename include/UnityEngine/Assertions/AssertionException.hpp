@@ -35,14 +35,14 @@ namespace UnityEngine::Assertions {
     // Get instance field reference: private System.String m_UserMessage
     ::Il2CppString*& dyn_m_UserMessage();
     // public System.Void .ctor(System.String message, System.String userMessage)
-    // Offset: 0x1C473B4
+    // Offset: 0x1CACB24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssertionException* New_ctor(::Il2CppString* message, ::Il2CppString* userMessage) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Assertions::AssertionException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssertionException*, creationType>(message, userMessage)));
     }
     // public override System.String get_Message()
-    // Offset: 0x1C477C0
+    // Offset: 0x1CACF30
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
     ::Il2CppString* get_Message();

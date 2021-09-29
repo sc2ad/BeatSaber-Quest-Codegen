@@ -32,9 +32,9 @@ namespace RootMotion::FinalIK {
     // protected UnityEngine.Transform[] children
     // Size: 0x8
     // Offset: 0x50
-    ::Array<UnityEngine::Transform*>* children;
+    ::ArrayWrapper<UnityEngine::Transform*> children;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
     // private UnityEngine.Transform _poseRoot
     // Size: 0x8
     // Offset: 0x58
@@ -44,38 +44,38 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Transform[] poseChildren
     // Size: 0x8
     // Offset: 0x60
-    ::Array<UnityEngine::Transform*>* poseChildren;
+    ::ArrayWrapper<UnityEngine::Transform*> poseChildren;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
     // private UnityEngine.Vector3[] defaultLocalPositions
     // Size: 0x8
     // Offset: 0x68
-    ::Array<UnityEngine::Vector3>* defaultLocalPositions;
+    ::ArrayWrapper<UnityEngine::Vector3> defaultLocalPositions;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
     // private UnityEngine.Quaternion[] defaultLocalRotations
     // Size: 0x8
     // Offset: 0x70
-    ::Array<UnityEngine::Quaternion>* defaultLocalRotations;
+    ::ArrayWrapper<UnityEngine::Quaternion> defaultLocalRotations;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Quaternion>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Quaternion>) == 0x8);
     // Creating value type constructor for type: HandPoser
-    HandPoser(::Array<UnityEngine::Transform*>* children_ = {}, UnityEngine::Transform* poseRoot_ = {}, ::Array<UnityEngine::Transform*>* poseChildren_ = {}, ::Array<UnityEngine::Vector3>* defaultLocalPositions_ = {}, ::Array<UnityEngine::Quaternion>* defaultLocalRotations_ = {}) noexcept : children{children_}, poseRoot{poseRoot_}, poseChildren{poseChildren_}, defaultLocalPositions{defaultLocalPositions_}, defaultLocalRotations{defaultLocalRotations_} {}
+    HandPoser(::ArrayWrapper<UnityEngine::Transform*> children_ = {}, UnityEngine::Transform* poseRoot_ = {}, ::ArrayWrapper<UnityEngine::Transform*> poseChildren_ = {}, ::ArrayWrapper<UnityEngine::Vector3> defaultLocalPositions_ = {}, ::ArrayWrapper<UnityEngine::Quaternion> defaultLocalRotations_ = {}) noexcept : children{children_}, poseRoot{poseRoot_}, poseChildren{poseChildren_}, defaultLocalPositions{defaultLocalPositions_}, defaultLocalRotations{defaultLocalRotations_} {}
     // Get instance field reference: protected UnityEngine.Transform[] children
-    ::Array<UnityEngine::Transform*>*& dyn_children();
+    ::ArrayWrapper<UnityEngine::Transform*>& dyn_children();
     // Get instance field reference: private UnityEngine.Transform _poseRoot
     UnityEngine::Transform*& dyn__poseRoot();
     // Get instance field reference: private UnityEngine.Transform[] poseChildren
-    ::Array<UnityEngine::Transform*>*& dyn_poseChildren();
+    ::ArrayWrapper<UnityEngine::Transform*>& dyn_poseChildren();
     // Get instance field reference: private UnityEngine.Vector3[] defaultLocalPositions
-    ::Array<UnityEngine::Vector3>*& dyn_defaultLocalPositions();
+    ::ArrayWrapper<UnityEngine::Vector3>& dyn_defaultLocalPositions();
     // Get instance field reference: private UnityEngine.Quaternion[] defaultLocalRotations
-    ::Array<UnityEngine::Quaternion>*& dyn_defaultLocalRotations();
+    ::ArrayWrapper<UnityEngine::Quaternion>& dyn_defaultLocalRotations();
     // protected System.Void StoreDefaultState()
-    // Offset: 0x1CCE3E0
+    // Offset: 0x1E916A0
     void StoreDefaultState();
     // public System.Void .ctor()
-    // Offset: 0x1CCE9E8
+    // Offset: 0x1E91CA8
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::.ctor()
     // Base method: System.Void SolverManager::.ctor()
@@ -90,28 +90,28 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<HandPoser*, creationType>()));
     }
     // public override System.Void AutoMapping()
-    // Offset: 0x1CCE2D0
+    // Offset: 0x1E91590
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::AutoMapping()
     void AutoMapping();
     // protected override System.Void InitiatePoser()
-    // Offset: 0x1CCE384
+    // Offset: 0x1E91644
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::InitiatePoser()
     void InitiatePoser();
     // protected override System.Void FixPoserTransforms()
-    // Offset: 0x1CCE53C
+    // Offset: 0x1E917FC
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::FixPoserTransforms()
     void FixPoserTransforms();
     // protected override System.Void UpdatePoser()
-    // Offset: 0x1CCE638
+    // Offset: 0x1E918F8
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::UpdatePoser()
     void UpdatePoser();
   }; // RootMotion.FinalIK.HandPoser
   #pragma pack(pop)
-  static check_size<sizeof(HandPoser), 112 + sizeof(::Array<UnityEngine::Quaternion>*)> __RootMotion_FinalIK_HandPoserSizeCheck;
+  static check_size<sizeof(HandPoser), 112 + sizeof(::ArrayWrapper<UnityEngine::Quaternion>)> __RootMotion_FinalIK_HandPoserSizeCheck;
   static_assert(sizeof(HandPoser) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HandPoser*, "RootMotion.FinalIK", "HandPoser");

@@ -50,11 +50,11 @@ namespace Mono::Security {
     // private System.Byte[] _encrypted
     // Size: 0x8
     // Offset: 0x28
-    ::Array<uint8_t>* encrypted;
+    ::ArrayWrapper<uint8_t> encrypted;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: EncryptedData
-    EncryptedData(uint8_t version_ = {}, Mono::Security::PKCS7::ContentInfo* content_ = {}, Mono::Security::PKCS7::ContentInfo* encryptionAlgorithm_ = {}, ::Array<uint8_t>* encrypted_ = {}) noexcept : version{version_}, content{content_}, encryptionAlgorithm{encryptionAlgorithm_}, encrypted{encrypted_} {}
+    EncryptedData(uint8_t version_ = {}, Mono::Security::PKCS7::ContentInfo* content_ = {}, Mono::Security::PKCS7::ContentInfo* encryptionAlgorithm_ = {}, ::ArrayWrapper<uint8_t> encrypted_ = {}) noexcept : version{version_}, content{content_}, encryptionAlgorithm{encryptionAlgorithm_}, encrypted{encrypted_} {}
     // Get instance field reference: private System.Byte _version
     uint8_t& dyn__version();
     // Get instance field reference: private Mono.Security.PKCS7/Mono.Security.ContentInfo _content
@@ -62,22 +62,22 @@ namespace Mono::Security {
     // Get instance field reference: private Mono.Security.PKCS7/Mono.Security.ContentInfo _encryptionAlgorithm
     Mono::Security::PKCS7::ContentInfo*& dyn__encryptionAlgorithm();
     // Get instance field reference: private System.Byte[] _encrypted
-    ::Array<uint8_t>*& dyn__encrypted();
+    ::ArrayWrapper<uint8_t>& dyn__encrypted();
     // public Mono.Security.PKCS7/Mono.Security.ContentInfo get_EncryptionAlgorithm()
-    // Offset: 0x1E05974
+    // Offset: 0x1FA1EDC
     Mono::Security::PKCS7::ContentInfo* get_EncryptionAlgorithm();
     // public System.Byte[] get_EncryptedContent()
-    // Offset: 0x1E0597C
-    ::Array<uint8_t>* get_EncryptedContent();
+    // Offset: 0x1FA1EE4
+    ::ArrayWrapper<uint8_t> get_EncryptedContent();
     // public System.Void .ctor(Mono.Security.ASN1 asn1)
-    // Offset: 0x1E056C0
+    // Offset: 0x1FA1C28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS7::EncryptedData* New_ctor(Mono::Security::ASN1* asn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::PKCS7::EncryptedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::EncryptedData*, creationType>(asn1)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1E05698
+    // Offset: 0x1FA1C00
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -87,7 +87,7 @@ namespace Mono::Security {
     }
   }; // Mono.Security.PKCS7/Mono.Security.EncryptedData
   #pragma pack(pop)
-  static check_size<sizeof(PKCS7::EncryptedData), 40 + sizeof(::Array<uint8_t>*)> __Mono_Security_PKCS7_EncryptedDataSizeCheck;
+  static check_size<sizeof(PKCS7::EncryptedData), 40 + sizeof(::ArrayWrapper<uint8_t>)> __Mono_Security_PKCS7_EncryptedDataSizeCheck;
   static_assert(sizeof(PKCS7::EncryptedData) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::PKCS7::EncryptedData*, "Mono.Security", "PKCS7/EncryptedData");
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: Mono::Security::PKCS7::EncryptedData::get_EncryptedContent
 // Il2CppName: get_EncryptedContent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::PKCS7::EncryptedData::*)()>(&Mono::Security::PKCS7::EncryptedData::get_EncryptedContent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::PKCS7::EncryptedData::*)()>(&Mono::Security::PKCS7::EncryptedData::get_EncryptedContent)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::PKCS7::EncryptedData*), "get_EncryptedContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

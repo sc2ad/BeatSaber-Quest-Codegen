@@ -48,22 +48,22 @@ namespace UnityEngine::UI {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/UnityEngine.UI.MatEntry> m_List
     static void _set_m_List(System::Collections::Generic::List_1<UnityEngine::UI::StencilMaterial::MatEntry*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x23CBA78
+    // Offset: 0x25D56D4
     static void _cctor();
     // static public UnityEngine.Material Add(UnityEngine.Material baseMat, System.Int32 stencilID)
-    // Offset: 0x23CAED0
+    // Offset: 0x25D4B2C
     static UnityEngine::Material* Add(UnityEngine::Material* baseMat, int stencilID);
     // static public UnityEngine.Material Add(UnityEngine.Material baseMat, System.Int32 stencilID, UnityEngine.Rendering.StencilOp operation, UnityEngine.Rendering.CompareFunction compareFunction, UnityEngine.Rendering.ColorWriteMask colorWriteMask)
-    // Offset: 0x23CAED8
+    // Offset: 0x25D4B34
     static UnityEngine::Material* Add(UnityEngine::Material* baseMat, int stencilID, UnityEngine::Rendering::StencilOp operation, UnityEngine::Rendering::CompareFunction compareFunction, UnityEngine::Rendering::ColorWriteMask colorWriteMask);
     // static public UnityEngine.Material Add(UnityEngine.Material baseMat, System.Int32 stencilID, UnityEngine.Rendering.StencilOp operation, UnityEngine.Rendering.CompareFunction compareFunction, UnityEngine.Rendering.ColorWriteMask colorWriteMask, System.Int32 readMask, System.Int32 writeMask)
-    // Offset: 0x23CAF74
+    // Offset: 0x25D4BD0
     static UnityEngine::Material* Add(UnityEngine::Material* baseMat, int stencilID, UnityEngine::Rendering::StencilOp operation, UnityEngine::Rendering::CompareFunction compareFunction, UnityEngine::Rendering::ColorWriteMask colorWriteMask, int readMask, int writeMask);
     // static public System.Void Remove(UnityEngine.Material customMat)
-    // Offset: 0x23CB7A8
+    // Offset: 0x25D5404
     static void Remove(UnityEngine::Material* customMat);
     // static public System.Void ClearAll()
-    // Offset: 0x23CB960
+    // Offset: 0x25D55BC
     static void ClearAll();
   }; // UnityEngine.UI.StencilMaterial
   #pragma pack(pop)

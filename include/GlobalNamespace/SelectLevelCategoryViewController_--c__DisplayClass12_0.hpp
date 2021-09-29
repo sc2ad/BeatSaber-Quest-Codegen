@@ -24,22 +24,22 @@ namespace GlobalNamespace {
     // public SelectLevelCategoryViewController/LevelCategory[] enabledLevelCategories
     // Size: 0x8
     // Offset: 0x10
-    ::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* enabledLevelCategories;
+    ::ArrayWrapper<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory> enabledLevelCategories;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass12_0
-    $$c__DisplayClass12_0(::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* enabledLevelCategories_ = {}) noexcept : enabledLevelCategories{enabledLevelCategories_} {}
-    // Creating conversion operator: operator ::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>*
-    constexpr operator ::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>*() const noexcept {
+    $$c__DisplayClass12_0(::ArrayWrapper<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory> enabledLevelCategories_ = {}) noexcept : enabledLevelCategories{enabledLevelCategories_} {}
+    // Creating conversion operator: operator ::ArrayWrapper<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>
+    constexpr operator ::ArrayWrapper<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>() const noexcept {
       return enabledLevelCategories;
     }
     // Get instance field reference: public SelectLevelCategoryViewController/LevelCategory[] enabledLevelCategories
-    ::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>*& dyn_enabledLevelCategories();
+    ::ArrayWrapper<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>& dyn_enabledLevelCategories();
     // System.Boolean <Setup>b__0(SelectLevelCategoryViewController/LevelCategoryInfo data)
-    // Offset: 0x109217C
+    // Offset: 0x1100BB0
     bool $Setup$b__0(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo* data);
     // public System.Void .ctor()
-    // Offset: 0x1092174
+    // Offset: 0x1100734
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     }
   }; // SelectLevelCategoryViewController/<>c__DisplayClass12_0
   #pragma pack(pop)
-  static check_size<sizeof(SelectLevelCategoryViewController::$$c__DisplayClass12_0), 16 + sizeof(::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>*)> __GlobalNamespace_SelectLevelCategoryViewController_$$c__DisplayClass12_0SizeCheck;
+  static check_size<sizeof(SelectLevelCategoryViewController::$$c__DisplayClass12_0), 16 + sizeof(::ArrayWrapper<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>)> __GlobalNamespace_SelectLevelCategoryViewController_$$c__DisplayClass12_0SizeCheck;
   static_assert(sizeof(SelectLevelCategoryViewController::$$c__DisplayClass12_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass12_0*, "", "SelectLevelCategoryViewController/<>c__DisplayClass12_0");

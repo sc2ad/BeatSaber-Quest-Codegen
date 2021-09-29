@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private MultiplayerLobbyAvatarPlace _multiplayerAvatarPlacePrefab
     GlobalNamespace::MultiplayerLobbyAvatarPlace*& dyn__multiplayerAvatarPlacePrefab();
     // public System.Void .ctor()
-    // Offset: 0x1080D10
+    // Offset: 0x11703A8
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -63,7 +63,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLobbyInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1080C4C
+    // Offset: 0x11702E4
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

@@ -49,9 +49,9 @@ namespace MasterServer {
     // private System.Byte[] _buffer
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* buffer;
+    ::ArrayWrapper<uint8_t> buffer;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Int32 _length
     // Size: 0x4
     // Offset: 0x20
@@ -79,11 +79,11 @@ namespace MasterServer {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: MultipartMessageWaiter
-    MultipartMessageWaiter(GlobalNamespace::SmallBufferPool* bufferPool_ = {}, ::Array<uint8_t>* buffer_ = {}, int length_ = {}, System::Collections::Generic::List_1<int>* ranges_ = {}, bool isComplete_ = {}, bool isDisposed_ = {}) noexcept : bufferPool{bufferPool_}, buffer{buffer_}, length{length_}, ranges{ranges_}, isComplete{isComplete_}, isDisposed{isDisposed_} {}
+    MultipartMessageWaiter(GlobalNamespace::SmallBufferPool* bufferPool_ = {}, ::ArrayWrapper<uint8_t> buffer_ = {}, int length_ = {}, System::Collections::Generic::List_1<int>* ranges_ = {}, bool isComplete_ = {}, bool isDisposed_ = {}) noexcept : bufferPool{bufferPool_}, buffer{buffer_}, length{length_}, ranges{ranges_}, isComplete{isComplete_}, isDisposed{isDisposed_} {}
     // Get instance field reference: private readonly SmallBufferPool _bufferPool
     GlobalNamespace::SmallBufferPool*& dyn__bufferPool();
     // Get instance field reference: private System.Byte[] _buffer
-    ::Array<uint8_t>*& dyn__buffer();
+    ::ArrayWrapper<uint8_t>& dyn__buffer();
     // Get instance field reference: private System.Int32 _length
     int& dyn__length();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Int32> _ranges
@@ -93,26 +93,26 @@ namespace MasterServer {
     // Get instance field reference: private System.Boolean _isDisposed
     bool& dyn__isDisposed();
     // public System.Boolean get_isWaiting()
-    // Offset: 0x1224388
+    // Offset: 0x12E373C
     bool get_isWaiting();
     // public System.Byte[] get_data()
-    // Offset: 0x12243A8
-    ::Array<uint8_t>* get_data();
+    // Offset: 0x12E375C
+    ::ArrayWrapper<uint8_t> get_data();
     // public System.Int32 get_length()
-    // Offset: 0x12243B0
+    // Offset: 0x12E3764
     int get_length();
     // public System.Void .ctor(SmallBufferPool bufferPool)
-    // Offset: 0x122382C
+    // Offset: 0x12E2BE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageHandler::MultipartMessageWaiter* New_ctor(GlobalNamespace::SmallBufferPool* bufferPool) {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::MultipartMessageWaiter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageHandler::MultipartMessageWaiter*, creationType>(bufferPool)));
     }
     // public System.Void Append(MasterServer.IMasterServerMultipartMessage packet)
-    // Offset: 0x12238FC
+    // Offset: 0x12E2CB0
     void Append(MasterServer::IMasterServerMultipartMessage* packet);
     // public override System.Void Dispose()
-    // Offset: 0x12238B8
+    // Offset: 0x12E2C6C
     // Implemented from: MasterServer.MessageHandler/MasterServer.RequestWaiter
     // Base method: System.Void RequestWaiter::Dispose()
     void Dispose();
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Maste
 // Writing MetadataGetter for method: MasterServer::MessageHandler::MultipartMessageWaiter::get_data
 // Il2CppName: get_data
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (MasterServer::MessageHandler::MultipartMessageWaiter::*)()>(&MasterServer::MessageHandler::MultipartMessageWaiter::get_data)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (MasterServer::MessageHandler::MultipartMessageWaiter::*)()>(&MasterServer::MessageHandler::MultipartMessageWaiter::get_data)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::MultipartMessageWaiter*), "get_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

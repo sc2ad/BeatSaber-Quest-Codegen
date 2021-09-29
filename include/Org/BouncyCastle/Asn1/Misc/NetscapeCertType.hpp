@@ -23,14 +23,14 @@ namespace Org::BouncyCastle::Asn1::Misc {
     // Creating value type constructor for type: NetscapeCertType
     NetscapeCertType() noexcept {}
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerBitString usage)
-    // Offset: 0x17B42A4
+    // Offset: 0x196CB0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetscapeCertType* New_ctor(Org::BouncyCastle::Asn1::DerBitString* usage) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Misc::NetscapeCertType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetscapeCertType*, creationType>(usage)));
     }
     // public override System.String ToString()
-    // Offset: 0x17B4350
+    // Offset: 0x196CBB8
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::ToString()
     ::Il2CppString* ToString();

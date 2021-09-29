@@ -79,9 +79,9 @@ namespace GlobalNamespace {
     // private MenuEnvironmentManager/MenuEnvironmentObjects[] _data
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*>* data;
+    ::ArrayWrapper<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*> data;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*>) == 0x8);
     // private MenuEnvironmentManager/MenuEnvironmentType _prevMenuEnvironmentType
     // Size: 0x4
     // Offset: 0x20
@@ -89,21 +89,21 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType) == 0x4);
     // Creating value type constructor for type: MenuEnvironmentManager
-    MenuEnvironmentManager(::Array<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*>* data_ = {}, GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType prevMenuEnvironmentType_ = {}) noexcept : data{data_}, prevMenuEnvironmentType{prevMenuEnvironmentType_} {}
+    MenuEnvironmentManager(::ArrayWrapper<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*> data_ = {}, GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType prevMenuEnvironmentType_ = {}) noexcept : data{data_}, prevMenuEnvironmentType{prevMenuEnvironmentType_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MenuEnvironmentManager/MenuEnvironmentObjects[] _data
-    ::Array<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*>*& dyn__data();
+    ::ArrayWrapper<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*>& dyn__data();
     // Get instance field reference: private MenuEnvironmentManager/MenuEnvironmentType _prevMenuEnvironmentType
     GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType& dyn__prevMenuEnvironmentType();
     // private System.Void Start()
-    // Offset: 0x11A7AD0
+    // Offset: 0x117FBA8
     void Start();
     // public System.Void ShowEnvironmentType(MenuEnvironmentManager/MenuEnvironmentType menuEnvironmentType)
-    // Offset: 0x11A7AD8
+    // Offset: 0x117FBB0
     void ShowEnvironmentType(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType menuEnvironmentType);
     // public System.Void .ctor()
-    // Offset: 0x11A7C88
+    // Offset: 0x117FD60
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -34,7 +34,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayAudioOnGameEventController::EventAudioBinding : public ::Il2CppObject {
     public:
-    // [HeaderAttribute] Offset: 0xE4CA68
+    // [HeaderAttribute] Offset: 0xF15694
     // private Signal _signal
     // Size: 0x8
     // Offset: 0x10
@@ -52,9 +52,9 @@ namespace GlobalNamespace {
     // private LocalizedAudioClipSO[] _localizedAudioClips
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::LocalizedAudioClipSO*>* localizedAudioClips;
+    ::ArrayWrapper<GlobalNamespace::LocalizedAudioClipSO*> localizedAudioClips;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::LocalizedAudioClipSO*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::LocalizedAudioClipSO*>) == 0x8);
     // private AudioClipQueue _audioClipQueue
     // Size: 0x8
     // Offset: 0x28
@@ -68,28 +68,28 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::RandomObjectPicker_1<GlobalNamespace::LocalizedAudioClipSO*>*) == 0x8);
     // Creating value type constructor for type: EventAudioBinding
-    EventAudioBinding(GlobalNamespace::Signal* signal_ = {}, float delay_ = {}, ::Array<GlobalNamespace::LocalizedAudioClipSO*>* localizedAudioClips_ = {}, GlobalNamespace::AudioClipQueue* audioClipQueue_ = {}, GlobalNamespace::RandomObjectPicker_1<GlobalNamespace::LocalizedAudioClipSO*>* randomObjectPicker_ = {}) noexcept : signal{signal_}, delay{delay_}, localizedAudioClips{localizedAudioClips_}, audioClipQueue{audioClipQueue_}, randomObjectPicker{randomObjectPicker_} {}
+    EventAudioBinding(GlobalNamespace::Signal* signal_ = {}, float delay_ = {}, ::ArrayWrapper<GlobalNamespace::LocalizedAudioClipSO*> localizedAudioClips_ = {}, GlobalNamespace::AudioClipQueue* audioClipQueue_ = {}, GlobalNamespace::RandomObjectPicker_1<GlobalNamespace::LocalizedAudioClipSO*>* randomObjectPicker_ = {}) noexcept : signal{signal_}, delay{delay_}, localizedAudioClips{localizedAudioClips_}, audioClipQueue{audioClipQueue_}, randomObjectPicker{randomObjectPicker_} {}
     // Get instance field reference: private Signal _signal
     GlobalNamespace::Signal*& dyn__signal();
     // Get instance field reference: private System.Single _delay
     float& dyn__delay();
     // Get instance field reference: private LocalizedAudioClipSO[] _localizedAudioClips
-    ::Array<GlobalNamespace::LocalizedAudioClipSO*>*& dyn__localizedAudioClips();
+    ::ArrayWrapper<GlobalNamespace::LocalizedAudioClipSO*>& dyn__localizedAudioClips();
     // Get instance field reference: private AudioClipQueue _audioClipQueue
     GlobalNamespace::AudioClipQueue*& dyn__audioClipQueue();
     // Get instance field reference: private RandomObjectPicker`1<LocalizedAudioClipSO> _randomObjectPicker
     GlobalNamespace::RandomObjectPicker_1<GlobalNamespace::LocalizedAudioClipSO*>*& dyn__randomObjectPicker();
     // public System.Void Init(AudioClipQueue audioClipQueue)
-    // Offset: 0x11F3D0C
+    // Offset: 0x12B3ADC
     void Init(GlobalNamespace::AudioClipQueue* audioClipQueue);
     // public System.Void Deinit()
-    // Offset: 0x11F3E40
+    // Offset: 0x12B3C10
     void Deinit();
     // private System.Void HandleGameEvent()
-    // Offset: 0x11F3ED4
+    // Offset: 0x12B3CA4
     void HandleGameEvent();
     // public System.Void .ctor()
-    // Offset: 0x11F3FA8
+    // Offset: 0x12B3D78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

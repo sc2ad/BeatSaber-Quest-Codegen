@@ -30,16 +30,16 @@ namespace UnityEngine::AddressableAssets::Utility {
     // Creating value type constructor for type: SerializationUtilities
     SerializationUtilities() noexcept {}
     // static System.Int32 ReadInt32FromByteArray(System.Byte[] data, System.Int32 offset)
-    // Offset: 0x23E47C0
-    static int ReadInt32FromByteArray(::Array<uint8_t>* data, int offset);
+    // Offset: 0x25EFA50
+    static int ReadInt32FromByteArray(::ArrayWrapper<uint8_t> data, int offset);
     // static System.Int32 WriteInt32ToByteArray(System.Byte[] data, System.Int32 val, System.Int32 offset)
-    // Offset: 0x23E4840
-    static int WriteInt32ToByteArray(::Array<uint8_t>* data, int val, int offset);
+    // Offset: 0x25EFAD0
+    static int WriteInt32ToByteArray(::ArrayWrapper<uint8_t> data, int val, int offset);
     // static System.Object ReadObjectFromByteArray(System.Byte[] keyData, System.Int32 dataIndex)
-    // Offset: 0x23E48D0
-    static ::Il2CppObject* ReadObjectFromByteArray(::Array<uint8_t>* keyData, int dataIndex);
+    // Offset: 0x25EFB60
+    static ::Il2CppObject* ReadObjectFromByteArray(::ArrayWrapper<uint8_t> keyData, int dataIndex);
     // static System.Int32 WriteObjectToByteList(System.Object obj, System.Collections.Generic.List`1<System.Byte> buffer)
-    // Offset: 0x23E4ECC
+    // Offset: 0x25F015C
     static int WriteObjectToByteList(::Il2CppObject* obj, System::Collections::Generic::List_1<uint8_t>* buffer);
   }; // UnityEngine.AddressableAssets.Utility.SerializationUtilities
   #pragma pack(pop)
@@ -50,9 +50,9 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Utility::SerializationUti
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Utility::SerializationUtilities::ReadInt32FromByteArray
 // Il2CppName: ReadInt32FromByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int)>(&UnityEngine::AddressableAssets::Utility::SerializationUtilities::ReadInt32FromByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint8_t>, int)>(&UnityEngine::AddressableAssets::Utility::SerializationUtilities::ReadInt32FromByteArray)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Utility::SerializationUtilities*), "ReadInt32FromByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, offset});
   }
@@ -60,9 +60,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Utility::SerializationUtilities::WriteInt32ToByteArray
 // Il2CppName: WriteInt32ToByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int, int)>(&UnityEngine::AddressableAssets::Utility::SerializationUtilities::WriteInt32ToByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint8_t>, int, int)>(&UnityEngine::AddressableAssets::Utility::SerializationUtilities::WriteInt32ToByteArray)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* val = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Utility::SerializationUtilities*), "WriteInt32ToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, val, offset});
@@ -71,9 +71,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Utility::SerializationUtilities::ReadObjectFromByteArray
 // Il2CppName: ReadObjectFromByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Array<uint8_t>*, int)>(&UnityEngine::AddressableAssets::Utility::SerializationUtilities::ReadObjectFromByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::ArrayWrapper<uint8_t>, int)>(&UnityEngine::AddressableAssets::Utility::SerializationUtilities::ReadObjectFromByteArray)> {
   static const MethodInfo* get() {
-    static auto* keyData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* keyData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* dataIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Utility::SerializationUtilities*), "ReadObjectFromByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyData, dataIndex});
   }

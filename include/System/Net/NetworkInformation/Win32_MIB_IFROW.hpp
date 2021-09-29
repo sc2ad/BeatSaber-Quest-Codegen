@@ -22,9 +22,9 @@ namespace System::Net::NetworkInformation {
     // public System.Char[] Name
     // Size: 0x8
     // Offset: 0x0
-    ::Array<::Il2CppChar>* Name;
+    ::ArrayWrapper<::Il2CppChar> Name;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppChar>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
     // public System.Int32 Index
     // Size: 0x4
     // Offset: 0x8
@@ -60,9 +60,9 @@ namespace System::Net::NetworkInformation {
     // public System.Byte[] PhysAddr
     // Size: 0x8
     // Offset: 0x20
-    ::Array<uint8_t>* PhysAddr;
+    ::ArrayWrapper<uint8_t> PhysAddr;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // public System.UInt32 AdminStatus
     // Size: 0x4
     // Offset: 0x28
@@ -162,17 +162,17 @@ namespace System::Net::NetworkInformation {
     // public System.Byte[] Descr
     // Size: 0x8
     // Offset: 0x68
-    ::Array<uint8_t>* Descr;
+    ::ArrayWrapper<uint8_t> Descr;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: Win32_MIB_IFROW
-    constexpr Win32_MIB_IFROW(::Array<::Il2CppChar>* Name_ = {}, int Index_ = {}, System::Net::NetworkInformation::NetworkInterfaceType Type_ = {}, int Mtu_ = {}, uint Speed_ = {}, int PhysAddrLen_ = {}, ::Array<uint8_t>* PhysAddr_ = {}, uint AdminStatus_ = {}, uint OperStatus_ = {}, uint LastChange_ = {}, int InOctets_ = {}, int InUcastPkts_ = {}, int InNUcastPkts_ = {}, int InDiscards_ = {}, int InErrors_ = {}, int InUnknownProtos_ = {}, int OutOctets_ = {}, int OutUcastPkts_ = {}, int OutNUcastPkts_ = {}, int OutDiscards_ = {}, int OutErrors_ = {}, int OutQLen_ = {}, int DescrLen_ = {}, ::Array<uint8_t>* Descr_ = {}) noexcept : Name{Name_}, Index{Index_}, Type{Type_}, Mtu{Mtu_}, Speed{Speed_}, PhysAddrLen{PhysAddrLen_}, PhysAddr{PhysAddr_}, AdminStatus{AdminStatus_}, OperStatus{OperStatus_}, LastChange{LastChange_}, InOctets{InOctets_}, InUcastPkts{InUcastPkts_}, InNUcastPkts{InNUcastPkts_}, InDiscards{InDiscards_}, InErrors{InErrors_}, InUnknownProtos{InUnknownProtos_}, OutOctets{OutOctets_}, OutUcastPkts{OutUcastPkts_}, OutNUcastPkts{OutNUcastPkts_}, OutDiscards{OutDiscards_}, OutErrors{OutErrors_}, OutQLen{OutQLen_}, DescrLen{DescrLen_}, Descr{Descr_} {}
+    constexpr Win32_MIB_IFROW(::ArrayWrapper<::Il2CppChar> Name_ = {}, int Index_ = {}, System::Net::NetworkInformation::NetworkInterfaceType Type_ = {}, int Mtu_ = {}, uint Speed_ = {}, int PhysAddrLen_ = {}, ::ArrayWrapper<uint8_t> PhysAddr_ = {}, uint AdminStatus_ = {}, uint OperStatus_ = {}, uint LastChange_ = {}, int InOctets_ = {}, int InUcastPkts_ = {}, int InNUcastPkts_ = {}, int InDiscards_ = {}, int InErrors_ = {}, int InUnknownProtos_ = {}, int OutOctets_ = {}, int OutUcastPkts_ = {}, int OutNUcastPkts_ = {}, int OutDiscards_ = {}, int OutErrors_ = {}, int OutQLen_ = {}, int DescrLen_ = {}, ::ArrayWrapper<uint8_t> Descr_ = {}) noexcept : Name{Name_}, Index{Index_}, Type{Type_}, Mtu{Mtu_}, Speed{Speed_}, PhysAddrLen{PhysAddrLen_}, PhysAddr{PhysAddr_}, AdminStatus{AdminStatus_}, OperStatus{OperStatus_}, LastChange{LastChange_}, InOctets{InOctets_}, InUcastPkts{InUcastPkts_}, InNUcastPkts{InNUcastPkts_}, InDiscards{InDiscards_}, InErrors{InErrors_}, InUnknownProtos{InUnknownProtos_}, OutOctets{OutOctets_}, OutUcastPkts{OutUcastPkts_}, OutNUcastPkts{OutNUcastPkts_}, OutDiscards{OutDiscards_}, OutErrors{OutErrors_}, OutQLen{OutQLen_}, DescrLen{DescrLen_}, Descr{Descr_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public System.Char[] Name
-    ::Array<::Il2CppChar>*& dyn_Name();
+    ::ArrayWrapper<::Il2CppChar>& dyn_Name();
     // Get instance field reference: public System.Int32 Index
     int& dyn_Index();
     // Get instance field reference: public System.Net.NetworkInformation.NetworkInterfaceType Type
@@ -184,7 +184,7 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: public System.Int32 PhysAddrLen
     int& dyn_PhysAddrLen();
     // Get instance field reference: public System.Byte[] PhysAddr
-    ::Array<uint8_t>*& dyn_PhysAddr();
+    ::ArrayWrapper<uint8_t>& dyn_PhysAddr();
     // Get instance field reference: public System.UInt32 AdminStatus
     uint& dyn_AdminStatus();
     // Get instance field reference: public System.UInt32 OperStatus
@@ -218,10 +218,10 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: public System.Int32 DescrLen
     int& dyn_DescrLen();
     // Get instance field reference: public System.Byte[] Descr
-    ::Array<uint8_t>*& dyn_Descr();
+    ::ArrayWrapper<uint8_t>& dyn_Descr();
   }; // System.Net.NetworkInformation.Win32_MIB_IFROW
   #pragma pack(pop)
-  static check_size<sizeof(Win32_MIB_IFROW), 104 + sizeof(::Array<uint8_t>*)> __System_Net_NetworkInformation_Win32_MIB_IFROWSizeCheck;
+  static check_size<sizeof(Win32_MIB_IFROW), 104 + sizeof(::ArrayWrapper<uint8_t>)> __System_Net_NetworkInformation_Win32_MIB_IFROWSizeCheck;
   static_assert(sizeof(Win32_MIB_IFROW) == 0x70);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -37,9 +37,9 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     // private System.Byte[] defHash
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* defHash;
+    ::ArrayWrapper<uint8_t> defHash;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private Org.BouncyCastle.Crypto.IDigest mgf1Hash
     // Size: 0x8
     // Offset: 0x18
@@ -65,13 +65,13 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: OaepEncoding
-    OaepEncoding(::Array<uint8_t>* defHash_ = {}, Org::BouncyCastle::Crypto::IDigest* mgf1Hash_ = {}, Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine_ = {}, Org::BouncyCastle::Security::SecureRandom* random_ = {}, bool forEncryption_ = {}) noexcept : defHash{defHash_}, mgf1Hash{mgf1Hash_}, engine{engine_}, random{random_}, forEncryption{forEncryption_} {}
+    OaepEncoding(::ArrayWrapper<uint8_t> defHash_ = {}, Org::BouncyCastle::Crypto::IDigest* mgf1Hash_ = {}, Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine_ = {}, Org::BouncyCastle::Security::SecureRandom* random_ = {}, bool forEncryption_ = {}) noexcept : defHash{defHash_}, mgf1Hash{mgf1Hash_}, engine{engine_}, random{random_}, forEncryption{forEncryption_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IAsymmetricBlockCipher
     operator Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);
     }
     // Get instance field reference: private System.Byte[] defHash
-    ::Array<uint8_t>*& dyn_defHash();
+    ::ArrayWrapper<uint8_t>& dyn_defHash();
     // Get instance field reference: private Org.BouncyCastle.Crypto.IDigest mgf1Hash
     Org::BouncyCastle::Crypto::IDigest*& dyn_mgf1Hash();
     // Get instance field reference: private Org.BouncyCastle.Crypto.IAsymmetricBlockCipher engine
@@ -81,57 +81,57 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     // Get instance field reference: private System.Boolean forEncryption
     bool& dyn_forEncryption();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher)
-    // Offset: 0x19373B8
+    // Offset: 0x1AA81EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OaepEncoding* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Encodings::OaepEncoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OaepEncoding*, creationType>(cipher)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest hash)
-    // Offset: 0x193743C
+    // Offset: 0x1AA8270
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OaepEncoding* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, Org::BouncyCastle::Crypto::IDigest* hash) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Encodings::OaepEncoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OaepEncoding*, creationType>(cipher, hash)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest hash, System.Byte[] encodingParams)
-    // Offset: 0x1937430
+    // Offset: 0x1AA8264
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static OaepEncoding* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, Org::BouncyCastle::Crypto::IDigest* hash, ::Array<uint8_t>* encodingParams) {
+    static OaepEncoding* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, Org::BouncyCastle::Crypto::IDigest* hash, ::ArrayWrapper<uint8_t> encodingParams) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Encodings::OaepEncoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OaepEncoding*, creationType>(cipher, hash, encodingParams)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest hash, Org.BouncyCastle.Crypto.IDigest mgf1Hash, System.Byte[] encodingParams)
-    // Offset: 0x1937448
+    // Offset: 0x1AA827C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static OaepEncoding* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, Org::BouncyCastle::Crypto::IDigest* hash, Org::BouncyCastle::Crypto::IDigest* mgf1Hash, ::Array<uint8_t>* encodingParams) {
+    static OaepEncoding* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, Org::BouncyCastle::Crypto::IDigest* hash, Org::BouncyCastle::Crypto::IDigest* mgf1Hash, ::ArrayWrapper<uint8_t> encodingParams) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Encodings::OaepEncoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OaepEncoding*, creationType>(cipher, hash, mgf1Hash, encodingParams)));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters param)
-    // Offset: 0x1937690
+    // Offset: 0x1AA84C4
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* param);
     // public System.Int32 GetInputBlockSize()
-    // Offset: 0x19377C8
+    // Offset: 0x1AA85FC
     int GetInputBlockSize();
     // public System.Int32 GetOutputBlockSize()
-    // Offset: 0x19378A0
+    // Offset: 0x1AA86D4
     int GetOutputBlockSize();
     // public System.Byte[] ProcessBlock(System.Byte[] inBytes, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x1937978
-    ::Array<uint8_t>* ProcessBlock(::Array<uint8_t>* inBytes, int inOff, int inLen);
+    // Offset: 0x1AA87AC
+    ::ArrayWrapper<uint8_t> ProcessBlock(::ArrayWrapper<uint8_t> inBytes, int inOff, int inLen);
     // private System.Byte[] EncodeBlock(System.Byte[] inBytes, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x1937988
-    ::Array<uint8_t>* EncodeBlock(::Array<uint8_t>* inBytes, int inOff, int inLen);
+    // Offset: 0x1AA87BC
+    ::ArrayWrapper<uint8_t> EncodeBlock(::ArrayWrapper<uint8_t> inBytes, int inOff, int inLen);
     // private System.Byte[] DecodeBlock(System.Byte[] inBytes, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x1937CA8
-    ::Array<uint8_t>* DecodeBlock(::Array<uint8_t>* inBytes, int inOff, int inLen);
+    // Offset: 0x1AA8ADC
+    ::ArrayWrapper<uint8_t> DecodeBlock(::ArrayWrapper<uint8_t> inBytes, int inOff, int inLen);
     // private System.Void ItoOSP(System.Int32 i, System.Byte[] sp)
-    // Offset: 0x193861C
-    void ItoOSP(int i, ::Array<uint8_t>* sp);
+    // Offset: 0x1AA9450
+    void ItoOSP(int i, ::ArrayWrapper<uint8_t> sp);
     // private System.Byte[] maskGeneratorFunction1(System.Byte[] Z, System.Int32 zOff, System.Int32 zLen, System.Int32 length)
-    // Offset: 0x193810C
-    ::Array<uint8_t>* maskGeneratorFunction1(::Array<uint8_t>* Z, int zOff, int zLen, int length);
+    // Offset: 0x1AA8F40
+    ::ArrayWrapper<uint8_t> maskGeneratorFunction1(::ArrayWrapper<uint8_t> Z, int zOff, int zLen, int length);
   }; // Org.BouncyCastle.Crypto.Encodings.OaepEncoding
   #pragma pack(pop)
   static check_size<sizeof(OaepEncoding), 48 + sizeof(bool)> __Org_BouncyCastle_Crypto_Encodings_OaepEncodingSizeCheck;
@@ -184,9 +184,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Encodings::OaepEncoding::ProcessBlock
 // Il2CppName: ProcessBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Encodings::OaepEncoding::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Encodings::OaepEncoding::ProcessBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Encodings::OaepEncoding::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Encodings::OaepEncoding::ProcessBlock)> {
   static const MethodInfo* get() {
-    static auto* inBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* inBytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* inLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Encodings::OaepEncoding*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inBytes, inOff, inLen});
@@ -195,9 +195,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Encodings::OaepEncoding::EncodeBlock
 // Il2CppName: EncodeBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Encodings::OaepEncoding::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Encodings::OaepEncoding::EncodeBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Encodings::OaepEncoding::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Encodings::OaepEncoding::EncodeBlock)> {
   static const MethodInfo* get() {
-    static auto* inBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* inBytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* inLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Encodings::OaepEncoding*), "EncodeBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inBytes, inOff, inLen});
@@ -206,9 +206,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Encodings::OaepEncoding::DecodeBlock
 // Il2CppName: DecodeBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Encodings::OaepEncoding::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Encodings::OaepEncoding::DecodeBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Encodings::OaepEncoding::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Encodings::OaepEncoding::DecodeBlock)> {
   static const MethodInfo* get() {
-    static auto* inBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* inBytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* inLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Encodings::OaepEncoding*), "DecodeBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inBytes, inOff, inLen});
@@ -217,19 +217,19 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Encodings::OaepEncoding::ItoOSP
 // Il2CppName: ItoOSP
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Encodings::OaepEncoding::*)(int, ::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Encodings::OaepEncoding::ItoOSP)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Encodings::OaepEncoding::*)(int, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Encodings::OaepEncoding::ItoOSP)> {
   static const MethodInfo* get() {
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* sp = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* sp = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Encodings::OaepEncoding*), "ItoOSP", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i, sp});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Encodings::OaepEncoding::maskGeneratorFunction1
 // Il2CppName: maskGeneratorFunction1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Encodings::OaepEncoding::*)(::Array<uint8_t>*, int, int, int)>(&Org::BouncyCastle::Crypto::Encodings::OaepEncoding::maskGeneratorFunction1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Encodings::OaepEncoding::*)(::ArrayWrapper<uint8_t>, int, int, int)>(&Org::BouncyCastle::Crypto::Encodings::OaepEncoding::maskGeneratorFunction1)> {
   static const MethodInfo* get() {
-    static auto* Z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* Z = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* zOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* zLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

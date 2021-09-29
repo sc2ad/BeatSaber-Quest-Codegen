@@ -251,29 +251,29 @@ namespace MasterServer {
     // Get instance field reference: public System.String managerId
     ::Il2CppString*& dyn_managerId();
     // static public IPacketPool`1<MasterServer.ConnectToServerResponse> get_pool()
-    // Offset: 0x121B148
+    // Offset: 0x12DA4E8
     static GlobalNamespace::IPacketPool_1<MasterServer::ConnectToServerResponse*>* get_pool();
     // protected System.UInt32 get_version()
-    // Offset: 0x121B228
+    // Offset: 0x12DA5C8
     uint get_version();
     // public MasterServer.ConnectToServerResponse InitForFailure(MasterServer.ConnectToServerResponse/MasterServer.Result result)
-    // Offset: 0x121B230
+    // Offset: 0x12DA5D0
     MasterServer::ConnectToServerResponse* InitForFailure(MasterServer::ConnectToServerResponse::Result result);
     // public MasterServer.ConnectToServerResponse InitForSuccess(System.String userId, System.String userName, System.String secret, System.String code, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.Boolean isConnectionOwner, System.Boolean isDedicatedServer, System.Net.IPEndPoint remoteEndPoint, System.Byte[] random, System.Byte[] publicKey, System.String managerId)
-    // Offset: 0x121B2C8
-    MasterServer::ConnectToServerResponse* InitForSuccess(::Il2CppString* userId, ::Il2CppString* userName, ::Il2CppString* secret, ::Il2CppString* code, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, bool isConnectionOwner, bool isDedicatedServer, System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>* random, ::Array<uint8_t>* publicKey, ::Il2CppString* managerId);
+    // Offset: 0x12DA668
+    MasterServer::ConnectToServerResponse* InitForSuccess(::Il2CppString* userId, ::Il2CppString* userName, ::Il2CppString* secret, ::Il2CppString* code, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, bool isConnectionOwner, bool isDedicatedServer, System::Net::IPEndPoint* remoteEndPoint, ::ArrayWrapper<uint8_t> random, ::ArrayWrapper<uint8_t> publicKey, ::Il2CppString* managerId);
     // public override System.Byte get_resultCode()
-    // Offset: 0x121B190
+    // Offset: 0x12DA530
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Byte BaseMasterServerReliableResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x121B198
+    // Offset: 0x12DA538
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.String BaseMasterServerReliableResponse::get_resultCodeString()
     ::Il2CppString* get_resultCodeString();
     // public System.Void .ctor()
-    // Offset: 0x121B6D0
+    // Offset: 0x12DAA70
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -283,17 +283,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<ConnectToServerResponse*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x121B360
+    // Offset: 0x12DA700
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x121B4A4
+    // Offset: 0x12DA844
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x121B5F4
+    // Offset: 0x12DA994
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();
@@ -333,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
 // Writing MetadataGetter for method: MasterServer::ConnectToServerResponse::InitForSuccess
 // Il2CppName: InitForSuccess
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ConnectToServerResponse* (MasterServer::ConnectToServerResponse::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, bool, bool, System::Net::IPEndPoint*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Il2CppString*)>(&MasterServer::ConnectToServerResponse::InitForSuccess)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ConnectToServerResponse* (MasterServer::ConnectToServerResponse::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, bool, bool, System::Net::IPEndPoint*, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, ::Il2CppString*)>(&MasterServer::ConnectToServerResponse::InitForSuccess)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* userName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -344,8 +344,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
     static auto* isConnectionOwner = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* isDedicatedServer = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
-    static auto* random = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* publicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* random = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* publicKey = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* managerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ConnectToServerResponse*), "InitForSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId, userName, secret, code, selectionMask, configuration, isConnectionOwner, isDedicatedServer, remoteEndPoint, random, publicKey, managerId});
   }

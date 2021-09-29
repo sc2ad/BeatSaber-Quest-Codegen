@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LobbyAvatarInstaller : public Zenject::MonoInstaller {
     public:
-    // [InjectAttribute] Offset: 0xE386A0
+    // [InjectAttribute] Offset: 0xF00E44
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x20
@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
     GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // public System.Void .ctor()
-    // Offset: 0x1208B98
+    // Offset: 0x1315518
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -54,7 +54,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LobbyAvatarInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1208B3C
+    // Offset: 0x13154BC
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

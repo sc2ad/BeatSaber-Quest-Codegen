@@ -51,9 +51,9 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.List`1<NoteData>[] _notesInColumns
     // Size: 0x8
     // Offset: 0x20
-    ::Array<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>* notesInColumns;
+    ::ArrayWrapper<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*> notesInColumns;
     // Field size check
-    static_assert(sizeof(::Array<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>) == 0x8);
     // private System.Single _prevBasicNotesTimeRowTime
     // Size: 0x4
     // Offset: 0x28
@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: BeatmapObjectsInTimeRowProcessor
-    BeatmapObjectsInTimeRowProcessor(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* currentTimeRowColorNotes_ = {}, System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* currentTimeRowAllNotes_ = {}, ::Array<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>* notesInColumns_ = {}, float prevBasicNotesTimeRowTime_ = {}) noexcept : currentTimeRowColorNotes{currentTimeRowColorNotes_}, currentTimeRowAllNotes{currentTimeRowAllNotes_}, notesInColumns{notesInColumns_}, prevBasicNotesTimeRowTime{prevBasicNotesTimeRowTime_} {}
+    BeatmapObjectsInTimeRowProcessor(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* currentTimeRowColorNotes_ = {}, System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* currentTimeRowAllNotes_ = {}, ::ArrayWrapper<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*> notesInColumns_ = {}, float prevBasicNotesTimeRowTime_ = {}) noexcept : currentTimeRowColorNotes{currentTimeRowColorNotes_}, currentTimeRowAllNotes{currentTimeRowAllNotes_}, notesInColumns{notesInColumns_}, prevBasicNotesTimeRowTime{prevBasicNotesTimeRowTime_} {}
     // static field const value: static private System.Single kTimeRowEpsilon
     static constexpr const float kTimeRowEpsilon = 0.001;
     // Get static field: static private System.Single kTimeRowEpsilon
@@ -73,30 +73,30 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<NoteData> _currentTimeRowAllNotes
     System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*& dyn__currentTimeRowAllNotes();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<NoteData>[] _notesInColumns
-    ::Array<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>*& dyn__notesInColumns();
+    ::ArrayWrapper<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>& dyn__notesInColumns();
     // Get instance field reference: private System.Single _prevBasicNotesTimeRowTime
     float& dyn__prevBasicNotesTimeRowTime();
     // public System.Void .ctor(System.Int32 numberOfLines)
-    // Offset: 0x240968C
+    // Offset: 0x2613D58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectsInTimeRowProcessor* New_ctor(int numberOfLines) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectsInTimeRowProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectsInTimeRowProcessor*, creationType>(numberOfLines)));
     }
     // public System.Void ProcessNote(NoteData noteData)
-    // Offset: 0x2409800
+    // Offset: 0x2613ECC
     void ProcessNote(GlobalNamespace::NoteData* noteData);
     // private System.Boolean TimeIsOverCurrentTimeRow(System.Single time)
-    // Offset: 0x2409CE8
+    // Offset: 0x26143B4
     bool TimeIsOverCurrentTimeRow(float time);
     // public System.Void ProcessAllRemainingData()
-    // Offset: 0x2409FCC
+    // Offset: 0x2614698
     void ProcessAllRemainingData();
     // static private System.Void ProcessColorNotesInTimeRow(System.Collections.Generic.IList`1<NoteData> colorNotesData, System.Single nextBasicNoteTimeRowTime)
-    // Offset: 0x2409924
+    // Offset: 0x2613FF0
     static void ProcessColorNotesInTimeRow(System::Collections::Generic::IList_1<GlobalNamespace::NoteData*>* colorNotesData, float nextBasicNoteTimeRowTime);
     // private System.Void ProcessAllNotesInTimeRow(System.Collections.Generic.List`1<NoteData> notesInTimeRow)
-    // Offset: 0x2409D78
+    // Offset: 0x2614444
     void ProcessAllNotesInTimeRow(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* notesInTimeRow);
   }; // BeatmapObjectsInTimeRowProcessor
   #pragma pack(pop)

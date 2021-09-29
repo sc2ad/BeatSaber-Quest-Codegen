@@ -64,25 +64,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMAsyncRequest _uploadScoreShadowAsyncRequest
     GlobalNamespace::HMAsyncRequest*& dyn__uploadScoreShadowAsyncRequest();
     // public System.Void .ctor(PlatformLeaderboardsHandler mainHandler, PlatformLeaderboardsHandler shadowHandler)
-    // Offset: 0x1294C0C
+    // Offset: 0x133F394
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TwoLeaderboardsHandlerWrapper* New_ctor(GlobalNamespace::PlatformLeaderboardsHandler* mainHandler, GlobalNamespace::PlatformLeaderboardsHandler* shadowHandler) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TwoLeaderboardsHandlerWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TwoLeaderboardsHandlerWrapper*, creationType>(mainHandler, shadowHandler)));
     }
     // private System.Void <GetScores>b__5_0(PlatformLeaderboardsModel/GetScoresResult result, PlatformLeaderboardsModel/LeaderboardScore[] scores, System.Int32 referencePlayerScoreIndex)
-    // Offset: 0x1294E3C
-    void $GetScores$b__5_0(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult result, ::Array<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>* scores, int referencePlayerScoreIndex);
+    // Offset: 0x133F5C4
+    void $GetScores$b__5_0(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult result, ::ArrayWrapper<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*> scores, int referencePlayerScoreIndex);
     // private System.Void <UploadScore>b__6_0(PlatformLeaderboardsModel/UploadScoreResult result)
-    // Offset: 0x1294E44
+    // Offset: 0x133F5CC
     void $UploadScore$b__6_0(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult result);
     // public override HMAsyncRequest GetScores(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, PlatformLeaderboardsModel/ScoresScope scope, System.String referencePlayerId, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
-    // Offset: 0x1294C44
+    // Offset: 0x133F3CC
     // Implemented from: PlatformLeaderboardsHandler
     // Base method: HMAsyncRequest PlatformLeaderboardsHandler::GetScores(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, PlatformLeaderboardsModel/ScoresScope scope, System.String referencePlayerId, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* GetScores(GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, GlobalNamespace::PlatformLeaderboardsModel::ScoresScope scope, ::Il2CppString* referencePlayerId, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* completionHandler);
     // public override HMAsyncRequest UploadScore(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
-    // Offset: 0x1294D64
+    // Offset: 0x133F4EC
     // Implemented from: PlatformLeaderboardsHandler
     // Base method: HMAsyncRequest PlatformLeaderboardsHandler::UploadScore(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* UploadScore(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler);
@@ -100,10 +100,10 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TwoLeaderboardsHandlerWrapper*, "", "Two
 // Writing MetadataGetter for method: GlobalNamespace::TwoLeaderboardsHandlerWrapper::$GetScores$b__5_0
 // Il2CppName: <GetScores>b__5_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TwoLeaderboardsHandlerWrapper::*)(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult, ::Array<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>*, int)>(&GlobalNamespace::TwoLeaderboardsHandlerWrapper::$GetScores$b__5_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TwoLeaderboardsHandlerWrapper::*)(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult, ::ArrayWrapper<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>, int)>(&GlobalNamespace::TwoLeaderboardsHandlerWrapper::$GetScores$b__5_0)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("", "PlatformLeaderboardsModel/GetScoresResult")->byval_arg;
-    static auto* scores = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "PlatformLeaderboardsModel/LeaderboardScore"), 1)->byval_arg;
+    static auto* scores = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "PlatformLeaderboardsModel/LeaderboardScore")), 1)->byval_arg;
     static auto* referencePlayerScoreIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TwoLeaderboardsHandlerWrapper*), "<GetScores>b__5_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result, scores, referencePlayerScoreIndex});
   }

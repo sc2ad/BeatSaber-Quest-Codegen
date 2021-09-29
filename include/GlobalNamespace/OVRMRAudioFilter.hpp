@@ -50,13 +50,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRExternalComposition composition
     GlobalNamespace::OVRExternalComposition*& dyn_composition();
     // private System.Void Start()
-    // Offset: 0x15484B8
+    // Offset: 0x16D1200
     void Start();
     // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0x15484C4
-    void OnAudioFilterRead(::Array<float>* data, int channels);
+    // Offset: 0x16D120C
+    void OnAudioFilterRead(::ArrayWrapper<float> data, int channels);
     // public System.Void .ctor()
-    // Offset: 0x15484E0
+    // Offset: 0x16D1228
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -86,9 +86,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVRMRAudioFilter::OnAudioFilterRead
 // Il2CppName: OnAudioFilterRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMRAudioFilter::*)(::Array<float>*, int)>(&GlobalNamespace::OVRMRAudioFilter::OnAudioFilterRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMRAudioFilter::*)(::ArrayWrapper<float>, int)>(&GlobalNamespace::OVRMRAudioFilter::OnAudioFilterRead)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
     static auto* channels = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMRAudioFilter*), "OnAudioFilterRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, channels});
   }

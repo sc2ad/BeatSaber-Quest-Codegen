@@ -41,25 +41,25 @@ namespace System::Security::Cryptography {
     // Get instance field reference: private System.IntPtr _handle
     System::IntPtr& dyn__handle();
     // static private System.Void .cctor()
-    // Offset: 0x1B3D248
+    // Offset: 0x1CC1920
     static void _cctor();
     // private System.Void Check()
-    // Offset: 0x1B3D348
+    // Offset: 0x1CC1A20
     void Check();
     // static private System.Boolean RngOpen()
-    // Offset: 0x1B3D2BC
+    // Offset: 0x1CC1994
     static bool RngOpen();
     // static private System.IntPtr RngInitialize(System.Byte[] seed)
-    // Offset: 0x1B3D344
-    static System::IntPtr RngInitialize(::Array<uint8_t>* seed);
+    // Offset: 0x1CC1A1C
+    static System::IntPtr RngInitialize(::ArrayWrapper<uint8_t> seed);
     // static private System.IntPtr RngGetBytes(System.IntPtr handle, System.Byte[] data)
-    // Offset: 0x1B3D3EC
-    static System::IntPtr RngGetBytes(System::IntPtr handle, ::Array<uint8_t>* data);
+    // Offset: 0x1CC1AC4
+    static System::IntPtr RngGetBytes(System::IntPtr handle, ::ArrayWrapper<uint8_t> data);
     // static private System.Void RngClose(System.IntPtr handle)
-    // Offset: 0x1B3D3F0
+    // Offset: 0x1CC1AC8
     static void RngClose(System::IntPtr handle);
     // public System.Void .ctor()
-    // Offset: 0x1B3D2C0
+    // Offset: 0x1CC1998
     // Implemented from: System.Security.Cryptography.RandomNumberGenerator
     // Base method: System.Void RandomNumberGenerator::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -69,17 +69,17 @@ namespace System::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<RNGCryptoServiceProvider*, creationType>()));
     }
     // public override System.Void GetBytes(System.Byte[] data)
-    // Offset: 0x1B3D3F4
+    // Offset: 0x1CC1ACC
     // Implemented from: System.Security.Cryptography.RandomNumberGenerator
     // Base method: System.Void RandomNumberGenerator::GetBytes(System.Byte[] data)
-    void GetBytes(::Array<uint8_t>* data);
+    void GetBytes(::ArrayWrapper<uint8_t> data);
     // protected override System.Void Finalize()
-    // Offset: 0x1B3D598
+    // Offset: 0x1CC1C70
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1B3D668
+    // Offset: 0x1CC1D40
     // Implemented from: System.Security.Cryptography.RandomNumberGenerator
     // Base method: System.Void RandomNumberGenerator::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
@@ -117,19 +117,19 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: System::Security::Cryptography::RNGCryptoServiceProvider::RngInitialize
 // Il2CppName: RngInitialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Array<uint8_t>*)>(&System::Security::Cryptography::RNGCryptoServiceProvider::RngInitialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::RNGCryptoServiceProvider::RngInitialize)> {
   static const MethodInfo* get() {
-    static auto* seed = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* seed = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RNGCryptoServiceProvider*), "RngInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{seed});
   }
 };
 // Writing MetadataGetter for method: System::Security::Cryptography::RNGCryptoServiceProvider::RngGetBytes
 // Il2CppName: RngGetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::Array<uint8_t>*)>(&System::Security::Cryptography::RNGCryptoServiceProvider::RngGetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::RNGCryptoServiceProvider::RngGetBytes)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RNGCryptoServiceProvider*), "RngGetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle, data});
   }
 };
@@ -149,9 +149,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Security::Cryptography::RNGCryptoServiceProvider::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RNGCryptoServiceProvider::*)(::Array<uint8_t>*)>(&System::Security::Cryptography::RNGCryptoServiceProvider::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RNGCryptoServiceProvider::*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::RNGCryptoServiceProvider::GetBytes)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RNGCryptoServiceProvider*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }
 };

@@ -57,10 +57,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/IsPackBetterBuyThanLevelResult> <>u__1
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1028B98
+    // Offset: 0x1118008
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1028D6C
+    // Offset: 0x11181DC
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusPlatformAdditionalContentModel/<IsPackBetterBuyThanLevelAsync>d__11
   // WARNING Not writing size check since size may be invalid!

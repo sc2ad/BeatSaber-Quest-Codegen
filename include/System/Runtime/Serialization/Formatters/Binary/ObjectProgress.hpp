@@ -131,27 +131,27 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA
     // Size: 0x8
     // Offset: 0x60
-    ::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA;
+    ::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA;
     // Field size check
-    static_assert(sizeof(::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>) == 0x8);
     // System.Object[] typeInformationA
     // Size: 0x8
     // Offset: 0x68
-    ::Array<::Il2CppObject*>* typeInformationA;
+    ::ArrayWrapper<::Il2CppObject*> typeInformationA;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
     // System.String[] memberNames
     // Size: 0x8
     // Offset: 0x70
-    ::Array<::Il2CppString*>* memberNames;
+    ::ArrayWrapper<::Il2CppString*> memberNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // System.Type[] memberTypes
     // Size: 0x8
     // Offset: 0x78
-    ::Array<System::Type*>* memberTypes;
+    ::ArrayWrapper<System::Type*> memberTypes;
     // Field size check
-    static_assert(sizeof(::Array<System::Type*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
     // System.Runtime.Serialization.Formatters.Binary.ParseRecord pr
     // Size: 0x8
     // Offset: 0x80
@@ -159,7 +159,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::ParseRecord*) == 0x8);
     // Creating value type constructor for type: ObjectProgress
-    ObjectProgress(bool isInitial_ = {}, int count_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum expectedType_ = {}, ::Il2CppObject* expectedTypeInformation_ = {}, ::Il2CppString* name_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE objectTypeEnum_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE memberTypeEnum_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE memberValueEnum_ = {}, System::Type* dtType_ = {}, int numItems_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum_ = {}, ::Il2CppObject* typeInformation_ = {}, int nullCount_ = {}, int memberLength_ = {}, ::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA_ = {}, ::Array<::Il2CppObject*>* typeInformationA_ = {}, ::Array<::Il2CppString*>* memberNames_ = {}, ::Array<System::Type*>* memberTypes_ = {}, System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr_ = {}) noexcept : isInitial{isInitial_}, count{count_}, expectedType{expectedType_}, expectedTypeInformation{expectedTypeInformation_}, name{name_}, objectTypeEnum{objectTypeEnum_}, memberTypeEnum{memberTypeEnum_}, memberValueEnum{memberValueEnum_}, dtType{dtType_}, numItems{numItems_}, binaryTypeEnum{binaryTypeEnum_}, typeInformation{typeInformation_}, nullCount{nullCount_}, memberLength{memberLength_}, binaryTypeEnumA{binaryTypeEnumA_}, typeInformationA{typeInformationA_}, memberNames{memberNames_}, memberTypes{memberTypes_}, pr{pr_} {}
+    ObjectProgress(bool isInitial_ = {}, int count_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum expectedType_ = {}, ::Il2CppObject* expectedTypeInformation_ = {}, ::Il2CppString* name_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE objectTypeEnum_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE memberTypeEnum_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE memberValueEnum_ = {}, System::Type* dtType_ = {}, int numItems_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum_ = {}, ::Il2CppObject* typeInformation_ = {}, int nullCount_ = {}, int memberLength_ = {}, ::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA_ = {}, ::ArrayWrapper<::Il2CppObject*> typeInformationA_ = {}, ::ArrayWrapper<::Il2CppString*> memberNames_ = {}, ::ArrayWrapper<System::Type*> memberTypes_ = {}, System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr_ = {}) noexcept : isInitial{isInitial_}, count{count_}, expectedType{expectedType_}, expectedTypeInformation{expectedTypeInformation_}, name{name_}, objectTypeEnum{objectTypeEnum_}, memberTypeEnum{memberTypeEnum_}, memberValueEnum{memberValueEnum_}, dtType{dtType_}, numItems{numItems_}, binaryTypeEnum{binaryTypeEnum_}, typeInformation{typeInformation_}, nullCount{nullCount_}, memberLength{memberLength_}, binaryTypeEnumA{binaryTypeEnumA_}, typeInformationA{typeInformationA_}, memberNames{memberNames_}, memberTypes{memberTypes_}, pr{pr_} {}
     // Get static field: static System.Int32 opRecordIdCount
     static int _get_opRecordIdCount();
     // Set static field: static System.Int32 opRecordIdCount
@@ -193,29 +193,29 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Int32 memberLength
     int& dyn_memberLength();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA
-    ::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*& dyn_binaryTypeEnumA();
+    ::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>& dyn_binaryTypeEnumA();
     // Get instance field reference: System.Object[] typeInformationA
-    ::Array<::Il2CppObject*>*& dyn_typeInformationA();
+    ::ArrayWrapper<::Il2CppObject*>& dyn_typeInformationA();
     // Get instance field reference: System.String[] memberNames
-    ::Array<::Il2CppString*>*& dyn_memberNames();
+    ::ArrayWrapper<::Il2CppString*>& dyn_memberNames();
     // Get instance field reference: System.Type[] memberTypes
-    ::Array<System::Type*>*& dyn_memberTypes();
+    ::ArrayWrapper<System::Type*>& dyn_memberTypes();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.ParseRecord pr
     System::Runtime::Serialization::Formatters::Binary::ParseRecord*& dyn_pr();
     // static private System.Void .cctor()
-    // Offset: 0x1622240
+    // Offset: 0x17EDEA0
     static void _cctor();
     // System.Void Init()
-    // Offset: 0x1622010
+    // Offset: 0x17EDC70
     void Init();
     // System.Void ArrayCountIncrement(System.Int32 value)
-    // Offset: 0x162210C
+    // Offset: 0x17EDD6C
     void ArrayCountIncrement(int value);
     // System.Boolean GetNext(out System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum outBinaryTypeEnum, out System.Object outTypeInformation)
-    // Offset: 0x162211C
+    // Offset: 0x17EDD7C
     bool GetNext(ByRef<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> outBinaryTypeEnum, ByRef<::Il2CppObject*> outTypeInformation);
     // System.Void .ctor()
-    // Offset: 0x1621F98
+    // Offset: 0x17EDBF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -26,11 +26,11 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameplayModifiersHelper
     GameplayModifiersHelper() noexcept {}
     // static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] ToDTO(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1101314
-    static ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* ToDTO(GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    // Offset: 0x11E5BFC
+    static ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers> ToDTO(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // static public GameplayModifiers FromDTO(BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiersDTOs)
-    // Offset: 0x1101620
-    static GlobalNamespace::GameplayModifiers* FromDTO(::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* gameplayModifiersDTOs);
+    // Offset: 0x11E5F08
+    static GlobalNamespace::GameplayModifiers* FromDTO(::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers> gameplayModifiersDTOs);
   }; // GameplayModifiersHelper
   #pragma pack(pop)
 }
@@ -40,7 +40,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersHelper*, "", "GameplayM
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersHelper::ToDTO
 // Il2CppName: ToDTO
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* (*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersHelper::ToDTO)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers> (*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersHelper::ToDTO)> {
   static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersHelper*), "ToDTO", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
@@ -49,9 +49,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Bea
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersHelper::FromDTO
 // Il2CppName: FromDTO
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (*)(::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>*)>(&GlobalNamespace::GameplayModifiersHelper::FromDTO)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (*)(::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>)>(&GlobalNamespace::GameplayModifiersHelper::FromDTO)> {
   static const MethodInfo* get() {
-    static auto* gameplayModifiersDTOs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("BeatSaberAPI.DataTransferObjects", "LevelScoreResult/GameplayModifiers"), 1)->byval_arg;
+    static auto* gameplayModifiersDTOs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("BeatSaberAPI.DataTransferObjects", "LevelScoreResult/GameplayModifiers")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersHelper*), "FromDTO", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiersDTOs});
   }
 };

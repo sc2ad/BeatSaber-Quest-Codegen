@@ -74,23 +74,23 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.Collections.Generic.List`1<NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment> _fragments
     System::Collections::Generic::List_1<NUnit::Framework::Internal::TestNameGenerator::NameFragment*>*& dyn__fragments();
     // public System.Void .ctor(System.String pattern)
-    // Offset: 0x229A9BC
+    // Offset: 0x24A2D04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestNameGenerator* New_ctor(::Il2CppString* pattern) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestNameGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator*, creationType>(pattern)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x229B360
+    // Offset: 0x24A36A8
     static void _cctor();
     // public System.String GetDisplayName(NUnit.Framework.Internal.TestMethod testMethod, System.Object[] args)
-    // Offset: 0x229A9E8
-    ::Il2CppString* GetDisplayName(NUnit::Framework::Internal::TestMethod* testMethod, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x24A2D30
+    ::Il2CppString* GetDisplayName(NUnit::Framework::Internal::TestMethod* testMethod, ::ArrayWrapper<::Il2CppObject*> args);
     // static private System.Collections.Generic.List`1<NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment> BuildFragmentList(System.String pattern)
-    // Offset: 0x229AB80
+    // Offset: 0x24A2EC8
     static System::Collections::Generic::List_1<NUnit::Framework::Internal::TestNameGenerator::NameFragment*>* BuildFragmentList(::Il2CppString* pattern);
     // public System.Void .ctor()
-    // Offset: 0x229A940
+    // Offset: 0x24A2C88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -120,10 +120,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::GetDisplayName
 // Il2CppName: GetDisplayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestNameGenerator::*)(NUnit::Framework::Internal::TestMethod*, ::Array<::Il2CppObject*>*)>(&NUnit::Framework::Internal::TestNameGenerator::GetDisplayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestNameGenerator::*)(NUnit::Framework::Internal::TestMethod*, ::ArrayWrapper<::Il2CppObject*>)>(&NUnit::Framework::Internal::TestNameGenerator::GetDisplayName)> {
   static const MethodInfo* get() {
     static auto* testMethod = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestMethod")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestNameGenerator*), "GetDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{testMethod, args});
   }
 };

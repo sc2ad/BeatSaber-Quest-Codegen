@@ -52,33 +52,33 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Encodable parameters
     Org::BouncyCastle::Asn1::Asn1Encodable*& dyn_parameters();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_Algorithm()
-    // Offset: 0x19FAB38
+    // Offset: 0x1BB4874
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Algorithm();
     // public Org.BouncyCastle.Asn1.Asn1Encodable get_Parameters()
-    // Offset: 0x19FAB40
+    // Offset: 0x1BB487C
     Org::BouncyCastle::Asn1::Asn1Encodable* get_Parameters();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerObjectIdentifier algorithm, Org.BouncyCastle.Asn1.Asn1Encodable parameters)
-    // Offset: 0x19FAB00
+    // Offset: 0x1BB483C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AlgorithmIdentifier* New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, Org::BouncyCastle::Asn1::Asn1Encodable* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AlgorithmIdentifier*, creationType>(algorithm, parameters)));
     }
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x19FA964
+    // Offset: 0x1BB46A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AlgorithmIdentifier* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AlgorithmIdentifier*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x19FA8A4
+    // Offset: 0x1BB45E0
     static Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // static public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier GetInstance(System.Object obj)
-    // Offset: 0x19FA8C0
+    // Offset: 0x1BB45FC
     static Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x19FAB48
+    // Offset: 0x1BB4884
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

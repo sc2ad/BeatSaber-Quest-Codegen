@@ -87,11 +87,11 @@ namespace GlobalNamespace {
     // private UnityEngine.GameObject[] _visualObjects
     // Size: 0x8
     // Offset: 0x38
-    ::Array<UnityEngine::GameObject*>* visualObjects;
+    ::ArrayWrapper<UnityEngine::GameObject*> visualObjects;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::GameObject*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
     // Creating value type constructor for type: MultiplayerLobbyAvatarController
-    MultiplayerLobbyAvatarController(UnityEngine::Playables::PlayableDirector* spawnEffect_ = {}, GlobalNamespace::VFXController* despawnVFXController_ = {}, float spawnAvatarDelay_ = {}, float despawnAvatarDelay_ = {}, float destroyAvatarDelay_ = {}, ::Array<UnityEngine::GameObject*>* visualObjects_ = {}) noexcept : spawnEffect{spawnEffect_}, despawnVFXController{despawnVFXController_}, spawnAvatarDelay{spawnAvatarDelay_}, despawnAvatarDelay{despawnAvatarDelay_}, destroyAvatarDelay{destroyAvatarDelay_}, visualObjects{visualObjects_} {}
+    MultiplayerLobbyAvatarController(UnityEngine::Playables::PlayableDirector* spawnEffect_ = {}, GlobalNamespace::VFXController* despawnVFXController_ = {}, float spawnAvatarDelay_ = {}, float despawnAvatarDelay_ = {}, float destroyAvatarDelay_ = {}, ::ArrayWrapper<UnityEngine::GameObject*> visualObjects_ = {}) noexcept : spawnEffect{spawnEffect_}, despawnVFXController{despawnVFXController_}, spawnAvatarDelay{spawnAvatarDelay_}, despawnAvatarDelay{despawnAvatarDelay_}, destroyAvatarDelay{destroyAvatarDelay_}, visualObjects{visualObjects_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _spawnEffect
@@ -105,27 +105,27 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _destroyAvatarDelay
     float& dyn__destroyAvatarDelay();
     // Get instance field reference: private UnityEngine.GameObject[] _visualObjects
-    ::Array<UnityEngine::GameObject*>*& dyn__visualObjects();
+    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__visualObjects();
     // public System.Void ShowSpawnAnimation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x107C800
+    // Offset: 0x116C12C
     void ShowSpawnAnimation(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
     // private System.Collections.IEnumerator SpawnAnimationCoroutine()
-    // Offset: 0x107C938
+    // Offset: 0x116C264
     System::Collections::IEnumerator* SpawnAnimationCoroutine();
     // private System.Void ActivateVisualObjects(System.Boolean on)
-    // Offset: 0x107C8BC
+    // Offset: 0x116C1E8
     void ActivateVisualObjects(bool on);
     // public System.Collections.IEnumerator ShowDespawnAnimationAndDestroy()
-    // Offset: 0x107C9D4
+    // Offset: 0x116C300
     System::Collections::IEnumerator* ShowDespawnAnimationAndDestroy();
     // public System.Void DestroySelf()
-    // Offset: 0x107CA70
+    // Offset: 0x116C39C
     void DestroySelf();
     // private System.Collections.IEnumerator DespawnAnimationCoroutine()
-    // Offset: 0x107CAEC
+    // Offset: 0x116C418
     System::Collections::IEnumerator* DespawnAnimationCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x107CB88
+    // Offset: 0x116C4B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -139,7 +139,7 @@ namespace GlobalNamespace {
     }
   }; // MultiplayerLobbyAvatarController
   #pragma pack(pop)
-  static check_size<sizeof(MultiplayerLobbyAvatarController), 56 + sizeof(::Array<UnityEngine::GameObject*>*)> __GlobalNamespace_MultiplayerLobbyAvatarControllerSizeCheck;
+  static check_size<sizeof(MultiplayerLobbyAvatarController), 56 + sizeof(::ArrayWrapper<UnityEngine::GameObject*>)> __GlobalNamespace_MultiplayerLobbyAvatarControllerSizeCheck;
   static_assert(sizeof(MultiplayerLobbyAvatarController) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyAvatarController*, "", "MultiplayerLobbyAvatarController");

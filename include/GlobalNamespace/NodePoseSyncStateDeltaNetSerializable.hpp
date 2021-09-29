@@ -86,40 +86,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 <timeOffsetMs>k__BackingField
     int& dyn_$timeOffsetMs$k__BackingField();
     // public SyncStateId get_baseId()
-    // Offset: 0x16F5390
+    // Offset: 0x18CEF0C
     GlobalNamespace::SyncStateId get_baseId();
     // public System.Void set_baseId(SyncStateId value)
-    // Offset: 0x16F5398
+    // Offset: 0x18CEF14
     void set_baseId(GlobalNamespace::SyncStateId value);
     // public System.Int32 get_timeOffsetMs()
-    // Offset: 0x16F53A0
+    // Offset: 0x18CEF1C
     int get_timeOffsetMs();
     // public System.Void set_timeOffsetMs(System.Int32 value)
-    // Offset: 0x16F53A8
+    // Offset: 0x18CEF24
     void set_timeOffsetMs(int value);
     // public NodePoseSyncState get_delta()
-    // Offset: 0x16F53B0
+    // Offset: 0x18CEF2C
     GlobalNamespace::NodePoseSyncState get_delta();
     // public System.Void set_delta(NodePoseSyncState value)
-    // Offset: 0x16F53C0
+    // Offset: 0x18CEF3C
     void set_delta(GlobalNamespace::NodePoseSyncState value);
     // static private System.Void .cctor()
-    // Offset: 0x16F565C
+    // Offset: 0x18CF15C
     static void _cctor();
-    // static private System.Void NoDomainReloadInit()
-    // Offset: 0x16F53DC
-    static void NoDomainReloadInit();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16F5458
+    // Offset: 0x18CEF58
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16F5528
+    // Offset: 0x18CF028
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x16F55D0
+    // Offset: 0x18CF0D0
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x16F5654
+    // Offset: 0x18CF154
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -191,14 +188,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::_cctor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::NoDomainReloadInit
-// Il2CppName: NoDomainReloadInit
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::NoDomainReloadInit)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*), "NoDomainReloadInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::Serialize

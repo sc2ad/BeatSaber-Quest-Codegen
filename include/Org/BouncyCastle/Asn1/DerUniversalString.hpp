@@ -31,49 +31,49 @@ namespace Org::BouncyCastle::Asn1 {
     // private readonly System.Byte[] str
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* str;
+    ::ArrayWrapper<uint8_t> str;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: DerUniversalString
-    DerUniversalString(::Array<uint8_t>* str_ = {}) noexcept : str{str_} {}
-    // Creating conversion operator: operator ::Array<uint8_t>*
-    constexpr operator ::Array<uint8_t>*() const noexcept {
+    DerUniversalString(::ArrayWrapper<uint8_t> str_ = {}) noexcept : str{str_} {}
+    // Creating conversion operator: operator ::ArrayWrapper<uint8_t>
+    constexpr operator ::ArrayWrapper<uint8_t>() const noexcept {
       return str;
     }
     // Get static field: static private readonly System.Char[] table
-    static ::Array<::Il2CppChar>* _get_table();
+    static ::ArrayWrapper<::Il2CppChar> _get_table();
     // Set static field: static private readonly System.Char[] table
-    static void _set_table(::Array<::Il2CppChar>* value);
+    static void _set_table(::ArrayWrapper<::Il2CppChar> value);
     // Get instance field reference: private readonly System.Byte[] str
-    ::Array<uint8_t>*& dyn_str();
+    ::ArrayWrapper<uint8_t>& dyn_str();
     // public System.Void .ctor(System.Byte[] str)
-    // Offset: 0x1730C4C
+    // Offset: 0x18E2424
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DerUniversalString* New_ctor(::Array<uint8_t>* str) {
+    static DerUniversalString* New_ctor(::ArrayWrapper<uint8_t> str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerUniversalString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerUniversalString*, creationType>(str)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x17413B4
+    // Offset: 0x18F2B8C
     static void _cctor();
     // public override System.String GetString()
-    // Offset: 0x174114C
+    // Offset: 0x18F2924
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::GetString()
     ::Il2CppString* GetString();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x17412B8
+    // Offset: 0x18F2A90
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x17412DC
+    // Offset: 0x18F2AB4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
   }; // Org.BouncyCastle.Asn1.DerUniversalString
   #pragma pack(pop)
-  static check_size<sizeof(DerUniversalString), 16 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Asn1_DerUniversalStringSizeCheck;
+  static check_size<sizeof(DerUniversalString), 16 + sizeof(::ArrayWrapper<uint8_t>)> __Org_BouncyCastle_Asn1_DerUniversalStringSizeCheck;
   static_assert(sizeof(DerUniversalString) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerUniversalString*, "Org.BouncyCastle.Asn1", "DerUniversalString");

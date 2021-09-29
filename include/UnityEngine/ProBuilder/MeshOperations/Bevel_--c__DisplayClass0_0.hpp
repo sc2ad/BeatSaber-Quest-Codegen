@@ -54,9 +54,9 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // public UnityEngine.ProBuilder.SharedVertex[] sharedIndexes
     // Size: 0x8
     // Offset: 0x18
-    ::Array<UnityEngine::ProBuilder::SharedVertex*>* sharedIndexes;
+    ::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*> sharedIndexes;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::ProBuilder::SharedVertex*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*>) == 0x8);
     // public System.Func`2<System.Int32,System.Int32> <>9__7
     // Size: 0x8
     // Offset: 0x20
@@ -70,23 +70,23 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Field size check
     static_assert(sizeof(System::Func_2<int, int>*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass0_0
-    $$c__DisplayClass0_0(System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::List_1<int>*>* ignore_ = {}, ::Array<UnityEngine::ProBuilder::SharedVertex*>* sharedIndexes_ = {}, System::Func_2<int, int>* $$9__7_ = {}, System::Func_2<int, int>* $$9__8_ = {}) noexcept : ignore{ignore_}, sharedIndexes{sharedIndexes_}, $$9__7{$$9__7_}, $$9__8{$$9__8_} {}
+    $$c__DisplayClass0_0(System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::List_1<int>*>* ignore_ = {}, ::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*> sharedIndexes_ = {}, System::Func_2<int, int>* $$9__7_ = {}, System::Func_2<int, int>* $$9__8_ = {}) noexcept : ignore{ignore_}, sharedIndexes{sharedIndexes_}, $$9__7{$$9__7_}, $$9__8{$$9__8_} {}
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.List`1<System.Int32>> ignore
     System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::List_1<int>*>*& dyn_ignore();
     // Get instance field reference: public UnityEngine.ProBuilder.SharedVertex[] sharedIndexes
-    ::Array<UnityEngine::ProBuilder::SharedVertex*>*& dyn_sharedIndexes();
+    ::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*>& dyn_sharedIndexes();
     // Get instance field reference: public System.Func`2<System.Int32,System.Int32> <>9__7
     System::Func_2<int, int>*& dyn_$$9__7();
     // Get instance field reference: public System.Func`2<System.Int32,System.Int32> <>9__8
     System::Func_2<int, int>*& dyn_$$9__8();
     // System.Int32 <BevelEdges>b__7(System.Int32 x)
-    // Offset: 0x15553FC
+    // Offset: 0x170E6BC
     int $BevelEdges$b__7(int x);
     // System.Int32 <BevelEdges>b__8(System.Int32 x)
-    // Offset: 0x1555444
+    // Offset: 0x170E704
     int $BevelEdges$b__8(int x);
     // public System.Void .ctor()
-    // Offset: 0x15546BC
+    // Offset: 0x170D97C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

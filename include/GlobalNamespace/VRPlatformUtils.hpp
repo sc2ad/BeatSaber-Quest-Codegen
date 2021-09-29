@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: VRPlatformUtils
     VRPlatformUtils() noexcept {}
     // static public XRDeviceModel GetXRDeviceModel()
-    // Offset: 0x2398570
+    // Offset: 0x259E494
     static GlobalNamespace::XRDeviceModel GetXRDeviceModel();
   }; // VRPlatformUtils
   #pragma pack(pop)

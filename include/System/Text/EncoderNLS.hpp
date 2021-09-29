@@ -87,36 +87,36 @@ namespace System::Text {
     // Get instance field reference: System.Int32 m_charsUsed
     int& dyn_m_charsUsed();
     // public System.Text.Encoding get_Encoding()
-    // Offset: 0x1D6C038
+    // Offset: 0x1F0C2C8
     System::Text::Encoding* get_Encoding();
     // public System.Boolean get_MustFlush()
-    // Offset: 0x1D6C040
+    // Offset: 0x1F0C2D0
     bool get_MustFlush();
     // System.Boolean get_HasState()
-    // Offset: 0x1D6C048
+    // Offset: 0x1F0C2D8
     bool get_HasState();
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1D6B194
+    // Offset: 0x1F0B424
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderNLS* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderNLS::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderNLS*, creationType>(info, context)));
     }
     // System.Void .ctor(System.Text.Encoding encoding)
-    // Offset: 0x1D6B35C
+    // Offset: 0x1F0B5EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderNLS* New_ctor(System::Text::Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderNLS::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderNLS*, creationType>(encoding)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1D6B27C
+    // Offset: 0x1F0B50C
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // System.Void ClearMustFlush()
-    // Offset: 0x1D6C058
+    // Offset: 0x1F0C2E8
     void ClearMustFlush();
     // System.Void .ctor()
-    // Offset: 0x1D6B3A4
+    // Offset: 0x1F0B634
     // Implemented from: System.Text.Encoder
     // Base method: System.Void Encoder::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -126,37 +126,37 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<EncoderNLS*, creationType>()));
     }
     // public override System.Void Reset()
-    // Offset: 0x1D6B3D8
+    // Offset: 0x1F0B668
     // Implemented from: System.Text.Encoder
     // Base method: System.Void Encoder::Reset()
     void Reset();
     // public override System.Int32 GetByteCount(System.Char[] chars, System.Int32 index, System.Int32 count, System.Boolean flush)
-    // Offset: 0x1D6B3F8
+    // Offset: 0x1F0B688
     // Implemented from: System.Text.Encoder
     // Base method: System.Int32 Encoder::GetByteCount(System.Char[] chars, System.Int32 index, System.Int32 count, System.Boolean flush)
-    int GetByteCount(::Array<::Il2CppChar>* chars, int index, int count, bool flush);
+    int GetByteCount(::ArrayWrapper<::Il2CppChar> chars, int index, int count, bool flush);
     // public override System.Int32 GetByteCount(System.Char* chars, System.Int32 count, System.Boolean flush)
-    // Offset: 0x1D6B5D8
+    // Offset: 0x1F0B868
     // Implemented from: System.Text.Encoder
     // Base method: System.Int32 Encoder::GetByteCount(System.Char* chars, System.Int32 count, System.Boolean flush)
     int GetByteCount(::Il2CppChar* chars, int count, bool flush);
     // public override System.Int32 GetBytes(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex, System.Boolean flush)
-    // Offset: 0x1D6B718
+    // Offset: 0x1F0B9A8
     // Implemented from: System.Text.Encoder
     // Base method: System.Int32 Encoder::GetBytes(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex, System.Boolean flush)
-    int GetBytes(::Array<::Il2CppChar>* chars, int charIndex, int charCount, ::Array<uint8_t>* bytes, int byteIndex, bool flush);
+    int GetBytes(::ArrayWrapper<::Il2CppChar> chars, int charIndex, int charCount, ::ArrayWrapper<uint8_t> bytes, int byteIndex, bool flush);
     // public override System.Int32 GetBytes(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Boolean flush)
-    // Offset: 0x1D6B9BC
+    // Offset: 0x1F0BC4C
     // Implemented from: System.Text.Encoder
     // Base method: System.Int32 Encoder::GetBytes(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Boolean flush)
     int GetBytes(::Il2CppChar* chars, int charCount, uint8_t* bytes, int byteCount, bool flush);
     // public override System.Void Convert(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Boolean flush, out System.Int32 charsUsed, out System.Int32 bytesUsed, out System.Boolean completed)
-    // Offset: 0x1D6BB44
+    // Offset: 0x1F0BDD4
     // Implemented from: System.Text.Encoder
     // Base method: System.Void Encoder::Convert(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Boolean flush, out System.Int32 charsUsed, out System.Int32 bytesUsed, out System.Boolean completed)
-    void Convert(::Array<::Il2CppChar>* chars, int charIndex, int charCount, ::Array<uint8_t>* bytes, int byteIndex, int byteCount, bool flush, ByRef<int> charsUsed, ByRef<int> bytesUsed, ByRef<bool> completed);
+    void Convert(::ArrayWrapper<::Il2CppChar> chars, int charIndex, int charCount, ::ArrayWrapper<uint8_t> bytes, int byteIndex, int byteCount, bool flush, ByRef<int> charsUsed, ByRef<int> bytesUsed, ByRef<bool> completed);
     // public override System.Void Convert(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Boolean flush, out System.Int32 charsUsed, out System.Int32 bytesUsed, out System.Boolean completed)
-    // Offset: 0x1D6BE3C
+    // Offset: 0x1F0C0CC
     // Implemented from: System.Text.Encoder
     // Base method: System.Void Encoder::Convert(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Boolean flush, out System.Int32 charsUsed, out System.Int32 bytesUsed, out System.Boolean completed)
     void Convert(::Il2CppChar* chars, int charCount, uint8_t* bytes, int byteCount, bool flush, ByRef<int> charsUsed, ByRef<int> bytesUsed, ByRef<bool> completed);
@@ -232,9 +232,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::EncoderNLS::GetByteCount
 // Il2CppName: GetByteCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::EncoderNLS::*)(::Array<::Il2CppChar>*, int, int, bool)>(&System::Text::EncoderNLS::GetByteCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::EncoderNLS::*)(::ArrayWrapper<::Il2CppChar>, int, int, bool)>(&System::Text::EncoderNLS::GetByteCount)> {
   static const MethodInfo* get() {
-    static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
+    static auto* chars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* flush = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -255,12 +255,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Text::EncoderNLS::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::EncoderNLS::*)(::Array<::Il2CppChar>*, int, int, ::Array<uint8_t>*, int, bool)>(&System::Text::EncoderNLS::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::EncoderNLS::*)(::ArrayWrapper<::Il2CppChar>, int, int, ::ArrayWrapper<uint8_t>, int, bool)>(&System::Text::EncoderNLS::GetBytes)> {
   static const MethodInfo* get() {
-    static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
+    static auto* chars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
     static auto* charIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* charCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* bytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* byteIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* flush = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::EncoderNLS*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chars, charIndex, charCount, bytes, byteIndex, flush});
@@ -282,12 +282,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Text::EncoderNLS::Convert
 // Il2CppName: Convert
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::EncoderNLS::*)(::Array<::Il2CppChar>*, int, int, ::Array<uint8_t>*, int, int, bool, ByRef<int>, ByRef<int>, ByRef<bool>)>(&System::Text::EncoderNLS::Convert)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::EncoderNLS::*)(::ArrayWrapper<::Il2CppChar>, int, int, ::ArrayWrapper<uint8_t>, int, int, bool, ByRef<int>, ByRef<int>, ByRef<bool>)>(&System::Text::EncoderNLS::Convert)> {
   static const MethodInfo* get() {
-    static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
+    static auto* chars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
     static auto* charIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* charCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* bytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* byteIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* byteCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* flush = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

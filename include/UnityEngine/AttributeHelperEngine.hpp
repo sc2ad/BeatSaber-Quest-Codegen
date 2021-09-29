@@ -39,34 +39,34 @@ namespace UnityEngine {
     // Creating value type constructor for type: AttributeHelperEngine
     AttributeHelperEngine() noexcept {}
     // Get static field: static public UnityEngine.DisallowMultipleComponent[] _disallowMultipleComponentArray
-    static ::Array<UnityEngine::DisallowMultipleComponent*>* _get__disallowMultipleComponentArray();
+    static ::ArrayWrapper<UnityEngine::DisallowMultipleComponent*> _get__disallowMultipleComponentArray();
     // Set static field: static public UnityEngine.DisallowMultipleComponent[] _disallowMultipleComponentArray
-    static void _set__disallowMultipleComponentArray(::Array<UnityEngine::DisallowMultipleComponent*>* value);
+    static void _set__disallowMultipleComponentArray(::ArrayWrapper<UnityEngine::DisallowMultipleComponent*> value);
     // Get static field: static public UnityEngine.ExecuteInEditMode[] _executeInEditModeArray
-    static ::Array<UnityEngine::ExecuteInEditMode*>* _get__executeInEditModeArray();
+    static ::ArrayWrapper<UnityEngine::ExecuteInEditMode*> _get__executeInEditModeArray();
     // Set static field: static public UnityEngine.ExecuteInEditMode[] _executeInEditModeArray
-    static void _set__executeInEditModeArray(::Array<UnityEngine::ExecuteInEditMode*>* value);
+    static void _set__executeInEditModeArray(::ArrayWrapper<UnityEngine::ExecuteInEditMode*> value);
     // Get static field: static public UnityEngine.RequireComponent[] _requireComponentArray
-    static ::Array<UnityEngine::RequireComponent*>* _get__requireComponentArray();
+    static ::ArrayWrapper<UnityEngine::RequireComponent*> _get__requireComponentArray();
     // Set static field: static public UnityEngine.RequireComponent[] _requireComponentArray
-    static void _set__requireComponentArray(::Array<UnityEngine::RequireComponent*>* value);
+    static void _set__requireComponentArray(::ArrayWrapper<UnityEngine::RequireComponent*> value);
     // static private System.Void .cctor()
-    // Offset: 0x1C484F4
+    // Offset: 0x1CADC64
     static void _cctor();
     // static private System.Type GetParentTypeDisallowingMultipleInclusion(System.Type type)
-    // Offset: 0x1C47E68
+    // Offset: 0x1CAD5D8
     static System::Type* GetParentTypeDisallowingMultipleInclusion(System::Type* type);
     // static private System.Type[] GetRequiredComponents(System.Type klass)
-    // Offset: 0x1C47F68
-    static ::Array<System::Type*>* GetRequiredComponents(System::Type* klass);
+    // Offset: 0x1CAD6D8
+    static ::ArrayWrapper<System::Type*> GetRequiredComponents(System::Type* klass);
     // static private System.Int32 GetExecuteMode(System.Type klass)
-    // Offset: 0x1C4827C
+    // Offset: 0x1CAD9EC
     static int GetExecuteMode(System::Type* klass);
     // static private System.Int32 CheckIsEditorScript(System.Type klass)
-    // Offset: 0x1C48388
+    // Offset: 0x1CADAF8
     static int CheckIsEditorScript(System::Type* klass);
     // static private System.Int32 GetDefaultExecutionOrderFor(System.Type klass)
-    // Offset: 0x1C48470
+    // Offset: 0x1CADBE0
     static int GetDefaultExecutionOrderFor(System::Type* klass);
     // static private T GetCustomAttributeOfType(System.Type klass)
     // Offset: 0xFFFFFFFF
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: UnityEngine::AttributeHelperEngine::GetRequiredComponents
 // Il2CppName: GetRequiredComponents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (*)(System::Type*)>(&UnityEngine::AttributeHelperEngine::GetRequiredComponents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Type*> (*)(System::Type*)>(&UnityEngine::AttributeHelperEngine::GetRequiredComponents)> {
   static const MethodInfo* get() {
     static auto* klass = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AttributeHelperEngine*), "GetRequiredComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{klass});

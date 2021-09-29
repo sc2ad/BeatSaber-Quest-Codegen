@@ -40,14 +40,14 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class MethodWrapper : public ::Il2CppObject/*, public NUnit::Framework::Interfaces::IMethodInfo*/ {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xE284B0
+    // [DebuggerBrowsableAttribute] Offset: 0xEEEC88
     // private NUnit.Framework.Interfaces.ITypeInfo <TypeInfo>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     NUnit::Framework::Interfaces::ITypeInfo* TypeInfo;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::ITypeInfo*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE284EC
+    // [DebuggerBrowsableAttribute] Offset: 0xEEECC4
     // private System.Reflection.MethodInfo <MethodInfo>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -65,48 +65,48 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.Reflection.MethodInfo <MethodInfo>k__BackingField
     System::Reflection::MethodInfo*& dyn_$MethodInfo$k__BackingField();
     // public NUnit.Framework.Interfaces.ITypeInfo get_TypeInfo()
-    // Offset: 0x2295290
+    // Offset: 0x249D5D8
     NUnit::Framework::Interfaces::ITypeInfo* get_TypeInfo();
     // private System.Void set_TypeInfo(NUnit.Framework.Interfaces.ITypeInfo value)
-    // Offset: 0x2295298
+    // Offset: 0x249D5E0
     void set_TypeInfo(NUnit::Framework::Interfaces::ITypeInfo* value);
     // public System.Reflection.MethodInfo get_MethodInfo()
-    // Offset: 0x22952A0
+    // Offset: 0x249D5E8
     System::Reflection::MethodInfo* get_MethodInfo();
     // private System.Void set_MethodInfo(System.Reflection.MethodInfo value)
-    // Offset: 0x22952A8
+    // Offset: 0x249D5F0
     void set_MethodInfo(System::Reflection::MethodInfo* value);
     // public System.String get_Name()
-    // Offset: 0x22952B0
+    // Offset: 0x249D5F8
     ::Il2CppString* get_Name();
     // public System.Boolean get_IsAbstract()
-    // Offset: 0x22952D0
+    // Offset: 0x249D618
     bool get_IsAbstract();
     // public System.Boolean get_IsPublic()
-    // Offset: 0x22952EC
+    // Offset: 0x249D634
     bool get_IsPublic();
     // public System.Boolean get_ContainsGenericParameters()
-    // Offset: 0x2295308
+    // Offset: 0x249D650
     bool get_ContainsGenericParameters();
     // public System.Boolean get_IsGenericMethodDefinition()
-    // Offset: 0x229532C
+    // Offset: 0x249D674
     bool get_IsGenericMethodDefinition();
     // public NUnit.Framework.Interfaces.ITypeInfo get_ReturnType()
-    // Offset: 0x2295350
+    // Offset: 0x249D698
     NUnit::Framework::Interfaces::ITypeInfo* get_ReturnType();
     // public System.Void .ctor(System.Type type, System.Reflection.MethodInfo method)
-    // Offset: 0x22951A0
+    // Offset: 0x249D4E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MethodWrapper* New_ctor(System::Type* type, System::Reflection::MethodInfo* method) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::MethodWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MethodWrapper*, creationType>(type, method)));
     }
     // public NUnit.Framework.Interfaces.IParameterInfo[] GetParameters()
-    // Offset: 0x22953D4
-    ::Array<NUnit::Framework::Interfaces::IParameterInfo*>* GetParameters();
+    // Offset: 0x249D71C
+    ::ArrayWrapper<NUnit::Framework::Interfaces::IParameterInfo*> GetParameters();
     // public NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(params System.Type[] typeArguments)
-    // Offset: 0x2295548
-    NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(::Array<System::Type*>* typeArguments);
+    // Offset: 0x249D890
+    NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(::ArrayWrapper<System::Type*> typeArguments);
     // Creating initializer_list -> params proxy for: NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(params System.Type[] typeArguments)
     NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(std::initializer_list<System::Type*> typeArguments);
     // Creating TArgs -> initializer_list proxy for: NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(params System.Type[] typeArguments)
@@ -117,12 +117,12 @@ namespace NUnit::Framework::Internal {
     // public T[] GetCustomAttributes(System.Boolean inherit)
     // Offset: 0xFFFFFFFF
     template<class T>
-    ::Array<T>* GetCustomAttributes(bool inherit) {
+    ::ArrayWrapper<T> GetCustomAttributes(bool inherit) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::MethodWrapper::GetCustomAttributes");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetCustomAttributes", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inherit)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(___instance_arg, ___generic__method, inherit);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(___instance_arg, ___generic__method, inherit);
     }
     // public System.Boolean IsDefined(System.Boolean inherit)
     // Offset: 0xFFFFFFFF
@@ -135,8 +135,8 @@ namespace NUnit::Framework::Internal {
       return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___generic__method, inherit);
     }
     // public System.Object Invoke(System.Object fixture, params System.Object[] args)
-    // Offset: 0x2295658
-    ::Il2CppObject* Invoke(::Il2CppObject* fixture, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x249D9A0
+    ::Il2CppObject* Invoke(::Il2CppObject* fixture, ::ArrayWrapper<::Il2CppObject*> args);
     // Creating initializer_list -> params proxy for: System.Object Invoke(System.Object fixture, params System.Object[] args)
     ::Il2CppObject* Invoke(::Il2CppObject* fixture, std::initializer_list<::Il2CppObject*> args);
     // Creating TArgs -> initializer_list proxy for: System.Object Invoke(System.Object fixture, params System.Object[] args)
@@ -145,7 +145,7 @@ namespace NUnit::Framework::Internal {
       return Invoke(fixture, {args...});
     }
     // public override System.String ToString()
-    // Offset: 0x22959AC
+    // Offset: 0x249DCF4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -245,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Internal::MethodWrapper::GetParameters
 // Il2CppName: GetParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<NUnit::Framework::Interfaces::IParameterInfo*>* (NUnit::Framework::Internal::MethodWrapper::*)()>(&NUnit::Framework::Internal::MethodWrapper::GetParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<NUnit::Framework::Interfaces::IParameterInfo*> (NUnit::Framework::Internal::MethodWrapper::*)()>(&NUnit::Framework::Internal::MethodWrapper::GetParameters)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::MethodWrapper*), "GetParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -253,9 +253,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<NUn
 // Writing MetadataGetter for method: NUnit::Framework::Internal::MethodWrapper::MakeGenericMethod
 // Il2CppName: MakeGenericMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::IMethodInfo* (NUnit::Framework::Internal::MethodWrapper::*)(::Array<System::Type*>*)>(&NUnit::Framework::Internal::MethodWrapper::MakeGenericMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::IMethodInfo* (NUnit::Framework::Internal::MethodWrapper::*)(::ArrayWrapper<System::Type*>)>(&NUnit::Framework::Internal::MethodWrapper::MakeGenericMethod)> {
   static const MethodInfo* get() {
-    static auto* typeArguments = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
+    static auto* typeArguments = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Type")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::MethodWrapper*), "MakeGenericMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeArguments});
   }
 };
@@ -268,10 +268,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Internal::MethodWrapper::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NUnit::Framework::Internal::MethodWrapper::*)(::Il2CppObject*, ::Array<::Il2CppObject*>*)>(&NUnit::Framework::Internal::MethodWrapper::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NUnit::Framework::Internal::MethodWrapper::*)(::Il2CppObject*, ::ArrayWrapper<::Il2CppObject*>)>(&NUnit::Framework::Internal::MethodWrapper::Invoke)> {
   static const MethodInfo* get() {
     static auto* fixture = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::MethodWrapper*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fixture, args});
   }
 };

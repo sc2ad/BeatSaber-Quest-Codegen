@@ -33,7 +33,7 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class DirectionalLight : public UnityEngine::MonoBehaviour {
     public:
-    // [ColorUsageAttribute] Offset: 0xE19924
+    // [ColorUsageAttribute] Offset: 0xEDEA74
     // public UnityEngine.Color color
     // Size: 0x10
     // Offset: 0x18
@@ -77,16 +77,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single radius
     float& dyn_radius();
     // static public System.Collections.Generic.List`1<DirectionalLight> get_lights()
-    // Offset: 0x1E16838
+    // Offset: 0x1E2677C
     static System::Collections::Generic::List_1<GlobalNamespace::DirectionalLight*>* get_lights();
     // protected System.Void OnEnable()
-    // Offset: 0x1E168A0
+    // Offset: 0x1E267E4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1E16924
+    // Offset: 0x1E26868
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x1E169A8
+    // Offset: 0x1E268EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -99,7 +99,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DirectionalLight*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E169B8
+    // Offset: 0x1E268FC
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

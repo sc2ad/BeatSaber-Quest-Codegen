@@ -42,19 +42,19 @@ namespace GlobalNamespace {
     // private System.Single[] _smoothnesses
     // Size: 0x8
     // Offset: 0x38
-    ::Array<float>* smoothnesses;
+    ::ArrayWrapper<float> smoothnesses;
     // Field size check
-    static_assert(sizeof(::Array<float>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
     // Creating value type constructor for type: SmoothCameraSmoothnessSettingsController
-    SmoothCameraSmoothnessSettingsController(GlobalNamespace::FloatSO* smoothCameraPositionSmooth_ = {}, GlobalNamespace::FloatSO* smoothCameraRotationSmooth_ = {}, ::Array<float>* smoothnesses_ = {}) noexcept : smoothCameraPositionSmooth{smoothCameraPositionSmooth_}, smoothCameraRotationSmooth{smoothCameraRotationSmooth_}, smoothnesses{smoothnesses_} {}
+    SmoothCameraSmoothnessSettingsController(GlobalNamespace::FloatSO* smoothCameraPositionSmooth_ = {}, GlobalNamespace::FloatSO* smoothCameraRotationSmooth_ = {}, ::ArrayWrapper<float> smoothnesses_ = {}) noexcept : smoothCameraPositionSmooth{smoothCameraPositionSmooth_}, smoothCameraRotationSmooth{smoothCameraRotationSmooth_}, smoothnesses{smoothnesses_} {}
     // Get instance field reference: private FloatSO _smoothCameraPositionSmooth
     GlobalNamespace::FloatSO*& dyn__smoothCameraPositionSmooth();
     // Get instance field reference: private FloatSO _smoothCameraRotationSmooth
     GlobalNamespace::FloatSO*& dyn__smoothCameraRotationSmooth();
     // Get instance field reference: private System.Single[] _smoothnesses
-    ::Array<float>*& dyn__smoothnesses();
+    ::ArrayWrapper<float>& dyn__smoothnesses();
     // public System.Void .ctor()
-    // Offset: 0x109AEF0
+    // Offset: 0x1109924
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -69,23 +69,23 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SmoothCameraSmoothnessSettingsController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x109AC48
+    // Offset: 0x110967C
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x109AD64
+    // Offset: 0x1109798
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x109AE20
+    // Offset: 0x1109854
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::Il2CppString* TextForValue(int idx);
   }; // SmoothCameraSmoothnessSettingsController
   #pragma pack(pop)
-  static check_size<sizeof(SmoothCameraSmoothnessSettingsController), 56 + sizeof(::Array<float>*)> __GlobalNamespace_SmoothCameraSmoothnessSettingsControllerSizeCheck;
+  static check_size<sizeof(SmoothCameraSmoothnessSettingsController), 56 + sizeof(::ArrayWrapper<float>)> __GlobalNamespace_SmoothCameraSmoothnessSettingsControllerSizeCheck;
   static_assert(sizeof(SmoothCameraSmoothnessSettingsController) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SmoothCameraSmoothnessSettingsController*, "", "SmoothCameraSmoothnessSettingsController");

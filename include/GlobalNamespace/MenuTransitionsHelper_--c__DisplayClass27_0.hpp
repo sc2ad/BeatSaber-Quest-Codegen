@@ -51,10 +51,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public MenuTransitionsHelper <>4__this
     GlobalNamespace::MenuTransitionsHelper*& dyn_$$4__this();
     // System.Void <HandleTutorialSceneDidFinish>b__0(Zenject.DiContainer container)
-    // Offset: 0x11A98A8
+    // Offset: 0x1182494
     void $HandleTutorialSceneDidFinish$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x11A9468
+    // Offset: 0x1182054
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

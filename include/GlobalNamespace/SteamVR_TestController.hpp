@@ -44,15 +44,15 @@ namespace GlobalNamespace {
     // private Valve.VR.EVRButtonId[] buttonIds
     // Size: 0x8
     // Offset: 0x20
-    ::Array<Valve::VR::EVRButtonId>* buttonIds;
+    ::ArrayWrapper<Valve::VR::EVRButtonId> buttonIds;
     // Field size check
-    static_assert(sizeof(::Array<Valve::VR::EVRButtonId>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<Valve::VR::EVRButtonId>) == 0x8);
     // private Valve.VR.EVRButtonId[] axisIds
     // Size: 0x8
     // Offset: 0x28
-    ::Array<Valve::VR::EVRButtonId>* axisIds;
+    ::ArrayWrapper<Valve::VR::EVRButtonId> axisIds;
     // Field size check
-    static_assert(sizeof(::Array<Valve::VR::EVRButtonId>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<Valve::VR::EVRButtonId>) == 0x8);
     // public UnityEngine.Transform point
     // Size: 0x8
     // Offset: 0x30
@@ -66,36 +66,36 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
     // Creating value type constructor for type: SteamVR_TestController
-    SteamVR_TestController(System::Collections::Generic::List_1<int>* controllerIndices_ = {}, ::Array<Valve::VR::EVRButtonId>* buttonIds_ = {}, ::Array<Valve::VR::EVRButtonId>* axisIds_ = {}, UnityEngine::Transform* point_ = {}, UnityEngine::Transform* pointer_ = {}) noexcept : controllerIndices{controllerIndices_}, buttonIds{buttonIds_}, axisIds{axisIds_}, point{point_}, pointer{pointer_} {}
+    SteamVR_TestController(System::Collections::Generic::List_1<int>* controllerIndices_ = {}, ::ArrayWrapper<Valve::VR::EVRButtonId> buttonIds_ = {}, ::ArrayWrapper<Valve::VR::EVRButtonId> axisIds_ = {}, UnityEngine::Transform* point_ = {}, UnityEngine::Transform* pointer_ = {}) noexcept : controllerIndices{controllerIndices_}, buttonIds{buttonIds_}, axisIds{axisIds_}, point{point_}, pointer{pointer_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<System.Int32> controllerIndices
     System::Collections::Generic::List_1<int>*& dyn_controllerIndices();
     // Get instance field reference: private Valve.VR.EVRButtonId[] buttonIds
-    ::Array<Valve::VR::EVRButtonId>*& dyn_buttonIds();
+    ::ArrayWrapper<Valve::VR::EVRButtonId>& dyn_buttonIds();
     // Get instance field reference: private Valve.VR.EVRButtonId[] axisIds
-    ::Array<Valve::VR::EVRButtonId>*& dyn_axisIds();
+    ::ArrayWrapper<Valve::VR::EVRButtonId>& dyn_axisIds();
     // Get instance field reference: public UnityEngine.Transform point
     UnityEngine::Transform*& dyn_point();
     // Get instance field reference: public UnityEngine.Transform pointer
     UnityEngine::Transform*& dyn_pointer();
     // private System.Void OnDeviceConnected(System.Int32 index, System.Boolean connected)
-    // Offset: 0x14395D4
+    // Offset: 0x154A424
     void OnDeviceConnected(int index, bool connected);
     // private System.Void OnEnable()
-    // Offset: 0x1439BD8
+    // Offset: 0x154AA28
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x1439C9C
+    // Offset: 0x154AAEC
     void OnDisable();
     // private System.Void PrintControllerStatus(System.Int32 index)
-    // Offset: 0x1439788
+    // Offset: 0x154A5D8
     void PrintControllerStatus(int index);
     // private System.Void Update()
-    // Offset: 0x1439D60
+    // Offset: 0x154ABB0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x143A6B0
+    // Offset: 0x154B500
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

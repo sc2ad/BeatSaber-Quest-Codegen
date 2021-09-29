@@ -30,12 +30,12 @@ namespace System::Net::Configuration {
     // Creating value type constructor for type: ProxyElement
     ProxyElement() noexcept {}
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x16D5EA0
+    // Offset: 0x157018C
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();
     // public System.Void .ctor()
-    // Offset: 0x16D5E60
+    // Offset: 0x157014C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

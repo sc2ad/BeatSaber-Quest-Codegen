@@ -54,32 +54,32 @@ namespace System::Text {
     // Get instance field reference: private System.Int32 fallbackIndex
     int& dyn_fallbackIndex();
     // public System.Void .ctor(System.Text.DecoderReplacementFallback fallback)
-    // Offset: 0x1C41DF0
+    // Offset: 0x1DF9C5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DecoderReplacementFallbackBuffer* New_ctor(System::Text::DecoderReplacementFallback* fallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::DecoderReplacementFallbackBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DecoderReplacementFallbackBuffer*, creationType>(fallback)));
     }
     // public override System.Boolean Fallback(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x1C41EFC
+    // Offset: 0x1DF9D68
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Boolean DecoderFallbackBuffer::Fallback(System.Byte[] bytesUnknown, System.Int32 index)
-    bool Fallback(::Array<uint8_t>* bytesUnknown, int index);
+    bool Fallback(::ArrayWrapper<uint8_t> bytesUnknown, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x1C41F44
+    // Offset: 0x1DF9DB0
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Char DecoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();
     // public override System.Void Reset()
-    // Offset: 0x1C41F8C
+    // Offset: 0x1DF9DF8
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Void DecoderFallbackBuffer::Reset()
     void Reset();
     // override System.Int32 InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
-    // Offset: 0x1C41F9C
+    // Offset: 0x1DF9E08
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Int32 DecoderFallbackBuffer::InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
-    int InternalFallback(::Array<uint8_t>* bytes, uint8_t* pBytes);
+    int InternalFallback(::ArrayWrapper<uint8_t> bytes, uint8_t* pBytes);
   }; // System.Text.DecoderReplacementFallbackBuffer
   #pragma pack(pop)
   static check_size<sizeof(DecoderReplacementFallbackBuffer), 44 + sizeof(int)> __System_Text_DecoderReplacementFallbackBufferSizeCheck;
@@ -94,9 +94,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderReplacementFallbackBuffer*, "System.
 // Writing MetadataGetter for method: System::Text::DecoderReplacementFallbackBuffer::Fallback
 // Il2CppName: Fallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::DecoderReplacementFallbackBuffer::*)(::Array<uint8_t>*, int)>(&System::Text::DecoderReplacementFallbackBuffer::Fallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::DecoderReplacementFallbackBuffer::*)(::ArrayWrapper<uint8_t>, int)>(&System::Text::DecoderReplacementFallbackBuffer::Fallback)> {
   static const MethodInfo* get() {
-    static auto* bytesUnknown = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* bytesUnknown = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderReplacementFallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytesUnknown, index});
   }
@@ -120,9 +120,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::DecoderReplacementFallbackBuffer::InternalFallback
 // Il2CppName: InternalFallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::DecoderReplacementFallbackBuffer::*)(::Array<uint8_t>*, uint8_t*)>(&System::Text::DecoderReplacementFallbackBuffer::InternalFallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::DecoderReplacementFallbackBuffer::*)(::ArrayWrapper<uint8_t>, uint8_t*)>(&System::Text::DecoderReplacementFallbackBuffer::InternalFallback)> {
   static const MethodInfo* get() {
-    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* bytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* pBytes = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderReplacementFallbackBuffer*), "InternalFallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes, pBytes});
   }

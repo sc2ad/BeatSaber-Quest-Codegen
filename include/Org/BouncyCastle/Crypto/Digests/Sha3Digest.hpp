@@ -29,22 +29,22 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Creating value type constructor for type: Sha3Digest
     Sha3Digest() noexcept {}
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.Sha3Digest source)
-    // Offset: 0x192CFD4
+    // Offset: 0x1A9DE08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Sha3Digest* New_ctor(Org::BouncyCastle::Crypto::Digests::Sha3Digest* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::Sha3Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Sha3Digest*, creationType>(source)));
     }
     // static private System.Int32 CheckBitLength(System.Int32 bitLength)
-    // Offset: 0x192CE60
+    // Offset: 0x1A9DC94
     static int CheckBitLength(int bitLength);
     // public override System.String get_AlgorithmName()
-    // Offset: 0x192D04C
+    // Offset: 0x1A9DE80
     // Implemented from: Org.BouncyCastle.Crypto.Digests.KeccakDigest
     // Base method: System.String KeccakDigest::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public System.Void .ctor(System.Int32 bitLength)
-    // Offset: 0x192CF4C
+    // Offset: 0x1A9DD80
     // Implemented from: Org.BouncyCastle.Crypto.Digests.KeccakDigest
     // Base method: System.Void KeccakDigest::.ctor(System.Int32 bitLength)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -53,12 +53,12 @@ namespace Org::BouncyCastle::Crypto::Digests {
       return THROW_UNLESS((::il2cpp_utils::New<Sha3Digest*, creationType>(bitLength)));
     }
     // public override System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x192D0CC
+    // Offset: 0x1A9DF00
     // Implemented from: Org.BouncyCastle.Crypto.Digests.KeccakDigest
     // Base method: System.Int32 KeccakDigest::DoFinal(System.Byte[] output, System.Int32 outOff)
-    int DoFinal(::Array<uint8_t>* output, int outOff);
+    int DoFinal(::ArrayWrapper<uint8_t> output, int outOff);
     // public override Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x192D118
+    // Offset: 0x1A9DF4C
     // Implemented from: Org.BouncyCastle.Crypto.Digests.KeccakDigest
     // Base method: Org.BouncyCastle.Utilities.IMemoable KeccakDigest::Copy()
     Org::BouncyCastle::Utilities::IMemoable* Copy();
@@ -95,9 +95,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Sha3Digest::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::Sha3Digest::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Digests::Sha3Digest::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::Sha3Digest::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::Sha3Digest::DoFinal)> {
   static const MethodInfo* get() {
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::Sha3Digest*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{output, outOff});
   }

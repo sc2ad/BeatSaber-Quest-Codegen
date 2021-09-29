@@ -34,20 +34,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GetScoresCompletionHandler
     GetScoresCompletionHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x11F2CF8
+    // Offset: 0x12B2AC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformLeaderboardsModel::GetScoresCompletionHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformLeaderboardsModel::GetScoresCompletionHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(PlatformLeaderboardsModel/GetScoresResult result, PlatformLeaderboardsModel/LeaderboardScore[] scores, System.Int32 referencePlayerScoreIndex)
-    // Offset: 0x11F324C
-    void Invoke(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult result, ::Array<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>* scores, int referencePlayerScoreIndex);
+    // Offset: 0x12B301C
+    void Invoke(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult result, ::ArrayWrapper<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*> scores, int referencePlayerScoreIndex);
     // public System.IAsyncResult BeginInvoke(PlatformLeaderboardsModel/GetScoresResult result, PlatformLeaderboardsModel/LeaderboardScore[] scores, System.Int32 referencePlayerScoreIndex, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11F3A34
-    System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult result, ::Array<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>* scores, int referencePlayerScoreIndex, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x12B3804
+    System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult result, ::ArrayWrapper<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*> scores, int referencePlayerScoreIndex, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11F3AEC
+    // Offset: 0x12B38BC
     void EndInvoke(System::IAsyncResult* result);
   }; // PlatformLeaderboardsModel/GetScoresCompletionHandler
   #pragma pack(pop)
@@ -61,10 +61,10 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel::GetScoresComp
 // Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler::*)(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult, ::Array<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>*, int)>(&GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler::*)(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult, ::ArrayWrapper<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>, int)>(&GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler::Invoke)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("", "PlatformLeaderboardsModel/GetScoresResult")->byval_arg;
-    static auto* scores = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "PlatformLeaderboardsModel/LeaderboardScore"), 1)->byval_arg;
+    static auto* scores = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "PlatformLeaderboardsModel/LeaderboardScore")), 1)->byval_arg;
     static auto* referencePlayerScoreIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result, scores, referencePlayerScoreIndex});
   }
@@ -72,10 +72,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler::*)(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult, ::Array<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>*, int, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler::*)(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult, ::ArrayWrapper<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>, int, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("", "PlatformLeaderboardsModel/GetScoresResult")->byval_arg;
-    static auto* scores = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "PlatformLeaderboardsModel/LeaderboardScore"), 1)->byval_arg;
+    static auto* scores = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "PlatformLeaderboardsModel/LeaderboardScore")), 1)->byval_arg;
     static auto* referencePlayerScoreIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

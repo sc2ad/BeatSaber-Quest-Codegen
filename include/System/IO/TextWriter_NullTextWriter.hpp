@@ -30,12 +30,12 @@ namespace System::IO {
     // Creating value type constructor for type: NullTextWriter
     NullTextWriter() noexcept {}
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x1835258
+    // Offset: 0x1A07678
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();
     // System.Void .ctor()
-    // Offset: 0x1834CF4
+    // Offset: 0x1A07114
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
@@ -46,22 +46,22 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<TextWriter::NullTextWriter*, creationType>()));
     }
     // public override System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1835260
+    // Offset: 0x1A07680
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    void Write(::Array<::Il2CppChar>* buffer, int index, int count);
+    void Write(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
     // public override System.Void Write(System.String value)
-    // Offset: 0x1835264
+    // Offset: 0x1A07684
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String value)
     void Write(::Il2CppString* value);
     // public override System.Void WriteLine()
-    // Offset: 0x1835268
+    // Offset: 0x1A07688
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine()
     void WriteLine();
     // public override System.Void WriteLine(System.String value)
-    // Offset: 0x183526C
+    // Offset: 0x1A0768C
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine(System.String value)
     void WriteLine(::Il2CppString* value);
@@ -85,9 +85,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::IO::TextWriter::NullTextWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::NullTextWriter::*)(::Array<::Il2CppChar>*, int, int)>(&System::IO::TextWriter::NullTextWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::NullTextWriter::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::IO::TextWriter::NullTextWriter::Write)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::NullTextWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index, count});

@@ -99,11 +99,11 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // private System.Byte[] z
     // Size: 0x8
     // Offset: 0x40
-    ::Array<uint8_t>* z;
+    ::ArrayWrapper<uint8_t> z;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: SM2Signer
-    SM2Signer(Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* kCalculator_ = {}, Org::BouncyCastle::Crypto::IDigest* digest_ = {}, Org::BouncyCastle::Crypto::Signers::IDsaEncoding* encoding_ = {}, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* ecParams_ = {}, Org::BouncyCastle::Math::EC::ECPoint* pubPoint_ = {}, Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* ecKey_ = {}, ::Array<uint8_t>* z_ = {}) noexcept : kCalculator{kCalculator_}, digest{digest_}, encoding{encoding_}, ecParams{ecParams_}, pubPoint{pubPoint_}, ecKey{ecKey_}, z{z_} {}
+    SM2Signer(Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* kCalculator_ = {}, Org::BouncyCastle::Crypto::IDigest* digest_ = {}, Org::BouncyCastle::Crypto::Signers::IDsaEncoding* encoding_ = {}, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* ecParams_ = {}, Org::BouncyCastle::Math::EC::ECPoint* pubPoint_ = {}, Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* ecKey_ = {}, ::ArrayWrapper<uint8_t> z_ = {}) noexcept : kCalculator{kCalculator_}, digest{digest_}, encoding{encoding_}, ecParams{ecParams_}, pubPoint{pubPoint_}, ecKey{ecKey_}, z{z_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ISigner
     operator Org::BouncyCastle::Crypto::ISigner() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);
@@ -121,51 +121,51 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.ECKeyParameters ecKey
     Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*& dyn_ecKey();
     // Get instance field reference: private System.Byte[] z
-    ::Array<uint8_t>*& dyn_z();
+    ::ArrayWrapper<uint8_t>& dyn_z();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x12855D4
+    // Offset: 0x13A1DDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SM2Signer* New_ctor(Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Signers::SM2Signer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SM2Signer*, creationType>(digest)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Signers.IDsaEncoding encoding, Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x1285654
+    // Offset: 0x13A1E5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SM2Signer* New_ctor(Org::BouncyCastle::Crypto::Signers::IDsaEncoding* encoding, Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Signers::SM2Signer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SM2Signer*, creationType>(encoding, digest)));
     }
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x12856D4
+    // Offset: 0x13A1EDC
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void BlockUpdate(System.Byte[] buf, System.Int32 off, System.Int32 len)
-    // Offset: 0x1285DF8
-    void BlockUpdate(::Array<uint8_t>* buf, int off, int len);
+    // Offset: 0x13A2600
+    void BlockUpdate(::ArrayWrapper<uint8_t> buf, int off, int len);
     // public System.Void Reset()
-    // Offset: 0x1285ED4
+    // Offset: 0x13A26DC
     void Reset();
     // public System.Byte[] GenerateSignature()
-    // Offset: 0x128602C
-    ::Array<uint8_t>* GenerateSignature();
+    // Offset: 0x13A2834
+    ::ArrayWrapper<uint8_t> GenerateSignature();
     // private System.Byte[] GetZ(System.Byte[] userID)
-    // Offset: 0x1285C70
-    ::Array<uint8_t>* GetZ(::Array<uint8_t>* userID);
+    // Offset: 0x13A2478
+    ::ArrayWrapper<uint8_t> GetZ(::ArrayWrapper<uint8_t> userID);
     // private System.Void AddUserID(Org.BouncyCastle.Crypto.IDigest digest, System.Byte[] userID)
-    // Offset: 0x1286510
-    void AddUserID(Org::BouncyCastle::Crypto::IDigest* digest, ::Array<uint8_t>* userID);
+    // Offset: 0x13A2D18
+    void AddUserID(Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayWrapper<uint8_t> userID);
     // private System.Void AddFieldElement(Org.BouncyCastle.Crypto.IDigest digest, Org.BouncyCastle.Math.EC.ECFieldElement v)
-    // Offset: 0x12866B8
+    // Offset: 0x13A2EC0
     void AddFieldElement(Org::BouncyCastle::Crypto::IDigest* digest, Org::BouncyCastle::Math::EC::ECFieldElement* v);
     // protected Org.BouncyCastle.Math.BigInteger CalculateE(Org.BouncyCastle.Math.BigInteger n, System.Byte[] message)
-    // Offset: 0x12867A4
-    Org::BouncyCastle::Math::BigInteger* CalculateE(Org::BouncyCastle::Math::BigInteger* n, ::Array<uint8_t>* message);
+    // Offset: 0x13A2FAC
+    Org::BouncyCastle::Math::BigInteger* CalculateE(Org::BouncyCastle::Math::BigInteger* n, ::ArrayWrapper<uint8_t> message);
     // protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier CreateBasePointMultiplier()
-    // Offset: 0x1286808
+    // Offset: 0x13A3010
     Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
   }; // Org.BouncyCastle.Crypto.Signers.SM2Signer
   #pragma pack(pop)
-  static check_size<sizeof(SM2Signer), 64 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Signers_SM2SignerSizeCheck;
+  static check_size<sizeof(SM2Signer), 64 + sizeof(::ArrayWrapper<uint8_t>)> __Org_BouncyCastle_Crypto_Signers_SM2SignerSizeCheck;
   static_assert(sizeof(SM2Signer) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::SM2Signer*, "Org.BouncyCastle.Crypto.Signers", "SM2Signer");
@@ -191,9 +191,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::SM2Signer::BlockUpdate
 // Il2CppName: BlockUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Signers::SM2Signer::BlockUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Signers::SM2Signer::BlockUpdate)> {
   static const MethodInfo* get() {
-    static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buf = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::SM2Signer*), "BlockUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buf, off, len});
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::SM2Signer::GenerateSignature
 // Il2CppName: GenerateSignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Signers::SM2Signer::*)()>(&Org::BouncyCastle::Crypto::Signers::SM2Signer::GenerateSignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Signers::SM2Signer::*)()>(&Org::BouncyCastle::Crypto::Signers::SM2Signer::GenerateSignature)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::SM2Signer*), "GenerateSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -218,19 +218,19 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::SM2Signer::GetZ
 // Il2CppName: GetZ
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Signers::SM2Signer::GetZ)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::SM2Signer::GetZ)> {
   static const MethodInfo* get() {
-    static auto* userID = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* userID = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::SM2Signer*), "GetZ", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userID});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::SM2Signer::AddUserID
 // Il2CppName: AddUserID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(Org::BouncyCastle::Crypto::IDigest*, ::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Signers::SM2Signer::AddUserID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(Org::BouncyCastle::Crypto::IDigest*, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::SM2Signer::AddUserID)> {
   static const MethodInfo* get() {
     static auto* digest = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto", "IDigest")->byval_arg;
-    static auto* userID = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* userID = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::SM2Signer*), "AddUserID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{digest, userID});
   }
 };
@@ -247,10 +247,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::SM2Signer::CalculateE
 // Il2CppName: CalculateE
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(Org::BouncyCastle::Math::BigInteger*, ::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Signers::SM2Signer::CalculateE)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(Org::BouncyCastle::Math::BigInteger*, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::SM2Signer::CalculateE)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
-    static auto* message = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* message = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::SM2Signer*), "CalculateE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n, message});
   }
 };

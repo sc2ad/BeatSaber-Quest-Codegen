@@ -78,25 +78,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Sprite _selectedAndHighlightedSprite
     UnityEngine::Sprite*& dyn__selectedAndHighlightedSprite();
     // public UnityEngine.Sprite get_normalSprite()
-    // Offset: 0x10A0FD0
+    // Offset: 0x110FCB4
     UnityEngine::Sprite* get_normalSprite();
     // public UnityEngine.Sprite get_highlightedSprite()
-    // Offset: 0x10A0FD8
+    // Offset: 0x110FCBC
     UnityEngine::Sprite* get_highlightedSprite();
     // public UnityEngine.Sprite get_pressedSprite()
-    // Offset: 0x10A0FE0
+    // Offset: 0x110FCC4
     UnityEngine::Sprite* get_pressedSprite();
     // public UnityEngine.Sprite get_disabledSprite()
-    // Offset: 0x10A0FE8
+    // Offset: 0x110FCCC
     UnityEngine::Sprite* get_disabledSprite();
     // public UnityEngine.Sprite get_selectedSprite()
-    // Offset: 0x10A0FF0
+    // Offset: 0x110FCD4
     UnityEngine::Sprite* get_selectedSprite();
     // public UnityEngine.Sprite get_selectedAndHighlightedSprite()
-    // Offset: 0x10A0FF8
+    // Offset: 0x110FCDC
     UnityEngine::Sprite* get_selectedAndHighlightedSprite();
     // public System.Void .ctor()
-    // Offset: 0x10A1000
+    // Offset: 0x110FCE4
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

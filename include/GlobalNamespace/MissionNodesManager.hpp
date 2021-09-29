@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* missionNodesParentObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xE462C8
+    // [InjectAttribute] Offset: 0xF0EC8C
     // private CampaignProgressModel _missionProgressModel
     // Size: 0x8
     // Offset: 0x40
@@ -86,15 +86,15 @@ namespace GlobalNamespace {
     // private MissionNodeConnection[] _allMissionNodeConnections
     // Size: 0x8
     // Offset: 0x48
-    ::Array<GlobalNamespace::MissionNodeConnection*>* allMissionNodeConnections;
+    ::ArrayWrapper<GlobalNamespace::MissionNodeConnection*> allMissionNodeConnections;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MissionNodeConnection*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionNodeConnection*>) == 0x8);
     // private MissionNode[] _allMissionNodes
     // Size: 0x8
     // Offset: 0x50
-    ::Array<GlobalNamespace::MissionNode*>* allMissionNodes;
+    ::ArrayWrapper<GlobalNamespace::MissionNode*> allMissionNodes;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MissionNode*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionNode*>) == 0x8);
     // private System.Boolean _isInitialized
     // Size: 0x1
     // Offset: 0x58
@@ -102,7 +102,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: MissionNodesManager
-    MissionNodesManager(GlobalNamespace::MissionNode* rootMissionNode_ = {}, GlobalNamespace::MissionNode* finalMissionNode_ = {}, GlobalNamespace::MissionStagesManager* missionStagesManager_ = {}, UnityEngine::GameObject* connectionsParentObject_ = {}, UnityEngine::GameObject* missionNodesParentObject_ = {}, GlobalNamespace::CampaignProgressModel* missionProgressModel_ = {}, ::Array<GlobalNamespace::MissionNodeConnection*>* allMissionNodeConnections_ = {}, ::Array<GlobalNamespace::MissionNode*>* allMissionNodes_ = {}, bool isInitialized_ = {}) noexcept : rootMissionNode{rootMissionNode_}, finalMissionNode{finalMissionNode_}, missionStagesManager{missionStagesManager_}, connectionsParentObject{connectionsParentObject_}, missionNodesParentObject{missionNodesParentObject_}, missionProgressModel{missionProgressModel_}, allMissionNodeConnections{allMissionNodeConnections_}, allMissionNodes{allMissionNodes_}, isInitialized{isInitialized_} {}
+    MissionNodesManager(GlobalNamespace::MissionNode* rootMissionNode_ = {}, GlobalNamespace::MissionNode* finalMissionNode_ = {}, GlobalNamespace::MissionStagesManager* missionStagesManager_ = {}, UnityEngine::GameObject* connectionsParentObject_ = {}, UnityEngine::GameObject* missionNodesParentObject_ = {}, GlobalNamespace::CampaignProgressModel* missionProgressModel_ = {}, ::ArrayWrapper<GlobalNamespace::MissionNodeConnection*> allMissionNodeConnections_ = {}, ::ArrayWrapper<GlobalNamespace::MissionNode*> allMissionNodes_ = {}, bool isInitialized_ = {}) noexcept : rootMissionNode{rootMissionNode_}, finalMissionNode{finalMissionNode_}, missionStagesManager{missionStagesManager_}, connectionsParentObject{connectionsParentObject_}, missionNodesParentObject{missionNodesParentObject_}, missionProgressModel{missionProgressModel_}, allMissionNodeConnections{allMissionNodeConnections_}, allMissionNodes{allMissionNodes_}, isInitialized{isInitialized_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionNode _rootMissionNode
@@ -118,79 +118,79 @@ namespace GlobalNamespace {
     // Get instance field reference: private CampaignProgressModel _missionProgressModel
     GlobalNamespace::CampaignProgressModel*& dyn__missionProgressModel();
     // Get instance field reference: private MissionNodeConnection[] _allMissionNodeConnections
-    ::Array<GlobalNamespace::MissionNodeConnection*>*& dyn__allMissionNodeConnections();
+    ::ArrayWrapper<GlobalNamespace::MissionNodeConnection*>& dyn__allMissionNodeConnections();
     // Get instance field reference: private MissionNode[] _allMissionNodes
-    ::Array<GlobalNamespace::MissionNode*>*& dyn__allMissionNodes();
+    ::ArrayWrapper<GlobalNamespace::MissionNode*>& dyn__allMissionNodes();
     // Get instance field reference: private System.Boolean _isInitialized
     bool& dyn__isInitialized();
     // public MissionNode get_rootMissionNode()
-    // Offset: 0x1143C64
+    // Offset: 0x118A7B4
     GlobalNamespace::MissionNode* get_rootMissionNode();
     // public MissionNode get_finalMissionNode()
-    // Offset: 0x1143C6C
+    // Offset: 0x118A7BC
     GlobalNamespace::MissionNode* get_finalMissionNode();
     // public MissionStagesManager get_missionStagesManager()
-    // Offset: 0x1143C74
+    // Offset: 0x118A7C4
     GlobalNamespace::MissionStagesManager* get_missionStagesManager();
     // public CampaignProgressModel get_missionProgressModel()
-    // Offset: 0x1143C7C
+    // Offset: 0x118A7CC
     GlobalNamespace::CampaignProgressModel* get_missionProgressModel();
     // public MissionNode[] get_allMissionNodes()
-    // Offset: 0x1143C84
-    ::Array<GlobalNamespace::MissionNode*>* get_allMissionNodes();
+    // Offset: 0x118A7D4
+    ::ArrayWrapper<GlobalNamespace::MissionNode*> get_allMissionNodes();
     // public System.Boolean get_IsInitialized()
-    // Offset: 0x1143C8C
+    // Offset: 0x118A7DC
     bool get_IsInitialized();
     // protected System.Void Awake()
-    // Offset: 0x1143C94
+    // Offset: 0x118A7E4
     void Awake();
     // public System.Void SetupNodeMap()
-    // Offset: 0x114146C
+    // Offset: 0x1187FC0
     void SetupNodeMap();
     // public System.Boolean MissionWasCleared(MissionNode missionNode)
-    // Offset: 0x1144104
+    // Offset: 0x118AC54
     bool MissionWasCleared(GlobalNamespace::MissionNode* missionNode);
     // public MissionNode GetMissionNodeWithModelClearedStateInconsistency()
-    // Offset: 0x1141074
+    // Offset: 0x1187BC8
     GlobalNamespace::MissionNode* GetMissionNodeWithModelClearedStateInconsistency();
     // public System.Boolean DidFirstLockedMissionStageChange()
-    // Offset: 0x1142320
+    // Offset: 0x1188E70
     bool DidFirstLockedMissionStageChange();
     // public System.Void UpdateStageLockText()
-    // Offset: 0x11422E0
+    // Offset: 0x1188E30
     void UpdateStageLockText();
     // public MissionNode GetTopMostNotClearedMissionNode()
-    // Offset: 0x1141214
+    // Offset: 0x1187D68
     GlobalNamespace::MissionNode* GetTopMostNotClearedMissionNode();
     // private System.Void GetAllMissionNodes()
-    // Offset: 0x1143CCC
+    // Offset: 0x118A81C
     void GetAllMissionNodes();
     // private System.Collections.Generic.HashSet`1<MissionNode> GetAllMissionNodes(MissionNode node, System.Collections.Generic.HashSet`1<MissionNode> visited)
-    // Offset: 0x11442CC
+    // Offset: 0x118AE1C
     System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>* GetAllMissionNodes(GlobalNamespace::MissionNode* node, System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>* visited);
     // public MissionNodeConnection[] GetNewEnabledConnection()
-    // Offset: 0x1141FB4
-    ::Array<GlobalNamespace::MissionNodeConnection*>* GetNewEnabledConnection();
+    // Offset: 0x1188B04
+    ::ArrayWrapper<GlobalNamespace::MissionNodeConnection*> GetNewEnabledConnection();
     // private System.Void ResetAllNodes()
-    // Offset: 0x1143E34
+    // Offset: 0x118A984
     void ResetAllNodes();
     // private System.Void SetupStages()
-    // Offset: 0x1143E9C
+    // Offset: 0x118A9EC
     void SetupStages();
     // private System.Void RegisterAllNodes()
-    // Offset: 0x1143D60
+    // Offset: 0x118A8B0
     void RegisterAllNodes();
     // private System.Void SetupNodeTree(MissionNodeVisualController node, System.Boolean parentCleared)
-    // Offset: 0x1143F04
+    // Offset: 0x118AA54
     void SetupNodeTree(GlobalNamespace::MissionNodeVisualController* node, bool parentCleared);
     // private System.Boolean IsNodeInteractable(MissionNodeVisualController node, System.Boolean parentCleared)
-    // Offset: 0x11443BC
+    // Offset: 0x118AF0C
     bool IsNodeInteractable(GlobalNamespace::MissionNodeVisualController* node, bool parentCleared);
     // private System.Void SetupNodeConnections()
-    // Offset: 0x1144034
+    // Offset: 0x118AB84
     void SetupNodeConnections();
     // public System.Void .ctor()
-    // Offset: 0x11444CC
+    // Offset: 0x118B01C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -244,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::get_allMissionNodes
 // Il2CppName: get_allMissionNodes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::MissionNode*>* (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::get_allMissionNodes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::MissionNode*> (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::get_allMissionNodes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "get_allMissionNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -335,7 +335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::GetNewEnabledConnection
 // Il2CppName: GetNewEnabledConnection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::MissionNodeConnection*>* (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::GetNewEnabledConnection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::MissionNodeConnection*> (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::GetNewEnabledConnection)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "GetNewEnabledConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

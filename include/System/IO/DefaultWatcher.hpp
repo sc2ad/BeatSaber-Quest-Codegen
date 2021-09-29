@@ -62,41 +62,41 @@ namespace System::IO {
     // Set static field: static private System.Collections.Hashtable watches
     static void _set_watches(System::Collections::Hashtable* value);
     // Get static field: static private System.String[] NoStringsArray
-    static ::Array<::Il2CppString*>* _get_NoStringsArray();
+    static ::ArrayWrapper<::Il2CppString*> _get_NoStringsArray();
     // Set static field: static private System.String[] NoStringsArray
-    static void _set_NoStringsArray(::Array<::Il2CppString*>* value);
+    static void _set_NoStringsArray(::ArrayWrapper<::Il2CppString*> value);
     // static private System.Void .cctor()
-    // Offset: 0x18C3548
+    // Offset: 0x1A321DC
     static void _cctor();
     // static public System.Boolean GetInstance(out System.IO.IFileWatcher watcher)
-    // Offset: 0x18C0C78
+    // Offset: 0x1A2F90C
     static bool GetInstance(ByRef<System::IO::IFileWatcher*> watcher);
     // public System.Void StartDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x18C0D50
+    // Offset: 0x1A2F9E4
     void StartDispatching(System::IO::FileSystemWatcher* fsw);
     // public System.Void StopDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x18C1558
+    // Offset: 0x1A301EC
     void StopDispatching(System::IO::FileSystemWatcher* fsw);
     // private System.Void Monitor()
-    // Offset: 0x18C17D0
+    // Offset: 0x1A30464
     void Monitor();
     // private System.Boolean UpdateDataAndDispatch(System.IO.DefaultWatcherData data, System.Boolean dispatch)
-    // Offset: 0x18C1444
+    // Offset: 0x1A300D8
     bool UpdateDataAndDispatch(System::IO::DefaultWatcherData* data, bool dispatch);
     // static private System.Void DispatchEvents(System.IO.FileSystemWatcher fsw, System.IO.FileAction action, System.String filename)
-    // Offset: 0x18C2158
+    // Offset: 0x1A30DEC
     static void DispatchEvents(System::IO::FileSystemWatcher* fsw, System::IO::FileAction action, ::Il2CppString* filename);
     // private System.Void DoFiles(System.IO.DefaultWatcherData data, System.String directory, System.Boolean dispatch)
-    // Offset: 0x18C1F0C
+    // Offset: 0x1A30BA0
     void DoFiles(System::IO::DefaultWatcherData* data, ::Il2CppString* directory, bool dispatch);
     // private System.Void IterateAndModifyFilesData(System.IO.DefaultWatcherData data, System.String directory, System.Boolean dispatch, System.String[] files)
-    // Offset: 0x18C2444
-    void IterateAndModifyFilesData(System::IO::DefaultWatcherData* data, ::Il2CppString* directory, bool dispatch, ::Array<::Il2CppString*>* files);
+    // Offset: 0x1A310D8
+    void IterateAndModifyFilesData(System::IO::DefaultWatcherData* data, ::Il2CppString* directory, bool dispatch, ::ArrayWrapper<::Il2CppString*> files);
     // static private System.IO.FileData CreateFileData(System.String directory, System.String filename)
-    // Offset: 0x18C3468
+    // Offset: 0x1A320FC
     static System::IO::FileData* CreateFileData(::Il2CppString* directory, ::Il2CppString* filename);
     // private System.Void .ctor()
-    // Offset: 0x18C0C70
+    // Offset: 0x1A2F904
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -187,12 +187,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::DefaultWatcher::IterateAndModifyFilesData
 // Il2CppName: IterateAndModifyFilesData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::DefaultWatcher::*)(System::IO::DefaultWatcherData*, ::Il2CppString*, bool, ::Array<::Il2CppString*>*)>(&System::IO::DefaultWatcher::IterateAndModifyFilesData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::DefaultWatcher::*)(System::IO::DefaultWatcherData*, ::Il2CppString*, bool, ::ArrayWrapper<::Il2CppString*>)>(&System::IO::DefaultWatcher::IterateAndModifyFilesData)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System.IO", "DefaultWatcherData")->byval_arg;
     static auto* directory = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dispatch = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    static auto* files = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* files = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::DefaultWatcher*), "IterateAndModifyFilesData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, directory, dispatch, files});
   }
 };

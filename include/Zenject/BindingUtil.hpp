@@ -48,13 +48,13 @@ namespace Zenject {
     // Creating value type constructor for type: BindingUtil
     BindingUtil() noexcept {}
     // static public System.Void AssertIsValidPrefab(UnityEngine.Object prefab)
-    // Offset: 0x13E2E84
+    // Offset: 0x14F5078
     static void AssertIsValidPrefab(UnityEngine::Object* prefab);
     // static public System.Void AssertIsValidGameObject(UnityEngine.GameObject gameObject)
-    // Offset: 0x13E2EE4
+    // Offset: 0x14F50D8
     static void AssertIsValidGameObject(UnityEngine::GameObject* gameObject);
     // static public System.Void AssertIsNotComponent(System.Collections.Generic.IEnumerable`1<System.Type> types)
-    // Offset: 0x13E2F44
+    // Offset: 0x14F5138
     static void AssertIsNotComponent(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
     // static public System.Void AssertIsNotComponent()
     // Offset: 0xFFFFFFFF
@@ -66,10 +66,10 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
     }
     // static public System.Void AssertIsNotComponent(System.Type type)
-    // Offset: 0x13E318C
+    // Offset: 0x14F5380
     static void AssertIsNotComponent(System::Type* type);
     // static public System.Void AssertDerivesFromUnityObject(System.Collections.Generic.IEnumerable`1<System.Type> types)
-    // Offset: 0x13E3250
+    // Offset: 0x14F5444
     static void AssertDerivesFromUnityObject(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
     // static public System.Void AssertDerivesFromUnityObject()
     // Offset: 0xFFFFFFFF
@@ -81,16 +81,16 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
     }
     // static public System.Void AssertDerivesFromUnityObject(System.Type type)
-    // Offset: 0x13E3498
+    // Offset: 0x14F568C
     static void AssertDerivesFromUnityObject(System::Type* type);
     // static public System.Void AssertTypesAreNotComponents(System.Collections.Generic.IEnumerable`1<System.Type> types)
-    // Offset: 0x13E3520
+    // Offset: 0x14F5714
     static void AssertTypesAreNotComponents(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
     // static public System.Void AssertIsValidResourcePath(System.String resourcePath)
-    // Offset: 0x13E3768
+    // Offset: 0x14F595C
     static void AssertIsValidResourcePath(::Il2CppString* resourcePath);
     // static public System.Void AssertIsInterfaceOrScriptableObject(System.Collections.Generic.IEnumerable`1<System.Type> types)
-    // Offset: 0x13E37C8
+    // Offset: 0x14F59BC
     static void AssertIsInterfaceOrScriptableObject(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
     // static public System.Void AssertIsInterfaceOrScriptableObject()
     // Offset: 0xFFFFFFFF
@@ -102,10 +102,10 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
     }
     // static public System.Void AssertIsInterfaceOrScriptableObject(System.Type type)
-    // Offset: 0x13E3A10
+    // Offset: 0x14F5C04
     static void AssertIsInterfaceOrScriptableObject(System::Type* type);
     // static public System.Void AssertIsInterfaceOrComponent(System.Collections.Generic.IEnumerable`1<System.Type> types)
-    // Offset: 0x13E3B10
+    // Offset: 0x14F5D04
     static void AssertIsInterfaceOrComponent(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
     // static public System.Void AssertIsInterfaceOrComponent()
     // Offset: 0xFFFFFFFF
@@ -117,10 +117,10 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
     }
     // static public System.Void AssertIsInterfaceOrComponent(System.Type type)
-    // Offset: 0x13E3D58
+    // Offset: 0x14F5F4C
     static void AssertIsInterfaceOrComponent(System::Type* type);
     // static public System.Void AssertIsComponent(System.Collections.Generic.IEnumerable`1<System.Type> types)
-    // Offset: 0x13E3E58
+    // Offset: 0x14F604C
     static void AssertIsComponent(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
     // static public System.Void AssertIsComponent()
     // Offset: 0xFFFFFFFF
@@ -132,13 +132,13 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
     }
     // static public System.Void AssertIsComponent(System.Type type)
-    // Offset: 0x13E40A0
+    // Offset: 0x14F6294
     static void AssertIsComponent(System::Type* type);
     // static public System.Void AssertTypesAreNotAbstract(System.Collections.Generic.IEnumerable`1<System.Type> types)
-    // Offset: 0x13E4160
+    // Offset: 0x14F6354
     static void AssertTypesAreNotAbstract(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
     // static public System.Void AssertIsNotAbstract(System.Collections.Generic.IEnumerable`1<System.Type> types)
-    // Offset: 0x13E4434
+    // Offset: 0x14F6628
     static void AssertIsNotAbstract(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
     // static public System.Void AssertIsNotAbstract()
     // Offset: 0xFFFFFFFF
@@ -150,31 +150,31 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
     }
     // static public System.Void AssertIsNotAbstract(System.Type type)
-    // Offset: 0x13E43A8
+    // Offset: 0x14F659C
     static void AssertIsNotAbstract(System::Type* type);
     // static public System.Void AssertIsDerivedFromType(System.Type concreteType, System.Type parentType)
-    // Offset: 0x13E467C
+    // Offset: 0x14F6870
     static void AssertIsDerivedFromType(System::Type* concreteType, System::Type* parentType);
     // static public System.Void AssertConcreteTypeListIsNotEmpty(System.Collections.Generic.IEnumerable`1<System.Type> concreteTypes)
-    // Offset: 0x13E47A4
+    // Offset: 0x14F6998
     static void AssertConcreteTypeListIsNotEmpty(System::Collections::Generic::IEnumerable_1<System::Type*>* concreteTypes);
     // static public System.Void AssertIsDerivedFromTypes(System.Collections.Generic.IEnumerable`1<System.Type> concreteTypes, System.Collections.Generic.IEnumerable`1<System.Type> parentTypes, Zenject.InvalidBindResponses invalidBindResponse)
-    // Offset: 0x13E480C
+    // Offset: 0x14F6A00
     static void AssertIsDerivedFromTypes(System::Collections::Generic::IEnumerable_1<System::Type*>* concreteTypes, System::Collections::Generic::IEnumerable_1<System::Type*>* parentTypes, Zenject::InvalidBindResponses invalidBindResponse);
     // static public System.Void AssertIsDerivedFromTypes(System.Collections.Generic.IEnumerable`1<System.Type> concreteTypes, System.Collections.Generic.IEnumerable`1<System.Type> parentTypes)
-    // Offset: 0x13E48C0
+    // Offset: 0x14F6AB4
     static void AssertIsDerivedFromTypes(System::Collections::Generic::IEnumerable_1<System::Type*>* concreteTypes, System::Collections::Generic::IEnumerable_1<System::Type*>* parentTypes);
     // static public System.Void AssertIsDerivedFromTypes(System.Type concreteType, System.Collections.Generic.IEnumerable`1<System.Type> parentTypes)
-    // Offset: 0x13E4B14
+    // Offset: 0x14F6D08
     static void AssertIsDerivedFromTypes(System::Type* concreteType, System::Collections::Generic::IEnumerable_1<System::Type*>* parentTypes);
     // static public System.Void AssertInstanceDerivesFromOrEqual(System.Object instance, System.Collections.Generic.IEnumerable`1<System.Type> parentTypes)
-    // Offset: 0x13E4D6C
+    // Offset: 0x14F6F60
     static void AssertInstanceDerivesFromOrEqual(::Il2CppObject* instance, System::Collections::Generic::IEnumerable_1<System::Type*>* parentTypes);
     // static public System.Void AssertInstanceDerivesFromOrEqual(System.Object instance, System.Type baseType)
-    // Offset: 0x13E4FD4
+    // Offset: 0x14F71C8
     static void AssertInstanceDerivesFromOrEqual(::Il2CppObject* instance, System::Type* baseType);
     // static public Zenject.IProvider CreateCachedProvider(Zenject.IProvider creator)
-    // Offset: 0x13E50B4
+    // Offset: 0x14F72A8
     static Zenject::IProvider* CreateCachedProvider(Zenject::IProvider* creator);
   }; // Zenject.BindingUtil
   #pragma pack(pop)

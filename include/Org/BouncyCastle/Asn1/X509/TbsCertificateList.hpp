@@ -116,35 +116,35 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Get instance field reference: Org.BouncyCastle.Asn1.X509.X509Extensions crlExtensions
     Org::BouncyCastle::Asn1::X509::X509Extensions*& dyn_crlExtensions();
     // public System.Int32 get_Version()
-    // Offset: 0x19FCEF0
+    // Offset: 0x1BB6C2C
     int get_Version();
     // public Org.BouncyCastle.Asn1.X509.X509Name get_Issuer()
-    // Offset: 0x1A01CDC
+    // Offset: 0x1BBBA18
     Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
     // public Org.BouncyCastle.Asn1.X509.Time get_ThisUpdate()
-    // Offset: 0x1A01CE4
+    // Offset: 0x1BBBA20
     Org::BouncyCastle::Asn1::X509::Time* get_ThisUpdate();
     // public Org.BouncyCastle.Asn1.X509.Time get_NextUpdate()
-    // Offset: 0x1A01CEC
+    // Offset: 0x1BBBA28
     Org::BouncyCastle::Asn1::X509::Time* get_NextUpdate();
     // public Org.BouncyCastle.Asn1.X509.X509Extensions get_Extensions()
-    // Offset: 0x1A01D20
+    // Offset: 0x1BBBA5C
     Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1A0183C
+    // Offset: 0x1BBB578
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TbsCertificateList* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::TbsCertificateList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TbsCertificateList*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X509.TbsCertificateList GetInstance(System.Object obj)
-    // Offset: 0x19FCC6C
+    // Offset: 0x1BB69A8
     static Org::BouncyCastle::Asn1::X509::TbsCertificateList* GetInstance(::Il2CppObject* obj);
     // public System.Collections.IEnumerable GetRevokedCertificateEnumeration()
-    // Offset: 0x19FCE0C
+    // Offset: 0x1BB6B48
     System::Collections::IEnumerable* GetRevokedCertificateEnumeration();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1A01D28
+    // Offset: 0x1BBBA64
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

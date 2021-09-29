@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameServerBrowserStackedController
     GameServerBrowserStackedController() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x10F2C00
+    // Offset: 0x11D7480
     // Implemented from: HMUI.StackedController
     // Base method: System.Void StackedController::.ctor()
     // Base method: System.Void ContainerViewController::.ctor()
@@ -39,12 +39,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameServerBrowserStackedController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x10F2BF8
+    // Offset: 0x11D7478
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x10F2BFC
+    // Offset: 0x11D747C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

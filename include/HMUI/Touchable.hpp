@@ -40,10 +40,10 @@ namespace HMUI {
     // Get instance field reference: private System.Single _skew
     float& dyn__skew();
     // public System.Single get_skew()
-    // Offset: 0x131FC34
+    // Offset: 0x14221E4
     float get_skew();
     // public System.Void .ctor()
-    // Offset: 0x131FC58
+    // Offset: 0x1422208
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -58,7 +58,7 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<Touchable*, creationType>()));
     }
     // protected override System.Void OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
-    // Offset: 0x131FC3C
+    // Offset: 0x14221EC
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
     void OnPopulateMesh(UnityEngine::UI::VertexHelper* vh);

@@ -54,35 +54,35 @@ namespace UnityEngine::ProBuilder {
     // static public T[] GetComponents(System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> gameObjects)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::Array<T>* GetComponents(System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* gameObjects) {
+    static ::ArrayWrapper<T> GetComponents(System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* gameObjects) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::InternalUtility::GetComponents");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "InternalUtility", "GetComponents", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(gameObjects)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, gameObjects);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, gameObjects);
     }
     // static public T[] GetComponents(UnityEngine.GameObject go)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::Array<T>* GetComponents(UnityEngine::GameObject* go) {
+    static ::ArrayWrapper<T> GetComponents(UnityEngine::GameObject* go) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::InternalUtility::GetComponents");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "InternalUtility", "GetComponents", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(go)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, go);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, go);
     }
     // static public T[] GetComponents(System.Collections.Generic.IEnumerable`1<UnityEngine.Transform> transforms)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::Array<T>* GetComponents(System::Collections::Generic::IEnumerable_1<UnityEngine::Transform*>* transforms) {
+    static ::ArrayWrapper<T> GetComponents(System::Collections::Generic::IEnumerable_1<UnityEngine::Transform*>* transforms) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::InternalUtility::GetComponents");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "InternalUtility", "GetComponents", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(transforms)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, transforms);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, transforms);
     }
     // static public UnityEngine.GameObject EmptyGameObjectWithTransform(UnityEngine.Transform t)
-    // Offset: 0x1AF83B8
+    // Offset: 0x1C7BB38
     static UnityEngine::GameObject* EmptyGameObjectWithTransform(UnityEngine::Transform* t);
     // static public T NextEnumValue(T current)
     // Offset: 0xFFFFFFFF
@@ -95,14 +95,14 @@ namespace UnityEngine::ProBuilder {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, current);
     }
     // static public System.String ControlKeyString(System.Char character)
-    // Offset: 0x1AF84B0
+    // Offset: 0x1C7BC30
     static ::Il2CppString* ControlKeyString(::Il2CppChar character);
     // static public System.Boolean TryParseColor(System.String value, ref UnityEngine.Color col)
-    // Offset: 0x1AF8588
+    // Offset: 0x1C7BD08
     static bool TryParseColor(::Il2CppString* value, ByRef<UnityEngine::Color> col);
     // static public UnityEngine.Vector3[] StringToVector3Array(System.String str)
-    // Offset: 0x1AF880C
-    static ::Array<UnityEngine::Vector3>* StringToVector3Array(::Il2CppString* str);
+    // Offset: 0x1C7BF8C
+    static ::ArrayWrapper<UnityEngine::Vector3> StringToVector3Array(::Il2CppString* str);
     // static public T DemandComponent(UnityEngine.Component component)
     // Offset: 0xFFFFFFFF
     template<class T>
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::InternalUtility::StringToVector3Array
 // Il2CppName: StringToVector3Array
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (*)(::Il2CppString*)>(&UnityEngine::ProBuilder::InternalUtility::StringToVector3Array)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector3> (*)(::Il2CppString*)>(&UnityEngine::ProBuilder::InternalUtility::StringToVector3Array)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::InternalUtility*), "StringToVector3Array", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});

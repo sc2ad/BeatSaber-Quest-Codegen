@@ -219,9 +219,9 @@ namespace BeatSaberAPI::DataTransferObjects {
     // public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers
     // Size: 0x8
     // Offset: 0x38
-    ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* gameplayModifiers;
+    ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers> gameplayModifiers;
     // Field size check
-    static_assert(sizeof(::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>) == 0x8);
     // public System.String deviceModel
     // Size: 0x8
     // Offset: 0x40
@@ -235,7 +235,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: LevelScoreResult
-    LevelScoreResult(::Il2CppString* leaderboardId_ = {}, int rawScore_ = {}, int modifiedScore_ = {}, bool fullCombo_ = {}, int goodCutsCount_ = {}, int badCutsCount_ = {}, int missedCount_ = {}, int maxCombo_ = {}, ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>* gameplayModifiers_ = {}, ::Il2CppString* deviceModel_ = {}, ::Il2CppString* extraDataBase64_ = {}) noexcept : leaderboardId{leaderboardId_}, rawScore{rawScore_}, modifiedScore{modifiedScore_}, fullCombo{fullCombo_}, goodCutsCount{goodCutsCount_}, badCutsCount{badCutsCount_}, missedCount{missedCount_}, maxCombo{maxCombo_}, gameplayModifiers{gameplayModifiers_}, deviceModel{deviceModel_}, extraDataBase64{extraDataBase64_} {}
+    LevelScoreResult(::Il2CppString* leaderboardId_ = {}, int rawScore_ = {}, int modifiedScore_ = {}, bool fullCombo_ = {}, int goodCutsCount_ = {}, int badCutsCount_ = {}, int missedCount_ = {}, int maxCombo_ = {}, ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers> gameplayModifiers_ = {}, ::Il2CppString* deviceModel_ = {}, ::Il2CppString* extraDataBase64_ = {}) noexcept : leaderboardId{leaderboardId_}, rawScore{rawScore_}, modifiedScore{modifiedScore_}, fullCombo{fullCombo_}, goodCutsCount{goodCutsCount_}, badCutsCount{badCutsCount_}, missedCount{missedCount_}, maxCombo{maxCombo_}, gameplayModifiers{gameplayModifiers_}, deviceModel{deviceModel_}, extraDataBase64{extraDataBase64_} {}
     // Get instance field reference: public System.String leaderboardId
     ::Il2CppString*& dyn_leaderboardId();
     // Get instance field reference: public System.Int32 rawScore
@@ -253,13 +253,13 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Get instance field reference: public System.Int32 maxCombo
     int& dyn_maxCombo();
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers
-    ::Array<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>*& dyn_gameplayModifiers();
+    ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>& dyn_gameplayModifiers();
     // Get instance field reference: public System.String deviceModel
     ::Il2CppString*& dyn_deviceModel();
     // Get instance field reference: public System.String extraDataBase64
     ::Il2CppString*& dyn_extraDataBase64();
     // public System.Void .ctor()
-    // Offset: 0x11DEE5C
+    // Offset: 0x126F448
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

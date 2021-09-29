@@ -405,7 +405,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     }
     // public System.Boolean Add(TKey[] point, TValue value)
     // Offset: 0xFFFFFFFF
-    bool Add(::Array<TKey>* point, TValue value) {
+    bool Add(::ArrayWrapper<TKey> point, TValue value) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::Add");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(point), ::il2cpp_utils::ExtractType(value)})));
       auto ___instance_arg = this;
@@ -413,7 +413,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     }
     // private System.Void AddNearestNeighbours(UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue> node, TKey[] target, UnityEngine.ProBuilder.KdTree.HyperRect`1<TKey> rect, System.Int32 depth, UnityEngine.ProBuilder.KdTree.NearestNeighbourList`2<UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue>,TKey> nearestNeighbours, TKey maxSearchRadiusSquared)
     // Offset: 0xFFFFFFFF
-    void AddNearestNeighbours(UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* node, ::Array<TKey>* target, UnityEngine::ProBuilder::KdTree::HyperRect_1<TKey> rect, int depth, UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*, TKey>* nearestNeighbours, TKey maxSearchRadiusSquared) {
+    void AddNearestNeighbours(UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* node, ::ArrayWrapper<TKey> target, UnityEngine::ProBuilder::KdTree::HyperRect_1<TKey> rect, int depth, UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*, TKey>* nearestNeighbours, TKey maxSearchRadiusSquared) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::AddNearestNeighbours");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddNearestNeighbours", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node), ::il2cpp_utils::ExtractType(target), ::il2cpp_utils::ExtractType(rect), ::il2cpp_utils::ExtractType(depth), ::il2cpp_utils::ExtractType(nearestNeighbours), ::il2cpp_utils::ExtractType(maxSearchRadiusSquared)})));
       auto ___instance_arg = this;
@@ -421,11 +421,11 @@ namespace UnityEngine::ProBuilder::KdTree {
     }
     // public UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue>[] RadialSearch(TKey[] center, TKey radius, System.Int32 count)
     // Offset: 0xFFFFFFFF
-    ::Array<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* RadialSearch(::Array<TKey>* center, TKey radius, int count) {
+    ::ArrayWrapper<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*> RadialSearch(::ArrayWrapper<TKey> center, TKey radius, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::RadialSearch");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RadialSearch", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(center), ::il2cpp_utils::ExtractType(radius), ::il2cpp_utils::ExtractType(count)})));
       auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::Array<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*, false>(___instance_arg, ___internal__method, center, radius, count);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>, false>(___instance_arg, ___internal__method, center, radius, count);
     }
     // private System.Void AddNodeToStringBuilder(UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue> node, System.Text.StringBuilder sb, System.Int32 depth)
     // Offset: 0xFFFFFFFF

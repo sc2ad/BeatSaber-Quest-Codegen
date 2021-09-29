@@ -35,12 +35,12 @@ namespace NUnit::Framework {
     // Creating value type constructor for type: IgnoreException
     IgnoreException() noexcept {}
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
-    // Offset: 0x1776774
+    // Offset: 0x19357C0
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState()
     NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x177676C
+    // Offset: 0x19357B8
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: System.Void ResultStateException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

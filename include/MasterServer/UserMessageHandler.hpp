@@ -114,47 +114,47 @@ namespace MasterServer {
     // Get instance field reference: private readonly IAuthenticationTokenProvider _authenticationTokenProvider
     GlobalNamespace::IAuthenticationTokenProvider*& dyn__authenticationTokenProvider();
     // public IAuthenticationTokenProvider get_authenticationTokenProvider()
-    // Offset: 0x12257B8
+    // Offset: 0x12E4B6C
     GlobalNamespace::IAuthenticationTokenProvider* get_authenticationTokenProvider();
     // public System.Void .ctor(IUnconnectedSenderReceiver sender, MasterServerEndPoint endPoint, IAuthenticationTokenProvider authenticationTokenProvider, MasterServer.ITimeProvider timeProvider, ICertificateValidator certificateValidator)
-    // Offset: 0x12257C0
+    // Offset: 0x12E4B74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserMessageHandler* New_ctor(GlobalNamespace::IUnconnectedSenderReceiver* sender, GlobalNamespace::MasterServerEndPoint* endPoint, GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider, MasterServer::ITimeProvider* timeProvider, GlobalNamespace::ICertificateValidator* certificateValidator) {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::UserMessageHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UserMessageHandler*, creationType>(sender, endPoint, authenticationTokenProvider, timeProvider, certificateValidator)));
     }
     // private System.Void UpdateKeepalive()
-    // Offset: 0x1225820
+    // Offset: 0x12E4BD4
     void UpdateKeepalive();
     // public System.Void ConnectToServer(System.String userId, System.String userName, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.String secret, System.String code, MasterServer.UserMessageHandler/MasterServer.ConnectToServerDelegate onSuccess, System.Action`1<ConnectionFailedReason> onConnectionFailed, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1225B04
+    // Offset: 0x12E4EB8
     void ConnectToServer(::Il2CppString* userId, ::Il2CppString* userName, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* secret, ::Il2CppString* code, MasterServer::UserMessageHandler::ConnectToServerDelegate* onSuccess, System::Action_1<GlobalNamespace::ConnectionFailedReason>* onConnectionFailed, System::Threading::CancellationToken cancellationToken);
     // private System.Void SendConnectToServerRequest(MasterServer.BaseConnectToServerRequest request, MasterServer.UserMessageHandler/MasterServer.ConnectToServerDelegate onSuccess, System.Action`1<ConnectionFailedReason> onConnectionFailed, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1225C64
+    // Offset: 0x12E5018
     void SendConnectToServerRequest(MasterServer::BaseConnectToServerRequest* request, MasterServer::UserMessageHandler::ConnectToServerDelegate* onSuccess, System::Action_1<GlobalNamespace::ConnectionFailedReason>* onConnectionFailed, System::Threading::CancellationToken cancellationToken);
     // public System.Void GetPublicServers(System.String userId, System.String userName, System.Int32 offset, System.Int32 count, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.Action`1<System.Collections.Generic.IReadOnlyList`1<PublicServerInfo>> onSuccess, System.Action`1<ConnectionFailedReason> onFailure, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1225DFC
+    // Offset: 0x12E51B0
     void GetPublicServers(::Il2CppString* userId, ::Il2CppString* userName, int offset, int count, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, System::Action_1<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PublicServerInfo>*>* onSuccess, System::Action_1<GlobalNamespace::ConnectionFailedReason>* onFailure, System::Threading::CancellationToken cancellationToken);
     // private System.Void WithFailureHandler(System.Action`1<ConnectionFailedReason> onFailure, System.Func`1<System.Threading.Tasks.Task> performTask)
-    // Offset: 0x1225D38
+    // Offset: 0x12E50EC
     void WithFailureHandler(System::Action_1<GlobalNamespace::ConnectionFailedReason>* onFailure, System::Func_1<System::Threading::Tasks::Task*>* performTask);
     // public override System.Void PollUpdate()
-    // Offset: 0x12257FC
+    // Offset: 0x12E4BB0
     // Implemented from: MasterServer.MessageHandler
     // Base method: System.Void MessageHandler::PollUpdate()
     void PollUpdate();
     // protected override System.Boolean ShouldHandleUserMessage(MasterServer.IUserMessage packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
-    // Offset: 0x12259A8
+    // Offset: 0x12E4D5C
     // Implemented from: MasterServer.MessageHandler
     // Base method: System.Boolean MessageHandler::ShouldHandleUserMessage(MasterServer.IUserMessage packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
     bool ShouldHandleUserMessage(MasterServer::IUserMessage* packet, MasterServer::MessageHandler::MessageOrigin origin);
     // protected override System.Threading.Tasks.Task`1<MasterServer.IMasterServerAuthenticateRequest> GetAuthenticationRequest()
-    // Offset: 0x1225A04
+    // Offset: 0x12E4DB8
     // Implemented from: MasterServer.BaseClientMessageHandler
     // Base method: System.Threading.Tasks.Task`1<MasterServer.IMasterServerAuthenticateRequest> BaseClientMessageHandler::GetAuthenticationRequest()
     System::Threading::Tasks::Task_1<MasterServer::IMasterServerAuthenticateRequest*>* GetAuthenticationRequest();
     // private System.Void HandshakeLog(System.String message)
-    // Offset: 0x1225F20
+    // Offset: 0x12E52D4
     // Implemented from: MasterServer.BaseClientMessageHandler
     // Base method: System.Void BaseClientMessageHandler::HandshakeLog(System.String message)
     void HandshakeLog(::Il2CppString* message);

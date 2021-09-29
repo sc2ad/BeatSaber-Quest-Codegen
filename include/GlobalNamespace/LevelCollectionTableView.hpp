@@ -111,7 +111,7 @@ namespace GlobalNamespace {
     int showAlphabetScrollbarLevelCountThreshold;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [InjectAttribute] Offset: 0xE4A31C
+    // [InjectAttribute] Offset: 0xF12E68
     // private AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x50
@@ -141,9 +141,9 @@ namespace GlobalNamespace {
     // private IPreviewBeatmapLevel[] _previewBeatmapLevels
     // Size: 0x8
     // Offset: 0x70
-    ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* previewBeatmapLevels;
+    ::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*> previewBeatmapLevels;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::IPreviewBeatmapLevel*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*>) == 0x8);
     // private UnityEngine.Sprite _headerSprite
     // Size: 0x8
     // Offset: 0x78
@@ -185,7 +185,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::IPreviewBeatmapLevel*) == 0x8);
     // Creating value type constructor for type: LevelCollectionTableView
-    LevelCollectionTableView(HMUI::TableView* tableView_ = {}, HMUI::AlphabetScrollbar* alphabetScrollbar_ = {}, GlobalNamespace::LevelListTableCell* levelCellPrefab_ = {}, ::Il2CppString* levelCellsReuseIdentifier_ = {}, GlobalNamespace::LevelPackHeaderTableCell* packCellPrefab_ = {}, ::Il2CppString* packCellsReuseIdentifier_ = {}, float cellHeight_ = {}, int showAlphabetScrollbarLevelCountThreshold_ = {}, GlobalNamespace::AdditionalContentModel* additionalContentModel_ = {}, System::Action_2<GlobalNamespace::LevelCollectionTableView*, GlobalNamespace::IPreviewBeatmapLevel*>* didSelectLevelEvent_ = {}, System::Action_1<GlobalNamespace::LevelCollectionTableView*>* didSelectHeaderEvent_ = {}, bool isInitialized_ = {}, ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* previewBeatmapLevels_ = {}, UnityEngine::Sprite* headerSprite_ = {}, ::Il2CppString* headerText_ = {}, bool showLevelPackHeader_ = {}, System::Collections::Generic::HashSet_1<::Il2CppString*>* favoriteLevelIds_ = {}, int selectedRow_ = {}, GlobalNamespace::IPreviewBeatmapLevel* selectedPreviewBeatmapLevel_ = {}) noexcept : tableView{tableView_}, alphabetScrollbar{alphabetScrollbar_}, levelCellPrefab{levelCellPrefab_}, levelCellsReuseIdentifier{levelCellsReuseIdentifier_}, packCellPrefab{packCellPrefab_}, packCellsReuseIdentifier{packCellsReuseIdentifier_}, cellHeight{cellHeight_}, showAlphabetScrollbarLevelCountThreshold{showAlphabetScrollbarLevelCountThreshold_}, additionalContentModel{additionalContentModel_}, didSelectLevelEvent{didSelectLevelEvent_}, didSelectHeaderEvent{didSelectHeaderEvent_}, isInitialized{isInitialized_}, previewBeatmapLevels{previewBeatmapLevels_}, headerSprite{headerSprite_}, headerText{headerText_}, showLevelPackHeader{showLevelPackHeader_}, favoriteLevelIds{favoriteLevelIds_}, selectedRow{selectedRow_}, selectedPreviewBeatmapLevel{selectedPreviewBeatmapLevel_} {}
+    LevelCollectionTableView(HMUI::TableView* tableView_ = {}, HMUI::AlphabetScrollbar* alphabetScrollbar_ = {}, GlobalNamespace::LevelListTableCell* levelCellPrefab_ = {}, ::Il2CppString* levelCellsReuseIdentifier_ = {}, GlobalNamespace::LevelPackHeaderTableCell* packCellPrefab_ = {}, ::Il2CppString* packCellsReuseIdentifier_ = {}, float cellHeight_ = {}, int showAlphabetScrollbarLevelCountThreshold_ = {}, GlobalNamespace::AdditionalContentModel* additionalContentModel_ = {}, System::Action_2<GlobalNamespace::LevelCollectionTableView*, GlobalNamespace::IPreviewBeatmapLevel*>* didSelectLevelEvent_ = {}, System::Action_1<GlobalNamespace::LevelCollectionTableView*>* didSelectHeaderEvent_ = {}, bool isInitialized_ = {}, ::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*> previewBeatmapLevels_ = {}, UnityEngine::Sprite* headerSprite_ = {}, ::Il2CppString* headerText_ = {}, bool showLevelPackHeader_ = {}, System::Collections::Generic::HashSet_1<::Il2CppString*>* favoriteLevelIds_ = {}, int selectedRow_ = {}, GlobalNamespace::IPreviewBeatmapLevel* selectedPreviewBeatmapLevel_ = {}) noexcept : tableView{tableView_}, alphabetScrollbar{alphabetScrollbar_}, levelCellPrefab{levelCellPrefab_}, levelCellsReuseIdentifier{levelCellsReuseIdentifier_}, packCellPrefab{packCellPrefab_}, packCellsReuseIdentifier{packCellsReuseIdentifier_}, cellHeight{cellHeight_}, showAlphabetScrollbarLevelCountThreshold{showAlphabetScrollbarLevelCountThreshold_}, additionalContentModel{additionalContentModel_}, didSelectLevelEvent{didSelectLevelEvent_}, didSelectHeaderEvent{didSelectHeaderEvent_}, isInitialized{isInitialized_}, previewBeatmapLevels{previewBeatmapLevels_}, headerSprite{headerSprite_}, headerText{headerText_}, showLevelPackHeader{showLevelPackHeader_}, favoriteLevelIds{favoriteLevelIds_}, selectedRow{selectedRow_}, selectedPreviewBeatmapLevel{selectedPreviewBeatmapLevel_} {}
     // Creating interface conversion operator: operator HMUI::TableView::IDataSource
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);
@@ -217,7 +217,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isInitialized
     bool& dyn__isInitialized();
     // Get instance field reference: private IPreviewBeatmapLevel[] _previewBeatmapLevels
-    ::Array<GlobalNamespace::IPreviewBeatmapLevel*>*& dyn__previewBeatmapLevels();
+    ::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*>& dyn__previewBeatmapLevels();
     // Get instance field reference: private UnityEngine.Sprite _headerSprite
     UnityEngine::Sprite*& dyn__headerSprite();
     // Get instance field reference: private System.String _headerText
@@ -231,70 +231,70 @@ namespace GlobalNamespace {
     // Get instance field reference: private IPreviewBeatmapLevel _selectedPreviewBeatmapLevel
     GlobalNamespace::IPreviewBeatmapLevel*& dyn__selectedPreviewBeatmapLevel();
     // public System.Void add_didSelectLevelEvent(System.Action`2<LevelCollectionTableView,IPreviewBeatmapLevel> value)
-    // Offset: 0x118FF74
+    // Offset: 0x114E8D0
     void add_didSelectLevelEvent(System::Action_2<GlobalNamespace::LevelCollectionTableView*, GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public System.Void remove_didSelectLevelEvent(System.Action`2<LevelCollectionTableView,IPreviewBeatmapLevel> value)
-    // Offset: 0x1190018
+    // Offset: 0x114E974
     void remove_didSelectLevelEvent(System::Action_2<GlobalNamespace::LevelCollectionTableView*, GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public System.Void add_didSelectHeaderEvent(System.Action`1<LevelCollectionTableView> value)
-    // Offset: 0x11900BC
+    // Offset: 0x114EA18
     void add_didSelectHeaderEvent(System::Action_1<GlobalNamespace::LevelCollectionTableView*>* value);
     // public System.Void remove_didSelectHeaderEvent(System.Action`1<LevelCollectionTableView> value)
-    // Offset: 0x1190160
+    // Offset: 0x114EABC
     void remove_didSelectHeaderEvent(System::Action_1<GlobalNamespace::LevelCollectionTableView*>* value);
     // public System.Void Init(System.String headerText, UnityEngine.Sprite headerSprite)
-    // Offset: 0x1190204
+    // Offset: 0x114EB60
     void Init(::Il2CppString* headerText, UnityEngine::Sprite* headerSprite);
     // private System.Void Init()
-    // Offset: 0x1190250
+    // Offset: 0x114EBAC
     void Init();
     // public System.Void SetData(IPreviewBeatmapLevel[] previewBeatmapLevels, System.Collections.Generic.HashSet`1<System.String> favoriteLevelIds, System.Boolean beatmapLevelsAreSorted)
-    // Offset: 0x119031C
-    void SetData(::Array<GlobalNamespace::IPreviewBeatmapLevel*>* previewBeatmapLevels, System::Collections::Generic::HashSet_1<::Il2CppString*>* favoriteLevelIds, bool beatmapLevelsAreSorted);
+    // Offset: 0x114EC78
+    void SetData(::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*> previewBeatmapLevels, System::Collections::Generic::HashSet_1<::Il2CppString*>* favoriteLevelIds, bool beatmapLevelsAreSorted);
     // public System.Void RefreshFavorites(System.Collections.Generic.HashSet`1<System.String> favoriteLevelIds)
-    // Offset: 0x1190520
+    // Offset: 0x114EE7C
     void RefreshFavorites(System::Collections::Generic::HashSet_1<::Il2CppString*>* favoriteLevelIds);
     // protected System.Void OnEnable()
-    // Offset: 0x11905CC
+    // Offset: 0x114EF28
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1190658
+    // Offset: 0x114EFB4
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x11906E4
+    // Offset: 0x114F040
     void OnDestroy();
     // public System.Single CellSize()
-    // Offset: 0x11907C0
+    // Offset: 0x114F11C
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x11907C8
+    // Offset: 0x114F124
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x11907E8
+    // Offset: 0x114F144
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int row);
     // private System.Void HandleDidSelectRowEvent(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x1190CEC
+    // Offset: 0x114F4AC
     void HandleDidSelectRowEvent(HMUI::TableView* tableView, int row);
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x1190DD4
+    // Offset: 0x114F594
     void HandleAdditionalContentModelDidInvalidateData();
     // public System.Void CancelAsyncOperations()
-    // Offset: 0x1190EA0
+    // Offset: 0x114F660
     void CancelAsyncOperations();
     // public System.Void RefreshLevelsAvailability()
-    // Offset: 0x11911CC
+    // Offset: 0x114F94C
     void RefreshLevelsAvailability();
     // public System.Void SelectLevelPackHeaderCell()
-    // Offset: 0x11915A4
+    // Offset: 0x114FD28
     void SelectLevelPackHeaderCell();
     // public System.Void ClearSelection()
-    // Offset: 0x11915D0
+    // Offset: 0x114FD54
     void ClearSelection();
     // public System.Void SelectLevel(IPreviewBeatmapLevel beatmapLevel)
-    // Offset: 0x1191600
+    // Offset: 0x114FD84
     void SelectLevel(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
     // public System.Void .ctor()
-    // Offset: 0x11917D0
+    // Offset: 0x114FF54
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -370,9 +370,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)(::Array<GlobalNamespace::IPreviewBeatmapLevel*>*, System::Collections::Generic::HashSet_1<::Il2CppString*>*, bool)>(&GlobalNamespace::LevelCollectionTableView::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)(::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*>, System::Collections::Generic::HashSet_1<::Il2CppString*>*, bool)>(&GlobalNamespace::LevelCollectionTableView::SetData)> {
   static const MethodInfo* get() {
-    static auto* previewBeatmapLevels = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel"), 1)->byval_arg;
+    static auto* previewBeatmapLevels = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")), 1)->byval_arg;
     static auto* favoriteLevelIds = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "HashSet`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     static auto* beatmapLevelsAreSorted = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{previewBeatmapLevels, favoriteLevelIds, beatmapLevelsAreSorted});

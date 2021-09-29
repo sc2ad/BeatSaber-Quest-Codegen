@@ -39,30 +39,30 @@ namespace GlobalNamespace {
     // private System.Single[] _verticalLinePositions
     // Size: 0x8
     // Offset: 0x18
-    ::Array<float>* verticalLinePositions;
+    ::ArrayWrapper<float> verticalLinePositions;
     // Field size check
-    static_assert(sizeof(::Array<float>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
     // private UnityEngine.Transform[] _horizontalLines
     // Size: 0x8
     // Offset: 0x20
-    ::Array<UnityEngine::Transform*>* horizontalLines;
+    ::ArrayWrapper<UnityEngine::Transform*> horizontalLines;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE400CC
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    // [InjectAttribute] Offset: 0xF08A60
     // private readonly MultiplayerCenterResizeController _centerResizeController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::MultiplayerCenterResizeController* centerResizeController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerCenterResizeController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE400DC
+    // [InjectAttribute] Offset: 0xF08A70
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xE400EC
+    // [InjectAttribute] Offset: 0xF08A80
     // private readonly BeatmapObjectSpawnCenter _beatmapObjectSpawnCenter
     // Size: 0x8
     // Offset: 0x38
@@ -82,13 +82,13 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: MultiplayerLocalActiveCenterRingLightsController
-    MultiplayerLocalActiveCenterRingLightsController(::Array<float>* verticalLinePositions_ = {}, ::Array<UnityEngine::Transform*>* horizontalLines_ = {}, GlobalNamespace::MultiplayerCenterResizeController* centerResizeController_ = {}, GlobalNamespace::MultiplayerLayoutProvider* layoutProvider_ = {}, GlobalNamespace::BeatmapObjectSpawnCenter* beatmapObjectSpawnCenter_ = {}, bool edgeDistanceFromCenterCalculated_ = {}, bool spawnCenterDistanceFound_ = {}) noexcept : verticalLinePositions{verticalLinePositions_}, horizontalLines{horizontalLines_}, centerResizeController{centerResizeController_}, layoutProvider{layoutProvider_}, beatmapObjectSpawnCenter{beatmapObjectSpawnCenter_}, edgeDistanceFromCenterCalculated{edgeDistanceFromCenterCalculated_}, spawnCenterDistanceFound{spawnCenterDistanceFound_} {}
+    MultiplayerLocalActiveCenterRingLightsController(::ArrayWrapper<float> verticalLinePositions_ = {}, ::ArrayWrapper<UnityEngine::Transform*> horizontalLines_ = {}, GlobalNamespace::MultiplayerCenterResizeController* centerResizeController_ = {}, GlobalNamespace::MultiplayerLayoutProvider* layoutProvider_ = {}, GlobalNamespace::BeatmapObjectSpawnCenter* beatmapObjectSpawnCenter_ = {}, bool edgeDistanceFromCenterCalculated_ = {}, bool spawnCenterDistanceFound_ = {}) noexcept : verticalLinePositions{verticalLinePositions_}, horizontalLines{horizontalLines_}, centerResizeController{centerResizeController_}, layoutProvider{layoutProvider_}, beatmapObjectSpawnCenter{beatmapObjectSpawnCenter_}, edgeDistanceFromCenterCalculated{edgeDistanceFromCenterCalculated_}, spawnCenterDistanceFound{spawnCenterDistanceFound_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single[] _verticalLinePositions
-    ::Array<float>*& dyn__verticalLinePositions();
+    ::ArrayWrapper<float>& dyn__verticalLinePositions();
     // Get instance field reference: private UnityEngine.Transform[] _horizontalLines
-    ::Array<UnityEngine::Transform*>*& dyn__horizontalLines();
+    ::ArrayWrapper<UnityEngine::Transform*>& dyn__horizontalLines();
     // Get instance field reference: private readonly MultiplayerCenterResizeController _centerResizeController
     GlobalNamespace::MultiplayerCenterResizeController*& dyn__centerResizeController();
     // Get instance field reference: private readonly MultiplayerLayoutProvider _layoutProvider
@@ -100,25 +100,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _spawnCenterDistanceFound
     bool& dyn__spawnCenterDistanceFound();
     // protected System.Void Start()
-    // Offset: 0x1080D18
+    // Offset: 0x11703B0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1080EE8
+    // Offset: 0x1170580
     void OnDestroy();
     // private System.Void TryResize()
-    // Offset: 0x1081040
+    // Offset: 0x11706D8
     void TryResize();
     // private System.Void Resize()
-    // Offset: 0x1081058
+    // Offset: 0x11706F0
     void Resize();
     // private System.Void HandleSpawnCenterDistanceWasFound(System.Single spawnCenterDistance)
-    // Offset: 0x1080ED0
+    // Offset: 0x1170568
     void HandleSpawnCenterDistanceWasFound(float spawnCenterDistance);
     // private System.Void HandleEdgeDistanceFromCenterWasCalculated(System.Single constructEdgeDistanceFromCenter)
-    // Offset: 0x1080EB8
+    // Offset: 0x1170550
     void HandleEdgeDistanceFromCenterWasCalculated(float constructEdgeDistanceFromCenter);
     // public System.Void .ctor()
-    // Offset: 0x10813C8
+    // Offset: 0x1170A60
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

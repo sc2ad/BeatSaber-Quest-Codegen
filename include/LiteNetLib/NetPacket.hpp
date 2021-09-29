@@ -23,9 +23,9 @@ namespace LiteNetLib {
     // public System.Byte[] RawData
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* RawData;
+    ::ArrayWrapper<uint8_t> RawData;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // public System.Int32 Size
     // Size: 0x4
     // Offset: 0x18
@@ -41,91 +41,91 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     // Creating value type constructor for type: NetPacket
-    NetPacket(::Array<uint8_t>* RawData_ = {}, int Size_ = {}, ::Il2CppObject* UserData_ = {}) noexcept : RawData{RawData_}, Size{Size_}, UserData{UserData_} {}
+    NetPacket(::ArrayWrapper<uint8_t> RawData_ = {}, int Size_ = {}, ::Il2CppObject* UserData_ = {}) noexcept : RawData{RawData_}, Size{Size_}, UserData{UserData_} {}
     // Get static field: static private readonly System.Int32 LastProperty
     static int _get_LastProperty();
     // Set static field: static private readonly System.Int32 LastProperty
     static void _set_LastProperty(int value);
     // Get instance field reference: public System.Byte[] RawData
-    ::Array<uint8_t>*& dyn_RawData();
+    ::ArrayWrapper<uint8_t>& dyn_RawData();
     // Get instance field reference: public System.Int32 Size
     int& dyn_Size();
     // Get instance field reference: public System.Object UserData
     ::Il2CppObject*& dyn_UserData();
     // public LiteNetLib.PacketProperty get_Property()
-    // Offset: 0x1C21C84
+    // Offset: 0x1DD9AEC
     LiteNetLib::PacketProperty get_Property();
     // public System.Void set_Property(LiteNetLib.PacketProperty value)
-    // Offset: 0x1C23530
+    // Offset: 0x1DDB398
     void set_Property(LiteNetLib::PacketProperty value);
     // public System.Byte get_ConnectionNumber()
-    // Offset: 0x1C1DFE8
+    // Offset: 0x1DD5E50
     uint8_t get_ConnectionNumber();
     // public System.Void set_ConnectionNumber(System.Byte value)
-    // Offset: 0x1C212DC
+    // Offset: 0x1DD9144
     void set_ConnectionNumber(uint8_t value);
     // public System.UInt16 get_Sequence()
-    // Offset: 0x1C248E4
+    // Offset: 0x1DDC74C
     uint16_t get_Sequence();
     // public System.Void set_Sequence(System.UInt16 value)
-    // Offset: 0x1C24954
+    // Offset: 0x1DDC7BC
     void set_Sequence(uint16_t value);
     // public System.Boolean get_IsFragmented()
-    // Offset: 0x1C24968
+    // Offset: 0x1DDC7D0
     bool get_IsFragmented();
     // public System.Byte get_ChannelId()
-    // Offset: 0x1C249E0
+    // Offset: 0x1DDC848
     uint8_t get_ChannelId();
     // public System.Void set_ChannelId(System.Byte value)
-    // Offset: 0x1C24A18
+    // Offset: 0x1DDC880
     void set_ChannelId(uint8_t value);
     // public System.UInt16 get_FragmentId()
-    // Offset: 0x1C24A50
+    // Offset: 0x1DDC8B8
     uint16_t get_FragmentId();
     // public System.Void set_FragmentId(System.UInt16 value)
-    // Offset: 0x1C24AC0
+    // Offset: 0x1DDC928
     void set_FragmentId(uint16_t value);
     // public System.UInt16 get_FragmentPart()
-    // Offset: 0x1C24AD0
+    // Offset: 0x1DDC938
     uint16_t get_FragmentPart();
     // public System.Void set_FragmentPart(System.UInt16 value)
-    // Offset: 0x1C24B40
+    // Offset: 0x1DDC9A8
     void set_FragmentPart(uint16_t value);
     // public System.UInt16 get_FragmentsTotal()
-    // Offset: 0x1C24B50
+    // Offset: 0x1DDC9B8
     uint16_t get_FragmentsTotal();
     // public System.Void set_FragmentsTotal(System.UInt16 value)
-    // Offset: 0x1C24BC0
+    // Offset: 0x1DDCA28
     void set_FragmentsTotal(uint16_t value);
     // public System.Void .ctor(System.Int32 size)
-    // Offset: 0x1C24BD0
+    // Offset: 0x1DDCA38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacket* New_ctor(int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPacket*, creationType>(size)));
     }
     // public System.Void .ctor(LiteNetLib.PacketProperty property, System.Int32 size)
-    // Offset: 0x1C1DCB0
+    // Offset: 0x1DD5B18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacket* New_ctor(LiteNetLib::PacketProperty property, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPacket*, creationType>(property, size)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1C24CDC
+    // Offset: 0x1DDCB44
     static void _cctor();
     // public System.Void MarkFragmented()
-    // Offset: 0x1C249A4
+    // Offset: 0x1DDC80C
     void MarkFragmented();
     // static public System.Int32 GetHeaderSize(LiteNetLib.PacketProperty property)
-    // Offset: 0x1C23504
+    // Offset: 0x1DDB36C
     static int GetHeaderSize(LiteNetLib::PacketProperty property);
     // public System.Int32 GetHeaderSize()
-    // Offset: 0x1C24C44
+    // Offset: 0x1DDCAAC
     int GetHeaderSize();
     // public System.Boolean FromBytes(System.Byte[] data, System.Int32 start, System.Int32 packetSize)
-    // Offset: 0x1C21B38
-    bool FromBytes(::Array<uint8_t>* data, int start, int packetSize);
+    // Offset: 0x1DD99A0
+    bool FromBytes(::ArrayWrapper<uint8_t> data, int start, int packetSize);
   }; // LiteNetLib.NetPacket
   #pragma pack(pop)
   static check_size<sizeof(NetPacket), 32 + sizeof(::Il2CppObject*)> __LiteNetLib_NetPacketSizeCheck;
@@ -304,9 +304,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNe
 // Writing MetadataGetter for method: LiteNetLib::NetPacket::FromBytes
 // Il2CppName: FromBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::NetPacket::*)(::Array<uint8_t>*, int, int)>(&LiteNetLib::NetPacket::FromBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::NetPacket::*)(::ArrayWrapper<uint8_t>, int, int)>(&LiteNetLib::NetPacket::FromBytes)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* packetSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), "FromBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, start, packetSize});

@@ -41,34 +41,34 @@ namespace GlobalNamespace {
     // public UnityEngine.Behaviour[] _components
     // Size: 0x8
     // Offset: 0x20
-    ::Array<UnityEngine::Behaviour*>* components;
+    ::ArrayWrapper<UnityEngine::Behaviour*> components;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Behaviour*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Behaviour*>) == 0x8);
     // Creating value type constructor for type: EnableOnVisible
-    EnableOnVisible(System::Action_1<bool>* VisibilityChangedEvent_ = {}, ::Array<UnityEngine::Behaviour*>* components_ = {}) noexcept : VisibilityChangedEvent{VisibilityChangedEvent_}, components{components_} {}
+    EnableOnVisible(System::Action_1<bool>* VisibilityChangedEvent_ = {}, ::ArrayWrapper<UnityEngine::Behaviour*> components_ = {}) noexcept : VisibilityChangedEvent{VisibilityChangedEvent_}, components{components_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Action`1<System.Boolean> VisibilityChangedEvent
     System::Action_1<bool>*& dyn_VisibilityChangedEvent();
     // Get instance field reference: public UnityEngine.Behaviour[] _components
-    ::Array<UnityEngine::Behaviour*>*& dyn__components();
+    ::ArrayWrapper<UnityEngine::Behaviour*>& dyn__components();
     // public System.Void add_VisibilityChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1262210
+    // Offset: 0x137EA18
     void add_VisibilityChangedEvent(System::Action_1<bool>* value);
     // public System.Void remove_VisibilityChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x12622B4
+    // Offset: 0x137EABC
     void remove_VisibilityChangedEvent(System::Action_1<bool>* value);
     // protected System.Void Awake()
-    // Offset: 0x1262358
+    // Offset: 0x137EB60
     void Awake();
     // protected System.Void OnBecameVisible()
-    // Offset: 0x12623C8
+    // Offset: 0x137EBD0
     void OnBecameVisible();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0x1262480
+    // Offset: 0x137EC88
     void OnBecameInvisible();
     // public System.Void .ctor()
-    // Offset: 0x1262538
+    // Offset: 0x137ED40
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     }
   }; // EnableOnVisible
   #pragma pack(pop)
-  static check_size<sizeof(EnableOnVisible), 32 + sizeof(::Array<UnityEngine::Behaviour*>*)> __GlobalNamespace_EnableOnVisibleSizeCheck;
+  static check_size<sizeof(EnableOnVisible), 32 + sizeof(::ArrayWrapper<UnityEngine::Behaviour*>)> __GlobalNamespace_EnableOnVisibleSizeCheck;
   static_assert(sizeof(EnableOnVisible) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableOnVisible*, "", "EnableOnVisible");

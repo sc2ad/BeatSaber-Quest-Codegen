@@ -45,9 +45,9 @@ namespace System::Globalization {
     // Creating value type constructor for type: CodePageDataItem
     CodePageDataItem(int m_dataIndex_ = {}, int m_uiFamilyCodePage_ = {}, ::Il2CppString* m_webName_ = {}, uint m_flags_ = {}) noexcept : m_dataIndex{m_dataIndex_}, m_uiFamilyCodePage{m_uiFamilyCodePage_}, m_webName{m_webName_}, m_flags{m_flags_} {}
     // Get static field: static private readonly System.Char[] sep
-    static ::Array<::Il2CppChar>* _get_sep();
+    static ::ArrayWrapper<::Il2CppChar> _get_sep();
     // Set static field: static private readonly System.Char[] sep
-    static void _set_sep(::Array<::Il2CppChar>* value);
+    static void _set_sep(::ArrayWrapper<::Il2CppChar> value);
     // Get instance field reference: System.Int32 m_dataIndex
     int& dyn_m_dataIndex();
     // Get instance field reference: System.Int32 m_uiFamilyCodePage
@@ -57,20 +57,20 @@ namespace System::Globalization {
     // Get instance field reference: System.UInt32 m_flags
     uint& dyn_m_flags();
     // public System.String get_WebName()
-    // Offset: 0x180D348
+    // Offset: 0x19AAEF8
     ::Il2CppString* get_WebName();
     // System.Void .ctor(System.Int32 dataIndex)
-    // Offset: 0x180D198
+    // Offset: 0x19AAD48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CodePageDataItem* New_ctor(int dataIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CodePageDataItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CodePageDataItem*, creationType>(dataIndex)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x180D418
+    // Offset: 0x19AAFC8
     static void _cctor();
     // static System.String CreateString(System.String pStrings, System.UInt32 index)
-    // Offset: 0x180D274
+    // Offset: 0x19AAE24
     static ::Il2CppString* CreateString(::Il2CppString* pStrings, uint index);
   }; // System.Globalization.CodePageDataItem
   #pragma pack(pop)

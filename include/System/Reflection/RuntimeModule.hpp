@@ -23,7 +23,7 @@ namespace System::Reflection {
     // Creating value type constructor for type: RuntimeModule
     RuntimeModule() noexcept {}
     // protected System.Void .ctor()
-    // Offset: 0x14856A8
+    // Offset: 0x15A41E4
     // Implemented from: System.Reflection.Module
     // Base method: System.Void Module::.ctor()
     // Base method: System.Void Object::.ctor()

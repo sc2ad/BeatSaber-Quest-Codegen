@@ -95,14 +95,14 @@ namespace UnityEngine::UI {
     // Set static field: static private UnityEngine.Color s_TextColor
     static void _set_s_TextColor(UnityEngine::Color value);
     // static public UnityEngine.UI.DefaultControls/UnityEngine.UI.IFactoryControls get_factory()
-    // Offset: 0x147CFA8
+    // Offset: 0x15FC504
     static UnityEngine::UI::DefaultControls::IFactoryControls* get_factory();
     // static private System.Void .cctor()
-    // Offset: 0x1481058
+    // Offset: 0x16005B4
     static void _cctor();
     // static private UnityEngine.GameObject CreateUIElementRoot(System.String name, UnityEngine.Vector2 size, params System.Type[] components)
-    // Offset: 0x147D010
-    static UnityEngine::GameObject* CreateUIElementRoot(::Il2CppString* name, UnityEngine::Vector2 size, ::Array<System::Type*>* components);
+    // Offset: 0x15FC56C
+    static UnityEngine::GameObject* CreateUIElementRoot(::Il2CppString* name, UnityEngine::Vector2 size, ::ArrayWrapper<System::Type*> components);
     // Creating initializer_list -> params proxy for: UnityEngine.GameObject CreateUIElementRoot(System.String name, UnityEngine.Vector2 size, params System.Type[] components)
     static UnityEngine::GameObject* CreateUIElementRoot(::Il2CppString* name, UnityEngine::Vector2 size, std::initializer_list<System::Type*> components);
     // Creating TArgs -> initializer_list proxy for: UnityEngine.GameObject CreateUIElementRoot(System.String name, UnityEngine.Vector2 size, params System.Type[] components)
@@ -111,8 +111,8 @@ namespace UnityEngine::UI {
       return CreateUIElementRoot(name, size, {components...});
     }
     // static private UnityEngine.GameObject CreateUIObject(System.String name, UnityEngine.GameObject parent, params System.Type[] components)
-    // Offset: 0x147D17C
-    static UnityEngine::GameObject* CreateUIObject(::Il2CppString* name, UnityEngine::GameObject* parent, ::Array<System::Type*>* components);
+    // Offset: 0x15FC6D8
+    static UnityEngine::GameObject* CreateUIObject(::Il2CppString* name, UnityEngine::GameObject* parent, ::ArrayWrapper<System::Type*> components);
     // Creating initializer_list -> params proxy for: UnityEngine.GameObject CreateUIObject(System.String name, UnityEngine.GameObject parent, params System.Type[] components)
     static UnityEngine::GameObject* CreateUIObject(::Il2CppString* name, UnityEngine::GameObject* parent, std::initializer_list<System::Type*> components);
     // Creating TArgs -> initializer_list proxy for: UnityEngine.GameObject CreateUIObject(System.String name, UnityEngine.GameObject parent, params System.Type[] components)
@@ -121,49 +121,49 @@ namespace UnityEngine::UI {
       return CreateUIObject(name, parent, {components...});
     }
     // static private System.Void SetDefaultTextValues(UnityEngine.UI.Text lbl)
-    // Offset: 0x147D3D0
+    // Offset: 0x15FC92C
     static void SetDefaultTextValues(UnityEngine::UI::Text* lbl);
     // static private System.Void SetDefaultColorTransitionValues(UnityEngine.UI.Selectable slider)
-    // Offset: 0x147D464
+    // Offset: 0x15FC9C0
     static void SetDefaultColorTransitionValues(UnityEngine::UI::Selectable* slider);
     // static private System.Void SetParentAndAlign(UnityEngine.GameObject child, UnityEngine.GameObject parent)
-    // Offset: 0x147D2C4
+    // Offset: 0x15FC820
     static void SetParentAndAlign(UnityEngine::GameObject* child, UnityEngine::GameObject* parent);
     // static private System.Void SetLayerRecursively(UnityEngine.GameObject go, System.Int32 layer)
-    // Offset: 0x147D4E4
+    // Offset: 0x15FCA40
     static void SetLayerRecursively(UnityEngine::GameObject* go, int layer);
     // static public UnityEngine.GameObject CreatePanel(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
-    // Offset: 0x147D5E0
+    // Offset: 0x15FCB3C
     static UnityEngine::GameObject* CreatePanel(UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateButton(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
-    // Offset: 0x147D808
+    // Offset: 0x15FCD64
     static UnityEngine::GameObject* CreateButton(UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateText(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
-    // Offset: 0x147DB40
+    // Offset: 0x15FD09C
     static UnityEngine::GameObject* CreateText(UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateImage(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
-    // Offset: 0x147DCB0
+    // Offset: 0x15FD20C
     static UnityEngine::GameObject* CreateImage(UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateRawImage(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
-    // Offset: 0x147DDD4
+    // Offset: 0x15FD330
     static UnityEngine::GameObject* CreateRawImage(UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateSlider(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
-    // Offset: 0x147DEF8
+    // Offset: 0x15FD454
     static UnityEngine::GameObject* CreateSlider(UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateScrollbar(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
-    // Offset: 0x147E654
+    // Offset: 0x15FDBB0
     static UnityEngine::GameObject* CreateScrollbar(UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateToggle(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
-    // Offset: 0x147EA8C
+    // Offset: 0x15FDFE8
     static UnityEngine::GameObject* CreateToggle(UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateInputField(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
-    // Offset: 0x147F078
+    // Offset: 0x15FE5D4
     static UnityEngine::GameObject* CreateInputField(UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateDropdown(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
-    // Offset: 0x147F5C0
+    // Offset: 0x15FEB1C
     static UnityEngine::GameObject* CreateDropdown(UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateScrollView(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
-    // Offset: 0x1480968
+    // Offset: 0x15FFEC4
     static UnityEngine::GameObject* CreateScrollView(UnityEngine::UI::DefaultControls::Resources resources);
   }; // UnityEngine.UI.DefaultControls
   #pragma pack(pop)
@@ -190,22 +190,22 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateUIElementRoot
 // Il2CppName: CreateUIElementRoot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*, UnityEngine::Vector2, ::Array<System::Type*>*)>(&UnityEngine::UI::DefaultControls::CreateUIElementRoot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*, UnityEngine::Vector2, ::ArrayWrapper<System::Type*>)>(&UnityEngine::UI::DefaultControls::CreateUIElementRoot)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
-    static auto* components = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
+    static auto* components = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Type")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateUIElementRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, size, components});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateUIObject
 // Il2CppName: CreateUIObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*, UnityEngine::GameObject*, ::Array<System::Type*>*)>(&UnityEngine::UI::DefaultControls::CreateUIObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*, UnityEngine::GameObject*, ::ArrayWrapper<System::Type*>)>(&UnityEngine::UI::DefaultControls::CreateUIObject)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parent = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
-    static auto* components = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
+    static auto* components = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Type")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateUIObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, parent, components});
   }
 };

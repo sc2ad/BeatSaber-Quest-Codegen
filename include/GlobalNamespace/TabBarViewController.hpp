@@ -54,15 +54,15 @@ namespace GlobalNamespace {
     // private System.String[] _labels
     // Size: 0x8
     // Offset: 0x80
-    ::Array<::Il2CppString*>* labels;
+    ::ArrayWrapper<::Il2CppString*> labels;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // private TabBarViewController/TabBarItem[] _items
     // Size: 0x8
     // Offset: 0x88
-    ::Array<GlobalNamespace::TabBarViewController::TabBarItem*>* items;
+    ::ArrayWrapper<GlobalNamespace::TabBarViewController::TabBarItem*> items;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::TabBarViewController::TabBarItem*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::TabBarViewController::TabBarItem*>) == 0x8);
     // private System.Boolean _shouldReloadData
     // Size: 0x1
     // Offset: 0x90
@@ -70,40 +70,40 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: TabBarViewController
-    TabBarViewController(HMUI::TextSegmentedControl* segmentedControll_ = {}, UnityEngine::UI::ContentSizeFitter* contentSizeFilter_ = {}, ::Array<::Il2CppString*>* labels_ = {}, ::Array<GlobalNamespace::TabBarViewController::TabBarItem*>* items_ = {}, bool shouldReloadData_ = {}) noexcept : segmentedControll{segmentedControll_}, contentSizeFilter{contentSizeFilter_}, labels{labels_}, items{items_}, shouldReloadData{shouldReloadData_} {}
+    TabBarViewController(HMUI::TextSegmentedControl* segmentedControll_ = {}, UnityEngine::UI::ContentSizeFitter* contentSizeFilter_ = {}, ::ArrayWrapper<::Il2CppString*> labels_ = {}, ::ArrayWrapper<GlobalNamespace::TabBarViewController::TabBarItem*> items_ = {}, bool shouldReloadData_ = {}) noexcept : segmentedControll{segmentedControll_}, contentSizeFilter{contentSizeFilter_}, labels{labels_}, items{items_}, shouldReloadData{shouldReloadData_} {}
     // Get instance field reference: private HMUI.TextSegmentedControl _segmentedControll
     HMUI::TextSegmentedControl*& dyn__segmentedControll();
     // Get instance field reference: private UnityEngine.UI.ContentSizeFitter _contentSizeFilter
     UnityEngine::UI::ContentSizeFitter*& dyn__contentSizeFilter();
     // Get instance field reference: private System.String[] _labels
-    ::Array<::Il2CppString*>*& dyn__labels();
+    ::ArrayWrapper<::Il2CppString*>& dyn__labels();
     // Get instance field reference: private TabBarViewController/TabBarItem[] _items
-    ::Array<GlobalNamespace::TabBarViewController::TabBarItem*>*& dyn__items();
+    ::ArrayWrapper<GlobalNamespace::TabBarViewController::TabBarItem*>& dyn__items();
     // Get instance field reference: private System.Boolean _shouldReloadData
     bool& dyn__shouldReloadData();
     // public System.Boolean get_sizeToFit()
-    // Offset: 0x106DA80
+    // Offset: 0x115C408
     bool get_sizeToFit();
     // public System.Void set_sizeToFit(System.Boolean value)
-    // Offset: 0x106DA60
+    // Offset: 0x115C3E8
     void set_sizeToFit(bool value);
     // public System.Int32 get_selectedCellNumber()
-    // Offset: 0x106DA9C
+    // Offset: 0x115C424
     int get_selectedCellNumber();
     // public System.Void Setup(TabBarViewController/TabBarItem[] items)
-    // Offset: 0x106DAB8
-    void Setup(::Array<GlobalNamespace::TabBarViewController::TabBarItem*>* items);
+    // Offset: 0x115C440
+    void Setup(::ArrayWrapper<GlobalNamespace::TabBarViewController::TabBarItem*> items);
     // public System.Void SelectItem(System.Int32 index)
-    // Offset: 0x106DBF4
+    // Offset: 0x115C57C
     void SelectItem(int index);
     // public System.Void Clear()
-    // Offset: 0x106DC10
+    // Offset: 0x115C598
     void Clear();
     // private System.Void HandleDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0x106DE20
+    // Offset: 0x115C7A8
     void HandleDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // public System.Void .ctor()
-    // Offset: 0x106DE74
+    // Offset: 0x115C7FC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -117,12 +117,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TabBarViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x106DC6C
+    // Offset: 0x115C5F4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x106DD3C
+    // Offset: 0x115C6C4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
@@ -161,9 +161,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::Setup
 // Il2CppName: Setup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TabBarViewController::*)(::Array<GlobalNamespace::TabBarViewController::TabBarItem*>*)>(&GlobalNamespace::TabBarViewController::Setup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TabBarViewController::*)(::ArrayWrapper<GlobalNamespace::TabBarViewController::TabBarItem*>)>(&GlobalNamespace::TabBarViewController::Setup)> {
   static const MethodInfo* get() {
-    static auto* items = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "TabBarViewController/TabBarItem"), 1)->byval_arg;
+    static auto* items = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "TabBarViewController/TabBarItem")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TabBarViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{items});
   }
 };

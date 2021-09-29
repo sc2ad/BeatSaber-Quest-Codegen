@@ -28,54 +28,54 @@ namespace System::Security {
     // System.Byte[] m_data
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* m_data;
+    ::ArrayWrapper<uint8_t> m_data;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: SecurityDocument
-    SecurityDocument(::Array<uint8_t>* m_data_ = {}) noexcept : m_data{m_data_} {}
-    // Creating conversion operator: operator ::Array<uint8_t>*
-    constexpr operator ::Array<uint8_t>*() const noexcept {
+    SecurityDocument(::ArrayWrapper<uint8_t> m_data_ = {}) noexcept : m_data{m_data_} {}
+    // Creating conversion operator: operator ::ArrayWrapper<uint8_t>
+    constexpr operator ::ArrayWrapper<uint8_t>() const noexcept {
       return m_data;
     }
     // Get instance field reference: System.Byte[] m_data
-    ::Array<uint8_t>*& dyn_m_data();
+    ::ArrayWrapper<uint8_t>& dyn_m_data();
     // public System.Void .ctor(System.Int32 numData)
-    // Offset: 0x1B4E578
+    // Offset: 0x1CD2C50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityDocument* New_ctor(int numData) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::SecurityDocument::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecurityDocument*, creationType>(numData)));
     }
     // public System.Void GuaranteeSize(System.Int32 size)
-    // Offset: 0x1B4E5E8
+    // Offset: 0x1CD2CC0
     void GuaranteeSize(int size);
     // public System.Void AddString(System.String str, ref System.Int32 position)
-    // Offset: 0x1B4E69C
+    // Offset: 0x1CD2D74
     void AddString(::Il2CppString* str, ByRef<int> position);
     // public System.Void AppendString(System.String str, ref System.Int32 position)
-    // Offset: 0x1B4E7FC
+    // Offset: 0x1CD2ED4
     void AppendString(::Il2CppString* str, ByRef<int> position);
     // static public System.Int32 EncodedStringSize(System.String str)
-    // Offset: 0x1B4E8E0
+    // Offset: 0x1CD2FB8
     static int EncodedStringSize(::Il2CppString* str);
     // public System.String GetString(ref System.Int32 position, System.Boolean bCreate)
-    // Offset: 0x1B4E900
+    // Offset: 0x1CD2FD8
     ::Il2CppString* GetString(ByRef<int> position, bool bCreate);
     // public System.Void AddToken(System.Byte b, ref System.Int32 position)
-    // Offset: 0x1B4EC28
+    // Offset: 0x1CD3300
     void AddToken(uint8_t b, ByRef<int> position);
     // public System.Security.SecurityElement GetRootElement()
-    // Offset: 0x1B4EC98
+    // Offset: 0x1CD3370
     System::Security::SecurityElement* GetRootElement();
     // public System.Security.SecurityElement GetElement(System.Int32 position, System.Boolean bCreate)
-    // Offset: 0x1B4ECC0
+    // Offset: 0x1CD3398
     System::Security::SecurityElement* GetElement(int position, bool bCreate);
     // System.Security.SecurityElement InternalGetElement(ref System.Int32 position, System.Boolean bCreate)
-    // Offset: 0x1B4ECE8
+    // Offset: 0x1CD33C0
     System::Security::SecurityElement* InternalGetElement(ByRef<int> position, bool bCreate);
   }; // System.Security.SecurityDocument
   #pragma pack(pop)
-  static check_size<sizeof(SecurityDocument), 16 + sizeof(::Array<uint8_t>*)> __System_Security_SecurityDocumentSizeCheck;
+  static check_size<sizeof(SecurityDocument), 16 + sizeof(::ArrayWrapper<uint8_t>)> __System_Security_SecurityDocumentSizeCheck;
   static_assert(sizeof(SecurityDocument) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityDocument*, "System.Security", "SecurityDocument");

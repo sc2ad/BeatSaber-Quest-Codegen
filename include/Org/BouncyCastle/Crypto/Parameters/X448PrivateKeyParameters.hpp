@@ -25,11 +25,11 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // private readonly System.Byte[] data
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* data;
+    ::ArrayWrapper<uint8_t> data;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: X448PrivateKeyParameters
-    X448PrivateKeyParameters(::Array<uint8_t>* data_ = {}) noexcept : data{data_} {}
+    X448PrivateKeyParameters(::ArrayWrapper<uint8_t> data_ = {}) noexcept : data{data_} {}
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get static field: static public readonly System.Int32 KeySize
@@ -41,20 +41,20 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set static field: static public readonly System.Int32 SecretSize
     static void _set_SecretSize(int value);
     // Get instance field reference: private readonly System.Byte[] data
-    ::Array<uint8_t>*& dyn_data();
+    ::ArrayWrapper<uint8_t>& dyn_data();
     // public System.Void .ctor(System.Byte[] buf, System.Int32 off)
-    // Offset: 0x127BE28
+    // Offset: 0x1398630
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static X448PrivateKeyParameters* New_ctor(::Array<uint8_t>* buf, int off) {
+    static X448PrivateKeyParameters* New_ctor(::ArrayWrapper<uint8_t> buf, int off) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X448PrivateKeyParameters*, creationType>(buf, off)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x127BEE8
+    // Offset: 0x13986F0
     static void _cctor();
   }; // Org.BouncyCastle.Crypto.Parameters.X448PrivateKeyParameters
   #pragma pack(pop)
-  static check_size<sizeof(X448PrivateKeyParameters), 24 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Parameters_X448PrivateKeyParametersSizeCheck;
+  static check_size<sizeof(X448PrivateKeyParameters), 24 + sizeof(::ArrayWrapper<uint8_t>)> __Org_BouncyCastle_Crypto_Parameters_X448PrivateKeyParametersSizeCheck;
   static_assert(sizeof(X448PrivateKeyParameters) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "X448PrivateKeyParameters");

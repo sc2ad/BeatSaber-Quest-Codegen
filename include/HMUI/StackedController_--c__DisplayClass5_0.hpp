@@ -49,10 +49,10 @@ namespace HMUI {
     // Get instance field reference: public System.Int32 numberOfViewControllersToPop
     int& dyn_numberOfViewControllersToPop();
     // System.Void <PopViewControllers>g__AnimationLayouter|0(System.Single t, HMUI.ViewController[] viewControllers, System.Collections.Generic.HashSet`1<HMUI.ViewController> removingViewControllers)
-    // Offset: 0x131B3D8
-    void $PopViewControllers$g__AnimationLayouter_0(float t, ::Array<HMUI::ViewController*>* viewControllers, System::Collections::Generic::HashSet_1<HMUI::ViewController*>* removingViewControllers);
+    // Offset: 0x141D988
+    void $PopViewControllers$g__AnimationLayouter_0(float t, ::ArrayWrapper<HMUI::ViewController*> viewControllers, System::Collections::Generic::HashSet_1<HMUI::ViewController*>* removingViewControllers);
     // public System.Void .ctor()
-    // Offset: 0x131B284
+    // Offset: 0x141D834
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -70,10 +70,10 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::StackedController::$$c__DisplayClass5_0*, "HMUI", "
 // Writing MetadataGetter for method: HMUI::StackedController::$$c__DisplayClass5_0::$PopViewControllers$g__AnimationLayouter_0
 // Il2CppName: <PopViewControllers>g__AnimationLayouter|0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackedController::$$c__DisplayClass5_0::*)(float, ::Array<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*)>(&HMUI::StackedController::$$c__DisplayClass5_0::$PopViewControllers$g__AnimationLayouter_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackedController::$$c__DisplayClass5_0::*)(float, ::ArrayWrapper<HMUI::ViewController*>, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*)>(&HMUI::StackedController::$$c__DisplayClass5_0::$PopViewControllers$g__AnimationLayouter_0)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    static auto* viewControllers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HMUI", "ViewController"), 1)->byval_arg;
+    static auto* viewControllers = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("HMUI", "ViewController")), 1)->byval_arg;
     static auto* removingViewControllers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "HashSet`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("HMUI", "ViewController")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::StackedController::$$c__DisplayClass5_0*), "<PopViewControllers>g__AnimationLayouter|0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t, viewControllers, removingViewControllers});
   }

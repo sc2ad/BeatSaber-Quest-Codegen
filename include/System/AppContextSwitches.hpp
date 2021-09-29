@@ -24,6 +24,10 @@ namespace System {
     static bool _get_SetActorAsReferenceWhenCopyingClaimsIdentity();
     // Set static field: static public readonly System.Boolean SetActorAsReferenceWhenCopyingClaimsIdentity
     static void _set_SetActorAsReferenceWhenCopyingClaimsIdentity(bool value);
+    // Get static field: static public readonly System.Boolean NoAsyncCurrentCulture
+    static bool _get_NoAsyncCurrentCulture();
+    // Set static field: static public readonly System.Boolean NoAsyncCurrentCulture
+    static void _set_NoAsyncCurrentCulture(bool value);
   }; // System.AppContextSwitches
   #pragma pack(pop)
 }

@@ -26,7 +26,7 @@ namespace System {
     // Creating value type constructor for type: TypeIdentifiers
     TypeIdentifiers() noexcept {}
     // static System.TypeIdentifier FromDisplay(System.String displayName)
-    // Offset: 0x2326628
+    // Offset: 0x25306E4
     static System::TypeIdentifier* FromDisplay(::Il2CppString* displayName);
   }; // System.TypeIdentifiers
   #pragma pack(pop)

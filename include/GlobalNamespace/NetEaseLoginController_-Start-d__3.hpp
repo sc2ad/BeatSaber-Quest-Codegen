@@ -56,26 +56,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public NetEaseLoginController <>4__this
     GlobalNamespace::NetEaseLoginController*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1048AE4
+    // Offset: 0x1137A84
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1048B4C
+    // Offset: 0x1137AEC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1048484
+    // Offset: 0x1137424
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetEaseLoginController::$Start$d__3* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetEaseLoginController::$Start$d__3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetEaseLoginController::$Start$d__3*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1048A6C
+    // Offset: 0x1137A0C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1048A70
+    // Offset: 0x1137A10
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1048AEC
+    // Offset: 0x1137A8C
     void System_Collections_IEnumerator_Reset();
   }; // NetEaseLoginController/<Start>d__3
   #pragma pack(pop)

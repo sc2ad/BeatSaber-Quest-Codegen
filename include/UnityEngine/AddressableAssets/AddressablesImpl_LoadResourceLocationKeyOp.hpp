@@ -74,15 +74,15 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: private System.Type m_ResourceType
     System::Type*& dyn_m_ResourceType();
     // public System.Void Init(UnityEngine.AddressableAssets.AddressablesImpl aa, System.Type t, System.Object keys)
-    // Offset: 0x1446994
+    // Offset: 0x15941AC
     void Init(UnityEngine::AddressableAssets::AddressablesImpl* aa, System::Type* t, ::Il2CppObject* keys);
     // protected override System.String get_DebugName()
-    // Offset: 0x144AB80
+    // Offset: 0x1598398
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.String AsyncOperationBase_1::get_DebugName()
     ::Il2CppString* get_DebugName();
     // public System.Void .ctor()
-    // Offset: 0x1446944
+    // Offset: 0x159415C
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -92,12 +92,12 @@ namespace UnityEngine::AddressableAssets {
       return THROW_UNLESS((::il2cpp_utils::New<AddressablesImpl::LoadResourceLocationKeyOp*, creationType>()));
     }
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x144ABA0
+    // Offset: 0x15983B8
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();
     // protected override System.Void Execute()
-    // Offset: 0x144AC1C
+    // Offset: 0x1598434
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();

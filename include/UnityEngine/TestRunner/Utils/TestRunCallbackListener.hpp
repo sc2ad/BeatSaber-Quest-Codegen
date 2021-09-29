@@ -56,35 +56,35 @@ namespace UnityEngine::TestRunner::Utils {
     // private UnityEngine.TestRunner.ITestRunCallback[] m_Callbacks
     // Size: 0x8
     // Offset: 0x18
-    ::Array<UnityEngine::TestRunner::ITestRunCallback*>* m_Callbacks;
+    ::ArrayWrapper<UnityEngine::TestRunner::ITestRunCallback*> m_Callbacks;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::TestRunner::ITestRunCallback*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::TestRunner::ITestRunCallback*>) == 0x8);
     // Creating value type constructor for type: TestRunCallbackListener
-    TestRunCallbackListener(::Array<UnityEngine::TestRunner::ITestRunCallback*>* m_Callbacks_ = {}) noexcept : m_Callbacks{m_Callbacks_} {}
+    TestRunCallbackListener(::ArrayWrapper<UnityEngine::TestRunner::ITestRunCallback*> m_Callbacks_ = {}) noexcept : m_Callbacks{m_Callbacks_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.TestRunner.ITestRunCallback[] m_Callbacks
-    ::Array<UnityEngine::TestRunner::ITestRunCallback*>*& dyn_m_Callbacks();
+    ::ArrayWrapper<UnityEngine::TestRunner::ITestRunCallback*>& dyn_m_Callbacks();
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
-    // Offset: 0x14C5AC4
+    // Offset: 0x166B740
     void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);
     // static private UnityEngine.TestRunner.ITestRunCallback[] GetAllCallbacks()
-    // Offset: 0x14C5CF8
-    static ::Array<UnityEngine::TestRunner::ITestRunCallback*>* GetAllCallbacks();
+    // Offset: 0x166B974
+    static ::ArrayWrapper<UnityEngine::TestRunner::ITestRunCallback*> GetAllCallbacks();
     // private System.Void InvokeAllCallbacks(System.Action`1<UnityEngine.TestRunner.ITestRunCallback> invoker)
-    // Offset: 0x14C5B7C
+    // Offset: 0x166B7F8
     void InvokeAllCallbacks(System::Action_1<UnityEngine::TestRunner::ITestRunCallback*>* invoker);
     // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0x14C5F8C
+    // Offset: 0x166BC08
     void RunFinished(NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x14C6044
+    // Offset: 0x166BCC0
     void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x14C60FC
+    // Offset: 0x166BD78
     void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void .ctor()
-    // Offset: 0x14C61B4
+    // Offset: 0x166BE30
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -96,7 +96,7 @@ namespace UnityEngine::TestRunner::Utils {
     }
   }; // UnityEngine.TestRunner.Utils.TestRunCallbackListener
   #pragma pack(pop)
-  static check_size<sizeof(TestRunCallbackListener), 24 + sizeof(::Array<UnityEngine::TestRunner::ITestRunCallback*>*)> __UnityEngine_TestRunner_Utils_TestRunCallbackListenerSizeCheck;
+  static check_size<sizeof(TestRunCallbackListener), 24 + sizeof(::ArrayWrapper<UnityEngine::TestRunner::ITestRunCallback*>)> __UnityEngine_TestRunner_Utils_TestRunCallbackListenerSizeCheck;
   static_assert(sizeof(TestRunCallbackListener) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::Utils::TestRunCallbackListener*, "UnityEngine.TestRunner.Utils", "TestRunCallbackListener");
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TestRunner::Utils::TestRunCallbackListener::GetAllCallbacks
 // Il2CppName: GetAllCallbacks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::TestRunner::ITestRunCallback*>* (*)()>(&UnityEngine::TestRunner::Utils::TestRunCallbackListener::GetAllCallbacks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::TestRunner::ITestRunCallback*> (*)()>(&UnityEngine::TestRunner::Utils::TestRunCallbackListener::GetAllCallbacks)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::Utils::TestRunCallbackListener*), "GetAllCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -47,10 +47,10 @@ namespace HMUI {
     // Get instance field reference: public System.Action finishedCallback
     System::Action*& dyn_finishedCallback();
     // System.Void <Hide>b__0()
-    // Offset: 0x1310274
+    // Offset: 0x1412824
     void $Hide$b__0();
     // public System.Void .ctor()
-    // Offset: 0x130F77C
+    // Offset: 0x1411D2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

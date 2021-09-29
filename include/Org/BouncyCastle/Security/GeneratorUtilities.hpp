@@ -42,11 +42,11 @@ namespace Org::BouncyCastle::Security {
     // Set static field: static private readonly System.Collections.IDictionary defaultKeySizes
     static void _set_defaultKeySizes(System::Collections::IDictionary* value);
     // static private System.Void .cctor()
-    // Offset: 0x13B8FB0
+    // Offset: 0x14CB1A4
     static void _cctor();
     // static private System.Void AddDefaultKeySizeEntries(System.Int32 size, params System.String[] algorithms)
-    // Offset: 0x13BC4B0
-    static void AddDefaultKeySizeEntries(int size, ::Array<::Il2CppString*>* algorithms);
+    // Offset: 0x14CE6A4
+    static void AddDefaultKeySizeEntries(int size, ::ArrayWrapper<::Il2CppString*> algorithms);
     // Creating initializer_list -> params proxy for: System.Void AddDefaultKeySizeEntries(System.Int32 size, params System.String[] algorithms)
     static void AddDefaultKeySizeEntries(int size, std::initializer_list<::Il2CppString*> algorithms);
     // Creating TArgs -> initializer_list proxy for: System.Void AddDefaultKeySizeEntries(System.Int32 size, params System.String[] algorithms)
@@ -55,8 +55,8 @@ namespace Org::BouncyCastle::Security {
       AddDefaultKeySizeEntries(size, {algorithms...});
     }
     // static private System.Void AddKgAlgorithm(System.String canonicalName, params System.Object[] aliases)
-    // Offset: 0x13BBC9C
-    static void AddKgAlgorithm(::Il2CppString* canonicalName, ::Array<::Il2CppObject*>* aliases);
+    // Offset: 0x14CDE90
+    static void AddKgAlgorithm(::Il2CppString* canonicalName, ::ArrayWrapper<::Il2CppObject*> aliases);
     // Creating initializer_list -> params proxy for: System.Void AddKgAlgorithm(System.String canonicalName, params System.Object[] aliases)
     static void AddKgAlgorithm(::Il2CppString* canonicalName, std::initializer_list<::Il2CppObject*> aliases);
     // Creating TArgs -> initializer_list proxy for: System.Void AddKgAlgorithm(System.String canonicalName, params System.Object[] aliases)
@@ -65,8 +65,8 @@ namespace Org::BouncyCastle::Security {
       AddKgAlgorithm(canonicalName, {aliases...});
     }
     // static private System.Void AddKpgAlgorithm(System.String canonicalName, params System.Object[] aliases)
-    // Offset: 0x13BC260
-    static void AddKpgAlgorithm(::Il2CppString* canonicalName, ::Array<::Il2CppObject*>* aliases);
+    // Offset: 0x14CE454
+    static void AddKpgAlgorithm(::Il2CppString* canonicalName, ::ArrayWrapper<::Il2CppObject*> aliases);
     // Creating initializer_list -> params proxy for: System.Void AddKpgAlgorithm(System.String canonicalName, params System.Object[] aliases)
     static void AddKpgAlgorithm(::Il2CppString* canonicalName, std::initializer_list<::Il2CppObject*> aliases);
     // Creating TArgs -> initializer_list proxy for: System.Void AddKpgAlgorithm(System.String canonicalName, params System.Object[] aliases)
@@ -75,8 +75,8 @@ namespace Org::BouncyCastle::Security {
       AddKpgAlgorithm(canonicalName, {aliases...});
     }
     // static private System.Void AddHMacKeyGenerator(System.String algorithm, params System.Object[] aliases)
-    // Offset: 0x13BBEEC
-    static void AddHMacKeyGenerator(::Il2CppString* algorithm, ::Array<::Il2CppObject*>* aliases);
+    // Offset: 0x14CE0E0
+    static void AddHMacKeyGenerator(::Il2CppString* algorithm, ::ArrayWrapper<::Il2CppObject*> aliases);
     // Creating initializer_list -> params proxy for: System.Void AddHMacKeyGenerator(System.String algorithm, params System.Object[] aliases)
     static void AddHMacKeyGenerator(::Il2CppString* algorithm, std::initializer_list<::Il2CppObject*> aliases);
     // Creating TArgs -> initializer_list proxy for: System.Void AddHMacKeyGenerator(System.String algorithm, params System.Object[] aliases)
@@ -85,16 +85,16 @@ namespace Org::BouncyCastle::Security {
       AddHMacKeyGenerator(algorithm, {aliases...});
     }
     // static System.String GetCanonicalKeyGeneratorAlgorithm(System.String algorithm)
-    // Offset: 0x13BC61C
+    // Offset: 0x14CE810
     static ::Il2CppString* GetCanonicalKeyGeneratorAlgorithm(::Il2CppString* algorithm);
     // static System.Int32 GetDefaultKeySize(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x13BC750
+    // Offset: 0x14CE944
     static int GetDefaultKeySize(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static System.Int32 GetDefaultKeySize(System.String algorithm)
-    // Offset: 0x13BC7C0
+    // Offset: 0x14CE9B4
     static int GetDefaultKeySize(::Il2CppString* algorithm);
     // static private System.Int32 FindDefaultKeySize(System.String canonicalName)
-    // Offset: 0x13BC9AC
+    // Offset: 0x14CEBA0
     static int FindDefaultKeySize(::Il2CppString* canonicalName);
   }; // Org.BouncyCastle.Security.GeneratorUtilities
   #pragma pack(pop)
@@ -113,40 +113,40 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::GeneratorUtilities::AddDefaultKeySizeEntries
 // Il2CppName: AddDefaultKeySizeEntries
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<::Il2CppString*>*)>(&Org::BouncyCastle::Security::GeneratorUtilities::AddDefaultKeySizeEntries)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayWrapper<::Il2CppString*>)>(&Org::BouncyCastle::Security::GeneratorUtilities::AddDefaultKeySizeEntries)> {
   static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* algorithms = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* algorithms = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "AddDefaultKeySizeEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size, algorithms});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::GeneratorUtilities::AddKgAlgorithm
 // Il2CppName: AddKgAlgorithm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Org::BouncyCastle::Security::GeneratorUtilities::AddKgAlgorithm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&Org::BouncyCastle::Security::GeneratorUtilities::AddKgAlgorithm)> {
   static const MethodInfo* get() {
     static auto* canonicalName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* aliases = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* aliases = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "AddKgAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{canonicalName, aliases});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::GeneratorUtilities::AddKpgAlgorithm
 // Il2CppName: AddKpgAlgorithm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Org::BouncyCastle::Security::GeneratorUtilities::AddKpgAlgorithm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&Org::BouncyCastle::Security::GeneratorUtilities::AddKpgAlgorithm)> {
   static const MethodInfo* get() {
     static auto* canonicalName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* aliases = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* aliases = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "AddKpgAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{canonicalName, aliases});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::GeneratorUtilities::AddHMacKeyGenerator
 // Il2CppName: AddHMacKeyGenerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Org::BouncyCastle::Security::GeneratorUtilities::AddHMacKeyGenerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&Org::BouncyCastle::Security::GeneratorUtilities::AddHMacKeyGenerator)> {
   static const MethodInfo* get() {
     static auto* algorithm = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* aliases = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* aliases = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "AddHMacKeyGenerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithm, aliases});
   }
 };

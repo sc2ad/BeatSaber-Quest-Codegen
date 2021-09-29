@@ -47,7 +47,7 @@ namespace OnlineServices::API {
     // Get instance field reference: public OnlineServices.API.HTTPLeaderboardsOathHelper <>4__this
     OnlineServices::API::HTTPLeaderboardsOathHelper*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x102EB58
+    // Offset: 0x111DFC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

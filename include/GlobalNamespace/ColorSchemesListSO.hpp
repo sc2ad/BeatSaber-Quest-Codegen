@@ -30,20 +30,20 @@ namespace GlobalNamespace {
     // private ColorSchemeSO[] _colorSchemes
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::ColorSchemeSO*>* colorSchemes;
+    ::ArrayWrapper<GlobalNamespace::ColorSchemeSO*> colorSchemes;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::ColorSchemeSO*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::ColorSchemeSO*>) == 0x8);
     // Creating value type constructor for type: ColorSchemesListSO
-    ColorSchemesListSO(::Array<GlobalNamespace::ColorSchemeSO*>* colorSchemes_ = {}) noexcept : colorSchemes{colorSchemes_} {}
+    ColorSchemesListSO(::ArrayWrapper<GlobalNamespace::ColorSchemeSO*> colorSchemes_ = {}) noexcept : colorSchemes{colorSchemes_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ColorSchemeSO[] _colorSchemes
-    ::Array<GlobalNamespace::ColorSchemeSO*>*& dyn__colorSchemes();
+    ::ArrayWrapper<GlobalNamespace::ColorSchemeSO*>& dyn__colorSchemes();
     // public ColorSchemeSO[] get_colorSchemes()
-    // Offset: 0x241BF64
-    ::Array<GlobalNamespace::ColorSchemeSO*>* get_colorSchemes();
+    // Offset: 0x26273B4
+    ::ArrayWrapper<GlobalNamespace::ColorSchemeSO*> get_colorSchemes();
     // public System.Void .ctor()
-    // Offset: 0x241BF6C
+    // Offset: 0x26273BC
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     }
   }; // ColorSchemesListSO
   #pragma pack(pop)
-  static check_size<sizeof(ColorSchemesListSO), 24 + sizeof(::Array<GlobalNamespace::ColorSchemeSO*>*)> __GlobalNamespace_ColorSchemesListSOSizeCheck;
+  static check_size<sizeof(ColorSchemesListSO), 24 + sizeof(::ArrayWrapper<GlobalNamespace::ColorSchemeSO*>)> __GlobalNamespace_ColorSchemesListSOSizeCheck;
   static_assert(sizeof(ColorSchemesListSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemesListSO*, "", "ColorSchemesListSO");
@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemesListSO*, "", "ColorSchemesLi
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemesListSO::get_colorSchemes
 // Il2CppName: get_colorSchemes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::ColorSchemeSO*>* (GlobalNamespace::ColorSchemesListSO::*)()>(&GlobalNamespace::ColorSchemesListSO::get_colorSchemes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::ColorSchemeSO*> (GlobalNamespace::ColorSchemesListSO::*)()>(&GlobalNamespace::ColorSchemesListSO::get_colorSchemes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemesListSO*), "get_colorSchemes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

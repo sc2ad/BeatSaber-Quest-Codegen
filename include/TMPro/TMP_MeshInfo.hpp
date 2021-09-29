@@ -66,47 +66,47 @@ namespace TMPro {
     // public UnityEngine.Vector3[] vertices
     // Size: 0x8
     // Offset: 0x10
-    ::Array<UnityEngine::Vector3>* vertices;
+    ::ArrayWrapper<UnityEngine::Vector3> vertices;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
     // public UnityEngine.Vector3[] normals
     // Size: 0x8
     // Offset: 0x18
-    ::Array<UnityEngine::Vector3>* normals;
+    ::ArrayWrapper<UnityEngine::Vector3> normals;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
     // public UnityEngine.Vector4[] tangents
     // Size: 0x8
     // Offset: 0x20
-    ::Array<UnityEngine::Vector4>* tangents;
+    ::ArrayWrapper<UnityEngine::Vector4> tangents;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector4>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
     // public UnityEngine.Vector2[] uvs0
     // Size: 0x8
     // Offset: 0x28
-    ::Array<UnityEngine::Vector2>* uvs0;
+    ::ArrayWrapper<UnityEngine::Vector2> uvs0;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector2>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector2>) == 0x8);
     // public UnityEngine.Vector2[] uvs2
     // Size: 0x8
     // Offset: 0x30
-    ::Array<UnityEngine::Vector2>* uvs2;
+    ::ArrayWrapper<UnityEngine::Vector2> uvs2;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector2>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector2>) == 0x8);
     // public UnityEngine.Color32[] colors32
     // Size: 0x8
     // Offset: 0x38
-    ::Array<UnityEngine::Color32>* colors32;
+    ::ArrayWrapper<UnityEngine::Color32> colors32;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Color32>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Color32>) == 0x8);
     // public System.Int32[] triangles
     // Size: 0x8
     // Offset: 0x40
-    ::Array<int>* triangles;
+    ::ArrayWrapper<int> triangles;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // Creating value type constructor for type: TMP_MeshInfo
-    constexpr TMP_MeshInfo(UnityEngine::Mesh* mesh_ = {}, int vertexCount_ = {}, ::Array<UnityEngine::Vector3>* vertices_ = {}, ::Array<UnityEngine::Vector3>* normals_ = {}, ::Array<UnityEngine::Vector4>* tangents_ = {}, ::Array<UnityEngine::Vector2>* uvs0_ = {}, ::Array<UnityEngine::Vector2>* uvs2_ = {}, ::Array<UnityEngine::Color32>* colors32_ = {}, ::Array<int>* triangles_ = {}) noexcept : mesh{mesh_}, vertexCount{vertexCount_}, vertices{vertices_}, normals{normals_}, tangents{tangents_}, uvs0{uvs0_}, uvs2{uvs2_}, colors32{colors32_}, triangles{triangles_} {}
+    constexpr TMP_MeshInfo(UnityEngine::Mesh* mesh_ = {}, int vertexCount_ = {}, ::ArrayWrapper<UnityEngine::Vector3> vertices_ = {}, ::ArrayWrapper<UnityEngine::Vector3> normals_ = {}, ::ArrayWrapper<UnityEngine::Vector4> tangents_ = {}, ::ArrayWrapper<UnityEngine::Vector2> uvs0_ = {}, ::ArrayWrapper<UnityEngine::Vector2> uvs2_ = {}, ::ArrayWrapper<UnityEngine::Color32> colors32_ = {}, ::ArrayWrapper<int> triangles_ = {}) noexcept : mesh{mesh_}, vertexCount{vertexCount_}, vertices{vertices_}, normals{normals_}, tangents{tangents_}, uvs0{uvs0_}, uvs2{uvs2_}, colors32{colors32_}, triangles{triangles_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -132,21 +132,21 @@ namespace TMPro {
     // Get instance field reference: public System.Int32 vertexCount
     int& dyn_vertexCount();
     // Get instance field reference: public UnityEngine.Vector3[] vertices
-    ::Array<UnityEngine::Vector3>*& dyn_vertices();
+    ::ArrayWrapper<UnityEngine::Vector3>& dyn_vertices();
     // Get instance field reference: public UnityEngine.Vector3[] normals
-    ::Array<UnityEngine::Vector3>*& dyn_normals();
+    ::ArrayWrapper<UnityEngine::Vector3>& dyn_normals();
     // Get instance field reference: public UnityEngine.Vector4[] tangents
-    ::Array<UnityEngine::Vector4>*& dyn_tangents();
+    ::ArrayWrapper<UnityEngine::Vector4>& dyn_tangents();
     // Get instance field reference: public UnityEngine.Vector2[] uvs0
-    ::Array<UnityEngine::Vector2>*& dyn_uvs0();
+    ::ArrayWrapper<UnityEngine::Vector2>& dyn_uvs0();
     // Get instance field reference: public UnityEngine.Vector2[] uvs2
-    ::Array<UnityEngine::Vector2>*& dyn_uvs2();
+    ::ArrayWrapper<UnityEngine::Vector2>& dyn_uvs2();
     // Get instance field reference: public UnityEngine.Color32[] colors32
-    ::Array<UnityEngine::Color32>*& dyn_colors32();
+    ::ArrayWrapper<UnityEngine::Color32>& dyn_colors32();
     // Get instance field reference: public System.Int32[] triangles
-    ::Array<int>*& dyn_triangles();
+    ::ArrayWrapper<int>& dyn_triangles();
     // public System.Void .ctor(UnityEngine.Mesh mesh, System.Int32 size)
-    // Offset: 0x1152358
+    // Offset: 0x1220F08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TMP_MeshInfo(UnityEngine::Mesh* mesh, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_MeshInfo::.ctor");
@@ -154,7 +154,7 @@ namespace TMPro {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, mesh, size);
     }
     // public System.Void .ctor(UnityEngine.Mesh mesh, System.Int32 size, System.Boolean isVolumetric)
-    // Offset: 0x1152864
+    // Offset: 0x1221414
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TMP_MeshInfo(UnityEngine::Mesh* mesh, int size, bool isVolumetric) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_MeshInfo::.ctor");
@@ -162,41 +162,41 @@ namespace TMPro {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, mesh, size, isVolumetric);
     }
     // static private System.Void .cctor()
-    // Offset: 0x1154C3C
+    // Offset: 0x12237EC
     static void _cctor();
     // public System.Void ResizeMeshInfo(System.Int32 size)
-    // Offset: 0x1153174
+    // Offset: 0x1221D24
     void ResizeMeshInfo(int size);
     // public System.Void ResizeMeshInfo(System.Int32 size, System.Boolean isVolumetric)
-    // Offset: 0x1153644
+    // Offset: 0x12221F4
     void ResizeMeshInfo(int size, bool isVolumetric);
     // public System.Void Clear()
-    // Offset: 0x11540EC
+    // Offset: 0x1222C9C
     void Clear();
     // public System.Void Clear(System.Boolean uploadChanges)
-    // Offset: 0x11541A0
+    // Offset: 0x1222D50
     void Clear(bool uploadChanges);
     // public System.Void ClearUnusedVertices()
-    // Offset: 0x11542FC
+    // Offset: 0x1222EAC
     void ClearUnusedVertices();
     // public System.Void ClearUnusedVertices(System.Int32 startIndex)
-    // Offset: 0x1154334
+    // Offset: 0x1222EE4
     void ClearUnusedVertices(int startIndex);
     // public System.Void ClearUnusedVertices(System.Int32 startIndex, System.Boolean updateMesh)
-    // Offset: 0x1154364
+    // Offset: 0x1222F14
     void ClearUnusedVertices(int startIndex, bool updateMesh);
     // public System.Void SortGeometry(TMPro.VertexSortingOrder order)
-    // Offset: 0x1154438
+    // Offset: 0x1222FE8
     void SortGeometry(TMPro::VertexSortingOrder order);
     // public System.Void SortGeometry(System.Collections.Generic.IList`1<System.Int32> sortingOrder)
-    // Offset: 0x1154A50
+    // Offset: 0x1223600
     void SortGeometry(System::Collections::Generic::IList_1<int>* sortingOrder);
     // public System.Void SwapVertexData(System.Int32 src, System.Int32 dst)
-    // Offset: 0x11544B8
+    // Offset: 0x1223068
     void SwapVertexData(int src, int dst);
   }; // TMPro.TMP_MeshInfo
   #pragma pack(pop)
-  static check_size<sizeof(TMP_MeshInfo), 64 + sizeof(::Array<int>*)> __TMPro_TMP_MeshInfoSizeCheck;
+  static check_size<sizeof(TMP_MeshInfo), 64 + sizeof(::ArrayWrapper<int>)> __TMPro_TMP_MeshInfoSizeCheck;
   static_assert(sizeof(TMP_MeshInfo) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MeshInfo, "TMPro", "TMP_MeshInfo");

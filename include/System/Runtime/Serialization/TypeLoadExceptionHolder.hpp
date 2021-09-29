@@ -33,10 +33,10 @@ namespace System::Runtime::Serialization {
     // Get instance field reference: private System.String m_typeName
     ::Il2CppString*& dyn_m_typeName();
     // System.String get_TypeName()
-    // Offset: 0x16C5E90
+    // Offset: 0x191917C
     ::Il2CppString* get_TypeName();
     // System.Void .ctor(System.String typeName)
-    // Offset: 0x16C5E64
+    // Offset: 0x1919150
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeLoadExceptionHolder* New_ctor(::Il2CppString* typeName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::TypeLoadExceptionHolder::.ctor");

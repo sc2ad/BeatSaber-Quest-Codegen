@@ -29,10 +29,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithRoomList
     MessageWithRoomList() noexcept {}
     // protected Oculus.Platform.Models.RoomList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x15347F4
+    // Offset: 0x16BD53C
     Oculus::Platform::Models::RoomList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x152AFB4
+    // Offset: 0x16B3CFC
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -42,7 +42,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithRoomList*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.RoomList GetRoomList()
-    // Offset: 0x15347B0
+    // Offset: 0x16BD4F8
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.RoomList Message::GetRoomList()
     Oculus::Platform::Models::RoomList* GetRoomList();

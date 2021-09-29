@@ -68,15 +68,15 @@ namespace System::Text::RegularExpressions {
     // System.Int32[][] _matches
     // Size: 0x8
     // Offset: 0x58
-    ::Array<::Array<int>*>* matches;
+    ::ArrayWrapper<::ArrayWrapper<int>> matches;
     // Field size check
-    static_assert(sizeof(::Array<::Array<int>*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::ArrayWrapper<int>>) == 0x8);
     // System.Int32[] _matchcount
     // Size: 0x8
     // Offset: 0x60
-    ::Array<int>* matchcount;
+    ::ArrayWrapper<int> matchcount;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // System.Boolean _balancing
     // Size: 0x1
     // Offset: 0x68
@@ -84,7 +84,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: Match
-    Match(System::Text::RegularExpressions::GroupCollection* groupcoll_ = {}, System::Text::RegularExpressions::Regex* regex_ = {}, int textbeg_ = {}, int textpos_ = {}, int textend_ = {}, int textstart_ = {}, ::Array<::Array<int>*>* matches_ = {}, ::Array<int>* matchcount_ = {}, bool balancing_ = {}) noexcept : groupcoll{groupcoll_}, regex{regex_}, textbeg{textbeg_}, textpos{textpos_}, textend{textend_}, textstart{textstart_}, matches{matches_}, matchcount{matchcount_}, balancing{balancing_} {}
+    Match(System::Text::RegularExpressions::GroupCollection* groupcoll_ = {}, System::Text::RegularExpressions::Regex* regex_ = {}, int textbeg_ = {}, int textpos_ = {}, int textend_ = {}, int textstart_ = {}, ::ArrayWrapper<::ArrayWrapper<int>> matches_ = {}, ::ArrayWrapper<int> matchcount_ = {}, bool balancing_ = {}) noexcept : groupcoll{groupcoll_}, regex{regex_}, textbeg{textbeg_}, textpos{textpos_}, textend{textend_}, textstart{textstart_}, matches{matches_}, matchcount{matchcount_}, balancing{balancing_} {}
     // Get static field: static System.Text.RegularExpressions.Match _empty
     static System::Text::RegularExpressions::Match* _get__empty();
     // Set static field: static System.Text.RegularExpressions.Match _empty
@@ -102,58 +102,64 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Int32 _textstart
     int& dyn__textstart();
     // Get instance field reference: System.Int32[][] _matches
-    ::Array<::Array<int>*>*& dyn__matches();
+    ::ArrayWrapper<::ArrayWrapper<int>>& dyn__matches();
     // Get instance field reference: System.Int32[] _matchcount
-    ::Array<int>*& dyn__matchcount();
+    ::ArrayWrapper<int>& dyn__matchcount();
     // Get instance field reference: System.Boolean _balancing
     bool& dyn__balancing();
     // static public System.Text.RegularExpressions.Match get_Empty()
-    // Offset: 0x186FA28
+    // Offset: 0x19E1E6C
     static System::Text::RegularExpressions::Match* get_Empty();
     // public System.Text.RegularExpressions.GroupCollection get_Groups()
-    // Offset: 0x186FC54
+    // Offset: 0x19E2098
     System::Text::RegularExpressions::GroupCollection* get_Groups();
     // System.Void .ctor(System.Text.RegularExpressions.Regex regex, System.Int32 capcount, System.String text, System.Int32 begpos, System.Int32 len, System.Int32 startpos)
-    // Offset: 0x186FA90
+    // Offset: 0x19E1ED4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Match* New_ctor(System::Text::RegularExpressions::Regex* regex, int capcount, ::Il2CppString* text, int begpos, int len, int startpos) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::Match::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Match*, creationType>(regex, capcount, text, begpos, len, startpos)));
     }
     // System.Void Reset(System.Text.RegularExpressions.Regex regex, System.String text, System.Int32 textbeg, System.Int32 textend, System.Int32 textstart)
-    // Offset: 0x186FBEC
+    // Offset: 0x19E2030
     void Reset(System::Text::RegularExpressions::Regex* regex, ::Il2CppString* text, int textbeg, int textend, int textstart);
     // public System.Text.RegularExpressions.Match NextMatch()
-    // Offset: 0x186FCC4
+    // Offset: 0x19E2108
     System::Text::RegularExpressions::Match* NextMatch();
+    // System.String GroupToStringImpl(System.Int32 groupnum)
+    // Offset: 0x19E2400
+    ::Il2CppString* GroupToStringImpl(int groupnum);
+    // System.String LastGroupToStringImpl()
+    // Offset: 0x19E2500
+    ::Il2CppString* LastGroupToStringImpl();
     // System.Void AddMatch(System.Int32 cap, System.Int32 start, System.Int32 len)
-    // Offset: 0x186FFBC
+    // Offset: 0x19E2528
     void AddMatch(int cap, int start, int len);
     // System.Void BalanceMatch(System.Int32 cap)
-    // Offset: 0x187021C
+    // Offset: 0x19E2788
     void BalanceMatch(int cap);
     // System.Void RemoveMatch(System.Int32 cap)
-    // Offset: 0x1870300
+    // Offset: 0x19E286C
     void RemoveMatch(int cap);
     // System.Boolean IsMatched(System.Int32 cap)
-    // Offset: 0x1870344
+    // Offset: 0x19E28B0
     bool IsMatched(int cap);
     // System.Int32 MatchIndex(System.Int32 cap)
-    // Offset: 0x18703E0
+    // Offset: 0x19E294C
     int MatchIndex(int cap);
     // System.Int32 MatchLength(System.Int32 cap)
-    // Offset: 0x1870478
+    // Offset: 0x19E29E4
     int MatchLength(int cap);
     // System.Void Tidy(System.Int32 textpos)
-    // Offset: 0x1870510
+    // Offset: 0x19E2A7C
     void Tidy(int textpos);
     // static private System.Void .cctor()
-    // Offset: 0x18706A4
+    // Offset: 0x19E2C10
     // Implemented from: System.Text.RegularExpressions.Group
     // Base method: System.Void Group::.cctor()
     static void _cctor();
     // System.Void .ctor()
-    // Offset: 0x1870738
+    // Offset: 0x19E2CA4
     // Implemented from: System.Text.RegularExpressions.Group
     // Base method: System.Void Group::.ctor()
     // Base method: System.Void Capture::.ctor()
@@ -209,6 +215,23 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::Match* (System::Text::RegularExpressions::Match::*)()>(&System::Text::RegularExpressions::Match::NextMatch)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::Match*), "NextMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: System::Text::RegularExpressions::Match::GroupToStringImpl
+// Il2CppName: GroupToStringImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::RegularExpressions::Match::*)(int)>(&System::Text::RegularExpressions::Match::GroupToStringImpl)> {
+  static const MethodInfo* get() {
+    static auto* groupnum = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::Match*), "GroupToStringImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{groupnum});
+  }
+};
+// Writing MetadataGetter for method: System::Text::RegularExpressions::Match::LastGroupToStringImpl
+// Il2CppName: LastGroupToStringImpl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::RegularExpressions::Match::*)()>(&System::Text::RegularExpressions::Match::LastGroupToStringImpl)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::Match*), "LastGroupToStringImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: System::Text::RegularExpressions::Match::AddMatch

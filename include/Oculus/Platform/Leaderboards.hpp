@@ -36,31 +36,31 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Leaderboards
     Leaderboards() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LeaderboardEntryList> GetNextEntries(Oculus.Platform.Models.LeaderboardEntryList list)
-    // Offset: 0x1524C60
+    // Offset: 0x16AD9A8
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* GetNextEntries(Oculus::Platform::Models::LeaderboardEntryList* list);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LeaderboardEntryList> GetPreviousEntries(Oculus.Platform.Models.LeaderboardEntryList list)
-    // Offset: 0x1524D90
+    // Offset: 0x16ADAD8
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* GetPreviousEntries(Oculus::Platform::Models::LeaderboardEntryList* list);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LeaderboardList> Get(System.String leaderboardName)
-    // Offset: 0x1524EC0
+    // Offset: 0x16ADC08
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardList*>* Get(::Il2CppString* leaderboardName);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LeaderboardEntryList> GetEntries(System.String leaderboardName, System.Int32 limit, Oculus.Platform.LeaderboardFilterType filter, Oculus.Platform.LeaderboardStartAt startAt)
-    // Offset: 0x1524FDC
+    // Offset: 0x16ADD24
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* GetEntries(::Il2CppString* leaderboardName, int limit, Oculus::Platform::LeaderboardFilterType filter, Oculus::Platform::LeaderboardStartAt startAt);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LeaderboardEntryList> GetEntriesAfterRank(System.String leaderboardName, System.Int32 limit, System.UInt64 afterRank)
-    // Offset: 0x1525118
+    // Offset: 0x16ADE60
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* GetEntriesAfterRank(::Il2CppString* leaderboardName, int limit, uint64_t afterRank);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LeaderboardEntryList> GetEntriesByIds(System.String leaderboardName, System.Int32 limit, Oculus.Platform.LeaderboardStartAt startAt, System.UInt64[] userIDs)
-    // Offset: 0x152524C
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* GetEntriesByIds(::Il2CppString* leaderboardName, int limit, Oculus::Platform::LeaderboardStartAt startAt, ::Array<uint64_t>* userIDs);
+    // Offset: 0x16ADF94
+    static Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* GetEntriesByIds(::Il2CppString* leaderboardName, int limit, Oculus::Platform::LeaderboardStartAt startAt, ::ArrayWrapper<uint64_t> userIDs);
     // static public Oculus.Platform.Request`1<System.Boolean> WriteEntry(System.String leaderboardName, System.Int64 score, System.Byte[] extraData, System.Boolean forceUpdate)
-    // Offset: 0x152539C
-    static Oculus::Platform::Request_1<bool>* WriteEntry(::Il2CppString* leaderboardName, int64_t score, ::Array<uint8_t>* extraData, bool forceUpdate);
+    // Offset: 0x16AE0E4
+    static Oculus::Platform::Request_1<bool>* WriteEntry(::Il2CppString* leaderboardName, int64_t score, ::ArrayWrapper<uint8_t> extraData, bool forceUpdate);
     // static public Oculus.Platform.Request`1<System.Boolean> WriteEntryWithSupplementaryMetric(System.String leaderboardName, System.Int64 score, System.Int64 supplementaryMetric, System.Byte[] extraData, System.Boolean forceUpdate)
-    // Offset: 0x15254EC
-    static Oculus::Platform::Request_1<bool>* WriteEntryWithSupplementaryMetric(::Il2CppString* leaderboardName, int64_t score, int64_t supplementaryMetric, ::Array<uint8_t>* extraData, bool forceUpdate);
+    // Offset: 0x16AE234
+    static Oculus::Platform::Request_1<bool>* WriteEntryWithSupplementaryMetric(::Il2CppString* leaderboardName, int64_t score, int64_t supplementaryMetric, ::ArrayWrapper<uint8_t> extraData, bool forceUpdate);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LeaderboardList> GetNextLeaderboardListPage(Oculus.Platform.Models.LeaderboardList list)
-    // Offset: 0x152564C
+    // Offset: 0x16AE394
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardList*>* GetNextLeaderboardListPage(Oculus::Platform::Models::LeaderboardList* list);
   }; // Oculus.Platform.Leaderboards
   #pragma pack(pop)
@@ -121,23 +121,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Leaderboards::GetEntriesByIds
 // Il2CppName: GetEntriesByIds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* (*)(::Il2CppString*, int, Oculus::Platform::LeaderboardStartAt, ::Array<uint64_t>*)>(&Oculus::Platform::Leaderboards::GetEntriesByIds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* (*)(::Il2CppString*, int, Oculus::Platform::LeaderboardStartAt, ::ArrayWrapper<uint64_t>)>(&Oculus::Platform::Leaderboards::GetEntriesByIds)> {
   static const MethodInfo* get() {
     static auto* leaderboardName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* limit = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* startAt = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "LeaderboardStartAt")->byval_arg;
-    static auto* userIDs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
+    static auto* userIDs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt64")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "GetEntriesByIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardName, limit, startAt, userIDs});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Leaderboards::WriteEntry
 // Il2CppName: WriteEntry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<bool>* (*)(::Il2CppString*, int64_t, ::Array<uint8_t>*, bool)>(&Oculus::Platform::Leaderboards::WriteEntry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<bool>* (*)(::Il2CppString*, int64_t, ::ArrayWrapper<uint8_t>, bool)>(&Oculus::Platform::Leaderboards::WriteEntry)> {
   static const MethodInfo* get() {
     static auto* leaderboardName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* score = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
-    static auto* extraData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* extraData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* forceUpdate = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "WriteEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardName, score, extraData, forceUpdate});
   }
@@ -145,12 +145,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Leaderboards::WriteEntryWithSupplementaryMetric
 // Il2CppName: WriteEntryWithSupplementaryMetric
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<bool>* (*)(::Il2CppString*, int64_t, int64_t, ::Array<uint8_t>*, bool)>(&Oculus::Platform::Leaderboards::WriteEntryWithSupplementaryMetric)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<bool>* (*)(::Il2CppString*, int64_t, int64_t, ::ArrayWrapper<uint8_t>, bool)>(&Oculus::Platform::Leaderboards::WriteEntryWithSupplementaryMetric)> {
   static const MethodInfo* get() {
     static auto* leaderboardName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* score = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* supplementaryMetric = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
-    static auto* extraData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* extraData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* forceUpdate = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "WriteEntryWithSupplementaryMetric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardName, score, supplementaryMetric, extraData, forceUpdate});
   }

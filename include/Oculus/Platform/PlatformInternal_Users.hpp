@@ -34,8 +34,8 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Users
     Users() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LinkedAccountList> GetLinkedAccounts(Oculus.Platform.ServiceProvider[] providers)
-    // Offset: 0x23B33D0
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::LinkedAccountList*>* GetLinkedAccounts(::Array<Oculus::Platform::ServiceProvider>* providers);
+    // Offset: 0x25B82F4
+    static Oculus::Platform::Request_1<Oculus::Platform::Models::LinkedAccountList*>* GetLinkedAccounts(::ArrayWrapper<Oculus::Platform::ServiceProvider> providers);
   }; // Oculus.Platform.PlatformInternal/Oculus.Platform.Users
   #pragma pack(pop)
 }
@@ -45,9 +45,9 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformInternal::Users*, "Oculus.Platf
 // Writing MetadataGetter for method: Oculus::Platform::PlatformInternal::Users::GetLinkedAccounts
 // Il2CppName: GetLinkedAccounts
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LinkedAccountList*>* (*)(::Array<Oculus::Platform::ServiceProvider>*)>(&Oculus::Platform::PlatformInternal::Users::GetLinkedAccounts)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LinkedAccountList*>* (*)(::ArrayWrapper<Oculus::Platform::ServiceProvider>)>(&Oculus::Platform::PlatformInternal::Users::GetLinkedAccounts)> {
   static const MethodInfo* get() {
-    static auto* providers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Oculus.Platform", "ServiceProvider"), 1)->byval_arg;
+    static auto* providers = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Oculus.Platform", "ServiceProvider")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::PlatformInternal::Users*), "GetLinkedAccounts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{providers});
   }
 };

@@ -35,9 +35,9 @@ namespace GlobalNamespace {
     // private ShaderVariantsSO/ShaderVariant/Variant[] _variants
     // Size: 0x8
     // Offset: 0x10
-    ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>* variants;
+    ::ArrayWrapper<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*> variants;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>) == 0x8);
     // private UnityEngine.Shader _shader
     // Size: 0x8
     // Offset: 0x18
@@ -45,21 +45,21 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Shader*) == 0x8);
     // Creating value type constructor for type: ShaderVariant
-    ShaderVariant(::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>* variants_ = {}, UnityEngine::Shader* shader_ = {}) noexcept : variants{variants_}, shader{shader_} {}
+    ShaderVariant(::ArrayWrapper<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*> variants_ = {}, UnityEngine::Shader* shader_ = {}) noexcept : variants{variants_}, shader{shader_} {}
     // Get instance field reference: private ShaderVariantsSO/ShaderVariant/Variant[] _variants
-    ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>*& dyn__variants();
+    ::ArrayWrapper<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>& dyn__variants();
     // Get instance field reference: private UnityEngine.Shader _shader
     UnityEngine::Shader*& dyn__shader();
     // public ShaderVariantsSO/ShaderVariant/Variant[] get_variants()
-    // Offset: 0x2390C7C
-    ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>* get_variants();
+    // Offset: 0x258B588
+    ::ArrayWrapper<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*> get_variants();
     // public UnityEngine.Shader get_shader()
-    // Offset: 0x2390C84
+    // Offset: 0x258B590
     UnityEngine::Shader* get_shader();
     // public System.Void .ctor(UnityEngine.Shader shader, ShaderVariantsSO/ShaderVariant/Variant[] variants)
-    // Offset: 0x2390C8C
+    // Offset: 0x258B598
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ShaderVariantsSO::ShaderVariant* New_ctor(UnityEngine::Shader* shader, ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>* variants) {
+    static ShaderVariantsSO::ShaderVariant* New_ctor(UnityEngine::Shader* shader, ::ArrayWrapper<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*> variants) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ShaderVariantsSO::ShaderVariant::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShaderVariantsSO::ShaderVariant*, creationType>(shader, variants)));
     }
@@ -73,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderVariantsSO::ShaderVariant*, "", "S
 // Writing MetadataGetter for method: GlobalNamespace::ShaderVariantsSO::ShaderVariant::get_variants
 // Il2CppName: get_variants
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>* (GlobalNamespace::ShaderVariantsSO::ShaderVariant::*)()>(&GlobalNamespace::ShaderVariantsSO::ShaderVariant::get_variants)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*> (GlobalNamespace::ShaderVariantsSO::ShaderVariant::*)()>(&GlobalNamespace::ShaderVariantsSO::ShaderVariant::get_variants)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShaderVariantsSO::ShaderVariant*), "get_variants", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

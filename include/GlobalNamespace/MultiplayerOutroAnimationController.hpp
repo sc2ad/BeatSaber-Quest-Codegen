@@ -58,7 +58,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerOutroAnimationController : public UnityEngine::MonoBehaviour {
     public:
-    // [HeaderAttribute] Offset: 0xE41008
+    // [HeaderAttribute] Offset: 0xF0999C
     // private UnityEngine.Playables.PlayableDirector _outroPlayableDirector
     // Size: 0x8
     // Offset: 0x18
@@ -68,34 +68,34 @@ namespace GlobalNamespace {
     // private System.String[] _playerTimelineTrackNames
     // Size: 0x8
     // Offset: 0x20
-    ::Array<::Il2CppString*>* playerTimelineTrackNames;
+    ::ArrayWrapper<::Il2CppString*> playerTimelineTrackNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // private System.String[] _ringTimelineTrackNames
     // Size: 0x8
     // Offset: 0x28
-    ::Array<::Il2CppString*>* ringTimelineTrackNames;
+    ::ArrayWrapper<::Il2CppString*> ringTimelineTrackNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // private System.String[] _resultsTimelineTrackNames
     // Size: 0x8
     // Offset: 0x30
-    ::Array<::Il2CppString*>* resultsTimelineTrackNames;
+    ::ArrayWrapper<::Il2CppString*> resultsTimelineTrackNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // private UnityEngine.PropertyName[] _playerTimelinePropertyNames
     // Size: 0x8
     // Offset: 0x38
-    ::Array<UnityEngine::PropertyName>* playerTimelinePropertyNames;
+    ::ArrayWrapper<UnityEngine::PropertyName> playerTimelinePropertyNames;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::PropertyName>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::PropertyName>) == 0x8);
     // private UnityEngine.PropertyName[] _resultsTimelinePropertyNames
     // Size: 0x8
     // Offset: 0x40
-    ::Array<UnityEngine::PropertyName>* resultsTimelinePropertyNames;
+    ::ArrayWrapper<UnityEngine::PropertyName> resultsTimelinePropertyNames;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::PropertyName>*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE410F4
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::PropertyName>) == 0x8);
+    // [HeaderAttribute] Offset: 0xF09A88
     // private System.String _localPlayerTrackName
     // Size: 0x8
     // Offset: 0x48
@@ -110,19 +110,19 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::PropertyName) == 0x4);
     // Padding between fields: localPlayerTimelinePropertyName and: badgeTimelineTrackNames
     char __padding7[0x4] = {};
-    // [HeaderAttribute] Offset: 0xE41178
+    // [HeaderAttribute] Offset: 0xF09B0C
     // private System.String[] _badgeTimelineTrackNames
     // Size: 0x8
     // Offset: 0x58
-    ::Array<::Il2CppString*>* badgeTimelineTrackNames;
+    ::ArrayWrapper<::Il2CppString*> badgeTimelineTrackNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // private UnityEngine.PropertyName[] _badgeTimelinePropertyNames
     // Size: 0x8
     // Offset: 0x60
-    ::Array<UnityEngine::PropertyName>* badgeTimelinePropertyNames;
+    ::ArrayWrapper<UnityEngine::PropertyName> badgeTimelinePropertyNames;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::PropertyName>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::PropertyName>) == 0x8);
     // private UnityEngine.Transform _badgeStartTransform
     // Size: 0x8
     // Offset: 0x68
@@ -135,7 +135,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform* badgeMidTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE4121C
+    // [HeaderAttribute] Offset: 0xF09BB0
     // private System.String _songPreviewTrackName
     // Size: 0x8
     // Offset: 0x78
@@ -148,7 +148,7 @@ namespace GlobalNamespace {
     ::Il2CppString* resultsMocksActivationTrack;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE41278
+    // [SpaceAttribute] Offset: 0xF09C0C
     // private MultiplayerScoreRingManager _multiplayerScoreRingManager
     // Size: 0x8
     // Offset: 0x88
@@ -161,21 +161,21 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerResultsPyramidView* multiplayerResultsPyramidView;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerResultsPyramidView*) == 0x8);
-    // [InjectAttribute] Offset: 0xE412C0
+    // [InjectAttribute] Offset: 0xF09C54
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x98
     GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE412D0
+    // [InjectAttribute] Offset: 0xF09C64
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0xA0
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE412E0
+    // [InjectAttribute] Offset: 0xF09C74
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0xA8
@@ -189,29 +189,29 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
     // Creating value type constructor for type: MultiplayerOutroAnimationController
-    MultiplayerOutroAnimationController(UnityEngine::Playables::PlayableDirector* outroPlayableDirector_ = {}, ::Array<::Il2CppString*>* playerTimelineTrackNames_ = {}, ::Array<::Il2CppString*>* ringTimelineTrackNames_ = {}, ::Array<::Il2CppString*>* resultsTimelineTrackNames_ = {}, ::Array<UnityEngine::PropertyName>* playerTimelinePropertyNames_ = {}, ::Array<UnityEngine::PropertyName>* resultsTimelinePropertyNames_ = {}, ::Il2CppString* localPlayerTrackName_ = {}, UnityEngine::PropertyName localPlayerTimelinePropertyName_ = {}, ::Array<::Il2CppString*>* badgeTimelineTrackNames_ = {}, ::Array<UnityEngine::PropertyName>* badgeTimelinePropertyNames_ = {}, UnityEngine::Transform* badgeStartTransform_ = {}, UnityEngine::Transform* badgeMidTransform_ = {}, ::Il2CppString* songPreviewTrackName_ = {}, ::Il2CppString* resultsMocksActivationTrack_ = {}, GlobalNamespace::MultiplayerScoreRingManager* multiplayerScoreRingManager_ = {}, GlobalNamespace::MultiplayerResultsPyramidView* multiplayerResultsPyramidView_ = {}, GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData_ = {}, System::Action* onCompleted_ = {}) noexcept : outroPlayableDirector{outroPlayableDirector_}, playerTimelineTrackNames{playerTimelineTrackNames_}, ringTimelineTrackNames{ringTimelineTrackNames_}, resultsTimelineTrackNames{resultsTimelineTrackNames_}, playerTimelinePropertyNames{playerTimelinePropertyNames_}, resultsTimelinePropertyNames{resultsTimelinePropertyNames_}, localPlayerTrackName{localPlayerTrackName_}, localPlayerTimelinePropertyName{localPlayerTimelinePropertyName_}, badgeTimelineTrackNames{badgeTimelineTrackNames_}, badgeTimelinePropertyNames{badgeTimelinePropertyNames_}, badgeStartTransform{badgeStartTransform_}, badgeMidTransform{badgeMidTransform_}, songPreviewTrackName{songPreviewTrackName_}, resultsMocksActivationTrack{resultsMocksActivationTrack_}, multiplayerScoreRingManager{multiplayerScoreRingManager_}, multiplayerResultsPyramidView{multiplayerResultsPyramidView_}, multiplayerPlayersManager{multiplayerPlayersManager_}, multiplayerSessionManager{multiplayerSessionManager_}, sceneSetupData{sceneSetupData_}, onCompleted{onCompleted_} {}
+    MultiplayerOutroAnimationController(UnityEngine::Playables::PlayableDirector* outroPlayableDirector_ = {}, ::ArrayWrapper<::Il2CppString*> playerTimelineTrackNames_ = {}, ::ArrayWrapper<::Il2CppString*> ringTimelineTrackNames_ = {}, ::ArrayWrapper<::Il2CppString*> resultsTimelineTrackNames_ = {}, ::ArrayWrapper<UnityEngine::PropertyName> playerTimelinePropertyNames_ = {}, ::ArrayWrapper<UnityEngine::PropertyName> resultsTimelinePropertyNames_ = {}, ::Il2CppString* localPlayerTrackName_ = {}, UnityEngine::PropertyName localPlayerTimelinePropertyName_ = {}, ::ArrayWrapper<::Il2CppString*> badgeTimelineTrackNames_ = {}, ::ArrayWrapper<UnityEngine::PropertyName> badgeTimelinePropertyNames_ = {}, UnityEngine::Transform* badgeStartTransform_ = {}, UnityEngine::Transform* badgeMidTransform_ = {}, ::Il2CppString* songPreviewTrackName_ = {}, ::Il2CppString* resultsMocksActivationTrack_ = {}, GlobalNamespace::MultiplayerScoreRingManager* multiplayerScoreRingManager_ = {}, GlobalNamespace::MultiplayerResultsPyramidView* multiplayerResultsPyramidView_ = {}, GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData_ = {}, System::Action* onCompleted_ = {}) noexcept : outroPlayableDirector{outroPlayableDirector_}, playerTimelineTrackNames{playerTimelineTrackNames_}, ringTimelineTrackNames{ringTimelineTrackNames_}, resultsTimelineTrackNames{resultsTimelineTrackNames_}, playerTimelinePropertyNames{playerTimelinePropertyNames_}, resultsTimelinePropertyNames{resultsTimelinePropertyNames_}, localPlayerTrackName{localPlayerTrackName_}, localPlayerTimelinePropertyName{localPlayerTimelinePropertyName_}, badgeTimelineTrackNames{badgeTimelineTrackNames_}, badgeTimelinePropertyNames{badgeTimelinePropertyNames_}, badgeStartTransform{badgeStartTransform_}, badgeMidTransform{badgeMidTransform_}, songPreviewTrackName{songPreviewTrackName_}, resultsMocksActivationTrack{resultsMocksActivationTrack_}, multiplayerScoreRingManager{multiplayerScoreRingManager_}, multiplayerResultsPyramidView{multiplayerResultsPyramidView_}, multiplayerPlayersManager{multiplayerPlayersManager_}, multiplayerSessionManager{multiplayerSessionManager_}, sceneSetupData{sceneSetupData_}, onCompleted{onCompleted_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _outroPlayableDirector
     UnityEngine::Playables::PlayableDirector*& dyn__outroPlayableDirector();
     // Get instance field reference: private System.String[] _playerTimelineTrackNames
-    ::Array<::Il2CppString*>*& dyn__playerTimelineTrackNames();
+    ::ArrayWrapper<::Il2CppString*>& dyn__playerTimelineTrackNames();
     // Get instance field reference: private System.String[] _ringTimelineTrackNames
-    ::Array<::Il2CppString*>*& dyn__ringTimelineTrackNames();
+    ::ArrayWrapper<::Il2CppString*>& dyn__ringTimelineTrackNames();
     // Get instance field reference: private System.String[] _resultsTimelineTrackNames
-    ::Array<::Il2CppString*>*& dyn__resultsTimelineTrackNames();
+    ::ArrayWrapper<::Il2CppString*>& dyn__resultsTimelineTrackNames();
     // Get instance field reference: private UnityEngine.PropertyName[] _playerTimelinePropertyNames
-    ::Array<UnityEngine::PropertyName>*& dyn__playerTimelinePropertyNames();
+    ::ArrayWrapper<UnityEngine::PropertyName>& dyn__playerTimelinePropertyNames();
     // Get instance field reference: private UnityEngine.PropertyName[] _resultsTimelinePropertyNames
-    ::Array<UnityEngine::PropertyName>*& dyn__resultsTimelinePropertyNames();
+    ::ArrayWrapper<UnityEngine::PropertyName>& dyn__resultsTimelinePropertyNames();
     // Get instance field reference: private System.String _localPlayerTrackName
     ::Il2CppString*& dyn__localPlayerTrackName();
     // Get instance field reference: private UnityEngine.PropertyName _localPlayerTimelinePropertyName
     UnityEngine::PropertyName& dyn__localPlayerTimelinePropertyName();
     // Get instance field reference: private System.String[] _badgeTimelineTrackNames
-    ::Array<::Il2CppString*>*& dyn__badgeTimelineTrackNames();
+    ::ArrayWrapper<::Il2CppString*>& dyn__badgeTimelineTrackNames();
     // Get instance field reference: private UnityEngine.PropertyName[] _badgeTimelinePropertyNames
-    ::Array<UnityEngine::PropertyName>*& dyn__badgeTimelinePropertyNames();
+    ::ArrayWrapper<UnityEngine::PropertyName>& dyn__badgeTimelinePropertyNames();
     // Get instance field reference: private UnityEngine.Transform _badgeStartTransform
     UnityEngine::Transform*& dyn__badgeStartTransform();
     // Get instance field reference: private UnityEngine.Transform _badgeMidTransform
@@ -233,34 +233,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action _onCompleted
     System::Action*& dyn__onCompleted();
     // protected System.Void Start()
-    // Offset: 0x108D990
+    // Offset: 0x117CF04
     void Start();
     // protected System.Void OnValidate()
-    // Offset: 0x108DB04
+    // Offset: 0x117CFD8
     void OnValidate();
     // protected System.Void OnDestroy()
-    // Offset: 0x108E220
+    // Offset: 0x117D6F4
     void OnDestroy();
     // public System.Void AnimateOutro(MultiplayerResultsData multiplayerResultsData, System.Action onCompleted)
-    // Offset: 0x108E394
+    // Offset: 0x117D7C8
     void AnimateOutro(GlobalNamespace::MultiplayerResultsData* multiplayerResultsData, System::Action* onCompleted);
     // private System.Void BindOutroTimeline()
-    // Offset: 0x108E54C
+    // Offset: 0x117D980
     void BindOutroTimeline();
     // private System.Void BindRingsAndAudio(UnityEngine.GameObject[] rings, System.Boolean isMock, System.Boolean isDuel, MultiplayerTimelineMock timelineMock)
-    // Offset: 0x108EB68
-    void BindRingsAndAudio(::Array<UnityEngine::GameObject*>* rings, bool isMock, bool isDuel, GlobalNamespace::MultiplayerTimelineMock* timelineMock);
+    // Offset: 0x117DFA0
+    void BindRingsAndAudio(::ArrayWrapper<UnityEngine::GameObject*> rings, bool isMock, bool isDuel, GlobalNamespace::MultiplayerTimelineMock* timelineMock);
     // public System.Void SetTimelineMock(MultiplayerTimelineMock multiplayerIntroTimelineMock, System.Boolean isDuel)
-    // Offset: 0x108F464
+    // Offset: 0x117E89C
     void SetTimelineMock(GlobalNamespace::MultiplayerTimelineMock* multiplayerIntroTimelineMock, bool isDuel);
     // public System.Void Completed()
-    // Offset: 0x108F6F8
+    // Offset: 0x117EB30
     void Completed();
     // private System.Void HandlePlayerSpawningDidFinish()
-    // Offset: 0x108DA34
+    // Offset: 0x117CFAC
     void HandlePlayerSpawningDidFinish();
     // public System.Void .ctor()
-    // Offset: 0x108F714
+    // Offset: 0x117EB4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -324,9 +324,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerOutroAnimationController::BindRingsAndAudio
 // Il2CppName: BindRingsAndAudio
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOutroAnimationController::*)(::Array<UnityEngine::GameObject*>*, bool, bool, GlobalNamespace::MultiplayerTimelineMock*)>(&GlobalNamespace::MultiplayerOutroAnimationController::BindRingsAndAudio)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOutroAnimationController::*)(::ArrayWrapper<UnityEngine::GameObject*>, bool, bool, GlobalNamespace::MultiplayerTimelineMock*)>(&GlobalNamespace::MultiplayerOutroAnimationController::BindRingsAndAudio)> {
   static const MethodInfo* get() {
-    static auto* rings = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject"), 1)->byval_arg;
+    static auto* rings = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")), 1)->byval_arg;
     static auto* isMock = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* isDuel = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* timelineMock = &::il2cpp_utils::GetClassFromName("", "MultiplayerTimelineMock")->byval_arg;

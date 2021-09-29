@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     struct $UserAuthenticationDataAsync$d__3;
     // Nested type: GlobalNamespace::UserLoginDtoDataSource::$GetUserFriendsUserIds$d__4
     struct $GetUserFriendsUserIds$d__4;
-    // [InjectAttribute] Offset: 0xE3AF78
+    // [InjectAttribute] Offset: 0xF0375C
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8
     // Offset: 0x10
@@ -80,16 +80,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IPlatformUserModel _platformUserModel
     GlobalNamespace::IPlatformUserModel*& dyn__platformUserModel();
     // public System.Threading.Tasks.Task`1<System.String> GetPlatformUserIdAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x129BC44
+    // Offset: 0x13463FC
     System::Threading::Tasks::Task_1<::Il2CppString*>* GetPlatformUserIdAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<BeatSaberAPI.DataTransferObjects.UserAuthenticationData> UserAuthenticationDataAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x129BD44
+    // Offset: 0x13464FC
     System::Threading::Tasks::Task_1<BeatSaberAPI::DataTransferObjects::UserAuthenticationData*>* UserAuthenticationDataAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.String[]> GetUserFriendsUserIds(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x129BE48
-    System::Threading::Tasks::Task_1<::Array<::Il2CppString*>*>* GetUserFriendsUserIds(System::Threading::CancellationToken cancellationToken);
+    // Offset: 0x1346600
+    System::Threading::Tasks::Task_1<::ArrayWrapper<::Il2CppString*>>* GetUserFriendsUserIds(System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x129BF48
+    // Offset: 0x1346700
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: GlobalNamespace::UserLoginDtoDataSource::GetUserFriendsUserIds
 // Il2CppName: GetUserFriendsUserIds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Array<::Il2CppString*>*>* (GlobalNamespace::UserLoginDtoDataSource::*)(System::Threading::CancellationToken)>(&GlobalNamespace::UserLoginDtoDataSource::GetUserFriendsUserIds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::ArrayWrapper<::Il2CppString*>>* (GlobalNamespace::UserLoginDtoDataSource::*)(System::Threading::CancellationToken)>(&GlobalNamespace::UserLoginDtoDataSource::GetUserFriendsUserIds)> {
   static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UserLoginDtoDataSource*), "GetUserFriendsUserIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});

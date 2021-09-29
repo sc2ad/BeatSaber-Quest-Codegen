@@ -48,7 +48,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     // Get instance field reference: public System.Boolean IsDone
     bool& dyn_IsDone();
     // public System.Single get_Percent()
-    // Offset: 0x19EAD2C
+    // Offset: 0x1B5FBD4
     float get_Percent();
   }; // UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus
   #pragma pack(pop)

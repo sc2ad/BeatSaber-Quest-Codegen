@@ -61,16 +61,16 @@ namespace UnityEngine::TestTools {
     // Creating value type constructor for type: TestActionCommand
     TestActionCommand() noexcept {}
     // static private NUnit.Framework.ITestAction[] GetTestActionsFromMethod(System.Reflection.MethodInfo method)
-    // Offset: 0x14CBC30
-    static ::Array<NUnit::Framework::ITestAction*>* GetTestActionsFromMethod(System::Reflection::MethodInfo* method);
+    // Offset: 0x16718AC
+    static ::ArrayWrapper<NUnit::Framework::ITestAction*> GetTestActionsFromMethod(System::Reflection::MethodInfo* method);
     // protected System.Collections.IEnumerator InvokeBefore(NUnit.Framework.ITestAction action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x14CBD68
+    // Offset: 0x16719E4
     System::Collections::IEnumerator* InvokeBefore(NUnit::Framework::ITestAction* action, NUnit::Framework::Internal::Test* test, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
     // protected System.Collections.IEnumerator InvokeAfter(NUnit.Framework.ITestAction action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x14CBE10
+    // Offset: 0x1671A8C
     System::Collections::IEnumerator* InvokeAfter(NUnit::Framework::ITestAction* action, NUnit::Framework::Internal::Test* test, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
-    // Offset: 0x14BE7FC
+    // Offset: 0x1664478
     // Implemented from: NUnit.Framework.Internal.Commands.DelegatingTestCommand
     // Base method: System.Void DelegatingTestCommand::.ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -79,7 +79,7 @@ namespace UnityEngine::TestTools {
       return THROW_UNLESS((::il2cpp_utils::New<TestActionCommand*, creationType>(innerCommand)));
     }
     // protected override UnityEngine.TestTools.BeforeAfterTestCommandState GetState(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x14CBEB8
+    // Offset: 0x1671B34
     // Implemented from: UnityEngine.TestTools.BeforeAfterTestCommandBase`1
     // Base method: UnityEngine.TestTools.BeforeAfterTestCommandState BeforeAfterTestCommandBase_1::GetState(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
     UnityEngine::TestTools::BeforeAfterTestCommandState* GetState(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
@@ -90,7 +90,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestActionCommand*, "UnityEngine.
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestActionCommand::GetTestActionsFromMethod
 // Il2CppName: GetTestActionsFromMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<NUnit::Framework::ITestAction*>* (*)(System::Reflection::MethodInfo*)>(&UnityEngine::TestTools::TestActionCommand::GetTestActionsFromMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<NUnit::Framework::ITestAction*> (*)(System::Reflection::MethodInfo*)>(&UnityEngine::TestTools::TestActionCommand::GetTestActionsFromMethod)> {
   static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestActionCommand*), "GetTestActionsFromMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method});

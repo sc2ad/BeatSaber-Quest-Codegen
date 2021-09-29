@@ -22,16 +22,16 @@ namespace System::Collections::Generic {
     // Creating value type constructor for type: InternalStringComparer
     InternalStringComparer() noexcept {}
     // public System.Int32 GetHashCode(System.String obj)
-    // Offset: 0x17E25C8
+    // Offset: 0x199AE30
     int GetHashCode(::Il2CppString* obj);
     // public System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x17E25E8
+    // Offset: 0x199AE50
     bool Equals(::Il2CppString* x, ::Il2CppString* y);
     // System.Int32 IndexOf(System.String[] array, System.String value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x17E2618
-    int IndexOf(::Array<::Il2CppString*>* array, ::Il2CppString* value, int startIndex, int count);
+    // Offset: 0x199AE80
+    int IndexOf(::ArrayWrapper<::Il2CppString*> array, ::Il2CppString* value, int startIndex, int count);
     // public System.Void .ctor()
-    // Offset: 0x17E2680
+    // Offset: 0x199AEE8
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Void EqualityComparer_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -66,9 +66,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Collections::Generic::InternalStringComparer::IndexOf
 // Il2CppName: IndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::InternalStringComparer::*)(::Array<::Il2CppString*>*, ::Il2CppString*, int, int)>(&System::Collections::Generic::InternalStringComparer::IndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::InternalStringComparer::*)(::ArrayWrapper<::Il2CppString*>, ::Il2CppString*, int, int)>(&System::Collections::Generic::InternalStringComparer::IndexOf)> {
   static const MethodInfo* get() {
-    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

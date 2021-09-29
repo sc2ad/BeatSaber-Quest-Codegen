@@ -30,9 +30,9 @@ namespace GlobalNamespace {
     // public VRTrackersRecorder/Keyframe/KeyframeTransform[] _transforms
     // Size: 0x8
     // Offset: 0x10
-    ::Array<GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*>* transforms;
+    ::ArrayWrapper<GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*> transforms;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*>) == 0x8);
     // public System.Single _time
     // Size: 0x4
     // Offset: 0x18
@@ -40,13 +40,13 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: Keyframe
-    Keyframe(::Array<GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*>* transforms_ = {}, float time_ = {}) noexcept : transforms{transforms_}, time{time_} {}
+    Keyframe(::ArrayWrapper<GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*> transforms_ = {}, float time_ = {}) noexcept : transforms{transforms_}, time{time_} {}
     // Get instance field reference: public VRTrackersRecorder/Keyframe/KeyframeTransform[] _transforms
-    ::Array<GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*>*& dyn__transforms();
+    ::ArrayWrapper<GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*>& dyn__transforms();
     // Get instance field reference: public System.Single _time
     float& dyn__time();
     // public System.Void .ctor()
-    // Offset: 0x12A1CF8
+    // Offset: 0x134C4B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

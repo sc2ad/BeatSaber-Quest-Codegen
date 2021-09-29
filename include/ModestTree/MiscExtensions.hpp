@@ -43,8 +43,8 @@ namespace ModestTree {
     // Creating value type constructor for type: MiscExtensions
     MiscExtensions() noexcept {}
     // static public System.String Fmt(System.String s, params System.Object[] args)
-    // Offset: 0x13DAE20
-    static ::Il2CppString* Fmt(::Il2CppString* s, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x14ED014
+    static ::Il2CppString* Fmt(::Il2CppString* s, ::ArrayWrapper<::Il2CppObject*> args);
     // Creating initializer_list -> params proxy for: System.String Fmt(System.String s, params System.Object[] args)
     static ::Il2CppString* Fmt(::Il2CppString* s, std::initializer_list<::Il2CppObject*> args);
     // Creating TArgs -> initializer_list proxy for: System.String Fmt(System.String s, params System.Object[] args)
@@ -62,7 +62,7 @@ namespace ModestTree {
       return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, list, item);
     }
     // static public System.String Join(System.Collections.Generic.IEnumerable`1<System.String> values, System.String separator)
-    // Offset: 0x13DBEBC
+    // Offset: 0x14EE0B0
     static ::Il2CppString* Join(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* values, ::Il2CppString* separator);
     // static public System.Void AllocFreeAddRange(System.Collections.Generic.IList`1<T> list, System.Collections.Generic.IList`1<T> items)
     // Offset: 0xFFFFFFFF
@@ -126,10 +126,10 @@ DEFINE_IL2CPP_ARG_TYPE(ModestTree::MiscExtensions*, "ModestTree", "MiscExtension
 // Writing MetadataGetter for method: ModestTree::MiscExtensions::Fmt
 // Il2CppName: Fmt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&ModestTree::MiscExtensions::Fmt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&ModestTree::MiscExtensions::Fmt)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::MiscExtensions*), "Fmt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, args});
   }
 };

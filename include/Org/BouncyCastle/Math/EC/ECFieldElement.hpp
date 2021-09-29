@@ -31,13 +31,13 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0xFFFFFFFF
     int get_FieldSize();
     // public System.Int32 get_BitLength()
-    // Offset: 0x21419B8
+    // Offset: 0x23169BC
     int get_BitLength();
     // public System.Boolean get_IsOne()
-    // Offset: 0x21419E0
+    // Offset: 0x23169E4
     bool get_IsOne();
     // public System.Boolean get_IsZero()
-    // Offset: 0x2141A08
+    // Offset: 0x2316A0C
     bool get_IsZero();
     // public Org.BouncyCastle.Math.BigInteger ToBigInteger()
     // Offset: 0xFFFFFFFF
@@ -70,28 +70,28 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Math::EC::ECFieldElement* Sqrt();
     // public Org.BouncyCastle.Math.EC.ECFieldElement MultiplyMinusProduct(Org.BouncyCastle.Math.EC.ECFieldElement b, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y)
-    // Offset: 0x2141A38
+    // Offset: 0x2316A3C
     Org::BouncyCastle::Math::EC::ECFieldElement* MultiplyMinusProduct(Org::BouncyCastle::Math::EC::ECFieldElement* b, Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y);
     // public Org.BouncyCastle.Math.EC.ECFieldElement MultiplyPlusProduct(Org.BouncyCastle.Math.EC.ECFieldElement b, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y)
-    // Offset: 0x2141AA0
+    // Offset: 0x2316AA4
     Org::BouncyCastle::Math::EC::ECFieldElement* MultiplyPlusProduct(Org::BouncyCastle::Math::EC::ECFieldElement* b, Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y);
     // public Org.BouncyCastle.Math.EC.ECFieldElement SquarePlusProduct(Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y)
-    // Offset: 0x2141B08
+    // Offset: 0x2316B0C
     Org::BouncyCastle::Math::EC::ECFieldElement* SquarePlusProduct(Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y);
     // public Org.BouncyCastle.Math.EC.ECFieldElement SquarePow(System.Int32 pow)
-    // Offset: 0x2141B74
+    // Offset: 0x2316B78
     Org::BouncyCastle::Math::EC::ECFieldElement* SquarePow(int pow);
     // public System.Boolean TestBitZero()
-    // Offset: 0x2141BBC
+    // Offset: 0x2316BC0
     bool TestBitZero();
     // public System.Boolean Equals(Org.BouncyCastle.Math.EC.ECFieldElement other)
-    // Offset: 0x2141C84
+    // Offset: 0x2316C88
     bool Equals(Org::BouncyCastle::Math::EC::ECFieldElement* other);
     // public System.Byte[] GetEncoded()
-    // Offset: 0x2141D54
-    ::Array<uint8_t>* GetEncoded();
+    // Offset: 0x2316D58
+    ::ArrayWrapper<uint8_t> GetEncoded();
     // protected System.Void .ctor()
-    // Offset: 0x2141DB0
+    // Offset: 0x2316DB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -100,17 +100,17 @@ namespace Org::BouncyCastle::Math::EC {
       return THROW_UNLESS((::il2cpp_utils::New<ECFieldElement*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2141BE8
+    // Offset: 0x2316BEC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2141CFC
+    // Offset: 0x2316D00
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x2141D28
+    // Offset: 0x2316D2C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -296,7 +296,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECFieldElement::GetEncoded
 // Il2CppName: GetEncoded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Math::EC::ECFieldElement::*)()>(&Org::BouncyCastle::Math::EC::ECFieldElement::GetEncoded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Math::EC::ECFieldElement::*)()>(&Org::BouncyCastle::Math::EC::ECFieldElement::GetEncoded)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECFieldElement*), "GetEncoded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

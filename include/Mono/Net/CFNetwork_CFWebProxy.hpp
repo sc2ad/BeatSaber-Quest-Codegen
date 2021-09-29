@@ -66,28 +66,28 @@ namespace Mono::Net {
     // Get instance field reference: private System.Boolean userSpecified
     bool& dyn_userSpecified();
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x15EC9E8
+    // Offset: 0x17B8590
     System::Net::ICredentials* get_Credentials();
     // static private System.Uri GetProxyUri(Mono.Net.CFProxy proxy, out System.Net.NetworkCredential credentials)
-    // Offset: 0x15EC9F0
+    // Offset: 0x17B8598
     static System::Uri* GetProxyUri(Mono::Net::CFProxy* proxy, ByRef<System::Net::NetworkCredential*> credentials);
     // static private System.Uri GetProxyUriFromScript(System.IntPtr script, System.Uri targetUri, out System.Net.NetworkCredential credentials)
-    // Offset: 0x15ECF5C
+    // Offset: 0x17B8B04
     static System::Uri* GetProxyUriFromScript(System::IntPtr script, System::Uri* targetUri, ByRef<System::Net::NetworkCredential*> credentials);
     // static private System.Uri ExecuteProxyAutoConfigurationURL(System.IntPtr proxyAutoConfigURL, System.Uri targetUri, out System.Net.NetworkCredential credentials)
-    // Offset: 0x15ED0A8
+    // Offset: 0x17B8C50
     static System::Uri* ExecuteProxyAutoConfigurationURL(System::IntPtr proxyAutoConfigURL, System::Uri* targetUri, ByRef<System::Net::NetworkCredential*> credentials);
     // static private System.Uri SelectProxy(Mono.Net.CFProxy[] proxies, System.Uri targetUri, out System.Net.NetworkCredential credentials)
-    // Offset: 0x15ECFE0
-    static System::Uri* SelectProxy(::Array<Mono::Net::CFProxy*>* proxies, System::Uri* targetUri, ByRef<System::Net::NetworkCredential*> credentials);
+    // Offset: 0x17B8B88
+    static System::Uri* SelectProxy(::ArrayWrapper<Mono::Net::CFProxy*> proxies, System::Uri* targetUri, ByRef<System::Net::NetworkCredential*> credentials);
     // public System.Uri GetProxy(System.Uri targetUri)
-    // Offset: 0x15ED12C
+    // Offset: 0x17B8CD4
     System::Uri* GetProxy(System::Uri* targetUri);
     // public System.Boolean IsBypassed(System.Uri targetUri)
-    // Offset: 0x15ED5F0
+    // Offset: 0x17B9198
     bool IsBypassed(System::Uri* targetUri);
     // public System.Void .ctor()
-    // Offset: 0x15EC474
+    // Offset: 0x17B801C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -145,9 +145,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFWebProxy::SelectProxy
 // Il2CppName: SelectProxy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(::Array<Mono::Net::CFProxy*>*, System::Uri*, ByRef<System::Net::NetworkCredential*>)>(&Mono::Net::CFNetwork::CFWebProxy::SelectProxy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(::ArrayWrapper<Mono::Net::CFProxy*>, System::Uri*, ByRef<System::Net::NetworkCredential*>)>(&Mono::Net::CFNetwork::CFWebProxy::SelectProxy)> {
   static const MethodInfo* get() {
-    static auto* proxies = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Mono.Net", "CFProxy"), 1)->byval_arg;
+    static auto* proxies = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Mono.Net", "CFProxy")), 1)->byval_arg;
     static auto* targetUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* credentials = &::il2cpp_utils::GetClassFromName("System.Net", "NetworkCredential")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork::CFWebProxy*), "SelectProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{proxies, targetUri, credentials});

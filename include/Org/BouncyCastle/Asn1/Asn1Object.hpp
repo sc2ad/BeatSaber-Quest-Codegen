@@ -35,10 +35,10 @@ namespace Org::BouncyCastle::Asn1 {
     // Creating value type constructor for type: Asn1Object
     Asn1Object() noexcept {}
     // static public Org.BouncyCastle.Asn1.Asn1Object FromByteArray(System.Byte[] data)
-    // Offset: 0x1730E88
-    static Org::BouncyCastle::Asn1::Asn1Object* FromByteArray(::Array<uint8_t>* data);
+    // Offset: 0x18E2660
+    static Org::BouncyCastle::Asn1::Asn1Object* FromByteArray(::ArrayWrapper<uint8_t> data);
     // static public Org.BouncyCastle.Asn1.Asn1Object FromStream(System.IO.Stream inStr)
-    // Offset: 0x173106C
+    // Offset: 0x18E2844
     static Org::BouncyCastle::Asn1::Asn1Object* FromStream(System::IO::Stream* inStr);
     // System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     // Offset: 0xFFFFFFFF
@@ -50,13 +50,13 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0xFFFFFFFF
     int Asn1GetHashCode();
     // System.Boolean CallAsn1Equals(Org.BouncyCastle.Asn1.Asn1Object obj)
-    // Offset: 0x172CBD4
+    // Offset: 0x18DE3AC
     bool CallAsn1Equals(Org::BouncyCastle::Asn1::Asn1Object* obj);
     // System.Int32 CallAsn1GetHashCode()
-    // Offset: 0x172CAA4
+    // Offset: 0x18DE27C
     int CallAsn1GetHashCode();
     // protected System.Void .ctor()
-    // Offset: 0x1730E38
+    // Offset: 0x18E2610
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: System.Void Asn1Encodable::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -66,7 +66,7 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Object*, creationType>()));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1731194
+    // Offset: 0x18E296C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
@@ -78,9 +78,9 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1Object*, "Org.BouncyCastle.A
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1Object::FromByteArray
 // Il2CppName: FromByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Asn1::Asn1Object::FromByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Asn1::Asn1Object::FromByteArray)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1Object*), "FromByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }
 };

@@ -55,19 +55,19 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Rendering.CommandBuffer commandBuffer
     UnityEngine::Rendering::CommandBuffer*& dyn_commandBuffer();
     // public System.Int32 get_NumberOfOwners()
-    // Offset: 0x238B9C0
+    // Offset: 0x2586208
     int get_NumberOfOwners();
     // public System.Void AddOwner(UnityEngine.Object owner)
-    // Offset: 0x238BC14
+    // Offset: 0x258645C
     void AddOwner(UnityEngine::Object* owner);
     // public System.Void RemoveOwner(UnityEngine.Object owner)
-    // Offset: 0x238B94C
+    // Offset: 0x2586194
     void RemoveOwner(UnityEngine::Object* owner);
     // public System.Boolean ContainsOwner(UnityEngine.Object owner)
-    // Offset: 0x238BBAC
+    // Offset: 0x25863F4
     bool ContainsOwner(UnityEngine::Object* owner);
     // public System.Void .ctor()
-    // Offset: 0x238BCAC
+    // Offset: 0x25864F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

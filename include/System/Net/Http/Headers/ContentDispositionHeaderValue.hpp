@@ -59,23 +59,23 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> parameters
     System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*& dyn_parameters();
     // public System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> get_Parameters()
-    // Offset: 0x15A8D70
+    // Offset: 0x174D228
     System::Collections::Generic::ICollection_1<System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();
     // protected System.Void .ctor(System.Net.Http.Headers.ContentDispositionHeaderValue source)
-    // Offset: 0x15A8B78
+    // Offset: 0x174D030
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContentDispositionHeaderValue* New_ctor(System::Net::Http::Headers::ContentDispositionHeaderValue* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::ContentDispositionHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentDispositionHeaderValue*, creationType>(source)));
     }
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x15A8E24
+    // Offset: 0x174D2DC
     ::Il2CppObject* System_ICloneable_Clone();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.ContentDispositionHeaderValue parsedValue)
-    // Offset: 0x15A9038
+    // Offset: 0x174D4F0
     static bool TryParse(::Il2CppString* input, ByRef<System::Net::Http::Headers::ContentDispositionHeaderValue*> parsedValue);
     // private System.Void .ctor()
-    // Offset: 0x15A8B70
+    // Offset: 0x174D028
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -84,17 +84,17 @@ namespace System::Net::Http::Headers {
       return THROW_UNLESS((::il2cpp_utils::New<ContentDispositionHeaderValue*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x15A8E84
+    // Offset: 0x174D33C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x15A8F54
+    // Offset: 0x174D40C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x15A8FD8
+    // Offset: 0x174D490
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

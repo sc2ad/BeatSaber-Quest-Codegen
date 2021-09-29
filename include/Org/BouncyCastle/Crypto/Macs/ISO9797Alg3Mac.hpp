@@ -42,15 +42,15 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // private System.Byte[] mac
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* mac;
+    ::ArrayWrapper<uint8_t> mac;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Byte[] buf
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* buf;
+    ::ArrayWrapper<uint8_t> buf;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Int32 bufOff
     // Size: 0x4
     // Offset: 0x20
@@ -92,15 +92,15 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::KeyParameter*) == 0x8);
     // Creating value type constructor for type: ISO9797Alg3Mac
-    ISO9797Alg3Mac(::Array<uint8_t>* mac_ = {}, ::Array<uint8_t>* buf_ = {}, int bufOff_ = {}, Org::BouncyCastle::Crypto::IBlockCipher* cipher_ = {}, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding_ = {}, int macSize_ = {}, Org::BouncyCastle::Crypto::Parameters::KeyParameter* lastKey2_ = {}, Org::BouncyCastle::Crypto::Parameters::KeyParameter* lastKey3_ = {}) noexcept : mac{mac_}, buf{buf_}, bufOff{bufOff_}, cipher{cipher_}, padding{padding_}, macSize{macSize_}, lastKey2{lastKey2_}, lastKey3{lastKey3_} {}
+    ISO9797Alg3Mac(::ArrayWrapper<uint8_t> mac_ = {}, ::ArrayWrapper<uint8_t> buf_ = {}, int bufOff_ = {}, Org::BouncyCastle::Crypto::IBlockCipher* cipher_ = {}, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding_ = {}, int macSize_ = {}, Org::BouncyCastle::Crypto::Parameters::KeyParameter* lastKey2_ = {}, Org::BouncyCastle::Crypto::Parameters::KeyParameter* lastKey3_ = {}) noexcept : mac{mac_}, buf{buf_}, bufOff{bufOff_}, cipher{cipher_}, padding{padding_}, macSize{macSize_}, lastKey2{lastKey2_}, lastKey3{lastKey3_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IMac
     operator Org::BouncyCastle::Crypto::IMac() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);
     }
     // Get instance field reference: private System.Byte[] mac
-    ::Array<uint8_t>*& dyn_mac();
+    ::ArrayWrapper<uint8_t>& dyn_mac();
     // Get instance field reference: private System.Byte[] buf
-    ::Array<uint8_t>*& dyn_buf();
+    ::ArrayWrapper<uint8_t>& dyn_buf();
     // Get instance field reference: private System.Int32 bufOff
     int& dyn_bufOff();
     // Get instance field reference: private Org.BouncyCastle.Crypto.IBlockCipher cipher
@@ -114,43 +114,43 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.KeyParameter lastKey3
     Org::BouncyCastle::Crypto::Parameters::KeyParameter*& dyn_lastKey3();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
-    // Offset: 0x1917DB4
+    // Offset: 0x1A87BE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ISO9797Alg3Mac* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* cipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ISO9797Alg3Mac*, creationType>(cipher)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher, Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding padding)
-    // Offset: 0x19180BC
+    // Offset: 0x1A87EF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ISO9797Alg3Mac* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* cipher, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ISO9797Alg3Mac*, creationType>(cipher, padding)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher, System.Int32 macSizeInBits, Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding padding)
-    // Offset: 0x1917E84
+    // Offset: 0x1A87CB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ISO9797Alg3Mac* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* cipher, int macSizeInBits, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ISO9797Alg3Mac*, creationType>(cipher, macSizeInBits, padding)));
     }
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1918190
+    // Offset: 0x1A87FC4
     void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetMacSize()
-    // Offset: 0x191862C
+    // Offset: 0x1A88460
     int GetMacSize();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1918634
+    // Offset: 0x1A88468
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x191876C
-    void BlockUpdate(::Array<uint8_t>* input, int inOff, int len);
+    // Offset: 0x1A885A0
+    void BlockUpdate(::ArrayWrapper<uint8_t> input, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1918A10
-    int DoFinal(::Array<uint8_t>* output, int outOff);
+    // Offset: 0x1A88844
+    int DoFinal(::ArrayWrapper<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x191855C
+    // Offset: 0x1A88390
     void Reset();
   }; // Org.BouncyCastle.Crypto.Macs.ISO9797Alg3Mac
   #pragma pack(pop)
@@ -200,9 +200,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::BlockUpdate
 // Il2CppName: BlockUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::BlockUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::BlockUpdate)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac*), "BlockUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, inOff, len});
@@ -211,9 +211,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::DoFinal)> {
   static const MethodInfo* get() {
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{output, outOff});
   }

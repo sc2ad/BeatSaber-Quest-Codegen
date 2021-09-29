@@ -24,7 +24,7 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: CullStateChangedEvent
     CullStateChangedEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x19D9698
+    // Offset: 0x1B4E540
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

@@ -45,14 +45,14 @@ namespace System::Threading::Tasks {
     // Get instance field reference: private System.Threading.Tasks.Task m_canceledTask
     System::Threading::Tasks::Task*& dyn_m_canceledTask();
     // public System.Void .ctor(System.Threading.Tasks.Task task)
-    // Offset: 0x187B6E0
+    // Offset: 0x19B9844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskCanceledException* New_ctor(System::Threading::Tasks::Task* task) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskCanceledException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskCanceledException*, creationType>(task)));
     }
     // public System.Void .ctor()
-    // Offset: 0x187B678
+    // Offset: 0x19B97DC
     // Implemented from: System.OperationCanceledException
     // Base method: System.Void OperationCanceledException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -64,7 +64,7 @@ namespace System::Threading::Tasks {
       return THROW_UNLESS((::il2cpp_utils::New<TaskCanceledException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x187B6D8
+    // Offset: 0x19B983C
     // Implemented from: System.OperationCanceledException
     // Base method: System.Void OperationCanceledException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
@@ -75,7 +75,7 @@ namespace System::Threading::Tasks {
       return THROW_UNLESS((::il2cpp_utils::New<TaskCanceledException*, creationType>(message)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x187B77C
+    // Offset: 0x19B98E0
     // Implemented from: System.OperationCanceledException
     // Base method: System.Void OperationCanceledException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

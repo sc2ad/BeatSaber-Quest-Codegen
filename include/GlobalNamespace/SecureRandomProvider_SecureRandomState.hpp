@@ -38,15 +38,15 @@ namespace GlobalNamespace {
     // private readonly System.Byte[] _randomBuffer0
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* randomBuffer0;
+    ::ArrayWrapper<uint8_t> randomBuffer0;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private readonly System.Byte[] _randomBuffer1
     // Size: 0x8
     // Offset: 0x20
-    ::Array<uint8_t>* randomBuffer1;
+    ::ArrayWrapper<uint8_t> randomBuffer1;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Int32 _index
     // Size: 0x4
     // Offset: 0x28
@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: SecureRandomState
-    SecureRandomState(System::Security::Cryptography::RNGCryptoServiceProvider* random_ = {}, ::Array<uint8_t>* randomBuffer0_ = {}, ::Array<uint8_t>* randomBuffer1_ = {}, int index_ = {}) noexcept : random{random_}, randomBuffer0{randomBuffer0_}, randomBuffer1{randomBuffer1_}, index{index_} {}
+    SecureRandomState(System::Security::Cryptography::RNGCryptoServiceProvider* random_ = {}, ::ArrayWrapper<uint8_t> randomBuffer0_ = {}, ::ArrayWrapper<uint8_t> randomBuffer1_ = {}, int index_ = {}) noexcept : random{random_}, randomBuffer0{randomBuffer0_}, randomBuffer1{randomBuffer1_}, index{index_} {}
     // static field const value: static private System.Int32 kBufferSize
     static constexpr const int kBufferSize = 16384;
     // Get static field: static private System.Int32 kBufferSize
@@ -64,22 +64,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Security.Cryptography.RNGCryptoServiceProvider _random
     System::Security::Cryptography::RNGCryptoServiceProvider*& dyn__random();
     // Get instance field reference: private readonly System.Byte[] _randomBuffer0
-    ::Array<uint8_t>*& dyn__randomBuffer0();
+    ::ArrayWrapper<uint8_t>& dyn__randomBuffer0();
     // Get instance field reference: private readonly System.Byte[] _randomBuffer1
-    ::Array<uint8_t>*& dyn__randomBuffer1();
+    ::ArrayWrapper<uint8_t>& dyn__randomBuffer1();
     // Get instance field reference: private System.Int32 _index
     int& dyn__index();
     // public System.Void GetBytes(System.Byte[] buffer, System.Int32 offset, System.Int32 length)
-    // Offset: 0x16FE088
-    void GetBytes(::Array<uint8_t>* buffer, int offset, int length);
+    // Offset: 0x18D7B88
+    void GetBytes(::ArrayWrapper<uint8_t> buffer, int offset, int length);
     // public System.Byte GetByte()
-    // Offset: 0x16FE1BC
+    // Offset: 0x18D7CBC
     uint8_t GetByte();
     // private System.Void FillBuffer()
-    // Offset: 0x16FE48C
+    // Offset: 0x18D7F8C
     void FillBuffer();
     // public System.Void .ctor()
-    // Offset: 0x16FE3EC
+    // Offset: 0x18D7EEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -97,9 +97,9 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SecureRandomProvider::SecureRandomState*
 // Writing MetadataGetter for method: GlobalNamespace::SecureRandomProvider::SecureRandomState::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SecureRandomProvider::SecureRandomState::*)(::Array<uint8_t>*, int, int)>(&GlobalNamespace::SecureRandomProvider::SecureRandomState::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SecureRandomProvider::SecureRandomState::*)(::ArrayWrapper<uint8_t>, int, int)>(&GlobalNamespace::SecureRandomProvider::SecureRandomState::GetBytes)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SecureRandomProvider::SecureRandomState*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, offset, length});

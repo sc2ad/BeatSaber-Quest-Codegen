@@ -34,10 +34,10 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       return *reinterpret_cast<System::Collections::Generic::IComparer_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*>(this);
     }
     // public System.Int32 Compare(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p1, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p2)
-    // Offset: 0x23C93C4
+    // Offset: 0x25CE2E8
     int Compare(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2);
     // public System.Void .ctor()
-    // Offset: 0x23C8C70
+    // Offset: 0x25CDB94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

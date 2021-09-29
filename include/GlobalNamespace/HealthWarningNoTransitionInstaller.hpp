@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private HealthWarningScenesTransitionSetupDataSO _scenesTransitionSetupData
     GlobalNamespace::HealthWarningScenesTransitionSetupDataSO*& dyn__scenesTransitionSetupData();
     // public System.Void .ctor()
-    // Offset: 0x1186AD0
+    // Offset: 0x11451AC
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -69,7 +69,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningNoTransitionInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x1186A80
+    // Offset: 0x114515C
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
     void InstallBindings(Zenject::DiContainer* container);

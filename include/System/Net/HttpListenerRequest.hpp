@@ -51,9 +51,9 @@ namespace System::Net {
     // private System.String[] accept_types
     // Size: 0x8
     // Offset: 0x10
-    ::Array<::Il2CppString*>* accept_types;
+    ::ArrayWrapper<::Il2CppString*> accept_types;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // private System.Int64 content_length
     // Size: 0x8
     // Offset: 0x18
@@ -125,9 +125,9 @@ namespace System::Net {
     // private System.String[] user_languages
     // Size: 0x8
     // Offset: 0x70
-    ::Array<::Il2CppString*>* user_languages;
+    ::ArrayWrapper<::Il2CppString*> user_languages;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // private System.Net.HttpListenerContext context
     // Size: 0x8
     // Offset: 0x78
@@ -153,17 +153,17 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: HttpListenerRequest
-    HttpListenerRequest(::Array<::Il2CppString*>* accept_types_ = {}, int64_t content_length_ = {}, bool cl_set_ = {}, System::Net::CookieCollection* cookies_ = {}, System::Net::WebHeaderCollection* headers_ = {}, ::Il2CppString* method_ = {}, System::IO::Stream* input_stream_ = {}, System::Version* version_ = {}, System::Collections::Specialized::NameValueCollection* query_string_ = {}, ::Il2CppString* raw_url_ = {}, System::Uri* url_ = {}, System::Uri* referrer_ = {}, ::Array<::Il2CppString*>* user_languages_ = {}, System::Net::HttpListenerContext* context_ = {}, bool is_chunked_ = {}, bool ka_set_ = {}, bool keep_alive_ = {}) noexcept : accept_types{accept_types_}, content_length{content_length_}, cl_set{cl_set_}, cookies{cookies_}, headers{headers_}, method{method_}, input_stream{input_stream_}, version{version_}, query_string{query_string_}, raw_url{raw_url_}, url{url_}, referrer{referrer_}, user_languages{user_languages_}, context{context_}, is_chunked{is_chunked_}, ka_set{ka_set_}, keep_alive{keep_alive_} {}
+    HttpListenerRequest(::ArrayWrapper<::Il2CppString*> accept_types_ = {}, int64_t content_length_ = {}, bool cl_set_ = {}, System::Net::CookieCollection* cookies_ = {}, System::Net::WebHeaderCollection* headers_ = {}, ::Il2CppString* method_ = {}, System::IO::Stream* input_stream_ = {}, System::Version* version_ = {}, System::Collections::Specialized::NameValueCollection* query_string_ = {}, ::Il2CppString* raw_url_ = {}, System::Uri* url_ = {}, System::Uri* referrer_ = {}, ::ArrayWrapper<::Il2CppString*> user_languages_ = {}, System::Net::HttpListenerContext* context_ = {}, bool is_chunked_ = {}, bool ka_set_ = {}, bool keep_alive_ = {}) noexcept : accept_types{accept_types_}, content_length{content_length_}, cl_set{cl_set_}, cookies{cookies_}, headers{headers_}, method{method_}, input_stream{input_stream_}, version{version_}, query_string{query_string_}, raw_url{raw_url_}, url{url_}, referrer{referrer_}, user_languages{user_languages_}, context{context_}, is_chunked{is_chunked_}, ka_set{ka_set_}, keep_alive{keep_alive_} {}
     // Get static field: static private System.Byte[] _100continue
-    static ::Array<uint8_t>* _get__100continue();
+    static ::ArrayWrapper<uint8_t> _get__100continue();
     // Set static field: static private System.Byte[] _100continue
-    static void _set__100continue(::Array<uint8_t>* value);
+    static void _set__100continue(::ArrayWrapper<uint8_t> value);
     // Get static field: static private System.Char[] separators
-    static ::Array<::Il2CppChar>* _get_separators();
+    static ::ArrayWrapper<::Il2CppChar> _get_separators();
     // Set static field: static private System.Char[] separators
-    static void _set_separators(::Array<::Il2CppChar>* value);
+    static void _set_separators(::ArrayWrapper<::Il2CppChar> value);
     // Get instance field reference: private System.String[] accept_types
-    ::Array<::Il2CppString*>*& dyn_accept_types();
+    ::ArrayWrapper<::Il2CppString*>& dyn_accept_types();
     // Get instance field reference: private System.Int64 content_length
     int64_t& dyn_content_length();
     // Get instance field reference: private System.Boolean cl_set
@@ -187,7 +187,7 @@ namespace System::Net {
     // Get instance field reference: private System.Uri referrer
     System::Uri*& dyn_referrer();
     // Get instance field reference: private System.String[] user_languages
-    ::Array<::Il2CppString*>*& dyn_user_languages();
+    ::ArrayWrapper<::Il2CppString*>& dyn_user_languages();
     // Get instance field reference: private System.Net.HttpListenerContext context
     System::Net::HttpListenerContext*& dyn_context();
     // Get instance field reference: private System.Boolean is_chunked
@@ -197,68 +197,68 @@ namespace System::Net {
     // Get instance field reference: private System.Boolean keep_alive
     bool& dyn_keep_alive();
     // public System.Boolean get_HasEntityBody()
-    // Offset: 0x1677E98
+    // Offset: 0x184323C
     bool get_HasEntityBody();
     // public System.Collections.Specialized.NameValueCollection get_Headers()
-    // Offset: 0x1677F70
+    // Offset: 0x1843314
     System::Collections::Specialized::NameValueCollection* get_Headers();
     // public System.IO.Stream get_InputStream()
-    // Offset: 0x1677EBC
+    // Offset: 0x1843260
     System::IO::Stream* get_InputStream();
     // public System.Boolean get_IsSecureConnection()
-    // Offset: 0x1677D44
+    // Offset: 0x18430E8
     bool get_IsSecureConnection();
     // public System.Boolean get_KeepAlive()
-    // Offset: 0x1673C74
+    // Offset: 0x183F018
     bool get_KeepAlive();
     // public System.Net.IPEndPoint get_LocalEndPoint()
-    // Offset: 0x1677D6C
+    // Offset: 0x1843110
     System::Net::IPEndPoint* get_LocalEndPoint();
     // public System.Version get_ProtocolVersion()
-    // Offset: 0x1677F78
+    // Offset: 0x184331C
     System::Version* get_ProtocolVersion();
     // public System.Uri get_Url()
-    // Offset: 0x1677F80
+    // Offset: 0x1843324
     System::Uri* get_Url();
     // public System.String get_UserHostAddress()
-    // Offset: 0x1677D20
+    // Offset: 0x18430C4
     ::Il2CppString* get_UserHostAddress();
     // public System.String get_UserHostName()
-    // Offset: 0x1677CC4
+    // Offset: 0x1843068
     ::Il2CppString* get_UserHostName();
     // System.Void .ctor(System.Net.HttpListenerContext context)
-    // Offset: 0x1676AE4
+    // Offset: 0x1841E88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerRequest* New_ctor(System::Net::HttpListenerContext* context) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpListenerRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerRequest*, creationType>(context)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1677F88
+    // Offset: 0x184332C
     static void _cctor();
     // System.Void SetRequestLine(System.String req)
-    // Offset: 0x1672A74
+    // Offset: 0x183DE18
     void SetRequestLine(::Il2CppString* req);
     // private System.Void CreateQueryString(System.String query)
-    // Offset: 0x167782C
+    // Offset: 0x1842BD0
     void CreateQueryString(::Il2CppString* query);
     // static private System.Boolean MaybeUri(System.String s)
-    // Offset: 0x1677A84
+    // Offset: 0x1842E28
     static bool MaybeUri(::Il2CppString* s);
     // static private System.Boolean IsPredefinedScheme(System.String scheme)
-    // Offset: 0x1677B3C
+    // Offset: 0x1842EE0
     static bool IsPredefinedScheme(::Il2CppString* scheme);
     // System.Void FinishInitialization()
-    // Offset: 0x1671F50
+    // Offset: 0x183D2F4
     void FinishInitialization();
     // static System.String Unquote(System.String str)
-    // Offset: 0x1677E28
+    // Offset: 0x18431CC
     static ::Il2CppString* Unquote(::Il2CppString* str);
     // System.Void AddHeader(System.String header)
-    // Offset: 0x1672D78
+    // Offset: 0x183E11C
     void AddHeader(::Il2CppString* header);
     // System.Boolean FlushInput()
-    // Offset: 0x1673DEC
+    // Offset: 0x183F190
     bool FlushInput();
   }; // System.Net.HttpListenerRequest
   #pragma pack(pop)

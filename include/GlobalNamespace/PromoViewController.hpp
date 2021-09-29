@@ -42,9 +42,9 @@ namespace GlobalNamespace {
     // private PromoViewController/ButtonPromoTypePair[] _elements
     // Size: 0x8
     // Offset: 0x70
-    ::Array<GlobalNamespace::PromoViewController::ButtonPromoTypePair*>* elements;
+    ::ArrayWrapper<GlobalNamespace::PromoViewController::ButtonPromoTypePair*> elements;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::PromoViewController::ButtonPromoTypePair*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::PromoViewController::ButtonPromoTypePair*>) == 0x8);
     // private System.Action`3<PromoViewController,IAnnotatedBeatmapLevelCollection,IPreviewBeatmapLevel> promoButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x78
@@ -52,19 +52,19 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>*) == 0x8);
     // Creating value type constructor for type: PromoViewController
-    PromoViewController(::Array<GlobalNamespace::PromoViewController::ButtonPromoTypePair*>* elements_ = {}, System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>* promoButtonWasPressedEvent_ = {}) noexcept : elements{elements_}, promoButtonWasPressedEvent{promoButtonWasPressedEvent_} {}
+    PromoViewController(::ArrayWrapper<GlobalNamespace::PromoViewController::ButtonPromoTypePair*> elements_ = {}, System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>* promoButtonWasPressedEvent_ = {}) noexcept : elements{elements_}, promoButtonWasPressedEvent{promoButtonWasPressedEvent_} {}
     // Get instance field reference: private PromoViewController/ButtonPromoTypePair[] _elements
-    ::Array<GlobalNamespace::PromoViewController::ButtonPromoTypePair*>*& dyn__elements();
+    ::ArrayWrapper<GlobalNamespace::PromoViewController::ButtonPromoTypePair*>& dyn__elements();
     // Get instance field reference: private System.Action`3<PromoViewController,IAnnotatedBeatmapLevelCollection,IPreviewBeatmapLevel> promoButtonWasPressedEvent
     System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>*& dyn_promoButtonWasPressedEvent();
     // public System.Void add_promoButtonWasPressedEvent(System.Action`3<PromoViewController,IAnnotatedBeatmapLevelCollection,IPreviewBeatmapLevel> value)
-    // Offset: 0x11253DC
+    // Offset: 0x11BEA54
     void add_promoButtonWasPressedEvent(System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public System.Void remove_promoButtonWasPressedEvent(System.Action`3<PromoViewController,IAnnotatedBeatmapLevelCollection,IPreviewBeatmapLevel> value)
-    // Offset: 0x1125480
+    // Offset: 0x11BEAF8
     void remove_promoButtonWasPressedEvent(System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1125658
+    // Offset: 0x11BECD0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -78,7 +78,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PromoViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1125524
+    // Offset: 0x11BEB9C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

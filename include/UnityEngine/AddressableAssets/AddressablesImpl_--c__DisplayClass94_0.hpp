@@ -76,13 +76,13 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: public UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode mode
     UnityEngine::AddressableAssets::Addressables::MergeMode& dyn_mode();
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceProviders.IAssetBundleResource>> <DownloadDependenciesAsyncWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op)
-    // Offset: 0x144AA00
+    // Offset: 0x1598218
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*> $DownloadDependenciesAsyncWithChain$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
     // System.Void <DownloadDependenciesAsyncWithChain>b__1(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceProviders.IAssetBundleResource>> op)
-    // Offset: 0x144AAA4
+    // Offset: 0x15982BC
     void $DownloadDependenciesAsyncWithChain$b__1(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*> op);
     // public System.Void .ctor()
-    // Offset: 0x1447C14
+    // Offset: 0x159542C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

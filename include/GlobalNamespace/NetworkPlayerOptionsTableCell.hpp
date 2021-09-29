@@ -45,15 +45,15 @@ namespace GlobalNamespace {
     // private UnityEngine.UI.Button[] _buttons
     // Size: 0x8
     // Offset: 0x50
-    ::Array<UnityEngine::UI::Button*>* buttons;
+    ::ArrayWrapper<UnityEngine::UI::Button*> buttons;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::UI::Button*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::UI::Button*>) == 0x8);
     // private TMPro.TextMeshProUGUI[] _buttonTexts
     // Size: 0x8
     // Offset: 0x58
-    ::Array<TMPro::TextMeshProUGUI*>* buttonTexts;
+    ::ArrayWrapper<TMPro::TextMeshProUGUI*> buttonTexts;
     // Field size check
-    static_assert(sizeof(::Array<TMPro::TextMeshProUGUI*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<TMPro::TextMeshProUGUI*>) == 0x8);
     // private HMUI.ButtonBinder _buttonBinder
     // Size: 0x8
     // Offset: 0x60
@@ -67,44 +67,44 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::INetworkPlayer*) == 0x8);
     // Creating value type constructor for type: NetworkPlayerOptionsTableCell
-    NetworkPlayerOptionsTableCell(::Array<UnityEngine::UI::Button*>* buttons_ = {}, ::Array<TMPro::TextMeshProUGUI*>* buttonTexts_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, GlobalNamespace::INetworkPlayer* player_ = {}) noexcept : buttons{buttons_}, buttonTexts{buttonTexts_}, buttonBinder{buttonBinder_}, player{player_} {}
+    NetworkPlayerOptionsTableCell(::ArrayWrapper<UnityEngine::UI::Button*> buttons_ = {}, ::ArrayWrapper<TMPro::TextMeshProUGUI*> buttonTexts_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, GlobalNamespace::INetworkPlayer* player_ = {}) noexcept : buttons{buttons_}, buttonTexts{buttonTexts_}, buttonBinder{buttonBinder_}, player{player_} {}
     // Get instance field reference: private UnityEngine.UI.Button[] _buttons
-    ::Array<UnityEngine::UI::Button*>*& dyn__buttons();
+    ::ArrayWrapper<UnityEngine::UI::Button*>& dyn__buttons();
     // Get instance field reference: private TMPro.TextMeshProUGUI[] _buttonTexts
-    ::Array<TMPro::TextMeshProUGUI*>*& dyn__buttonTexts();
+    ::ArrayWrapper<TMPro::TextMeshProUGUI*>& dyn__buttonTexts();
     // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
     HMUI::ButtonBinder*& dyn__buttonBinder();
     // Get instance field reference: private INetworkPlayer _player
     GlobalNamespace::INetworkPlayer*& dyn__player();
     // public INetworkPlayer get_player()
-    // Offset: 0x104A430
+    // Offset: 0x11393D0
     GlobalNamespace::INetworkPlayer* get_player();
     // public System.Void set_player(INetworkPlayer value)
-    // Offset: 0x104A438
+    // Offset: 0x11393D8
     void set_player(GlobalNamespace::INetworkPlayer* value);
     // private System.Void Refresh()
-    // Offset: 0x104A440
+    // Offset: 0x11393E0
     void Refresh();
     // private System.Void Block()
-    // Offset: 0x104AF50
+    // Offset: 0x1139EF0
     void Block();
     // private System.Void Unblock()
-    // Offset: 0x104B00C
+    // Offset: 0x1139FAC
     void Unblock();
     // private System.Void Join()
-    // Offset: 0x104B0C8
+    // Offset: 0x113A068
     void Join();
     // private System.Void Invite()
-    // Offset: 0x104B184
+    // Offset: 0x113A124
     void Invite();
     // private System.Void Kick()
-    // Offset: 0x104B240
+    // Offset: 0x113A1E0
     void Kick();
     // private System.Void Leave()
-    // Offset: 0x104B2FC
+    // Offset: 0x113A29C
     void Leave();
     // public System.Void .ctor()
-    // Offset: 0x104B3B8
+    // Offset: 0x113A358
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

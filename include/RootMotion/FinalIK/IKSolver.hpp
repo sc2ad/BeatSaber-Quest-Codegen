@@ -46,8 +46,8 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 IKPosition;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0xE2C8C8
-    // [RangeAttribute] Offset: 0xE2C8C8
+    // [TooltipAttribute] Offset: 0xEF30A0
+    // [RangeAttribute] Offset: 0xEF30A0
     // public System.Single IKPositionWeight
     // Size: 0x4
     // Offset: 0x1C
@@ -121,41 +121,41 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: protected UnityEngine.Transform root
     UnityEngine::Transform*& dyn_root();
     // public System.Boolean get_initiated()
-    // Offset: 0x1CD8598
+    // Offset: 0x1E9B858
     bool get_initiated();
     // private System.Void set_initiated(System.Boolean value)
-    // Offset: 0x1CD85A0
+    // Offset: 0x1E9B860
     void set_initiated(bool value);
     // public System.Boolean IsValid()
-    // Offset: 0x1CD8470
+    // Offset: 0x1E9B730
     bool IsValid();
     // public System.Boolean IsValid(ref System.String message)
     // Offset: 0xFFFFFFFF
     bool IsValid(ByRef<::Il2CppString*> message);
     // public System.Void Initiate(UnityEngine.Transform root)
-    // Offset: 0x1CD0EBC
+    // Offset: 0x1E9417C
     void Initiate(UnityEngine::Transform* root);
     // public System.Void Update()
-    // Offset: 0x1CD0DDC
+    // Offset: 0x1E9409C
     void Update();
     // public UnityEngine.Vector3 GetIKPosition()
-    // Offset: 0x1CD84EC
+    // Offset: 0x1E9B7AC
     UnityEngine::Vector3 GetIKPosition();
     // public System.Void SetIKPosition(UnityEngine.Vector3 position)
-    // Offset: 0x1CD84F8
+    // Offset: 0x1E9B7B8
     void SetIKPosition(UnityEngine::Vector3 position);
     // public System.Single GetIKPositionWeight()
-    // Offset: 0x1CD8504
+    // Offset: 0x1E9B7C4
     float GetIKPositionWeight();
     // public System.Void SetIKPositionWeight(System.Single weight)
-    // Offset: 0x1CD850C
+    // Offset: 0x1E9B7CC
     void SetIKPositionWeight(float weight);
     // public UnityEngine.Transform GetRoot()
-    // Offset: 0x1CD8590
+    // Offset: 0x1E9B850
     UnityEngine::Transform* GetRoot();
     // public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point[] GetPoints()
     // Offset: 0xFFFFFFFF
-    ::Array<RootMotion::FinalIK::IKSolver::Point*>* GetPoints();
+    ::ArrayWrapper<RootMotion::FinalIK::IKSolver::Point*> GetPoints();
     // public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point GetPoint(UnityEngine.Transform transform)
     // Offset: 0xFFFFFFFF
     RootMotion::FinalIK::IKSolver::Point* GetPoint(UnityEngine::Transform* transform);
@@ -172,19 +172,19 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFF
     void OnUpdate();
     // protected System.Void LogWarning(System.String message)
-    // Offset: 0x1CD85AC
+    // Offset: 0x1E9B86C
     void LogWarning(::Il2CppString* message);
     // static public UnityEngine.Transform ContainsDuplicateBone(RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone[] bones)
-    // Offset: 0x1CD85C4
-    static UnityEngine::Transform* ContainsDuplicateBone(::Array<RootMotion::FinalIK::IKSolver::Bone*>* bones);
+    // Offset: 0x1E9B884
+    static UnityEngine::Transform* ContainsDuplicateBone(::ArrayWrapper<RootMotion::FinalIK::IKSolver::Bone*> bones);
     // static public System.Boolean HierarchyIsValid(RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone[] bones)
-    // Offset: 0x1CD8700
-    static bool HierarchyIsValid(::Array<RootMotion::FinalIK::IKSolver::Bone*>* bones);
+    // Offset: 0x1E9B9C0
+    static bool HierarchyIsValid(::ArrayWrapper<RootMotion::FinalIK::IKSolver::Bone*> bones);
     // static protected System.Single PreSolveBones(ref RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone[] bones)
-    // Offset: 0x1CD87AC
-    static float PreSolveBones(ByRef<::Array<RootMotion::FinalIK::IKSolver::Bone*>*> bones);
+    // Offset: 0x1E9BA6C
+    static float PreSolveBones(ByRef<::ArrayWrapper<RootMotion::FinalIK::IKSolver::Bone*>> bones);
     // protected System.Void .ctor()
-    // Offset: 0x1CD8B30
+    // Offset: 0x1E9BDF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -295,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::GetPoints
 // Il2CppName: GetPoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<RootMotion::FinalIK::IKSolver::Point*>* (RootMotion::FinalIK::IKSolver::*)()>(&RootMotion::FinalIK::IKSolver::GetPoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<RootMotion::FinalIK::IKSolver::Point*> (RootMotion::FinalIK::IKSolver::*)()>(&RootMotion::FinalIK::IKSolver::GetPoints)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolver*), "GetPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -353,27 +353,27 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::ContainsDuplicateBone
 // Il2CppName: ContainsDuplicateBone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(::Array<RootMotion::FinalIK::IKSolver::Bone*>*)>(&RootMotion::FinalIK::IKSolver::ContainsDuplicateBone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(::ArrayWrapper<RootMotion::FinalIK::IKSolver::Bone*>)>(&RootMotion::FinalIK::IKSolver::ContainsDuplicateBone)> {
   static const MethodInfo* get() {
-    static auto* bones = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolver/Bone"), 1)->byval_arg;
+    static auto* bones = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolver/Bone")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolver*), "ContainsDuplicateBone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bones});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::HierarchyIsValid
 // Il2CppName: HierarchyIsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<RootMotion::FinalIK::IKSolver::Bone*>*)>(&RootMotion::FinalIK::IKSolver::HierarchyIsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<RootMotion::FinalIK::IKSolver::Bone*>)>(&RootMotion::FinalIK::IKSolver::HierarchyIsValid)> {
   static const MethodInfo* get() {
-    static auto* bones = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolver/Bone"), 1)->byval_arg;
+    static auto* bones = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolver/Bone")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolver*), "HierarchyIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bones});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::PreSolveBones
 // Il2CppName: PreSolveBones
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(ByRef<::Array<RootMotion::FinalIK::IKSolver::Bone*>*>)>(&RootMotion::FinalIK::IKSolver::PreSolveBones)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(ByRef<::ArrayWrapper<RootMotion::FinalIK::IKSolver::Bone*>>)>(&RootMotion::FinalIK::IKSolver::PreSolveBones)> {
   static const MethodInfo* get() {
-    static auto* bones = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolver/Bone"), 1)->this_arg;
+    static auto* bones = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolver/Bone")), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolver*), "PreSolveBones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bones});
   }
 };

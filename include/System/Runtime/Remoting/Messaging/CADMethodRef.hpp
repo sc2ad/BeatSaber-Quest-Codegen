@@ -58,17 +58,17 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.String[] param_names
     // Size: 0x8
     // Offset: 0x28
-    ::Array<::Il2CppString*>* param_names;
+    ::ArrayWrapper<::Il2CppString*> param_names;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // private System.String[] generic_arg_names
     // Size: 0x8
     // Offset: 0x30
-    ::Array<::Il2CppString*>* generic_arg_names;
+    ::ArrayWrapper<::Il2CppString*> generic_arg_names;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // Creating value type constructor for type: CADMethodRef
-    CADMethodRef(bool ctor_ = {}, ::Il2CppString* typeName_ = {}, ::Il2CppString* methodName_ = {}, ::Array<::Il2CppString*>* param_names_ = {}, ::Array<::Il2CppString*>* generic_arg_names_ = {}) noexcept : ctor{ctor_}, typeName{typeName_}, methodName{methodName_}, param_names{param_names_}, generic_arg_names{generic_arg_names_} {}
+    CADMethodRef(bool ctor_ = {}, ::Il2CppString* typeName_ = {}, ::Il2CppString* methodName_ = {}, ::ArrayWrapper<::Il2CppString*> param_names_ = {}, ::ArrayWrapper<::Il2CppString*> generic_arg_names_ = {}) noexcept : ctor{ctor_}, typeName{typeName_}, methodName{methodName_}, param_names{param_names_}, generic_arg_names{generic_arg_names_} {}
     // Get instance field reference: private System.Boolean ctor
     bool& dyn_ctor();
     // Get instance field reference: private System.String typeName
@@ -76,25 +76,25 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.String methodName
     ::Il2CppString*& dyn_methodName();
     // Get instance field reference: private System.String[] param_names
-    ::Array<::Il2CppString*>*& dyn_param_names();
+    ::ArrayWrapper<::Il2CppString*>& dyn_param_names();
     // Get instance field reference: private System.String[] generic_arg_names
-    ::Array<::Il2CppString*>*& dyn_generic_arg_names();
+    ::ArrayWrapper<::Il2CppString*>& dyn_generic_arg_names();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodMessage msg)
-    // Offset: 0x1A495DC
+    // Offset: 0x1C11FAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADMethodRef* New_ctor(System::Runtime::Remoting::Messaging::IMethodMessage* msg) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::CADMethodRef::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CADMethodRef*, creationType>(msg)));
     }
     // private System.Type[] GetTypes(System.String[] typeArray)
-    // Offset: 0x1A4BC2C
-    ::Array<System::Type*>* GetTypes(::Array<::Il2CppString*>* typeArray);
+    // Offset: 0x1C145FC
+    ::ArrayWrapper<System::Type*> GetTypes(::ArrayWrapper<::Il2CppString*> typeArray);
     // public System.Reflection.MethodBase Resolve()
-    // Offset: 0x1A4994C
+    // Offset: 0x1C1231C
     System::Reflection::MethodBase* Resolve();
   }; // System.Runtime.Remoting.Messaging.CADMethodRef
   #pragma pack(pop)
-  static check_size<sizeof(CADMethodRef), 48 + sizeof(::Array<::Il2CppString*>*)> __System_Runtime_Remoting_Messaging_CADMethodRefSizeCheck;
+  static check_size<sizeof(CADMethodRef), 48 + sizeof(::ArrayWrapper<::Il2CppString*>)> __System_Runtime_Remoting_Messaging_CADMethodRefSizeCheck;
   static_assert(sizeof(CADMethodRef) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADMethodRef*, "System.Runtime.Remoting.Messaging", "CADMethodRef");
@@ -106,9 +106,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADMethodRef*, "Sys
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodRef::GetTypes
 // Il2CppName: GetTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (System::Runtime::Remoting::Messaging::CADMethodRef::*)(::Array<::Il2CppString*>*)>(&System::Runtime::Remoting::Messaging::CADMethodRef::GetTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Type*> (System::Runtime::Remoting::Messaging::CADMethodRef::*)(::ArrayWrapper<::Il2CppString*>)>(&System::Runtime::Remoting::Messaging::CADMethodRef::GetTypes)> {
   static const MethodInfo* get() {
-    static auto* typeArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* typeArray = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMethodRef*), "GetTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeArray});
   }
 };

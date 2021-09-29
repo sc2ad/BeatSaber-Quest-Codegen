@@ -78,26 +78,26 @@ namespace UnityEngine::TestTools::Utils {
     // Get instance field reference: public System.Int32 timeout
     int& dyn_timeout();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x23FFA40
+    // Offset: 0x260ACD0
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x23FFAA8
+    // Offset: 0x260AD38
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x23FF80C
+    // Offset: 0x260AA9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CoroutineRunner::$ExMethod$d__10* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::Utils::CoroutineRunner::$ExMethod$d__10::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CoroutineRunner::$ExMethod$d__10*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x23FF90C
+    // Offset: 0x260AB9C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x23FF910
+    // Offset: 0x260ABA0
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x23FFA48
+    // Offset: 0x260ACD8
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.TestTools.Utils.CoroutineRunner/UnityEngine.TestTools.Utils.<ExMethod>d__10
   #pragma pack(pop)

@@ -23,7 +23,7 @@ namespace Org::BouncyCastle::Security::Certificates {
     // Creating value type constructor for type: CrlException
     CrlException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x13B0730
+    // Offset: 0x14C2924
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor()
     // Base method: System.Void Exception::.ctor()
@@ -34,7 +34,7 @@ namespace Org::BouncyCastle::Security::Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<CrlException*, creationType>()));
     }
     // public System.Void .ctor(System.String msg)
-    // Offset: 0x13B0738
+    // Offset: 0x14C292C
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor(System.String msg)
     // Base method: System.Void Exception::.ctor(System.String msg)

@@ -23,9 +23,9 @@ namespace System {
     // System.Int32[] m_argsMap
     // Size: 0x8
     // Offset: 0x10
-    ::Array<int>* m_argsMap;
+    ::ArrayWrapper<int> m_argsMap;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // System.Int32 m_originalSize
     // Size: 0x4
     // Offset: 0x18
@@ -39,17 +39,17 @@ namespace System {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: BinderState
-    BinderState(::Array<int>* m_argsMap_ = {}, int m_originalSize_ = {}, bool m_isParamArray_ = {}) noexcept : m_argsMap{m_argsMap_}, m_originalSize{m_originalSize_}, m_isParamArray{m_isParamArray_} {}
+    BinderState(::ArrayWrapper<int> m_argsMap_ = {}, int m_originalSize_ = {}, bool m_isParamArray_ = {}) noexcept : m_argsMap{m_argsMap_}, m_originalSize{m_originalSize_}, m_isParamArray{m_isParamArray_} {}
     // Get instance field reference: System.Int32[] m_argsMap
-    ::Array<int>*& dyn_m_argsMap();
+    ::ArrayWrapper<int>& dyn_m_argsMap();
     // Get instance field reference: System.Int32 m_originalSize
     int& dyn_m_originalSize();
     // Get instance field reference: System.Boolean m_isParamArray
     bool& dyn_m_isParamArray();
     // System.Void .ctor(System.Int32[] argsMap, System.Int32 originalSize, System.Boolean isParamArray)
-    // Offset: 0x1B6033C
+    // Offset: 0x1CE5A14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DefaultBinder::BinderState* New_ctor(::Array<int>* argsMap, int originalSize, bool isParamArray) {
+    static DefaultBinder::BinderState* New_ctor(::ArrayWrapper<int> argsMap, int originalSize, bool isParamArray) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DefaultBinder::BinderState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultBinder::BinderState*, creationType>(argsMap, originalSize, isParamArray)));
     }

@@ -72,9 +72,9 @@ namespace UnityEngine::ResourceManagement::Util {
       // private System.Object[] m_Target
       // Size: 0x8
       // Offset: 0x10
-      ::Array<::Il2CppObject*>* m_Target;
+      ::ArrayWrapper<::Il2CppObject*> m_Target;
       // Field size check
-      static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
+      static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
       // private System.Single <InvocationTime>k__BackingField
       // Size: 0x4
       // Offset: 0x18
@@ -82,7 +82,7 @@ namespace UnityEngine::ResourceManagement::Util {
       // Field size check
       static_assert(sizeof(float) == 0x4);
       // Creating value type constructor for type: DelegateInfo
-      constexpr DelegateInfo(int m_Id_ = {}, System::Delegate* m_Delegate_ = {}, ::Array<::Il2CppObject*>* m_Target_ = {}, float InvocationTime_ = {}) noexcept : m_Id{m_Id_}, m_Delegate{m_Delegate_}, m_Target{m_Target_}, InvocationTime{InvocationTime_} {}
+      constexpr DelegateInfo(int m_Id_ = {}, System::Delegate* m_Delegate_ = {}, ::ArrayWrapper<::Il2CppObject*> m_Target_ = {}, float InvocationTime_ = {}) noexcept : m_Id{m_Id_}, m_Delegate{m_Delegate_}, m_Target{m_Target_}, InvocationTime{InvocationTime_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
@@ -96,19 +96,19 @@ namespace UnityEngine::ResourceManagement::Util {
       // Get instance field reference: private System.Delegate m_Delegate
       System::Delegate*& dyn_m_Delegate();
       // Get instance field reference: private System.Object[] m_Target
-      ::Array<::Il2CppObject*>*& dyn_m_Target();
+      ::ArrayWrapper<::Il2CppObject*>& dyn_m_Target();
       // Get instance field reference: private System.Single <InvocationTime>k__BackingField
       float& dyn_$InvocationTime$k__BackingField();
       // public System.Single get_InvocationTime()
-      // Offset: 0x19F96E0
+      // Offset: 0x1B6E588
       float get_InvocationTime();
       // private System.Void set_InvocationTime(System.Single value)
-      // Offset: 0x19F96E8
+      // Offset: 0x1B6E590
       void set_InvocationTime(float value);
       // public System.Void .ctor(System.Delegate d, System.Single invocationTime, params System.Object[] p)
-      // Offset: 0x19F8DB0
+      // Offset: 0x1B6DC58
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-      DelegateInfo(System::Delegate* d, float invocationTime, ::Array<::Il2CppObject*>* p) {
+      DelegateInfo(System::Delegate* d, float invocationTime, ::ArrayWrapper<::Il2CppObject*> p) {
         static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(d), ::il2cpp_utils::ExtractType(invocationTime), ::il2cpp_utils::ExtractType(p)})));
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, d, invocationTime, p);
@@ -116,7 +116,7 @@ namespace UnityEngine::ResourceManagement::Util {
       // Creating initializer_list -> params proxy for: System.Void .ctor(System.Delegate d, System.Single invocationTime, params System.Object[] p)
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       DelegateInfo(System::Delegate* d, float invocationTime, std::initializer_list<::Il2CppObject*> p) {
-        DelegateInfo(d, invocationTime, ::Array<::Il2CppObject*>::New(p));
+        DelegateInfo(d, invocationTime, ::ArrayWrapper<::Il2CppObject*>(p));
       }
       // Creating TArgs -> initializer_list proxy for: System.Void .ctor(System.Delegate d, System.Single invocationTime, params System.Object[] p)
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
@@ -124,10 +124,10 @@ namespace UnityEngine::ResourceManagement::Util {
         DelegateInfo(d, invocationTime, {p...});
       }
       // public System.Void Invoke()
-      // Offset: 0x19F9308
+      // Offset: 0x1B6E1B0
       void Invoke();
       // public override System.String ToString()
-      // Offset: 0x19F96F0
+      // Offset: 0x1B6E598
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
       ::Il2CppString* ToString();
@@ -138,9 +138,9 @@ namespace UnityEngine::ResourceManagement::Util {
     // private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo>[] m_Actions
     // Size: 0x8
     // Offset: 0x18
-    ::Array<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*>* m_Actions;
+    ::ArrayWrapper<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*> m_Actions;
     // Field size check
-    static_assert(sizeof(::Array<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*>) == 0x8);
     // private System.Collections.Generic.LinkedList`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo> m_DelayedActions
     // Size: 0x8
     // Offset: 0x20
@@ -166,11 +166,11 @@ namespace UnityEngine::ResourceManagement::Util {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: DelayedActionManager
-    DelayedActionManager(::Array<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*>* m_Actions_ = {}, System::Collections::Generic::LinkedList_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>* m_DelayedActions_ = {}, System::Collections::Generic::Stack_1<System::Collections::Generic::LinkedListNode_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*>* m_NodeCache_ = {}, int m_CollectionIndex_ = {}, bool m_DestroyOnCompletion_ = {}) noexcept : m_Actions{m_Actions_}, m_DelayedActions{m_DelayedActions_}, m_NodeCache{m_NodeCache_}, m_CollectionIndex{m_CollectionIndex_}, m_DestroyOnCompletion{m_DestroyOnCompletion_} {}
+    DelayedActionManager(::ArrayWrapper<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*> m_Actions_ = {}, System::Collections::Generic::LinkedList_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>* m_DelayedActions_ = {}, System::Collections::Generic::Stack_1<System::Collections::Generic::LinkedListNode_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*>* m_NodeCache_ = {}, int m_CollectionIndex_ = {}, bool m_DestroyOnCompletion_ = {}) noexcept : m_Actions{m_Actions_}, m_DelayedActions{m_DelayedActions_}, m_NodeCache{m_NodeCache_}, m_CollectionIndex{m_CollectionIndex_}, m_DestroyOnCompletion{m_DestroyOnCompletion_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo>[] m_Actions
-    ::Array<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*>*& dyn_m_Actions();
+    ::ArrayWrapper<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*>& dyn_m_Actions();
     // Get instance field reference: private System.Collections.Generic.LinkedList`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo> m_DelayedActions
     System::Collections::Generic::LinkedList_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>*& dyn_m_DelayedActions();
     // Get instance field reference: private System.Collections.Generic.Stack`1<System.Collections.Generic.LinkedListNode`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo>> m_NodeCache
@@ -180,20 +180,20 @@ namespace UnityEngine::ResourceManagement::Util {
     // Get instance field reference: private System.Boolean m_DestroyOnCompletion
     bool& dyn_m_DestroyOnCompletion();
     // static public System.Boolean get_IsActive()
-    // Offset: 0x19F8E38
+    // Offset: 0x1B6DCE0
     static bool get_IsActive();
     // private System.Collections.Generic.LinkedListNode`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo> GetNode(ref UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo del)
-    // Offset: 0x19F89E4
+    // Offset: 0x1B6D88C
     System::Collections::Generic::LinkedListNode_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>* GetNode(ByRef<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo> del);
     // static public System.Void Clear()
-    // Offset: 0x19F8ABC
+    // Offset: 0x1B6D964
     static void Clear();
     // private System.Void DestroyWhenComplete()
-    // Offset: 0x19F8B2C
+    // Offset: 0x1B6D9D4
     void DestroyWhenComplete();
     // static public System.Void AddAction(System.Delegate action, System.Single delay, params System.Object[] parameters)
-    // Offset: 0x19F8B38
-    static void AddAction(System::Delegate* action, float delay, ::Array<::Il2CppObject*>* parameters);
+    // Offset: 0x1B6D9E0
+    static void AddAction(System::Delegate* action, float delay, ::ArrayWrapper<::Il2CppObject*> parameters);
     // Creating initializer_list -> params proxy for: System.Void AddAction(System.Delegate action, System.Single delay, params System.Object[] parameters)
     static void AddAction(System::Delegate* action, float delay, std::initializer_list<::Il2CppObject*> parameters);
     // Creating TArgs -> initializer_list proxy for: System.Void AddAction(System.Delegate action, System.Single delay, params System.Object[] parameters)
@@ -202,8 +202,8 @@ namespace UnityEngine::ResourceManagement::Util {
       AddAction(action, delay, {parameters...});
     }
     // private System.Void AddActionInternal(System.Delegate action, System.Single delay, params System.Object[] parameters)
-    // Offset: 0x19F8BB4
-    void AddActionInternal(System::Delegate* action, float delay, ::Array<::Il2CppObject*>* parameters);
+    // Offset: 0x1B6DA5C
+    void AddActionInternal(System::Delegate* action, float delay, ::ArrayWrapper<::Il2CppObject*> parameters);
     // Creating initializer_list -> params proxy for: System.Void AddActionInternal(System.Delegate action, System.Single delay, params System.Object[] parameters)
     void AddActionInternal(System::Delegate* action, float delay, std::initializer_list<::Il2CppObject*> parameters);
     // Creating TArgs -> initializer_list proxy for: System.Void AddActionInternal(System.Delegate action, System.Single delay, params System.Object[] parameters)
@@ -212,19 +212,19 @@ namespace UnityEngine::ResourceManagement::Util {
       AddActionInternal(action, delay, {parameters...});
     }
     // static public System.Boolean Wait(System.Single timeout, System.Single timeAdvanceAmount)
-    // Offset: 0x19F8F38
+    // Offset: 0x1B6DDE0
     static bool Wait(float timeout, float timeAdvanceAmount);
     // private System.Void LateUpdate()
-    // Offset: 0x19F92E0
+    // Offset: 0x1B6E188
     void LateUpdate();
     // private System.Void InternalLateUpdate(System.Single t)
-    // Offset: 0x19F906C
+    // Offset: 0x1B6DF14
     void InternalLateUpdate(float t);
     // private System.Void OnApplicationQuit()
-    // Offset: 0x19F94BC
+    // Offset: 0x1B6E364
     void OnApplicationQuit();
     // public System.Void .ctor()
-    // Offset: 0x19F9568
+    // Offset: 0x1B6E410
     // Implemented from: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
     // Base method: System.Void ComponentSingleton_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -279,22 +279,22 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::DelayedActionManager::AddAction
 // Il2CppName: AddAction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Delegate*, float, ::Array<::Il2CppObject*>*)>(&UnityEngine::ResourceManagement::Util::DelayedActionManager::AddAction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Delegate*, float, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::ResourceManagement::Util::DelayedActionManager::AddAction)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "Delegate")->byval_arg;
     static auto* delay = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    static auto* parameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* parameters = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::DelayedActionManager*), "AddAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action, delay, parameters});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::DelayedActionManager::AddActionInternal
 // Il2CppName: AddActionInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::Util::DelayedActionManager::*)(System::Delegate*, float, ::Array<::Il2CppObject*>*)>(&UnityEngine::ResourceManagement::Util::DelayedActionManager::AddActionInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::Util::DelayedActionManager::*)(System::Delegate*, float, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::ResourceManagement::Util::DelayedActionManager::AddActionInternal)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "Delegate")->byval_arg;
     static auto* delay = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    static auto* parameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* parameters = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::DelayedActionManager*), "AddActionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action, delay, parameters});
   }
 };

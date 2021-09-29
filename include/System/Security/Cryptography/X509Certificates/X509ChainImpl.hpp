@@ -53,7 +53,7 @@ namespace System::Security::Cryptography::X509Certificates {
     void set_ChainPolicy(System::Security::Cryptography::X509Certificates::X509ChainPolicy* value);
     // public System.Security.Cryptography.X509Certificates.X509ChainStatus[] get_ChainStatus()
     // Offset: 0xFFFFFFFF
-    ::Array<System::Security::Cryptography::X509Certificates::X509ChainStatus>* get_ChainStatus();
+    ::ArrayWrapper<System::Security::Cryptography::X509Certificates::X509ChainStatus> get_ChainStatus();
     // public System.Boolean Build(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
     // Offset: 0xFFFFFFFF
     bool Build(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
@@ -61,13 +61,13 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFF
     void Reset();
     // public System.Void Dispose()
-    // Offset: 0x1867CFC
+    // Offset: 0x19DA0E0
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1868B04
+    // Offset: 0x19DAEE8
     void Dispose(bool disposing);
     // protected System.Void .ctor()
-    // Offset: 0x1868B7C
+    // Offset: 0x19DAF60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -76,7 +76,7 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509ChainImpl*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1868B08
+    // Offset: 0x19DAEEC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainImpl::get_ChainStatus
 // Il2CppName: get_ChainStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Security::Cryptography::X509Certificates::X509ChainStatus>* (System::Security::Cryptography::X509Certificates::X509ChainImpl::*)()>(&System::Security::Cryptography::X509Certificates::X509ChainImpl::get_ChainStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Security::Cryptography::X509Certificates::X509ChainStatus> (System::Security::Cryptography::X509Certificates::X509ChainImpl::*)()>(&System::Security::Cryptography::X509Certificates::X509ChainImpl::get_ChainStatus)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509ChainImpl*), "get_ChainStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -59,9 +59,9 @@ namespace Mono::Security::X509 {
     // private System.Byte[] _password
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* password;
+    ::ArrayWrapper<uint8_t> password;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Collections.ArrayList _keyBags
     // Size: 0x8
     // Offset: 0x18
@@ -119,7 +119,7 @@ namespace Mono::Security::X509 {
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::RandomNumberGenerator*) == 0x8);
     // Creating value type constructor for type: PKCS12
-    PKCS12(::Array<uint8_t>* password_ = {}, System::Collections::ArrayList* keyBags_ = {}, System::Collections::ArrayList* secretBags_ = {}, Mono::Security::X509::X509CertificateCollection* certs_ = {}, bool keyBagsChanged_ = {}, bool secretBagsChanged_ = {}, bool certsChanged_ = {}, int iterations_ = {}, System::Collections::ArrayList* safeBags_ = {}, System::Security::Cryptography::RandomNumberGenerator* rng_ = {}) noexcept : password{password_}, keyBags{keyBags_}, secretBags{secretBags_}, certs{certs_}, keyBagsChanged{keyBagsChanged_}, secretBagsChanged{secretBagsChanged_}, certsChanged{certsChanged_}, iterations{iterations_}, safeBags{safeBags_}, rng{rng_} {}
+    PKCS12(::ArrayWrapper<uint8_t> password_ = {}, System::Collections::ArrayList* keyBags_ = {}, System::Collections::ArrayList* secretBags_ = {}, Mono::Security::X509::X509CertificateCollection* certs_ = {}, bool keyBagsChanged_ = {}, bool secretBagsChanged_ = {}, bool certsChanged_ = {}, int iterations_ = {}, System::Collections::ArrayList* safeBags_ = {}, System::Security::Cryptography::RandomNumberGenerator* rng_ = {}) noexcept : password{password_}, keyBags{keyBags_}, secretBags{secretBags_}, certs{certs_}, keyBagsChanged{keyBagsChanged_}, secretBagsChanged{secretBagsChanged_}, certsChanged{certsChanged_}, iterations{iterations_}, safeBags{safeBags_}, rng{rng_} {}
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
@@ -129,7 +129,7 @@ namespace Mono::Security::X509 {
     // Set static field: static private System.Int32 password_max_length
     static void _set_password_max_length(int value);
     // Get instance field reference: private System.Byte[] _password
-    ::Array<uint8_t>*& dyn__password();
+    ::ArrayWrapper<uint8_t>& dyn__password();
     // Get instance field reference: private System.Collections.ArrayList _keyBags
     System::Collections::ArrayList*& dyn__keyBags();
     // Get instance field reference: private System.Collections.ArrayList _secretBags
@@ -149,99 +149,99 @@ namespace Mono::Security::X509 {
     // Get instance field reference: private System.Security.Cryptography.RandomNumberGenerator _rng
     System::Security::Cryptography::RandomNumberGenerator*& dyn__rng();
     // public System.Void set_Password(System.String value)
-    // Offset: 0x1E09DBC
+    // Offset: 0x1FA6324
     void set_Password(::Il2CppString* value);
     // public System.Int32 get_IterationCount()
-    // Offset: 0x1E0AF0C
+    // Offset: 0x1FA7474
     int get_IterationCount();
     // public System.Void set_IterationCount(System.Int32 value)
-    // Offset: 0x1E0AF14
+    // Offset: 0x1FA747C
     void set_IterationCount(int value);
     // public System.Collections.ArrayList get_Keys()
-    // Offset: 0x1E0AF1C
+    // Offset: 0x1FA7484
     System::Collections::ArrayList* get_Keys();
     // public Mono.Security.X509.X509CertificateCollection get_Certificates()
-    // Offset: 0x1E0B6EC
+    // Offset: 0x1FA7C54
     Mono::Security::X509::X509CertificateCollection* get_Certificates();
     // System.Security.Cryptography.RandomNumberGenerator get_RNG()
-    // Offset: 0x1E0BA70
+    // Offset: 0x1FA7FD8
     System::Security::Cryptography::RandomNumberGenerator* get_RNG();
     // static public System.Int32 get_MaximumPasswordLength()
-    // Offset: 0x1E0F964
+    // Offset: 0x1FABECC
     static int get_MaximumPasswordLength();
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x1E09D84
+    // Offset: 0x1FA62EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PKCS12* New_ctor(::Array<uint8_t>* data) {
+    static PKCS12* New_ctor(::ArrayWrapper<uint8_t> data) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::PKCS12::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS12*, creationType>(data)));
     }
     // public System.Void .ctor(System.Byte[] data, System.String password)
-    // Offset: 0x1E0A5A8
+    // Offset: 0x1FA6B10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PKCS12* New_ctor(::Array<uint8_t>* data, ::Il2CppString* password) {
+    static PKCS12* New_ctor(::ArrayWrapper<uint8_t> data, ::Il2CppString* password) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::PKCS12::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS12*, creationType>(data, password)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E0F9CC
+    // Offset: 0x1FABF34
     static void _cctor();
     // private System.Void Decode(System.Byte[] data)
-    // Offset: 0x1E09F9C
-    void Decode(::Array<uint8_t>* data);
+    // Offset: 0x1FA6504
+    void Decode(::ArrayWrapper<uint8_t> data);
     // private System.Boolean Compare(System.Byte[] expected, System.Byte[] actual)
-    // Offset: 0x1E0A740
-    bool Compare(::Array<uint8_t>* expected, ::Array<uint8_t>* actual);
+    // Offset: 0x1FA6CA8
+    bool Compare(::ArrayWrapper<uint8_t> expected, ::ArrayWrapper<uint8_t> actual);
     // private System.Security.Cryptography.SymmetricAlgorithm GetSymmetricAlgorithm(System.String algorithmOid, System.Byte[] salt, System.Int32 iterationCount)
-    // Offset: 0x1E0BA9C
-    System::Security::Cryptography::SymmetricAlgorithm* GetSymmetricAlgorithm(::Il2CppString* algorithmOid, ::Array<uint8_t>* salt, int iterationCount);
+    // Offset: 0x1FA8004
+    System::Security::Cryptography::SymmetricAlgorithm* GetSymmetricAlgorithm(::Il2CppString* algorithmOid, ::ArrayWrapper<uint8_t> salt, int iterationCount);
     // public System.Byte[] Decrypt(System.String algorithmOid, System.Byte[] salt, System.Int32 iterationCount, System.Byte[] encryptedData)
-    // Offset: 0x1E0B564
-    ::Array<uint8_t>* Decrypt(::Il2CppString* algorithmOid, ::Array<uint8_t>* salt, int iterationCount, ::Array<uint8_t>* encryptedData);
+    // Offset: 0x1FA7ACC
+    ::ArrayWrapper<uint8_t> Decrypt(::Il2CppString* algorithmOid, ::ArrayWrapper<uint8_t> salt, int iterationCount, ::ArrayWrapper<uint8_t> encryptedData);
     // public System.Byte[] Decrypt(Mono.Security.PKCS7/Mono.Security.EncryptedData ed)
-    // Offset: 0x1E0ADF0
-    ::Array<uint8_t>* Decrypt(Mono::Security::PKCS7::EncryptedData* ed);
+    // Offset: 0x1FA7358
+    ::ArrayWrapper<uint8_t> Decrypt(Mono::Security::PKCS7::EncryptedData* ed);
     // public System.Byte[] Encrypt(System.String algorithmOid, System.Byte[] salt, System.Int32 iterationCount, System.Byte[] data)
-    // Offset: 0x1E0BF50
-    ::Array<uint8_t>* Encrypt(::Il2CppString* algorithmOid, ::Array<uint8_t>* salt, int iterationCount, ::Array<uint8_t>* data);
+    // Offset: 0x1FA84B8
+    ::ArrayWrapper<uint8_t> Encrypt(::Il2CppString* algorithmOid, ::ArrayWrapper<uint8_t> salt, int iterationCount, ::ArrayWrapper<uint8_t> data);
     // private System.Security.Cryptography.DSAParameters GetExistingParameters(out System.Boolean found)
-    // Offset: 0x1E0C12C
+    // Offset: 0x1FA8694
     System::Security::Cryptography::DSAParameters GetExistingParameters(ByRef<bool> found);
     // private System.Void AddPrivateKey(Mono.Security.Cryptography.PKCS8/Mono.Security.Cryptography.PrivateKeyInfo pki)
-    // Offset: 0x1E0C360
+    // Offset: 0x1FA88C8
     void AddPrivateKey(Mono::Security::Cryptography::PKCS8::PrivateKeyInfo* pki);
     // private System.Void ReadSafeBag(Mono.Security.ASN1 safeBag)
-    // Offset: 0x1E0A7BC
+    // Offset: 0x1FA6D24
     void ReadSafeBag(Mono::Security::ASN1* safeBag);
     // private Mono.Security.ASN1 CertificateSafeBag(Mono.Security.X509.X509Certificate x509, System.Collections.IDictionary attributes)
-    // Offset: 0x1E0C4D4
+    // Offset: 0x1FA8A3C
     Mono::Security::ASN1* CertificateSafeBag(Mono::Security::X509::X509Certificate* x509, System::Collections::IDictionary* attributes);
     // private System.Byte[] MAC(System.Byte[] password, System.Byte[] salt, System.Int32 iterations, System.Byte[] data)
-    // Offset: 0x1E0A5EC
-    ::Array<uint8_t>* MAC(::Array<uint8_t>* password, ::Array<uint8_t>* salt, int iterations, ::Array<uint8_t>* data);
+    // Offset: 0x1FA6B54
+    ::ArrayWrapper<uint8_t> MAC(::ArrayWrapper<uint8_t> password, ::ArrayWrapper<uint8_t> salt, int iterations, ::ArrayWrapper<uint8_t> data);
     // public System.Byte[] GetBytes()
-    // Offset: 0x1E0CFFC
-    ::Array<uint8_t>* GetBytes();
+    // Offset: 0x1FA9564
+    ::ArrayWrapper<uint8_t> GetBytes();
     // private Mono.Security.PKCS7/Mono.Security.ContentInfo EncryptedContentInfo(Mono.Security.ASN1 safeBags, System.String algorithmOid)
-    // Offset: 0x1E0EEA8
+    // Offset: 0x1FAB410
     Mono::Security::PKCS7::ContentInfo* EncryptedContentInfo(Mono::Security::ASN1* safeBags, ::Il2CppString* algorithmOid);
     // public System.Void AddCertificate(Mono.Security.X509.X509Certificate cert)
-    // Offset: 0x1E0EEA0
+    // Offset: 0x1FAB408
     void AddCertificate(Mono::Security::X509::X509Certificate* cert);
     // public System.Void AddCertificate(Mono.Security.X509.X509Certificate cert, System.Collections.IDictionary attributes)
-    // Offset: 0x1E0F188
+    // Offset: 0x1FAB6F0
     void AddCertificate(Mono::Security::X509::X509Certificate* cert, System::Collections::IDictionary* attributes);
     // public System.Void RemoveCertificate(Mono.Security.X509.X509Certificate cert)
-    // Offset: 0x1E0EE98
+    // Offset: 0x1FAB400
     void RemoveCertificate(Mono::Security::X509::X509Certificate* cert);
     // public System.Void RemoveCertificate(Mono.Security.X509.X509Certificate cert, System.Collections.IDictionary attrs)
-    // Offset: 0x1E0F3BC
+    // Offset: 0x1FAB924
     void RemoveCertificate(Mono::Security::X509::X509Certificate* cert, System::Collections::IDictionary* attrs);
     // public System.Object Clone()
-    // Offset: 0x1E0F88C
+    // Offset: 0x1FABDF4
     ::Il2CppObject* Clone();
     // public System.Void .ctor()
-    // Offset: 0x1E09CB0
+    // Offset: 0x1FA6218
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -250,7 +250,7 @@ namespace Mono::Security::X509 {
       return THROW_UNLESS((::il2cpp_utils::New<PKCS12*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1E0AE8C
+    // Offset: 0x1FA73F4
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -338,29 +338,29 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::Decode
 // Il2CppName: Decode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::*)(::Array<uint8_t>*)>(&Mono::Security::X509::PKCS12::Decode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::*)(::ArrayWrapper<uint8_t>)>(&Mono::Security::X509::PKCS12::Decode)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::Compare
 // Il2CppName: Compare
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::PKCS12::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Mono::Security::X509::PKCS12::Compare)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::PKCS12::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&Mono::Security::X509::PKCS12::Compare)> {
   static const MethodInfo* get() {
-    static auto* expected = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* actual = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* expected = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* actual = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expected, actual});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::GetSymmetricAlgorithm
 // Il2CppName: GetSymmetricAlgorithm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::SymmetricAlgorithm* (Mono::Security::X509::PKCS12::*)(::Il2CppString*, ::Array<uint8_t>*, int)>(&Mono::Security::X509::PKCS12::GetSymmetricAlgorithm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::SymmetricAlgorithm* (Mono::Security::X509::PKCS12::*)(::Il2CppString*, ::ArrayWrapper<uint8_t>, int)>(&Mono::Security::X509::PKCS12::GetSymmetricAlgorithm)> {
   static const MethodInfo* get() {
     static auto* algorithmOid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* salt = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* salt = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* iterationCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "GetSymmetricAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithmOid, salt, iterationCount});
   }
@@ -368,19 +368,19 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::Decrypt
 // Il2CppName: Decrypt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::X509::PKCS12::*)(::Il2CppString*, ::Array<uint8_t>*, int, ::Array<uint8_t>*)>(&Mono::Security::X509::PKCS12::Decrypt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::X509::PKCS12::*)(::Il2CppString*, ::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>)>(&Mono::Security::X509::PKCS12::Decrypt)> {
   static const MethodInfo* get() {
     static auto* algorithmOid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* salt = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* salt = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* iterationCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* encryptedData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* encryptedData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "Decrypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithmOid, salt, iterationCount, encryptedData});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::Decrypt
 // Il2CppName: Decrypt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::X509::PKCS12::*)(Mono::Security::PKCS7::EncryptedData*)>(&Mono::Security::X509::PKCS12::Decrypt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::X509::PKCS12::*)(Mono::Security::PKCS7::EncryptedData*)>(&Mono::Security::X509::PKCS12::Decrypt)> {
   static const MethodInfo* get() {
     static auto* ed = &::il2cpp_utils::GetClassFromName("Mono.Security", "PKCS7/EncryptedData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "Decrypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ed});
@@ -389,12 +389,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::Encrypt
 // Il2CppName: Encrypt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::X509::PKCS12::*)(::Il2CppString*, ::Array<uint8_t>*, int, ::Array<uint8_t>*)>(&Mono::Security::X509::PKCS12::Encrypt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::X509::PKCS12::*)(::Il2CppString*, ::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>)>(&Mono::Security::X509::PKCS12::Encrypt)> {
   static const MethodInfo* get() {
     static auto* algorithmOid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* salt = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* salt = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* iterationCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "Encrypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithmOid, salt, iterationCount, data});
   }
 };
@@ -438,19 +438,19 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::MAC
 // Il2CppName: MAC
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::X509::PKCS12::*)(::Array<uint8_t>*, ::Array<uint8_t>*, int, ::Array<uint8_t>*)>(&Mono::Security::X509::PKCS12::MAC)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::X509::PKCS12::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>)>(&Mono::Security::X509::PKCS12::MAC)> {
   static const MethodInfo* get() {
-    static auto* password = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* salt = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* password = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* salt = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* iterations = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "MAC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{password, salt, iterations, data});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::X509::PKCS12::*)()>(&Mono::Security::X509::PKCS12::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::X509::PKCS12::*)()>(&Mono::Security::X509::PKCS12::GetBytes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

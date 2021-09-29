@@ -101,23 +101,23 @@ namespace System::Reflection {
     // Get instance field reference: private System.Runtime.Serialization.SerializationInfo m_info
     System::Runtime::Serialization::SerializationInfo*& dyn_m_info();
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1D1CC8C
+    // Offset: 0x1EA9E08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemberInfoSerializationHolder* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MemberInfoSerializationHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemberInfoSerializationHolder*, creationType>(info, context)));
     }
     // static public System.Void GetSerializationInfo(System.Runtime.Serialization.SerializationInfo info, System.String name, System.RuntimeType reflectedClass, System.String signature, System.Reflection.MemberTypes type)
-    // Offset: 0x1D1C9F0
+    // Offset: 0x1EA9B6C
     static void GetSerializationInfo(System::Runtime::Serialization::SerializationInfo* info, ::Il2CppString* name, System::RuntimeType* reflectedClass, ::Il2CppString* signature, System::Reflection::MemberTypes type);
     // static public System.Void GetSerializationInfo(System.Runtime.Serialization.SerializationInfo info, System.String name, System.RuntimeType reflectedClass, System.String signature, System.String signature2, System.Reflection.MemberTypes type, System.Type[] genericArguments)
-    // Offset: 0x1D1CA00
-    static void GetSerializationInfo(System::Runtime::Serialization::SerializationInfo* info, ::Il2CppString* name, System::RuntimeType* reflectedClass, ::Il2CppString* signature, ::Il2CppString* signature2, System::Reflection::MemberTypes type, ::Array<System::Type*>* genericArguments);
+    // Offset: 0x1EA9B7C
+    static void GetSerializationInfo(System::Runtime::Serialization::SerializationInfo* info, ::Il2CppString* name, System::RuntimeType* reflectedClass, ::Il2CppString* signature, ::Il2CppString* signature2, System::Reflection::MemberTypes type, ::ArrayWrapper<System::Type*> genericArguments);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1D1CF14
+    // Offset: 0x1EAA090
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Object GetRealObject(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1D1CF94
+    // Offset: 0x1EAA110
     ::Il2CppObject* GetRealObject(System::Runtime::Serialization::StreamingContext context);
   }; // System.Reflection.MemberInfoSerializationHolder
   #pragma pack(pop)
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Reflection::MemberInfoSerializationHolder::GetSerializationInfo
 // Il2CppName: GetSerializationInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Serialization::SerializationInfo*, ::Il2CppString*, System::RuntimeType*, ::Il2CppString*, ::Il2CppString*, System::Reflection::MemberTypes, ::Array<System::Type*>*)>(&System::Reflection::MemberInfoSerializationHolder::GetSerializationInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Serialization::SerializationInfo*, ::Il2CppString*, System::RuntimeType*, ::Il2CppString*, ::Il2CppString*, System::Reflection::MemberTypes, ::ArrayWrapper<System::Type*>)>(&System::Reflection::MemberInfoSerializationHolder::GetSerializationInfo)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
     static auto* signature = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* signature2 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberTypes")->byval_arg;
-    static auto* genericArguments = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
+    static auto* genericArguments = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Type")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MemberInfoSerializationHolder*), "GetSerializationInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{info, name, reflectedClass, signature, signature2, type, genericArguments});
   }
 };

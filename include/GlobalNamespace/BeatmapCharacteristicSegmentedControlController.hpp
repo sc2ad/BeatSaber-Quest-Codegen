@@ -87,28 +87,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<BeatmapCharacteristicSO> _beatmapCharacteristics
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapCharacteristicSO*>*& dyn__beatmapCharacteristics();
     // public BeatmapCharacteristicSO get_selectedBeatmapCharacteristic()
-    // Offset: 0x11E1CC0
+    // Offset: 0x12722AC
     GlobalNamespace::BeatmapCharacteristicSO* get_selectedBeatmapCharacteristic();
     // public System.Void add_didSelectBeatmapCharacteristicEvent(System.Action`2<BeatmapCharacteristicSegmentedControlController,BeatmapCharacteristicSO> value)
-    // Offset: 0x11E1B78
+    // Offset: 0x1272164
     void add_didSelectBeatmapCharacteristicEvent(System::Action_2<GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didSelectBeatmapCharacteristicEvent(System.Action`2<BeatmapCharacteristicSegmentedControlController,BeatmapCharacteristicSO> value)
-    // Offset: 0x11E1C1C
+    // Offset: 0x1272208
     void remove_didSelectBeatmapCharacteristicEvent(System::Action_2<GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // protected System.Void Awake()
-    // Offset: 0x11E1CC8
+    // Offset: 0x12722B4
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x11E1D5C
+    // Offset: 0x1272348
     void OnDestroy();
     // public System.Void SetData(IDifficultyBeatmapSet[] difficultyBeatmapSets, BeatmapCharacteristicSO selectedBeatmapCharacteristic)
-    // Offset: 0x11E1E38
-    void SetData(::Array<GlobalNamespace::IDifficultyBeatmapSet*>* difficultyBeatmapSets, GlobalNamespace::BeatmapCharacteristicSO* selectedBeatmapCharacteristic);
+    // Offset: 0x1272424
+    void SetData(::ArrayWrapper<GlobalNamespace::IDifficultyBeatmapSet*> difficultyBeatmapSets, GlobalNamespace::BeatmapCharacteristicSO* selectedBeatmapCharacteristic);
     // private System.Void HandleDifficultySegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0x11E2198
+    // Offset: 0x1272784
     void HandleDifficultySegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // public System.Void .ctor()
-    // Offset: 0x11E223C
+    // Offset: 0x1272828
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -172,9 +172,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicSegmentedControlController::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapCharacteristicSegmentedControlController::*)(::Array<GlobalNamespace::IDifficultyBeatmapSet*>*, GlobalNamespace::BeatmapCharacteristicSO*)>(&GlobalNamespace::BeatmapCharacteristicSegmentedControlController::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapCharacteristicSegmentedControlController::*)(::ArrayWrapper<GlobalNamespace::IDifficultyBeatmapSet*>, GlobalNamespace::BeatmapCharacteristicSO*)>(&GlobalNamespace::BeatmapCharacteristicSegmentedControlController::SetData)> {
   static const MethodInfo* get() {
-    static auto* difficultyBeatmapSets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmapSet"), 1)->byval_arg;
+    static auto* difficultyBeatmapSets = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmapSet")), 1)->byval_arg;
     static auto* selectedBeatmapCharacteristic = &::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCharacteristicSegmentedControlController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmapSets, selectedBeatmapCharacteristic});
   }

@@ -70,13 +70,13 @@ namespace MasterServer {
     // Get instance field reference: public readonly ByteArrayNetSerializable signature
     GlobalNamespace::ByteArrayNetSerializable*& dyn_signature();
     // static public PacketPool`1<MasterServer.ServerHelloRequest> get_pool()
-    // Offset: 0x121E378
+    // Offset: 0x12DD718
     static GlobalNamespace::PacketPool_1<MasterServer::ServerHelloRequest*>* get_pool();
     // public MasterServer.ServerHelloRequest Init(System.Byte[] random, System.Byte[] publicKey, System.Byte[] signature)
-    // Offset: 0x1225504
-    MasterServer::ServerHelloRequest* Init(::Array<uint8_t>* random, ::Array<uint8_t>* publicKey, ::Array<uint8_t>* signature);
+    // Offset: 0x12E48B8
+    MasterServer::ServerHelloRequest* Init(::ArrayWrapper<uint8_t> random, ::ArrayWrapper<uint8_t> publicKey, ::ArrayWrapper<uint8_t> signature);
     // public System.Void .ctor()
-    // Offset: 0x12256C4
+    // Offset: 0x12E4A78
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -86,17 +86,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<ServerHelloRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1225570
+    // Offset: 0x12E4924
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12255D4
+    // Offset: 0x12E4988
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x1225638
+    // Offset: 0x12E49EC
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();
@@ -118,11 +118,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: MasterServer::ServerHelloRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ServerHelloRequest* (MasterServer::ServerHelloRequest::*)(::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*)>(&MasterServer::ServerHelloRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ServerHelloRequest* (MasterServer::ServerHelloRequest::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&MasterServer::ServerHelloRequest::Init)> {
   static const MethodInfo* get() {
-    static auto* random = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* publicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* signature = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* random = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* publicKey = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* signature = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerHelloRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{random, publicKey, signature});
   }
 };

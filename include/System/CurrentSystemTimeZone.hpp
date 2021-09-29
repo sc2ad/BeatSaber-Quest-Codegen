@@ -46,10 +46,10 @@ namespace System {
     // Get instance field reference: private readonly System.TimeZoneInfo LocalTimeZone
     System::TimeZoneInfo*& dyn_LocalTimeZone();
     // static public System.Boolean GetTimeZoneData(System.Int32 year, out System.Int64[] data, out System.String[] names, out System.Boolean daylight_inverted)
-    // Offset: 0x19CA69C
-    static bool GetTimeZoneData(int year, ByRef<::Array<int64_t>*> data, ByRef<::Array<::Il2CppString*>*> names, ByRef<bool> daylight_inverted);
+    // Offset: 0x1B23AF4
+    static bool GetTimeZoneData(int year, ByRef<::ArrayWrapper<int64_t>> data, ByRef<::ArrayWrapper<::Il2CppString*>> names, ByRef<bool> daylight_inverted);
     // System.Void .ctor()
-    // Offset: 0x19CA554
+    // Offset: 0x1B239AC
     // Implemented from: System.TimeZone
     // Base method: System.Void TimeZone::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -59,7 +59,7 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<CurrentSystemTimeZone*, creationType>()));
     }
     // public override System.TimeSpan GetUtcOffset(System.DateTime dateTime)
-    // Offset: 0x19CA5CC
+    // Offset: 0x1B23A24
     // Implemented from: System.TimeZone
     // Base method: System.TimeSpan TimeZone::GetUtcOffset(System.DateTime dateTime)
     System::TimeSpan GetUtcOffset(System::DateTime dateTime);
@@ -73,11 +73,11 @@ DEFINE_IL2CPP_ARG_TYPE(System::CurrentSystemTimeZone*, "System", "CurrentSystemT
 // Writing MetadataGetter for method: System::CurrentSystemTimeZone::GetTimeZoneData
 // Il2CppName: GetTimeZoneData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, ByRef<::Array<int64_t>*>, ByRef<::Array<::Il2CppString*>*>, ByRef<bool>)>(&System::CurrentSystemTimeZone::GetTimeZoneData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, ByRef<::ArrayWrapper<int64_t>>, ByRef<::ArrayWrapper<::Il2CppString*>>, ByRef<bool>)>(&System::CurrentSystemTimeZone::GetTimeZoneData)> {
   static const MethodInfo* get() {
     static auto* year = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int64"), 1)->this_arg;
-    static auto* names = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->this_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int64")), 1)->this_arg;
+    static auto* names = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->this_arg;
     static auto* daylight_inverted = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::CurrentSystemTimeZone*), "GetTimeZoneData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{year, data, names, daylight_inverted});
   }

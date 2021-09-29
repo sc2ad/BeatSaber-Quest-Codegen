@@ -41,23 +41,23 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Boolean _caseInsensitive
     bool& dyn__caseInsensitive();
     // System.String get_Prefix()
-    // Offset: 0x19A5F54
+    // Offset: 0x1A40014
     ::Il2CppString* get_Prefix();
     // System.Boolean get_CaseInsensitive()
-    // Offset: 0x19A5F5C
+    // Offset: 0x1A4001C
     bool get_CaseInsensitive();
     // static System.Text.RegularExpressions.RegexPrefix get_Empty()
-    // Offset: 0x19A5F64
+    // Offset: 0x1A40024
     static System::Text::RegularExpressions::RegexPrefix* get_Empty();
     // System.Void .ctor(System.String prefix, System.Boolean ci)
-    // Offset: 0x199C288
+    // Offset: 0x1A3594C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexPrefix* New_ctor(::Il2CppString* prefix, bool ci) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexPrefix::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexPrefix*, creationType>(prefix, ci)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x19A5FCC
+    // Offset: 0x1A4008C
     static void _cctor();
   }; // System.Text.RegularExpressions.RegexPrefix
   #pragma pack(pop)

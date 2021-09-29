@@ -83,22 +83,22 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: private System.Boolean m_SetPositionRotation
     bool& dyn_m_SetPositionRotation();
     // public UnityEngine.Vector3 get_Position()
-    // Offset: 0x19F5990
+    // Offset: 0x1B6A838
     UnityEngine::Vector3 get_Position();
     // public UnityEngine.Quaternion get_Rotation()
-    // Offset: 0x19F599C
+    // Offset: 0x1B6A844
     UnityEngine::Quaternion get_Rotation();
     // public UnityEngine.Transform get_Parent()
-    // Offset: 0x19F59A8
+    // Offset: 0x1B6A850
     UnityEngine::Transform* get_Parent();
     // public System.Boolean get_InstantiateInWorldPosition()
-    // Offset: 0x19F59B0
+    // Offset: 0x1B6A858
     bool get_InstantiateInWorldPosition();
     // public System.Boolean get_SetPositionRotation()
-    // Offset: 0x19F59B8
+    // Offset: 0x1B6A860
     bool get_SetPositionRotation();
     // public System.Void .ctor(UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace)
-    // Offset: 0x19F59C0
+    // Offset: 0x1B6A868
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     InstantiationParameters(UnityEngine::Transform* parent, bool instantiateInWorldSpace) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::.ctor");
@@ -106,7 +106,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, parent, instantiateInWorldSpace);
     }
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent)
-    // Offset: 0x19F5A80
+    // Offset: 0x1B6A928
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     InstantiationParameters(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Transform* parent) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::.ctor");

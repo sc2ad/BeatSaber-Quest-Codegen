@@ -23,7 +23,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: PlayerPrefsException
     PlayerPrefsException() noexcept {}
     // public System.Void .ctor(System.String error)
-    // Offset: 0x1C6A47C
+    // Offset: 0x1DFDAD0
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String error)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

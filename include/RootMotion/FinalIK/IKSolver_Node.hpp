@@ -64,21 +64,21 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public UnityEngine.Vector3 offset
     UnityEngine::Vector3& dyn_offset();
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x1CD9A44
+    // Offset: 0x1E9CD04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolver::Node* New_ctor(UnityEngine::Transform* transform) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolver::Node::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolver::Node*, creationType>(transform)));
     }
     // public System.Void .ctor(UnityEngine.Transform transform, System.Single weight)
-    // Offset: 0x1CD9A6C
+    // Offset: 0x1E9CD2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolver::Node* New_ctor(UnityEngine::Transform* transform, float weight) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolver::Node::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolver::Node*, creationType>(transform, weight)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1CD9A40
+    // Offset: 0x1E9CD00
     // Implemented from: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point
     // Base method: System.Void Point::.ctor()
     // Base method: System.Void Object::.ctor()

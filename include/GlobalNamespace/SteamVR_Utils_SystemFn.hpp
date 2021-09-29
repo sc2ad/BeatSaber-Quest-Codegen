@@ -40,15 +40,15 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SystemFn
     SystemFn() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1708538
+    // Offset: 0x1883F34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Utils::SystemFn* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Utils::SystemFn::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Utils::SystemFn*, creationType>(object, method)));
     }
     // public System.Object Invoke(Valve.VR.CVRSystem system, params System.Object[] args)
-    // Offset: 0x170585C
-    ::Il2CppObject* Invoke(Valve::VR::CVRSystem* system, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x1881258
+    ::Il2CppObject* Invoke(Valve::VR::CVRSystem* system, ::ArrayWrapper<::Il2CppObject*> args);
     // Creating initializer_list -> params proxy for: System.Object Invoke(Valve.VR.CVRSystem system, params System.Object[] args)
     ::Il2CppObject* Invoke(Valve::VR::CVRSystem* system, std::initializer_list<::Il2CppObject*> args);
     // Creating TArgs -> initializer_list proxy for: System.Object Invoke(Valve.VR.CVRSystem system, params System.Object[] args)
@@ -57,10 +57,10 @@ namespace GlobalNamespace {
       return Invoke(system, {args...});
     }
     // public System.IAsyncResult BeginInvoke(Valve.VR.CVRSystem system, System.Object[] args, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1708548
-    System::IAsyncResult* BeginInvoke(Valve::VR::CVRSystem* system, ::Array<::Il2CppObject*>* args, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x1883F44
+    System::IAsyncResult* BeginInvoke(Valve::VR::CVRSystem* system, ::ArrayWrapper<::Il2CppObject*> args, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Object EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1708578
+    // Offset: 0x1883F74
     ::Il2CppObject* EndInvoke(System::IAsyncResult* result);
   }; // SteamVR_Utils/SystemFn
   #pragma pack(pop)
@@ -74,20 +74,20 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Utils::SystemFn*, "", "SteamVR_U
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::SystemFn::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (GlobalNamespace::SteamVR_Utils::SystemFn::*)(Valve::VR::CVRSystem*, ::Array<::Il2CppObject*>*)>(&GlobalNamespace::SteamVR_Utils::SystemFn::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (GlobalNamespace::SteamVR_Utils::SystemFn::*)(Valve::VR::CVRSystem*, ::ArrayWrapper<::Il2CppObject*>)>(&GlobalNamespace::SteamVR_Utils::SystemFn::Invoke)> {
   static const MethodInfo* get() {
     static auto* system = &::il2cpp_utils::GetClassFromName("Valve.VR", "CVRSystem")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::SystemFn*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{system, args});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::SystemFn::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::SteamVR_Utils::SystemFn::*)(Valve::VR::CVRSystem*, ::Array<::Il2CppObject*>*, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::SteamVR_Utils::SystemFn::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::SteamVR_Utils::SystemFn::*)(Valve::VR::CVRSystem*, ::ArrayWrapper<::Il2CppObject*>, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::SteamVR_Utils::SystemFn::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* system = &::il2cpp_utils::GetClassFromName("Valve.VR", "CVRSystem")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::SystemFn*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{system, args, callback, object});

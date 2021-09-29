@@ -30,12 +30,12 @@ namespace System::Net::Configuration {
     // Creating value type constructor for type: PerformanceCountersElement
     PerformanceCountersElement() noexcept {}
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x16D5E20
+    // Offset: 0x157010C
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();
     // public System.Void .ctor()
-    // Offset: 0x16D5DE0
+    // Offset: 0x15700CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

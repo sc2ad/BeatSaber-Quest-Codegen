@@ -33,13 +33,13 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Get instance field reference: private System.String <proof>k__BackingField
     ::Il2CppString*& dyn_$proof$k__BackingField();
     // public System.String get_proof()
-    // Offset: 0x11DEE64
+    // Offset: 0x126F450
     ::Il2CppString* get_proof();
     // public System.Void set_proof(System.String value)
-    // Offset: 0x11DEE6C
+    // Offset: 0x126F458
     void set_proof(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x11DEE74
+    // Offset: 0x126F460
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

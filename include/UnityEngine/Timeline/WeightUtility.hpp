@@ -24,7 +24,7 @@ namespace UnityEngine::Timeline {
     // Creating value type constructor for type: WeightUtility
     WeightUtility() noexcept {}
     // static public System.Single NormalizeMixer(UnityEngine.Playables.Playable mixer)
-    // Offset: 0x23714DC
+    // Offset: 0x256BD3C
     static float NormalizeMixer(UnityEngine::Playables::Playable mixer);
   }; // UnityEngine.Timeline.WeightUtility
   #pragma pack(pop)

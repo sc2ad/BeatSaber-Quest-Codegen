@@ -32,7 +32,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0xFFFFFFFF
     ::Il2CppString* GetString();
     // protected System.Void .ctor()
-    // Offset: 0x173BDF0
+    // Offset: 0x18ED5C8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::.ctor()
     // Base method: System.Void Asn1Encodable::.ctor()
@@ -43,12 +43,12 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<DerStringBase*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x1740F78
+    // Offset: 0x18F2750
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x1740F84
+    // Offset: 0x18F275C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();

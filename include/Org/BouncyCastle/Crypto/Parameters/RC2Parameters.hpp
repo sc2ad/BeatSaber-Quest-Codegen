@@ -28,26 +28,26 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: RC2Parameters
     RC2Parameters(int bits_ = {}) noexcept : bits{bits_} {}
-    // Deleting conversion operator: operator ::Array<uint8_t>*
-    constexpr operator ::Array<uint8_t>*() const noexcept = delete;
+    // Deleting conversion operator: operator ::ArrayWrapper<uint8_t>
+    constexpr operator ::ArrayWrapper<uint8_t>() const noexcept = delete;
     // Get instance field reference: private readonly System.Int32 bits
     int& dyn_bits();
     // public System.Int32 get_EffectiveKeyBits()
-    // Offset: 0x127AB7C
+    // Offset: 0x1397384
     int get_EffectiveKeyBits();
     // public System.Void .ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen, System.Int32 bits)
-    // Offset: 0x127AB54
+    // Offset: 0x139735C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RC2Parameters* New_ctor(::Array<uint8_t>* key, int keyOff, int keyLen, int bits) {
+    static RC2Parameters* New_ctor(::ArrayWrapper<uint8_t> key, int keyOff, int keyLen, int bits) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::RC2Parameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RC2Parameters*, creationType>(key, keyOff, keyLen, bits)));
     }
     // public System.Void .ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
-    // Offset: 0x127AB18
+    // Offset: 0x1397320
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.KeyParameter
     // Base method: System.Void KeyParameter::.ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RC2Parameters* New_ctor(::Array<uint8_t>* key, int keyOff, int keyLen) {
+    static RC2Parameters* New_ctor(::ArrayWrapper<uint8_t> key, int keyOff, int keyLen) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::RC2Parameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RC2Parameters*, creationType>(key, keyOff, keyLen)));
     }

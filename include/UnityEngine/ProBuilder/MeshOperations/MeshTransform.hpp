@@ -32,16 +32,16 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Creating value type constructor for type: MeshTransform
     MeshTransform() noexcept {}
     // static System.Void SetPivot(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.PivotLocation pivotType, System.Int32 firstVertexIndex)
-    // Offset: 0x17481D8
+    // Offset: 0x18F99B0
     static void SetPivot(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::PivotLocation pivotType, int firstVertexIndex);
     // static public System.Void CenterPivot(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32[] indexes)
-    // Offset: 0x174828C
-    static void CenterPivot(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<int>* indexes);
+    // Offset: 0x18F9A64
+    static void CenterPivot(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayWrapper<int> indexes);
     // static public System.Void SetPivot(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Vector3 worldPosition)
-    // Offset: 0x174863C
+    // Offset: 0x18F9E14
     static void SetPivot(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::Vector3 worldPosition);
     // static public System.Void FreezeScaleTransform(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x1748824
+    // Offset: 0x18F9FFC
     static void FreezeScaleTransform(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
   }; // UnityEngine.ProBuilder.MeshOperations.MeshTransform
   #pragma pack(pop)
@@ -63,10 +63,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::MeshTransform::CenterPivot
 // Il2CppName: CenterPivot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::Array<int>*)>(&UnityEngine::ProBuilder::MeshOperations::MeshTransform::CenterPivot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayWrapper<int>)>(&UnityEngine::ProBuilder::MeshOperations::MeshTransform::CenterPivot)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
-    static auto* indexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* indexes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::MeshTransform*), "CenterPivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, indexes});
   }
 };

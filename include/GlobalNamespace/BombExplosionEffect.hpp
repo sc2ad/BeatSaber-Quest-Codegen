@@ -84,13 +84,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _explosionPSEmitParams
     UnityEngine::ParticleSystem::EmitParams& dyn__explosionPSEmitParams();
     // protected System.Void Awake()
-    // Offset: 0x10D9EF4
+    // Offset: 0x12ABA18
     void Awake();
     // public System.Void SpawnExplosion(UnityEngine.Vector3 pos)
-    // Offset: 0x10D9F2C
+    // Offset: 0x12ABA50
     void SpawnExplosion(UnityEngine::Vector3 pos);
     // public System.Void .ctor()
-    // Offset: 0x10D9FF4
+    // Offset: 0x12ABB18
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

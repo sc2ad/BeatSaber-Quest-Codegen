@@ -48,17 +48,17 @@ namespace GlobalNamespace {
     // private UnityEngine.Material[] _materials
     // Size: 0x8
     // Offset: 0x18
-    ::Array<UnityEngine::Material*>* materials;
+    ::ArrayWrapper<UnityEngine::Material*> materials;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Material*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE35F00
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Material*>) == 0x8);
+    // [InjectAttribute] Offset: 0xEFE654
     // private readonly MainCamera _mainCamera
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MainCamera* mainCamera;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainCamera*) == 0x8);
-    // [InjectAttribute] Offset: 0xE35F10
+    // [InjectAttribute] Offset: 0xEFE664
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x28
@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
     // Creating value type constructor for type: EnvironmentShaderWarmup
-    EnvironmentShaderWarmup(::Array<UnityEngine::Material*>* materials_ = {}, GlobalNamespace::MainCamera* mainCamera_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, UnityEngine::Transform* parentingTransform_ = {}) noexcept : materials{materials_}, mainCamera{mainCamera_}, gameScenesManager{gameScenesManager_}, parentingTransform{parentingTransform_} {}
+    EnvironmentShaderWarmup(::ArrayWrapper<UnityEngine::Material*> materials_ = {}, GlobalNamespace::MainCamera* mainCamera_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, UnityEngine::Transform* parentingTransform_ = {}) noexcept : materials{materials_}, mainCamera{mainCamera_}, gameScenesManager{gameScenesManager_}, parentingTransform{parentingTransform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kNumberOfColumns
@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kNumberOfRows
     static void _set_kNumberOfRows(int value);
     // Get instance field reference: private UnityEngine.Material[] _materials
-    ::Array<UnityEngine::Material*>*& dyn__materials();
+    ::ArrayWrapper<UnityEngine::Material*>& dyn__materials();
     // Get instance field reference: private readonly MainCamera _mainCamera
     GlobalNamespace::MainCamera*& dyn__mainCamera();
     // Get instance field reference: private readonly GameScenesManager _gameScenesManager
@@ -96,10 +96,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _parentingTransform
     UnityEngine::Transform*& dyn__parentingTransform();
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x1058BF0
+    // Offset: 0x11B189C
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0x1058C8C
+    // Offset: 0x11B1938
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

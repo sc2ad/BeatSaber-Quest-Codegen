@@ -77,13 +77,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public GameplayServerConfiguration localConfiguration
     GlobalNamespace::GameplayServerConfiguration& dyn_localConfiguration();
     // System.Void <Refresh>b__0(System.Collections.Generic.IReadOnlyList`1<PublicServerInfo> servers)
-    // Offset: 0x12997D8
+    // Offset: 0x1343F60
     void $Refresh$b__0(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PublicServerInfo>* servers);
     // System.Void <Refresh>b__1(ConnectionFailedReason reason)
-    // Offset: 0x1299B08
+    // Offset: 0x1344290
     void $Refresh$b__1(GlobalNamespace::ConnectionFailedReason reason);
     // public System.Void .ctor()
-    // Offset: 0x1298218
+    // Offset: 0x13429A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

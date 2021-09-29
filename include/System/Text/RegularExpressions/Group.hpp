@@ -23,9 +23,9 @@ namespace System::Text::RegularExpressions {
     // System.Int32[] _caps
     // Size: 0x8
     // Offset: 0x20
-    ::Array<int>* caps;
+    ::ArrayWrapper<int> caps;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // System.Int32 _capcount
     // Size: 0x4
     // Offset: 0x28
@@ -34,7 +34,7 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: capcount and: name
     char __padding1[0x4] = {};
-    // [OptionalFieldAttribute] Offset: 0xDADAA8
+    // [OptionalFieldAttribute] Offset: 0xE6A53C
     // System.String _name
     // Size: 0x8
     // Offset: 0x30
@@ -42,32 +42,32 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // Creating value type constructor for type: Group
-    Group(::Array<int>* caps_ = {}, int capcount_ = {}, ::Il2CppString* name_ = {}) noexcept : caps{caps_}, capcount{capcount_}, name{name_} {}
+    Group(::ArrayWrapper<int> caps_ = {}, int capcount_ = {}, ::Il2CppString* name_ = {}) noexcept : caps{caps_}, capcount{capcount_}, name{name_} {}
     // Get static field: static System.Text.RegularExpressions.Group _emptygroup
     static System::Text::RegularExpressions::Group* _get__emptygroup();
     // Set static field: static System.Text.RegularExpressions.Group _emptygroup
     static void _set__emptygroup(System::Text::RegularExpressions::Group* value);
     // Get instance field reference: System.Int32[] _caps
-    ::Array<int>*& dyn__caps();
+    ::ArrayWrapper<int>& dyn__caps();
     // Get instance field reference: System.Int32 _capcount
     int& dyn__capcount();
     // Get instance field reference: System.String _name
     ::Il2CppString*& dyn__name();
     // public System.Boolean get_Success()
-    // Offset: 0x186F170
+    // Offset: 0x19E15B4
     bool get_Success();
     // System.Void .ctor(System.String text, System.Int32[] caps, System.Int32 capcount, System.String name)
-    // Offset: 0x186F0C0
+    // Offset: 0x19E1504
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Group* New_ctor(::Il2CppString* text, ::Array<int>* caps, int capcount, ::Il2CppString* name) {
+    static Group* New_ctor(::Il2CppString* text, ::ArrayWrapper<int> caps, int capcount, ::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::Group::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Group*, creationType>(text, caps, capcount, name)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x186F180
+    // Offset: 0x19E15C4
     static void _cctor();
     // System.Void .ctor()
-    // Offset: 0x186F23C
+    // Offset: 0x19E1680
     // Implemented from: System.Text.RegularExpressions.Capture
     // Base method: System.Void Capture::.ctor()
     // Base method: System.Void Object::.ctor()

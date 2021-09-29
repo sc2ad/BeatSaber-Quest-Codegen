@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Threading.Tasks.TaskCompletionSource`1<GetAssetBundleFileResult> downloadAssetBundleFileTCS
     System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>*& dyn_downloadAssetBundleFileTCS();
     // public System.Void .ctor(System.String levelId, System.String assetBundlePath)
-    // Offset: 0x1252A04
+    // Offset: 0x135EA80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusBeatmapDataAssetFileModel::LevelDownloadingData* New_ctor(::Il2CppString* levelId, ::Il2CppString* assetBundlePath) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusBeatmapDataAssetFileModel::LevelDownloadingData::.ctor");

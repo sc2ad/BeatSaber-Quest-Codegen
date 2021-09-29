@@ -38,9 +38,9 @@ namespace GlobalNamespace {
     // private NamedIntListController/TextValuePair[] _textValuePairs
     // Size: 0x8
     // Offset: 0x28
-    ::Array<GlobalNamespace::NamedIntListController::TextValuePair*>* textValuePairs;
+    ::ArrayWrapper<GlobalNamespace::NamedIntListController::TextValuePair*> textValuePairs;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::NamedIntListController::TextValuePair*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::NamedIntListController::TextValuePair*>) == 0x8);
     // private System.Int32 _value
     // Size: 0x4
     // Offset: 0x30
@@ -56,31 +56,31 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Action_1<int>*) == 0x8);
     // Creating value type constructor for type: NamedIntListController
-    NamedIntListController(::Array<GlobalNamespace::NamedIntListController::TextValuePair*>* textValuePairs_ = {}, int value_ = {}, System::Action_1<int>* valueChangedEvent_ = {}) noexcept : textValuePairs{textValuePairs_}, value{value_}, valueChangedEvent{valueChangedEvent_} {}
+    NamedIntListController(::ArrayWrapper<GlobalNamespace::NamedIntListController::TextValuePair*> textValuePairs_ = {}, int value_ = {}, System::Action_1<int>* valueChangedEvent_ = {}) noexcept : textValuePairs{textValuePairs_}, value{value_}, valueChangedEvent{valueChangedEvent_} {}
     // Creating interface conversion operator: operator HMUI::IValueChanger_1<int>
     operator HMUI::IValueChanger_1<int>() noexcept {
       return *reinterpret_cast<HMUI::IValueChanger_1<int>*>(this);
     }
     // Get instance field reference: private NamedIntListController/TextValuePair[] _textValuePairs
-    ::Array<GlobalNamespace::NamedIntListController::TextValuePair*>*& dyn__textValuePairs();
+    ::ArrayWrapper<GlobalNamespace::NamedIntListController::TextValuePair*>& dyn__textValuePairs();
     // Get instance field reference: private System.Int32 _value
     int& dyn__value();
     // Get instance field reference: private System.Action`1<System.Int32> valueChangedEvent
     System::Action_1<int>*& dyn_valueChangedEvent();
     // public System.Void add_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x1045AE0
+    // Offset: 0x1134A80
     void add_valueChangedEvent(System::Action_1<int>* value);
     // public System.Void remove_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x1045B84
+    // Offset: 0x1134B24
     void remove_valueChangedEvent(System::Action_1<int>* value);
     // public System.Void InitValues(NamedIntListController/TextValuePair[] values)
-    // Offset: 0x1045C28
-    void InitValues(::Array<GlobalNamespace::NamedIntListController::TextValuePair*>* values);
+    // Offset: 0x1134BC8
+    void InitValues(::ArrayWrapper<GlobalNamespace::NamedIntListController::TextValuePair*> values);
     // public System.Void SetValue(System.Int32 value)
-    // Offset: 0x1045C38
+    // Offset: 0x1134BD8
     void SetValue(int value);
     // public System.Void .ctor()
-    // Offset: 0x1045DB0
+    // Offset: 0x1134D50
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -95,17 +95,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NamedIntListController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x1045C48
+    // Offset: 0x1134BE8
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x1045CE4
+    // Offset: 0x1134C84
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x1045D5C
+    // Offset: 0x1134CFC
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::Il2CppString* TextForValue(int idx);
@@ -137,9 +137,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::NamedIntListController::InitValues
 // Il2CppName: InitValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NamedIntListController::*)(::Array<GlobalNamespace::NamedIntListController::TextValuePair*>*)>(&GlobalNamespace::NamedIntListController::InitValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NamedIntListController::*)(::ArrayWrapper<GlobalNamespace::NamedIntListController::TextValuePair*>)>(&GlobalNamespace::NamedIntListController::InitValues)> {
   static const MethodInfo* get() {
-    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "NamedIntListController/TextValuePair"), 1)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "NamedIntListController/TextValuePair")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NamedIntListController*), "InitValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{values});
   }
 };

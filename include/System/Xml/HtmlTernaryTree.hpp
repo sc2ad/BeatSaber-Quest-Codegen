@@ -17,15 +17,15 @@ namespace System::Xml {
     // Creating value type constructor for type: HtmlTernaryTree
     HtmlTernaryTree() noexcept {}
     // Get static field: static System.Byte[] htmlElements
-    static ::Array<uint8_t>* _get_htmlElements();
+    static ::ArrayWrapper<uint8_t> _get_htmlElements();
     // Set static field: static System.Byte[] htmlElements
-    static void _set_htmlElements(::Array<uint8_t>* value);
+    static void _set_htmlElements(::ArrayWrapper<uint8_t> value);
     // Get static field: static System.Byte[] htmlAttributes
-    static ::Array<uint8_t>* _get_htmlAttributes();
+    static ::ArrayWrapper<uint8_t> _get_htmlAttributes();
     // Set static field: static System.Byte[] htmlAttributes
-    static void _set_htmlAttributes(::Array<uint8_t>* value);
+    static void _set_htmlAttributes(::ArrayWrapper<uint8_t> value);
     // static private System.Void .cctor()
-    // Offset: 0x1958758
+    // Offset: 0x1AF9590
     static void _cctor();
   }; // System.Xml.HtmlTernaryTree
   #pragma pack(pop)

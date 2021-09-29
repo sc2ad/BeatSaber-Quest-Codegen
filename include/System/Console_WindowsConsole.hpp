@@ -34,22 +34,22 @@ namespace System {
     // Set static field: static private System.Console/System.WindowsConsole/System.WindowsCancelHandler cancelHandler
     static void _set_cancelHandler(System::Console::WindowsConsole::WindowsCancelHandler* value);
     // static private System.Void .cctor()
-    // Offset: 0x19BFD94
+    // Offset: 0x1B18FD0
     static void _cctor();
     // static private System.Int32 GetConsoleCP()
-    // Offset: 0x19BFC38
+    // Offset: 0x1B18E74
     static int GetConsoleCP();
     // static private System.Int32 GetConsoleOutputCP()
-    // Offset: 0x19BFCAC
+    // Offset: 0x1B18EE8
     static int GetConsoleOutputCP();
     // static private System.Boolean DoWindowsConsoleCancelEvent(System.Int32 keyCode)
-    // Offset: 0x19BFD24
+    // Offset: 0x1B18F60
     static bool DoWindowsConsoleCancelEvent(int keyCode);
     // static public System.Int32 GetInputCodePage()
-    // Offset: 0x19BE634
+    // Offset: 0x1B17870
     static int GetInputCodePage();
     // static public System.Int32 GetOutputCodePage()
-    // Offset: 0x19BE690
+    // Offset: 0x1B178CC
     static int GetOutputCodePage();
   }; // System.Console/System.WindowsConsole
   #pragma pack(pop)

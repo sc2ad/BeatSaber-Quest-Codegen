@@ -137,25 +137,25 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Math::EC::ECPoint* get_Infinity();
     // public Org.BouncyCastle.Math.Field.IFiniteField get_Field()
-    // Offset: 0x214075C
+    // Offset: 0x2315760
     Org::BouncyCastle::Math::Field::IFiniteField* get_Field();
     // public Org.BouncyCastle.Math.EC.ECFieldElement get_A()
-    // Offset: 0x2140764
+    // Offset: 0x2315768
     Org::BouncyCastle::Math::EC::ECFieldElement* get_A();
     // public Org.BouncyCastle.Math.EC.ECFieldElement get_B()
-    // Offset: 0x214076C
+    // Offset: 0x2315770
     Org::BouncyCastle::Math::EC::ECFieldElement* get_B();
     // public Org.BouncyCastle.Math.BigInteger get_Order()
-    // Offset: 0x2140774
+    // Offset: 0x2315778
     Org::BouncyCastle::Math::BigInteger* get_Order();
     // public Org.BouncyCastle.Math.BigInteger get_Cofactor()
-    // Offset: 0x214077C
+    // Offset: 0x2315780
     Org::BouncyCastle::Math::BigInteger* get_Cofactor();
     // public System.Int32 get_CoordinateSystem()
-    // Offset: 0x2140784
+    // Offset: 0x2315788
     int get_CoordinateSystem();
     // protected System.Void .ctor(Org.BouncyCastle.Math.Field.IFiniteField field)
-    // Offset: 0x213FD1C
+    // Offset: 0x2314D20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECCurve* New_ctor(Org::BouncyCastle::Math::Field::IFiniteField* field) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::ECCurve::.ctor");
@@ -168,16 +168,16 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElementMult(Org::BouncyCastle::Security::SecureRandom* r);
     // public Org.BouncyCastle.Math.EC.ECCurve/Org.BouncyCastle.Math.EC.Config Configure()
-    // Offset: 0x213FD50
+    // Offset: 0x2314D54
     Org::BouncyCastle::Math::EC::ECCurve::Config* Configure();
     // public Org.BouncyCastle.Math.EC.ECPoint ValidatePoint(Org.BouncyCastle.Math.BigInteger x, Org.BouncyCastle.Math.BigInteger y)
-    // Offset: 0x213FE24
+    // Offset: 0x2314E28
     Org::BouncyCastle::Math::EC::ECPoint* ValidatePoint(Org::BouncyCastle::Math::BigInteger* x, Org::BouncyCastle::Math::BigInteger* y);
     // public Org.BouncyCastle.Math.EC.ECPoint CreatePoint(Org.BouncyCastle.Math.BigInteger x, Org.BouncyCastle.Math.BigInteger y)
-    // Offset: 0x213FEF4
+    // Offset: 0x2314EF8
     Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(Org::BouncyCastle::Math::BigInteger* x, Org::BouncyCastle::Math::BigInteger* y);
     // public Org.BouncyCastle.Math.EC.ECPoint CreatePoint(Org.BouncyCastle.Math.BigInteger x, Org.BouncyCastle.Math.BigInteger y, System.Boolean withCompression)
-    // Offset: 0x213FF04
+    // Offset: 0x2314F08
     Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(Org::BouncyCastle::Math::BigInteger* x, Org::BouncyCastle::Math::BigInteger* y, bool withCompression);
     // protected Org.BouncyCastle.Math.EC.ECCurve CloneCurve()
     // Offset: 0xFFFFFFFF
@@ -187,53 +187,53 @@ namespace Org::BouncyCastle::Math::EC {
     Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
     // protected internal Org.BouncyCastle.Math.EC.ECPoint CreateRawPoint(Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y, ::Array<Org::BouncyCastle::Math::EC::ECFieldElement*>* zs, bool withCompression);
+    Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECFieldElement*> zs, bool withCompression);
     // protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier CreateDefaultMultiplier()
-    // Offset: 0x213FF6C
+    // Offset: 0x2314F70
     Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateDefaultMultiplier();
     // public System.Boolean SupportsCoordinateSystem(System.Int32 coord)
-    // Offset: 0x2140018
+    // Offset: 0x231501C
     bool SupportsCoordinateSystem(int coord);
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.ECPoint point, System.String name, Org.BouncyCastle.Math.EC.Multiplier.IPreCompCallback callback)
-    // Offset: 0x2140024
+    // Offset: 0x2315028
     Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(Org::BouncyCastle::Math::EC::ECPoint* point, ::Il2CppString* name, Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback* callback);
     // public Org.BouncyCastle.Math.EC.ECPoint ImportPoint(Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x2140348
+    // Offset: 0x231534C
     Org::BouncyCastle::Math::EC::ECPoint* ImportPoint(Org::BouncyCastle::Math::EC::ECPoint* p);
     // public System.Void NormalizeAll(Org.BouncyCastle.Math.EC.ECPoint[] points)
-    // Offset: 0x2140448
-    void NormalizeAll(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* points);
+    // Offset: 0x231544C
+    void NormalizeAll(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> points);
     // public System.Void NormalizeAll(Org.BouncyCastle.Math.EC.ECPoint[] points, System.Int32 off, System.Int32 len, Org.BouncyCastle.Math.EC.ECFieldElement iso)
-    // Offset: 0x2140474
-    void NormalizeAll(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* points, int off, int len, Org::BouncyCastle::Math::EC::ECFieldElement* iso);
+    // Offset: 0x2315478
+    void NormalizeAll(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> points, int off, int len, Org::BouncyCastle::Math::EC::ECFieldElement* iso);
     // public Org.BouncyCastle.Math.EC.ECLookupTable CreateCacheSafeLookupTable(Org.BouncyCastle.Math.EC.ECPoint[] points, System.Int32 off, System.Int32 len)
-    // Offset: 0x214078C
-    Org::BouncyCastle::Math::EC::ECLookupTable* CreateCacheSafeLookupTable(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* points, int off, int len);
+    // Offset: 0x2315790
+    Org::BouncyCastle::Math::EC::ECLookupTable* CreateCacheSafeLookupTable(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> points, int off, int len);
     // protected System.Void CheckPoint(Org.BouncyCastle.Math.EC.ECPoint point)
-    // Offset: 0x21409F4
+    // Offset: 0x23159F8
     void CheckPoint(Org::BouncyCastle::Math::EC::ECPoint* point);
     // protected System.Void CheckPoints(Org.BouncyCastle.Math.EC.ECPoint[] points, System.Int32 off, System.Int32 len)
-    // Offset: 0x2140AA4
-    void CheckPoints(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* points, int off, int len);
+    // Offset: 0x2315AA8
+    void CheckPoints(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> points, int off, int len);
     // public System.Boolean Equals(Org.BouncyCastle.Math.EC.ECCurve other)
-    // Offset: 0x2140C28
+    // Offset: 0x2315C2C
     bool Equals(Org::BouncyCastle::Math::EC::ECCurve* other);
     // protected Org.BouncyCastle.Math.EC.ECPoint DecompressPoint(System.Int32 yTilde, Org.BouncyCastle.Math.BigInteger X1)
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Math::EC::ECPoint* DecompressPoint(int yTilde, Org::BouncyCastle::Math::BigInteger* X1);
     // public Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier GetMultiplier()
-    // Offset: 0x2140EFC
+    // Offset: 0x2315F00
     Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* GetMultiplier();
     // public Org.BouncyCastle.Math.EC.ECPoint DecodePoint(System.Byte[] encoded)
-    // Offset: 0x2140F94
-    Org::BouncyCastle::Math::EC::ECPoint* DecodePoint(::Array<uint8_t>* encoded);
+    // Offset: 0x2315F98
+    Org::BouncyCastle::Math::EC::ECPoint* DecodePoint(::ArrayWrapper<uint8_t> encoded);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2140D88
+    // Offset: 0x2315D8C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2140E24
+    // Offset: 0x2315E28
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -391,11 +391,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECCurve::CreateRawPoint
 // Il2CppName: CreateRawPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::ECCurve::*)(Org::BouncyCastle::Math::EC::ECFieldElement*, Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<Org::BouncyCastle::Math::EC::ECFieldElement*>*, bool)>(&Org::BouncyCastle::Math::EC::ECCurve::CreateRawPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::ECCurve::*)(Org::BouncyCastle::Math::EC::ECFieldElement*, Org::BouncyCastle::Math::EC::ECFieldElement*, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECFieldElement*>, bool)>(&Org::BouncyCastle::Math::EC::ECCurve::CreateRawPoint)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECFieldElement")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECFieldElement")->byval_arg;
-    static auto* zs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECFieldElement"), 1)->byval_arg;
+    static auto* zs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECFieldElement")), 1)->byval_arg;
     static auto* withCompression = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECCurve*), "CreateRawPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, zs, withCompression});
   }
@@ -440,18 +440,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECCurve::NormalizeAll
 // Il2CppName: NormalizeAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::ECCurve::*)(::Array<Org::BouncyCastle::Math::EC::ECPoint*>*)>(&Org::BouncyCastle::Math::EC::ECCurve::NormalizeAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::ECCurve::*)(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*>)>(&Org::BouncyCastle::Math::EC::ECCurve::NormalizeAll)> {
   static const MethodInfo* get() {
-    static auto* points = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint"), 1)->byval_arg;
+    static auto* points = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECCurve*), "NormalizeAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{points});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECCurve::NormalizeAll
 // Il2CppName: NormalizeAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::ECCurve::*)(::Array<Org::BouncyCastle::Math::EC::ECPoint*>*, int, int, Org::BouncyCastle::Math::EC::ECFieldElement*)>(&Org::BouncyCastle::Math::EC::ECCurve::NormalizeAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::ECCurve::*)(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*>, int, int, Org::BouncyCastle::Math::EC::ECFieldElement*)>(&Org::BouncyCastle::Math::EC::ECCurve::NormalizeAll)> {
   static const MethodInfo* get() {
-    static auto* points = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint"), 1)->byval_arg;
+    static auto* points = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint")), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* iso = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECFieldElement")->byval_arg;
@@ -461,9 +461,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECCurve::CreateCacheSafeLookupTable
 // Il2CppName: CreateCacheSafeLookupTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECLookupTable* (Org::BouncyCastle::Math::EC::ECCurve::*)(::Array<Org::BouncyCastle::Math::EC::ECPoint*>*, int, int)>(&Org::BouncyCastle::Math::EC::ECCurve::CreateCacheSafeLookupTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECLookupTable* (Org::BouncyCastle::Math::EC::ECCurve::*)(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*>, int, int)>(&Org::BouncyCastle::Math::EC::ECCurve::CreateCacheSafeLookupTable)> {
   static const MethodInfo* get() {
-    static auto* points = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint"), 1)->byval_arg;
+    static auto* points = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint")), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECCurve*), "CreateCacheSafeLookupTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{points, off, len});
@@ -481,9 +481,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECCurve::CheckPoints
 // Il2CppName: CheckPoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::ECCurve::*)(::Array<Org::BouncyCastle::Math::EC::ECPoint*>*, int, int)>(&Org::BouncyCastle::Math::EC::ECCurve::CheckPoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::ECCurve::*)(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*>, int, int)>(&Org::BouncyCastle::Math::EC::ECCurve::CheckPoints)> {
   static const MethodInfo* get() {
-    static auto* points = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint"), 1)->byval_arg;
+    static auto* points = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint")), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECCurve*), "CheckPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{points, off, len});
@@ -519,9 +519,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECCurve::DecodePoint
 // Il2CppName: DecodePoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::ECCurve::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Math::EC::ECCurve::DecodePoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::ECCurve::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Math::EC::ECCurve::DecodePoint)> {
   static const MethodInfo* get() {
-    static auto* encoded = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* encoded = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECCurve*), "DecodePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{encoded});
   }
 };

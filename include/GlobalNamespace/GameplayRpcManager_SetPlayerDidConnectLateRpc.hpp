@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SetPlayerDidConnectLateRpc
     SetPlayerDidConnectLateRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x13428C8
+    // Offset: 0x1459F08
     // Implemented from: RemoteProcedureCall`3
     // Base method: System.Void RemoteProcedureCall_3::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

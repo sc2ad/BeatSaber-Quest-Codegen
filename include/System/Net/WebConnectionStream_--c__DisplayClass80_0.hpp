@@ -58,9 +58,9 @@ namespace System::Net {
     // public System.Byte[] bytes
     // Size: 0x8
     // Offset: 0x28
-    ::Array<uint8_t>* bytes;
+    ::ArrayWrapper<uint8_t> bytes;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // public System.AsyncCallback <>9__1
     // Size: 0x8
     // Offset: 0x30
@@ -68,7 +68,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(System::AsyncCallback*) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass80_0
-    $$c__DisplayClass80_0(System::Net::SimpleAsyncResult* result_ = {}, System::Net::WebConnectionStream* $$4__this_ = {}, int length_ = {}, ::Array<uint8_t>* bytes_ = {}, System::AsyncCallback* $$9__1_ = {}) noexcept : result{result_}, $$4__this{$$4__this_}, length{length_}, bytes{bytes_}, $$9__1{$$9__1_} {}
+    $$c__DisplayClass80_0(System::Net::SimpleAsyncResult* result_ = {}, System::Net::WebConnectionStream* $$4__this_ = {}, int length_ = {}, ::ArrayWrapper<uint8_t> bytes_ = {}, System::AsyncCallback* $$9__1_ = {}) noexcept : result{result_}, $$4__this{$$4__this_}, length{length_}, bytes{bytes_}, $$9__1{$$9__1_} {}
     // Get instance field reference: public System.Net.SimpleAsyncResult result
     System::Net::SimpleAsyncResult*& dyn_result();
     // Get instance field reference: public System.Net.WebConnectionStream <>4__this
@@ -76,17 +76,17 @@ namespace System::Net {
     // Get instance field reference: public System.Int32 length
     int& dyn_length();
     // Get instance field reference: public System.Byte[] bytes
-    ::Array<uint8_t>*& dyn_bytes();
+    ::ArrayWrapper<uint8_t>& dyn_bytes();
     // Get instance field reference: public System.AsyncCallback <>9__1
     System::AsyncCallback*& dyn_$$9__1();
     // System.Void <WriteRequestAsync>b__0(System.Net.SimpleAsyncResult inner)
-    // Offset: 0x15DF100
+    // Offset: 0x17825B8
     void $WriteRequestAsync$b__0(System::Net::SimpleAsyncResult* inner);
     // System.Void <WriteRequestAsync>b__1(System.IAsyncResult r)
-    // Offset: 0x15DF278
+    // Offset: 0x1782730
     void $WriteRequestAsync$b__1(System::IAsyncResult* r);
     // public System.Void .ctor()
-    // Offset: 0x15DE8B0
+    // Offset: 0x1781D68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

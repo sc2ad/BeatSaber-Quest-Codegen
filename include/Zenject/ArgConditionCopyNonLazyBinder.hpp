@@ -99,13 +99,13 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodThrow<Zenject::InstantiateCallbackConditionCopyNonLazyBinder*, false>(___instance_arg, ___generic__method, param1, param2, param3, param4, param5, param6);
     }
     // public Zenject.InstantiateCallbackConditionCopyNonLazyBinder WithArguments(System.Object[] args)
-    // Offset: 0x13E1CB8
-    Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArguments(::Array<::Il2CppObject*>* args);
+    // Offset: 0x14F3EAC
+    Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArguments(::ArrayWrapper<::Il2CppObject*> args);
     // public Zenject.InstantiateCallbackConditionCopyNonLazyBinder WithArgumentsExplicit(System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArgs)
-    // Offset: 0x13E1DE8
+    // Offset: 0x14F3FDC
     Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArgumentsExplicit(System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>* extraArgs);
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x13E1CB0
+    // Offset: 0x14F3EA4
     // Implemented from: Zenject.InstantiateCallbackConditionCopyNonLazyBinder
     // Base method: System.Void InstantiateCallbackConditionCopyNonLazyBinder::.ctor(Zenject.BindInfo bindInfo)
     // Base method: System.Void ConditionCopyNonLazyBinder::.ctor(Zenject.BindInfo bindInfo)
@@ -143,9 +143,9 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ArgConditionCopyNonLazyBinder*, "Zenject", "ArgC
 // Writing MetadataGetter for method: Zenject::ArgConditionCopyNonLazyBinder::WithArguments
 // Il2CppName: WithArguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InstantiateCallbackConditionCopyNonLazyBinder* (Zenject::ArgConditionCopyNonLazyBinder::*)(::Array<::Il2CppObject*>*)>(&Zenject::ArgConditionCopyNonLazyBinder::WithArguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InstantiateCallbackConditionCopyNonLazyBinder* (Zenject::ArgConditionCopyNonLazyBinder::*)(::ArrayWrapper<::Il2CppObject*>)>(&Zenject::ArgConditionCopyNonLazyBinder::WithArguments)> {
   static const MethodInfo* get() {
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ArgConditionCopyNonLazyBinder*), "WithArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
   }
 };

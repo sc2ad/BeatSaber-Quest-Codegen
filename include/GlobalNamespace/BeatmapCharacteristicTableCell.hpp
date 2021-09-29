@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* selectionImage;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE43F24
+    // [SpaceAttribute] Offset: 0xF0C8E8
     // private UnityEngine.Color _bgNormalColor
     // Size: 0x10
     // Offset: 0x70
@@ -91,13 +91,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _bgHighlightColor
     UnityEngine::Color& dyn__bgHighlightColor();
     // public System.Void SetData(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x11E293C
+    // Offset: 0x1272F28
     void SetData(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // private System.Void RefreshVisuals()
-    // Offset: 0x11E29A4
+    // Offset: 0x1272F90
     void RefreshVisuals();
     // public System.Void .ctor()
-    // Offset: 0x11E2A30
+    // Offset: 0x127301C
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
@@ -113,12 +113,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCharacteristicTableCell*, creationType>()));
     }
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x11E29A0
+    // Offset: 0x1272F8C
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x11E2A2C
+    // Offset: 0x1273018
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);

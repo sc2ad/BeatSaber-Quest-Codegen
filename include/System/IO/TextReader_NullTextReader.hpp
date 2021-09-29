@@ -23,7 +23,7 @@ namespace System::IO {
     // Creating value type constructor for type: NullTextReader
     NullTextReader() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1833D38
+    // Offset: 0x1A060E0
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
@@ -34,12 +34,12 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<TextReader::NullTextReader*, creationType>()));
     }
     // public override System.Int32 Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1833F60
+    // Offset: 0x1A06308
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    int Read(::Array<::Il2CppChar>* buffer, int index, int count);
+    int Read(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
     // public override System.String ReadLine()
-    // Offset: 0x1833F68
+    // Offset: 0x1A06310
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadLine()
     ::Il2CppString* ReadLine();
@@ -55,9 +55,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader::NullTextReader*, "System.IO", "Te
 // Writing MetadataGetter for method: System::IO::TextReader::NullTextReader::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::TextReader::NullTextReader::*)(::Array<::Il2CppChar>*, int, int)>(&System::IO::TextReader::NullTextReader::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::TextReader::NullTextReader::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::IO::TextReader::NullTextReader::Read)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::TextReader::NullTextReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index, count});

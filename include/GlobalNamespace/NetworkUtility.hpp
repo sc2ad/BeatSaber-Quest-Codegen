@@ -19,33 +19,33 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NetworkUtility
     NetworkUtility() noexcept {}
     // Get static field: static private System.Byte[] _nameEncryptionKey
-    static ::Array<uint8_t>* _get__nameEncryptionKey();
+    static ::ArrayWrapper<uint8_t> _get__nameEncryptionKey();
     // Set static field: static private System.Byte[] _nameEncryptionKey
-    static void _set__nameEncryptionKey(::Array<uint8_t>* value);
+    static void _set__nameEncryptionKey(::ArrayWrapper<uint8_t> value);
     // Get static field: static private System.Byte[] _nameEncryptionIv
-    static ::Array<uint8_t>* _get__nameEncryptionIv();
+    static ::ArrayWrapper<uint8_t> _get__nameEncryptionIv();
     // Set static field: static private System.Byte[] _nameEncryptionIv
-    static void _set__nameEncryptionIv(::Array<uint8_t>* value);
+    static void _set__nameEncryptionIv(::ArrayWrapper<uint8_t> value);
     // static private System.Void .cctor()
-    // Offset: 0x16F44F8
+    // Offset: 0x18CE074
     static void _cctor();
     // static private System.Void Init()
-    // Offset: 0x16F44FC
+    // Offset: 0x18CE078
     static void Init();
     // static public System.String GetHashedUserId(System.String userId, AuthenticationToken/Platform platform)
-    // Offset: 0x16F45C8
+    // Offset: 0x18CE144
     static ::Il2CppString* GetHashedUserId(::Il2CppString* userId, GlobalNamespace::AuthenticationToken::Platform platform);
     // static public System.String EncryptName(System.String text)
-    // Offset: 0x16F4814
+    // Offset: 0x18CE390
     static ::Il2CppString* EncryptName(::Il2CppString* text);
     // static public System.String DecryptName(System.String text)
-    // Offset: 0x16F4B30
+    // Offset: 0x18CE6AC
     static ::Il2CppString* DecryptName(::Il2CppString* text);
     // static public System.String GenerateId()
-    // Offset: 0x16F4E50
+    // Offset: 0x18CE9CC
     static ::Il2CppString* GenerateId();
     // static public System.String GetHashBase64(System.String input)
-    // Offset: 0x16F4680
+    // Offset: 0x18CE1FC
     static ::Il2CppString* GetHashBase64(::Il2CppString* input);
   }; // NetworkUtility
   #pragma pack(pop)

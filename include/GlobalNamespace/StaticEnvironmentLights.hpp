@@ -32,28 +32,28 @@ namespace GlobalNamespace {
     // private UnityEngine.Color[] _lightColors
     // Size: 0x8
     // Offset: 0x18
-    ::Array<UnityEngine::Color>* lightColors;
+    ::ArrayWrapper<UnityEngine::Color> lightColors;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Color>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Color>) == 0x8);
     // private UnityEngine.Material[] _materials
     // Size: 0x8
     // Offset: 0x20
-    ::Array<UnityEngine::Material*>* materials;
+    ::ArrayWrapper<UnityEngine::Material*> materials;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Material*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Material*>) == 0x8);
     // Creating value type constructor for type: StaticEnvironmentLights
-    StaticEnvironmentLights(::Array<UnityEngine::Color>* lightColors_ = {}, ::Array<UnityEngine::Material*>* materials_ = {}) noexcept : lightColors{lightColors_}, materials{materials_} {}
+    StaticEnvironmentLights(::ArrayWrapper<UnityEngine::Color> lightColors_ = {}, ::ArrayWrapper<UnityEngine::Material*> materials_ = {}) noexcept : lightColors{lightColors_}, materials{materials_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Color[] _lightColors
-    ::Array<UnityEngine::Color>*& dyn__lightColors();
+    ::ArrayWrapper<UnityEngine::Color>& dyn__lightColors();
     // Get instance field reference: private UnityEngine.Material[] _materials
-    ::Array<UnityEngine::Material*>*& dyn__materials();
+    ::ArrayWrapper<UnityEngine::Material*>& dyn__materials();
     // protected System.Void Awake()
-    // Offset: 0x1069FB4
+    // Offset: 0x115893C
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x106A05C
+    // Offset: 0x11589E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     }
   }; // StaticEnvironmentLights
   #pragma pack(pop)
-  static check_size<sizeof(StaticEnvironmentLights), 32 + sizeof(::Array<UnityEngine::Material*>*)> __GlobalNamespace_StaticEnvironmentLightsSizeCheck;
+  static check_size<sizeof(StaticEnvironmentLights), 32 + sizeof(::ArrayWrapper<UnityEngine::Material*>)> __GlobalNamespace_StaticEnvironmentLightsSizeCheck;
   static_assert(sizeof(StaticEnvironmentLights) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StaticEnvironmentLights*, "", "StaticEnvironmentLights");

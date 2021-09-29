@@ -29,9 +29,9 @@ namespace System::Runtime::Remoting::Channels {
     // public System.Byte[] arrResponse
     // Size: 0x8
     // Offset: 0x0
-    ::Array<uint8_t>* arrResponse;
+    ::ArrayWrapper<uint8_t> arrResponse;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // public System.Runtime.Remoting.Messaging.CADMethodReturnMessage cadMrm
     // Size: 0x8
     // Offset: 0x8
@@ -39,13 +39,13 @@ namespace System::Runtime::Remoting::Channels {
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Messaging::CADMethodReturnMessage*) == 0x8);
     // Creating value type constructor for type: ProcessMessageRes
-    constexpr ProcessMessageRes(::Array<uint8_t>* arrResponse_ = {}, System::Runtime::Remoting::Messaging::CADMethodReturnMessage* cadMrm_ = {}) noexcept : arrResponse{arrResponse_}, cadMrm{cadMrm_} {}
+    constexpr ProcessMessageRes(::ArrayWrapper<uint8_t> arrResponse_ = {}, System::Runtime::Remoting::Messaging::CADMethodReturnMessage* cadMrm_ = {}) noexcept : arrResponse{arrResponse_}, cadMrm{cadMrm_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public System.Byte[] arrResponse
-    ::Array<uint8_t>*& dyn_arrResponse();
+    ::ArrayWrapper<uint8_t>& dyn_arrResponse();
     // Get instance field reference: public System.Runtime.Remoting.Messaging.CADMethodReturnMessage cadMrm
     System::Runtime::Remoting::Messaging::CADMethodReturnMessage*& dyn_cadMrm();
   }; // System.Runtime.Remoting.Channels.CrossAppDomainSink/System.Runtime.Remoting.Channels.ProcessMessageRes

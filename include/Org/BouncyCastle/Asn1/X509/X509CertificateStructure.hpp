@@ -73,50 +73,50 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerBitString sig
     Org::BouncyCastle::Asn1::DerBitString*& dyn_sig();
     // public Org.BouncyCastle.Asn1.X509.TbsCertificateStructure get_TbsCertificate()
-    // Offset: 0x1A030A8
+    // Offset: 0x1BBCDE4
     Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* get_TbsCertificate();
     // public System.Int32 get_Version()
-    // Offset: 0x1A030B0
+    // Offset: 0x1BBCDEC
     int get_Version();
     // public Org.BouncyCastle.Asn1.DerInteger get_SerialNumber()
-    // Offset: 0x1A030C8
+    // Offset: 0x1BBCE04
     Org::BouncyCastle::Asn1::DerInteger* get_SerialNumber();
     // public Org.BouncyCastle.Asn1.X509.X509Name get_Issuer()
-    // Offset: 0x1A030E4
+    // Offset: 0x1BBCE20
     Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
     // public Org.BouncyCastle.Asn1.X509.Time get_StartDate()
-    // Offset: 0x1A03100
+    // Offset: 0x1BBCE3C
     Org::BouncyCastle::Asn1::X509::Time* get_StartDate();
     // public Org.BouncyCastle.Asn1.X509.Time get_EndDate()
-    // Offset: 0x1A0311C
+    // Offset: 0x1BBCE58
     Org::BouncyCastle::Asn1::X509::Time* get_EndDate();
     // public Org.BouncyCastle.Asn1.X509.X509Name get_Subject()
-    // Offset: 0x1A03138
+    // Offset: 0x1BBCE74
     Org::BouncyCastle::Asn1::X509::X509Name* get_Subject();
     // public Org.BouncyCastle.Asn1.X509.SubjectPublicKeyInfo get_SubjectPublicKeyInfo()
-    // Offset: 0x1A03154
+    // Offset: 0x1BBCE90
     Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* get_SubjectPublicKeyInfo();
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_SignatureAlgorithm()
-    // Offset: 0x1A03170
+    // Offset: 0x1BBCEAC
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_SignatureAlgorithm();
     // public Org.BouncyCastle.Asn1.DerBitString get_Signature()
-    // Offset: 0x1A03178
+    // Offset: 0x1BBCEB4
     Org::BouncyCastle::Asn1::DerBitString* get_Signature();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1A02F64
+    // Offset: 0x1BBCCA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateStructure* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::X509CertificateStructure::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateStructure*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X509.X509CertificateStructure GetInstance(System.Object obj)
-    // Offset: 0x1A02EC0
+    // Offset: 0x1BBCBFC
     static Org::BouncyCastle::Asn1::X509::X509CertificateStructure* GetInstance(::Il2CppObject* obj);
     // public System.Byte[] GetSignatureOctets()
-    // Offset: 0x1A03180
-    ::Array<uint8_t>* GetSignatureOctets();
+    // Offset: 0x1BBCEBC
+    ::ArrayWrapper<uint8_t> GetSignatureOctets();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1A031A0
+    // Offset: 0x1BBCEDC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
@@ -223,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::X509CertificateStructure::GetSignatureOctets
 // Il2CppName: GetSignatureOctets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Asn1::X509::X509CertificateStructure::*)()>(&Org::BouncyCastle::Asn1::X509::X509CertificateStructure::GetSignatureOctets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Asn1::X509::X509CertificateStructure::*)()>(&Org::BouncyCastle::Asn1::X509::X509CertificateStructure::GetSignatureOctets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::X509CertificateStructure*), "GetSignatureOctets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

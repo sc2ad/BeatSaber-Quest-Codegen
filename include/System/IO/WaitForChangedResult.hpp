@@ -60,13 +60,13 @@ namespace System::IO {
     // Get instance field reference: private System.Boolean timedOut
     bool& dyn_timedOut();
     // public System.Void set_ChangeType(System.IO.WatcherChangeTypes value)
-    // Offset: 0x18C54BC
+    // Offset: 0x1A34158
     void set_ChangeType(System::IO::WatcherChangeTypes value);
     // public System.Void set_Name(System.String value)
-    // Offset: 0x18C54C4
+    // Offset: 0x1A34160
     void set_Name(::Il2CppString* value);
     // public System.Void set_OldName(System.String value)
-    // Offset: 0x18C54CC
+    // Offset: 0x1A34168
     void set_OldName(::Il2CppString* value);
   }; // System.IO.WaitForChangedResult
   #pragma pack(pop)

@@ -75,9 +75,9 @@ namespace GlobalNamespace {
     // private MissionObjective[] _missionObjectives
     // Size: 0x8
     // Offset: 0x38
-    ::Array<GlobalNamespace::MissionObjective*>* missionObjectives;
+    ::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::MissionObjective*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionObjective*>) == 0x8);
     // private GameplayModifiers _gameplayModifiers
     // Size: 0x8
     // Offset: 0x40
@@ -96,7 +96,7 @@ namespace GlobalNamespace {
     ::Il2CppString* backButtonText;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE4C060
+    // [SpaceAttribute] Offset: 0xF14C6C
     // private MissionLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x58
@@ -104,7 +104,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*) == 0x8);
     // Creating value type constructor for type: MissionLevelNoTransitionInstaller
-    MissionLevelNoTransitionInstaller(GlobalNamespace::BeatmapLevelSO* beatmapLevel_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, GlobalNamespace::ColorSchemeSO* colorScheme_ = {}, ::Array<GlobalNamespace::MissionObjective*>* missionObjectives_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings_ = {}, ::Il2CppString* backButtonText_ = {}, GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* scenesTransitionSetupData_ = {}) noexcept : beatmapLevel{beatmapLevel_}, beatmapCharacteristic{beatmapCharacteristic_}, beatmapDifficulty{beatmapDifficulty_}, colorScheme{colorScheme_}, missionObjectives{missionObjectives_}, gameplayModifiers{gameplayModifiers_}, playerSpecificSettings{playerSpecificSettings_}, backButtonText{backButtonText_}, scenesTransitionSetupData{scenesTransitionSetupData_} {}
+    MissionLevelNoTransitionInstaller(GlobalNamespace::BeatmapLevelSO* beatmapLevel_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, GlobalNamespace::ColorSchemeSO* colorScheme_ = {}, ::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings_ = {}, ::Il2CppString* backButtonText_ = {}, GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* scenesTransitionSetupData_ = {}) noexcept : beatmapLevel{beatmapLevel_}, beatmapCharacteristic{beatmapCharacteristic_}, beatmapDifficulty{beatmapDifficulty_}, colorScheme{colorScheme_}, missionObjectives{missionObjectives_}, gameplayModifiers{gameplayModifiers_}, playerSpecificSettings{playerSpecificSettings_}, backButtonText{backButtonText_}, scenesTransitionSetupData{scenesTransitionSetupData_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapLevelSO _beatmapLevel
@@ -116,7 +116,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorSchemeSO _colorScheme
     GlobalNamespace::ColorSchemeSO*& dyn__colorScheme();
     // Get instance field reference: private MissionObjective[] _missionObjectives
-    ::Array<GlobalNamespace::MissionObjective*>*& dyn__missionObjectives();
+    ::ArrayWrapper<GlobalNamespace::MissionObjective*>& dyn__missionObjectives();
     // Get instance field reference: private GameplayModifiers _gameplayModifiers
     GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // Get instance field reference: private PlayerSpecificSettings _playerSpecificSettings
@@ -126,7 +126,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
     GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& dyn__scenesTransitionSetupData();
     // public System.Void .ctor()
-    // Offset: 0x1140E58
+    // Offset: 0x11879AC
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -140,7 +140,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelNoTransitionInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x11408A4
+    // Offset: 0x11878EC
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
     void InstallBindings(Zenject::DiContainer* container);

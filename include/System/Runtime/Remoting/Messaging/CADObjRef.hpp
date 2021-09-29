@@ -42,19 +42,19 @@ namespace System::Runtime::Remoting::Messaging {
     // System.Byte[] TypeInfo
     // Size: 0x8
     // Offset: 0x20
-    ::Array<uint8_t>* TypeInfo;
+    ::ArrayWrapper<uint8_t> TypeInfo;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: CADObjRef
-    CADObjRef(System::Runtime::Remoting::ObjRef* objref_ = {}, int SourceDomain_ = {}, ::Array<uint8_t>* TypeInfo_ = {}) noexcept : objref{objref_}, SourceDomain{SourceDomain_}, TypeInfo{TypeInfo_} {}
+    CADObjRef(System::Runtime::Remoting::ObjRef* objref_ = {}, int SourceDomain_ = {}, ::ArrayWrapper<uint8_t> TypeInfo_ = {}) noexcept : objref{objref_}, SourceDomain{SourceDomain_}, TypeInfo{TypeInfo_} {}
     // Get instance field reference: System.Runtime.Remoting.ObjRef objref
     System::Runtime::Remoting::ObjRef*& dyn_objref();
     // Get instance field reference: System.Int32 SourceDomain
     int& dyn_SourceDomain();
     // Get instance field reference: System.Byte[] TypeInfo
-    ::Array<uint8_t>*& dyn_TypeInfo();
+    ::ArrayWrapper<uint8_t>& dyn_TypeInfo();
     // public System.Void .ctor(System.Runtime.Remoting.ObjRef o, System.Int32 sourceDomain)
-    // Offset: 0x1A4AC2C
+    // Offset: 0x1C135FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADObjRef* New_ctor(System::Runtime::Remoting::ObjRef* o, int sourceDomain) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::CADObjRef::.ctor");
@@ -62,7 +62,7 @@ namespace System::Runtime::Remoting::Messaging {
     }
   }; // System.Runtime.Remoting.Messaging.CADObjRef
   #pragma pack(pop)
-  static check_size<sizeof(CADObjRef), 32 + sizeof(::Array<uint8_t>*)> __System_Runtime_Remoting_Messaging_CADObjRefSizeCheck;
+  static check_size<sizeof(CADObjRef), 32 + sizeof(::ArrayWrapper<uint8_t>)> __System_Runtime_Remoting_Messaging_CADObjRefSizeCheck;
   static_assert(sizeof(CADObjRef) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADObjRef*, "System.Runtime.Remoting.Messaging", "CADObjRef");

@@ -54,55 +54,55 @@ namespace ModestTree::Util {
     // Creating value type constructor for type: UnityUtil
     UnityUtil() noexcept {}
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.SceneManagement.Scene> get_AllScenes()
-    // Offset: 0x13DE638
+    // Offset: 0x14F082C
     static System::Collections::Generic::IEnumerable_1<UnityEngine::SceneManagement::Scene>* get_AllScenes();
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.SceneManagement.Scene> get_AllLoadedScenes()
-    // Offset: 0x13DE6E0
+    // Offset: 0x14F08D4
     static System::Collections::Generic::IEnumerable_1<UnityEngine::SceneManagement::Scene>* get_AllLoadedScenes();
     // static public System.Boolean get_IsAltKeyDown()
-    // Offset: 0x13DE7D8
+    // Offset: 0x14F09CC
     static bool get_IsAltKeyDown();
     // static public System.Boolean get_IsControlKeyDown()
-    // Offset: 0x13DE80C
+    // Offset: 0x14F0A00
     static bool get_IsControlKeyDown();
     // static public System.Boolean get_IsShiftKeyDown()
-    // Offset: 0x13DE840
+    // Offset: 0x14F0A34
     static bool get_IsShiftKeyDown();
     // static public System.Boolean get_WasShiftKeyJustPressed()
-    // Offset: 0x13DE874
+    // Offset: 0x14F0A68
     static bool get_WasShiftKeyJustPressed();
     // static public System.Boolean get_WasAltKeyJustPressed()
-    // Offset: 0x13DE8A8
+    // Offset: 0x14F0A9C
     static bool get_WasAltKeyJustPressed();
     // static public System.Int32 GetDepthLevel(UnityEngine.Transform transform)
-    // Offset: 0x13DE8DC
+    // Offset: 0x14F0AD0
     static int GetDepthLevel(UnityEngine::Transform* transform);
     // static public UnityEngine.GameObject GetRootParentOrSelf(UnityEngine.GameObject gameObject)
-    // Offset: 0x13DE98C
+    // Offset: 0x14F0B80
     static UnityEngine::GameObject* GetRootParentOrSelf(UnityEngine::GameObject* gameObject);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.Transform> GetParents(UnityEngine.Transform transform)
-    // Offset: 0x13DEB2C
+    // Offset: 0x14F0D20
     static System::Collections::Generic::IEnumerable_1<UnityEngine::Transform*>* GetParents(UnityEngine::Transform* transform);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.Transform> GetParentsAndSelf(UnityEngine.Transform transform)
-    // Offset: 0x13DEAAC
+    // Offset: 0x14F0CA0
     static System::Collections::Generic::IEnumerable_1<UnityEngine::Transform*>* GetParentsAndSelf(UnityEngine::Transform* transform);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.Component> GetComponentsInChildrenTopDown(UnityEngine.GameObject gameObject, System.Boolean includeInactive)
-    // Offset: 0x13DEC1C
+    // Offset: 0x14F0E10
     static System::Collections::Generic::IEnumerable_1<UnityEngine::Component*>* GetComponentsInChildrenTopDown(UnityEngine::GameObject* gameObject, bool includeInactive);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.Component> GetComponentsInChildrenBottomUp(UnityEngine.GameObject gameObject, System.Boolean includeInactive)
-    // Offset: 0x13DED38
+    // Offset: 0x14F0F2C
     static System::Collections::Generic::IEnumerable_1<UnityEngine::Component*>* GetComponentsInChildrenBottomUp(UnityEngine::GameObject* gameObject, bool includeInactive);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> GetDirectChildrenAndSelf(UnityEngine.GameObject obj)
-    // Offset: 0x13DEE54
+    // Offset: 0x14F1048
     static System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* GetDirectChildrenAndSelf(UnityEngine::GameObject* obj);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> GetDirectChildren(UnityEngine.GameObject obj)
-    // Offset: 0x13DEF0C
+    // Offset: 0x14F1100
     static System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* GetDirectChildren(UnityEngine::GameObject* obj);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> GetAllGameObjects()
-    // Offset: 0x13DEFC4
+    // Offset: 0x14F11B8
     static System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* GetAllGameObjects();
     // static public System.Collections.Generic.List`1<UnityEngine.GameObject> GetAllRootGameObjects()
-    // Offset: 0x13DF0E8
+    // Offset: 0x14F12DC
     static System::Collections::Generic::List_1<UnityEngine::GameObject*>* GetAllRootGameObjects();
   }; // ModestTree.Util.UnityUtil
   #pragma pack(pop)

@@ -92,42 +92,42 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useTestNoteCutSoundEffects and: recordingTextAsset
     char __padding3[0x3] = {};
-    // [NullAllowed] Offset: 0xE4C630
+    // [NullAllowed] Offset: 0xF1523C
     // private UnityEngine.TextAsset _recordingTextAsset
     // Size: 0x8
     // Offset: 0x30
     UnityEngine::TextAsset* recordingTextAsset;
     // Field size check
     static_assert(sizeof(UnityEngine::TextAsset*) == 0x8);
-    // [NullAllowed] Offset: 0xE4C668
+    // [NullAllowed] Offset: 0xF15274
     // private UnityEngine.Component[] _prefabBindings
     // Size: 0x8
     // Offset: 0x38
-    ::Array<UnityEngine::Component*>* prefabBindings;
+    ::ArrayWrapper<UnityEngine::Component*> prefabBindings;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Component*>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE4C6A0
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Component*>) == 0x8);
+    // [SpaceAttribute] Offset: 0xF152AC
     // private UnityEngine.UI.Button _button
     // Size: 0x8
     // Offset: 0x40
     UnityEngine::UI::Button* button;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [InjectAttribute] Offset: 0xE4C6D8
+    // [InjectAttribute] Offset: 0xF152E4
     // private readonly MenuTransitionsHelper _menuTransitionsHelper
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuTransitionsHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0xE4C6E8
+    // [InjectAttribute] Offset: 0xF152F4
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE4C6F8
+    // [InjectAttribute] Offset: 0xF15304
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x58
@@ -147,7 +147,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
     // Creating value type constructor for type: SimpleLevelStarter
-    SimpleLevelStarter(GlobalNamespace::BeatmapLevelSO* level_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, bool useTestNoteCutSoundEffects_ = {}, UnityEngine::TextAsset* recordingTextAsset_ = {}, ::Array<UnityEngine::Component*>* prefabBindings_ = {}, UnityEngine::UI::Button* button_ = {}, GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : level{level_}, beatmapCharacteristic{beatmapCharacteristic_}, beatmapDifficulty{beatmapDifficulty_}, useTestNoteCutSoundEffects{useTestNoteCutSoundEffects_}, recordingTextAsset{recordingTextAsset_}, prefabBindings{prefabBindings_}, button{button_}, menuTransitionsHelper{menuTransitionsHelper_}, gameScenesManager{gameScenesManager_}, playerDataModel{playerDataModel_}, buttonBinder{buttonBinder_}, gameplayModifiers{gameplayModifiers_} {}
+    SimpleLevelStarter(GlobalNamespace::BeatmapLevelSO* level_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, bool useTestNoteCutSoundEffects_ = {}, UnityEngine::TextAsset* recordingTextAsset_ = {}, ::ArrayWrapper<UnityEngine::Component*> prefabBindings_ = {}, UnityEngine::UI::Button* button_ = {}, GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, HMUI::ButtonBinder* buttonBinder_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : level{level_}, beatmapCharacteristic{beatmapCharacteristic_}, beatmapDifficulty{beatmapDifficulty_}, useTestNoteCutSoundEffects{useTestNoteCutSoundEffects_}, recordingTextAsset{recordingTextAsset_}, prefabBindings{prefabBindings_}, button{button_}, menuTransitionsHelper{menuTransitionsHelper_}, gameScenesManager{gameScenesManager_}, playerDataModel{playerDataModel_}, buttonBinder{buttonBinder_}, gameplayModifiers{gameplayModifiers_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapLevelSO _level
@@ -161,7 +161,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.TextAsset _recordingTextAsset
     UnityEngine::TextAsset*& dyn__recordingTextAsset();
     // Get instance field reference: private UnityEngine.Component[] _prefabBindings
-    ::Array<UnityEngine::Component*>*& dyn__prefabBindings();
+    ::ArrayWrapper<UnityEngine::Component*>& dyn__prefabBindings();
     // Get instance field reference: private UnityEngine.UI.Button _button
     UnityEngine::UI::Button*& dyn__button();
     // Get instance field reference: private readonly MenuTransitionsHelper _menuTransitionsHelper
@@ -175,28 +175,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly GameplayModifiers _gameplayModifiers
     GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // protected System.Void Awake()
-    // Offset: 0x1096FC8
+    // Offset: 0x11059FC
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1097078
+    // Offset: 0x1105AAC
     void OnDestroy();
     // private System.Void StartLevel()
-    // Offset: 0x1097094
+    // Offset: 0x1105AC8
     void StartLevel();
     // private System.Void InstallEarlyBindings(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0x109726C
+    // Offset: 0x1105CA0
     void InstallEarlyBindings(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* container);
     // private System.Void ButtonPressed()
-    // Offset: 0x10973AC
+    // Offset: 0x1105DE0
     void ButtonPressed();
     // private System.Void HandleLevelDidFinish(StandardLevelScenesTransitionSetupDataSO standardLevelSceneSetupData, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x10973B0
+    // Offset: 0x1105DE4
     void HandleLevelDidFinish(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // private System.Void <StartLevel>g__AfterSceneSwitchCallback|14_0(Zenject.DiContainer container)
-    // Offset: 0x10974A4
+    // Offset: 0x1105ED8
     void $StartLevel$g__AfterSceneSwitchCallback_14_0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x10973D4
+    // Offset: 0x1105E08
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

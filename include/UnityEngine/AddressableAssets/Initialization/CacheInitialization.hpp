@@ -47,16 +47,16 @@ namespace UnityEngine::AddressableAssets::Initialization {
       return *reinterpret_cast<UnityEngine::ResourceManagement::Util::IInitializableObject*>(this);
     }
     // static public System.String get_RootPath()
-    // Offset: 0x144E40C
+    // Offset: 0x159BC24
     static ::Il2CppString* get_RootPath();
     // public System.Boolean Initialize(System.String id, System.String dataStr)
-    // Offset: 0x144E134
+    // Offset: 0x159B94C
     bool Initialize(::Il2CppString* id, ::Il2CppString* dataStr);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Boolean> InitializeAsync(UnityEngine.ResourceManagement.ResourceManager rm, System.String id, System.String data)
-    // Offset: 0x144E288
+    // Offset: 0x159BAA0
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> InitializeAsync(UnityEngine::ResourceManagement::ResourceManager* rm, ::Il2CppString* id, ::Il2CppString* data);
     // public System.Void .ctor()
-    // Offset: 0x144E494
+    // Offset: 0x159BCAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

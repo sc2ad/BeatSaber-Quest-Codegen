@@ -103,7 +103,7 @@ namespace GlobalNamespace {
     ::Il2CppString* folder;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [NullAllowed] Offset: 0xE08120
+    // [NullAllowed] Offset: 0xEC9760
     // private UnityEngine.Camera _camera
     // Size: 0x8
     // Offset: 0x20
@@ -253,28 +253,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.RenderTexture _cameraRenderTexture
     UnityEngine::RenderTexture*& dyn__cameraRenderTexture();
     // protected System.Void OnEnable()
-    // Offset: 0x2392FA0
+    // Offset: 0x2598E98
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x2393124
+    // Offset: 0x259901C
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0x23931F8
+    // Offset: 0x25990F0
     void LateUpdate();
     // private System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x239335C
+    // Offset: 0x2599254
     void OnApplicationFocus(bool hasFocus);
     // private System.Void SaveCameraScreenshot()
-    // Offset: 0x23932C8
+    // Offset: 0x25991C0
     void SaveCameraScreenshot();
     // private System.Void SaveTextureScreenshot(UnityEngine.Texture2D tex)
-    // Offset: 0x2393498
+    // Offset: 0x2599390
     void SaveTextureScreenshot(UnityEngine::Texture2D* tex);
     // private UnityEngine.Texture2D ConvertRenderTexture(UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x2393374
+    // Offset: 0x259926C
     UnityEngine::Texture2D* ConvertRenderTexture(UnityEngine::RenderTexture* renderTexture);
     // public System.Void .ctor()
-    // Offset: 0x23935A8
+    // Offset: 0x25994A0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

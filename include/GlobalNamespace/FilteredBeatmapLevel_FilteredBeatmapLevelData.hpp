@@ -47,9 +47,9 @@ namespace GlobalNamespace {
     // private IDifficultyBeatmapSet[] <difficultyBeatmapSets>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* difficultyBeatmapSets;
+    ::ArrayWrapper<GlobalNamespace::IDifficultyBeatmapSet*> difficultyBeatmapSets;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::IDifficultyBeatmapSet*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::IDifficultyBeatmapSet*>) == 0x8);
     // private readonly IBeatmapLevelData _beatmapLevelData
     // Size: 0x8
     // Offset: 0x18
@@ -57,26 +57,26 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapLevelData*) == 0x8);
     // Creating value type constructor for type: FilteredBeatmapLevelData
-    FilteredBeatmapLevelData(::Array<GlobalNamespace::IDifficultyBeatmapSet*>* difficultyBeatmapSets_ = {}, GlobalNamespace::IBeatmapLevelData* beatmapLevelData_ = {}) noexcept : difficultyBeatmapSets{difficultyBeatmapSets_}, beatmapLevelData{beatmapLevelData_} {}
+    FilteredBeatmapLevelData(::ArrayWrapper<GlobalNamespace::IDifficultyBeatmapSet*> difficultyBeatmapSets_ = {}, GlobalNamespace::IBeatmapLevelData* beatmapLevelData_ = {}) noexcept : difficultyBeatmapSets{difficultyBeatmapSets_}, beatmapLevelData{beatmapLevelData_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapLevelData
     operator GlobalNamespace::IBeatmapLevelData() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevelData*>(this);
     }
     // Get instance field reference: private IDifficultyBeatmapSet[] <difficultyBeatmapSets>k__BackingField
-    ::Array<GlobalNamespace::IDifficultyBeatmapSet*>*& dyn_$difficultyBeatmapSets$k__BackingField();
+    ::ArrayWrapper<GlobalNamespace::IDifficultyBeatmapSet*>& dyn_$difficultyBeatmapSets$k__BackingField();
     // Get instance field reference: private readonly IBeatmapLevelData _beatmapLevelData
     GlobalNamespace::IBeatmapLevelData*& dyn__beatmapLevelData();
     // public UnityEngine.AudioClip get_audioClip()
-    // Offset: 0x105DF84
+    // Offset: 0x11B6DB8
     UnityEngine::AudioClip* get_audioClip();
     // public IDifficultyBeatmapSet[] get_difficultyBeatmapSets()
-    // Offset: 0x105E034
-    ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
+    // Offset: 0x11B6E68
+    ::ArrayWrapper<GlobalNamespace::IDifficultyBeatmapSet*> get_difficultyBeatmapSets();
     // private System.Void set_difficultyBeatmapSets(IDifficultyBeatmapSet[] value)
-    // Offset: 0x105E03C
-    void set_difficultyBeatmapSets(::Array<GlobalNamespace::IDifficultyBeatmapSet*>* value);
+    // Offset: 0x11B6E70
+    void set_difficultyBeatmapSets(::ArrayWrapper<GlobalNamespace::IDifficultyBeatmapSet*> value);
     // public System.Void .ctor(IBeatmapLevelData beatmapLevelData, BeatmapDifficultyMask allowedBeatmapDifficultyMask, System.Collections.Generic.HashSet`1<BeatmapCharacteristicSO> notAllowedCharacteristics)
-    // Offset: 0x105DB28
+    // Offset: 0x11B6960
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FilteredBeatmapLevel::FilteredBeatmapLevelData* New_ctor(GlobalNamespace::IBeatmapLevelData* beatmapLevelData, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO*>* notAllowedCharacteristics) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData::.ctor");
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData::get_difficultyBeatmapSets
 // Il2CppName: get_difficultyBeatmapSets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::IDifficultyBeatmapSet*>* (GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData::*)()>(&GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData::get_difficultyBeatmapSets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::IDifficultyBeatmapSet*> (GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData::*)()>(&GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData::get_difficultyBeatmapSets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData*), "get_difficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -108,9 +108,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Writing MetadataGetter for method: GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData::set_difficultyBeatmapSets
 // Il2CppName: set_difficultyBeatmapSets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData::*)(::Array<GlobalNamespace::IDifficultyBeatmapSet*>*)>(&GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData::set_difficultyBeatmapSets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData::*)(::ArrayWrapper<GlobalNamespace::IDifficultyBeatmapSet*>)>(&GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData::set_difficultyBeatmapSets)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmapSet"), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmapSet")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData*), "set_difficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };

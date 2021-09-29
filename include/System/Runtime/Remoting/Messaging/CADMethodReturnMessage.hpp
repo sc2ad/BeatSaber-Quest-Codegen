@@ -58,45 +58,45 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.Type[] _sig
     // Size: 0x8
     // Offset: 0x48
-    ::Array<System::Type*>* sig;
+    ::ArrayWrapper<System::Type*> sig;
     // Field size check
-    static_assert(sizeof(::Array<System::Type*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
     // Creating value type constructor for type: CADMethodReturnMessage
-    CADMethodReturnMessage(::Il2CppObject* returnValue_ = {}, System::Runtime::Remoting::Messaging::CADArgHolder* exception_ = {}, ::Array<System::Type*>* sig_ = {}) noexcept : returnValue{returnValue_}, exception{exception_}, sig{sig_} {}
+    CADMethodReturnMessage(::Il2CppObject* returnValue_ = {}, System::Runtime::Remoting::Messaging::CADArgHolder* exception_ = {}, ::ArrayWrapper<System::Type*> sig_ = {}) noexcept : returnValue{returnValue_}, exception{exception_}, sig{sig_} {}
     // Get instance field reference: private System.Object _returnValue
     ::Il2CppObject*& dyn__returnValue();
     // Get instance field reference: private System.Runtime.Remoting.Messaging.CADArgHolder _exception
     System::Runtime::Remoting::Messaging::CADArgHolder*& dyn__exception();
     // Get instance field reference: private System.Type[] _sig
-    ::Array<System::Type*>*& dyn__sig();
+    ::ArrayWrapper<System::Type*>& dyn__sig();
     // System.Int32 get_PropertiesCount()
-    // Offset: 0x1A4C344
+    // Offset: 0x1C14D14
     int get_PropertiesCount();
     // System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodReturnMessage retMsg)
-    // Offset: 0x1A4BE0C
+    // Offset: 0x1C147DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADMethodReturnMessage* New_ctor(System::Runtime::Remoting::Messaging::IMethodReturnMessage* retMsg) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::CADMethodReturnMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CADMethodReturnMessage*, creationType>(retMsg)));
     }
     // static System.Runtime.Remoting.Messaging.CADMethodReturnMessage Create(System.Runtime.Remoting.Messaging.IMessage callMsg)
-    // Offset: 0x1A4BD88
+    // Offset: 0x1C14758
     static System::Runtime::Remoting::Messaging::CADMethodReturnMessage* Create(System::Runtime::Remoting::Messaging::IMessage* callMsg);
     // System.Collections.ArrayList GetArguments()
-    // Offset: 0x1A4C190
+    // Offset: 0x1C14B60
     System::Collections::ArrayList* GetArguments();
     // System.Object[] GetArgs(System.Collections.ArrayList args)
-    // Offset: 0x1A4C270
-    ::Array<::Il2CppObject*>* GetArgs(System::Collections::ArrayList* args);
+    // Offset: 0x1C14C40
+    ::ArrayWrapper<::Il2CppObject*> GetArgs(System::Collections::ArrayList* args);
     // System.Object GetReturnValue(System.Collections.ArrayList args)
-    // Offset: 0x1A4C280
+    // Offset: 0x1C14C50
     ::Il2CppObject* GetReturnValue(System::Collections::ArrayList* args);
     // System.Exception GetException(System.Collections.ArrayList args)
-    // Offset: 0x1A4C290
+    // Offset: 0x1C14C60
     System::Exception* GetException(System::Collections::ArrayList* args);
   }; // System.Runtime.Remoting.Messaging.CADMethodReturnMessage
   #pragma pack(pop)
-  static check_size<sizeof(CADMethodReturnMessage), 72 + sizeof(::Array<System::Type*>*)> __System_Runtime_Remoting_Messaging_CADMethodReturnMessageSizeCheck;
+  static check_size<sizeof(CADMethodReturnMessage), 72 + sizeof(::ArrayWrapper<System::Type*>)> __System_Runtime_Remoting_Messaging_CADMethodReturnMessageSizeCheck;
   static_assert(sizeof(CADMethodReturnMessage) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADMethodReturnMessage*, "System.Runtime.Remoting.Messaging", "CADMethodReturnMessage");
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodReturnMessage::GetArgs
 // Il2CppName: GetArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Runtime::Remoting::Messaging::CADMethodReturnMessage::*)(System::Collections::ArrayList*)>(&System::Runtime::Remoting::Messaging::CADMethodReturnMessage::GetArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Runtime::Remoting::Messaging::CADMethodReturnMessage::*)(System::Collections::ArrayList*)>(&System::Runtime::Remoting::Messaging::CADMethodReturnMessage::GetArgs)> {
   static const MethodInfo* get() {
     static auto* args = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMethodReturnMessage*), "GetArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});

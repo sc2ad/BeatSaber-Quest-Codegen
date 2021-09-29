@@ -71,22 +71,22 @@ namespace UnityEngine::UI {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>> m_Graphics
     System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::Graphic*>*>*& dyn_m_Graphics();
     // static public UnityEngine.UI.GraphicRegistry get_instance()
-    // Offset: 0x1942624
+    // Offset: 0x1ACD000
     static UnityEngine::UI::GraphicRegistry* get_instance();
     // static private System.Void .cctor()
-    // Offset: 0x19426E4
+    // Offset: 0x1ACD0C0
     static void _cctor();
     // static public System.Void RegisterGraphicForCanvas(UnityEngine.Canvas c, UnityEngine.UI.Graphic graphic)
-    // Offset: 0x193E604
+    // Offset: 0x1AC8FE0
     static void RegisterGraphicForCanvas(UnityEngine::Canvas* c, UnityEngine::UI::Graphic* graphic);
     // static public System.Void UnregisterGraphicForCanvas(UnityEngine.Canvas c, UnityEngine.UI.Graphic graphic)
-    // Offset: 0x193E2A4
+    // Offset: 0x1AC8C80
     static void UnregisterGraphicForCanvas(UnityEngine::Canvas* c, UnityEngine::UI::Graphic* graphic);
     // static public System.Collections.Generic.IList`1<UnityEngine.UI.Graphic> GetGraphicsForCanvas(UnityEngine.Canvas canvas)
-    // Offset: 0x1941D1C
+    // Offset: 0x1ACC6F8
     static System::Collections::Generic::IList_1<UnityEngine::UI::Graphic*>* GetGraphicsForCanvas(UnityEngine::Canvas* canvas);
     // protected System.Void .ctor()
-    // Offset: 0x1942504
+    // Offset: 0x1ACCEE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

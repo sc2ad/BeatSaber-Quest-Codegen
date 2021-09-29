@@ -23,7 +23,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: ExitGUIException
     ExitGUIException() noexcept {}
     // System.Void .ctor(System.String message)
-    // Offset: 0x1B22AE0
+    // Offset: 0x1C8E398
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -36,7 +36,7 @@ namespace RootMotion::FinalIK {
     class OffsetLimits;
     // Nested type: RootMotion::FinalIK::OffsetModifier::$Initiate$d__8
     class $Initiate$d__8;
-    // [TooltipAttribute] Offset: 0xE2E204
+    // [TooltipAttribute] Offset: 0xEF49DC
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -45,7 +45,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: weight and: ik
     char __padding0[0x4] = {};
-    // [TooltipAttribute] Offset: 0xE2E23C
+    // [TooltipAttribute] Offset: 0xEF4A14
     // public RootMotion.FinalIK.FullBodyBipedIK ik
     // Size: 0x8
     // Offset: 0x20
@@ -69,28 +69,28 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: protected System.Single lastTime
     float& dyn_lastTime();
     // protected System.Single get_deltaTime()
-    // Offset: 0x1ADB6E4
+    // Offset: 0x1C5DE64
     float get_deltaTime();
     // protected System.Void OnModifyOffset()
     // Offset: 0xFFFFFFFF
     void OnModifyOffset();
     // protected System.Void Start()
-    // Offset: 0x1ADB710
+    // Offset: 0x1C5DE90
     void Start();
     // private System.Collections.IEnumerator Initiate()
-    // Offset: 0x1ADB73C
+    // Offset: 0x1C5DEBC
     System::Collections::IEnumerator* Initiate();
     // private System.Void ModifyOffset()
-    // Offset: 0x1ADB7D8
+    // Offset: 0x1C5DF58
     void ModifyOffset();
     // protected System.Void ApplyLimits(RootMotion.FinalIK.OffsetModifier/RootMotion.FinalIK.OffsetLimits[] limits)
-    // Offset: 0x1ADB8E4
-    void ApplyLimits(::Array<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>* limits);
+    // Offset: 0x1C5E064
+    void ApplyLimits(::ArrayWrapper<RootMotion::FinalIK::OffsetModifier::OffsetLimits*> limits);
     // protected System.Void OnDestroy()
-    // Offset: 0x1ADBC00
+    // Offset: 0x1C5E380
     void OnDestroy();
     // protected System.Void .ctor()
-    // Offset: 0x1ADBCF8
+    // Offset: 0x1C5E478
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -152,9 +152,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::ApplyLimits
 // Il2CppName: ApplyLimits
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::OffsetModifier::*)(::Array<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>*)>(&RootMotion::FinalIK::OffsetModifier::ApplyLimits)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::OffsetModifier::*)(::ArrayWrapper<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>)>(&RootMotion::FinalIK::OffsetModifier::ApplyLimits)> {
   static const MethodInfo* get() {
-    static auto* limits = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "OffsetModifier/OffsetLimits"), 1)->byval_arg;
+    static auto* limits = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "OffsetModifier/OffsetLimits")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::OffsetModifier*), "ApplyLimits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{limits});
   }
 };

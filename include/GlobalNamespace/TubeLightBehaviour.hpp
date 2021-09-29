@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: noPredefinedStartValue and: startColor
     char __padding0[0x7] = {};
-    // [DrawIfAttribute] Offset: 0xE4BC64
+    // [DrawIfAttribute] Offset: 0xF14870
     // public ColorSO startColor
     // Size: 0x8
     // Offset: 0x18
@@ -86,15 +86,15 @@ namespace GlobalNamespace {
     // private TubeBloomPrePassLight[] _tubeLights
     // Size: 0x8
     // Offset: 0x40
-    ::Array<GlobalNamespace::TubeBloomPrePassLight*>* tubeLights;
+    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> tubeLights;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::TubeBloomPrePassLight*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
     // private DirectionalLight[] _directionalLights
     // Size: 0x8
     // Offset: 0x48
-    ::Array<GlobalNamespace::DirectionalLight*>* directionalLights;
+    ::ArrayWrapper<GlobalNamespace::DirectionalLight*> directionalLights;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::DirectionalLight*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::DirectionalLight*>) == 0x8);
     // private System.Boolean started
     // Size: 0x1
     // Offset: 0x50
@@ -110,7 +110,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Creating value type constructor for type: TubeLightBehaviour
-    TubeLightBehaviour(bool noPredefinedStartValue_ = {}, GlobalNamespace::ColorSO* startColor_ = {}, GlobalNamespace::ColorSO* endColor_ = {}, float blend_ = {}, bool initialized_ = {}, UnityEngine::Color originalColor_ = {}, ::Array<GlobalNamespace::TubeBloomPrePassLight*>* tubeLights_ = {}, ::Array<GlobalNamespace::DirectionalLight*>* directionalLights_ = {}, bool started_ = {}, UnityEngine::Color firstFrameColor_ = {}) noexcept : noPredefinedStartValue{noPredefinedStartValue_}, startColor{startColor_}, endColor{endColor_}, blend{blend_}, initialized{initialized_}, originalColor{originalColor_}, tubeLights{tubeLights_}, directionalLights{directionalLights_}, started{started_}, firstFrameColor{firstFrameColor_} {}
+    TubeLightBehaviour(bool noPredefinedStartValue_ = {}, GlobalNamespace::ColorSO* startColor_ = {}, GlobalNamespace::ColorSO* endColor_ = {}, float blend_ = {}, bool initialized_ = {}, UnityEngine::Color originalColor_ = {}, ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> tubeLights_ = {}, ::ArrayWrapper<GlobalNamespace::DirectionalLight*> directionalLights_ = {}, bool started_ = {}, UnityEngine::Color firstFrameColor_ = {}) noexcept : noPredefinedStartValue{noPredefinedStartValue_}, startColor{startColor_}, endColor{endColor_}, blend{blend_}, initialized{initialized_}, originalColor{originalColor_}, tubeLights{tubeLights_}, directionalLights{directionalLights_}, started{started_}, firstFrameColor{firstFrameColor_} {}
     // Get instance field reference: public System.Boolean _noPredefinedStartValue
     bool& dyn__noPredefinedStartValue();
     // Get instance field reference: public ColorSO startColor
@@ -124,15 +124,15 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _originalColor
     UnityEngine::Color& dyn__originalColor();
     // Get instance field reference: private TubeBloomPrePassLight[] _tubeLights
-    ::Array<GlobalNamespace::TubeBloomPrePassLight*>*& dyn__tubeLights();
+    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>& dyn__tubeLights();
     // Get instance field reference: private DirectionalLight[] _directionalLights
-    ::Array<GlobalNamespace::DirectionalLight*>*& dyn__directionalLights();
+    ::ArrayWrapper<GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
     // Get instance field reference: private System.Boolean started
     bool& dyn_started();
     // Get instance field reference: private UnityEngine.Color _firstFrameColor
     UnityEngine::Color& dyn__firstFrameColor();
     // public System.Void .ctor()
-    // Offset: 0x1074DBC
+    // Offset: 0x1163744
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -142,12 +142,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TubeLightBehaviour*, creationType>()));
     }
     // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x1074938
+    // Offset: 0x11632C0
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
     // public override System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    // Offset: 0x1074CDC
+    // Offset: 0x1163664
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
     void OnPlayableDestroy(UnityEngine::Playables::Playable playable);

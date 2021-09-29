@@ -43,43 +43,43 @@ namespace Org::BouncyCastle::Math::EC {
     // Creating value type constructor for type: ECAlgorithms
     ECAlgorithms() noexcept {}
     // static public System.Boolean IsF2mCurve(Org.BouncyCastle.Math.EC.ECCurve c)
-    // Offset: 0x213E49C
+    // Offset: 0x23134A0
     static bool IsF2mCurve(Org::BouncyCastle::Math::EC::ECCurve* c);
     // static public System.Boolean IsF2mField(Org.BouncyCastle.Math.Field.IFiniteField field)
-    // Offset: 0x213E4C4
+    // Offset: 0x23134C8
     static bool IsF2mField(Org::BouncyCastle::Math::Field::IFiniteField* field);
     // static public System.Boolean IsFpCurve(Org.BouncyCastle.Math.EC.ECCurve c)
-    // Offset: 0x213E658
+    // Offset: 0x231365C
     static bool IsFpCurve(Org::BouncyCastle::Math::EC::ECCurve* c);
     // static public System.Boolean IsFpField(Org.BouncyCastle.Math.Field.IFiniteField field)
-    // Offset: 0x213E680
+    // Offset: 0x2313684
     static bool IsFpField(Org::BouncyCastle::Math::Field::IFiniteField* field);
     // static public Org.BouncyCastle.Math.EC.ECPoint ImportPoint(Org.BouncyCastle.Math.EC.ECCurve c, Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x213E73C
+    // Offset: 0x2313740
     static Org::BouncyCastle::Math::EC::ECPoint* ImportPoint(Org::BouncyCastle::Math::EC::ECCurve* c, Org::BouncyCastle::Math::EC::ECPoint* p);
     // static public System.Void MontgomeryTrick(Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Int32 off, System.Int32 len, Org.BouncyCastle.Math.EC.ECFieldElement scale)
-    // Offset: 0x213E810
-    static void MontgomeryTrick(::Array<Org::BouncyCastle::Math::EC::ECFieldElement*>* zs, int off, int len, Org::BouncyCastle::Math::EC::ECFieldElement* scale);
+    // Offset: 0x2313814
+    static void MontgomeryTrick(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECFieldElement*> zs, int off, int len, Org::BouncyCastle::Math::EC::ECFieldElement* scale);
     // static public Org.BouncyCastle.Math.EC.ECPoint ReferenceMultiply(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0x213EAD4
+    // Offset: 0x2313AD8
     static Org::BouncyCastle::Math::EC::ECPoint* ReferenceMultiply(Org::BouncyCastle::Math::EC::ECPoint* p, Org::BouncyCastle::Math::BigInteger* k);
     // static public Org.BouncyCastle.Math.EC.ECPoint CleanPoint(Org.BouncyCastle.Math.EC.ECCurve c, Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x213EC18
+    // Offset: 0x2313C1C
     static Org::BouncyCastle::Math::EC::ECPoint* CleanPoint(Org::BouncyCastle::Math::EC::ECCurve* c, Org::BouncyCastle::Math::EC::ECPoint* p);
     // static Org.BouncyCastle.Math.EC.ECPoint ImplCheckResult(Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x213ED10
+    // Offset: 0x2313D14
     static Org::BouncyCastle::Math::EC::ECPoint* ImplCheckResult(Org::BouncyCastle::Math::EC::ECPoint* p);
     // static Org.BouncyCastle.Math.EC.ECPoint ImplShamirsTrickWNaf(Org.BouncyCastle.Math.EC.ECPoint P, Org.BouncyCastle.Math.BigInteger k, Org.BouncyCastle.Math.EC.ECPoint Q, Org.BouncyCastle.Math.BigInteger l)
-    // Offset: 0x213EDB8
+    // Offset: 0x2313DBC
     static Org::BouncyCastle::Math::EC::ECPoint* ImplShamirsTrickWNaf(Org::BouncyCastle::Math::EC::ECPoint* P, Org::BouncyCastle::Math::BigInteger* k, Org::BouncyCastle::Math::EC::ECPoint* Q, Org::BouncyCastle::Math::BigInteger* l);
     // static Org.BouncyCastle.Math.EC.ECPoint ImplShamirsTrickWNaf(Org.BouncyCastle.Math.EC.Endo.ECEndomorphism endomorphism, Org.BouncyCastle.Math.EC.ECPoint P, Org.BouncyCastle.Math.BigInteger k, Org.BouncyCastle.Math.BigInteger l)
-    // Offset: 0x213F8BC
+    // Offset: 0x23148C0
     static Org::BouncyCastle::Math::EC::ECPoint* ImplShamirsTrickWNaf(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism, Org::BouncyCastle::Math::EC::ECPoint* P, Org::BouncyCastle::Math::BigInteger* k, Org::BouncyCastle::Math::BigInteger* l);
     // static private Org.BouncyCastle.Math.EC.ECPoint ImplShamirsTrickWNaf(Org.BouncyCastle.Math.EC.ECPoint[] preCompP, Org.BouncyCastle.Math.EC.ECPoint[] preCompNegP, System.Byte[] wnafP, Org.BouncyCastle.Math.EC.ECPoint[] preCompQ, Org.BouncyCastle.Math.EC.ECPoint[] preCompNegQ, System.Byte[] wnafQ)
-    // Offset: 0x213F5DC
-    static Org::BouncyCastle::Math::EC::ECPoint* ImplShamirsTrickWNaf(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* preCompP, ::Array<Org::BouncyCastle::Math::EC::ECPoint*>* preCompNegP, ::Array<uint8_t>* wnafP, ::Array<Org::BouncyCastle::Math::EC::ECPoint*>* preCompQ, ::Array<Org::BouncyCastle::Math::EC::ECPoint*>* preCompNegQ, ::Array<uint8_t>* wnafQ);
+    // Offset: 0x23145E0
+    static Org::BouncyCastle::Math::EC::ECPoint* ImplShamirsTrickWNaf(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> preCompP, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> preCompNegP, ::ArrayWrapper<uint8_t> wnafP, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> preCompQ, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> preCompNegQ, ::ArrayWrapper<uint8_t> wnafQ);
     // static private Org.BouncyCastle.Math.EC.ECPoint ImplShamirsTrickFixedPoint(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k, Org.BouncyCastle.Math.EC.ECPoint q, Org.BouncyCastle.Math.BigInteger l)
-    // Offset: 0x213F138
+    // Offset: 0x231413C
     static Org::BouncyCastle::Math::EC::ECPoint* ImplShamirsTrickFixedPoint(Org::BouncyCastle::Math::EC::ECPoint* p, Org::BouncyCastle::Math::BigInteger* k, Org::BouncyCastle::Math::EC::ECPoint* q, Org::BouncyCastle::Math::BigInteger* l);
   }; // Org.BouncyCastle.Math.EC.ECAlgorithms
   #pragma pack(pop)
@@ -136,9 +136,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECAlgorithms::MontgomeryTrick
 // Il2CppName: MontgomeryTrick
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<Org::BouncyCastle::Math::EC::ECFieldElement*>*, int, int, Org::BouncyCastle::Math::EC::ECFieldElement*)>(&Org::BouncyCastle::Math::EC::ECAlgorithms::MontgomeryTrick)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECFieldElement*>, int, int, Org::BouncyCastle::Math::EC::ECFieldElement*)>(&Org::BouncyCastle::Math::EC::ECAlgorithms::MontgomeryTrick)> {
   static const MethodInfo* get() {
-    static auto* zs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECFieldElement"), 1)->byval_arg;
+    static auto* zs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECFieldElement")), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* scale = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECFieldElement")->byval_arg;
@@ -201,14 +201,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECAlgorithms::ImplShamirsTrickWNaf
 // Il2CppName: ImplShamirsTrickWNaf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(::Array<Org::BouncyCastle::Math::EC::ECPoint*>*, ::Array<Org::BouncyCastle::Math::EC::ECPoint*>*, ::Array<uint8_t>*, ::Array<Org::BouncyCastle::Math::EC::ECPoint*>*, ::Array<Org::BouncyCastle::Math::EC::ECPoint*>*, ::Array<uint8_t>*)>(&Org::BouncyCastle::Math::EC::ECAlgorithms::ImplShamirsTrickWNaf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*>, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*>, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*>, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*>, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Math::EC::ECAlgorithms::ImplShamirsTrickWNaf)> {
   static const MethodInfo* get() {
-    static auto* preCompP = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint"), 1)->byval_arg;
-    static auto* preCompNegP = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint"), 1)->byval_arg;
-    static auto* wnafP = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* preCompQ = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint"), 1)->byval_arg;
-    static auto* preCompNegQ = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint"), 1)->byval_arg;
-    static auto* wnafQ = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* preCompP = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint")), 1)->byval_arg;
+    static auto* preCompNegP = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint")), 1)->byval_arg;
+    static auto* wnafP = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* preCompQ = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint")), 1)->byval_arg;
+    static auto* preCompNegQ = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint")), 1)->byval_arg;
+    static auto* wnafQ = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECAlgorithms*), "ImplShamirsTrickWNaf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{preCompP, preCompNegP, wnafP, preCompQ, preCompNegQ, wnafQ});
   }
 };

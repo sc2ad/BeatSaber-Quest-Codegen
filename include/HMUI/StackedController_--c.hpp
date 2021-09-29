@@ -35,13 +35,13 @@ namespace HMUI {
     // Set static field: static public readonly HMUI.StackedController/HMUI.<>c <>9
     static void _set_$$9(HMUI::StackedController::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x131B294
+    // Offset: 0x141D844
     static void _cctor();
     // System.Void <PushViewController>g__AnimationLayouter|3_0(System.Single t, HMUI.ViewController[] viewControllers)
-    // Offset: 0x131B300
-    void $PushViewController$g__AnimationLayouter_3_0(float t, ::Array<HMUI::ViewController*>* viewControllers);
+    // Offset: 0x141D8B0
+    void $PushViewController$g__AnimationLayouter_3_0(float t, ::ArrayWrapper<HMUI::ViewController*> viewControllers);
     // public System.Void .ctor()
-    // Offset: 0x131B2F8
+    // Offset: 0x141D8A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -65,10 +65,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HMUI::StackedController::$$c::$PushViewController$g__AnimationLayouter_3_0
 // Il2CppName: <PushViewController>g__AnimationLayouter|3_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackedController::$$c::*)(float, ::Array<HMUI::ViewController*>*)>(&HMUI::StackedController::$$c::$PushViewController$g__AnimationLayouter_3_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackedController::$$c::*)(float, ::ArrayWrapper<HMUI::ViewController*>)>(&HMUI::StackedController::$$c::$PushViewController$g__AnimationLayouter_3_0)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    static auto* viewControllers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HMUI", "ViewController"), 1)->byval_arg;
+    static auto* viewControllers = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("HMUI", "ViewController")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::StackedController::$$c*), "<PushViewController>g__AnimationLayouter|3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t, viewControllers});
   }
 };

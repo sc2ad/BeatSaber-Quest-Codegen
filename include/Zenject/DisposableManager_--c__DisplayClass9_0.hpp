@@ -43,10 +43,10 @@ namespace Zenject {
     // Get instance field reference: public System.IDisposable disposable
     System::IDisposable*& dyn_disposable();
     // System.Boolean <Remove>b__0(Zenject.DisposableManager/Zenject.DisposableInfo x)
-    // Offset: 0x165DB44
+    // Offset: 0x1827EE8
     bool $Remove$b__0(Zenject::DisposableManager::DisposableInfo x);
     // public System.Void .ctor()
-    // Offset: 0x165D11C
+    // Offset: 0x18274C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

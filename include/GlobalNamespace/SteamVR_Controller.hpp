@@ -37,20 +37,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SteamVR_Controller
     SteamVR_Controller() noexcept {}
     // Get static field: static private SteamVR_Controller/Device[] devices
-    static ::Array<GlobalNamespace::SteamVR_Controller::Device*>* _get_devices();
+    static ::ArrayWrapper<GlobalNamespace::SteamVR_Controller::Device*> _get_devices();
     // Set static field: static private SteamVR_Controller/Device[] devices
-    static void _set_devices(::Array<GlobalNamespace::SteamVR_Controller::Device*>* value);
+    static void _set_devices(::ArrayWrapper<GlobalNamespace::SteamVR_Controller::Device*> value);
     // static public SteamVR_Controller/Device Input(System.Int32 deviceIndex)
-    // Offset: 0x14267D8
+    // Offset: 0x1537628
     static GlobalNamespace::SteamVR_Controller::Device* Input(int deviceIndex);
     // static public System.Void Update()
-    // Offset: 0x142695C
+    // Offset: 0x15377AC
     static void Update();
     // static public System.Int32 GetDeviceIndex(SteamVR_Controller/DeviceRelation relation, Valve.VR.ETrackedDeviceClass deviceClass, System.Int32 relativeTo)
-    // Offset: 0x1426B20
+    // Offset: 0x1537970
     static int GetDeviceIndex(GlobalNamespace::SteamVR_Controller::DeviceRelation relation, Valve::VR::ETrackedDeviceClass deviceClass, int relativeTo);
     // public System.Void .ctor()
-    // Offset: 0x1426EFC
+    // Offset: 0x1537D4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

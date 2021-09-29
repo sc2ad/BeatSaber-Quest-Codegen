@@ -62,9 +62,9 @@ namespace GlobalNamespace {
     // private IBeatmapLevelPack[] <>7__wrap2
     // Size: 0x8
     // Offset: 0x40
-    ::Array<GlobalNamespace::IBeatmapLevelPack*>* $$7__wrap2;
+    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> $$7__wrap2;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::IBeatmapLevelPack*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>) == 0x8);
     // private System.Int32 <>7__wrap3
     // Size: 0x4
     // Offset: 0x48
@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     // Offset: 0x58
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1;
     // Creating value type constructor for type: $SetOwnedSongPacks$d__51
-    constexpr $SetOwnedSongPacks$d__51(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::LobbyPlayersDataModel* $$4__this_ = {}, GlobalNamespace::SongPackMask $songPackMask$5__2_ = {}, ::Array<GlobalNamespace::IBeatmapLevelPack*>* $$7__wrap2_ = {}, int $$7__wrap3_ = {}, GlobalNamespace::IBeatmapLevelPack* $dlcSongPack$5__5_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $songPackMask$5__2{$songPackMask$5__2_}, $$7__wrap2{$$7__wrap2_}, $$7__wrap3{$$7__wrap3_}, $dlcSongPack$5__5{$dlcSongPack$5__5_}, $$u__1{$$u__1_} {}
+    constexpr $SetOwnedSongPacks$d__51(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::LobbyPlayersDataModel* $$4__this_ = {}, GlobalNamespace::SongPackMask $songPackMask$5__2_ = {}, ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> $$7__wrap2_ = {}, int $$7__wrap3_ = {}, GlobalNamespace::IBeatmapLevelPack* $dlcSongPack$5__5_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $songPackMask$5__2{$songPackMask$5__2_}, $$7__wrap2{$$7__wrap2_}, $$7__wrap3{$$7__wrap3_}, $dlcSongPack$5__5{$dlcSongPack$5__5_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -100,7 +100,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private SongPackMask <songPackMask>5__2
     GlobalNamespace::SongPackMask& dyn_$songPackMask$5__2();
     // Get instance field reference: private IBeatmapLevelPack[] <>7__wrap2
-    ::Array<GlobalNamespace::IBeatmapLevelPack*>*& dyn_$$7__wrap2();
+    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>& dyn_$$7__wrap2();
     // Get instance field reference: private System.Int32 <>7__wrap3
     int& dyn_$$7__wrap3();
     // Get instance field reference: private IBeatmapLevelPack <dlcSongPack>5__5
@@ -108,10 +108,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/EntitlementStatus> <>u__1
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1212D20
+    // Offset: 0x1253CF0
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1213378
+    // Offset: 0x1254348
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LobbyPlayersDataModel/<SetOwnedSongPacks>d__51
   // WARNING Not writing size check since size may be invalid!

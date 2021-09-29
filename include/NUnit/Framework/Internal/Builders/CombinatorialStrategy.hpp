@@ -45,10 +45,10 @@ namespace NUnit::Framework::Internal::Builders {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ICombiningStrategy*>(this);
     }
     // public System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestCaseData> GetTestCases(System.Collections.IEnumerable[] sources)
-    // Offset: 0x1778688
-    System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestCaseData*>* GetTestCases(::Array<System::Collections::IEnumerable*>* sources);
+    // Offset: 0x19376D4
+    System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestCaseData*>* GetTestCases(::ArrayWrapper<System::Collections::IEnumerable*> sources);
     // public System.Void .ctor()
-    // Offset: 0x176979C
+    // Offset: 0x19287E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -64,9 +64,9 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::CombinatorialStrate
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::CombinatorialStrategy::GetTestCases
 // Il2CppName: GetTestCases
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestCaseData*>* (NUnit::Framework::Internal::Builders::CombinatorialStrategy::*)(::Array<System::Collections::IEnumerable*>*)>(&NUnit::Framework::Internal::Builders::CombinatorialStrategy::GetTestCases)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestCaseData*>* (NUnit::Framework::Internal::Builders::CombinatorialStrategy::*)(::ArrayWrapper<System::Collections::IEnumerable*>)>(&NUnit::Framework::Internal::Builders::CombinatorialStrategy::GetTestCases)> {
   static const MethodInfo* get() {
-    static auto* sources = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerable"), 1)->byval_arg;
+    static auto* sources = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerable")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::CombinatorialStrategy*), "GetTestCases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sources});
   }
 };

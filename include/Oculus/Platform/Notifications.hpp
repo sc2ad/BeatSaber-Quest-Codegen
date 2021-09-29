@@ -32,13 +32,13 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Notifications
     Notifications() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.RoomInviteNotificationList> GetRoomInviteNotifications()
-    // Offset: 0x23B1EC8
+    // Offset: 0x25B6DEC
     static Oculus::Platform::Request_1<Oculus::Platform::Models::RoomInviteNotificationList*>* GetRoomInviteNotifications();
     // static public Oculus.Platform.Request MarkAsRead(System.UInt64 notificationID)
-    // Offset: 0x23B1FD4
+    // Offset: 0x25B6EF8
     static Oculus::Platform::Request* MarkAsRead(uint64_t notificationID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.RoomInviteNotificationList> GetNextRoomInviteNotificationListPage(Oculus.Platform.Models.RoomInviteNotificationList list)
-    // Offset: 0x23B2114
+    // Offset: 0x25B7038
     static Oculus::Platform::Request_1<Oculus::Platform::Models::RoomInviteNotificationList*>* GetNextRoomInviteNotificationListPage(Oculus::Platform::Models::RoomInviteNotificationList* list);
   }; // Oculus.Platform.Notifications
   #pragma pack(pop)

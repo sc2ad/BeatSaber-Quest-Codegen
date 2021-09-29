@@ -56,26 +56,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public ClickButtonWithCommandArgument <>4__this
     GlobalNamespace::ClickButtonWithCommandArgument*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x125D168
+    // Offset: 0x1379970
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x125D1D0
+    // Offset: 0x13799D8
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x125D05C
+    // Offset: 0x1379864
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClickButtonWithCommandArgument::$Start$d__2* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ClickButtonWithCommandArgument::$Start$d__2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClickButtonWithCommandArgument::$Start$d__2*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x125D090
+    // Offset: 0x1379898
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x125D094
+    // Offset: 0x137989C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x125D170
+    // Offset: 0x1379978
     void System_Collections_IEnumerator_Reset();
   }; // ClickButtonWithCommandArgument/<Start>d__2
   #pragma pack(pop)

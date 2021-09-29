@@ -33,22 +33,22 @@ namespace ModestTree {
     // public System.Type[] attributeTypes
     // Size: 0x8
     // Offset: 0x10
-    ::Array<System::Type*>* attributeTypes;
+    ::ArrayWrapper<System::Type*> attributeTypes;
     // Field size check
-    static_assert(sizeof(::Array<System::Type*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass35_0
-    $$c__DisplayClass35_0(::Array<System::Type*>* attributeTypes_ = {}) noexcept : attributeTypes{attributeTypes_} {}
-    // Creating conversion operator: operator ::Array<System::Type*>*
-    constexpr operator ::Array<System::Type*>*() const noexcept {
+    $$c__DisplayClass35_0(::ArrayWrapper<System::Type*> attributeTypes_ = {}) noexcept : attributeTypes{attributeTypes_} {}
+    // Creating conversion operator: operator ::ArrayWrapper<System::Type*>
+    constexpr operator ::ArrayWrapper<System::Type*>() const noexcept {
       return attributeTypes;
     }
     // Get instance field reference: public System.Type[] attributeTypes
-    ::Array<System::Type*>*& dyn_attributeTypes();
+    ::ArrayWrapper<System::Type*>& dyn_attributeTypes();
     // System.Boolean <AllAttributes>b__0(System.Attribute a)
-    // Offset: 0x13DD4EC
+    // Offset: 0x14EF6E0
     bool $AllAttributes$b__0(System::Attribute* a);
     // public System.Void .ctor()
-    // Offset: 0x13DD23C
+    // Offset: 0x14EF430
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -58,7 +58,7 @@ namespace ModestTree {
     }
   }; // ModestTree.TypeExtensions/ModestTree.<>c__DisplayClass35_0
   #pragma pack(pop)
-  static check_size<sizeof(TypeExtensions::$$c__DisplayClass35_0), 16 + sizeof(::Array<System::Type*>*)> __ModestTree_TypeExtensions_$$c__DisplayClass35_0SizeCheck;
+  static check_size<sizeof(TypeExtensions::$$c__DisplayClass35_0), 16 + sizeof(::ArrayWrapper<System::Type*>)> __ModestTree_TypeExtensions_$$c__DisplayClass35_0SizeCheck;
   static_assert(sizeof(TypeExtensions::$$c__DisplayClass35_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeExtensions::$$c__DisplayClass35_0*, "ModestTree", "TypeExtensions/<>c__DisplayClass35_0");

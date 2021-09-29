@@ -138,10 +138,10 @@ namespace MasterServer {
     // Get instance field reference: public System.Action`1<ConnectionFailedReason> onFailure
     System::Action_1<GlobalNamespace::ConnectionFailedReason>*& dyn_onFailure();
     // System.Threading.Tasks.Task <GetPublicServers>b__0()
-    // Offset: 0x12270B8
+    // Offset: 0x12E646C
     System::Threading::Tasks::Task* $GetPublicServers$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1225F18
+    // Offset: 0x12E52CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

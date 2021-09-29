@@ -30,21 +30,21 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionLookAt : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xE2CEE4
+    // [TooltipAttribute] Offset: 0xEF36BC
     // public RootMotion.FinalIK.LookAtIK ik
     // Size: 0x8
     // Offset: 0x10
     RootMotion::FinalIK::LookAtIK* ik;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::LookAtIK*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE2CF1C
+    // [TooltipAttribute] Offset: 0xEF36F4
     // public System.Single lerpSpeed
     // Size: 0x4
     // Offset: 0x18
     float lerpSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE2CF54
+    // [TooltipAttribute] Offset: 0xEF372C
     // public System.Single weightSpeed
     // Size: 0x4
     // Offset: 0x1C
@@ -102,22 +102,22 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Boolean firstFBBIKSolve
     bool& dyn_firstFBBIKSolve();
     // public System.Void Look(UnityEngine.Transform target, System.Single time)
-    // Offset: 0x1E8F554
+    // Offset: 0x1FE9FE0
     void Look(UnityEngine::Transform* target, float time);
     // public System.Void OnFixTransforms()
-    // Offset: 0x1E8F6CC
+    // Offset: 0x1FEA158
     void OnFixTransforms();
     // public System.Void Update()
-    // Offset: 0x1E8F774
+    // Offset: 0x1FEA200
     void Update();
     // public System.Void SolveSpine()
-    // Offset: 0x1E8F9B8
+    // Offset: 0x1FEA444
     void SolveSpine();
     // public System.Void SolveHead()
-    // Offset: 0x1E8FAB0
+    // Offset: 0x1FEA53C
     void SolveHead();
     // public System.Void .ctor()
-    // Offset: 0x1E8FB7C
+    // Offset: 0x1FEA608
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

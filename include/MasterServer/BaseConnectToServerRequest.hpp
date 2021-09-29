@@ -79,22 +79,22 @@ namespace MasterServer {
     // Get instance field reference: public readonly ByteArrayNetSerializable publicKey
     GlobalNamespace::ByteArrayNetSerializable*& dyn_publicKey();
     // public System.String get_userId()
-    // Offset: 0x121A450
+    // Offset: 0x12D97F0
     ::Il2CppString* get_userId();
     // protected System.Void set_userId(System.String value)
-    // Offset: 0x121A458
+    // Offset: 0x12D97F8
     void set_userId(::Il2CppString* value);
     // public System.String get_userName()
-    // Offset: 0x121A460
+    // Offset: 0x12D9800
     ::Il2CppString* get_userName();
     // protected System.Void set_userName(System.String value)
-    // Offset: 0x121A468
+    // Offset: 0x12D9808
     void set_userName(::Il2CppString* value);
     // public MasterServer.BaseConnectToServerRequest WithEncryptionParams(System.Byte[] random, System.Byte[] publicKey)
-    // Offset: 0x121A470
-    MasterServer::BaseConnectToServerRequest* WithEncryptionParams(::Array<uint8_t>* random, ::Array<uint8_t>* publicKey);
+    // Offset: 0x12D9810
+    MasterServer::BaseConnectToServerRequest* WithEncryptionParams(::ArrayWrapper<uint8_t> random, ::ArrayWrapper<uint8_t> publicKey);
     // protected System.Void .ctor()
-    // Offset: 0x121A5E4
+    // Offset: 0x12D9984
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -104,17 +104,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<BaseConnectToServerRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x121A4BC
+    // Offset: 0x12D985C
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x121A530
+    // Offset: 0x12D98D0
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x121A5A8
+    // Offset: 0x12D9948
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();
@@ -162,10 +162,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Writing MetadataGetter for method: MasterServer::BaseConnectToServerRequest::WithEncryptionParams
 // Il2CppName: WithEncryptionParams
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::BaseConnectToServerRequest* (MasterServer::BaseConnectToServerRequest::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&MasterServer::BaseConnectToServerRequest::WithEncryptionParams)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::BaseConnectToServerRequest* (MasterServer::BaseConnectToServerRequest::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&MasterServer::BaseConnectToServerRequest::WithEncryptionParams)> {
   static const MethodInfo* get() {
-    static auto* random = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* publicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* random = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* publicKey = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseConnectToServerRequest*), "WithEncryptionParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{random, publicKey});
   }
 };

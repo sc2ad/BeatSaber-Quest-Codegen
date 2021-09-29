@@ -69,10 +69,10 @@ namespace GlobalNamespace {
     // private EnvironmentOverrideSettingsPanelController/Elements[] _elements
     // Size: 0x8
     // Offset: 0x28
-    ::Array<GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*>* elements;
+    ::ArrayWrapper<GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*> elements;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE45000
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*>) == 0x8);
+    // [SpaceAttribute] Offset: 0xF0D9C4
     // private HMUI.PanelAnimationSO _presentPanelAnimation
     // Size: 0x8
     // Offset: 0x30
@@ -85,14 +85,14 @@ namespace GlobalNamespace {
     HMUI::PanelAnimationSO* dismissPanelAnimation;
     // Field size check
     static_assert(sizeof(HMUI::PanelAnimationSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE45048
+    // [SpaceAttribute] Offset: 0xF0DA0C
     // private EnvironmentsListSO _allEnvironments
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::EnvironmentsListSO* allEnvironments;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentsListSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE45080
+    // [InjectAttribute] Offset: 0xF0DA44
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x48
@@ -112,7 +112,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: EnvironmentOverrideSettingsPanelController
-    EnvironmentOverrideSettingsPanelController(UnityEngine::UI::Toggle* overrideEnvironmentsToggle_ = {}, UnityEngine::GameObject* elementsGO_ = {}, ::Array<GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*>* elements_ = {}, HMUI::PanelAnimationSO* presentPanelAnimation_ = {}, HMUI::PanelAnimationSO* dismissPanelAnimation_ = {}, GlobalNamespace::EnvironmentsListSO* allEnvironments_ = {}, GlobalNamespace::IAnalyticsModel* analyticsModel_ = {}, GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings_ = {}, bool initialized_ = {}) noexcept : overrideEnvironmentsToggle{overrideEnvironmentsToggle_}, elementsGO{elementsGO_}, elements{elements_}, presentPanelAnimation{presentPanelAnimation_}, dismissPanelAnimation{dismissPanelAnimation_}, allEnvironments{allEnvironments_}, analyticsModel{analyticsModel_}, overrideEnvironmentSettings{overrideEnvironmentSettings_}, initialized{initialized_} {}
+    EnvironmentOverrideSettingsPanelController(UnityEngine::UI::Toggle* overrideEnvironmentsToggle_ = {}, UnityEngine::GameObject* elementsGO_ = {}, ::ArrayWrapper<GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*> elements_ = {}, HMUI::PanelAnimationSO* presentPanelAnimation_ = {}, HMUI::PanelAnimationSO* dismissPanelAnimation_ = {}, GlobalNamespace::EnvironmentsListSO* allEnvironments_ = {}, GlobalNamespace::IAnalyticsModel* analyticsModel_ = {}, GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings_ = {}, bool initialized_ = {}) noexcept : overrideEnvironmentsToggle{overrideEnvironmentsToggle_}, elementsGO{elementsGO_}, elements{elements_}, presentPanelAnimation{presentPanelAnimation_}, dismissPanelAnimation{dismissPanelAnimation_}, allEnvironments{allEnvironments_}, analyticsModel{analyticsModel_}, overrideEnvironmentSettings{overrideEnvironmentSettings_}, initialized{initialized_} {}
     // Creating interface conversion operator: operator GlobalNamespace::IRefreshable
     operator GlobalNamespace::IRefreshable() noexcept {
       return *reinterpret_cast<GlobalNamespace::IRefreshable*>(this);
@@ -124,7 +124,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.GameObject _elementsGO
     UnityEngine::GameObject*& dyn__elementsGO();
     // Get instance field reference: private EnvironmentOverrideSettingsPanelController/Elements[] _elements
-    ::Array<GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*>*& dyn__elements();
+    ::ArrayWrapper<GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*>& dyn__elements();
     // Get instance field reference: private HMUI.PanelAnimationSO _presentPanelAnimation
     HMUI::PanelAnimationSO*& dyn__presentPanelAnimation();
     // Get instance field reference: private HMUI.PanelAnimationSO _dismissPanelAnimation
@@ -138,28 +138,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initialized
     bool& dyn__initialized();
     // public OverrideEnvironmentSettings get_overrideEnvironmentSettings()
-    // Offset: 0x1057F78
+    // Offset: 0x11B0C24
     GlobalNamespace::OverrideEnvironmentSettings* get_overrideEnvironmentSettings();
     // public System.Void SetData(OverrideEnvironmentSettings overrideEnvironmentSettings)
-    // Offset: 0x1057F80
+    // Offset: 0x11B0C2C
     void SetData(GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings);
     // protected System.Void OnDestroy()
-    // Offset: 0x1058310
+    // Offset: 0x11B0FBC
     void OnDestroy();
     // public System.Void Refresh()
-    // Offset: 0x1058498
+    // Offset: 0x11B1144
     void Refresh();
     // private System.Void HandleDropDownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropDownWithTableView, System.Int32 idx)
-    // Offset: 0x1058600
+    // Offset: 0x11B12AC
     void HandleDropDownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropDownWithTableView, int idx);
     // private System.Void HandleOverrideEnvironmentsToggleValueChanged(System.Boolean isOn)
-    // Offset: 0x1058864
+    // Offset: 0x11B1510
     void HandleOverrideEnvironmentsToggleValueChanged(bool isOn);
     // private System.Void <HandleOverrideEnvironmentsToggleValueChanged>b__16_0()
-    // Offset: 0x1058A50
+    // Offset: 0x11B16FC
     void $HandleOverrideEnvironmentsToggleValueChanged$b__16_0();
     // public System.Void .ctor()
-    // Offset: 0x1058A48
+    // Offset: 0x11B16F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -50,10 +50,10 @@ namespace Mono::Net::Security::Private {
     // Get instance field reference: public Mono.Security.Interface.MonoLocalCertificateSelectionCallback callback
     Mono::Security::Interface::MonoLocalCertificateSelectionCallback*& dyn_callback();
     // System.Security.Cryptography.X509Certificates.X509Certificate <MonoToInternal>b__0(System.String t, System.Security.Cryptography.X509Certificates.X509CertificateCollection lc, System.Security.Cryptography.X509Certificates.X509Certificate rc, System.String[] ai)
-    // Offset: 0x15F6318
-    System::Security::Cryptography::X509Certificates::X509Certificate* $MonoToInternal$b__0(::Il2CppString* t, System::Security::Cryptography::X509Certificates::X509CertificateCollection* lc, System::Security::Cryptography::X509Certificates::X509Certificate* rc, ::Array<::Il2CppString*>* ai);
+    // Offset: 0x17C1EC0
+    System::Security::Cryptography::X509Certificates::X509Certificate* $MonoToInternal$b__0(::Il2CppString* t, System::Security::Cryptography::X509Certificates::X509CertificateCollection* lc, System::Security::Cryptography::X509Certificates::X509Certificate* rc, ::ArrayWrapper<::Il2CppString*> ai);
     // public System.Void .ctor()
-    // Offset: 0x15F62D4
+    // Offset: 0x17C1E7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -71,12 +71,12 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::Private::CallbackHelpers::$$c__Displ
 // Writing MetadataGetter for method: Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass8_0::$MonoToInternal$b__0
 // Il2CppName: <MonoToInternal>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass8_0::*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Cryptography::X509Certificates::X509Certificate*, ::Array<::Il2CppString*>*)>(&Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass8_0::$MonoToInternal$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass8_0::*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayWrapper<::Il2CppString*>)>(&Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass8_0::$MonoToInternal$b__0)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* lc = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509CertificateCollection")->byval_arg;
     static auto* rc = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;
-    static auto* ai = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* ai = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass8_0*), "<MonoToInternal>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t, lc, rc, ai});
   }
 };

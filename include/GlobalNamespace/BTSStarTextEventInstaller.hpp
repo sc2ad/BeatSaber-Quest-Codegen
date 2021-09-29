@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private BTSStarTextEffectController _btsStarTextEffectController
     GlobalNamespace::BTSStarTextEffectController*& dyn__btsStarTextEffectController();
     // public System.Void .ctor()
-    // Offset: 0x1183498
+    // Offset: 0x126907C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -53,7 +53,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BTSStarTextEventInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1183418
+    // Offset: 0x1268FFC
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

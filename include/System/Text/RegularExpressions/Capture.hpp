@@ -45,23 +45,32 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Int32 _length
     int& dyn__length();
     // public System.Int32 get_Index()
-    // Offset: 0x186EEE4
+    // Offset: 0x19E12C8
     int get_Index();
     // public System.Int32 get_Length()
-    // Offset: 0x186EEEC
+    // Offset: 0x19E12D0
     int get_Length();
     // public System.String get_Value()
-    // Offset: 0x186EEF4
+    // Offset: 0x19E12D8
     ::Il2CppString* get_Value();
     // System.Void .ctor(System.String text, System.Int32 i, System.Int32 l)
-    // Offset: 0x186EEA4
+    // Offset: 0x19E1288
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Capture* New_ctor(::Il2CppString* text, int i, int l) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::Capture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Capture*, creationType>(text, i, l)));
     }
+    // System.String GetOriginalString()
+    // Offset: 0x19E1300
+    ::Il2CppString* GetOriginalString();
+    // System.String GetLeftSubstring()
+    // Offset: 0x19E1308
+    ::Il2CppString* GetLeftSubstring();
+    // System.String GetRightSubstring()
+    // Offset: 0x19E1330
+    ::Il2CppString* GetRightSubstring();
     // System.Void .ctor()
-    // Offset: 0x186EF1C
+    // Offset: 0x19E1360
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -70,7 +79,7 @@ namespace System::Text::RegularExpressions {
       return THROW_UNLESS((::il2cpp_utils::New<Capture*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x186EF18
+    // Offset: 0x19E12FC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -109,6 +118,30 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: System::Text::RegularExpressions::Capture::GetOriginalString
+// Il2CppName: GetOriginalString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::RegularExpressions::Capture::*)()>(&System::Text::RegularExpressions::Capture::GetOriginalString)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::Capture*), "GetOriginalString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: System::Text::RegularExpressions::Capture::GetLeftSubstring
+// Il2CppName: GetLeftSubstring
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::RegularExpressions::Capture::*)()>(&System::Text::RegularExpressions::Capture::GetLeftSubstring)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::Capture*), "GetLeftSubstring", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: System::Text::RegularExpressions::Capture::GetRightSubstring
+// Il2CppName: GetRightSubstring
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::RegularExpressions::Capture::*)()>(&System::Text::RegularExpressions::Capture::GetRightSubstring)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::Capture*), "GetRightSubstring", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Text::RegularExpressions::Capture::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

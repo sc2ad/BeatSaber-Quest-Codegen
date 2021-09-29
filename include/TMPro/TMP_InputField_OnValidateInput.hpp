@@ -34,20 +34,20 @@ namespace TMPro {
     // Creating value type constructor for type: OnValidateInput
     OnValidateInput() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x114ED8C
+    // Offset: 0x121D93C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_InputField::OnValidateInput* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_InputField::OnValidateInput::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_InputField::OnValidateInput*, creationType>(object, method)));
     }
     // public System.Char Invoke(System.String text, System.Int32 charIndex, System.Char addedChar)
-    // Offset: 0x114ED9C
+    // Offset: 0x121D94C
     ::Il2CppChar Invoke(::Il2CppString* text, int charIndex, ::Il2CppChar addedChar);
     // public System.IAsyncResult BeginInvoke(System.String text, System.Int32 charIndex, System.Char addedChar, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x114F1D8
+    // Offset: 0x121DD88
     System::IAsyncResult* BeginInvoke(::Il2CppString* text, int charIndex, ::Il2CppChar addedChar, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Char EndInvoke(System.IAsyncResult result)
-    // Offset: 0x114F294
+    // Offset: 0x121DE44
     ::Il2CppChar EndInvoke(System::IAsyncResult* result);
   }; // TMPro.TMP_InputField/TMPro.OnValidateInput
   #pragma pack(pop)

@@ -43,10 +43,10 @@ namespace Zenject::Internal {
     // Get instance field reference: public System.Reflection.MethodInfo methodInfo
     System::Reflection::MethodInfo*& dyn_methodInfo();
     // System.Void <ConvertMethod>b__0(System.Object obj, System.Object[] args)
-    // Offset: 0x166BA8C
-    void $ConvertMethod$b__0(::Il2CppObject* obj, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x1835E30
+    void $ConvertMethod$b__0(::Il2CppObject* obj, ::ArrayWrapper<::Il2CppObject*> args);
     // public System.Void .ctor()
-    // Offset: 0x166AF60
+    // Offset: 0x1835304
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -64,10 +64,10 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass0_0::$ConvertMethod$b__0
 // Il2CppName: <ConvertMethod>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass0_0::*)(::Il2CppObject*, ::Array<::Il2CppObject*>*)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass0_0::$ConvertMethod$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass0_0::*)(::Il2CppObject*, ::ArrayWrapper<::Il2CppObject*>)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass0_0::$ConvertMethod$b__0)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass0_0*), "<ConvertMethod>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, args});
   }
 };

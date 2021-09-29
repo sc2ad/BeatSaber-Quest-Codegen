@@ -24,22 +24,22 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Creating value type constructor for type: PlayerConnectionMessageIds
     PlayerConnectionMessageIds() noexcept {}
     // static public System.Guid get_runStartedMessageId()
-    // Offset: 0x14C3C48
+    // Offset: 0x16698C4
     static System::Guid get_runStartedMessageId();
     // static public System.Guid get_runFinishedMessageId()
-    // Offset: 0x14C3CAC
+    // Offset: 0x1669928
     static System::Guid get_runFinishedMessageId();
     // static public System.Guid get_testStartedMessageId()
-    // Offset: 0x14C3D10
+    // Offset: 0x166998C
     static System::Guid get_testStartedMessageId();
     // static public System.Guid get_testFinishedMessageId()
-    // Offset: 0x14C3D74
+    // Offset: 0x16699F0
     static System::Guid get_testFinishedMessageId();
     // static public System.Guid get_quitPlayerMessageId()
-    // Offset: 0x14C3DD8
+    // Offset: 0x1669A54
     static System::Guid get_quitPlayerMessageId();
     // static public System.Guid get_playerAliveHeartbeat()
-    // Offset: 0x14C3E3C
+    // Offset: 0x1669AB8
     static System::Guid get_playerAliveHeartbeat();
   }; // UnityEngine.TestRunner.TestLaunchers.PlayerConnectionMessageIds
   #pragma pack(pop)

@@ -38,7 +38,7 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink
     class RotationOffsetLink;
-    // [TooltipAttribute] Offset: 0xE30BAC
+    // [TooltipAttribute] Offset: 0xEF7384
     // public System.Int32 curveIndex
     // Size: 0x4
     // Offset: 0x50
@@ -47,13 +47,13 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: curveIndex and: offsetLinks
     char __padding0[0x4] = {};
-    // [TooltipAttribute] Offset: 0xE30BE4
+    // [TooltipAttribute] Offset: 0xEF73BC
     // public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.RotationOffset/RootMotion.FinalIK.RotationOffsetLink[] offsetLinks
     // Size: 0x8
     // Offset: 0x58
-    ::Array<RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink*>* offsetLinks;
+    ::ArrayWrapper<RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink*> offsetLinks;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink*>) == 0x8);
     // private UnityEngine.Rigidbody rigidbody
     // Size: 0x8
     // Offset: 0x60
@@ -61,15 +61,15 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(UnityEngine::Rigidbody*) == 0x8);
     // Creating value type constructor for type: RotationOffset
-    RotationOffset(int curveIndex_ = {}, ::Array<RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink*>* offsetLinks_ = {}, UnityEngine::Rigidbody* rigidbody_ = {}) noexcept : curveIndex{curveIndex_}, offsetLinks{offsetLinks_}, rigidbody{rigidbody_} {}
+    RotationOffset(int curveIndex_ = {}, ::ArrayWrapper<RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink*> offsetLinks_ = {}, UnityEngine::Rigidbody* rigidbody_ = {}) noexcept : curveIndex{curveIndex_}, offsetLinks{offsetLinks_}, rigidbody{rigidbody_} {}
     // Get instance field reference: public System.Int32 curveIndex
     int& dyn_curveIndex();
     // Get instance field reference: public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.RotationOffset/RootMotion.FinalIK.RotationOffsetLink[] offsetLinks
-    ::Array<RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink*>*& dyn_offsetLinks();
+    ::ArrayWrapper<RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink*>& dyn_offsetLinks();
     // Get instance field reference: private UnityEngine.Rigidbody rigidbody
     UnityEngine::Rigidbody*& dyn_rigidbody();
     // public System.Void .ctor()
-    // Offset: 0x1CD0CBC
+    // Offset: 0x1E93F7C
     // Implemented from: RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.Offset
     // Base method: System.Void Offset::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -79,20 +79,20 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<HitReactionVRIK::RotationOffset*, creationType>()));
     }
     // protected override System.Single GetLength(UnityEngine.AnimationCurve[] curves)
-    // Offset: 0x1CD0734
+    // Offset: 0x1E939F4
     // Implemented from: RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.Offset
     // Base method: System.Single Offset::GetLength(UnityEngine.AnimationCurve[] curves)
-    float GetLength(::Array<UnityEngine::AnimationCurve*>* curves);
+    float GetLength(::ArrayWrapper<UnityEngine::AnimationCurve*> curves);
     // protected override System.Void CrossFadeStart()
-    // Offset: 0x1CD0818
+    // Offset: 0x1E93AD8
     // Implemented from: RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.Offset
     // Base method: System.Void Offset::CrossFadeStart()
     void CrossFadeStart();
     // protected override System.Void OnApply(RootMotion.FinalIK.VRIK ik, UnityEngine.AnimationCurve[] curves, System.Single weight)
-    // Offset: 0x1CD0888
+    // Offset: 0x1E93B48
     // Implemented from: RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.Offset
     // Base method: System.Void Offset::OnApply(RootMotion.FinalIK.VRIK ik, UnityEngine.AnimationCurve[] curves, System.Single weight)
-    void OnApply(RootMotion::FinalIK::VRIK* ik, ::Array<UnityEngine::AnimationCurve*>* curves, float weight);
+    void OnApply(RootMotion::FinalIK::VRIK* ik, ::ArrayWrapper<UnityEngine::AnimationCurve*> curves, float weight);
   }; // RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.RotationOffset
   #pragma pack(pop)
   static check_size<sizeof(HitReactionVRIK::RotationOffset), 96 + sizeof(UnityEngine::Rigidbody*)> __RootMotion_FinalIK_HitReactionVRIK_RotationOffsetSizeCheck;
@@ -107,9 +107,9 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReactionVRIK::RotationOffset*, "R
 // Writing MetadataGetter for method: RootMotion::FinalIK::HitReactionVRIK::RotationOffset::GetLength
 // Il2CppName: GetLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::HitReactionVRIK::RotationOffset::*)(::Array<UnityEngine::AnimationCurve*>*)>(&RootMotion::FinalIK::HitReactionVRIK::RotationOffset::GetLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::HitReactionVRIK::RotationOffset::*)(::ArrayWrapper<UnityEngine::AnimationCurve*>)>(&RootMotion::FinalIK::HitReactionVRIK::RotationOffset::GetLength)> {
   static const MethodInfo* get() {
-    static auto* curves = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve"), 1)->byval_arg;
+    static auto* curves = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::HitReactionVRIK::RotationOffset*), "GetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{curves});
   }
 };
@@ -124,10 +124,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::HitReactionVRIK::RotationOffset::OnApply
 // Il2CppName: OnApply
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::HitReactionVRIK::RotationOffset::*)(RootMotion::FinalIK::VRIK*, ::Array<UnityEngine::AnimationCurve*>*, float)>(&RootMotion::FinalIK::HitReactionVRIK::RotationOffset::OnApply)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::HitReactionVRIK::RotationOffset::*)(RootMotion::FinalIK::VRIK*, ::ArrayWrapper<UnityEngine::AnimationCurve*>, float)>(&RootMotion::FinalIK::HitReactionVRIK::RotationOffset::OnApply)> {
   static const MethodInfo* get() {
     static auto* ik = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "VRIK")->byval_arg;
-    static auto* curves = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve"), 1)->byval_arg;
+    static auto* curves = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")), 1)->byval_arg;
     static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::HitReactionVRIK::RotationOffset*), "OnApply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ik, curves, weight});
   }

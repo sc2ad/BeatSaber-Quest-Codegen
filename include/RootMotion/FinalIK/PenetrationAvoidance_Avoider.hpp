@@ -38,22 +38,22 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink
     class EffectorLink;
-    // [TooltipAttribute] Offset: 0xE30FF0
+    // [TooltipAttribute] Offset: 0xEF77C8
     // public UnityEngine.Transform[] raycastFrom
     // Size: 0x8
     // Offset: 0x10
-    ::Array<UnityEngine::Transform*>* raycastFrom;
+    ::ArrayWrapper<UnityEngine::Transform*> raycastFrom;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE31028
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    // [TooltipAttribute] Offset: 0xEF7800
     // public UnityEngine.Transform raycastTo
     // Size: 0x8
     // Offset: 0x18
     UnityEngine::Transform* raycastTo;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE31060
-    // [RangeAttribute] Offset: 0xE31060
+    // [TooltipAttribute] Offset: 0xEF7838
+    // [RangeAttribute] Offset: 0xEF7838
     // public System.Single raycastRadius
     // Size: 0x4
     // Offset: 0x20
@@ -62,28 +62,28 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: raycastRadius and: effectors
     char __padding2[0x4] = {};
-    // [TooltipAttribute] Offset: 0xE310B4
+    // [TooltipAttribute] Offset: 0xEF788C
     // public RootMotion.FinalIK.PenetrationAvoidance/RootMotion.FinalIK.Avoider/RootMotion.FinalIK.EffectorLink[] effectors
     // Size: 0x8
     // Offset: 0x28
-    ::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*>* effectors;
+    ::ArrayWrapper<RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*> effectors;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE310EC
+    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*>) == 0x8);
+    // [TooltipAttribute] Offset: 0xEF78C4
     // public System.Single smoothTimeIn
     // Size: 0x4
     // Offset: 0x30
     float smoothTimeIn;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE31124
+    // [TooltipAttribute] Offset: 0xEF78FC
     // public System.Single smoothTimeOut
     // Size: 0x4
     // Offset: 0x34
     float smoothTimeOut;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE3115C
+    // [TooltipAttribute] Offset: 0xEF7934
     // public UnityEngine.LayerMask layers
     // Size: 0x4
     // Offset: 0x38
@@ -109,15 +109,15 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: Avoider
-    Avoider(::Array<UnityEngine::Transform*>* raycastFrom_ = {}, UnityEngine::Transform* raycastTo_ = {}, float raycastRadius_ = {}, ::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*>* effectors_ = {}, float smoothTimeIn_ = {}, float smoothTimeOut_ = {}, UnityEngine::LayerMask layers_ = {}, UnityEngine::Vector3 offset_ = {}, UnityEngine::Vector3 offsetTarget_ = {}, UnityEngine::Vector3 offsetV_ = {}) noexcept : raycastFrom{raycastFrom_}, raycastTo{raycastTo_}, raycastRadius{raycastRadius_}, effectors{effectors_}, smoothTimeIn{smoothTimeIn_}, smoothTimeOut{smoothTimeOut_}, layers{layers_}, offset{offset_}, offsetTarget{offsetTarget_}, offsetV{offsetV_} {}
+    Avoider(::ArrayWrapper<UnityEngine::Transform*> raycastFrom_ = {}, UnityEngine::Transform* raycastTo_ = {}, float raycastRadius_ = {}, ::ArrayWrapper<RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*> effectors_ = {}, float smoothTimeIn_ = {}, float smoothTimeOut_ = {}, UnityEngine::LayerMask layers_ = {}, UnityEngine::Vector3 offset_ = {}, UnityEngine::Vector3 offsetTarget_ = {}, UnityEngine::Vector3 offsetV_ = {}) noexcept : raycastFrom{raycastFrom_}, raycastTo{raycastTo_}, raycastRadius{raycastRadius_}, effectors{effectors_}, smoothTimeIn{smoothTimeIn_}, smoothTimeOut{smoothTimeOut_}, layers{layers_}, offset{offset_}, offsetTarget{offsetTarget_}, offsetV{offsetV_} {}
     // Get instance field reference: public UnityEngine.Transform[] raycastFrom
-    ::Array<UnityEngine::Transform*>*& dyn_raycastFrom();
+    ::ArrayWrapper<UnityEngine::Transform*>& dyn_raycastFrom();
     // Get instance field reference: public UnityEngine.Transform raycastTo
     UnityEngine::Transform*& dyn_raycastTo();
     // Get instance field reference: public System.Single raycastRadius
     float& dyn_raycastRadius();
     // Get instance field reference: public RootMotion.FinalIK.PenetrationAvoidance/RootMotion.FinalIK.Avoider/RootMotion.FinalIK.EffectorLink[] effectors
-    ::Array<RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*>*& dyn_effectors();
+    ::ArrayWrapper<RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*>& dyn_effectors();
     // Get instance field reference: public System.Single smoothTimeIn
     float& dyn_smoothTimeIn();
     // Get instance field reference: public System.Single smoothTimeOut
@@ -131,16 +131,16 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Vector3 offsetV
     UnityEngine::Vector3& dyn_offsetV();
     // public System.Void Solve(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
-    // Offset: 0x1ADCA1C
+    // Offset: 0x1C5F19C
     void Solve(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
     // private UnityEngine.Vector3 GetOffsetTarget(RootMotion.FinalIK.IKSolverFullBodyBiped solver)
-    // Offset: 0x1ADCC28
+    // Offset: 0x1C5F3A8
     UnityEngine::Vector3 GetOffsetTarget(RootMotion::FinalIK::IKSolverFullBodyBiped* solver);
     // private UnityEngine.Vector3 Raycast(UnityEngine.Vector3 from, UnityEngine.Vector3 to)
-    // Offset: 0x1ADCDC0
+    // Offset: 0x1C5F540
     UnityEngine::Vector3 Raycast(UnityEngine::Vector3 from, UnityEngine::Vector3 to);
     // public System.Void .ctor()
-    // Offset: 0x1ADD034
+    // Offset: 0x1C5F7B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

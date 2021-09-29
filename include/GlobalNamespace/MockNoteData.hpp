@@ -75,46 +75,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <duration>k__BackingField
     float& dyn_$duration$k__BackingField();
     // public System.Single get_time()
-    // Offset: 0x23DC9A4
+    // Offset: 0x25E2180
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x23DC9AC
+    // Offset: 0x25E2188
     void set_time(float value);
     // public System.Int32 get_lineIndex()
-    // Offset: 0x23DC9B4
+    // Offset: 0x25E2190
     int get_lineIndex();
     // public System.Void set_lineIndex(System.Int32 value)
-    // Offset: 0x23DC9BC
+    // Offset: 0x25E2198
     void set_lineIndex(int value);
     // public ColorType get_colorType()
-    // Offset: 0x23DC9C4
+    // Offset: 0x25E21A0
     GlobalNamespace::ColorType get_colorType();
     // public System.Void set_colorType(ColorType value)
-    // Offset: 0x23DC9CC
+    // Offset: 0x25E21A8
     void set_colorType(GlobalNamespace::ColorType value);
     // public NoteCutDirection get_cutDirection()
-    // Offset: 0x23DC9D4
+    // Offset: 0x25E21B0
     GlobalNamespace::NoteCutDirection get_cutDirection();
     // public System.Void set_cutDirection(NoteCutDirection value)
-    // Offset: 0x23DC9DC
+    // Offset: 0x25E21B8
     void set_cutDirection(GlobalNamespace::NoteCutDirection value);
     // public NoteLineLayer get_noteLineLayer()
-    // Offset: 0x23DC9E4
+    // Offset: 0x25E21C0
     GlobalNamespace::NoteLineLayer get_noteLineLayer();
     // public System.Void set_noteLineLayer(NoteLineLayer value)
-    // Offset: 0x23DC9EC
+    // Offset: 0x25E21C8
     void set_noteLineLayer(GlobalNamespace::NoteLineLayer value);
     // public System.Single get_duration()
-    // Offset: 0x23DC9F4
+    // Offset: 0x25E21D0
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x23DC9FC
+    // Offset: 0x25E21D8
     void set_duration(float value);
     // public System.Void Mirror(System.Int32 lineCount)
-    // Offset: 0x23DCA04
+    // Offset: 0x25E21E0
     void Mirror(int lineCount);
     // public System.Void .ctor()
-    // Offset: 0x23DCA5C
+    // Offset: 0x25E2238
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

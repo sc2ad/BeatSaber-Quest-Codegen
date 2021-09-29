@@ -27,32 +27,32 @@ namespace GlobalNamespace {
     // public readonly System.Single[] p1
     // Size: 0x8
     // Offset: 0x0
-    ::Array<float>* p1;
+    ::ArrayWrapper<float> p1;
     // Field size check
-    static_assert(sizeof(::Array<float>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
     // public readonly System.Single[] p2
     // Size: 0x8
     // Offset: 0x8
-    ::Array<float>* p2;
+    ::ArrayWrapper<float> p2;
     // Field size check
-    static_assert(sizeof(::Array<float>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
     // Creating value type constructor for type: ComputeControlPointsResults
-    constexpr ComputeControlPointsResults(::Array<float>* p1_ = {}, ::Array<float>* p2_ = {}) noexcept : p1{p1_}, p2{p2_} {}
+    constexpr ComputeControlPointsResults(::ArrayWrapper<float> p1_ = {}, ::ArrayWrapper<float> p2_ = {}) noexcept : p1{p1_}, p2{p2_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public readonly System.Single[] p1
-    ::Array<float>*& dyn_p1();
+    ::ArrayWrapper<float>& dyn_p1();
     // Get instance field reference: public readonly System.Single[] p2
-    ::Array<float>*& dyn_p2();
+    ::ArrayWrapper<float>& dyn_p2();
     // public System.Void .ctor(System.Single[] p1, System.Single[] p2)
-    // Offset: 0x10D6EA8
+    // Offset: 0x12A8748
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    // ABORTED: conflicts with another method.  ComputeControlPointsResults(::Array<float>* p1, ::Array<float>* p2)
+    // ABORTED: conflicts with another method.  ComputeControlPointsResults(::ArrayWrapper<float> p1, ::ArrayWrapper<float> p2)
   }; // BezierSpline/ComputeControlPointsResults
   #pragma pack(pop)
-  static check_size<sizeof(BezierSpline::ComputeControlPointsResults), 8 + sizeof(::Array<float>*)> __GlobalNamespace_BezierSpline_ComputeControlPointsResultsSizeCheck;
+  static check_size<sizeof(BezierSpline::ComputeControlPointsResults), 8 + sizeof(::ArrayWrapper<float>)> __GlobalNamespace_BezierSpline_ComputeControlPointsResultsSizeCheck;
   static_assert(sizeof(BezierSpline::ComputeControlPointsResults) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSpline::ComputeControlPointsResults, "", "BezierSpline/ComputeControlPointsResults");

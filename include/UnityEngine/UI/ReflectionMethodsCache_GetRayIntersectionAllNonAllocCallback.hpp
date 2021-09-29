@@ -41,20 +41,20 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: GetRayIntersectionAllNonAllocCallback
     GetRayIntersectionAllNonAllocCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x19DCEBC
+    // Offset: 0x1B51D64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*, creationType>(object, method)));
     }
     // public System.Int32 Invoke(UnityEngine.Ray r, UnityEngine.RaycastHit2D[] results, System.Single f, System.Int32 i)
-    // Offset: 0x19DCECC
-    int Invoke(UnityEngine::Ray r, ::Array<UnityEngine::RaycastHit2D>* results, float f, int i);
+    // Offset: 0x1B51D74
+    int Invoke(UnityEngine::Ray r, ::ArrayWrapper<UnityEngine::RaycastHit2D> results, float f, int i);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Ray r, UnityEngine.RaycastHit2D[] results, System.Single f, System.Int32 i, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x19DD244
-    System::IAsyncResult* BeginInvoke(UnityEngine::Ray r, ::Array<UnityEngine::RaycastHit2D>* results, float f, int i, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x1B520EC
+    System::IAsyncResult* BeginInvoke(UnityEngine::Ray r, ::ArrayWrapper<UnityEngine::RaycastHit2D> results, float f, int i, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x19DD31C
+    // Offset: 0x1B521C4
     int EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.GetRayIntersectionAllNonAllocCallback
   #pragma pack(pop)
@@ -68,10 +68,10 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ReflectionMethodsCache::GetRayIntersecti
 // Writing MetadataGetter for method: UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::*)(UnityEngine::Ray, ::Array<UnityEngine::RaycastHit2D>*, float, int)>(&UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::*)(UnityEngine::Ray, ::ArrayWrapper<UnityEngine::RaycastHit2D>, float, int)>(&UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::Invoke)> {
   static const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
-    static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit2D"), 1)->byval_arg;
+    static auto* results = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit2D")), 1)->byval_arg;
     static auto* f = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{r, results, f, i});
@@ -80,10 +80,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::*)(UnityEngine::Ray, ::Array<UnityEngine::RaycastHit2D>*, float, int, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::*)(UnityEngine::Ray, ::ArrayWrapper<UnityEngine::RaycastHit2D>, float, int, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
-    static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit2D"), 1)->byval_arg;
+    static auto* results = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit2D")), 1)->byval_arg;
     static auto* f = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;

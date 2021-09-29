@@ -33,7 +33,7 @@ namespace UnityEngine::Events {
   template<typename T1, typename T2, typename T3>
   class InvokableCall_3 : public UnityEngine::Events::BaseInvokableCall {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xDB95FC
+    // [DebuggerBrowsableAttribute] Offset: 0xE76828
     // private UnityEngine.Events.UnityAction`3<T1,T2,T3> Delegate
     // Size: 0x8
     // Offset: 0x0
@@ -98,7 +98,7 @@ namespace UnityEngine::Events {
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Void BaseInvokableCall::Invoke(System.Object[] args)
-    void Invoke(::Array<::Il2CppObject*>* args) {
+    void Invoke(::ArrayWrapper<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::InvokableCall_3::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(args)})));
       auto ___instance_arg = this;

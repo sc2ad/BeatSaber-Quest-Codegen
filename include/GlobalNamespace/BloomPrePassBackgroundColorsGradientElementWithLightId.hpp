@@ -45,17 +45,17 @@ namespace GlobalNamespace {
     // private BloomPrePassBackgroundColorsGradientElementWithLightId/Elements[] _elements
     // Size: 0x8
     // Offset: 0x38
-    ::Array<GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*>* elements;
+    ::ArrayWrapper<GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*> elements;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*>) == 0x8);
     // Creating value type constructor for type: BloomPrePassBackgroundColorsGradientElementWithLightId
-    BloomPrePassBackgroundColorsGradientElementWithLightId(GlobalNamespace::BloomPrePassBackgroundColorsGradient* bloomPrePassBackgroundColorsGradient_ = {}, ::Array<GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*>* elements_ = {}) noexcept : bloomPrePassBackgroundColorsGradient{bloomPrePassBackgroundColorsGradient_}, elements{elements_} {}
+    BloomPrePassBackgroundColorsGradientElementWithLightId(GlobalNamespace::BloomPrePassBackgroundColorsGradient* bloomPrePassBackgroundColorsGradient_ = {}, ::ArrayWrapper<GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*> elements_ = {}) noexcept : bloomPrePassBackgroundColorsGradient{bloomPrePassBackgroundColorsGradient_}, elements{elements_} {}
     // Get instance field reference: private BloomPrePassBackgroundColorsGradient _bloomPrePassBackgroundColorsGradient
     GlobalNamespace::BloomPrePassBackgroundColorsGradient*& dyn__bloomPrePassBackgroundColorsGradient();
     // Get instance field reference: private BloomPrePassBackgroundColorsGradientElementWithLightId/Elements[] _elements
-    ::Array<GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*>*& dyn__elements();
+    ::ArrayWrapper<GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*>& dyn__elements();
     // public System.Void .ctor()
-    // Offset: 0x1E13230
+    // Offset: 0x1E23098
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -69,13 +69,13 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundColorsGradientElementWithLightId*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1E1304C
+    // Offset: 0x1E22EB4
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
   }; // BloomPrePassBackgroundColorsGradientElementWithLightId
   #pragma pack(pop)
-  static check_size<sizeof(BloomPrePassBackgroundColorsGradientElementWithLightId), 56 + sizeof(::Array<GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*>*)> __GlobalNamespace_BloomPrePassBackgroundColorsGradientElementWithLightIdSizeCheck;
+  static check_size<sizeof(BloomPrePassBackgroundColorsGradientElementWithLightId), 56 + sizeof(::ArrayWrapper<GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*>)> __GlobalNamespace_BloomPrePassBackgroundColorsGradientElementWithLightIdSizeCheck;
   static_assert(sizeof(BloomPrePassBackgroundColorsGradientElementWithLightId) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId*, "", "BloomPrePassBackgroundColorsGradientElementWithLightId");

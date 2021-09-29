@@ -43,13 +43,13 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Set static field: static public readonly UnityEngine.Experimental.GlobalIllumination.Lightmapping/UnityEngine.Experimental.GlobalIllumination.<>c <>9
     static void _set_$$9(UnityEngine::Experimental::GlobalIllumination::Lightmapping::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x1C556B8
+    // Offset: 0x1CBC1A4
     static void _cctor();
     // System.Void <.cctor>b__7_0(UnityEngine.Light[] requests, Unity.Collections.NativeArray`1<UnityEngine.Experimental.GlobalIllumination.LightDataGI> lightsOutput)
-    // Offset: 0x1C55724
-    void $_cctor$b__7_0(::Array<UnityEngine::Light*>* requests, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput);
+    // Offset: 0x1CBC210
+    void $_cctor$b__7_0(::ArrayWrapper<UnityEngine::Light*> requests, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput);
     // public System.Void .ctor()
-    // Offset: 0x1C5571C
+    // Offset: 0x1CBC208
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -73,9 +73,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::Lightmapping::$$c::$_cctor$b__7_0
 // Il2CppName: <.cctor>b__7_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::GlobalIllumination::Lightmapping::$$c::*)(::Array<UnityEngine::Light*>*, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI>)>(&UnityEngine::Experimental::GlobalIllumination::Lightmapping::$$c::$_cctor$b__7_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::GlobalIllumination::Lightmapping::$$c::*)(::ArrayWrapper<UnityEngine::Light*>, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI>)>(&UnityEngine::Experimental::GlobalIllumination::Lightmapping::$$c::$_cctor$b__7_0)> {
   static const MethodInfo* get() {
-    static auto* requests = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Light"), 1)->byval_arg;
+    static auto* requests = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Light")), 1)->byval_arg;
     static auto* lightsOutput = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Unity.Collections", "NativeArray`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.GlobalIllumination", "LightDataGI")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::Lightmapping::$$c*), "<.cctor>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{requests, lightsOutput});
   }

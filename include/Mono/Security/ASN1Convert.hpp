@@ -29,22 +29,22 @@ namespace Mono::Security {
     // Creating value type constructor for type: ASN1Convert
     ASN1Convert() noexcept {}
     // static public Mono.Security.ASN1 FromInt32(System.Int32 value)
-    // Offset: 0x1DFD090
+    // Offset: 0x1F995F8
     static Mono::Security::ASN1* FromInt32(int value);
     // static public Mono.Security.ASN1 FromOid(System.String oid)
-    // Offset: 0x1DFD228
+    // Offset: 0x1F99790
     static Mono::Security::ASN1* FromOid(::Il2CppString* oid);
     // static public Mono.Security.ASN1 FromUnsignedBigInteger(System.Byte[] big)
-    // Offset: 0x1DFD2DC
-    static Mono::Security::ASN1* FromUnsignedBigInteger(::Array<uint8_t>* big);
+    // Offset: 0x1F99844
+    static Mono::Security::ASN1* FromUnsignedBigInteger(::ArrayWrapper<uint8_t> big);
     // static public System.Int32 ToInt32(Mono.Security.ASN1 asn1)
-    // Offset: 0x1DFD3E4
+    // Offset: 0x1F9994C
     static int ToInt32(Mono::Security::ASN1* asn1);
     // static public System.String ToOid(Mono.Security.ASN1 asn1)
-    // Offset: 0x1DFD510
+    // Offset: 0x1F99A78
     static ::Il2CppString* ToOid(Mono::Security::ASN1* asn1);
     // static public System.DateTime ToDateTime(Mono.Security.ASN1 time)
-    // Offset: 0x1DFD798
+    // Offset: 0x1F99D00
     static System::DateTime ToDateTime(Mono::Security::ASN1* time);
   }; // Mono.Security.ASN1Convert
   #pragma pack(pop)
@@ -73,9 +73,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: Mono::Security::ASN1Convert::FromUnsignedBigInteger
 // Il2CppName: FromUnsignedBigInteger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (*)(::Array<uint8_t>*)>(&Mono::Security::ASN1Convert::FromUnsignedBigInteger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (*)(::ArrayWrapper<uint8_t>)>(&Mono::Security::ASN1Convert::FromUnsignedBigInteger)> {
   static const MethodInfo* get() {
-    static auto* big = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* big = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1Convert*), "FromUnsignedBigInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{big});
   }
 };

@@ -42,9 +42,9 @@ namespace System::Net {
     // private System.Char[] _charBuffer
     // Size: 0x8
     // Offset: 0x18
-    ::Array<::Il2CppChar>* charBuffer;
+    ::ArrayWrapper<::Il2CppChar> charBuffer;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppChar>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
     // private System.Int32 _numBytes
     // Size: 0x4
     // Offset: 0x20
@@ -56,9 +56,9 @@ namespace System::Net {
     // private System.Byte[] _byteBuffer
     // Size: 0x8
     // Offset: 0x28
-    ::Array<uint8_t>* byteBuffer;
+    ::ArrayWrapper<uint8_t> byteBuffer;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Text.Encoding _encoding
     // Size: 0x8
     // Offset: 0x30
@@ -66,37 +66,37 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(System::Text::Encoding*) == 0x8);
     // Creating value type constructor for type: UrlDecoder
-    UrlDecoder(int bufferSize_ = {}, int numChars_ = {}, ::Array<::Il2CppChar>* charBuffer_ = {}, int numBytes_ = {}, ::Array<uint8_t>* byteBuffer_ = {}, System::Text::Encoding* encoding_ = {}) noexcept : bufferSize{bufferSize_}, numChars{numChars_}, charBuffer{charBuffer_}, numBytes{numBytes_}, byteBuffer{byteBuffer_}, encoding{encoding_} {}
+    UrlDecoder(int bufferSize_ = {}, int numChars_ = {}, ::ArrayWrapper<::Il2CppChar> charBuffer_ = {}, int numBytes_ = {}, ::ArrayWrapper<uint8_t> byteBuffer_ = {}, System::Text::Encoding* encoding_ = {}) noexcept : bufferSize{bufferSize_}, numChars{numChars_}, charBuffer{charBuffer_}, numBytes{numBytes_}, byteBuffer{byteBuffer_}, encoding{encoding_} {}
     // Get instance field reference: private System.Int32 _bufferSize
     int& dyn__bufferSize();
     // Get instance field reference: private System.Int32 _numChars
     int& dyn__numChars();
     // Get instance field reference: private System.Char[] _charBuffer
-    ::Array<::Il2CppChar>*& dyn__charBuffer();
+    ::ArrayWrapper<::Il2CppChar>& dyn__charBuffer();
     // Get instance field reference: private System.Int32 _numBytes
     int& dyn__numBytes();
     // Get instance field reference: private System.Byte[] _byteBuffer
-    ::Array<uint8_t>*& dyn__byteBuffer();
+    ::ArrayWrapper<uint8_t>& dyn__byteBuffer();
     // Get instance field reference: private System.Text.Encoding _encoding
     System::Text::Encoding*& dyn__encoding();
     // System.Void .ctor(System.Int32 bufferSize, System.Text.Encoding encoding)
-    // Offset: 0x15E5B58
+    // Offset: 0x1789010
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebUtility::UrlDecoder* New_ctor(int bufferSize, System::Text::Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebUtility::UrlDecoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebUtility::UrlDecoder*, creationType>(bufferSize, encoding)));
     }
     // private System.Void FlushBytes()
-    // Offset: 0x15E5F10
+    // Offset: 0x17893C8
     void FlushBytes();
     // System.Void AddChar(System.Char ch)
-    // Offset: 0x15E5CD4
+    // Offset: 0x178918C
     void AddChar(::Il2CppChar ch);
     // System.Void AddByte(System.Byte b)
-    // Offset: 0x15E5C24
+    // Offset: 0x17890DC
     void AddByte(uint8_t b);
     // System.String GetString()
-    // Offset: 0x15E5D40
+    // Offset: 0x17891F8
     ::Il2CppString* GetString();
   }; // System.Net.WebUtility/System.Net.UrlDecoder
   #pragma pack(pop)

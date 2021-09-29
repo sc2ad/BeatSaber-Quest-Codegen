@@ -30,11 +30,11 @@ namespace System::Net::NetworkInformation {
     // Set static field: static private readonly System.Net.NetworkInformation.NetworkInterfaceFactory nif
     static void _set_nif(System::Net::NetworkInformation::NetworkInterfaceFactory* value);
     // static private System.Void .cctor()
-    // Offset: 0x14A3020
+    // Offset: 0x1648C9C
     static void _cctor();
     // static public System.Net.NetworkInformation.NetworkInterface[] GetNetworkInterfaces()
-    // Offset: 0x14A129C
-    static ::Array<System::Net::NetworkInformation::NetworkInterface*>* GetNetworkInterfaces();
+    // Offset: 0x1646F18
+    static ::ArrayWrapper<System::Net::NetworkInformation::NetworkInterface*> GetNetworkInterfaces();
   }; // System.Net.NetworkInformation.SystemNetworkInterface
   #pragma pack(pop)
 }
@@ -52,7 +52,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::NetworkInformation::SystemNetworkInterface::GetNetworkInterfaces
 // Il2CppName: GetNetworkInterfaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Net::NetworkInformation::NetworkInterface*>* (*)()>(&System::Net::NetworkInformation::SystemNetworkInterface::GetNetworkInterfaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Net::NetworkInformation::NetworkInterface*> (*)()>(&System::Net::NetworkInformation::SystemNetworkInterface::GetNetworkInterfaces)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::SystemNetworkInterface*), "GetNetworkInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

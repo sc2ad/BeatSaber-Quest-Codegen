@@ -54,7 +54,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, asyncTask);
     }
     // static public System.Void RunSync(System.Func`1<System.Threading.Tasks.Task> asyncTask)
-    // Offset: 0x125C0E0
+    // Offset: 0x13788E8
     static void RunSync(System::Func_1<System::Threading::Tasks::Task*>* asyncTask);
   }; // AsyncHelper
   #pragma pack(pop)

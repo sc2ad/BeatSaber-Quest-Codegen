@@ -32,9 +32,9 @@ namespace GlobalNamespace {
     // private System.Byte[] _data
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* data;
+    ::ArrayWrapper<uint8_t> data;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private readonly System.String _name
     // Size: 0x8
     // Offset: 0x18
@@ -62,13 +62,13 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: ByteArrayNetSerializable
-    ByteArrayNetSerializable(::Array<uint8_t>* data_ = {}, ::Il2CppString* name_ = {}, bool allowNull_ = {}, int minLength_ = {}, int maxLength_ = {}) noexcept : data{data_}, name{name_}, allowNull{allowNull_}, minLength{minLength_}, maxLength{maxLength_} {}
+    ByteArrayNetSerializable(::ArrayWrapper<uint8_t> data_ = {}, ::Il2CppString* name_ = {}, bool allowNull_ = {}, int minLength_ = {}, int maxLength_ = {}) noexcept : data{data_}, name{name_}, allowNull{allowNull_}, minLength{minLength_}, maxLength{maxLength_} {}
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
     }
     // Get instance field reference: private System.Byte[] _data
-    ::Array<uint8_t>*& dyn__data();
+    ::ArrayWrapper<uint8_t>& dyn__data();
     // Get instance field reference: private readonly System.String _name
     ::Il2CppString*& dyn__name();
     // Get instance field reference: private readonly System.Boolean _allowNull
@@ -78,33 +78,33 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Int32 _maxLength
     int& dyn__maxLength();
     // public System.Byte[] get_data()
-    // Offset: 0x1335EA4
-    ::Array<uint8_t>* get_data();
+    // Offset: 0x144D4E4
+    ::ArrayWrapper<uint8_t> get_data();
     // public System.Void set_data(System.Byte[] value)
-    // Offset: 0x1335EAC
-    void set_data(::Array<uint8_t>* value);
+    // Offset: 0x144D4EC
+    void set_data(::ArrayWrapper<uint8_t> value);
     // public System.Void .ctor(System.String name, System.Int32 minLength, System.Int32 maxLength, System.Boolean allowNull)
-    // Offset: 0x1335E08
+    // Offset: 0x144D448
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ByteArrayNetSerializable* New_ctor(::Il2CppString* name, int minLength, int maxLength, bool allowNull) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ByteArrayNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ByteArrayNetSerializable*, creationType>(name, minLength, maxLength, allowNull)));
     }
     // public System.Void .ctor(System.String name, System.Int32 size, System.Boolean allowNull)
-    // Offset: 0x1335E5C
+    // Offset: 0x144D49C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ByteArrayNetSerializable* New_ctor(::Il2CppString* name, int size, bool allowNull) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ByteArrayNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ByteArrayNetSerializable*, creationType>(name, size, allowNull)));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x13360AC
+    // Offset: 0x144D6EC
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x13361BC
+    // Offset: 0x144D7FC
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Clear()
-    // Offset: 0x13363D4
+    // Offset: 0x144DA14
     void Clear();
   }; // ByteArrayNetSerializable
   #pragma pack(pop)
@@ -116,7 +116,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ByteArrayNetSerializable*, "", "ByteArra
 // Writing MetadataGetter for method: GlobalNamespace::ByteArrayNetSerializable::get_data
 // Il2CppName: get_data
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (GlobalNamespace::ByteArrayNetSerializable::*)()>(&GlobalNamespace::ByteArrayNetSerializable::get_data)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (GlobalNamespace::ByteArrayNetSerializable::*)()>(&GlobalNamespace::ByteArrayNetSerializable::get_data)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ByteArrayNetSerializable*), "get_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -124,9 +124,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: GlobalNamespace::ByteArrayNetSerializable::set_data
 // Il2CppName: set_data
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ByteArrayNetSerializable::*)(::Array<uint8_t>*)>(&GlobalNamespace::ByteArrayNetSerializable::set_data)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ByteArrayNetSerializable::*)(::ArrayWrapper<uint8_t>)>(&GlobalNamespace::ByteArrayNetSerializable::set_data)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ByteArrayNetSerializable*), "set_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };

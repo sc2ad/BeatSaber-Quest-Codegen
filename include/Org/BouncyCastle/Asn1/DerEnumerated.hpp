@@ -35,9 +35,9 @@ namespace Org::BouncyCastle::Asn1 {
     // private readonly System.Byte[] bytes
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* bytes;
+    ::ArrayWrapper<uint8_t> bytes;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private readonly System.Int32 start
     // Size: 0x4
     // Offset: 0x18
@@ -45,56 +45,56 @@ namespace Org::BouncyCastle::Asn1 {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: DerEnumerated
-    DerEnumerated(::Array<uint8_t>* bytes_ = {}, int start_ = {}) noexcept : bytes{bytes_}, start{start_} {}
+    DerEnumerated(::ArrayWrapper<uint8_t> bytes_ = {}, int start_ = {}) noexcept : bytes{bytes_}, start{start_} {}
     // Get static field: static private readonly Org.BouncyCastle.Asn1.DerEnumerated[] cache
-    static ::Array<Org::BouncyCastle::Asn1::DerEnumerated*>* _get_cache();
+    static ::ArrayWrapper<Org::BouncyCastle::Asn1::DerEnumerated*> _get_cache();
     // Set static field: static private readonly Org.BouncyCastle.Asn1.DerEnumerated[] cache
-    static void _set_cache(::Array<Org::BouncyCastle::Asn1::DerEnumerated*>* value);
+    static void _set_cache(::ArrayWrapper<Org::BouncyCastle::Asn1::DerEnumerated*> value);
     // Get instance field reference: private readonly System.Byte[] bytes
-    ::Array<uint8_t>*& dyn_bytes();
+    ::ArrayWrapper<uint8_t>& dyn_bytes();
     // Get instance field reference: private readonly System.Int32 start
     int& dyn_start();
     // public Org.BouncyCastle.Math.BigInteger get_Value()
-    // Offset: 0x173CEF8
+    // Offset: 0x18EE6D0
     Org::BouncyCastle::Math::BigInteger* get_Value();
     // public System.Int32 get_IntValueExact()
-    // Offset: 0x173CF60
+    // Offset: 0x18EE738
     int get_IntValueExact();
     // public System.Void .ctor(System.Int32 val)
-    // Offset: 0x173CBF4
+    // Offset: 0x18EE3CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerEnumerated* New_ctor(int val) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerEnumerated::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerEnumerated*, creationType>(val)));
     }
     // public System.Void .ctor(System.Byte[] bytes)
-    // Offset: 0x173CCDC
+    // Offset: 0x18EE4B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DerEnumerated* New_ctor(::Array<uint8_t>* bytes) {
+    static DerEnumerated* New_ctor(::ArrayWrapper<uint8_t> bytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerEnumerated::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerEnumerated*, creationType>(bytes)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x173D254
+    // Offset: 0x18EEA2C
     static void _cctor();
     // static public Org.BouncyCastle.Asn1.DerEnumerated GetInstance(System.Object obj)
-    // Offset: 0x173CAF4
+    // Offset: 0x18EE2CC
     static Org::BouncyCastle::Asn1::DerEnumerated* GetInstance(::Il2CppObject* obj);
     // static Org.BouncyCastle.Asn1.DerEnumerated FromOctetString(System.Byte[] enc)
-    // Offset: 0x1730434
-    static Org::BouncyCastle::Asn1::DerEnumerated* FromOctetString(::Array<uint8_t>* enc);
+    // Offset: 0x18E1C0C
+    static Org::BouncyCastle::Asn1::DerEnumerated* FromOctetString(::ArrayWrapper<uint8_t> enc);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x173D0EC
+    // Offset: 0x18EE8C4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x173D110
+    // Offset: 0x18EE8E8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x173D1E8
+    // Offset: 0x18EE9C0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
@@ -149,9 +149,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerEnumerated::FromOctetString
 // Il2CppName: FromOctetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerEnumerated* (*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Asn1::DerEnumerated::FromOctetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerEnumerated* (*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Asn1::DerEnumerated::FromOctetString)> {
   static const MethodInfo* get() {
-    static auto* enc = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* enc = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerEnumerated*), "FromOctetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enc});
   }
 };

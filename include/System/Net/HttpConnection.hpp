@@ -201,9 +201,9 @@ namespace System::Net {
     // private System.Byte[] buffer
     // Size: 0x8
     // Offset: 0x30
-    ::Array<uint8_t>* buffer;
+    ::ArrayWrapper<uint8_t> buffer;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Net.HttpListenerContext context
     // Size: 0x8
     // Offset: 0x38
@@ -297,9 +297,9 @@ namespace System::Net {
     // private System.Int32[] client_cert_errors
     // Size: 0x8
     // Offset: 0x98
-    ::Array<int>* client_cert_errors;
+    ::ArrayWrapper<int> client_cert_errors;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // private System.Security.Cryptography.X509Certificates.X509Certificate2 client_cert
     // Size: 0x8
     // Offset: 0xA0
@@ -331,7 +331,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: HttpConnection
-    HttpConnection(System::Net::Sockets::Socket* sock_ = {}, System::IO::Stream* stream_ = {}, System::Net::EndPointListener* epl_ = {}, System::IO::MemoryStream* ms_ = {}, ::Array<uint8_t>* buffer_ = {}, System::Net::HttpListenerContext* context_ = {}, System::Text::StringBuilder* current_line_ = {}, System::Net::ListenerPrefix* prefix_ = {}, System::Net::RequestStream* i_stream_ = {}, System::Net::ResponseStream* o_stream_ = {}, bool chunked_ = {}, int reuses_ = {}, bool context_bound_ = {}, bool secure_ = {}, System::Security::Cryptography::X509Certificates::X509Certificate* cert_ = {}, int s_timeout_ = {}, System::Threading::Timer* timer_ = {}, System::Net::IPEndPoint* local_ep_ = {}, System::Net::HttpListener* last_listener_ = {}, ::Array<int>* client_cert_errors_ = {}, System::Security::Cryptography::X509Certificates::X509Certificate2* client_cert_ = {}, System::Net::Security::SslStream* ssl_stream_ = {}, System::Net::HttpConnection::InputState input_state_ = {}, System::Net::HttpConnection::LineState line_state_ = {}, int position_ = {}) noexcept : sock{sock_}, stream{stream_}, epl{epl_}, ms{ms_}, buffer{buffer_}, context{context_}, current_line{current_line_}, prefix{prefix_}, i_stream{i_stream_}, o_stream{o_stream_}, chunked{chunked_}, reuses{reuses_}, context_bound{context_bound_}, secure{secure_}, cert{cert_}, s_timeout{s_timeout_}, timer{timer_}, local_ep{local_ep_}, last_listener{last_listener_}, client_cert_errors{client_cert_errors_}, client_cert{client_cert_}, ssl_stream{ssl_stream_}, input_state{input_state_}, line_state{line_state_}, position{position_} {}
+    HttpConnection(System::Net::Sockets::Socket* sock_ = {}, System::IO::Stream* stream_ = {}, System::Net::EndPointListener* epl_ = {}, System::IO::MemoryStream* ms_ = {}, ::ArrayWrapper<uint8_t> buffer_ = {}, System::Net::HttpListenerContext* context_ = {}, System::Text::StringBuilder* current_line_ = {}, System::Net::ListenerPrefix* prefix_ = {}, System::Net::RequestStream* i_stream_ = {}, System::Net::ResponseStream* o_stream_ = {}, bool chunked_ = {}, int reuses_ = {}, bool context_bound_ = {}, bool secure_ = {}, System::Security::Cryptography::X509Certificates::X509Certificate* cert_ = {}, int s_timeout_ = {}, System::Threading::Timer* timer_ = {}, System::Net::IPEndPoint* local_ep_ = {}, System::Net::HttpListener* last_listener_ = {}, ::ArrayWrapper<int> client_cert_errors_ = {}, System::Security::Cryptography::X509Certificates::X509Certificate2* client_cert_ = {}, System::Net::Security::SslStream* ssl_stream_ = {}, System::Net::HttpConnection::InputState input_state_ = {}, System::Net::HttpConnection::LineState line_state_ = {}, int position_ = {}) noexcept : sock{sock_}, stream{stream_}, epl{epl_}, ms{ms_}, buffer{buffer_}, context{context_}, current_line{current_line_}, prefix{prefix_}, i_stream{i_stream_}, o_stream{o_stream_}, chunked{chunked_}, reuses{reuses_}, context_bound{context_bound_}, secure{secure_}, cert{cert_}, s_timeout{s_timeout_}, timer{timer_}, local_ep{local_ep_}, last_listener{last_listener_}, client_cert_errors{client_cert_errors_}, client_cert{client_cert_}, ssl_stream{ssl_stream_}, input_state{input_state_}, line_state{line_state_}, position{position_} {}
     // Get static field: static private System.AsyncCallback onread_cb
     static System::AsyncCallback* _get_onread_cb();
     // Set static field: static private System.AsyncCallback onread_cb
@@ -345,7 +345,7 @@ namespace System::Net {
     // Get instance field reference: private System.IO.MemoryStream ms
     System::IO::MemoryStream*& dyn_ms();
     // Get instance field reference: private System.Byte[] buffer
-    ::Array<uint8_t>*& dyn_buffer();
+    ::ArrayWrapper<uint8_t>& dyn_buffer();
     // Get instance field reference: private System.Net.HttpListenerContext context
     System::Net::HttpListenerContext*& dyn_context();
     // Get instance field reference: private System.Text.StringBuilder current_line
@@ -375,7 +375,7 @@ namespace System::Net {
     // Get instance field reference: private System.Net.HttpListener last_listener
     System::Net::HttpListener*& dyn_last_listener();
     // Get instance field reference: private System.Int32[] client_cert_errors
-    ::Array<int>*& dyn_client_cert_errors();
+    ::ArrayWrapper<int>& dyn_client_cert_errors();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate2 client_cert
     System::Security::Cryptography::X509Certificates::X509Certificate2*& dyn_client_cert();
     // Get instance field reference: private System.Net.Security.SslStream ssl_stream
@@ -387,74 +387,74 @@ namespace System::Net {
     // Get instance field reference: private System.Int32 position
     int& dyn_position();
     // public System.Int32 get_Reuses()
-    // Offset: 0x1670D50
+    // Offset: 0x183C0F4
     int get_Reuses();
     // public System.Net.IPEndPoint get_LocalEndPoint()
-    // Offset: 0x1670D58
+    // Offset: 0x183C0FC
     System::Net::IPEndPoint* get_LocalEndPoint();
     // public System.Boolean get_IsSecure()
-    // Offset: 0x1670DF4
+    // Offset: 0x183C198
     bool get_IsSecure();
     // public System.Void set_Prefix(System.Net.ListenerPrefix value)
-    // Offset: 0x1670DFC
+    // Offset: 0x183C1A0
     void set_Prefix(System::Net::ListenerPrefix* value);
     // public System.Void .ctor(System.Net.Sockets.Socket sock, System.Net.EndPointListener epl, System.Boolean secure, System.Security.Cryptography.X509Certificates.X509Certificate cert)
-    // Offset: 0x1670890
+    // Offset: 0x183BC34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpConnection* New_ctor(System::Net::Sockets::Socket* sock, System::Net::EndPointListener* epl, bool secure, System::Security::Cryptography::X509Certificates::X509Certificate* cert) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpConnection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpConnection*, creationType>(sock, epl, secure, cert)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x16740C4
+    // Offset: 0x183F468
     static void _cctor();
     // private System.Void Init()
-    // Offset: 0x1670C14
+    // Offset: 0x183BFB8
     void Init();
     // private System.Void OnTimeout(System.Object unused)
-    // Offset: 0x1670E04
+    // Offset: 0x183C1A8
     void OnTimeout(::Il2CppObject* unused);
     // public System.Void BeginReadRequest()
-    // Offset: 0x1670F88
+    // Offset: 0x183C32C
     void BeginReadRequest();
     // public System.Net.RequestStream GetRequestStream(System.Boolean chunked, System.Int64 contentlength)
-    // Offset: 0x167112C
+    // Offset: 0x183C4D0
     System::Net::RequestStream* GetRequestStream(bool chunked, int64_t contentlength);
     // public System.Net.ResponseStream GetResponseStream()
-    // Offset: 0x1671378
+    // Offset: 0x183C71C
     System::Net::ResponseStream* GetResponseStream();
     // static private System.Void OnRead(System.IAsyncResult ares)
-    // Offset: 0x167144C
+    // Offset: 0x183C7F0
     static void OnRead(System::IAsyncResult* ares);
     // private System.Void OnReadInternal(System.IAsyncResult ares)
-    // Offset: 0x1671524
+    // Offset: 0x183C8C8
     void OnReadInternal(System::IAsyncResult* ares);
     // private System.Void RemoveConnection()
-    // Offset: 0x167254C
+    // Offset: 0x183D8F0
     void RemoveConnection();
     // private System.Boolean ProcessInput(System.IO.MemoryStream ms)
-    // Offset: 0x1671C78
+    // Offset: 0x183D01C
     bool ProcessInput(System::IO::MemoryStream* ms);
     // private System.String ReadLine(System.Byte[] buffer, System.Int32 offset, System.Int32 len, ref System.Int32 used)
-    // Offset: 0x16728F0
-    ::Il2CppString* ReadLine(::Array<uint8_t>* buffer, int offset, int len, ByRef<int> used);
+    // Offset: 0x183DC94
+    ::Il2CppString* ReadLine(::ArrayWrapper<uint8_t> buffer, int offset, int len, ByRef<int> used);
     // public System.Void SendError(System.String msg, System.Int32 status)
-    // Offset: 0x1671854
+    // Offset: 0x183CBF8
     void SendError(::Il2CppString* msg, int status);
     // public System.Void SendError()
-    // Offset: 0x1671C58
+    // Offset: 0x183CFFC
     void SendError();
     // private System.Void Unbind()
-    // Offset: 0x1670F48
+    // Offset: 0x183C2EC
     void Unbind();
     // private System.Void CloseSocket()
-    // Offset: 0x1670E28
+    // Offset: 0x183C1CC
     void CloseSocket();
     // System.Void Close(System.Boolean force_close)
-    // Offset: 0x1671A18
+    // Offset: 0x183CDBC
     void Close(bool force_close);
     // private System.Boolean <.ctor>b__24_0(System.Object t, System.Security.Cryptography.X509Certificates.X509Certificate c, System.Security.Cryptography.X509Certificates.X509Chain ch, System.Net.Security.SslPolicyErrors e)
-    // Offset: 0x1674140
+    // Offset: 0x183F4E4
     bool $_ctor$b__24_0(::Il2CppObject* t, System::Security::Cryptography::X509Certificates::X509Certificate* c, System::Security::Cryptography::X509Certificates::X509Chain* ch, System::Net::Security::SslPolicyErrors e);
   }; // System.Net.HttpConnection
   #pragma pack(pop)
@@ -591,9 +591,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::HttpConnection::ReadLine
 // Il2CppName: ReadLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HttpConnection::*)(::Array<uint8_t>*, int, int, ByRef<int>)>(&System::Net::HttpConnection::ReadLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HttpConnection::*)(::ArrayWrapper<uint8_t>, int, int, ByRef<int>)>(&System::Net::HttpConnection::ReadLine)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* used = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

@@ -21,7 +21,7 @@ namespace Unity::Collections {
     // Set static field: static private System.Int32 s_NativeLeakDetectionMode
     static void _set_s_NativeLeakDetectionMode(int value);
     // static private System.Void Initialize()
-    // Offset: 0x1C448D4
+    // Offset: 0x1CA9ED4
     static void Initialize();
   }; // Unity.Collections.NativeLeakDetection
   #pragma pack(pop)

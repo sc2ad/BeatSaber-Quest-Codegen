@@ -28,23 +28,23 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     // Set static field: static private readonly Org.BouncyCastle.Utilities.Encoders.HexEncoder encoder
     static void _set_encoder(Org::BouncyCastle::Utilities::Encoders::HexEncoder* value);
     // static private System.Void .cctor()
-    // Offset: 0x1FEB650
+    // Offset: 0x2181948
     static void _cctor();
     // static public System.String ToHexString(System.Byte[] data)
-    // Offset: 0x1FEAC8C
-    static ::Il2CppString* ToHexString(::Array<uint8_t>* data);
+    // Offset: 0x2180F84
+    static ::Il2CppString* ToHexString(::ArrayWrapper<uint8_t> data);
     // static public System.String ToHexString(System.Byte[] data, System.Int32 off, System.Int32 length)
-    // Offset: 0x1FEAD00
-    static ::Il2CppString* ToHexString(::Array<uint8_t>* data, int off, int length);
+    // Offset: 0x2180FF8
+    static ::Il2CppString* ToHexString(::ArrayWrapper<uint8_t> data, int off, int length);
     // static public System.Byte[] Encode(System.Byte[] data, System.Int32 off, System.Int32 length)
-    // Offset: 0x1FEAD80
-    static ::Array<uint8_t>* Encode(::Array<uint8_t>* data, int off, int length);
+    // Offset: 0x2181078
+    static ::ArrayWrapper<uint8_t> Encode(::ArrayWrapper<uint8_t> data, int off, int length);
     // static public System.Byte[] Decode(System.String data)
-    // Offset: 0x1FEAFB0
-    static ::Array<uint8_t>* Decode(::Il2CppString* data);
+    // Offset: 0x21812A8
+    static ::ArrayWrapper<uint8_t> Decode(::Il2CppString* data);
     // static public System.Byte[] DecodeStrict(System.String str)
-    // Offset: 0x1FEB3A0
-    static ::Array<uint8_t>* DecodeStrict(::Il2CppString* str);
+    // Offset: 0x2181698
+    static ::ArrayWrapper<uint8_t> DecodeStrict(::Il2CppString* str);
   }; // Org.BouncyCastle.Utilities.Encoders.Hex
   #pragma pack(pop)
 }
@@ -62,18 +62,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::Hex::ToHexString
 // Il2CppName: ToHexString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Utilities::Encoders::Hex::ToHexString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Utilities::Encoders::Hex::ToHexString)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Encoders::Hex*), "ToHexString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::Hex::ToHexString
 // Il2CppName: ToHexString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Utilities::Encoders::Hex::ToHexString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Utilities::Encoders::Hex::ToHexString)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Encoders::Hex*), "ToHexString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, off, length});
@@ -82,9 +82,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::Hex::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Utilities::Encoders::Hex::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Utilities::Encoders::Hex::Encode)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Encoders::Hex*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, off, length});
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::Hex::Decode
 // Il2CppName: Decode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*)>(&Org::BouncyCastle::Utilities::Encoders::Hex::Decode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::Il2CppString*)>(&Org::BouncyCastle::Utilities::Encoders::Hex::Decode)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Encoders::Hex*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::Hex::DecodeStrict
 // Il2CppName: DecodeStrict
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*)>(&Org::BouncyCastle::Utilities::Encoders::Hex::DecodeStrict)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::Il2CppString*)>(&Org::BouncyCastle::Utilities::Encoders::Hex::DecodeStrict)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Encoders::Hex*), "DecodeStrict", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});

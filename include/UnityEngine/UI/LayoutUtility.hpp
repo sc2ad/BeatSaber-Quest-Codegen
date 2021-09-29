@@ -37,37 +37,37 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: LayoutUtility
     LayoutUtility() noexcept {}
     // static public System.Single GetMinSize(UnityEngine.RectTransform rect, System.Int32 axis)
-    // Offset: 0x19D5E04
+    // Offset: 0x1B4ACAC
     static float GetMinSize(UnityEngine::RectTransform* rect, int axis);
     // static public System.Single GetPreferredSize(UnityEngine.RectTransform rect, System.Int32 axis)
-    // Offset: 0x19D6000
+    // Offset: 0x1B4AEA8
     static float GetPreferredSize(UnityEngine::RectTransform* rect, int axis);
     // static public System.Single GetFlexibleSize(UnityEngine.RectTransform rect, System.Int32 axis)
-    // Offset: 0x19D63B4
+    // Offset: 0x1B4B25C
     static float GetFlexibleSize(UnityEngine::RectTransform* rect, int axis);
     // static public System.Single GetMinWidth(UnityEngine.RectTransform rect)
-    // Offset: 0x19D5E10
+    // Offset: 0x1B4ACB8
     static float GetMinWidth(UnityEngine::RectTransform* rect);
     // static public System.Single GetPreferredWidth(UnityEngine.RectTransform rect)
-    // Offset: 0x19D600C
+    // Offset: 0x1B4AEB4
     static float GetPreferredWidth(UnityEngine::RectTransform* rect);
     // static public System.Single GetFlexibleWidth(UnityEngine.RectTransform rect)
-    // Offset: 0x19D63C0
+    // Offset: 0x1B4B268
     static float GetFlexibleWidth(UnityEngine::RectTransform* rect);
     // static public System.Single GetMinHeight(UnityEngine.RectTransform rect)
-    // Offset: 0x19D5F08
+    // Offset: 0x1B4ADB0
     static float GetMinHeight(UnityEngine::RectTransform* rect);
     // static public System.Single GetPreferredHeight(UnityEngine.RectTransform rect)
-    // Offset: 0x19D61E0
+    // Offset: 0x1B4B088
     static float GetPreferredHeight(UnityEngine::RectTransform* rect);
     // static public System.Single GetFlexibleHeight(UnityEngine.RectTransform rect)
-    // Offset: 0x19D64B8
+    // Offset: 0x1B4B360
     static float GetFlexibleHeight(UnityEngine::RectTransform* rect);
     // static public System.Single GetLayoutProperty(UnityEngine.RectTransform rect, System.Func`2<UnityEngine.UI.ILayoutElement,System.Single> property, System.Single defaultValue)
-    // Offset: 0x19D65B0
+    // Offset: 0x1B4B458
     static float GetLayoutProperty(UnityEngine::RectTransform* rect, System::Func_2<UnityEngine::UI::ILayoutElement*, float>* property, float defaultValue);
     // static public System.Single GetLayoutProperty(UnityEngine.RectTransform rect, System.Func`2<UnityEngine.UI.ILayoutElement,System.Single> property, System.Single defaultValue, out UnityEngine.UI.ILayoutElement source)
-    // Offset: 0x19D65D4
+    // Offset: 0x1B4B47C
     static float GetLayoutProperty(UnityEngine::RectTransform* rect, System::Func_2<UnityEngine::UI::ILayoutElement*, float>* property, float defaultValue, ByRef<UnityEngine::UI::ILayoutElement*> source);
   }; // UnityEngine.UI.LayoutUtility
   #pragma pack(pop)

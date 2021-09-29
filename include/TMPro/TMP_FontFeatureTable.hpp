@@ -55,16 +55,16 @@ namespace TMPro {
     // Get instance field reference: System.Collections.Generic.Dictionary`2<System.Int64,TMPro.TMP_GlyphPairAdjustmentRecord> m_GlyphPairAdjustmentRecordLookupDictionary
     System::Collections::Generic::Dictionary_2<int64_t, TMPro::TMP_GlyphPairAdjustmentRecord*>*& dyn_m_GlyphPairAdjustmentRecordLookupDictionary();
     // System.Collections.Generic.List`1<TMPro.TMP_GlyphPairAdjustmentRecord> get_glyphPairAdjustmentRecords()
-    // Offset: 0x111819C
+    // Offset: 0x11F9F50
     System::Collections::Generic::List_1<TMPro::TMP_GlyphPairAdjustmentRecord*>* get_glyphPairAdjustmentRecords();
     // System.Void set_glyphPairAdjustmentRecords(System.Collections.Generic.List`1<TMPro.TMP_GlyphPairAdjustmentRecord> value)
-    // Offset: 0x11181A4
+    // Offset: 0x11F9F58
     void set_glyphPairAdjustmentRecords(System::Collections::Generic::List_1<TMPro::TMP_GlyphPairAdjustmentRecord*>* value);
     // public System.Void SortGlyphPairAdjustmentRecords()
-    // Offset: 0x11181AC
+    // Offset: 0x11F9F60
     void SortGlyphPairAdjustmentRecords();
     // public System.Void .ctor()
-    // Offset: 0x1116C00
+    // Offset: 0x11F89B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

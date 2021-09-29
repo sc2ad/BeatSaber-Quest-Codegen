@@ -36,22 +36,22 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink
     class EffectorLink;
-    // [TooltipAttribute] Offset: 0xE31194
+    // [TooltipAttribute] Offset: 0xEF796C
     // public UnityEngine.Vector3 offset
     // Size: 0xC
     // Offset: 0x10
     UnityEngine::Vector3 offset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0xE311CC
-    // [RangeAttribute] Offset: 0xE311CC
+    // [TooltipAttribute] Offset: 0xEF79A4
+    // [RangeAttribute] Offset: 0xEF79A4
     // public System.Single additivity
     // Size: 0x4
     // Offset: 0x1C
     float additivity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE31220
+    // [TooltipAttribute] Offset: 0xEF79F8
     // public System.Single maxAdditiveOffsetMag
     // Size: 0x4
     // Offset: 0x20
@@ -60,13 +60,13 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: maxAdditiveOffsetMag and: effectorLinks
     char __padding2[0x4] = {};
-    // [TooltipAttribute] Offset: 0xE31258
+    // [TooltipAttribute] Offset: 0xEF7A30
     // public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset/RootMotion.FinalIK.EffectorLink[] effectorLinks
     // Size: 0x8
     // Offset: 0x28
-    ::Array<RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*>* effectorLinks;
+    ::ArrayWrapper<RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*> effectorLinks;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*>) == 0x8);
     // private UnityEngine.Vector3 additiveOffset
     // Size: 0xC
     // Offset: 0x30
@@ -80,7 +80,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Creating value type constructor for type: RecoilOffset
-    RecoilOffset(UnityEngine::Vector3 offset_ = {}, float additivity_ = {}, float maxAdditiveOffsetMag_ = {}, ::Array<RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*>* effectorLinks_ = {}, UnityEngine::Vector3 additiveOffset_ = {}, UnityEngine::Vector3 lastOffset_ = {}) noexcept : offset{offset_}, additivity{additivity_}, maxAdditiveOffsetMag{maxAdditiveOffsetMag_}, effectorLinks{effectorLinks_}, additiveOffset{additiveOffset_}, lastOffset{lastOffset_} {}
+    RecoilOffset(UnityEngine::Vector3 offset_ = {}, float additivity_ = {}, float maxAdditiveOffsetMag_ = {}, ::ArrayWrapper<RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*> effectorLinks_ = {}, UnityEngine::Vector3 additiveOffset_ = {}, UnityEngine::Vector3 lastOffset_ = {}) noexcept : offset{offset_}, additivity{additivity_}, maxAdditiveOffsetMag{maxAdditiveOffsetMag_}, effectorLinks{effectorLinks_}, additiveOffset{additiveOffset_}, lastOffset{lastOffset_} {}
     // Get instance field reference: public UnityEngine.Vector3 offset
     UnityEngine::Vector3& dyn_offset();
     // Get instance field reference: public System.Single additivity
@@ -88,19 +88,19 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single maxAdditiveOffsetMag
     float& dyn_maxAdditiveOffsetMag();
     // Get instance field reference: public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset/RootMotion.FinalIK.EffectorLink[] effectorLinks
-    ::Array<RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*>*& dyn_effectorLinks();
+    ::ArrayWrapper<RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*>& dyn_effectorLinks();
     // Get instance field reference: private UnityEngine.Vector3 additiveOffset
     UnityEngine::Vector3& dyn_additiveOffset();
     // Get instance field reference: private UnityEngine.Vector3 lastOffset
     UnityEngine::Vector3& dyn_lastOffset();
     // public System.Void Start()
-    // Offset: 0x1ADEE10
+    // Offset: 0x1C61590
     void Start();
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Quaternion rotation, System.Single masterWeight, System.Single length, System.Single timeLeft)
-    // Offset: 0x1ADF9A0
+    // Offset: 0x1C62120
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, UnityEngine::Quaternion rotation, float masterWeight, float length, float timeLeft);
     // public System.Void .ctor()
-    // Offset: 0x1AE00B4
+    // Offset: 0x1C62834
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

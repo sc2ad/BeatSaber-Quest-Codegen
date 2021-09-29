@@ -40,9 +40,9 @@ namespace GlobalNamespace {
     // private DlcPromoExperimentDataSO/MusicPackPromoInfo[] _musicPackPromoInfos
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* musicPackPromoInfos;
+    ::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*> musicPackPromoInfos;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>) == 0x8);
     // private AbTestExperimentDefinitionSO _newDlcControlAbTestExperimentDefinition
     // Size: 0x8
     // Offset: 0x28
@@ -74,13 +74,13 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Creating value type constructor for type: DlcPromoExperimentDataSO
-    DlcPromoExperimentDataSO(int defaultMusicPackPromoIndex_ = {}, ::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* musicPackPromoInfos_ = {}, GlobalNamespace::AbTestExperimentDefinitionSO* newDlcControlAbTestExperimentDefinition_ = {}, GlobalNamespace::AbTestExperimentDefinitionSO* newDlcPromoAbTestExperimentDefinition_ = {}, int cutOffTest1_ = {}, int cutOffTest2_ = {}, int minNumberOfNotOwnedPacks_ = {}) noexcept : defaultMusicPackPromoIndex{defaultMusicPackPromoIndex_}, musicPackPromoInfos{musicPackPromoInfos_}, newDlcControlAbTestExperimentDefinition{newDlcControlAbTestExperimentDefinition_}, newDlcPromoAbTestExperimentDefinition{newDlcPromoAbTestExperimentDefinition_}, cutOffTest1{cutOffTest1_}, cutOffTest2{cutOffTest2_}, minNumberOfNotOwnedPacks{minNumberOfNotOwnedPacks_} {}
+    DlcPromoExperimentDataSO(int defaultMusicPackPromoIndex_ = {}, ::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*> musicPackPromoInfos_ = {}, GlobalNamespace::AbTestExperimentDefinitionSO* newDlcControlAbTestExperimentDefinition_ = {}, GlobalNamespace::AbTestExperimentDefinitionSO* newDlcPromoAbTestExperimentDefinition_ = {}, int cutOffTest1_ = {}, int cutOffTest2_ = {}, int minNumberOfNotOwnedPacks_ = {}) noexcept : defaultMusicPackPromoIndex{defaultMusicPackPromoIndex_}, musicPackPromoInfos{musicPackPromoInfos_}, newDlcControlAbTestExperimentDefinition{newDlcControlAbTestExperimentDefinition_}, newDlcPromoAbTestExperimentDefinition{newDlcPromoAbTestExperimentDefinition_}, cutOffTest1{cutOffTest1_}, cutOffTest2{cutOffTest2_}, minNumberOfNotOwnedPacks{minNumberOfNotOwnedPacks_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _defaultMusicPackPromoIndex
     int& dyn__defaultMusicPackPromoIndex();
     // Get instance field reference: private DlcPromoExperimentDataSO/MusicPackPromoInfo[] _musicPackPromoInfos
-    ::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>*& dyn__musicPackPromoInfos();
+    ::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>& dyn__musicPackPromoInfos();
     // Get instance field reference: private AbTestExperimentDefinitionSO _newDlcControlAbTestExperimentDefinition
     GlobalNamespace::AbTestExperimentDefinitionSO*& dyn__newDlcControlAbTestExperimentDefinition();
     // Get instance field reference: private AbTestExperimentDefinitionSO _newDlcPromoAbTestExperimentDefinition
@@ -92,28 +92,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _minNumberOfNotOwnedPacks
     int& dyn__minNumberOfNotOwnedPacks();
     // public System.Int32 get_cutOffTest1()
-    // Offset: 0x10EFF70
+    // Offset: 0x11A89FC
     int get_cutOffTest1();
     // public System.Int32 get_cutOffTest2()
-    // Offset: 0x10EFF78
+    // Offset: 0x11A8A04
     int get_cutOffTest2();
     // public System.Int32 get_minNumberOfNotOwnedPacks()
-    // Offset: 0x10EFF80
+    // Offset: 0x11A8A0C
     int get_minNumberOfNotOwnedPacks();
     // public DlcPromoExperimentDataSO/MusicPackPromoInfo[] get_musicPackPromoInfos()
-    // Offset: 0x10EFF88
-    ::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* get_musicPackPromoInfos();
+    // Offset: 0x11A8A14
+    ::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*> get_musicPackPromoInfos();
     // public DlcPromoExperimentDataSO/MusicPackPromoInfo get_defaultMusicPackPromo()
-    // Offset: 0x10EFF90
+    // Offset: 0x11A8A1C
     GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo* get_defaultMusicPackPromo();
     // public AbTestExperimentDefinitionSO get_newDlcControlAbTestExperimentDefinition()
-    // Offset: 0x10EFFD0
+    // Offset: 0x11A8A5C
     GlobalNamespace::AbTestExperimentDefinitionSO* get_newDlcControlAbTestExperimentDefinition();
     // public AbTestExperimentDefinitionSO get_newDlcPromoAbTestExperimentDefinition()
-    // Offset: 0x10EFFD8
+    // Offset: 0x11A8A64
     GlobalNamespace::AbTestExperimentDefinitionSO* get_newDlcPromoAbTestExperimentDefinition();
     // public System.Void .ctor()
-    // Offset: 0x10EFFE0
+    // Offset: 0x11A8A6C
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoExperimentDataSO::get_musicPackPromoInfos
 // Il2CppName: get_musicPackPromoInfos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* (GlobalNamespace::DlcPromoExperimentDataSO::*)()>(&GlobalNamespace::DlcPromoExperimentDataSO::get_musicPackPromoInfos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*> (GlobalNamespace::DlcPromoExperimentDataSO::*)()>(&GlobalNamespace::DlcPromoExperimentDataSO::get_musicPackPromoInfos)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoExperimentDataSO*), "get_musicPackPromoInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

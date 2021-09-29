@@ -40,10 +40,10 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Get instance field reference: public System.Guid messageId
     System::Guid& dyn_messageId();
     // System.Boolean <Register>b__0(UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/UnityEngine.Networking.PlayerConnection.MessageTypeSubscribers x)
-    // Offset: 0x1D097A4
+    // Offset: 0x1DB0814
     bool $Register$b__0(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageTypeSubscribers* x);
     // public System.Void .ctor()
-    // Offset: 0x1D08438
+    // Offset: 0x1DAF4A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

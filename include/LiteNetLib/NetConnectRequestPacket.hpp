@@ -56,9 +56,9 @@ namespace LiteNetLib {
     // public readonly System.Byte[] TargetAddress
     // Size: 0x8
     // Offset: 0x20
-    ::Array<uint8_t>* TargetAddress;
+    ::ArrayWrapper<uint8_t> TargetAddress;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // public readonly LiteNetLib.Utils.NetDataReader Data
     // Size: 0x8
     // Offset: 0x28
@@ -66,7 +66,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(LiteNetLib::Utils::NetDataReader*) == 0x8);
     // Creating value type constructor for type: NetConnectRequestPacket
-    NetConnectRequestPacket(int64_t ConnectionTime_ = {}, uint8_t ConnectionNumber_ = {}, ::Array<uint8_t>* TargetAddress_ = {}, LiteNetLib::Utils::NetDataReader* Data_ = {}) noexcept : ConnectionTime{ConnectionTime_}, ConnectionNumber{ConnectionNumber_}, TargetAddress{TargetAddress_}, Data{Data_} {}
+    NetConnectRequestPacket(int64_t ConnectionTime_ = {}, uint8_t ConnectionNumber_ = {}, ::ArrayWrapper<uint8_t> TargetAddress_ = {}, LiteNetLib::Utils::NetDataReader* Data_ = {}) noexcept : ConnectionTime{ConnectionTime_}, ConnectionNumber{ConnectionNumber_}, TargetAddress{TargetAddress_}, Data{Data_} {}
     // static field const value: static public System.Int32 HeaderSize
     static constexpr const int HeaderSize = 14;
     // Get static field: static public System.Int32 HeaderSize
@@ -78,24 +78,24 @@ namespace LiteNetLib {
     // Get instance field reference: public readonly System.Byte ConnectionNumber
     uint8_t& dyn_ConnectionNumber();
     // Get instance field reference: public readonly System.Byte[] TargetAddress
-    ::Array<uint8_t>*& dyn_TargetAddress();
+    ::ArrayWrapper<uint8_t>& dyn_TargetAddress();
     // Get instance field reference: public readonly LiteNetLib.Utils.NetDataReader Data
     LiteNetLib::Utils::NetDataReader*& dyn_Data();
     // private System.Void .ctor(System.Int64 connectionTime, System.Byte connectionNumber, System.Byte[] targetAddress, LiteNetLib.Utils.NetDataReader data)
-    // Offset: 0x1C1DD84
+    // Offset: 0x1DD5BEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NetConnectRequestPacket* New_ctor(int64_t connectionTime, uint8_t connectionNumber, ::Array<uint8_t>* targetAddress, LiteNetLib::Utils::NetDataReader* data) {
+    static NetConnectRequestPacket* New_ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayWrapper<uint8_t> targetAddress, LiteNetLib::Utils::NetDataReader* data) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetConnectRequestPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetConnectRequestPacket*, creationType>(connectionTime, connectionNumber, targetAddress, data)));
     }
     // static public System.Int32 GetProtocolId(LiteNetLib.NetPacket packet)
-    // Offset: 0x1C1DDD4
+    // Offset: 0x1DD5C3C
     static int GetProtocolId(LiteNetLib::NetPacket* packet);
     // static public LiteNetLib.NetConnectRequestPacket FromData(LiteNetLib.NetPacket packet)
-    // Offset: 0x1C1DE4C
+    // Offset: 0x1DD5CB4
     static LiteNetLib::NetConnectRequestPacket* FromData(LiteNetLib::NetPacket* packet);
     // static public LiteNetLib.NetPacket Make(LiteNetLib.Utils.NetDataWriter connectData, System.Net.SocketAddress addressBytes, System.Int64 connectId)
-    // Offset: 0x1C1E064
+    // Offset: 0x1DD5ECC
     static LiteNetLib::NetPacket* Make(LiteNetLib::Utils::NetDataWriter* connectData, System::Net::SocketAddress* addressBytes, int64_t connectId);
   }; // LiteNetLib.NetConnectRequestPacket
   #pragma pack(pop)

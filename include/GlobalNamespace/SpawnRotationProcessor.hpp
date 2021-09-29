@@ -36,26 +36,26 @@ namespace GlobalNamespace {
     // private readonly System.Single[] _rotations
     // Size: 0x8
     // Offset: 0x18
-    ::Array<float>* rotations;
+    ::ArrayWrapper<float> rotations;
     // Field size check
-    static_assert(sizeof(::Array<float>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
     // Creating value type constructor for type: SpawnRotationProcessor
-    SpawnRotationProcessor(float rotation_ = {}, ::Array<float>* rotations_ = {}) noexcept : rotation{rotation_}, rotations{rotations_} {}
+    SpawnRotationProcessor(float rotation_ = {}, ::ArrayWrapper<float> rotations_ = {}) noexcept : rotation{rotation_}, rotations{rotations_} {}
     // Get instance field reference: private System.Single _rotation
     float& dyn__rotation();
     // Get instance field reference: private readonly System.Single[] _rotations
-    ::Array<float>*& dyn__rotations();
+    ::ArrayWrapper<float>& dyn__rotations();
     // public System.Single get_rotation()
-    // Offset: 0x10A0984
+    // Offset: 0x110F668
     float get_rotation();
     // public System.Boolean ProcessBeatmapEventData(BeatmapEventData beatmapEventData)
-    // Offset: 0x10A0838
+    // Offset: 0x110F51C
     bool ProcessBeatmapEventData(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Single RotationForEventValue(System.Int32 index)
-    // Offset: 0x10A098C
+    // Offset: 0x110F670
     float RotationForEventValue(int index);
     // public System.Void .ctor()
-    // Offset: 0x10A090C
+    // Offset: 0x110F5F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     }
   }; // SpawnRotationProcessor
   #pragma pack(pop)
-  static check_size<sizeof(SpawnRotationProcessor), 24 + sizeof(::Array<float>*)> __GlobalNamespace_SpawnRotationProcessorSizeCheck;
+  static check_size<sizeof(SpawnRotationProcessor), 24 + sizeof(::ArrayWrapper<float>)> __GlobalNamespace_SpawnRotationProcessorSizeCheck;
   static_assert(sizeof(SpawnRotationProcessor) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationProcessor*, "", "SpawnRotationProcessor");

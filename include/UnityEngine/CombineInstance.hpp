@@ -10,6 +10,13 @@
 // Including type: UnityEngine.Matrix4x4
 #include "UnityEngine/Matrix4x4.hpp"
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: Mesh
+  class Mesh;
+}
+// Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x68
@@ -65,6 +72,18 @@ namespace UnityEngine {
     UnityEngine::Vector4& dyn_m_LightmapScaleOffset();
     // Get instance field reference: private UnityEngine.Vector4 m_RealtimeLightmapScaleOffset
     UnityEngine::Vector4& dyn_m_RealtimeLightmapScaleOffset();
+    // public UnityEngine.Mesh get_mesh()
+    // Offset: 0x1CB48E4
+    UnityEngine::Mesh* get_mesh();
+    // public System.Void set_mesh(UnityEngine.Mesh value)
+    // Offset: 0x1CB48F0
+    void set_mesh(UnityEngine::Mesh* value);
+    // public System.Void set_subMeshIndex(System.Int32 value)
+    // Offset: 0x1CB4990
+    void set_subMeshIndex(int value);
+    // public System.Void set_transform(UnityEngine.Matrix4x4 value)
+    // Offset: 0x1CB4998
+    void set_transform(UnityEngine::Matrix4x4 value);
   }; // UnityEngine.CombineInstance
   #pragma pack(pop)
   static check_size<sizeof(CombineInstance), 88 + sizeof(UnityEngine::Vector4)> __UnityEngine_CombineInstanceSizeCheck;
@@ -73,3 +92,38 @@ namespace UnityEngine {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CombineInstance, "UnityEngine", "CombineInstance");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: UnityEngine::CombineInstance::get_mesh
+// Il2CppName: get_mesh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (UnityEngine::CombineInstance::*)()>(&UnityEngine::CombineInstance::get_mesh)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CombineInstance), "get_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: UnityEngine::CombineInstance::set_mesh
+// Il2CppName: set_mesh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CombineInstance::*)(UnityEngine::Mesh*)>(&UnityEngine::CombineInstance::set_mesh)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CombineInstance), "set_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: UnityEngine::CombineInstance::set_subMeshIndex
+// Il2CppName: set_subMeshIndex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CombineInstance::*)(int)>(&UnityEngine::CombineInstance::set_subMeshIndex)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CombineInstance), "set_subMeshIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: UnityEngine::CombineInstance::set_transform
+// Il2CppName: set_transform
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CombineInstance::*)(UnityEngine::Matrix4x4)>(&UnityEngine::CombineInstance::set_transform)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CombineInstance), "set_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};

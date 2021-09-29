@@ -128,22 +128,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _registeredToCallbacks
     bool& dyn__registeredToCallbacks();
     // public System.Void InitAndPresent(in NoteCutInfo noteCutInfo, System.Int32 multiplier, System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, UnityEngine.Color color)
-    // Offset: 0x1060E70
+    // Offset: 0x11B9CA4
     void InitAndPresent(ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo, int multiplier, float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, UnityEngine::Color color);
     // public System.Void HandleSaberSwingRatingCounterDidChange(ISaberSwingRatingCounter saberSwingRatingCounter, System.Single rating)
-    // Offset: 0x106119C
+    // Offset: 0x11B9FD0
     void HandleSaberSwingRatingCounterDidChange(GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter, float rating);
     // private System.String GetScoreText(System.Int32 score)
-    // Offset: 0x10610C8
+    // Offset: 0x11B9EFC
     ::Il2CppString* GetScoreText(int score);
     // public System.Void HandleSaberSwingRatingCounterDidFinish(ISaberSwingRatingCounter saberSwingRatingCounter)
-    // Offset: 0x106123C
+    // Offset: 0x11BA070
     void HandleSaberSwingRatingCounterDidFinish(GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter);
     // private System.Void UnregisterCallbacksIfNeeded()
-    // Offset: 0x1061240
+    // Offset: 0x11BA074
     void UnregisterCallbacksIfNeeded();
     // public System.Void .ctor()
-    // Offset: 0x106138C
+    // Offset: 0x11BA1C0
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -157,7 +157,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FlyingScoreEffect*, creationType>()));
     }
     // protected override System.Void ManualUpdate(System.Single t)
-    // Offset: 0x10610F0
+    // Offset: 0x11B9F24
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::ManualUpdate(System.Single t)
     void ManualUpdate(float t);

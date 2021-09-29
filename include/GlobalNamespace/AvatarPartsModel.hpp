@@ -87,9 +87,9 @@ namespace GlobalNamespace {
     // private readonly SkinColorSO[] <skinColors>k__BackingField
     // Size: 0x8
     // Offset: 0x48
-    ::Array<GlobalNamespace::SkinColorSO*>* skinColors;
+    ::ArrayWrapper<GlobalNamespace::SkinColorSO*> skinColors;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::SkinColorSO*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SkinColorSO*>) == 0x8);
     // private readonly System.Collections.Generic.Dictionary`2<System.String,System.Int32> _indexById
     // Size: 0x8
     // Offset: 0x50
@@ -97,7 +97,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, int>*) == 0x8);
     // Creating value type constructor for type: AvatarPartsModel
-    AvatarPartsModel(GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* headTopCollection_ = {}, GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarSpritePartSO*>* eyesCollection_ = {}, GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarSpritePartSO*>* mouthCollection_ = {}, GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* glassesCollection_ = {}, GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* facialHairCollection_ = {}, GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* handsCollection_ = {}, GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* clothesCollection_ = {}, ::Array<GlobalNamespace::SkinColorSO*>* skinColors_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* indexById_ = {}) noexcept : headTopCollection{headTopCollection_}, eyesCollection{eyesCollection_}, mouthCollection{mouthCollection_}, glassesCollection{glassesCollection_}, facialHairCollection{facialHairCollection_}, handsCollection{handsCollection_}, clothesCollection{clothesCollection_}, skinColors{skinColors_}, indexById{indexById_} {}
+    AvatarPartsModel(GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* headTopCollection_ = {}, GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarSpritePartSO*>* eyesCollection_ = {}, GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarSpritePartSO*>* mouthCollection_ = {}, GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* glassesCollection_ = {}, GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* facialHairCollection_ = {}, GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* handsCollection_ = {}, GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* clothesCollection_ = {}, ::ArrayWrapper<GlobalNamespace::SkinColorSO*> skinColors_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* indexById_ = {}) noexcept : headTopCollection{headTopCollection_}, eyesCollection{eyesCollection_}, mouthCollection{mouthCollection_}, glassesCollection{glassesCollection_}, facialHairCollection{facialHairCollection_}, handsCollection{handsCollection_}, clothesCollection{clothesCollection_}, skinColors{skinColors_}, indexById{indexById_} {}
     // Get instance field reference: private readonly AvatarPartCollection`1<AvatarMeshPartSO> <headTopCollection>k__BackingField
     GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>*& dyn_$headTopCollection$k__BackingField();
     // Get instance field reference: private readonly AvatarPartCollection`1<AvatarSpritePartSO> <eyesCollection>k__BackingField
@@ -113,48 +113,48 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly AvatarPartCollection`1<AvatarMeshPartSO> <clothesCollection>k__BackingField
     GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>*& dyn_$clothesCollection$k__BackingField();
     // Get instance field reference: private readonly SkinColorSO[] <skinColors>k__BackingField
-    ::Array<GlobalNamespace::SkinColorSO*>*& dyn_$skinColors$k__BackingField();
+    ::ArrayWrapper<GlobalNamespace::SkinColorSO*>& dyn_$skinColors$k__BackingField();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Int32> _indexById
     System::Collections::Generic::Dictionary_2<::Il2CppString*, int>*& dyn__indexById();
     // public AvatarPartCollection`1<AvatarMeshPartSO> get_headTopCollection()
-    // Offset: 0x117AFE8
+    // Offset: 0x124B370
     GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* get_headTopCollection();
     // public AvatarPartCollection`1<AvatarSpritePartSO> get_eyesCollection()
-    // Offset: 0x117AFF0
+    // Offset: 0x124B378
     GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarSpritePartSO*>* get_eyesCollection();
     // public AvatarPartCollection`1<AvatarSpritePartSO> get_mouthCollection()
-    // Offset: 0x117AFF8
+    // Offset: 0x124B380
     GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarSpritePartSO*>* get_mouthCollection();
     // public AvatarPartCollection`1<AvatarMeshPartSO> get_glassesCollection()
-    // Offset: 0x117B000
+    // Offset: 0x124B388
     GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* get_glassesCollection();
     // public AvatarPartCollection`1<AvatarMeshPartSO> get_facialHairCollection()
-    // Offset: 0x117B008
+    // Offset: 0x124B390
     GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* get_facialHairCollection();
     // public AvatarPartCollection`1<AvatarMeshPartSO> get_handsCollection()
-    // Offset: 0x117B010
+    // Offset: 0x124B398
     GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* get_handsCollection();
     // public AvatarPartCollection`1<AvatarMeshPartSO> get_clothesCollection()
-    // Offset: 0x117B018
+    // Offset: 0x124B3A0
     GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* get_clothesCollection();
     // public SkinColorSO[] get_skinColors()
-    // Offset: 0x117B020
-    ::Array<GlobalNamespace::SkinColorSO*>* get_skinColors();
+    // Offset: 0x124B3A8
+    ::ArrayWrapper<GlobalNamespace::SkinColorSO*> get_skinColors();
     // public System.Void .ctor(AvatarPartsModelSO avatarPartData, SkinColorSetSO skinColorSet)
-    // Offset: 0x117B028
+    // Offset: 0x124B3B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarPartsModel* New_ctor(GlobalNamespace::AvatarPartsModelSO* avatarPartData, GlobalNamespace::SkinColorSetSO* skinColorSet) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartsModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarPartsModel*, creationType>(avatarPartData, skinColorSet)));
     }
     // public System.Int32 GetColorIndexById(System.String id)
-    // Offset: 0x117B238
+    // Offset: 0x124B5C0
     int GetColorIndexById(::Il2CppString* id);
     // public SkinColorSO GetSkinColorById(System.String id)
-    // Offset: 0x117B2C4
+    // Offset: 0x124B64C
     GlobalNamespace::SkinColorSO* GetSkinColorById(::Il2CppString* id);
     // public SkinColorSO GetRandomColor()
-    // Offset: 0x117A39C
+    // Offset: 0x124A724
     GlobalNamespace::SkinColorSO* GetRandomColor();
   }; // AvatarPartsModel
   #pragma pack(pop)
@@ -222,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPartsModel::get_skinColors
 // Il2CppName: get_skinColors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::SkinColorSO*>* (GlobalNamespace::AvatarPartsModel::*)()>(&GlobalNamespace::AvatarPartsModel::get_skinColors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::SkinColorSO*> (GlobalNamespace::AvatarPartsModel::*)()>(&GlobalNamespace::AvatarPartsModel::get_skinColors)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModel*), "get_skinColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

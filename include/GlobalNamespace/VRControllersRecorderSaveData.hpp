@@ -32,23 +32,23 @@ namespace GlobalNamespace {
     // public VRControllersRecorderSaveData/NodeInfo[] nodesInfo
     // Size: 0x8
     // Offset: 0x10
-    ::Array<GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*>* nodesInfo;
+    ::ArrayWrapper<GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*> nodesInfo;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*>) == 0x8);
     // public VRControllersRecorderSaveData/Keyframe[] keyframes
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>* keyframes;
+    ::ArrayWrapper<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*> keyframes;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>) == 0x8);
     // Creating value type constructor for type: VRControllersRecorderSaveData
-    VRControllersRecorderSaveData(::Array<GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*>* nodesInfo_ = {}, ::Array<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>* keyframes_ = {}) noexcept : nodesInfo{nodesInfo_}, keyframes{keyframes_} {}
+    VRControllersRecorderSaveData(::ArrayWrapper<GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*> nodesInfo_ = {}, ::ArrayWrapper<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*> keyframes_ = {}) noexcept : nodesInfo{nodesInfo_}, keyframes{keyframes_} {}
     // Get instance field reference: public VRControllersRecorderSaveData/NodeInfo[] nodesInfo
-    ::Array<GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*>*& dyn_nodesInfo();
+    ::ArrayWrapper<GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*>& dyn_nodesInfo();
     // Get instance field reference: public VRControllersRecorderSaveData/Keyframe[] keyframes
-    ::Array<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>*& dyn_keyframes();
+    ::ArrayWrapper<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>& dyn_keyframes();
     // public System.Void .ctor()
-    // Offset: 0x12A04F0
+    // Offset: 0x134ACA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     }
   }; // VRControllersRecorderSaveData
   #pragma pack(pop)
-  static check_size<sizeof(VRControllersRecorderSaveData), 24 + sizeof(::Array<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>*)> __GlobalNamespace_VRControllersRecorderSaveDataSizeCheck;
+  static check_size<sizeof(VRControllersRecorderSaveData), 24 + sizeof(::ArrayWrapper<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>)> __GlobalNamespace_VRControllersRecorderSaveDataSizeCheck;
   static_assert(sizeof(VRControllersRecorderSaveData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderSaveData*, "", "VRControllersRecorderSaveData");

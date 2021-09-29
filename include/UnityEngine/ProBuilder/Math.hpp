@@ -114,108 +114,108 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private UnityEngine.Vector3 tv4
     static void _set_tv4(UnityEngine::Vector3 value);
     // static UnityEngine.Vector2 PointInCircumference(System.Single radius, System.Single angleInDegrees, UnityEngine.Vector2 origin)
-    // Offset: 0x1AF9A74
+    // Offset: 0x1C7D1F4
     static UnityEngine::Vector2 PointInCircumference(float radius, float angleInDegrees, UnityEngine::Vector2 origin);
     // static UnityEngine.Vector3 PointInSphere(System.Single radius, System.Single latitudeAngle, System.Single longitudeAngle)
-    // Offset: 0x1AF9B44
+    // Offset: 0x1C7D2C4
     static UnityEngine::Vector3 PointInSphere(float radius, float latitudeAngle, float longitudeAngle);
     // static System.Single SignedAngle(UnityEngine.Vector2 a, UnityEngine.Vector2 b)
-    // Offset: 0x1AF9C44
+    // Offset: 0x1C7D3C4
     static float SignedAngle(UnityEngine::Vector2 a, UnityEngine::Vector2 b);
     // static public System.Single SqrDistance(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
-    // Offset: 0x1AF9CF0
+    // Offset: 0x1C7D470
     static float SqrDistance(UnityEngine::Vector3 a, UnityEngine::Vector3 b);
     // static public System.Single TriangleArea(UnityEngine.Vector3 x, UnityEngine.Vector3 y, UnityEngine.Vector3 z)
-    // Offset: 0x1AF9D14
+    // Offset: 0x1C7D494
     static float TriangleArea(UnityEngine::Vector3 x, UnityEngine::Vector3 y, UnityEngine::Vector3 z);
     // static System.Single PolygonArea(UnityEngine.Vector3[] vertices, System.Int32[] indexes)
-    // Offset: 0x1AF9E88
-    static float PolygonArea(::Array<UnityEngine::Vector3>* vertices, ::Array<int>* indexes);
+    // Offset: 0x1C7D608
+    static float PolygonArea(::ArrayWrapper<UnityEngine::Vector3> vertices, ::ArrayWrapper<int> indexes);
     // static UnityEngine.Vector2 RotateAroundPoint(UnityEngine.Vector2 v, UnityEngine.Vector2 origin, System.Single theta)
-    // Offset: 0x1AF9FA8
+    // Offset: 0x1C7D728
     static UnityEngine::Vector2 RotateAroundPoint(UnityEngine::Vector2 v, UnityEngine::Vector2 origin, float theta);
     // static public UnityEngine.Vector2 ScaleAroundPoint(UnityEngine.Vector2 v, UnityEngine.Vector2 origin, UnityEngine.Vector2 scale)
-    // Offset: 0x1AFA08C
+    // Offset: 0x1C7D80C
     static UnityEngine::Vector2 ScaleAroundPoint(UnityEngine::Vector2 v, UnityEngine::Vector2 origin, UnityEngine::Vector2 scale);
     // static UnityEngine.Vector2 Perpendicular(UnityEngine.Vector2 value)
-    // Offset: 0x1AFA14C
+    // Offset: 0x1C7D8CC
     static UnityEngine::Vector2 Perpendicular(UnityEngine::Vector2 value);
     // static public UnityEngine.Vector2 ReflectPoint(UnityEngine.Vector2 point, UnityEngine.Vector2 lineStart, UnityEngine.Vector2 lineEnd)
-    // Offset: 0x1AFA184
+    // Offset: 0x1C7D904
     static UnityEngine::Vector2 ReflectPoint(UnityEngine::Vector2 point, UnityEngine::Vector2 lineStart, UnityEngine::Vector2 lineEnd);
     // static System.Single SqrDistanceRayPoint(UnityEngine.Ray ray, UnityEngine.Vector3 point)
-    // Offset: 0x1AFA360
+    // Offset: 0x1C7DAE0
     static float SqrDistanceRayPoint(UnityEngine::Ray ray, UnityEngine::Vector3 point);
     // static public System.Single DistancePointLineSegment(UnityEngine.Vector2 point, UnityEngine.Vector2 lineStart, UnityEngine.Vector2 lineEnd)
-    // Offset: 0x1AFA480
+    // Offset: 0x1C7DC00
     static float DistancePointLineSegment(UnityEngine::Vector2 point, UnityEngine::Vector2 lineStart, UnityEngine::Vector2 lineEnd);
     // static public System.Single DistancePointLineSegment(UnityEngine.Vector3 point, UnityEngine.Vector3 lineStart, UnityEngine.Vector3 lineEnd)
-    // Offset: 0x1AFA67C
+    // Offset: 0x1C7DDFC
     static float DistancePointLineSegment(UnityEngine::Vector3 point, UnityEngine::Vector3 lineStart, UnityEngine::Vector3 lineEnd);
     // static public UnityEngine.Vector3 GetNearestPointRayRay(UnityEngine.Ray a, UnityEngine.Ray b)
-    // Offset: 0x1AFA930
+    // Offset: 0x1C7E0B0
     static UnityEngine::Vector3 GetNearestPointRayRay(UnityEngine::Ray a, UnityEngine::Ray b);
     // static UnityEngine.Vector3 GetNearestPointRayRay(UnityEngine.Vector3 ao, UnityEngine.Vector3 ad, UnityEngine.Vector3 bo, UnityEngine.Vector3 bd)
-    // Offset: 0x1AFA9F4
+    // Offset: 0x1C7E174
     static UnityEngine::Vector3 GetNearestPointRayRay(UnityEngine::Vector3 ao, UnityEngine::Vector3 ad, UnityEngine::Vector3 bo, UnityEngine::Vector3 bd);
     // static System.Boolean GetLineSegmentIntersect(UnityEngine.Vector2 p0, UnityEngine.Vector2 p1, UnityEngine.Vector2 p2, UnityEngine.Vector2 p3, ref UnityEngine.Vector2 intersect)
-    // Offset: 0x1AFACB0
+    // Offset: 0x1C7E430
     static bool GetLineSegmentIntersect(UnityEngine::Vector2 p0, UnityEngine::Vector2 p1, UnityEngine::Vector2 p2, UnityEngine::Vector2 p3, ByRef<UnityEngine::Vector2> intersect);
     // static System.Boolean GetLineSegmentIntersect(UnityEngine.Vector2 p0, UnityEngine.Vector2 p1, UnityEngine.Vector2 p2, UnityEngine.Vector2 p3)
-    // Offset: 0x1AFADE0
+    // Offset: 0x1C7E560
     static bool GetLineSegmentIntersect(UnityEngine::Vector2 p0, UnityEngine::Vector2 p1, UnityEngine::Vector2 p2, UnityEngine::Vector2 p3);
     // static System.Boolean PointInPolygon(UnityEngine.Vector2[] polygon, UnityEngine.Vector2 point, System.Int32[] indexes)
-    // Offset: 0x1AFAE54
-    static bool PointInPolygon(::Array<UnityEngine::Vector2>* polygon, UnityEngine::Vector2 point, ::Array<int>* indexes);
+    // Offset: 0x1C7E5D4
+    static bool PointInPolygon(::ArrayWrapper<UnityEngine::Vector2> polygon, UnityEngine::Vector2 point, ::ArrayWrapper<int> indexes);
     // static System.Boolean PointInPolygon(UnityEngine.Vector2[] positions, UnityEngine.ProBuilder.Bounds2D polyBounds, UnityEngine.ProBuilder.Edge[] edges, UnityEngine.Vector2 point)
-    // Offset: 0x1AFB110
-    static bool PointInPolygon(::Array<UnityEngine::Vector2>* positions, UnityEngine::ProBuilder::Bounds2D* polyBounds, ::Array<UnityEngine::ProBuilder::Edge>* edges, UnityEngine::Vector2 point);
+    // Offset: 0x1C7E890
+    static bool PointInPolygon(::ArrayWrapper<UnityEngine::Vector2> positions, UnityEngine::ProBuilder::Bounds2D* polyBounds, ::ArrayWrapper<UnityEngine::ProBuilder::Edge> edges, UnityEngine::Vector2 point);
     // static System.Boolean PointInPolygon(UnityEngine.Vector3[] positions, UnityEngine.ProBuilder.Bounds2D polyBounds, UnityEngine.ProBuilder.Edge[] edges, UnityEngine.Vector2 point)
-    // Offset: 0x1AFB274
-    static bool PointInPolygon(::Array<UnityEngine::Vector3>* positions, UnityEngine::ProBuilder::Bounds2D* polyBounds, ::Array<UnityEngine::ProBuilder::Edge>* edges, UnityEngine::Vector2 point);
+    // Offset: 0x1C7E9F4
+    static bool PointInPolygon(::ArrayWrapper<UnityEngine::Vector3> positions, UnityEngine::ProBuilder::Bounds2D* polyBounds, ::ArrayWrapper<UnityEngine::ProBuilder::Edge> edges, UnityEngine::Vector2 point);
     // static System.Boolean RectIntersectsLineSegment(UnityEngine.Rect rect, UnityEngine.Vector2 a, UnityEngine.Vector2 b)
-    // Offset: 0x1AFB43C
+    // Offset: 0x1C7EBBC
     static bool RectIntersectsLineSegment(UnityEngine::Rect rect, UnityEngine::Vector2 a, UnityEngine::Vector2 b);
     // static System.Boolean RectIntersectsLineSegment(UnityEngine.Rect rect, UnityEngine.Vector3 a, UnityEngine.Vector3 b)
-    // Offset: 0x1AFB444
+    // Offset: 0x1C7EBC4
     static bool RectIntersectsLineSegment(UnityEngine::Rect rect, UnityEngine::Vector3 a, UnityEngine::Vector3 b);
     // static public System.Boolean RayIntersectsTriangle(UnityEngine.Ray InRay, UnityEngine.Vector3 InTriangleA, UnityEngine.Vector3 InTriangleB, UnityEngine.Vector3 InTriangleC, out System.Single OutDistance, out UnityEngine.Vector3 OutPoint)
-    // Offset: 0x1AF3F38
+    // Offset: 0x1C776B8
     static bool RayIntersectsTriangle(UnityEngine::Ray InRay, UnityEngine::Vector3 InTriangleA, UnityEngine::Vector3 InTriangleB, UnityEngine::Vector3 InTriangleC, ByRef<float> OutDistance, ByRef<UnityEngine::Vector3> OutPoint);
     // static System.Boolean RayIntersectsTriangle2(UnityEngine.Vector3 origin, UnityEngine.Vector3 dir, UnityEngine.Vector3 vert0, UnityEngine.Vector3 vert1, UnityEngine.Vector3 vert2, ref System.Single distance, ref UnityEngine.Vector3 normal)
-    // Offset: 0x1AF54EC
+    // Offset: 0x1C78C6C
     static bool RayIntersectsTriangle2(UnityEngine::Vector3 origin, UnityEngine::Vector3 dir, UnityEngine::Vector3 vert0, UnityEngine::Vector3 vert1, UnityEngine::Vector3 vert2, ByRef<float> distance, ByRef<UnityEngine::Vector3> normal);
     // static public System.Single Secant(System.Single x)
-    // Offset: 0x1AFB498
+    // Offset: 0x1C7EC18
     static float Secant(float x);
     // static public UnityEngine.Vector3 Normal(UnityEngine.Vector3 p0, UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
-    // Offset: 0x1AFB510
+    // Offset: 0x1C7EC90
     static UnityEngine::Vector3 Normal(UnityEngine::Vector3 p0, UnityEngine::Vector3 p1, UnityEngine::Vector3 p2);
     // static UnityEngine.Vector3 Normal(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x1AFB6CC
+    // Offset: 0x1C7EE4C
     static UnityEngine::Vector3 Normal(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>* vertices, System::Collections::Generic::IList_1<int>* indexes);
     // static public UnityEngine.Vector3 Normal(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face face)
-    // Offset: 0x1AFBEA8
+    // Offset: 0x1C7F628
     static UnityEngine::Vector3 Normal(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Face* face);
     // static UnityEngine.Vector3 Normal(System.Collections.Generic.IList`1<UnityEngine.Vector3> p)
-    // Offset: 0x1AFC0FC
+    // Offset: 0x1C7F87C
     static UnityEngine::Vector3 Normal(System::Collections::Generic::IList_1<UnityEngine::Vector3>* p);
     // static public UnityEngine.ProBuilder.Normal NormalTangentBitangent(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face face)
-    // Offset: 0x1AF63F4
+    // Offset: 0x1C79B74
     static UnityEngine::ProBuilder::Normal NormalTangentBitangent(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Face* face);
     // static System.Boolean IsCardinalAxis(UnityEngine.Vector3 v, System.Single epsilon)
-    // Offset: 0x1AFC80C
+    // Offset: 0x1C7FF8C
     static bool IsCardinalAxis(UnityEngine::Vector3 v, float epsilon);
     // static UnityEngine.Vector2 DivideBy(UnityEngine.Vector2 v, UnityEngine.Vector2 o)
-    // Offset: 0x1AFCA00
+    // Offset: 0x1C80180
     static UnityEngine::Vector2 DivideBy(UnityEngine::Vector2 v, UnityEngine::Vector2 o);
     // static UnityEngine.Vector3 DivideBy(UnityEngine.Vector3 v, UnityEngine.Vector3 o)
-    // Offset: 0x1AFCA34
+    // Offset: 0x1C801B4
     static UnityEngine::Vector3 DivideBy(UnityEngine::Vector3 v, UnityEngine::Vector3 o);
     // static T Max(T[] array)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T Max(::Array<T>* array) {
+    static T Max(::ArrayWrapper<T> array) {
       static_assert(std::is_base_of_v<System::IComparable_1<T>, std::remove_pointer_t<T>>);
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Math::Max");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "Math", "Max", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array)})));
@@ -225,7 +225,7 @@ namespace UnityEngine::ProBuilder {
     // static T Min(T[] array)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T Min(::Array<T>* array) {
+    static T Min(::ArrayWrapper<T> array) {
       static_assert(std::is_base_of_v<System::IComparable_1<T>, std::remove_pointer_t<T>>);
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Math::Min");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "Math", "Min", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array)})));
@@ -233,49 +233,49 @@ namespace UnityEngine::ProBuilder {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, array);
     }
     // static System.Single LargestValue(UnityEngine.Vector3 v)
-    // Offset: 0x1AFCA74
+    // Offset: 0x1C801F4
     static float LargestValue(UnityEngine::Vector3 v);
     // static System.Single LargestValue(UnityEngine.Vector2 v)
-    // Offset: 0x1AFCA98
+    // Offset: 0x1C80218
     static float LargestValue(UnityEngine::Vector2 v);
     // static UnityEngine.Vector2 SmallestVector2(UnityEngine.Vector2[] v)
-    // Offset: 0x1AFCAA4
-    static UnityEngine::Vector2 SmallestVector2(::Array<UnityEngine::Vector2>* v);
+    // Offset: 0x1C80224
+    static UnityEngine::Vector2 SmallestVector2(::ArrayWrapper<UnityEngine::Vector2> v);
     // static UnityEngine.Vector2 SmallestVector2(UnityEngine.Vector2[] v, System.Int32[] indexes)
-    // Offset: 0x1AFCB24
-    static UnityEngine::Vector2 SmallestVector2(::Array<UnityEngine::Vector2>* v, ::Array<int>* indexes);
+    // Offset: 0x1C802A4
+    static UnityEngine::Vector2 SmallestVector2(::ArrayWrapper<UnityEngine::Vector2> v, ::ArrayWrapper<int> indexes);
     // static UnityEngine.Vector2 SmallestVector2(UnityEngine.Vector2[] v, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x1AFCBC4
-    static UnityEngine::Vector2 SmallestVector2(::Array<UnityEngine::Vector2>* v, System::Collections::Generic::IList_1<int>* indexes);
+    // Offset: 0x1C80344
+    static UnityEngine::Vector2 SmallestVector2(::ArrayWrapper<UnityEngine::Vector2> v, System::Collections::Generic::IList_1<int>* indexes);
     // static UnityEngine.Vector2 LargestVector2(UnityEngine.Vector2[] v)
-    // Offset: 0x1AFCF58
-    static UnityEngine::Vector2 LargestVector2(::Array<UnityEngine::Vector2>* v);
+    // Offset: 0x1C806D8
+    static UnityEngine::Vector2 LargestVector2(::ArrayWrapper<UnityEngine::Vector2> v);
     // static UnityEngine.Vector2 LargestVector2(UnityEngine.Vector2[] v, System.Int32[] indexes)
-    // Offset: 0x1AFCFD8
-    static UnityEngine::Vector2 LargestVector2(::Array<UnityEngine::Vector2>* v, ::Array<int>* indexes);
+    // Offset: 0x1C80758
+    static UnityEngine::Vector2 LargestVector2(::ArrayWrapper<UnityEngine::Vector2> v, ::ArrayWrapper<int> indexes);
     // static UnityEngine.Vector2 LargestVector2(UnityEngine.Vector2[] v, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x1AFD078
-    static UnityEngine::Vector2 LargestVector2(::Array<UnityEngine::Vector2>* v, System::Collections::Generic::IList_1<int>* indexes);
+    // Offset: 0x1C807F8
+    static UnityEngine::Vector2 LargestVector2(::ArrayWrapper<UnityEngine::Vector2> v, System::Collections::Generic::IList_1<int>* indexes);
     // static UnityEngine.Bounds GetBounds(UnityEngine.Vector3[] positions, System.Collections.Generic.IList`1<System.Int32> indices)
-    // Offset: 0x1AF6DDC
-    static UnityEngine::Bounds GetBounds(::Array<UnityEngine::Vector3>* positions, System::Collections::Generic::IList_1<int>* indices);
+    // Offset: 0x1C7A55C
+    static UnityEngine::Bounds GetBounds(::ArrayWrapper<UnityEngine::Vector3> positions, System::Collections::Generic::IList_1<int>* indices);
     // static UnityEngine.Bounds GetBounds(UnityEngine.Vector3[] positions, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x1AFD40C
-    static UnityEngine::Bounds GetBounds(::Array<UnityEngine::Vector3>* positions, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces);
+    // Offset: 0x1C80B8C
+    static UnityEngine::Bounds GetBounds(::ArrayWrapper<UnityEngine::Vector3> positions, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces);
     // static private UnityEngine.Vector3 ComponentMin(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
-    // Offset: 0x1AFDB34
+    // Offset: 0x1C812B4
     static UnityEngine::Vector3 ComponentMin(UnityEngine::Vector3 a, UnityEngine::Vector3 b);
     // static private UnityEngine.Vector3 ComponentMax(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
-    // Offset: 0x1AFDC28
+    // Offset: 0x1C813A8
     static UnityEngine::Vector3 ComponentMax(UnityEngine::Vector3 a, UnityEngine::Vector3 b);
     // static UnityEngine.Bounds GetBounds(UnityEngine.Vector3[] positions, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> edges)
-    // Offset: 0x1AFDD1C
-    static UnityEngine::Bounds GetBounds(::Array<UnityEngine::Vector3>* positions, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges);
+    // Offset: 0x1C8149C
+    static UnityEngine::Bounds GetBounds(::ArrayWrapper<UnityEngine::Vector3> positions, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges);
     // static public UnityEngine.Vector2 Average(System.Collections.Generic.IList`1<UnityEngine.Vector2> array, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x1AFE270
+    // Offset: 0x1C819F0
     static UnityEngine::Vector2 Average(System::Collections::Generic::IList_1<UnityEngine::Vector2>* array, System::Collections::Generic::IList_1<int>* indexes);
     // static public UnityEngine.Vector3 Average(System.Collections.Generic.IList`1<UnityEngine.Vector3> array, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x1AFE658
+    // Offset: 0x1C81DD8
     static UnityEngine::Vector3 Average(System::Collections::Generic::IList_1<UnityEngine::Vector3>* array, System::Collections::Generic::IList_1<int>* indexes);
     // static UnityEngine.Vector3 Average(System.Collections.Generic.IList`1<T> list, System.Func`2<T,UnityEngine.Vector3> selector, System.Collections.Generic.IList`1<System.Int32> indexes)
     // Offset: 0xFFFFFFFF
@@ -287,79 +287,79 @@ namespace UnityEngine::ProBuilder {
       return ::il2cpp_utils::RunMethodThrow<UnityEngine::Vector3, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, list, selector, indexes);
     }
     // static public UnityEngine.Vector4 Average(System.Collections.Generic.IList`1<UnityEngine.Vector4> v, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x1AFEC50
+    // Offset: 0x1C823D0
     static UnityEngine::Vector4 Average(System::Collections::Generic::IList_1<UnityEngine::Vector4>* v, System::Collections::Generic::IList_1<int>* indexes);
     // static UnityEngine.Color Average(System.Collections.Generic.IList`1<UnityEngine.Color> c, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x1AFF06C
+    // Offset: 0x1C827EC
     static UnityEngine::Color Average(System::Collections::Generic::IList_1<UnityEngine::Color>* c, System::Collections::Generic::IList_1<int>* indexes);
     // static System.Boolean Approx2(UnityEngine.Vector2 a, UnityEngine.Vector2 b, System.Single delta)
-    // Offset: 0x1AFF430
+    // Offset: 0x1C82BB0
     static bool Approx2(UnityEngine::Vector2 a, UnityEngine::Vector2 b, float delta);
     // static System.Boolean Approx3(UnityEngine.Vector3 a, UnityEngine.Vector3 b, System.Single delta)
-    // Offset: 0x1AFF4F0
+    // Offset: 0x1C82C70
     static bool Approx3(UnityEngine::Vector3 a, UnityEngine::Vector3 b, float delta);
     // static System.Boolean Approx4(UnityEngine.Vector4 a, UnityEngine.Vector4 b, System.Single delta)
-    // Offset: 0x1AFF5E4
+    // Offset: 0x1C82D64
     static bool Approx4(UnityEngine::Vector4 a, UnityEngine::Vector4 b, float delta);
     // static System.Boolean ApproxC(UnityEngine.Color a, UnityEngine.Color b, System.Single delta)
-    // Offset: 0x1AFF708
+    // Offset: 0x1C82E88
     static bool ApproxC(UnityEngine::Color a, UnityEngine::Color b, float delta);
     // static System.Boolean Approx(System.Single a, System.Single b, System.Single delta)
-    // Offset: 0x1AFF82C
+    // Offset: 0x1C82FAC
     static bool Approx(float a, float b, float delta);
     // static System.Int32 Wrap(System.Int32 value, System.Int32 lowerBound, System.Int32 upperBound)
-    // Offset: 0x1AFF8B4
+    // Offset: 0x1C83034
     static int Wrap(int value, int lowerBound, int upperBound);
     // static public System.Int32 Clamp(System.Int32 value, System.Int32 lowerBound, System.Int32 upperBound)
-    // Offset: 0x1AF99E4
+    // Offset: 0x1C7D164
     static int Clamp(int value, int lowerBound, int upperBound);
     // static UnityEngine.Vector3 Clamp(UnityEngine.Vector3 value, UnityEngine.Vector3 lowerBound, UnityEngine.Vector3 upperBound)
-    // Offset: 0x1AFF8E4
+    // Offset: 0x1C83064
     static UnityEngine::Vector3 Clamp(UnityEngine::Vector3 value, UnityEngine::Vector3 lowerBound, UnityEngine::Vector3 upperBound);
     // static UnityEngine.Vector3 ToSignedMask(UnityEngine.Vector3 vec, System.Single delta)
-    // Offset: 0x1AFF9B0
+    // Offset: 0x1C83130
     static UnityEngine::Vector3 ToSignedMask(UnityEngine::Vector3 vec, float delta);
     // static UnityEngine.Vector3 Abs(UnityEngine.Vector3 v)
-    // Offset: 0x1AFFB14
+    // Offset: 0x1C83294
     static UnityEngine::Vector3 Abs(UnityEngine::Vector3 v);
     // static System.Int32 IntSum(UnityEngine.Vector3 mask)
-    // Offset: 0x1AFFBBC
+    // Offset: 0x1C8333C
     static int IntSum(UnityEngine::Vector3 mask);
     // static System.Single Sum(UnityEngine.Vector3 v)
-    // Offset: 0x1AFFC8C
+    // Offset: 0x1C8340C
     static float Sum(UnityEngine::Vector3 v);
     // static System.Void Cross(UnityEngine.Vector3 a, UnityEngine.Vector3 b, ref System.Single x, ref System.Single y, ref System.Single z)
-    // Offset: 0x1AFFD18
+    // Offset: 0x1C83498
     static void Cross(UnityEngine::Vector3 a, UnityEngine::Vector3 b, ByRef<float> x, ByRef<float> y, ByRef<float> z);
     // static System.Void Cross(UnityEngine.Vector3 a, UnityEngine.Vector3 b, ref UnityEngine.Vector3 res)
-    // Offset: 0x1AFB468
+    // Offset: 0x1C7EBE8
     static void Cross(UnityEngine::Vector3 a, UnityEngine::Vector3 b, ByRef<UnityEngine::Vector3> res);
     // static System.Void Cross(System.Single ax, System.Single ay, System.Single az, System.Single bx, System.Single by, System.Single bz, ref System.Single x, ref System.Single y, ref System.Single z)
-    // Offset: 0x1AFB698
+    // Offset: 0x1C7EE18
     static void Cross(float ax, float ay, float az, float bx, float by, float bz, ByRef<float> x, ByRef<float> y, ByRef<float> z);
     // static System.Void Subtract(UnityEngine.Vector3 a, UnityEngine.Vector3 b, ref UnityEngine.Vector3 res)
-    // Offset: 0x1AFB450
+    // Offset: 0x1C7EBD0
     static void Subtract(UnityEngine::Vector3 a, UnityEngine::Vector3 b, ByRef<UnityEngine::Vector3> res);
     // static System.Int32 Min(System.Int32 a, System.Int32 b)
-    // Offset: 0x1AFFD4C
+    // Offset: 0x1C834CC
     static int Min(int a, int b);
     // static System.Int32 Max(System.Int32 a, System.Int32 b)
-    // Offset: 0x1AFFD58
+    // Offset: 0x1C834D8
     static int Max(int a, int b);
     // static System.Boolean IsNumber(System.Single value)
-    // Offset: 0x1AFFD64
+    // Offset: 0x1C834E4
     static bool IsNumber(float value);
     // static System.Boolean IsNumber(UnityEngine.Vector2 value)
-    // Offset: 0x1AFFDA8
+    // Offset: 0x1C83528
     static bool IsNumber(UnityEngine::Vector2 value);
     // static System.Boolean IsNumber(UnityEngine.Vector3 value)
-    // Offset: 0x1AFFDE0
+    // Offset: 0x1C83560
     static bool IsNumber(UnityEngine::Vector3 value);
     // static System.Boolean IsNumber(UnityEngine.Vector4 value)
-    // Offset: 0x1AFFE28
+    // Offset: 0x1C835A8
     static bool IsNumber(UnityEngine::Vector4 value);
     // static System.Single MakeNonZero(System.Single value, System.Single min)
-    // Offset: 0x1AFFE8C
+    // Offset: 0x1C8360C
     static float MakeNonZero(float value, float min);
   }; // UnityEngine.ProBuilder.Math
   #pragma pack(pop)
@@ -422,10 +422,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Math::PolygonArea
 // Il2CppName: PolygonArea
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Array<UnityEngine::Vector3>*, ::Array<int>*)>(&UnityEngine::ProBuilder::Math::PolygonArea)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::ArrayWrapper<UnityEngine::Vector3>, ::ArrayWrapper<int>)>(&UnityEngine::ProBuilder::Math::PolygonArea)> {
   static const MethodInfo* get() {
-    static auto* vertices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
-    static auto* indexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* vertices = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->byval_arg;
+    static auto* indexes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "PolygonArea", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vertices, indexes});
   }
 };
@@ -553,22 +553,22 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Math::PointInPolygon
 // Il2CppName: PointInPolygon
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::Vector2>*, UnityEngine::Vector2, ::Array<int>*)>(&UnityEngine::ProBuilder::Math::PointInPolygon)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<UnityEngine::Vector2>, UnityEngine::Vector2, ::ArrayWrapper<int>)>(&UnityEngine::ProBuilder::Math::PointInPolygon)> {
   static const MethodInfo* get() {
-    static auto* polygon = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
+    static auto* polygon = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")), 1)->byval_arg;
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
-    static auto* indexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* indexes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "PointInPolygon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{polygon, point, indexes});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Math::PointInPolygon
 // Il2CppName: PointInPolygon
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::Vector2>*, UnityEngine::ProBuilder::Bounds2D*, ::Array<UnityEngine::ProBuilder::Edge>*, UnityEngine::Vector2)>(&UnityEngine::ProBuilder::Math::PointInPolygon)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<UnityEngine::Vector2>, UnityEngine::ProBuilder::Bounds2D*, ::ArrayWrapper<UnityEngine::ProBuilder::Edge>, UnityEngine::Vector2)>(&UnityEngine::ProBuilder::Math::PointInPolygon)> {
   static const MethodInfo* get() {
-    static auto* positions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
+    static auto* positions = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")), 1)->byval_arg;
     static auto* polyBounds = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Bounds2D")->byval_arg;
-    static auto* edges = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge"), 1)->byval_arg;
+    static auto* edges = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge")), 1)->byval_arg;
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "PointInPolygon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{positions, polyBounds, edges, point});
   }
@@ -576,11 +576,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Math::PointInPolygon
 // Il2CppName: PointInPolygon
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::Vector3>*, UnityEngine::ProBuilder::Bounds2D*, ::Array<UnityEngine::ProBuilder::Edge>*, UnityEngine::Vector2)>(&UnityEngine::ProBuilder::Math::PointInPolygon)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<UnityEngine::Vector3>, UnityEngine::ProBuilder::Bounds2D*, ::ArrayWrapper<UnityEngine::ProBuilder::Edge>, UnityEngine::Vector2)>(&UnityEngine::ProBuilder::Math::PointInPolygon)> {
   static const MethodInfo* get() {
-    static auto* positions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
+    static auto* positions = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->byval_arg;
     static auto* polyBounds = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Bounds2D")->byval_arg;
-    static auto* edges = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge"), 1)->byval_arg;
+    static auto* edges = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge")), 1)->byval_arg;
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "PointInPolygon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{positions, polyBounds, edges, point});
   }
@@ -752,28 +752,28 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Math::SmallestVector2
 // Il2CppName: SmallestVector2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(::Array<UnityEngine::Vector2>*)>(&UnityEngine::ProBuilder::Math::SmallestVector2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(::ArrayWrapper<UnityEngine::Vector2>)>(&UnityEngine::ProBuilder::Math::SmallestVector2)> {
   static const MethodInfo* get() {
-    static auto* v = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
+    static auto* v = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "SmallestVector2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Math::SmallestVector2
 // Il2CppName: SmallestVector2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(::Array<UnityEngine::Vector2>*, ::Array<int>*)>(&UnityEngine::ProBuilder::Math::SmallestVector2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(::ArrayWrapper<UnityEngine::Vector2>, ::ArrayWrapper<int>)>(&UnityEngine::ProBuilder::Math::SmallestVector2)> {
   static const MethodInfo* get() {
-    static auto* v = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
-    static auto* indexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* v = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")), 1)->byval_arg;
+    static auto* indexes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "SmallestVector2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v, indexes});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Math::SmallestVector2
 // Il2CppName: SmallestVector2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(::Array<UnityEngine::Vector2>*, System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::Math::SmallestVector2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(::ArrayWrapper<UnityEngine::Vector2>, System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::Math::SmallestVector2)> {
   static const MethodInfo* get() {
-    static auto* v = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
+    static auto* v = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")), 1)->byval_arg;
     static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "SmallestVector2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v, indexes});
   }
@@ -781,28 +781,28 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Math::LargestVector2
 // Il2CppName: LargestVector2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(::Array<UnityEngine::Vector2>*)>(&UnityEngine::ProBuilder::Math::LargestVector2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(::ArrayWrapper<UnityEngine::Vector2>)>(&UnityEngine::ProBuilder::Math::LargestVector2)> {
   static const MethodInfo* get() {
-    static auto* v = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
+    static auto* v = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "LargestVector2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Math::LargestVector2
 // Il2CppName: LargestVector2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(::Array<UnityEngine::Vector2>*, ::Array<int>*)>(&UnityEngine::ProBuilder::Math::LargestVector2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(::ArrayWrapper<UnityEngine::Vector2>, ::ArrayWrapper<int>)>(&UnityEngine::ProBuilder::Math::LargestVector2)> {
   static const MethodInfo* get() {
-    static auto* v = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
-    static auto* indexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* v = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")), 1)->byval_arg;
+    static auto* indexes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "LargestVector2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v, indexes});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Math::LargestVector2
 // Il2CppName: LargestVector2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(::Array<UnityEngine::Vector2>*, System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::Math::LargestVector2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(::ArrayWrapper<UnityEngine::Vector2>, System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::Math::LargestVector2)> {
   static const MethodInfo* get() {
-    static auto* v = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
+    static auto* v = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")), 1)->byval_arg;
     static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "LargestVector2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v, indexes});
   }
@@ -810,9 +810,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Math::GetBounds
 // Il2CppName: GetBounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (*)(::Array<UnityEngine::Vector3>*, System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::Math::GetBounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (*)(::ArrayWrapper<UnityEngine::Vector3>, System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::Math::GetBounds)> {
   static const MethodInfo* get() {
-    static auto* positions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
+    static auto* positions = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->byval_arg;
     static auto* indices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "GetBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{positions, indices});
   }
@@ -820,9 +820,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Math::GetBounds
 // Il2CppName: GetBounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (*)(::Array<UnityEngine::Vector3>*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*)>(&UnityEngine::ProBuilder::Math::GetBounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (*)(::ArrayWrapper<UnityEngine::Vector3>, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*)>(&UnityEngine::ProBuilder::Math::GetBounds)> {
   static const MethodInfo* get() {
-    static auto* positions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
+    static auto* positions = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->byval_arg;
     static auto* faces = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "GetBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{positions, faces});
   }
@@ -850,9 +850,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Math::GetBounds
 // Il2CppName: GetBounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (*)(::Array<UnityEngine::Vector3>*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*)>(&UnityEngine::ProBuilder::Math::GetBounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (*)(::ArrayWrapper<UnityEngine::Vector3>, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*)>(&UnityEngine::ProBuilder::Math::GetBounds)> {
   static const MethodInfo* get() {
-    static auto* positions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
+    static auto* positions = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->byval_arg;
     static auto* edges = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "GetBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{positions, edges});
   }

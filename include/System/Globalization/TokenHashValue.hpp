@@ -47,7 +47,7 @@ namespace System::Globalization {
     // Get instance field reference: System.Int32 tokenValue
     int& dyn_tokenValue();
     // System.Void .ctor(System.String tokenString, System.TokenType tokenType, System.Int32 tokenValue)
-    // Offset: 0x1A239EC
+    // Offset: 0x1BDE728
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TokenHashValue* New_ctor(::Il2CppString* tokenString, System::TokenType tokenType, int tokenValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::TokenHashValue::.ctor");

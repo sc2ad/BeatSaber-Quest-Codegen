@@ -26,7 +26,7 @@ namespace UnityEngine::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   class RenderPipeline : public ::Il2CppObject {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xDB9EBC
+    // [DebuggerBrowsableAttribute] Offset: 0xE770E8
     // private System.Boolean <disposed>k__BackingField
     // Size: 0x1
     // Offset: 0x10
@@ -42,22 +42,22 @@ namespace UnityEngine::Rendering {
     // Get instance field reference: private System.Boolean <disposed>k__BackingField
     bool& dyn_$disposed$k__BackingField();
     // public System.Boolean get_disposed()
-    // Offset: 0x1C74ED8
+    // Offset: 0x1E088C0
     bool get_disposed();
     // private System.Void set_disposed(System.Boolean value)
-    // Offset: 0x1C74EE0
+    // Offset: 0x1E088C8
     void set_disposed(bool value);
     // protected System.Void Render(UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras)
     // Offset: 0xFFFFFFFF
-    void Render(UnityEngine::Rendering::ScriptableRenderContext context, ::Array<UnityEngine::Camera*>* cameras);
+    void Render(UnityEngine::Rendering::ScriptableRenderContext context, ::ArrayWrapper<UnityEngine::Camera*> cameras);
     // System.Void InternalRender(UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras)
-    // Offset: 0x1C74E18
-    void InternalRender(UnityEngine::Rendering::ScriptableRenderContext context, ::Array<UnityEngine::Camera*>* cameras);
+    // Offset: 0x1E08800
+    void InternalRender(UnityEngine::Rendering::ScriptableRenderContext context, ::ArrayWrapper<UnityEngine::Camera*> cameras);
     // System.Void Dispose()
-    // Offset: 0x1C74EEC
+    // Offset: 0x1E088D4
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1C74F74
+    // Offset: 0x1E0895C
     void Dispose(bool disposing);
   }; // UnityEngine.Rendering.RenderPipeline
   #pragma pack(pop)
@@ -87,20 +87,20 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Rendering::RenderPipeline::Render
 // Il2CppName: Render
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::RenderPipeline::*)(UnityEngine::Rendering::ScriptableRenderContext, ::Array<UnityEngine::Camera*>*)>(&UnityEngine::Rendering::RenderPipeline::Render)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::RenderPipeline::*)(UnityEngine::Rendering::ScriptableRenderContext, ::ArrayWrapper<UnityEngine::Camera*>)>(&UnityEngine::Rendering::RenderPipeline::Render)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ScriptableRenderContext")->byval_arg;
-    static auto* cameras = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Camera"), 1)->byval_arg;
+    static auto* cameras = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderPipeline*), "Render", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context, cameras});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Rendering::RenderPipeline::InternalRender
 // Il2CppName: InternalRender
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::RenderPipeline::*)(UnityEngine::Rendering::ScriptableRenderContext, ::Array<UnityEngine::Camera*>*)>(&UnityEngine::Rendering::RenderPipeline::InternalRender)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::RenderPipeline::*)(UnityEngine::Rendering::ScriptableRenderContext, ::ArrayWrapper<UnityEngine::Camera*>)>(&UnityEngine::Rendering::RenderPipeline::InternalRender)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ScriptableRenderContext")->byval_arg;
-    static auto* cameras = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Camera"), 1)->byval_arg;
+    static auto* cameras = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderPipeline*), "InternalRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context, cameras});
   }
 };

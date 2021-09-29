@@ -43,14 +43,14 @@ namespace TMPro {
     // Creating value type constructor for type: TMPro_ExtensionMethods
     TMPro_ExtensionMethods() noexcept {}
     // static public System.String ArrayToString(System.Char[] chars)
-    // Offset: 0x145CA1C
-    static ::Il2CppString* ArrayToString(::Array<::Il2CppChar>* chars);
+    // Offset: 0x15C4AAC
+    static ::Il2CppString* ArrayToString(::ArrayWrapper<::Il2CppChar> chars);
     // static public System.String IntToString(System.Int32[] unicodes)
-    // Offset: 0x145CAE0
-    static ::Il2CppString* IntToString(::Array<int>* unicodes);
+    // Offset: 0x15C4B70
+    static ::Il2CppString* IntToString(::ArrayWrapper<int> unicodes);
     // static public System.String IntToString(System.Int32[] unicodes, System.Int32 start, System.Int32 length)
-    // Offset: 0x145CBA0
-    static ::Il2CppString* IntToString(::Array<int>* unicodes, int start, int length);
+    // Offset: 0x15C4C30
+    static ::Il2CppString* IntToString(::ArrayWrapper<int> unicodes, int start, int length);
     // static public System.Int32 FindInstanceID(System.Collections.Generic.List`1<T> list, T target)
     // Offset: 0xFFFFFFFF
     template<class T>
@@ -62,31 +62,31 @@ namespace TMPro {
       return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, list, target);
     }
     // static public System.Boolean Compare(UnityEngine.Color32 a, UnityEngine.Color32 b)
-    // Offset: 0x145CCE8
+    // Offset: 0x15C4D78
     static bool Compare(UnityEngine::Color32 a, UnityEngine::Color32 b);
     // static public System.Boolean CompareRGB(UnityEngine.Color32 a, UnityEngine.Color32 b)
-    // Offset: 0x145CD2C
+    // Offset: 0x15C4DBC
     static bool CompareRGB(UnityEngine::Color32 a, UnityEngine::Color32 b);
     // static public System.Boolean Compare(UnityEngine.Color a, UnityEngine.Color b)
-    // Offset: 0x145CD64
+    // Offset: 0x15C4DF4
     static bool Compare(UnityEngine::Color a, UnityEngine::Color b);
     // static public System.Boolean CompareRGB(UnityEngine.Color a, UnityEngine.Color b)
-    // Offset: 0x145CD94
+    // Offset: 0x15C4E24
     static bool CompareRGB(UnityEngine::Color a, UnityEngine::Color b);
     // static public UnityEngine.Color32 Multiply(UnityEngine.Color32 c1, UnityEngine.Color32 c2)
-    // Offset: 0x145CDBC
+    // Offset: 0x15C4E4C
     static UnityEngine::Color32 Multiply(UnityEngine::Color32 c1, UnityEngine::Color32 c2);
     // static public UnityEngine.Color32 Tint(UnityEngine.Color32 c1, UnityEngine.Color32 c2)
-    // Offset: 0x145CE80
+    // Offset: 0x15C4F10
     static UnityEngine::Color32 Tint(UnityEngine::Color32 c1, UnityEngine::Color32 c2);
     // static public UnityEngine.Color32 Tint(UnityEngine.Color32 c1, System.Single tint)
-    // Offset: 0x145CF44
+    // Offset: 0x15C4FD4
     static UnityEngine::Color32 Tint(UnityEngine::Color32 c1, float tint);
     // static public System.Boolean Compare(UnityEngine.Vector3 v1, UnityEngine.Vector3 v2, System.Int32 accuracy)
-    // Offset: 0x145D0A0
+    // Offset: 0x15C5130
     static bool Compare(UnityEngine::Vector3 v1, UnityEngine::Vector3 v2, int accuracy);
     // static public System.Boolean Compare(UnityEngine.Quaternion q1, UnityEngine.Quaternion q2, System.Int32 accuracy)
-    // Offset: 0x145D160
+    // Offset: 0x15C51F0
     static bool Compare(UnityEngine::Quaternion q1, UnityEngine::Quaternion q2, int accuracy);
   }; // TMPro.TMPro_ExtensionMethods
   #pragma pack(pop)
@@ -96,27 +96,27 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::TMPro_ExtensionMethods*, "TMPro", "TMPro_Extension
 // Writing MetadataGetter for method: TMPro::TMPro_ExtensionMethods::ArrayToString
 // Il2CppName: ArrayToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<::Il2CppChar>*)>(&TMPro::TMPro_ExtensionMethods::ArrayToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<::Il2CppChar>)>(&TMPro::TMPro_ExtensionMethods::ArrayToString)> {
   static const MethodInfo* get() {
-    static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
+    static auto* chars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_ExtensionMethods*), "ArrayToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chars});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMPro_ExtensionMethods::IntToString
 // Il2CppName: IntToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<int>*)>(&TMPro::TMPro_ExtensionMethods::IntToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<int>)>(&TMPro::TMPro_ExtensionMethods::IntToString)> {
   static const MethodInfo* get() {
-    static auto* unicodes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* unicodes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_ExtensionMethods*), "IntToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unicodes});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMPro_ExtensionMethods::IntToString
 // Il2CppName: IntToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<int>*, int, int)>(&TMPro::TMPro_ExtensionMethods::IntToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<int>, int, int)>(&TMPro::TMPro_ExtensionMethods::IntToString)> {
   static const MethodInfo* get() {
-    static auto* unicodes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* unicodes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_ExtensionMethods*), "IntToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unicodes, start, length});

@@ -56,7 +56,7 @@ namespace Valve::VR {
     // Get instance field reference: public System.IntPtr rubTextureMapData
     System::IntPtr& dyn_rubTextureMapData();
     // public System.Void .ctor(Valve.VR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0x23D0894
+    // Offset: 0x25DB4F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderModel_TextureMap_t_Packed(Valve::VR::RenderModel_TextureMap_t unpacked) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::RenderModel_TextureMap_t_Packed::.ctor");
@@ -64,7 +64,7 @@ namespace Valve::VR {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unpacked);
     }
     // public System.Void Unpack(ref Valve.VR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0x23D08A8
+    // Offset: 0x25DB504
     void Unpack(ByRef<Valve::VR::RenderModel_TextureMap_t> unpacked);
   }; // Valve.VR.RenderModel_TextureMap_t_Packed
   #pragma pack(pop)

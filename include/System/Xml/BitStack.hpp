@@ -21,9 +21,9 @@ namespace System::Xml {
     // private System.UInt32[] bitStack
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint>* bitStack;
+    ::ArrayWrapper<uint> bitStack;
     // Field size check
-    static_assert(sizeof(::Array<uint>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
     // private System.Int32 stackPos
     // Size: 0x4
     // Offset: 0x18
@@ -37,30 +37,30 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(uint) == 0x4);
     // Creating value type constructor for type: BitStack
-    BitStack(::Array<uint>* bitStack_ = {}, int stackPos_ = {}, uint curr_ = {}) noexcept : bitStack{bitStack_}, stackPos{stackPos_}, curr{curr_} {}
+    BitStack(::ArrayWrapper<uint> bitStack_ = {}, int stackPos_ = {}, uint curr_ = {}) noexcept : bitStack{bitStack_}, stackPos{stackPos_}, curr{curr_} {}
     // Get instance field reference: private System.UInt32[] bitStack
-    ::Array<uint>*& dyn_bitStack();
+    ::ArrayWrapper<uint>& dyn_bitStack();
     // Get instance field reference: private System.Int32 stackPos
     int& dyn_stackPos();
     // Get instance field reference: private System.UInt32 curr
     uint& dyn_curr();
     // public System.Void PushBit(System.Boolean bit)
-    // Offset: 0x195498C
+    // Offset: 0x1AF57C4
     void PushBit(bool bit);
     // public System.Boolean PopBit()
-    // Offset: 0x1954ABC
+    // Offset: 0x1AF58F4
     bool PopBit();
     // public System.Boolean PeekBit()
-    // Offset: 0x1954B40
+    // Offset: 0x1AF5978
     bool PeekBit();
     // private System.Void PushCurr()
-    // Offset: 0x19549C8
+    // Offset: 0x1AF5800
     void PushCurr();
     // private System.Void PopCurr()
-    // Offset: 0x1954AF0
+    // Offset: 0x1AF5928
     void PopCurr();
     // public System.Void .ctor()
-    // Offset: 0x1954960
+    // Offset: 0x1AF5798
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

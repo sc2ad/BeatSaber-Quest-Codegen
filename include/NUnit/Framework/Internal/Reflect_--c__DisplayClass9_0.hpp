@@ -43,22 +43,22 @@ namespace NUnit::Framework::Internal {
     // public System.Object[] args
     // Size: 0x8
     // Offset: 0x20
-    ::Array<::Il2CppObject*>* args;
+    ::ArrayWrapper<::Il2CppObject*> args;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass9_0
-    $$c__DisplayClass9_0(System::Reflection::MethodInfo* method_ = {}, ::Il2CppObject* fixture_ = {}, ::Array<::Il2CppObject*>* args_ = {}) noexcept : method{method_}, fixture{fixture_}, args{args_} {}
+    $$c__DisplayClass9_0(System::Reflection::MethodInfo* method_ = {}, ::Il2CppObject* fixture_ = {}, ::ArrayWrapper<::Il2CppObject*> args_ = {}) noexcept : method{method_}, fixture{fixture_}, args{args_} {}
     // Get instance field reference: public System.Reflection.MethodInfo method
     System::Reflection::MethodInfo*& dyn_method();
     // Get instance field reference: public System.Object fixture
     ::Il2CppObject*& dyn_fixture();
     // Get instance field reference: public System.Object[] args
-    ::Array<::Il2CppObject*>*& dyn_args();
+    ::ArrayWrapper<::Il2CppObject*>& dyn_args();
     // System.Object <InvokeMethod>b__0()
-    // Offset: 0x2297A2C
+    // Offset: 0x249FD74
     ::Il2CppObject* $InvokeMethod$b__0();
     // public System.Void .ctor()
-    // Offset: 0x22978E0
+    // Offset: 0x249FC28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -68,7 +68,7 @@ namespace NUnit::Framework::Internal {
     }
   }; // NUnit.Framework.Internal.Reflect/NUnit.Framework.Internal.<>c__DisplayClass9_0
   #pragma pack(pop)
-  static check_size<sizeof(Reflect::$$c__DisplayClass9_0), 32 + sizeof(::Array<::Il2CppObject*>*)> __NUnit_Framework_Internal_Reflect_$$c__DisplayClass9_0SizeCheck;
+  static check_size<sizeof(Reflect::$$c__DisplayClass9_0), 32 + sizeof(::ArrayWrapper<::Il2CppObject*>)> __NUnit_Framework_Internal_Reflect_$$c__DisplayClass9_0SizeCheck;
   static_assert(sizeof(Reflect::$$c__DisplayClass9_0) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Reflect::$$c__DisplayClass9_0*, "NUnit.Framework.Internal", "Reflect/<>c__DisplayClass9_0");

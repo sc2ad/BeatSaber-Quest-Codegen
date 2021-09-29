@@ -59,9 +59,9 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: MibIPGlobalProperties
     MibIPGlobalProperties(::Il2CppString* StatisticsFile_ = {}, ::Il2CppString* StatisticsFileIPv6_ = {}, ::Il2CppString* TcpFile_ = {}, ::Il2CppString* Tcp6File_ = {}, ::Il2CppString* UdpFile_ = {}, ::Il2CppString* Udp6File_ = {}) noexcept : StatisticsFile{StatisticsFile_}, StatisticsFileIPv6{StatisticsFileIPv6_}, TcpFile{TcpFile_}, Tcp6File{Tcp6File_}, UdpFile{UdpFile_}, Udp6File{Udp6File_} {}
     // Get static field: static private readonly System.Char[] wsChars
-    static ::Array<::Il2CppChar>* _get_wsChars();
+    static ::ArrayWrapper<::Il2CppChar> _get_wsChars();
     // Set static field: static private readonly System.Char[] wsChars
-    static void _set_wsChars(::Array<::Il2CppChar>* value);
+    static void _set_wsChars(::ArrayWrapper<::Il2CppChar> value);
     // Get instance field reference: public readonly System.String StatisticsFile
     ::Il2CppString*& dyn_StatisticsFile();
     // Get instance field reference: public readonly System.String StatisticsFileIPv6
@@ -75,14 +75,14 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: public readonly System.String Udp6File
     ::Il2CppString*& dyn_Udp6File();
     // public System.Void .ctor(System.String procDir)
-    // Offset: 0x149FB7C
+    // Offset: 0x16457F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MibIPGlobalProperties* New_ctor(::Il2CppString* procDir) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::MibIPGlobalProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MibIPGlobalProperties*, creationType>(procDir)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x14A1004
+    // Offset: 0x1646C80
     static void _cctor();
   }; // System.Net.NetworkInformation.MibIPGlobalProperties
   #pragma pack(pop)

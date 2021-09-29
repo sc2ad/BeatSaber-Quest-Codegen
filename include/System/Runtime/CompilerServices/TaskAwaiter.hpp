@@ -57,32 +57,32 @@ namespace System::Runtime::CompilerServices {
     // Get instance field reference: private readonly System.Threading.Tasks.Task m_task
     System::Threading::Tasks::Task*& dyn_m_task();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x148F220
+    // Offset: 0x15ADD5C
     bool get_IsCompleted();
     // System.Void .ctor(System.Threading.Tasks.Task task)
-    // Offset: 0x148F218
+    // Offset: 0x15ADD54
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  TaskAwaiter(System::Threading::Tasks::Task* task)
     // public System.Void OnCompleted(System.Action continuation)
-    // Offset: 0x148F23C
+    // Offset: 0x15ADD78
     void OnCompleted(System::Action* continuation);
     // public System.Void UnsafeOnCompleted(System.Action continuation)
-    // Offset: 0x148F24C
+    // Offset: 0x15ADD88
     void UnsafeOnCompleted(System::Action* continuation);
     // public System.Void GetResult()
-    // Offset: 0x148F25C
+    // Offset: 0x15ADD98
     void GetResult();
     // static System.Void ValidateEnd(System.Threading.Tasks.Task task)
-    // Offset: 0x148EC00
+    // Offset: 0x15AD73C
     static void ValidateEnd(System::Threading::Tasks::Task* task);
     // static private System.Void HandleNonSuccessAndDebuggerNotification(System.Threading.Tasks.Task task)
-    // Offset: 0x148F264
+    // Offset: 0x15ADDA0
     static void HandleNonSuccessAndDebuggerNotification(System::Threading::Tasks::Task* task);
     // static private System.Void ThrowForNonSuccess(System.Threading.Tasks.Task task)
-    // Offset: 0x148F2D4
+    // Offset: 0x15ADE10
     static void ThrowForNonSuccess(System::Threading::Tasks::Task* task);
     // static System.Void OnCompletedInternal(System.Threading.Tasks.Task task, System.Action continuation, System.Boolean continueOnCapturedContext, System.Boolean flowExecutionContext)
-    // Offset: 0x148EB18
+    // Offset: 0x15AD654
     static void OnCompletedInternal(System::Threading::Tasks::Task* task, System::Action* continuation, bool continueOnCapturedContext, bool flowExecutionContext);
   }; // System.Runtime.CompilerServices.TaskAwaiter
   #pragma pack(pop)

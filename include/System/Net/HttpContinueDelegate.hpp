@@ -37,20 +37,20 @@ namespace System::Net {
     // Creating value type constructor for type: HttpContinueDelegate
     HttpContinueDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1674234
+    // Offset: 0x183F5D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpContinueDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpContinueDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpContinueDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Int32 StatusCode, System.Net.WebHeaderCollection httpHeaders)
-    // Offset: 0x1674244
+    // Offset: 0x183F5E8
     void Invoke(int StatusCode, System::Net::WebHeaderCollection* httpHeaders);
     // public System.IAsyncResult BeginInvoke(System.Int32 StatusCode, System.Net.WebHeaderCollection httpHeaders, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16744C0
+    // Offset: 0x183F864
     System::IAsyncResult* BeginInvoke(int StatusCode, System::Net::WebHeaderCollection* httpHeaders, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1674558
+    // Offset: 0x183F8FC
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Net.HttpContinueDelegate
   #pragma pack(pop)

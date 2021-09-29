@@ -57,43 +57,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.UInt32 <responseId>k__BackingField
     uint& dyn_$responseId$k__BackingField();
     // public System.UInt32 get_requestId()
-    // Offset: 0x133592C
+    // Offset: 0x144CF6C
     uint get_requestId();
     // private System.Void set_requestId(System.UInt32 value)
-    // Offset: 0x1335934
+    // Offset: 0x144CF74
     void set_requestId(uint value);
     // public System.UInt32 get_responseId()
-    // Offset: 0x133593C
+    // Offset: 0x144CF7C
     uint get_responseId();
     // private System.Void set_responseId(System.UInt32 value)
-    // Offset: 0x1335944
+    // Offset: 0x144CF84
     void set_responseId(uint value);
     // public System.Byte get_resultCode()
-    // Offset: 0x133594C
+    // Offset: 0x144CF8C
     uint8_t get_resultCode();
     // public System.String get_resultCodeString()
-    // Offset: 0x1335954
+    // Offset: 0x144CF94
     ::Il2CppString* get_resultCodeString();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x133599C
+    // Offset: 0x144CFDC
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x13359E0
+    // Offset: 0x144D020
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
     // Offset: 0xFFFFFFFF
     void Release();
     // private MasterServer.IMasterServerReliableRequest MasterServer.IMasterServerReliableRequest.WithRequestId(System.UInt32 requestId)
-    // Offset: 0x1335A28
+    // Offset: 0x144D068
     MasterServer::IMasterServerReliableRequest* MasterServer_IMasterServerReliableRequest_WithRequestId(uint requestId);
     // private MasterServer.IMasterServerResponse MasterServer.IMasterServerResponse.WithResponseId(System.UInt32 responseId)
-    // Offset: 0x1335A30
+    // Offset: 0x144D070
     MasterServer::IMasterServerResponse* MasterServer_IMasterServerResponse_WithResponseId(uint responseId);
     // private MasterServer.IMasterServerReliableResponse MasterServer.IMasterServerReliableResponse.WithRequestAndResponseId(System.UInt32 requestId, System.UInt32 responseId)
-    // Offset: 0x1335A38
+    // Offset: 0x144D078
     MasterServer::IMasterServerReliableResponse* MasterServer_IMasterServerReliableResponse_WithRequestAndResponseId(uint requestId, uint responseId);
     // protected System.Void .ctor()
-    // Offset: 0x1335A40
+    // Offset: 0x144D080
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

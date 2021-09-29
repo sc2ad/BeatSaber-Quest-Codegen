@@ -61,14 +61,14 @@ namespace GlobalNamespace {
     UnityEngine::BoxCollider* boxCollider;
     // Field size check
     static_assert(sizeof(UnityEngine::BoxCollider*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3D790
+    // [InjectAttribute] Offset: 0xF05F74
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE3D7A0
+    // [InjectAttribute] Offset: 0xF05F84
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x38
@@ -78,9 +78,9 @@ namespace GlobalNamespace {
     // private Saber[] _sabers
     // Size: 0x8
     // Offset: 0x40
-    ::Array<GlobalNamespace::Saber*>* sabers;
+    ::ArrayWrapper<GlobalNamespace::Saber*> sabers;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::Saber*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::Saber*>) == 0x8);
     // private UnityEngine.Plane _plane
     // Size: 0x10
     // Offset: 0x48
@@ -90,27 +90,27 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector3[] _prevBurnMarkPos
     // Size: 0x8
     // Offset: 0x58
-    ::Array<UnityEngine::Vector3>* prevBurnMarkPos;
+    ::ArrayWrapper<UnityEngine::Vector3> prevBurnMarkPos;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
     // private System.Boolean[] _prevBurnMarkPosValid
     // Size: 0x8
     // Offset: 0x60
-    ::Array<bool>* prevBurnMarkPosValid;
+    ::ArrayWrapper<bool> prevBurnMarkPosValid;
     // Field size check
-    static_assert(sizeof(::Array<bool>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<bool>) == 0x8);
     // private UnityEngine.ParticleSystem[] _burnMarksPS
     // Size: 0x8
     // Offset: 0x68
-    ::Array<UnityEngine::ParticleSystem*>* burnMarksPS;
+    ::ArrayWrapper<UnityEngine::ParticleSystem*> burnMarksPS;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::ParticleSystem*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::ParticleSystem*>) == 0x8);
     // private UnityEngine.ParticleSystem/UnityEngine.EmissionModule[] _burnMarksEmissionModules
     // Size: 0x8
     // Offset: 0x70
-    ::Array<UnityEngine::ParticleSystem::EmissionModule>* burnMarksEmissionModules;
+    ::ArrayWrapper<UnityEngine::ParticleSystem::EmissionModule> burnMarksEmissionModules;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::ParticleSystem::EmissionModule>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::ParticleSystem::EmissionModule>) == 0x8);
     // private UnityEngine.ParticleSystem/UnityEngine.EmitParams _sparklesEmitParams
     // Size: 0x8F
     // Offset: 0x78
@@ -118,7 +118,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::EmitParams) == 0x8F);
     // Creating value type constructor for type: SaberBurnMarkSparkles
-    SaberBurnMarkSparkles(UnityEngine::ParticleSystem* sparklesPS_ = {}, UnityEngine::ParticleSystem* burnMarksPSPrefab_ = {}, UnityEngine::BoxCollider* boxCollider_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, GlobalNamespace::SaberManager* saberManager_ = {}, ::Array<GlobalNamespace::Saber*>* sabers_ = {}, UnityEngine::Plane plane_ = {}, ::Array<UnityEngine::Vector3>* prevBurnMarkPos_ = {}, ::Array<bool>* prevBurnMarkPosValid_ = {}, ::Array<UnityEngine::ParticleSystem*>* burnMarksPS_ = {}, ::Array<UnityEngine::ParticleSystem::EmissionModule>* burnMarksEmissionModules_ = {}, UnityEngine::ParticleSystem::EmitParams sparklesEmitParams_ = {}) noexcept : sparklesPS{sparklesPS_}, burnMarksPSPrefab{burnMarksPSPrefab_}, boxCollider{boxCollider_}, colorManager{colorManager_}, saberManager{saberManager_}, sabers{sabers_}, plane{plane_}, prevBurnMarkPos{prevBurnMarkPos_}, prevBurnMarkPosValid{prevBurnMarkPosValid_}, burnMarksPS{burnMarksPS_}, burnMarksEmissionModules{burnMarksEmissionModules_}, sparklesEmitParams{sparklesEmitParams_} {}
+    SaberBurnMarkSparkles(UnityEngine::ParticleSystem* sparklesPS_ = {}, UnityEngine::ParticleSystem* burnMarksPSPrefab_ = {}, UnityEngine::BoxCollider* boxCollider_ = {}, GlobalNamespace::ColorManager* colorManager_ = {}, GlobalNamespace::SaberManager* saberManager_ = {}, ::ArrayWrapper<GlobalNamespace::Saber*> sabers_ = {}, UnityEngine::Plane plane_ = {}, ::ArrayWrapper<UnityEngine::Vector3> prevBurnMarkPos_ = {}, ::ArrayWrapper<bool> prevBurnMarkPosValid_ = {}, ::ArrayWrapper<UnityEngine::ParticleSystem*> burnMarksPS_ = {}, ::ArrayWrapper<UnityEngine::ParticleSystem::EmissionModule> burnMarksEmissionModules_ = {}, UnityEngine::ParticleSystem::EmitParams sparklesEmitParams_ = {}) noexcept : sparklesPS{sparklesPS_}, burnMarksPSPrefab{burnMarksPSPrefab_}, boxCollider{boxCollider_}, colorManager{colorManager_}, saberManager{saberManager_}, sabers{sabers_}, plane{plane_}, prevBurnMarkPos{prevBurnMarkPos_}, prevBurnMarkPosValid{prevBurnMarkPosValid_}, burnMarksPS{burnMarksPS_}, burnMarksEmissionModules{burnMarksEmissionModules_}, sparklesEmitParams{sparklesEmitParams_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem _sparklesPS
@@ -132,39 +132,39 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly SaberManager _saberManager
     GlobalNamespace::SaberManager*& dyn__saberManager();
     // Get instance field reference: private Saber[] _sabers
-    ::Array<GlobalNamespace::Saber*>*& dyn__sabers();
+    ::ArrayWrapper<GlobalNamespace::Saber*>& dyn__sabers();
     // Get instance field reference: private UnityEngine.Plane _plane
     UnityEngine::Plane& dyn__plane();
     // Get instance field reference: private UnityEngine.Vector3[] _prevBurnMarkPos
-    ::Array<UnityEngine::Vector3>*& dyn__prevBurnMarkPos();
+    ::ArrayWrapper<UnityEngine::Vector3>& dyn__prevBurnMarkPos();
     // Get instance field reference: private System.Boolean[] _prevBurnMarkPosValid
-    ::Array<bool>*& dyn__prevBurnMarkPosValid();
+    ::ArrayWrapper<bool>& dyn__prevBurnMarkPosValid();
     // Get instance field reference: private UnityEngine.ParticleSystem[] _burnMarksPS
-    ::Array<UnityEngine::ParticleSystem*>*& dyn__burnMarksPS();
+    ::ArrayWrapper<UnityEngine::ParticleSystem*>& dyn__burnMarksPS();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule[] _burnMarksEmissionModules
-    ::Array<UnityEngine::ParticleSystem::EmissionModule>*& dyn__burnMarksEmissionModules();
+    ::ArrayWrapper<UnityEngine::ParticleSystem::EmissionModule>& dyn__burnMarksEmissionModules();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _sparklesEmitParams
     UnityEngine::ParticleSystem::EmitParams& dyn__sparklesEmitParams();
     // protected System.Void Start()
-    // Offset: 0x112EE74
+    // Offset: 0x11C84B4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x112F2FC
+    // Offset: 0x11C893C
     void OnDestroy();
     // protected System.Void OnEnable()
-    // Offset: 0x112F408
+    // Offset: 0x11C8A48
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x112F4F8
+    // Offset: 0x11C8B38
     void OnDisable();
     // private System.Boolean GetBurnMarkPos(UnityEngine.Vector3 bladeBottomPos, UnityEngine.Vector3 bladeTopPos, out UnityEngine.Vector3 burnMarkPos)
-    // Offset: 0x112F5E8
+    // Offset: 0x11C8C28
     bool GetBurnMarkPos(UnityEngine::Vector3 bladeBottomPos, UnityEngine::Vector3 bladeTopPos, ByRef<UnityEngine::Vector3> burnMarkPos);
     // protected System.Void LateUpdate()
-    // Offset: 0x112F880
+    // Offset: 0x11C8EC0
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x112FD30
+    // Offset: 0x11C9370
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

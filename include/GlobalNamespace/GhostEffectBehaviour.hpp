@@ -161,15 +161,15 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 distanceMultiplier;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [SpaceAttribute] Offset: 0xE4B870
-    // [TooltipAttribute] Offset: 0xE4B870
+    // [SpaceAttribute] Offset: 0xF1447C
+    // [TooltipAttribute] Offset: 0xF1447C
     // public System.Boolean _useStartTransform
     // Size: 0x1
     // Offset: 0x34
     bool useStartTransform;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xE4B8BC
+    // [TooltipAttribute] Offset: 0xF144C8
     // public System.Boolean _useEndTransform
     // Size: 0x1
     // Offset: 0x35
@@ -178,8 +178,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useEndTransform and: startLocalPosition
     char __padding5[0x2] = {};
-    // [SpaceAttribute] Offset: 0xE4B8F4
-    // [DrawIfAttribute] Offset: 0xE4B8F4
+    // [SpaceAttribute] Offset: 0xF14500
+    // [DrawIfAttribute] Offset: 0xF14500
     // public UnityEngine.Vector3 _startLocalPosition
     // Size: 0xC
     // Offset: 0x38
@@ -188,15 +188,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: startLocalPosition and: startTransform
     char __padding6[0x4] = {};
-    // [DrawIfAttribute] Offset: 0xE4B998
-    // [NullAllowed] Offset: 0xE4B998
+    // [DrawIfAttribute] Offset: 0xF145A4
+    // [NullAllowed] Offset: 0xF145A4
     // public UnityEngine.Transform _startTransform
     // Size: 0x8
     // Offset: 0x48
     UnityEngine::Transform* startTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [DrawIfAttribute] Offset: 0xE4BA40
+    // [DrawIfAttribute] Offset: 0xF1464C
     // public UnityEngine.Vector3 _endLocalPosition
     // Size: 0xC
     // Offset: 0x50
@@ -205,8 +205,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: endLocalPosition and: endTransform
     char __padding8[0x4] = {};
-    // [DrawIfAttribute] Offset: 0xE4BAD4
-    // [NullAllowed] Offset: 0xE4BAD4
+    // [DrawIfAttribute] Offset: 0xF146E0
+    // [NullAllowed] Offset: 0xF146E0
     // public UnityEngine.Transform _endTransform
     // Size: 0x8
     // Offset: 0x60
@@ -219,7 +219,7 @@ namespace GlobalNamespace {
     Tweening::EaseType positionEasing;
     // Field size check
     static_assert(sizeof(Tweening::EaseType) == 0x4);
-    // [SpaceAttribute] Offset: 0xE4BB7C
+    // [SpaceAttribute] Offset: 0xF14788
     // public GhostEffectBehaviour/EndBehavior _endBehavior
     // Size: 0x4
     // Offset: 0x6C
@@ -234,20 +234,20 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: progress and: textMeshPros
     char __padding12[0x4] = {};
-    // [NullAllowed] Offset: 0xE4BB8C
+    // [NullAllowed] Offset: 0xF14798
     // public TMPro.TextMeshPro[] textMeshPros
     // Size: 0x8
     // Offset: 0x78
-    ::Array<TMPro::TextMeshPro*>* textMeshPros;
+    ::ArrayWrapper<TMPro::TextMeshPro*> textMeshPros;
     // Field size check
-    static_assert(sizeof(::Array<TMPro::TextMeshPro*>*) == 0x8);
-    // [NullAllowed] Offset: 0xE4BBC4
+    static_assert(sizeof(::ArrayWrapper<TMPro::TextMeshPro*>) == 0x8);
+    // [NullAllowed] Offset: 0xF147D0
     // public UnityEngine.CanvasGroup[] _canvasGroups
     // Size: 0x8
     // Offset: 0x80
-    ::Array<UnityEngine::CanvasGroup*>* canvasGroups;
+    ::ArrayWrapper<UnityEngine::CanvasGroup*> canvasGroups;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::CanvasGroup*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::CanvasGroup*>) == 0x8);
     // public GhostEffectBehaviour/GhostEffectType _ghostEffectType
     // Size: 0x4
     // Offset: 0x88
@@ -256,7 +256,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GhostEffectBehaviour::GhostEffectType) == 0x4);
     // Padding between fields: ghostEffectType and: ghostEffectTransform
     char __padding15[0x4] = {};
-    // [NullAllowed] Offset: 0xE4BC0C
+    // [NullAllowed] Offset: 0xF14818
     // public UnityEngine.Transform _ghostEffectTransform
     // Size: 0x8
     // Offset: 0x90
@@ -276,7 +276,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: GhostEffectBehaviour
-    GhostEffectBehaviour(UnityEngine::AnimationCurve* alphaCurve_ = {}, UnityEngine::AnimationCurve* sizeCurve_ = {}, UnityEngine::AnimationCurve* distanceCurve_ = {}, UnityEngine::Vector3 distanceMultiplier_ = {}, bool useStartTransform_ = {}, bool useEndTransform_ = {}, UnityEngine::Vector3 startLocalPosition_ = {}, UnityEngine::Transform* startTransform_ = {}, UnityEngine::Vector3 endLocalPosition_ = {}, UnityEngine::Transform* endTransform_ = {}, Tweening::EaseType positionEasing_ = {}, GlobalNamespace::GhostEffectBehaviour::EndBehavior endBehavior_ = {}, float progress_ = {}, ::Array<TMPro::TextMeshPro*>* textMeshPros_ = {}, ::Array<UnityEngine::CanvasGroup*>* canvasGroups_ = {}, GlobalNamespace::GhostEffectBehaviour::GhostEffectType ghostEffectType_ = {}, UnityEngine::Transform* ghostEffectTransform_ = {}, UnityEngine::Vector3 direction_ = {}, bool finished_ = {}) noexcept : alphaCurve{alphaCurve_}, sizeCurve{sizeCurve_}, distanceCurve{distanceCurve_}, distanceMultiplier{distanceMultiplier_}, useStartTransform{useStartTransform_}, useEndTransform{useEndTransform_}, startLocalPosition{startLocalPosition_}, startTransform{startTransform_}, endLocalPosition{endLocalPosition_}, endTransform{endTransform_}, positionEasing{positionEasing_}, endBehavior{endBehavior_}, progress{progress_}, textMeshPros{textMeshPros_}, canvasGroups{canvasGroups_}, ghostEffectType{ghostEffectType_}, ghostEffectTransform{ghostEffectTransform_}, direction{direction_}, finished{finished_} {}
+    GhostEffectBehaviour(UnityEngine::AnimationCurve* alphaCurve_ = {}, UnityEngine::AnimationCurve* sizeCurve_ = {}, UnityEngine::AnimationCurve* distanceCurve_ = {}, UnityEngine::Vector3 distanceMultiplier_ = {}, bool useStartTransform_ = {}, bool useEndTransform_ = {}, UnityEngine::Vector3 startLocalPosition_ = {}, UnityEngine::Transform* startTransform_ = {}, UnityEngine::Vector3 endLocalPosition_ = {}, UnityEngine::Transform* endTransform_ = {}, Tweening::EaseType positionEasing_ = {}, GlobalNamespace::GhostEffectBehaviour::EndBehavior endBehavior_ = {}, float progress_ = {}, ::ArrayWrapper<TMPro::TextMeshPro*> textMeshPros_ = {}, ::ArrayWrapper<UnityEngine::CanvasGroup*> canvasGroups_ = {}, GlobalNamespace::GhostEffectBehaviour::GhostEffectType ghostEffectType_ = {}, UnityEngine::Transform* ghostEffectTransform_ = {}, UnityEngine::Vector3 direction_ = {}, bool finished_ = {}) noexcept : alphaCurve{alphaCurve_}, sizeCurve{sizeCurve_}, distanceCurve{distanceCurve_}, distanceMultiplier{distanceMultiplier_}, useStartTransform{useStartTransform_}, useEndTransform{useEndTransform_}, startLocalPosition{startLocalPosition_}, startTransform{startTransform_}, endLocalPosition{endLocalPosition_}, endTransform{endTransform_}, positionEasing{positionEasing_}, endBehavior{endBehavior_}, progress{progress_}, textMeshPros{textMeshPros_}, canvasGroups{canvasGroups_}, ghostEffectType{ghostEffectType_}, ghostEffectTransform{ghostEffectTransform_}, direction{direction_}, finished{finished_} {}
     // Get instance field reference: public UnityEngine.AnimationCurve alphaCurve
     UnityEngine::AnimationCurve*& dyn_alphaCurve();
     // Get instance field reference: public UnityEngine.AnimationCurve sizeCurve
@@ -304,9 +304,9 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single progress
     float& dyn_progress();
     // Get instance field reference: public TMPro.TextMeshPro[] textMeshPros
-    ::Array<TMPro::TextMeshPro*>*& dyn_textMeshPros();
+    ::ArrayWrapper<TMPro::TextMeshPro*>& dyn_textMeshPros();
     // Get instance field reference: public UnityEngine.CanvasGroup[] _canvasGroups
-    ::Array<UnityEngine::CanvasGroup*>*& dyn__canvasGroups();
+    ::ArrayWrapper<UnityEngine::CanvasGroup*>& dyn__canvasGroups();
     // Get instance field reference: public GhostEffectBehaviour/GhostEffectType _ghostEffectType
     GlobalNamespace::GhostEffectBehaviour::GhostEffectType& dyn__ghostEffectType();
     // Get instance field reference: public UnityEngine.Transform _ghostEffectTransform
@@ -316,10 +316,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _finished
     bool& dyn__finished();
     // private System.Void EnableObjects(System.Boolean on)
-    // Offset: 0x11053D8
+    // Offset: 0x11401F4
     void EnableObjects(bool on);
     // public System.Void .ctor()
-    // Offset: 0x11059A0
+    // Offset: 0x11407BC
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -329,12 +329,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GhostEffectBehaviour*, creationType>()));
     }
     // public override System.Void OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x110527C
+    // Offset: 0x1140098
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPlay(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x1105500
+    // Offset: 0x114031C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);

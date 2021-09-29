@@ -30,20 +30,20 @@ namespace GlobalNamespace {
     // private TMPro.TMP_Text[] _texts
     // Size: 0x8
     // Offset: 0x18
-    ::Array<TMPro::TMP_Text*>* texts;
+    ::ArrayWrapper<TMPro::TMP_Text*> texts;
     // Field size check
-    static_assert(sizeof(::Array<TMPro::TMP_Text*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<TMPro::TMP_Text*>) == 0x8);
     // Creating value type constructor for type: TextMeshProAutosizeGroup
-    TextMeshProAutosizeGroup(::Array<TMPro::TMP_Text*>* texts_ = {}) noexcept : texts{texts_} {}
+    TextMeshProAutosizeGroup(::ArrayWrapper<TMPro::TMP_Text*> texts_ = {}) noexcept : texts{texts_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TMP_Text[] _texts
-    ::Array<TMPro::TMP_Text*>*& dyn__texts();
+    ::ArrayWrapper<TMPro::TMP_Text*>& dyn__texts();
     // protected System.Void Start()
-    // Offset: 0x23B05E0
+    // Offset: 0x25B5504
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x23B0744
+    // Offset: 0x25B5668
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     }
   }; // TextMeshProAutosizeGroup
   #pragma pack(pop)
-  static check_size<sizeof(TextMeshProAutosizeGroup), 24 + sizeof(::Array<TMPro::TMP_Text*>*)> __GlobalNamespace_TextMeshProAutosizeGroupSizeCheck;
+  static check_size<sizeof(TextMeshProAutosizeGroup), 24 + sizeof(::ArrayWrapper<TMPro::TMP_Text*>)> __GlobalNamespace_TextMeshProAutosizeGroupSizeCheck;
   static_assert(sizeof(TextMeshProAutosizeGroup) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextMeshProAutosizeGroup*, "", "TextMeshProAutosizeGroup");

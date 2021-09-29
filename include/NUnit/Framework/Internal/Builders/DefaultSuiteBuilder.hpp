@@ -64,22 +64,22 @@ namespace NUnit::Framework::Internal::Builders {
     // Get instance field reference: private NUnit.Framework.Internal.Builders.NUnitTestFixtureBuilder _defaultBuilder
     NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*& dyn__defaultBuilder();
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x1778A44
+    // Offset: 0x1937A90
     bool CanBuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x1778D18
+    // Offset: 0x1937D64
     NUnit::Framework::Internal::TestSuite* BuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // private NUnit.Framework.Internal.TestSuite BuildMultipleFixtures(NUnit.Framework.Interfaces.ITypeInfo typeInfo, System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestSuite> fixtures)
-    // Offset: 0x1779734
+    // Offset: 0x1938780
     NUnit::Framework::Internal::TestSuite* BuildMultipleFixtures(NUnit::Framework::Interfaces::ITypeInfo* typeInfo, System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>* fixtures);
     // private NUnit.Framework.Interfaces.IFixtureBuilder[] GetFixtureBuilderAttributes(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x17793B0
-    ::Array<NUnit::Framework::Interfaces::IFixtureBuilder*>* GetFixtureBuilderAttributes(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
+    // Offset: 0x19383FC
+    ::ArrayWrapper<NUnit::Framework::Interfaces::IFixtureBuilder*> GetFixtureBuilderAttributes(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // private System.Boolean HasArguments(NUnit.Framework.Interfaces.IFixtureBuilder attr)
-    // Offset: 0x1779AF0
+    // Offset: 0x1938B3C
     bool HasArguments(NUnit::Framework::Interfaces::IFixtureBuilder* attr);
     // public System.Void .ctor()
-    // Offset: 0x1767750
+    // Offset: 0x192679C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::GetFixtureBuilderAttributes
 // Il2CppName: GetFixtureBuilderAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<NUnit::Framework::Interfaces::IFixtureBuilder*>* (NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::GetFixtureBuilderAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<NUnit::Framework::Interfaces::IFixtureBuilder*> (NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::GetFixtureBuilderAttributes)> {
   static const MethodInfo* get() {
     static auto* typeInfo = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITypeInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::DefaultSuiteBuilder*), "GetFixtureBuilderAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeInfo});

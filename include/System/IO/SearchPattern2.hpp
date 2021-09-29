@@ -56,13 +56,13 @@ namespace System::IO {
     // Creating value type constructor for type: SearchPattern2
     SearchPattern2(System::IO::SearchPattern2::Op* ops_ = {}, bool ignore_ = {}, bool hasWildcard_ = {}, ::Il2CppString* pattern_ = {}) noexcept : ops{ops_}, ignore{ignore_}, hasWildcard{hasWildcard_}, pattern{pattern_} {}
     // Get static field: static readonly System.Char[] WildcardChars
-    static ::Array<::Il2CppChar>* _get_WildcardChars();
+    static ::ArrayWrapper<::Il2CppChar> _get_WildcardChars();
     // Set static field: static readonly System.Char[] WildcardChars
-    static void _set_WildcardChars(::Array<::Il2CppChar>* value);
+    static void _set_WildcardChars(::ArrayWrapper<::Il2CppChar> value);
     // Get static field: static readonly System.Char[] InvalidChars
-    static ::Array<::Il2CppChar>* _get_InvalidChars();
+    static ::ArrayWrapper<::Il2CppChar> _get_InvalidChars();
     // Set static field: static readonly System.Char[] InvalidChars
-    static void _set_InvalidChars(::Array<::Il2CppChar>* value);
+    static void _set_InvalidChars(::ArrayWrapper<::Il2CppChar> value);
     // Get instance field reference: private System.IO.SearchPattern2/System.IO.Op ops
     System::IO::SearchPattern2::Op*& dyn_ops();
     // Get instance field reference: private System.Boolean ignore
@@ -72,27 +72,27 @@ namespace System::IO {
     // Get instance field reference: private System.String pattern
     ::Il2CppString*& dyn_pattern();
     // public System.Boolean get_HasWildcard()
-    // Offset: 0x18C5370
+    // Offset: 0x1A3400C
     bool get_HasWildcard();
     // public System.Void .ctor(System.String pattern)
-    // Offset: 0x18C42E4
+    // Offset: 0x1A32F78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchPattern2* New_ctor(::Il2CppString* pattern) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchPattern2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SearchPattern2*, creationType>(pattern)));
     }
     // public System.Void .ctor(System.String pattern, System.Boolean ignore)
-    // Offset: 0x18C5044
+    // Offset: 0x1A33CE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchPattern2* New_ctor(::Il2CppString* pattern, bool ignore) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchPattern2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SearchPattern2*, creationType>(pattern, ignore)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x18C53A8
+    // Offset: 0x1A34044
     static void _cctor();
     // private System.Void Compile(System.String pattern)
-    // Offset: 0x18C508C
+    // Offset: 0x1A33D28
     void Compile(::Il2CppString* pattern);
   }; // System.IO.SearchPattern2
   #pragma pack(pop)

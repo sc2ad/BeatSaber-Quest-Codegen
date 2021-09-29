@@ -46,64 +46,64 @@ namespace Org::BouncyCastle::Asn1 {
     // private readonly System.Byte[] octets
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* octets;
+    ::ArrayWrapper<uint8_t> octets;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: DerApplicationSpecific
-    DerApplicationSpecific(bool isConstructed_ = {}, int tag_ = {}, ::Array<uint8_t>* octets_ = {}) noexcept : isConstructed{isConstructed_}, tag{tag_}, octets{octets_} {}
+    DerApplicationSpecific(bool isConstructed_ = {}, int tag_ = {}, ::ArrayWrapper<uint8_t> octets_ = {}) noexcept : isConstructed{isConstructed_}, tag{tag_}, octets{octets_} {}
     // Get instance field reference: private readonly System.Boolean isConstructed
     bool& dyn_isConstructed();
     // Get instance field reference: private readonly System.Int32 tag
     int& dyn_tag();
     // Get instance field reference: private readonly System.Byte[] octets
-    ::Array<uint8_t>*& dyn_octets();
+    ::ArrayWrapper<uint8_t>& dyn_octets();
     // public System.Int32 get_ApplicationTag()
-    // Offset: 0x173B5EC
+    // Offset: 0x18ECDC4
     int get_ApplicationTag();
     // System.Void .ctor(System.Boolean isConstructed, System.Int32 tag, System.Byte[] octets)
-    // Offset: 0x172DF6C
+    // Offset: 0x18DF744
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DerApplicationSpecific* New_ctor(bool isConstructed, int tag, ::Array<uint8_t>* octets) {
+    static DerApplicationSpecific* New_ctor(bool isConstructed, int tag, ::ArrayWrapper<uint8_t> octets) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerApplicationSpecific::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerApplicationSpecific*, creationType>(isConstructed, tag, octets)));
     }
     // public System.Void .ctor(System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1EncodableVector vec)
-    // Offset: 0x1734AE4
+    // Offset: 0x18E62BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerApplicationSpecific* New_ctor(int tagNo, Org::BouncyCastle::Asn1::Asn1EncodableVector* vec) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerApplicationSpecific::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerApplicationSpecific*, creationType>(tagNo, vec)));
     }
     // public System.Boolean IsConstructed()
-    // Offset: 0x173B5DC
+    // Offset: 0x18ECDB4
     bool IsConstructed();
     // public System.Byte[] GetContents()
-    // Offset: 0x173B5E4
-    ::Array<uint8_t>* GetContents();
+    // Offset: 0x18ECDBC
+    ::ArrayWrapper<uint8_t> GetContents();
     // public Org.BouncyCastle.Asn1.Asn1Object GetObject(System.Int32 derTagNo)
-    // Offset: 0x173B5F4
+    // Offset: 0x18ECDCC
     Org::BouncyCastle::Asn1::Asn1Object* GetObject(int derTagNo);
     // private System.Byte[] ReplaceTagNumber(System.Int32 newTag, System.Byte[] input)
-    // Offset: 0x173B6D8
-    ::Array<uint8_t>* ReplaceTagNumber(int newTag, ::Array<uint8_t>* input);
+    // Offset: 0x18ECEB0
+    ::ArrayWrapper<uint8_t> ReplaceTagNumber(int newTag, ::ArrayWrapper<uint8_t> input);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x173B828
+    // Offset: 0x18ED000
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x173B8B4
+    // Offset: 0x18ED08C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x173B9BC
+    // Offset: 0x18ED194
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
   }; // Org.BouncyCastle.Asn1.DerApplicationSpecific
   #pragma pack(pop)
-  static check_size<sizeof(DerApplicationSpecific), 24 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Asn1_DerApplicationSpecificSizeCheck;
+  static check_size<sizeof(DerApplicationSpecific), 24 + sizeof(::ArrayWrapper<uint8_t>)> __Org_BouncyCastle_Asn1_DerApplicationSpecificSizeCheck;
   static_assert(sizeof(DerApplicationSpecific) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerApplicationSpecific*, "Org.BouncyCastle.Asn1", "DerApplicationSpecific");
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerApplicationSpecific::GetContents
 // Il2CppName: GetContents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Asn1::DerApplicationSpecific::*)()>(&Org::BouncyCastle::Asn1::DerApplicationSpecific::GetContents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Asn1::DerApplicationSpecific::*)()>(&Org::BouncyCastle::Asn1::DerApplicationSpecific::GetContents)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerApplicationSpecific*), "GetContents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -152,10 +152,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerApplicationSpecific::ReplaceTagNumber
 // Il2CppName: ReplaceTagNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Asn1::DerApplicationSpecific::*)(int, ::Array<uint8_t>*)>(&Org::BouncyCastle::Asn1::DerApplicationSpecific::ReplaceTagNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Asn1::DerApplicationSpecific::*)(int, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Asn1::DerApplicationSpecific::ReplaceTagNumber)> {
   static const MethodInfo* get() {
     static auto* newTag = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerApplicationSpecific*), "ReplaceTagNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newTag, input});
   }
 };

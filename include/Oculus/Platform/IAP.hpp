@@ -36,25 +36,25 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: IAP
     IAP() noexcept {}
     // static public Oculus.Platform.Request ConsumePurchase(System.String sku)
-    // Offset: 0x1523F68
+    // Offset: 0x16ACCB0
     static Oculus::Platform::Request* ConsumePurchase(::Il2CppString* sku);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ProductList> GetProductsBySKU(System.String[] skus)
-    // Offset: 0x152407C
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::ProductList*>* GetProductsBySKU(::Array<::Il2CppString*>* skus);
+    // Offset: 0x16ACDC4
+    static Oculus::Platform::Request_1<Oculus::Platform::Models::ProductList*>* GetProductsBySKU(::ArrayWrapper<::Il2CppString*> skus);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.PurchaseList> GetViewerPurchases()
-    // Offset: 0x15241AC
+    // Offset: 0x16ACEF4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::PurchaseList*>* GetViewerPurchases();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.PurchaseList> GetViewerPurchasesDurableCache()
-    // Offset: 0x15242B8
+    // Offset: 0x16AD000
     static Oculus::Platform::Request_1<Oculus::Platform::Models::PurchaseList*>* GetViewerPurchasesDurableCache();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Purchase> LaunchCheckoutFlow(System.String sku)
-    // Offset: 0x15243C4
+    // Offset: 0x16AD10C
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Purchase*>* LaunchCheckoutFlow(::Il2CppString* sku);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ProductList> GetNextProductListPage(Oculus.Platform.Models.ProductList list)
-    // Offset: 0x1524528
+    // Offset: 0x16AD270
     static Oculus::Platform::Request_1<Oculus::Platform::Models::ProductList*>* GetNextProductListPage(Oculus::Platform::Models::ProductList* list);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.PurchaseList> GetNextPurchaseListPage(Oculus.Platform.Models.PurchaseList list)
-    // Offset: 0x15246A4
+    // Offset: 0x16AD3EC
     static Oculus::Platform::Request_1<Oculus::Platform::Models::PurchaseList*>* GetNextPurchaseListPage(Oculus::Platform::Models::PurchaseList* list);
   }; // Oculus.Platform.IAP
   #pragma pack(pop)
@@ -74,9 +74,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::IAP::GetProductsBySKU
 // Il2CppName: GetProductsBySKU
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::ProductList*>* (*)(::Array<::Il2CppString*>*)>(&Oculus::Platform::IAP::GetProductsBySKU)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::ProductList*>* (*)(::ArrayWrapper<::Il2CppString*>)>(&Oculus::Platform::IAP::GetProductsBySKU)> {
   static const MethodInfo* get() {
-    static auto* skus = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* skus = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::IAP*), "GetProductsBySKU", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{skus});
   }
 };

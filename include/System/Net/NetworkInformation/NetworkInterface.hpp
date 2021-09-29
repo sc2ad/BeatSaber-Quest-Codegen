@@ -32,22 +32,22 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: NetworkInterface
     NetworkInterface() noexcept {}
     // public System.String get_Name()
-    // Offset: 0x14A13A4
+    // Offset: 0x1647020
     ::Il2CppString* get_Name();
     // public System.Net.NetworkInformation.OperationalStatus get_OperationalStatus()
-    // Offset: 0x14A1464
+    // Offset: 0x16470E0
     System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
     // public System.Net.NetworkInformation.NetworkInterfaceType get_NetworkInterfaceType()
-    // Offset: 0x14A14C4
+    // Offset: 0x1647140
     System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
     // static public System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
-    // Offset: 0x14A1240
-    static ::Array<System::Net::NetworkInformation::NetworkInterface*>* GetAllNetworkInterfaces();
+    // Offset: 0x1646EBC
+    static ::ArrayWrapper<System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();
     // public System.Net.NetworkInformation.IPInterfaceProperties GetIPProperties()
-    // Offset: 0x14A1404
+    // Offset: 0x1647080
     System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
     // protected System.Void .ctor()
-    // Offset: 0x14A1524
+    // Offset: 0x16471A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterface::GetAllNetworkInterfaces
 // Il2CppName: GetAllNetworkInterfaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Net::NetworkInformation::NetworkInterface*>* (*)()>(&System::Net::NetworkInformation::NetworkInterface::GetAllNetworkInterfaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Net::NetworkInformation::NetworkInterface*> (*)()>(&System::Net::NetworkInformation::NetworkInterface::GetAllNetworkInterfaces)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterface*), "GetAllNetworkInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

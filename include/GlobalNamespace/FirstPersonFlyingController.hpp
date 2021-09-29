@@ -94,9 +94,9 @@ namespace GlobalNamespace {
     // private UnityEngine.GameObject[] _controllerModels
     // Size: 0x8
     // Offset: 0x50
-    ::Array<UnityEngine::GameObject*>* controllerModels;
+    ::ArrayWrapper<UnityEngine::GameObject*> controllerModels;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::GameObject*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
     // private MouseLook _mouseLook
     // Size: 0x8
     // Offset: 0x58
@@ -110,7 +110,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
     // Creating value type constructor for type: FirstPersonFlyingController
-    FirstPersonFlyingController(float moveSensitivity_ = {}, UnityEngine::Camera* camera_ = {}, float cameraFov_ = {}, GlobalNamespace::VRCenterAdjust* centerAdjust_ = {}, GlobalNamespace::VRController* controller0_ = {}, GlobalNamespace::VRController* controller1_ = {}, VRUIControls::VRInputModule* vrInputModule_ = {}, ::Array<UnityEngine::GameObject*>* controllerModels_ = {}, GlobalNamespace::MouseLook* mouseLook_ = {}, UnityEngine::Transform* cameraTransform_ = {}) noexcept : moveSensitivity{moveSensitivity_}, camera{camera_}, cameraFov{cameraFov_}, centerAdjust{centerAdjust_}, controller0{controller0_}, controller1{controller1_}, vrInputModule{vrInputModule_}, controllerModels{controllerModels_}, mouseLook{mouseLook_}, cameraTransform{cameraTransform_} {}
+    FirstPersonFlyingController(float moveSensitivity_ = {}, UnityEngine::Camera* camera_ = {}, float cameraFov_ = {}, GlobalNamespace::VRCenterAdjust* centerAdjust_ = {}, GlobalNamespace::VRController* controller0_ = {}, GlobalNamespace::VRController* controller1_ = {}, VRUIControls::VRInputModule* vrInputModule_ = {}, ::ArrayWrapper<UnityEngine::GameObject*> controllerModels_ = {}, GlobalNamespace::MouseLook* mouseLook_ = {}, UnityEngine::Transform* cameraTransform_ = {}) noexcept : moveSensitivity{moveSensitivity_}, camera{camera_}, cameraFov{cameraFov_}, centerAdjust{centerAdjust_}, controller0{controller0_}, controller1{controller1_}, vrInputModule{vrInputModule_}, controllerModels{controllerModels_}, mouseLook{mouseLook_}, cameraTransform{cameraTransform_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _moveSensitivity
@@ -128,28 +128,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private VRUIControls.VRInputModule _vrInputModule
     VRUIControls::VRInputModule*& dyn__vrInputModule();
     // Get instance field reference: private UnityEngine.GameObject[] _controllerModels
-    ::Array<UnityEngine::GameObject*>*& dyn__controllerModels();
+    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__controllerModels();
     // Get instance field reference: private MouseLook _mouseLook
     GlobalNamespace::MouseLook*& dyn__mouseLook();
     // Get instance field reference: private UnityEngine.Transform _cameraTransform
     UnityEngine::Transform*& dyn__cameraTransform();
     // protected System.Void Awake()
-    // Offset: 0x105F348
+    // Offset: 0x11B817C
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x105F354
+    // Offset: 0x11B8188
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x105F570
+    // Offset: 0x11B83A4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x105F5A4
+    // Offset: 0x11B83D8
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0x105F5D4
+    // Offset: 0x11B8408
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x105F9CC
+    // Offset: 0x11B8800
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -24,16 +24,16 @@ namespace System {
     // Creating value type constructor for type: IriHelper
     IriHelper() noexcept {}
     // static System.Boolean CheckIriUnicodeRange(System.Char unicode, System.Boolean isQuery)
-    // Offset: 0x18C7400
+    // Offset: 0x156C098
     static bool CheckIriUnicodeRange(::Il2CppChar unicode, bool isQuery);
     // static System.Boolean CheckIriUnicodeRange(System.Char highSurr, System.Char lowSurr, ref System.Boolean surrogatePair, System.Boolean isQuery)
-    // Offset: 0x18C7458
+    // Offset: 0x156C0F0
     static bool CheckIriUnicodeRange(::Il2CppChar highSurr, ::Il2CppChar lowSurr, ByRef<bool> surrogatePair, bool isQuery);
     // static System.Boolean CheckIsReserved(System.Char ch, System.UriComponents component)
-    // Offset: 0x18C7914
+    // Offset: 0x156C5AC
     static bool CheckIsReserved(::Il2CppChar ch, System::UriComponents component);
     // static System.String EscapeUnescapeIri(System.Char* pInput, System.Int32 start, System.Int32 end, System.UriComponents component)
-    // Offset: 0x18C7A78
+    // Offset: 0x156C710
     static ::Il2CppString* EscapeUnescapeIri(::Il2CppChar* pInput, int start, int end, System::UriComponents component);
   }; // System.IriHelper
   #pragma pack(pop)

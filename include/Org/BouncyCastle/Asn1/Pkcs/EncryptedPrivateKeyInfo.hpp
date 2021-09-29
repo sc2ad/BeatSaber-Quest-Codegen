@@ -55,23 +55,23 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1OctetString data
     Org::BouncyCastle::Asn1::Asn1OctetString*& dyn_data();
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_EncryptionAlgorithm()
-    // Offset: 0x17B7A80
+    // Offset: 0x19702E8
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_EncryptionAlgorithm();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x17B7800
+    // Offset: 0x1970068
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncryptedPrivateKeyInfo* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncryptedPrivateKeyInfo*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.Pkcs.EncryptedPrivateKeyInfo GetInstance(System.Object obj)
-    // Offset: 0x17B7900
+    // Offset: 0x1970168
     static Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* GetInstance(::Il2CppObject* obj);
     // public System.Byte[] GetEncryptedData()
-    // Offset: 0x17B7A88
-    ::Array<uint8_t>* GetEncryptedData();
+    // Offset: 0x19702F0
+    ::ArrayWrapper<uint8_t> GetEncryptedData();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x17B7AA8
+    // Offset: 0x1970310
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo::GetEncryptedData
 // Il2CppName: GetEncryptedData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo::*)()>(&Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo::GetEncryptedData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo::*)()>(&Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo::GetEncryptedData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*), "GetEncryptedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

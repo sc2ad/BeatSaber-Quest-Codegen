@@ -79,7 +79,7 @@ namespace Oculus::Platform {
       // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.String,System.Object> parameters
       System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>*& dyn_parameters();
       // public System.Void .ctor(System.String key_, Oculus.Platform.MatchmakingCriterionImportance importance_)
-      // Offset: 0x1527610
+      // Offset: 0x16B0358
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       Criterion(::Il2CppString* key_, Oculus::Platform::MatchmakingCriterionImportance importance_) {
         static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Matchmaking::CustomQuery::Criterion::.ctor");
@@ -99,20 +99,20 @@ namespace Oculus::Platform {
     // public Oculus.Platform.Matchmaking/Oculus.Platform.CustomQuery/Oculus.Platform.Criterion[] criteria
     // Size: 0x8
     // Offset: 0x18
-    ::Array<Oculus::Platform::Matchmaking::CustomQuery::Criterion>* criteria;
+    ::ArrayWrapper<Oculus::Platform::Matchmaking::CustomQuery::Criterion> criteria;
     // Field size check
-    static_assert(sizeof(::Array<Oculus::Platform::Matchmaking::CustomQuery::Criterion>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<Oculus::Platform::Matchmaking::CustomQuery::Criterion>) == 0x8);
     // Creating value type constructor for type: CustomQuery
-    CustomQuery(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* data_ = {}, ::Array<Oculus::Platform::Matchmaking::CustomQuery::Criterion>* criteria_ = {}) noexcept : data{data_}, criteria{criteria_} {}
+    CustomQuery(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* data_ = {}, ::ArrayWrapper<Oculus::Platform::Matchmaking::CustomQuery::Criterion> criteria_ = {}) noexcept : data{data_}, criteria{criteria_} {}
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.String,System.Object> data
     System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>*& dyn_data();
     // Get instance field reference: public Oculus.Platform.Matchmaking/Oculus.Platform.CustomQuery/Oculus.Platform.Criterion[] criteria
-    ::Array<Oculus::Platform::Matchmaking::CustomQuery::Criterion>*& dyn_criteria();
+    ::ArrayWrapper<Oculus::Platform::Matchmaking::CustomQuery::Criterion>& dyn_criteria();
     // public System.IntPtr ToUnmanaged()
-    // Offset: 0x152612C
+    // Offset: 0x16AEE74
     System::IntPtr ToUnmanaged();
     // public System.Void .ctor()
-    // Offset: 0x1527608
+    // Offset: 0x16B0350
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -122,7 +122,7 @@ namespace Oculus::Platform {
     }
   }; // Oculus.Platform.Matchmaking/Oculus.Platform.CustomQuery
   #pragma pack(pop)
-  static check_size<sizeof(Matchmaking::CustomQuery), 24 + sizeof(::Array<Oculus::Platform::Matchmaking::CustomQuery::Criterion>*)> __Oculus_Platform_Matchmaking_CustomQuerySizeCheck;
+  static check_size<sizeof(Matchmaking::CustomQuery), 24 + sizeof(::ArrayWrapper<Oculus::Platform::Matchmaking::CustomQuery::Criterion>)> __Oculus_Platform_Matchmaking_CustomQuerySizeCheck;
   static_assert(sizeof(Matchmaking::CustomQuery) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Matchmaking::CustomQuery*, "Oculus.Platform", "Matchmaking/CustomQuery");

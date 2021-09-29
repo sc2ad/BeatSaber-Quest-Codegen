@@ -40,38 +40,38 @@ namespace NUnit::Framework::Internal::Commands {
     // private readonly System.Object[] arguments
     // Size: 0x8
     // Offset: 0x20
-    ::Array<::Il2CppObject*>* arguments;
+    ::ArrayWrapper<::Il2CppObject*> arguments;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
     // Creating value type constructor for type: TestMethodCommand
-    TestMethodCommand(NUnit::Framework::Internal::TestMethod* testMethod_ = {}, ::Array<::Il2CppObject*>* arguments_ = {}) noexcept : testMethod{testMethod_}, arguments{arguments_} {}
+    TestMethodCommand(NUnit::Framework::Internal::TestMethod* testMethod_ = {}, ::ArrayWrapper<::Il2CppObject*> arguments_ = {}) noexcept : testMethod{testMethod_}, arguments{arguments_} {}
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestMethod testMethod
     NUnit::Framework::Internal::TestMethod*& dyn_testMethod();
     // Get instance field reference: private readonly System.Object[] arguments
-    ::Array<::Il2CppObject*>*& dyn_arguments();
+    ::ArrayWrapper<::Il2CppObject*>& dyn_arguments();
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)
-    // Offset: 0x177F17C
+    // Offset: 0x193E1C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestMethodCommand* New_ctor(NUnit::Framework::Internal::TestMethod* testMethod) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::TestMethodCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestMethodCommand*, creationType>(testMethod)));
     }
     // private System.Object RunTestMethod(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x177F35C
+    // Offset: 0x193E3A8
     ::Il2CppObject* RunTestMethod(NUnit::Framework::Internal::ITestExecutionContext* context);
     // private System.Object RunNonAsyncTestMethod(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x177F360
+    // Offset: 0x193E3AC
     ::Il2CppObject* RunNonAsyncTestMethod(NUnit::Framework::Internal::ITestExecutionContext* context);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x177F1C0
+    // Offset: 0x193E20C
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // NUnit.Framework.Internal.Commands.TestMethodCommand
   #pragma pack(pop)
-  static check_size<sizeof(TestMethodCommand), 32 + sizeof(::Array<::Il2CppObject*>*)> __NUnit_Framework_Internal_Commands_TestMethodCommandSizeCheck;
+  static check_size<sizeof(TestMethodCommand), 32 + sizeof(::ArrayWrapper<::Il2CppObject*>)> __NUnit_Framework_Internal_Commands_TestMethodCommandSizeCheck;
   static_assert(sizeof(TestMethodCommand) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::TestMethodCommand*, "NUnit.Framework.Internal.Commands", "TestMethodCommand");

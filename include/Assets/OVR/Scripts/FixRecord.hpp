@@ -47,9 +47,9 @@ namespace Assets::OVR::Scripts {
     // public System.String[] buttonNames
     // Size: 0x8
     // Offset: 0x30
-    ::Array<::Il2CppString*>* buttonNames;
+    ::ArrayWrapper<::Il2CppString*> buttonNames;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // public System.Boolean editModeRequired
     // Size: 0x1
     // Offset: 0x38
@@ -63,21 +63,21 @@ namespace Assets::OVR::Scripts {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: FixRecord
-    FixRecord(Assets::OVR::Scripts::FixMethodDelegate* fixMethod_ = {}, UnityEngine::Object* targetObject_ = {}, ::Array<::Il2CppString*>* buttonNames_ = {}, bool editModeRequired_ = {}, bool complete_ = {}) noexcept : fixMethod{fixMethod_}, targetObject{targetObject_}, buttonNames{buttonNames_}, editModeRequired{editModeRequired_}, complete{complete_} {}
+    FixRecord(Assets::OVR::Scripts::FixMethodDelegate* fixMethod_ = {}, UnityEngine::Object* targetObject_ = {}, ::ArrayWrapper<::Il2CppString*> buttonNames_ = {}, bool editModeRequired_ = {}, bool complete_ = {}) noexcept : fixMethod{fixMethod_}, targetObject{targetObject_}, buttonNames{buttonNames_}, editModeRequired{editModeRequired_}, complete{complete_} {}
     // Get instance field reference: public Assets.OVR.Scripts.FixMethodDelegate fixMethod
     Assets::OVR::Scripts::FixMethodDelegate*& dyn_fixMethod();
     // Get instance field reference: public UnityEngine.Object targetObject
     UnityEngine::Object*& dyn_targetObject();
     // Get instance field reference: public System.String[] buttonNames
-    ::Array<::Il2CppString*>*& dyn_buttonNames();
+    ::ArrayWrapper<::Il2CppString*>& dyn_buttonNames();
     // Get instance field reference: public System.Boolean editModeRequired
     bool& dyn_editModeRequired();
     // Get instance field reference: public System.Boolean complete
     bool& dyn_complete();
     // public System.Void .ctor(System.String cat, System.String msg, Assets.OVR.Scripts.FixMethodDelegate fix, UnityEngine.Object target, System.Boolean editRequired, System.String[] buttons)
-    // Offset: 0x15BBB94
+    // Offset: 0x175F04C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FixRecord* New_ctor(::Il2CppString* cat, ::Il2CppString* msg, Assets::OVR::Scripts::FixMethodDelegate* fix, UnityEngine::Object* target, bool editRequired, ::Array<::Il2CppString*>* buttons) {
+    static FixRecord* New_ctor(::Il2CppString* cat, ::Il2CppString* msg, Assets::OVR::Scripts::FixMethodDelegate* fix, UnityEngine::Object* target, bool editRequired, ::ArrayWrapper<::Il2CppString*> buttons) {
       static auto ___internal__logger = ::Logger::get().WithContext("Assets::OVR::Scripts::FixRecord::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixRecord*, creationType>(cat, msg, fix, target, editRequired, buttons)));
     }

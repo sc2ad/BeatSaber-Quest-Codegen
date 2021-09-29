@@ -34,20 +34,20 @@ namespace UnityEngine {
     // Creating value type constructor for type: ReapplyDrivenProperties
     ReapplyDrivenProperties() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C6FF8C
+    // Offset: 0x1E03974
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RectTransform::ReapplyDrivenProperties* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RectTransform::ReapplyDrivenProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RectTransform::ReapplyDrivenProperties*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.RectTransform driven)
-    // Offset: 0x1C6FBF8
+    // Offset: 0x1E035E0
     void Invoke(UnityEngine::RectTransform* driven);
     // public System.IAsyncResult BeginInvoke(UnityEngine.RectTransform driven, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C6FF9C
+    // Offset: 0x1E03984
     System::IAsyncResult* BeginInvoke(UnityEngine::RectTransform* driven, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C6FFC0
+    // Offset: 0x1E039A8
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.RectTransform/UnityEngine.ReapplyDrivenProperties
   #pragma pack(pop)

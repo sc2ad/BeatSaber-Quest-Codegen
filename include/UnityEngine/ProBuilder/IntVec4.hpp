@@ -48,42 +48,42 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public UnityEngine.Vector4 value
     UnityEngine::Vector4& dyn_value();
     // public System.Single get_x()
-    // Offset: 0x1AF7EA0
+    // Offset: 0x1C7B620
     float get_x();
     // public System.Single get_y()
-    // Offset: 0x1AF7EA8
+    // Offset: 0x1C7B628
     float get_y();
     // public System.Single get_z()
-    // Offset: 0x1AF7EB0
+    // Offset: 0x1C7B630
     float get_z();
     // public System.Single get_w()
-    // Offset: 0x1AF7EB8
+    // Offset: 0x1C7B638
     float get_w();
     // public System.Void .ctor(UnityEngine.Vector4 vector)
-    // Offset: 0x1AF7EC0
+    // Offset: 0x1C7B640
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  IntVec4(UnityEngine::Vector4 vector)
     // public System.Boolean Equals(UnityEngine.ProBuilder.IntVec4 p)
-    // Offset: 0x1AF80AC
+    // Offset: 0x1C7B82C
     bool Equals(UnityEngine::ProBuilder::IntVec4 p);
     // public System.Boolean Equals(UnityEngine.Vector4 p)
-    // Offset: 0x1AF821C
+    // Offset: 0x1C7B99C
     bool Equals(UnityEngine::Vector4 p);
     // static private System.Int32 round(System.Single v)
-    // Offset: 0x1AF81A4
+    // Offset: 0x1C7B924
     static int round(float v);
     // public override System.String ToString()
-    // Offset: 0x1AF7ECC
+    // Offset: 0x1C7B64C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object b)
-    // Offset: 0x1AF82D4
+    // Offset: 0x1C7BA54
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object b)
     bool Equals(::Il2CppObject* b);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1AF83A0
+    // Offset: 0x1C7BB20
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -92,10 +92,10 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(IntVec4), 0 + sizeof(UnityEngine::Vector4)> __UnityEngine_ProBuilder_IntVec4SizeCheck;
   static_assert(sizeof(IntVec4) == 0x10);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.IntVec4 a, UnityEngine.ProBuilder.IntVec4 b)
-  // Offset: 0x1AF8070
+  // Offset: 0x1C7B7F0
   bool operator ==(const UnityEngine::ProBuilder::IntVec4& a, const UnityEngine::ProBuilder::IntVec4& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.IntVec4 a, UnityEngine.ProBuilder.IntVec4 b)
-  // Offset: 0x1AF8164
+  // Offset: 0x1C7B8E4
   bool operator !=(const UnityEngine::ProBuilder::IntVec4& a, const UnityEngine::ProBuilder::IntVec4& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::IntVec4, "UnityEngine.ProBuilder", "IntVec4");

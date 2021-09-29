@@ -34,10 +34,10 @@ namespace Polyglot {
     // Creating value type constructor for type: CsvReader
     CsvReader() noexcept {}
     // static public System.Collections.Generic.List`1<System.Collections.Generic.List`1<System.String>> Parse(System.String src)
-    // Offset: 0x2379FB0
+    // Offset: 0x2580DE4
     static System::Collections::Generic::List_1<System::Collections::Generic::List_1<::Il2CppString*>*>* Parse(::Il2CppString* src);
     // public System.Void .ctor()
-    // Offset: 0x237A4EC
+    // Offset: 0x2581320
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

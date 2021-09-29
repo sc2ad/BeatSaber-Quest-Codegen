@@ -37,13 +37,13 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: LinuxNetworkInterfaceAPI
     LinuxNetworkInterfaceAPI() noexcept {}
     // static private System.Void FreeInterfaceAddresses(System.IntPtr ifap)
-    // Offset: 0x14A1664
+    // Offset: 0x16472E0
     static void FreeInterfaceAddresses(System::IntPtr ifap);
     // static private System.Int32 GetInterfaceAddresses(out System.IntPtr ifap)
-    // Offset: 0x14A16E8
+    // Offset: 0x1647364
     static int GetInterfaceAddresses(ByRef<System::IntPtr> ifap);
     // public System.Void .ctor()
-    // Offset: 0x14A164C
+    // Offset: 0x16472C8
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory/System.Net.NetworkInformation.UnixNetworkInterfaceAPI
     // Base method: System.Void UnixNetworkInterfaceAPI::.ctor()
     // Base method: System.Void NetworkInterfaceFactory::.ctor()
@@ -54,10 +54,10 @@ namespace System::Net::NetworkInformation {
       return THROW_UNLESS((::il2cpp_utils::New<NetworkInterfaceFactory::LinuxNetworkInterfaceAPI*, creationType>()));
     }
     // public override System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
-    // Offset: 0x14A176C
+    // Offset: 0x16473E8
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Net.NetworkInformation.NetworkInterface[] NetworkInterfaceFactory::GetAllNetworkInterfaces()
-    ::Array<System::Net::NetworkInformation::NetworkInterface*>* GetAllNetworkInterfaces();
+    ::ArrayWrapper<System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();
   }; // System.Net.NetworkInformation.NetworkInterfaceFactory/System.Net.NetworkInformation.LinuxNetworkInterfaceAPI
   #pragma pack(pop)
 }
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(ByR
 // Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterfaceFactory::LinuxNetworkInterfaceAPI::GetAllNetworkInterfaces
 // Il2CppName: GetAllNetworkInterfaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Net::NetworkInformation::NetworkInterface*>* (System::Net::NetworkInformation::NetworkInterfaceFactory::LinuxNetworkInterfaceAPI::*)()>(&System::Net::NetworkInformation::NetworkInterfaceFactory::LinuxNetworkInterfaceAPI::GetAllNetworkInterfaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Net::NetworkInformation::NetworkInterface*> (System::Net::NetworkInformation::NetworkInterfaceFactory::LinuxNetworkInterfaceAPI::*)()>(&System::Net::NetworkInformation::NetworkInterfaceFactory::LinuxNetworkInterfaceAPI::GetAllNetworkInterfaces)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterfaceFactory::LinuxNetworkInterfaceAPI*), "GetAllNetworkInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

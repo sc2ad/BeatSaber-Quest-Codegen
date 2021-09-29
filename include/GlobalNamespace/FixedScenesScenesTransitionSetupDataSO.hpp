@@ -30,18 +30,18 @@ namespace GlobalNamespace {
     // private SceneInfo[] _sceneInfos
     // Size: 0x8
     // Offset: 0x28
-    ::Array<GlobalNamespace::SceneInfo*>* sceneInfos;
+    ::ArrayWrapper<GlobalNamespace::SceneInfo*> sceneInfos;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::SceneInfo*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SceneInfo*>) == 0x8);
     // Creating value type constructor for type: FixedScenesScenesTransitionSetupDataSO
-    FixedScenesScenesTransitionSetupDataSO(::Array<GlobalNamespace::SceneInfo*>* sceneInfos_ = {}) noexcept : sceneInfos{sceneInfos_} {}
+    FixedScenesScenesTransitionSetupDataSO(::ArrayWrapper<GlobalNamespace::SceneInfo*> sceneInfos_ = {}) noexcept : sceneInfos{sceneInfos_} {}
     // Get instance field reference: private SceneInfo[] _sceneInfos
-    ::Array<GlobalNamespace::SceneInfo*>*& dyn__sceneInfos();
+    ::ArrayWrapper<GlobalNamespace::SceneInfo*>& dyn__sceneInfos();
     // public System.Void Init()
-    // Offset: 0x1264618
+    // Offset: 0x1380E20
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x1264628
+    // Offset: 0x1380E30
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     }
   }; // FixedScenesScenesTransitionSetupDataSO
   #pragma pack(pop)
-  static check_size<sizeof(FixedScenesScenesTransitionSetupDataSO), 40 + sizeof(::Array<GlobalNamespace::SceneInfo*>*)> __GlobalNamespace_FixedScenesScenesTransitionSetupDataSOSizeCheck;
+  static check_size<sizeof(FixedScenesScenesTransitionSetupDataSO), 40 + sizeof(::ArrayWrapper<GlobalNamespace::SceneInfo*>)> __GlobalNamespace_FixedScenesScenesTransitionSetupDataSOSizeCheck;
   static_assert(sizeof(FixedScenesScenesTransitionSetupDataSO) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FixedScenesScenesTransitionSetupDataSO*, "", "FixedScenesScenesTransitionSetupDataSO");

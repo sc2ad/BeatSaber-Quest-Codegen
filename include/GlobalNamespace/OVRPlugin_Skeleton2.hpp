@@ -42,17 +42,17 @@ namespace GlobalNamespace {
     // public OVRPlugin/Bone[] Bones
     // Size: 0x8
     // Offset: 0x10
-    ::Array<GlobalNamespace::OVRPlugin::Bone>* Bones;
+    ::ArrayWrapper<GlobalNamespace::OVRPlugin::Bone> Bones;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::OVRPlugin::Bone>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::OVRPlugin::Bone>) == 0x8);
     // public OVRPlugin/BoneCapsule[] BoneCapsules
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::OVRPlugin::BoneCapsule>* BoneCapsules;
+    ::ArrayWrapper<GlobalNamespace::OVRPlugin::BoneCapsule> BoneCapsules;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::OVRPlugin::BoneCapsule>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::OVRPlugin::BoneCapsule>) == 0x8);
     // Creating value type constructor for type: Skeleton2
-    constexpr Skeleton2(GlobalNamespace::OVRPlugin::SkeletonType Type_ = {}, uint NumBones_ = {}, uint NumBoneCapsules_ = {}, ::Array<GlobalNamespace::OVRPlugin::Bone>* Bones_ = {}, ::Array<GlobalNamespace::OVRPlugin::BoneCapsule>* BoneCapsules_ = {}) noexcept : Type{Type_}, NumBones{NumBones_}, NumBoneCapsules{NumBoneCapsules_}, Bones{Bones_}, BoneCapsules{BoneCapsules_} {}
+    constexpr Skeleton2(GlobalNamespace::OVRPlugin::SkeletonType Type_ = {}, uint NumBones_ = {}, uint NumBoneCapsules_ = {}, ::ArrayWrapper<GlobalNamespace::OVRPlugin::Bone> Bones_ = {}, ::ArrayWrapper<GlobalNamespace::OVRPlugin::BoneCapsule> BoneCapsules_ = {}) noexcept : Type{Type_}, NumBones{NumBones_}, NumBoneCapsules{NumBoneCapsules_}, Bones{Bones_}, BoneCapsules{BoneCapsules_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -64,12 +64,12 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.UInt32 NumBoneCapsules
     uint& dyn_NumBoneCapsules();
     // Get instance field reference: public OVRPlugin/Bone[] Bones
-    ::Array<GlobalNamespace::OVRPlugin::Bone>*& dyn_Bones();
+    ::ArrayWrapper<GlobalNamespace::OVRPlugin::Bone>& dyn_Bones();
     // Get instance field reference: public OVRPlugin/BoneCapsule[] BoneCapsules
-    ::Array<GlobalNamespace::OVRPlugin::BoneCapsule>*& dyn_BoneCapsules();
+    ::ArrayWrapper<GlobalNamespace::OVRPlugin::BoneCapsule>& dyn_BoneCapsules();
   }; // OVRPlugin/Skeleton2
   #pragma pack(pop)
-  static check_size<sizeof(OVRPlugin::Skeleton2), 24 + sizeof(::Array<GlobalNamespace::OVRPlugin::BoneCapsule>*)> __GlobalNamespace_OVRPlugin_Skeleton2SizeCheck;
+  static check_size<sizeof(OVRPlugin::Skeleton2), 24 + sizeof(::ArrayWrapper<GlobalNamespace::OVRPlugin::BoneCapsule>)> __GlobalNamespace_OVRPlugin_Skeleton2SizeCheck;
   static_assert(sizeof(OVRPlugin::Skeleton2) == 0x20);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

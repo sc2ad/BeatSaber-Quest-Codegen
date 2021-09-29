@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuLightsPresetSO* defaultLightsPreset;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuLightsPresetSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE45B70
+    // [SpaceAttribute] Offset: 0xF0E534
     // private BeatmapLevelSO _demoLevel1
     // Size: 0x8
     // Offset: 0xB8
@@ -120,35 +120,35 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
     // Padding between fields: demoLevel2Difficulty and: simpleDemoViewController
     char __padding7[0x4] = {};
-    // [SpaceAttribute] Offset: 0xE45BF8
+    // [SpaceAttribute] Offset: 0xF0E5BC
     // private SimpleRetailDemoViewController _simpleDemoViewController
     // Size: 0x8
     // Offset: 0xE8
     GlobalNamespace::SimpleRetailDemoViewController* simpleDemoViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SimpleRetailDemoViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE45C30
+    // [InjectAttribute] Offset: 0xF0E5F4
     // private readonly HowToPlayViewController _howToPlayViewController
     // Size: 0x8
     // Offset: 0xF0
     GlobalNamespace::HowToPlayViewController* howToPlayViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::HowToPlayViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE45C40
+    // [InjectAttribute] Offset: 0xF0E604
     // private readonly ResultsViewController _resultsViewController
     // Size: 0x8
     // Offset: 0xF8
     GlobalNamespace::ResultsViewController* resultsViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ResultsViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE45C50
+    // [InjectAttribute] Offset: 0xF0E614
     // private readonly MenuLightsManager _menuLightsManager
     // Size: 0x8
     // Offset: 0x100
     GlobalNamespace::MenuLightsManager* menuLightsManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuLightsManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE45C60
+    // [InjectAttribute] Offset: 0xF0E624
     // private readonly FadeInOutController _fadeInOut
     // Size: 0x8
     // Offset: 0x108
@@ -226,25 +226,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly GameplayModifiers _gameplayModifiers
     GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // private System.Void HandleSimpleDemoViewControllerDidFinish(SimpleRetailDemoViewController viewController, SimpleRetailDemoViewController/MenuButton menuButton)
-    // Offset: 0x10979F0
+    // Offset: 0x1106424
     void HandleSimpleDemoViewControllerDidFinish(GlobalNamespace::SimpleRetailDemoViewController* viewController, GlobalNamespace::SimpleRetailDemoViewController::MenuButton menuButton);
     // private System.Void HandleResultsViewControllerContinueButtonPressed(ResultsViewController resultsViewController)
-    // Offset: 0x1097BA0
+    // Offset: 0x11065D4
     void HandleResultsViewControllerContinueButtonPressed(GlobalNamespace::ResultsViewController* resultsViewController);
     // private System.Collections.IEnumerator QuitApplicationCoroutine()
-    // Offset: 0x1097BE0
+    // Offset: 0x1106614
     System::Collections::IEnumerator* QuitApplicationCoroutine();
     // private System.Void HandleResultsViewControllerRestartButtonPressed(ResultsViewController resultsViewController)
-    // Offset: 0x1097C7C
+    // Offset: 0x11066B0
     void HandleResultsViewControllerRestartButtonPressed(GlobalNamespace::ResultsViewController* resultsViewController);
     // private System.Void StartLevel(System.Action beforeSceneSwitchCallback)
-    // Offset: 0x1097A74
+    // Offset: 0x11064A8
     void StartLevel(System::Action* beforeSceneSwitchCallback);
     // private System.Void HandleLevelDidFinish(StandardLevelScenesTransitionSetupDataSO standardLevelSceneSetupData, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x1097D2C
+    // Offset: 0x1106760
     void HandleLevelDidFinish(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0x1097DC8
+    // Offset: 0x11067FC
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -258,12 +258,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SimpleRetailDemoFlowCoordinator*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x10975C4
+    // Offset: 0x1105FF8
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x109782C
+    // Offset: 0x1106260
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

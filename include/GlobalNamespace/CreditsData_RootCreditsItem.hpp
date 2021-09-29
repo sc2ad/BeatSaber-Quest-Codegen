@@ -43,11 +43,11 @@ namespace GlobalNamespace {
     // public CreditsData/ChildCreditsItem[] creditsItems
     // Size: 0x8
     // Offset: 0x28
-    ::Array<GlobalNamespace::CreditsData::ChildCreditsItem*>* creditsItems;
+    ::ArrayWrapper<GlobalNamespace::CreditsData::ChildCreditsItem*> creditsItems;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::CreditsData::ChildCreditsItem*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::CreditsData::ChildCreditsItem*>) == 0x8);
     // Creating value type constructor for type: RootCreditsItem
-    RootCreditsItem(GlobalNamespace::CreditsData::Text* title_ = {}, GlobalNamespace::CreditsData::Text* text_ = {}, int rowCountOverride_ = {}, ::Array<GlobalNamespace::CreditsData::ChildCreditsItem*>* creditsItems_ = {}) noexcept : title{title_}, text{text_}, rowCountOverride{rowCountOverride_}, creditsItems{creditsItems_} {}
+    RootCreditsItem(GlobalNamespace::CreditsData::Text* title_ = {}, GlobalNamespace::CreditsData::Text* text_ = {}, int rowCountOverride_ = {}, ::ArrayWrapper<GlobalNamespace::CreditsData::ChildCreditsItem*> creditsItems_ = {}) noexcept : title{title_}, text{text_}, rowCountOverride{rowCountOverride_}, creditsItems{creditsItems_} {}
     // Get instance field reference: public CreditsData/Text title
     GlobalNamespace::CreditsData::Text*& dyn_title();
     // Get instance field reference: public CreditsData/Text text
@@ -55,18 +55,18 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 rowCountOverride
     int& dyn_rowCountOverride();
     // Get instance field reference: public CreditsData/ChildCreditsItem[] creditsItems
-    ::Array<GlobalNamespace::CreditsData::ChildCreditsItem*>*& dyn_creditsItems();
+    ::ArrayWrapper<GlobalNamespace::CreditsData::ChildCreditsItem*>& dyn_creditsItems();
     // public System.Boolean HasTitle()
-    // Offset: 0x10E8790
+    // Offset: 0x11A0100
     bool HasTitle();
     // public System.Boolean HasText()
-    // Offset: 0x10E87A0
+    // Offset: 0x11A0110
     bool HasText();
     // public System.Boolean HasRowItems()
-    // Offset: 0x10E87B0
+    // Offset: 0x11A0120
     bool HasRowItems();
     // public System.Void .ctor()
-    // Offset: 0x10E87D0
+    // Offset: 0x11A0140
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     }
   }; // CreditsData/RootCreditsItem
   #pragma pack(pop)
-  static check_size<sizeof(CreditsData::RootCreditsItem), 40 + sizeof(::Array<GlobalNamespace::CreditsData::ChildCreditsItem*>*)> __GlobalNamespace_CreditsData_RootCreditsItemSizeCheck;
+  static check_size<sizeof(CreditsData::RootCreditsItem), 40 + sizeof(::ArrayWrapper<GlobalNamespace::CreditsData::ChildCreditsItem*>)> __GlobalNamespace_CreditsData_RootCreditsItemSizeCheck;
   static_assert(sizeof(CreditsData::RootCreditsItem) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData::RootCreditsItem*, "", "CreditsData/RootCreditsItem");

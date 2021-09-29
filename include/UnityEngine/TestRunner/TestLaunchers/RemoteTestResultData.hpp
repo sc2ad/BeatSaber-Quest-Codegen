@@ -149,11 +149,11 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // public System.String[] childrenIds
     // Size: 0x8
     // Offset: 0x88
-    ::Array<::Il2CppString*>* childrenIds;
+    ::ArrayWrapper<::Il2CppString*> childrenIds;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // Creating value type constructor for type: RemoteTestResultData
-    RemoteTestResultData(::Il2CppString* testId_ = {}, ::Il2CppString* name_ = {}, ::Il2CppString* fullName_ = {}, ::Il2CppString* resultState_ = {}, NUnit::Framework::Interfaces::TestStatus testStatus_ = {}, double duration_ = {}, System::DateTime startTime_ = {}, System::DateTime endTime_ = {}, ::Il2CppString* message_ = {}, ::Il2CppString* stackTrace_ = {}, int assertCount_ = {}, int failCount_ = {}, int passCount_ = {}, int skipCount_ = {}, int inconclusiveCount_ = {}, bool hasChildren_ = {}, ::Il2CppString* output_ = {}, ::Il2CppString* xml_ = {}, ::Array<::Il2CppString*>* childrenIds_ = {}) noexcept : testId{testId_}, name{name_}, fullName{fullName_}, resultState{resultState_}, testStatus{testStatus_}, duration{duration_}, startTime{startTime_}, endTime{endTime_}, message{message_}, stackTrace{stackTrace_}, assertCount{assertCount_}, failCount{failCount_}, passCount{passCount_}, skipCount{skipCount_}, inconclusiveCount{inconclusiveCount_}, hasChildren{hasChildren_}, output{output_}, xml{xml_}, childrenIds{childrenIds_} {}
+    RemoteTestResultData(::Il2CppString* testId_ = {}, ::Il2CppString* name_ = {}, ::Il2CppString* fullName_ = {}, ::Il2CppString* resultState_ = {}, NUnit::Framework::Interfaces::TestStatus testStatus_ = {}, double duration_ = {}, System::DateTime startTime_ = {}, System::DateTime endTime_ = {}, ::Il2CppString* message_ = {}, ::Il2CppString* stackTrace_ = {}, int assertCount_ = {}, int failCount_ = {}, int passCount_ = {}, int skipCount_ = {}, int inconclusiveCount_ = {}, bool hasChildren_ = {}, ::Il2CppString* output_ = {}, ::Il2CppString* xml_ = {}, ::ArrayWrapper<::Il2CppString*> childrenIds_ = {}) noexcept : testId{testId_}, name{name_}, fullName{fullName_}, resultState{resultState_}, testStatus{testStatus_}, duration{duration_}, startTime{startTime_}, endTime{endTime_}, message{message_}, stackTrace{stackTrace_}, assertCount{assertCount_}, failCount{failCount_}, passCount{passCount_}, skipCount{skipCount_}, inconclusiveCount{inconclusiveCount_}, hasChildren{hasChildren_}, output{output_}, xml{xml_}, childrenIds{childrenIds_} {}
     // Get instance field reference: public System.String testId
     ::Il2CppString*& dyn_testId();
     // Get instance field reference: public System.String name
@@ -191,9 +191,9 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Get instance field reference: public System.String xml
     ::Il2CppString*& dyn_xml();
     // Get instance field reference: public System.String[] childrenIds
-    ::Array<::Il2CppString*>*& dyn_childrenIds();
+    ::ArrayWrapper<::Il2CppString*>& dyn_childrenIds();
     // System.Void .ctor(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x14C49A8
+    // Offset: 0x166A624
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestResultData* New_ctor(NUnit::Framework::Interfaces::ITestResult* result) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::.ctor");
@@ -201,7 +201,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     }
   }; // UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData
   #pragma pack(pop)
-  static check_size<sizeof(RemoteTestResultData), 136 + sizeof(::Array<::Il2CppString*>*)> __UnityEngine_TestRunner_TestLaunchers_RemoteTestResultDataSizeCheck;
+  static check_size<sizeof(RemoteTestResultData), 136 + sizeof(::ArrayWrapper<::Il2CppString*>)> __UnityEngine_TestRunner_TestLaunchers_RemoteTestResultDataSizeCheck;
   static_assert(sizeof(RemoteTestResultData) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestResultData");

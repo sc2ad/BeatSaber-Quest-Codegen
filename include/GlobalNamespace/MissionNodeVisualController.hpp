@@ -104,73 +104,73 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _interactable
     bool& dyn__interactable();
     // public MissionNode get_missionNode()
-    // Offset: 0x1143210
+    // Offset: 0x1189D60
     GlobalNamespace::MissionNode* get_missionNode();
     // public System.Boolean get_selected()
-    // Offset: 0x1143218
+    // Offset: 0x1189D68
     bool get_selected();
     // public System.Boolean get_isInitialized()
-    // Offset: 0x1143220
+    // Offset: 0x1189D70
     bool get_isInitialized();
     // public System.Boolean get_cleared()
-    // Offset: 0x1143228
+    // Offset: 0x1189D78
     bool get_cleared();
     // public System.Boolean get_interactable()
-    // Offset: 0x1143230
+    // Offset: 0x1189D80
     bool get_interactable();
     // public System.Void add_nodeWasSelectEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x1142CB8
+    // Offset: 0x1189808
     void add_nodeWasSelectEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void remove_nodeWasSelectEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x1142F64
+    // Offset: 0x1189AB4
     void remove_nodeWasSelectEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void add_nodeWasDisplayedEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x1142D5C
+    // Offset: 0x11898AC
     void add_nodeWasDisplayedEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void remove_nodeWasDisplayedEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x1143008
+    // Offset: 0x1189B58
     void remove_nodeWasDisplayedEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void SetSelected(System.Boolean value)
-    // Offset: 0x1142B54
+    // Offset: 0x11896A4
     void SetSelected(bool value);
     // protected System.Void OnEnable()
-    // Offset: 0x1143248
+    // Offset: 0x1189D98
     void OnEnable();
     // protected System.Void Awake()
-    // Offset: 0x11432AC
+    // Offset: 0x1189DFC
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1143400
+    // Offset: 0x1189F50
     void Start();
     // public System.Void Reset()
-    // Offset: 0x114345C
+    // Offset: 0x1189FAC
     void Reset();
     // protected System.Void OnDestroy()
-    // Offset: 0x1143464
+    // Offset: 0x1189FB4
     void OnDestroy();
     // public System.Void Init()
-    // Offset: 0x1143404
+    // Offset: 0x1189F54
     void Init();
     // public System.Void Setup(System.Boolean cleared, System.Boolean interactable)
-    // Offset: 0x1143654
+    // Offset: 0x118A1A4
     void Setup(bool cleared, bool interactable);
     // private System.Void SetupToggle()
-    // Offset: 0x11435F8
+    // Offset: 0x118A148
     void SetupToggle();
     // public System.Void SetMissionCleared()
-    // Offset: 0x11419C0
+    // Offset: 0x1188510
     void SetMissionCleared();
     // public System.Void SetInteractable()
-    // Offset: 0x11421C0
+    // Offset: 0x1188D10
     void SetInteractable();
     // public System.Void ChangeNodeSelection(System.Boolean selected)
-    // Offset: 0x1143630
+    // Offset: 0x118A180
     void ChangeNodeSelection(bool selected);
     // private System.Void HandleMissionToggleSelectionDidChange(MissionToggle toggle)
-    // Offset: 0x114372C
+    // Offset: 0x118A27C
     void HandleMissionToggleSelectionDidChange(GlobalNamespace::MissionToggle* toggle);
     // public System.Void .ctor()
-    // Offset: 0x11437B0
+    // Offset: 0x118A300
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

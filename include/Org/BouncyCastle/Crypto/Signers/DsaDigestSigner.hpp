@@ -82,33 +82,33 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Get instance field reference: private System.Boolean forSigning
     bool& dyn_forSigning();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDsa dsa, Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x127CAE0
+    // Offset: 0x13992E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DsaDigestSigner* New_ctor(Org::BouncyCastle::Crypto::IDsa* dsa, Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Signers::DsaDigestSigner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DsaDigestSigner*, creationType>(dsa, digest)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDsaExt dsa, Org.BouncyCastle.Crypto.IDigest digest, Org.BouncyCastle.Crypto.Signers.IDsaEncoding encoding)
-    // Offset: 0x127CB70
+    // Offset: 0x1399378
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DsaDigestSigner* New_ctor(Org::BouncyCastle::Crypto::IDsaExt* dsa, Org::BouncyCastle::Crypto::IDigest* digest, Org::BouncyCastle::Crypto::Signers::IDsaEncoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Signers::DsaDigestSigner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DsaDigestSigner*, creationType>(dsa, digest, encoding)));
     }
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x127CBB0
+    // Offset: 0x13993B8
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x127CDB8
-    void BlockUpdate(::Array<uint8_t>* input, int inOff, int length);
+    // Offset: 0x13995C0
+    void BlockUpdate(::ArrayWrapper<uint8_t> input, int inOff, int length);
     // public System.Byte[] GenerateSignature()
-    // Offset: 0x127CE94
-    ::Array<uint8_t>* GenerateSignature();
+    // Offset: 0x139969C
+    ::ArrayWrapper<uint8_t> GenerateSignature();
     // public System.Void Reset()
-    // Offset: 0x127D204
+    // Offset: 0x1399A0C
     void Reset();
     // protected Org.BouncyCastle.Math.BigInteger GetOrder()
-    // Offset: 0x127D2B8
+    // Offset: 0x1399AC0
     Org::BouncyCastle::Math::BigInteger* GetOrder();
   }; // Org.BouncyCastle.Crypto.Signers.DsaDigestSigner
   #pragma pack(pop)
@@ -138,9 +138,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::DsaDigestSigner::BlockUpdate
 // Il2CppName: BlockUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::DsaDigestSigner::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Signers::DsaDigestSigner::BlockUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::DsaDigestSigner::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Signers::DsaDigestSigner::BlockUpdate)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::DsaDigestSigner*), "BlockUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, inOff, length});
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::DsaDigestSigner::GenerateSignature
 // Il2CppName: GenerateSignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Signers::DsaDigestSigner::*)()>(&Org::BouncyCastle::Crypto::Signers::DsaDigestSigner::GenerateSignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Signers::DsaDigestSigner::*)()>(&Org::BouncyCastle::Crypto::Signers::DsaDigestSigner::GenerateSignature)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::DsaDigestSigner*), "GenerateSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

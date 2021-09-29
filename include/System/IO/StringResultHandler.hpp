@@ -45,17 +45,17 @@ namespace System::IO {
     // Get instance field reference: private System.Boolean _includeDirs
     bool& dyn__includeDirs();
     // System.Void .ctor(System.Boolean includeFiles, System.Boolean includeDirs)
-    // Offset: 0x1832E50
+    // Offset: 0x1A051F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringResultHandler* New_ctor(bool includeFiles, bool includeDirs) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StringResultHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringResultHandler*, creationType>(includeFiles, includeDirs)));
     }
     // System.String CreateObject(System.IO.SearchResult result)
-    // Offset: 0x1832F34
+    // Offset: 0x1A052DC
     ::Il2CppString* CreateObject(System::IO::SearchResult* result);
     // override System.Boolean IsResultIncluded(System.IO.SearchResult result)
-    // Offset: 0x1832EC4
+    // Offset: 0x1A0526C
     // Implemented from: System.IO.SearchResultHandler`1
     // Base method: System.Boolean SearchResultHandler_1::IsResultIncluded(System.IO.SearchResult result)
     bool IsResultIncluded(System::IO::SearchResult* result);

@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MarkSceneAsPersistent : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectAttribute] Offset: 0xE08450
+    // [InjectAttribute] Offset: 0xEC9A90
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x18
@@ -41,10 +41,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameScenesManager _gameScenesManager
     GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // protected System.Void Awake()
-    // Offset: 0x126AC98
+    // Offset: 0x13874A0
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x126ACF0
+    // Offset: 0x13874F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

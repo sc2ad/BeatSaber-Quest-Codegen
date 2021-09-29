@@ -30,26 +30,26 @@ namespace System::Security::Cryptography::X509Certificates {
     // private System.Byte[] cachedCertificateHash
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* cachedCertificateHash;
+    ::ArrayWrapper<uint8_t> cachedCertificateHash;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: X509CertificateImpl
-    X509CertificateImpl(::Array<uint8_t>* cachedCertificateHash_ = {}) noexcept : cachedCertificateHash{cachedCertificateHash_} {}
+    X509CertificateImpl(::ArrayWrapper<uint8_t> cachedCertificateHash_ = {}) noexcept : cachedCertificateHash{cachedCertificateHash_} {}
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
-    // Creating conversion operator: operator ::Array<uint8_t>*
-    constexpr operator ::Array<uint8_t>*() const noexcept {
+    // Creating conversion operator: operator ::ArrayWrapper<uint8_t>
+    constexpr operator ::ArrayWrapper<uint8_t>() const noexcept {
       return cachedCertificateHash;
     }
     // Get instance field reference: private System.Byte[] cachedCertificateHash
-    ::Array<uint8_t>*& dyn_cachedCertificateHash();
+    ::ArrayWrapper<uint8_t>& dyn_cachedCertificateHash();
     // public System.Boolean get_IsValid()
     // Offset: 0xFFFFFFFF
     bool get_IsValid();
     // protected System.Void ThrowIfContextInvalid()
-    // Offset: 0x1B4B9DC
+    // Offset: 0x1CD00B4
     void ThrowIfContextInvalid();
     // public System.Security.Cryptography.X509Certificates.X509CertificateImpl Clone()
     // Offset: 0xFFFFFFFF
@@ -62,7 +62,7 @@ namespace System::Security::Cryptography::X509Certificates {
     ::Il2CppString* GetSubjectName(bool legacyV1Mode);
     // public System.Byte[] GetRawCertData()
     // Offset: 0xFFFFFFFF
-    ::Array<uint8_t>* GetRawCertData();
+    ::ArrayWrapper<uint8_t> GetRawCertData();
     // public System.DateTime GetValidFrom()
     // Offset: 0xFFFFFFFF
     System::DateTime GetValidFrom();
@@ -70,28 +70,28 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFF
     System::DateTime GetValidUntil();
     // public System.Byte[] GetCertHash()
-    // Offset: 0x1B4B110
-    ::Array<uint8_t>* GetCertHash();
+    // Offset: 0x1CCF7E8
+    ::ArrayWrapper<uint8_t> GetCertHash();
     // protected System.Byte[] GetCertHash(System.Boolean lazy)
     // Offset: 0xFFFFFFFF
-    ::Array<uint8_t>* GetCertHash(bool lazy);
+    ::ArrayWrapper<uint8_t> GetCertHash(bool lazy);
     // public System.Boolean Equals(System.Security.Cryptography.X509Certificates.X509CertificateImpl other, out System.Boolean result)
     // Offset: 0xFFFFFFFF
     bool Equals(System::Security::Cryptography::X509Certificates::X509CertificateImpl* other, ByRef<bool> result);
     // public System.Byte[] GetSerialNumber()
     // Offset: 0xFFFFFFFF
-    ::Array<uint8_t>* GetSerialNumber();
+    ::ArrayWrapper<uint8_t> GetSerialNumber();
     // public System.String ToString(System.Boolean full)
     // Offset: 0xFFFFFFFF
     ::Il2CppString* ToString(bool full);
     // public System.Void Dispose()
-    // Offset: 0x1B4B95C
+    // Offset: 0x1CD0034
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1B4BCBC
+    // Offset: 0x1CD0394
     void Dispose(bool disposing);
     // protected System.Void .ctor()
-    // Offset: 0x1B4BD3C
+    // Offset: 0x1CD0414
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -100,23 +100,23 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateImpl*, creationType>()));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1B4BAC0
+    // Offset: 0x1CD0198
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1B4BB2C
+    // Offset: 0x1CD0204
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // protected override System.Void Finalize()
-    // Offset: 0x1B4BCC4
+    // Offset: 0x1CD039C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.Security.Cryptography.X509Certificates.X509CertificateImpl
   #pragma pack(pop)
-  static check_size<sizeof(X509CertificateImpl), 16 + sizeof(::Array<uint8_t>*)> __System_Security_Cryptography_X509Certificates_X509CertificateImplSizeCheck;
+  static check_size<sizeof(X509CertificateImpl), 16 + sizeof(::ArrayWrapper<uint8_t>)> __System_Security_Cryptography_X509Certificates_X509CertificateImplSizeCheck;
   static_assert(sizeof(X509CertificateImpl) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509CertificateImpl*, "System.Security.Cryptography.X509Certificates", "X509CertificateImpl");
@@ -166,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509CertificateImpl::GetRawCertData
 // Il2CppName: GetRawCertData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::X509Certificates::X509CertificateImpl::*)()>(&System::Security::Cryptography::X509Certificates::X509CertificateImpl::GetRawCertData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::X509Certificates::X509CertificateImpl::*)()>(&System::Security::Cryptography::X509Certificates::X509CertificateImpl::GetRawCertData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509CertificateImpl*), "GetRawCertData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509CertificateImpl::GetCertHash
 // Il2CppName: GetCertHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::X509Certificates::X509CertificateImpl::*)()>(&System::Security::Cryptography::X509Certificates::X509CertificateImpl::GetCertHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::X509Certificates::X509CertificateImpl::*)()>(&System::Security::Cryptography::X509Certificates::X509CertificateImpl::GetCertHash)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509CertificateImpl*), "GetCertHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509CertificateImpl::GetCertHash
 // Il2CppName: GetCertHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::X509Certificates::X509CertificateImpl::*)(bool)>(&System::Security::Cryptography::X509Certificates::X509CertificateImpl::GetCertHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::X509Certificates::X509CertificateImpl::*)(bool)>(&System::Security::Cryptography::X509Certificates::X509CertificateImpl::GetCertHash)> {
   static const MethodInfo* get() {
     static auto* lazy = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509CertificateImpl*), "GetCertHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lazy});
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509CertificateImpl::GetSerialNumber
 // Il2CppName: GetSerialNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::X509Certificates::X509CertificateImpl::*)()>(&System::Security::Cryptography::X509Certificates::X509CertificateImpl::GetSerialNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::X509Certificates::X509CertificateImpl::*)()>(&System::Security::Cryptography::X509Certificates::X509CertificateImpl::GetSerialNumber)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509CertificateImpl*), "GetSerialNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

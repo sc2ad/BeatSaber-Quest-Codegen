@@ -130,67 +130,67 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 currentUploadAttemptCount
     int& dyn_currentUploadAttemptCount();
     // public System.String get_playerId()
-    // Offset: 0x118BF08
+    // Offset: 0x114A5E4
     ::Il2CppString* get_playerId();
     // private System.Void set_playerId(System.String value)
-    // Offset: 0x118BF10
+    // Offset: 0x114A5EC
     void set_playerId(::Il2CppString* value);
     // public IDifficultyBeatmap get_beatmap()
-    // Offset: 0x118BF18
+    // Offset: 0x114A5F4
     GlobalNamespace::IDifficultyBeatmap* get_beatmap();
     // private System.Void set_beatmap(IDifficultyBeatmap value)
-    // Offset: 0x118BF20
+    // Offset: 0x114A5FC
     void set_beatmap(GlobalNamespace::IDifficultyBeatmap* value);
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x118BF28
+    // Offset: 0x114A604
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // private System.Void set_gameplayModifiers(GameplayModifiers value)
-    // Offset: 0x118BF30
+    // Offset: 0x114A60C
     void set_gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
     // public System.Int32 get_rawScore()
-    // Offset: 0x118BF38
+    // Offset: 0x114A614
     int get_rawScore();
     // private System.Void set_rawScore(System.Int32 value)
-    // Offset: 0x118BF40
+    // Offset: 0x114A61C
     void set_rawScore(int value);
     // public System.Int32 get_modifiedScore()
-    // Offset: 0x118BF48
+    // Offset: 0x114A624
     int get_modifiedScore();
     // private System.Void set_modifiedScore(System.Int32 value)
-    // Offset: 0x118BF50
+    // Offset: 0x114A62C
     void set_modifiedScore(int value);
     // public System.Boolean get_fullCombo()
-    // Offset: 0x118BF58
+    // Offset: 0x114A634
     bool get_fullCombo();
     // private System.Void set_fullCombo(System.Boolean value)
-    // Offset: 0x118BF60
+    // Offset: 0x114A63C
     void set_fullCombo(bool value);
     // public System.Int32 get_goodCutsCount()
-    // Offset: 0x118BF6C
+    // Offset: 0x114A648
     int get_goodCutsCount();
     // private System.Void set_goodCutsCount(System.Int32 value)
-    // Offset: 0x118BF74
+    // Offset: 0x114A650
     void set_goodCutsCount(int value);
     // public System.Int32 get_badCutsCount()
-    // Offset: 0x118BF7C
+    // Offset: 0x114A658
     int get_badCutsCount();
     // private System.Void set_badCutsCount(System.Int32 value)
-    // Offset: 0x118BF84
+    // Offset: 0x114A660
     void set_badCutsCount(int value);
     // public System.Int32 get_missedCount()
-    // Offset: 0x118BF8C
+    // Offset: 0x114A668
     int get_missedCount();
     // private System.Void set_missedCount(System.Int32 value)
-    // Offset: 0x118BF94
+    // Offset: 0x114A670
     void set_missedCount(int value);
     // public System.Int32 get_maxCombo()
-    // Offset: 0x118BF9C
+    // Offset: 0x114A678
     int get_maxCombo();
     // private System.Void set_maxCombo(System.Int32 value)
-    // Offset: 0x118BFA4
+    // Offset: 0x114A680
     void set_maxCombo(int value);
     // public System.Void .ctor(System.String playerId, IDifficultyBeatmap beatmap, System.Int32 rawScore, System.Int32 modifiedScore, System.Boolean fullCombo, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 maxCombo, GameplayModifiers gameplayModifiers)
-    // Offset: 0x118BFAC
+    // Offset: 0x114A688
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardScoreUploader::ScoreData* New_ctor(::Il2CppString* playerId, GlobalNamespace::IDifficultyBeatmap* beatmap, int rawScore, int modifiedScore, bool fullCombo, int goodCutsCount, int badCutsCount, int missedCount, int maxCombo, GlobalNamespace::GameplayModifiers* gameplayModifiers) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LeaderboardScoreUploader::ScoreData::.ctor");

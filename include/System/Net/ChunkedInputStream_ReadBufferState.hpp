@@ -30,9 +30,9 @@ namespace System::Net {
     // public System.Byte[] Buffer
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint8_t>* Buffer;
+    ::ArrayWrapper<uint8_t> Buffer;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // public System.Int32 Offset
     // Size: 0x4
     // Offset: 0x18
@@ -60,9 +60,9 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(System::Net::HttpStreamAsyncResult*) == 0x8);
     // Creating value type constructor for type: ReadBufferState
-    ReadBufferState(::Array<uint8_t>* Buffer_ = {}, int Offset_ = {}, int Count_ = {}, int InitialCount_ = {}, System::Net::HttpStreamAsyncResult* Ares_ = {}) noexcept : Buffer{Buffer_}, Offset{Offset_}, Count{Count_}, InitialCount{InitialCount_}, Ares{Ares_} {}
+    ReadBufferState(::ArrayWrapper<uint8_t> Buffer_ = {}, int Offset_ = {}, int Count_ = {}, int InitialCount_ = {}, System::Net::HttpStreamAsyncResult* Ares_ = {}) noexcept : Buffer{Buffer_}, Offset{Offset_}, Count{Count_}, InitialCount{InitialCount_}, Ares{Ares_} {}
     // Get instance field reference: public System.Byte[] Buffer
-    ::Array<uint8_t>*& dyn_Buffer();
+    ::ArrayWrapper<uint8_t>& dyn_Buffer();
     // Get instance field reference: public System.Int32 Offset
     int& dyn_Offset();
     // Get instance field reference: public System.Int32 Count
@@ -72,9 +72,9 @@ namespace System::Net {
     // Get instance field reference: public System.Net.HttpStreamAsyncResult Ares
     System::Net::HttpStreamAsyncResult*& dyn_Ares();
     // public System.Void .ctor(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Net.HttpStreamAsyncResult ares)
-    // Offset: 0x16D51CC
+    // Offset: 0x156F4B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ChunkedInputStream::ReadBufferState* New_ctor(::Array<uint8_t>* buffer, int offset, int count, System::Net::HttpStreamAsyncResult* ares) {
+    static ChunkedInputStream::ReadBufferState* New_ctor(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::Net::HttpStreamAsyncResult* ares) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ChunkedInputStream::ReadBufferState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChunkedInputStream::ReadBufferState*, creationType>(buffer, offset, count, ares)));
     }

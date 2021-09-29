@@ -24,10 +24,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SteamVR_UpdatePoses
     SteamVR_UpdatePoses() noexcept {}
     // private System.Void Awake()
-    // Offset: 0x1704E38
+    // Offset: 0x1880834
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x1704ED4
+    // Offset: 0x18808D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

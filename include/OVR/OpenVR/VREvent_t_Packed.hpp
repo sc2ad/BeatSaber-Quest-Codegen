@@ -61,7 +61,7 @@ namespace OVR::OpenVR {
     // Get instance field reference: public OVR.OpenVR.VREvent_Data_t data
     OVR::OpenVR::VREvent_Data_t& dyn_data();
     // public System.Void .ctor(OVR.OpenVR.VREvent_t unpacked)
-    // Offset: 0x12AB860
+    // Offset: 0x13B4B74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     VREvent_t_Packed(OVR::OpenVR::VREvent_t unpacked) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::VREvent_t_Packed::.ctor");
@@ -69,7 +69,7 @@ namespace OVR::OpenVR {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unpacked);
     }
     // public System.Void Unpack(ref OVR.OpenVR.VREvent_t unpacked)
-    // Offset: 0x12AB8A0
+    // Offset: 0x13B4BB4
     void Unpack(ByRef<OVR::OpenVR::VREvent_t> unpacked);
   }; // OVR.OpenVR.VREvent_t_Packed
   // WARNING Not writing size check since size may be invalid!

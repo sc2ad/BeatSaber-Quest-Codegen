@@ -49,10 +49,10 @@ namespace GlobalNamespace {
     // private CountdownElementController[] _countdownElementControllers
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::CountdownElementController*>* countdownElementControllers;
+    ::ArrayWrapper<GlobalNamespace::CountdownElementController*> countdownElementControllers;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::CountdownElementController*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE46524
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::CountdownElementController*>) == 0x8);
+    // [InjectAttribute] Offset: 0xF0EEE8
     // private readonly ITimeProvider _timeProvider
     // Size: 0x8
     // Offset: 0x28
@@ -92,7 +92,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Queue_1<GlobalNamespace::CountdownElementController*>*) == 0x8);
     // Creating value type constructor for type: CountdownController
-    CountdownController(UnityEngine::AudioSource* audioSource_ = {}, ::Array<GlobalNamespace::CountdownElementController*>* countdownElementControllers_ = {}, GlobalNamespace::ITimeProvider* timeProvider_ = {}, float countdownEndTime_ = {}, int currentRemainingSecond_ = {}, bool gongSounded_ = {}, bool countdownRunning_ = {}, System::Collections::Generic::Queue_1<GlobalNamespace::CountdownElementController*>* countdownElementControllerQueue_ = {}) noexcept : audioSource{audioSource_}, countdownElementControllers{countdownElementControllers_}, timeProvider{timeProvider_}, countdownEndTime{countdownEndTime_}, currentRemainingSecond{currentRemainingSecond_}, gongSounded{gongSounded_}, countdownRunning{countdownRunning_}, countdownElementControllerQueue{countdownElementControllerQueue_} {}
+    CountdownController(UnityEngine::AudioSource* audioSource_ = {}, ::ArrayWrapper<GlobalNamespace::CountdownElementController*> countdownElementControllers_ = {}, GlobalNamespace::ITimeProvider* timeProvider_ = {}, float countdownEndTime_ = {}, int currentRemainingSecond_ = {}, bool gongSounded_ = {}, bool countdownRunning_ = {}, System::Collections::Generic::Queue_1<GlobalNamespace::CountdownElementController*>* countdownElementControllerQueue_ = {}) noexcept : audioSource{audioSource_}, countdownElementControllers{countdownElementControllers_}, timeProvider{timeProvider_}, countdownEndTime{countdownEndTime_}, currentRemainingSecond{currentRemainingSecond_}, gongSounded{gongSounded_}, countdownRunning{countdownRunning_}, countdownElementControllerQueue{countdownElementControllerQueue_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kGongTime
@@ -104,7 +104,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.AudioSource _audioSource
     UnityEngine::AudioSource*& dyn__audioSource();
     // Get instance field reference: private CountdownElementController[] _countdownElementControllers
-    ::Array<GlobalNamespace::CountdownElementController*>*& dyn__countdownElementControllers();
+    ::ArrayWrapper<GlobalNamespace::CountdownElementController*>& dyn__countdownElementControllers();
     // Get instance field reference: private readonly ITimeProvider _timeProvider
     GlobalNamespace::ITimeProvider*& dyn__timeProvider();
     // Get instance field reference: private System.Single _countdownEndTime
@@ -118,22 +118,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Queue`1<CountdownElementController> _countdownElementControllerQueue
     System::Collections::Generic::Queue_1<GlobalNamespace::CountdownElementController*>*& dyn__countdownElementControllerQueue();
     // protected System.Void Awake()
-    // Offset: 0x10E7120
+    // Offset: 0x119EA90
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x10E7138
+    // Offset: 0x119EAA8
     void Update();
     // public System.Void StartCountdown(System.Single countdownEndTime)
-    // Offset: 0x10DE764
+    // Offset: 0x11961C4
     void StartCountdown(float countdownEndTime);
     // public System.Void UpdateCountdown(System.Single countdownEndTime)
-    // Offset: 0x10DE954
+    // Offset: 0x11963B4
     void UpdateCountdown(float countdownEndTime);
     // public System.Void StopCountdown()
-    // Offset: 0x10DE864
+    // Offset: 0x11962C4
     void StopCountdown();
     // public System.Void .ctor()
-    // Offset: 0x10E7358
+    // Offset: 0x119ECC8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

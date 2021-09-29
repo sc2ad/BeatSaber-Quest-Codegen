@@ -112,21 +112,21 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE39258
+    // [InjectAttribute] Offset: 0xF01A0C
     // private readonly LeaderboardScoreUploader _leaderboardScoreUploader
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::LeaderboardScoreUploader* leaderboardScoreUploader;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LeaderboardScoreUploader*) == 0x8);
-    // [InjectAttribute] Offset: 0xE39268
+    // [InjectAttribute] Offset: 0xF01A1C
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::IPlatformUserModel* platformUserModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IPlatformUserModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE39278
+    // [InjectAttribute] Offset: 0xF01A2C
     // private readonly PlatformLeaderboardsHandler _platformLeaderboardsHandler
     // Size: 0x8
     // Offset: 0x30
@@ -172,40 +172,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _playerId
     ::Il2CppString*& dyn__playerId();
     // private System.Boolean get_initialized()
-    // Offset: 0x11F2DA8
+    // Offset: 0x12B2B78
     bool get_initialized();
     // public System.Void add_allScoresDidUploadEvent(System.Action value)
-    // Offset: 0x11F2154
+    // Offset: 0x12B1F24
     void add_allScoresDidUploadEvent(System::Action* value);
     // public System.Void remove_allScoresDidUploadEvent(System.Action value)
-    // Offset: 0x11F22FC
+    // Offset: 0x12B20CC
     void remove_allScoresDidUploadEvent(System::Action* value);
     // private System.Void Initialize()
-    // Offset: 0x11F2DDC
+    // Offset: 0x12B2BAC
     void Initialize();
     // private HMAsyncRequest UploadScore(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
-    // Offset: 0x11F2E9C
+    // Offset: 0x12B2C6C
     GlobalNamespace::HMAsyncRequest* UploadScore(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler);
     // private HMAsyncRequest GetScores(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, PlatformLeaderboardsModel/ScoresScope scope, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
-    // Offset: 0x11F3194
+    // Offset: 0x12B2F64
     GlobalNamespace::HMAsyncRequest* GetScores(GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, GlobalNamespace::PlatformLeaderboardsModel::ScoresScope scope, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* completionHandler);
     // private System.Void HandleAllScoresDidUpload()
-    // Offset: 0x11F34FC
+    // Offset: 0x12B32CC
     void HandleAllScoresDidUpload();
     // public HMAsyncRequest GetScores(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
-    // Offset: 0x11F2D08
+    // Offset: 0x12B2AD8
     GlobalNamespace::HMAsyncRequest* GetScores(GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* completionHandler);
     // public HMAsyncRequest GetScoresAroundPlayer(IDifficultyBeatmap beatmap, System.Int32 count, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
-    // Offset: 0x11F2D20
+    // Offset: 0x12B2AF0
     GlobalNamespace::HMAsyncRequest* GetScoresAroundPlayer(GlobalNamespace::IDifficultyBeatmap* beatmap, int count, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* completionHandler);
     // public HMAsyncRequest GetFriendsScores(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
-    // Offset: 0x11F2D14
+    // Offset: 0x12B2AE4
     GlobalNamespace::HMAsyncRequest* GetFriendsScores(GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* completionHandler);
     // public System.Void UploadScore(IDifficultyBeatmap beatmap, System.Int32 rawScore, System.Int32 modifiedScore, System.Boolean fullCombo, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 maxCombo, System.Single energy, GameplayModifiers gameplayModifiers)
-    // Offset: 0x11F3510
+    // Offset: 0x12B32E0
     void UploadScore(GlobalNamespace::IDifficultyBeatmap* beatmap, int rawScore, int modifiedScore, bool fullCombo, int goodCutsCount, int badCutsCount, int missedCount, int maxCombo, float energy, GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Void .ctor()
-    // Offset: 0x11F3720
+    // Offset: 0x12B34F0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

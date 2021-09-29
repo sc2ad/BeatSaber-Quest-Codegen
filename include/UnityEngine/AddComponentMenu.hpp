@@ -39,14 +39,14 @@ namespace UnityEngine {
     // Get instance field reference: private System.Int32 m_Ordering
     int& dyn_m_Ordering();
     // public System.Void .ctor(System.String menuName)
-    // Offset: 0x1C44B50
+    // Offset: 0x1CAA150
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddComponentMenu* New_ctor(::Il2CppString* menuName) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddComponentMenu::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddComponentMenu*, creationType>(menuName)));
     }
     // public System.Void .ctor(System.String menuName, System.Int32 order)
-    // Offset: 0x1C44B80
+    // Offset: 0x1CAA180
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddComponentMenu* New_ctor(::Il2CppString* menuName, int order) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddComponentMenu::.ctor");

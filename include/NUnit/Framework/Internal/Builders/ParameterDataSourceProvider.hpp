@@ -39,10 +39,10 @@ namespace NUnit::Framework::Internal::Builders {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IParameterDataProvider*>(this);
     }
     // public System.Collections.IEnumerable GetDataFor(NUnit.Framework.Interfaces.IParameterInfo parameter)
-    // Offset: 0x177D044
+    // Offset: 0x193C090
     System::Collections::IEnumerable* GetDataFor(NUnit::Framework::Interfaces::IParameterInfo* parameter);
     // public System.Void .ctor()
-    // Offset: 0x17697A4
+    // Offset: 0x19287F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

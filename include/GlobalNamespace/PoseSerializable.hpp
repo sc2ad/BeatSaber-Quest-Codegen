@@ -74,36 +74,36 @@ namespace GlobalNamespace {
     // Get instance field reference: public QuaternionSerializable rotation
     GlobalNamespace::QuaternionSerializable& dyn_rotation();
     // static public PoseSerializable get_identity()
-    // Offset: 0x237749C
+    // Offset: 0x2572CFC
     static GlobalNamespace::PoseSerializable get_identity();
     // public System.Void .ctor(Vector3Serializable position, QuaternionSerializable rotation)
-    // Offset: 0x2377488
+    // Offset: 0x2572CE8
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  PoseSerializable(GlobalNamespace::Vector3Serializable position, GlobalNamespace::QuaternionSerializable rotation)
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2377550
+    // Offset: 0x2572DB0
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x237757C
+    // Offset: 0x2572DDC
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(PoseSerializable other)
-    // Offset: 0x23775A8
+    // Offset: 0x2572E08
     bool Equals(GlobalNamespace::PoseSerializable other);
     // public System.Int32 GetSize()
-    // Offset: 0x2377854
+    // Offset: 0x25730B4
     int GetSize();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x237767C
+    // Offset: 0x2572EDC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x237771C
+    // Offset: 0x2572F7C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x23777A0
+    // Offset: 0x2573000
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -112,10 +112,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(PoseSerializable), 12 + sizeof(GlobalNamespace::QuaternionSerializable)> __GlobalNamespace_PoseSerializableSizeCheck;
   static_assert(sizeof(PoseSerializable) == 0x18);
   // static public PoseSerializable op_Addition(PoseSerializable a, PoseSerializable b)
-  // Offset: 0x2377B08
+  // Offset: 0x2573368
   GlobalNamespace::PoseSerializable operator+(const GlobalNamespace::PoseSerializable& a, const GlobalNamespace::PoseSerializable& b);
   // static public PoseSerializable op_Subtraction(PoseSerializable a, PoseSerializable b)
-  // Offset: 0x2377BA4
+  // Offset: 0x2573404
   GlobalNamespace::PoseSerializable operator-(const GlobalNamespace::PoseSerializable& a, const GlobalNamespace::PoseSerializable& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PoseSerializable, "", "PoseSerializable");

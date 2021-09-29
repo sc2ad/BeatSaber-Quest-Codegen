@@ -38,25 +38,25 @@ namespace GlobalNamespace {
     // private PlayAudioOnGameEventController/EventAudioBinding[] _eventAudioBindings
     // Size: 0x8
     // Offset: 0x20
-    ::Array<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>* eventAudioBindings;
+    ::ArrayWrapper<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*> eventAudioBindings;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>) == 0x8);
     // Creating value type constructor for type: PlayAudioOnGameEventController
-    PlayAudioOnGameEventController(GlobalNamespace::AudioClipQueue* audioClipQueue_ = {}, ::Array<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>* eventAudioBindings_ = {}) noexcept : audioClipQueue{audioClipQueue_}, eventAudioBindings{eventAudioBindings_} {}
+    PlayAudioOnGameEventController(GlobalNamespace::AudioClipQueue* audioClipQueue_ = {}, ::ArrayWrapper<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*> eventAudioBindings_ = {}) noexcept : audioClipQueue{audioClipQueue_}, eventAudioBindings{eventAudioBindings_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private AudioClipQueue _audioClipQueue
     GlobalNamespace::AudioClipQueue*& dyn__audioClipQueue();
     // Get instance field reference: private PlayAudioOnGameEventController/EventAudioBinding[] _eventAudioBindings
-    ::Array<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>*& dyn__eventAudioBindings();
+    ::ArrayWrapper<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>& dyn__eventAudioBindings();
     // protected System.Void Awake()
-    // Offset: 0x11F3C94
+    // Offset: 0x12B3A64
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x11F3DD8
+    // Offset: 0x12B3BA8
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x11F3ECC
+    // Offset: 0x12B3C9C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     }
   }; // PlayAudioOnGameEventController
   #pragma pack(pop)
-  static check_size<sizeof(PlayAudioOnGameEventController), 32 + sizeof(::Array<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>*)> __GlobalNamespace_PlayAudioOnGameEventControllerSizeCheck;
+  static check_size<sizeof(PlayAudioOnGameEventController), 32 + sizeof(::ArrayWrapper<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>)> __GlobalNamespace_PlayAudioOnGameEventControllerSizeCheck;
   static_assert(sizeof(PlayAudioOnGameEventController) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayAudioOnGameEventController*, "", "PlayAudioOnGameEventController");

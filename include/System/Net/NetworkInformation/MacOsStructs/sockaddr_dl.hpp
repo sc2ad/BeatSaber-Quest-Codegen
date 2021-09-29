@@ -15,10 +15,6 @@ namespace System {
   struct IntPtr;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
 // Type namespace: System.Net.NetworkInformation.MacOsStructs
 namespace System::Net::NetworkInformation::MacOsStructs {
   // Size: 0x10
@@ -73,11 +69,11 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     // public System.Byte[] sdl_data
     // Size: 0x8
     // Offset: 0x8
-    ::Array<uint8_t>* sdl_data;
+    ::ArrayWrapper<uint8_t> sdl_data;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // Creating value type constructor for type: sockaddr_dl
-    constexpr sockaddr_dl(uint8_t sdl_len_ = {}, uint8_t sdl_family_ = {}, uint16_t sdl_index_ = {}, uint8_t sdl_type_ = {}, uint8_t sdl_nlen_ = {}, uint8_t sdl_alen_ = {}, uint8_t sdl_slen_ = {}, ::Array<uint8_t>* sdl_data_ = {}) noexcept : sdl_len{sdl_len_}, sdl_family{sdl_family_}, sdl_index{sdl_index_}, sdl_type{sdl_type_}, sdl_nlen{sdl_nlen_}, sdl_alen{sdl_alen_}, sdl_slen{sdl_slen_}, sdl_data{sdl_data_} {}
+    constexpr sockaddr_dl(uint8_t sdl_len_ = {}, uint8_t sdl_family_ = {}, uint16_t sdl_index_ = {}, uint8_t sdl_type_ = {}, uint8_t sdl_nlen_ = {}, uint8_t sdl_alen_ = {}, uint8_t sdl_slen_ = {}, ::ArrayWrapper<uint8_t> sdl_data_ = {}) noexcept : sdl_len{sdl_len_}, sdl_family{sdl_family_}, sdl_index{sdl_index_}, sdl_type{sdl_type_}, sdl_nlen{sdl_nlen_}, sdl_alen{sdl_alen_}, sdl_slen{sdl_slen_}, sdl_data{sdl_data_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -97,13 +93,13 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     // Get instance field reference: public System.Byte sdl_slen
     uint8_t& dyn_sdl_slen();
     // Get instance field reference: public System.Byte[] sdl_data
-    ::Array<uint8_t>*& dyn_sdl_data();
+    ::ArrayWrapper<uint8_t>& dyn_sdl_data();
     // System.Void Read(System.IntPtr ptr)
-    // Offset: 0x14A0E74
+    // Offset: 0x1646AF0
     void Read(System::IntPtr ptr);
   }; // System.Net.NetworkInformation.MacOsStructs.sockaddr_dl
   #pragma pack(pop)
-  static check_size<sizeof(sockaddr_dl), 8 + sizeof(::Array<uint8_t>*)> __System_Net_NetworkInformation_MacOsStructs_sockaddr_dlSizeCheck;
+  static check_size<sizeof(sockaddr_dl), 8 + sizeof(::ArrayWrapper<uint8_t>)> __System_Net_NetworkInformation_MacOsStructs_sockaddr_dlSizeCheck;
   static_assert(sizeof(sockaddr_dl) == 0x10);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

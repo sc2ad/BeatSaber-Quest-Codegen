@@ -194,53 +194,53 @@ namespace UnityEngine::AddressableAssets {
     // Set static field: static System.String LibraryPath
     static void _set_LibraryPath(::Il2CppString* value);
     // static private UnityEngine.AddressableAssets.AddressablesImpl get_m_Addressables()
-    // Offset: 0x143B828
+    // Offset: 0x1589040
     static UnityEngine::AddressableAssets::AddressablesImpl* get_m_Addressables();
     // static public UnityEngine.ResourceManagement.ResourceManager get_ResourceManager()
-    // Offset: 0x143B890
+    // Offset: 0x15890A8
     static UnityEngine::ResourceManagement::ResourceManager* get_ResourceManager();
     // static UnityEngine.AddressableAssets.AddressablesImpl get_Instance()
-    // Offset: 0x143B9D0
+    // Offset: 0x15891E8
     static UnityEngine::AddressableAssets::AddressablesImpl* get_Instance();
     // static public UnityEngine.ResourceManagement.ResourceProviders.IInstanceProvider get_InstanceProvider()
-    // Offset: 0x143BA74
+    // Offset: 0x158928C
     static UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* get_InstanceProvider();
     // static public System.Func`2<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,System.String> get_InternalIdTransformFunc()
-    // Offset: 0x143BC44
+    // Offset: 0x158945C
     static System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>* get_InternalIdTransformFunc();
     // static public System.Void set_InternalIdTransformFunc(System.Func`2<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,System.String> value)
-    // Offset: 0x143BD1C
+    // Offset: 0x1589534
     static void set_InternalIdTransformFunc(System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>* value);
     // static public System.String get_StreamingAssetsSubFolder()
-    // Offset: 0x143BE0C
+    // Offset: 0x1589624
     static ::Il2CppString* get_StreamingAssetsSubFolder();
     // static public System.String get_BuildPath()
-    // Offset: 0x143BF30
+    // Offset: 0x1589748
     static ::Il2CppString* get_BuildPath();
     // static public System.String get_PlayerBuildDataPath()
-    // Offset: 0x143C0B4
+    // Offset: 0x15898CC
     static ::Il2CppString* get_PlayerBuildDataPath();
     // static public System.String get_RuntimePath()
-    // Offset: 0x143C1EC
+    // Offset: 0x1589A04
     static ::Il2CppString* get_RuntimePath();
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> get_ResourceLocators()
-    // Offset: 0x143C29C
+    // Offset: 0x1589AB4
     static System::Collections::Generic::IEnumerable_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>* get_ResourceLocators();
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> get_InitializationOperation()
-    // Offset: 0x143D6C8
+    // Offset: 0x158AEE0
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> get_InitializationOperation();
     // static private System.Void .cctor()
-    // Offset: 0x1443B2C
+    // Offset: 0x1591344
     static void _cctor();
     // static public System.String ResolveInternalId(System.String id)
-    // Offset: 0x143BB24
+    // Offset: 0x158933C
     static ::Il2CppString* ResolveInternalId(::Il2CppString* id);
     // static System.Void InternalSafeSerializationLog(System.String msg, UnityEngine.LogType logType)
-    // Offset: 0x143C438
+    // Offset: 0x1589C50
     static void InternalSafeSerializationLog(::Il2CppString* msg, UnityEngine::LogType logType);
     // static System.Void InternalSafeSerializationLogFormat(System.String format, UnityEngine.LogType logType, params System.Object[] args)
-    // Offset: 0x143C6B8
-    static void InternalSafeSerializationLogFormat(::Il2CppString* format, UnityEngine::LogType logType, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x1589ED0
+    static void InternalSafeSerializationLogFormat(::Il2CppString* format, UnityEngine::LogType logType, ::ArrayWrapper<::Il2CppObject*> args);
     // Creating initializer_list -> params proxy for: System.Void InternalSafeSerializationLogFormat(System.String format, UnityEngine.LogType logType, params System.Object[] args)
     static void InternalSafeSerializationLogFormat(::Il2CppString* format, UnityEngine::LogType logType, std::initializer_list<::Il2CppObject*> args);
     // Creating TArgs -> initializer_list proxy for: System.Void InternalSafeSerializationLogFormat(System.String format, UnityEngine.LogType logType, params System.Object[] args)
@@ -249,11 +249,11 @@ namespace UnityEngine::AddressableAssets {
       InternalSafeSerializationLogFormat(format, logType, {args...});
     }
     // static public System.Void Log(System.String msg)
-    // Offset: 0x143C978
+    // Offset: 0x158A190
     static void Log(::Il2CppString* msg);
     // static public System.Void LogFormat(System.String format, params System.Object[] args)
-    // Offset: 0x143CA34
-    static void LogFormat(::Il2CppString* format, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x158A24C
+    static void LogFormat(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
     // Creating initializer_list -> params proxy for: System.Void LogFormat(System.String format, params System.Object[] args)
     static void LogFormat(::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
     // Creating TArgs -> initializer_list proxy for: System.Void LogFormat(System.String format, params System.Object[] args)
@@ -262,11 +262,11 @@ namespace UnityEngine::AddressableAssets {
       LogFormat(format, {args...});
     }
     // static public System.Void LogWarning(System.String msg)
-    // Offset: 0x143CAF8
+    // Offset: 0x158A310
     static void LogWarning(::Il2CppString* msg);
     // static public System.Void LogWarningFormat(System.String format, params System.Object[] args)
-    // Offset: 0x143CBB4
-    static void LogWarningFormat(::Il2CppString* format, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x158A3CC
+    static void LogWarningFormat(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
     // Creating initializer_list -> params proxy for: System.Void LogWarningFormat(System.String format, params System.Object[] args)
     static void LogWarningFormat(::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
     // Creating TArgs -> initializer_list proxy for: System.Void LogWarningFormat(System.String format, params System.Object[] args)
@@ -275,14 +275,14 @@ namespace UnityEngine::AddressableAssets {
       LogWarningFormat(format, {args...});
     }
     // static public System.Void LogError(System.String msg)
-    // Offset: 0x143CC78
+    // Offset: 0x158A490
     static void LogError(::Il2CppString* msg);
     // static public System.Void LogException(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op, System.Exception ex)
-    // Offset: 0x143CD34
+    // Offset: 0x158A54C
     static void LogException(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op, System::Exception* ex);
     // static public System.Void LogErrorFormat(System.String format, params System.Object[] args)
-    // Offset: 0x143D044
-    static void LogErrorFormat(::Il2CppString* format, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x158A85C
+    static void LogErrorFormat(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
     // Creating initializer_list -> params proxy for: System.Void LogErrorFormat(System.String format, params System.Object[] args)
     static void LogErrorFormat(::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
     // Creating TArgs -> initializer_list proxy for: System.Void LogErrorFormat(System.String format, params System.Object[] args)
@@ -291,19 +291,19 @@ namespace UnityEngine::AddressableAssets {
       LogErrorFormat(format, {args...});
     }
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> Initialize()
-    // Offset: 0x143D108
+    // Offset: 0x158A920
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> Initialize();
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> InitializeAsync()
-    // Offset: 0x143D16C
+    // Offset: 0x158A984
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> InitializeAsync();
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> LoadContentCatalog(System.String catalogPath, System.String providerSuffix)
-    // Offset: 0x143D2A8
+    // Offset: 0x158AAC0
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> LoadContentCatalog(::Il2CppString* catalogPath, ::Il2CppString* providerSuffix);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> LoadContentCatalogAsync(System.String catalogPath, System.String providerSuffix)
-    // Offset: 0x143D324
+    // Offset: 0x158AB3C
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> LoadContentCatalogAsync(::Il2CppString* catalogPath, ::Il2CppString* providerSuffix);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> LoadContentCatalogAsync(System.String catalogPath, System.Boolean autoReleaseHandle, System.String providerSuffix)
-    // Offset: 0x143D5EC
+    // Offset: 0x158AE04
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> LoadContentCatalogAsync(::Il2CppString* catalogPath, bool autoReleaseHandle, ::Il2CppString* providerSuffix);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> LoadAsset(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location)
     // Offset: 0xFFFFFFFF
@@ -342,19 +342,19 @@ namespace UnityEngine::AddressableAssets {
       return ::il2cpp_utils::RunMethodThrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, key);
     }
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> LoadResourceLocations(System.Collections.Generic.IList`1<System.Object> keys, UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode mode, System.Type type)
-    // Offset: 0x143D6D4
+    // Offset: 0x158AEEC
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> LoadResourceLocations(System::Collections::Generic::IList_1<::Il2CppObject*>* keys, UnityEngine::AddressableAssets::Addressables::MergeMode mode, System::Type* type);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> LoadResourceLocationsAsync(System.Collections.Generic.IList`1<System.Object> keys, UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode mode, System.Type type)
-    // Offset: 0x143D760
+    // Offset: 0x158AF78
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> LoadResourceLocationsAsync(System::Collections::Generic::IList_1<::Il2CppObject*>* keys, UnityEngine::AddressableAssets::Addressables::MergeMode mode, System::Type* type);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> LoadResourceLocationsAsync(System.Collections.IEnumerable keys, UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode mode, System.Type type)
-    // Offset: 0x143D994
+    // Offset: 0x158B1AC
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> LoadResourceLocationsAsync(System::Collections::IEnumerable* keys, UnityEngine::AddressableAssets::Addressables::MergeMode mode, System::Type* type);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> LoadResourceLocations(System.Object key, System.Type type)
-    // Offset: 0x143DA70
+    // Offset: 0x158B288
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> LoadResourceLocations(::Il2CppObject* key, System::Type* type);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> LoadResourceLocationsAsync(System.Object key, System.Type type)
-    // Offset: 0x143DAEC
+    // Offset: 0x158B304
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> LoadResourceLocationsAsync(::Il2CppObject* key, System::Type* type);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<TObject>> LoadAssets(System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations, System.Action`1<TObject> callback)
     // Offset: 0xFFFFFFFF
@@ -474,157 +474,157 @@ namespace UnityEngine::AddressableAssets {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, handle);
     }
     // static public System.Void Release(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle handle)
-    // Offset: 0x143DD0C
+    // Offset: 0x158B524
     static void Release(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
     // static public System.Boolean ReleaseInstance(UnityEngine.GameObject instance)
-    // Offset: 0x143DE44
+    // Offset: 0x158B65C
     static bool ReleaseInstance(UnityEngine::GameObject* instance);
     // static public System.Boolean ReleaseInstance(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle handle)
-    // Offset: 0x143DFF4
+    // Offset: 0x158B80C
     static bool ReleaseInstance(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
     // static public System.Boolean ReleaseInstance(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> handle)
-    // Offset: 0x143E0E0
+    // Offset: 0x158B8F8
     static bool ReleaseInstance(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> handle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Int64> GetDownloadSize(System.Object key)
-    // Offset: 0x143E1D8
+    // Offset: 0x158B9F0
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> GetDownloadSize(::Il2CppObject* key);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Int64> GetDownloadSizeAsync(System.Object key)
-    // Offset: 0x143E24C
+    // Offset: 0x158BA64
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> GetDownloadSizeAsync(::Il2CppObject* key);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Int64> GetDownloadSizeAsync(System.String key)
-    // Offset: 0x143E3C8
+    // Offset: 0x158BBE0
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> GetDownloadSizeAsync(::Il2CppString* key);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Int64> GetDownloadSizeAsync(System.Collections.Generic.IList`1<System.Object> keys)
-    // Offset: 0x143E48C
+    // Offset: 0x158BCA4
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> GetDownloadSizeAsync(System::Collections::Generic::IList_1<::Il2CppObject*>* keys);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Int64> GetDownloadSizeAsync(System.Collections.IEnumerable keys)
-    // Offset: 0x143F1AC
+    // Offset: 0x158C9C4
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> GetDownloadSizeAsync(System::Collections::IEnumerable* keys);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle DownloadDependencies(System.Object key)
-    // Offset: 0x143F270
+    // Offset: 0x158CA88
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle DownloadDependencies(::Il2CppObject* key);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle DownloadDependenciesAsync(System.Object key, System.Boolean autoReleaseHandle)
-    // Offset: 0x143F2E8
+    // Offset: 0x158CB00
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle DownloadDependenciesAsync(::Il2CppObject* key, bool autoReleaseHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle DownloadDependenciesAsync(System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations, System.Boolean autoReleaseHandle)
-    // Offset: 0x143F674
+    // Offset: 0x158CE8C
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle DownloadDependenciesAsync(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, bool autoReleaseHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle DownloadDependenciesAsync(System.Collections.Generic.IList`1<System.Object> keys, UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode mode, System.Boolean autoReleaseHandle)
-    // Offset: 0x143F89C
+    // Offset: 0x158D0B4
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle DownloadDependenciesAsync(System::Collections::Generic::IList_1<::Il2CppObject*>* keys, UnityEngine::AddressableAssets::Addressables::MergeMode mode, bool autoReleaseHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle DownloadDependenciesAsync(System.Collections.IEnumerable keys, UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode mode, System.Boolean autoReleaseHandle)
-    // Offset: 0x143FC38
+    // Offset: 0x158D450
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle DownloadDependenciesAsync(System::Collections::IEnumerable* keys, UnityEngine::AddressableAssets::Addressables::MergeMode mode, bool autoReleaseHandle);
     // static public System.Void ClearDependencyCacheAsync(System.Object key)
-    // Offset: 0x143FD14
+    // Offset: 0x158D52C
     static void ClearDependencyCacheAsync(::Il2CppObject* key);
     // static public System.Void ClearDependencyCacheAsync(System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations)
-    // Offset: 0x1440048
+    // Offset: 0x158D860
     static void ClearDependencyCacheAsync(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations);
     // static public System.Void ClearDependencyCacheAsync(System.Collections.Generic.IList`1<System.Object> keys)
-    // Offset: 0x144059C
+    // Offset: 0x158DDB4
     static void ClearDependencyCacheAsync(System::Collections::Generic::IList_1<::Il2CppObject*>* keys);
     // static public System.Void ClearDependencyCacheAsync(System.Collections.IEnumerable keys)
-    // Offset: 0x1440AF8
+    // Offset: 0x158E310
     static void ClearDependencyCacheAsync(System::Collections::IEnumerable* keys);
     // static public System.Void ClearDependencyCacheAsync(System.String key)
-    // Offset: 0x1440BC8
+    // Offset: 0x158E3E0
     static void ClearDependencyCacheAsync(::Il2CppString* key);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Boolean> ClearDependencyCacheAsync(System.Object key, System.Boolean autoReleaseHandle)
-    // Offset: 0x1440C98
+    // Offset: 0x158E4B0
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> ClearDependencyCacheAsync(::Il2CppObject* key, bool autoReleaseHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Boolean> ClearDependencyCacheAsync(System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations, System.Boolean autoReleaseHandle)
-    // Offset: 0x1440D6C
+    // Offset: 0x158E584
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> ClearDependencyCacheAsync(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, bool autoReleaseHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Boolean> ClearDependencyCacheAsync(System.Collections.Generic.IList`1<System.Object> keys, System.Boolean autoReleaseHandle)
-    // Offset: 0x1440E40
+    // Offset: 0x158E658
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> ClearDependencyCacheAsync(System::Collections::Generic::IList_1<::Il2CppObject*>* keys, bool autoReleaseHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Boolean> ClearDependencyCacheAsync(System.Collections.IEnumerable keys, System.Boolean autoReleaseHandle)
-    // Offset: 0x1440F14
+    // Offset: 0x158E72C
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> ClearDependencyCacheAsync(System::Collections::IEnumerable* keys, bool autoReleaseHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Boolean> ClearDependencyCacheAsync(System.String key, System.Boolean autoReleaseHandle)
-    // Offset: 0x1440FE8
+    // Offset: 0x158E800
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> ClearDependencyCacheAsync(::Il2CppString* key, bool autoReleaseHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> Instantiate(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace, System.Boolean trackHandle)
-    // Offset: 0x14410BC
+    // Offset: 0x158E8D4
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> Instantiate(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, UnityEngine::Transform* parent, bool instantiateInWorldSpace, bool trackHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> Instantiate(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent, System.Boolean trackHandle)
-    // Offset: 0x1441290
+    // Offset: 0x158EAA8
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> Instantiate(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Transform* parent, bool trackHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> Instantiate(System.Object key, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace, System.Boolean trackHandle)
-    // Offset: 0x14414E4
+    // Offset: 0x158ECFC
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> Instantiate(::Il2CppObject* key, UnityEngine::Transform* parent, bool instantiateInWorldSpace, bool trackHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> Instantiate(System.Object key, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent, System.Boolean trackHandle)
-    // Offset: 0x14416A0
+    // Offset: 0x158EEB8
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> Instantiate(::Il2CppObject* key, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Transform* parent, bool trackHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> Instantiate(System.Object key, UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters, System.Boolean trackHandle)
-    // Offset: 0x14418F4
+    // Offset: 0x158F10C
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> Instantiate(::Il2CppObject* key, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters, bool trackHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> Instantiate(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters, System.Boolean trackHandle)
-    // Offset: 0x1441AB4
+    // Offset: 0x158F2CC
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> Instantiate(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters, bool trackHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> InstantiateAsync(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace, System.Boolean trackHandle)
-    // Offset: 0x1441B6C
+    // Offset: 0x158F384
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> InstantiateAsync(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, UnityEngine::Transform* parent, bool instantiateInWorldSpace, bool trackHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> InstantiateAsync(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent, System.Boolean trackHandle)
-    // Offset: 0x1441374
+    // Offset: 0x158EB8C
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> InstantiateAsync(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Transform* parent, bool trackHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> InstantiateAsync(System.Object key, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace, System.Boolean trackHandle)
-    // Offset: 0x1441578
+    // Offset: 0x158ED90
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> InstantiateAsync(::Il2CppObject* key, UnityEngine::Transform* parent, bool instantiateInWorldSpace, bool trackHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> InstantiateAsync(System.Object key, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent, System.Boolean trackHandle)
-    // Offset: 0x1441784
+    // Offset: 0x158EF9C
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> InstantiateAsync(::Il2CppObject* key, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Transform* parent, bool trackHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> InstantiateAsync(System.Object key, UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters, System.Boolean trackHandle)
-    // Offset: 0x14419AC
+    // Offset: 0x158F1C4
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> InstantiateAsync(::Il2CppObject* key, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters, bool trackHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> InstantiateAsync(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters, System.Boolean trackHandle)
-    // Offset: 0x1441188
+    // Offset: 0x158E9A0
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> InstantiateAsync(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters, bool trackHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> LoadScene(System.Object key, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Boolean activateOnLoad, System.Int32 priority)
-    // Offset: 0x1442364
+    // Offset: 0x158FB7C
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> LoadScene(::Il2CppObject* key, UnityEngine::SceneManagement::LoadSceneMode loadMode, bool activateOnLoad, int priority);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> LoadScene(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Boolean activateOnLoad, System.Int32 priority)
-    // Offset: 0x14424E8
+    // Offset: 0x158FD00
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> LoadScene(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, UnityEngine::SceneManagement::LoadSceneMode loadMode, bool activateOnLoad, int priority);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> LoadSceneAsync(System.Object key, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Boolean activateOnLoad, System.Int32 priority)
-    // Offset: 0x14423F8
+    // Offset: 0x158FC10
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> LoadSceneAsync(::Il2CppObject* key, UnityEngine::SceneManagement::LoadSceneMode loadMode, bool activateOnLoad, int priority);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> LoadSceneAsync(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Boolean activateOnLoad, System.Int32 priority)
-    // Offset: 0x144257C
+    // Offset: 0x158FD94
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> LoadSceneAsync(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, UnityEngine::SceneManagement::LoadSceneMode loadMode, bool activateOnLoad, int priority);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> UnloadScene(UnityEngine.ResourceManagement.ResourceProviders.SceneInstance scene, System.Boolean autoReleaseHandle)
-    // Offset: 0x1442994
+    // Offset: 0x15901AC
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> UnloadScene(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance scene, bool autoReleaseHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> UnloadScene(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle handle, System.Boolean autoReleaseHandle)
-    // Offset: 0x1442AFC
+    // Offset: 0x1590314
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> UnloadScene(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle, bool autoReleaseHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> UnloadScene(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> handle, System.Boolean autoReleaseHandle)
-    // Offset: 0x1442CA4
+    // Offset: 0x15904BC
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> UnloadScene(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> handle, bool autoReleaseHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> UnloadSceneAsync(UnityEngine.ResourceManagement.ResourceProviders.SceneInstance scene, System.Boolean autoReleaseHandle)
-    // Offset: 0x1442A20
+    // Offset: 0x1590238
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> UnloadSceneAsync(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance scene, bool autoReleaseHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> UnloadSceneAsync(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle handle, System.Boolean autoReleaseHandle)
-    // Offset: 0x1442BA4
+    // Offset: 0x15903BC
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> UnloadSceneAsync(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle, bool autoReleaseHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> UnloadSceneAsync(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> handle, System.Boolean autoReleaseHandle)
-    // Offset: 0x1442D4C
+    // Offset: 0x1590564
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> UnloadSceneAsync(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> handle, bool autoReleaseHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.List`1<System.String>> CheckForCatalogUpdates(System.Boolean autoReleaseHandle)
-    // Offset: 0x144323C
+    // Offset: 0x1590A54
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::List_1<::Il2CppString*>*> CheckForCatalogUpdates(bool autoReleaseHandle);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator>> UpdateCatalogs(System.Collections.Generic.IEnumerable`1<System.String> catalogs, System.Boolean autoReleaseHandle)
-    // Offset: 0x1443448
+    // Offset: 0x1590C60
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> UpdateCatalogs(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* catalogs, bool autoReleaseHandle);
     // static public System.Void AddResourceLocator(UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator locator, System.String localCatalogHash, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation remoteCatalogLocation)
-    // Offset: 0x1443734
+    // Offset: 0x1590F4C
     static void AddResourceLocator(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* locator, ::Il2CppString* localCatalogHash, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteCatalogLocation);
     // static public System.Void RemoveResourceLocator(UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator locator)
-    // Offset: 0x14438A8
+    // Offset: 0x15910C0
     static void RemoveResourceLocator(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* locator);
     // static public System.Void ClearResourceLocators()
-    // Offset: 0x1443A28
+    // Offset: 0x1591240
     static void ClearResourceLocators();
   }; // UnityEngine.AddressableAssets.Addressables
   #pragma pack(pop)
@@ -759,11 +759,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Addressables::InternalSafeSerializationLogFormat
 // Il2CppName: InternalSafeSerializationLogFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::LogType, ::Array<::Il2CppObject*>*)>(&UnityEngine::AddressableAssets::Addressables::InternalSafeSerializationLogFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::LogType, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::AddressableAssets::Addressables::InternalSafeSerializationLogFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* logType = &::il2cpp_utils::GetClassFromName("UnityEngine", "LogType")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Addressables*), "InternalSafeSerializationLogFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format, logType, args});
   }
 };
@@ -779,10 +779,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Addressables::LogFormat
 // Il2CppName: LogFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&UnityEngine::AddressableAssets::Addressables::LogFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::AddressableAssets::Addressables::LogFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Addressables*), "LogFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format, args});
   }
 };
@@ -798,10 +798,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Addressables::LogWarningFormat
 // Il2CppName: LogWarningFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&UnityEngine::AddressableAssets::Addressables::LogWarningFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::AddressableAssets::Addressables::LogWarningFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Addressables*), "LogWarningFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format, args});
   }
 };
@@ -827,10 +827,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Addressables::LogErrorFormat
 // Il2CppName: LogErrorFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&UnityEngine::AddressableAssets::Addressables::LogErrorFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::AddressableAssets::Addressables::LogErrorFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Addressables*), "LogErrorFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format, args});
   }
 };

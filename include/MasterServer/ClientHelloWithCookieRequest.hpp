@@ -72,13 +72,13 @@ namespace MasterServer {
     // Get instance field reference: public readonly ByteArrayNetSerializable cookie
     GlobalNamespace::ByteArrayNetSerializable*& dyn_cookie();
     // static public PacketPool`1<MasterServer.ClientHelloWithCookieRequest> get_pool()
-    // Offset: 0x1218D80
+    // Offset: 0x12D8120
     static GlobalNamespace::PacketPool_1<MasterServer::ClientHelloWithCookieRequest*>* get_pool();
     // public MasterServer.ClientHelloWithCookieRequest Init(System.UInt32 certificateResponseId, System.Byte[] random, System.Byte[] cookie)
-    // Offset: 0x1218DC8
-    MasterServer::ClientHelloWithCookieRequest* Init(uint certificateResponseId, ::Array<uint8_t>* random, ::Array<uint8_t>* cookie);
+    // Offset: 0x12D8168
+    MasterServer::ClientHelloWithCookieRequest* Init(uint certificateResponseId, ::ArrayWrapper<uint8_t> random, ::ArrayWrapper<uint8_t> cookie);
     // public System.Void .ctor()
-    // Offset: 0x121ACB8
+    // Offset: 0x12DA058
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -88,17 +88,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<ClientHelloWithCookieRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x121AB70
+    // Offset: 0x12D9F10
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x121ABD4
+    // Offset: 0x12D9F74
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x121AC3C
+    // Offset: 0x12D9FDC
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();
@@ -120,11 +120,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: MasterServer::ClientHelloWithCookieRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ClientHelloWithCookieRequest* (MasterServer::ClientHelloWithCookieRequest::*)(uint, ::Array<uint8_t>*, ::Array<uint8_t>*)>(&MasterServer::ClientHelloWithCookieRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ClientHelloWithCookieRequest* (MasterServer::ClientHelloWithCookieRequest::*)(uint, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&MasterServer::ClientHelloWithCookieRequest::Init)> {
   static const MethodInfo* get() {
     static auto* certificateResponseId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
-    static auto* random = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* cookie = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* random = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* cookie = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ClientHelloWithCookieRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{certificateResponseId, random, cookie});
   }
 };

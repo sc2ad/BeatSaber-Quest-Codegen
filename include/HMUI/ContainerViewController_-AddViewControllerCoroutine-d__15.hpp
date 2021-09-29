@@ -75,9 +75,9 @@ namespace HMUI {
     // public System.Action`2<System.Single,HMUI.ViewController[]> animationLayouter
     // Size: 0x8
     // Offset: 0x38
-    System::Action_2<float, ::Array<HMUI::ViewController*>*>* animationLayouter;
+    System::Action_2<float, ::ArrayWrapper<HMUI::ViewController*>>* animationLayouter;
     // Field size check
-    static_assert(sizeof(System::Action_2<float, ::Array<HMUI::ViewController*>*>*) == 0x8);
+    static_assert(sizeof(System::Action_2<float, ::ArrayWrapper<HMUI::ViewController*>>*) == 0x8);
     // public System.Action finishedCallback
     // Size: 0x8
     // Offset: 0x40
@@ -87,9 +87,9 @@ namespace HMUI {
     // private HMUI.ViewController[] <viewControllers>5__2
     // Size: 0x8
     // Offset: 0x48
-    ::Array<HMUI::ViewController*>* $viewControllers$5__2;
+    ::ArrayWrapper<HMUI::ViewController*> $viewControllers$5__2;
     // Field size check
-    static_assert(sizeof(::Array<HMUI::ViewController*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<HMUI::ViewController*>) == 0x8);
     // private System.Single <transitionDuration>5__3
     // Size: 0x4
     // Offset: 0x50
@@ -103,7 +103,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: $AddViewControllerCoroutine$d__15
-    $AddViewControllerCoroutine$d__15(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, HMUI::ContainerViewController* $$4__this_ = {}, HMUI::ViewController* newViewController_ = {}, bool immediately_ = {}, System::Action_2<float, ::Array<HMUI::ViewController*>*>* animationLayouter_ = {}, System::Action* finishedCallback_ = {}, ::Array<HMUI::ViewController*>* $viewControllers$5__2_ = {}, float $transitionDuration$5__3_ = {}, float $elapsedTime$5__4_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, newViewController{newViewController_}, immediately{immediately_}, animationLayouter{animationLayouter_}, finishedCallback{finishedCallback_}, $viewControllers$5__2{$viewControllers$5__2_}, $transitionDuration$5__3{$transitionDuration$5__3_}, $elapsedTime$5__4{$elapsedTime$5__4_} {}
+    $AddViewControllerCoroutine$d__15(int $$1__state_ = {}, ::Il2CppObject* $$2__current_ = {}, HMUI::ContainerViewController* $$4__this_ = {}, HMUI::ViewController* newViewController_ = {}, bool immediately_ = {}, System::Action_2<float, ::ArrayWrapper<HMUI::ViewController*>>* animationLayouter_ = {}, System::Action* finishedCallback_ = {}, ::ArrayWrapper<HMUI::ViewController*> $viewControllers$5__2_ = {}, float $transitionDuration$5__3_ = {}, float $elapsedTime$5__4_ = {}) noexcept : $$1__state{$$1__state_}, $$2__current{$$2__current_}, $$4__this{$$4__this_}, newViewController{newViewController_}, immediately{immediately_}, animationLayouter{animationLayouter_}, finishedCallback{finishedCallback_}, $viewControllers$5__2{$viewControllers$5__2_}, $transitionDuration$5__3{$transitionDuration$5__3_}, $elapsedTime$5__4{$elapsedTime$5__4_} {}
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -119,36 +119,36 @@ namespace HMUI {
     // Get instance field reference: public System.Boolean immediately
     bool& dyn_immediately();
     // Get instance field reference: public System.Action`2<System.Single,HMUI.ViewController[]> animationLayouter
-    System::Action_2<float, ::Array<HMUI::ViewController*>*>*& dyn_animationLayouter();
+    System::Action_2<float, ::ArrayWrapper<HMUI::ViewController*>>*& dyn_animationLayouter();
     // Get instance field reference: public System.Action finishedCallback
     System::Action*& dyn_finishedCallback();
     // Get instance field reference: private HMUI.ViewController[] <viewControllers>5__2
-    ::Array<HMUI::ViewController*>*& dyn_$viewControllers$5__2();
+    ::ArrayWrapper<HMUI::ViewController*>& dyn_$viewControllers$5__2();
     // Get instance field reference: private System.Single <transitionDuration>5__3
     float& dyn_$transitionDuration$5__3();
     // Get instance field reference: private System.Single <elapsedTime>5__4
     float& dyn_$elapsedTime$5__4();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x136F544
+    // Offset: 0x1484B84
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x136F5AC
+    // Offset: 0x1484BEC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x136EF7C
+    // Offset: 0x14845BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContainerViewController::$AddViewControllerCoroutine$d__15* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ContainerViewController::$AddViewControllerCoroutine$d__15::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContainerViewController::$AddViewControllerCoroutine$d__15*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x136F380
+    // Offset: 0x14849C0
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x136F384
+    // Offset: 0x14849C4
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x136F54C
+    // Offset: 0x1484B8C
     void System_Collections_IEnumerator_Reset();
   }; // HMUI.ContainerViewController/HMUI.<AddViewControllerCoroutine>d__15
   #pragma pack(pop)

@@ -136,34 +136,34 @@ namespace Mono::Net::Security {
     // Get instance field reference: private Mono.Security.Interface.ICertificateValidator2 certificateValidator
     Mono::Security::Interface::ICertificateValidator2*& dyn_certificateValidator();
     // Mono.Net.Security.MobileAuthenticatedStream get_Parent()
-    // Offset: 0x15F4784
+    // Offset: 0x17C032C
     Mono::Net::Security::MobileAuthenticatedStream* get_Parent();
     // public Mono.Security.Interface.MonoTlsSettings get_Settings()
-    // Offset: 0x15F478C
+    // Offset: 0x17C0334
     Mono::Security::Interface::MonoTlsSettings* get_Settings();
     // public System.Boolean get_IsAuthenticated()
     // Offset: 0xFFFFFFFF
     bool get_IsAuthenticated();
     // public System.Boolean get_IsServer()
-    // Offset: 0x15F47A8
+    // Offset: 0x17C0350
     bool get_IsServer();
     // protected System.String get_TargetHost()
-    // Offset: 0x15F47B0
+    // Offset: 0x17C0358
     ::Il2CppString* get_TargetHost();
     // protected System.String get_ServerName()
-    // Offset: 0x15F47B8
+    // Offset: 0x17C0360
     ::Il2CppString* get_ServerName();
     // protected System.Security.Cryptography.X509Certificates.X509CertificateCollection get_ClientCertificates()
-    // Offset: 0x15F47C0
+    // Offset: 0x17C0368
     System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
     // System.Security.Cryptography.X509Certificates.X509Certificate get_LocalServerCertificate()
-    // Offset: 0x15F47C8
+    // Offset: 0x17C0370
     System::Security::Cryptography::X509Certificates::X509Certificate* get_LocalServerCertificate();
     // System.Security.Cryptography.X509Certificates.X509Certificate get_LocalClientCertificate()
     // Offset: 0xFFFFFFFF
     System::Security::Cryptography::X509Certificates::X509Certificate* get_LocalClientCertificate();
     // public System.Void .ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean serverMode, System.String targetHost, System.Security.Authentication.SslProtocols enabledProtocols, System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate, System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates, System.Boolean askForClientCert)
-    // Offset: 0x15F4654
+    // Offset: 0x17C01FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MobileTlsContext* New_ctor(Mono::Net::Security::MobileAuthenticatedStream* parent, bool serverMode, ::Il2CppString* targetHost, System::Security::Authentication::SslProtocols enabledProtocols, System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates, bool askForClientCert) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::MobileTlsContext::.ctor");
@@ -180,30 +180,30 @@ namespace Mono::Net::Security {
     void FinishHandshake();
     // public System.ValueTuple`2<System.Int32,System.Boolean> Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     // Offset: 0xFFFFFFFF
-    System::ValueTuple_2<int, bool> Read(::Array<uint8_t>* buffer, int offset, int count);
+    System::ValueTuple_2<int, bool> Read(::ArrayWrapper<uint8_t> buffer, int offset, int count);
     // public System.ValueTuple`2<System.Int32,System.Boolean> Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     // Offset: 0xFFFFFFFF
-    System::ValueTuple_2<int, bool> Write(::Array<uint8_t>* buffer, int offset, int count);
+    System::ValueTuple_2<int, bool> Write(::ArrayWrapper<uint8_t> buffer, int offset, int count);
     // public System.Void Shutdown()
     // Offset: 0xFFFFFFFF
     void Shutdown();
     // protected System.Boolean ValidateCertificate(System.Security.Cryptography.X509Certificates.X509Certificate leaf, System.Security.Cryptography.X509Certificates.X509Chain chain)
-    // Offset: 0x15F47D0
+    // Offset: 0x17C0378
     bool ValidateCertificate(System::Security::Cryptography::X509Certificates::X509Certificate* leaf, System::Security::Cryptography::X509Certificates::X509Chain* chain);
     // protected System.Boolean ValidateCertificate(System.Security.Cryptography.X509Certificates.X509CertificateCollection certificates)
-    // Offset: 0x15F48D8
+    // Offset: 0x17C0480
     bool ValidateCertificate(System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates);
     // protected System.Security.Cryptography.X509Certificates.X509Certificate SelectClientCertificate(System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate, System.String[] acceptableIssuers)
-    // Offset: 0x15F49D4
-    System::Security::Cryptography::X509Certificates::X509Certificate* SelectClientCertificate(System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, ::Array<::Il2CppString*>* acceptableIssuers);
+    // Offset: 0x17C057C
+    System::Security::Cryptography::X509Certificates::X509Certificate* SelectClientCertificate(System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, ::ArrayWrapper<::Il2CppString*> acceptableIssuers);
     // public System.Void Dispose()
-    // Offset: 0x15F2B84
+    // Offset: 0x17BE72C
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x15F4B50
+    // Offset: 0x17C06F8
     void Dispose(bool disposing);
     // protected override System.Void Finalize()
-    // Offset: 0x15F4B54
+    // Offset: 0x17C06FC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -317,9 +317,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Net::Security::MobileTlsContext::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (Mono::Net::Security::MobileTlsContext::*)(::Array<uint8_t>*, int, int)>(&Mono::Net::Security::MobileTlsContext::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (Mono::Net::Security::MobileTlsContext::*)(::ArrayWrapper<uint8_t>, int, int)>(&Mono::Net::Security::MobileTlsContext::Read)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileTlsContext*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, offset, count});
@@ -328,9 +328,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Val
 // Writing MetadataGetter for method: Mono::Net::Security::MobileTlsContext::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (Mono::Net::Security::MobileTlsContext::*)(::Array<uint8_t>*, int, int)>(&Mono::Net::Security::MobileTlsContext::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (Mono::Net::Security::MobileTlsContext::*)(::ArrayWrapper<uint8_t>, int, int)>(&Mono::Net::Security::MobileTlsContext::Write)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileTlsContext*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, offset, count});
@@ -366,10 +366,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Writing MetadataGetter for method: Mono::Net::Security::MobileTlsContext::SelectClientCertificate
 // Il2CppName: SelectClientCertificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (Mono::Net::Security::MobileTlsContext::*)(System::Security::Cryptography::X509Certificates::X509Certificate*, ::Array<::Il2CppString*>*)>(&Mono::Net::Security::MobileTlsContext::SelectClientCertificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (Mono::Net::Security::MobileTlsContext::*)(System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayWrapper<::Il2CppString*>)>(&Mono::Net::Security::MobileTlsContext::SelectClientCertificate)> {
   static const MethodInfo* get() {
     static auto* serverCertificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;
-    static auto* acceptableIssuers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* acceptableIssuers = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileTlsContext*), "SelectClientCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverCertificate, acceptableIssuers});
   }
 };

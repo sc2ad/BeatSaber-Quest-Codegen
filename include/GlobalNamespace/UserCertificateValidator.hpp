@@ -39,13 +39,13 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::ICertificateValidator*>(this);
     }
     // public System.Void ValidateCertificateChain(MasterServerEndPoint endPoint, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Byte[][] certificateChain)
-    // Offset: 0x1700E78
-    void ValidateCertificateChain(GlobalNamespace::MasterServerEndPoint* endPoint, System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::Array<::Array<uint8_t>*>* certificateChain);
+    // Offset: 0x18DA8FC
+    void ValidateCertificateChain(GlobalNamespace::MasterServerEndPoint* endPoint, System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::ArrayWrapper<::ArrayWrapper<uint8_t>> certificateChain);
     // private System.Void ValidateCertificateChainInternal(MasterServerEndPoint endPoint, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Byte[][] certificateChain)
-    // Offset: 0x1700E7C
-    void ValidateCertificateChainInternal(GlobalNamespace::MasterServerEndPoint* endPoint, System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::Array<::Array<uint8_t>*>* certificateChain);
+    // Offset: 0x18DA900
+    void ValidateCertificateChainInternal(GlobalNamespace::MasterServerEndPoint* endPoint, System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::ArrayWrapper<::ArrayWrapper<uint8_t>> certificateChain);
     // public System.Void .ctor()
-    // Offset: 0x1701008
+    // Offset: 0x18DAA8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -61,22 +61,22 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserCertificateValidator*, "", "UserCert
 // Writing MetadataGetter for method: GlobalNamespace::UserCertificateValidator::ValidateCertificateChain
 // Il2CppName: ValidateCertificateChain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UserCertificateValidator::*)(GlobalNamespace::MasterServerEndPoint*, System::Security::Cryptography::X509Certificates::X509Certificate2*, ::Array<::Array<uint8_t>*>*)>(&GlobalNamespace::UserCertificateValidator::ValidateCertificateChain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UserCertificateValidator::*)(GlobalNamespace::MasterServerEndPoint*, System::Security::Cryptography::X509Certificates::X509Certificate2*, ::ArrayWrapper<::ArrayWrapper<uint8_t>>)>(&GlobalNamespace::UserCertificateValidator::ValidateCertificateChain)> {
   static const MethodInfo* get() {
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("", "MasterServerEndPoint")->byval_arg;
     static auto* certificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate2")->byval_arg;
-    static auto* certificateChain = &il2cpp_functions::array_class_get(il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1), 1)->byval_arg;
+    static auto* certificateChain = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UserCertificateValidator*), "ValidateCertificateChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{endPoint, certificate, certificateChain});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::UserCertificateValidator::ValidateCertificateChainInternal
 // Il2CppName: ValidateCertificateChainInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UserCertificateValidator::*)(GlobalNamespace::MasterServerEndPoint*, System::Security::Cryptography::X509Certificates::X509Certificate2*, ::Array<::Array<uint8_t>*>*)>(&GlobalNamespace::UserCertificateValidator::ValidateCertificateChainInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UserCertificateValidator::*)(GlobalNamespace::MasterServerEndPoint*, System::Security::Cryptography::X509Certificates::X509Certificate2*, ::ArrayWrapper<::ArrayWrapper<uint8_t>>)>(&GlobalNamespace::UserCertificateValidator::ValidateCertificateChainInternal)> {
   static const MethodInfo* get() {
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("", "MasterServerEndPoint")->byval_arg;
     static auto* certificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate2")->byval_arg;
-    static auto* certificateChain = &il2cpp_functions::array_class_get(il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1), 1)->byval_arg;
+    static auto* certificateChain = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UserCertificateValidator*), "ValidateCertificateChainInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{endPoint, certificate, certificateChain});
   }
 };

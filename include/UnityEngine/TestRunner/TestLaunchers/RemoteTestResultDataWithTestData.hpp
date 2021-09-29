@@ -30,23 +30,23 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData[] results
     // Size: 0x8
     // Offset: 0x10
-    ::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>* results;
+    ::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*> results;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>) == 0x8);
     // public UnityEngine.TestRunner.TestLaunchers.RemoteTestData[] tests
     // Size: 0x8
     // Offset: 0x18
-    ::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>* tests;
+    ::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*> tests;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>) == 0x8);
     // Creating value type constructor for type: RemoteTestResultDataWithTestData
-    RemoteTestResultDataWithTestData(::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>* results_ = {}, ::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>* tests_ = {}) noexcept : results{results_}, tests{tests_} {}
+    RemoteTestResultDataWithTestData(::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*> results_ = {}, ::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*> tests_ = {}) noexcept : results{results_}, tests{tests_} {}
     // Get instance field reference: public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData[] results
-    ::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>*& dyn_results();
+    ::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>& dyn_results();
     // Get instance field reference: public UnityEngine.TestRunner.TestLaunchers.RemoteTestData[] tests
-    ::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>*& dyn_tests();
+    ::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>& dyn_tests();
     // public System.Void .ctor()
-    // Offset: 0x14C57B0
+    // Offset: 0x166B42C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -56,7 +56,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     }
   }; // UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData
   #pragma pack(pop)
-  static check_size<sizeof(RemoteTestResultDataWithTestData), 24 + sizeof(::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>*)> __UnityEngine_TestRunner_TestLaunchers_RemoteTestResultDataWithTestDataSizeCheck;
+  static check_size<sizeof(RemoteTestResultDataWithTestData), 24 + sizeof(::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>)> __UnityEngine_TestRunner_TestLaunchers_RemoteTestResultDataWithTestDataSizeCheck;
   static_assert(sizeof(RemoteTestResultDataWithTestData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestResultDataWithTestData");

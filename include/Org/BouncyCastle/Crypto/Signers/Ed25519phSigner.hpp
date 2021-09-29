@@ -45,9 +45,9 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // private readonly System.Byte[] context
     // Size: 0x8
     // Offset: 0x18
-    ::Array<uint8_t>* context;
+    ::ArrayWrapper<uint8_t> context;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Boolean forSigning
     // Size: 0x1
     // Offset: 0x20
@@ -69,7 +69,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*) == 0x8);
     // Creating value type constructor for type: Ed25519phSigner
-    Ed25519phSigner(Org::BouncyCastle::Crypto::IDigest* prehash_ = {}, ::Array<uint8_t>* context_ = {}, bool forSigning_ = {}, Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* privateKey_ = {}, Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* publicKey_ = {}) noexcept : prehash{prehash_}, context{context_}, forSigning{forSigning_}, privateKey{privateKey_}, publicKey{publicKey_} {}
+    Ed25519phSigner(Org::BouncyCastle::Crypto::IDigest* prehash_ = {}, ::ArrayWrapper<uint8_t> context_ = {}, bool forSigning_ = {}, Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* privateKey_ = {}, Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* publicKey_ = {}) noexcept : prehash{prehash_}, context{context_}, forSigning{forSigning_}, privateKey{privateKey_}, publicKey{publicKey_} {}
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ISigner
     operator Org::BouncyCastle::Crypto::ISigner() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);
@@ -77,7 +77,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IDigest prehash
     Org::BouncyCastle::Crypto::IDigest*& dyn_prehash();
     // Get instance field reference: private readonly System.Byte[] context
-    ::Array<uint8_t>*& dyn_context();
+    ::ArrayWrapper<uint8_t>& dyn_context();
     // Get instance field reference: private System.Boolean forSigning
     bool& dyn_forSigning();
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.Ed25519PrivateKeyParameters privateKey
@@ -85,23 +85,23 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.Ed25519PublicKeyParameters publicKey
     Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*& dyn_publicKey();
     // public System.Void .ctor(System.Byte[] context)
-    // Offset: 0x127FF1C
+    // Offset: 0x139C724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Ed25519phSigner* New_ctor(::Array<uint8_t>* context) {
+    static Ed25519phSigner* New_ctor(::ArrayWrapper<uint8_t> context) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ed25519phSigner*, creationType>(context)));
     }
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x127FFD0
+    // Offset: 0x139C7D8
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void BlockUpdate(System.Byte[] buf, System.Int32 off, System.Int32 len)
-    // Offset: 0x1280134
-    void BlockUpdate(::Array<uint8_t>* buf, int off, int len);
+    // Offset: 0x139C93C
+    void BlockUpdate(::ArrayWrapper<uint8_t> buf, int off, int len);
     // public System.Byte[] GenerateSignature()
-    // Offset: 0x1280210
-    ::Array<uint8_t>* GenerateSignature();
+    // Offset: 0x139CA18
+    ::ArrayWrapper<uint8_t> GenerateSignature();
     // public System.Void Reset()
-    // Offset: 0x1280080
+    // Offset: 0x139C888
     void Reset();
   }; // Org.BouncyCastle.Crypto.Signers.Ed25519phSigner
   #pragma pack(pop)
@@ -127,9 +127,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::BlockUpdate
 // Il2CppName: BlockUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::BlockUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::BlockUpdate)> {
   static const MethodInfo* get() {
-    static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buf = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::Ed25519phSigner*), "BlockUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buf, off, len});
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::GenerateSignature
 // Il2CppName: GenerateSignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::*)()>(&Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::GenerateSignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::*)()>(&Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::GenerateSignature)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::Ed25519phSigner*), "GenerateSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

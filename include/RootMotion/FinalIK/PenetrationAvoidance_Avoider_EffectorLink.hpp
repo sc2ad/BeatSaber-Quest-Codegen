@@ -22,14 +22,14 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class PenetrationAvoidance::Avoider::EffectorLink : public ::Il2CppObject {
     public:
-    // [TooltipAttribute] Offset: 0xE31954
+    // [TooltipAttribute] Offset: 0xEF812C
     // public RootMotion.FinalIK.FullBodyBipedEffector effector
     // Size: 0x4
     // Offset: 0x10
     RootMotion::FinalIK::FullBodyBipedEffector effector;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
-    // [TooltipAttribute] Offset: 0xE3198C
+    // [TooltipAttribute] Offset: 0xEF8164
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x14
@@ -43,7 +43,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single weight
     float& dyn_weight();
     // public System.Void .ctor()
-    // Offset: 0x1ADD048
+    // Offset: 0x1C5F7C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

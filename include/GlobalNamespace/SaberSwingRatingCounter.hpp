@@ -232,37 +232,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _finished
     bool& dyn__finished();
     // public System.Single get_beforeCutRating()
-    // Offset: 0x1131B0C
+    // Offset: 0x11CB14C
     float get_beforeCutRating();
     // public System.Single get_afterCutRating()
-    // Offset: 0x1131B14
+    // Offset: 0x11CB154
     float get_afterCutRating();
     // public System.Void RegisterDidChangeReceiver(ISaberSwingRatingCounterDidChangeReceiver receiver)
-    // Offset: 0x1131B1C
+    // Offset: 0x11CB15C
     void RegisterDidChangeReceiver(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
     // public System.Void RegisterDidFinishReceiver(ISaberSwingRatingCounterDidFinishReceiver receiver)
-    // Offset: 0x1131B84
+    // Offset: 0x11CB1C4
     void RegisterDidFinishReceiver(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
     // public System.Void UnregisterDidChangeReceiver(ISaberSwingRatingCounterDidChangeReceiver receiver)
-    // Offset: 0x1131BEC
+    // Offset: 0x11CB22C
     void UnregisterDidChangeReceiver(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
     // public System.Void UnregisterDidFinishReceiver(ISaberSwingRatingCounterDidFinishReceiver receiver)
-    // Offset: 0x1131C54
+    // Offset: 0x11CB294
     void UnregisterDidFinishReceiver(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
     // public System.Void Init(SaberMovementData saberMovementData, UnityEngine.Transform noteTransform, System.Boolean rateBeforeCut, System.Boolean rateAfterCut)
-    // Offset: 0x1131CBC
+    // Offset: 0x11CB2FC
     void Init(GlobalNamespace::SaberMovementData* saberMovementData, UnityEngine::Transform* noteTransform, bool rateBeforeCut, bool rateAfterCut);
     // public System.Void ProcessNewData(BladeMovementDataElement newData, BladeMovementDataElement prevData, System.Boolean prevDataAreValid)
-    // Offset: 0x1131E20
+    // Offset: 0x11CB460
     void ProcessNewData(GlobalNamespace::BladeMovementDataElement newData, GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
     // private System.Void Finish()
-    // Offset: 0x1132350
+    // Offset: 0x11CB990
     void Finish();
     // public System.Void DrawGizmos()
-    // Offset: 0x1132498
+    // Offset: 0x11CBAD8
     void DrawGizmos();
     // public System.Void .ctor()
-    // Offset: 0x113277C
+    // Offset: 0x11CBDBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

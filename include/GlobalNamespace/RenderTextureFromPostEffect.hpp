@@ -50,16 +50,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Camera _camera
     UnityEngine::Camera*& dyn__camera();
     // public UnityEngine.RenderTexture get_targetTexture()
-    // Offset: 0x23901FC
+    // Offset: 0x258AB08
     UnityEngine::RenderTexture* get_targetTexture();
     // protected System.Void Awake()
-    // Offset: 0x2390204
+    // Offset: 0x258AB10
     void Awake();
     // private System.Void OnRenderImage(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dst)
-    // Offset: 0x239025C
+    // Offset: 0x258AB68
     void OnRenderImage(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dst);
     // public System.Void .ctor()
-    // Offset: 0x2390464
+    // Offset: 0x258AD70
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

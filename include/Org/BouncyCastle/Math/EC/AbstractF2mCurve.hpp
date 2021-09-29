@@ -47,57 +47,57 @@ namespace Org::BouncyCastle::Math::EC {
     // private Org.BouncyCastle.Math.BigInteger[] si
     // Size: 0x8
     // Offset: 0x50
-    ::Array<Org::BouncyCastle::Math::BigInteger*>* si;
+    ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> si;
     // Field size check
-    static_assert(sizeof(::Array<Org::BouncyCastle::Math::BigInteger*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*>) == 0x8);
     // Creating value type constructor for type: AbstractF2mCurve
-    AbstractF2mCurve(::Array<Org::BouncyCastle::Math::BigInteger*>* si_ = {}) noexcept : si{si_} {}
-    // Creating conversion operator: operator ::Array<Org::BouncyCastle::Math::BigInteger*>*
-    constexpr operator ::Array<Org::BouncyCastle::Math::BigInteger*>*() const noexcept {
+    AbstractF2mCurve(::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> si_ = {}) noexcept : si{si_} {}
+    // Creating conversion operator: operator ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*>
+    constexpr operator ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*>() const noexcept {
       return si;
     }
     // Get instance field reference: private Org.BouncyCastle.Math.BigInteger[] si
-    ::Array<Org::BouncyCastle::Math::BigInteger*>*& dyn_si();
+    ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*>& dyn_si();
     // public System.Boolean get_IsKoblitz()
-    // Offset: 0x1DB31B8
+    // Offset: 0x1F565CC
     bool get_IsKoblitz();
     // protected System.Void .ctor(System.Int32 m, System.Int32 k1, System.Int32 k2, System.Int32 k3)
-    // Offset: 0x1DB292C
+    // Offset: 0x1F55D40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AbstractF2mCurve* New_ctor(int m, int k1, int k2, int k3) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::AbstractF2mCurve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AbstractF2mCurve*, creationType>(m, k1, k2, k3)));
     }
     // static private Org.BouncyCastle.Math.Field.IFiniteField BuildField(System.Int32 m, System.Int32 k1, System.Int32 k2, System.Int32 k3)
-    // Offset: 0x1DB2760
+    // Offset: 0x1F55B74
     static Org::BouncyCastle::Math::Field::IFiniteField* BuildField(int m, int k1, int k2, int k3);
     // Org.BouncyCastle.Math.EC.ECFieldElement SolveQuadraticEquation(Org.BouncyCastle.Math.EC.ECFieldElement beta)
-    // Offset: 0x1DB2DF8
+    // Offset: 0x1F5620C
     Org::BouncyCastle::Math::EC::ECFieldElement* SolveQuadraticEquation(Org::BouncyCastle::Math::EC::ECFieldElement* beta);
     // Org.BouncyCastle.Math.BigInteger[] GetSi()
-    // Offset: 0x1DB30E8
-    ::Array<Org::BouncyCastle::Math::BigInteger*>* GetSi();
+    // Offset: 0x1F564FC
+    ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> GetSi();
     // static private Org.BouncyCastle.Math.BigInteger ImplRandomFieldElementMult(Org.BouncyCastle.Security.SecureRandom r, System.Int32 m)
-    // Offset: 0x1DB2B8C
+    // Offset: 0x1F55FA0
     static Org::BouncyCastle::Math::BigInteger* ImplRandomFieldElementMult(Org::BouncyCastle::Security::SecureRandom* r, int m);
     // public override Org.BouncyCastle.Math.EC.ECPoint CreatePoint(Org.BouncyCastle.Math.BigInteger x, Org.BouncyCastle.Math.BigInteger y, System.Boolean withCompression)
-    // Offset: 0x1DB296C
+    // Offset: 0x1F55D80
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECCurve::CreatePoint(Org.BouncyCastle.Math.BigInteger x, Org.BouncyCastle.Math.BigInteger y, System.Boolean withCompression)
     Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(Org::BouncyCastle::Math::BigInteger* x, Org::BouncyCastle::Math::BigInteger* y, bool withCompression);
     // public override Org.BouncyCastle.Math.EC.ECFieldElement RandomFieldElementMult(Org.BouncyCastle.Security.SecureRandom r)
-    // Offset: 0x1DB2AF4
+    // Offset: 0x1F55F08
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECCurve::RandomFieldElementMult(Org.BouncyCastle.Security.SecureRandom r)
     Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElementMult(Org::BouncyCastle::Security::SecureRandom* r);
     // protected override Org.BouncyCastle.Math.EC.ECPoint DecompressPoint(System.Int32 yTilde, Org.BouncyCastle.Math.BigInteger X1)
-    // Offset: 0x1DB2BD0
+    // Offset: 0x1F55FE4
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECCurve::DecompressPoint(System.Int32 yTilde, Org.BouncyCastle.Math.BigInteger X1)
     Org::BouncyCastle::Math::EC::ECPoint* DecompressPoint(int yTilde, Org::BouncyCastle::Math::BigInteger* X1);
   }; // Org.BouncyCastle.Math.EC.AbstractF2mCurve
   #pragma pack(pop)
-  static check_size<sizeof(AbstractF2mCurve), 80 + sizeof(::Array<Org::BouncyCastle::Math::BigInteger*>*)> __Org_BouncyCastle_Math_EC_AbstractF2mCurveSizeCheck;
+  static check_size<sizeof(AbstractF2mCurve), 80 + sizeof(::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*>)> __Org_BouncyCastle_Math_EC_AbstractF2mCurveSizeCheck;
   static_assert(sizeof(AbstractF2mCurve) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::AbstractF2mCurve*, "Org.BouncyCastle.Math.EC", "AbstractF2mCurve");
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::AbstractF2mCurve::GetSi
 // Il2CppName: GetSi
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::BigInteger*>* (Org::BouncyCastle::Math::EC::AbstractF2mCurve::*)()>(&Org::BouncyCastle::Math::EC::AbstractF2mCurve::GetSi)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> (Org::BouncyCastle::Math::EC::AbstractF2mCurve::*)()>(&Org::BouncyCastle::Math::EC::AbstractF2mCurve::GetSi)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::AbstractF2mCurve*), "GetSi", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -30,21 +30,21 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // private System.Int32[] workingKey1
     // Size: 0x8
     // Offset: 0x18
-    ::Array<int>* workingKey1;
+    ::ArrayWrapper<int> workingKey1;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // private System.Int32[] workingKey2
     // Size: 0x8
     // Offset: 0x20
-    ::Array<int>* workingKey2;
+    ::ArrayWrapper<int> workingKey2;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // private System.Int32[] workingKey3
     // Size: 0x8
     // Offset: 0x28
-    ::Array<int>* workingKey3;
+    ::ArrayWrapper<int> workingKey3;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // private System.Boolean forEncryption
     // Size: 0x1
     // Offset: 0x30
@@ -52,24 +52,24 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: DesEdeEngine
-    DesEdeEngine(::Array<int>* workingKey1_ = {}, ::Array<int>* workingKey2_ = {}, ::Array<int>* workingKey3_ = {}, bool forEncryption_ = {}) noexcept : workingKey1{workingKey1_}, workingKey2{workingKey2_}, workingKey3{workingKey3_}, forEncryption{forEncryption_} {}
-    // Deleting conversion operator: operator ::Array<int>*
-    constexpr operator ::Array<int>*() const noexcept = delete;
+    DesEdeEngine(::ArrayWrapper<int> workingKey1_ = {}, ::ArrayWrapper<int> workingKey2_ = {}, ::ArrayWrapper<int> workingKey3_ = {}, bool forEncryption_ = {}) noexcept : workingKey1{workingKey1_}, workingKey2{workingKey2_}, workingKey3{workingKey3_}, forEncryption{forEncryption_} {}
+    // Deleting conversion operator: operator ::ArrayWrapper<int>
+    constexpr operator ::ArrayWrapper<int>() const noexcept = delete;
     // Get instance field reference: private System.Int32[] workingKey1
-    ::Array<int>*& dyn_workingKey1();
+    ::ArrayWrapper<int>& dyn_workingKey1();
     // Get instance field reference: private System.Int32[] workingKey2
-    ::Array<int>*& dyn_workingKey2();
+    ::ArrayWrapper<int>& dyn_workingKey2();
     // Get instance field reference: private System.Int32[] workingKey3
-    ::Array<int>*& dyn_workingKey3();
+    ::ArrayWrapper<int>& dyn_workingKey3();
     // Get instance field reference: private System.Boolean forEncryption
     bool& dyn_forEncryption();
     // public override System.String get_AlgorithmName()
-    // Offset: 0x1E72910
+    // Offset: 0x1FCD39C
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.String DesEngine::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public System.Void .ctor()
-    // Offset: 0x1E72F90
+    // Offset: 0x1FCDA1C
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.Void DesEngine::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -79,22 +79,22 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return THROW_UNLESS((::il2cpp_utils::New<DesEdeEngine*, creationType>()));
     }
     // public override System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1E720F8
+    // Offset: 0x1FCCB84
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.Void DesEngine::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public override System.Int32 GetBlockSize()
-    // Offset: 0x1E72958
+    // Offset: 0x1FCD3E4
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.Int32 DesEngine::GetBlockSize()
     int GetBlockSize();
     // public override System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E72960
+    // Offset: 0x1FCD3EC
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.Int32 DesEngine::ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
+    int ProcessBlock(::ArrayWrapper<uint8_t> input, int inOff, ::ArrayWrapper<uint8_t> output, int outOff);
     // public override System.Void Reset()
-    // Offset: 0x1E72F8C
+    // Offset: 0x1FCDA18
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.Void DesEngine::Reset()
     void Reset();
@@ -138,11 +138,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::DesEdeEngine::ProcessBlock
 // Il2CppName: ProcessBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::DesEdeEngine::*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Engines::DesEdeEngine::ProcessBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::DesEdeEngine::*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::DesEdeEngine::ProcessBlock)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::DesEdeEngine*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, inOff, output, outOff});
   }

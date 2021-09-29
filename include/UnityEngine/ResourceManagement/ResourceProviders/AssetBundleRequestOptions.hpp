@@ -32,28 +32,28 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssetBundleRequestOptions : public ::Il2CppObject/*, public UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData*/ {
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0xE1F3A0
+    // [FormerlySerializedAsAttribute] Offset: 0xEE5A7C
     // private System.String m_Hash
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* m_Hash;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xE1F3EC
+    // [FormerlySerializedAsAttribute] Offset: 0xEE5AC8
     // private System.UInt32 m_Crc
     // Size: 0x4
     // Offset: 0x18
     uint m_Crc;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xE1F438
+    // [FormerlySerializedAsAttribute] Offset: 0xEE5B14
     // private System.Int32 m_Timeout
     // Size: 0x4
     // Offset: 0x1C
     int m_Timeout;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xE1F484
+    // [FormerlySerializedAsAttribute] Offset: 0xEE5B60
     // private System.Boolean m_ChunkedTransfer
     // Size: 0x1
     // Offset: 0x20
@@ -62,14 +62,14 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_ChunkedTransfer and: m_RedirectLimit
     char __padding3[0x3] = {};
-    // [FormerlySerializedAsAttribute] Offset: 0xE1F4D0
+    // [FormerlySerializedAsAttribute] Offset: 0xEE5BAC
     // private System.Int32 m_RedirectLimit
     // Size: 0x4
     // Offset: 0x24
     int m_RedirectLimit;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xE1F51C
+    // [FormerlySerializedAsAttribute] Offset: 0xEE5BF8
     // private System.Int32 m_RetryCount
     // Size: 0x4
     // Offset: 0x28
@@ -129,70 +129,70 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: private System.Boolean m_ClearOtherCachedVersionsWhenLoaded
     bool& dyn_m_ClearOtherCachedVersionsWhenLoaded();
     // public System.String get_Hash()
-    // Offset: 0x19F27B0
+    // Offset: 0x1B67658
     ::Il2CppString* get_Hash();
     // public System.Void set_Hash(System.String value)
-    // Offset: 0x19F27B8
+    // Offset: 0x1B67660
     void set_Hash(::Il2CppString* value);
     // public System.UInt32 get_Crc()
-    // Offset: 0x19F27C0
+    // Offset: 0x1B67668
     uint get_Crc();
     // public System.Void set_Crc(System.UInt32 value)
-    // Offset: 0x19F27C8
+    // Offset: 0x1B67670
     void set_Crc(uint value);
     // public System.Int32 get_Timeout()
-    // Offset: 0x19F27D0
+    // Offset: 0x1B67678
     int get_Timeout();
     // public System.Void set_Timeout(System.Int32 value)
-    // Offset: 0x19F27D8
+    // Offset: 0x1B67680
     void set_Timeout(int value);
     // public System.Boolean get_ChunkedTransfer()
-    // Offset: 0x19F27E0
+    // Offset: 0x1B67688
     bool get_ChunkedTransfer();
     // public System.Void set_ChunkedTransfer(System.Boolean value)
-    // Offset: 0x19F27E8
+    // Offset: 0x1B67690
     void set_ChunkedTransfer(bool value);
     // public System.Int32 get_RedirectLimit()
-    // Offset: 0x19F27F4
+    // Offset: 0x1B6769C
     int get_RedirectLimit();
     // public System.Void set_RedirectLimit(System.Int32 value)
-    // Offset: 0x19F27FC
+    // Offset: 0x1B676A4
     void set_RedirectLimit(int value);
     // public System.Int32 get_RetryCount()
-    // Offset: 0x19F2804
+    // Offset: 0x1B676AC
     int get_RetryCount();
     // public System.Void set_RetryCount(System.Int32 value)
-    // Offset: 0x19F280C
+    // Offset: 0x1B676B4
     void set_RetryCount(int value);
     // public System.String get_BundleName()
-    // Offset: 0x19F2814
+    // Offset: 0x1B676BC
     ::Il2CppString* get_BundleName();
     // public System.Void set_BundleName(System.String value)
-    // Offset: 0x19F281C
+    // Offset: 0x1B676C4
     void set_BundleName(::Il2CppString* value);
     // public System.Int64 get_BundleSize()
-    // Offset: 0x19F2824
+    // Offset: 0x1B676CC
     int64_t get_BundleSize();
     // public System.Void set_BundleSize(System.Int64 value)
-    // Offset: 0x19F282C
+    // Offset: 0x1B676D4
     void set_BundleSize(int64_t value);
     // public System.Boolean get_UseCrcForCachedBundle()
-    // Offset: 0x19F2834
+    // Offset: 0x1B676DC
     bool get_UseCrcForCachedBundle();
     // public System.Void set_UseCrcForCachedBundle(System.Boolean value)
-    // Offset: 0x19F283C
+    // Offset: 0x1B676E4
     void set_UseCrcForCachedBundle(bool value);
     // public System.Boolean get_ClearOtherCachedVersionsWhenLoaded()
-    // Offset: 0x19F2848
+    // Offset: 0x1B676F0
     bool get_ClearOtherCachedVersionsWhenLoaded();
     // public System.Void set_ClearOtherCachedVersionsWhenLoaded(System.Boolean value)
-    // Offset: 0x19F2850
+    // Offset: 0x1B676F8
     void set_ClearOtherCachedVersionsWhenLoaded(bool value);
     // public System.Int64 ComputeSize(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, UnityEngine.ResourceManagement.ResourceManager resourceManager)
-    // Offset: 0x19F285C
+    // Offset: 0x1B67704
     int64_t ComputeSize(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, UnityEngine::ResourceManagement::ResourceManager* resourceManager);
     // public System.Void .ctor()
-    // Offset: 0x19F2A1C
+    // Offset: 0x1B678C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

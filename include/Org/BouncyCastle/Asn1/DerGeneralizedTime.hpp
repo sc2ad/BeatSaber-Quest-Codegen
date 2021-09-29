@@ -47,51 +47,51 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: private readonly System.String time
     ::Il2CppString*& dyn_time();
     // private System.Boolean get_HasFractionalSeconds()
-    // Offset: 0x173E2D4
+    // Offset: 0x18EFAAC
     bool get_HasFractionalSeconds();
     // System.Void .ctor(System.Byte[] bytes)
-    // Offset: 0x1730990
+    // Offset: 0x18E2168
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DerGeneralizedTime* New_ctor(::Array<uint8_t>* bytes) {
+    static DerGeneralizedTime* New_ctor(::ArrayWrapper<uint8_t> bytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerGeneralizedTime::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerGeneralizedTime*, creationType>(bytes)));
     }
     // static public Org.BouncyCastle.Asn1.DerGeneralizedTime GetInstance(System.Object obj)
-    // Offset: 0x173D94C
+    // Offset: 0x18EF124
     static Org::BouncyCastle::Asn1::DerGeneralizedTime* GetInstance(::Il2CppObject* obj);
     // public System.String GetTime()
-    // Offset: 0x173DA58
+    // Offset: 0x18EF230
     ::Il2CppString* GetTime();
     // private System.String CalculateGmtOffset()
-    // Offset: 0x173DD60
+    // Offset: 0x18EF538
     ::Il2CppString* CalculateGmtOffset();
     // static private System.String Convert(System.Int32 time)
-    // Offset: 0x173E23C
+    // Offset: 0x18EFA14
     static ::Il2CppString* Convert(int time);
     // public System.DateTime ToDateTime()
-    // Offset: 0x173DFF4
+    // Offset: 0x18EF7CC
     System::DateTime ToDateTime();
     // private System.String FString(System.Int32 count)
-    // Offset: 0x173E304
+    // Offset: 0x18EFADC
     ::Il2CppString* FString(int count);
     // private System.DateTime ParseDateString(System.String s, System.String format, System.Boolean makeUniversal)
-    // Offset: 0x173E3A0
+    // Offset: 0x18EFB78
     System::DateTime ParseDateString(::Il2CppString* s, ::Il2CppString* format, bool makeUniversal);
     // private System.Byte[] GetOctets()
-    // Offset: 0x173E5C0
-    ::Array<uint8_t>* GetOctets();
+    // Offset: 0x18EFD98
+    ::ArrayWrapper<uint8_t> GetOctets();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x173E5CC
+    // Offset: 0x18EFDA4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x173E608
+    // Offset: 0x18EFDE0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x173E6BC
+    // Offset: 0x18EFE94
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerGeneralizedTime::GetOctets
 // Il2CppName: GetOctets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Asn1::DerGeneralizedTime::*)()>(&Org::BouncyCastle::Asn1::DerGeneralizedTime::GetOctets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Asn1::DerGeneralizedTime::*)()>(&Org::BouncyCastle::Asn1::DerGeneralizedTime::GetOctets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerGeneralizedTime*), "GetOctets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

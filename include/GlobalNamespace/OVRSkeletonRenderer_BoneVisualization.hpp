@@ -84,14 +84,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Material SystemGestureMaterial
     UnityEngine::Material*& dyn_SystemGestureMaterial();
     // public System.Void .ctor(UnityEngine.GameObject rootGO, UnityEngine.Material renderMat, UnityEngine.Material systemGestureMat, System.Single scale, UnityEngine.Transform begin, UnityEngine.Transform end)
-    // Offset: 0x1F48B2C
+    // Offset: 0x20DDFC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRSkeletonRenderer::BoneVisualization* New_ctor(UnityEngine::GameObject* rootGO, UnityEngine::Material* renderMat, UnityEngine::Material* systemGestureMat, float scale, UnityEngine::Transform* begin, UnityEngine::Transform* end) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRSkeletonRenderer::BoneVisualization::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRSkeletonRenderer::BoneVisualization*, creationType>(rootGO, renderMat, systemGestureMat, scale, begin, end)));
     }
     // public System.Void Update(System.Single scale, System.Boolean shouldRender, System.Boolean shouldUseSystemGestureMaterial, OVRSkeletonRenderer/ConfidenceBehavior confidenceBehavior, OVRSkeletonRenderer/SystemGestureBehavior systemGestureBehavior)
-    // Offset: 0x1F49078
+    // Offset: 0x20DE514
     void Update(float scale, bool shouldRender, bool shouldUseSystemGestureMaterial, GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior confidenceBehavior, GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior systemGestureBehavior);
   }; // OVRSkeletonRenderer/BoneVisualization
   #pragma pack(pop)

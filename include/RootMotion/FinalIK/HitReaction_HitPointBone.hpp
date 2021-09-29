@@ -38,20 +38,20 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink
     class BoneLink;
-    // [TooltipAttribute] Offset: 0xE30998
+    // [TooltipAttribute] Offset: 0xEF7170
     // public UnityEngine.AnimationCurve aroundCenterOfMass
     // Size: 0x8
     // Offset: 0x50
     UnityEngine::AnimationCurve* aroundCenterOfMass;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE309D0
+    // [TooltipAttribute] Offset: 0xEF71A8
     // public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone/RootMotion.FinalIK.BoneLink[] boneLinks
     // Size: 0x8
     // Offset: 0x58
-    ::Array<RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*>* boneLinks;
+    ::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*> boneLinks;
     // Field size check
-    static_assert(sizeof(::Array<RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*>) == 0x8);
     // private UnityEngine.Rigidbody rigidbody
     // Size: 0x8
     // Offset: 0x60
@@ -59,15 +59,15 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(UnityEngine::Rigidbody*) == 0x8);
     // Creating value type constructor for type: HitPointBone
-    HitPointBone(UnityEngine::AnimationCurve* aroundCenterOfMass_ = {}, ::Array<RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*>* boneLinks_ = {}, UnityEngine::Rigidbody* rigidbody_ = {}) noexcept : aroundCenterOfMass{aroundCenterOfMass_}, boneLinks{boneLinks_}, rigidbody{rigidbody_} {}
+    HitPointBone(UnityEngine::AnimationCurve* aroundCenterOfMass_ = {}, ::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*> boneLinks_ = {}, UnityEngine::Rigidbody* rigidbody_ = {}) noexcept : aroundCenterOfMass{aroundCenterOfMass_}, boneLinks{boneLinks_}, rigidbody{rigidbody_} {}
     // Get instance field reference: public UnityEngine.AnimationCurve aroundCenterOfMass
     UnityEngine::AnimationCurve*& dyn_aroundCenterOfMass();
     // Get instance field reference: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone/RootMotion.FinalIK.BoneLink[] boneLinks
-    ::Array<RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*>*& dyn_boneLinks();
+    ::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*>& dyn_boneLinks();
     // Get instance field reference: private UnityEngine.Rigidbody rigidbody
     UnityEngine::Rigidbody*& dyn_rigidbody();
     // public System.Void .ctor()
-    // Offset: 0x1CCF584
+    // Offset: 0x1E92844
     // Implemented from: RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPoint
     // Base method: System.Void HitPoint::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -77,17 +77,17 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<HitReaction::HitPointBone*, creationType>()));
     }
     // protected override System.Single GetLength()
-    // Offset: 0x1CCF0B8
+    // Offset: 0x1E92378
     // Implemented from: RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPoint
     // Base method: System.Single HitPoint::GetLength()
     float GetLength();
     // protected override System.Void CrossFadeStart()
-    // Offset: 0x1CCF15C
+    // Offset: 0x1E9241C
     // Implemented from: RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPoint
     // Base method: System.Void HitPoint::CrossFadeStart()
     void CrossFadeStart();
     // protected override System.Void OnApply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
-    // Offset: 0x1CCF1CC
+    // Offset: 0x1E9248C
     // Implemented from: RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPoint
     // Base method: System.Void HitPoint::OnApply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
     void OnApply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);

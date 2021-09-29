@@ -277,15 +277,15 @@ namespace GlobalNamespace {
     // private UnityEngine.Camera[] cameras
     // Size: 0x8
     // Offset: 0xA8
-    ::Array<UnityEngine::Camera*>* cameras;
+    ::ArrayWrapper<UnityEngine::Camera*> cameras;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Camera*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Camera*>) == 0x8);
     // private UnityEngine.Rect[] cameraRects
     // Size: 0x8
     // Offset: 0xB0
-    ::Array<UnityEngine::Rect>* cameraRects;
+    ::ArrayWrapper<UnityEngine::Rect> cameraRects;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Rect>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Rect>) == 0x8);
     // private System.Single sceneResolutionScale
     // Size: 0x4
     // Offset: 0xB8
@@ -293,7 +293,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: SteamVR_ExternalCamera
-    SteamVR_ExternalCamera(GlobalNamespace::SteamVR_ExternalCamera::Config config_ = {}, ::Il2CppString* configPath_ = {}, System::IO::FileSystemWatcher* watcher_ = {}, UnityEngine::Camera* cam_ = {}, UnityEngine::Transform* target_ = {}, UnityEngine::GameObject* clipQuad_ = {}, UnityEngine::Material* clipMaterial_ = {}, UnityEngine::Material* colorMat_ = {}, UnityEngine::Material* alphaMat_ = {}, ::Array<UnityEngine::Camera*>* cameras_ = {}, ::Array<UnityEngine::Rect>* cameraRects_ = {}, float sceneResolutionScale_ = {}) noexcept : config{config_}, configPath{configPath_}, watcher{watcher_}, cam{cam_}, target{target_}, clipQuad{clipQuad_}, clipMaterial{clipMaterial_}, colorMat{colorMat_}, alphaMat{alphaMat_}, cameras{cameras_}, cameraRects{cameraRects_}, sceneResolutionScale{sceneResolutionScale_} {}
+    SteamVR_ExternalCamera(GlobalNamespace::SteamVR_ExternalCamera::Config config_ = {}, ::Il2CppString* configPath_ = {}, System::IO::FileSystemWatcher* watcher_ = {}, UnityEngine::Camera* cam_ = {}, UnityEngine::Transform* target_ = {}, UnityEngine::GameObject* clipQuad_ = {}, UnityEngine::Material* clipMaterial_ = {}, UnityEngine::Material* colorMat_ = {}, UnityEngine::Material* alphaMat_ = {}, ::ArrayWrapper<UnityEngine::Camera*> cameras_ = {}, ::ArrayWrapper<UnityEngine::Rect> cameraRects_ = {}, float sceneResolutionScale_ = {}) noexcept : config{config_}, configPath{configPath_}, watcher{watcher_}, cam{cam_}, target{target_}, clipQuad{clipQuad_}, clipMaterial{clipMaterial_}, colorMat{colorMat_}, alphaMat{alphaMat_}, cameras{cameras_}, cameraRects{cameraRects_}, sceneResolutionScale{sceneResolutionScale_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public SteamVR_ExternalCamera/Config config
@@ -315,40 +315,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Material alphaMat
     UnityEngine::Material*& dyn_alphaMat();
     // Get instance field reference: private UnityEngine.Camera[] cameras
-    ::Array<UnityEngine::Camera*>*& dyn_cameras();
+    ::ArrayWrapper<UnityEngine::Camera*>& dyn_cameras();
     // Get instance field reference: private UnityEngine.Rect[] cameraRects
-    ::Array<UnityEngine::Rect>*& dyn_cameraRects();
+    ::ArrayWrapper<UnityEngine::Rect>& dyn_cameraRects();
     // Get instance field reference: private System.Single sceneResolutionScale
     float& dyn_sceneResolutionScale();
     // public System.Void ReadConfig()
-    // Offset: 0x1429C6C
+    // Offset: 0x153AABC
     void ReadConfig();
     // private System.Void OnChanged(System.Object source, System.IO.FileSystemEventArgs e)
-    // Offset: 0x142A574
+    // Offset: 0x153B3C4
     void OnChanged(::Il2CppObject* source, System::IO::FileSystemEventArgs* e);
     // public System.Void AttachToCamera(SteamVR_Camera vrcam)
-    // Offset: 0x142A578
+    // Offset: 0x153B3C8
     void AttachToCamera(GlobalNamespace::SteamVR_Camera* vrcam);
     // public System.Single GetTargetDistance()
-    // Offset: 0x142AB28
+    // Offset: 0x153B978
     float GetTargetDistance();
     // public System.Void RenderNear()
-    // Offset: 0x142ADD4
+    // Offset: 0x153BC24
     void RenderNear();
     // public System.Void RenderFar()
-    // Offset: 0x142B52C
+    // Offset: 0x153C37C
     void RenderFar();
     // private System.Void OnGUI()
-    // Offset: 0x142B64C
+    // Offset: 0x153C49C
     void OnGUI();
     // private System.Void OnEnable()
-    // Offset: 0x142B650
+    // Offset: 0x153C4A0
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x142B8A0
+    // Offset: 0x153C6F0
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x142B9DC
+    // Offset: 0x153C82C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

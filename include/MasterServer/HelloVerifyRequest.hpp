@@ -58,13 +58,13 @@ namespace MasterServer {
     // Get instance field reference: public readonly ByteArrayNetSerializable cookie
     GlobalNamespace::ByteArrayNetSerializable*& dyn_cookie();
     // static public PacketPool`1<MasterServer.HelloVerifyRequest> get_pool()
-    // Offset: 0x121D744
+    // Offset: 0x12DCAE4
     static GlobalNamespace::PacketPool_1<MasterServer::HelloVerifyRequest*>* get_pool();
     // public MasterServer.HelloVerifyRequest Init(System.Byte[] cookie)
-    // Offset: 0x121D78C
-    MasterServer::HelloVerifyRequest* Init(::Array<uint8_t>* cookie);
+    // Offset: 0x12DCB2C
+    MasterServer::HelloVerifyRequest* Init(::ArrayWrapper<uint8_t> cookie);
     // public System.Void .ctor()
-    // Offset: 0x121D8A4
+    // Offset: 0x12DCC44
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -74,17 +74,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<HelloVerifyRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x121D7C0
+    // Offset: 0x12DCB60
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x121D7FC
+    // Offset: 0x12DCB9C
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x121D838
+    // Offset: 0x12DCBD8
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();
@@ -106,9 +106,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: MasterServer::HelloVerifyRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::HelloVerifyRequest* (MasterServer::HelloVerifyRequest::*)(::Array<uint8_t>*)>(&MasterServer::HelloVerifyRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::HelloVerifyRequest* (MasterServer::HelloVerifyRequest::*)(::ArrayWrapper<uint8_t>)>(&MasterServer::HelloVerifyRequest::Init)> {
   static const MethodInfo* get() {
-    static auto* cookie = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* cookie = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::HelloVerifyRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cookie});
   }
 };

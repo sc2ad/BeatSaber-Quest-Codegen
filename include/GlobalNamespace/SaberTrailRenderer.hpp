@@ -63,27 +63,27 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector3[] _vertices
     // Size: 0x8
     // Offset: 0x30
-    ::Array<UnityEngine::Vector3>* vertices;
+    ::ArrayWrapper<UnityEngine::Vector3> vertices;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
     // private System.Int32[] _indices
     // Size: 0x8
     // Offset: 0x38
-    ::Array<int>* indices;
+    ::ArrayWrapper<int> indices;
     // Field size check
-    static_assert(sizeof(::Array<int>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
     // private UnityEngine.Vector2[] _uvs
     // Size: 0x8
     // Offset: 0x40
-    ::Array<UnityEngine::Vector2>* uvs;
+    ::ArrayWrapper<UnityEngine::Vector2> uvs;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector2>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector2>) == 0x8);
     // private UnityEngine.Color[] _colors
     // Size: 0x8
     // Offset: 0x48
-    ::Array<UnityEngine::Color>* colors;
+    ::ArrayWrapper<UnityEngine::Color> colors;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Color>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Color>) == 0x8);
     // private System.Single _trailWidth
     // Size: 0x4
     // Offset: 0x50
@@ -115,10 +115,10 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Creating value type constructor for type: SaberTrailRenderer
-    SaberTrailRenderer(UnityEngine::MeshRenderer* meshRenderer_ = {}, UnityEngine::MeshFilter* meshFilter_ = {}, UnityEngine::Mesh* mesh_ = {}, ::Array<UnityEngine::Vector3>* vertices_ = {}, ::Array<int>* indices_ = {}, ::Array<UnityEngine::Vector2>* uvs_ = {}, ::Array<UnityEngine::Color>* colors_ = {}, float trailWidth_ = {}, float trailDuration_ = {}, float segmentDuration_ = {}, int granularity_ = {}, float whiteSectionMaxDuration_ = {}) noexcept : meshRenderer{meshRenderer_}, meshFilter{meshFilter_}, mesh{mesh_}, vertices{vertices_}, indices{indices_}, uvs{uvs_}, colors{colors_}, trailWidth{trailWidth_}, trailDuration{trailDuration_}, segmentDuration{segmentDuration_}, granularity{granularity_}, whiteSectionMaxDuration{whiteSectionMaxDuration_} {}
+    SaberTrailRenderer(UnityEngine::MeshRenderer* meshRenderer_ = {}, UnityEngine::MeshFilter* meshFilter_ = {}, UnityEngine::Mesh* mesh_ = {}, ::ArrayWrapper<UnityEngine::Vector3> vertices_ = {}, ::ArrayWrapper<int> indices_ = {}, ::ArrayWrapper<UnityEngine::Vector2> uvs_ = {}, ::ArrayWrapper<UnityEngine::Color> colors_ = {}, float trailWidth_ = {}, float trailDuration_ = {}, float segmentDuration_ = {}, int granularity_ = {}, float whiteSectionMaxDuration_ = {}) noexcept : meshRenderer{meshRenderer_}, meshFilter{meshFilter_}, mesh{mesh_}, vertices{vertices_}, indices{indices_}, uvs{uvs_}, colors{colors_}, trailWidth{trailWidth_}, trailDuration{trailDuration_}, segmentDuration{segmentDuration_}, granularity{granularity_}, whiteSectionMaxDuration{whiteSectionMaxDuration_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE3DA04
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF061E8
     // Get static field: static private readonly UnityEngine.Bounds _bounds
     static UnityEngine::Bounds _get__bounds();
     // Set static field: static private readonly UnityEngine.Bounds _bounds
@@ -142,13 +142,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Mesh _mesh
     UnityEngine::Mesh*& dyn__mesh();
     // Get instance field reference: private UnityEngine.Vector3[] _vertices
-    ::Array<UnityEngine::Vector3>*& dyn__vertices();
+    ::ArrayWrapper<UnityEngine::Vector3>& dyn__vertices();
     // Get instance field reference: private System.Int32[] _indices
-    ::Array<int>*& dyn__indices();
+    ::ArrayWrapper<int>& dyn__indices();
     // Get instance field reference: private UnityEngine.Vector2[] _uvs
-    ::Array<UnityEngine::Vector2>*& dyn__uvs();
+    ::ArrayWrapper<UnityEngine::Vector2>& dyn__uvs();
     // Get instance field reference: private UnityEngine.Color[] _colors
-    ::Array<UnityEngine::Color>*& dyn__colors();
+    ::ArrayWrapper<UnityEngine::Color>& dyn__colors();
     // Get instance field reference: private System.Single _trailWidth
     float& dyn__trailWidth();
     // Get instance field reference: private System.Single _trailDuration
@@ -160,34 +160,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _whiteSectionMaxDuration
     float& dyn__whiteSectionMaxDuration();
     // public System.Void Init(System.Single trailWidth, System.Single trailDuration, System.Int32 granularity, System.Single whiteSectionMaxDuration)
-    // Offset: 0x11337E8
+    // Offset: 0x11CCE28
     void Init(float trailWidth, float trailDuration, int granularity, float whiteSectionMaxDuration);
     // protected System.Void OnDestroy()
-    // Offset: 0x1133B10
+    // Offset: 0x11CD150
     void OnDestroy();
     // private System.Void OnValidate()
-    // Offset: 0x1133B1C
+    // Offset: 0x11CD15C
     void OnValidate();
     // protected System.Void OnEnable()
-    // Offset: 0x1133BFC
+    // Offset: 0x11CD23C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1133C90
+    // Offset: 0x11CD2D0
     void OnDisable();
     // public System.Void SetTrailWidth(System.Single width)
-    // Offset: 0x1133D24
+    // Offset: 0x11CD364
     void SetTrailWidth(float width);
     // public System.Void UpdateMesh(TrailElementCollection trailElementCollection, UnityEngine.Color color)
-    // Offset: 0x1133240
+    // Offset: 0x11CC880
     void UpdateMesh(GlobalNamespace::TrailElementCollection* trailElementCollection, UnityEngine::Color color);
     // protected System.Void UpdateVertices(TrailElementCollection trailElementCollection, UnityEngine.Color color)
-    // Offset: 0x1133D2C
+    // Offset: 0x11CD36C
     void UpdateVertices(GlobalNamespace::TrailElementCollection* trailElementCollection, UnityEngine::Color color);
     // private System.Void UpdateIndices()
-    // Offset: 0x1133928
+    // Offset: 0x11CCF68
     void UpdateIndices();
     // public System.Void .ctor()
-    // Offset: 0x1134258
+    // Offset: 0x11CD898
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -200,7 +200,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SaberTrailRenderer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1134260
+    // Offset: 0x11CD8A0
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

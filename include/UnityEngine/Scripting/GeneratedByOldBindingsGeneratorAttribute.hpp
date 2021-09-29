@@ -24,7 +24,7 @@ namespace UnityEngine::Scripting {
     // Creating value type constructor for type: GeneratedByOldBindingsGeneratorAttribute
     GeneratedByOldBindingsGeneratorAttribute() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x2415454
+    // Offset: 0x261FB20
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

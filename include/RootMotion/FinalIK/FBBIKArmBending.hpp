@@ -96,16 +96,16 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Boolean initiated
     bool& dyn_initiated();
     // private System.Void LateUpdate()
-    // Offset: 0x1D353F0
+    // Offset: 0x1EC256C
     void LateUpdate();
     // private System.Void OnPostFBBIK()
-    // Offset: 0x1D35958
+    // Offset: 0x1EC2AD4
     void OnPostFBBIK();
     // private System.Void OnDestroy()
-    // Offset: 0x1D35B18
+    // Offset: 0x1EC2C94
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1D35C10
+    // Offset: 0x1EC2D8C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

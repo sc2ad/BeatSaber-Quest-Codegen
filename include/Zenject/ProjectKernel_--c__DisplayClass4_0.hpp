@@ -61,10 +61,10 @@ namespace Zenject {
     // Get instance field reference: public System.Func`2<Zenject.SceneContext,System.Int32> <>9__0
     System::Func_2<Zenject::SceneContext*, int>*& dyn_$$9__0();
     // System.Int32 <ForceUnloadAllScenes>b__0(Zenject.SceneContext x)
-    // Offset: 0x171F79C
+    // Offset: 0x189B198
     int $ForceUnloadAllScenes$b__0(Zenject::SceneContext* x);
     // public System.Void .ctor()
-    // Offset: 0x171F734
+    // Offset: 0x189B130
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

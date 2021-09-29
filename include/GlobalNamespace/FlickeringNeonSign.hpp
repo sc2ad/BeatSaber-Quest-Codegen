@@ -65,9 +65,9 @@ namespace GlobalNamespace {
     // private UnityEngine.ParticleSystem[] _particleSystems
     // Size: 0x8
     // Offset: 0x28
-    ::Array<UnityEngine::ParticleSystem*>* particleSystems;
+    ::ArrayWrapper<UnityEngine::ParticleSystem*> particleSystems;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::ParticleSystem*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::ParticleSystem*>) == 0x8);
     // private System.Single _minOnDelay
     // Size: 0x4
     // Offset: 0x30
@@ -119,9 +119,9 @@ namespace GlobalNamespace {
     // private UnityEngine.AudioClip[] _sparksAudioClips
     // Size: 0x8
     // Offset: 0x70
-    ::Array<UnityEngine::AudioClip*>* sparksAudioClips;
+    ::ArrayWrapper<UnityEngine::AudioClip*> sparksAudioClips;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::AudioClip*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::AudioClip*>) == 0x8);
     // private RandomObjectPicker`1<UnityEngine.AudioClip> _sparksAudioClipPicker
     // Size: 0x8
     // Offset: 0x78
@@ -129,7 +129,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*) == 0x8);
     // Creating value type constructor for type: FlickeringNeonSign
-    FlickeringNeonSign(UnityEngine::SpriteRenderer* flickeringSprite_ = {}, GlobalNamespace::TubeBloomPrePassLight* light_ = {}, ::Array<UnityEngine::ParticleSystem*>* particleSystems_ = {}, float minOnDelay_ = {}, float maxOnDelay_ = {}, float minOffDelay_ = {}, float maxOffDelay_ = {}, UnityEngine::Color spriteOnColor_ = {}, UnityEngine::Color lightOnColor_ = {}, UnityEngine::Material* onMaterial_ = {}, UnityEngine::Material* offMaterial_ = {}, ::Array<UnityEngine::AudioClip*>* sparksAudioClips_ = {}, GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* sparksAudioClipPicker_ = {}) noexcept : flickeringSprite{flickeringSprite_}, light{light_}, particleSystems{particleSystems_}, minOnDelay{minOnDelay_}, maxOnDelay{maxOnDelay_}, minOffDelay{minOffDelay_}, maxOffDelay{maxOffDelay_}, spriteOnColor{spriteOnColor_}, lightOnColor{lightOnColor_}, onMaterial{onMaterial_}, offMaterial{offMaterial_}, sparksAudioClips{sparksAudioClips_}, sparksAudioClipPicker{sparksAudioClipPicker_} {}
+    FlickeringNeonSign(UnityEngine::SpriteRenderer* flickeringSprite_ = {}, GlobalNamespace::TubeBloomPrePassLight* light_ = {}, ::ArrayWrapper<UnityEngine::ParticleSystem*> particleSystems_ = {}, float minOnDelay_ = {}, float maxOnDelay_ = {}, float minOffDelay_ = {}, float maxOffDelay_ = {}, UnityEngine::Color spriteOnColor_ = {}, UnityEngine::Color lightOnColor_ = {}, UnityEngine::Material* onMaterial_ = {}, UnityEngine::Material* offMaterial_ = {}, ::ArrayWrapper<UnityEngine::AudioClip*> sparksAudioClips_ = {}, GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* sparksAudioClipPicker_ = {}) noexcept : flickeringSprite{flickeringSprite_}, light{light_}, particleSystems{particleSystems_}, minOnDelay{minOnDelay_}, maxOnDelay{maxOnDelay_}, minOffDelay{minOffDelay_}, maxOffDelay{maxOffDelay_}, spriteOnColor{spriteOnColor_}, lightOnColor{lightOnColor_}, onMaterial{onMaterial_}, offMaterial{offMaterial_}, sparksAudioClips{sparksAudioClips_}, sparksAudioClipPicker{sparksAudioClipPicker_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.SpriteRenderer _flickeringSprite
@@ -137,7 +137,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private TubeBloomPrePassLight _light
     GlobalNamespace::TubeBloomPrePassLight*& dyn__light();
     // Get instance field reference: private UnityEngine.ParticleSystem[] _particleSystems
-    ::Array<UnityEngine::ParticleSystem*>*& dyn__particleSystems();
+    ::ArrayWrapper<UnityEngine::ParticleSystem*>& dyn__particleSystems();
     // Get instance field reference: private System.Single _minOnDelay
     float& dyn__minOnDelay();
     // Get instance field reference: private System.Single _maxOnDelay
@@ -155,26 +155,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Material _offMaterial
     UnityEngine::Material*& dyn__offMaterial();
     // Get instance field reference: private UnityEngine.AudioClip[] _sparksAudioClips
-    ::Array<UnityEngine::AudioClip*>*& dyn__sparksAudioClips();
+    ::ArrayWrapper<UnityEngine::AudioClip*>& dyn__sparksAudioClips();
     // Get instance field reference: private RandomObjectPicker`1<UnityEngine.AudioClip> _sparksAudioClipPicker
     GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*& dyn__sparksAudioClipPicker();
     // protected System.Void Awake()
-    // Offset: 0x105FA48
+    // Offset: 0x11B887C
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x105FAC8
+    // Offset: 0x11B88FC
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x105FB10
+    // Offset: 0x11B8944
     void OnEnable();
     // private System.Collections.IEnumerator FlickeringCoroutine()
-    // Offset: 0x105FB3C
+    // Offset: 0x11B8970
     System::Collections::IEnumerator* FlickeringCoroutine();
     // private System.Void SetOn(System.Boolean on)
-    // Offset: 0x105FBD8
+    // Offset: 0x11B8A0C
     void SetOn(bool on);
     // public System.Void .ctor()
-    // Offset: 0x105FCF4
+    // Offset: 0x11B8B28
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

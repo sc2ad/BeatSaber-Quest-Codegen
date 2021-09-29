@@ -67,25 +67,25 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Collections.Generic.List`1<System.Net.Sockets.TcpClient> clients
     System::Collections::Generic::List_1<System::Net::Sockets::TcpClient*>*& dyn_clients();
     // public System.Void StartListening(System.Int32 listeningPort)
-    // Offset: 0x1350BFC
+    // Offset: 0x146723C
     void StartListening(int listeningPort);
     // public System.Void StopListening()
-    // Offset: 0x13510E4
+    // Offset: 0x1467724
     void StopListening();
     // private System.Void DoAcceptTcpClientCallback(System.IAsyncResult ar)
-    // Offset: 0x1351238
+    // Offset: 0x1467878
     void DoAcceptTcpClientCallback(System::IAsyncResult* ar);
     // public System.Boolean HasConnectedClient()
-    // Offset: 0x13516EC
+    // Offset: 0x1467D2C
     bool HasConnectedClient();
     // public System.Void Broadcast(System.Int32 payloadType, System.Byte[] payload)
-    // Offset: 0x13518D8
-    void Broadcast(int payloadType, ::Array<uint8_t>* payload);
+    // Offset: 0x1467F18
+    void Broadcast(int payloadType, ::ArrayWrapper<uint8_t> payload);
     // private System.Void DoWriteDataCallback(System.IAsyncResult ar)
-    // Offset: 0x1351DDC
+    // Offset: 0x146841C
     void DoWriteDataCallback(System::IAsyncResult* ar);
     // public System.Void .ctor()
-    // Offset: 0x1351ED4
+    // Offset: 0x1468514
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -137,10 +137,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::Broadcast
 // Il2CppName: Broadcast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::*)(int, ::Array<uint8_t>*)>(&GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::Broadcast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::*)(int, ::ArrayWrapper<uint8_t>)>(&GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::Broadcast)> {
   static const MethodInfo* get() {
     static auto* payloadType = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* payload = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* payload = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNetwork::OVRNetworkTcpServer*), "Broadcast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{payloadType, payload});
   }
 };

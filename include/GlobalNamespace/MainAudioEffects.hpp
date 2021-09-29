@@ -70,19 +70,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _targetFrequency
     float& dyn__targetFrequency();
     // protected System.Void Start()
-    // Offset: 0x11A0740
+    // Offset: 0x1260548
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0x11A0780
+    // Offset: 0x1260588
     void LateUpdate();
     // public System.Void ResumeNormalSound()
-    // Offset: 0x11A088C
+    // Offset: 0x1260694
     void ResumeNormalSound();
     // public System.Void TriggerLowPass()
-    // Offset: 0x11A08C0
+    // Offset: 0x12606C8
     void TriggerLowPass();
     // public System.Void .ctor()
-    // Offset: 0x11A0908
+    // Offset: 0x1260710
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

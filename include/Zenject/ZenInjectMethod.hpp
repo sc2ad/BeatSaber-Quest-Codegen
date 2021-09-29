@@ -32,20 +32,20 @@ namespace Zenject {
     // Creating value type constructor for type: ZenInjectMethod
     ZenInjectMethod() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2406FA8
+    // Offset: 0x2611330
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenInjectMethod* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ZenInjectMethod::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenInjectMethod*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object obj, System.Object[] args)
-    // Offset: 0x2406FB8
-    void Invoke(::Il2CppObject* obj, ::Array<::Il2CppObject*>* args);
+    // Offset: 0x2611340
+    void Invoke(::Il2CppObject* obj, ::ArrayWrapper<::Il2CppObject*> args);
     // public System.IAsyncResult BeginInvoke(System.Object obj, System.Object[] args, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x24073A0
-    System::IAsyncResult* BeginInvoke(::Il2CppObject* obj, ::Array<::Il2CppObject*>* args, System::AsyncCallback* callback, ::Il2CppObject* object);
+    // Offset: 0x2611728
+    System::IAsyncResult* BeginInvoke(::Il2CppObject* obj, ::ArrayWrapper<::Il2CppObject*> args, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x24073D0
+    // Offset: 0x2611758
     void EndInvoke(System::IAsyncResult* result);
   }; // Zenject.ZenInjectMethod
   #pragma pack(pop)
@@ -59,20 +59,20 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenInjectMethod*, "Zenject", "ZenInjectMethod");
 // Writing MetadataGetter for method: Zenject::ZenInjectMethod::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenInjectMethod::*)(::Il2CppObject*, ::Array<::Il2CppObject*>*)>(&Zenject::ZenInjectMethod::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenInjectMethod::*)(::Il2CppObject*, ::ArrayWrapper<::Il2CppObject*>)>(&Zenject::ZenInjectMethod::Invoke)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ZenInjectMethod*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, args});
   }
 };
 // Writing MetadataGetter for method: Zenject::ZenInjectMethod::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Zenject::ZenInjectMethod::*)(::Il2CppObject*, ::Array<::Il2CppObject*>*, System::AsyncCallback*, ::Il2CppObject*)>(&Zenject::ZenInjectMethod::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Zenject::ZenInjectMethod::*)(::Il2CppObject*, ::ArrayWrapper<::Il2CppObject*>, System::AsyncCallback*, ::Il2CppObject*)>(&Zenject::ZenInjectMethod::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ZenInjectMethod*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, args, callback, object});

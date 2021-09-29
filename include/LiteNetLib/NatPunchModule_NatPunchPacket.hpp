@@ -39,19 +39,19 @@ namespace LiteNetLib {
     // Get instance field reference: private System.Boolean <IsExternal>k__BackingField
     bool& dyn_$IsExternal$k__BackingField();
     // public System.String get_Token()
-    // Offset: 0x1C1DA68
+    // Offset: 0x1DD58D0
     ::Il2CppString* get_Token();
     // public System.Void set_Token(System.String value)
-    // Offset: 0x1C1DA70
+    // Offset: 0x1DD58D8
     void set_Token(::Il2CppString* value);
     // public System.Boolean get_IsExternal()
-    // Offset: 0x1C1DA78
+    // Offset: 0x1DD58E0
     bool get_IsExternal();
     // public System.Void set_IsExternal(System.Boolean value)
-    // Offset: 0x1C1DA80
+    // Offset: 0x1DD58E8
     void set_IsExternal(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1C1D534
+    // Offset: 0x1DD539C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

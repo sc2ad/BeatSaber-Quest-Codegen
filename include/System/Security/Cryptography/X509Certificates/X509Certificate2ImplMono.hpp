@@ -119,24 +119,24 @@ namespace System::Security::Cryptography::X509Certificates {
     static_assert(sizeof(Mono::Security::X509::X509Certificate*) == 0x8);
     // Creating value type constructor for type: X509Certificate2ImplMono
     X509Certificate2ImplMono(bool archived_ = {}, System::Security::Cryptography::X509Certificates::X509ExtensionCollection* extensions_ = {}, System::Security::Cryptography::X509Certificates::PublicKey* publicKey_ = {}, System::Security::Cryptography::X509Certificates::X500DistinguishedName* issuer_name_ = {}, System::Security::Cryptography::X509Certificates::X500DistinguishedName* subject_name_ = {}, System::Security::Cryptography::Oid* signature_algorithm_ = {}, System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* intermediateCerts_ = {}, Mono::Security::X509::X509Certificate* cert_ = {}) noexcept : archived{archived_}, extensions{extensions_}, publicKey{publicKey_}, issuer_name{issuer_name_}, subject_name{subject_name_}, signature_algorithm{signature_algorithm_}, intermediateCerts{intermediateCerts_}, cert{cert_} {}
-    // Deleting conversion operator: operator ::Array<uint8_t>*
-    constexpr operator ::Array<uint8_t>*() const noexcept = delete;
+    // Deleting conversion operator: operator ::ArrayWrapper<uint8_t>
+    constexpr operator ::ArrayWrapper<uint8_t>() const noexcept = delete;
     // Get static field: static private System.String empty_error
     static ::Il2CppString* _get_empty_error();
     // Set static field: static private System.String empty_error
     static void _set_empty_error(::Il2CppString* value);
     // Get static field: static private System.Byte[] commonName
-    static ::Array<uint8_t>* _get_commonName();
+    static ::ArrayWrapper<uint8_t> _get_commonName();
     // Set static field: static private System.Byte[] commonName
-    static void _set_commonName(::Array<uint8_t>* value);
+    static void _set_commonName(::ArrayWrapper<uint8_t> value);
     // Get static field: static private System.Byte[] email
-    static ::Array<uint8_t>* _get_email();
+    static ::ArrayWrapper<uint8_t> _get_email();
     // Set static field: static private System.Byte[] email
-    static void _set_email(::Array<uint8_t>* value);
+    static void _set_email(::ArrayWrapper<uint8_t> value);
     // Get static field: static private System.Byte[] signedData
-    static ::Array<uint8_t>* _get_signedData();
+    static ::ArrayWrapper<uint8_t> _get_signedData();
     // Set static field: static private System.Byte[] signedData
-    static void _set_signedData(::Array<uint8_t>* value);
+    static void _set_signedData(::ArrayWrapper<uint8_t> value);
     // Get instance field reference: private System.Boolean _archived
     bool& dyn__archived();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509ExtensionCollection _extensions
@@ -154,94 +154,94 @@ namespace System::Security::Cryptography::X509Certificates {
     // Get instance field reference: private Mono.Security.X509.X509Certificate _cert
     Mono::Security::X509::X509Certificate*& dyn__cert();
     // Mono.Security.X509.X509Certificate get_MonoCertificate()
-    // Offset: 0x1866D04
+    // Offset: 0x19D90E8
     Mono::Security::X509::X509Certificate* get_MonoCertificate();
     // private System.Void .ctor(Mono.Security.X509.X509Certificate cert)
-    // Offset: 0x1863F30
+    // Offset: 0x19D6314
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Certificate2ImplMono* New_ctor(Mono::Security::X509::X509Certificate* cert) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate2ImplMono*, creationType>(cert)));
     }
     // private System.Void .ctor(System.Security.Cryptography.X509Certificates.X509Certificate2ImplMono other)
-    // Offset: 0x1863F5C
+    // Offset: 0x19D6340
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Certificate2ImplMono* New_ctor(System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate2ImplMono*, creationType>(other)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1866D10
+    // Offset: 0x19D90F4
     static void _cctor();
     // private Mono.Security.ASN1 Find(System.Byte[] oid, Mono.Security.ASN1 dn)
-    // Offset: 0x1865674
-    Mono::Security::ASN1* Find(::Array<uint8_t>* oid, Mono::Security::ASN1* dn);
+    // Offset: 0x19D7A58
+    Mono::Security::ASN1* Find(::ArrayWrapper<uint8_t> oid, Mono::Security::ASN1* dn);
     // private System.String GetValueAsString(Mono.Security.ASN1 pair)
-    // Offset: 0x1865784
+    // Offset: 0x19D7B68
     ::Il2CppString* GetValueAsString(Mono::Security::ASN1* pair);
     // private Mono.Security.X509.X509Certificate ImportPkcs12(System.Byte[] rawData, System.String password)
-    // Offset: 0x186592C
-    Mono::Security::X509::X509Certificate* ImportPkcs12(::Array<uint8_t>* rawData, ::Il2CppString* password);
+    // Offset: 0x19D7D10
+    Mono::Security::X509::X509Certificate* ImportPkcs12(::ArrayWrapper<uint8_t> rawData, ::Il2CppString* password);
     // static private System.Void AppendBuffer(System.Text.StringBuilder sb, System.Byte[] buffer)
-    // Offset: 0x1866A98
-    static void AppendBuffer(System::Text::StringBuilder* sb, ::Array<uint8_t>* buffer);
+    // Offset: 0x19D8E7C
+    static void AppendBuffer(System::Text::StringBuilder* sb, ::ArrayWrapper<uint8_t> buffer);
     // public override System.Boolean get_IsValid()
-    // Offset: 0x1863F20
+    // Offset: 0x19D6304
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.Boolean X509CertificateImpl::get_IsValid()
     bool get_IsValid();
     // public override System.Security.Cryptography.X509Certificates.X509ExtensionCollection get_Extensions()
-    // Offset: 0x1864378
+    // Offset: 0x19D675C
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
     // Base method: System.Security.Cryptography.X509Certificates.X509ExtensionCollection X509Certificate2Impl::get_Extensions()
     System::Security::Cryptography::X509Certificates::X509ExtensionCollection* get_Extensions();
     // public override System.Security.Cryptography.X509Certificates.X500DistinguishedName get_IssuerName()
-    // Offset: 0x18649E8
+    // Offset: 0x19D6DCC
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
     // Base method: System.Security.Cryptography.X509Certificates.X500DistinguishedName X509Certificate2Impl::get_IssuerName()
     System::Security::Cryptography::X509Certificates::X500DistinguishedName* get_IssuerName();
     // public override System.Security.Cryptography.AsymmetricAlgorithm get_PrivateKey()
-    // Offset: 0x1864AE4
+    // Offset: 0x19D6EC8
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
     // Base method: System.Security.Cryptography.AsymmetricAlgorithm X509Certificate2Impl::get_PrivateKey()
     System::Security::Cryptography::AsymmetricAlgorithm* get_PrivateKey();
     // public override System.Void set_PrivateKey(System.Security.Cryptography.AsymmetricAlgorithm value)
-    // Offset: 0x1864E14
+    // Offset: 0x19D71F8
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
     // Base method: System.Void X509Certificate2Impl::set_PrivateKey(System.Security.Cryptography.AsymmetricAlgorithm value)
     void set_PrivateKey(System::Security::Cryptography::AsymmetricAlgorithm* value);
     // public override System.Security.Cryptography.X509Certificates.PublicKey get_PublicKey()
-    // Offset: 0x1864FA4
+    // Offset: 0x19D7388
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
     // Base method: System.Security.Cryptography.X509Certificates.PublicKey X509Certificate2Impl::get_PublicKey()
     System::Security::Cryptography::X509Certificates::PublicKey* get_PublicKey();
     // public override System.Security.Cryptography.Oid get_SignatureAlgorithm()
-    // Offset: 0x1865140
+    // Offset: 0x19D7524
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
     // Base method: System.Security.Cryptography.Oid X509Certificate2Impl::get_SignatureAlgorithm()
     System::Security::Cryptography::Oid* get_SignatureAlgorithm();
     // public override System.Security.Cryptography.X509Certificates.X500DistinguishedName get_SubjectName()
-    // Offset: 0x1865254
+    // Offset: 0x19D7638
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
     // Base method: System.Security.Cryptography.X509Certificates.X500DistinguishedName X509Certificate2Impl::get_SubjectName()
     System::Security::Cryptography::X509Certificates::X500DistinguishedName* get_SubjectName();
     // public override System.Int32 get_Version()
-    // Offset: 0x1865350
+    // Offset: 0x19D7734
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
     // Base method: System.Int32 X509Certificate2Impl::get_Version()
     int get_Version();
     // override System.Security.Cryptography.X509Certificates.X509CertificateImplCollection get_IntermediateCertificates()
-    // Offset: 0x1866CFC
+    // Offset: 0x19D90E0
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
     // Base method: System.Security.Cryptography.X509Certificates.X509CertificateImplCollection X509Certificate2Impl::get_IntermediateCertificates()
     System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* get_IntermediateCertificates();
     // override System.Security.Cryptography.X509Certificates.X509Certificate2Impl get_FallbackImpl()
-    // Offset: 0x1866D0C
+    // Offset: 0x19D90F0
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
     // Base method: System.Security.Cryptography.X509Certificates.X509Certificate2Impl X509Certificate2Impl::get_FallbackImpl()
     System::Security::Cryptography::X509Certificates::X509Certificate2Impl* get_FallbackImpl();
     // public System.Void .ctor()
-    // Offset: 0x1864350
+    // Offset: 0x19D6734
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
     // Base method: System.Void X509Certificate2Impl::.ctor()
     // Base method: System.Void X509CertificateImpl::.ctor()
@@ -252,77 +252,77 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate2ImplMono*, creationType>()));
     }
     // public override System.Security.Cryptography.X509Certificates.X509CertificateImpl Clone()
-    // Offset: 0x1864004
+    // Offset: 0x19D63E8
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.Security.Cryptography.X509Certificates.X509CertificateImpl X509CertificateImpl::Clone()
     System::Security::Cryptography::X509Certificates::X509CertificateImpl* Clone();
     // public override System.String GetIssuerName(System.Boolean legacyV1Mode)
-    // Offset: 0x1864070
+    // Offset: 0x19D6454
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.String X509CertificateImpl::GetIssuerName(System.Boolean legacyV1Mode)
     ::Il2CppString* GetIssuerName(bool legacyV1Mode);
     // public override System.String GetSubjectName(System.Boolean legacyV1Mode)
-    // Offset: 0x1864134
+    // Offset: 0x19D6518
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.String X509CertificateImpl::GetSubjectName(System.Boolean legacyV1Mode)
     ::Il2CppString* GetSubjectName(bool legacyV1Mode);
     // public override System.Byte[] GetRawCertData()
-    // Offset: 0x18641FC
+    // Offset: 0x19D65E0
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.Byte[] X509CertificateImpl::GetRawCertData()
-    ::Array<uint8_t>* GetRawCertData();
+    ::ArrayWrapper<uint8_t> GetRawCertData();
     // protected override System.Byte[] GetCertHash(System.Boolean lazy)
-    // Offset: 0x1864234
+    // Offset: 0x19D6618
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.Byte[] X509CertificateImpl::GetCertHash(System.Boolean lazy)
-    ::Array<uint8_t>* GetCertHash(bool lazy);
+    ::ArrayWrapper<uint8_t> GetCertHash(bool lazy);
     // public override System.DateTime GetValidFrom()
-    // Offset: 0x1864290
+    // Offset: 0x19D6674
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.DateTime X509CertificateImpl::GetValidFrom()
     System::DateTime GetValidFrom();
     // public override System.DateTime GetValidUntil()
-    // Offset: 0x18642CC
+    // Offset: 0x19D66B0
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.DateTime X509CertificateImpl::GetValidUntil()
     System::DateTime GetValidUntil();
     // public override System.Boolean Equals(System.Security.Cryptography.X509Certificates.X509CertificateImpl other, out System.Boolean result)
-    // Offset: 0x1864308
+    // Offset: 0x19D66EC
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.Boolean X509CertificateImpl::Equals(System.Security.Cryptography.X509Certificates.X509CertificateImpl other, out System.Boolean result)
     bool Equals(System::Security::Cryptography::X509Certificates::X509CertificateImpl* other, ByRef<bool> result);
     // public override System.Byte[] GetSerialNumber()
-    // Offset: 0x1864314
+    // Offset: 0x19D66F8
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.Byte[] X509CertificateImpl::GetSerialNumber()
-    ::Array<uint8_t>* GetSerialNumber();
+    ::ArrayWrapper<uint8_t> GetSerialNumber();
     // public override System.String GetNameInfo(System.Security.Cryptography.X509Certificates.X509NameType nameType, System.Boolean forIssuer)
-    // Offset: 0x18653FC
+    // Offset: 0x19D77E0
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
     // Base method: System.String X509Certificate2Impl::GetNameInfo(System.Security.Cryptography.X509Certificates.X509NameType nameType, System.Boolean forIssuer)
     ::Il2CppString* GetNameInfo(System::Security::Cryptography::X509Certificates::X509NameType nameType, bool forIssuer);
     // public override System.Void Import(System.Byte[] rawData, System.String password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags)
-    // Offset: 0x18660E4
+    // Offset: 0x19D84C8
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
     // Base method: System.Void X509Certificate2Impl::Import(System.Byte[] rawData, System.String password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags)
-    void Import(::Array<uint8_t>* rawData, ::Il2CppString* password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
+    void Import(::ArrayWrapper<uint8_t> rawData, ::Il2CppString* password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
     // public override System.Void Reset()
-    // Offset: 0x186635C
+    // Offset: 0x19D8740
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
     // Base method: System.Void X509Certificate2Impl::Reset()
     void Reset();
     // public override System.String ToString()
-    // Offset: 0x1866418
+    // Offset: 0x19D87FC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.String ToString(System.Boolean verbose)
-    // Offset: 0x186648C
+    // Offset: 0x19D8870
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.String X509CertificateImpl::ToString(System.Boolean verbose)
     ::Il2CppString* ToString(bool verbose);
     // public override System.Boolean Verify(System.Security.Cryptography.X509Certificates.X509Certificate2 thisCertificate)
-    // Offset: 0x1866B90
+    // Offset: 0x19D8F74
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
     // Base method: System.Boolean X509Certificate2Impl::Verify(System.Security.Cryptography.X509Certificates.X509Certificate2 thisCertificate)
     bool Verify(System::Security::Cryptography::X509Certificates::X509Certificate2* thisCertificate);
@@ -360,9 +360,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::Find
 // Il2CppName: Find
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::*)(::Array<uint8_t>*, Mono::Security::ASN1*)>(&System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::Find)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::*)(::ArrayWrapper<uint8_t>, Mono::Security::ASN1*)>(&System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::Find)> {
   static const MethodInfo* get() {
-    static auto* oid = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* oid = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* dn = &::il2cpp_utils::GetClassFromName("Mono.Security", "ASN1")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono*), "Find", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{oid, dn});
   }
@@ -379,9 +379,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::ImportPkcs12
 // Il2CppName: ImportPkcs12
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Certificate* (System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::*)(::Array<uint8_t>*, ::Il2CppString*)>(&System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::ImportPkcs12)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Certificate* (System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::*)(::ArrayWrapper<uint8_t>, ::Il2CppString*)>(&System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::ImportPkcs12)> {
   static const MethodInfo* get() {
-    static auto* rawData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* rawData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono*), "ImportPkcs12", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawData, password});
   }
@@ -389,10 +389,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::AppendBuffer
 // Il2CppName: AppendBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, ::Array<uint8_t>*)>(&System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::AppendBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, ::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::AppendBuffer)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono*), "AppendBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sb, buffer});
   }
 };
@@ -518,7 +518,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::GetRawCertData
 // Il2CppName: GetRawCertData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::*)()>(&System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::GetRawCertData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::*)()>(&System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::GetRawCertData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono*), "GetRawCertData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -526,7 +526,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::GetCertHash
 // Il2CppName: GetCertHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::*)(bool)>(&System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::GetCertHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::*)(bool)>(&System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::GetCertHash)> {
   static const MethodInfo* get() {
     static auto* lazy = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono*), "GetCertHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lazy});
@@ -561,7 +561,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::GetSerialNumber
 // Il2CppName: GetSerialNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::*)()>(&System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::GetSerialNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::*)()>(&System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::GetSerialNumber)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono*), "GetSerialNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -579,9 +579,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::Import
 // Il2CppName: Import
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::*)(::Array<uint8_t>*, ::Il2CppString*, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags)>(&System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::Import)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::*)(::ArrayWrapper<uint8_t>, ::Il2CppString*, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags)>(&System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::Import)> {
   static const MethodInfo* get() {
-    static auto* rawData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* rawData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* keyStorageFlags = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509KeyStorageFlags")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono*), "Import", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawData, password, keyStorageFlags});

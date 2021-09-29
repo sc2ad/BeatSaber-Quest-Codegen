@@ -66,10 +66,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.MeshRenderer _meshRenderer
     UnityEngine::MeshRenderer*& dyn__meshRenderer();
     // protected System.Void Awake()
-    // Offset: 0x125EED0
+    // Offset: 0x137B6D8
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x125EFE0
+    // Offset: 0x137B7E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

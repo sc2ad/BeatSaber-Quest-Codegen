@@ -63,9 +63,9 @@ namespace System::Text::RegularExpressions {
     // System.String[] _capslist
     // Size: 0x8
     // Offset: 0x30
-    ::Array<::Il2CppString*>* capslist;
+    ::ArrayWrapper<::Il2CppString*> capslist;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // System.Int32 _capsize
     // Size: 0x4
     // Offset: 0x38
@@ -93,7 +93,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(System::Text::RegularExpressions::SharedReference*) == 0x8);
     // Creating value type constructor for type: CachedCodeEntry
-    CachedCodeEntry(::Il2CppString* key_ = {}, System::Text::RegularExpressions::RegexCode* code_ = {}, System::Collections::Hashtable* caps_ = {}, System::Collections::Hashtable* capnames_ = {}, ::Array<::Il2CppString*>* capslist_ = {}, int capsize_ = {}, System::Text::RegularExpressions::RegexRunnerFactory* factory_ = {}, System::Text::RegularExpressions::ExclusiveReference* runnerref_ = {}, System::Text::RegularExpressions::SharedReference* replref_ = {}) noexcept : key{key_}, code{code_}, caps{caps_}, capnames{capnames_}, capslist{capslist_}, capsize{capsize_}, factory{factory_}, runnerref{runnerref_}, replref{replref_} {}
+    CachedCodeEntry(::Il2CppString* key_ = {}, System::Text::RegularExpressions::RegexCode* code_ = {}, System::Collections::Hashtable* caps_ = {}, System::Collections::Hashtable* capnames_ = {}, ::ArrayWrapper<::Il2CppString*> capslist_ = {}, int capsize_ = {}, System::Text::RegularExpressions::RegexRunnerFactory* factory_ = {}, System::Text::RegularExpressions::ExclusiveReference* runnerref_ = {}, System::Text::RegularExpressions::SharedReference* replref_ = {}) noexcept : key{key_}, code{code_}, caps{caps_}, capnames{capnames_}, capslist{capslist_}, capsize{capsize_}, factory{factory_}, runnerref{runnerref_}, replref{replref_} {}
     // Get instance field reference: System.String _key
     ::Il2CppString*& dyn__key();
     // Get instance field reference: System.Text.RegularExpressions.RegexCode _code
@@ -103,7 +103,7 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Collections.Hashtable _capnames
     System::Collections::Hashtable*& dyn__capnames();
     // Get instance field reference: System.String[] _capslist
-    ::Array<::Il2CppString*>*& dyn__capslist();
+    ::ArrayWrapper<::Il2CppString*>& dyn__capslist();
     // Get instance field reference: System.Int32 _capsize
     int& dyn__capsize();
     // Get instance field reference: System.Text.RegularExpressions.RegexRunnerFactory _factory
@@ -113,9 +113,9 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Text.RegularExpressions.SharedReference _replref
     System::Text::RegularExpressions::SharedReference*& dyn__replref();
     // System.Void .ctor(System.String key, System.Collections.Hashtable capnames, System.String[] capslist, System.Text.RegularExpressions.RegexCode code, System.Collections.Hashtable caps, System.Int32 capsize, System.Text.RegularExpressions.ExclusiveReference runner, System.Text.RegularExpressions.SharedReference repl)
-    // Offset: 0x186EE2C
+    // Offset: 0x19E1210
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CachedCodeEntry* New_ctor(::Il2CppString* key, System::Collections::Hashtable* capnames, ::Array<::Il2CppString*>* capslist, System::Text::RegularExpressions::RegexCode* code, System::Collections::Hashtable* caps, int capsize, System::Text::RegularExpressions::ExclusiveReference* runner, System::Text::RegularExpressions::SharedReference* repl) {
+    static CachedCodeEntry* New_ctor(::Il2CppString* key, System::Collections::Hashtable* capnames, ::ArrayWrapper<::Il2CppString*> capslist, System::Text::RegularExpressions::RegexCode* code, System::Collections::Hashtable* caps, int capsize, System::Text::RegularExpressions::ExclusiveReference* runner, System::Text::RegularExpressions::SharedReference* repl) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::CachedCodeEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CachedCodeEntry*, creationType>(key, capnames, capslist, code, caps, capsize, runner, repl)));
     }

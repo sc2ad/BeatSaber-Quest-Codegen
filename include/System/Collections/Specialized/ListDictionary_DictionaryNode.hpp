@@ -47,7 +47,7 @@ namespace System::Collections::Specialized {
     // Get instance field reference: public System.Collections.Specialized.ListDictionary/System.Collections.Specialized.DictionaryNode next
     System::Collections::Specialized::ListDictionary::DictionaryNode*& dyn_next();
     // public System.Void .ctor()
-    // Offset: 0x18B2100
+    // Offset: 0x1A1E094
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

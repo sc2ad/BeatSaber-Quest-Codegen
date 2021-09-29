@@ -39,49 +39,49 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // private readonly Org.BouncyCastle.Asn1.X509.GeneralName[] names
     // Size: 0x8
     // Offset: 0x10
-    ::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>* names;
+    ::ArrayWrapper<Org::BouncyCastle::Asn1::X509::GeneralName*> names;
     // Field size check
-    static_assert(sizeof(::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<Org::BouncyCastle::Asn1::X509::GeneralName*>) == 0x8);
     // Creating value type constructor for type: GeneralNames
-    GeneralNames(::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>* names_ = {}) noexcept : names{names_} {}
-    // Creating conversion operator: operator ::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>*
-    constexpr operator ::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>*() const noexcept {
+    GeneralNames(::ArrayWrapper<Org::BouncyCastle::Asn1::X509::GeneralName*> names_ = {}) noexcept : names{names_} {}
+    // Creating conversion operator: operator ::ArrayWrapper<Org::BouncyCastle::Asn1::X509::GeneralName*>
+    constexpr operator ::ArrayWrapper<Org::BouncyCastle::Asn1::X509::GeneralName*>() const noexcept {
       return names;
     }
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.GeneralName[] names
-    ::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>*& dyn_names();
+    ::ArrayWrapper<Org::BouncyCastle::Asn1::X509::GeneralName*>& dyn_names();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x19FF4F0
+    // Offset: 0x1BB922C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GeneralNames* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::GeneralNames::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GeneralNames*, creationType>(seq)));
     }
     // static private Org.BouncyCastle.Asn1.X509.GeneralName[] Copy(Org.BouncyCastle.Asn1.X509.GeneralName[] names)
-    // Offset: 0x19FF470
-    static ::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>* Copy(::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>* names);
+    // Offset: 0x1BB91AC
+    static ::ArrayWrapper<Org::BouncyCastle::Asn1::X509::GeneralName*> Copy(::ArrayWrapper<Org::BouncyCastle::Asn1::X509::GeneralName*> names);
     // static public Org.BouncyCastle.Asn1.X509.GeneralNames GetInstance(System.Object obj)
-    // Offset: 0x19FB084
+    // Offset: 0x1BB4DC0
     static Org::BouncyCastle::Asn1::X509::GeneralNames* GetInstance(::Il2CppObject* obj);
     // static public Org.BouncyCastle.Asn1.X509.GeneralNames GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x19FE138
+    // Offset: 0x1BB7E74
     static Org::BouncyCastle::Asn1::X509::GeneralNames* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // public Org.BouncyCastle.Asn1.X509.GeneralName[] GetNames()
-    // Offset: 0x19FF620
-    ::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>* GetNames();
+    // Offset: 0x1BB935C
+    ::ArrayWrapper<Org::BouncyCastle::Asn1::X509::GeneralName*> GetNames();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x19FF628
+    // Offset: 0x1BB9364
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x19FF690
+    // Offset: 0x1BB93CC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.X509.GeneralNames
   #pragma pack(pop)
-  static check_size<sizeof(GeneralNames), 16 + sizeof(::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>*)> __Org_BouncyCastle_Asn1_X509_GeneralNamesSizeCheck;
+  static check_size<sizeof(GeneralNames), 16 + sizeof(::ArrayWrapper<Org::BouncyCastle::Asn1::X509::GeneralName*>)> __Org_BouncyCastle_Asn1_X509_GeneralNamesSizeCheck;
   static_assert(sizeof(GeneralNames) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::GeneralNames*, "Org.BouncyCastle.Asn1.X509", "GeneralNames");
@@ -93,9 +93,9 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::GeneralNames*, "Org.Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::GeneralNames::Copy
 // Il2CppName: Copy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>* (*)(::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>*)>(&Org::BouncyCastle::Asn1::X509::GeneralNames::Copy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Asn1::X509::GeneralName*> (*)(::ArrayWrapper<Org::BouncyCastle::Asn1::X509::GeneralName*>)>(&Org::BouncyCastle::Asn1::X509::GeneralNames::Copy)> {
   static const MethodInfo* get() {
-    static auto* names = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1.X509", "GeneralName"), 1)->byval_arg;
+    static auto* names = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1.X509", "GeneralName")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::GeneralNames*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{names});
   }
 };
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::GeneralNames::GetNames
 // Il2CppName: GetNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>* (Org::BouncyCastle::Asn1::X509::GeneralNames::*)()>(&Org::BouncyCastle::Asn1::X509::GeneralNames::GetNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Asn1::X509::GeneralName*> (Org::BouncyCastle::Asn1::X509::GeneralNames::*)()>(&Org::BouncyCastle::Asn1::X509::GeneralNames::GetNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::GeneralNames*), "GetNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

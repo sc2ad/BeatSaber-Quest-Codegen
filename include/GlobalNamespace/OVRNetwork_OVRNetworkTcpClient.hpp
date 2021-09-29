@@ -56,9 +56,9 @@ namespace GlobalNamespace {
     // public System.Action`4<System.Int32,System.Byte[],System.Int32,System.Int32> payloadReceivedCallback
     // Size: 0x8
     // Offset: 0x18
-    System::Action_4<int, ::Array<uint8_t>*, int, int>* payloadReceivedCallback;
+    System::Action_4<int, ::ArrayWrapper<uint8_t>, int, int>* payloadReceivedCallback;
     // Field size check
-    static_assert(sizeof(System::Action_4<int, ::Array<uint8_t>*, int, int>*) == 0x8);
+    static_assert(sizeof(System::Action_4<int, ::ArrayWrapper<uint8_t>, int, int>*) == 0x8);
     // private System.Net.Sockets.TcpClient tcpClient
     // Size: 0x8
     // Offset: 0x20
@@ -68,9 +68,9 @@ namespace GlobalNamespace {
     // private System.Byte[][] receivedBuffers
     // Size: 0x8
     // Offset: 0x28
-    ::Array<::Array<uint8_t>*>* receivedBuffers;
+    ::ArrayWrapper<::ArrayWrapper<uint8_t>> receivedBuffers;
     // Field size check
-    static_assert(sizeof(::Array<::Array<uint8_t>*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::ArrayWrapper<uint8_t>>) == 0x8);
     // private System.Int32 receivedBufferIndex
     // Size: 0x4
     // Offset: 0x30
@@ -90,15 +90,15 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Threading::ManualResetEvent*) == 0x8);
     // Creating value type constructor for type: OVRNetworkTcpClient
-    OVRNetworkTcpClient(System::Action* connectionStateChangedCallback_ = {}, System::Action_4<int, ::Array<uint8_t>*, int, int>* payloadReceivedCallback_ = {}, System::Net::Sockets::TcpClient* tcpClient_ = {}, ::Array<::Array<uint8_t>*>* receivedBuffers_ = {}, int receivedBufferIndex_ = {}, int receivedBufferDataSize_ = {}, System::Threading::ManualResetEvent* readyReceiveDataEvent_ = {}) noexcept : connectionStateChangedCallback{connectionStateChangedCallback_}, payloadReceivedCallback{payloadReceivedCallback_}, tcpClient{tcpClient_}, receivedBuffers{receivedBuffers_}, receivedBufferIndex{receivedBufferIndex_}, receivedBufferDataSize{receivedBufferDataSize_}, readyReceiveDataEvent{readyReceiveDataEvent_} {}
+    OVRNetworkTcpClient(System::Action* connectionStateChangedCallback_ = {}, System::Action_4<int, ::ArrayWrapper<uint8_t>, int, int>* payloadReceivedCallback_ = {}, System::Net::Sockets::TcpClient* tcpClient_ = {}, ::ArrayWrapper<::ArrayWrapper<uint8_t>> receivedBuffers_ = {}, int receivedBufferIndex_ = {}, int receivedBufferDataSize_ = {}, System::Threading::ManualResetEvent* readyReceiveDataEvent_ = {}) noexcept : connectionStateChangedCallback{connectionStateChangedCallback_}, payloadReceivedCallback{payloadReceivedCallback_}, tcpClient{tcpClient_}, receivedBuffers{receivedBuffers_}, receivedBufferIndex{receivedBufferIndex_}, receivedBufferDataSize{receivedBufferDataSize_}, readyReceiveDataEvent{readyReceiveDataEvent_} {}
     // Get instance field reference: public System.Action connectionStateChangedCallback
     System::Action*& dyn_connectionStateChangedCallback();
     // Get instance field reference: public System.Action`4<System.Int32,System.Byte[],System.Int32,System.Int32> payloadReceivedCallback
-    System::Action_4<int, ::Array<uint8_t>*, int, int>*& dyn_payloadReceivedCallback();
+    System::Action_4<int, ::ArrayWrapper<uint8_t>, int, int>*& dyn_payloadReceivedCallback();
     // Get instance field reference: private System.Net.Sockets.TcpClient tcpClient
     System::Net::Sockets::TcpClient*& dyn_tcpClient();
     // Get instance field reference: private System.Byte[][] receivedBuffers
-    ::Array<::Array<uint8_t>*>*& dyn_receivedBuffers();
+    ::ArrayWrapper<::ArrayWrapper<uint8_t>>& dyn_receivedBuffers();
     // Get instance field reference: private System.Int32 receivedBufferIndex
     int& dyn_receivedBufferIndex();
     // Get instance field reference: private System.Int32 receivedBufferDataSize
@@ -106,28 +106,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Threading.ManualResetEvent readyReceiveDataEvent
     System::Threading::ManualResetEvent*& dyn_readyReceiveDataEvent();
     // public OVRNetwork/OVRNetworkTcpClient/ConnectionState get_connectionState()
-    // Offset: 0x134FD04
+    // Offset: 0x1466344
     GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState get_connectionState();
     // public System.Boolean get_Connected()
-    // Offset: 0x134FD30
+    // Offset: 0x1466370
     bool get_Connected();
     // public System.Void Connect(System.Int32 listeningPort)
-    // Offset: 0x134FD44
+    // Offset: 0x1466384
     void Connect(int listeningPort);
     // private System.Void ConnectCallback(System.IAsyncResult ar)
-    // Offset: 0x134FE98
+    // Offset: 0x14664D8
     void ConnectCallback(System::IAsyncResult* ar);
     // public System.Void Disconnect()
-    // Offset: 0x1350198
+    // Offset: 0x14667D8
     void Disconnect();
     // public System.Void Tick()
-    // Offset: 0x13503EC
+    // Offset: 0x1466A2C
     void Tick();
     // private System.Void OnReadDataCallback(System.IAsyncResult ar)
-    // Offset: 0x13505F0
+    // Offset: 0x1466C30
     void OnReadDataCallback(System::IAsyncResult* ar);
     // public System.Void .ctor()
-    // Offset: 0x1350AD4
+    // Offset: 0x1467114
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

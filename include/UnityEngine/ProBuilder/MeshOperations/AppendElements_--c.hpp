@@ -43,24 +43,24 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public readonly UnityEngine.ProBuilder.MeshOperations.AppendElements/UnityEngine.ProBuilder.MeshOperations.<>c <>9
     static void _set_$$9(UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c* value);
     // Get static field: static public System.Func`2<UnityEngine.Vector3[],System.Int32> <>9__7_0
-    static System::Func_2<::Array<UnityEngine::Vector3>*, int>* _get_$$9__7_0();
+    static System::Func_2<::ArrayWrapper<UnityEngine::Vector3>, int>* _get_$$9__7_0();
     // Set static field: static public System.Func`2<UnityEngine.Vector3[],System.Int32> <>9__7_0
-    static void _set_$$9__7_0(System::Func_2<::Array<UnityEngine::Vector3>*, int>* value);
+    static void _set_$$9__7_0(System::Func_2<::ArrayWrapper<UnityEngine::Vector3>, int>* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Vertex,UnityEngine.Vector3> <>9__14_1
     static System::Func_2<UnityEngine::ProBuilder::Vertex*, UnityEngine::Vector3>* _get_$$9__14_1();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Vertex,UnityEngine.Vector3> <>9__14_1
     static void _set_$$9__14_1(System::Func_2<UnityEngine::ProBuilder::Vertex*, UnityEngine::Vector3>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1552368
+    // Offset: 0x170B628
     static void _cctor();
     // System.Int32 <CreateShapeFromPolygon>b__7_0(UnityEngine.Vector3[] arr)
-    // Offset: 0x15523D4
-    int $CreateShapeFromPolygon$b__7_0(::Array<UnityEngine::Vector3>* arr);
+    // Offset: 0x170B694
+    int $CreateShapeFromPolygon$b__7_0(::ArrayWrapper<UnityEngine::Vector3> arr);
     // UnityEngine.Vector3 <AppendVerticesToEdge>b__14_1(UnityEngine.ProBuilder.Vertex x)
-    // Offset: 0x15523EC
+    // Offset: 0x170B6AC
     UnityEngine::Vector3 $AppendVerticesToEdge$b__14_1(UnityEngine::ProBuilder::Vertex* x);
     // public System.Void .ctor()
-    // Offset: 0x15523CC
+    // Offset: 0x170B68C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -84,9 +84,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c::$CreateShapeFromPolygon$b__7_0
 // Il2CppName: <CreateShapeFromPolygon>b__7_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c::*)(::Array<UnityEngine::Vector3>*)>(&UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c::$CreateShapeFromPolygon$b__7_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c::*)(::ArrayWrapper<UnityEngine::Vector3>)>(&UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c::$CreateShapeFromPolygon$b__7_0)> {
   static const MethodInfo* get() {
-    static auto* arr = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
+    static auto* arr = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c*), "<CreateShapeFromPolygon>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{arr});
   }
 };

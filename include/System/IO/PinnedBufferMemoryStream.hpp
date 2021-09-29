@@ -25,9 +25,9 @@ namespace System::IO {
     // private System.Byte[] _array
     // Size: 0x8
     // Offset: 0x68
-    ::Array<uint8_t>* array;
+    ::ArrayWrapper<uint8_t> array;
     // Field size check
-    static_assert(sizeof(::Array<uint8_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
     // private System.Runtime.InteropServices.GCHandle _pinningHandle
     // Size: 0x4
     // Offset: 0x70
@@ -35,25 +35,25 @@ namespace System::IO {
     // Field size check
     static_assert(sizeof(System::Runtime::InteropServices::GCHandle) == 0x4);
     // Creating value type constructor for type: PinnedBufferMemoryStream
-    PinnedBufferMemoryStream(::Array<uint8_t>* array_ = {}, System::Runtime::InteropServices::GCHandle pinningHandle_ = {}) noexcept : array{array_}, pinningHandle{pinningHandle_} {}
+    PinnedBufferMemoryStream(::ArrayWrapper<uint8_t> array_ = {}, System::Runtime::InteropServices::GCHandle pinningHandle_ = {}) noexcept : array{array_}, pinningHandle{pinningHandle_} {}
     // Get instance field reference: private System.Byte[] _array
-    ::Array<uint8_t>*& dyn__array();
+    ::ArrayWrapper<uint8_t>& dyn__array();
     // Get instance field reference: private System.Runtime.InteropServices.GCHandle _pinningHandle
     System::Runtime::InteropServices::GCHandle& dyn__pinningHandle();
     // System.Void .ctor(System.Byte[] array)
-    // Offset: 0x1981644
+    // Offset: 0x1AC1CD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PinnedBufferMemoryStream* New_ctor(::Array<uint8_t>* array) {
+    static PinnedBufferMemoryStream* New_ctor(::ArrayWrapper<uint8_t> array) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::PinnedBufferMemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PinnedBufferMemoryStream*, creationType>(array)));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1981728
+    // Offset: 0x1AC1DBC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x19817A0
+    // Offset: 0x1AC1E34
     // Implemented from: System.IO.UnmanagedMemoryStream
     // Base method: System.Void UnmanagedMemoryStream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);

@@ -123,16 +123,16 @@ namespace MasterServer {
     // Get instance field reference: public GameplayServerConfiguration configuration
     GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
     // static public IPacketPool`1<MasterServer.CreateDedicatedServerInstanceRequest> get_pool()
-    // Offset: 0x121B784
+    // Offset: 0x12DAB24
     static GlobalNamespace::IPacketPool_1<MasterServer::CreateDedicatedServerInstanceRequest*>* get_pool();
     // protected System.UInt32 get_version()
-    // Offset: 0x121B7CC
+    // Offset: 0x12DAB6C
     uint get_version();
     // public MasterServer.CreateDedicatedServerInstanceRequest Init(System.String secret, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.String userId, System.String userName, System.Net.IPEndPoint userEndPoint, System.Byte[] userRandom, System.Byte[] userPublicKey)
-    // Offset: 0x121BAA8
-    MasterServer::CreateDedicatedServerInstanceRequest* Init(::Il2CppString* secret, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* userId, ::Il2CppString* userName, System::Net::IPEndPoint* userEndPoint, ::Array<uint8_t>* userRandom, ::Array<uint8_t>* userPublicKey);
+    // Offset: 0x12DAE48
+    MasterServer::CreateDedicatedServerInstanceRequest* Init(::Il2CppString* secret, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* userId, ::Il2CppString* userName, System::Net::IPEndPoint* userEndPoint, ::ArrayWrapper<uint8_t> userRandom, ::ArrayWrapper<uint8_t> userPublicKey);
     // public System.Void .ctor()
-    // Offset: 0x121BB20
+    // Offset: 0x12DAEC0
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -142,17 +142,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<CreateDedicatedServerInstanceRequest*, creationType>()));
     }
     // public override System.Void Release()
-    // Offset: 0x121B7D4
+    // Offset: 0x12DAB74
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x121B8B0
+    // Offset: 0x12DAC50
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x121B9B0
+    // Offset: 0x12DAD50
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Maste
 // Writing MetadataGetter for method: MasterServer::CreateDedicatedServerInstanceRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::CreateDedicatedServerInstanceRequest* (MasterServer::CreateDedicatedServerInstanceRequest::*)(::Il2CppString*, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::Array<uint8_t>*, ::Array<uint8_t>*)>(&MasterServer::CreateDedicatedServerInstanceRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::CreateDedicatedServerInstanceRequest* (MasterServer::CreateDedicatedServerInstanceRequest::*)(::Il2CppString*, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&MasterServer::CreateDedicatedServerInstanceRequest::Init)> {
   static const MethodInfo* get() {
     static auto* secret = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* selectionMask = &::il2cpp_utils::GetClassFromName("", "BeatmapLevelSelectionMask")->byval_arg;
@@ -190,8 +190,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* userName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* userEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
-    static auto* userRandom = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    static auto* userPublicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* userRandom = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* userPublicKey = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::CreateDedicatedServerInstanceRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{secret, selectionMask, configuration, userId, userName, userEndPoint, userRandom, userPublicKey});
   }
 };

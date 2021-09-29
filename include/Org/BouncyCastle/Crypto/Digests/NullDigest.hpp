@@ -46,28 +46,28 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Get instance field reference: private readonly System.IO.MemoryStream bOut
     System::IO::MemoryStream*& dyn_bOut();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1D662EC
+    // Offset: 0x1F0657C
     ::Il2CppString* get_AlgorithmName();
     // public System.Int32 GetByteLength()
-    // Offset: 0x1D66334
+    // Offset: 0x1F065C4
     int GetByteLength();
     // public System.Int32 GetDigestSize()
-    // Offset: 0x1D6633C
+    // Offset: 0x1F065CC
     int GetDigestSize();
     // public System.Void Update(System.Byte b)
-    // Offset: 0x1D66364
+    // Offset: 0x1F065F4
     void Update(uint8_t b);
     // public System.Void BlockUpdate(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x1D66388
-    void BlockUpdate(::Array<uint8_t>* inBytes, int inOff, int len);
+    // Offset: 0x1F06618
+    void BlockUpdate(::ArrayWrapper<uint8_t> inBytes, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1D663AC
-    int DoFinal(::Array<uint8_t>* outBytes, int outOff);
+    // Offset: 0x1F0663C
+    int DoFinal(::ArrayWrapper<uint8_t> outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1D66438
+    // Offset: 0x1F066C8
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x1D66460
+    // Offset: 0x1F066F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -118,9 +118,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::NullDigest::BlockUpdate
 // Il2CppName: BlockUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::NullDigest::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Digests::NullDigest::BlockUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::NullDigest::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Digests::NullDigest::BlockUpdate)> {
   static const MethodInfo* get() {
-    static auto* inBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* inBytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::NullDigest*), "BlockUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inBytes, inOff, len});
@@ -129,9 +129,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::NullDigest::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::NullDigest::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Digests::NullDigest::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::NullDigest::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::NullDigest::DoFinal)> {
   static const MethodInfo* get() {
-    static auto* outBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* outBytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::NullDigest*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{outBytes, outOff});
   }

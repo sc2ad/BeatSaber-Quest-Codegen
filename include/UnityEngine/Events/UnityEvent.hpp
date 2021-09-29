@@ -39,31 +39,31 @@ namespace UnityEngine::Events {
     // private System.Object[] m_InvokeArray
     // Size: 0x8
     // Offset: 0x28
-    ::Array<::Il2CppObject*>* m_InvokeArray;
+    ::ArrayWrapper<::Il2CppObject*> m_InvokeArray;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
     // Creating value type constructor for type: UnityEvent
-    UnityEvent(::Array<::Il2CppObject*>* m_InvokeArray_ = {}) noexcept : m_InvokeArray{m_InvokeArray_} {}
-    // Creating conversion operator: operator ::Array<::Il2CppObject*>*
-    constexpr operator ::Array<::Il2CppObject*>*() const noexcept {
+    UnityEvent(::ArrayWrapper<::Il2CppObject*> m_InvokeArray_ = {}) noexcept : m_InvokeArray{m_InvokeArray_} {}
+    // Creating conversion operator: operator ::ArrayWrapper<::Il2CppObject*>
+    constexpr operator ::ArrayWrapper<::Il2CppObject*>() const noexcept {
       return m_InvokeArray;
     }
     // Get instance field reference: private System.Object[] m_InvokeArray
-    ::Array<::Il2CppObject*>*& dyn_m_InvokeArray();
+    ::ArrayWrapper<::Il2CppObject*>& dyn_m_InvokeArray();
     // public System.Void AddListener(UnityEngine.Events.UnityAction call)
-    // Offset: 0x1C53AD0
+    // Offset: 0x1CBA5A4
     void AddListener(UnityEngine::Events::UnityAction* call);
     // public System.Void RemoveListener(UnityEngine.Events.UnityAction call)
-    // Offset: 0x1C53B8C
+    // Offset: 0x1CBA660
     void RemoveListener(UnityEngine::Events::UnityAction* call);
     // static private UnityEngine.Events.BaseInvokableCall GetDelegate(UnityEngine.Events.UnityAction action)
-    // Offset: 0x1C53B08
+    // Offset: 0x1CBA5DC
     static UnityEngine::Events::BaseInvokableCall* GetDelegate(UnityEngine::Events::UnityAction* action);
     // public System.Void Invoke()
-    // Offset: 0x1C53E8C
+    // Offset: 0x1CBA960
     void Invoke();
     // public System.Void .ctor()
-    // Offset: 0x1C53A3C
+    // Offset: 0x1CBA510
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: System.Void UnityEventBase::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -73,18 +73,18 @@ namespace UnityEngine::Events {
       return THROW_UNLESS((::il2cpp_utils::New<UnityEvent*, creationType>()));
     }
     // protected override System.Reflection.MethodInfo FindMethod_Impl(System.String name, System.Object targetObj)
-    // Offset: 0x1C53BEC
+    // Offset: 0x1CBA6C0
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: System.Reflection.MethodInfo UnityEventBase::FindMethod_Impl(System.String name, System.Object targetObj)
     System::Reflection::MethodInfo* FindMethod_Impl(::Il2CppString* name, ::Il2CppObject* targetObj);
     // override UnityEngine.Events.BaseInvokableCall GetDelegate(System.Object target, System.Reflection.MethodInfo theFunction)
-    // Offset: 0x1C53E1C
+    // Offset: 0x1CBA8F0
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: UnityEngine.Events.BaseInvokableCall UnityEventBase::GetDelegate(System.Object target, System.Reflection.MethodInfo theFunction)
     UnityEngine::Events::BaseInvokableCall* GetDelegate(::Il2CppObject* target, System::Reflection::MethodInfo* theFunction);
   }; // UnityEngine.Events.UnityEvent
   #pragma pack(pop)
-  static check_size<sizeof(UnityEvent), 40 + sizeof(::Array<::Il2CppObject*>*)> __UnityEngine_Events_UnityEventSizeCheck;
+  static check_size<sizeof(UnityEvent), 40 + sizeof(::ArrayWrapper<::Il2CppObject*>)> __UnityEngine_Events_UnityEventSizeCheck;
   static_assert(sizeof(UnityEvent) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::UnityEvent*, "UnityEngine.Events", "UnityEvent");

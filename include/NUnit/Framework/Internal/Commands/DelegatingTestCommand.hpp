@@ -33,14 +33,14 @@ namespace NUnit::Framework::Internal::Commands {
     // Get instance field reference: protected NUnit.Framework.Internal.Commands.TestCommand innerCommand
     NUnit::Framework::Internal::Commands::TestCommand*& dyn_innerCommand();
     // protected System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
-    // Offset: 0x177D488
+    // Offset: 0x193C4D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DelegatingTestCommand* New_ctor(NUnit::Framework::Internal::Commands::TestCommand* innerCommand) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::DelegatingTestCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DelegatingTestCommand*, creationType>(innerCommand)));
     }
     // public NUnit.Framework.Internal.Commands.TestCommand GetInnerCommand()
-    // Offset: 0x177DA10
+    // Offset: 0x193CA5C
     NUnit::Framework::Internal::Commands::TestCommand* GetInnerCommand();
   }; // NUnit.Framework.Internal.Commands.DelegatingTestCommand
   #pragma pack(pop)

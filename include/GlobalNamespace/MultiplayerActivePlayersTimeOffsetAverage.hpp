@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerActivePlayersTimeOffsetAverage : public ::Il2CppObject/*, public GlobalNamespace::IMultiplayerObservable*/ {
     public:
-    // [InjectAttribute] Offset: 0xE40764
+    // [InjectAttribute] Offset: 0xF090F8
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
@@ -59,13 +59,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _timeOfLastValidReturnedTime
     float& dyn__timeOfLastValidReturnedTime();
     // public System.Single get_offsetSyncTime()
-    // Offset: 0x11C2EC8
+    // Offset: 0x1209548
     float get_offsetSyncTime();
     // public System.Boolean get_isFailed()
-    // Offset: 0x11C30F0
+    // Offset: 0x1209770
     bool get_isFailed();
     // public System.Void .ctor()
-    // Offset: 0x11C3250
+    // Offset: 0x12098D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

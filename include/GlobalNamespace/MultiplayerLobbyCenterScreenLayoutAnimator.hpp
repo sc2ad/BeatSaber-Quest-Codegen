@@ -21,8 +21,8 @@ namespace UnityEngine {
 }
 // Forward declaring namespace: Tweening
 namespace Tweening {
-  // Forward declaring type: TweeningManager
-  class TweeningManager;
+  // Forward declaring type: TimeTweeningManager
+  class TimeTweeningManager;
 }
 // Completed forward declares
 // Type namespace: 
@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     UnityEngine::RectTransform* nextLevelTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE46564
+    // [SpaceAttribute] Offset: 0xF0EF28
     // private UnityEngine.RectTransform _nextLevelBasePosition
     // Size: 0x8
     // Offset: 0x20
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     UnityEngine::RectTransform* nextLevelCountdownPosition;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE465AC
+    // [SpaceAttribute] Offset: 0xF0EF70
     // private System.Single _transitionDuration
     // Size: 0x4
     // Offset: 0x30
@@ -61,15 +61,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: transitionDuration and: tweeningManager
     char __padding3[0x4] = {};
-    // [InjectAttribute] Offset: 0xE465E4
-    // private readonly Tweening.TweeningManager _tweeningManager
+    // [InjectAttribute] Offset: 0xF0EFA8
+    // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x38
-    Tweening::TweeningManager* tweeningManager;
+    Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
-    static_assert(sizeof(Tweening::TweeningManager*) == 0x8);
+    static_assert(sizeof(Tweening::TimeTweeningManager*) == 0x8);
     // Creating value type constructor for type: MultiplayerLobbyCenterScreenLayoutAnimator
-    MultiplayerLobbyCenterScreenLayoutAnimator(UnityEngine::RectTransform* nextLevelTransform_ = {}, UnityEngine::RectTransform* nextLevelBasePosition_ = {}, UnityEngine::RectTransform* nextLevelCountdownPosition_ = {}, float transitionDuration_ = {}, Tweening::TweeningManager* tweeningManager_ = {}) noexcept : nextLevelTransform{nextLevelTransform_}, nextLevelBasePosition{nextLevelBasePosition_}, nextLevelCountdownPosition{nextLevelCountdownPosition_}, transitionDuration{transitionDuration_}, tweeningManager{tweeningManager_} {}
+    MultiplayerLobbyCenterScreenLayoutAnimator(UnityEngine::RectTransform* nextLevelTransform_ = {}, UnityEngine::RectTransform* nextLevelBasePosition_ = {}, UnityEngine::RectTransform* nextLevelCountdownPosition_ = {}, float transitionDuration_ = {}, Tweening::TimeTweeningManager* tweeningManager_ = {}) noexcept : nextLevelTransform{nextLevelTransform_}, nextLevelBasePosition{nextLevelBasePosition_}, nextLevelCountdownPosition{nextLevelCountdownPosition_}, transitionDuration{transitionDuration_}, tweeningManager{tweeningManager_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.RectTransform _nextLevelTransform
@@ -80,22 +80,22 @@ namespace GlobalNamespace {
     UnityEngine::RectTransform*& dyn__nextLevelCountdownPosition();
     // Get instance field reference: private System.Single _transitionDuration
     float& dyn__transitionDuration();
-    // Get instance field reference: private readonly Tweening.TweeningManager _tweeningManager
-    Tweening::TweeningManager*& dyn__tweeningManager();
+    // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
+    Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // public System.Void StartCountdown()
-    // Offset: 0x107E7C8
+    // Offset: 0x116DE6C
     void StartCountdown();
     // public System.Void StopCountdown(System.Boolean instant)
-    // Offset: 0x107E9F4
+    // Offset: 0x116E098
     void StopCountdown(bool instant);
     // private System.Void Move(UnityEngine.Vector3 from, UnityEngine.Vector3 to, System.Single duration)
-    // Offset: 0x107E8C8
+    // Offset: 0x116DF6C
     void Move(UnityEngine::Vector3 from, UnityEngine::Vector3 to, float duration);
     // private System.Void <Move>b__7_0(UnityEngine.Vector3 pos)
-    // Offset: 0x107EB24
+    // Offset: 0x116E1C8
     void $Move$b__7_0(UnityEngine::Vector3 pos);
     // public System.Void .ctor()
-    // Offset: 0x107EB1C
+    // Offset: 0x116E1C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     }
   }; // MultiplayerLobbyCenterScreenLayoutAnimator
   #pragma pack(pop)
-  static check_size<sizeof(MultiplayerLobbyCenterScreenLayoutAnimator), 56 + sizeof(Tweening::TweeningManager*)> __GlobalNamespace_MultiplayerLobbyCenterScreenLayoutAnimatorSizeCheck;
+  static check_size<sizeof(MultiplayerLobbyCenterScreenLayoutAnimator), 56 + sizeof(Tweening::TimeTweeningManager*)> __GlobalNamespace_MultiplayerLobbyCenterScreenLayoutAnimatorSizeCheck;
   static_assert(sizeof(MultiplayerLobbyCenterScreenLayoutAnimator) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator*, "", "MultiplayerLobbyCenterScreenLayoutAnimator");

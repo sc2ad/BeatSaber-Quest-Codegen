@@ -25,8 +25,8 @@ namespace System::Reflection::Emit {
     // Creating value type constructor for type: TypeBuilderInstantiation
     TypeBuilderInstantiation() noexcept {}
     // static System.Type MakeGenericType(System.Type type, System.Type[] typeArguments)
-    // Offset: 0x1D1B02C
-    static System::Type* MakeGenericType(System::Type* type, ::Array<System::Type*>* typeArguments);
+    // Offset: 0x1EA81A8
+    static System::Type* MakeGenericType(System::Type* type, ::ArrayWrapper<System::Type*> typeArguments);
   }; // System.Reflection.Emit.TypeBuilderInstantiation
   #pragma pack(pop)
 }
@@ -36,10 +36,10 @@ DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::TypeBuilderInstantiation*, "Sys
 // Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilderInstantiation::MakeGenericType
 // Il2CppName: MakeGenericType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*, ::Array<System::Type*>*)>(&System::Reflection::Emit::TypeBuilderInstantiation::MakeGenericType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*, ::ArrayWrapper<System::Type*>)>(&System::Reflection::Emit::TypeBuilderInstantiation::MakeGenericType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* typeArguments = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
+    static auto* typeArguments = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Type")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilderInstantiation*), "MakeGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, typeArguments});
   }
 };

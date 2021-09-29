@@ -5,10 +5,6 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-// Completed il2cpp-utils forward declares
 // Type namespace: Org.BouncyCastle.Math.Field
 namespace Org::BouncyCastle::Math::Field {
   // Size: 0x10
@@ -24,7 +20,7 @@ namespace Org::BouncyCastle::Math::Field {
     int get_Degree();
     // public System.Int32[] GetExponentsPresent()
     // Offset: 0xFFFFFFFF
-    ::Array<int>* GetExponentsPresent();
+    ::ArrayWrapper<int> GetExponentsPresent();
   }; // Org.BouncyCastle.Math.Field.IPolynomial
   #pragma pack(pop)
 }
@@ -42,7 +38,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::IPolynomial::GetExponentsPresent
 // Il2CppName: GetExponentsPresent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (Org::BouncyCastle::Math::Field::IPolynomial::*)()>(&Org::BouncyCastle::Math::Field::IPolynomial::GetExponentsPresent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (Org::BouncyCastle::Math::Field::IPolynomial::*)()>(&Org::BouncyCastle::Math::Field::IPolynomial::GetExponentsPresent)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::IPolynomial*), "GetExponentsPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

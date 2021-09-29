@@ -23,31 +23,31 @@ namespace System {
     // public System.UInt64[] Values
     // Size: 0x8
     // Offset: 0x10
-    ::Array<uint64_t>* Values;
+    ::ArrayWrapper<uint64_t> Values;
     // Field size check
-    static_assert(sizeof(::Array<uint64_t>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<uint64_t>) == 0x8);
     // public System.String[] Names
     // Size: 0x8
     // Offset: 0x18
-    ::Array<::Il2CppString*>* Names;
+    ::ArrayWrapper<::Il2CppString*> Names;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
     // Creating value type constructor for type: ValuesAndNames
-    ValuesAndNames(::Array<uint64_t>* Values_ = {}, ::Array<::Il2CppString*>* Names_ = {}) noexcept : Values{Values_}, Names{Names_} {}
+    ValuesAndNames(::ArrayWrapper<uint64_t> Values_ = {}, ::ArrayWrapper<::Il2CppString*> Names_ = {}) noexcept : Values{Values_}, Names{Names_} {}
     // Get instance field reference: public System.UInt64[] Values
-    ::Array<uint64_t>*& dyn_Values();
+    ::ArrayWrapper<uint64_t>& dyn_Values();
     // Get instance field reference: public System.String[] Names
-    ::Array<::Il2CppString*>*& dyn_Names();
+    ::ArrayWrapper<::Il2CppString*>& dyn_Names();
     // public System.Void .ctor(System.UInt64[] values, System.String[] names)
-    // Offset: 0x1802DE0
+    // Offset: 0x19A0740
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Enum::ValuesAndNames* New_ctor(::Array<uint64_t>* values, ::Array<::Il2CppString*>* names) {
+    static Enum::ValuesAndNames* New_ctor(::ArrayWrapper<uint64_t> values, ::ArrayWrapper<::Il2CppString*> names) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Enum::ValuesAndNames::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Enum::ValuesAndNames*, creationType>(values, names)));
     }
   }; // System.Enum/System.ValuesAndNames
   #pragma pack(pop)
-  static check_size<sizeof(Enum::ValuesAndNames), 24 + sizeof(::Array<::Il2CppString*>*)> __System_Enum_ValuesAndNamesSizeCheck;
+  static check_size<sizeof(Enum::ValuesAndNames), 24 + sizeof(::ArrayWrapper<::Il2CppString*>)> __System_Enum_ValuesAndNamesSizeCheck;
   static_assert(sizeof(Enum::ValuesAndNames) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Enum::ValuesAndNames*, "System", "Enum/ValuesAndNames");

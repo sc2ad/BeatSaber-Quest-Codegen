@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly ColorScheme colorScheme
     GlobalNamespace::ColorScheme*& dyn_colorScheme();
     // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap, IPreviewBeatmapLevel previewBeatmapLevel, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.Boolean useTestNoteCutSoundEffects, EnvironmentInfoSO environmentInfo, ColorScheme colorScheme)
-    // Offset: 0x10FF9CC
+    // Offset: 0x11E4298
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayCoreSceneSetupData* New_ctor(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects, GlobalNamespace::EnvironmentInfoSO* environmentInfo, GlobalNamespace::ColorScheme* colorScheme) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameplayCoreSceneSetupData::.ctor");

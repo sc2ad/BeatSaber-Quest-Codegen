@@ -37,20 +37,20 @@ namespace System::Xml {
     // Creating value type constructor for type: OnRemoveWriter
     OnRemoveWriter() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x195B40C
+    // Offset: 0x1AFC244
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OnRemoveWriter* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::OnRemoveWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OnRemoveWriter*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Xml.XmlRawWriter writer)
-    // Offset: 0x195B41C
+    // Offset: 0x1AFC254
     void Invoke(System::Xml::XmlRawWriter* writer);
     // public System.IAsyncResult BeginInvoke(System.Xml.XmlRawWriter writer, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x195B7B0
+    // Offset: 0x1AFC5E8
     System::IAsyncResult* BeginInvoke(System::Xml::XmlRawWriter* writer, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x195B7D4
+    // Offset: 0x1AFC60C
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Xml.OnRemoveWriter
   #pragma pack(pop)

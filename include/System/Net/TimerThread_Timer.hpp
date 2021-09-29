@@ -45,7 +45,7 @@ namespace System::Net {
     // Get instance field reference: private readonly System.Int32 m_DurationMilliseconds
     int& dyn_m_DurationMilliseconds();
     // System.Void .ctor(System.Int32 durationMilliseconds)
-    // Offset: 0x15D338C
+    // Offset: 0x1776844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimerThread::Timer* New_ctor(int durationMilliseconds) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::TimerThread::Timer::.ctor");
@@ -55,7 +55,7 @@ namespace System::Net {
     // Offset: 0xFFFFFFFF
     bool Cancel();
     // public System.Void Dispose()
-    // Offset: 0x15D33C4
+    // Offset: 0x177687C
     void Dispose();
   }; // System.Net.TimerThread/System.Net.Timer
   #pragma pack(pop)

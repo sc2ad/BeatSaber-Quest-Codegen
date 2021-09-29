@@ -24,66 +24,66 @@ namespace Org::BouncyCastle::Crypto::Tls {
     // Creating value type constructor for type: TlsUtilities
     TlsUtilities() noexcept {}
     // Get static field: static public readonly System.Byte[] EmptyBytes
-    static ::Array<uint8_t>* _get_EmptyBytes();
+    static ::ArrayWrapper<uint8_t> _get_EmptyBytes();
     // Set static field: static public readonly System.Byte[] EmptyBytes
-    static void _set_EmptyBytes(::Array<uint8_t>* value);
+    static void _set_EmptyBytes(::ArrayWrapper<uint8_t> value);
     // Get static field: static public readonly System.Int16[] EmptyShorts
-    static ::Array<int16_t>* _get_EmptyShorts();
+    static ::ArrayWrapper<int16_t> _get_EmptyShorts();
     // Set static field: static public readonly System.Int16[] EmptyShorts
-    static void _set_EmptyShorts(::Array<int16_t>* value);
+    static void _set_EmptyShorts(::ArrayWrapper<int16_t> value);
     // Get static field: static public readonly System.Int32[] EmptyInts
-    static ::Array<int>* _get_EmptyInts();
+    static ::ArrayWrapper<int> _get_EmptyInts();
     // Set static field: static public readonly System.Int32[] EmptyInts
-    static void _set_EmptyInts(::Array<int>* value);
+    static void _set_EmptyInts(::ArrayWrapper<int> value);
     // Get static field: static public readonly System.Int64[] EmptyLongs
-    static ::Array<int64_t>* _get_EmptyLongs();
+    static ::ArrayWrapper<int64_t> _get_EmptyLongs();
     // Set static field: static public readonly System.Int64[] EmptyLongs
-    static void _set_EmptyLongs(::Array<int64_t>* value);
+    static void _set_EmptyLongs(::ArrayWrapper<int64_t> value);
     // Get static field: static readonly System.Byte[] SSL_CLIENT
-    static ::Array<uint8_t>* _get_SSL_CLIENT();
+    static ::ArrayWrapper<uint8_t> _get_SSL_CLIENT();
     // Set static field: static readonly System.Byte[] SSL_CLIENT
-    static void _set_SSL_CLIENT(::Array<uint8_t>* value);
+    static void _set_SSL_CLIENT(::ArrayWrapper<uint8_t> value);
     // Get static field: static readonly System.Byte[] SSL_SERVER
-    static ::Array<uint8_t>* _get_SSL_SERVER();
+    static ::ArrayWrapper<uint8_t> _get_SSL_SERVER();
     // Set static field: static readonly System.Byte[] SSL_SERVER
-    static void _set_SSL_SERVER(::Array<uint8_t>* value);
+    static void _set_SSL_SERVER(::ArrayWrapper<uint8_t> value);
     // Get static field: static readonly System.Byte[][] SSL3_CONST
-    static ::Array<::Array<uint8_t>*>* _get_SSL3_CONST();
+    static ::ArrayWrapper<::ArrayWrapper<uint8_t>> _get_SSL3_CONST();
     // Set static field: static readonly System.Byte[][] SSL3_CONST
-    static void _set_SSL3_CONST(::Array<::Array<uint8_t>*>* value);
+    static void _set_SSL3_CONST(::ArrayWrapper<::ArrayWrapper<uint8_t>> value);
     // static private System.Void .cctor()
-    // Offset: 0x1289300
+    // Offset: 0x13A5B08
     static void _cctor();
     // static public System.Void WriteUint8(System.Byte i, System.IO.Stream output)
-    // Offset: 0x1288EEC
+    // Offset: 0x13A56F4
     static void WriteUint8(uint8_t i, System::IO::Stream* output);
     // static public System.Void WriteUint16(System.Int32 i, System.IO.Stream output)
-    // Offset: 0x1288F18
+    // Offset: 0x13A5720
     static void WriteUint16(int i, System::IO::Stream* output);
     // static public System.Void WriteOpaque8(System.Byte[] buf, System.IO.Stream output)
-    // Offset: 0x12887F8
-    static void WriteOpaque8(::Array<uint8_t>* buf, System::IO::Stream* output);
+    // Offset: 0x13A5000
+    static void WriteOpaque8(::ArrayWrapper<uint8_t> buf, System::IO::Stream* output);
     // static public System.Void WriteOpaque16(System.Byte[] buf, System.IO.Stream output)
-    // Offset: 0x1287CA0
-    static void WriteOpaque16(::Array<uint8_t>* buf, System::IO::Stream* output);
+    // Offset: 0x13A44A8
+    static void WriteOpaque16(::ArrayWrapper<uint8_t> buf, System::IO::Stream* output);
     // static public System.Byte ReadUint8(System.IO.Stream input)
-    // Offset: 0x1288F6C
+    // Offset: 0x13A5774
     static uint8_t ReadUint8(System::IO::Stream* input);
     // static public System.Int32 ReadUint16(System.IO.Stream input)
-    // Offset: 0x1288FFC
+    // Offset: 0x13A5804
     static int ReadUint16(System::IO::Stream* input);
     // static public System.Void ReadFully(System.Byte[] buf, System.IO.Stream input)
-    // Offset: 0x12890A8
-    static void ReadFully(::Array<uint8_t>* buf, System::IO::Stream* input);
+    // Offset: 0x13A58B0
+    static void ReadFully(::ArrayWrapper<uint8_t> buf, System::IO::Stream* input);
     // static public System.Byte[] ReadOpaque8(System.IO.Stream input)
-    // Offset: 0x1289150
-    static ::Array<uint8_t>* ReadOpaque8(System::IO::Stream* input);
+    // Offset: 0x13A5958
+    static ::ArrayWrapper<uint8_t> ReadOpaque8(System::IO::Stream* input);
     // static public System.Byte[] ReadOpaque16(System.IO.Stream input)
-    // Offset: 0x1287C10
-    static ::Array<uint8_t>* ReadOpaque16(System::IO::Stream* input);
+    // Offset: 0x13A4418
+    static ::ArrayWrapper<uint8_t> ReadOpaque16(System::IO::Stream* input);
     // static private System.Byte[][] GenSsl3Const()
-    // Offset: 0x12891E0
-    static ::Array<::Array<uint8_t>*>* GenSsl3Const();
+    // Offset: 0x13A59E8
+    static ::ArrayWrapper<::ArrayWrapper<uint8_t>> GenSsl3Const();
   }; // Org.BouncyCastle.Crypto.Tls.TlsUtilities
   #pragma pack(pop)
 }
@@ -121,9 +121,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::TlsUtilities::WriteOpaque8
 // Il2CppName: WriteOpaque8
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, System::IO::Stream*)>(&Org::BouncyCastle::Crypto::Tls::TlsUtilities::WriteOpaque8)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, System::IO::Stream*)>(&Org::BouncyCastle::Crypto::Tls::TlsUtilities::WriteOpaque8)> {
   static const MethodInfo* get() {
-    static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buf = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* output = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::TlsUtilities*), "WriteOpaque8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buf, output});
   }
@@ -131,9 +131,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::TlsUtilities::WriteOpaque16
 // Il2CppName: WriteOpaque16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, System::IO::Stream*)>(&Org::BouncyCastle::Crypto::Tls::TlsUtilities::WriteOpaque16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, System::IO::Stream*)>(&Org::BouncyCastle::Crypto::Tls::TlsUtilities::WriteOpaque16)> {
   static const MethodInfo* get() {
-    static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buf = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* output = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::TlsUtilities*), "WriteOpaque16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buf, output});
   }
@@ -159,9 +159,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::TlsUtilities::ReadFully
 // Il2CppName: ReadFully
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, System::IO::Stream*)>(&Org::BouncyCastle::Crypto::Tls::TlsUtilities::ReadFully)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, System::IO::Stream*)>(&Org::BouncyCastle::Crypto::Tls::TlsUtilities::ReadFully)> {
   static const MethodInfo* get() {
-    static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buf = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     static auto* input = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::TlsUtilities*), "ReadFully", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buf, input});
   }
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::TlsUtilities::ReadOpaque8
 // Il2CppName: ReadOpaque8
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(System::IO::Stream*)>(&Org::BouncyCastle::Crypto::Tls::TlsUtilities::ReadOpaque8)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(System::IO::Stream*)>(&Org::BouncyCastle::Crypto::Tls::TlsUtilities::ReadOpaque8)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::TlsUtilities*), "ReadOpaque8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::TlsUtilities::ReadOpaque16
 // Il2CppName: ReadOpaque16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(System::IO::Stream*)>(&Org::BouncyCastle::Crypto::Tls::TlsUtilities::ReadOpaque16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(System::IO::Stream*)>(&Org::BouncyCastle::Crypto::Tls::TlsUtilities::ReadOpaque16)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::TlsUtilities*), "ReadOpaque16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::TlsUtilities::GenSsl3Const
 // Il2CppName: GenSsl3Const
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Array<uint8_t>*>* (*)()>(&Org::BouncyCastle::Crypto::Tls::TlsUtilities::GenSsl3Const)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::ArrayWrapper<uint8_t>> (*)()>(&Org::BouncyCastle::Crypto::Tls::TlsUtilities::GenSsl3Const)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::TlsUtilities*), "GenSsl3Const", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

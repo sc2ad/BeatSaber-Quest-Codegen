@@ -36,7 +36,7 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestParameters : public ::Il2CppObject/*, public NUnit::Framework::Interfaces::IApplyToTest, public NUnit::Framework::Interfaces::ITestData*/ {
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xE286CC
+    // [DebuggerBrowsableAttribute] Offset: 0xEEEEA4
     // private NUnit.Framework.Interfaces.RunState <RunState>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -45,36 +45,36 @@ namespace NUnit::Framework::Internal {
     static_assert(sizeof(NUnit::Framework::Interfaces::RunState) == 0x4);
     // Padding between fields: RunState and: Arguments
     char __padding0[0x4] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0xE28708
+    // [DebuggerBrowsableAttribute] Offset: 0xEEEEE0
     // private System.Object[] <Arguments>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::Array<::Il2CppObject*>* Arguments;
+    ::ArrayWrapper<::Il2CppObject*> Arguments;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE28744
+    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    // [DebuggerBrowsableAttribute] Offset: 0xEEEF1C
     // private System.String <TestName>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     ::Il2CppString* TestName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE28780
+    // [DebuggerBrowsableAttribute] Offset: 0xEEEF58
     // private NUnit.Framework.Interfaces.IPropertyBag <Properties>k__BackingField
     // Size: 0x8
     // Offset: 0x28
     NUnit::Framework::Interfaces::IPropertyBag* Properties;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::IPropertyBag*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE287BC
+    // [DebuggerBrowsableAttribute] Offset: 0xEEEF94
     // private System.Object[] <OriginalArguments>k__BackingField
     // Size: 0x8
     // Offset: 0x30
-    ::Array<::Il2CppObject*>* OriginalArguments;
+    ::ArrayWrapper<::Il2CppObject*> OriginalArguments;
     // Field size check
-    static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
     // Creating value type constructor for type: TestParameters
-    TestParameters(NUnit::Framework::Interfaces::RunState RunState_ = {}, ::Array<::Il2CppObject*>* Arguments_ = {}, ::Il2CppString* TestName_ = {}, NUnit::Framework::Interfaces::IPropertyBag* Properties_ = {}, ::Array<::Il2CppObject*>* OriginalArguments_ = {}) noexcept : RunState{RunState_}, Arguments{Arguments_}, TestName{TestName_}, Properties{Properties_}, OriginalArguments{OriginalArguments_} {}
+    TestParameters(NUnit::Framework::Interfaces::RunState RunState_ = {}, ::ArrayWrapper<::Il2CppObject*> Arguments_ = {}, ::Il2CppString* TestName_ = {}, NUnit::Framework::Interfaces::IPropertyBag* Properties_ = {}, ::ArrayWrapper<::Il2CppObject*> OriginalArguments_ = {}) noexcept : RunState{RunState_}, Arguments{Arguments_}, TestName{TestName_}, Properties{Properties_}, OriginalArguments{OriginalArguments_} {}
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::IApplyToTest
     operator NUnit::Framework::Interfaces::IApplyToTest() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IApplyToTest*>(this);
@@ -86,55 +86,55 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private NUnit.Framework.Interfaces.RunState <RunState>k__BackingField
     NUnit::Framework::Interfaces::RunState& dyn_$RunState$k__BackingField();
     // Get instance field reference: private System.Object[] <Arguments>k__BackingField
-    ::Array<::Il2CppObject*>*& dyn_$Arguments$k__BackingField();
+    ::ArrayWrapper<::Il2CppObject*>& dyn_$Arguments$k__BackingField();
     // Get instance field reference: private System.String <TestName>k__BackingField
     ::Il2CppString*& dyn_$TestName$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Interfaces.IPropertyBag <Properties>k__BackingField
     NUnit::Framework::Interfaces::IPropertyBag*& dyn_$Properties$k__BackingField();
     // Get instance field reference: private System.Object[] <OriginalArguments>k__BackingField
-    ::Array<::Il2CppObject*>*& dyn_$OriginalArguments$k__BackingField();
+    ::ArrayWrapper<::Il2CppObject*>& dyn_$OriginalArguments$k__BackingField();
     // public NUnit.Framework.Interfaces.RunState get_RunState()
-    // Offset: 0x229C6A8
+    // Offset: 0x24A49F0
     NUnit::Framework::Interfaces::RunState get_RunState();
     // public System.Void set_RunState(NUnit.Framework.Interfaces.RunState value)
-    // Offset: 0x229C6B0
+    // Offset: 0x24A49F8
     void set_RunState(NUnit::Framework::Interfaces::RunState value);
     // public System.Object[] get_Arguments()
-    // Offset: 0x229C6B8
-    ::Array<::Il2CppObject*>* get_Arguments();
+    // Offset: 0x24A4A00
+    ::ArrayWrapper<::Il2CppObject*> get_Arguments();
     // System.Void set_Arguments(System.Object[] value)
-    // Offset: 0x229C6C0
-    void set_Arguments(::Array<::Il2CppObject*>* value);
+    // Offset: 0x24A4A08
+    void set_Arguments(::ArrayWrapper<::Il2CppObject*> value);
     // public System.String get_TestName()
-    // Offset: 0x229C6C8
+    // Offset: 0x24A4A10
     ::Il2CppString* get_TestName();
     // public NUnit.Framework.Interfaces.IPropertyBag get_Properties()
-    // Offset: 0x229C6D0
+    // Offset: 0x24A4A18
     NUnit::Framework::Interfaces::IPropertyBag* get_Properties();
     // private System.Void set_Properties(NUnit.Framework.Interfaces.IPropertyBag value)
-    // Offset: 0x229C6D8
+    // Offset: 0x24A4A20
     void set_Properties(NUnit::Framework::Interfaces::IPropertyBag* value);
     // public System.Object[] get_OriginalArguments()
-    // Offset: 0x229CD7C
-    ::Array<::Il2CppObject*>* get_OriginalArguments();
+    // Offset: 0x24A50C4
+    ::ArrayWrapper<::Il2CppObject*> get_OriginalArguments();
     // private System.Void set_OriginalArguments(System.Object[] value)
-    // Offset: 0x229CD84
-    void set_OriginalArguments(::Array<::Il2CppObject*>* value);
+    // Offset: 0x24A50CC
+    void set_OriginalArguments(::ArrayWrapper<::Il2CppObject*> value);
     // public System.Void .ctor(System.Object[] args)
-    // Offset: 0x2299110
+    // Offset: 0x24A1458
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TestParameters* New_ctor(::Array<::Il2CppObject*>* args) {
+    static TestParameters* New_ctor(::ArrayWrapper<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestParameters*, creationType>(args)));
     }
     // private System.Void InitializeAguments(System.Object[] args)
-    // Offset: 0x229C624
-    void InitializeAguments(::Array<::Il2CppObject*>* args);
+    // Offset: 0x24A496C
+    void InitializeAguments(::ArrayWrapper<::Il2CppObject*> args);
     // public System.Void ApplyToTest(NUnit.Framework.Internal.Test test)
-    // Offset: 0x229C6E0
+    // Offset: 0x24A4A28
     void ApplyToTest(NUnit::Framework::Internal::Test* test);
     // public System.Void .ctor()
-    // Offset: 0x229909C
+    // Offset: 0x24A13E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -144,7 +144,7 @@ namespace NUnit::Framework::Internal {
     }
   }; // NUnit.Framework.Internal.TestParameters
   #pragma pack(pop)
-  static check_size<sizeof(TestParameters), 48 + sizeof(::Array<::Il2CppObject*>*)> __NUnit_Framework_Internal_TestParametersSizeCheck;
+  static check_size<sizeof(TestParameters), 48 + sizeof(::ArrayWrapper<::Il2CppObject*>)> __NUnit_Framework_Internal_TestParametersSizeCheck;
   static_assert(sizeof(TestParameters) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestParameters*, "NUnit.Framework.Internal", "TestParameters");
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestParameters::get_Arguments
 // Il2CppName: get_Arguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (NUnit::Framework::Internal::TestParameters::*)()>(&NUnit::Framework::Internal::TestParameters::get_Arguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (NUnit::Framework::Internal::TestParameters::*)()>(&NUnit::Framework::Internal::TestParameters::get_Arguments)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestParameters*), "get_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -177,9 +177,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestParameters::set_Arguments
 // Il2CppName: set_Arguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestParameters::*)(::Array<::Il2CppObject*>*)>(&NUnit::Framework::Internal::TestParameters::set_Arguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestParameters::*)(::ArrayWrapper<::Il2CppObject*>)>(&NUnit::Framework::Internal::TestParameters::set_Arguments)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestParameters*), "set_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
@@ -211,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestParameters::get_OriginalArguments
 // Il2CppName: get_OriginalArguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (NUnit::Framework::Internal::TestParameters::*)()>(&NUnit::Framework::Internal::TestParameters::get_OriginalArguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (NUnit::Framework::Internal::TestParameters::*)()>(&NUnit::Framework::Internal::TestParameters::get_OriginalArguments)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestParameters*), "get_OriginalArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -219,9 +219,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestParameters::set_OriginalArguments
 // Il2CppName: set_OriginalArguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestParameters::*)(::Array<::Il2CppObject*>*)>(&NUnit::Framework::Internal::TestParameters::set_OriginalArguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestParameters::*)(::ArrayWrapper<::Il2CppObject*>)>(&NUnit::Framework::Internal::TestParameters::set_OriginalArguments)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestParameters*), "set_OriginalArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
@@ -232,9 +232,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestParameters::InitializeAguments
 // Il2CppName: InitializeAguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestParameters::*)(::Array<::Il2CppObject*>*)>(&NUnit::Framework::Internal::TestParameters::InitializeAguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestParameters::*)(::ArrayWrapper<::Il2CppObject*>)>(&NUnit::Framework::Internal::TestParameters::InitializeAguments)> {
   static const MethodInfo* get() {
-    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestParameters*), "InitializeAguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
   }
 };

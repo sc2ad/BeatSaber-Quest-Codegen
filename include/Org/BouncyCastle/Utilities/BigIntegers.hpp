@@ -29,19 +29,19 @@ namespace Org::BouncyCastle::Utilities {
     // Creating value type constructor for type: BigIntegers
     BigIntegers() noexcept {}
     // static public System.Byte[] AsUnsignedByteArray(Org.BouncyCastle.Math.BigInteger n)
-    // Offset: 0x13D8358
-    static ::Array<uint8_t>* AsUnsignedByteArray(Org::BouncyCastle::Math::BigInteger* n);
+    // Offset: 0x14EA54C
+    static ::ArrayWrapper<uint8_t> AsUnsignedByteArray(Org::BouncyCastle::Math::BigInteger* n);
     // static public System.Byte[] AsUnsignedByteArray(System.Int32 length, Org.BouncyCastle.Math.BigInteger n)
-    // Offset: 0x13D8370
-    static ::Array<uint8_t>* AsUnsignedByteArray(int length, Org::BouncyCastle::Math::BigInteger* n);
+    // Offset: 0x14EA564
+    static ::ArrayWrapper<uint8_t> AsUnsignedByteArray(int length, Org::BouncyCastle::Math::BigInteger* n);
     // static public Org.BouncyCastle.Math.BigInteger CreateRandomBigInteger(System.Int32 bitLength, Org.BouncyCastle.Security.SecureRandom secureRandom)
-    // Offset: 0x13D8474
+    // Offset: 0x14EA668
     static Org::BouncyCastle::Math::BigInteger* CreateRandomBigInteger(int bitLength, Org::BouncyCastle::Security::SecureRandom* secureRandom);
     // static public Org.BouncyCastle.Math.BigInteger CreateRandomInRange(Org.BouncyCastle.Math.BigInteger min, Org.BouncyCastle.Math.BigInteger max, Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x13D84E8
+    // Offset: 0x14EA6DC
     static Org::BouncyCastle::Math::BigInteger* CreateRandomInRange(Org::BouncyCastle::Math::BigInteger* min, Org::BouncyCastle::Math::BigInteger* max, Org::BouncyCastle::Security::SecureRandom* random);
     // static public System.Int32 GetUnsignedByteLength(Org.BouncyCastle.Math.BigInteger n)
-    // Offset: 0x13D8714
+    // Offset: 0x14EA908
     static int GetUnsignedByteLength(Org::BouncyCastle::Math::BigInteger* n);
   }; // Org.BouncyCastle.Utilities.BigIntegers
   #pragma pack(pop)
@@ -52,7 +52,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::BigIntegers*, "Org.BouncyCa
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::BigIntegers::AsUnsignedByteArray
 // Il2CppName: AsUnsignedByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Utilities::BigIntegers::AsUnsignedByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Utilities::BigIntegers::AsUnsignedByteArray)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::BigIntegers*), "AsUnsignedByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n});
@@ -61,7 +61,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::BigIntegers::AsUnsignedByteArray
 // Il2CppName: AsUnsignedByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(int, Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Utilities::BigIntegers::AsUnsignedByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(int, Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Utilities::BigIntegers::AsUnsignedByteArray)> {
   static const MethodInfo* get() {
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* n = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;

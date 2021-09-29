@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
-    // [InjectAttribute] Offset: 0xE3F734
+    // [InjectAttribute] Offset: 0xF080B8
     // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x48
@@ -41,13 +41,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private IScoreController _scoreController
     GlobalNamespace::IScoreController*& dyn__scoreController();
     // protected System.Void OnDestroy()
-    // Offset: 0x10E5840
+    // Offset: 0x119D28C
     void OnDestroy();
     // private System.Void HandleComboDidChange(System.Int32 combo)
-    // Offset: 0x10E5940
+    // Offset: 0x119D38C
     void HandleComboDidChange(int combo);
     // public System.Void .ctor()
-    // Offset: 0x10E597C
+    // Offset: 0x119D3C8
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ComboMissionObjectiveChecker*, creationType>()));
     }
     // protected override System.Void Init()
-    // Offset: 0x10E5680
+    // Offset: 0x119D0CC
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();

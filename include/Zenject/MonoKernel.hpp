@@ -31,21 +31,21 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoKernel : public UnityEngine::MonoBehaviour {
     public:
-    // [InjectLocalAttribute] Offset: 0xE03BFC
+    // [InjectLocalAttribute] Offset: 0xEC423C
     // private Zenject.TickableManager _tickableManager
     // Size: 0x8
     // Offset: 0x18
     Zenject::TickableManager* tickableManager;
     // Field size check
     static_assert(sizeof(Zenject::TickableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0xE03C0C
+    // [InjectLocalAttribute] Offset: 0xEC424C
     // private Zenject.InitializableManager _initializableManager
     // Size: 0x8
     // Offset: 0x20
     Zenject::InitializableManager* initializableManager;
     // Field size check
     static_assert(sizeof(Zenject::InitializableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0xE03C1C
+    // [InjectLocalAttribute] Offset: 0xEC425C
     // private Zenject.DisposableManager _disposablesManager
     // Size: 0x8
     // Offset: 0x28
@@ -79,28 +79,28 @@ namespace Zenject {
     // Get instance field reference: private System.Boolean _isDestroyed
     bool& dyn__isDestroyed();
     // protected System.Boolean get_IsDestroyed()
-    // Offset: 0x171A314
+    // Offset: 0x1895D10
     bool get_IsDestroyed();
     // public System.Void Start()
-    // Offset: 0x171A31C
+    // Offset: 0x1895D18
     void Start();
     // public System.Void Initialize()
-    // Offset: 0x171A320
+    // Offset: 0x1895D1C
     void Initialize();
     // public System.Void Update()
-    // Offset: 0x171A354
+    // Offset: 0x1895D50
     void Update();
     // public System.Void FixedUpdate()
-    // Offset: 0x171A364
+    // Offset: 0x1895D60
     void FixedUpdate();
     // public System.Void LateUpdate()
-    // Offset: 0x171A374
+    // Offset: 0x1895D70
     void LateUpdate();
     // public System.Void OnDestroy()
-    // Offset: 0x171A384
+    // Offset: 0x1895D80
     void OnDestroy();
     // protected System.Void .ctor()
-    // Offset: 0x171A3F0
+    // Offset: 0x1895DEC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

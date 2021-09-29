@@ -32,12 +32,12 @@ namespace NUnit::Framework::Internal::Filters {
     // Creating value type constructor for type: AndFilter
     AndFilter() noexcept {}
     // protected override System.String get_ElementName()
-    // Offset: 0x1781AD8
+    // Offset: 0x1940B24
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.String CompositeFilter::get_ElementName()
     ::Il2CppString* get_ElementName();
     // public System.Void .ctor()
-    // Offset: 0x17810A4
+    // Offset: 0x19400F0
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Void CompositeFilter::.ctor()
     // Base method: System.Void TestFilter::.ctor()
@@ -48,18 +48,18 @@ namespace NUnit::Framework::Internal::Filters {
       return THROW_UNLESS((::il2cpp_utils::New<AndFilter*, creationType>()));
     }
     // public System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
-    // Offset: 0x178113C
+    // Offset: 0x1940188
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Void CompositeFilter::.ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AndFilter* New_ctor(::Array<NUnit::Framework::Interfaces::ITestFilter*>* filters) {
+    static AndFilter* New_ctor(::ArrayWrapper<NUnit::Framework::Interfaces::ITestFilter*> filters) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Filters::AndFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndFilter*, creationType>(filters)));
     }
     // Creating initializer_list -> params proxy for: System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndFilter* New_ctor(std::initializer_list<NUnit::Framework::Interfaces::ITestFilter*> filters) {
-      return New_ctor<creationType>(::Array<NUnit::Framework::Interfaces::ITestFilter*>::New(filters));
+      return New_ctor<creationType>(::ArrayWrapper<NUnit::Framework::Interfaces::ITestFilter*>(filters));
     }
     // Creating TArgs -> initializer_list proxy for: System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
@@ -67,17 +67,17 @@ namespace NUnit::Framework::Internal::Filters {
       return New_ctor<creationType>({filters...});
     }
     // public override System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x17811E4
+    // Offset: 0x1940230
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Boolean CompositeFilter::Pass(NUnit.Framework.Interfaces.ITest test)
     bool Pass(NUnit::Framework::Interfaces::ITest* test);
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1781500
+    // Offset: 0x194054C
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Boolean CompositeFilter::Match(NUnit.Framework.Interfaces.ITest test)
     bool Match(NUnit::Framework::Interfaces::ITest* test);
     // public override System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x17817EC
+    // Offset: 0x1940838
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Boolean CompositeFilter::IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
     bool IsExplicitMatch(NUnit::Framework::Interfaces::ITest* test);

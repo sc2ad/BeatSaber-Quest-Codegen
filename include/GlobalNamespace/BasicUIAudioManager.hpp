@@ -40,9 +40,9 @@ namespace GlobalNamespace {
     // private Signal[] _buttonClickEvents
     // Size: 0x8
     // Offset: 0x18
-    ::Array<GlobalNamespace::Signal*>* buttonClickEvents;
+    ::ArrayWrapper<GlobalNamespace::Signal*> buttonClickEvents;
     // Field size check
-    static_assert(sizeof(::Array<GlobalNamespace::Signal*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::Signal*>) == 0x8);
     // private UnityEngine.AudioSource _audioSource
     // Size: 0x8
     // Offset: 0x20
@@ -52,9 +52,9 @@ namespace GlobalNamespace {
     // private UnityEngine.AudioClip[] _clickSounds
     // Size: 0x8
     // Offset: 0x28
-    ::Array<UnityEngine::AudioClip*>* clickSounds;
+    ::ArrayWrapper<UnityEngine::AudioClip*> clickSounds;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::AudioClip*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::AudioClip*>) == 0x8);
     // private System.Single _minPitch
     // Size: 0x4
     // Offset: 0x30
@@ -74,15 +74,15 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*) == 0x8);
     // Creating value type constructor for type: BasicUIAudioManager
-    BasicUIAudioManager(::Array<GlobalNamespace::Signal*>* buttonClickEvents_ = {}, UnityEngine::AudioSource* audioSource_ = {}, ::Array<UnityEngine::AudioClip*>* clickSounds_ = {}, float minPitch_ = {}, float maxPitch_ = {}, GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomSoundPicker_ = {}) noexcept : buttonClickEvents{buttonClickEvents_}, audioSource{audioSource_}, clickSounds{clickSounds_}, minPitch{minPitch_}, maxPitch{maxPitch_}, randomSoundPicker{randomSoundPicker_} {}
+    BasicUIAudioManager(::ArrayWrapper<GlobalNamespace::Signal*> buttonClickEvents_ = {}, UnityEngine::AudioSource* audioSource_ = {}, ::ArrayWrapper<UnityEngine::AudioClip*> clickSounds_ = {}, float minPitch_ = {}, float maxPitch_ = {}, GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomSoundPicker_ = {}) noexcept : buttonClickEvents{buttonClickEvents_}, audioSource{audioSource_}, clickSounds{clickSounds_}, minPitch{minPitch_}, maxPitch{maxPitch_}, randomSoundPicker{randomSoundPicker_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Signal[] _buttonClickEvents
-    ::Array<GlobalNamespace::Signal*>*& dyn__buttonClickEvents();
+    ::ArrayWrapper<GlobalNamespace::Signal*>& dyn__buttonClickEvents();
     // Get instance field reference: private UnityEngine.AudioSource _audioSource
     UnityEngine::AudioSource*& dyn__audioSource();
     // Get instance field reference: private UnityEngine.AudioClip[] _clickSounds
-    ::Array<UnityEngine::AudioClip*>*& dyn__clickSounds();
+    ::ArrayWrapper<UnityEngine::AudioClip*>& dyn__clickSounds();
     // Get instance field reference: private System.Single _minPitch
     float& dyn__minPitch();
     // Get instance field reference: private System.Single _maxPitch
@@ -90,19 +90,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomSoundPicker
     GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*& dyn__randomSoundPicker();
     // protected System.Void Start()
-    // Offset: 0x11DD2E8
+    // Offset: 0x126D8D4
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x11DD380
+    // Offset: 0x126D96C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x11DD454
+    // Offset: 0x126DA40
     void OnDisable();
     // private System.Void HandleButtonClickEvent()
-    // Offset: 0x11DD528
+    // Offset: 0x126DB14
     void HandleButtonClickEvent();
     // public System.Void .ctor()
-    // Offset: 0x11DD608
+    // Offset: 0x126DBF4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

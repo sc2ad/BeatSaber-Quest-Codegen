@@ -58,9 +58,9 @@ namespace GlobalNamespace {
     // private UnityEngine.Transform[] _spawnPoints
     // Size: 0x8
     // Offset: 0x20
-    ::Array<UnityEngine::Transform*>* spawnPoints;
+    ::ArrayWrapper<UnityEngine::Transform*> spawnPoints;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
     // private UnityEngine.Transform _spawnPointsParent
     // Size: 0x8
     // Offset: 0x28
@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: evenCountOffset and: avatarsFactory
     char __padding3[0x4] = {};
-    // [InjectAttribute] Offset: 0xE414D0
+    // [InjectAttribute] Offset: 0xF09E64
     // private readonly MultiplayerResultsPyramidViewAvatar/Factory _avatarsFactory
     // Size: 0x8
     // Offset: 0x38
@@ -91,15 +91,15 @@ namespace GlobalNamespace {
     // private UnityEngine.GameObject[] _resultAvatarDirectors
     // Size: 0x8
     // Offset: 0x48
-    ::Array<UnityEngine::GameObject*>* resultAvatarDirectors;
+    ::ArrayWrapper<UnityEngine::GameObject*> resultAvatarDirectors;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::GameObject*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
     // private UnityEngine.GameObject[] _badgeTimelines
     // Size: 0x8
     // Offset: 0x50
-    ::Array<UnityEngine::GameObject*>* badgeTimelines;
+    ::ArrayWrapper<UnityEngine::GameObject*> badgeTimelines;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::GameObject*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
     // private MultiplayerResultsPyramidViewAvatar _anyResultsAvatar
     // Size: 0x8
     // Offset: 0x58
@@ -107,13 +107,13 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerResultsPyramidViewAvatar*) == 0x8);
     // Creating value type constructor for type: MultiplayerResultsPyramidView
-    MultiplayerResultsPyramidView(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* multiplayerOffsetByLocalPlayerPosition_ = {}, ::Array<UnityEngine::Transform*>* spawnPoints_ = {}, UnityEngine::Transform* spawnPointsParent_ = {}, float evenCountOffset_ = {}, GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Factory* avatarsFactory_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerResultsPyramidViewAvatar*>* avatarsDictionary_ = {}, ::Array<UnityEngine::GameObject*>* resultAvatarDirectors_ = {}, ::Array<UnityEngine::GameObject*>* badgeTimelines_ = {}, GlobalNamespace::MultiplayerResultsPyramidViewAvatar* anyResultsAvatar_ = {}) noexcept : multiplayerOffsetByLocalPlayerPosition{multiplayerOffsetByLocalPlayerPosition_}, spawnPoints{spawnPoints_}, spawnPointsParent{spawnPointsParent_}, evenCountOffset{evenCountOffset_}, avatarsFactory{avatarsFactory_}, avatarsDictionary{avatarsDictionary_}, resultAvatarDirectors{resultAvatarDirectors_}, badgeTimelines{badgeTimelines_}, anyResultsAvatar{anyResultsAvatar_} {}
+    MultiplayerResultsPyramidView(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* multiplayerOffsetByLocalPlayerPosition_ = {}, ::ArrayWrapper<UnityEngine::Transform*> spawnPoints_ = {}, UnityEngine::Transform* spawnPointsParent_ = {}, float evenCountOffset_ = {}, GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Factory* avatarsFactory_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerResultsPyramidViewAvatar*>* avatarsDictionary_ = {}, ::ArrayWrapper<UnityEngine::GameObject*> resultAvatarDirectors_ = {}, ::ArrayWrapper<UnityEngine::GameObject*> badgeTimelines_ = {}, GlobalNamespace::MultiplayerResultsPyramidViewAvatar* anyResultsAvatar_ = {}) noexcept : multiplayerOffsetByLocalPlayerPosition{multiplayerOffsetByLocalPlayerPosition_}, spawnPoints{spawnPoints_}, spawnPointsParent{spawnPointsParent_}, evenCountOffset{evenCountOffset_}, avatarsFactory{avatarsFactory_}, avatarsDictionary{avatarsDictionary_}, resultAvatarDirectors{resultAvatarDirectors_}, badgeTimelines{badgeTimelines_}, anyResultsAvatar{anyResultsAvatar_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MultiplayerOffsetPositionByLocalPlayerPosition _multiplayerOffsetByLocalPlayerPosition
     GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*& dyn__multiplayerOffsetByLocalPlayerPosition();
     // Get instance field reference: private UnityEngine.Transform[] _spawnPoints
-    ::Array<UnityEngine::Transform*>*& dyn__spawnPoints();
+    ::ArrayWrapper<UnityEngine::Transform*>& dyn__spawnPoints();
     // Get instance field reference: private UnityEngine.Transform _spawnPointsParent
     UnityEngine::Transform*& dyn__spawnPointsParent();
     // Get instance field reference: private System.Single _evenCountOffset
@@ -123,25 +123,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerResultsPyramidViewAvatar> _avatarsDictionary
     System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerResultsPyramidViewAvatar*>*& dyn__avatarsDictionary();
     // Get instance field reference: private UnityEngine.GameObject[] _resultAvatarDirectors
-    ::Array<UnityEngine::GameObject*>*& dyn__resultAvatarDirectors();
+    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__resultAvatarDirectors();
     // Get instance field reference: private UnityEngine.GameObject[] _badgeTimelines
-    ::Array<UnityEngine::GameObject*>*& dyn__badgeTimelines();
+    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__badgeTimelines();
     // Get instance field reference: private MultiplayerResultsPyramidViewAvatar _anyResultsAvatar
     GlobalNamespace::MultiplayerResultsPyramidViewAvatar*& dyn__anyResultsAvatar();
     // public UnityEngine.GameObject[] get_resultAvatarDirectors()
-    // Offset: 0x103C61C
-    ::Array<UnityEngine::GameObject*>* get_resultAvatarDirectors();
+    // Offset: 0x112B5CC
+    ::ArrayWrapper<UnityEngine::GameObject*> get_resultAvatarDirectors();
     // public UnityEngine.GameObject[] get_badgeTimelines()
-    // Offset: 0x103C624
-    ::Array<UnityEngine::GameObject*>* get_badgeTimelines();
+    // Offset: 0x112B5D4
+    ::ArrayWrapper<UnityEngine::GameObject*> get_badgeTimelines();
     // public System.Void PrespawnAvatars(System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> activePlayers)
-    // Offset: 0x103C62C
+    // Offset: 0x112B5DC
     void PrespawnAvatars(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* activePlayers);
     // public System.Void SetupResults(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, UnityEngine.Transform badgeStartTransform, UnityEngine.Transform badgeMidTransform)
-    // Offset: 0x103C9A4
+    // Offset: 0x112B954
     void SetupResults(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, UnityEngine::Transform* badgeStartTransform, UnityEngine::Transform* badgeMidTransform);
     // public System.Void .ctor()
-    // Offset: 0x103D9D8
+    // Offset: 0x112C988
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -163,7 +163,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsPyramidView*, "", "Mul
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsPyramidView::get_resultAvatarDirectors
 // Il2CppName: get_resultAvatarDirectors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (GlobalNamespace::MultiplayerResultsPyramidView::*)()>(&GlobalNamespace::MultiplayerResultsPyramidView::get_resultAvatarDirectors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::GameObject*> (GlobalNamespace::MultiplayerResultsPyramidView::*)()>(&GlobalNamespace::MultiplayerResultsPyramidView::get_resultAvatarDirectors)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsPyramidView*), "get_resultAvatarDirectors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsPyramidView::get_badgeTimelines
 // Il2CppName: get_badgeTimelines
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (GlobalNamespace::MultiplayerResultsPyramidView::*)()>(&GlobalNamespace::MultiplayerResultsPyramidView::get_badgeTimelines)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::GameObject*> (GlobalNamespace::MultiplayerResultsPyramidView::*)()>(&GlobalNamespace::MultiplayerResultsPyramidView::get_badgeTimelines)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsPyramidView*), "get_badgeTimelines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

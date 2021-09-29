@@ -31,29 +31,29 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheSmall
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<::Array<uint8_t>*>* cacheSmall;
+    System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>* cacheSmall;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Array<uint8_t>*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>*) == 0x8);
     // private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheMedium
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<::Array<uint8_t>*>* cacheMedium;
+    System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>* cacheMedium;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Array<uint8_t>*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>*) == 0x8);
     // private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheLarge
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<::Array<uint8_t>*>* cacheLarge;
+    System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>* cacheLarge;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Array<uint8_t>*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>*) == 0x8);
     // private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheMax
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::List_1<::Array<uint8_t>*>* cacheMax;
+    System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>* cacheMax;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Array<uint8_t>*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>*) == 0x8);
     // Creating value type constructor for type: SmallBufferPool
-    SmallBufferPool(System::Collections::Generic::List_1<::Array<uint8_t>*>* cacheSmall_ = {}, System::Collections::Generic::List_1<::Array<uint8_t>*>* cacheMedium_ = {}, System::Collections::Generic::List_1<::Array<uint8_t>*>* cacheLarge_ = {}, System::Collections::Generic::List_1<::Array<uint8_t>*>* cacheMax_ = {}) noexcept : cacheSmall{cacheSmall_}, cacheMedium{cacheMedium_}, cacheLarge{cacheLarge_}, cacheMax{cacheMax_} {}
+    SmallBufferPool(System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>* cacheSmall_ = {}, System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>* cacheMedium_ = {}, System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>* cacheLarge_ = {}, System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>* cacheMax_ = {}) noexcept : cacheSmall{cacheSmall_}, cacheMedium{cacheMedium_}, cacheLarge{cacheLarge_}, cacheMax{cacheMax_} {}
     // static field const value: static private System.Int32 kCacheSmallSize
     static constexpr const int kCacheSmallSize = 512;
     // Get static field: static private System.Int32 kCacheSmallSize
@@ -103,21 +103,21 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kCacheMaxMaxCapacity
     static void _set_kCacheMaxMaxCapacity(int value);
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheSmall
-    System::Collections::Generic::List_1<::Array<uint8_t>*>*& dyn__cacheSmall();
+    System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>*& dyn__cacheSmall();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheMedium
-    System::Collections::Generic::List_1<::Array<uint8_t>*>*& dyn__cacheMedium();
+    System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>*& dyn__cacheMedium();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheLarge
-    System::Collections::Generic::List_1<::Array<uint8_t>*>*& dyn__cacheLarge();
+    System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>*& dyn__cacheLarge();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheMax
-    System::Collections::Generic::List_1<::Array<uint8_t>*>*& dyn__cacheMax();
+    System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>*& dyn__cacheMax();
     // public System.Byte[] GetBuffer(System.Int32 length)
-    // Offset: 0x16FE570
-    ::Array<uint8_t>* GetBuffer(int length);
+    // Offset: 0x18D8070
+    ::ArrayWrapper<uint8_t> GetBuffer(int length);
     // public System.Void ReleaseBuffer(System.Byte[] buffer)
-    // Offset: 0x16FE740
-    void ReleaseBuffer(::Array<uint8_t>* buffer);
+    // Offset: 0x18D8240
+    void ReleaseBuffer(::ArrayWrapper<uint8_t> buffer);
     // public System.Void .ctor()
-    // Offset: 0x16FE880
+    // Offset: 0x18D8380
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -127,7 +127,7 @@ namespace GlobalNamespace {
     }
   }; // SmallBufferPool
   #pragma pack(pop)
-  static check_size<sizeof(SmallBufferPool), 40 + sizeof(System::Collections::Generic::List_1<::Array<uint8_t>*>*)> __GlobalNamespace_SmallBufferPoolSizeCheck;
+  static check_size<sizeof(SmallBufferPool), 40 + sizeof(System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>*)> __GlobalNamespace_SmallBufferPoolSizeCheck;
   static_assert(sizeof(SmallBufferPool) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SmallBufferPool*, "", "SmallBufferPool");
@@ -135,7 +135,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SmallBufferPool*, "", "SmallBufferPool")
 // Writing MetadataGetter for method: GlobalNamespace::SmallBufferPool::GetBuffer
 // Il2CppName: GetBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (GlobalNamespace::SmallBufferPool::*)(int)>(&GlobalNamespace::SmallBufferPool::GetBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (GlobalNamespace::SmallBufferPool::*)(int)>(&GlobalNamespace::SmallBufferPool::GetBuffer)> {
   static const MethodInfo* get() {
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SmallBufferPool*), "GetBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{length});
@@ -144,9 +144,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Writing MetadataGetter for method: GlobalNamespace::SmallBufferPool::ReleaseBuffer
 // Il2CppName: ReleaseBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SmallBufferPool::*)(::Array<uint8_t>*)>(&GlobalNamespace::SmallBufferPool::ReleaseBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SmallBufferPool::*)(::ArrayWrapper<uint8_t>)>(&GlobalNamespace::SmallBufferPool::ReleaseBuffer)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SmallBufferPool*), "ReleaseBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer});
   }
 };

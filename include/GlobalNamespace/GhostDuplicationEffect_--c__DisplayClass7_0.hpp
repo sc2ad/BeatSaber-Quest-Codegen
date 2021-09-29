@@ -42,19 +42,19 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Vector3 direction
     UnityEngine::Vector3& dyn_direction();
     // System.Void <Animate>b__0(System.Single val)
-    // Offset: 0x1104EA4
+    // Offset: 0x113FCC0
     void $Animate$b__0(float val);
     // System.Void <Animate>b__1(System.Single val)
-    // Offset: 0x1104EBC
+    // Offset: 0x113FCD8
     void $Animate$b__1(float val);
     // System.Void <Animate>b__2(UnityEngine.Vector3 pos)
-    // Offset: 0x1104F44
+    // Offset: 0x113FD60
     void $Animate$b__2(UnityEngine::Vector3 pos);
     // System.Void <Animate>b__3(System.Single val)
-    // Offset: 0x1104F98
+    // Offset: 0x113FDB4
     void $Animate$b__3(float val);
     // public System.Void .ctor()
-    // Offset: 0x1104AE4
+    // Offset: 0x113F900
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

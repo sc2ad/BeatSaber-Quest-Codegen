@@ -33,26 +33,26 @@ namespace UnityEngine::ProBuilder {
     // public UnityEngine.Vector3[] positions
     // Size: 0x8
     // Offset: 0x10
-    ::Array<UnityEngine::Vector3>* positions;
+    ::ArrayWrapper<UnityEngine::Vector3> positions;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
     // public UnityEngine.ProBuilder.SharedVertex[] sharedVertices
     // Size: 0x8
     // Offset: 0x18
-    ::Array<UnityEngine::ProBuilder::SharedVertex*>* sharedVertices;
+    ::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*> sharedVertices;
     // Field size check
-    static_assert(sizeof(::Array<UnityEngine::ProBuilder::SharedVertex*>*) == 0x8);
+    static_assert(sizeof(::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*>) == 0x8);
     // Creating value type constructor for type: $$c__DisplayClass19_0
-    $$c__DisplayClass19_0(::Array<UnityEngine::Vector3>* positions_ = {}, ::Array<UnityEngine::ProBuilder::SharedVertex*>* sharedVertices_ = {}) noexcept : positions{positions_}, sharedVertices{sharedVertices_} {}
+    $$c__DisplayClass19_0(::ArrayWrapper<UnityEngine::Vector3> positions_ = {}, ::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*> sharedVertices_ = {}) noexcept : positions{positions_}, sharedVertices{sharedVertices_} {}
     // Get instance field reference: public UnityEngine.Vector3[] positions
-    ::Array<UnityEngine::Vector3>*& dyn_positions();
+    ::ArrayWrapper<UnityEngine::Vector3>& dyn_positions();
     // Get instance field reference: public UnityEngine.ProBuilder.SharedVertex[] sharedVertices
-    ::Array<UnityEngine::ProBuilder::SharedVertex*>*& dyn_sharedVertices();
+    ::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*>& dyn_sharedVertices();
     // System.Int32 <PickVerticesInRect>b__0(System.Int32 x)
-    // Offset: 0x1513AB8
+    // Offset: 0x169C800
     int $PickVerticesInRect$b__0(int x);
     // public System.Void .ctor()
-    // Offset: 0x1511A00
+    // Offset: 0x169A748
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -62,7 +62,7 @@ namespace UnityEngine::ProBuilder {
     }
   }; // UnityEngine.ProBuilder.SelectionPickerRenderer/UnityEngine.ProBuilder.<>c__DisplayClass19_0
   #pragma pack(pop)
-  static check_size<sizeof(SelectionPickerRenderer::$$c__DisplayClass19_0), 24 + sizeof(::Array<UnityEngine::ProBuilder::SharedVertex*>*)> __UnityEngine_ProBuilder_SelectionPickerRenderer_$$c__DisplayClass19_0SizeCheck;
+  static check_size<sizeof(SelectionPickerRenderer::$$c__DisplayClass19_0), 24 + sizeof(::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*>)> __UnityEngine_ProBuilder_SelectionPickerRenderer_$$c__DisplayClass19_0SizeCheck;
   static_assert(sizeof(SelectionPickerRenderer::$$c__DisplayClass19_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectionPickerRenderer::$$c__DisplayClass19_0*, "UnityEngine.ProBuilder", "SelectionPickerRenderer/<>c__DisplayClass19_0");

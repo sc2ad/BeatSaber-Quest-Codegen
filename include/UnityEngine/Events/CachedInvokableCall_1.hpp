@@ -59,7 +59,7 @@ namespace UnityEngine::Events {
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Events.InvokableCall`1
     // Base method: System.Void InvokableCall_1::Invoke(System.Object[] args)
-    void Invoke(::Array<::Il2CppObject*>* args) {
+    void Invoke(::ArrayWrapper<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::CachedInvokableCall_1::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(args)})));
       auto ___instance_arg = this;

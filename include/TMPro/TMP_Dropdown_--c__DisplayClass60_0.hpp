@@ -40,10 +40,10 @@ namespace TMPro {
     // Get instance field reference: public TMPro.TMP_Dropdown <>4__this
     TMPro::TMP_Dropdown*& dyn_$$4__this();
     // System.Void <Show>b__0(System.Boolean x)
-    // Offset: 0x1111CA4
+    // Offset: 0x11F3A58
     void $Show$b__0(bool x);
     // public System.Void .ctor()
-    // Offset: 0x1111104
+    // Offset: 0x11F2EB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
