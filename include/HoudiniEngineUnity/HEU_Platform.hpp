@@ -299,7 +299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
   static const MethodInfo* get() {
     static auto* folder1 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* folder2 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Platform*), "BuildPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{folder1, folder2, args});
   }
 };
@@ -381,7 +381,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<uint8_t>)>(&HoudiniEngineUnity::HEU_Platform::WriteBytes)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* bytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Platform*), "WriteBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path, bytes});
   }
 };
@@ -427,7 +427,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<::ArrayWrapper<uint8_t>>)>(&HoudiniEngineUnity::HEU_Platform::LoadFileIntoMemory)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->this_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Platform*), "LoadFileIntoMemory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path, buffer});
   }
 };

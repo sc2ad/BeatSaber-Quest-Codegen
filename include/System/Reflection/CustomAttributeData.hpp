@@ -214,8 +214,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* data_length = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
-    static auto* ctorArgs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->this_arg;
-    static auto* namedArgs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->this_arg;
+    static auto* ctorArgs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->this_arg;
+    static auto* namedArgs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::CustomAttributeData*), "ResolveArgumentsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ctor, assembly, data, data_length, ctorArgs, namedArgs});
   }
 };

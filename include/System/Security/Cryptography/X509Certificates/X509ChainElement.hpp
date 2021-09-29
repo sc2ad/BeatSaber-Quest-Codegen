@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509ChainElement::*)(::ArrayWrapper<System::Security::Cryptography::X509Certificates::X509ChainStatus>, ByRef<int>, System::Security::Cryptography::X509Certificates::X509ChainStatusFlags, System::Security::Cryptography::X509Certificates::X509ChainStatusFlags)>(&System::Security::Cryptography::X509Certificates::X509ChainElement::Set)> {
   static const MethodInfo* get() {
-    static auto* status = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509ChainStatus")), 1)->byval_arg;
+    static auto* status = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509ChainStatus"), 1)->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* flags = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509ChainStatusFlags")->byval_arg;
     static auto* mask = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509ChainStatusFlags")->byval_arg;

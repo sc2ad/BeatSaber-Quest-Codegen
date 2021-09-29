@@ -822,7 +822,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::NamedColorListController::ColorValuePair*> (GlobalNamespace::EditAvatarViewController::*)(::ArrayWrapper<GlobalNamespace::SkinColorSO*>)>(&GlobalNamespace::EditAvatarViewController::CreateColorValuePairsForAvatarPartCollection)> {
   static const MethodInfo* get() {
-    static auto* colors = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "SkinColorSO")), 1)->byval_arg;
+    static auto* colors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "SkinColorSO"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "CreateColorValuePairsForAvatarPartCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colors});
   }
 };

@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(::ArrayWrapper<::Il2CppString*>)>(&GlobalNamespace::FileHelpers::GetFileNamesFromFilePaths)> {
   static const MethodInfo* get() {
-    static auto* filePaths = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* filePaths = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileHelpers*), "GetFileNamesFromFilePaths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filePaths});
   }
 };

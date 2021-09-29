@@ -1764,7 +1764,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppChar> (System::Uri::*)(::ArrayWrapper<::Il2CppChar>, ByRef<int>, System::UriFormat)>(&System::Uri::GetCanonicalPath)> {
   static const MethodInfo* get() {
-    static auto* dest = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
+    static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* pos = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* formatAs = &::il2cpp_utils::GetClassFromName("System", "UriFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Uri*), "GetCanonicalPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dest, pos, formatAs});
@@ -1789,7 +1789,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppChar> (*)(::ArrayWrapper<::Il2CppChar>, uint16_t, ByRef<int>, System::UriParser*)>(&System::Uri::Compress)> {
   static const MethodInfo* get() {
-    static auto* dest = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
+    static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "UInt16")->byval_arg;
     static auto* destLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* syntax = &::il2cpp_utils::GetClassFromName("System", "UriParser")->byval_arg;

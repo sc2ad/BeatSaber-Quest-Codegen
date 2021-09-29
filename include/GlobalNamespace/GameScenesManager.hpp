@@ -485,7 +485,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (GlobalNamespace::GameScenesManager::*)(::ArrayWrapper<GlobalNamespace::SceneInfo*>)>(&GlobalNamespace::GameScenesManager::SceneNamesFromSceneInfoArray)> {
   static const MethodInfo* get() {
-    static auto* sceneInfos = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "SceneInfo")), 1)->byval_arg;
+    static auto* sceneInfos = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "SceneInfo"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager*), "SceneNamesFromSceneInfoArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneInfos});
   }
 };

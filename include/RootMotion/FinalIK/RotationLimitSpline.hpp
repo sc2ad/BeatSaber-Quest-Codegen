@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RotationLimitSpline::*)(::ArrayWrapper<UnityEngine::Keyframe>)>(&RootMotion::FinalIK::RotationLimitSpline::SetSpline)> {
   static const MethodInfo* get() {
-    static auto* keyframes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Keyframe")), 1)->byval_arg;
+    static auto* keyframes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Keyframe"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RotationLimitSpline*), "SetSpline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyframes});
   }
 };

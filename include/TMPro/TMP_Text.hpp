@@ -2728,7 +2728,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayWrapper<UnityEngine::Material*>)>(&TMPro::TMP_Text::set_fontSharedMaterials)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Material")), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "set_fontSharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
@@ -2762,7 +2762,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayWrapper<UnityEngine::Material*>)>(&TMPro::TMP_Text::set_fontMaterials)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Material")), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "set_fontMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
@@ -3916,7 +3916,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayWrapper<UnityEngine::Material*>)>(&TMPro::TMP_Text::SetSharedMaterials)> {
   static const MethodInfo* get() {
-    static auto* materials = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Material")), 1)->byval_arg;
+    static auto* materials = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "SetSharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{materials});
   }
 };
@@ -3925,7 +3925,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Material*> (TMPro::TMP_Text::*)(::ArrayWrapper<UnityEngine::Material*>)>(&TMPro::TMP_Text::GetMaterials)> {
   static const MethodInfo* get() {
-    static auto* mats = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Material")), 1)->byval_arg;
+    static auto* mats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "GetMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mats});
   }
 };
@@ -3961,7 +3961,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayWrapper<int>)>(&TMPro::TMP_Text::SetTextSortingOrder)> {
   static const MethodInfo* get() {
-    static auto* order = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* order = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "SetTextSortingOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{order});
   }
 };
@@ -4091,7 +4091,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayWrapper<UnityEngine::Vector3>)>(&TMPro::TMP_Text::SetVertices)> {
   static const MethodInfo* get() {
-    static auto* vertices = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->byval_arg;
+    static auto* vertices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "SetVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vertices});
   }
 };
@@ -4200,7 +4200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayWrapper<::Il2CppChar>)>(&TMPro::TMP_Text::SetCharArray)> {
   static const MethodInfo* get() {
-    static auto* sourceText = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
+    static auto* sourceText = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "SetCharArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceText});
   }
 };
@@ -4209,7 +4209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&TMPro::TMP_Text::SetCharArray)> {
   static const MethodInfo* get() {
-    static auto* sourceText = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
+    static auto* sourceText = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "SetCharArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceText, start, length});
@@ -4220,7 +4220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayWrapper<int>, int, int)>(&TMPro::TMP_Text::SetCharArray)> {
   static const MethodInfo* get() {
-    static auto* sourceText = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* sourceText = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "SetCharArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceText, start, length});
@@ -4231,8 +4231,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayWrapper<::Il2CppChar>, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>>)>(&TMPro::TMP_Text::SetTextArrayToCharArray)> {
   static const MethodInfo* get() {
-    static auto* sourceText = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
-    static auto* charBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar")), 1)->this_arg;
+    static auto* sourceText = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
+    static auto* charBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "SetTextArrayToCharArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceText, charBuffer});
   }
 };
@@ -4242,7 +4242,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::Il2CppString*, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>>)>(&TMPro::TMP_Text::StringToCharArray)> {
   static const MethodInfo* get() {
     static auto* sourceText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* charBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar")), 1)->this_arg;
+    static auto* charBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "StringToCharArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceText, charBuffer});
   }
 };
@@ -4252,7 +4252,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(System::Text::StringBuilder*, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>>)>(&TMPro::TMP_Text::StringBuilderToIntArray)> {
   static const MethodInfo* get() {
     static auto* sourceText = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
-    static auto* charBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar")), 1)->this_arg;
+    static auto* charBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "StringBuilderToIntArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceText, charBuffer});
   }
 };
@@ -4264,7 +4264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
     static auto* sourceText = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     static auto* srcIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* srcOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
-    static auto* charBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar")), 1)->this_arg;
+    static auto* charBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar"), 1)->this_arg;
     static auto* writeIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "ReplaceOpeningStyleTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceText, srcIndex, srcOffset, charBuffer, writeIndex});
   }
@@ -4274,10 +4274,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<::ArrayWrapper<int>>, int, ByRef<int>, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>>, ByRef<int>)>(&TMPro::TMP_Text::ReplaceOpeningStyleTag)> {
   static const MethodInfo* get() {
-    static auto* sourceText = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* sourceText = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* srcIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* srcOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
-    static auto* charBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar")), 1)->this_arg;
+    static auto* charBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar"), 1)->this_arg;
     static auto* writeIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "ReplaceOpeningStyleTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceText, srcIndex, srcOffset, charBuffer, writeIndex});
   }
@@ -4287,10 +4287,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<::ArrayWrapper<::Il2CppChar>>, int, ByRef<int>, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>>, ByRef<int>)>(&TMPro::TMP_Text::ReplaceOpeningStyleTag)> {
   static const MethodInfo* get() {
-    static auto* sourceText = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->this_arg;
+    static auto* sourceText = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->this_arg;
     static auto* srcIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* srcOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
-    static auto* charBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar")), 1)->this_arg;
+    static auto* charBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar"), 1)->this_arg;
     static auto* writeIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "ReplaceOpeningStyleTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceText, srcIndex, srcOffset, charBuffer, writeIndex});
   }
@@ -4303,7 +4303,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
     static auto* sourceText = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->this_arg;
     static auto* srcIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* srcOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
-    static auto* charBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar")), 1)->this_arg;
+    static auto* charBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar"), 1)->this_arg;
     static auto* writeIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "ReplaceOpeningStyleTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceText, srcIndex, srcOffset, charBuffer, writeIndex});
   }
@@ -4315,7 +4315,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
   static const MethodInfo* get() {
     static auto* sourceText = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     static auto* srcIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* charBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar")), 1)->this_arg;
+    static auto* charBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar"), 1)->this_arg;
     static auto* writeIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "ReplaceClosingStyleTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceText, srcIndex, charBuffer, writeIndex});
   }
@@ -4325,9 +4325,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<::ArrayWrapper<int>>, int, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>>, ByRef<int>)>(&TMPro::TMP_Text::ReplaceClosingStyleTag)> {
   static const MethodInfo* get() {
-    static auto* sourceText = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* sourceText = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* srcIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* charBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar")), 1)->this_arg;
+    static auto* charBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar"), 1)->this_arg;
     static auto* writeIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "ReplaceClosingStyleTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceText, srcIndex, charBuffer, writeIndex});
   }
@@ -4337,9 +4337,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<::ArrayWrapper<::Il2CppChar>>, int, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>>, ByRef<int>)>(&TMPro::TMP_Text::ReplaceClosingStyleTag)> {
   static const MethodInfo* get() {
-    static auto* sourceText = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->this_arg;
+    static auto* sourceText = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->this_arg;
     static auto* srcIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* charBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar")), 1)->this_arg;
+    static auto* charBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar"), 1)->this_arg;
     static auto* writeIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "ReplaceClosingStyleTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceText, srcIndex, charBuffer, writeIndex});
   }
@@ -4351,7 +4351,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
   static const MethodInfo* get() {
     static auto* sourceText = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->this_arg;
     static auto* srcIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* charBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar")), 1)->this_arg;
+    static auto* charBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar"), 1)->this_arg;
     static auto* writeIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "ReplaceClosingStyleTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceText, srcIndex, charBuffer, writeIndex});
   }
@@ -4372,7 +4372,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<::ArrayWrapper<::Il2CppChar>>, ::Il2CppString*, int)>(&TMPro::TMP_Text::IsTagName)> {
   static const MethodInfo* get() {
-    static auto* text = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->this_arg;
+    static auto* text = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->this_arg;
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "IsTagName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, tag, index});
@@ -4383,7 +4383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<::ArrayWrapper<int>>, ::Il2CppString*, int)>(&TMPro::TMP_Text::IsTagName)> {
   static const MethodInfo* get() {
-    static auto* text = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* text = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "IsTagName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, tag, index});
@@ -4416,7 +4416,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_Text::*)(ByRef<::ArrayWrapper<::Il2CppChar>>, int, ByRef<int>)>(&TMPro::TMP_Text::GetTagHashCode)> {
   static const MethodInfo* get() {
-    static auto* text = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->this_arg;
+    static auto* text = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->this_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* closeIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "GetTagHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, index, closeIndex});
@@ -4427,7 +4427,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_Text::*)(ByRef<::ArrayWrapper<int>>, int, ByRef<int>)>(&TMPro::TMP_Text::GetTagHashCode)> {
   static const MethodInfo* get() {
-    static auto* text = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* text = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* closeIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "GetTagHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, index, closeIndex});
@@ -4474,7 +4474,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_Text::*)(::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>)>(&TMPro::TMP_Text::SetArraySizes)> {
   static const MethodInfo* get() {
-    static auto* chars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar")), 1)->byval_arg;
+    static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "SetArraySizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chars});
   }
 };
@@ -4803,7 +4803,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayWrapper<int>, int, int, ::Il2CppChar)>(&TMPro::TMP_Text::ReplaceTagWithCharacter)> {
   static const MethodInfo* get() {
-    static auto* chars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* insertionIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* tagLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
@@ -4944,7 +4944,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color32 (TMPro::TMP_Text::*)(::ArrayWrapper<::Il2CppChar>, int)>(&TMPro::TMP_Text::HexCharsToColor)> {
   static const MethodInfo* get() {
-    static auto* hexChars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
+    static auto* hexChars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* tagCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "HexCharsToColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hexChars, tagCount});
   }
@@ -4954,7 +4954,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color32 (TMPro::TMP_Text::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&TMPro::TMP_Text::HexCharsToColor)> {
   static const MethodInfo* get() {
-    static auto* hexChars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
+    static auto* hexChars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "HexCharsToColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hexChars, startIndex, length});
@@ -4965,10 +4965,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_Text::*)(::ArrayWrapper<::Il2CppChar>, int, int, ByRef<::ArrayWrapper<float>>)>(&TMPro::TMP_Text::GetAttributeParameters)> {
   static const MethodInfo* get() {
-    static auto* chars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
+    static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* parameters = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->this_arg;
+    static auto* parameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "GetAttributeParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chars, startIndex, length, parameters});
   }
 };
@@ -4977,7 +4977,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TMP_Text::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&TMPro::TMP_Text::ConvertToFloat)> {
   static const MethodInfo* get() {
-    static auto* chars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
+    static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "ConvertToFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chars, startIndex, length});
@@ -4988,7 +4988,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TMP_Text::*)(::ArrayWrapper<::Il2CppChar>, int, int, ByRef<int>)>(&TMPro::TMP_Text::ConvertToFloat)> {
   static const MethodInfo* get() {
-    static auto* chars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
+    static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* lastIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -5000,7 +5000,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>, int, ByRef<int>)>(&TMPro::TMP_Text::ValidateHtmlTag)> {
   static const MethodInfo* get() {
-    static auto* chars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar")), 1)->byval_arg;
+    static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* endIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "ValidateHtmlTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chars, startIndex, endIndex});

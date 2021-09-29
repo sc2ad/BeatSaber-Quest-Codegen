@@ -573,8 +573,8 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::TimeZoneInfo::AdjustmentRule*>* (*)(int, ByRef<::ArrayWrapper<int64_t>>, ByRef<::ArrayWrapper<::Il2CppString*>>, ::Il2CppString*, ::Il2CppString*)>(&System::TimeZoneInfo::CreateAdjustmentRule)> {
   static const MethodInfo* get() {
     static auto* year = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int64")), 1)->this_arg;
-    static auto* names = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->this_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int64"), 1)->this_arg;
+    static auto* names = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->this_arg;
     static auto* standardNameCurrentYear = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* daylightNameCurrentYear = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo*), "CreateAdjustmentRule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{year, data, names, standardNameCurrentYear, daylightNameCurrentYear});
@@ -709,7 +709,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::ArrayWrapper<uint8_t>, int)>(&System::TimeZoneInfo::readlink)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* buflen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo*), "readlink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path, buffer, buflen});
   }
@@ -873,7 +873,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
     static auto* displayName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* standardDisplayName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* daylightDisplayName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* adjustmentRules = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "TimeZoneInfo/AdjustmentRule")), 1)->byval_arg;
+    static auto* adjustmentRules = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "TimeZoneInfo/AdjustmentRule"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo*), "CreateCustomTimeZone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id, baseUtcOffset, displayName, standardDisplayName, daylightDisplayName, adjustmentRules});
   }
 };
@@ -887,7 +887,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
     static auto* displayName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* standardDisplayName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* daylightDisplayName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* adjustmentRules = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "TimeZoneInfo/AdjustmentRule")), 1)->byval_arg;
+    static auto* adjustmentRules = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "TimeZoneInfo/AdjustmentRule"), 1)->byval_arg;
     static auto* disableDaylightSavingTime = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo*), "CreateCustomTimeZone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id, baseUtcOffset, displayName, standardDisplayName, daylightDisplayName, adjustmentRules, disableDaylightSavingTime});
   }
@@ -938,7 +938,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
     static auto* adjustmentRules = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "TimeZoneInfo/AdjustmentRule")})->byval_arg;
     static auto* start_year = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* end_year = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo*), "ParseRegTzi", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{adjustmentRules, start_year, end_year, buffer});
   }
 };
@@ -1073,7 +1073,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* baseUtcOffset = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
-    static auto* adjustmentRules = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "TimeZoneInfo/AdjustmentRule")), 1)->byval_arg;
+    static auto* adjustmentRules = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "TimeZoneInfo/AdjustmentRule"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo*), "Validate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id, baseUtcOffset, adjustmentRules});
   }
 };
@@ -1132,7 +1132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint8_t>, int)>(&System::TimeZoneInfo::ValidTZFile)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo*), "ValidTZFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, length});
   }
@@ -1151,7 +1151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint8_t>, int)>(&System::TimeZoneInfo::ReadBigEndianInt32)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo*), "ReadBigEndianInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, start});
   }
@@ -1162,7 +1162,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*, ::ArrayWrapper<uint8_t>, int)>(&System::TimeZoneInfo::ParseTZBuffer)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo*), "ParseTZBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id, buffer, length});
   }
@@ -1172,7 +1172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* (*)(::ArrayWrapper<uint8_t>, int, int)>(&System::TimeZoneInfo::ParseAbbreviations)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo*), "ParseAbbreviations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index, count});
@@ -1183,7 +1183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<int, System::TimeType*>* (*)(::ArrayWrapper<uint8_t>, int, int, System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*)>(&System::TimeZoneInfo::ParseTimesTypes)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* abbreviations = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
@@ -1195,7 +1195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Collections::Generic::KeyValuePair_2<System::DateTime, System::TimeType*>>* (*)(::ArrayWrapper<uint8_t>, int, int, System::Collections::Generic::Dictionary_2<int, System::TimeType*>*)>(&System::TimeZoneInfo::ParseTransitions)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* time_types = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32"), ::il2cpp_utils::GetClassFromName("System", "TimeType")})->byval_arg;

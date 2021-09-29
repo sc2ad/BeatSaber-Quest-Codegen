@@ -75,8 +75,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<System::Reflection::ParameterInfo*>, ::ArrayWrapper<System::Type*>)>(&NUnit::Compatibility::AdditionalTypeExtensions::ParametersMatch)> {
   static const MethodInfo* get() {
-    static auto* pinfos = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterInfo")), 1)->byval_arg;
-    static auto* ptypes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Type")), 1)->byval_arg;
+    static auto* pinfos = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterInfo"), 1)->byval_arg;
+    static auto* ptypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Compatibility::AdditionalTypeExtensions*), "ParametersMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pinfos, ptypes});
   }
 };

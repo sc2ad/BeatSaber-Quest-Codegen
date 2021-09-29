@@ -157,7 +157,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Logger::*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&NUnit::Framework::Internal::Logger::Debug)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Logger*), "Debug", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message, args});
   }
 };
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "InternalTraceLevel")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Logger*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{level, format, args});
   }
 };

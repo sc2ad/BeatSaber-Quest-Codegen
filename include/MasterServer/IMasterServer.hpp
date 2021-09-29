@@ -132,8 +132,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
     static auto* userName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* selectionMask = &::il2cpp_utils::GetClassFromName("", "BeatmapLevelSelectionMask")->byval_arg;
     static auto* configuration = &::il2cpp_utils::GetClassFromName("", "GameplayServerConfiguration")->byval_arg;
-    static auto* random = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
-    static auto* publicKey = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* random = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* publicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* secret = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* code = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServer*), "ConnectToServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{protocolVersion, endPoint, userId, userName, selectionMask, configuration, random, publicKey, secret, code});
@@ -163,8 +163,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Maste
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* nonce = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
-    static auto* hash = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* nonce = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* hash = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* timestamp = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServer*), "TryAuthenticateDedicatedServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{protocolVersion, endPoint, id, nonce, hash, timestamp});
   }

@@ -238,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Tilemaps::Tilemap::*)(::ArrayWrapper<UnityEngine::Tilemaps::TileBase*>)>(&UnityEngine::Tilemaps::Tilemap::GetUsedTilesNonAlloc)> {
   static const MethodInfo* get() {
-    static auto* usedTiles = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine.Tilemaps", "TileBase")), 1)->byval_arg;
+    static auto* usedTiles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.Tilemaps", "TileBase"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Tilemaps::Tilemap*), "GetUsedTilesNonAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{usedTiles});
   }
 };
@@ -247,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Tilemaps::Tilemap::*)(::ArrayWrapper<UnityEngine::Object*>)>(&UnityEngine::Tilemaps::Tilemap::Internal_GetUsedTilesNonAlloc)> {
   static const MethodInfo* get() {
-    static auto* usedTiles = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Object")), 1)->byval_arg;
+    static auto* usedTiles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Tilemaps::Tilemap*), "Internal_GetUsedTilesNonAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{usedTiles});
   }
 };

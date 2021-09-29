@@ -575,7 +575,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR::*)(::ArrayWrapper<Valve::VR::VRTextureBounds_t>)>(&GlobalNamespace::SteamVR::set_textureBounds)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Valve.VR", "VRTextureBounds_t")), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "VRTextureBounds_t"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR*), "set_textureBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
@@ -592,7 +592,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR::*)(::ArrayWrapper<GlobalNamespace::SteamVR_Utils::RigidTransform>)>(&GlobalNamespace::SteamVR::set_eyes)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "SteamVR_Utils/RigidTransform")), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "SteamVR_Utils/RigidTransform"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR*), "set_eyes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
@@ -732,7 +732,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR::*)(::ArrayWrapper<Valve::VR::TrackedDevicePose_t>)>(&GlobalNamespace::SteamVR::OnNewPoses)> {
   static const MethodInfo* get() {
-    static auto* poses = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t")), 1)->byval_arg;
+    static auto* poses = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR*), "OnNewPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{poses});
   }
 };

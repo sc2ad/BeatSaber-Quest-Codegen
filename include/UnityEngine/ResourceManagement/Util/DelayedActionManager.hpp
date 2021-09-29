@@ -283,7 +283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "Delegate")->byval_arg;
     static auto* delay = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    static auto* parameters = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
+    static auto* parameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::DelayedActionManager*), "AddAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action, delay, parameters});
   }
 };
@@ -294,7 +294,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "Delegate")->byval_arg;
     static auto* delay = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    static auto* parameters = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
+    static auto* parameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::DelayedActionManager*), "AddActionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action, delay, parameters});
   }
 };

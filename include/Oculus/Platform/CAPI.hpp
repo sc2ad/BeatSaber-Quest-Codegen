@@ -3900,7 +3900,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::ArrayWrapper<uint8_t>, uint64_t)>(&Oculus::Platform::CAPI::ovr_VoipDecoder_Decode)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* compressedData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* compressedData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* compressedSize = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_VoipDecoder_Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, compressedData, compressedSize});
   }
@@ -4001,7 +4001,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::ArrayWrapper<System::IntPtr>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_Log_NewEvent)> {
   static const MethodInfo* get() {
     static auto* eventName = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* values = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "IntPtr")), 1)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "IntPtr"), 1)->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Log_NewEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventName, values, length});
   }
@@ -4040,7 +4040,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::ArrayWrapper<Oculus::Platform::CAPI::ovrKeyValuePair>)>(&Oculus::Platform::CAPI::ovr_HTTP_StartTransfer)> {
   static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* headers = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Oculus.Platform", "CAPI/ovrKeyValuePair")), 1)->byval_arg;
+    static auto* headers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Oculus.Platform", "CAPI/ovrKeyValuePair"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HTTP_StartTransfer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{url, headers});
   }
 };
@@ -4050,7 +4050,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, ::ArrayWrapper<Oculus::Platform::CAPI::ovrKeyValuePair>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_HTTP_StartTransfer_Native)> {
   static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* headers = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Oculus.Platform", "CAPI/ovrKeyValuePair")), 1)->byval_arg;
+    static auto* headers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Oculus.Platform", "CAPI/ovrKeyValuePair"), 1)->byval_arg;
     static auto* numItems = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HTTP_StartTransfer_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{url, headers, numItems});
   }
@@ -4061,7 +4061,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::ArrayWrapper<uint8_t>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_HTTP_Write)> {
   static const MethodInfo* get() {
     static auto* transferId = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
-    static auto* bytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HTTP_Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transferId, bytes, length});
   }
@@ -4099,7 +4099,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(int64_t, ::ArrayWrapper<float>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_GetAmbisonicFloatPCM)> {
   static const MethodInfo* get() {
     static auto* connection_id = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
-    static auto* outputBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* outputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* outputBufferNumElements = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_GetAmbisonicFloatPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connection_id, outputBuffer, outputBufferNumElements});
   }
@@ -4110,7 +4110,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(int64_t, ::ArrayWrapper<int16_t>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_GetAmbisonicInt16PCM)> {
   static const MethodInfo* get() {
     static auto* connection_id = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
-    static auto* outputBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int16")), 1)->byval_arg;
+    static auto* outputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int16"), 1)->byval_arg;
     static auto* outputBufferNumElements = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_GetAmbisonicInt16PCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connection_id, outputBuffer, outputBufferNumElements});
   }
@@ -4121,7 +4121,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(int64_t, ::ArrayWrapper<float>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_GetAmbisonicInterleavedFloatPCM)> {
   static const MethodInfo* get() {
     static auto* connection_id = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
-    static auto* outputBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* outputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* outputBufferNumElements = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_GetAmbisonicInterleavedFloatPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connection_id, outputBuffer, outputBufferNumElements});
   }
@@ -4132,7 +4132,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(int64_t, ::ArrayWrapper<int16_t>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_GetAmbisonicInterleavedInt16PCM)> {
   static const MethodInfo* get() {
     static auto* connection_id = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
-    static auto* outputBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int16")), 1)->byval_arg;
+    static auto* outputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int16"), 1)->byval_arg;
     static auto* outputBufferNumElements = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_GetAmbisonicInterleavedInt16PCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connection_id, outputBuffer, outputBufferNumElements});
   }
@@ -4155,7 +4155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIn
   static const MethodInfo* get() {
     static auto* connection_id = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* sessionId = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
-    static auto* outputBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* outputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* outputBufferNumElements = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_GetMonostreamFloatPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connection_id, sessionId, outputBuffer, outputBufferNumElements});
   }
@@ -4167,7 +4167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIn
   static const MethodInfo* get() {
     static auto* connection_id = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* session_id = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
-    static auto* outputBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int16")), 1)->byval_arg;
+    static auto* outputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int16"), 1)->byval_arg;
     static auto* outputBufferNumElements = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_GetMonostreamInt16PCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connection_id, session_id, outputBuffer, outputBufferNumElements});
   }
@@ -4277,7 +4277,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ui
   static const MethodInfo* get() {
     static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
-    static auto* bytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* policy = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "SendPolicy")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Net_SendPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userID, length, bytes, policy});
   }
@@ -4288,7 +4288,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::UIntPtr, ::ArrayWrapper<uint8_t>, Oculus::Platform::SendPolicy)>(&Oculus::Platform::CAPI::ovr_Net_SendPacketToCurrentRoom)> {
   static const MethodInfo* get() {
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
-    static auto* bytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* policy = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "SendPolicy")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Net_SendPacketToCurrentRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{length, bytes, policy});
   }
@@ -4366,7 +4366,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(uint64_t, ::ArrayWrapper<int16_t>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_Voip_GetPCM)> {
   static const MethodInfo* get() {
     static auto* senderID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
-    static auto* outputBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int16")), 1)->byval_arg;
+    static auto* outputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int16"), 1)->byval_arg;
     static auto* outputBufferNumElements = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_GetPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{senderID, outputBuffer, outputBufferNumElements});
   }
@@ -4377,7 +4377,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(uint64_t, ::ArrayWrapper<float>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_Voip_GetPCMFloat)> {
   static const MethodInfo* get() {
     static auto* senderID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
-    static auto* outputBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* outputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* outputBufferNumElements = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_GetPCMFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{senderID, outputBuffer, outputBufferNumElements});
   }
@@ -4397,9 +4397,9 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(uint64_t, ::ArrayWrapper<int16_t>, System::UIntPtr, ::ArrayWrapper<uint>)>(&Oculus::Platform::CAPI::ovr_Voip_GetPCMWithTimestamp)> {
   static const MethodInfo* get() {
     static auto* senderID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
-    static auto* outputBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int16")), 1)->byval_arg;
+    static auto* outputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int16"), 1)->byval_arg;
     static auto* outputBufferNumElements = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
-    static auto* timestamp = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* timestamp = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_GetPCMWithTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{senderID, outputBuffer, outputBufferNumElements, timestamp});
   }
 };
@@ -4409,9 +4409,9 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(uint64_t, ::ArrayWrapper<float>, System::UIntPtr, ::ArrayWrapper<uint>)>(&Oculus::Platform::CAPI::ovr_Voip_GetPCMWithTimestampFloat)> {
   static const MethodInfo* get() {
     static auto* senderID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
-    static auto* outputBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* outputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* outputBufferNumElements = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
-    static auto* timestamp = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* timestamp = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Voip_GetPCMWithTimestampFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{senderID, outputBuffer, outputBufferNumElements, timestamp});
   }
 };
@@ -4575,7 +4575,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::ArrayWrapper<::Il2CppString*>, int)>(&Oculus::Platform::CAPI::ovr_Achievements_GetDefinitionsByName)> {
   static const MethodInfo* get() {
-    static auto* names = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* names = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Achievements_GetDefinitionsByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{names, count});
   }
@@ -4585,7 +4585,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::ArrayWrapper<::Il2CppString*>, int)>(&Oculus::Platform::CAPI::ovr_Achievements_GetProgressByName)> {
   static const MethodInfo* get() {
-    static auto* names = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* names = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Achievements_GetProgressByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{names, count});
   }
@@ -4856,7 +4856,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::ArrayWrapper<uint64_t>, int, uint64_t)>(&Oculus::Platform::CAPI::ovr_Cal_FinalizeApplication)> {
   static const MethodInfo* get() {
     static auto* groupingObject = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
-    static auto* userIDs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt64")), 1)->byval_arg;
+    static auto* userIDs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
     static auto* numUserIDs = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* finalized_application_ID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Cal_FinalizeApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{groupingObject, userIDs, numUserIDs, finalized_application_ID});
@@ -4868,7 +4868,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::ArrayWrapper<uint64_t>, int)>(&Oculus::Platform::CAPI::ovr_Cal_GetSuggestedApplications)> {
   static const MethodInfo* get() {
     static auto* groupingObject = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
-    static auto* userIDs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt64")), 1)->byval_arg;
+    static auto* userIDs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
     static auto* numUserIDs = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Cal_GetSuggestedApplications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{groupingObject, userIDs, numUserIDs});
   }
@@ -4879,7 +4879,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::ArrayWrapper<uint64_t>, int, uint64_t)>(&Oculus::Platform::CAPI::ovr_Cal_ProposeApplication)> {
   static const MethodInfo* get() {
     static auto* groupingObject = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
-    static auto* userIDs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt64")), 1)->byval_arg;
+    static auto* userIDs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
     static auto* numUserIDs = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* proposed_application_ID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Cal_ProposeApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{groupingObject, userIDs, numUserIDs, proposed_application_ID});
@@ -4963,7 +4963,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
     static auto* challengeID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* limit = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* startAt = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "LeaderboardStartAt")->byval_arg;
-    static auto* userIDs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt64")), 1)->byval_arg;
+    static auto* userIDs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
     static auto* userIDLength = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenges_GetEntriesByIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{challengeID, limit, startAt, userIDs, userIDLength});
   }
@@ -5209,7 +5209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
   static const MethodInfo* get() {
     static auto* bucket = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* dataSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* counter = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* extraData = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -5223,7 +5223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
   static const MethodInfo* get() {
     static auto* bucket = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* dataSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* counter = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* extraData = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -5471,7 +5471,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
     static auto* filepath_param_name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* filepath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* access_token = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* post_params = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Oculus.Platform", "CAPI/ovrKeyValuePair")), 1)->byval_arg;
+    static auto* post_params = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Oculus.Platform", "CAPI/ovrKeyValuePair"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HTTP_MultiPartPost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{url, filepath_param_name, filepath, access_token, post_params});
   }
 };
@@ -5484,7 +5484,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
     static auto* filepath_param_name = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* filepath = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* access_token = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* post_params = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Oculus.Platform", "CAPI/ovrKeyValuePair")), 1)->byval_arg;
+    static auto* post_params = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Oculus.Platform", "CAPI/ovrKeyValuePair"), 1)->byval_arg;
     static auto* numItems = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HTTP_MultiPartPost_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{url, filepath_param_name, filepath, access_token, post_params, numItems});
   }
@@ -5530,7 +5530,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::ArrayWrapper<::Il2CppString*>, int)>(&Oculus::Platform::CAPI::ovr_IAP_GetProductsBySKU)> {
   static const MethodInfo* get() {
-    static auto* skus = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* skus = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_IAP_GetProductsBySKU", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{skus, count});
   }
@@ -5667,7 +5667,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
     static auto* leaderboardName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* limit = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* startAt = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "LeaderboardStartAt")->byval_arg;
-    static auto* userIDs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt64")), 1)->byval_arg;
+    static auto* userIDs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
     static auto* userIDLength = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_GetEntriesByIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardName, limit, startAt, userIDs, userIDLength});
   }
@@ -5680,7 +5680,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
     static auto* leaderboardName = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* limit = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* startAt = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "LeaderboardStartAt")->byval_arg;
-    static auto* userIDs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt64")), 1)->byval_arg;
+    static auto* userIDs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
     static auto* userIDLength = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_GetEntriesByIds_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardName, limit, startAt, userIDs, userIDLength});
   }
@@ -5710,7 +5710,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
   static const MethodInfo* get() {
     static auto* leaderboardName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* score = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
-    static auto* extraData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* extraData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* extraDataLength = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* forceUpdate = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_WriteEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardName, score, extraData, extraDataLength, forceUpdate});
@@ -5723,7 +5723,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
   static const MethodInfo* get() {
     static auto* leaderboardName = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* score = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
-    static auto* extraData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* extraData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* extraDataLength = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* forceUpdate = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_WriteEntry_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardName, score, extraData, extraDataLength, forceUpdate});
@@ -5737,7 +5737,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
     static auto* leaderboardName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* score = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* supplementaryMetric = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
-    static auto* extraData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* extraData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* extraDataLength = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* forceUpdate = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_WriteEntryWithSupplementaryMetric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardName, score, supplementaryMetric, extraData, extraDataLength, forceUpdate});
@@ -5751,7 +5751,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
     static auto* leaderboardName = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* score = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* supplementaryMetric = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
-    static auto* extraData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* extraData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* extraDataLength = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* forceUpdate = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_WriteEntryWithSupplementaryMetric_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardName, score, supplementaryMetric, extraData, extraDataLength, forceUpdate});
@@ -6119,7 +6119,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::ArrayWrapper<Oculus::Platform::CAPI::ovrKeyValuePair>)>(&Oculus::Platform::CAPI::ovr_Matchmaking_ReportResultInsecure)> {
   static const MethodInfo* get() {
     static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Oculus.Platform", "CAPI/ovrKeyValuePair")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Oculus.Platform", "CAPI/ovrKeyValuePair"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_ReportResultInsecure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{roomID, data});
   }
 };
@@ -6129,7 +6129,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::ArrayWrapper<Oculus::Platform::CAPI::ovrKeyValuePair>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_ReportResultInsecure_Native)> {
   static const MethodInfo* get() {
     static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Oculus.Platform", "CAPI/ovrKeyValuePair")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Oculus.Platform", "CAPI/ovrKeyValuePair"), 1)->byval_arg;
     static auto* numItems = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Matchmaking_ReportResultInsecure_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{roomID, data, numItems});
   }
@@ -6215,8 +6215,8 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::ArrayWrapper<float>, ::ArrayWrapper<float>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipAttenuation)> {
   static const MethodInfo* get() {
     static auto* connection_id = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
-    static auto* distances = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
-    static auto* decibels = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* distances = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
+    static auto* decibels = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_SetVoipAttenuation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connection_id, distances, decibels, count});
   }
@@ -6228,8 +6228,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
   static const MethodInfo* get() {
     static auto* connection_id = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* distances = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
-    static auto* decibels = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* distances = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
+    static auto* decibels = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_SetVoipAttenuationModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connection_id, name, distances, decibels, count});
   }
@@ -6241,8 +6241,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
   static const MethodInfo* get() {
     static auto* connection_id = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* distances = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
-    static auto* decibels = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* distances = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
+    static auto* decibels = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_SetVoipAttenuationModel_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connection_id, name, distances, decibels, count});
   }
@@ -6297,7 +6297,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::ArrayWrapper<::Il2CppString*>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipListentoChannels)> {
   static const MethodInfo* get() {
     static auto* connection_id = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
-    static auto* listento_channels = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* listento_channels = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_SetVoipListentoChannels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connection_id, listento_channels, count});
   }
@@ -6329,7 +6329,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::ArrayWrapper<::Il2CppString*>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipSpeaktoChannels)> {
   static const MethodInfo* get() {
     static auto* connection_id = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
-    static auto* speakto_channels = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* speakto_channels = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSync_SetVoipSpeaktoChannels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connection_id, speakto_channels, count});
   }
@@ -6699,7 +6699,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::ArrayWrapper<Oculus::Platform::CAPI::ovrKeyValuePair>)>(&Oculus::Platform::CAPI::ovr_Room_UpdateDataStore)> {
   static const MethodInfo* get() {
     static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Oculus.Platform", "CAPI/ovrKeyValuePair")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Oculus.Platform", "CAPI/ovrKeyValuePair"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_UpdateDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{roomID, data});
   }
 };
@@ -6709,7 +6709,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::ArrayWrapper<Oculus::Platform::CAPI::ovrKeyValuePair>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_Room_UpdateDataStore_Native)> {
   static const MethodInfo* get() {
     static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Oculus.Platform", "CAPI/ovrKeyValuePair")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Oculus.Platform", "CAPI/ovrKeyValuePair"), 1)->byval_arg;
     static auto* numItems = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_UpdateDataStore_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{roomID, data, numItems});
   }
@@ -6999,7 +6999,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::ArrayWrapper<uint64_t>, int)>(&Oculus::Platform::CAPI::ovr_User_TestUserCreateDeviceManifest)> {
   static const MethodInfo* get() {
     static auto* deviceID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* appIDs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt64")), 1)->byval_arg;
+    static auto* appIDs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
     static auto* numAppIDs = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_TestUserCreateDeviceManifest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deviceID, appIDs, numAppIDs});
   }
@@ -7010,7 +7010,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, ::ArrayWrapper<uint64_t>, int)>(&Oculus::Platform::CAPI::ovr_User_TestUserCreateDeviceManifest_Native)> {
   static const MethodInfo* get() {
     static auto* deviceID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* appIDs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt64")), 1)->byval_arg;
+    static auto* appIDs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
     static auto* numAppIDs = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_TestUserCreateDeviceManifest_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deviceID, appIDs, numAppIDs});
   }
@@ -11038,7 +11038,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr, ::ArrayWrapper<int16_t>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_Microphone_GetPCM)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* outputBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int16")), 1)->byval_arg;
+    static auto* outputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int16"), 1)->byval_arg;
     static auto* outputBufferNumElements = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Microphone_GetPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, outputBuffer, outputBufferNumElements});
   }
@@ -11049,7 +11049,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr, ::ArrayWrapper<float>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_Microphone_GetPCMFloat)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* outputBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* outputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* outputBufferNumElements = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Microphone_GetPCMFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, outputBuffer, outputBufferNumElements});
   }
@@ -11060,7 +11060,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr, ::ArrayWrapper<float>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_Microphone_ReadData)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* outputBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* outputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* outputBufferSize = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Microphone_ReadData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, outputBuffer, outputBufferSize});
   }
@@ -12848,7 +12848,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::ArrayWrapper<uint8_t>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_VoipDecoder_Decode)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* compressedData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* compressedData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* compressedSize = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_VoipDecoder_Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, compressedData, compressedSize});
   }
@@ -12859,7 +12859,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr, ::ArrayWrapper<float>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_VoipDecoder_GetDecodedPCM)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* outputBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* outputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* outputBufferSize = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_VoipDecoder_GetDecodedPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, outputBuffer, outputBufferSize});
   }
@@ -12870,7 +12870,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::ArrayWrapper<float>, uint)>(&Oculus::Platform::CAPI::ovr_VoipEncoder_AddPCM)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* inputData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* inputData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* inputSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_VoipEncoder_AddPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, inputData, inputSize});
   }
@@ -12881,7 +12881,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr, ::ArrayWrapper<uint8_t>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_VoipEncoder_GetCompressedData)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* outputBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* outputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* intputSize = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_VoipEncoder_GetCompressedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, outputBuffer, intputSize});
   }

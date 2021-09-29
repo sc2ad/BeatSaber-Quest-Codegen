@@ -749,7 +749,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>)>(&System::Threading::Thread::ByteArrayToCurrentDomain)> {
   static const MethodInfo* get() {
-    static auto* arr = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* arr = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "ByteArrayToCurrentDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{arr});
   }
 };

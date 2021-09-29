@@ -325,8 +325,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
     static auto* selection = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")})->byval_arg;
     static auto* doDepthTest = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* map = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "UInt32"), ::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "SimpleTuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh"), ::il2cpp_utils::GetClassFromName("System", "Int32")})})->this_arg;
-    static auto* depthObjects = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")), 1)->this_arg;
-    static auto* pickerObjects = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")), 1)->this_arg;
+    static auto* depthObjects = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject"), 1)->this_arg;
+    static auto* pickerObjects = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPickerRenderer*), "GenerateVertexPickingObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{selection, doDepthTest, map, depthObjects, pickerObjects});
   }
 };
@@ -338,8 +338,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
     static auto* selection = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")})->byval_arg;
     static auto* doDepthTest = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* map = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "UInt32"), ::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "SimpleTuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh"), ::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge")})})->this_arg;
-    static auto* depthObjects = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")), 1)->this_arg;
-    static auto* pickerObjects = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")), 1)->this_arg;
+    static auto* depthObjects = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject"), 1)->this_arg;
+    static auto* pickerObjects = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPickerRenderer*), "GenerateEdgePickingObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{selection, doDepthTest, map, depthObjects, pickerObjects});
   }
 };

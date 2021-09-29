@@ -1313,7 +1313,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<System::Threading::Tasks::Task*>)>(&System::Threading::Tasks::Task::AnyTaskRequiresNotifyDebuggerOfWaitCompletion)> {
   static const MethodInfo* get() {
-    static auto* tasks = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")), 1)->byval_arg;
+    static auto* tasks = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "AnyTaskRequiresNotifyDebuggerOfWaitCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tasks});
   }
 };
@@ -2065,7 +2065,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (*)(::ArrayWrapper<System::Threading::Tasks::Task*>)>(&System::Threading::Tasks::Task::WhenAll)> {
   static const MethodInfo* get() {
-    static auto* tasks = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")), 1)->byval_arg;
+    static auto* tasks = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "WhenAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tasks});
   }
 };
@@ -2074,7 +2074,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (*)(::ArrayWrapper<System::Threading::Tasks::Task*>)>(&System::Threading::Tasks::Task::InternalWhenAll)> {
   static const MethodInfo* get() {
-    static auto* tasks = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")), 1)->byval_arg;
+    static auto* tasks = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "InternalWhenAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tasks});
   }
 };
@@ -2083,7 +2083,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Threading::Tasks::Task*>* (*)(::ArrayWrapper<System::Threading::Tasks::Task*>)>(&System::Threading::Tasks::Task::WhenAny)> {
   static const MethodInfo* get() {
-    static auto* tasks = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")), 1)->byval_arg;
+    static auto* tasks = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "WhenAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tasks});
   }
 };

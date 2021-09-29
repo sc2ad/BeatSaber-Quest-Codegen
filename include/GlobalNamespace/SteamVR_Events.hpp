@@ -295,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_1<::ArrayWrapper<Valve::VR::TrackedDevicePose_t>>*)>(&GlobalNamespace::SteamVR_Events::NewPosesAction)> {
   static const MethodInfo* get() {
-    static auto* action = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`1"), ::std::vector<const Il2CppClass*>{il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t")), 1)})->byval_arg;
+    static auto* action = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`1"), ::std::vector<const Il2CppClass*>{il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "NewPosesAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
   }
 };

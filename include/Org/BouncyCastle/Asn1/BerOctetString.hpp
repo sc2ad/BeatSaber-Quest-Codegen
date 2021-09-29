@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1OctetString*>)>(&Org::BouncyCastle::Asn1::BerOctetString::ToBytes)> {
   static const MethodInfo* get() {
-    static auto* octs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "Asn1OctetString")), 1)->byval_arg;
+    static auto* octs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "Asn1OctetString"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::BerOctetString*), "ToBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{octs});
   }
 };

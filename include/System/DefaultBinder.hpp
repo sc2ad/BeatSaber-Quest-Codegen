@@ -145,9 +145,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::DefaultBinder*, "System", "DefaultBinder");
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (*)(::ArrayWrapper<System::Reflection::MethodBase*>, ::ArrayWrapper<System::Type*>, ::ArrayWrapper<System::Reflection::ParameterModifier>)>(&System::DefaultBinder::ExactBinding)> {
   static const MethodInfo* get() {
-    static auto* match = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")), 1)->byval_arg;
-    static auto* types = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Type")), 1)->byval_arg;
-    static auto* modifiers = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterModifier")), 1)->byval_arg;
+    static auto* match = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase"), 1)->byval_arg;
+    static auto* types = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
+    static auto* modifiers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterModifier"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "ExactBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{match, types, modifiers});
   }
 };
@@ -156,10 +156,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::PropertyInfo* (*)(::ArrayWrapper<System::Reflection::PropertyInfo*>, System::Type*, ::ArrayWrapper<System::Type*>, ::ArrayWrapper<System::Reflection::ParameterModifier>)>(&System::DefaultBinder::ExactPropertyBinding)> {
   static const MethodInfo* get() {
-    static auto* match = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Reflection", "PropertyInfo")), 1)->byval_arg;
+    static auto* match = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "PropertyInfo"), 1)->byval_arg;
     static auto* returnType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* types = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Type")), 1)->byval_arg;
-    static auto* modifiers = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterModifier")), 1)->byval_arg;
+    static auto* types = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
+    static auto* modifiers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterModifier"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "ExactPropertyBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{match, returnType, types, modifiers});
   }
 };
@@ -168,14 +168,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<System::Reflection::ParameterInfo*>, ::ArrayWrapper<int>, System::Type*, ::ArrayWrapper<System::Reflection::ParameterInfo*>, ::ArrayWrapper<int>, System::Type*, ::ArrayWrapper<System::Type*>, ::ArrayWrapper<::Il2CppObject*>)>(&System::DefaultBinder::FindMostSpecific)> {
   static const MethodInfo* get() {
-    static auto* p1 = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterInfo")), 1)->byval_arg;
-    static auto* paramOrder1 = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* p1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterInfo"), 1)->byval_arg;
+    static auto* paramOrder1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* paramArrayType1 = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* p2 = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterInfo")), 1)->byval_arg;
-    static auto* paramOrder2 = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* p2 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterInfo"), 1)->byval_arg;
+    static auto* paramOrder2 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* paramArrayType2 = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* types = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Type")), 1)->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
+    static auto* types = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "FindMostSpecific", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p1, paramOrder1, paramArrayType1, p2, paramOrder2, paramArrayType2, types, args});
   }
 };
@@ -196,13 +196,13 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Reflection::MethodBase*, ::ArrayWrapper<int>, System::Type*, System::Reflection::MethodBase*, ::ArrayWrapper<int>, System::Type*, ::ArrayWrapper<System::Type*>, ::ArrayWrapper<::Il2CppObject*>)>(&System::DefaultBinder::FindMostSpecificMethod)> {
   static const MethodInfo* get() {
     static auto* m1 = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")->byval_arg;
-    static auto* paramOrder1 = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* paramOrder1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* paramArrayType1 = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* m2 = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")->byval_arg;
-    static auto* paramOrder2 = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* paramOrder2 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* paramArrayType2 = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* types = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Type")), 1)->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
+    static auto* types = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "FindMostSpecificMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m1, paramOrder1, paramArrayType1, m2, paramOrder2, paramArrayType2, types, args});
   }
 };
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (*)(::ArrayWrapper<System::Reflection::MethodBase*>, int)>(&System::DefaultBinder::FindMostDerivedNewSlotMeth)> {
   static const MethodInfo* get() {
-    static auto* match = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")), 1)->byval_arg;
+    static auto* match = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase"), 1)->byval_arg;
     static auto* cMatches = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "FindMostDerivedNewSlotMeth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{match, cMatches});
   }
@@ -260,8 +260,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<int>, ::ArrayWrapper<::Il2CppObject*>)>(&System::DefaultBinder::ReorderParams)> {
   static const MethodInfo* get() {
-    static auto* paramOrder = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
-    static auto* vars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
+    static auto* paramOrder = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* vars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "ReorderParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{paramOrder, vars});
   }
 };
@@ -270,9 +270,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<int>, ::ArrayWrapper<System::Reflection::ParameterInfo*>, ::ArrayWrapper<::Il2CppString*>)>(&System::DefaultBinder::CreateParamOrder)> {
   static const MethodInfo* get() {
-    static auto* paramOrder = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
-    static auto* pars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterInfo")), 1)->byval_arg;
-    static auto* names = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* paramOrder = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* pars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterInfo"), 1)->byval_arg;
+    static auto* names = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "CreateParamOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{paramOrder, pars, names});
   }
 };
@@ -306,11 +306,11 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (System::DefaultBinder::*)(System::Reflection::BindingFlags, ::ArrayWrapper<System::Reflection::MethodBase*>, ByRef<::ArrayWrapper<::Il2CppObject*>>, ::ArrayWrapper<System::Reflection::ParameterModifier>, System::Globalization::CultureInfo*, ::ArrayWrapper<::Il2CppString*>, ByRef<::Il2CppObject*>)>(&System::DefaultBinder::BindToMethod)> {
   static const MethodInfo* get() {
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
-    static auto* match = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")), 1)->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->this_arg;
-    static auto* modifiers = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterModifier")), 1)->byval_arg;
+    static auto* match = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase"), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->this_arg;
+    static auto* modifiers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterModifier"), 1)->byval_arg;
     static auto* cultureInfo = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
-    static auto* names = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* names = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "BindToMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingAttr, match, args, modifiers, cultureInfo, names, state});
   }
@@ -321,7 +321,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::FieldInfo* (System::DefaultBinder::*)(System::Reflection::BindingFlags, ::ArrayWrapper<System::Reflection::FieldInfo*>, ::Il2CppObject*, System::Globalization::CultureInfo*)>(&System::DefaultBinder::BindToField)> {
   static const MethodInfo* get() {
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
-    static auto* match = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Reflection", "FieldInfo")), 1)->byval_arg;
+    static auto* match = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "FieldInfo"), 1)->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* cultureInfo = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "BindToField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingAttr, match, value, cultureInfo});
@@ -333,9 +333,9 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (System::DefaultBinder::*)(System::Reflection::BindingFlags, ::ArrayWrapper<System::Reflection::MethodBase*>, ::ArrayWrapper<System::Type*>, ::ArrayWrapper<System::Reflection::ParameterModifier>)>(&System::DefaultBinder::SelectMethod)> {
   static const MethodInfo* get() {
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
-    static auto* match = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")), 1)->byval_arg;
-    static auto* types = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Type")), 1)->byval_arg;
-    static auto* modifiers = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterModifier")), 1)->byval_arg;
+    static auto* match = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase"), 1)->byval_arg;
+    static auto* types = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
+    static auto* modifiers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterModifier"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "SelectMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingAttr, match, types, modifiers});
   }
 };
@@ -345,10 +345,10 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::PropertyInfo* (System::DefaultBinder::*)(System::Reflection::BindingFlags, ::ArrayWrapper<System::Reflection::PropertyInfo*>, System::Type*, ::ArrayWrapper<System::Type*>, ::ArrayWrapper<System::Reflection::ParameterModifier>)>(&System::DefaultBinder::SelectProperty)> {
   static const MethodInfo* get() {
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
-    static auto* match = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Reflection", "PropertyInfo")), 1)->byval_arg;
+    static auto* match = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "PropertyInfo"), 1)->byval_arg;
     static auto* returnType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* indexes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Type")), 1)->byval_arg;
-    static auto* modifiers = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterModifier")), 1)->byval_arg;
+    static auto* indexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
+    static auto* modifiers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterModifier"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "SelectProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingAttr, match, returnType, indexes, modifiers});
   }
 };
@@ -368,7 +368,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DefaultBinder::*)(ByRef<::ArrayWrapper<::Il2CppObject*>>, ::Il2CppObject*)>(&System::DefaultBinder::ReorderArgumentArray)> {
   static const MethodInfo* get() {
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->this_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->this_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "ReorderArgumentArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args, state});
   }

@@ -964,7 +964,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* objectNodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* instancePrefixes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* instancePrefixes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PartData*), "GenerateInstancesFromObjectID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{session, objectNodeID, instancePrefixes});
   }
 };
@@ -975,7 +975,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* sourceObject = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_ObjectNode")->byval_arg;
-    static auto* instancePrefixes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* instancePrefixes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PartData*), "GenerateInstancesFromObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{session, sourceObject, instancePrefixes});
   }
 };
@@ -985,7 +985,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(HoudiniEngineUnity::HEU_SessionBase*, ::ArrayWrapper<::Il2CppString*>)>(&HoudiniEngineUnity::HEU_PartData::GenerateInstancesFromObjectIds)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
-    static auto* instancePrefixes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* instancePrefixes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PartData*), "GenerateInstancesFromObjectIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{session, instancePrefixes});
   }
 };
@@ -1012,7 +1012,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     static auto* instancedObjectPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* rotationOffset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* scaleOffset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
-    static auto* instancePrefixes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* instancePrefixes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* collisionSrcGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* copyParentFlags = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PartData*), "CreateNewInstanceFromObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceObject, instanceIndex, parentTransform, hapiTransform, instancedObjectNodeID, instancedObjectPath, rotationOffset, scaleOffset, instancePrefixes, collisionSrcGO, copyParentFlags});

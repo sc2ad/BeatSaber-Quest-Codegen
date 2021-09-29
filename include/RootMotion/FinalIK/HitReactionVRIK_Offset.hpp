@@ -250,7 +250,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::HitReactionVRIK::Offset::*)(UnityEngine::Vector3, ::ArrayWrapper<UnityEngine::AnimationCurve*>, UnityEngine::Vector3)>(&RootMotion::FinalIK::HitReactionVRIK::Offset::Hit)> {
   static const MethodInfo* get() {
     static auto* force = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
-    static auto* curves = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")), 1)->byval_arg;
+    static auto* curves = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve"), 1)->byval_arg;
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::HitReactionVRIK::Offset*), "Hit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{force, curves, point});
   }
@@ -261,7 +261,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::HitReactionVRIK::Offset::*)(RootMotion::FinalIK::VRIK*, ::ArrayWrapper<UnityEngine::AnimationCurve*>, float)>(&RootMotion::FinalIK::HitReactionVRIK::Offset::Apply)> {
   static const MethodInfo* get() {
     static auto* ik = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "VRIK")->byval_arg;
-    static auto* curves = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")), 1)->byval_arg;
+    static auto* curves = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve"), 1)->byval_arg;
     static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::HitReactionVRIK::Offset*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ik, curves, weight});
   }
@@ -271,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::HitReactionVRIK::Offset::*)(::ArrayWrapper<UnityEngine::AnimationCurve*>)>(&RootMotion::FinalIK::HitReactionVRIK::Offset::GetLength)> {
   static const MethodInfo* get() {
-    static auto* curves = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")), 1)->byval_arg;
+    static auto* curves = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::HitReactionVRIK::Offset*), "GetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{curves});
   }
 };
@@ -289,7 +289,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::HitReactionVRIK::Offset::*)(RootMotion::FinalIK::VRIK*, ::ArrayWrapper<UnityEngine::AnimationCurve*>, float)>(&RootMotion::FinalIK::HitReactionVRIK::Offset::OnApply)> {
   static const MethodInfo* get() {
     static auto* ik = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "VRIK")->byval_arg;
-    static auto* curves = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")), 1)->byval_arg;
+    static auto* curves = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve"), 1)->byval_arg;
     static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::HitReactionVRIK::Offset*), "OnApply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ik, curves, weight});
   }

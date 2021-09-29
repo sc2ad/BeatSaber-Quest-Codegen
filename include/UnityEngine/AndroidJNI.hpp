@@ -767,7 +767,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "NewObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clazz, methodID, args});
   }
 };
@@ -857,7 +857,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayWrapper<::Il2CppChar>)>(&UnityEngine::AndroidJNI::NewString)> {
   static const MethodInfo* get() {
-    static auto* chars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
+    static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "NewString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chars});
   }
 };
@@ -913,7 +913,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallStringMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, methodID, args});
   }
 };
@@ -924,7 +924,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallObjectMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, methodID, args});
   }
 };
@@ -935,7 +935,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallIntMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, methodID, args});
   }
 };
@@ -946,7 +946,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallBooleanMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, methodID, args});
   }
 };
@@ -957,7 +957,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallShortMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, methodID, args});
   }
 };
@@ -968,7 +968,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallByteMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, methodID, args});
   }
 };
@@ -979,7 +979,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallSByteMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, methodID, args});
   }
 };
@@ -990,7 +990,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallCharMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, methodID, args});
   }
 };
@@ -1001,7 +1001,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(S
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallFloatMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, methodID, args});
   }
 };
@@ -1012,7 +1012,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallDoubleMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, methodID, args});
   }
 };
@@ -1023,7 +1023,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallLongMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, methodID, args});
   }
 };
@@ -1034,7 +1034,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallVoidMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, methodID, args});
   }
 };
@@ -1276,7 +1276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallStaticStringMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clazz, methodID, args});
   }
 };
@@ -1287,7 +1287,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallStaticObjectMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clazz, methodID, args});
   }
 };
@@ -1298,7 +1298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallStaticIntMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clazz, methodID, args});
   }
 };
@@ -1309,7 +1309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallStaticBooleanMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clazz, methodID, args});
   }
 };
@@ -1320,7 +1320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallStaticShortMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clazz, methodID, args});
   }
 };
@@ -1331,7 +1331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallStaticByteMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clazz, methodID, args});
   }
 };
@@ -1342,7 +1342,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallStaticSByteMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clazz, methodID, args});
   }
 };
@@ -1353,7 +1353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallStaticCharMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clazz, methodID, args});
   }
 };
@@ -1364,7 +1364,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(S
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallStaticFloatMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clazz, methodID, args});
   }
 };
@@ -1375,7 +1375,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallStaticDoubleMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clazz, methodID, args});
   }
 };
@@ -1386,7 +1386,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallStaticLongMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clazz, methodID, args});
   }
 };
@@ -1397,7 +1397,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "CallStaticVoidMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clazz, methodID, args});
   }
 };
@@ -1637,7 +1637,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayWrapper<bool>)>(&UnityEngine::AndroidJNI::ToBooleanArray)> {
   static const MethodInfo* get() {
-    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Boolean")), 1)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Boolean"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "ToBooleanArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
   }
 };
@@ -1646,7 +1646,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayWrapper<uint8_t>)>(&UnityEngine::AndroidJNI::ToByteArray)> {
   static const MethodInfo* get() {
-    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "ToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
   }
 };
@@ -1655,7 +1655,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayWrapper<int8_t>)>(&UnityEngine::AndroidJNI::ToSByteArray)> {
   static const MethodInfo* get() {
-    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "SByte")), 1)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "SByte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "ToSByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
   }
 };
@@ -1664,7 +1664,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayWrapper<::Il2CppChar>)>(&UnityEngine::AndroidJNI::ToCharArray)> {
   static const MethodInfo* get() {
-    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "ToCharArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
   }
 };
@@ -1673,7 +1673,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayWrapper<int16_t>)>(&UnityEngine::AndroidJNI::ToShortArray)> {
   static const MethodInfo* get() {
-    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int16")), 1)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int16"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "ToShortArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
   }
 };
@@ -1682,7 +1682,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayWrapper<int>)>(&UnityEngine::AndroidJNI::ToIntArray)> {
   static const MethodInfo* get() {
-    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "ToIntArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
   }
 };
@@ -1691,7 +1691,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayWrapper<int64_t>)>(&UnityEngine::AndroidJNI::ToLongArray)> {
   static const MethodInfo* get() {
-    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int64")), 1)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int64"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "ToLongArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
   }
 };
@@ -1700,7 +1700,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayWrapper<float>)>(&UnityEngine::AndroidJNI::ToFloatArray)> {
   static const MethodInfo* get() {
-    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "ToFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
   }
 };
@@ -1709,7 +1709,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayWrapper<double>)>(&UnityEngine::AndroidJNI::ToDoubleArray)> {
   static const MethodInfo* get() {
-    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Double")), 1)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Double"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "ToDoubleArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
   }
 };
@@ -1718,7 +1718,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayWrapper<System::IntPtr>, System::IntPtr)>(&UnityEngine::AndroidJNI::ToObjectArray)> {
   static const MethodInfo* get() {
-    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "IntPtr")), 1)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "IntPtr"), 1)->byval_arg;
     static auto* arrayClass = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "ToObjectArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array, arrayClass});
   }
@@ -1728,7 +1728,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayWrapper<System::IntPtr>)>(&UnityEngine::AndroidJNI::ToObjectArray)> {
   static const MethodInfo* get() {
-    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "IntPtr")), 1)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "IntPtr"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "ToObjectArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
   }
 };

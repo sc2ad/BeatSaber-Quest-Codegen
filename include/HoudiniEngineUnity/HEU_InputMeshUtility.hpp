@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* attrName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* tupleSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* partInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_PartInfo")->this_arg;
     static auto* bConvertToHoudiniCoordinateSystem = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InputMeshUtility*), "SetMeshPointAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{session, geoID, partID, attrName, tupleSize, data, partInfo, bConvertToHoudiniCoordinateSystem});
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* attrName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* tupleSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* partInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_PartInfo")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InputMeshUtility*), "SetMeshPointAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{session, geoID, partID, attrName, tupleSize, data, partInfo});
   }
@@ -105,8 +105,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* attrName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* tupleSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->byval_arg;
-    static auto* indices = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
+    static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* partInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_PartInfo")->this_arg;
     static auto* bConvertToHoudiniCoordinateSystem = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InputMeshUtility*), "SetMeshVertexAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{session, geoID, partID, attrName, tupleSize, data, indices, partInfo, bConvertToHoudiniCoordinateSystem});
@@ -122,8 +122,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* attrName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* tupleSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
-    static auto* indices = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
+    static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* partInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_PartInfo")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InputMeshUtility*), "SetMeshVertexFloatAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{session, geoID, partID, attrName, tupleSize, data, indices, partInfo});
   }
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* attrName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* tupleSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3Int")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3Int"), 1)->byval_arg;
     static auto* partInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_PartInfo")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InputMeshUtility*), "SetMeshPointAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{session, geoID, partID, attrName, tupleSize, data, partInfo});
   }
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* attrName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* partInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_PartInfo")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InputMeshUtility*), "SetMeshPointAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{session, geoID, partID, attrName, data, partInfo});
   }

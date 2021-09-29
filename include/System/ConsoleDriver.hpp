@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
   static const MethodInfo* get() {
     static auto* keypadXmit = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* teardown = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* control_characters = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->this_arg;
+    static auto* control_characters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     static auto* address = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Int32"))->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ConsoleDriver*), "TtySetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keypadXmit, teardown, control_characters, address});
   }

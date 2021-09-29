@@ -106,7 +106,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (RootMotion::FinalIK::GenericPoser::*)(::Il2CppString*, ::ArrayWrapper<UnityEngine::Transform*>)>(&RootMotion::FinalIK::GenericPoser::GetTargetNamed)> {
   static const MethodInfo* get() {
     static auto* tName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")), 1)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::GenericPoser*), "GetTargetNamed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tName, array});
   }
 };

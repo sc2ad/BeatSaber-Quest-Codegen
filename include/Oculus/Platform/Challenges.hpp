@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
     static auto* challengeID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* limit = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* startAt = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "LeaderboardStartAt")->byval_arg;
-    static auto* userIDs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt64")), 1)->byval_arg;
+    static auto* userIDs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Challenges*), "GetEntriesByIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{challengeID, limit, startAt, userIDs});
   }
 };

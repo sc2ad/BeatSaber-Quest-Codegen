@@ -97,7 +97,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, ::ArrayWrapper<UnityEngine::Vector2>, System::Collections::Generic::List_1<UnityEngine::Vector3>*, int)>(&HoudiniEngineUnity::HEU_InputInterfaceMesh::GetUVsFromMesh)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
-    static auto* srcUVs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")), 1)->byval_arg;
+    static auto* srcUVs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     static auto* destUVs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InputInterfaceMesh*), "GetUVsFromMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, srcUVs, destUVs, index});

@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     static auto* assetCacheFolderPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* nodeInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_NodeInfo")->byval_arg;
-    static auto* parmInfos = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_ParmInfo")), 1)->byval_arg;
+    static auto* parmInfos = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_ParmInfo"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_MaterialData*), "UseLegacyShaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{materialInfo, assetCacheFolderPath, session, nodeInfo, parmInfos});
   }
 };
@@ -220,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* parameters = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_ParmInfo")), 1)->byval_arg;
+    static auto* parameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_ParmInfo"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_MaterialData*), "IsTransparentMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{session, nodeID, parameters});
   }
 };
@@ -231,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* parameters = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_ParmInfo")), 1)->byval_arg;
+    static auto* parameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_ParmInfo"), 1)->byval_arg;
     static auto* defaultValue = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* alpha = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_MaterialData*), "GetMaterialAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{session, nodeID, parameters, defaultValue, alpha});

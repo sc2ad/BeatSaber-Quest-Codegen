@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelMissionParser::ParserFunction*, "",
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LevelMissionParser::ParserFunction::*)(::ArrayWrapper<float>, int)>(&GlobalNamespace::LevelMissionParser::ParserFunction::Invoke)> {
   static const MethodInfo* get() {
-    static auto* functionParams = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* functionParams = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* paramCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelMissionParser::ParserFunction*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{functionParams, paramCount});
   }
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::LevelMissionParser::ParserFunction::*)(::ArrayWrapper<float>, int, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::LevelMissionParser::ParserFunction::BeginInvoke)> {
   static const MethodInfo* get() {
-    static auto* functionParams = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* functionParams = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* paramCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

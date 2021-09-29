@@ -785,7 +785,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(::ArrayWrapper<UnityEngine::Texture2D*>)>(&TMPro::TMP_FontAsset::set_atlasTextures)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2D")), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2D"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_atlasTextures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
@@ -963,7 +963,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(::ArrayWrapper<TMPro::TMP_FontWeightPair>)>(&TMPro::TMP_FontAsset::set_fontWeightTable)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("TMPro", "TMP_FontWeightPair")), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_FontWeightPair"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_fontWeightTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
@@ -1119,7 +1119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::ArrayWrapper<uint>)>(&TMPro::TMP_FontAsset::TryAddCharacters)> {
   static const MethodInfo* get() {
-    static auto* unicodes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* unicodes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "TryAddCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unicodes});
   }
 };
@@ -1128,8 +1128,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::ArrayWrapper<uint>, ByRef<::ArrayWrapper<uint>>)>(&TMPro::TMP_FontAsset::TryAddCharacters)> {
   static const MethodInfo* get() {
-    static auto* unicodes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
-    static auto* missingUnicodes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->this_arg;
+    static auto* unicodes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* missingUnicodes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "TryAddCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unicodes, missingUnicodes});
   }
 };

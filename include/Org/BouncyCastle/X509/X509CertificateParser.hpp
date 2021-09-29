@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Certificate* (Org::BouncyCastle::X509::X509CertificateParser::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::X509::X509CertificateParser::ReadCertificate)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509CertificateParser*), "ReadCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
   }
 };
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ICollection* (Org::BouncyCastle::X509::X509CertificateParser::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::X509::X509CertificateParser::ReadCertificates)> {
   static const MethodInfo* get() {
-    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509CertificateParser*), "ReadCertificates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
   }
 };

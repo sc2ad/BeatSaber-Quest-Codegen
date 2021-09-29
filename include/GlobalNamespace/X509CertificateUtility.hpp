@@ -94,7 +94,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Security::Cryptography::X509Certificates::X509Certificate2*, ::ArrayWrapper<::ArrayWrapper<uint8_t>>)>(&GlobalNamespace::X509CertificateUtility::ValidateCertificateChain)> {
   static const MethodInfo* get() {
     static auto* certificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate2")->byval_arg;
-    static auto* certificateChain = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)), 1)->byval_arg;
+    static auto* certificateChain = &il2cpp_functions::array_class_get(il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::X509CertificateUtility*), "ValidateCertificateChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{certificate, certificateChain});
   }
 };
@@ -104,7 +104,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Security::Cryptography::X509Certificates::X509Certificate2*, ::ArrayWrapper<::ArrayWrapper<uint8_t>>)>(&GlobalNamespace::X509CertificateUtility::ValidateCertificateChainUnity)> {
   static const MethodInfo* get() {
     static auto* certificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate2")->byval_arg;
-    static auto* certificateChain = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)), 1)->byval_arg;
+    static auto* certificateChain = &il2cpp_functions::array_class_get(il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::X509CertificateUtility*), "ValidateCertificateChainUnity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{certificate, certificateChain});
   }
 };
@@ -114,7 +114,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Security::Cryptography::X509Certificates::X509Certificate2*, ::ArrayWrapper<::ArrayWrapper<uint8_t>>)>(&GlobalNamespace::X509CertificateUtility::ValidateCertificateChainDotNet)> {
   static const MethodInfo* get() {
     static auto* certificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate2")->byval_arg;
-    static auto* certificateChain = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)), 1)->byval_arg;
+    static auto* certificateChain = &il2cpp_functions::array_class_get(il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::X509CertificateUtility*), "ValidateCertificateChainDotNet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{certificate, certificateChain});
   }
 };

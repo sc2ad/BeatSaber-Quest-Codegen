@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     static auto* pvCompressedBuffer = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* unCompressedBufferSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* peTransformSpace = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSkeletalTransformSpace")->this_arg;
-    static auto* pTransformArray = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRBoneTransform_t")), 1)->this_arg;
+    static auto* pTransformArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRBoneTransform_t"), 1)->this_arg;
     static auto* unTransformArrayCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pvCompressedBuffer, unCompressedBufferSize, peTransformSpace, pTransformArray, unTransformArrayCount});
   }
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
     static auto* pvCompressedBuffer = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* unCompressedBufferSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* peTransformSpace = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSkeletalTransformSpace")->this_arg;
-    static auto* pTransformArray = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRBoneTransform_t")), 1)->this_arg;
+    static auto* pTransformArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRBoneTransform_t"), 1)->this_arg;
     static auto* unTransformArrayCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

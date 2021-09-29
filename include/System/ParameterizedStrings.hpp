@@ -137,7 +137,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayWrapper<System::ParameterizedStrings::FormatParam>)>(&System::ParameterizedStrings::Evaluate)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format, args});
   }
 };
@@ -148,10 +148,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pos = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam"), 1)->byval_arg;
     static auto* stack = &::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/LowLevelStack")->byval_arg;
-    static auto* dynamicVars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam")), 1)->this_arg;
-    static auto* staticVars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam")), 1)->this_arg;
+    static auto* dynamicVars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam"), 1)->this_arg;
+    static auto* staticVars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "EvaluateInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format, pos, args, stack, dynamicVars, staticVars});
   }
 };
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(boo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<uint8_t>, int, int)>(&System::ParameterizedStrings::StringFromAsciiBytes)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "StringFromAsciiBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, offset, length});
@@ -224,8 +224,8 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::ParameterizedStrings::FormatParam> (*)(::Il2CppChar, ByRef<::ArrayWrapper<System::ParameterizedStrings::FormatParam>>, ByRef<::ArrayWrapper<System::ParameterizedStrings::FormatParam>>, ByRef<int>)>(&System::ParameterizedStrings::GetDynamicOrStaticVariables)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
-    static auto* dynamicVars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam")), 1)->this_arg;
-    static auto* staticVars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam")), 1)->this_arg;
+    static auto* dynamicVars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam"), 1)->this_arg;
+    static auto* staticVars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam"), 1)->this_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "GetDynamicOrStaticVariables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c, dynamicVars, staticVars, index});
   }

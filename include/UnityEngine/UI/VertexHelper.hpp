@@ -361,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::VertexHelper::*)(::ArrayWrapper<UnityEngine::UIVertex>)>(&UnityEngine::UI::VertexHelper::AddUIVertexQuad)> {
   static const MethodInfo* get() {
-    static auto* verts = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "UIVertex")), 1)->byval_arg;
+    static auto* verts = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "UIVertex"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::VertexHelper*), "AddUIVertexQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{verts});
   }
 };

@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::CharEntityEncoderFallback::*)(::ArrayWrapper<int>, int)>(&System::Xml::CharEntityEncoderFallback::Reset)> {
   static const MethodInfo* get() {
-    static auto* textContentMarks = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* textContentMarks = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* endMarkPos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::CharEntityEncoderFallback*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{textContentMarks, endMarkPos});
   }

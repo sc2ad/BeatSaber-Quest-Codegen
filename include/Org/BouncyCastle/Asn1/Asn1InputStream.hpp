@@ -223,7 +223,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*, ::ArrayWrapper<::ArrayWrapper<uint8_t>>)>(&Org::BouncyCastle::Asn1::Asn1InputStream::GetBuffer)> {
   static const MethodInfo* get() {
     static auto* defIn = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DefiniteLengthInputStream")->byval_arg;
-    static auto* tmpBuffers = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)), 1)->byval_arg;
+    static auto* tmpBuffers = &il2cpp_functions::array_class_get(il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "GetBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{defIn, tmpBuffers});
   }
 };
@@ -243,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
   static const MethodInfo* get() {
     static auto* tagNo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* defIn = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DefiniteLengthInputStream")->byval_arg;
-    static auto* tmpBuffers = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)), 1)->byval_arg;
+    static auto* tmpBuffers = &il2cpp_functions::array_class_get(il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "CreatePrimitiveDerObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tagNo, defIn, tmpBuffers});
   }
 };

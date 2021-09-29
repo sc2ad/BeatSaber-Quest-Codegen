@@ -120,7 +120,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement* (Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point::*)(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement*, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point::CalculateJacobianModifiedW)> {
   static const MethodInfo* get() {
     static auto* Z = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Custom.Djb", "Curve25519FieldElement")->byval_arg;
-    static auto* ZSquared = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "UInt32")), 1)->byval_arg;
+    static auto* ZSquared = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point*), "CalculateJacobianModifiedW", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{Z, ZSquared});
   }
 };

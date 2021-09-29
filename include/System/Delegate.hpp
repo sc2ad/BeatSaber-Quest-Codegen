@@ -482,7 +482,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Delegate::*)(::ArrayWrapper<::Il2CppObject*>)>(&System::Delegate::DynamicInvoke)> {
   static const MethodInfo* get() {
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Delegate*), "DynamicInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
   }
 };
@@ -499,7 +499,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Delegate::*)(::ArrayWrapper<::Il2CppObject*>)>(&System::Delegate::DynamicInvokeImpl)> {
   static const MethodInfo* get() {
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Delegate*), "DynamicInvokeImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
   }
 };
@@ -552,7 +552,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (*)(::ArrayWrapper<System::Delegate*>)>(&System::Delegate::Combine)> {
   static const MethodInfo* get() {
-    static auto* delegates = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Delegate")), 1)->byval_arg;
+    static auto* delegates = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Delegate"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Delegate*), "Combine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delegates});
   }
 };

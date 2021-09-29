@@ -287,8 +287,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<::Il2CppString*>, ::ArrayWrapper<::Il2CppString*>, ByRef<bool>, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_TestHelpers::AssertTrueLogEquivalent)> {
   static const MethodInfo* get() {
-    static auto* a = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
-    static auto* b = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* b = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     static auto* header = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* subject = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayWrapper<::Il2CppChar>, int)>(&System::Security::Util::Tokenizer::StringMaker::HashCharArray)> {
   static const MethodInfo* get() {
-    static auto* a = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
+    static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* l = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Tokenizer::StringMaker*), "HashCharArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, l});
   }
@@ -130,7 +130,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Util::Tokenizer::StringMaker::*)(::Il2CppString*, ::ArrayWrapper<::Il2CppChar>, int)>(&System::Security::Util::Tokenizer::StringMaker::CompareStringAndChars)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* a = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
+    static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* l = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Tokenizer::StringMaker*), "CompareStringAndChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, a, l});
   }

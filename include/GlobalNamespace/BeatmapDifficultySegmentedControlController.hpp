@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapDifficultySegmentedControlController::*)(::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*>, GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::BeatmapDifficultySegmentedControlController::SetData)> {
   static const MethodInfo* get() {
-    static auto* difficultyBeatmaps = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")), 1)->byval_arg;
+    static auto* difficultyBeatmaps = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap"), 1)->byval_arg;
     static auto* selectedDifficulty = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultySegmentedControlController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmaps, selectedDifficulty});
   }

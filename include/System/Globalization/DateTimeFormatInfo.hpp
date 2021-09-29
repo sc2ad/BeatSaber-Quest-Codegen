@@ -1629,8 +1629,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(::ArrayWrapper<::Il2CppString*>, ::ArrayWrapper<::Il2CppString*>, ::Il2CppString*)>(&System::Globalization::DateTimeFormatInfo::GetCombinedPatterns)> {
   static const MethodInfo* get() {
-    static auto* patterns1 = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
-    static auto* patterns2 = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* patterns1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* patterns2 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* connectString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetCombinedPatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{patterns1, patterns2, connectString});
   }
@@ -1676,7 +1676,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(::ArrayWrapper<::Il2CppString*>, ::Il2CppString*)>(&System::Globalization::DateTimeFormatInfo::GetMergedPatterns)> {
   static const MethodInfo* get() {
-    static auto* patterns = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* patterns = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* defaultPattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetMergedPatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{patterns, defaultPattern});
   }
@@ -1739,7 +1739,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(::ArrayWrapper<System::Globalization::TokenHashValue*>, ::Il2CppString*)>(&System::Globalization::DateTimeFormatInfo::AddMonthNames)> {
   static const MethodInfo* get() {
-    static auto* temp = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Globalization", "TokenHashValue")), 1)->byval_arg;
+    static auto* temp = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Globalization", "TokenHashValue"), 1)->byval_arg;
     static auto* monthPostfix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "AddMonthNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{temp, monthPostfix});
   }
@@ -1781,7 +1781,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(::ArrayWrapper<System::Globalization::TokenHashValue*>, ::Il2CppString*, ::Il2CppChar, System::TokenType, int, int, int, int)>(&System::Globalization::DateTimeFormatInfo::InsertAtCurrentHashNode)> {
   static const MethodInfo* get() {
-    static auto* hashTable = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Globalization", "TokenHashValue")), 1)->byval_arg;
+    static auto* hashTable = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Globalization", "TokenHashValue"), 1)->byval_arg;
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* tokenType = &::il2cpp_utils::GetClassFromName("System", "TokenType")->byval_arg;
@@ -1797,7 +1797,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(::ArrayWrapper<System::Globalization::TokenHashValue*>, ::Il2CppString*, System::TokenType, int)>(&System::Globalization::DateTimeFormatInfo::InsertHash)> {
   static const MethodInfo* get() {
-    static auto* hashTable = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Globalization", "TokenHashValue")), 1)->byval_arg;
+    static auto* hashTable = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Globalization", "TokenHashValue"), 1)->byval_arg;
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* tokenType = &::il2cpp_utils::GetClassFromName("System", "TokenType")->byval_arg;
     static auto* tokenValue = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

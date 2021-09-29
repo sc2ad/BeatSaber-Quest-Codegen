@@ -547,7 +547,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectException* (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&ModestTree::_Assert::CreateException)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* parameters = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
+    static auto* parameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "CreateException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message, parameters});
   }
 };
@@ -558,7 +558,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Ze
   static const MethodInfo* get() {
     static auto* innerException = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* parameters = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
+    static auto* parameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "CreateException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{innerException, message, parameters});
   }
 };

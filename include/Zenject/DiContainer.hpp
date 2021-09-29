@@ -3084,7 +3084,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteIdBinderNonGeneric* (Zenject::DiContainer::*)(::ArrayWrapper<System::Type*>)>(&Zenject::DiContainer::Bind)> {
   static const MethodInfo* get() {
-    static auto* contractTypes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Type")), 1)->byval_arg;
+    static auto* contractTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Bind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{contractTypes});
   }
 };
@@ -3148,7 +3148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Fr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(::ArrayWrapper<::Il2CppObject*>)>(&Zenject::DiContainer::BindInstances)> {
   static const MethodInfo* get() {
-    static auto* instances = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
+    static auto* instances = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindInstances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instances});
   }
 };

@@ -837,7 +837,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNe
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNetLib::NetManager::*)(::ArrayWrapper<uint8_t>, int, int, System::Net::IPEndPoint*)>(&LiteNetLib::NetManager::SendRaw)> {
   static const MethodInfo* get() {
-    static auto* message = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* message = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
@@ -865,7 +865,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
     static auto* reason = &::il2cpp_utils::GetClassFromName("LiteNetLib", "DisconnectReason")->byval_arg;
     static auto* socketErrorCode = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketError")->byval_arg;
     static auto* force = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* eventData = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
@@ -921,7 +921,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetManager::*)(::ArrayWrapper<uint8_t>, int, System::Net::Sockets::SocketError, System::Net::IPEndPoint*)>(&LiteNetLib::NetManager::LiteNetLib_INetSocketListener_OnMessageReceived)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* errorCode = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketError")->byval_arg;
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
@@ -934,7 +934,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (LiteNetLib::NetManager::*)(LiteNetLib::ConnectionRequest*, ::ArrayWrapper<uint8_t>, int, int)>(&LiteNetLib::NetManager::OnConnectionSolved)> {
   static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("LiteNetLib", "ConnectionRequest")->byval_arg;
-    static auto* rejectData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* rejectData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetManager*), "OnConnectionSolved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request, rejectData, start, length});
@@ -964,7 +964,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetManager::*)(::ArrayWrapper<uint8_t>, int, System::Net::IPEndPoint*)>(&LiteNetLib::NetManager::DataReceived)> {
   static const MethodInfo* get() {
-    static auto* reusableBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* reusableBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetManager*), "DataReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reusableBuffer, count, remoteEndPoint});
@@ -996,7 +996,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetManager::*)(::ArrayWrapper<uint8_t>, LiteNetLib::DeliveryMethod)>(&LiteNetLib::NetManager::SendToAll)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("LiteNetLib", "DeliveryMethod")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, options});
   }
@@ -1006,7 +1006,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetManager::*)(::ArrayWrapper<uint8_t>, int, int, LiteNetLib::DeliveryMethod)>(&LiteNetLib::NetManager::SendToAll)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("LiteNetLib", "DeliveryMethod")->byval_arg;
@@ -1029,7 +1029,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetManager::*)(::ArrayWrapper<uint8_t>, uint8_t, LiteNetLib::DeliveryMethod)>(&LiteNetLib::NetManager::SendToAll)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* channelNumber = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("LiteNetLib", "DeliveryMethod")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, channelNumber, options});
@@ -1040,7 +1040,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetManager::*)(::ArrayWrapper<uint8_t>, int, int, uint8_t, LiteNetLib::DeliveryMethod)>(&LiteNetLib::NetManager::SendToAll)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* channelNumber = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
@@ -1064,7 +1064,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetManager::*)(::ArrayWrapper<uint8_t>, LiteNetLib::DeliveryMethod, LiteNetLib::NetPeer*)>(&LiteNetLib::NetManager::SendToAll)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("LiteNetLib", "DeliveryMethod")->byval_arg;
     static auto* excludePeer = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPeer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, options, excludePeer});
@@ -1075,7 +1075,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetManager::*)(::ArrayWrapper<uint8_t>, int, int, LiteNetLib::DeliveryMethod, LiteNetLib::NetPeer*)>(&LiteNetLib::NetManager::SendToAll)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("LiteNetLib", "DeliveryMethod")->byval_arg;
@@ -1100,7 +1100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetManager::*)(::ArrayWrapper<uint8_t>, uint8_t, LiteNetLib::DeliveryMethod, LiteNetLib::NetPeer*)>(&LiteNetLib::NetManager::SendToAll)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* channelNumber = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("LiteNetLib", "DeliveryMethod")->byval_arg;
     static auto* excludePeer = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPeer")->byval_arg;
@@ -1112,7 +1112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetManager::*)(::ArrayWrapper<uint8_t>, int, int, uint8_t, LiteNetLib::DeliveryMethod, LiteNetLib::NetPeer*)>(&LiteNetLib::NetManager::SendToAll)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* channelNumber = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
@@ -1165,7 +1165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::NetManager::*)(::ArrayWrapper<uint8_t>, System::Net::IPEndPoint*)>(&LiteNetLib::NetManager::SendUnconnectedMessage)> {
   static const MethodInfo* get() {
-    static auto* message = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* message = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetManager*), "SendUnconnectedMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message, remoteEndPoint});
   }
@@ -1185,7 +1185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::NetManager::*)(::ArrayWrapper<uint8_t>, int, int, System::Net::IPEndPoint*)>(&LiteNetLib::NetManager::SendUnconnectedMessage)> {
   static const MethodInfo* get() {
-    static auto* message = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* message = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
@@ -1207,7 +1207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::NetManager::*)(::ArrayWrapper<uint8_t>, int)>(&LiteNetLib::NetManager::SendBroadcast)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetManager*), "SendBroadcast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, port});
   }
@@ -1217,7 +1217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::NetManager::*)(::ArrayWrapper<uint8_t>, int, int, int)>(&LiteNetLib::NetManager::SendBroadcast)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1331,7 +1331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetManager::*)(::ArrayWrapper<uint8_t>, int, int)>(&LiteNetLib::NetManager::DisconnectAll)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetManager*), "DisconnectAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, start, count});
@@ -1361,7 +1361,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetManager::*)(LiteNetLib::NetPeer*, ::ArrayWrapper<uint8_t>)>(&LiteNetLib::NetManager::DisconnectPeer)> {
   static const MethodInfo* get() {
     static auto* peer = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPeer")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetManager*), "DisconnectPeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{peer, data});
   }
 };
@@ -1381,7 +1381,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetManager::*)(LiteNetLib::NetPeer*, ::ArrayWrapper<uint8_t>, int, int)>(&LiteNetLib::NetManager::DisconnectPeer)> {
   static const MethodInfo* get() {
     static auto* peer = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPeer")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetManager*), "DisconnectPeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{peer, data, start, count});

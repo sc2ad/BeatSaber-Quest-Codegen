@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eTransformSpace = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSkeletalTransformSpace")->byval_arg;
     static auto* eMotionRange = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSkeletalMotionRange")->byval_arg;
-    static auto* pTransformArray = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRBoneTransform_t")), 1)->this_arg;
+    static auto* pTransformArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRBoneTransform_t"), 1)->this_arg;
     static auto* unTransformArrayCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* ulRestrictToDevice = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRInput::_GetSkeletalBoneData*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action, eTransformSpace, eMotionRange, pTransformArray, unTransformArrayCount, ulRestrictToDevice});
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eTransformSpace = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSkeletalTransformSpace")->byval_arg;
     static auto* eMotionRange = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSkeletalMotionRange")->byval_arg;
-    static auto* pTransformArray = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRBoneTransform_t")), 1)->this_arg;
+    static auto* pTransformArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRBoneTransform_t"), 1)->this_arg;
     static auto* unTransformArrayCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* ulRestrictToDevice = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;

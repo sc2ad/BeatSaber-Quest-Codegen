@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<GlobalNamespace::ObstacleData*>, GlobalNamespace::BeatmapObjectData*, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapEventData*>*, ByRef<int>, ByRef<bool>)>(&GlobalNamespace::BeatmapDataObstaclesMergingTransform::RemoveLastObstaclesByRotationEvents)> {
   static const MethodInfo* get() {
-    static auto* lastObstacleInLine = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "ObstacleData")), 1)->byval_arg;
+    static auto* lastObstacleInLine = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "ObstacleData"), 1)->byval_arg;
     static auto* beatmapObjectData = &::il2cpp_utils::GetClassFromName("", "BeatmapObjectData")->byval_arg;
     static auto* events = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IReadOnlyList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "BeatmapEventData")})->byval_arg;
     static auto* eventIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<GlobalNamespace::ObstacleData*>, int, int)>(&GlobalNamespace::BeatmapDataObstaclesMergingTransform::RemoveObstaclesInRange)> {
   static const MethodInfo* get() {
-    static auto* obstacleInLine = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "ObstacleData")), 1)->byval_arg;
+    static auto* obstacleInLine = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "ObstacleData"), 1)->byval_arg;
     static auto* startLine = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* endLine = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataObstaclesMergingTransform*), "RemoveObstaclesInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obstacleInLine, startLine, endLine});

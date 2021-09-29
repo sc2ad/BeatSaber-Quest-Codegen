@@ -327,7 +327,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(::ArrayWrapper<UnityEngine::DetailPrototype*>)>(&UnityEngine::TerrainData::set_detailPrototypes)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "DetailPrototype")), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "DetailPrototype"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainData*), "set_detailPrototypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
@@ -352,7 +352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(::ArrayWrapper<UnityEngine::TreePrototype*>)>(&UnityEngine::TerrainData::set_treePrototypes)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "TreePrototype")), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "TreePrototype"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainData*), "set_treePrototypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
@@ -427,7 +427,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(::ArrayWrapper<UnityEngine::TerrainLayer*>)>(&UnityEngine::TerrainData::set_terrainLayers)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainLayer")), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainLayer"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainData*), "set_terrainLayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
@@ -488,7 +488,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
   static const MethodInfo* get() {
     static auto* xBase = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* yBase = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* heights = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* heights = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainData*), "SetHeights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{xBase, yBase, heights});
   }
 };
@@ -501,7 +501,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     static auto* yBase = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* width = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* height = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* heights = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* heights = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainData*), "Internal_SetHeights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{xBase, yBase, width, height, heights});
   }
 };
@@ -541,7 +541,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     static auto* xBase = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* yBase = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* layer = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* details = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* details = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainData*), "SetDetailLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{xBase, yBase, layer, details});
   }
 };
@@ -555,7 +555,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     static auto* totalWidth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* totalHeight = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* detailIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainData*), "Internal_SetDetailLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{xBase, yBase, totalWidth, totalHeight, detailIndex, data});
   }
 };
@@ -572,7 +572,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(::ArrayWrapper<UnityEngine::TreeInstance>, bool)>(&UnityEngine::TerrainData::SetTreeInstances)> {
   static const MethodInfo* get() {
-    static auto* instances = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "TreeInstance")), 1)->byval_arg;
+    static auto* instances = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "TreeInstance"), 1)->byval_arg;
     static auto* snapToHeightmap = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainData*), "SetTreeInstances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instances, snapToHeightmap});
   }
@@ -616,7 +616,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* map = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* map = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainData*), "SetAlphamaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, map});
   }
 };
@@ -629,7 +629,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* width = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* height = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* map = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* map = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainData*), "Internal_SetAlphamaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, width, height, map});
   }
 };

@@ -60,7 +60,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Signers::Ed25519ctxSigner::Buffer::*)(Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters*, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::Ed25519ctxSigner::Buffer::GenerateSignature)> {
   static const MethodInfo* get() {
     static auto* privateKey = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto.Parameters", "Ed25519PrivateKeyParameters")->byval_arg;
-    static auto* ctx = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* ctx = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::Ed25519ctxSigner::Buffer*), "GenerateSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{privateKey, ctx});
   }
 };

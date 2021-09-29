@@ -364,7 +364,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSearchViewController::*)(::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>)>(&GlobalNamespace::LevelSearchViewController::Setup)> {
   static const MethodInfo* get() {
-    static auto* beatmapLevelPacks = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")), 1)->byval_arg;
+    static auto* beatmapLevelPacks = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapLevelPacks});
   }
 };

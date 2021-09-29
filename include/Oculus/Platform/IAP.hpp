@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::ProductList*>* (*)(::ArrayWrapper<::Il2CppString*>)>(&Oculus::Platform::IAP::GetProductsBySKU)> {
   static const MethodInfo* get() {
-    static auto* skus = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* skus = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::IAP*), "GetProductsBySKU", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{skus});
   }
 };

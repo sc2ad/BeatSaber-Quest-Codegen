@@ -176,7 +176,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::ArrayWrapper<uint8_t>, int)>(&System::Resources::FastResourceComparer::CompareOrdinal)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* bytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* bCharLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Resources::FastResourceComparer*), "CompareOrdinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, bytes, bCharLength});
   }
@@ -186,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint8_t>, int, ::Il2CppString*)>(&System::Resources::FastResourceComparer::CompareOrdinal)> {
   static const MethodInfo* get() {
-    static auto* bytes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* aCharLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Resources::FastResourceComparer*), "CompareOrdinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes, aCharLength, b});

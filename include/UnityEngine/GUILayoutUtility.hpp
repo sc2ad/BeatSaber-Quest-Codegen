@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
   static const MethodInfo* get() {
     static auto* windowID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutUtility*), "BeginWindow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{windowID, style, options});
   }
 };
@@ -263,7 +263,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUILayoutGroup* (*)(UnityEngine::GUIStyle*, ::ArrayWrapper<UnityEngine::GUILayoutOption*>, System::Type*)>(&UnityEngine::GUILayoutUtility::BeginLayoutGroup)> {
   static const MethodInfo* get() {
     static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
     static auto* layoutType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutUtility*), "BeginLayoutGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{style, options, layoutType});
   }
@@ -293,7 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
   static const MethodInfo* get() {
     static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutUtility*), "GetRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{content, style, options});
   }
 };
@@ -304,7 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
   static const MethodInfo* get() {
     static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutUtility*), "DoGetRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{content, style, options});
   }
 };
@@ -316,7 +316,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     static auto* width = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* height = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutUtility*), "GetRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{width, height, style, options});
   }
 };
@@ -330,7 +330,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     static auto* minHeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* maxHeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
-    static auto* options = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption")), 1)->byval_arg;
+    static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutUtility*), "DoGetRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{minWidth, maxWidth, minHeight, maxHeight, style, options});
   }
 };

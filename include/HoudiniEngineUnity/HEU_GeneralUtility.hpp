@@ -519,7 +519,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* info = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_AttributeInfo")->this_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeneralUtility*), "GetAttributeStringDataHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{session, geoID, partID, name, info, data});
   }
 };

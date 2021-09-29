@@ -675,7 +675,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
   static const MethodInfo* get() {
     static auto* attributeData = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_AttributeData")->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* values = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_AttributesStore*), "SetAttributeEditValueInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attributeData, startIndex, values});
   }
 };
@@ -686,7 +686,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
   static const MethodInfo* get() {
     static auto* attributeData = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_AttributeData")->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* values = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_AttributesStore*), "SetAttributeEditValueFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attributeData, startIndex, values});
   }
 };
@@ -697,7 +697,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
   static const MethodInfo* get() {
     static auto* attributeData = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_AttributeData")->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* values = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_AttributesStore*), "SetAttributeEditValueString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attributeData, startIndex, values});
   }
 };
@@ -841,7 +841,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_AttributesStore::*)(ByRef<::ArrayWrapper<UnityEngine::Vector3>>)>(&HoudiniEngineUnity::HEU_AttributesStore::GetPositionAttributeValues)> {
   static const MethodInfo* get() {
-    static auto* positionArray = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->this_arg;
+    static auto* positionArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_AttributesStore*), "GetPositionAttributeValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{positionArray});
   }
 };
@@ -850,7 +850,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_AttributesStore::*)(ByRef<::ArrayWrapper<int>>)>(&HoudiniEngineUnity::HEU_AttributesStore::GetVertexIndices)> {
   static const MethodInfo* get() {
-    static auto* indices = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_AttributesStore*), "GetVertexIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{indices});
   }
 };

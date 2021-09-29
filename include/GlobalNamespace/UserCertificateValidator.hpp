@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("", "MasterServerEndPoint")->byval_arg;
     static auto* certificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate2")->byval_arg;
-    static auto* certificateChain = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)), 1)->byval_arg;
+    static auto* certificateChain = &il2cpp_functions::array_class_get(il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UserCertificateValidator*), "ValidateCertificateChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{endPoint, certificate, certificateChain});
   }
 };
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("", "MasterServerEndPoint")->byval_arg;
     static auto* certificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate2")->byval_arg;
-    static auto* certificateChain = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)), 1)->byval_arg;
+    static auto* certificateChain = &il2cpp_functions::array_class_get(il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UserCertificateValidator*), "ValidateCertificateChainInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{endPoint, certificate, certificateChain});
   }
 };

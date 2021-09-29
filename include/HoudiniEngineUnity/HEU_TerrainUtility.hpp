@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
     static auto* yLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* heightValues = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->this_arg;
+    static auto* heightValues = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->this_arg;
     static auto* minHeight = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     static auto* maxHeight = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_TerrainUtility*), "GetHeightmapFromPart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{session, xLength, yLength, geoID, partID, heightValues, minHeight, maxHeight});
@@ -228,7 +228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
   static const MethodInfo* get() {
     static auto* heightMapWidth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* heightMapHeight = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* heightValues = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* heightValues = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_TerrainUtility*), "ConvertHeightMapHoudiniToUnity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{heightMapWidth, heightMapHeight, heightValues});
   }
 };
@@ -239,7 +239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
   static const MethodInfo* get() {
     static auto* heightMapWidth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* heightMapHeight = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* heightFields = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)})->byval_arg;
+    static auto* heightFields = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_TerrainUtility*), "ConvertHeightFieldToAlphaMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{heightMapWidth, heightMapHeight, heightFields});
   }
 };
@@ -250,9 +250,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
   static const MethodInfo* get() {
     static auto* heightMapWidth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* heightMapHeight = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* existingAlphaMaps = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
-    static auto* heightFields = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)})->byval_arg;
-    static auto* strengths = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* existingAlphaMaps = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
+    static auto* heightFields = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)})->byval_arg;
+    static auto* strengths = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* alphaMapIndices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_TerrainUtility*), "AppendConvertedHeightFieldToAlphaMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{heightMapWidth, heightMapHeight, existingAlphaMaps, heightFields, strengths, alphaMapIndices});
   }
@@ -343,7 +343,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
     static auto* terrainData = &::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainData")->byval_arg;
     static auto* detailProperties = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_DetailProperties")->byval_arg;
     static auto* heuDetailPrototypes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_DetailPrototype")})->byval_arg;
-    static auto* convertedDetailMaps = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)})->byval_arg;
+    static auto* convertedDetailMaps = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_TerrainUtility*), "ApplyDetailLayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{terrain, terrainData, detailProperties, heuDetailPrototypes, convertedDetailMaps});
   }
 };
@@ -353,7 +353,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::ArrayWrapper<UnityEngine::TerrainLayer*>)>(&HoudiniEngineUnity::HEU_TerrainUtility::GetTerrainLayerIndexByName)> {
   static const MethodInfo* get() {
     static auto* layerName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* terrainLayers = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainLayer")), 1)->byval_arg;
+    static auto* terrainLayers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainLayer"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_TerrainUtility*), "GetTerrainLayerIndexByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerName, terrainLayers});
   }
 };
@@ -363,7 +363,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::TerrainLayer*, ::ArrayWrapper<UnityEngine::TerrainLayer*>)>(&HoudiniEngineUnity::HEU_TerrainUtility::GetTerrainLayerIndex)> {
   static const MethodInfo* get() {
     static auto* layer = &::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainLayer")->byval_arg;
-    static auto* terrainLayers = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainLayer")), 1)->byval_arg;
+    static auto* terrainLayers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainLayer"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_TerrainUtility*), "GetTerrainLayerIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layer, terrainLayers});
   }
 };
@@ -417,7 +417,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<float> (*)(::ArrayWrapper<float>, int, int, int, int)>(&HoudiniEngineUnity::HEU_TerrainUtility::ResampleData)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* oldWidth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* oldHeight = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* newWidth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

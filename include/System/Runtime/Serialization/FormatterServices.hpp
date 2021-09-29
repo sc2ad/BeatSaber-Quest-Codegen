@@ -177,7 +177,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::RuntimeType*, ByRef<::ArrayWrapper<System::RuntimeType*>>, ByRef<int>)>(&System::Runtime::Serialization::FormatterServices::GetParentTypes)> {
   static const MethodInfo* get() {
     static auto* parentType = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
-    static auto* parentTypes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "RuntimeType")), 1)->this_arg;
+    static auto* parentTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "RuntimeType"), 1)->this_arg;
     static auto* parentTypeCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FormatterServices*), "GetParentTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parentType, parentTypes, parentTypeCount});
   }
@@ -243,8 +243,8 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, ::ArrayWrapper<System::Reflection::MemberInfo*>, ::ArrayWrapper<::Il2CppObject*>)>(&System::Runtime::Serialization::FormatterServices::PopulateObjectMembers)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    static auto* members = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")), 1)->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
+    static auto* members = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo"), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FormatterServices*), "PopulateObjectMembers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, members, data});
   }
 };
@@ -254,7 +254,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (*)(::Il2CppObject*, ::ArrayWrapper<System::Reflection::MemberInfo*>)>(&System::Runtime::Serialization::FormatterServices::GetObjectData)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    static auto* members = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")), 1)->byval_arg;
+    static auto* members = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FormatterServices*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, members});
   }
 };

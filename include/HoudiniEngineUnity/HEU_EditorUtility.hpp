@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<UnityEngine::GameObject*>)>(&HoudiniEngineUnity::HEU_EditorUtility::SelectObjects)> {
   static const MethodInfo* get() {
-    static auto* gameObjects = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")), 1)->byval_arg;
+    static auto* gameObjects = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "SelectObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObjects});
   }
 };
@@ -577,7 +577,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<HoudiniEngineUnity::HEU_HoudiniAssetRoot*>)>(&HoudiniEngineUnity::HEU_EditorUtility::CookAssets)> {
   static const MethodInfo* get() {
-    static auto* rootAssets = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAssetRoot")), 1)->byval_arg;
+    static auto* rootAssets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAssetRoot"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "CookAssets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rootAssets});
   }
 };
@@ -602,7 +602,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<HoudiniEngineUnity::HEU_HoudiniAssetRoot*>)>(&HoudiniEngineUnity::HEU_EditorUtility::RebuildAssets)> {
   static const MethodInfo* get() {
-    static auto* rootAssets = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAssetRoot")), 1)->byval_arg;
+    static auto* rootAssets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAssetRoot"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "RebuildAssets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rootAssets});
   }
 };
@@ -627,7 +627,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<HoudiniEngineUnity::HEU_HoudiniAssetRoot*>)>(&HoudiniEngineUnity::HEU_EditorUtility::BakeAndReplaceAssets)> {
   static const MethodInfo* get() {
-    static auto* rootAssets = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAssetRoot")), 1)->byval_arg;
+    static auto* rootAssets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAssetRoot"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "BakeAndReplaceAssets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rootAssets});
   }
 };
@@ -652,7 +652,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<HoudiniEngineUnity::HEU_HoudiniAssetRoot*>)>(&HoudiniEngineUnity::HEU_EditorUtility::ExportAssetsToGeoFiles)> {
   static const MethodInfo* get() {
-    static auto* rootAssets = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAssetRoot")), 1)->byval_arg;
+    static auto* rootAssets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAssetRoot"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "ExportAssetsToGeoFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rootAssets});
   }
 };

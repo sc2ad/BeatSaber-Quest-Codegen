@@ -277,7 +277,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
     static auto* rp = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Proxies", "RealProxy")->byval_arg;
     static auto* msg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMessage")->byval_arg;
     static auto* exc = &::il2cpp_utils::GetClassFromName("System", "Exception")->this_arg;
-    static auto* out_args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->this_arg;
+    static auto* out_args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::RealProxy*), "PrivateInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rp, msg, exc, out_args});
   }
 };

@@ -705,7 +705,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     static auto* hide360DegreeBeatmapCharacteristic = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* playButtonText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* allowedBeatmapDifficultyMask = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficultyMask")->byval_arg;
-    static auto* notAllowedCharacteristics = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO")), 1)->byval_arg;
+    static auto* notAllowedCharacteristics = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailViewController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{previewBeatmapLevel, showPlayerStats, hidePracticeButton, hide360DegreeBeatmapCharacteristic, playButtonText, allowedBeatmapDifficultyMask, notAllowedCharacteristics});
   }
 };
@@ -722,7 +722,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     static auto* canBuyPack = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* playButtonText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* allowedBeatmapDifficultyMask = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficultyMask")->byval_arg;
-    static auto* notAllowedCharacteristics = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO")), 1)->byval_arg;
+    static auto* notAllowedCharacteristics = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailViewController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pack, previewBeatmapLevel, showPlayerStats, hidePracticeButton, hide360DegreeBeatmapCharacteristic, canBuyPack, playButtonText, allowedBeatmapDifficultyMask, notAllowedCharacteristics});
   }
 };

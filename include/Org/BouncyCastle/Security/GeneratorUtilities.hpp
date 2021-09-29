@@ -116,7 +116,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayWrapper<::Il2CppString*>)>(&Org::BouncyCastle::Security::GeneratorUtilities::AddDefaultKeySizeEntries)> {
   static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* algorithms = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* algorithms = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "AddDefaultKeySizeEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size, algorithms});
   }
 };
@@ -126,7 +126,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&Org::BouncyCastle::Security::GeneratorUtilities::AddKgAlgorithm)> {
   static const MethodInfo* get() {
     static auto* canonicalName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* aliases = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
+    static auto* aliases = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "AddKgAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{canonicalName, aliases});
   }
 };
@@ -136,7 +136,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&Org::BouncyCastle::Security::GeneratorUtilities::AddKpgAlgorithm)> {
   static const MethodInfo* get() {
     static auto* canonicalName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* aliases = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
+    static auto* aliases = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "AddKpgAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{canonicalName, aliases});
   }
 };
@@ -146,7 +146,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&Org::BouncyCastle::Security::GeneratorUtilities::AddHMacKeyGenerator)> {
   static const MethodInfo* get() {
     static auto* algorithm = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* aliases = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
+    static auto* aliases = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "AddHMacKeyGenerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithm, aliases});
   }
 };

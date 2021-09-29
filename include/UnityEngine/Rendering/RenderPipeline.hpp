@@ -90,7 +90,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::RenderPipeline::*)(UnityEngine::Rendering::ScriptableRenderContext, ::ArrayWrapper<UnityEngine::Camera*>)>(&UnityEngine::Rendering::RenderPipeline::Render)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ScriptableRenderContext")->byval_arg;
-    static auto* cameras = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")), 1)->byval_arg;
+    static auto* cameras = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Camera"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderPipeline*), "Render", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context, cameras});
   }
 };
@@ -100,7 +100,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::RenderPipeline::*)(UnityEngine::Rendering::ScriptableRenderContext, ::ArrayWrapper<UnityEngine::Camera*>)>(&UnityEngine::Rendering::RenderPipeline::InternalRender)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ScriptableRenderContext")->byval_arg;
-    static auto* cameras = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")), 1)->byval_arg;
+    static auto* cameras = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Camera"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderPipeline*), "InternalRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context, cameras});
   }
 };

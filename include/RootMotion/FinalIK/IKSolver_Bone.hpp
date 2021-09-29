@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<RootMotion::FinalIK::IKSolver::Bone*>, int, UnityEngine::Vector3, float)>(&RootMotion::FinalIK::IKSolver::Bone::SolverSwing)> {
   static const MethodInfo* get() {
-    static auto* bones = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolver/Bone")), 1)->byval_arg;
+    static auto* bones = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolver/Bone"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* swingTarget = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

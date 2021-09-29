@@ -1508,7 +1508,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (*)(::ArrayWrapper<UnityEngine::Vector3>, ByRef<UnityEngine::Matrix4x4>)>(&UnityEngine::UI::ScrollRect::InternalGetBounds)> {
   static const MethodInfo* get() {
-    static auto* corners = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->byval_arg;
+    static auto* corners = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* viewWorldToLocalMatrix = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ScrollRect*), "InternalGetBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{corners, viewWorldToLocalMatrix});
   }

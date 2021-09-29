@@ -155,7 +155,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Asn1::DerApplicationSpecific::*)(int, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Asn1::DerApplicationSpecific::ReplaceTagNumber)> {
   static const MethodInfo* get() {
     static auto* newTag = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* input = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerApplicationSpecific*), "ReplaceTagNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newTag, input});
   }
 };

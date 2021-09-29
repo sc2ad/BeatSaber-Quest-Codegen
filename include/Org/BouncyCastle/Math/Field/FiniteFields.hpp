@@ -66,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::Field::IPolynomialExtensionField* (*)(::ArrayWrapper<int>)>(&Org::BouncyCastle::Math::Field::FiniteFields::GetBinaryExtensionField)> {
   static const MethodInfo* get() {
-    static auto* exponents = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* exponents = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::FiniteFields*), "GetBinaryExtensionField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exponents});
   }
 };

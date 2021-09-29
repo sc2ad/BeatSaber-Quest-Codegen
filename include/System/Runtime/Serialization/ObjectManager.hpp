@@ -375,7 +375,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* idOfContainingObj = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* member = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
-    static auto* arrayIndex = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* arrayIndex = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "RegisterObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, objectID, info, idOfContainingObj, member, arrayIndex});
   }
 };
@@ -446,7 +446,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectManager::*)(int64_t, ::ArrayWrapper<int>, int64_t)>(&System::Runtime::Serialization::ObjectManager::RecordArrayElementFixup)> {
   static const MethodInfo* get() {
     static auto* arrayToBeFixed = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
-    static auto* indices = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* objectRequired = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "RecordArrayElementFixup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{arrayToBeFixed, indices, objectRequired});
   }

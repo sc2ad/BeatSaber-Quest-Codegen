@@ -54,7 +54,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample*, "",
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<UnityEngine::GameObject*>, GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::OutputMode, ::Il2CppString*)>(&GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::ApplyUVLayoutTo)> {
   static const MethodInfo* get() {
-    static auto* gameObjects = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")), 1)->byval_arg;
+    static auto* gameObjects = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject"), 1)->byval_arg;
     static auto* outputMode = &::il2cpp_utils::GetClassFromName("", "HEU_ScriptMeshInputUVLayoutExample/OutputMode")->byval_arg;
     static auto* output_name_suffix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample*), "ApplyUVLayoutTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObjects, outputMode, output_name_suffix});

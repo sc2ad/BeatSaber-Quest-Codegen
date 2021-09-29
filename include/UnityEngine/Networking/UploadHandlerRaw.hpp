@@ -55,7 +55,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::UploadHandlerRaw*, ::ArrayWrapper<uint8_t>)>(&UnityEngine::Networking::UploadHandlerRaw::Create)> {
   static const MethodInfo* get() {
     static auto* self = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking", "UploadHandlerRaw")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UploadHandlerRaw*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self, data});
   }
 };

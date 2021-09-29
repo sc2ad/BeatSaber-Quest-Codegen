@@ -401,7 +401,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AudioSource*, ByRef<::ArrayWrapper<float>>, int, UnityEngine::FFTWindow)>(&UnityEngine::AudioSource::GetSpectrumDataHelper)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioSource")->byval_arg;
-    static auto* samples = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->this_arg;
+    static auto* samples = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->this_arg;
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* window = &::il2cpp_utils::GetClassFromName("UnityEngine", "FFTWindow")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSource*), "GetSpectrumDataHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, samples, channel, window});
@@ -472,7 +472,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioSource::*)(::ArrayWrapper<float>, int, UnityEngine::FFTWindow)>(&UnityEngine::AudioSource::GetSpectrumData)> {
   static const MethodInfo* get() {
-    static auto* samples = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* samples = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* window = &::il2cpp_utils::GetClassFromName("UnityEngine", "FFTWindow")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSource*), "GetSpectrumData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{samples, channel, window});

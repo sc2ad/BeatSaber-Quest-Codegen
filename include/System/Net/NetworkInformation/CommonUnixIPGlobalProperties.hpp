@@ -50,7 +50,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::CommonUnixIPGlobalProper
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint8_t>, int)>(&System::Net::NetworkInformation::CommonUnixIPGlobalProperties::getdomainname)> {
   static const MethodInfo* get() {
-    static auto* name = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* name = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::CommonUnixIPGlobalProperties*), "getdomainname", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, len});
   }

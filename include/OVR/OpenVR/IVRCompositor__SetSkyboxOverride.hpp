@@ -71,7 +71,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_SetSkyboxOverride*, "OVR.Ope
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::IVRCompositor::_SetSkyboxOverride::*)(ByRef<::ArrayWrapper<OVR::OpenVR::Texture_t>>, uint)>(&OVR::OpenVR::IVRCompositor::_SetSkyboxOverride::Invoke)> {
   static const MethodInfo* get() {
-    static auto* pTextures = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "Texture_t")), 1)->this_arg;
+    static auto* pTextures = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "Texture_t"), 1)->this_arg;
     static auto* unTextureCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRCompositor::_SetSkyboxOverride*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pTextures, unTextureCount});
   }
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRCompositor::_SetSkyboxOverride::*)(ByRef<::ArrayWrapper<OVR::OpenVR::Texture_t>>, uint, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRCompositor::_SetSkyboxOverride::BeginInvoke)> {
   static const MethodInfo* get() {
-    static auto* pTextures = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "Texture_t")), 1)->this_arg;
+    static auto* pTextures = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "Texture_t"), 1)->this_arg;
     static auto* unTextureCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

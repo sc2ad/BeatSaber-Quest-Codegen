@@ -82,8 +82,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (*)(::ArrayWrapper<UnityEngine::Vector3>, ::ArrayWrapper<UnityEngine::Color>, float)>(&HoudiniEngineUnity::HEU_GeometryUtility::GenerateCubeMeshFromPoints)> {
   static const MethodInfo* get() {
-    static auto* points = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")), 1)->byval_arg;
-    static auto* pointsColor = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Color")), 1)->byval_arg;
+    static auto* points = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
+    static auto* pointsColor = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeometryUtility*), "GenerateCubeMeshFromPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{points, pointsColor, size});
   }
@@ -94,7 +94,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppString*>, int)>(&HoudiniEngineUnity::HEU_GeometryUtility::GetInstanceOutputName)> {
   static const MethodInfo* get() {
     static auto* partName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* userPrefix = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* userPrefix = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeometryUtility*), "GetInstanceOutputName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{partName, userPrefix, index});
   }

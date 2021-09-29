@@ -391,7 +391,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsSettings::*)(::ArrayWrapper<::Il2CppString*>)>(&Mono::Security::Interface::MonoTlsSettings::set_CertificateSearchPaths)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "set_CertificateSearchPaths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
@@ -442,7 +442,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsSettings::*)(::ArrayWrapper<Mono::Security::Interface::CipherSuiteCode>)>(&Mono::Security::Interface::MonoTlsSettings::set_EnabledCiphers)> {
   static const MethodInfo* get() {
-    static auto* value = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Mono.Security.Interface", "CipherSuiteCode")), 1)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Mono.Security.Interface", "CipherSuiteCode"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "set_EnabledCiphers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };

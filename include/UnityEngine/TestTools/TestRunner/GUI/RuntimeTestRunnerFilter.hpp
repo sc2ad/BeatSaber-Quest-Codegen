@@ -144,7 +144,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestFilter*>*, ::ArrayWrapper<::Il2CppString*>, System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>*)>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::AddFilters)> {
   static const MethodInfo* get() {
     static auto* filters = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITestFilter")})->byval_arg;
-    static auto* values = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* builder = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestFilter")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*), "AddFilters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filters, values, builder});
   }

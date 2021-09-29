@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
   static const MethodInfo* get() {
     static auto* sender = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Channels", "IChannelSender")->byval_arg;
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* channelDataArray = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
+    static auto* channelDataArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     static auto* objectUri = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::ChannelServices*), "CreateClientChannelSinkChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sender, url, channelDataArray, objectUri});
   }

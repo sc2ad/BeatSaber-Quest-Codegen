@@ -265,8 +265,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<UnityEngine::Material*>, ::ArrayWrapper<UnityEngine::Material*>)>(&HoudiniEngineUnity::HEU_GeneratedOutput::ClearMaterialsNoLongerUsed)> {
   static const MethodInfo* get() {
-    static auto* materialsToCheck = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Material")), 1)->byval_arg;
-    static auto* materialsInUse = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Material")), 1)->byval_arg;
+    static auto* materialsToCheck = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
+    static auto* materialsInUse = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeneratedOutput*), "ClearMaterialsNoLongerUsed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{materialsToCheck, materialsInUse});
   }
 };

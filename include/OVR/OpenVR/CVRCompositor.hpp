@@ -237,8 +237,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)(::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t>, ::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t>)>(&OVR::OpenVR::CVRCompositor::WaitGetPoses)> {
   static const MethodInfo* get() {
-    static auto* pRenderPoseArray = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "TrackedDevicePose_t")), 1)->byval_arg;
-    static auto* pGamePoseArray = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "TrackedDevicePose_t")), 1)->byval_arg;
+    static auto* pRenderPoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "TrackedDevicePose_t"), 1)->byval_arg;
+    static auto* pGamePoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "TrackedDevicePose_t"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRCompositor*), "WaitGetPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pRenderPoseArray, pGamePoseArray});
   }
 };
@@ -247,8 +247,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)(::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t>, ::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t>)>(&OVR::OpenVR::CVRCompositor::GetLastPoses)> {
   static const MethodInfo* get() {
-    static auto* pRenderPoseArray = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "TrackedDevicePose_t")), 1)->byval_arg;
-    static auto* pGamePoseArray = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "TrackedDevicePose_t")), 1)->byval_arg;
+    static auto* pRenderPoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "TrackedDevicePose_t"), 1)->byval_arg;
+    static auto* pGamePoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "TrackedDevicePose_t"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRCompositor*), "GetLastPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pRenderPoseArray, pGamePoseArray});
   }
 };
@@ -375,7 +375,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVR:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)(::ArrayWrapper<OVR::OpenVR::Texture_t>)>(&OVR::OpenVR::CVRCompositor::SetSkyboxOverride)> {
   static const MethodInfo* get() {
-    static auto* pTextures = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "Texture_t")), 1)->byval_arg;
+    static auto* pTextures = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "Texture_t"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRCompositor*), "SetSkyboxOverride", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pTextures});
   }
 };

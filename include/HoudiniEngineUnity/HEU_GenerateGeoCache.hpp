@@ -656,7 +656,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* LODTransitionValues = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->this_arg;
+    static auto* LODTransitionValues = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GenerateGeoCache*), "ParseLODTransitionAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{session, geoID, partID, LODTransitionValues});
   }
 };
@@ -687,9 +687,9 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, ::ArrayWrapper<UnityEngine::Material*>, ::ArrayWrapper<UnityEngine::Material*>, ByRef<::ArrayWrapper<UnityEngine::Material*>>)>(&HoudiniEngineUnity::HEU_GenerateGeoCache::GetFinalMaterialsFromComparingNewWithPrevious)> {
   static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
-    static auto* previousMaterials = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Material")), 1)->byval_arg;
-    static auto* newMaterials = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Material")), 1)->byval_arg;
-    static auto* finalMaterials = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Material")), 1)->this_arg;
+    static auto* previousMaterials = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
+    static auto* newMaterials = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
+    static auto* finalMaterials = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GenerateGeoCache*), "GetFinalMaterialsFromComparingNewWithPrevious", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObject, previousMaterials, newMaterials, finalMaterials});
   }
 };
@@ -741,7 +741,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
     static auto* bGenerateNormals = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* bPartInstanced = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* newMesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->this_arg;
-    static auto* newMaterials = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Material")), 1)->this_arg;
+    static auto* newMaterials = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GenerateGeoCache*), "GenerateMeshFromGeoGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{session, GeoGroup, geoCache, defaultMaterialKey, bGenerateUVs, bGenerateTangents, bGenerateNormals, bPartInstanced, newMesh, newMaterials});
   }
 };
@@ -786,13 +786,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<int>, ::ArrayWrapper<int>, System::Collections::Generic::List_1<int>*, System::Collections::Generic::List_1<int>*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayWrapper<float>, ByRef<::ArrayWrapper<float>>)>(&HoudiniEngineUnity::HEU_GenerateGeoCache::TransferRegularAttributesToVertices)> {
   static const MethodInfo* get() {
-    static auto* groupVertexList = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
-    static auto* allFaceCounts = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* groupVertexList = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* allFaceCounts = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* groupFaces = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* groupVertexOffset = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* attribInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_AttributeInfo")->this_arg;
-    static auto* inData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
-    static auto* outData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->this_arg;
+    static auto* inData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
+    static auto* outData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GenerateGeoCache*), "TransferRegularAttributesToVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{groupVertexList, allFaceCounts, groupFaces, groupVertexOffset, attribInfo, inData, outData});
   }
 };
@@ -836,7 +836,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MeshTopology (*)(System::Collections::Generic::List_1<int>*, ::ArrayWrapper<int>)>(&HoudiniEngineUnity::HEU_GenerateGeoCache::CalculateGroupMeshTopology)> {
   static const MethodInfo* get() {
     static auto* groupFaces = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
-    static auto* allFaceCounts = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* allFaceCounts = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GenerateGeoCache*), "CalculateGroupMeshTopology", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{groupFaces, allFaceCounts});
   }
 };

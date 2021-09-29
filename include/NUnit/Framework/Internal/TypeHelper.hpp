@@ -87,7 +87,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*, ::ArrayWrapper<::Il2CppObject*>)>(&NUnit::Framework::Internal::TypeHelper::GetDisplayName)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* arglist = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
+    static auto* arglist = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TypeHelper*), "GetDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, arglist});
   }
 };
@@ -115,8 +115,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<::Il2CppObject*>, ::ArrayWrapper<NUnit::Framework::Interfaces::IParameterInfo*>)>(&NUnit::Framework::Internal::TypeHelper::ConvertArgumentList)> {
   static const MethodInfo* get() {
-    static auto* arglist = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
-    static auto* parameters = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "IParameterInfo")), 1)->byval_arg;
+    static auto* arglist = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* parameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "IParameterInfo"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TypeHelper*), "ConvertArgumentList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{arglist, parameters});
   }
 };
@@ -126,8 +126,8 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::ArrayWrapper<::Il2CppObject*>, ByRef<::ArrayWrapper<System::Type*>>)>(&NUnit::Framework::Internal::TypeHelper::CanDeduceTypeArgsFromArgs)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* arglist = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
-    static auto* typeArgsOut = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Type")), 1)->this_arg;
+    static auto* arglist = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
+    static auto* typeArgsOut = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TypeHelper*), "CanDeduceTypeArgsFromArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, arglist, typeArgsOut});
   }
 };

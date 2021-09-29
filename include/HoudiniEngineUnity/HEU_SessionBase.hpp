@@ -1326,7 +1326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(::ArrayWrapper<uint8_t>, bool, ByRef<int>)>(&HoudiniEngineUnity::HEU_SessionBase::LoadAssetLibraryFromMemory)> {
   static const MethodInfo* get() {
-    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* bAllowOverwrite = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* libraryID = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "LoadAssetLibraryFromMemory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, bAllowOverwrite, libraryID});
@@ -1447,7 +1447,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<int>>, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetAvailableAssets)> {
   static const MethodInfo* get() {
     static auto* libraryID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* assetNames = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* assetNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* assetCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetAvailableAssets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{libraryID, assetNames, assetCount});
   }
@@ -1513,7 +1513,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ::ArrayWrapper<int>, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetComposedChildNodeList)> {
   static const MethodInfo* get() {
     static auto* parentNodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* childNodeIDs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* childNodeIDs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetComposedChildNodeList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parentNodeID, childNodeIDs, count});
   }
@@ -1586,7 +1586,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_ObjectInfo>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetComposedObjectList)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* objectInfos = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_ObjectInfo")), 1)->this_arg;
+    static auto* objectInfos = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_ObjectInfo"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetComposedObjectList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, objectInfos, start, length});
@@ -1599,7 +1599,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* rstOrder = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_RSTOrder")->byval_arg;
-    static auto* transforms = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_Transform")), 1)->this_arg;
+    static auto* transforms = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_Transform"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetComposedObjectTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, rstOrder, transforms, start, length});
@@ -1659,7 +1659,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* owner = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_AttributeOwner")->byval_arg;
-    static auto* attributeNames = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->this_arg;
+    static auto* attributeNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->this_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetAttributeNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, owner, attributeNames, count});
   }
@@ -1673,7 +1673,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* attributeInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_AttributeInfo")->this_arg;
-    static auto* dataArray = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* dataArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetAttributeStringData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, name, attributeInfo, dataArray, start, length});
@@ -1688,7 +1688,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* attributeInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_AttributeInfo")->this_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->this_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetAttributeFloatData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, name, attributeInfo, data, start, length});
@@ -1703,7 +1703,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* attributeInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_AttributeInfo")->this_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Double")), 1)->this_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Double"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetAttributeFloat64Data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, name, attributeInfo, data, start, length});
@@ -1718,7 +1718,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* attributeInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_AttributeInfo")->this_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetAttributeIntData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, name, attributeInfo, data, start, length});
@@ -1733,7 +1733,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* attributeInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_AttributeInfo")->this_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->this_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetAttributeUInt8Data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, name, attributeInfo, data, start, length});
@@ -1748,7 +1748,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* attributeInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_AttributeInfo")->this_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "SByte")), 1)->this_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "SByte"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetAttributeInt8Data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, name, attributeInfo, data, start, length});
@@ -1763,7 +1763,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* attributeInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_AttributeInfo")->this_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int16")), 1)->this_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int16"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetAttributeInt16Data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, name, attributeInfo, data, start, length});
@@ -1778,7 +1778,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* attributeInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_AttributeInfo")->this_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int64")), 1)->this_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int64"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetAttributeInt64Data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, name, attributeInfo, data, start, length});
@@ -1791,7 +1791,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* groupType = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_GroupType")->byval_arg;
-    static auto* names = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* names = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetGroupNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, groupType, names, count});
   }
@@ -1806,7 +1806,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* groupType = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_GroupType")->byval_arg;
     static auto* groupName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* membershipArrayAllEqual = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
-    static auto* membershipArray = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* membershipArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetGroupMembership", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, groupType, groupName, membershipArrayAllEqual, membershipArray, start, length});
@@ -1832,7 +1832,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* groupType = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_GroupType")->byval_arg;
-    static auto* groupNamesArray = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* groupNamesArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* groupCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetGroupNamesOnPackedInstancePart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, groupType, groupNamesArray, groupCount});
   }
@@ -1847,7 +1847,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* groupType = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_GroupType")->byval_arg;
     static auto* groupName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* membershipArrayAllEqual = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
-    static auto* membershipArray = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* membershipArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetGroupMembershipOnPackedInstancePart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, groupType, groupName, membershipArrayAllEqual, membershipArray, start, length});
@@ -1860,7 +1860,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* instancedPartsArray = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* instancedPartsArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetInstancedPartIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, instancedPartsArray, start, length});
@@ -1874,7 +1874,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* rstOrder = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_RSTOrder")->byval_arg;
-    static auto* transformsArray = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_Transform")), 1)->this_arg;
+    static auto* transformsArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_Transform"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetInstancerPartTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, rstOrder, transformsArray, start, length});
@@ -1888,7 +1888,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* rstOrder = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_RSTOrder")->byval_arg;
-    static auto* transformsArray = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_Transform")), 1)->this_arg;
+    static auto* transformsArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_Transform"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetInstanceTransformsOnPart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, rstOrder, transformsArray, start, length});
@@ -1900,7 +1900,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetInstancedObjectIds)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* instanced_node_id_array = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* instanced_node_id_array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetInstancedObjectIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, instanced_node_id_array, start, length});
@@ -1913,7 +1913,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* faceCounts = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* faceCounts = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetFaceCounts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, faceCounts, start, length});
@@ -1926,7 +1926,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* faceCounts = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* faceCounts = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* bLogError = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1940,7 +1940,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* vertexList = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* vertexList = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetVertexList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, vertexList, start, length});
@@ -1986,7 +1986,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* counts = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* counts = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetCurveCounts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, counts, start, length});
@@ -1999,7 +1999,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* orders = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* orders = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetCurveOrders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, orders, start, length});
@@ -2012,7 +2012,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* knots = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->this_arg;
+    static auto* knots = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetCurveKnots", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, knots, start, length});
@@ -2036,7 +2036,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* faceCounts = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* faceCounts = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "SetFaceCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, faceCounts, start, length});
@@ -2049,7 +2049,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* vertexList = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* vertexList = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "SetVertexList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, vertexList, start, length});
@@ -2064,7 +2064,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* attrInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_AttributeInfo")->this_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "SetAttributeIntData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, name, attrInfo, data, start, length});
@@ -2079,7 +2079,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* attrInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_AttributeInfo")->this_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "SByte")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "SByte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "SetAttributeInt8Data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, name, attrInfo, data, start, length});
@@ -2094,7 +2094,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* attrInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_AttributeInfo")->this_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int16")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int16"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "SetAttributeInt16Data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, name, attrInfo, data, start, length});
@@ -2109,7 +2109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* attrInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_AttributeInfo")->this_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int64")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int64"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "SetAttributeInt64Data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, name, attrInfo, data, start, length});
@@ -2124,7 +2124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* attrInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_AttributeInfo")->this_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "SetAttributeFloatData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, name, attrInfo, data, start, length});
@@ -2139,7 +2139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* attrInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_AttributeInfo")->this_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "SetAttributeStringData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, name, attrInfo, data, start, length});
@@ -2190,7 +2190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* groupType = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_GroupType")->byval_arg;
     static auto* groupName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* membershipArray = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* membershipArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "SetGroupMembership", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, groupType, groupName, membershipArray, start, length});
@@ -2232,7 +2232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* counts = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* counts = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "SetCurveCounts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, counts, start, length});
@@ -2245,7 +2245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* orders = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* orders = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "SetCurveOrders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, orders, start, length});
@@ -2258,7 +2258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* knots = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* knots = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "SetCurveKnots", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, knots, start, length});
@@ -2283,7 +2283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* bSingleFaceMaterial = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
-    static auto* materialNodeIDs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* materialNodeIDs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* faceCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetMaterialNodeIDsOnFaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, bSingleFaceMaterial, materialNodeIDs, faceCount});
   }
@@ -2347,7 +2347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* fileFormat = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* imagePlanes = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* buffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->this_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "ExtractImageToMemory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, fileFormat, imagePlanes, buffer});
   }
 };
@@ -2357,7 +2357,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<int>>, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetImagePlanes)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* imagePlanes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* imagePlanes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* numImagePlanes = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetImagePlanes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, imagePlanes, numImagePlanes});
   }
@@ -2381,7 +2381,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_ParmInfo>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetParams)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* parmInfos = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_ParmInfo")), 1)->this_arg;
+    static auto* parmInfos = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_ParmInfo"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, parmInfos, start, length});
@@ -2429,7 +2429,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetParamIntValues)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* values = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetParamIntValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, values, start, length});
@@ -2453,7 +2453,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<float>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetParamFloatValues)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* values = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->this_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetParamFloatValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, values, start, length});
@@ -2477,7 +2477,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetParamStringValues)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* values = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetParamStringValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, values, start, length});
@@ -2512,7 +2512,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_ParmChoiceInfo>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetParamChoiceValues)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* values = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_ParmChoiceInfo")), 1)->this_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_ParmChoiceInfo"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetParamChoiceValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, values, start, length});
@@ -2524,7 +2524,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetParamIntValues)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* values = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "SetParamIntValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, values, start, length});
@@ -2548,7 +2548,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<float>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetParamFloatValues)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* values = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->this_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "SetParamFloatValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, values, start, length});
@@ -2727,7 +2727,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<uint8_t>>)>(&HoudiniEngineUnity::HEU_SessionBase::GetPreset)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* presetData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->this_arg;
+    static auto* presetData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, presetData});
   }
 };
@@ -2737,7 +2737,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ::ArrayWrapper<uint8_t>)>(&HoudiniEngineUnity::HEU_SessionBase::SetPreset)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* presetData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* presetData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "SetPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, presetData});
   }
 };
@@ -2759,7 +2759,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* valuesArray = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* valuesArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetHeightFieldData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, valuesArray, start, length});
@@ -2784,7 +2784,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* tileInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_VolumeTileInfo")->this_arg;
-    static auto* valuesArray = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* valuesArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "SetVolumeTileFloatData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, tileInfo, valuesArray, length});
   }
@@ -2816,7 +2816,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* valuesArray = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* valuesArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "SetHeightFieldData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, partID, name, valuesArray, start, length});
@@ -2836,7 +2836,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(ByRef<::ArrayWrapper<int>>, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetActiveCacheNames)> {
   static const MethodInfo* get() {
-    static auto* cacheNamesArray = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* cacheNamesArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* activeCacheCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetActiveCacheNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cacheNamesArray, activeCacheCount});
   }
@@ -2923,7 +2923,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_HandleInfo>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetHandleInfo)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* handleInfos = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_HandleInfo")), 1)->this_arg;
+    static auto* handleInfos = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_HandleInfo"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetHandleInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, handleInfos, start, length});
@@ -2936,7 +2936,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* handleIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* handleBindingInfos = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_HandleBindingInfo")), 1)->this_arg;
+    static auto* handleBindingInfos = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_HandleBindingInfo"), 1)->this_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionBase*), "GetHandleBindingInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeID, handleIndex, handleBindingInfos, start, length});

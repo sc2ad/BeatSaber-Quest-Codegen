@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
   static const MethodInfo* get() {
     static auto* bucket = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* counter = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* extraData = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CloudStorage*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bucket, key, data, counter, extraData});

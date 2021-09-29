@@ -98,7 +98,7 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::TMPro_ExtensionMethods*, "TMPro", "TMPro_Extension
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<::Il2CppChar>)>(&TMPro::TMPro_ExtensionMethods::ArrayToString)> {
   static const MethodInfo* get() {
-    static auto* chars = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Char")), 1)->byval_arg;
+    static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_ExtensionMethods*), "ArrayToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chars});
   }
 };
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<int>)>(&TMPro::TMPro_ExtensionMethods::IntToString)> {
   static const MethodInfo* get() {
-    static auto* unicodes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* unicodes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_ExtensionMethods*), "IntToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unicodes});
   }
 };
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<int>, int, int)>(&TMPro::TMPro_ExtensionMethods::IntToString)> {
   static const MethodInfo* get() {
-    static auto* unicodes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* unicodes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_ExtensionMethods*), "IntToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unicodes, start, length});

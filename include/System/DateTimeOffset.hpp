@@ -318,7 +318,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppString*>, System::IFormatProvider*, System::Globalization::DateTimeStyles, ByRef<System::DateTimeOffset>)>(&System::DateTimeOffset::TryParseExact)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* formats = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* formats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* formatProvider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     static auto* styles = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeStyles")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeOffset")->this_arg;

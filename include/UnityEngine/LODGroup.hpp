@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::LODGroup::*)(::ArrayWrapper<UnityEngine::LOD>)>(&UnityEngine::LODGroup::SetLODs)> {
   static const MethodInfo* get() {
-    static auto* lods = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "LOD")), 1)->byval_arg;
+    static auto* lods = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "LOD"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::LODGroup*), "SetLODs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lods});
   }
 };

@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint8_t>, uint8_t)>(&Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::IsCompressionPreferred)> {
   static const MethodInfo* get() {
-    static auto* ecPointFormats = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* ecPointFormats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* compressionFormat = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::TlsEccUtilities*), "IsCompressionPreferred", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ecPointFormats, compressionFormat});
   }
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>, Org::BouncyCastle::Math::EC::ECPoint*)>(&Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::SerializeECPoint)> {
   static const MethodInfo* get() {
-    static auto* ecPointFormats = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* ecPointFormats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* point = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::TlsEccUtilities*), "SerializeECPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ecPointFormats, point});
   }
@@ -155,9 +155,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(::ArrayWrapper<uint8_t>, Org::BouncyCastle::Math::EC::ECCurve*, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::DeserializeECPoint)> {
   static const MethodInfo* get() {
-    static auto* ecPointFormats = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* ecPointFormats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* curve = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECCurve")->byval_arg;
-    static auto* encoding = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* encoding = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::TlsEccUtilities*), "DeserializeECPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ecPointFormats, curve, encoding});
   }
 };
@@ -166,9 +166,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* (*)(::ArrayWrapper<uint8_t>, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::DeserializeECPublicKey)> {
   static const MethodInfo* get() {
-    static auto* ecPointFormats = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* ecPointFormats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* curve_params = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto.Parameters", "ECDomainParameters")->byval_arg;
-    static auto* encoding = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* encoding = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::TlsEccUtilities*), "DeserializeECPublicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ecPointFormats, curve_params, encoding});
   }
 };
@@ -188,7 +188,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* (*)(Org::BouncyCastle::Security::SecureRandom*, ::ArrayWrapper<uint8_t>, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*, System::IO::Stream*)>(&Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::GenerateEphemeralClientKeyExchange)> {
   static const MethodInfo* get() {
     static auto* random = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Security", "SecureRandom")->byval_arg;
-    static auto* ecPointFormats = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* ecPointFormats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* ecParams = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto.Parameters", "ECDomainParameters")->byval_arg;
     static auto* output = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::TlsEccUtilities*), "GenerateEphemeralClientKeyExchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{random, ecPointFormats, ecParams, output});
@@ -208,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, Org::BouncyCastle::Math::EC::ECPoint*, System::IO::Stream*)>(&Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::WriteECPoint)> {
   static const MethodInfo* get() {
-    static auto* ecPointFormats = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* ecPointFormats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* point = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint")->byval_arg;
     static auto* output = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::TlsEccUtilities*), "WriteECPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ecPointFormats, point, output});

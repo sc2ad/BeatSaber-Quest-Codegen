@@ -161,12 +161,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pose (GlobalNamespace::MockPlayerGamePoseGeneratorAI::*)(::ArrayWrapper<GlobalNamespace::MockNoteData*>, UnityEngine::Vector3, ByRef<int>, ByRef<int>, ByRef<int>, ::ArrayWrapper<GlobalNamespace::MockNoteData*>, ByRef<int>, int, float, ByRef<bool>)>(&GlobalNamespace::MockPlayerGamePoseGeneratorAI::ProcessNotes)> {
   static const MethodInfo* get() {
-    static auto* notes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "MockNoteData")), 1)->byval_arg;
+    static auto* notes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "MockNoteData"), 1)->byval_arg;
     static auto* handDirection = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* noteIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* prevHitScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* nextHitScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
-    static auto* bombs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "MockNoteData")), 1)->byval_arg;
+    static auto* bombs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "MockNoteData"), 1)->byval_arg;
     static auto* bombIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* lineCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* songTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pose (GlobalNamespace::MockPlayerGamePoseGeneratorAI::*)(::ArrayWrapper<GlobalNamespace::MockObstacleData*>, ByRef<int>, int, UnityEngine::Pose, UnityEngine::Pose, UnityEngine::Pose, float)>(&GlobalNamespace::MockPlayerGamePoseGeneratorAI::ProcessObstacles)> {
   static const MethodInfo* get() {
-    static auto* obstacles = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "MockObstacleData")), 1)->byval_arg;
+    static auto* obstacles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "MockObstacleData"), 1)->byval_arg;
     static auto* obstacleIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* lineCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* prevHeadPose = &::il2cpp_utils::GetClassFromName("UnityEngine", "Pose")->byval_arg;

@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, System::IO::Stream*)>(&Org::BouncyCastle::Crypto::Tls::TlsUtilities::WriteOpaque8)> {
   static const MethodInfo* get() {
-    static auto* buf = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* output = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::TlsUtilities*), "WriteOpaque8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buf, output});
   }
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, System::IO::Stream*)>(&Org::BouncyCastle::Crypto::Tls::TlsUtilities::WriteOpaque16)> {
   static const MethodInfo* get() {
-    static auto* buf = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* output = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::TlsUtilities*), "WriteOpaque16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buf, output});
   }
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, System::IO::Stream*)>(&Org::BouncyCastle::Crypto::Tls::TlsUtilities::ReadFully)> {
   static const MethodInfo* get() {
-    static auto* buf = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* input = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::TlsUtilities*), "ReadFully", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buf, input});
   }

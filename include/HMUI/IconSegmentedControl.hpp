@@ -192,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::IconSegmentedControl::*)(::ArrayWrapper<HMUI::IconSegmentedControl::DataItem*>)>(&HMUI::IconSegmentedControl::SetData)> {
   static const MethodInfo* get() {
-    static auto* dataItems = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("HMUI", "IconSegmentedControl/DataItem")), 1)->byval_arg;
+    static auto* dataItems = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HMUI", "IconSegmentedControl/DataItem"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::IconSegmentedControl*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dataItems});
   }
 };

@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperoneSetup::_GetLivePhysicalBoundsInfo*
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::*)(ByRef<::ArrayWrapper<Valve::VR::HmdQuad_t>>, ByRef<uint>)>(&Valve::VR::IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::Invoke)> {
   static const MethodInfo* get() {
-    static auto* pQuadsBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Valve.VR", "HmdQuad_t")), 1)->this_arg;
+    static auto* pQuadsBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "HmdQuad_t"), 1)->this_arg;
     static auto* punQuadsCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRChaperoneSetup::_GetLivePhysicalBoundsInfo*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pQuadsBuffer, punQuadsCount});
   }
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::*)(ByRef<::ArrayWrapper<Valve::VR::HmdQuad_t>>, ByRef<uint>, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRChaperoneSetup::_GetLivePhysicalBoundsInfo::BeginInvoke)> {
   static const MethodInfo* get() {
-    static auto* pQuadsBuffer = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("Valve.VR", "HmdQuad_t")), 1)->this_arg;
+    static auto* pQuadsBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "HmdQuad_t"), 1)->this_arg;
     static auto* punQuadsCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

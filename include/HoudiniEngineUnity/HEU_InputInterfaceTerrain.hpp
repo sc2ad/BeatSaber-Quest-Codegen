@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* volumeNodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* heightValues = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Single")), 1)->byval_arg;
+    static auto* heightValues = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* heightFieldName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* baseVolumeInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_VolumeInfo")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InputInterfaceTerrain*), "SetHeightFieldData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{session, volumeNodeID, partID, heightValues, heightFieldName, baseVolumeInfo});

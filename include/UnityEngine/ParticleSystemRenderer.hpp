@@ -43,7 +43,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystemRenderer*, "UnityEngine", "Par
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ParticleSystemRenderer::*)(ByRef<::ArrayWrapper<UnityEngine::Mesh*>>)>(&UnityEngine::ParticleSystemRenderer::GetMeshes)> {
   static const MethodInfo* get() {
-    static auto* meshes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")), 1)->this_arg;
+    static auto* meshes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystemRenderer*), "GetMeshes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{meshes});
   }
 };

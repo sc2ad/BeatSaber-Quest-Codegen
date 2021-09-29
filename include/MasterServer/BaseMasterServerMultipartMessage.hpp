@@ -234,7 +234,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::BaseMasterServerMultipartMessage* (MasterServer::BaseMasterServerMultipartMessage::*)(uint, ::ArrayWrapper<uint8_t>, int, int, int)>(&MasterServer::BaseMasterServerMultipartMessage::Init)> {
   static const MethodInfo* get() {
     static auto* multipartMessageId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* totalLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

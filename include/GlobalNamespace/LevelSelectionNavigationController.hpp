@@ -434,7 +434,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* songPackMask = &::il2cpp_utils::GetClassFromName("", "SongPackMask")->byval_arg;
     static auto* allowedBeatmapDifficultyMask = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficultyMask")->byval_arg;
-    static auto* notAllowedCharacteristics = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO")), 1)->byval_arg;
+    static auto* notAllowedCharacteristics = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO"), 1)->byval_arg;
     static auto* hidePacksIfOneOrNone = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* hidePracticeButton = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* showPlayerStatsInDetailView = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

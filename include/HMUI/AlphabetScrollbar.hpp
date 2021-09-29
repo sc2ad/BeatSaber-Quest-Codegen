@@ -239,7 +239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::AlphabetScrollbar::*)(::ArrayWrapper<GlobalNamespace::AlphabetScrollInfo::Data*>)>(&HMUI::AlphabetScrollbar::SetData)> {
   static const MethodInfo* get() {
-    static auto* characterScrollData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "AlphabetScrollInfo/Data")), 1)->byval_arg;
+    static auto* characterScrollData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "AlphabetScrollInfo/Data"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::AlphabetScrollbar*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{characterScrollData});
   }
 };

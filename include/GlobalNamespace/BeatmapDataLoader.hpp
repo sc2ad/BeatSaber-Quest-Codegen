@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapData* (GlobalNamespace::BeatmapDataLoader::*)(::ArrayWrapper<uint8_t>, float, float, float)>(&GlobalNamespace::BeatmapDataLoader::GetBeatmapDataFromBinary)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* startBPM = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* shuffle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* shufflePeriod = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -228,7 +228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapSaveData::ITime* (*)(::ArrayWrapper<GlobalNamespace::BeatmapSaveData::ITime*>)>(&GlobalNamespace::BeatmapDataLoader::$GetBeatmapDataFromBeatmapSaveData$g__SortBeatmapSaveDataObjects_2_3)> {
   static const MethodInfo* get() {
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("", "BeatmapSaveData/ITime")), 1)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "BeatmapSaveData/ITime"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataLoader*), "<GetBeatmapDataFromBeatmapSaveData>g__SortBeatmapSaveDataObjects|2_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }
 };

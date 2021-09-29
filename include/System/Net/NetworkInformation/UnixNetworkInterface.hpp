@@ -131,7 +131,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::UnixNetworkInterface::*)(int, ::ArrayWrapper<uint8_t>, System::Net::NetworkInformation::NetworkInterfaceType)>(&System::Net::NetworkInformation::UnixNetworkInterface::SetLinkLayerInfo)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* macAddress = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Byte")), 1)->byval_arg;
+    static auto* macAddress = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System.Net.NetworkInformation", "NetworkInterfaceType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnixNetworkInterface*), "SetLinkLayerInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index, macAddress, type});
   }

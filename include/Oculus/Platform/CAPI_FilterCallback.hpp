@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::FilterCallback*, "Oculus.Platform
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::CAPI::FilterCallback::*)(ByRef<::ArrayWrapper<int16_t>>, System::UIntPtr, int, int)>(&Oculus::Platform::CAPI::FilterCallback::Invoke)> {
   static const MethodInfo* get() {
-    static auto* pcmData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int16")), 1)->this_arg;
+    static auto* pcmData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int16"), 1)->this_arg;
     static auto* pcmDataLength = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     static auto* frequency = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* numChannels = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Oculus::Platform::CAPI::FilterCallback::*)(ByRef<::ArrayWrapper<int16_t>>, System::UIntPtr, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&Oculus::Platform::CAPI::FilterCallback::BeginInvoke)> {
   static const MethodInfo* get() {
-    static auto* pcmData = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int16")), 1)->this_arg;
+    static auto* pcmData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int16"), 1)->this_arg;
     static auto* pcmDataLength = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     static auto* frequency = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* numChannels = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

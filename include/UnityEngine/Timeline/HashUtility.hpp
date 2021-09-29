@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<int>)>(&UnityEngine::Timeline::HashUtility::CombineHash)> {
   static const MethodInfo* get() {
-    static auto* hashes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* hashes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::HashUtility*), "CombineHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hashes});
   }
 };

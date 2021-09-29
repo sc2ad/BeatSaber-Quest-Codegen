@@ -306,7 +306,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<System::Text::StringBuilder*>, ByRef<::ArrayWrapper<int>>, ::Il2CppString*, int, int, ByRef<int>)>(&System::Text::Normalization::DecomposeChar)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->this_arg;
-    static auto* buf = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->this_arg;
+    static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* checkType = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -330,7 +330,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, ::ArrayWrapper<int>, int)>(&System::Text::Normalization::GetCanonicalHangul)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* buf = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* bufIdx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "GetCanonicalHangul", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, buf, bufIdx});
   }
@@ -341,7 +341,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, ::ArrayWrapper<int>, int, int)>(&System::Text::Normalization::GetCanonical)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* buf = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* bufIdx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* checkType = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "GetCanonical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c, buf, bufIdx, checkType});

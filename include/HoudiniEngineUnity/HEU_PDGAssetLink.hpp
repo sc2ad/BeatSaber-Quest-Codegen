@@ -567,7 +567,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* topNetwork = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_TOPNetworkData")->byval_arg;
-    static auto* topNodeIDs = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int32")), 1)->byval_arg;
+    static auto* topNodeIDs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* useHEngineData = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PDGAssetLink*), "PopulateTOPNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{session, topNetwork, topNodeIDs, useHEngineData});
   }
@@ -777,7 +777,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* topNode = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_TOPNodeData")->byval_arg;
     static auto* workItemInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_PDG_WorkitemInfo")->byval_arg;
-    static auto* resultInfos = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_PDG_WorkitemResultInfo")), 1)->byval_arg;
+    static auto* resultInfos = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_PDG_WorkitemResultInfo"), 1)->byval_arg;
     static auto* workItemID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PDGAssetLink*), "LoadResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{session, topNode, workItemInfo, resultInfos, workItemID});
   }

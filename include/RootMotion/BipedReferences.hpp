@@ -391,7 +391,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ro
     static auto* firstBone = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->this_arg;
     static auto* secondBone = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->this_arg;
     static auto* lastBone = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->this_arg;
-    static auto* transforms = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")), 1)->byval_arg;
+    static auto* transforms = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "DetectLimb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneType, boneSide, firstBone, secondBone, lastBone, transforms});
   }
 };
@@ -400,7 +400,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::ArrayWrapper<UnityEngine::Transform*>>, UnityEngine::Transform*)>(&RootMotion::BipedReferences::AddBoneToHierarchy)> {
   static const MethodInfo* get() {
-    static auto* bones = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")), 1)->this_arg;
+    static auto* bones = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->this_arg;
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "AddBoneToHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bones, transform});
   }

@@ -76,8 +76,8 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, ByRef<::ArrayWrapper<int64_t>>, ByRef<::ArrayWrapper<::Il2CppString*>>, ByRef<bool>)>(&System::CurrentSystemTimeZone::GetTimeZoneData)> {
   static const MethodInfo* get() {
     static auto* year = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* data = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Int64")), 1)->this_arg;
-    static auto* names = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->this_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int64"), 1)->this_arg;
+    static auto* names = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->this_arg;
     static auto* daylight_inverted = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::CurrentSystemTimeZone*), "GetTimeZoneData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{year, data, names, daylight_inverted});
   }

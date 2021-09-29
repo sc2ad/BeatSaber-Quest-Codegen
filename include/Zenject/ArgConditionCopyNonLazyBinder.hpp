@@ -145,7 +145,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ArgConditionCopyNonLazyBinder*, "Zenject", "ArgC
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InstantiateCallbackConditionCopyNonLazyBinder* (Zenject::ArgConditionCopyNonLazyBinder::*)(::ArrayWrapper<::Il2CppObject*>)>(&Zenject::ArgConditionCopyNonLazyBinder::WithArguments)> {
   static const MethodInfo* get() {
-    static auto* args = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "Object")), 1)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ArgConditionCopyNonLazyBinder*), "WithArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
   }
 };

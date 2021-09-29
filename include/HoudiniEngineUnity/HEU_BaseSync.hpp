@@ -592,7 +592,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     static auto* instanceIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* parentTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* hapiTransform = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_Transform")->this_arg;
-    static auto* instancePrefixes = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* instancePrefixes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* instanceName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* collisionSourceGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_BaseSync*), "CreateNewInstanceFromObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assetSourceGO, instanceIndex, parentTransform, hapiTransform, instancePrefixes, instanceName, collisionSourceGO});

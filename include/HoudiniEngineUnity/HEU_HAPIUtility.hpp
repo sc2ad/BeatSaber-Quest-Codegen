@@ -359,7 +359,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* assetPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* assetLibraryID = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
-    static auto* assetNames = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->this_arg;
+    static auto* assetNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HAPIUtility*), "LoadHDAFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{session, assetPath, assetLibraryID, assetNames});
   }
 };
@@ -763,8 +763,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* assetID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* nodeInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_NodeInfo")->this_arg;
-    static auto* objectInfos = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_ObjectInfo")), 1)->this_arg;
-    static auto* objectTransforms = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_Transform")), 1)->this_arg;
+    static auto* objectInfos = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_ObjectInfo"), 1)->this_arg;
+    static auto* objectTransforms = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_Transform"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HAPIUtility*), "GetObjectInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{session, assetID, nodeInfo, objectInfos, objectTransforms});
   }
 };

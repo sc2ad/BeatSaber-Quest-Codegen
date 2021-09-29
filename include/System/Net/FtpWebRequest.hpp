@@ -975,7 +975,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::FtpStatus* (System::Net::FtpWebRequest::*)(::Il2CppString*, ::ArrayWrapper<::Il2CppString*>)>(&System::Net::FtpWebRequest::SendCommand)> {
   static const MethodInfo* get() {
     static auto* command = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* parameters = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* parameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::FtpWebRequest*), "SendCommand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{command, parameters});
   }
 };
@@ -986,7 +986,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
   static const MethodInfo* get() {
     static auto* waitResponse = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* command = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* parameters = &il2cpp_functions::array_class_get(static_cast<Il2CppArray*>(::il2cpp_utils::GetClassFromName("System", "String")), 1)->byval_arg;
+    static auto* parameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::FtpWebRequest*), "SendCommand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{waitResponse, command, parameters});
   }
 };
