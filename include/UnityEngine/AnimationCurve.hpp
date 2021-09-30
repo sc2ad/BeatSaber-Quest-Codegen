@@ -61,16 +61,6 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AnimationCurve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimationCurve*, creationType>(keys)));
     }
-    // Creating initializer_list -> params proxy for: System.Void .ctor(params UnityEngine.Keyframe[] keys)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AnimationCurve* New_ctor(std::initializer_list<UnityEngine::Keyframe> keys) {
-      return New_ctor<creationType>(::ArrayWrapper<UnityEngine::Keyframe>(keys));
-    }
-    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(params UnityEngine.Keyframe[] keys)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
-    static AnimationCurve* New_ctor(TParams&&... keys) {
-      return New_ctor<creationType>({keys...});
-    }
     // static private System.Void Internal_Destroy(System.IntPtr ptr)
     // Offset: 0x1CAA1BC
     static void Internal_Destroy(System::IntPtr ptr);

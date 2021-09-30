@@ -347,26 +347,12 @@ namespace UnityEngine::AddressableAssets {
     // public System.Void LogFormat(System.String format, params System.Object[] args)
     // Offset: 0x158A118
     void LogFormat(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void LogFormat(System.String format, params System.Object[] args)
-    void LogFormat(::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void LogFormat(System.String format, params System.Object[] args)
-    template<class ...TParams>
-    void LogFormat(::Il2CppString* format, TParams&&... args) {
-      LogFormat(format, {args...});
-    }
     // public System.Void LogWarning(System.String msg)
     // Offset: 0x1589D98
     void LogWarning(::Il2CppString* msg);
     // public System.Void LogWarningFormat(System.String format, params System.Object[] args)
     // Offset: 0x158A028
     void LogWarningFormat(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void LogWarningFormat(System.String format, params System.Object[] args)
-    void LogWarningFormat(::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void LogWarningFormat(System.String format, params System.Object[] args)
-    template<class ...TParams>
-    void LogWarningFormat(::Il2CppString* format, TParams&&... args) {
-      LogWarningFormat(format, {args...});
-    }
     // public System.Void LogError(System.String msg)
     // Offset: 0x1589E00
     void LogError(::Il2CppString* msg);
@@ -376,13 +362,6 @@ namespace UnityEngine::AddressableAssets {
     // public System.Void LogErrorFormat(System.String format, params System.Object[] args)
     // Offset: 0x158A0A0
     void LogErrorFormat(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void LogErrorFormat(System.String format, params System.Object[] args)
-    void LogErrorFormat(::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void LogErrorFormat(System.String format, params System.Object[] args)
-    template<class ...TParams>
-    void LogErrorFormat(::Il2CppString* format, TParams&&... args) {
-      LogErrorFormat(format, {args...});
-    }
     // public System.String ResolveInternalId(System.String id)
     // Offset: 0x15893F8
     ::Il2CppString* ResolveInternalId(::Il2CppString* id);

@@ -96,49 +96,21 @@ namespace UnityEngine::ProBuilder {
     // static public System.Void Debug(System.String format, params System.Object[] values)
     // Offset: 0x1C7C690
     static void Debug(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> values);
-    // Creating initializer_list -> params proxy for: System.Void Debug(System.String format, params System.Object[] values)
-    static void Debug(::Il2CppString* format, std::initializer_list<::Il2CppObject*> values);
-    // Creating TArgs -> initializer_list proxy for: System.Void Debug(System.String format, params System.Object[] values)
-    template<class ...TParams>
-    static void Debug(::Il2CppString* format, TParams&&... values) {
-      Debug(format, {values...});
-    }
     // static public System.Void Info(System.String format, params System.Object[] values)
     // Offset: 0x1C7C694
     static void Info(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> values);
-    // Creating initializer_list -> params proxy for: System.Void Info(System.String format, params System.Object[] values)
-    static void Info(::Il2CppString* format, std::initializer_list<::Il2CppObject*> values);
-    // Creating TArgs -> initializer_list proxy for: System.Void Info(System.String format, params System.Object[] values)
-    template<class ...TParams>
-    static void Info(::Il2CppString* format, TParams&&... values) {
-      Info(format, {values...});
-    }
     // static public System.Void Info(System.String message)
     // Offset: 0x1C7C71C
     static void Info(::Il2CppString* message);
     // static public System.Void Warning(System.String format, params System.Object[] values)
     // Offset: 0x1C7C7B4
     static void Warning(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> values);
-    // Creating initializer_list -> params proxy for: System.Void Warning(System.String format, params System.Object[] values)
-    static void Warning(::Il2CppString* format, std::initializer_list<::Il2CppObject*> values);
-    // Creating TArgs -> initializer_list proxy for: System.Void Warning(System.String format, params System.Object[] values)
-    template<class ...TParams>
-    static void Warning(::Il2CppString* format, TParams&&... values) {
-      Warning(format, {values...});
-    }
     // static public System.Void Warning(System.String message)
     // Offset: 0x1C7C83C
     static void Warning(::Il2CppString* message);
     // static public System.Void Error(System.String format, params System.Object[] values)
     // Offset: 0x1C7C8D4
     static void Error(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> values);
-    // Creating initializer_list -> params proxy for: System.Void Error(System.String format, params System.Object[] values)
-    static void Error(::Il2CppString* format, std::initializer_list<::Il2CppObject*> values);
-    // Creating TArgs -> initializer_list proxy for: System.Void Error(System.String format, params System.Object[] values)
-    template<class ...TParams>
-    static void Error(::Il2CppString* format, TParams&&... values) {
-      Error(format, {values...});
-    }
     // static public System.Void Error(System.String message)
     // Offset: 0x1C7C95C
     static void Error(::Il2CppString* message);

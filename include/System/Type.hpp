@@ -414,13 +414,6 @@ namespace System {
     // public System.Type MakeGenericType(params System.Type[] typeArguments)
     // Offset: 0x252E5B0
     System::Type* MakeGenericType(::ArrayWrapper<System::Type*> typeArguments);
-    // Creating initializer_list -> params proxy for: System.Type MakeGenericType(params System.Type[] typeArguments)
-    System::Type* MakeGenericType(std::initializer_list<System::Type*> typeArguments);
-    // Creating TArgs -> initializer_list proxy for: System.Type MakeGenericType(params System.Type[] typeArguments)
-    template<class ...TParams>
-    System::Type* MakeGenericType(TParams&&... typeArguments) {
-      return MakeGenericType({typeArguments...});
-    }
     // protected System.Boolean IsContextfulImpl()
     // Offset: 0x252E630
     bool IsContextfulImpl();

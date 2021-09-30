@@ -207,23 +207,9 @@ namespace ModestTree {
     // static public Zenject.ZenjectException CreateException(System.String message, params System.Object[] parameters)
     // Offset: 0x14EC4A8
     static Zenject::ZenjectException* CreateException(::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> parameters);
-    // Creating initializer_list -> params proxy for: Zenject.ZenjectException CreateException(System.String message, params System.Object[] parameters)
-    static Zenject::ZenjectException* CreateException(::Il2CppString* message, std::initializer_list<::Il2CppObject*> parameters);
-    // Creating TArgs -> initializer_list proxy for: Zenject.ZenjectException CreateException(System.String message, params System.Object[] parameters)
-    template<class ...TParams>
-    static Zenject::ZenjectException* CreateException(::Il2CppString* message, TParams&&... parameters) {
-      return CreateException(message, {parameters...});
-    }
     // static public Zenject.ZenjectException CreateException(System.Exception innerException, System.String message, params System.Object[] parameters)
     // Offset: 0x14EDCB4
     static Zenject::ZenjectException* CreateException(System::Exception* innerException, ::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> parameters);
-    // Creating initializer_list -> params proxy for: Zenject.ZenjectException CreateException(System.Exception innerException, System.String message, params System.Object[] parameters)
-    static Zenject::ZenjectException* CreateException(System::Exception* innerException, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> parameters);
-    // Creating TArgs -> initializer_list proxy for: Zenject.ZenjectException CreateException(System.Exception innerException, System.String message, params System.Object[] parameters)
-    template<class ...TParams>
-    static Zenject::ZenjectException* CreateException(System::Exception* innerException, ::Il2CppString* message, TParams&&... parameters) {
-      return CreateException(innerException, message, {parameters...});
-    }
   }; // ModestTree.Assert
   #pragma pack(pop)
 }

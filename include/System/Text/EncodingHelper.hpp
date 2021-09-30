@@ -58,13 +58,6 @@ namespace System::Text {
     // static System.Object InvokeI18N(System.String name, params System.Object[] args)
     // Offset: 0x1F0E218
     static ::Il2CppObject* InvokeI18N(::Il2CppString* name, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Object InvokeI18N(System.String name, params System.Object[] args)
-    static ::Il2CppObject* InvokeI18N(::Il2CppString* name, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Object InvokeI18N(System.String name, params System.Object[] args)
-    template<class ...TParams>
-    static ::Il2CppObject* InvokeI18N(::Il2CppString* name, TParams&&... args) {
-      return InvokeI18N(name, {args...});
-    }
   }; // System.Text.EncodingHelper
   #pragma pack(pop)
 }

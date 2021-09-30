@@ -38,13 +38,6 @@ namespace Zenject {
     // static public System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateDefaultArgs(params System.Type[] argTypes)
     // Offset: 0x25EDD80
     static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateDefaultArgs(::ArrayWrapper<System::Type*> argTypes);
-    // Creating initializer_list -> params proxy for: System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateDefaultArgs(params System.Type[] argTypes)
-    static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateDefaultArgs(std::initializer_list<System::Type*> argTypes);
-    // Creating TArgs -> initializer_list proxy for: System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateDefaultArgs(params System.Type[] argTypes)
-    template<class ...TParams>
-    static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateDefaultArgs(TParams&&... argTypes) {
-      return CreateDefaultArgs({argTypes...});
-    }
   }; // Zenject.ValidationUtil
   #pragma pack(pop)
 }

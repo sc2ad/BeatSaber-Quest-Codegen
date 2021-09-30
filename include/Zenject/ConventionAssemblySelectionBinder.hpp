@@ -91,13 +91,6 @@ namespace Zenject {
     // public System.Void FromAssembliesContaining(params System.Type[] types)
     // Offset: 0x14FA2D0
     void FromAssembliesContaining(::ArrayWrapper<System::Type*> types);
-    // Creating initializer_list -> params proxy for: System.Void FromAssembliesContaining(params System.Type[] types)
-    void FromAssembliesContaining(std::initializer_list<System::Type*> types);
-    // Creating TArgs -> initializer_list proxy for: System.Void FromAssembliesContaining(params System.Type[] types)
-    template<class ...TParams>
-    void FromAssembliesContaining(TParams&&... types) {
-      FromAssembliesContaining({types...});
-    }
     // public System.Void FromAssembliesContaining(System.Collections.Generic.IEnumerable`1<System.Type> types)
     // Offset: 0x14FA2D4
     void FromAssembliesContaining(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
@@ -110,13 +103,6 @@ namespace Zenject {
     // public System.Void FromAssemblies(params System.Reflection.Assembly[] assemblies)
     // Offset: 0x14FA560
     void FromAssemblies(::ArrayWrapper<System::Reflection::Assembly*> assemblies);
-    // Creating initializer_list -> params proxy for: System.Void FromAssemblies(params System.Reflection.Assembly[] assemblies)
-    void FromAssemblies(std::initializer_list<System::Reflection::Assembly*> assemblies);
-    // Creating TArgs -> initializer_list proxy for: System.Void FromAssemblies(params System.Reflection.Assembly[] assemblies)
-    template<class ...TParams>
-    void FromAssemblies(TParams&&... assemblies) {
-      FromAssemblies({assemblies...});
-    }
     // public System.Void FromAssemblies(System.Collections.Generic.IEnumerable`1<System.Reflection.Assembly> assemblies)
     // Offset: 0x14FA3F0
     void FromAssemblies(System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>* assemblies);

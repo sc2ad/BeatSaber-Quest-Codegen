@@ -150,13 +150,6 @@ namespace System::IO {
     // static public System.String Combine(params System.String[] paths)
     // Offset: 0x1AC0F98
     static ::Il2CppString* Combine(::ArrayWrapper<::Il2CppString*> paths);
-    // Creating initializer_list -> params proxy for: System.String Combine(params System.String[] paths)
-    static ::Il2CppString* Combine(std::initializer_list<::Il2CppString*> paths);
-    // Creating TArgs -> initializer_list proxy for: System.String Combine(params System.String[] paths)
-    template<class ...TParams>
-    static ::Il2CppString* Combine(TParams&&... paths) {
-      return Combine({paths...});
-    }
     // static public System.String Combine(System.String path1, System.String path2, System.String path3)
     // Offset: 0x1AC12A4
     static ::Il2CppString* Combine(::Il2CppString* path1, ::Il2CppString* path2, ::Il2CppString* path3);

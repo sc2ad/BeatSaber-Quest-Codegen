@@ -1246,13 +1246,6 @@ namespace Zenject {
     // public Zenject.ConcreteIdBinderNonGeneric Bind(params System.Type[] contractTypes)
     // Offset: 0x14F9FD4
     Zenject::ConcreteIdBinderNonGeneric* Bind(::ArrayWrapper<System::Type*> contractTypes);
-    // Creating initializer_list -> params proxy for: Zenject.ConcreteIdBinderNonGeneric Bind(params System.Type[] contractTypes)
-    Zenject::ConcreteIdBinderNonGeneric* Bind(std::initializer_list<System::Type*> contractTypes);
-    // Creating TArgs -> initializer_list proxy for: Zenject.ConcreteIdBinderNonGeneric Bind(params System.Type[] contractTypes)
-    template<class ...TParams>
-    Zenject::ConcreteIdBinderNonGeneric* Bind(TParams&&... contractTypes) {
-      return Bind({contractTypes...});
-    }
     // public Zenject.ConcreteIdBinderNonGeneric Bind(System.Collections.Generic.IEnumerable`1<System.Type> contractTypes)
     // Offset: 0x1505920
     Zenject::ConcreteIdBinderNonGeneric* Bind(System::Collections::Generic::IEnumerable_1<System::Type*>* contractTypes);
@@ -1301,13 +1294,6 @@ namespace Zenject {
     // public System.Void BindInstances(params System.Object[] instances)
     // Offset: 0x1505EAC
     void BindInstances(::ArrayWrapper<::Il2CppObject*> instances);
-    // Creating initializer_list -> params proxy for: System.Void BindInstances(params System.Object[] instances)
-    void BindInstances(std::initializer_list<::Il2CppObject*> instances);
-    // Creating TArgs -> initializer_list proxy for: System.Void BindInstances(params System.Object[] instances)
-    template<class ...TParams>
-    void BindInstances(TParams&&... instances) {
-      BindInstances({instances...});
-    }
     // private Zenject.FactoryToChoiceIdBinder`1<TContract> BindFactoryInternal()
     // Offset: 0xFFFFFFFF
     template<class TContract, class TFactoryContract, class TFactoryConcrete>

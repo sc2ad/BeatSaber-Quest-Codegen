@@ -241,13 +241,6 @@ namespace System::Reflection {
     // Implemented from: System.Reflection.MethodInfo
     // Base method: System.Reflection.MethodInfo MethodInfo::MakeGenericMethod(params System.Type[] methodInstantiation)
     System::Reflection::MethodInfo* MakeGenericMethod(::ArrayWrapper<System::Type*> methodInstantiation);
-    // Creating initializer_list -> params proxy for: System.Reflection.MethodInfo MakeGenericMethod(params System.Type[] methodInstantiation)
-    System::Reflection::MethodInfo* MakeGenericMethod(std::initializer_list<System::Type*> methodInstantiation);
-    // Creating TArgs -> initializer_list proxy for: System.Reflection.MethodInfo MakeGenericMethod(params System.Type[] methodInstantiation)
-    template<class ...TParams>
-    System::Reflection::MethodInfo* MakeGenericMethod(TParams&&... methodInstantiation) {
-      return MakeGenericMethod({methodInstantiation...});
-    }
     // public override System.Type[] GetGenericArguments()
     // Offset: 0x1EAE3FC
     // Implemented from: System.Reflection.MethodInfo

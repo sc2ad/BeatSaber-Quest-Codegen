@@ -850,26 +850,12 @@ namespace System::Threading::Tasks {
     // static public System.Threading.Tasks.Task WhenAll(params System.Threading.Tasks.Task[] tasks)
     // Offset: 0x1A66D04
     static System::Threading::Tasks::Task* WhenAll(::ArrayWrapper<System::Threading::Tasks::Task*> tasks);
-    // Creating initializer_list -> params proxy for: System.Threading.Tasks.Task WhenAll(params System.Threading.Tasks.Task[] tasks)
-    static System::Threading::Tasks::Task* WhenAll(std::initializer_list<System::Threading::Tasks::Task*> tasks);
-    // Creating TArgs -> initializer_list proxy for: System.Threading.Tasks.Task WhenAll(params System.Threading.Tasks.Task[] tasks)
-    template<class ...TParams>
-    static System::Threading::Tasks::Task* WhenAll(TParams&&... tasks) {
-      return WhenAll({tasks...});
-    }
     // static private System.Threading.Tasks.Task InternalWhenAll(System.Threading.Tasks.Task[] tasks)
     // Offset: 0x1A66EDC
     static System::Threading::Tasks::Task* InternalWhenAll(::ArrayWrapper<System::Threading::Tasks::Task*> tasks);
     // static public System.Threading.Tasks.Task`1<System.Threading.Tasks.Task> WhenAny(params System.Threading.Tasks.Task[] tasks)
     // Offset: 0x1A5E38C
     static System::Threading::Tasks::Task_1<System::Threading::Tasks::Task*>* WhenAny(::ArrayWrapper<System::Threading::Tasks::Task*> tasks);
-    // Creating initializer_list -> params proxy for: System.Threading.Tasks.Task`1<System.Threading.Tasks.Task> WhenAny(params System.Threading.Tasks.Task[] tasks)
-    static System::Threading::Tasks::Task_1<System::Threading::Tasks::Task*>* WhenAny(std::initializer_list<System::Threading::Tasks::Task*> tasks);
-    // Creating TArgs -> initializer_list proxy for: System.Threading.Tasks.Task`1<System.Threading.Tasks.Task> WhenAny(params System.Threading.Tasks.Task[] tasks)
-    template<class ...TParams>
-    static System::Threading::Tasks::Task_1<System::Threading::Tasks::Task*>* WhenAny(TParams&&... tasks) {
-      return WhenAny({tasks...});
-    }
     // static System.Threading.Tasks.Task`1<TResult> CreateUnwrapPromise(System.Threading.Tasks.Task outerTask, System.Boolean lookForOce)
     // Offset: 0xFFFFFFFF
     template<class TResult>

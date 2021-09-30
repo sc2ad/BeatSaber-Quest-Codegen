@@ -54,13 +54,6 @@ namespace System::Reflection {
     // public System.Reflection.MethodInfo MakeGenericMethod(params System.Type[] typeArguments)
     // Offset: 0x1EAB4CC
     System::Reflection::MethodInfo* MakeGenericMethod(::ArrayWrapper<System::Type*> typeArguments);
-    // Creating initializer_list -> params proxy for: System.Reflection.MethodInfo MakeGenericMethod(params System.Type[] typeArguments)
-    System::Reflection::MethodInfo* MakeGenericMethod(std::initializer_list<System::Type*> typeArguments);
-    // Creating TArgs -> initializer_list proxy for: System.Reflection.MethodInfo MakeGenericMethod(params System.Type[] typeArguments)
-    template<class ...TParams>
-    System::Reflection::MethodInfo* MakeGenericMethod(TParams&&... typeArguments) {
-      return MakeGenericMethod({typeArguments...});
-    }
     // System.Reflection.MethodInfo GetBaseMethod()
     // Offset: 0x1EAB54C
     System::Reflection::MethodInfo* GetBaseMethod();

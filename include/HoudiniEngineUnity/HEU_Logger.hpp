@@ -32,39 +32,18 @@ namespace HoudiniEngineUnity {
     // static public System.Void LogFormat(System.String text, params System.Object[] args)
     // Offset: 0x152B038
     static void LogFormat(::Il2CppString* text, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void LogFormat(System.String text, params System.Object[] args)
-    static void LogFormat(::Il2CppString* text, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void LogFormat(System.String text, params System.Object[] args)
-    template<class ...TParams>
-    static void LogFormat(::Il2CppString* text, TParams&&... args) {
-      LogFormat(text, {args...});
-    }
     // static public System.Void LogWarning(System.String text)
     // Offset: 0x1522104
     static void LogWarning(::Il2CppString* text);
     // static public System.Void LogWarningFormat(System.String text, params System.Object[] args)
     // Offset: 0x1522174
     static void LogWarningFormat(::Il2CppString* text, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void LogWarningFormat(System.String text, params System.Object[] args)
-    static void LogWarningFormat(::Il2CppString* text, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void LogWarningFormat(System.String text, params System.Object[] args)
-    template<class ...TParams>
-    static void LogWarningFormat(::Il2CppString* text, TParams&&... args) {
-      LogWarningFormat(text, {args...});
-    }
     // static public System.Void LogError(System.String text)
     // Offset: 0x151D4E8
     static void LogError(::Il2CppString* text);
     // static public System.Void LogErrorFormat(System.String text, params System.Object[] args)
     // Offset: 0x15227E8
     static void LogErrorFormat(::Il2CppString* text, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void LogErrorFormat(System.String text, params System.Object[] args)
-    static void LogErrorFormat(::Il2CppString* text, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void LogErrorFormat(System.String text, params System.Object[] args)
-    template<class ...TParams>
-    static void LogErrorFormat(::Il2CppString* text, TParams&&... args) {
-      LogErrorFormat(text, {args...});
-    }
     // static public System.Void LogError(System.Exception ex)
     // Offset: 0x152B168
     static void LogError(System::Exception* ex);
@@ -74,26 +53,12 @@ namespace HoudiniEngineUnity {
     // static public System.Void LogAssertionFormat(System.String text, params System.Object[] args)
     // Offset: 0x152B208
     static void LogAssertionFormat(::Il2CppString* text, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void LogAssertionFormat(System.String text, params System.Object[] args)
-    static void LogAssertionFormat(::Il2CppString* text, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void LogAssertionFormat(System.String text, params System.Object[] args)
-    template<class ...TParams>
-    static void LogAssertionFormat(::Il2CppString* text, TParams&&... args) {
-      LogAssertionFormat(text, {args...});
-    }
     // static private System.Void LogToCookLogsIfOn(System.String text)
     // Offset: 0x152B0B0
     static void LogToCookLogsIfOn(::Il2CppString* text);
     // static private System.Void LogToCookLogsIfOnFormat(System.String text, params System.Object[] args)
     // Offset: 0x152B100
     static void LogToCookLogsIfOnFormat(::Il2CppString* text, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void LogToCookLogsIfOnFormat(System.String text, params System.Object[] args)
-    static void LogToCookLogsIfOnFormat(::Il2CppString* text, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void LogToCookLogsIfOnFormat(System.String text, params System.Object[] args)
-    template<class ...TParams>
-    static void LogToCookLogsIfOnFormat(::Il2CppString* text, TParams&&... args) {
-      LogToCookLogsIfOnFormat(text, {args...});
-    }
     // public System.Void .ctor()
     // Offset: 0x152B20C
     // Implemented from: System.Object

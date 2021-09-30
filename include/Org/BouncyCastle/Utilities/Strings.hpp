@@ -18,13 +18,6 @@ namespace Org::BouncyCastle::Utilities {
     // static System.Boolean IsOneOf(System.String s, params System.String[] candidates)
     // Offset: 0x2183AD0
     static bool IsOneOf(::Il2CppString* s, ::ArrayWrapper<::Il2CppString*> candidates);
-    // Creating initializer_list -> params proxy for: System.Boolean IsOneOf(System.String s, params System.String[] candidates)
-    static bool IsOneOf(::Il2CppString* s, std::initializer_list<::Il2CppString*> candidates);
-    // Creating TArgs -> initializer_list proxy for: System.Boolean IsOneOf(System.String s, params System.String[] candidates)
-    template<class ...TParams>
-    static bool IsOneOf(::Il2CppString* s, TParams&&... candidates) {
-      return IsOneOf(s, {candidates...});
-    }
     // static public System.String FromByteArray(System.Byte[] bs)
     // Offset: 0x2183B5C
     static ::Il2CppString* FromByteArray(::ArrayWrapper<uint8_t> bs);

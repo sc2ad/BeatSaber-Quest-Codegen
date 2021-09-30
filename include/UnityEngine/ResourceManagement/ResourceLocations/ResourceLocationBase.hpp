@@ -150,16 +150,6 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceLocationBase*, creationType>(name, id, providerId, t, dependencies)));
     }
-    // Creating initializer_list -> params proxy for: System.Void .ctor(System.String name, System.String id, System.String providerId, System.Type t, params UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation[] dependencies)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ResourceLocationBase* New_ctor(::Il2CppString* name, ::Il2CppString* id, ::Il2CppString* providerId, System::Type* t, std::initializer_list<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> dependencies) {
-      return New_ctor<creationType>(name, id, providerId, t, ::ArrayWrapper<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(dependencies));
-    }
-    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(System.String name, System.String id, System.String providerId, System.Type t, params UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation[] dependencies)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
-    static ResourceLocationBase* New_ctor(::Il2CppString* name, ::Il2CppString* id, ::Il2CppString* providerId, System::Type* t, TParams&&... dependencies) {
-      return New_ctor<creationType>(name, id, providerId, t, {dependencies...});
-    }
     // public System.Int32 Hash(System.Type t)
     // Offset: 0x1B62A78
     int Hash(System::Type* t);

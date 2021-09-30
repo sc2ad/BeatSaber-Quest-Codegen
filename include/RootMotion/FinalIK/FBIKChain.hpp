@@ -286,26 +286,9 @@ namespace RootMotion::FinalIK {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::FBIKChain::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FBIKChain*, creationType>(pin, pull, nodeTransforms)));
     }
-    // Creating initializer_list -> params proxy for: System.Void .ctor(System.Single pin, System.Single pull, params UnityEngine.Transform[] nodeTransforms)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FBIKChain* New_ctor(float pin, float pull, std::initializer_list<UnityEngine::Transform*> nodeTransforms) {
-      return New_ctor<creationType>(pin, pull, ::ArrayWrapper<UnityEngine::Transform*>(nodeTransforms));
-    }
-    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(System.Single pin, System.Single pull, params UnityEngine.Transform[] nodeTransforms)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
-    static FBIKChain* New_ctor(float pin, float pull, TParams&&... nodeTransforms) {
-      return New_ctor<creationType>(pin, pull, {nodeTransforms...});
-    }
     // public System.Void SetNodes(params UnityEngine.Transform[] boneTransforms)
     // Offset: 0x1EC60B8
     void SetNodes(::ArrayWrapper<UnityEngine::Transform*> boneTransforms);
-    // Creating initializer_list -> params proxy for: System.Void SetNodes(params UnityEngine.Transform[] boneTransforms)
-    void SetNodes(std::initializer_list<UnityEngine::Transform*> boneTransforms);
-    // Creating TArgs -> initializer_list proxy for: System.Void SetNodes(params UnityEngine.Transform[] boneTransforms)
-    template<class ...TParams>
-    void SetNodes(TParams&&... boneTransforms) {
-      SetNodes({boneTransforms...});
-    }
     // public System.Int32 GetNodeIndex(UnityEngine.Transform boneTransform)
     // Offset: 0x1EC61DC
     int GetNodeIndex(UnityEngine::Transform* boneTransform);

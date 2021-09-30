@@ -143,13 +143,6 @@ namespace System::IO {
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine(System.String format, params System.Object[] arg)
     void WriteLine(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> arg);
-    // Creating initializer_list -> params proxy for: System.Void WriteLine(System.String format, params System.Object[] arg)
-    void WriteLine(::Il2CppString* format, std::initializer_list<::Il2CppObject*> arg);
-    // Creating TArgs -> initializer_list proxy for: System.Void WriteLine(System.String format, params System.Object[] arg)
-    template<class ...TParams>
-    void WriteLine(::Il2CppString* format, TParams&&... arg) {
-      WriteLine(format, {arg...});
-    }
   }; // System.IO.TextWriter/System.IO.SyncTextWriter
   #pragma pack(pop)
   static check_size<sizeof(TextWriter::SyncTextWriter), 40 + sizeof(System::IO::TextWriter*)> __System_IO_TextWriter_SyncTextWriterSizeCheck;

@@ -69,13 +69,6 @@ namespace UnityEngine {
     // static public System.Void LogFormat(System.String format, params System.Object[] args)
     // Offset: 0x1CB6E8C
     static void LogFormat(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void LogFormat(System.String format, params System.Object[] args)
-    static void LogFormat(::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void LogFormat(System.String format, params System.Object[] args)
-    template<class ...TParams>
-    static void LogFormat(::Il2CppString* format, TParams&&... args) {
-      LogFormat(format, {args...});
-    }
     // static public System.Void LogError(System.Object message)
     // Offset: 0x1CB6FBC
     static void LogError(::Il2CppObject* message);
@@ -85,23 +78,9 @@ namespace UnityEngine {
     // static public System.Void LogErrorFormat(System.String format, params System.Object[] args)
     // Offset: 0x1CB7214
     static void LogErrorFormat(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void LogErrorFormat(System.String format, params System.Object[] args)
-    static void LogErrorFormat(::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void LogErrorFormat(System.String format, params System.Object[] args)
-    template<class ...TParams>
-    static void LogErrorFormat(::Il2CppString* format, TParams&&... args) {
-      LogErrorFormat(format, {args...});
-    }
     // static public System.Void LogErrorFormat(UnityEngine.Object context, System.String format, params System.Object[] args)
     // Offset: 0x1CB7344
     static void LogErrorFormat(UnityEngine::Object* context, ::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void LogErrorFormat(UnityEngine.Object context, System.String format, params System.Object[] args)
-    static void LogErrorFormat(UnityEngine::Object* context, ::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void LogErrorFormat(UnityEngine.Object context, System.String format, params System.Object[] args)
-    template<class ...TParams>
-    static void LogErrorFormat(UnityEngine::Object* context, ::Il2CppString* format, TParams&&... args) {
-      LogErrorFormat(context, format, {args...});
-    }
     // static public System.Void LogException(System.Exception exception)
     // Offset: 0x1CAC38C
     static void LogException(System::Exception* exception);
@@ -117,23 +96,9 @@ namespace UnityEngine {
     // static public System.Void LogWarningFormat(System.String format, params System.Object[] args)
     // Offset: 0x1CB7804
     static void LogWarningFormat(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void LogWarningFormat(System.String format, params System.Object[] args)
-    static void LogWarningFormat(::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void LogWarningFormat(System.String format, params System.Object[] args)
-    template<class ...TParams>
-    static void LogWarningFormat(::Il2CppString* format, TParams&&... args) {
-      LogWarningFormat(format, {args...});
-    }
     // static public System.Void LogWarningFormat(UnityEngine.Object context, System.String format, params System.Object[] args)
     // Offset: 0x1CB7934
     static void LogWarningFormat(UnityEngine::Object* context, ::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void LogWarningFormat(UnityEngine.Object context, System.String format, params System.Object[] args)
-    static void LogWarningFormat(UnityEngine::Object* context, ::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void LogWarningFormat(UnityEngine.Object context, System.String format, params System.Object[] args)
-    template<class ...TParams>
-    static void LogWarningFormat(UnityEngine::Object* context, ::Il2CppString* format, TParams&&... args) {
-      LogWarningFormat(context, format, {args...});
-    }
     // static public System.Void LogAssertion(System.Object message)
     // Offset: 0x1CAC9FC
     static void LogAssertion(::Il2CppObject* message);

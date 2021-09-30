@@ -85,13 +85,6 @@ namespace System {
     // static public System.String Evaluate(System.String format, params System.ParameterizedStrings/System.FormatParam[] args)
     // Offset: 0x1E9E1CC
     static ::Il2CppString* Evaluate(::Il2CppString* format, ::ArrayWrapper<System::ParameterizedStrings::FormatParam> args);
-    // Creating initializer_list -> params proxy for: System.String Evaluate(System.String format, params System.ParameterizedStrings/System.FormatParam[] args)
-    static ::Il2CppString* Evaluate(::Il2CppString* format, std::initializer_list<System::ParameterizedStrings::FormatParam> args);
-    // Creating TArgs -> initializer_list proxy for: System.String Evaluate(System.String format, params System.ParameterizedStrings/System.FormatParam[] args)
-    template<class ...TParams>
-    static ::Il2CppString* Evaluate(::Il2CppString* format, TParams&&... args) {
-      return Evaluate(format, {args...});
-    }
     // static private System.String EvaluateInternal(System.String format, ref System.Int32 pos, System.ParameterizedStrings/System.FormatParam[] args, System.ParameterizedStrings/System.LowLevelStack stack, ref System.ParameterizedStrings/System.FormatParam[] dynamicVars, ref System.ParameterizedStrings/System.FormatParam[] staticVars)
     // Offset: 0x1E9E390
     static ::Il2CppString* EvaluateInternal(::Il2CppString* format, ByRef<int> pos, ::ArrayWrapper<System::ParameterizedStrings::FormatParam> args, System::ParameterizedStrings::LowLevelStack* stack, ByRef<::ArrayWrapper<System::ParameterizedStrings::FormatParam>> dynamicVars, ByRef<::ArrayWrapper<System::ParameterizedStrings::FormatParam>> staticVars);

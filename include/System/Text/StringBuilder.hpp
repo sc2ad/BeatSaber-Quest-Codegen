@@ -272,13 +272,6 @@ namespace System::Text {
     // public System.Text.StringBuilder AppendFormat(System.String format, params System.Object[] args)
     // Offset: 0x1F18E74
     System::Text::StringBuilder* AppendFormat(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Text.StringBuilder AppendFormat(System.String format, params System.Object[] args)
-    System::Text::StringBuilder* AppendFormat(::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Text.StringBuilder AppendFormat(System.String format, params System.Object[] args)
-    template<class ...TParams>
-    System::Text::StringBuilder* AppendFormat(::Il2CppString* format, TParams&&... args) {
-      return AppendFormat(format, {args...});
-    }
     // public System.Text.StringBuilder AppendFormat(System.IFormatProvider provider, System.String format, System.Object arg0)
     // Offset: 0x1F18F54
     System::Text::StringBuilder* AppendFormat(System::IFormatProvider* provider, ::Il2CppString* format, ::Il2CppObject* arg0);
@@ -291,13 +284,6 @@ namespace System::Text {
     // public System.Text.StringBuilder AppendFormat(System.IFormatProvider provider, System.String format, params System.Object[] args)
     // Offset: 0x1F19098
     System::Text::StringBuilder* AppendFormat(System::IFormatProvider* provider, ::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Text.StringBuilder AppendFormat(System.IFormatProvider provider, System.String format, params System.Object[] args)
-    System::Text::StringBuilder* AppendFormat(System::IFormatProvider* provider, ::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Text.StringBuilder AppendFormat(System.IFormatProvider provider, System.String format, params System.Object[] args)
-    template<class ...TParams>
-    System::Text::StringBuilder* AppendFormat(System::IFormatProvider* provider, ::Il2CppString* format, TParams&&... args) {
-      return AppendFormat(provider, format, {args...});
-    }
     // static private System.Void FormatError()
     // Offset: 0x1F19184
     static void FormatError();

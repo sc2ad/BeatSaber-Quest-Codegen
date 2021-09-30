@@ -41,23 +41,9 @@ namespace Org::BouncyCastle::Security {
     // static private System.Void AddAlgorithm(System.String canonicalName, params System.Object[] aliases)
     // Offset: 0x14D270C
     static void AddAlgorithm(::Il2CppString* canonicalName, ::ArrayWrapper<::Il2CppObject*> aliases);
-    // Creating initializer_list -> params proxy for: System.Void AddAlgorithm(System.String canonicalName, params System.Object[] aliases)
-    static void AddAlgorithm(::Il2CppString* canonicalName, std::initializer_list<::Il2CppObject*> aliases);
-    // Creating TArgs -> initializer_list proxy for: System.Void AddAlgorithm(System.String canonicalName, params System.Object[] aliases)
-    template<class ...TParams>
-    static void AddAlgorithm(::Il2CppString* canonicalName, TParams&&... aliases) {
-      AddAlgorithm(canonicalName, {aliases...});
-    }
     // static private System.Void AddBasicIVSizeEntries(System.Int32 size, params System.String[] algorithms)
     // Offset: 0x14D28FC
     static void AddBasicIVSizeEntries(int size, ::ArrayWrapper<::Il2CppString*> algorithms);
-    // Creating initializer_list -> params proxy for: System.Void AddBasicIVSizeEntries(System.Int32 size, params System.String[] algorithms)
-    static void AddBasicIVSizeEntries(int size, std::initializer_list<::Il2CppString*> algorithms);
-    // Creating TArgs -> initializer_list proxy for: System.Void AddBasicIVSizeEntries(System.Int32 size, params System.String[] algorithms)
-    template<class ...TParams>
-    static void AddBasicIVSizeEntries(int size, TParams&&... algorithms) {
-      AddBasicIVSizeEntries(size, {algorithms...});
-    }
     // static public System.String GetCanonicalAlgorithmName(System.String algorithm)
     // Offset: 0x14D2A68
     static ::Il2CppString* GetCanonicalAlgorithmName(::Il2CppString* algorithm);

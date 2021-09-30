@@ -86,13 +86,6 @@ namespace GlobalNamespace {
     // static public System.Object CallSystemFn(SteamVR_Utils/SystemFn fn, params System.Object[] args)
     // Offset: 0x18810F4
     static ::Il2CppObject* CallSystemFn(GlobalNamespace::SteamVR_Utils::SystemFn* fn, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Object CallSystemFn(SteamVR_Utils/SystemFn fn, params System.Object[] args)
-    static ::Il2CppObject* CallSystemFn(GlobalNamespace::SteamVR_Utils::SystemFn* fn, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Object CallSystemFn(SteamVR_Utils/SystemFn fn, params System.Object[] args)
-    template<class ...TParams>
-    static ::Il2CppObject* CallSystemFn(GlobalNamespace::SteamVR_Utils::SystemFn* fn, TParams&&... args) {
-      return CallSystemFn(fn, {args...});
-    }
     // static public System.Void TakeStereoScreenshot(System.UInt32 screenshotHandle, UnityEngine.GameObject target, System.Int32 cellSize, System.Single ipd, ref System.String previewFilename, ref System.String VRFilename)
     // Offset: 0x1881648
     static void TakeStereoScreenshot(uint screenshotHandle, UnityEngine::GameObject* target, int cellSize, float ipd, ByRef<::Il2CppString*> previewFilename, ByRef<::Il2CppString*> VRFilename);

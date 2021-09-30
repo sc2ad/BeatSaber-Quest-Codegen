@@ -224,13 +224,6 @@ namespace UnityEngine {
     // public System.Void SetVertexBufferParams(System.Int32 vertexCount, params UnityEngine.Rendering.VertexAttributeDescriptor[] attributes)
     // Offset: 0x1DA748C
     void SetVertexBufferParams(int vertexCount, ::ArrayWrapper<UnityEngine::Rendering::VertexAttributeDescriptor> attributes);
-    // Creating initializer_list -> params proxy for: System.Void SetVertexBufferParams(System.Int32 vertexCount, params UnityEngine.Rendering.VertexAttributeDescriptor[] attributes)
-    void SetVertexBufferParams(int vertexCount, std::initializer_list<UnityEngine::Rendering::VertexAttributeDescriptor> attributes);
-    // Creating TArgs -> initializer_list proxy for: System.Void SetVertexBufferParams(System.Int32 vertexCount, params UnityEngine.Rendering.VertexAttributeDescriptor[] attributes)
-    template<class ...TParams>
-    void SetVertexBufferParams(int vertexCount, TParams&&... attributes) {
-      SetVertexBufferParams(vertexCount, {attributes...});
-    }
     // private System.Void InternalSetVertexBufferData(System.Int32 stream, System.IntPtr data, System.Int32 dataStart, System.Int32 meshBufferStart, System.Int32 count, System.Int32 elemSize, UnityEngine.Rendering.MeshUpdateFlags flags)
     // Offset: 0x1DA74E4
     void InternalSetVertexBufferData(int stream, System::IntPtr data, int dataStart, int meshBufferStart, int count, int elemSize, UnityEngine::Rendering::MeshUpdateFlags flags);

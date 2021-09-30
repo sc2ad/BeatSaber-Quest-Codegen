@@ -115,16 +115,6 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GameObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameObject*, creationType>(name, components)));
     }
-    // Creating initializer_list -> params proxy for: System.Void .ctor(System.String name, params System.Type[] components)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GameObject* New_ctor(::Il2CppString* name, std::initializer_list<System::Type*> components) {
-      return New_ctor<creationType>(name, ::ArrayWrapper<System::Type*>(components));
-    }
-    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(System.String name, params System.Type[] components)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
-    static GameObject* New_ctor(::Il2CppString* name, TParams&&... components) {
-      return New_ctor<creationType>(name, {components...});
-    }
     // static public UnityEngine.GameObject CreatePrimitive(UnityEngine.PrimitiveType type)
     // Offset: 0x1CBD3AC
     static UnityEngine::GameObject* CreatePrimitive(UnityEngine::PrimitiveType type);

@@ -147,13 +147,6 @@ namespace Zenject {
     // public Zenject.ConventionFilterTypesBinder InNamespaces(params System.String[] namespaces)
     // Offset: 0x14FB094
     Zenject::ConventionFilterTypesBinder* InNamespaces(::ArrayWrapper<::Il2CppString*> namespaces);
-    // Creating initializer_list -> params proxy for: Zenject.ConventionFilterTypesBinder InNamespaces(params System.String[] namespaces)
-    Zenject::ConventionFilterTypesBinder* InNamespaces(std::initializer_list<::Il2CppString*> namespaces);
-    // Creating TArgs -> initializer_list proxy for: Zenject.ConventionFilterTypesBinder InNamespaces(params System.String[] namespaces)
-    template<class ...TParams>
-    Zenject::ConventionFilterTypesBinder* InNamespaces(TParams&&... namespaces) {
-      return InNamespaces({namespaces...});
-    }
     // public Zenject.ConventionFilterTypesBinder InNamespaces(System.Collections.Generic.IEnumerable`1<System.String> namespaces)
     // Offset: 0x14FB098
     Zenject::ConventionFilterTypesBinder* InNamespaces(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* namespaces);

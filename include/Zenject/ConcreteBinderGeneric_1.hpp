@@ -129,15 +129,6 @@ namespace Zenject {
       auto ___instance_arg = this;
       return ::il2cpp_utils::RunMethodThrow<Zenject::FromBinderNonGeneric*, false>(___instance_arg, ___internal__method, concreteTypes);
     }
-    // Creating initializer_list -> params proxy for: Zenject.FromBinderNonGeneric To(params System.Type[] concreteTypes)
-    Zenject::FromBinderNonGeneric* To(std::initializer_list<System::Type*> concreteTypes) {
-      return To(::ArrayWrapper<System::Type*>(concreteTypes));
-    }
-    // Creating TArgs -> initializer_list proxy for: Zenject.FromBinderNonGeneric To(params System.Type[] concreteTypes)
-    template<class ...TParams>
-    Zenject::FromBinderNonGeneric* To(TParams&&... concreteTypes) {
-      return To({concreteTypes...});
-    }
     // public Zenject.FromBinderNonGeneric To(System.Collections.Generic.IEnumerable`1<System.Type> concreteTypes)
     // Offset: 0xFFFFFFFF
     Zenject::FromBinderNonGeneric* To(System::Collections::Generic::IEnumerable_1<System::Type*>* concreteTypes) {

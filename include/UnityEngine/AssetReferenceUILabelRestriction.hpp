@@ -52,16 +52,6 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AssetReferenceUILabelRestriction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssetReferenceUILabelRestriction*, creationType>(allowedLabels)));
     }
-    // Creating initializer_list -> params proxy for: System.Void .ctor(params System.String[] allowedLabels)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AssetReferenceUILabelRestriction* New_ctor(std::initializer_list<::Il2CppString*> allowedLabels) {
-      return New_ctor<creationType>(::ArrayWrapper<::Il2CppString*>(allowedLabels));
-    }
-    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(params System.String[] allowedLabels)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
-    static AssetReferenceUILabelRestriction* New_ctor(TParams&&... allowedLabels) {
-      return New_ctor<creationType>({allowedLabels...});
-    }
     // public override System.Boolean ValidateAsset(UnityEngine.Object obj)
     // Offset: 0x25F0A2C
     // Implemented from: UnityEngine.AssetReferenceUIRestriction

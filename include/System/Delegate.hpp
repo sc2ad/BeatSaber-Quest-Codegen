@@ -204,13 +204,6 @@ namespace System {
     // public System.Object DynamicInvoke(params System.Object[] args)
     // Offset: 0x1CE9CD8
     ::Il2CppObject* DynamicInvoke(::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Object DynamicInvoke(params System.Object[] args)
-    ::Il2CppObject* DynamicInvoke(std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Object DynamicInvoke(params System.Object[] args)
-    template<class ...TParams>
-    ::Il2CppObject* DynamicInvoke(TParams&&... args) {
-      return DynamicInvoke({args...});
-    }
     // private System.Void InitializeDelegateData()
     // Offset: 0x1CE9CE4
     void InitializeDelegateData();
@@ -235,13 +228,6 @@ namespace System {
     // static public System.Delegate Combine(params System.Delegate[] delegates)
     // Offset: 0x1CEA894
     static System::Delegate* Combine(::ArrayWrapper<System::Delegate*> delegates);
-    // Creating initializer_list -> params proxy for: System.Delegate Combine(params System.Delegate[] delegates)
-    static System::Delegate* Combine(std::initializer_list<System::Delegate*> delegates);
-    // Creating TArgs -> initializer_list proxy for: System.Delegate Combine(params System.Delegate[] delegates)
-    template<class ...TParams>
-    static System::Delegate* Combine(TParams&&... delegates) {
-      return Combine({delegates...});
-    }
     // protected System.Delegate CombineImpl(System.Delegate d)
     // Offset: 0x1CEA90C
     System::Delegate* CombineImpl(System::Delegate* d);

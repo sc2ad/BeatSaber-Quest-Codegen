@@ -67,13 +67,6 @@ namespace Zenject {
     // public Zenject.FromBinderNonGeneric To(params System.Type[] concreteTypes)
     // Offset: 0x14F7E40
     Zenject::FromBinderNonGeneric* To(::ArrayWrapper<System::Type*> concreteTypes);
-    // Creating initializer_list -> params proxy for: Zenject.FromBinderNonGeneric To(params System.Type[] concreteTypes)
-    Zenject::FromBinderNonGeneric* To(std::initializer_list<System::Type*> concreteTypes);
-    // Creating TArgs -> initializer_list proxy for: Zenject.FromBinderNonGeneric To(params System.Type[] concreteTypes)
-    template<class ...TParams>
-    Zenject::FromBinderNonGeneric* To(TParams&&... concreteTypes) {
-      return To({concreteTypes...});
-    }
     // public Zenject.FromBinderNonGeneric To(System.Collections.Generic.IEnumerable`1<System.Type> concreteTypes)
     // Offset: 0x14F7E44
     Zenject::FromBinderNonGeneric* To(System::Collections::Generic::IEnumerable_1<System::Type*>* concreteTypes);

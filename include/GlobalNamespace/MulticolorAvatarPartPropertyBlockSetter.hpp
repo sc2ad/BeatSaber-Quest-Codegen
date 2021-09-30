@@ -124,13 +124,6 @@ namespace GlobalNamespace {
     // public System.Void SetColors(params UnityEngine.Color[] colors)
     // Offset: 0x1209058
     void SetColors(::ArrayWrapper<UnityEngine::Color> colors);
-    // Creating initializer_list -> params proxy for: System.Void SetColors(params UnityEngine.Color[] colors)
-    void SetColors(std::initializer_list<UnityEngine::Color> colors);
-    // Creating TArgs -> initializer_list proxy for: System.Void SetColors(params UnityEngine.Color[] colors)
-    template<class ...TParams>
-    void SetColors(TParams&&... colors) {
-      SetColors({colors...});
-    }
     // public System.Void SetHighlight(System.Boolean highlighted, System.Int32 uvSegment)
     // Offset: 0x12093E4
     void SetHighlight(bool highlighted, int uvSegment);

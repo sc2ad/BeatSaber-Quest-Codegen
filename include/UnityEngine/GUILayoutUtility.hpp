@@ -112,26 +112,12 @@ namespace UnityEngine {
     // static public UnityEngine.Rect GetRect(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1C97CFC
     static UnityEngine::Rect GetRect(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
-    // Creating initializer_list -> params proxy for: UnityEngine.Rect GetRect(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
-    static UnityEngine::Rect GetRect(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, std::initializer_list<UnityEngine::GUILayoutOption*> options);
-    // Creating TArgs -> initializer_list proxy for: UnityEngine.Rect GetRect(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
-    template<class ...TParams>
-    static UnityEngine::Rect GetRect(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, TParams&&... options) {
-      return GetRect(content, style, {options...});
-    }
     // static private UnityEngine.Rect DoGetRect(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1C9E7BC
     static UnityEngine::Rect DoGetRect(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
     // static public UnityEngine.Rect GetRect(System.Single width, System.Single height, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1C98AC8
     static UnityEngine::Rect GetRect(float width, float height, UnityEngine::GUIStyle* style, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
-    // Creating initializer_list -> params proxy for: UnityEngine.Rect GetRect(System.Single width, System.Single height, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
-    static UnityEngine::Rect GetRect(float width, float height, UnityEngine::GUIStyle* style, std::initializer_list<UnityEngine::GUILayoutOption*> options);
-    // Creating TArgs -> initializer_list proxy for: UnityEngine.Rect GetRect(System.Single width, System.Single height, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
-    template<class ...TParams>
-    static UnityEngine::Rect GetRect(float width, float height, UnityEngine::GUIStyle* style, TParams&&... options) {
-      return GetRect(width, height, style, {options...});
-    }
     // static private UnityEngine.Rect DoGetRect(System.Single minWidth, System.Single maxWidth, System.Single minHeight, System.Single maxHeight, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1C9ECCC
     static UnityEngine::Rect DoGetRect(float minWidth, float maxWidth, float minHeight, float maxHeight, UnityEngine::GUIStyle* style, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);

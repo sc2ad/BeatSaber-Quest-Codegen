@@ -66,16 +66,6 @@ namespace NUnit::Framework::Internal::Filters {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Filters::CompositeFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompositeFilter*, creationType>(filters)));
     }
-    // Creating initializer_list -> params proxy for: System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CompositeFilter* New_ctor(std::initializer_list<NUnit::Framework::Interfaces::ITestFilter*> filters) {
-      return New_ctor<creationType>(::ArrayWrapper<NUnit::Framework::Interfaces::ITestFilter*>(filters));
-    }
-    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
-    static CompositeFilter* New_ctor(TParams&&... filters) {
-      return New_ctor<creationType>({filters...});
-    }
     // public System.Void .ctor()
     // Offset: 0x19400F4
     // Implemented from: NUnit.Framework.Internal.TestFilter

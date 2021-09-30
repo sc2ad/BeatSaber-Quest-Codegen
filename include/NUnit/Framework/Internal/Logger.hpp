@@ -89,26 +89,12 @@ namespace NUnit::Framework::Internal {
     // public System.Void Debug(System.String message, params System.Object[] args)
     // Offset: 0x249D180
     void Debug(::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void Debug(System.String message, params System.Object[] args)
-    void Debug(::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void Debug(System.String message, params System.Object[] args)
-    template<class ...TParams>
-    void Debug(::Il2CppString* message, TParams&&... args) {
-      Debug(message, {args...});
-    }
     // private System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String message)
     // Offset: 0x249D140
     void Log(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* message);
     // private System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String format, params System.Object[] args)
     // Offset: 0x249D190
     void Log(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String format, params System.Object[] args)
-    void Log(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String format, params System.Object[] args)
-    template<class ...TParams>
-    void Log(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* format, TParams&&... args) {
-      Log(level, format, {args...});
-    }
     // private System.Void WriteLog(NUnit.Framework.Internal.InternalTraceLevel level, System.String message)
     // Offset: 0x249D1DC
     void WriteLog(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* message);

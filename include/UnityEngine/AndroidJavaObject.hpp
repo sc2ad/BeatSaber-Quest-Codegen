@@ -102,16 +102,6 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>(className, args)));
     }
-    // Creating initializer_list -> params proxy for: System.Void .ctor(System.String className, params System.Object[] args)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AndroidJavaObject* New_ctor(::Il2CppString* className, std::initializer_list<::Il2CppObject*> args) {
-      return New_ctor<creationType>(className, ::ArrayWrapper<::Il2CppObject*>(args));
-    }
-    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(System.String className, params System.Object[] args)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
-    static AndroidJavaObject* New_ctor(::Il2CppString* className, TParams&&... args) {
-      return New_ctor<creationType>(className, {args...});
-    }
     // System.Void .ctor(System.IntPtr jobject)
     // Offset: 0x25AE314
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -138,13 +128,6 @@ namespace UnityEngine {
     // public System.Void Call(System.String methodName, params System.Object[] args)
     // Offset: 0x25ADD30
     void Call(::Il2CppString* methodName, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void Call(System.String methodName, params System.Object[] args)
-    void Call(::Il2CppString* methodName, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void Call(System.String methodName, params System.Object[] args)
-    template<class ...TParams>
-    void Call(::Il2CppString* methodName, TParams&&... args) {
-      Call(methodName, {args...});
-    }
     // public System.Void CallStatic(System.String methodName, T[] args)
     // Offset: 0xFFFFFFFF
     template<class T>
@@ -158,13 +141,6 @@ namespace UnityEngine {
     // public System.Void CallStatic(System.String methodName, params System.Object[] args)
     // Offset: 0x25ADE48
     void CallStatic(::Il2CppString* methodName, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void CallStatic(System.String methodName, params System.Object[] args)
-    void CallStatic(::Il2CppString* methodName, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void CallStatic(System.String methodName, params System.Object[] args)
-    template<class ...TParams>
-    void CallStatic(::Il2CppString* methodName, TParams&&... args) {
-      CallStatic(methodName, {args...});
-    }
     // public FieldType Get(System.String fieldName)
     // Offset: 0xFFFFFFFF
     template<class FieldType>
@@ -231,16 +207,6 @@ namespace UnityEngine {
       auto ___instance_arg = this;
       return ::il2cpp_utils::RunMethodThrow<ReturnType, false>(___instance_arg, ___generic__method, methodName, args);
     }
-    // Creating initializer_list -> params proxy for: ReturnType Call(System.String methodName, params System.Object[] args)
-    template<class ReturnType>
-    ReturnType Call(::Il2CppString* methodName, std::initializer_list<::Il2CppObject*> args) {
-      return Call(methodName, ::ArrayWrapper<::Il2CppObject*>(args));
-    }
-    // Creating TArgs -> initializer_list proxy for: ReturnType Call(System.String methodName, params System.Object[] args)
-    template<class ReturnType, class ...TParams>
-    ReturnType Call(::Il2CppString* methodName, TParams&&... args) {
-      return Call<ReturnType>(methodName, {args...});
-    }
     // public ReturnType CallStatic(System.String methodName, T[] args)
     // Offset: 0xFFFFFFFF
     template<class ReturnType, class T>
@@ -261,16 +227,6 @@ namespace UnityEngine {
       auto ___instance_arg = this;
       return ::il2cpp_utils::RunMethodThrow<ReturnType, false>(___instance_arg, ___generic__method, methodName, args);
     }
-    // Creating initializer_list -> params proxy for: ReturnType CallStatic(System.String methodName, params System.Object[] args)
-    template<class ReturnType>
-    ReturnType CallStatic(::Il2CppString* methodName, std::initializer_list<::Il2CppObject*> args) {
-      return CallStatic(methodName, ::ArrayWrapper<::Il2CppObject*>(args));
-    }
-    // Creating TArgs -> initializer_list proxy for: ReturnType CallStatic(System.String methodName, params System.Object[] args)
-    template<class ReturnType, class ...TParams>
-    ReturnType CallStatic(::Il2CppString* methodName, TParams&&... args) {
-      return CallStatic<ReturnType>(methodName, {args...});
-    }
     // protected System.Void DebugPrint(System.String msg)
     // Offset: 0x25AD470
     void DebugPrint(::Il2CppString* msg);
@@ -280,26 +236,12 @@ namespace UnityEngine {
     // private System.Void _AndroidJavaObject(System.String className, params System.Object[] args)
     // Offset: 0x25AD7AC
     void _AndroidJavaObject(::Il2CppString* className, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void _AndroidJavaObject(System.String className, params System.Object[] args)
-    void _AndroidJavaObject(::Il2CppString* className, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void _AndroidJavaObject(System.String className, params System.Object[] args)
-    template<class ...TParams>
-    void _AndroidJavaObject(::Il2CppString* className, TParams&&... args) {
-      _AndroidJavaObject(className, {args...});
-    }
     // protected System.Void Dispose(System.Boolean disposing)
     // Offset: 0x25AE484
     void Dispose(bool disposing);
     // protected System.Void _Call(System.String methodName, params System.Object[] args)
     // Offset: 0x25ADD34
     void _Call(::Il2CppString* methodName, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void _Call(System.String methodName, params System.Object[] args)
-    void _Call(::Il2CppString* methodName, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void _Call(System.String methodName, params System.Object[] args)
-    template<class ...TParams>
-    void _Call(::Il2CppString* methodName, TParams&&... args) {
-      _Call(methodName, {args...});
-    }
     // protected ReturnType _Call(System.String methodName, params System.Object[] args)
     // Offset: 0xFFFFFFFF
     template<class ReturnType>
@@ -309,16 +251,6 @@ namespace UnityEngine {
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}));
       auto ___instance_arg = this;
       return ::il2cpp_utils::RunMethodThrow<ReturnType, false>(___instance_arg, ___generic__method, methodName, args);
-    }
-    // Creating initializer_list -> params proxy for: ReturnType _Call(System.String methodName, params System.Object[] args)
-    template<class ReturnType>
-    ReturnType _Call(::Il2CppString* methodName, std::initializer_list<::Il2CppObject*> args) {
-      return _Call(methodName, ::ArrayWrapper<::Il2CppObject*>(args));
-    }
-    // Creating TArgs -> initializer_list proxy for: ReturnType _Call(System.String methodName, params System.Object[] args)
-    template<class ReturnType, class ...TParams>
-    ReturnType _Call(::Il2CppString* methodName, TParams&&... args) {
-      return _Call<ReturnType>(methodName, {args...});
     }
     // protected FieldType _Get(System.String fieldName)
     // Offset: 0xFFFFFFFF
@@ -343,13 +275,6 @@ namespace UnityEngine {
     // protected System.Void _CallStatic(System.String methodName, params System.Object[] args)
     // Offset: 0x25ADE4C
     void _CallStatic(::Il2CppString* methodName, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void _CallStatic(System.String methodName, params System.Object[] args)
-    void _CallStatic(::Il2CppString* methodName, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void _CallStatic(System.String methodName, params System.Object[] args)
-    template<class ...TParams>
-    void _CallStatic(::Il2CppString* methodName, TParams&&... args) {
-      _CallStatic(methodName, {args...});
-    }
     // protected ReturnType _CallStatic(System.String methodName, params System.Object[] args)
     // Offset: 0xFFFFFFFF
     template<class ReturnType>
@@ -359,16 +284,6 @@ namespace UnityEngine {
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}));
       auto ___instance_arg = this;
       return ::il2cpp_utils::RunMethodThrow<ReturnType, false>(___instance_arg, ___generic__method, methodName, args);
-    }
-    // Creating initializer_list -> params proxy for: ReturnType _CallStatic(System.String methodName, params System.Object[] args)
-    template<class ReturnType>
-    ReturnType _CallStatic(::Il2CppString* methodName, std::initializer_list<::Il2CppObject*> args) {
-      return _CallStatic(methodName, ::ArrayWrapper<::Il2CppObject*>(args));
-    }
-    // Creating TArgs -> initializer_list proxy for: ReturnType _CallStatic(System.String methodName, params System.Object[] args)
-    template<class ReturnType, class ...TParams>
-    ReturnType _CallStatic(::Il2CppString* methodName, TParams&&... args) {
-      return _CallStatic<ReturnType>(methodName, {args...});
     }
     // protected FieldType _GetStatic(System.String fieldName)
     // Offset: 0xFFFFFFFF

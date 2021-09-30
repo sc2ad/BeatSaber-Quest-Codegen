@@ -21,13 +21,6 @@ namespace System::Xml {
     // static public System.String GetString(System.String name, params System.Object[] args)
     // Offset: 0x1AFD29C
     static ::Il2CppString* GetString(::Il2CppString* name, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.String GetString(System.String name, params System.Object[] args)
-    static ::Il2CppString* GetString(::Il2CppString* name, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.String GetString(System.String name, params System.Object[] args)
-    template<class ...TParams>
-    static ::Il2CppString* GetString(::Il2CppString* name, TParams&&... args) {
-      return GetString(name, {args...});
-    }
   }; // System.Xml.Res
   #pragma pack(pop)
 }

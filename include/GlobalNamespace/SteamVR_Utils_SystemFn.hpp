@@ -47,13 +47,6 @@ namespace GlobalNamespace {
     // public System.Object Invoke(Valve.VR.CVRSystem system, params System.Object[] args)
     // Offset: 0x1881258
     ::Il2CppObject* Invoke(Valve::VR::CVRSystem* system, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Object Invoke(Valve.VR.CVRSystem system, params System.Object[] args)
-    ::Il2CppObject* Invoke(Valve::VR::CVRSystem* system, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Object Invoke(Valve.VR.CVRSystem system, params System.Object[] args)
-    template<class ...TParams>
-    ::Il2CppObject* Invoke(Valve::VR::CVRSystem* system, TParams&&... args) {
-      return Invoke(system, {args...});
-    }
     // public System.IAsyncResult BeginInvoke(Valve.VR.CVRSystem system, System.Object[] args, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1883F44
     System::IAsyncResult* BeginInvoke(Valve::VR::CVRSystem* system, ::ArrayWrapper<::Il2CppObject*> args, System::AsyncCallback* callback, ::Il2CppObject* object);

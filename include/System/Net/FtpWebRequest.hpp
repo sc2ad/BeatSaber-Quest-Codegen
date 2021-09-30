@@ -510,23 +510,9 @@ namespace System::Net {
     // private System.Net.FtpStatus SendCommand(System.String command, params System.String[] parameters)
     // Offset: 0x1585274
     System::Net::FtpStatus* SendCommand(::Il2CppString* command, ::ArrayWrapper<::Il2CppString*> parameters);
-    // Creating initializer_list -> params proxy for: System.Net.FtpStatus SendCommand(System.String command, params System.String[] parameters)
-    System::Net::FtpStatus* SendCommand(::Il2CppString* command, std::initializer_list<::Il2CppString*> parameters);
-    // Creating TArgs -> initializer_list proxy for: System.Net.FtpStatus SendCommand(System.String command, params System.String[] parameters)
-    template<class ...TParams>
-    System::Net::FtpStatus* SendCommand(::Il2CppString* command, TParams&&... parameters) {
-      return SendCommand(command, {parameters...});
-    }
     // private System.Net.FtpStatus SendCommand(System.Boolean waitResponse, System.String command, params System.String[] parameters)
     // Offset: 0x1583CB4
     System::Net::FtpStatus* SendCommand(bool waitResponse, ::Il2CppString* command, ::ArrayWrapper<::Il2CppString*> parameters);
-    // Creating initializer_list -> params proxy for: System.Net.FtpStatus SendCommand(System.Boolean waitResponse, System.String command, params System.String[] parameters)
-    System::Net::FtpStatus* SendCommand(bool waitResponse, ::Il2CppString* command, std::initializer_list<::Il2CppString*> parameters);
-    // Creating TArgs -> initializer_list proxy for: System.Net.FtpStatus SendCommand(System.Boolean waitResponse, System.String command, params System.String[] parameters)
-    template<class ...TParams>
-    System::Net::FtpStatus* SendCommand(bool waitResponse, ::Il2CppString* command, TParams&&... parameters) {
-      return SendCommand(waitResponse, command, {parameters...});
-    }
     // static System.Net.FtpStatus ServiceNotAvailable()
     // Offset: 0x1587C08
     static System::Net::FtpStatus* ServiceNotAvailable();

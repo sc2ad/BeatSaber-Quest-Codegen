@@ -45,43 +45,15 @@ namespace Org::BouncyCastle::Security {
     // static private System.Void AddDefaultKeySizeEntries(System.Int32 size, params System.String[] algorithms)
     // Offset: 0x14CE6A4
     static void AddDefaultKeySizeEntries(int size, ::ArrayWrapper<::Il2CppString*> algorithms);
-    // Creating initializer_list -> params proxy for: System.Void AddDefaultKeySizeEntries(System.Int32 size, params System.String[] algorithms)
-    static void AddDefaultKeySizeEntries(int size, std::initializer_list<::Il2CppString*> algorithms);
-    // Creating TArgs -> initializer_list proxy for: System.Void AddDefaultKeySizeEntries(System.Int32 size, params System.String[] algorithms)
-    template<class ...TParams>
-    static void AddDefaultKeySizeEntries(int size, TParams&&... algorithms) {
-      AddDefaultKeySizeEntries(size, {algorithms...});
-    }
     // static private System.Void AddKgAlgorithm(System.String canonicalName, params System.Object[] aliases)
     // Offset: 0x14CDE90
     static void AddKgAlgorithm(::Il2CppString* canonicalName, ::ArrayWrapper<::Il2CppObject*> aliases);
-    // Creating initializer_list -> params proxy for: System.Void AddKgAlgorithm(System.String canonicalName, params System.Object[] aliases)
-    static void AddKgAlgorithm(::Il2CppString* canonicalName, std::initializer_list<::Il2CppObject*> aliases);
-    // Creating TArgs -> initializer_list proxy for: System.Void AddKgAlgorithm(System.String canonicalName, params System.Object[] aliases)
-    template<class ...TParams>
-    static void AddKgAlgorithm(::Il2CppString* canonicalName, TParams&&... aliases) {
-      AddKgAlgorithm(canonicalName, {aliases...});
-    }
     // static private System.Void AddKpgAlgorithm(System.String canonicalName, params System.Object[] aliases)
     // Offset: 0x14CE454
     static void AddKpgAlgorithm(::Il2CppString* canonicalName, ::ArrayWrapper<::Il2CppObject*> aliases);
-    // Creating initializer_list -> params proxy for: System.Void AddKpgAlgorithm(System.String canonicalName, params System.Object[] aliases)
-    static void AddKpgAlgorithm(::Il2CppString* canonicalName, std::initializer_list<::Il2CppObject*> aliases);
-    // Creating TArgs -> initializer_list proxy for: System.Void AddKpgAlgorithm(System.String canonicalName, params System.Object[] aliases)
-    template<class ...TParams>
-    static void AddKpgAlgorithm(::Il2CppString* canonicalName, TParams&&... aliases) {
-      AddKpgAlgorithm(canonicalName, {aliases...});
-    }
     // static private System.Void AddHMacKeyGenerator(System.String algorithm, params System.Object[] aliases)
     // Offset: 0x14CE0E0
     static void AddHMacKeyGenerator(::Il2CppString* algorithm, ::ArrayWrapper<::Il2CppObject*> aliases);
-    // Creating initializer_list -> params proxy for: System.Void AddHMacKeyGenerator(System.String algorithm, params System.Object[] aliases)
-    static void AddHMacKeyGenerator(::Il2CppString* algorithm, std::initializer_list<::Il2CppObject*> aliases);
-    // Creating TArgs -> initializer_list proxy for: System.Void AddHMacKeyGenerator(System.String algorithm, params System.Object[] aliases)
-    template<class ...TParams>
-    static void AddHMacKeyGenerator(::Il2CppString* algorithm, TParams&&... aliases) {
-      AddHMacKeyGenerator(algorithm, {aliases...});
-    }
     // static System.String GetCanonicalKeyGeneratorAlgorithm(System.String algorithm)
     // Offset: 0x14CE810
     static ::Il2CppString* GetCanonicalKeyGeneratorAlgorithm(::Il2CppString* algorithm);

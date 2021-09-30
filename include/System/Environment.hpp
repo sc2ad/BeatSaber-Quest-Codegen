@@ -111,13 +111,6 @@ namespace System {
     // static System.String GetResourceString(System.String key, params System.Object[] values)
     // Offset: 0x199FCDC
     static ::Il2CppString* GetResourceString(::Il2CppString* key, ::ArrayWrapper<::Il2CppObject*> values);
-    // Creating initializer_list -> params proxy for: System.String GetResourceString(System.String key, params System.Object[] values)
-    static ::Il2CppString* GetResourceString(::Il2CppString* key, std::initializer_list<::Il2CppObject*> values);
-    // Creating TArgs -> initializer_list proxy for: System.String GetResourceString(System.String key, params System.Object[] values)
-    template<class ...TParams>
-    static ::Il2CppString* GetResourceString(::Il2CppString* key, TParams&&... values) {
-      return GetResourceString(key, {values...});
-    }
     // static System.String GetResourceStringEncodingName(System.Int32 codePage)
     // Offset: 0x19A4C28
     static ::Il2CppString* GetResourceStringEncodingName(int codePage);

@@ -68,16 +68,6 @@ namespace NUnit::Framework::Internal {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TextMessageWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextMessageWriter*, creationType>(userMessage, args)));
     }
-    // Creating initializer_list -> params proxy for: System.Void .ctor(System.String userMessage, params System.Object[] args)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TextMessageWriter* New_ctor(::Il2CppString* userMessage, std::initializer_list<::Il2CppObject*> args) {
-      return New_ctor<creationType>(userMessage, ::ArrayWrapper<::Il2CppObject*>(args));
-    }
-    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(System.String userMessage, params System.Object[] args)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
-    static TextMessageWriter* New_ctor(::Il2CppString* userMessage, TParams&&... args) {
-      return New_ctor<creationType>(userMessage, {args...});
-    }
     // private System.Void WriteExpectedLine(NUnit.Framework.Constraints.ConstraintResult result)
     // Offset: 0x24A79A4
     void WriteExpectedLine(NUnit::Framework::Constraints::ConstraintResult* result);
@@ -111,13 +101,6 @@ namespace NUnit::Framework::Internal {
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
     void WriteMessageLine(int level, ::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
-    void WriteMessageLine(int level, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
-    template<class ...TParams>
-    void WriteMessageLine(int level, ::Il2CppString* message, TParams&&... args) {
-      WriteMessageLine(level, message, {args...});
-    }
     // public override System.Void DisplayDifferences(NUnit.Framework.Constraints.ConstraintResult result)
     // Offset: 0x24A7978
     // Implemented from: NUnit.Framework.Constraints.MessageWriter

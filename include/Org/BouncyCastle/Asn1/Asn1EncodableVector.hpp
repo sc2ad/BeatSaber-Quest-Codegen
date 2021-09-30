@@ -86,16 +86,6 @@ namespace Org::BouncyCastle::Asn1 {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1EncodableVector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1EncodableVector*, creationType>(v)));
     }
-    // Creating initializer_list -> params proxy for: System.Void .ctor(params Org.BouncyCastle.Asn1.Asn1Encodable[] v)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Asn1EncodableVector* New_ctor(std::initializer_list<Org::BouncyCastle::Asn1::Asn1Encodable*> v) {
-      return New_ctor<creationType>(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*>(v));
-    }
-    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(params Org.BouncyCastle.Asn1.Asn1Encodable[] v)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
-    static Asn1EncodableVector* New_ctor(TParams&&... v) {
-      return New_ctor<creationType>({v...});
-    }
     // static private System.Void .cctor()
     // Offset: 0x18DEBE8
     static void _cctor();
@@ -105,23 +95,9 @@ namespace Org::BouncyCastle::Asn1 {
     // public System.Void Add(params Org.BouncyCastle.Asn1.Asn1Encodable[] objs)
     // Offset: 0x18DE4F8
     void Add(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*> objs);
-    // Creating initializer_list -> params proxy for: System.Void Add(params Org.BouncyCastle.Asn1.Asn1Encodable[] objs)
-    void Add(std::initializer_list<Org::BouncyCastle::Asn1::Asn1Encodable*> objs);
-    // Creating TArgs -> initializer_list proxy for: System.Void Add(params Org.BouncyCastle.Asn1.Asn1Encodable[] objs)
-    template<class ...TParams>
-    void Add(TParams&&... objs) {
-      Add({objs...});
-    }
     // public System.Void AddOptional(params Org.BouncyCastle.Asn1.Asn1Encodable[] objs)
     // Offset: 0x18DE758
     void AddOptional(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*> objs);
-    // Creating initializer_list -> params proxy for: System.Void AddOptional(params Org.BouncyCastle.Asn1.Asn1Encodable[] objs)
-    void AddOptional(std::initializer_list<Org::BouncyCastle::Asn1::Asn1Encodable*> objs);
-    // Creating TArgs -> initializer_list proxy for: System.Void AddOptional(params Org.BouncyCastle.Asn1.Asn1Encodable[] objs)
-    template<class ...TParams>
-    void AddOptional(TParams&&... objs) {
-      AddOptional({objs...});
-    }
     // public System.Void AddOptionalTagged(System.Boolean isExplicit, System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1Encodable obj)
     // Offset: 0x18DE7D0
     void AddOptionalTagged(bool isExplicit, int tagNo, Org::BouncyCastle::Asn1::Asn1Encodable* obj);

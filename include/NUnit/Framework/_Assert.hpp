@@ -41,46 +41,15 @@ namespace NUnit::Framework {
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TActual>::get()}));
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, actual, expression, message, args);
     }
-    // Creating initializer_list -> params proxy for: System.Void That(TActual actual, NUnit.Framework.Constraints.IResolveConstraint expression, System.String message, params System.Object[] args)
-    template<class TActual>
-    static void That(TActual actual, NUnit::Framework::Constraints::IResolveConstraint* expression, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> args) {
-      That(actual, expression, message, ::ArrayWrapper<::Il2CppObject*>(args));
-    }
-    // Creating TArgs -> initializer_list proxy for: System.Void That(TActual actual, NUnit.Framework.Constraints.IResolveConstraint expression, System.String message, params System.Object[] args)
-    template<class TActual, class ...TParams>
-    static void That(TActual actual, NUnit::Framework::Constraints::IResolveConstraint* expression, ::Il2CppString* message, TParams&&... args) {
-      That<TActual>(actual, expression, message, {args...});
-    }
     // static public System.Void GreaterOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
     // Offset: 0x19284D4
     static void GreaterOrEqual(float arg1, float arg2, ::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void GreaterOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
-    static void GreaterOrEqual(float arg1, float arg2, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void GreaterOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
-    template<class ...TParams>
-    static void GreaterOrEqual(float arg1, float arg2, ::Il2CppString* message, TParams&&... args) {
-      GreaterOrEqual(arg1, arg2, message, {args...});
-    }
     // static public System.Void LessOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
     // Offset: 0x192856C
     static void LessOrEqual(float arg1, float arg2, ::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void LessOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
-    static void LessOrEqual(float arg1, float arg2, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void LessOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
-    template<class ...TParams>
-    static void LessOrEqual(float arg1, float arg2, ::Il2CppString* message, TParams&&... args) {
-      LessOrEqual(arg1, arg2, message, {args...});
-    }
     // static public System.Void IsTrue(System.Boolean condition, System.String message, params System.Object[] args)
     // Offset: 0x1928604
     static void IsTrue(bool condition, ::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void IsTrue(System.Boolean condition, System.String message, params System.Object[] args)
-    static void IsTrue(bool condition, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void IsTrue(System.Boolean condition, System.String message, params System.Object[] args)
-    template<class ...TParams>
-    static void IsTrue(bool condition, ::Il2CppString* message, TParams&&... args) {
-      IsTrue(condition, message, {args...});
-    }
     // static public System.Void IsTrue(System.Boolean condition)
     // Offset: 0x192867C
     static void IsTrue(bool condition);

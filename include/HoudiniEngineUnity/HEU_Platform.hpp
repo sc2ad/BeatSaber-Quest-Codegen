@@ -89,13 +89,6 @@ namespace HoudiniEngineUnity {
     // static public System.String BuildPath(System.String folder1, System.String folder2, params System.Object[] args)
     // Offset: 0x17A0C18
     static ::Il2CppString* BuildPath(::Il2CppString* folder1, ::Il2CppString* folder2, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.String BuildPath(System.String folder1, System.String folder2, params System.Object[] args)
-    static ::Il2CppString* BuildPath(::Il2CppString* folder1, ::Il2CppString* folder2, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.String BuildPath(System.String folder1, System.String folder2, params System.Object[] args)
-    template<class ...TParams>
-    static ::Il2CppString* BuildPath(::Il2CppString* folder1, ::Il2CppString* folder2, TParams&&... args) {
-      return BuildPath(folder1, folder2, {args...});
-    }
     // static public System.String TrimLastDirectorySeparator(System.String inPath)
     // Offset: 0x17B3A1C
     static ::Il2CppString* TrimLastDirectorySeparator(::Il2CppString* inPath);

@@ -71,16 +71,6 @@ namespace Org::BouncyCastle::Asn1 {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerSequence::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerSequence*, creationType>(elements)));
     }
-    // Creating initializer_list -> params proxy for: System.Void .ctor(params Org.BouncyCastle.Asn1.Asn1Encodable[] elements)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DerSequence* New_ctor(std::initializer_list<Org::BouncyCastle::Asn1::Asn1Encodable*> elements) {
-      return New_ctor<creationType>(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*>(elements));
-    }
-    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(params Org.BouncyCastle.Asn1.Asn1Encodable[] elements)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
-    static DerSequence* New_ctor(TParams&&... elements) {
-      return New_ctor<creationType>({elements...});
-    }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1EncodableVector elementVector)
     // Offset: 0x18E72D4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Sequence

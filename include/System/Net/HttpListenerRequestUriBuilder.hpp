@@ -188,13 +188,6 @@ namespace System::Net {
     // private System.Void LogWarning(System.String methodName, System.String message, params System.Object[] args)
     // Offset: 0x1843DA8
     void LogWarning(::Il2CppString* methodName, ::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void LogWarning(System.String methodName, System.String message, params System.Object[] args)
-    void LogWarning(::Il2CppString* methodName, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void LogWarning(System.String methodName, System.String message, params System.Object[] args)
-    template<class ...TParams>
-    void LogWarning(::Il2CppString* methodName, ::Il2CppString* message, TParams&&... args) {
-      LogWarning(methodName, message, {args...});
-    }
   }; // System.Net.HttpListenerRequestUriBuilder
   #pragma pack(pop)
   static check_size<sizeof(HttpListenerRequestUriBuilder), 80 + sizeof(System::Uri*)> __System_Net_HttpListenerRequestUriBuilderSizeCheck;

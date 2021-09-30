@@ -73,23 +73,9 @@ namespace NUnit::Framework::Interfaces {
     // public NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(params System.Type[] typeArguments)
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(::ArrayWrapper<System::Type*> typeArguments);
-    // Creating initializer_list -> params proxy for: NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(params System.Type[] typeArguments)
-    NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(std::initializer_list<System::Type*> typeArguments);
-    // Creating TArgs -> initializer_list proxy for: NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(params System.Type[] typeArguments)
-    template<class ...TParams>
-    NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(TParams&&... typeArguments) {
-      return MakeGenericMethod({typeArguments...});
-    }
     // public System.Object Invoke(System.Object fixture, params System.Object[] args)
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* Invoke(::Il2CppObject* fixture, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Object Invoke(System.Object fixture, params System.Object[] args)
-    ::Il2CppObject* Invoke(::Il2CppObject* fixture, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Object Invoke(System.Object fixture, params System.Object[] args)
-    template<class ...TParams>
-    ::Il2CppObject* Invoke(::Il2CppObject* fixture, TParams&&... args) {
-      return Invoke(fixture, {args...});
-    }
   }; // NUnit.Framework.Interfaces.IMethodInfo
   #pragma pack(pop)
 }

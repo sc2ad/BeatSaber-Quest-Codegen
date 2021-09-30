@@ -30,16 +30,6 @@ namespace UnityEngine::Bindings {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::VisibleToOtherModulesAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VisibleToOtherModulesAttribute*, creationType>(modules)));
     }
-    // Creating initializer_list -> params proxy for: System.Void .ctor(params System.String[] modules)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static VisibleToOtherModulesAttribute* New_ctor(std::initializer_list<::Il2CppString*> modules) {
-      return New_ctor<creationType>(::ArrayWrapper<::Il2CppString*>(modules));
-    }
-    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(params System.String[] modules)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
-    static VisibleToOtherModulesAttribute* New_ctor(TParams&&... modules) {
-      return New_ctor<creationType>({modules...});
-    }
     // public System.Void .ctor()
     // Offset: 0x261FA50
     // Implemented from: System.Attribute

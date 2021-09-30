@@ -56,16 +56,6 @@ namespace UnityEngine {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AssetFileNameExtensionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssetFileNameExtensionAttribute*, creationType>(preferredExtension, otherExtensions)));
     }
-    // Creating initializer_list -> params proxy for: System.Void .ctor(System.String preferredExtension, params System.String[] otherExtensions)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AssetFileNameExtensionAttribute* New_ctor(::Il2CppString* preferredExtension, std::initializer_list<::Il2CppString*> otherExtensions) {
-      return New_ctor<creationType>(preferredExtension, ::ArrayWrapper<::Il2CppString*>(otherExtensions));
-    }
-    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(System.String preferredExtension, params System.String[] otherExtensions)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
-    static AssetFileNameExtensionAttribute* New_ctor(::Il2CppString* preferredExtension, TParams&&... otherExtensions) {
-      return New_ctor<creationType>(preferredExtension, {otherExtensions...});
-    }
   }; // UnityEngine.AssetFileNameExtensionAttribute
   #pragma pack(pop)
   static check_size<sizeof(AssetFileNameExtensionAttribute), 24 + sizeof(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)> __UnityEngine_AssetFileNameExtensionAttributeSizeCheck;

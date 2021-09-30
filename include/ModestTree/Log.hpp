@@ -25,43 +25,15 @@ namespace ModestTree {
     // static public System.Void Debug(System.String message, params System.Object[] args)
     // Offset: 0x14EDD40
     static void Debug(::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void Debug(System.String message, params System.Object[] args)
-    static void Debug(::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void Debug(System.String message, params System.Object[] args)
-    template<class ...TParams>
-    static void Debug(::Il2CppString* message, TParams&&... args) {
-      Debug(message, {args...});
-    }
     // static public System.Void Info(System.String message, params System.Object[] args)
     // Offset: 0x14EDD44
     static void Info(::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void Info(System.String message, params System.Object[] args)
-    static void Info(::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void Info(System.String message, params System.Object[] args)
-    template<class ...TParams>
-    static void Info(::Il2CppString* message, TParams&&... args) {
-      Info(message, {args...});
-    }
     // static public System.Void Warn(System.String message, params System.Object[] args)
     // Offset: 0x14ED5E0
     static void Warn(::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void Warn(System.String message, params System.Object[] args)
-    static void Warn(::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void Warn(System.String message, params System.Object[] args)
-    template<class ...TParams>
-    static void Warn(::Il2CppString* message, TParams&&... args) {
-      Warn(message, {args...});
-    }
     // static public System.Void Trace(System.String message, params System.Object[] args)
     // Offset: 0x14EDDCC
     static void Trace(::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void Trace(System.String message, params System.Object[] args)
-    static void Trace(::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void Trace(System.String message, params System.Object[] args)
-    template<class ...TParams>
-    static void Trace(::Il2CppString* message, TParams&&... args) {
-      Trace(message, {args...});
-    }
     // static public System.Void ErrorException(System.Exception e)
     // Offset: 0x14EDE54
     static void ErrorException(System::Exception* e);
@@ -71,13 +43,6 @@ namespace ModestTree {
     // static public System.Void Error(System.String message, params System.Object[] args)
     // Offset: 0x14EDF3C
     static void Error(::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void Error(System.String message, params System.Object[] args)
-    static void Error(::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void Error(System.String message, params System.Object[] args)
-    template<class ...TParams>
-    static void Error(::Il2CppString* message, TParams&&... args) {
-      Error(message, {args...});
-    }
   }; // ModestTree.Log
   #pragma pack(pop)
 }

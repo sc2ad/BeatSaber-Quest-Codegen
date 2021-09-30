@@ -221,13 +221,6 @@ namespace Polyglot {
     // static public System.String GetFormat(System.String key, params System.Object[] arguments)
     // Offset: 0x25833DC
     static ::Il2CppString* GetFormat(::Il2CppString* key, ::ArrayWrapper<::Il2CppObject*> arguments);
-    // Creating initializer_list -> params proxy for: System.String GetFormat(System.String key, params System.Object[] arguments)
-    static ::Il2CppString* GetFormat(::Il2CppString* key, std::initializer_list<::Il2CppObject*> arguments);
-    // Creating TArgs -> initializer_list proxy for: System.String GetFormat(System.String key, params System.Object[] arguments)
-    template<class ...TParams>
-    static ::Il2CppString* GetFormat(::Il2CppString* key, TParams&&... arguments) {
-      return GetFormat(key, {arguments...});
-    }
     // public System.Boolean InputFilesContains(Polyglot.LocalizationDocument doc)
     // Offset: 0x2583458
     bool InputFilesContains(Polyglot::LocalizationDocument* doc);

@@ -200,13 +200,6 @@ namespace ModestTree {
     // static public System.Boolean HasAttribute(System.Reflection.MemberInfo provider, params System.Type[] attributeTypes)
     // Offset: 0x14EF27C
     static bool HasAttribute(System::Reflection::MemberInfo* provider, ::ArrayWrapper<System::Type*> attributeTypes);
-    // Creating initializer_list -> params proxy for: System.Boolean HasAttribute(System.Reflection.MemberInfo provider, params System.Type[] attributeTypes)
-    static bool HasAttribute(System::Reflection::MemberInfo* provider, std::initializer_list<System::Type*> attributeTypes);
-    // Creating TArgs -> initializer_list proxy for: System.Boolean HasAttribute(System.Reflection.MemberInfo provider, params System.Type[] attributeTypes)
-    template<class ...TParams>
-    static bool HasAttribute(System::Reflection::MemberInfo* provider, TParams&&... attributeTypes) {
-      return HasAttribute(provider, {attributeTypes...});
-    }
     // static public System.Boolean HasAttribute(System.Reflection.MemberInfo provider)
     // Offset: 0xFFFFFFFF
     template<class T>
@@ -230,23 +223,9 @@ namespace ModestTree {
     // static public System.Collections.Generic.IEnumerable`1<System.Attribute> AllAttributes(System.Reflection.MemberInfo provider, params System.Type[] attributeTypes)
     // Offset: 0x14EF300
     static System::Collections::Generic::IEnumerable_1<System::Attribute*>* AllAttributes(System::Reflection::MemberInfo* provider, ::ArrayWrapper<System::Type*> attributeTypes);
-    // Creating initializer_list -> params proxy for: System.Collections.Generic.IEnumerable`1<System.Attribute> AllAttributes(System.Reflection.MemberInfo provider, params System.Type[] attributeTypes)
-    static System::Collections::Generic::IEnumerable_1<System::Attribute*>* AllAttributes(System::Reflection::MemberInfo* provider, std::initializer_list<System::Type*> attributeTypes);
-    // Creating TArgs -> initializer_list proxy for: System.Collections.Generic.IEnumerable`1<System.Attribute> AllAttributes(System.Reflection.MemberInfo provider, params System.Type[] attributeTypes)
-    template<class ...TParams>
-    static System::Collections::Generic::IEnumerable_1<System::Attribute*>* AllAttributes(System::Reflection::MemberInfo* provider, TParams&&... attributeTypes) {
-      return AllAttributes(provider, {attributeTypes...});
-    }
     // static public System.Boolean HasAttribute(System.Reflection.ParameterInfo provider, params System.Type[] attributeTypes)
     // Offset: 0x14EF438
     static bool HasAttribute(System::Reflection::ParameterInfo* provider, ::ArrayWrapper<System::Type*> attributeTypes);
-    // Creating initializer_list -> params proxy for: System.Boolean HasAttribute(System.Reflection.ParameterInfo provider, params System.Type[] attributeTypes)
-    static bool HasAttribute(System::Reflection::ParameterInfo* provider, std::initializer_list<System::Type*> attributeTypes);
-    // Creating TArgs -> initializer_list proxy for: System.Boolean HasAttribute(System.Reflection.ParameterInfo provider, params System.Type[] attributeTypes)
-    template<class ...TParams>
-    static bool HasAttribute(System::Reflection::ParameterInfo* provider, TParams&&... attributeTypes) {
-      return HasAttribute(provider, {attributeTypes...});
-    }
     // static public System.Boolean HasAttribute(System.Reflection.ParameterInfo provider)
     // Offset: 0xFFFFFFFF
     template<class T>
@@ -270,13 +249,6 @@ namespace ModestTree {
     // static public System.Collections.Generic.IEnumerable`1<System.Attribute> AllAttributes(System.Reflection.ParameterInfo provider, params System.Type[] attributeTypes)
     // Offset: 0x14EF4BC
     static System::Collections::Generic::IEnumerable_1<System::Attribute*>* AllAttributes(System::Reflection::ParameterInfo* provider, ::ArrayWrapper<System::Type*> attributeTypes);
-    // Creating initializer_list -> params proxy for: System.Collections.Generic.IEnumerable`1<System.Attribute> AllAttributes(System.Reflection.ParameterInfo provider, params System.Type[] attributeTypes)
-    static System::Collections::Generic::IEnumerable_1<System::Attribute*>* AllAttributes(System::Reflection::ParameterInfo* provider, std::initializer_list<System::Type*> attributeTypes);
-    // Creating TArgs -> initializer_list proxy for: System.Collections.Generic.IEnumerable`1<System.Attribute> AllAttributes(System.Reflection.ParameterInfo provider, params System.Type[] attributeTypes)
-    template<class ...TParams>
-    static System::Collections::Generic::IEnumerable_1<System::Attribute*>* AllAttributes(System::Reflection::ParameterInfo* provider, TParams&&... attributeTypes) {
-      return AllAttributes(provider, {attributeTypes...});
-    }
   }; // ModestTree.TypeExtensions
   #pragma pack(pop)
 }

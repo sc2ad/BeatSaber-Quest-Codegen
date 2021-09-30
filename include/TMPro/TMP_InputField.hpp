@@ -1785,13 +1785,6 @@ namespace TMPro {
     // private System.Void SetToCustomIfContentTypeIsNot(params TMPro.TMP_InputField/TMPro.ContentType[] allowedContentTypes)
     // Offset: 0x11FC6D4
     void SetToCustomIfContentTypeIsNot(::ArrayWrapper<TMPro::TMP_InputField::ContentType> allowedContentTypes);
-    // Creating initializer_list -> params proxy for: System.Void SetToCustomIfContentTypeIsNot(params TMPro.TMP_InputField/TMPro.ContentType[] allowedContentTypes)
-    void SetToCustomIfContentTypeIsNot(std::initializer_list<TMPro::TMP_InputField::ContentType> allowedContentTypes);
-    // Creating TArgs -> initializer_list proxy for: System.Void SetToCustomIfContentTypeIsNot(params TMPro.TMP_InputField/TMPro.ContentType[] allowedContentTypes)
-    template<class ...TParams>
-    void SetToCustomIfContentTypeIsNot(TParams&&... allowedContentTypes) {
-      SetToCustomIfContentTypeIsNot({allowedContentTypes...});
-    }
     // private System.Void SetToCustom()
     // Offset: 0x11FC860
     void SetToCustom();

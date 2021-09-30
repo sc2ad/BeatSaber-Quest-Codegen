@@ -178,13 +178,6 @@ namespace System::IO {
     // public System.Void WriteLine(System.String format, params System.Object[] arg)
     // Offset: 0x1A06E68
     void WriteLine(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> arg);
-    // Creating initializer_list -> params proxy for: System.Void WriteLine(System.String format, params System.Object[] arg)
-    void WriteLine(::Il2CppString* format, std::initializer_list<::Il2CppObject*> arg);
-    // Creating TArgs -> initializer_list proxy for: System.Void WriteLine(System.String format, params System.Object[] arg)
-    template<class ...TParams>
-    void WriteLine(::Il2CppString* format, TParams&&... arg) {
-      WriteLine(format, {arg...});
-    }
     // protected System.Void .ctor()
     // Offset: 0x1A064B4
     // Implemented from: System.MarshalByRefObject

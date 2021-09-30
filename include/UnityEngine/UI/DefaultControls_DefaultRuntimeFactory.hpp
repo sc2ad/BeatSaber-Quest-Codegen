@@ -49,13 +49,6 @@ namespace UnityEngine::UI {
     // public UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
     // Offset: 0x1600760
     UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, ::ArrayWrapper<System::Type*> components);
-    // Creating initializer_list -> params proxy for: UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
-    UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, std::initializer_list<System::Type*> components);
-    // Creating TArgs -> initializer_list proxy for: UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
-    template<class ...TParams>
-    UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, TParams&&... components) {
-      return CreateGameObject(name, {components...});
-    }
     // public System.Void .ctor()
     // Offset: 0x16007D4
     // Implemented from: System.Object

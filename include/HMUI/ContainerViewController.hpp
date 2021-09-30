@@ -97,13 +97,6 @@ namespace HMUI {
     // public System.Void SetChildViewControllers(params HMUI.ViewController[] viewControllers)
     // Offset: 0x14842B0
     void SetChildViewControllers(::ArrayWrapper<HMUI::ViewController*> viewControllers);
-    // Creating initializer_list -> params proxy for: System.Void SetChildViewControllers(params HMUI.ViewController[] viewControllers)
-    void SetChildViewControllers(std::initializer_list<HMUI::ViewController*> viewControllers);
-    // Creating TArgs -> initializer_list proxy for: System.Void SetChildViewControllers(params HMUI.ViewController[] viewControllers)
-    template<class ...TParams>
-    void SetChildViewControllers(TParams&&... viewControllers) {
-      SetChildViewControllers({viewControllers...});
-    }
     // protected System.Void AddViewController(HMUI.ViewController viewController, System.Action finishedCallback, System.Action`2<System.Single,HMUI.ViewController[]> animationLayouter, System.Boolean immediately)
     // Offset: 0x148440C
     void AddViewController(HMUI::ViewController* viewController, System::Action* finishedCallback, System::Action_2<float, ::ArrayWrapper<HMUI::ViewController*>>* animationLayouter, bool immediately);

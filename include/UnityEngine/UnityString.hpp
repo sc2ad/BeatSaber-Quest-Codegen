@@ -19,13 +19,6 @@ namespace UnityEngine {
     // static public System.String Format(System.String fmt, params System.Object[] args)
     // Offset: 0x261FBC8
     static ::Il2CppString* Format(::Il2CppString* fmt, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.String Format(System.String fmt, params System.Object[] args)
-    static ::Il2CppString* Format(::Il2CppString* fmt, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.String Format(System.String fmt, params System.Object[] args)
-    template<class ...TParams>
-    static ::Il2CppString* Format(::Il2CppString* fmt, TParams&&... args) {
-      return Format(fmt, {args...});
-    }
   }; // UnityEngine.UnityString
   #pragma pack(pop)
 }

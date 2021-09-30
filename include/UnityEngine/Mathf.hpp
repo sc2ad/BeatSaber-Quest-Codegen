@@ -85,13 +85,6 @@ namespace UnityEngine {
     // static public System.Single Max(params System.Single[] values)
     // Offset: 0x1DA48FC
     static float Max(::ArrayWrapper<float> values);
-    // Creating initializer_list -> params proxy for: System.Single Max(params System.Single[] values)
-    static float Max(std::initializer_list<float> values);
-    // Creating TArgs -> initializer_list proxy for: System.Single Max(params System.Single[] values)
-    template<class ...TParams>
-    static float Max(TParams&&... values) {
-      return Max({values...});
-    }
     // static public System.Int32 Max(System.Int32 a, System.Int32 b)
     // Offset: 0x1DA4950
     static int Max(int a, int b);

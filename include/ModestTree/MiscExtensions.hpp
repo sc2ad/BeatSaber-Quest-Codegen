@@ -43,13 +43,6 @@ namespace ModestTree {
     // static public System.String Fmt(System.String s, params System.Object[] args)
     // Offset: 0x14ED014
     static ::Il2CppString* Fmt(::Il2CppString* s, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.String Fmt(System.String s, params System.Object[] args)
-    static ::Il2CppString* Fmt(::Il2CppString* s, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.String Fmt(System.String s, params System.Object[] args)
-    template<class ...TParams>
-    static ::Il2CppString* Fmt(::Il2CppString* s, TParams&&... args) {
-      return Fmt(s, {args...});
-    }
     // static public System.Int32 IndexOf(System.Collections.Generic.IList`1<T> list, T item)
     // Offset: 0xFFFFFFFF
     template<class T>

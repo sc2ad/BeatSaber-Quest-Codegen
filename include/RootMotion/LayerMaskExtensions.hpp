@@ -24,61 +24,24 @@ namespace RootMotion {
     // static public UnityEngine.LayerMask Create(params System.String[] layerNames)
     // Offset: 0x1C6F330
     static UnityEngine::LayerMask Create(::ArrayWrapper<::Il2CppString*> layerNames);
-    // Creating initializer_list -> params proxy for: UnityEngine.LayerMask Create(params System.String[] layerNames)
-    static UnityEngine::LayerMask Create(std::initializer_list<::Il2CppString*> layerNames);
-    // Creating TArgs -> initializer_list proxy for: UnityEngine.LayerMask Create(params System.String[] layerNames)
-    template<class ...TParams>
-    static UnityEngine::LayerMask Create(TParams&&... layerNames) {
-      return Create({layerNames...});
-    }
     // static public UnityEngine.LayerMask Create(params System.Int32[] layerNumbers)
     // Offset: 0x1C6F3FC
     static UnityEngine::LayerMask Create(::ArrayWrapper<int> layerNumbers);
-    // Creating initializer_list -> params proxy for: UnityEngine.LayerMask Create(params System.Int32[] layerNumbers)
-    static UnityEngine::LayerMask Create(std::initializer_list<int> layerNumbers);
     // static public UnityEngine.LayerMask NamesToMask(params System.String[] layerNames)
     // Offset: 0x1C6F348
     static UnityEngine::LayerMask NamesToMask(::ArrayWrapper<::Il2CppString*> layerNames);
-    // Creating initializer_list -> params proxy for: UnityEngine.LayerMask NamesToMask(params System.String[] layerNames)
-    static UnityEngine::LayerMask NamesToMask(std::initializer_list<::Il2CppString*> layerNames);
-    // Creating TArgs -> initializer_list proxy for: UnityEngine.LayerMask NamesToMask(params System.String[] layerNames)
-    template<class ...TParams>
-    static UnityEngine::LayerMask NamesToMask(TParams&&... layerNames) {
-      return NamesToMask({layerNames...});
-    }
     // static public UnityEngine.LayerMask LayerNumbersToMask(params System.Int32[] layerNumbers)
     // Offset: 0x1C6F414
     static UnityEngine::LayerMask LayerNumbersToMask(::ArrayWrapper<int> layerNumbers);
-    // Creating initializer_list -> params proxy for: UnityEngine.LayerMask LayerNumbersToMask(params System.Int32[] layerNumbers)
-    static UnityEngine::LayerMask LayerNumbersToMask(std::initializer_list<int> layerNumbers);
-    // Creating TArgs -> initializer_list proxy for: UnityEngine.LayerMask LayerNumbersToMask(params System.Int32[] layerNumbers)
-    template<class ...TParams>
-    static UnityEngine::LayerMask LayerNumbersToMask(TParams&&... layerNumbers) {
-      return LayerNumbersToMask({layerNumbers...});
-    }
     // static public UnityEngine.LayerMask Inverse(UnityEngine.LayerMask original)
     // Offset: 0x1C6F4B8
     static UnityEngine::LayerMask Inverse(UnityEngine::LayerMask original);
     // static public UnityEngine.LayerMask AddToMask(UnityEngine.LayerMask original, params System.String[] layerNames)
     // Offset: 0x1C6F4E4
     static UnityEngine::LayerMask AddToMask(UnityEngine::LayerMask original, ::ArrayWrapper<::Il2CppString*> layerNames);
-    // Creating initializer_list -> params proxy for: UnityEngine.LayerMask AddToMask(UnityEngine.LayerMask original, params System.String[] layerNames)
-    static UnityEngine::LayerMask AddToMask(UnityEngine::LayerMask original, std::initializer_list<::Il2CppString*> layerNames);
-    // Creating TArgs -> initializer_list proxy for: UnityEngine.LayerMask AddToMask(UnityEngine.LayerMask original, params System.String[] layerNames)
-    template<class ...TParams>
-    static UnityEngine::LayerMask AddToMask(UnityEngine::LayerMask original, TParams&&... layerNames) {
-      return AddToMask(original, {layerNames...});
-    }
     // static public UnityEngine.LayerMask RemoveFromMask(UnityEngine.LayerMask original, params System.String[] layerNames)
     // Offset: 0x1C6F534
     static UnityEngine::LayerMask RemoveFromMask(UnityEngine::LayerMask original, ::ArrayWrapper<::Il2CppString*> layerNames);
-    // Creating initializer_list -> params proxy for: UnityEngine.LayerMask RemoveFromMask(UnityEngine.LayerMask original, params System.String[] layerNames)
-    static UnityEngine::LayerMask RemoveFromMask(UnityEngine::LayerMask original, std::initializer_list<::Il2CppString*> layerNames);
-    // Creating TArgs -> initializer_list proxy for: UnityEngine.LayerMask RemoveFromMask(UnityEngine.LayerMask original, params System.String[] layerNames)
-    template<class ...TParams>
-    static UnityEngine::LayerMask RemoveFromMask(UnityEngine::LayerMask original, TParams&&... layerNames) {
-      return RemoveFromMask(original, {layerNames...});
-    }
     // static public System.String[] MaskToNames(UnityEngine.LayerMask original)
     // Offset: 0x1C6F5A0
     static ::ArrayWrapper<::Il2CppString*> MaskToNames(UnityEngine::LayerMask original);

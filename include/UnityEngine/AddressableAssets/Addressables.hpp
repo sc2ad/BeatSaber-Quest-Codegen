@@ -239,39 +239,18 @@ namespace UnityEngine::AddressableAssets {
     // static System.Void InternalSafeSerializationLogFormat(System.String format, UnityEngine.LogType logType, params System.Object[] args)
     // Offset: 0x1589ED0
     static void InternalSafeSerializationLogFormat(::Il2CppString* format, UnityEngine::LogType logType, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void InternalSafeSerializationLogFormat(System.String format, UnityEngine.LogType logType, params System.Object[] args)
-    static void InternalSafeSerializationLogFormat(::Il2CppString* format, UnityEngine::LogType logType, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void InternalSafeSerializationLogFormat(System.String format, UnityEngine.LogType logType, params System.Object[] args)
-    template<class ...TParams>
-    static void InternalSafeSerializationLogFormat(::Il2CppString* format, UnityEngine::LogType logType, TParams&&... args) {
-      InternalSafeSerializationLogFormat(format, logType, {args...});
-    }
     // static public System.Void Log(System.String msg)
     // Offset: 0x158A190
     static void Log(::Il2CppString* msg);
     // static public System.Void LogFormat(System.String format, params System.Object[] args)
     // Offset: 0x158A24C
     static void LogFormat(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void LogFormat(System.String format, params System.Object[] args)
-    static void LogFormat(::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void LogFormat(System.String format, params System.Object[] args)
-    template<class ...TParams>
-    static void LogFormat(::Il2CppString* format, TParams&&... args) {
-      LogFormat(format, {args...});
-    }
     // static public System.Void LogWarning(System.String msg)
     // Offset: 0x158A310
     static void LogWarning(::Il2CppString* msg);
     // static public System.Void LogWarningFormat(System.String format, params System.Object[] args)
     // Offset: 0x158A3CC
     static void LogWarningFormat(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void LogWarningFormat(System.String format, params System.Object[] args)
-    static void LogWarningFormat(::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void LogWarningFormat(System.String format, params System.Object[] args)
-    template<class ...TParams>
-    static void LogWarningFormat(::Il2CppString* format, TParams&&... args) {
-      LogWarningFormat(format, {args...});
-    }
     // static public System.Void LogError(System.String msg)
     // Offset: 0x158A490
     static void LogError(::Il2CppString* msg);
@@ -281,13 +260,6 @@ namespace UnityEngine::AddressableAssets {
     // static public System.Void LogErrorFormat(System.String format, params System.Object[] args)
     // Offset: 0x158A85C
     static void LogErrorFormat(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void LogErrorFormat(System.String format, params System.Object[] args)
-    static void LogErrorFormat(::Il2CppString* format, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void LogErrorFormat(System.String format, params System.Object[] args)
-    template<class ...TParams>
-    static void LogErrorFormat(::Il2CppString* format, TParams&&... args) {
-      LogErrorFormat(format, {args...});
-    }
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> Initialize()
     // Offset: 0x158A920
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> Initialize();

@@ -57,13 +57,6 @@ namespace Zenject {
     // public Zenject.CopyNonLazyBinder WhenInjectedInto(params System.Type[] targets)
     // Offset: 0x14F8460
     Zenject::CopyNonLazyBinder* WhenInjectedInto(::ArrayWrapper<System::Type*> targets);
-    // Creating initializer_list -> params proxy for: Zenject.CopyNonLazyBinder WhenInjectedInto(params System.Type[] targets)
-    Zenject::CopyNonLazyBinder* WhenInjectedInto(std::initializer_list<System::Type*> targets);
-    // Creating TArgs -> initializer_list proxy for: Zenject.CopyNonLazyBinder WhenInjectedInto(params System.Type[] targets)
-    template<class ...TParams>
-    Zenject::CopyNonLazyBinder* WhenInjectedInto(TParams&&... targets) {
-      return WhenInjectedInto({targets...});
-    }
     // public Zenject.CopyNonLazyBinder WhenInjectedInto()
     // Offset: 0xFFFFFFFF
     template<class T>

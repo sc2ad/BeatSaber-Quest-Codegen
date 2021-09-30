@@ -1268,13 +1268,6 @@ namespace UnityEngine::UI {
     // private System.Void SetToCustomIfContentTypeIsNot(params UnityEngine.UI.InputField/UnityEngine.UI.ContentType[] allowedContentTypes)
     // Offset: 0x1AD6DA8
     void SetToCustomIfContentTypeIsNot(::ArrayWrapper<UnityEngine::UI::InputField::ContentType> allowedContentTypes);
-    // Creating initializer_list -> params proxy for: System.Void SetToCustomIfContentTypeIsNot(params UnityEngine.UI.InputField/UnityEngine.UI.ContentType[] allowedContentTypes)
-    void SetToCustomIfContentTypeIsNot(std::initializer_list<UnityEngine::UI::InputField::ContentType> allowedContentTypes);
-    // Creating TArgs -> initializer_list proxy for: System.Void SetToCustomIfContentTypeIsNot(params UnityEngine.UI.InputField/UnityEngine.UI.ContentType[] allowedContentTypes)
-    template<class ...TParams>
-    void SetToCustomIfContentTypeIsNot(TParams&&... allowedContentTypes) {
-      SetToCustomIfContentTypeIsNot({allowedContentTypes...});
-    }
     // private System.Void SetToCustom()
     // Offset: 0x1AD6EAC
     void SetToCustom();

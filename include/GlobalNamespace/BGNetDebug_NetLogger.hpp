@@ -30,13 +30,6 @@ namespace GlobalNamespace {
     // public System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
     // Offset: 0x144C898
     void WriteNet(LiteNetLib::NetLogLevel level, ::Il2CppString* str, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
-    void WriteNet(LiteNetLib::NetLogLevel level, ::Il2CppString* str, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
-    template<class ...TParams>
-    void WriteNet(LiteNetLib::NetLogLevel level, ::Il2CppString* str, TParams&&... args) {
-      WriteNet(level, str, {args...});
-    }
     // public System.Void .ctor()
     // Offset: 0x144C5C8
     // Implemented from: System.Object

@@ -101,23 +101,9 @@ namespace UnityEngine::UI {
     // static private UnityEngine.GameObject CreateUIElementRoot(System.String name, UnityEngine.Vector2 size, params System.Type[] components)
     // Offset: 0x15FC56C
     static UnityEngine::GameObject* CreateUIElementRoot(::Il2CppString* name, UnityEngine::Vector2 size, ::ArrayWrapper<System::Type*> components);
-    // Creating initializer_list -> params proxy for: UnityEngine.GameObject CreateUIElementRoot(System.String name, UnityEngine.Vector2 size, params System.Type[] components)
-    static UnityEngine::GameObject* CreateUIElementRoot(::Il2CppString* name, UnityEngine::Vector2 size, std::initializer_list<System::Type*> components);
-    // Creating TArgs -> initializer_list proxy for: UnityEngine.GameObject CreateUIElementRoot(System.String name, UnityEngine.Vector2 size, params System.Type[] components)
-    template<class ...TParams>
-    static UnityEngine::GameObject* CreateUIElementRoot(::Il2CppString* name, UnityEngine::Vector2 size, TParams&&... components) {
-      return CreateUIElementRoot(name, size, {components...});
-    }
     // static private UnityEngine.GameObject CreateUIObject(System.String name, UnityEngine.GameObject parent, params System.Type[] components)
     // Offset: 0x15FC6D8
     static UnityEngine::GameObject* CreateUIObject(::Il2CppString* name, UnityEngine::GameObject* parent, ::ArrayWrapper<System::Type*> components);
-    // Creating initializer_list -> params proxy for: UnityEngine.GameObject CreateUIObject(System.String name, UnityEngine.GameObject parent, params System.Type[] components)
-    static UnityEngine::GameObject* CreateUIObject(::Il2CppString* name, UnityEngine::GameObject* parent, std::initializer_list<System::Type*> components);
-    // Creating TArgs -> initializer_list proxy for: UnityEngine.GameObject CreateUIObject(System.String name, UnityEngine.GameObject parent, params System.Type[] components)
-    template<class ...TParams>
-    static UnityEngine::GameObject* CreateUIObject(::Il2CppString* name, UnityEngine::GameObject* parent, TParams&&... components) {
-      return CreateUIObject(name, parent, {components...});
-    }
     // static private System.Void SetDefaultTextValues(UnityEngine.UI.Text lbl)
     // Offset: 0x15FC92C
     static void SetDefaultTextValues(UnityEngine::UI::Text* lbl);

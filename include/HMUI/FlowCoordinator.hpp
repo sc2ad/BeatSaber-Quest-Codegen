@@ -304,13 +304,6 @@ namespace HMUI {
     // protected System.Void SetViewControllersToNavigationController(HMUI.NavigationController navigationController, params HMUI.ViewController[] viewControllers)
     // Offset: 0x14889F4
     void SetViewControllersToNavigationController(HMUI::NavigationController* navigationController, ::ArrayWrapper<HMUI::ViewController*> viewControllers);
-    // Creating initializer_list -> params proxy for: System.Void SetViewControllersToNavigationController(HMUI.NavigationController navigationController, params HMUI.ViewController[] viewControllers)
-    void SetViewControllersToNavigationController(HMUI::NavigationController* navigationController, std::initializer_list<HMUI::ViewController*> viewControllers);
-    // Creating TArgs -> initializer_list proxy for: System.Void SetViewControllersToNavigationController(HMUI.NavigationController navigationController, params HMUI.ViewController[] viewControllers)
-    template<class ...TParams>
-    void SetViewControllersToNavigationController(HMUI::NavigationController* navigationController, TParams&&... viewControllers) {
-      SetViewControllersToNavigationController(navigationController, {viewControllers...});
-    }
     // protected System.Void SetViewControllerToNavigationController(HMUI.NavigationController navigationController, HMUI.ViewController viewController)
     // Offset: 0x1488A10
     void SetViewControllerToNavigationController(HMUI::NavigationController* navigationController, HMUI::ViewController* viewController);

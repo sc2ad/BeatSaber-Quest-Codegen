@@ -714,13 +714,6 @@ namespace System {
     // Implemented from: System.Type
     // Base method: System.Type Type::MakeGenericType(params System.Type[] instantiation)
     System::Type* MakeGenericType(::ArrayWrapper<System::Type*> instantiation);
-    // Creating initializer_list -> params proxy for: System.Type MakeGenericType(params System.Type[] instantiation)
-    System::Type* MakeGenericType(std::initializer_list<System::Type*> instantiation);
-    // Creating TArgs -> initializer_list proxy for: System.Type MakeGenericType(params System.Type[] instantiation)
-    template<class ...TParams>
-    System::Type* MakeGenericType(TParams&&... instantiation) {
-      return MakeGenericType({instantiation...});
-    }
     // public override System.Type GetGenericTypeDefinition()
     // Offset: 0x191F5D4
     // Implemented from: System.Type

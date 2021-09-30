@@ -41,23 +41,9 @@ namespace NUnit::Framework::Constraints {
     // public System.Void WriteMessageLine(System.String message, params System.Object[] args)
     // Offset: 0x192CB4C
     void WriteMessageLine(::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void WriteMessageLine(System.String message, params System.Object[] args)
-    void WriteMessageLine(::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void WriteMessageLine(System.String message, params System.Object[] args)
-    template<class ...TParams>
-    void WriteMessageLine(::Il2CppString* message, TParams&&... args) {
-      WriteMessageLine(message, {args...});
-    }
     // public System.Void WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
     // Offset: 0xFFFFFFFF
     void WriteMessageLine(int level, ::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);
-    // Creating initializer_list -> params proxy for: System.Void WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
-    void WriteMessageLine(int level, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
-    // Creating TArgs -> initializer_list proxy for: System.Void WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
-    template<class ...TParams>
-    void WriteMessageLine(int level, ::Il2CppString* message, TParams&&... args) {
-      WriteMessageLine(level, message, {args...});
-    }
     // public System.Void DisplayDifferences(NUnit.Framework.Constraints.ConstraintResult result)
     // Offset: 0xFFFFFFFF
     void DisplayDifferences(NUnit::Framework::Constraints::ConstraintResult* result);

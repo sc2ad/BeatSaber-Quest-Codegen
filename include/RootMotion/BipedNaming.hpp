@@ -234,13 +234,6 @@ namespace RootMotion {
     // static public UnityEngine.Transform GetNamingMatch(UnityEngine.Transform[] transforms, params System.String[][] namings)
     // Offset: 0x1EB743C
     static UnityEngine::Transform* GetNamingMatch(::ArrayWrapper<UnityEngine::Transform*> transforms, ::ArrayWrapper<::ArrayWrapper<::Il2CppString*>> namings);
-    // Creating initializer_list -> params proxy for: UnityEngine.Transform GetNamingMatch(UnityEngine.Transform[] transforms, params System.String[][] namings)
-    static UnityEngine::Transform* GetNamingMatch(::ArrayWrapper<UnityEngine::Transform*> transforms, std::initializer_list<::ArrayWrapper<::Il2CppString*>> namings);
-    // Creating TArgs -> initializer_list proxy for: UnityEngine.Transform GetNamingMatch(UnityEngine.Transform[] transforms, params System.String[][] namings)
-    template<class ...TParams>
-    static UnityEngine::Transform* GetNamingMatch(::ArrayWrapper<UnityEngine::Transform*> transforms, TParams&&... namings) {
-      return GetNamingMatch(transforms, {namings...});
-    }
     // static public RootMotion.BipedNaming/RootMotion.BoneType GetBoneType(System.String boneName)
     // Offset: 0x1EB6F6C
     static RootMotion::BipedNaming::BoneType GetBoneType(::Il2CppString* boneName);
@@ -250,13 +243,6 @@ namespace RootMotion {
     // static public UnityEngine.Transform GetBone(UnityEngine.Transform[] transforms, RootMotion.BipedNaming/RootMotion.BoneType boneType, RootMotion.BipedNaming/RootMotion.BoneSide boneSide, params System.String[][] namings)
     // Offset: 0x1EB7C7C
     static UnityEngine::Transform* GetBone(::ArrayWrapper<UnityEngine::Transform*> transforms, RootMotion::BipedNaming::BoneType boneType, RootMotion::BipedNaming::BoneSide boneSide, ::ArrayWrapper<::ArrayWrapper<::Il2CppString*>> namings);
-    // Creating initializer_list -> params proxy for: UnityEngine.Transform GetBone(UnityEngine.Transform[] transforms, RootMotion.BipedNaming/RootMotion.BoneType boneType, RootMotion.BipedNaming/RootMotion.BoneSide boneSide, params System.String[][] namings)
-    static UnityEngine::Transform* GetBone(::ArrayWrapper<UnityEngine::Transform*> transforms, RootMotion::BipedNaming::BoneType boneType, RootMotion::BipedNaming::BoneSide boneSide, std::initializer_list<::ArrayWrapper<::Il2CppString*>> namings);
-    // Creating TArgs -> initializer_list proxy for: UnityEngine.Transform GetBone(UnityEngine.Transform[] transforms, RootMotion.BipedNaming/RootMotion.BoneType boneType, RootMotion.BipedNaming/RootMotion.BoneSide boneSide, params System.String[][] namings)
-    template<class ...TParams>
-    static UnityEngine::Transform* GetBone(::ArrayWrapper<UnityEngine::Transform*> transforms, RootMotion::BipedNaming::BoneType boneType, RootMotion::BipedNaming::BoneSide boneSide, TParams&&... namings) {
-      return GetBone(transforms, boneType, boneSide, {namings...});
-    }
     // static private System.Boolean isLeft(System.String boneName)
     // Offset: 0x1EB7A94
     static bool isLeft(::Il2CppString* boneName);

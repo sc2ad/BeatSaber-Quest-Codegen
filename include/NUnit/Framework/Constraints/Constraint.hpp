@@ -103,16 +103,6 @@ namespace NUnit::Framework::Constraints {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::Constraint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Constraint*, creationType>(args)));
     }
-    // Creating initializer_list -> params proxy for: System.Void .ctor(params System.Object[] args)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Constraint* New_ctor(std::initializer_list<::Il2CppObject*> args) {
-      return New_ctor<creationType>(::ArrayWrapper<::Il2CppObject*>(args));
-    }
-    // Creating TArgs -> initializer_list proxy for: System.Void .ctor(params System.Object[] args)
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary, class ...TParams>
-    static Constraint* New_ctor(TParams&&... args) {
-      return New_ctor<creationType>({args...});
-    }
     // public NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);

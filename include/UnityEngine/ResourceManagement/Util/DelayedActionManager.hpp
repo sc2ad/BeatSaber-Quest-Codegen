@@ -108,13 +108,6 @@ namespace UnityEngine::ResourceManagement::Util {
       // public System.Void .ctor(System.Delegate d, System.Single invocationTime, params System.Object[] p)
       // Offset: 0x1B6DC58
       DelegateInfo(System::Delegate* d, float invocationTime, ::ArrayWrapper<::Il2CppObject*> p);
-      // Creating initializer_list -> params proxy for: System.Void .ctor(System.Delegate d, System.Single invocationTime, params System.Object[] p)
-      DelegateInfo(System::Delegate* d, float invocationTime, std::initializer_list<::Il2CppObject*> p);
-      // Creating TArgs -> initializer_list proxy for: System.Void .ctor(System.Delegate d, System.Single invocationTime, params System.Object[] p)
-      template<class ...TParams>
-      DelegateInfo(System::Delegate* d, float invocationTime, TParams&&... p) {
-        DelegateInfo(d, invocationTime, {p...});
-      }
       // public System.Void Invoke()
       // Offset: 0x1B6E1B0
       void Invoke();
@@ -184,23 +177,9 @@ namespace UnityEngine::ResourceManagement::Util {
     // static public System.Void AddAction(System.Delegate action, System.Single delay, params System.Object[] parameters)
     // Offset: 0x1B6D9E0
     static void AddAction(System::Delegate* action, float delay, ::ArrayWrapper<::Il2CppObject*> parameters);
-    // Creating initializer_list -> params proxy for: System.Void AddAction(System.Delegate action, System.Single delay, params System.Object[] parameters)
-    static void AddAction(System::Delegate* action, float delay, std::initializer_list<::Il2CppObject*> parameters);
-    // Creating TArgs -> initializer_list proxy for: System.Void AddAction(System.Delegate action, System.Single delay, params System.Object[] parameters)
-    template<class ...TParams>
-    static void AddAction(System::Delegate* action, float delay, TParams&&... parameters) {
-      AddAction(action, delay, {parameters...});
-    }
     // private System.Void AddActionInternal(System.Delegate action, System.Single delay, params System.Object[] parameters)
     // Offset: 0x1B6DA5C
     void AddActionInternal(System::Delegate* action, float delay, ::ArrayWrapper<::Il2CppObject*> parameters);
-    // Creating initializer_list -> params proxy for: System.Void AddActionInternal(System.Delegate action, System.Single delay, params System.Object[] parameters)
-    void AddActionInternal(System::Delegate* action, float delay, std::initializer_list<::Il2CppObject*> parameters);
-    // Creating TArgs -> initializer_list proxy for: System.Void AddActionInternal(System.Delegate action, System.Single delay, params System.Object[] parameters)
-    template<class ...TParams>
-    void AddActionInternal(System::Delegate* action, float delay, TParams&&... parameters) {
-      AddActionInternal(action, delay, {parameters...});
-    }
     // static public System.Boolean Wait(System.Single timeout, System.Single timeAdvanceAmount)
     // Offset: 0x1B6DDE0
     static bool Wait(float timeout, float timeAdvanceAmount);

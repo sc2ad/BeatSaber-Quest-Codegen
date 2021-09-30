@@ -120,13 +120,6 @@ namespace System::Runtime::Remoting {
     // private System.Void ValidatePath(System.String element, params System.String[] paths)
     // Offset: 0x15B89C8
     void ValidatePath(::Il2CppString* element, ::ArrayWrapper<::Il2CppString*> paths);
-    // Creating initializer_list -> params proxy for: System.Void ValidatePath(System.String element, params System.String[] paths)
-    void ValidatePath(::Il2CppString* element, std::initializer_list<::Il2CppString*> paths);
-    // Creating TArgs -> initializer_list proxy for: System.Void ValidatePath(System.String element, params System.String[] paths)
-    template<class ...TParams>
-    void ValidatePath(::Il2CppString* element, TParams&&... paths) {
-      ValidatePath(element, {paths...});
-    }
     // private System.Boolean CheckPath(System.String path)
     // Offset: 0x15B8AD4
     bool CheckPath(::Il2CppString* path);
