@@ -8,10 +8,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -99,7 +95,7 @@ namespace UnityEngine {
     void set_y(int value);
     // public System.Void .ctor(System.Int32 x, System.Int32 y)
     // Offset: 0x234B410
-    // ABORTED: conflicts with another method.  Vector2Int(int x, int y)
+    // ABORTED: conflicts with another method.  Vector2Int(int x, int y);
     // static private System.Void .cctor()
     // Offset: 0x234B690
     static void _cctor();
@@ -126,6 +122,7 @@ namespace UnityEngine {
   static check_size<sizeof(Vector2Int), 4 + sizeof(int)> __UnityEngine_Vector2IntSizeCheck;
   static_assert(sizeof(Vector2Int) == 0x8);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector2Int, "UnityEngine", "Vector2Int");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Vector2Int::get_x

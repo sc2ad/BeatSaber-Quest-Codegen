@@ -7,10 +7,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
@@ -48,7 +44,7 @@ namespace System::Net {
     int64_t& dyn_scopeId();
     // public System.Void .ctor(System.UInt16[] addr, System.Int64 scopeId)
     // Offset: 0x184D5F0
-    // ABORTED: conflicts with another method.  IPv6AddressFormatter(::ArrayWrapper<uint16_t> addr, int64_t scopeId)
+    // ABORTED: conflicts with another method.  IPv6AddressFormatter(::ArrayWrapper<uint16_t> addr, int64_t scopeId);
     // static private System.UInt16 SwapUShort(System.UInt16 number)
     // Offset: 0x184E6BC
     static uint16_t SwapUShort(uint16_t number);
@@ -71,6 +67,7 @@ namespace System::Net {
   static check_size<sizeof(IPv6AddressFormatter), 8 + sizeof(int64_t)> __System_Net_IPv6AddressFormatterSizeCheck;
   static_assert(sizeof(IPv6AddressFormatter) == 0x10);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IPv6AddressFormatter, "System.Net", "IPv6AddressFormatter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::IPv6AddressFormatter::IPv6AddressFormatter

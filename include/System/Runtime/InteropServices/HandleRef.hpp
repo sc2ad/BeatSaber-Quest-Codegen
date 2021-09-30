@@ -3,17 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Begin il2cpp-utils forward declares
+struct Il2CppObject;
+// Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
   // Size: 0x10
@@ -51,12 +49,13 @@ namespace System::Runtime::InteropServices {
     System::IntPtr get_Handle();
     // public System.Void .ctor(System.Object wrapper, System.IntPtr handle)
     // Offset: 0x15AF5DC
-    // ABORTED: conflicts with another method.  HandleRef(::Il2CppObject* wrapper, System::IntPtr handle)
+    // ABORTED: conflicts with another method.  HandleRef(::Il2CppObject* wrapper, System::IntPtr handle);
   }; // System.Runtime.InteropServices.HandleRef
   #pragma pack(pop)
   static check_size<sizeof(HandleRef), 8 + sizeof(System::IntPtr)> __System_Runtime_InteropServices_HandleRefSizeCheck;
   static_assert(sizeof(HandleRef) == 0x10);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::HandleRef, "System.Runtime.InteropServices", "HandleRef");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::HandleRef::get_Handle

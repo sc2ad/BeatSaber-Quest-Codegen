@@ -9,10 +9,6 @@
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {
@@ -47,7 +43,7 @@ namespace TMPro {
     UnityEngine::Vector2& dyn_max();
     // public System.Void .ctor(UnityEngine.Vector2 min, UnityEngine.Vector2 max)
     // Offset: 0x11EA090
-    // ABORTED: conflicts with another method.  Extents(UnityEngine::Vector2 min, UnityEngine::Vector2 max)
+    // ABORTED: conflicts with another method.  Extents(UnityEngine::Vector2 min, UnityEngine::Vector2 max);
     // public override System.String ToString()
     // Offset: 0x11EA09C
     // Implemented from: System.ValueType
@@ -58,6 +54,7 @@ namespace TMPro {
   static check_size<sizeof(Extents), 8 + sizeof(UnityEngine::Vector2)> __TMPro_ExtentsSizeCheck;
   static_assert(sizeof(Extents) == 0x10);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::Extents, "TMPro", "Extents");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::Extents::Extents

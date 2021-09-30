@@ -132,11 +132,7 @@ namespace RootMotion::FinalIK {
       float& dyn_dot();
       // public System.Void .ctor(UnityEngine.Vector3 direction, UnityEngine.Vector3 axis)
       // Offset: 0x1E6A5AC
-      AxisDirection(UnityEngine::Vector3 direction, UnityEngine::Vector3 axis) {
-        static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolverLimb::AxisDirection::.ctor");
-        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(direction), ::il2cpp_utils::ExtractType(axis)})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, direction, axis);
-      }
+      AxisDirection(UnityEngine::Vector3 direction, UnityEngine::Vector3 axis);
     }; // RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection
     #pragma pack(pop)
     static check_size<sizeof(IKSolverLimb::AxisDirection), 24 + sizeof(float)> __RootMotion_FinalIK_IKSolverLimb_AxisDirectionSizeCheck;

@@ -6,10 +6,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -70,16 +66,13 @@ namespace System::Runtime::Serialization {
     ::Il2CppString* get_Name();
     // System.Void .ctor(System.String entryName, System.Object entryValue, System.Type entryType)
     // Offset: 0x1915DA4
-    SerializationEntry(::Il2CppString* entryName, ::Il2CppObject* entryValue, System::Type* entryType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::SerializationEntry::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(entryName), ::il2cpp_utils::ExtractType(entryValue), ::il2cpp_utils::ExtractType(entryType)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, entryName, entryValue, entryType);
-    }
+    SerializationEntry(::Il2CppString* entryName, ::Il2CppObject* entryValue, System::Type* entryType);
   }; // System.Runtime.Serialization.SerializationEntry
   #pragma pack(pop)
   static check_size<sizeof(SerializationEntry), 16 + sizeof(::Il2CppString*)> __System_Runtime_Serialization_SerializationEntrySizeCheck;
   static_assert(sizeof(SerializationEntry) == 0x18);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationEntry, "System.Runtime.Serialization", "SerializationEntry");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationEntry::get_Value

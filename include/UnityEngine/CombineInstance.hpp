@@ -9,6 +9,8 @@
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Matrix4x4
 #include "UnityEngine/Matrix4x4.hpp"
+// Including type: UnityEngine.Vector4
+#include "UnityEngine/Vector4.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine

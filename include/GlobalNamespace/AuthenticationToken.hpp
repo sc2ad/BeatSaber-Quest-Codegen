@@ -11,12 +11,12 @@
 #include "LiteNetLib/Utils/INetImmutableSerializable_1.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+  // Skipping declaration: Platform because it is already included!
+}
 // Forward declaring namespace: LiteNetLib::Utils
 namespace LiteNetLib::Utils {
   // Forward declaring type: NetDataWriter
@@ -159,7 +159,7 @@ namespace GlobalNamespace {
     ::ArrayWrapper<uint8_t>& dyn_sessionToken();
     // public System.Void .ctor(AuthenticationToken/Platform platform, System.String userId, System.String userName, System.Byte[] sessionToken)
     // Offset: 0x144C3D4
-    // ABORTED: conflicts with another method.  AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform, ::Il2CppString* userId, ::Il2CppString* userName, ::ArrayWrapper<uint8_t> sessionToken)
+    // ABORTED: conflicts with another method.  AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform, ::Il2CppString* userId, ::Il2CppString* userName, ::ArrayWrapper<uint8_t> sessionToken);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0x144C3E4
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -174,6 +174,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AuthenticationToken), 24 + sizeof(::ArrayWrapper<uint8_t>)> __GlobalNamespace_AuthenticationTokenSizeCheck;
   static_assert(sizeof(AuthenticationToken) == 0x20);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AuthenticationToken, "", "AuthenticationToken");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AuthenticationToken::Platform, "", "AuthenticationToken/Platform");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

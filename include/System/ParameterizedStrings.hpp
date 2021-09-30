@@ -70,14 +70,10 @@ namespace System {
       ::Il2CppObject* get_Object();
       // public System.Void .ctor(System.Int32 value)
       // Offset: 0x1E9F484
-      FormatParam(int value) {
-        static auto ___internal__logger = ::Logger::get().WithContext("System::ParameterizedStrings::FormatParam::.ctor");
-        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
-      }
+      FormatParam(int value);
       // private System.Void .ctor(System.Int32 intValue, System.String stringValue)
       // Offset: 0x1E9F490
-      // ABORTED: conflicts with another method.  FormatParam(int intValue, ::Il2CppString* stringValue)
+      // ABORTED: conflicts with another method.  FormatParam(int intValue, ::Il2CppString* stringValue);
     }; // System.ParameterizedStrings/System.FormatParam
     #pragma pack(pop)
     static check_size<sizeof(ParameterizedStrings::FormatParam), 8 + sizeof(::Il2CppString*)> __System_ParameterizedStrings_FormatParamSizeCheck;

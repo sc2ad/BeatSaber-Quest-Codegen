@@ -11,6 +11,8 @@
 #include "UnityEngine/Texture.hpp"
 // Including type: UnityEngine.Experimental.Rendering.DefaultFormat
 #include "UnityEngine/Experimental/Rendering/DefaultFormat.hpp"
+// Including type: UnityEngine.RenderTextureFormat
+#include "UnityEngine/RenderTextureFormat.hpp"
 // Including type: UnityEngine.RenderTextureReadWrite
 #include "UnityEngine/RenderTextureReadWrite.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

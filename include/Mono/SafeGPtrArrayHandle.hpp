@@ -11,11 +11,14 @@
 #include "System/IDisposable.hpp"
 // Including type: Mono.RuntimeGPtrArrayHandle
 #include "Mono/RuntimeGPtrArrayHandle.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: System
+namespace System {
+  // Forward declaring type: IntPtr
+  struct IntPtr;
+}
+// Completed forward declares
 // Type namespace: Mono
 namespace Mono {
   // Size: 0x8
@@ -56,11 +59,7 @@ namespace Mono {
     System::IntPtr get_Item(int i);
     // System.Void .ctor(System.IntPtr ptr)
     // Offset: 0x1C400B4
-    SafeGPtrArrayHandle(System::IntPtr ptr) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::SafeGPtrArrayHandle::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ptr)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ptr);
-    }
+    SafeGPtrArrayHandle(System::IntPtr ptr);
     // public System.Void Dispose()
     // Offset: 0x1C400E0
     void Dispose();
@@ -69,6 +68,7 @@ namespace Mono {
   static check_size<sizeof(SafeGPtrArrayHandle), 0 + sizeof(Mono::RuntimeGPtrArrayHandle)> __Mono_SafeGPtrArrayHandleSizeCheck;
   static_assert(sizeof(SafeGPtrArrayHandle) == 0x8);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::SafeGPtrArrayHandle, "Mono", "SafeGPtrArrayHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::SafeGPtrArrayHandle::get_Length

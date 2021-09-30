@@ -6,10 +6,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -60,11 +56,7 @@ namespace System::Threading {
     bool get_IsThreadOwnerTrackingEnabled();
     // public System.Void .ctor(System.Boolean enableThreadOwnerTracking)
     // Offset: 0x1A5E614
-    SpinLock(bool enableThreadOwnerTracking) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SpinLock::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(enableThreadOwnerTracking)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, enableThreadOwnerTracking);
-    }
+    SpinLock(bool enableThreadOwnerTracking);
     // static private System.Void .cctor()
     // Offset: 0x1A5EFD8
     static void _cctor();
@@ -94,6 +86,7 @@ namespace System::Threading {
   static check_size<sizeof(SpinLock), 0 + sizeof(int)> __System_Threading_SpinLockSizeCheck;
   static_assert(sizeof(SpinLock) == 0x4);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinLock, "System.Threading", "SpinLock");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::SpinLock::get_IsHeldByCurrentThread

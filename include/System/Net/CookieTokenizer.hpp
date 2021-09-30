@@ -56,7 +56,7 @@ namespace System::Net {
       System::Net::CookieToken get_Token();
       // System.Void .ctor(System.String name, System.Net.CookieToken token)
       // Offset: 0x1577E64
-      // ABORTED: conflicts with another method.  RecognizedAttribute(::Il2CppString* name, System::Net::CookieToken token)
+      // ABORTED: conflicts with another method.  RecognizedAttribute(::Il2CppString* name, System::Net::CookieToken token);
       // System.Boolean IsEqualTo(System.String value)
       // Offset: 0x1577BE8
       bool IsEqualTo(::Il2CppString* value);

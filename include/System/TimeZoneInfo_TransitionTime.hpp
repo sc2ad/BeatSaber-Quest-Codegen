@@ -19,16 +19,14 @@
 #include "System/DateTime.hpp"
 // Including type: System.DayOfWeek
 #include "System/DayOfWeek.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
 namespace System::Runtime::Serialization {
   // Forward declaring type: SerializationInfo
   class SerializationInfo;
+  // Forward declaring type: StreamingContext
+  struct StreamingContext;
 }
 // Completed forward declares
 // Type namespace: System
@@ -129,11 +127,7 @@ namespace System {
     bool get_IsFixedDateRule();
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x19CF6F4
-    TransitionTime(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::TimeZoneInfo::TransitionTime::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractType(context)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, info, context);
-    }
+    TransitionTime(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Boolean Equals(System.TimeZoneInfo/System.TransitionTime other)
     // Offset: 0x19C73B0
     bool Equals(System::TimeZoneInfo::TransitionTime other);
@@ -173,6 +167,7 @@ namespace System {
   // Offset: 0x19CE55C
   bool operator !=(const System::TimeZoneInfo::TransitionTime& t1, const System::TimeZoneInfo::TransitionTime& t2);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::TransitionTime, "System", "TimeZoneInfo/TransitionTime");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TimeZoneInfo::TransitionTime::get_TimeOfDay

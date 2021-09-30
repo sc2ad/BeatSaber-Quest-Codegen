@@ -84,7 +84,8 @@ namespace System::Reflection {
 namespace System::Runtime::Serialization {
   // Forward declaring type: SerializationInfo
   class SerializationInfo;
-  // Skipping declaration: StreamingContext because it is already included!
+  // Forward declaring type: StreamingContext
+  struct StreamingContext;
 }
 // Forward declaring namespace: System::Globalization
 namespace System::Globalization {

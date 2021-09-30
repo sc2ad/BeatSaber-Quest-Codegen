@@ -9,10 +9,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
@@ -59,11 +55,7 @@ namespace UnityEngine::XR {
     uint64_t get_deviceId();
     // System.Void .ctor(System.UInt64 deviceId)
     // Offset: 0x2611F10
-    InputDevice(uint64_t deviceId) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::XR::InputDevice::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(deviceId)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, deviceId);
-    }
+    InputDevice(uint64_t deviceId);
     // public System.Boolean Equals(UnityEngine.XR.InputDevice other)
     // Offset: 0x2611FDC
     bool Equals(UnityEngine::XR::InputDevice other);
@@ -82,6 +74,7 @@ namespace UnityEngine::XR {
   static check_size<sizeof(InputDevice), 8 + sizeof(bool)> __UnityEngine_XR_InputDeviceSizeCheck;
   static_assert(sizeof(InputDevice) == 0x9);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputDevice, "UnityEngine.XR", "InputDevice");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::InputDevice::get_deviceId

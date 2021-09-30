@@ -78,7 +78,7 @@ namespace GlobalNamespace {
       UnityEngine::Quaternion& dyn_rot();
       // public System.Void .ctor(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
       // Offset: 0x134A3C0
-      // ABORTED: conflicts with another method.  PositionAndRotation(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot)
+      // ABORTED: conflicts with another method.  PositionAndRotation(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
       // static public VRControllersRecorderData/PositionAndRotation Lerp(VRControllersRecorderData/PositionAndRotation a, VRControllersRecorderData/PositionAndRotation b, System.Single t)
       // Offset: 0x134A15C
       static GlobalNamespace::VRControllersRecorderData::PositionAndRotation Lerp(GlobalNamespace::VRControllersRecorderData::PositionAndRotation a, GlobalNamespace::VRControllersRecorderData::PositionAndRotation b, float t);

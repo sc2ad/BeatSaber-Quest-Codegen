@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
@@ -11,14 +10,13 @@
 #include "LiteNetLib/Utils/INetSerializable.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: Vector3
+  struct Vector3;
+}
 // Forward declaring namespace: LiteNetLib::Utils
 namespace LiteNetLib::Utils {
   // Forward declaring type: NetDataReader
@@ -27,6 +25,10 @@ namespace LiteNetLib::Utils {
   class NetDataWriter;
 }
 // Completed forward declares
+// Begin il2cpp-utils forward declares
+struct Il2CppObject;
+struct Il2CppString;
+// Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0xC
@@ -76,18 +78,10 @@ namespace GlobalNamespace {
     int& dyn__z();
     // public System.Void .ctor(UnityEngine.Vector3 v)
     // Offset: 0x2574D10
-    Vector3Serializable(UnityEngine::Vector3 v) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::Vector3Serializable::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(v)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, v);
-    }
+    Vector3Serializable(UnityEngine::Vector3 v);
     // public System.Void .ctor(LiteNetLib.Utils.NetDataReader reader)
     // Offset: 0x2574DC4
-    Vector3Serializable(LiteNetLib::Utils::NetDataReader* reader) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::Vector3Serializable::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, reader);
-    }
+    Vector3Serializable(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0x2572000
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -129,6 +123,7 @@ namespace GlobalNamespace {
   // Offset: 0x2573468
   GlobalNamespace::Vector3Serializable operator-(const GlobalNamespace::Vector3Serializable& a, const GlobalNamespace::Vector3Serializable& b);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector3Serializable, "", "Vector3Serializable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Vector3Serializable::Vector3Serializable

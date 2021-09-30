@@ -87,7 +87,7 @@ namespace GlobalNamespace {
       GlobalNamespace::NoteCutInfoNetSerializable*& dyn_noteCutInfo();
       // public System.Void .ctor(System.Single time, NoteCutInfoNetSerializable noteCutInfo)
       // Offset: 0x1213198
-      // ABORTED: conflicts with another method.  NoteCutEvent(float time, GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo)
+      // ABORTED: conflicts with another method.  NoteCutEvent(float time, GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
     }; // MultiplayerConnectedPlayerNoteEventManager/NoteCutEvent
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerConnectedPlayerNoteEventManager::NoteCutEvent), 8 + sizeof(GlobalNamespace::NoteCutInfoNetSerializable*)> __GlobalNamespace_MultiplayerConnectedPlayerNoteEventManager_NoteCutEventSizeCheck;
@@ -126,7 +126,7 @@ namespace GlobalNamespace {
       GlobalNamespace::NoteMissInfoNetSerializable*& dyn_noteMissInfo();
       // public System.Void .ctor(System.Single time, NoteMissInfoNetSerializable noteMissInfo)
       // Offset: 0x1213318
-      // ABORTED: conflicts with another method.  NoteMissEvent(float time, GlobalNamespace::NoteMissInfoNetSerializable* noteMissInfo)
+      // ABORTED: conflicts with another method.  NoteMissEvent(float time, GlobalNamespace::NoteMissInfoNetSerializable* noteMissInfo);
     }; // MultiplayerConnectedPlayerNoteEventManager/NoteMissEvent
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerConnectedPlayerNoteEventManager::NoteMissEvent), 8 + sizeof(GlobalNamespace::NoteMissInfoNetSerializable*)> __GlobalNamespace_MultiplayerConnectedPlayerNoteEventManager_NoteMissEventSizeCheck;

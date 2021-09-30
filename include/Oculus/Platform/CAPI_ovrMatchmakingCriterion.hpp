@@ -13,10 +13,6 @@
 #include "Oculus/Platform/MatchmakingCriterionImportance.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
@@ -69,16 +65,13 @@ namespace Oculus::Platform {
     uint& dyn_parameterArrayCount();
     // public System.Void .ctor(System.String key, Oculus.Platform.MatchmakingCriterionImportance importance)
     // Offset: 0x16A7FE4
-    ovrMatchmakingCriterion(::Il2CppString* key, Oculus::Platform::MatchmakingCriterionImportance importance) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::CAPI::ovrMatchmakingCriterion::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(importance)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, key, importance);
-    }
+    ovrMatchmakingCriterion(::Il2CppString* key, Oculus::Platform::MatchmakingCriterionImportance importance);
   }; // Oculus.Platform.CAPI/Oculus.Platform.ovrMatchmakingCriterion
   #pragma pack(pop)
   static check_size<sizeof(CAPI::ovrMatchmakingCriterion), 24 + sizeof(uint)> __Oculus_Platform_CAPI_ovrMatchmakingCriterionSizeCheck;
   static_assert(sizeof(CAPI::ovrMatchmakingCriterion) == 0x1C);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrMatchmakingCriterion, "Oculus.Platform", "CAPI/ovrMatchmakingCriterion");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovrMatchmakingCriterion::ovrMatchmakingCriterion

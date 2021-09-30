@@ -9,10 +9,6 @@
 #include "System/Threading/ReaderWriterLockSlim.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: System.Threading
 namespace System::Threading {
@@ -53,16 +49,13 @@ namespace System::Threading {
     bool get_IsExpired();
     // public System.Void .ctor(System.Int32 millisecondsTimeout)
     // Offset: 0x25C76CC
-    TimeoutTracker(int millisecondsTimeout) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ReaderWriterLockSlim::TimeoutTracker::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(millisecondsTimeout)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, millisecondsTimeout);
-    }
+    TimeoutTracker(int millisecondsTimeout);
   }; // System.Threading.ReaderWriterLockSlim/System.Threading.TimeoutTracker
   #pragma pack(pop)
   static check_size<sizeof(ReaderWriterLockSlim::TimeoutTracker), 4 + sizeof(int)> __System_Threading_ReaderWriterLockSlim_TimeoutTrackerSizeCheck;
   static_assert(sizeof(ReaderWriterLockSlim::TimeoutTracker) == 0x8);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterLockSlim::TimeoutTracker, "System.Threading", "ReaderWriterLockSlim/TimeoutTracker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::TimeoutTracker::get_RemainingMilliseconds

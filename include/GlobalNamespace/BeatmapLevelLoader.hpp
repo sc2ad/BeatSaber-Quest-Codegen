@@ -81,7 +81,7 @@ namespace GlobalNamespace {
       GlobalNamespace::IBeatmapLevel*& dyn_beatmapLevel();
       // public System.Void .ctor(System.Boolean isError, IBeatmapLevel beatmapLevel)
       // Offset: 0x129A778
-      // ABORTED: conflicts with another method.  LoadBeatmapLevelResult(bool isError, GlobalNamespace::IBeatmapLevel* beatmapLevel)
+      // ABORTED: conflicts with another method.  LoadBeatmapLevelResult(bool isError, GlobalNamespace::IBeatmapLevel* beatmapLevel);
     }; // BeatmapLevelLoader/LoadBeatmapLevelResult
     #pragma pack(pop)
     static check_size<sizeof(BeatmapLevelLoader::LoadBeatmapLevelResult), 8 + sizeof(GlobalNamespace::IBeatmapLevel*)> __GlobalNamespace_BeatmapLevelLoader_LoadBeatmapLevelResultSizeCheck;

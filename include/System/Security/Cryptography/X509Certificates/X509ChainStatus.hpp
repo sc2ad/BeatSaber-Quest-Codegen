@@ -9,10 +9,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.Security.Cryptography.X509Certificates.X509ChainStatusFlags
 #include "System/Security/Cryptography/X509Certificates/X509ChainStatusFlags.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: System.Security.Cryptography.X509Certificates
 namespace System::Security::Cryptography::X509Certificates {
@@ -58,11 +54,7 @@ namespace System::Security::Cryptography::X509Certificates {
     void set_StatusInformation(::Il2CppString* value);
     // System.Void .ctor(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flag)
     // Offset: 0x19DB85C
-    X509ChainStatus(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509ChainStatus::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(flag)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, flag);
-    }
+    X509ChainStatus(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag);
     // static System.String GetInformation(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flags)
     // Offset: 0x19DA310
     static ::Il2CppString* GetInformation(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags);
@@ -71,6 +63,7 @@ namespace System::Security::Cryptography::X509Certificates {
   static check_size<sizeof(X509ChainStatus), 8 + sizeof(::Il2CppString*)> __System_Security_Cryptography_X509Certificates_X509ChainStatusSizeCheck;
   static_assert(sizeof(X509ChainStatus) == 0x10);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ChainStatus, "System.Security.Cryptography.X509Certificates", "X509ChainStatus");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainStatus::get_Status

@@ -210,25 +210,13 @@ namespace Oculus::Platform {
       double& dyn_doubleValue_();
       // public System.Void .ctor(System.String key, System.String value)
       // Offset: 0x16A7F94
-      ovrKeyValuePair(::Il2CppString* key, ::Il2CppString* value) {
-        static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::CAPI::ovrKeyValuePair::.ctor");
-        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, key, value);
-      }
+      ovrKeyValuePair(::Il2CppString* key, ::Il2CppString* value);
       // public System.Void .ctor(System.String key, System.Int32 value)
       // Offset: 0x16A7FAC
-      ovrKeyValuePair(::Il2CppString* key, int value) {
-        static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::CAPI::ovrKeyValuePair::.ctor");
-        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, key, value);
-      }
+      ovrKeyValuePair(::Il2CppString* key, int value);
       // public System.Void .ctor(System.String key, System.Double value)
       // Offset: 0x16A7FC8
-      ovrKeyValuePair(::Il2CppString* key, double value) {
-        static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::CAPI::ovrKeyValuePair::.ctor");
-        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, key, value);
-      }
+      ovrKeyValuePair(::Il2CppString* key, double value);
     }; // Oculus.Platform.CAPI/Oculus.Platform.ovrKeyValuePair
     #pragma pack(pop)
     static check_size<sizeof(CAPI::ovrKeyValuePair), 32 + sizeof(double)> __Oculus_Platform_CAPI_ovrKeyValuePairSizeCheck;

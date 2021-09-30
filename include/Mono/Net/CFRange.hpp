@@ -3,16 +3,11 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: Mono.Net
 namespace Mono::Net {
@@ -47,16 +42,13 @@ namespace Mono::Net {
     System::IntPtr& dyn_Length();
     // public System.Void .ctor(System.Int32 loc, System.Int32 len)
     // Offset: 0x17B9D80
-    CFRange(int loc, int len) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::CFRange::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(loc), ::il2cpp_utils::ExtractType(len)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, loc, len);
-    }
+    CFRange(int loc, int len);
   }; // Mono.Net.CFRange
   #pragma pack(pop)
   static check_size<sizeof(CFRange), 8 + sizeof(System::IntPtr)> __Mono_Net_CFRangeSizeCheck;
   static_assert(sizeof(CFRange) == 0x10);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFRange, "Mono.Net", "CFRange");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFRange::CFRange

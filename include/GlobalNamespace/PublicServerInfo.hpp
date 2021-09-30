@@ -6,10 +6,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -57,7 +53,7 @@ namespace GlobalNamespace {
     int& dyn_currentPlayerCount();
     // public System.Void .ctor(System.String code, System.Int32 currentPlayerCount)
     // Offset: 0x18D57A4
-    // ABORTED: conflicts with another method.  PublicServerInfo(::Il2CppString* code, int currentPlayerCount)
+    // ABORTED: conflicts with another method.  PublicServerInfo(::Il2CppString* code, int currentPlayerCount);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0x18D57B0
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -69,6 +65,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PublicServerInfo), 8 + sizeof(int)> __GlobalNamespace_PublicServerInfoSizeCheck;
   static_assert(sizeof(PublicServerInfo) == 0xC);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PublicServerInfo, "", "PublicServerInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PublicServerInfo::PublicServerInfo

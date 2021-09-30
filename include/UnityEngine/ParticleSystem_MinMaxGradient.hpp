@@ -13,10 +13,6 @@
 #include "UnityEngine/ParticleSystemGradientMode.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -88,16 +84,13 @@ namespace UnityEngine {
     UnityEngine::Color get_color();
     // public System.Void .ctor(UnityEngine.Color color)
     // Offset: 0x261D408
-    MinMaxGradient(UnityEngine::Color color) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ParticleSystem::MinMaxGradient::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(color)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, color);
-    }
+    MinMaxGradient(UnityEngine::Color color);
   }; // UnityEngine.ParticleSystem/UnityEngine.MinMaxGradient
   #pragma pack(pop)
   static check_size<sizeof(ParticleSystem::MinMaxGradient), 40 + sizeof(UnityEngine::Color)> __UnityEngine_ParticleSystem_MinMaxGradientSizeCheck;
   static_assert(sizeof(ParticleSystem::MinMaxGradient) == 0x38);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MinMaxGradient, "UnityEngine", "ParticleSystem/MinMaxGradient");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MinMaxGradient::get_color

@@ -6,10 +6,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -52,11 +48,7 @@ namespace HoudiniEngineUnity {
     float& dyn_offset();
     // public System.Void .ctor(System.Boolean initializeFields)
     // Offset: 0x1439EB4
-    HAPI_Viewport(bool initializeFields) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HAPI_Viewport::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(initializeFields)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, initializeFields);
-    }
+    HAPI_Viewport(bool initializeFields);
     // public System.Void Init()
     // Offset: 0x1439F44
     void Init();
@@ -65,6 +57,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_Viewport), 16 + sizeof(float)> __HoudiniEngineUnity_HAPI_ViewportSizeCheck;
   static_assert(sizeof(HAPI_Viewport) == 0x14);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_Viewport, "HoudiniEngineUnity", "HAPI_Viewport");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HAPI_Viewport::HAPI_Viewport

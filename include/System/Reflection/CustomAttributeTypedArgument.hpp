@@ -6,10 +6,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -56,7 +52,7 @@ namespace System::Reflection {
     ::Il2CppObject*& dyn_value();
     // public System.Void .ctor(System.Type argumentType, System.Object value)
     // Offset: 0x1EA52A0
-    // ABORTED: conflicts with another method.  CustomAttributeTypedArgument(System::Type* argumentType, ::Il2CppObject* value)
+    // ABORTED: conflicts with another method.  CustomAttributeTypedArgument(System::Type* argumentType, ::Il2CppObject* value);
     // public override System.String ToString()
     // Offset: 0x1EA3F54
     // Implemented from: System.ValueType
@@ -77,6 +73,7 @@ namespace System::Reflection {
   static check_size<sizeof(CustomAttributeTypedArgument), 8 + sizeof(::Il2CppObject*)> __System_Reflection_CustomAttributeTypedArgumentSizeCheck;
   static_assert(sizeof(CustomAttributeTypedArgument) == 0x10);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeTypedArgument, "System.Reflection", "CustomAttributeTypedArgument");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::CustomAttributeTypedArgument::CustomAttributeTypedArgument

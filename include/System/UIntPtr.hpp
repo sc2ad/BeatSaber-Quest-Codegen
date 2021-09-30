@@ -9,10 +9,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.Runtime.Serialization.ISerializable
 #include "System/Runtime/Serialization/ISerializable.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -69,18 +65,10 @@ namespace System {
     static int get_Size();
     // public System.Void .ctor(System.UInt64 value)
     // Offset: 0x2535438
-    UIntPtr(uint64_t value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::UIntPtr::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
-    }
+    UIntPtr(uint64_t value);
     // public System.Void .ctor(System.UInt32 value)
     // Offset: 0x25354B8
-    UIntPtr(uint value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::UIntPtr::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
-    }
+    UIntPtr(uint value);
     // static private System.Void .cctor()
     // Offset: 0x25356B4
     static void _cctor();
@@ -119,6 +107,7 @@ namespace System {
   // Offset: 0x2535674
   bool operator ==(const System::UIntPtr& value1, const System::UIntPtr& value2);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UIntPtr, "System", "UIntPtr");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::UIntPtr::get_Size

@@ -11,10 +11,6 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -66,18 +62,10 @@ namespace UnityEngine {
     UnityEngine::Vector3 get_normal();
     // public System.Void .ctor(UnityEngine.Vector3 inNormal, UnityEngine.Vector3 inPoint)
     // Offset: 0x1DB208C
-    Plane(UnityEngine::Vector3 inNormal, UnityEngine::Vector3 inPoint) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Plane::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inNormal), ::il2cpp_utils::ExtractType(inPoint)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, inNormal, inPoint);
-    }
+    Plane(UnityEngine::Vector3 inNormal, UnityEngine::Vector3 inPoint);
     // public System.Void .ctor(UnityEngine.Vector3 a, UnityEngine.Vector3 b, UnityEngine.Vector3 c)
     // Offset: 0x1DB2154
-    Plane(UnityEngine::Vector3 a, UnityEngine::Vector3 b, UnityEngine::Vector3 c) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Plane::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b), ::il2cpp_utils::ExtractType(c)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, a, b, c);
-    }
+    Plane(UnityEngine::Vector3 a, UnityEngine::Vector3 b, UnityEngine::Vector3 c);
     // public System.Void SetNormalAndPosition(UnityEngine.Vector3 inNormal, UnityEngine.Vector3 inPoint)
     // Offset: 0x1DB229C
     void SetNormalAndPosition(UnityEngine::Vector3 inNormal, UnityEngine::Vector3 inPoint);
@@ -103,6 +91,7 @@ namespace UnityEngine {
   static check_size<sizeof(Plane), 12 + sizeof(float)> __UnityEngine_PlaneSizeCheck;
   static_assert(sizeof(Plane) == 0x10);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Plane, "UnityEngine", "Plane");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Plane::get_normal

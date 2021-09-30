@@ -10,10 +10,6 @@
 #include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.ProBuilder.Edge
 #include "UnityEngine/ProBuilder/Edge.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -87,14 +83,10 @@ namespace UnityEngine::ProBuilder {
     void set_common(UnityEngine::ProBuilder::Edge value);
     // public System.Void .ctor(UnityEngine.ProBuilder.Edge common, UnityEngine.ProBuilder.Edge local)
     // Offset: 0x1C734B8
-    // ABORTED: conflicts with another method.  EdgeLookup(UnityEngine::ProBuilder::Edge common, UnityEngine::ProBuilder::Edge local)
+    // ABORTED: conflicts with another method.  EdgeLookup(UnityEngine::ProBuilder::Edge common, UnityEngine::ProBuilder::Edge local);
     // public System.Void .ctor(System.Int32 cx, System.Int32 cy, System.Int32 x, System.Int32 y)
     // Offset: 0x1C734C0
-    EdgeLookup(int cx, int cy, int x, int y) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::EdgeLookup::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cx), ::il2cpp_utils::ExtractType(cy), ::il2cpp_utils::ExtractType(x), ::il2cpp_utils::ExtractType(y)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, cx, cy, x, y);
-    }
+    EdgeLookup(int cx, int cy, int x, int y);
     // public System.Boolean Equals(UnityEngine.ProBuilder.EdgeLookup other)
     // Offset: 0x1C73528
     bool Equals(UnityEngine::ProBuilder::EdgeLookup other);
@@ -130,6 +122,7 @@ namespace UnityEngine::ProBuilder {
   // Offset: 0x1C736C8
   bool operator !=(const UnityEngine::ProBuilder::EdgeLookup& a, const UnityEngine::ProBuilder::EdgeLookup& b);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::EdgeLookup, "UnityEngine.ProBuilder", "EdgeLookup");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeLookup::get_local

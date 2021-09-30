@@ -21,23 +21,21 @@
 #include "System/Runtime/Serialization/IDeserializationCallback.hpp"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
-// Including type: System.TimeSpan
-#include "System/TimeSpan.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: System
+namespace System {
+  // Forward declaring type: TimeSpan
+  struct TimeSpan;
+  // Forward declaring type: IFormatProvider
+  class IFormatProvider;
+}
 // Forward declaring namespace: System::Runtime::Serialization
 namespace System::Runtime::Serialization {
   // Forward declaring type: SerializationInfo
   class SerializationInfo;
-}
-// Forward declaring namespace: System
-namespace System {
-  // Forward declaring type: IFormatProvider
-  class IFormatProvider;
+  // Forward declaring type: StreamingContext
+  struct StreamingContext;
 }
 // Forward declaring namespace: System::Globalization
 namespace System::Globalization {
@@ -118,25 +116,13 @@ namespace System {
     System::TimeSpan get_Offset();
     // public System.Void .ctor(System.Int64 ticks, System.TimeSpan offset)
     // Offset: 0x1CD6F0C
-    DateTimeOffset(int64_t ticks, System::TimeSpan offset) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::DateTimeOffset::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ticks), ::il2cpp_utils::ExtractType(offset)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ticks, offset);
-    }
+    DateTimeOffset(int64_t ticks, System::TimeSpan offset);
     // public System.Void .ctor(System.DateTime dateTime)
     // Offset: 0x1CD71BC
-    DateTimeOffset(System::DateTime dateTime) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::DateTimeOffset::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dateTime)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, dateTime);
-    }
+    DateTimeOffset(System::DateTime dateTime);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1CD7984
-    DateTimeOffset(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::DateTimeOffset::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractType(context)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, info, context);
-    }
+    DateTimeOffset(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // static private System.Void .cctor()
     // Offset: 0x1CD8204
     static void _cctor();
@@ -199,6 +185,7 @@ namespace System {
   // Offset: 0x1CD8170
   bool operator ==(const System::DateTimeOffset& left, const System::DateTimeOffset& right);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeOffset, "System", "DateTimeOffset");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::DateTimeOffset::get_UtcDateTime

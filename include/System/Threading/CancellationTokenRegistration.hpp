@@ -12,10 +12,6 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.Threading.SparselyPopulatedArrayAddInfo`1
 #include "System/Threading/SparselyPopulatedArrayAddInfo_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -65,7 +61,7 @@ namespace System::Threading {
     System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*>& dyn_m_registrationInfo();
     // System.Void .ctor(System.Threading.CancellationCallbackInfo callbackInfo, System.Threading.SparselyPopulatedArrayAddInfo`1<System.Threading.CancellationCallbackInfo> registrationInfo)
     // Offset: 0x1A55C48
-    // ABORTED: conflicts with another method.  CancellationTokenRegistration(System::Threading::CancellationCallbackInfo* callbackInfo, System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*> registrationInfo)
+    // ABORTED: conflicts with another method.  CancellationTokenRegistration(System::Threading::CancellationCallbackInfo* callbackInfo, System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*> registrationInfo);
     // System.Boolean TryDeregister()
     // Offset: 0x1A55C54
     bool TryDeregister();
@@ -88,6 +84,7 @@ namespace System::Threading {
   }; // System.Threading.CancellationTokenRegistration
   // WARNING Not writing size check since size may be invalid!
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationTokenRegistration, "System.Threading", "CancellationTokenRegistration");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::CancellationTokenRegistration::CancellationTokenRegistration

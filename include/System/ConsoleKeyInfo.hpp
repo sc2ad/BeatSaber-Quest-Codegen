@@ -11,10 +11,6 @@
 #include "System/ConsoleKey.hpp"
 // Including type: System.ConsoleModifiers
 #include "System/ConsoleModifiers.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -65,11 +61,7 @@ namespace System {
     System::ConsoleKey get_Key();
     // public System.Void .ctor(System.Char keyChar, System.ConsoleKey key, System.Boolean shift, System.Boolean alt, System.Boolean control)
     // Offset: 0x1B1960C
-    ConsoleKeyInfo(::Il2CppChar keyChar, System::ConsoleKey key, bool shift, bool alt, bool control) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ConsoleKeyInfo::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keyChar), ::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(shift), ::il2cpp_utils::ExtractType(alt), ::il2cpp_utils::ExtractType(control)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, keyChar, key, shift, alt, control);
-    }
+    ConsoleKeyInfo(::Il2CppChar keyChar, System::ConsoleKey key, bool shift, bool alt, bool control);
     // public System.Boolean Equals(System.ConsoleKeyInfo obj)
     // Offset: 0x1B197C0
     bool Equals(System::ConsoleKeyInfo obj);
@@ -88,6 +80,7 @@ namespace System {
   static check_size<sizeof(ConsoleKeyInfo), 8 + sizeof(System::ConsoleModifiers)> __System_ConsoleKeyInfoSizeCheck;
   static_assert(sizeof(ConsoleKeyInfo) == 0xC);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ConsoleKeyInfo, "System", "ConsoleKeyInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ConsoleKeyInfo::get_KeyChar

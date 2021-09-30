@@ -68,7 +68,7 @@ namespace GlobalNamespace {
       float& dyn_time();
       // public System.Void .ctor(System.Int32 multiplier, System.Single time)
       // Offset: 0x1134534
-      // ABORTED: conflicts with another method.  MultiplierValue(int multiplier, float time)
+      // ABORTED: conflicts with another method.  MultiplierValue(int multiplier, float time);
     }; // MultiplierValuesRecorder/MultiplierValue
     #pragma pack(pop)
     static check_size<sizeof(MultiplierValuesRecorder::MultiplierValue), 4 + sizeof(float)> __GlobalNamespace_MultiplierValuesRecorder_MultiplierValueSizeCheck;

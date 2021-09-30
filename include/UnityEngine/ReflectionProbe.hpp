@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Behaviour
 #include "UnityEngine/Behaviour.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System

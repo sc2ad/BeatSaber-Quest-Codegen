@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Unity.Profiling.ProfilerMarker
 #include "Unity/Profiling/ProfilerMarker.hpp"
@@ -13,10 +12,6 @@
 #include "System/IDisposable.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: Unity.Profiling
 namespace Unity::Profiling {
@@ -53,7 +48,7 @@ namespace Unity::Profiling {
     System::IntPtr& dyn_m_Ptr();
     // System.Void .ctor(System.IntPtr markerPtr)
     // Offset: 0x1CAA0CC
-    // ABORTED: conflicts with another method.  AutoScope(System::IntPtr markerPtr)
+    // ABORTED: conflicts with another method.  AutoScope(System::IntPtr markerPtr);
     // public System.Void Dispose()
     // Offset: 0x1CAA110
     void Dispose();
@@ -62,6 +57,7 @@ namespace Unity::Profiling {
   static check_size<sizeof(ProfilerMarker::AutoScope), 0 + sizeof(System::IntPtr)> __Unity_Profiling_ProfilerMarker_AutoScopeSizeCheck;
   static_assert(sizeof(ProfilerMarker::AutoScope) == 0x8);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Unity::Profiling::ProfilerMarker::AutoScope, "Unity.Profiling", "ProfilerMarker/AutoScope");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Unity::Profiling::ProfilerMarker::AutoScope::AutoScope

@@ -9,13 +9,14 @@
 #include "System/ValueType.hpp"
 // Including type: OVR.OpenVR.VRControllerAxis_t
 #include "OVR/OpenVR/VRControllerAxis_t.hpp"
-// Including type: OVR.OpenVR.VRControllerState_t
-#include "OVR/OpenVR/VRControllerState_t.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: OVR::OpenVR
+namespace OVR::OpenVR {
+  // Forward declaring type: VRControllerState_t
+  struct VRControllerState_t;
+}
+// Completed forward declares
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0x3C
@@ -97,11 +98,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::VRControllerAxis_t& dyn_rAxis4();
     // public System.Void .ctor(OVR.OpenVR.VRControllerState_t unpacked)
     // Offset: 0x13B49F8
-    VRControllerState_t_Packed(OVR::OpenVR::VRControllerState_t unpacked) {
-      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::VRControllerState_t_Packed::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(unpacked)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unpacked);
-    }
+    VRControllerState_t_Packed(OVR::OpenVR::VRControllerState_t unpacked);
     // public System.Void Unpack(ref OVR.OpenVR.VRControllerState_t unpacked)
     // Offset: 0x13B4A3C
     void Unpack(ByRef<OVR::OpenVR::VRControllerState_t> unpacked);
@@ -110,6 +107,7 @@ namespace OVR::OpenVR {
   static check_size<sizeof(VRControllerState_t_Packed), 52 + sizeof(OVR::OpenVR::VRControllerAxis_t)> __OVR_OpenVR_VRControllerState_t_PackedSizeCheck;
   static_assert(sizeof(VRControllerState_t_Packed) == 0x3C);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRControllerState_t_Packed, "OVR.OpenVR", "VRControllerState_t_Packed");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::VRControllerState_t_Packed::VRControllerState_t_Packed

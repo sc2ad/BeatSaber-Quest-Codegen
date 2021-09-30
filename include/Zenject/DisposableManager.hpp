@@ -89,7 +89,7 @@ namespace Zenject {
       int& dyn_Priority();
       // public System.Void .ctor(System.IDisposable disposable, System.Int32 priority)
       // Offset: 0x1827268
-      // ABORTED: conflicts with another method.  DisposableInfo(System::IDisposable* disposable, int priority)
+      // ABORTED: conflicts with another method.  DisposableInfo(System::IDisposable* disposable, int priority);
     }; // Zenject.DisposableManager/Zenject.DisposableInfo
     #pragma pack(pop)
     static check_size<sizeof(DisposableManager::DisposableInfo), 8 + sizeof(int)> __Zenject_DisposableManager_DisposableInfoSizeCheck;

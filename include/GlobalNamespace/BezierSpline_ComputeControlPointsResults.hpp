@@ -9,10 +9,6 @@
 #include "GlobalNamespace/BezierSpline.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -48,12 +44,13 @@ namespace GlobalNamespace {
     ::ArrayWrapper<float>& dyn_p2();
     // public System.Void .ctor(System.Single[] p1, System.Single[] p2)
     // Offset: 0x12A8748
-    // ABORTED: conflicts with another method.  ComputeControlPointsResults(::ArrayWrapper<float> p1, ::ArrayWrapper<float> p2)
+    // ABORTED: conflicts with another method.  ComputeControlPointsResults(::ArrayWrapper<float> p1, ::ArrayWrapper<float> p2);
   }; // BezierSpline/ComputeControlPointsResults
   #pragma pack(pop)
   static check_size<sizeof(BezierSpline::ComputeControlPointsResults), 8 + sizeof(::ArrayWrapper<float>)> __GlobalNamespace_BezierSpline_ComputeControlPointsResultsSizeCheck;
   static_assert(sizeof(BezierSpline::ComputeControlPointsResults) == 0x10);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSpline::ComputeControlPointsResults, "", "BezierSpline/ComputeControlPointsResults");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BezierSpline::ComputeControlPointsResults::ComputeControlPointsResults

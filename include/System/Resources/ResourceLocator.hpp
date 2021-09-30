@@ -6,10 +6,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Resources
@@ -63,11 +59,7 @@ namespace System::Resources {
     void set_Value(::Il2CppObject* value);
     // System.Void .ctor(System.Int32 dataPos, System.Object value)
     // Offset: 0x15A603C
-    ResourceLocator(int dataPos, ::Il2CppObject* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceLocator::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dataPos), ::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, dataPos, value);
-    }
+    ResourceLocator(int dataPos, ::Il2CppObject* value);
     // static System.Boolean CanCache(System.Resources.ResourceTypeCode value)
     // Offset: 0x15A6060
     static bool CanCache(System::Resources::ResourceTypeCode value);
@@ -76,6 +68,7 @@ namespace System::Resources {
   static check_size<sizeof(ResourceLocator), 8 + sizeof(int)> __System_Resources_ResourceLocatorSizeCheck;
   static_assert(sizeof(ResourceLocator) == 0xC);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceLocator, "System.Resources", "ResourceLocator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Resources::ResourceLocator::get_DataPosition

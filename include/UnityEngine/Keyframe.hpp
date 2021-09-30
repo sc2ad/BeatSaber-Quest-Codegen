@@ -6,10 +6,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -109,23 +105,16 @@ namespace UnityEngine {
     void set_outTangent(float value);
     // public System.Void .ctor(System.Single time, System.Single value)
     // Offset: 0x1D9DD44
-    Keyframe(float time, float value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Keyframe::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(time), ::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, time, value);
-    }
+    Keyframe(float time, float value);
     // public System.Void .ctor(System.Single time, System.Single value, System.Single inTangent, System.Single outTangent)
     // Offset: 0x1D9DD54
-    Keyframe(float time, float value, float inTangent, float outTangent) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Keyframe::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(time), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(inTangent), ::il2cpp_utils::ExtractType(outTangent)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, time, value, inTangent, outTangent);
-    }
+    Keyframe(float time, float value, float inTangent, float outTangent);
   }; // UnityEngine.Keyframe
   #pragma pack(pop)
   static check_size<sizeof(Keyframe), 24 + sizeof(float)> __UnityEngine_KeyframeSizeCheck;
   static_assert(sizeof(Keyframe) == 0x1C);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Keyframe, "UnityEngine", "Keyframe");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Keyframe::get_time

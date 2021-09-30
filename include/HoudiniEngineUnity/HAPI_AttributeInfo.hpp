@@ -13,10 +13,6 @@
 #include "HoudiniEngineUnity/HAPI_StorageType.hpp"
 // Including type: HoudiniEngineUnity.HAPI_AttributeTypeInfo
 #include "HoudiniEngineUnity/HAPI_AttributeTypeInfo.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -101,16 +97,13 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_AttributeTypeInfo& dyn_typeInfo();
     // public System.Void .ctor(System.String ignored)
     // Offset: 0x14397C4
-    HAPI_AttributeInfo(::Il2CppString* ignored) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HAPI_AttributeInfo::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ignored)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ignored);
-    }
+    HAPI_AttributeInfo(::Il2CppString* ignored);
   }; // HoudiniEngineUnity.HAPI_AttributeInfo
   #pragma pack(pop)
   static check_size<sizeof(HAPI_AttributeInfo), 32 + sizeof(HoudiniEngineUnity::HAPI_AttributeTypeInfo)> __HoudiniEngineUnity_HAPI_AttributeInfoSizeCheck;
   static_assert(sizeof(HAPI_AttributeInfo) == 0x24);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_AttributeInfo, "HoudiniEngineUnity", "HAPI_AttributeInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HAPI_AttributeInfo::HAPI_AttributeInfo

@@ -9,18 +9,14 @@
 #include "System/ValueType.hpp"
 // Including type: Mono.RuntimeStructs
 #include "Mono/RuntimeStructs.hpp"
-// Including type: System.IntPtr
-#include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Type
   class Type;
+  // Forward declaring type: IntPtr
+  struct IntPtr;
 }
 // Forward declaring namespace: System::Reflection
 namespace System::Reflection {
@@ -63,11 +59,7 @@ namespace Mono {
     System::Reflection::GenericParameterAttributes get_Attributes();
     // System.Void .ctor(System.IntPtr ptr)
     // Offset: 0x1C3FAC0
-    RuntimeGenericParamInfoHandle(System::IntPtr ptr) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::RuntimeGenericParamInfoHandle::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ptr)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ptr);
-    }
+    RuntimeGenericParamInfoHandle(System::IntPtr ptr);
     // private System.Type[] GetConstraints()
     // Offset: 0x1C3FAF0
     ::ArrayWrapper<System::Type*> GetConstraints();
@@ -79,6 +71,7 @@ namespace Mono {
   static check_size<sizeof(RuntimeGenericParamInfoHandle), 0 + sizeof(Mono::RuntimeStructs::GenericParamInfo*)> __Mono_RuntimeGenericParamInfoHandleSizeCheck;
   static_assert(sizeof(RuntimeGenericParamInfoHandle) == 0x8);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeGenericParamInfoHandle, "Mono", "RuntimeGenericParamInfoHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::RuntimeGenericParamInfoHandle::get_Constraints

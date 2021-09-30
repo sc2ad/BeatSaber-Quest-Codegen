@@ -9,10 +9,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.Runtime.Serialization.StreamingContextStates
 #include "System/Runtime/Serialization/StreamingContextStates.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
@@ -54,18 +50,10 @@ namespace System::Runtime::Serialization {
     System::Runtime::Serialization::StreamingContextStates get_State();
     // public System.Void .ctor(System.Runtime.Serialization.StreamingContextStates state)
     // Offset: 0x1918B4C
-    StreamingContext(System::Runtime::Serialization::StreamingContextStates state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::StreamingContext::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(state)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, state);
-    }
+    StreamingContext(System::Runtime::Serialization::StreamingContextStates state);
     // public System.Void .ctor(System.Runtime.Serialization.StreamingContextStates state, System.Object additional)
     // Offset: 0x1918B58
-    StreamingContext(System::Runtime::Serialization::StreamingContextStates state, ::Il2CppObject* additional) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::StreamingContext::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(state), ::il2cpp_utils::ExtractType(additional)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, state, additional);
-    }
+    StreamingContext(System::Runtime::Serialization::StreamingContextStates state, ::Il2CppObject* additional);
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0x1918B6C
     // Implemented from: System.ValueType
@@ -81,6 +69,7 @@ namespace System::Runtime::Serialization {
   static check_size<sizeof(StreamingContext), 8 + sizeof(System::Runtime::Serialization::StreamingContextStates)> __System_Runtime_Serialization_StreamingContextSizeCheck;
   static_assert(sizeof(StreamingContext) == 0xC);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::StreamingContext, "System.Runtime.Serialization", "StreamingContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::StreamingContext::get_Context

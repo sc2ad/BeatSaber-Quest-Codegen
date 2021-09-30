@@ -9,13 +9,14 @@
 #include "System/ValueType.hpp"
 // Including type: Valve.VR.VRControllerAxis_t
 #include "Valve/VR/VRControllerAxis_t.hpp"
-// Including type: Valve.VR.VRControllerState_t
-#include "Valve/VR/VRControllerState_t.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: Valve::VR
+namespace Valve::VR {
+  // Forward declaring type: VRControllerState_t
+  struct VRControllerState_t;
+}
+// Completed forward declares
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0x3C
@@ -97,11 +98,7 @@ namespace Valve::VR {
     Valve::VR::VRControllerAxis_t& dyn_rAxis4();
     // public System.Void .ctor(Valve.VR.VRControllerState_t unpacked)
     // Offset: 0x25DB578
-    VRControllerState_t_Packed(Valve::VR::VRControllerState_t unpacked) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::VRControllerState_t_Packed::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(unpacked)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unpacked);
-    }
+    VRControllerState_t_Packed(Valve::VR::VRControllerState_t unpacked);
     // public System.Void Unpack(ref Valve.VR.VRControllerState_t unpacked)
     // Offset: 0x25DB5BC
     void Unpack(ByRef<Valve::VR::VRControllerState_t> unpacked);
@@ -110,6 +107,7 @@ namespace Valve::VR {
   static check_size<sizeof(VRControllerState_t_Packed), 52 + sizeof(Valve::VR::VRControllerAxis_t)> __Valve_VR_VRControllerState_t_PackedSizeCheck;
   static_assert(sizeof(VRControllerState_t_Packed) == 0x3C);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRControllerState_t_Packed, "Valve.VR", "VRControllerState_t_Packed");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::VRControllerState_t_Packed::VRControllerState_t_Packed

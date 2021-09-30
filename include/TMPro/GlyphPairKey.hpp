@@ -7,10 +7,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -60,23 +56,16 @@ namespace TMPro {
     int64_t& dyn_key();
     // public System.Void .ctor(System.UInt32 firstGlyphIndex, System.UInt32 secondGlyphIndex)
     // Offset: 0x11EA890
-    GlyphPairKey(uint firstGlyphIndex, uint secondGlyphIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::GlyphPairKey::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(firstGlyphIndex), ::il2cpp_utils::ExtractType(secondGlyphIndex)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, firstGlyphIndex, secondGlyphIndex);
-    }
+    GlyphPairKey(uint firstGlyphIndex, uint secondGlyphIndex);
     // System.Void .ctor(TMPro.TMP_GlyphPairAdjustmentRecord record)
     // Offset: 0x11EA8A4
-    GlyphPairKey(TMPro::TMP_GlyphPairAdjustmentRecord* record) {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::GlyphPairKey::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(record)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, record);
-    }
+    GlyphPairKey(TMPro::TMP_GlyphPairAdjustmentRecord* record);
   }; // TMPro.GlyphPairKey
   #pragma pack(pop)
   static check_size<sizeof(GlyphPairKey), 8 + sizeof(int64_t)> __TMPro_GlyphPairKeySizeCheck;
   static_assert(sizeof(GlyphPairKey) == 0x10);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::GlyphPairKey, "TMPro", "GlyphPairKey");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::GlyphPairKey::GlyphPairKey

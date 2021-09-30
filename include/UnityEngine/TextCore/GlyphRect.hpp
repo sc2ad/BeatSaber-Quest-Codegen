@@ -8,10 +8,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
@@ -93,7 +89,7 @@ namespace UnityEngine::TextCore {
     static UnityEngine::TextCore::GlyphRect get_zero();
     // public System.Void .ctor(System.Int32 x, System.Int32 y, System.Int32 width, System.Int32 height)
     // Offset: 0x25FE858
-    // ABORTED: conflicts with another method.  GlyphRect(int x, int y, int width, int height)
+    // ABORTED: conflicts with another method.  GlyphRect(int x, int y, int width, int height);
     // static private System.Void .cctor()
     // Offset: 0x25FEA04
     static void _cctor();
@@ -115,6 +111,7 @@ namespace UnityEngine::TextCore {
   static check_size<sizeof(GlyphRect), 12 + sizeof(int)> __UnityEngine_TextCore_GlyphRectSizeCheck;
   static_assert(sizeof(GlyphRect) == 0x10);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::GlyphRect, "UnityEngine.TextCore", "GlyphRect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextCore::GlyphRect::get_x

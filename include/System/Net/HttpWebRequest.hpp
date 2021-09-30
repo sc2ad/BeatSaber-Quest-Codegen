@@ -212,11 +212,7 @@ namespace System::Net {
       bool get_IsNtlmAuthenticated();
       // public System.Void .ctor(System.Net.HttpWebRequest request, System.Boolean isProxy)
       // Offset: 0x1846D24
-      AuthorizationState(System::Net::HttpWebRequest* request, bool isProxy) {
-        static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpWebRequest::AuthorizationState::.ctor");
-        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(request), ::il2cpp_utils::ExtractType(isProxy)})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, request, isProxy);
-      }
+      AuthorizationState(System::Net::HttpWebRequest* request, bool isProxy);
       // public System.Boolean CheckAuthorization(System.Net.WebResponse response, System.Net.HttpStatusCode code)
       // Offset: 0x184B860
       bool CheckAuthorization(System::Net::WebResponse* response, System::Net::HttpStatusCode code);

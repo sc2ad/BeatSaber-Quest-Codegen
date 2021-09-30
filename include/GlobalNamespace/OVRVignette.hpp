@@ -13,6 +13,8 @@
 #include "UnityEngine/Vector4.hpp"
 // Including type: UnityEngine.Camera
 #include "UnityEngine/Camera.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"

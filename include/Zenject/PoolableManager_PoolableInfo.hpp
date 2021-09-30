@@ -9,10 +9,6 @@
 #include "Zenject/PoolableManager.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -54,12 +50,13 @@ namespace Zenject {
     int& dyn_Priority();
     // public System.Void .ctor(Zenject.IPoolable poolable, System.Int32 priority)
     // Offset: 0x1896A48
-    // ABORTED: conflicts with another method.  PoolableInfo(Zenject::IPoolable* poolable, int priority)
+    // ABORTED: conflicts with another method.  PoolableInfo(Zenject::IPoolable* poolable, int priority);
   }; // Zenject.PoolableManager/Zenject.PoolableInfo
   #pragma pack(pop)
   static check_size<sizeof(PoolableManager::PoolableInfo), 8 + sizeof(int)> __Zenject_PoolableManager_PoolableInfoSizeCheck;
   static_assert(sizeof(PoolableManager::PoolableInfo) == 0xC);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager::PoolableInfo, "Zenject", "PoolableManager/PoolableInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::PoolableManager::PoolableInfo::PoolableInfo

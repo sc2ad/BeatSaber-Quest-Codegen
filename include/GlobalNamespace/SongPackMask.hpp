@@ -13,10 +13,6 @@
 #include "System/IEquatable_1.hpp"
 // Including type: BitMask128
 #include "GlobalNamespace/BitMask128.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -95,21 +91,13 @@ namespace GlobalNamespace {
     static GlobalNamespace::SongPackMask get_all();
     // public System.Void .ctor(System.String packId)
     // Offset: 0x2574180
-    SongPackMask(::Il2CppString* packId) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongPackMask::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packId)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, packId);
-    }
+    SongPackMask(::Il2CppString* packId);
     // private System.Void .ctor(BitMask128 bloomFilter)
     // Offset: 0x25741EC
-    // ABORTED: conflicts with another method.  SongPackMask(GlobalNamespace::BitMask128 bloomFilter)
+    // ABORTED: conflicts with another method.  SongPackMask(GlobalNamespace::BitMask128 bloomFilter);
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.String> packs)
     // Offset: 0x25741F4
-    SongPackMask(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* packs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongPackMask::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packs)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, packs);
-    }
+    SongPackMask(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* packs);
     // public System.Boolean Contains(SongPackMask other)
     // Offset: 0x25742E0
     bool Contains(GlobalNamespace::SongPackMask other);
@@ -175,6 +163,7 @@ namespace GlobalNamespace {
   // Offset: 0x257429C
   bool operator !=(const GlobalNamespace::SongPackMask& a, const GlobalNamespace::SongPackMask& b);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMask, "", "SongPackMask");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMask::get_all

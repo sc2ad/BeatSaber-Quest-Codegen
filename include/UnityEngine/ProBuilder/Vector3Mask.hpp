@@ -11,16 +11,12 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.Byte
 #include "System/Byte.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Vector3
+  struct Vector3;
   // Forward declaring type: Quaternion
   struct Quaternion;
 }
@@ -99,14 +95,10 @@ namespace UnityEngine::ProBuilder {
     void set_Item(int i, float value);
     // public System.Void .ctor(UnityEngine.Vector3 v, System.Single epsilon)
     // Offset: 0x24F375C
-    Vector3Mask(UnityEngine::Vector3 v, float epsilon) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Vector3Mask::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(v), ::il2cpp_utils::ExtractType(epsilon)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, v, epsilon);
-    }
+    Vector3Mask(UnityEngine::Vector3 v, float epsilon);
     // public System.Void .ctor(System.Byte mask)
     // Offset: 0x24F3858
-    // ABORTED: conflicts with another method.  Vector3Mask(uint8_t mask)
+    // ABORTED: conflicts with another method.  Vector3Mask(uint8_t mask);
     // static private System.Void .cctor()
     // Offset: 0x24F3F04
     static void _cctor();
@@ -160,6 +152,7 @@ namespace UnityEngine::ProBuilder {
   // Offset: 0x24F3CA4
   bool operator !=(const UnityEngine::ProBuilder::Vector3Mask& left, const UnityEngine::ProBuilder::Vector3Mask& right);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Vector3Mask, "UnityEngine.ProBuilder", "Vector3Mask");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Vector3Mask::get_x

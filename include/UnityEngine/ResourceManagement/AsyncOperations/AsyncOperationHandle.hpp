@@ -8,10 +8,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.Collections.IEnumerator
 #include "System/Collections/IEnumerator.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ResourceManagement::AsyncOperations
@@ -146,28 +142,16 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     void remove_Destroyed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
     // System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op)
     // Offset: 0x1B5E924
-    AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(op)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, op);
-    }
+    AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op);
     // System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op, System.Int32 version)
     // Offset: 0x1B5EA00
-    AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, int version) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(op), ::il2cpp_utils::ExtractType(version)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, op, version);
-    }
+    AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, int version);
     // System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op, System.String locationName)
     // Offset: 0x1B5EA10
-    AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, ::Il2CppString* locationName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(op), ::il2cpp_utils::ExtractType(locationName)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, op, locationName);
-    }
+    AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, ::Il2CppString* locationName);
     // System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op, System.Int32 version, System.String locationName)
     // Offset: 0x1B5EAF0
-    // ABORTED: conflicts with another method.  AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, int version, ::Il2CppString* locationName)
+    // ABORTED: conflicts with another method.  AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, int version, ::Il2CppString* locationName);
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle Acquire()
     // Offset: 0x1B5EB00
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle Acquire();
@@ -208,6 +192,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   static check_size<sizeof(AsyncOperationHandle), 16 + sizeof(::Il2CppString*)> __UnityEngine_ResourceManagement_AsyncOperations_AsyncOperationHandleSizeCheck;
   static_assert(sizeof(AsyncOperationHandle) == 0x18);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, "UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::get_LocationName

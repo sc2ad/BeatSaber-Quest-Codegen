@@ -6,10 +6,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OnlineServices
@@ -65,12 +61,13 @@ namespace OnlineServices {
     static OnlineServices::GetLeaderboardEntriesResult get_resultWithError();
     // public System.Void .ctor(System.Boolean isError, OnlineServices.LeaderboardEntryData[] leaderboardEntries, System.Int32 referencePlayerScoreIndex)
     // Offset: 0x11201E4
-    // ABORTED: conflicts with another method.  GetLeaderboardEntriesResult(bool isError, ::ArrayWrapper<OnlineServices::LeaderboardEntryData*> leaderboardEntries, int referencePlayerScoreIndex)
+    // ABORTED: conflicts with another method.  GetLeaderboardEntriesResult(bool isError, ::ArrayWrapper<OnlineServices::LeaderboardEntryData*> leaderboardEntries, int referencePlayerScoreIndex);
   }; // OnlineServices.GetLeaderboardEntriesResult
   #pragma pack(pop)
   static check_size<sizeof(GetLeaderboardEntriesResult), 16 + sizeof(int)> __OnlineServices_GetLeaderboardEntriesResultSizeCheck;
   static_assert(sizeof(GetLeaderboardEntriesResult) == 0x14);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::GetLeaderboardEntriesResult, "OnlineServices", "GetLeaderboardEntriesResult");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::GetLeaderboardEntriesResult::get_resultWithError

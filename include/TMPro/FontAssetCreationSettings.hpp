@@ -6,10 +6,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
@@ -161,16 +157,13 @@ namespace TMPro {
     bool& dyn_includeFontFeatures();
     // System.Void .ctor(System.String sourceFontFileGUID, System.Int32 pointSize, System.Int32 pointSizeSamplingMode, System.Int32 padding, System.Int32 packingMode, System.Int32 atlasWidth, System.Int32 atlasHeight, System.Int32 characterSelectionMode, System.String characterSet, System.Int32 renderMode)
     // Offset: 0x11EA7A8
-    FontAssetCreationSettings(::Il2CppString* sourceFontFileGUID, int pointSize, int pointSizeSamplingMode, int padding, int packingMode, int atlasWidth, int atlasHeight, int characterSelectionMode, ::Il2CppString* characterSet, int renderMode) {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::FontAssetCreationSettings::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(sourceFontFileGUID), ::il2cpp_utils::ExtractType(pointSize), ::il2cpp_utils::ExtractType(pointSizeSamplingMode), ::il2cpp_utils::ExtractType(padding), ::il2cpp_utils::ExtractType(packingMode), ::il2cpp_utils::ExtractType(atlasWidth), ::il2cpp_utils::ExtractType(atlasHeight), ::il2cpp_utils::ExtractType(characterSelectionMode), ::il2cpp_utils::ExtractType(characterSet), ::il2cpp_utils::ExtractType(renderMode)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, sourceFontFileGUID, pointSize, pointSizeSamplingMode, padding, packingMode, atlasWidth, atlasHeight, characterSelectionMode, characterSet, renderMode);
-    }
+    FontAssetCreationSettings(::Il2CppString* sourceFontFileGUID, int pointSize, int pointSizeSamplingMode, int padding, int packingMode, int atlasWidth, int atlasHeight, int characterSelectionMode, ::Il2CppString* characterSet, int renderMode);
   }; // TMPro.FontAssetCreationSettings
   #pragma pack(pop)
   static check_size<sizeof(FontAssetCreationSettings), 84 + sizeof(bool)> __TMPro_FontAssetCreationSettingsSizeCheck;
   static_assert(sizeof(FontAssetCreationSettings) == 0x55);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FontAssetCreationSettings, "TMPro", "FontAssetCreationSettings");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::FontAssetCreationSettings::FontAssetCreationSettings

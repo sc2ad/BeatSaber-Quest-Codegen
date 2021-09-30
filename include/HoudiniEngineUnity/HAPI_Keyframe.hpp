@@ -6,10 +6,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -60,12 +56,13 @@ namespace HoudiniEngineUnity {
     float& dyn_outTangent();
     // public System.Void .ctor(System.Single t, System.Single v, System.Single in_tangent, System.Single out_tangent)
     // Offset: 0x1439884
-    // ABORTED: conflicts with another method.  HAPI_Keyframe(float t, float v, float in_tangent, float out_tangent)
+    // ABORTED: conflicts with another method.  HAPI_Keyframe(float t, float v, float in_tangent, float out_tangent);
   }; // HoudiniEngineUnity.HAPI_Keyframe
   #pragma pack(pop)
   static check_size<sizeof(HAPI_Keyframe), 12 + sizeof(float)> __HoudiniEngineUnity_HAPI_KeyframeSizeCheck;
   static_assert(sizeof(HAPI_Keyframe) == 0x10);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_Keyframe, "HoudiniEngineUnity", "HAPI_Keyframe");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HAPI_Keyframe::HAPI_Keyframe

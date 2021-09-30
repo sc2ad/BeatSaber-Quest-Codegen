@@ -9,10 +9,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.Net.CookieVariant
 #include "System/Net/CookieVariant.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: System.Net
 namespace System::Net {
@@ -53,12 +49,13 @@ namespace System::Net {
     System::Net::CookieVariant get_Variant();
     // System.Void .ctor(System.String name, System.Net.CookieVariant variant)
     // Offset: 0x183BC18
-    // ABORTED: conflicts with another method.  HeaderVariantInfo(::Il2CppString* name, System::Net::CookieVariant variant)
+    // ABORTED: conflicts with another method.  HeaderVariantInfo(::Il2CppString* name, System::Net::CookieVariant variant);
   }; // System.Net.HeaderVariantInfo
   #pragma pack(pop)
   static check_size<sizeof(HeaderVariantInfo), 8 + sizeof(System::Net::CookieVariant)> __System_Net_HeaderVariantInfoSizeCheck;
   static_assert(sizeof(HeaderVariantInfo) == 0xC);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderVariantInfo, "System.Net", "HeaderVariantInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HeaderVariantInfo::get_Name

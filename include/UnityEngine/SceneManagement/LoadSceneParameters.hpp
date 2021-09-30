@@ -11,10 +11,6 @@
 #include "UnityEngine/SceneManagement/LoadSceneMode.hpp"
 // Including type: UnityEngine.SceneManagement.LocalPhysicsMode
 #include "UnityEngine/SceneManagement/LocalPhysicsMode.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: UnityEngine.SceneManagement
 namespace UnityEngine::SceneManagement {
@@ -52,16 +48,13 @@ namespace UnityEngine::SceneManagement {
     void set_loadSceneMode(UnityEngine::SceneManagement::LoadSceneMode value);
     // public System.Void .ctor(UnityEngine.SceneManagement.LoadSceneMode mode)
     // Offset: 0x1E0BBB0
-    LoadSceneParameters(UnityEngine::SceneManagement::LoadSceneMode mode) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::SceneManagement::LoadSceneParameters::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(mode)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, mode);
-    }
+    LoadSceneParameters(UnityEngine::SceneManagement::LoadSceneMode mode);
   }; // UnityEngine.SceneManagement.LoadSceneParameters
   #pragma pack(pop)
   static check_size<sizeof(LoadSceneParameters), 4 + sizeof(UnityEngine::SceneManagement::LocalPhysicsMode)> __UnityEngine_SceneManagement_LoadSceneParametersSizeCheck;
   static_assert(sizeof(LoadSceneParameters) == 0x8);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::LoadSceneParameters, "UnityEngine.SceneManagement", "LoadSceneParameters");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::LoadSceneParameters::set_loadSceneMode

@@ -9,6 +9,8 @@
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Playables.PlayableOutput
 #include "UnityEngine/Playables/PlayableOutput.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables

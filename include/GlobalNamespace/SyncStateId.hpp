@@ -13,10 +13,6 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.Byte
 #include "System/Byte.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -71,7 +67,7 @@ namespace GlobalNamespace {
     uint8_t& dyn__id();
     // private System.Void .ctor(System.Byte id)
     // Offset: 0x18DA704
-    // ABORTED: conflicts with another method.  SyncStateId(uint8_t id)
+    // ABORTED: conflicts with another method.  SyncStateId(uint8_t id);
     // public System.Boolean Equals(SyncStateId other)
     // Offset: 0x18DA70C
     bool Equals(GlobalNamespace::SyncStateId other);
@@ -122,6 +118,7 @@ namespace GlobalNamespace {
   // Offset: 0x18DA80C
   bool operator !=(const GlobalNamespace::SyncStateId& a, const GlobalNamespace::SyncStateId& b);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SyncStateId, "", "SyncStateId");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SyncStateId::SyncStateId

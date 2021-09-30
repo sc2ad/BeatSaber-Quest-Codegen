@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
@@ -13,10 +12,6 @@
 #include "UnityEngine/Playables/IPlayable.hpp"
 // Including type: UnityEngine.Playables.PlayableHandle
 #include "UnityEngine/Playables/PlayableHandle.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: UnityEngine.Animations
 namespace UnityEngine::Animations {
@@ -65,7 +60,7 @@ namespace UnityEngine::Animations {
     UnityEngine::Playables::PlayableHandle& dyn_m_Handle();
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0x2590BAC
-    // ABORTED: conflicts with another method.  AnimationScriptPlayable(UnityEngine::Playables::PlayableHandle handle)
+    // ABORTED: conflicts with another method.  AnimationScriptPlayable(UnityEngine::Playables::PlayableHandle handle);
     // static private System.Void .cctor()
     // Offset: 0x2590CF8
     static void _cctor();
@@ -80,6 +75,7 @@ namespace UnityEngine::Animations {
   static check_size<sizeof(AnimationScriptPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Animations_AnimationScriptPlayableSizeCheck;
   static_assert(sizeof(AnimationScriptPlayable) == 0xC);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationScriptPlayable, "UnityEngine.Animations", "AnimationScriptPlayable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationScriptPlayable::AnimationScriptPlayable

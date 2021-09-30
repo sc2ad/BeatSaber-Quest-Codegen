@@ -17,6 +17,8 @@
 #include "GlobalNamespace/NoteLineLayer.hpp"
 // Including type: NoteCutInfo
 #include "GlobalNamespace/NoteCutInfo.hpp"
+// Including type: UnityEngine.Quaternion
+#include "UnityEngine/Quaternion.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"

@@ -108,7 +108,7 @@ namespace GlobalNamespace {
       GlobalNamespace::IPreviewBeatmapLevel*& dyn_previewBeatmapLevel();
       // public System.Void .ctor(System.String assetBundlePath, System.String levelDataAssetName, IPreviewBeatmapLevel previewBeatmapLevel)
       // Offset: 0x12974D8
-      // ABORTED: conflicts with another method.  AssetBundleLevelInfo(::Il2CppString* assetBundlePath, ::Il2CppString* levelDataAssetName, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel)
+      // ABORTED: conflicts with another method.  AssetBundleLevelInfo(::Il2CppString* assetBundlePath, ::Il2CppString* levelDataAssetName, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel);
     }; // BeatmapLevelDataLoaderSO/AssetBundleLevelInfo
     #pragma pack(pop)
     static check_size<sizeof(BeatmapLevelDataLoaderSO::AssetBundleLevelInfo), 16 + sizeof(GlobalNamespace::IPreviewBeatmapLevel*)> __GlobalNamespace_BeatmapLevelDataLoaderSO_AssetBundleLevelInfoSizeCheck;

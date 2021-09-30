@@ -107,15 +107,9 @@ namespace UnityEngine::ResourceManagement::Util {
       void set_InvocationTime(float value);
       // public System.Void .ctor(System.Delegate d, System.Single invocationTime, params System.Object[] p)
       // Offset: 0x1B6DC58
-      DelegateInfo(System::Delegate* d, float invocationTime, ::ArrayWrapper<::Il2CppObject*> p) {
-        static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo::.ctor");
-        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(d), ::il2cpp_utils::ExtractType(invocationTime), ::il2cpp_utils::ExtractType(p)})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, d, invocationTime, p);
-      }
+      DelegateInfo(System::Delegate* d, float invocationTime, ::ArrayWrapper<::Il2CppObject*> p);
       // Creating initializer_list -> params proxy for: System.Void .ctor(System.Delegate d, System.Single invocationTime, params System.Object[] p)
-      DelegateInfo(System::Delegate* d, float invocationTime, std::initializer_list<::Il2CppObject*> p) {
-        DelegateInfo(d, invocationTime, ::ArrayWrapper<::Il2CppObject*>(p));
-      }
+      DelegateInfo(System::Delegate* d, float invocationTime, std::initializer_list<::Il2CppObject*> p);
       // Creating TArgs -> initializer_list proxy for: System.Void .ctor(System.Delegate d, System.Single invocationTime, params System.Object[] p)
       template<class ...TParams>
       DelegateInfo(System::Delegate* d, float invocationTime, TParams&&... p) {

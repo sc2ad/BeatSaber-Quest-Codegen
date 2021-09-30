@@ -9,10 +9,6 @@
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -53,7 +49,7 @@ namespace UnityEngine {
     UnityEngine::Vector2 get_direction();
     // public System.Void .ctor(UnityEngine.Vector2 origin, UnityEngine.Vector2 direction)
     // Offset: 0x1E00FC8
-    // ABORTED: conflicts with another method.  Ray2D(UnityEngine::Vector2 origin, UnityEngine::Vector2 direction)
+    // ABORTED: conflicts with another method.  Ray2D(UnityEngine::Vector2 origin, UnityEngine::Vector2 direction);
     // public UnityEngine.Vector2 GetPoint(System.Single distance)
     // Offset: 0x1E0100C
     UnityEngine::Vector2 GetPoint(float distance);
@@ -67,6 +63,7 @@ namespace UnityEngine {
   static check_size<sizeof(Ray2D), 8 + sizeof(UnityEngine::Vector2)> __UnityEngine_Ray2DSizeCheck;
   static_assert(sizeof(Ray2D) == 0x10);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Ray2D, "UnityEngine", "Ray2D");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Ray2D::get_origin

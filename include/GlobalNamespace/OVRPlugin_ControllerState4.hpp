@@ -11,12 +11,6 @@
 #include "System/ValueType.hpp"
 // Including type: OVRPlugin/Vector2f
 #include "GlobalNamespace/OVRPlugin_Vector2f.hpp"
-// Including type: OVRPlugin/ControllerState2
-#include "GlobalNamespace/OVRPlugin_ControllerState2.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -387,16 +381,13 @@ namespace GlobalNamespace {
     uint8_t& dyn_Reserved_00();
     // public System.Void .ctor(OVRPlugin/ControllerState2 cs)
     // Offset: 0x17FB02C
-    ControllerState4(GlobalNamespace::OVRPlugin::ControllerState2 cs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::ControllerState4::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cs)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, cs);
-    }
+    ControllerState4(GlobalNamespace::OVRPlugin::ControllerState2 cs);
   }; // OVRPlugin/ControllerState4
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::ControllerState4), 95 + sizeof(uint8_t)> __GlobalNamespace_OVRPlugin_ControllerState4SizeCheck;
   static_assert(sizeof(OVRPlugin::ControllerState4) == 0x60);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::ControllerState4, "", "OVRPlugin/ControllerState4");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::ControllerState4::ControllerState4

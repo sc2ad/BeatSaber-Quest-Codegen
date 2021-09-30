@@ -15,7 +15,8 @@
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
 namespace System::Runtime::Serialization {
-  // Skipping declaration: StreamingContext because it is already included!
+  // Forward declaring type: StreamingContext
+  struct StreamingContext;
 }
 // Forward declaring namespace: System
 namespace System {

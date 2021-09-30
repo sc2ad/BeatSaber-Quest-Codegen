@@ -12,10 +12,6 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.ValueTuple`2
 #include "System/ValueTuple_2.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -98,7 +94,7 @@ namespace GlobalNamespace {
     int get_tagCount();
     // public System.Void .ctor(System.String metricName, System.ValueTuple`2<System.String,System.String> tag0, System.ValueTuple`2<System.String,System.String> tag1, System.ValueTuple`2<System.String,System.String> tag2, System.ValueTuple`2<System.String,System.String> tag3)
     // Offset: 0x18C94F4
-    // ABORTED: conflicts with another method.  MetricIdentifier(::Il2CppString* metricName, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag0, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag1, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag2, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag3)
+    // ABORTED: conflicts with another method.  MetricIdentifier(::Il2CppString* metricName, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag0, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag1, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag2, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag3);
     // public System.Int32 CompareTo(MetricIdentifier other)
     // Offset: 0x18CA408
     int CompareTo(GlobalNamespace::MetricIdentifier other);
@@ -126,6 +122,7 @@ namespace GlobalNamespace {
   }; // MetricIdentifier
   // WARNING Not writing size check since size may be invalid!
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MetricIdentifier, "", "MetricIdentifier");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MetricIdentifier::get_tagCount

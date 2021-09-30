@@ -13,14 +13,13 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
-// Including type: UnityEngine.Quaternion
-#include "UnityEngine/Quaternion.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: Quaternion
+  struct Quaternion;
+}
 // Forward declaring namespace: LiteNetLib::Utils
 namespace LiteNetLib::Utils {
   // Forward declaring type: NetDataReader
@@ -105,18 +104,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::QuaternionSerializable get_identity();
     // public System.Void .ctor(UnityEngine.Quaternion q)
     // Offset: 0x2573930
-    QuaternionSerializable(UnityEngine::Quaternion q) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::QuaternionSerializable::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(q)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, q);
-    }
+    QuaternionSerializable(UnityEngine::Quaternion q);
     // public System.Void .ctor(LiteNetLib.Utils.NetDataReader reader)
     // Offset: 0x2573F74
-    QuaternionSerializable(LiteNetLib::Utils::NetDataReader* reader) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::QuaternionSerializable::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, reader);
-    }
+    QuaternionSerializable(LiteNetLib::Utils::NetDataReader* reader);
     // static private System.Void ToSmallest(UnityEngine.Quaternion q, out System.Int32 sa, out System.Int32 sb, out System.Int32 sc)
     // Offset: 0x2573A58
     static void ToSmallest(UnityEngine::Quaternion q, ByRef<int> sa, ByRef<int> sb, ByRef<int> sc);
@@ -164,6 +155,7 @@ namespace GlobalNamespace {
   // Offset: 0x2573484
   GlobalNamespace::QuaternionSerializable operator-(const GlobalNamespace::QuaternionSerializable& a, const GlobalNamespace::QuaternionSerializable& b);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuaternionSerializable, "", "QuaternionSerializable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::QuaternionSerializable::get_identity

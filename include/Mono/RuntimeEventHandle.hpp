@@ -3,17 +3,15 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Begin il2cpp-utils forward declares
+struct Il2CppObject;
+// Completed il2cpp-utils forward declares
 // Type namespace: Mono
 namespace Mono {
   // Size: 0x8
@@ -46,7 +44,7 @@ namespace Mono {
     System::IntPtr get_Value();
     // System.Void .ctor(System.IntPtr v)
     // Offset: 0x1C3F878
-    // ABORTED: conflicts with another method.  RuntimeEventHandle(System::IntPtr v)
+    // ABORTED: conflicts with another method.  RuntimeEventHandle(System::IntPtr v);
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0x1C3F888
     // Implemented from: System.ValueType
@@ -62,6 +60,7 @@ namespace Mono {
   static check_size<sizeof(RuntimeEventHandle), 0 + sizeof(System::IntPtr)> __Mono_RuntimeEventHandleSizeCheck;
   static_assert(sizeof(RuntimeEventHandle) == 0x8);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeEventHandle, "Mono", "RuntimeEventHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::RuntimeEventHandle::get_Value

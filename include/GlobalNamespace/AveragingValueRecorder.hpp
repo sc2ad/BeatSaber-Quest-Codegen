@@ -73,7 +73,7 @@ namespace GlobalNamespace {
       void set_time(float value);
       // public System.Void .ctor(System.Single value, System.Single time)
       // Offset: 0x1250254
-      // ABORTED: conflicts with another method.  AverageValueData(float value, float time)
+      // ABORTED: conflicts with another method.  AverageValueData(float value, float time);
     }; // AveragingValueRecorder/AverageValueData
     #pragma pack(pop)
     static check_size<sizeof(AveragingValueRecorder::AverageValueData), 4 + sizeof(float)> __GlobalNamespace_AveragingValueRecorder_AverageValueDataSizeCheck;

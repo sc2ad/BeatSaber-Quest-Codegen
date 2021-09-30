@@ -11,10 +11,6 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -122,14 +118,10 @@ namespace UnityEngine {
     static UnityEngine::Vector4 get_one();
     // public System.Void .ctor(System.Single x, System.Single y, System.Single z, System.Single w)
     // Offset: 0x234DEE8
-    // ABORTED: conflicts with another method.  Vector4(float x, float y, float z, float w)
+    // ABORTED: conflicts with another method.  Vector4(float x, float y, float z, float w);
     // public System.Void .ctor(System.Single x, System.Single y, System.Single z)
     // Offset: 0x234DEF4
-    Vector4(float x, float y, float z) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Vector4::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x), ::il2cpp_utils::ExtractType(y), ::il2cpp_utils::ExtractType(z)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, x, y, z);
-    }
+    Vector4(float x, float y, float z);
     // static private System.Void .cctor()
     // Offset: 0x234E9FC
     static void _cctor();
@@ -186,6 +178,7 @@ namespace UnityEngine {
   // Offset: 0x234E530
   bool operator !=(const UnityEngine::Vector4& lhs, const UnityEngine::Vector4& rhs);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector4, "UnityEngine", "Vector4");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Vector4::get_Item

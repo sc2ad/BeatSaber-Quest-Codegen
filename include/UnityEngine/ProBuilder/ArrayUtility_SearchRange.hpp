@@ -9,10 +9,6 @@
 #include "UnityEngine/ProBuilder/ArrayUtility.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
@@ -47,7 +43,7 @@ namespace UnityEngine::ProBuilder {
     int& dyn_end();
     // public System.Void .ctor(System.Int32 begin, System.Int32 end)
     // Offset: 0x2150A64
-    // ABORTED: conflicts with another method.  SearchRange(int begin, int end)
+    // ABORTED: conflicts with another method.  SearchRange(int begin, int end);
     // public System.Boolean Valid()
     // Offset: 0x2150A6C
     bool Valid();
@@ -64,6 +60,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(ArrayUtility::SearchRange), 4 + sizeof(int)> __UnityEngine_ProBuilder_ArrayUtility_SearchRangeSizeCheck;
   static_assert(sizeof(ArrayUtility::SearchRange) == 0x8);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ArrayUtility::SearchRange, "UnityEngine.ProBuilder", "ArrayUtility/SearchRange");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::SearchRange::SearchRange

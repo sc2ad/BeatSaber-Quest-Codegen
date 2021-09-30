@@ -17,6 +17,8 @@
 #include "System/Collections/Generic/KeyValuePair_2.hpp"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
+// Including type: System.Runtime.Serialization.StreamingContext
+#include "System/Runtime/Serialization/StreamingContext.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -27,7 +29,8 @@
 namespace System {
   // Forward declaring type: TimeType
   class TimeType;
-  // Skipping declaration: DateTimeKind because it is already included!
+  // Forward declaring type: DateTimeKind
+  struct DateTimeKind;
   // Forward declaring type: TimeZoneInfoOptions
   struct TimeZoneInfoOptions;
 }

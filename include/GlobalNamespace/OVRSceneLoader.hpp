@@ -93,7 +93,7 @@ namespace GlobalNamespace {
       int64_t& dyn_version();
       // public System.Void .ctor(System.Collections.Generic.List`1<System.String> sceneList, System.Int64 currentSceneEpochVersion)
       // Offset: 0x180B7B4
-      // ABORTED: conflicts with another method.  SceneInfo(System::Collections::Generic::List_1<::Il2CppString*>* sceneList, int64_t currentSceneEpochVersion)
+      // ABORTED: conflicts with another method.  SceneInfo(System::Collections::Generic::List_1<::Il2CppString*>* sceneList, int64_t currentSceneEpochVersion);
     }; // OVRSceneLoader/SceneInfo
     #pragma pack(pop)
     static check_size<sizeof(OVRSceneLoader::SceneInfo), 8 + sizeof(int64_t)> __GlobalNamespace_OVRSceneLoader_SceneInfoSizeCheck;

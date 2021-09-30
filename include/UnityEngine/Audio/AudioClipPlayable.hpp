@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
@@ -13,10 +12,6 @@
 #include "UnityEngine/Playables/IPlayable.hpp"
 // Including type: UnityEngine.Playables.PlayableHandle
 #include "UnityEngine/Playables/PlayableHandle.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables
@@ -74,7 +69,7 @@ namespace UnityEngine::Audio {
     UnityEngine::Playables::PlayableHandle& dyn_m_Handle();
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0x2606034
-    // ABORTED: conflicts with another method.  AudioClipPlayable(UnityEngine::Playables::PlayableHandle handle)
+    // ABORTED: conflicts with another method.  AudioClipPlayable(UnityEngine::Playables::PlayableHandle handle);
     // static public UnityEngine.Audio.AudioClipPlayable Create(UnityEngine.Playables.PlayableGraph graph, UnityEngine.AudioClip clip, System.Boolean looping)
     // Offset: 0x2605E24
     static UnityEngine::Audio::AudioClipPlayable Create(UnityEngine::Playables::PlayableGraph graph, UnityEngine::AudioClip* clip, bool looping);
@@ -125,6 +120,7 @@ namespace UnityEngine::Audio {
   static check_size<sizeof(AudioClipPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Audio_AudioClipPlayableSizeCheck;
   static_assert(sizeof(AudioClipPlayable) == 0xC);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioClipPlayable, "UnityEngine.Audio", "AudioClipPlayable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Audio::AudioClipPlayable::AudioClipPlayable

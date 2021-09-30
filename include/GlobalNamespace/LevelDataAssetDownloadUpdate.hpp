@@ -9,11 +9,13 @@
 #include "System/ValueType.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+  // Skipping declaration: AssetDownloadingState because it is already included!
+}
+// Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x14
@@ -111,12 +113,13 @@ namespace GlobalNamespace {
     GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState& dyn_assetDownloadingState();
     // public System.Void .ctor(System.String levelID, System.UInt32 bytesTotal, System.UInt32 bytesTransferred, LevelDataAssetDownloadUpdate/AssetDownloadingState assetDownloadingState)
     // Offset: 0x1151840
-    // ABORTED: conflicts with another method.  LevelDataAssetDownloadUpdate(::Il2CppString* levelID, uint bytesTotal, uint bytesTransferred, GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState)
+    // ABORTED: conflicts with another method.  LevelDataAssetDownloadUpdate(::Il2CppString* levelID, uint bytesTotal, uint bytesTransferred, GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState);
   }; // LevelDataAssetDownloadUpdate
   #pragma pack(pop)
   static check_size<sizeof(LevelDataAssetDownloadUpdate), 16 + sizeof(GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState)> __GlobalNamespace_LevelDataAssetDownloadUpdateSizeCheck;
   static_assert(sizeof(LevelDataAssetDownloadUpdate) == 0x14);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelDataAssetDownloadUpdate, "", "LevelDataAssetDownloadUpdate");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState, "", "LevelDataAssetDownloadUpdate/AssetDownloadingState");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

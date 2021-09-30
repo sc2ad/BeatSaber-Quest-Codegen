@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
@@ -11,10 +10,6 @@
 #include "UnityEngine/Playables/IPlayableOutput.hpp"
 // Including type: UnityEngine.Playables.PlayableOutputHandle
 #include "UnityEngine/Playables/PlayableOutputHandle.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables
@@ -30,6 +25,9 @@ namespace UnityEngine {
   class Animator;
 }
 // Completed forward declares
+// Begin il2cpp-utils forward declares
+struct Il2CppString;
+// Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Animations
 namespace UnityEngine::Animations {
   // Size: 0xC
@@ -73,7 +71,7 @@ namespace UnityEngine::Animations {
     static UnityEngine::Animations::AnimationPlayableOutput get_Null();
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0x2590278
-    // ABORTED: conflicts with another method.  AnimationPlayableOutput(UnityEngine::Playables::PlayableOutputHandle handle)
+    // ABORTED: conflicts with another method.  AnimationPlayableOutput(UnityEngine::Playables::PlayableOutputHandle handle);
     // static public UnityEngine.Animations.AnimationPlayableOutput Create(UnityEngine.Playables.PlayableGraph graph, System.String name, UnityEngine.Animator target)
     // Offset: 0x259005C
     static UnityEngine::Animations::AnimationPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::Il2CppString* name, UnityEngine::Animator* target);
@@ -100,6 +98,7 @@ namespace UnityEngine::Animations {
   static check_size<sizeof(AnimationPlayableOutput), 0 + sizeof(UnityEngine::Playables::PlayableOutputHandle)> __UnityEngine_Animations_AnimationPlayableOutputSizeCheck;
   static_assert(sizeof(AnimationPlayableOutput) == 0xC);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationPlayableOutput, "UnityEngine.Animations", "AnimationPlayableOutput");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationPlayableOutput::get_Null

@@ -10,12 +10,12 @@
 #include "LiteNetLib/Utils/INetSerializable.hpp"
 // Including type: ColorNoAlphaSerializable
 #include "GlobalNamespace/ColorNoAlphaSerializable.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: UnityEngine
+namespace UnityEngine {
+  // Skipping declaration: Color because it is already included!
+}
 // Forward declaring namespace: LiteNetLib::Utils
 namespace LiteNetLib::Utils {
   // Forward declaring type: NetDataWriter
@@ -101,11 +101,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorNoAlphaSerializable& dyn_environmentColor1Boost();
     // public System.Void .ctor(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color obstaclesColor, UnityEngine.Color environmentColor0, UnityEngine.Color environmentColor1, UnityEngine.Color environmentColor0Boost, UnityEngine.Color environmentColor1Boost)
     // Offset: 0x144DBE8
-    ColorSchemeNetSerializable(UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color obstaclesColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorSchemeNetSerializable::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(saberAColor), ::il2cpp_utils::ExtractType(saberBColor), ::il2cpp_utils::ExtractType(obstaclesColor), ::il2cpp_utils::ExtractType(environmentColor0), ::il2cpp_utils::ExtractType(environmentColor1), ::il2cpp_utils::ExtractType(environmentColor0Boost), ::il2cpp_utils::ExtractType(environmentColor1Boost)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, saberAColor, saberBColor, obstaclesColor, environmentColor0, environmentColor1, environmentColor0Boost, environmentColor1Boost);
-    }
+    ColorSchemeNetSerializable(UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color obstaclesColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0x144DD74
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -117,6 +113,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ColorSchemeNetSerializable), 96 + sizeof(GlobalNamespace::ColorNoAlphaSerializable)> __GlobalNamespace_ColorSchemeNetSerializableSizeCheck;
   static_assert(sizeof(ColorSchemeNetSerializable) == 0x70);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeNetSerializable, "", "ColorSchemeNetSerializable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeNetSerializable::ColorSchemeNetSerializable

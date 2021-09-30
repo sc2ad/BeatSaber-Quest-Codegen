@@ -281,11 +281,7 @@ namespace UnityEngine::ResourceManagement {
       ::Il2CppString* get_Error();
       // public System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op, UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType type, System.Int32 eventValue, System.String error, System.Object context)
       // Offset: 0x1B668D0
-      DiagnosticEventContext(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType type, int eventValue, ::Il2CppString* error, ::Il2CppObject* context) {
-        static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext::.ctor");
-        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(op), ::il2cpp_utils::ExtractType(type), ::il2cpp_utils::ExtractType(eventValue), ::il2cpp_utils::ExtractType(error), ::il2cpp_utils::ExtractType(context)})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, op, type, eventValue, error, context);
-      }
+      DiagnosticEventContext(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType type, int eventValue, ::Il2CppString* error, ::Il2CppObject* context);
     }; // UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventContext
     #pragma pack(pop)
     static check_size<sizeof(ResourceManager::DiagnosticEventContext), 48 + sizeof(::Il2CppString*)> __UnityEngine_ResourceManagement_ResourceManager_DiagnosticEventContextSizeCheck;

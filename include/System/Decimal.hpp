@@ -23,10 +23,6 @@
 #include "System/Int32.hpp"
 // Including type: System.Byte
 #include "System/Byte.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -200,63 +196,31 @@ namespace System {
     int& dyn_mid();
     // public System.Void .ctor(System.Int32 value)
     // Offset: 0x1CE13F8
-    Decimal(int value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
-    }
+    Decimal(int value);
     // public System.Void .ctor(System.UInt32 value)
     // Offset: 0x1CE141C
-    Decimal(uint value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
-    }
+    Decimal(uint value);
     // public System.Void .ctor(System.Int64 value)
     // Offset: 0x1CE1428
-    Decimal(int64_t value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
-    }
+    Decimal(int64_t value);
     // public System.Void .ctor(System.UInt64 value)
     // Offset: 0x1CE1450
-    Decimal(uint64_t value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
-    }
+    Decimal(uint64_t value);
     // public System.Void .ctor(System.Single value)
     // Offset: 0x1CE1460
-    Decimal(float value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
-    }
+    Decimal(float value);
     // public System.Void .ctor(System.Double value)
     // Offset: 0x1CE1464
-    Decimal(double value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
-    }
+    Decimal(double value);
     // public System.Void .ctor(System.Int32[] bits)
     // Offset: 0x1CE1468
-    Decimal(::ArrayWrapper<int> bits) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(bits)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, bits);
-    }
+    Decimal(::ArrayWrapper<int> bits);
     // public System.Void .ctor(System.Int32 lo, System.Int32 mid, System.Int32 hi, System.Boolean isNegative, System.Byte scale)
     // Offset: 0x1CE16E8
-    Decimal(int lo, int mid, int hi, bool isNegative, uint8_t scale) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Decimal::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(lo), ::il2cpp_utils::ExtractType(mid), ::il2cpp_utils::ExtractType(hi), ::il2cpp_utils::ExtractType(isNegative), ::il2cpp_utils::ExtractType(scale)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, lo, mid, hi, isNegative, scale);
-    }
+    Decimal(int lo, int mid, int hi, bool isNegative, uint8_t scale);
     // private System.Void .ctor(System.Int32 lo, System.Int32 mid, System.Int32 hi, System.Int32 flags)
     // Offset: 0x1CE1B14
-    // ABORTED: conflicts with another method.  Decimal(int lo, int mid, int hi, int flags)
+    // ABORTED: conflicts with another method.  Decimal(int lo, int mid, int hi, int flags);
     // static private System.Void .cctor()
     // Offset: 0x1CE37A8
     static void _cctor();
@@ -442,6 +406,7 @@ namespace System {
   // Offset: 0x1CE2FB4
   bool operator >(const System::Decimal& d1, const System::Decimal& d2);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Decimal, "System", "Decimal");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Decimal::Decimal

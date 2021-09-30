@@ -27,14 +27,6 @@
 #include "System/Double.hpp"
 // Including type: System.UInt64
 #include "System/UInt64.hpp"
-// Including type: System.DateTimeKind
-#include "System/DateTimeKind.hpp"
-// Including type: System.Runtime.Serialization.StreamingContext
-#include "System/Runtime/Serialization/StreamingContext.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -43,6 +35,8 @@ namespace System {
   class String;
   // Forward declaring type: DayOfWeek
   struct DayOfWeek;
+  // Forward declaring type: DateTimeKind
+  struct DateTimeKind;
   // Forward declaring type: TimeSpan
   struct TimeSpan;
   // Forward declaring type: IFormatProvider
@@ -58,6 +52,8 @@ namespace System {
 namespace System::Runtime::Serialization {
   // Forward declaring type: SerializationInfo
   class SerializationInfo;
+  // Forward declaring type: StreamingContext
+  struct StreamingContext;
 }
 // Forward declaring namespace: System::Globalization
 namespace System::Globalization {
@@ -421,63 +417,31 @@ namespace System {
     int get_Year();
     // public System.Void .ctor(System.Int64 ticks)
     // Offset: 0x1B21218
-    DateTime(int64_t ticks) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ticks)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ticks);
-    }
+    DateTime(int64_t ticks);
     // private System.Void .ctor(System.UInt64 dateData)
     // Offset: 0x1B24458
-    // ABORTED: conflicts with another method.  DateTime(uint64_t dateData)
+    // ABORTED: conflicts with another method.  DateTime(uint64_t dateData);
     // public System.Void .ctor(System.Int64 ticks, System.DateTimeKind kind)
     // Offset: 0x1B24460
-    DateTime(int64_t ticks, System::DateTimeKind kind) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ticks), ::il2cpp_utils::ExtractType(kind)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ticks, kind);
-    }
+    DateTime(int64_t ticks, System::DateTimeKind kind);
     // System.Void .ctor(System.Int64 ticks, System.DateTimeKind kind, System.Boolean isAmbiguousDst)
     // Offset: 0x1B24580
-    DateTime(int64_t ticks, System::DateTimeKind kind, bool isAmbiguousDst) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ticks), ::il2cpp_utils::ExtractType(kind), ::il2cpp_utils::ExtractType(isAmbiguousDst)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ticks, kind, isAmbiguousDst);
-    }
+    DateTime(int64_t ticks, System::DateTimeKind kind, bool isAmbiguousDst);
     // public System.Void .ctor(System.Int32 year, System.Int32 month, System.Int32 day)
     // Offset: 0x1B2465C
-    DateTime(int year, int month, int day) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(year), ::il2cpp_utils::ExtractType(month), ::il2cpp_utils::ExtractType(day)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, year, month, day);
-    }
+    DateTime(int year, int month, int day);
     // public System.Void .ctor(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 hour, System.Int32 minute, System.Int32 second, System.DateTimeKind kind)
     // Offset: 0x1B248D4
-    DateTime(int year, int month, int day, int hour, int minute, int second, System::DateTimeKind kind) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(year), ::il2cpp_utils::ExtractType(month), ::il2cpp_utils::ExtractType(day), ::il2cpp_utils::ExtractType(hour), ::il2cpp_utils::ExtractType(minute), ::il2cpp_utils::ExtractType(second), ::il2cpp_utils::ExtractType(kind)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, year, month, day, hour, minute, second, kind);
-    }
+    DateTime(int year, int month, int day, int hour, int minute, int second, System::DateTimeKind kind);
     // public System.Void .ctor(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 hour, System.Int32 minute, System.Int32 second, System.Int32 millisecond)
     // Offset: 0x1B24AF0
-    DateTime(int year, int month, int day, int hour, int minute, int second, int millisecond) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(year), ::il2cpp_utils::ExtractType(month), ::il2cpp_utils::ExtractType(day), ::il2cpp_utils::ExtractType(hour), ::il2cpp_utils::ExtractType(minute), ::il2cpp_utils::ExtractType(second), ::il2cpp_utils::ExtractType(millisecond)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, year, month, day, hour, minute, second, millisecond);
-    }
+    DateTime(int year, int month, int day, int hour, int minute, int second, int millisecond);
     // public System.Void .ctor(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 hour, System.Int32 minute, System.Int32 second, System.Int32 millisecond, System.DateTimeKind kind)
     // Offset: 0x1B24D14
-    DateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, System::DateTimeKind kind) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(year), ::il2cpp_utils::ExtractType(month), ::il2cpp_utils::ExtractType(day), ::il2cpp_utils::ExtractType(hour), ::il2cpp_utils::ExtractType(minute), ::il2cpp_utils::ExtractType(second), ::il2cpp_utils::ExtractType(millisecond), ::il2cpp_utils::ExtractType(kind)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, year, month, day, hour, minute, second, millisecond, kind);
-    }
+    DateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, System::DateTimeKind kind);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1B24F94
-    DateTime(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::DateTime::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractType(context)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, info, context);
-    }
+    DateTime(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // static private System.Void .cctor()
     // Offset: 0x1B27FA8
     static void _cctor();
@@ -687,6 +651,7 @@ namespace System {
   // Offset: 0x1B27070
   bool operator >=(const System::DateTime& t1, const System::DateTime& t2);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTime, "System", "DateTime");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::DateTime::get_InternalTicks

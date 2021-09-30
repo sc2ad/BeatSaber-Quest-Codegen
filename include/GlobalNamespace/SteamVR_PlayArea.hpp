@@ -9,6 +9,8 @@
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"

@@ -8,10 +8,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -74,7 +70,7 @@ namespace Zenject {
     void set_Identifier(::Il2CppObject* value);
     // public System.Void .ctor(System.Type type, System.Object identifier)
     // Offset: 0x14F4D50
-    // ABORTED: conflicts with another method.  BindingId(System::Type* type, ::Il2CppObject* identifier)
+    // ABORTED: conflicts with another method.  BindingId(System::Type* type, ::Il2CppObject* identifier);
     // public System.Boolean Equals(Zenject.BindingId that)
     // Offset: 0x14F5044
     bool Equals(Zenject::BindingId that);
@@ -104,6 +100,7 @@ namespace Zenject {
   // Offset: 0x14F505C
   bool operator !=(const Zenject::BindingId& left, const Zenject::BindingId& right);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::BindingId, "Zenject", "BindingId");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::BindingId::get_Type

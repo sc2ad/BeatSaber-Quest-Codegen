@@ -11,10 +11,6 @@
 #include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.Vector4
 #include "UnityEngine/Vector4.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
@@ -61,7 +57,7 @@ namespace UnityEngine::ProBuilder {
     float get_w();
     // public System.Void .ctor(UnityEngine.Vector4 vector)
     // Offset: 0x1C7B640
-    // ABORTED: conflicts with another method.  IntVec4(UnityEngine::Vector4 vector)
+    // ABORTED: conflicts with another method.  IntVec4(UnityEngine::Vector4 vector);
     // public System.Boolean Equals(UnityEngine.ProBuilder.IntVec4 p)
     // Offset: 0x1C7B82C
     bool Equals(UnityEngine::ProBuilder::IntVec4 p);
@@ -97,6 +93,7 @@ namespace UnityEngine::ProBuilder {
   // Offset: 0x1C7B8E4
   bool operator !=(const UnityEngine::ProBuilder::IntVec4& a, const UnityEngine::ProBuilder::IntVec4& b);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::IntVec4, "UnityEngine.ProBuilder", "IntVec4");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::IntVec4::get_x

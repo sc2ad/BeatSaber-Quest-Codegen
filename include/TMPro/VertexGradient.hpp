@@ -8,10 +8,6 @@
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {
@@ -62,19 +58,16 @@ namespace TMPro {
     UnityEngine::Color& dyn_bottomRight();
     // public System.Void .ctor(UnityEngine.Color color)
     // Offset: 0x1E20838
-    VertexGradient(UnityEngine::Color color) {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::VertexGradient::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(color)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, color);
-    }
+    VertexGradient(UnityEngine::Color color);
     // public System.Void .ctor(UnityEngine.Color color0, UnityEngine.Color color1, UnityEngine.Color color2, UnityEngine.Color color3)
     // Offset: 0x1E2085C
-    // ABORTED: conflicts with another method.  VertexGradient(UnityEngine::Color color0, UnityEngine::Color color1, UnityEngine::Color color2, UnityEngine::Color color3)
+    // ABORTED: conflicts with another method.  VertexGradient(UnityEngine::Color color0, UnityEngine::Color color1, UnityEngine::Color color2, UnityEngine::Color color3);
   }; // TMPro.VertexGradient
   #pragma pack(pop)
   static check_size<sizeof(VertexGradient), 48 + sizeof(UnityEngine::Color)> __TMPro_VertexGradientSizeCheck;
   static_assert(sizeof(VertexGradient) == 0x40);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::VertexGradient, "TMPro", "VertexGradient");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::VertexGradient::VertexGradient

@@ -8,10 +8,6 @@
 #include "UnityEngine/ParticleSystem.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -78,7 +74,7 @@ namespace UnityEngine {
     void set_maxParticles(int value);
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
     // Offset: 0x261CA94
-    // ABORTED: conflicts with another method.  MainModule(UnityEngine::ParticleSystem* particleSystem)
+    // ABORTED: conflicts with another method.  MainModule(UnityEngine::ParticleSystem* particleSystem);
     // static private System.Single get_duration_Injected(ref UnityEngine.ParticleSystem/UnityEngine.MainModule _unity_self)
     // Offset: 0x261CC80
     static float get_duration_Injected(ByRef<UnityEngine::ParticleSystem::MainModule> _unity_self);
@@ -120,6 +116,7 @@ namespace UnityEngine {
   static check_size<sizeof(ParticleSystem::MainModule), 0 + sizeof(UnityEngine::ParticleSystem*)> __UnityEngine_ParticleSystem_MainModuleSizeCheck;
   static_assert(sizeof(ParticleSystem::MainModule) == 0x8);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MainModule, "UnityEngine", "ParticleSystem/MainModule");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_duration

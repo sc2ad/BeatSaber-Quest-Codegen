@@ -80,11 +80,7 @@ namespace Oculus::Platform {
       System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>*& dyn_parameters();
       // public System.Void .ctor(System.String key_, Oculus.Platform.MatchmakingCriterionImportance importance_)
       // Offset: 0x16B0358
-      Criterion(::Il2CppString* key_, Oculus::Platform::MatchmakingCriterionImportance importance_) {
-        static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Matchmaking::CustomQuery::Criterion::.ctor");
-        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key_), ::il2cpp_utils::ExtractType(importance_)})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, key_, importance_);
-      }
+      Criterion(::Il2CppString* key_, Oculus::Platform::MatchmakingCriterionImportance importance_);
     }; // Oculus.Platform.Matchmaking/Oculus.Platform.CustomQuery/Oculus.Platform.Criterion
     #pragma pack(pop)
     static check_size<sizeof(Matchmaking::CustomQuery::Criterion), 16 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>*)> __Oculus_Platform_Matchmaking_CustomQuery_CriterionSizeCheck;

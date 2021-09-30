@@ -6,10 +6,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -52,16 +48,13 @@ namespace HoudiniEngineUnity {
     ::ArrayWrapper<float>& dyn_rotation();
     // public System.Void .ctor(System.Boolean initialize_fields)
     // Offset: 0x14397E4
-    HAPI_BoxInfo(bool initialize_fields) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HAPI_BoxInfo::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(initialize_fields)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, initialize_fields);
-    }
+    HAPI_BoxInfo(bool initialize_fields);
   }; // HoudiniEngineUnity.HAPI_BoxInfo
   #pragma pack(pop)
   static check_size<sizeof(HAPI_BoxInfo), 16 + sizeof(::ArrayWrapper<float>)> __HoudiniEngineUnity_HAPI_BoxInfoSizeCheck;
   static_assert(sizeof(HAPI_BoxInfo) == 0x18);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_BoxInfo, "HoudiniEngineUnity", "HAPI_BoxInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HAPI_BoxInfo::HAPI_BoxInfo

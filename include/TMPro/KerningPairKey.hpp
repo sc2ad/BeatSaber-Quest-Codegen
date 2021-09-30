@@ -6,10 +6,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {
@@ -52,16 +48,13 @@ namespace TMPro {
     uint& dyn_key();
     // public System.Void .ctor(System.UInt32 ascii_left, System.UInt32 ascii_right)
     // Offset: 0x11EAB1C
-    KerningPairKey(uint ascii_left, uint ascii_right) {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::KerningPairKey::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ascii_left), ::il2cpp_utils::ExtractType(ascii_right)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ascii_left, ascii_right);
-    }
+    KerningPairKey(uint ascii_left, uint ascii_right);
   }; // TMPro.KerningPairKey
   #pragma pack(pop)
   static check_size<sizeof(KerningPairKey), 8 + sizeof(uint)> __TMPro_KerningPairKeySizeCheck;
   static_assert(sizeof(KerningPairKey) == 0xC);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningPairKey, "TMPro", "KerningPairKey");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::KerningPairKey::KerningPairKey

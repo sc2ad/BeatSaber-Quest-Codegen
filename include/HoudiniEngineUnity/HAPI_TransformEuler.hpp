@@ -11,10 +11,6 @@
 #include "HoudiniEngineUnity/HAPI_XYZOrder.hpp"
 // Including type: HoudiniEngineUnity.HAPI_RSTOrder
 #include "HoudiniEngineUnity/HAPI_RSTOrder.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -81,11 +77,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_RSTOrder& dyn_rstOrder();
     // public System.Void .ctor(System.Boolean initializeFields)
     // Offset: 0x1439D34
-    HAPI_TransformEuler(bool initializeFields) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HAPI_TransformEuler::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(initializeFields)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, initializeFields);
-    }
+    HAPI_TransformEuler(bool initializeFields);
     // public System.Void Init()
     // Offset: 0x1439DE0
     void Init();
@@ -94,6 +86,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HAPI_TransformEuler), 36 + sizeof(HoudiniEngineUnity::HAPI_RSTOrder)> __HoudiniEngineUnity_HAPI_TransformEulerSizeCheck;
   static_assert(sizeof(HAPI_TransformEuler) == 0x28);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_TransformEuler, "HoudiniEngineUnity", "HAPI_TransformEuler");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HAPI_TransformEuler::HAPI_TransformEuler

@@ -69,7 +69,7 @@ namespace GlobalNamespace {
       System::Action*& dyn_action();
       // public System.Void .ctor(System.Single time, System.Action action)
       // Offset: 0x18DA8F0
-      // ABORTED: conflicts with another method.  SynchronizedAction(float time, System::Action* action)
+      // ABORTED: conflicts with another method.  SynchronizedAction(float time, System::Action* action);
     }; // SynchronizedActionQueue/SynchronizedAction
     #pragma pack(pop)
     static check_size<sizeof(SynchronizedActionQueue::SynchronizedAction), 8 + sizeof(System::Action*)> __GlobalNamespace_SynchronizedActionQueue_SynchronizedActionSizeCheck;

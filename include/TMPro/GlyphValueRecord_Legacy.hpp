@@ -6,13 +6,14 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-// Including type: UnityEngine.TextCore.LowLevel.GlyphValueRecord
-#include "UnityEngine/TextCore/LowLevel/GlyphValueRecord.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: UnityEngine::TextCore::LowLevel
+namespace UnityEngine::TextCore::LowLevel {
+  // Forward declaring type: GlyphValueRecord
+  struct GlyphValueRecord;
+}
+// Completed forward declares
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x10
@@ -62,11 +63,7 @@ namespace TMPro {
     float& dyn_yAdvance();
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphValueRecord valueRecord)
     // Offset: 0x11EA8D0
-    GlyphValueRecord_Legacy(UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord) {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::GlyphValueRecord_Legacy::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(valueRecord)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, valueRecord);
-    }
+    GlyphValueRecord_Legacy(UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord);
   }; // TMPro.GlyphValueRecord_Legacy
   #pragma pack(pop)
   static check_size<sizeof(GlyphValueRecord_Legacy), 12 + sizeof(float)> __TMPro_GlyphValueRecord_LegacySizeCheck;
@@ -75,6 +72,7 @@ namespace TMPro {
   // Offset: 0x11EA93C
   TMPro::GlyphValueRecord_Legacy operator+(const TMPro::GlyphValueRecord_Legacy& a, const TMPro::GlyphValueRecord_Legacy& b);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::GlyphValueRecord_Legacy, "TMPro", "GlyphValueRecord_Legacy");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::GlyphValueRecord_Legacy::GlyphValueRecord_Legacy

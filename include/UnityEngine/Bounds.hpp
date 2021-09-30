@@ -11,10 +11,6 @@
 #include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -92,7 +88,7 @@ namespace UnityEngine {
     UnityEngine::Vector3 get_max();
     // public System.Void .ctor(UnityEngine.Vector3 center, UnityEngine.Vector3 size)
     // Offset: 0x1CAE764
-    // ABORTED: conflicts with another method.  Bounds(UnityEngine::Vector3 center, UnityEngine::Vector3 size)
+    // ABORTED: conflicts with another method.  Bounds(UnityEngine::Vector3 center, UnityEngine::Vector3 size);
     // public System.Boolean Equals(UnityEngine.Bounds other)
     // Offset: 0x1CAE938
     bool Equals(UnityEngine::Bounds other);
@@ -146,6 +142,7 @@ namespace UnityEngine {
   // Offset: 0x1CAED54
   bool operator !=(const UnityEngine::Bounds& lhs, const UnityEngine::Bounds& rhs);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bounds, "UnityEngine", "Bounds");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Bounds::get_center

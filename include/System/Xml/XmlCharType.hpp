@@ -7,10 +7,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: System.Xml
 namespace System::Xml {
@@ -55,7 +51,7 @@ namespace System::Xml {
     static System::Xml::XmlCharType get_Instance();
     // private System.Void .ctor(System.Byte[] charProperties)
     // Offset: 0x1AFFEC8
-    // ABORTED: conflicts with another method.  XmlCharType(::ArrayWrapper<uint8_t> charProperties)
+    // ABORTED: conflicts with another method.  XmlCharType(::ArrayWrapper<uint8_t> charProperties);
     // static private System.Void InitInstance()
     // Offset: 0x1AFFC38
     static void InitInstance();
@@ -106,6 +102,7 @@ namespace System::Xml {
   static check_size<sizeof(XmlCharType), 0 + sizeof(::ArrayWrapper<uint8_t>)> __System_Xml_XmlCharTypeSizeCheck;
   static_assert(sizeof(XmlCharType) == 0x8);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlCharType, "System.Xml", "XmlCharType");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlCharType::get_StaticLock

@@ -19,6 +19,8 @@
 #include "System/TimeSpan.hpp"
 // Including type: System.TimeZoneInfo/System.TransitionTime
 #include "System/TimeZoneInfo_TransitionTime.hpp"
+// Including type: System.Runtime.Serialization.StreamingContext
+#include "System/Runtime/Serialization/StreamingContext.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"

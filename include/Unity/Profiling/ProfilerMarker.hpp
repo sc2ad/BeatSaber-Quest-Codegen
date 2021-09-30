@@ -3,22 +3,21 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
+#include <stdint.h>
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Unity::Profiling
 namespace Unity::Profiling {
 }
 // Completed forward declares
+// Begin il2cpp-utils forward declares
+struct Il2CppString;
+// Completed il2cpp-utils forward declares
 // Type namespace: Unity.Profiling
 namespace Unity::Profiling {
   // Size: 0x8
@@ -53,11 +52,7 @@ namespace Unity::Profiling {
     System::IntPtr& dyn_m_Ptr();
     // public System.Void .ctor(System.String name)
     // Offset: 0x1CA9F5C
-    ProfilerMarker(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Unity::Profiling::ProfilerMarker::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, name);
-    }
+    ProfilerMarker(::Il2CppString* name);
     // public Unity.Profiling.ProfilerMarker/Unity.Profiling.AutoScope Auto()
     // Offset: 0x1CAA004
     Unity::Profiling::ProfilerMarker::AutoScope Auto();
@@ -75,6 +70,7 @@ namespace Unity::Profiling {
   static check_size<sizeof(ProfilerMarker), 0 + sizeof(System::IntPtr)> __Unity_Profiling_ProfilerMarkerSizeCheck;
   static_assert(sizeof(ProfilerMarker) == 0x8);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Unity::Profiling::ProfilerMarker, "Unity.Profiling", "ProfilerMarker");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Unity::Profiling::ProfilerMarker::ProfilerMarker

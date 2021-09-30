@@ -15,10 +15,6 @@
 #include "System/IComparable.hpp"
 // Including type: System.IFormattable
 #include "System/IFormattable.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -178,28 +174,16 @@ namespace System {
     uint8_t& dyn__k();
     // public System.Void .ctor(System.Byte[] b)
     // Offset: 0x1BDE768
-    Guid(::ArrayWrapper<uint8_t> b) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Guid::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(b)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, b);
-    }
+    Guid(::ArrayWrapper<uint8_t> b);
     // public System.Void .ctor(System.Int32 a, System.Int16 b, System.Int16 c, System.Byte[] d)
     // Offset: 0x1BDE970
-    Guid(int a, int16_t b, int16_t c, ::ArrayWrapper<uint8_t> d) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Guid::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b), ::il2cpp_utils::ExtractType(c), ::il2cpp_utils::ExtractType(d)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, a, b, c, d);
-    }
+    Guid(int a, int16_t b, int16_t c, ::ArrayWrapper<uint8_t> d);
     // public System.Void .ctor(System.Int32 a, System.Int16 b, System.Int16 c, System.Byte d, System.Byte e, System.Byte f, System.Byte g, System.Byte h, System.Byte i, System.Byte j, System.Byte k)
     // Offset: 0x1BDEB64
-    // ABORTED: conflicts with another method.  Guid(int a, int16_t b, int16_t c, uint8_t d, uint8_t e, uint8_t f, uint8_t g, uint8_t h, uint8_t i, uint8_t j, uint8_t k)
+    // ABORTED: conflicts with another method.  Guid(int a, int16_t b, int16_t c, uint8_t d, uint8_t e, uint8_t f, uint8_t g, uint8_t h, uint8_t i, uint8_t j, uint8_t k);
     // public System.Void .ctor(System.String g)
     // Offset: 0x1BDEBA4
-    Guid(::Il2CppString* g) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Guid::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(g)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, g);
-    }
+    Guid(::Il2CppString* g);
     // static private System.Void .cctor()
     // Offset: 0x1BE1A30
     static void _cctor();
@@ -307,6 +291,7 @@ namespace System {
   // Offset: 0x1BE15C4
   bool operator !=(const System::Guid& a, const System::Guid& b);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Guid, "System", "Guid");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Guid::Guid

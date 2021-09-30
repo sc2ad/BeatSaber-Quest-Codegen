@@ -8,10 +8,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.Runtime.CompilerServices.ICriticalNotifyCompletion
 #include "System/Runtime/CompilerServices/ICriticalNotifyCompletion.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading::Tasks
@@ -61,7 +57,7 @@ namespace System::Runtime::CompilerServices {
     bool get_IsCompleted();
     // System.Void .ctor(System.Threading.Tasks.Task task)
     // Offset: 0x15ADD54
-    // ABORTED: conflicts with another method.  TaskAwaiter(System::Threading::Tasks::Task* task)
+    // ABORTED: conflicts with another method.  TaskAwaiter(System::Threading::Tasks::Task* task);
     // public System.Void OnCompleted(System.Action continuation)
     // Offset: 0x15ADD78
     void OnCompleted(System::Action* continuation);
@@ -88,6 +84,7 @@ namespace System::Runtime::CompilerServices {
   static check_size<sizeof(TaskAwaiter), 0 + sizeof(System::Threading::Tasks::Task*)> __System_Runtime_CompilerServices_TaskAwaiterSizeCheck;
   static_assert(sizeof(TaskAwaiter) == 0x8);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::TaskAwaiter, "System.Runtime.CompilerServices", "TaskAwaiter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::TaskAwaiter::get_IsCompleted

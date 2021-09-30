@@ -9,10 +9,6 @@
 #include "System/Number.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -76,11 +72,7 @@ namespace System {
     bool& dyn_sign();
     // public System.Void .ctor(System.Byte* stackBuffer)
     // Offset: 0x1A140B8
-    NumberBuffer(uint8_t* stackBuffer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Number::NumberBuffer::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stackBuffer)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, stackBuffer);
-    }
+    NumberBuffer(uint8_t* stackBuffer);
     // static private System.Void .cctor()
     // Offset: 0x1A153AC
     static void _cctor();
@@ -92,6 +84,7 @@ namespace System {
   static check_size<sizeof(Number::NumberBuffer), 24 + sizeof(bool)> __System_Number_NumberBufferSizeCheck;
   static_assert(sizeof(Number::NumberBuffer) == 0x19);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Number::NumberBuffer, "System", "Number/NumberBuffer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Number::NumberBuffer::NumberBuffer

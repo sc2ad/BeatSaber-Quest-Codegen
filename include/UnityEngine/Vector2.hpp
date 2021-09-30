@@ -11,10 +11,6 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -134,7 +130,7 @@ namespace UnityEngine {
     static UnityEngine::Vector2 get_right();
     // public System.Void .ctor(System.Single x, System.Single y)
     // Offset: 0x234A758
-    // ABORTED: conflicts with another method.  Vector2(float x, float y)
+    // ABORTED: conflicts with another method.  Vector2(float x, float y);
     // static private System.Void .cctor()
     // Offset: 0x234B334
     static void _cctor();
@@ -221,6 +217,7 @@ namespace UnityEngine {
   // Offset: 0x234B150
   bool operator !=(const UnityEngine::Vector2& lhs, const UnityEngine::Vector2& rhs);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector2, "UnityEngine", "Vector2");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Vector2::get_Item

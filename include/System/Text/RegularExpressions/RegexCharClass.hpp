@@ -99,7 +99,7 @@ namespace System::Text::RegularExpressions {
       int& dyn__data();
       // System.Void .ctor(System.Char chMin, System.Char chMax, System.Int32 lcOp, System.Int32 data)
       // Offset: 0x1A35170
-      // ABORTED: conflicts with another method.  LowerCaseMapping(::Il2CppChar chMin, ::Il2CppChar chMax, int lcOp, int data)
+      // ABORTED: conflicts with another method.  LowerCaseMapping(::Il2CppChar chMin, ::Il2CppChar chMax, int lcOp, int data);
     }; // System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.LowerCaseMapping
     #pragma pack(pop)
     static check_size<sizeof(RegexCharClass::LowerCaseMapping), 8 + sizeof(int)> __System_Text_RegularExpressions_RegexCharClass_LowerCaseMappingSizeCheck;

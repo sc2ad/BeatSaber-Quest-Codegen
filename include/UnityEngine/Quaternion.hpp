@@ -11,10 +11,6 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -105,7 +101,7 @@ namespace UnityEngine {
     void set_eulerAngles(UnityEngine::Vector3 value);
     // public System.Void .ctor(System.Single x, System.Single y, System.Single z, System.Single w)
     // Offset: 0x1DFFB48
-    // ABORTED: conflicts with another method.  Quaternion(float x, float y, float z, float w)
+    // ABORTED: conflicts with another method.  Quaternion(float x, float y, float z, float w);
     // static private System.Void .cctor()
     // Offset: 0x1E0082C
     static void _cctor();
@@ -243,6 +239,7 @@ namespace UnityEngine {
   // Offset: 0x1DFFBFC
   bool operator !=(const UnityEngine::Quaternion& lhs, const UnityEngine::Quaternion& rhs);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Quaternion, "UnityEngine", "Quaternion");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Quaternion::get_Item

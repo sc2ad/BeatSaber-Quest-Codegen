@@ -17,7 +17,8 @@
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Skipping declaration: Enum because it is already included!
+  // Forward declaring type: Enum
+  class Enum;
   // Forward declaring type: String
   class String;
 }

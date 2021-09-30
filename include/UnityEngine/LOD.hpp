@@ -6,10 +6,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -60,16 +56,13 @@ namespace UnityEngine {
     ::ArrayWrapper<UnityEngine::Renderer*>& dyn_renderers();
     // public System.Void .ctor(System.Single screenRelativeTransitionHeight, UnityEngine.Renderer[] renderers)
     // Offset: 0x1D9DDA8
-    LOD(float screenRelativeTransitionHeight, ::ArrayWrapper<UnityEngine::Renderer*> renderers) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::LOD::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(screenRelativeTransitionHeight), ::il2cpp_utils::ExtractType(renderers)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, screenRelativeTransitionHeight, renderers);
-    }
+    LOD(float screenRelativeTransitionHeight, ::ArrayWrapper<UnityEngine::Renderer*> renderers);
   }; // UnityEngine.LOD
   #pragma pack(pop)
   static check_size<sizeof(LOD), 8 + sizeof(::ArrayWrapper<UnityEngine::Renderer*>)> __UnityEngine_LODSizeCheck;
   static_assert(sizeof(LOD) == 0x10);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LOD, "UnityEngine", "LOD");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::LOD::LOD

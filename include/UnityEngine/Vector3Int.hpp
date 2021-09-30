@@ -8,10 +8,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -119,7 +115,7 @@ namespace UnityEngine {
     static UnityEngine::Vector3Int get_one();
     // public System.Void .ctor(System.Int32 x, System.Int32 y, System.Int32 z)
     // Offset: 0x234D604
-    // ABORTED: conflicts with another method.  Vector3Int(int x, int y, int z)
+    // ABORTED: conflicts with another method.  Vector3Int(int x, int y, int z);
     // static private System.Void .cctor()
     // Offset: 0x234DCB4
     static void _cctor();
@@ -158,6 +154,7 @@ namespace UnityEngine {
   // Offset: 0x234D904
   bool operator ==(const UnityEngine::Vector3Int& lhs, const UnityEngine::Vector3Int& rhs);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector3Int, "UnityEngine", "Vector3Int");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Vector3Int::get_x

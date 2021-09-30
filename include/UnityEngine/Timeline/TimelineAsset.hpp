@@ -15,6 +15,8 @@
 #include "UnityEngine/ISerializationCallbackReceiver.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"

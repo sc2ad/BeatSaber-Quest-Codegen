@@ -11,10 +11,6 @@
 #include "System/Runtime/Remoting/Messaging/LogicalCallContext.hpp"
 // Including type: System.Runtime.Remoting.Messaging.IllogicalCallContext
 #include "System/Runtime/Remoting/Messaging/IllogicalCallContext.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -70,7 +66,7 @@ namespace System::Threading {
     System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader get_IllogicalCallContext();
     // public System.Void .ctor(System.Threading.ExecutionContext ec)
     // Offset: 0x1A591F8
-    // ABORTED: conflicts with another method.  Reader(System::Threading::ExecutionContext* ec)
+    // ABORTED: conflicts with another method.  Reader(System::Threading::ExecutionContext* ec);
     // public System.Threading.ExecutionContext DangerousGetRawExecutionContext()
     // Offset: 0x1A59200
     System::Threading::ExecutionContext* DangerousGetRawExecutionContext();
@@ -85,6 +81,7 @@ namespace System::Threading {
   static check_size<sizeof(ExecutionContext::Reader), 0 + sizeof(System::Threading::ExecutionContext*)> __System_Threading_ExecutionContext_ReaderSizeCheck;
   static_assert(sizeof(ExecutionContext::Reader) == 0x8);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContext::Reader, "System.Threading", "ExecutionContext/Reader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ExecutionContext::Reader::get_IsNull

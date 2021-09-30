@@ -9,6 +9,8 @@
 #include "System/Runtime/Serialization/ISerializable.hpp"
 // Including type: System.Runtime.InteropServices.GCHandle
 #include "System/Runtime/InteropServices/GCHandle.hpp"
+// Including type: System.Runtime.Serialization.StreamingContext
+#include "System/Runtime/Serialization/StreamingContext.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"

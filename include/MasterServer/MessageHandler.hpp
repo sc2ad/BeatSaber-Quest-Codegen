@@ -241,7 +241,7 @@ namespace MasterServer {
       uint& dyn_requestId();
       // public System.Void .ctor(System.Net.IPEndPoint endPoint, System.UInt32 requestId)
       // Offset: 0x12DF850
-      // ABORTED: conflicts with another method.  RequestWaiterId(System::Net::IPEndPoint* endPoint, uint requestId)
+      // ABORTED: conflicts with another method.  RequestWaiterId(System::Net::IPEndPoint* endPoint, uint requestId);
       // public System.Boolean Equals(MasterServer.MessageHandler/MasterServer.RequestWaiterId other)
       // Offset: 0x12E3AE4
       bool Equals(MasterServer::MessageHandler::RequestWaiterId other);
@@ -291,7 +291,7 @@ namespace MasterServer {
       uint& dyn_protocolVersion();
       // public System.Void .ctor(System.Net.IPEndPoint endPoint, System.UInt32 protocolVersion)
       // Offset: 0x12E0E10
-      // ABORTED: conflicts with another method.  MessageOrigin(System::Net::IPEndPoint* endPoint, uint protocolVersion)
+      // ABORTED: conflicts with another method.  MessageOrigin(System::Net::IPEndPoint* endPoint, uint protocolVersion);
     }; // MasterServer.MessageHandler/MasterServer.MessageOrigin
     #pragma pack(pop)
     static check_size<sizeof(MessageHandler::MessageOrigin), 8 + sizeof(uint)> __MasterServer_MessageHandler_MessageOriginSizeCheck;

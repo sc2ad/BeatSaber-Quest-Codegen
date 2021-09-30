@@ -7,10 +7,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
@@ -111,11 +107,7 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     int get_Value();
     // public System.Void .ctor(System.String graph, System.String name, System.Int32 id, System.Int32 stream, System.Int32 frame, System.Int32 value, System.Int32[] deps)
     // Offset: 0x1B61580
-    DiagnosticEvent(::Il2CppString* graph, ::Il2CppString* name, int id, int stream, int frame, int value, ::ArrayWrapper<int> deps) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(graph), ::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(id), ::il2cpp_utils::ExtractType(stream), ::il2cpp_utils::ExtractType(frame), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(deps)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, graph, name, id, stream, frame, value, deps);
-    }
+    DiagnosticEvent(::Il2CppString* graph, ::Il2CppString* name, int id, int stream, int frame, int value, ::ArrayWrapper<int> deps);
     // System.Byte[] Serialize()
     // Offset: 0x1B61598
     ::ArrayWrapper<uint8_t> Serialize();
@@ -127,6 +119,7 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
   static check_size<sizeof(DiagnosticEvent), 40 + sizeof(int)> __UnityEngine_ResourceManagement_Diagnostics_DiagnosticEventSizeCheck;
   static_assert(sizeof(DiagnosticEvent) == 0x2C);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent, "UnityEngine.ResourceManagement.Diagnostics", "DiagnosticEvent");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::get_Graph

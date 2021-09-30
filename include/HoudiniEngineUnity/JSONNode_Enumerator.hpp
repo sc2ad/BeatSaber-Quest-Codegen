@@ -15,10 +15,6 @@
 #include "System/Collections/Generic/List_1.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -116,24 +112,17 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::KeyValuePair_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*> get_Current();
     // public System.Void .ctor(System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<HoudiniEngineUnity.JSONNode> aArrayEnum)
     // Offset: 0x170056C
-    Enumerator(typename System::Collections::Generic::List_1<HoudiniEngineUnity::JSONNode*>::Enumerator aArrayEnum) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::JSONNode::Enumerator::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(aArrayEnum)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, aArrayEnum);
-    }
+    Enumerator(typename System::Collections::Generic::List_1<HoudiniEngineUnity::JSONNode*>::Enumerator aArrayEnum);
     // public System.Void .ctor(System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,HoudiniEngineUnity.JSONNode> aDictEnum)
     // Offset: 0x17065B8
-    Enumerator(typename System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>::Enumerator aDictEnum) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::JSONNode::Enumerator::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(aDictEnum)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, aDictEnum);
-    }
+    Enumerator(typename System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>::Enumerator aDictEnum);
     // public System.Boolean MoveNext()
     // Offset: 0x1706690
     bool MoveNext();
   }; // HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator
   // WARNING Not writing size check since size may be invalid!
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONNode::Enumerator, "HoudiniEngineUnity", "JSONNode/Enumerator");
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONNode::Enumerator::Type, "HoudiniEngineUnity", "JSONNode/Enumerator/Type");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -11,10 +11,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib
@@ -66,11 +62,7 @@ namespace LiteNetLib {
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(LiteNetLib.NetPeer p)
     // Offset: 0x1DDC540
-    NetPeerEnumerator(LiteNetLib::NetPeer* p) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetManager::NetPeerEnumerator::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(p)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, p);
-    }
+    NetPeerEnumerator(LiteNetLib::NetPeer* p);
     // public System.Void Dispose()
     // Offset: 0x1DDC698
     void Dispose();
@@ -85,6 +77,7 @@ namespace LiteNetLib {
   static check_size<sizeof(NetManager::NetPeerEnumerator), 8 + sizeof(LiteNetLib::NetPeer*)> __LiteNetLib_NetManager_NetPeerEnumeratorSizeCheck;
   static_assert(sizeof(NetManager::NetPeerEnumerator) == 0x10);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetManager::NetPeerEnumerator, "LiteNetLib", "NetManager/NetPeerEnumerator");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetManager::NetPeerEnumerator::get_Current

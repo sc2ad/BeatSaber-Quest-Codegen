@@ -8,13 +8,14 @@
 #include "System/ValueType.hpp"
 // Including type: TMPro.TMP_GlyphValueRecord
 #include "TMPro/TMP_GlyphValueRecord.hpp"
-// Including type: UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
-#include "UnityEngine/TextCore/LowLevel/GlyphAdjustmentRecord.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: UnityEngine::TextCore::LowLevel
+namespace UnityEngine::TextCore::LowLevel {
+  // Forward declaring type: GlyphAdjustmentRecord
+  struct GlyphAdjustmentRecord;
+}
+// Completed forward declares
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x14
@@ -60,19 +61,16 @@ namespace TMPro {
     void set_glyphValueRecord(TMPro::TMP_GlyphValueRecord value);
     // public System.Void .ctor(System.UInt32 glyphIndex, TMPro.TMP_GlyphValueRecord glyphValueRecord)
     // Offset: 0x11F9000
-    // ABORTED: conflicts with another method.  TMP_GlyphAdjustmentRecord(uint glyphIndex, TMPro::TMP_GlyphValueRecord glyphValueRecord)
+    // ABORTED: conflicts with another method.  TMP_GlyphAdjustmentRecord(uint glyphIndex, TMPro::TMP_GlyphValueRecord glyphValueRecord);
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord adjustmentRecord)
     // Offset: 0x11FA848
-    TMP_GlyphAdjustmentRecord(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord adjustmentRecord) {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_GlyphAdjustmentRecord::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(adjustmentRecord)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, adjustmentRecord);
-    }
+    TMP_GlyphAdjustmentRecord(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord adjustmentRecord);
   }; // TMPro.TMP_GlyphAdjustmentRecord
   #pragma pack(pop)
   static check_size<sizeof(TMP_GlyphAdjustmentRecord), 4 + sizeof(TMPro::TMP_GlyphValueRecord)> __TMPro_TMP_GlyphAdjustmentRecordSizeCheck;
   static_assert(sizeof(TMP_GlyphAdjustmentRecord) == 0x14);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphAdjustmentRecord, "TMPro", "TMP_GlyphAdjustmentRecord");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_GlyphAdjustmentRecord::get_glyphIndex

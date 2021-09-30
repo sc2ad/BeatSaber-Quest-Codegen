@@ -8,10 +8,6 @@
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.ISerializationCallbackReceiver
 #include "UnityEngine/ISerializationCallbackReceiver.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -111,11 +107,7 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::IMarker* get_Item(int idx);
     // public System.Void .ctor(System.Int32 capacity)
     // Offset: 0x19FBC9C
-    MarkerList(int capacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::MarkerList::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(capacity)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, capacity);
-    }
+    MarkerList(int capacity);
     // public System.Void Add(UnityEngine.ScriptableObject item)
     // Offset: 0x19FBD48
     void Add(UnityEngine::ScriptableObject* item);
@@ -157,6 +149,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(MarkerList), 17 + sizeof(bool)> __UnityEngine_Timeline_MarkerListSizeCheck;
   static_assert(sizeof(MarkerList) == 0x12);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MarkerList, "UnityEngine.Timeline", "MarkerList");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::MarkerList::get_markers

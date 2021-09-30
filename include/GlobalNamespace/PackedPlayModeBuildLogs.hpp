@@ -65,7 +65,7 @@ namespace GlobalNamespace {
       ::Il2CppString*& dyn_Message();
       // public System.Void .ctor(UnityEngine.LogType type, System.String message)
       // Offset: 0x1589034
-      // ABORTED: conflicts with another method.  RuntimeBuildLog(UnityEngine::LogType type, ::Il2CppString* message)
+      // ABORTED: conflicts with another method.  RuntimeBuildLog(UnityEngine::LogType type, ::Il2CppString* message);
     }; // PackedPlayModeBuildLogs/RuntimeBuildLog
     #pragma pack(pop)
     static check_size<sizeof(PackedPlayModeBuildLogs::RuntimeBuildLog), 8 + sizeof(::Il2CppString*)> __GlobalNamespace_PackedPlayModeBuildLogs_RuntimeBuildLogSizeCheck;

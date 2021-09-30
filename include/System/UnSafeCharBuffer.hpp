@@ -7,10 +7,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -53,11 +49,7 @@ namespace System {
     int& dyn_m_length();
     // public System.Void .ctor(System.Char* buffer, System.Int32 bufferSize)
     // Offset: 0x25356F0
-    UnSafeCharBuffer(::Il2CppChar* buffer, int bufferSize) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::UnSafeCharBuffer::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(buffer), ::il2cpp_utils::ExtractType(bufferSize)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, buffer, bufferSize);
-    }
+    UnSafeCharBuffer(::Il2CppChar* buffer, int bufferSize);
     // public System.Void AppendString(System.String stringToAppend)
     // Offset: 0x25356FC
     void AppendString(::Il2CppString* stringToAppend);
@@ -66,6 +58,7 @@ namespace System {
   static check_size<sizeof(UnSafeCharBuffer), 12 + sizeof(int)> __System_UnSafeCharBufferSizeCheck;
   static_assert(sizeof(UnSafeCharBuffer) == 0x10);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UnSafeCharBuffer, "System", "UnSafeCharBuffer");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::UnSafeCharBuffer::UnSafeCharBuffer

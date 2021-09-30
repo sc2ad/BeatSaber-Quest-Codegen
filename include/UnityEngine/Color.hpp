@@ -8,10 +8,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -126,14 +122,10 @@ namespace UnityEngine {
     void set_Item(int index, float value);
     // public System.Void .ctor(System.Single r, System.Single g, System.Single b, System.Single a)
     // Offset: 0x1CB31D8
-    // ABORTED: conflicts with another method.  Color(float r, float g, float b, float a)
+    // ABORTED: conflicts with another method.  Color(float r, float g, float b, float a);
     // public System.Void .ctor(System.Single r, System.Single g, System.Single b)
     // Offset: 0x1CB31E4
-    Color(float r, float g, float b) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Color::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(r), ::il2cpp_utils::ExtractType(g), ::il2cpp_utils::ExtractType(b)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, r, g, b);
-    }
+    Color(float r, float g, float b);
     // public System.String ToString(System.String format)
     // Offset: 0x1CB339C
     ::Il2CppString* ToString(::Il2CppString* format);
@@ -205,6 +197,7 @@ namespace UnityEngine {
   // Offset: 0x1CB38DC
   bool operator !=(const UnityEngine::Color& lhs, const UnityEngine::Color& rhs);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Color, "UnityEngine", "Color");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Color::get_red

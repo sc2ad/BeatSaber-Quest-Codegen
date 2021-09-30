@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
@@ -11,10 +10,6 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -23,6 +18,9 @@ namespace UnityEngine {
   class Camera;
 }
 // Completed forward declares
+// Begin il2cpp-utils forward declares
+struct Il2CppObject;
+// Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
   // Size: 0x8
@@ -62,7 +60,7 @@ namespace UnityEngine::Rendering {
     System::IntPtr& dyn_m_Ptr();
     // System.Void .ctor(System.IntPtr ptr)
     // Offset: 0x1E09C48
-    // ABORTED: conflicts with another method.  ScriptableRenderContext(System::IntPtr ptr)
+    // ABORTED: conflicts with another method.  ScriptableRenderContext(System::IntPtr ptr);
     // private System.Int32 GetNumberOfCameras_Internal()
     // Offset: 0x1E0A2F0
     int GetNumberOfCameras_Internal();
@@ -99,6 +97,7 @@ namespace UnityEngine::Rendering {
   static check_size<sizeof(ScriptableRenderContext), 0 + sizeof(System::IntPtr)> __UnityEngine_Rendering_ScriptableRenderContextSizeCheck;
   static_assert(sizeof(ScriptableRenderContext) == 0x8);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ScriptableRenderContext, "UnityEngine.Rendering", "ScriptableRenderContext");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::ScriptableRenderContext::ScriptableRenderContext

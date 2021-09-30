@@ -6,10 +6,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -55,12 +51,13 @@ namespace Zenject {
     ::Il2CppObject*& dyn_Value();
     // public System.Void .ctor(System.Type type, System.Object value)
     // Offset: 0x25EDCE4
-    // ABORTED: conflicts with another method.  TypeValuePair(System::Type* type, ::Il2CppObject* value)
+    // ABORTED: conflicts with another method.  TypeValuePair(System::Type* type, ::Il2CppObject* value);
   }; // Zenject.TypeValuePair
   #pragma pack(pop)
   static check_size<sizeof(TypeValuePair), 8 + sizeof(::Il2CppObject*)> __Zenject_TypeValuePairSizeCheck;
   static_assert(sizeof(TypeValuePair) == 0x10);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TypeValuePair, "Zenject", "TypeValuePair");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::TypeValuePair::TypeValuePair

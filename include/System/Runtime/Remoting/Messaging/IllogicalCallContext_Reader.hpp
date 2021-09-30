@@ -9,10 +9,6 @@
 #include "System/Runtime/Remoting/Messaging/IllogicalCallContext.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
@@ -46,7 +42,7 @@ namespace System::Runtime::Remoting::Messaging {
     bool get_IsNull();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IllogicalCallContext ctx)
     // Offset: 0x1C1866C
-    // ABORTED: conflicts with another method.  Reader(System::Runtime::Remoting::Messaging::IllogicalCallContext* ctx)
+    // ABORTED: conflicts with another method.  Reader(System::Runtime::Remoting::Messaging::IllogicalCallContext* ctx);
     // public System.Object GetData(System.String name)
     // Offset: 0x1C14ECC
     ::Il2CppObject* GetData(::Il2CppString* name);
@@ -55,6 +51,7 @@ namespace System::Runtime::Remoting::Messaging {
   static check_size<sizeof(IllogicalCallContext::Reader), 0 + sizeof(System::Runtime::Remoting::Messaging::IllogicalCallContext*)> __System_Runtime_Remoting_Messaging_IllogicalCallContext_ReaderSizeCheck;
   static_assert(sizeof(IllogicalCallContext::Reader) == 0x8);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader, "System.Runtime.Remoting.Messaging", "IllogicalCallContext/Reader");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader::get_IsNull

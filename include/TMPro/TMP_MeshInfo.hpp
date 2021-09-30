@@ -17,10 +17,6 @@
 #include "UnityEngine/Color32.hpp"
 // Including type: UnityEngine.Bounds
 #include "UnityEngine/Bounds.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -147,18 +143,10 @@ namespace TMPro {
     ::ArrayWrapper<int>& dyn_triangles();
     // public System.Void .ctor(UnityEngine.Mesh mesh, System.Int32 size)
     // Offset: 0x1220F08
-    TMP_MeshInfo(UnityEngine::Mesh* mesh, int size) {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_MeshInfo::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(mesh), ::il2cpp_utils::ExtractType(size)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, mesh, size);
-    }
+    TMP_MeshInfo(UnityEngine::Mesh* mesh, int size);
     // public System.Void .ctor(UnityEngine.Mesh mesh, System.Int32 size, System.Boolean isVolumetric)
     // Offset: 0x1221414
-    TMP_MeshInfo(UnityEngine::Mesh* mesh, int size, bool isVolumetric) {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_MeshInfo::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(mesh), ::il2cpp_utils::ExtractType(size), ::il2cpp_utils::ExtractType(isVolumetric)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, mesh, size, isVolumetric);
-    }
+    TMP_MeshInfo(UnityEngine::Mesh* mesh, int size, bool isVolumetric);
     // static private System.Void .cctor()
     // Offset: 0x12237EC
     static void _cctor();
@@ -197,6 +185,7 @@ namespace TMPro {
   static check_size<sizeof(TMP_MeshInfo), 64 + sizeof(::ArrayWrapper<int>)> __TMPro_TMP_MeshInfoSizeCheck;
   static_assert(sizeof(TMP_MeshInfo) == 0x48);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MeshInfo, "TMPro", "TMP_MeshInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_MeshInfo::TMP_MeshInfo

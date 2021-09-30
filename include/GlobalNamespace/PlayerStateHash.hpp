@@ -13,10 +13,6 @@
 #include "System/IEquatable_1.hpp"
 // Including type: BitMask128
 #include "GlobalNamespace/BitMask128.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -92,21 +88,13 @@ namespace GlobalNamespace {
     GlobalNamespace::BitMask128& dyn__bloomFilter();
     // private System.Void .ctor(BitMask128 bloomFilter)
     // Offset: 0x18D3508
-    // ABORTED: conflicts with another method.  PlayerStateHash(GlobalNamespace::BitMask128 bloomFilter)
+    // ABORTED: conflicts with another method.  PlayerStateHash(GlobalNamespace::BitMask128 bloomFilter);
     // public System.Void .ctor(System.String state)
     // Offset: 0x18D3510
-    PlayerStateHash(::Il2CppString* state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerStateHash::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(state)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, state);
-    }
+    PlayerStateHash(::Il2CppString* state);
     // public System.Void .ctor(System.Collections.Generic.HashSet`1<System.String> stateHashSet)
     // Offset: 0x18D357C
-    PlayerStateHash(System::Collections::Generic::HashSet_1<::Il2CppString*>* stateHashSet) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerStateHash::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateHashSet)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, stateHashSet);
-    }
+    PlayerStateHash(System::Collections::Generic::HashSet_1<::Il2CppString*>* stateHashSet);
     // public System.Boolean Contains(System.String state)
     // Offset: 0x18D35E8
     bool Contains(::Il2CppString* state);
@@ -160,6 +148,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerStateHash), 0 + sizeof(GlobalNamespace::BitMask128)> __GlobalNamespace_PlayerStateHashSizeCheck;
   static_assert(sizeof(PlayerStateHash) == 0x10);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStateHash, "", "PlayerStateHash");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::PlayerStateHash

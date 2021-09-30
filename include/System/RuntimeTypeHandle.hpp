@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
@@ -11,10 +10,6 @@
 #include "System/Runtime/Serialization/ISerializable.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -28,6 +23,8 @@ namespace System {
 namespace System::Runtime::Serialization {
   // Forward declaring type: SerializationInfo
   class SerializationInfo;
+  // Forward declaring type: StreamingContext
+  struct StreamingContext;
 }
 // Forward declaring namespace: System::Reflection
 namespace System::Reflection {
@@ -39,6 +36,9 @@ namespace System::Reflection {
   class RuntimeModule;
 }
 // Completed forward declares
+// Begin il2cpp-utils forward declares
+struct Il2CppObject;
+// Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
   // Size: 0x8
@@ -76,21 +76,13 @@ namespace System {
     System::IntPtr get_Value();
     // System.Void .ctor(System.IntPtr val)
     // Offset: 0x1923860
-    // ABORTED: conflicts with another method.  RuntimeTypeHandle(System::IntPtr val)
+    // ABORTED: conflicts with another method.  RuntimeTypeHandle(System::IntPtr val);
     // System.Void .ctor(System.RuntimeType type)
     // Offset: 0x191DCB8
-    RuntimeTypeHandle(System::RuntimeType* type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::RuntimeTypeHandle::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, type);
-    }
+    RuntimeTypeHandle(System::RuntimeType* type);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1923868
-    RuntimeTypeHandle(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::RuntimeTypeHandle::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractType(context)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, info, context);
-    }
+    RuntimeTypeHandle(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x19239F8
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -196,6 +188,7 @@ namespace System {
   static check_size<sizeof(RuntimeTypeHandle), 0 + sizeof(System::IntPtr)> __System_RuntimeTypeHandleSizeCheck;
   static_assert(sizeof(RuntimeTypeHandle) == 0x8);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::RuntimeTypeHandle, "System", "RuntimeTypeHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::RuntimeTypeHandle::get_Value

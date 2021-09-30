@@ -11,10 +11,6 @@
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {
@@ -49,12 +45,13 @@ namespace TMPro {
     UnityEngine::Vector3& dyn_Point2();
     // public System.Void .ctor(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
     // Offset: 0x15C2E20
-    // ABORTED: conflicts with another method.  LineSegment(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2)
+    // ABORTED: conflicts with another method.  LineSegment(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2);
   }; // TMPro.TMP_TextUtilities/TMPro.LineSegment
   #pragma pack(pop)
   static check_size<sizeof(TMP_TextUtilities::LineSegment), 12 + sizeof(UnityEngine::Vector3)> __TMPro_TMP_TextUtilities_LineSegmentSizeCheck;
   static_assert(sizeof(TMP_TextUtilities::LineSegment) == 0x18);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextUtilities::LineSegment, "TMPro", "TMP_TextUtilities/LineSegment");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_TextUtilities::LineSegment::LineSegment

@@ -11,12 +11,6 @@
 #include "System/ValueType.hpp"
 // Including type: OVRPlugin/Vector2f
 #include "GlobalNamespace/OVRPlugin_Vector2f.hpp"
-// Including type: OVRPlugin/ControllerState
-#include "GlobalNamespace/OVRPlugin_ControllerState.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -131,16 +125,13 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRPlugin::Vector2f& dyn_RTouchpad();
     // public System.Void .ctor(OVRPlugin/ControllerState cs)
     // Offset: 0x17FAFD4
-    ControllerState2(GlobalNamespace::OVRPlugin::ControllerState cs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::ControllerState2::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cs)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, cs);
-    }
+    ControllerState2(GlobalNamespace::OVRPlugin::ControllerState cs);
   }; // OVRPlugin/ControllerState2
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::ControllerState2), 56 + sizeof(GlobalNamespace::OVRPlugin::Vector2f)> __GlobalNamespace_OVRPlugin_ControllerState2SizeCheck;
   static_assert(sizeof(OVRPlugin::ControllerState2) == 0x40);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::ControllerState2, "", "OVRPlugin/ControllerState2");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::ControllerState2::ControllerState2

@@ -11,10 +11,6 @@
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -89,12 +85,13 @@ namespace GlobalNamespace {
     float& dyn_noteLinesDistance();
     // public System.Void .ctor(UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single obstacleHeight, System.Single moveDuration, System.Single jumpDuration, System.Single noteLinesDistance)
     // Offset: 0x12A5874
-    // ABORTED: conflicts with another method.  ObstacleSpawnData(UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float obstacleHeight, float moveDuration, float jumpDuration, float noteLinesDistance)
+    // ABORTED: conflicts with another method.  ObstacleSpawnData(UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float obstacleHeight, float moveDuration, float jumpDuration, float noteLinesDistance);
   }; // BeatmapObjectSpawnMovementData/ObstacleSpawnData
   #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectSpawnMovementData::ObstacleSpawnData), 48 + sizeof(float)> __GlobalNamespace_BeatmapObjectSpawnMovementData_ObstacleSpawnDataSizeCheck;
   static_assert(sizeof(BeatmapObjectSpawnMovementData::ObstacleSpawnData) == 0x34);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData, "", "BeatmapObjectSpawnMovementData/ObstacleSpawnData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData::ObstacleSpawnData

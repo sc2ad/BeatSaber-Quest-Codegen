@@ -67,7 +67,7 @@ namespace GlobalNamespace {
       float& dyn_yOffset();
       // public System.Void .ctor(System.Single songTime, System.Single yOffset)
       // Offset: 0x129E2E0
-      // ABORTED: conflicts with another method.  BufferData(float songTime, float yOffset)
+      // ABORTED: conflicts with another method.  BufferData(float songTime, float yOffset);
     }; // BeatmapObjectAvoidanceYOffsetEvaluator/BufferData
     #pragma pack(pop)
     static check_size<sizeof(BeatmapObjectAvoidanceYOffsetEvaluator::BufferData), 4 + sizeof(float)> __GlobalNamespace_BeatmapObjectAvoidanceYOffsetEvaluator_BufferDataSizeCheck;

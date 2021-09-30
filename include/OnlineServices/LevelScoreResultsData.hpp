@@ -6,10 +6,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -117,7 +113,7 @@ namespace OnlineServices {
     GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
     // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap, System.Int32 rawScore, System.Int32 modifiedScore, System.Boolean fullCombo, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 maxCombo, GameplayModifiers gameplayModifiers)
     // Offset: 0x1120664
-    // ABORTED: conflicts with another method.  LevelScoreResultsData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, int rawScore, int modifiedScore, bool fullCombo, int goodCutsCount, int badCutsCount, int missedCount, int maxCombo, GlobalNamespace::GameplayModifiers* gameplayModifiers)
+    // ABORTED: conflicts with another method.  LevelScoreResultsData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, int rawScore, int modifiedScore, bool fullCombo, int goodCutsCount, int badCutsCount, int missedCount, int maxCombo, GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public override System.String ToString()
     // Offset: 0x112068C
     // Implemented from: System.ValueType
@@ -128,6 +124,7 @@ namespace OnlineServices {
   static check_size<sizeof(LevelScoreResultsData), 40 + sizeof(GlobalNamespace::GameplayModifiers*)> __OnlineServices_LevelScoreResultsDataSizeCheck;
   static_assert(sizeof(LevelScoreResultsData) == 0x30);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreResultsData, "OnlineServices", "LevelScoreResultsData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::LevelScoreResultsData::LevelScoreResultsData

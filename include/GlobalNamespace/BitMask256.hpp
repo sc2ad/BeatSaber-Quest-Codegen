@@ -11,10 +11,6 @@
 #include "GlobalNamespace/IBitMask_1.hpp"
 // Including type: LiteNetLib.Utils.INetImmutableSerializable`1
 #include "LiteNetLib/Utils/INetImmutableSerializable_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -93,14 +89,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::BitMask256 get_maxValue();
     // public System.Void .ctor(System.UInt64 d0, System.UInt64 d1, System.UInt64 d2, System.UInt64 d3)
     // Offset: 0x256DE38
-    // ABORTED: conflicts with another method.  BitMask256(uint64_t d0, uint64_t d1, uint64_t d2, uint64_t d3)
+    // ABORTED: conflicts with another method.  BitMask256(uint64_t d0, uint64_t d1, uint64_t d2, uint64_t d3);
     // public System.Void .ctor(System.UInt64 value)
     // Offset: 0x256DE44
-    BitMask256(uint64_t value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BitMask256::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
-    }
+    BitMask256(uint64_t value);
     // public BitMask256 SetBits(System.Int32 offset, System.UInt64 bits)
     // Offset: 0x256DE50
     GlobalNamespace::BitMask256 SetBits(int offset, uint64_t bits);
@@ -160,6 +152,7 @@ namespace GlobalNamespace {
   // Offset: 0x256E1C0
   bool operator !=(const GlobalNamespace::BitMask256&& a, const GlobalNamespace::BitMask256&& b);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMask256, "", "BitMask256");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BitMask256::get_bitCount

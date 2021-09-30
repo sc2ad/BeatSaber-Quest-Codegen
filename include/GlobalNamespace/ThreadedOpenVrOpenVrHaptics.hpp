@@ -68,7 +68,7 @@ namespace GlobalNamespace {
       float& dyn_strength();
       // public System.Void .ctor(System.Single endTime, System.Single strength)
       // Offset: 0x259B168
-      // ABORTED: conflicts with another method.  OpenVrHapticData(float endTime, float strength)
+      // ABORTED: conflicts with another method.  OpenVrHapticData(float endTime, float strength);
     }; // ThreadedOpenVrOpenVrHaptics/OpenVrHapticData
     #pragma pack(pop)
     static check_size<sizeof(ThreadedOpenVrOpenVrHaptics::OpenVrHapticData), 4 + sizeof(float)> __GlobalNamespace_ThreadedOpenVrOpenVrHaptics_OpenVrHapticDataSizeCheck;

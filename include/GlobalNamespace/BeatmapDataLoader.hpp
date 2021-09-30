@@ -82,7 +82,7 @@ namespace GlobalNamespace {
       float& dyn_bpm();
       // public System.Void .ctor(System.Single bpmChangeStartTime, System.Single bpmChangeStartBpmTime, System.Single bpm)
       // Offset: 0x127701C
-      // ABORTED: conflicts with another method.  BpmChangeData(float bpmChangeStartTime, float bpmChangeStartBpmTime, float bpm)
+      // ABORTED: conflicts with another method.  BpmChangeData(float bpmChangeStartTime, float bpmChangeStartBpmTime, float bpm);
     }; // BeatmapDataLoader/BpmChangeData
     #pragma pack(pop)
     static check_size<sizeof(BeatmapDataLoader::BpmChangeData), 8 + sizeof(float)> __GlobalNamespace_BeatmapDataLoader_BpmChangeDataSizeCheck;

@@ -9,16 +9,12 @@
 #include "System/ValueType.hpp"
 // Including type: Mono.RuntimeStructs
 #include "Mono/RuntimeStructs.hpp"
-// Including type: System.IntPtr
-#include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
+  // Forward declaring type: IntPtr
+  struct IntPtr;
   // Forward declaring type: RuntimeTypeHandle
   struct RuntimeTypeHandle;
 }
@@ -55,14 +51,10 @@ namespace Mono {
     Mono::RuntimeStructs::MonoClass* get_Value();
     // System.Void .ctor(Mono.RuntimeStructs/Mono.MonoClass* value)
     // Offset: 0x1C3F6EC
-    // ABORTED: conflicts with another method.  RuntimeClassHandle(Mono::RuntimeStructs::MonoClass* value)
+    // ABORTED: conflicts with another method.  RuntimeClassHandle(Mono::RuntimeStructs::MonoClass* value);
     // System.Void .ctor(System.IntPtr ptr)
     // Offset: 0x1C3F6F4
-    RuntimeClassHandle(System::IntPtr ptr) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::RuntimeClassHandle::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ptr)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, ptr);
-    }
+    RuntimeClassHandle(System::IntPtr ptr);
     // static System.IntPtr GetTypeFromClass(Mono.RuntimeStructs/Mono.MonoClass* klass)
     // Offset: 0x1C3F86C
     static System::IntPtr GetTypeFromClass(Mono::RuntimeStructs::MonoClass* klass);
@@ -84,6 +76,7 @@ namespace Mono {
   static check_size<sizeof(RuntimeClassHandle), 0 + sizeof(Mono::RuntimeStructs::MonoClass*)> __Mono_RuntimeClassHandleSizeCheck;
   static_assert(sizeof(RuntimeClassHandle) == 0x8);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeClassHandle, "Mono", "RuntimeClassHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::RuntimeClassHandle::get_Value

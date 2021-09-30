@@ -12,6 +12,8 @@
 #include "UnityEngine/Object.hpp"
 // Including type: UnityEngine.Matrix4x4
 #include "UnityEngine/Matrix4x4.hpp"
+// Including type: UnityEngine.Vector4
+#include "UnityEngine/Vector4.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.Color

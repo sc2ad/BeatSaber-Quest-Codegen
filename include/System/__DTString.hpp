@@ -7,10 +7,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -102,18 +98,10 @@ namespace System {
     System::Globalization::CompareInfo* get_CompareInfo();
     // System.Void .ctor(System.String str, System.Globalization.DateTimeFormatInfo dtfi, System.Boolean checkDigitToken)
     // Offset: 0x253975C
-    __DTString(::Il2CppString* str, System::Globalization::DateTimeFormatInfo* dtfi, bool checkDigitToken) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::__DTString::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(str), ::il2cpp_utils::ExtractType(dtfi), ::il2cpp_utils::ExtractType(checkDigitToken)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, str, dtfi, checkDigitToken);
-    }
+    __DTString(::Il2CppString* str, System::Globalization::DateTimeFormatInfo* dtfi, bool checkDigitToken);
     // System.Void .ctor(System.String str, System.Globalization.DateTimeFormatInfo dtfi)
     // Offset: 0x2539788
-    __DTString(::Il2CppString* str, System::Globalization::DateTimeFormatInfo* dtfi) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::__DTString::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(str), ::il2cpp_utils::ExtractType(dtfi)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, str, dtfi);
-    }
+    __DTString(::Il2CppString* str, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Void .cctor()
     // Offset: 0x253AA2C
     static void _cctor();
@@ -188,6 +176,7 @@ namespace System {
   static check_size<sizeof(__DTString), 32 + sizeof(bool)> __System___DTStringSizeCheck;
   static_assert(sizeof(__DTString) == 0x21);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::__DTString, "System", "__DTString");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::__DTString::get_CompareInfo

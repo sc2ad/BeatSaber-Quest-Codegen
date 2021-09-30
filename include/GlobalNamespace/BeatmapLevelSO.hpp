@@ -9,6 +9,8 @@
 #include "GlobalNamespace/PersistentScriptableObject.hpp"
 // Including type: IBeatmapLevel
 #include "GlobalNamespace/IBeatmapLevel.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -152,7 +154,7 @@ namespace GlobalNamespace {
       GlobalNamespace::IBeatmapLevelData*& dyn_beatmapLevelData();
       // public System.Void .ctor(BeatmapLevelSO/GetBeatmapLevelDataResult/Result result, IBeatmapLevelData beatmapLevelData)
       // Offset: 0x129B91C
-      // ABORTED: conflicts with another method.  GetBeatmapLevelDataResult(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult::Result result, GlobalNamespace::IBeatmapLevelData* beatmapLevelData)
+      // ABORTED: conflicts with another method.  GetBeatmapLevelDataResult(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult::Result result, GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
     }; // BeatmapLevelSO/GetBeatmapLevelDataResult
     #pragma pack(pop)
     static check_size<sizeof(BeatmapLevelSO::GetBeatmapLevelDataResult), 8 + sizeof(GlobalNamespace::IBeatmapLevelData*)> __GlobalNamespace_BeatmapLevelSO_GetBeatmapLevelDataResultSizeCheck;

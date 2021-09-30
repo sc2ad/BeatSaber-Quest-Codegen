@@ -3,19 +3,25 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-// Including type: System.IntPtr
-#include "System/IntPtr.hpp"
-// Including type: System.Runtime.InteropServices.GCHandleType
-#include "System/Runtime/InteropServices/GCHandleType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: System
+namespace System {
+  // Forward declaring type: IntPtr
+  struct IntPtr;
+}
+// Forward declaring namespace: System::Runtime::InteropServices
+namespace System::Runtime::InteropServices {
+  // Forward declaring type: GCHandleType
+  struct GCHandleType;
+}
+// Completed forward declares
+// Begin il2cpp-utils forward declares
+struct Il2CppObject;
+// Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
   // Size: 0x4
@@ -56,25 +62,13 @@ namespace System::Runtime::InteropServices {
     void set_Target(::Il2CppObject* value);
     // private System.Void .ctor(System.IntPtr h)
     // Offset: 0x15AF094
-    GCHandle(System::IntPtr h) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::GCHandle::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(h)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, h);
-    }
+    GCHandle(System::IntPtr h);
     // private System.Void .ctor(System.Object obj)
     // Offset: 0x15AF0C0
-    GCHandle(::Il2CppObject* obj) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::GCHandle::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, obj);
-    }
+    GCHandle(::Il2CppObject* obj);
     // System.Void .ctor(System.Object value, System.Runtime.InteropServices.GCHandleType type)
     // Offset: 0x15AF0F0
-    GCHandle(::Il2CppObject* value, System::Runtime::InteropServices::GCHandleType type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::GCHandle::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(type)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value, type);
-    }
+    GCHandle(::Il2CppObject* value, System::Runtime::InteropServices::GCHandleType type);
     // public System.IntPtr AddrOfPinnedObject()
     // Offset: 0x15AF20C
     System::IntPtr AddrOfPinnedObject();
@@ -132,6 +126,7 @@ namespace System::Runtime::InteropServices {
   // Offset: 0x15AF4EC
   bool operator ==(const System::Runtime::InteropServices::GCHandle& a, const System::Runtime::InteropServices::GCHandle& b);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::GCHandle, "System.Runtime.InteropServices", "GCHandle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::GCHandle::get_IsAllocated

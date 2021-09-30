@@ -82,7 +82,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
       int& dyn_tileZ();
       // public System.Void .ctor(System.Int32 tileX, System.Int32 tileZ)
       // Offset: 0x25E8F30
-      // ABORTED: conflicts with another method.  TileCoord(int tileX, int tileZ)
+      // ABORTED: conflicts with another method.  TileCoord(int tileX, int tileZ);
     }; // UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.TileCoord
     #pragma pack(pop)
     static check_size<sizeof(TerrainUtility::TerrainMap::TileCoord), 4 + sizeof(int)> __UnityEngine_Experimental_TerrainAPI_TerrainUtility_TerrainMap_TileCoordSizeCheck;

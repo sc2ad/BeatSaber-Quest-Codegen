@@ -90,11 +90,7 @@ namespace RootMotion::FinalIK {
       RootMotion::FinalIK::Grounding::Leg*& dyn_leg();
       // public System.Void .ctor(RootMotion.FinalIK.IKSolver solver, UnityEngine.Transform transform)
       // Offset: 0x1E8C448
-      Foot(RootMotion::FinalIK::IKSolver* solver, UnityEngine::Transform* transform) {
-        static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::GrounderQuadruped::Foot::.ctor");
-        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(solver), ::il2cpp_utils::ExtractType(transform)})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, solver, transform);
-      }
+      Foot(RootMotion::FinalIK::IKSolver* solver, UnityEngine::Transform* transform);
     }; // RootMotion.FinalIK.GrounderQuadruped/RootMotion.FinalIK.Foot
     #pragma pack(pop)
     static check_size<sizeof(GrounderQuadruped::Foot), 32 + sizeof(RootMotion::FinalIK::Grounding::Leg*)> __RootMotion_FinalIK_GrounderQuadruped_FootSizeCheck;

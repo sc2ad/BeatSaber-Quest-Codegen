@@ -9,13 +9,14 @@
 #include "System/ValueType.hpp"
 // Including type: OVR.OpenVR.VREvent_Data_t
 #include "OVR/OpenVR/VREvent_Data_t.hpp"
-// Including type: OVR.OpenVR.VREvent_t
-#include "OVR/OpenVR/VREvent_t.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: OVR::OpenVR
+namespace OVR::OpenVR {
+  // Forward declaring type: VREvent_t
+  struct VREvent_t;
+}
+// Completed forward declares
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // WARNING Size may be invalid!
@@ -62,17 +63,14 @@ namespace OVR::OpenVR {
     OVR::OpenVR::VREvent_Data_t& dyn_data();
     // public System.Void .ctor(OVR.OpenVR.VREvent_t unpacked)
     // Offset: 0x13B4B74
-    VREvent_t_Packed(OVR::OpenVR::VREvent_t unpacked) {
-      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::VREvent_t_Packed::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(unpacked)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unpacked);
-    }
+    VREvent_t_Packed(OVR::OpenVR::VREvent_t unpacked);
     // public System.Void Unpack(ref OVR.OpenVR.VREvent_t unpacked)
     // Offset: 0x13B4BB4
     void Unpack(ByRef<OVR::OpenVR::VREvent_t> unpacked);
   }; // OVR.OpenVR.VREvent_t_Packed
   // WARNING Not writing size check since size may be invalid!
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_t_Packed, "OVR.OpenVR", "VREvent_t_Packed");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::VREvent_t_Packed::VREvent_t_Packed

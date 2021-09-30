@@ -11,10 +11,6 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -90,11 +86,7 @@ namespace HoudiniEngineUnity {
     UnityEngine::Transform*& dyn_parent();
     // public System.Void .ctor(UnityEngine.Transform other)
     // Offset: 0x25D47A4
-    TransformData(UnityEngine::Transform* other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::TransformData::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, other);
-    }
+    TransformData(UnityEngine::Transform* other);
     // public System.Void CopyTo(UnityEngine.Transform other, System.Boolean copyParent)
     // Offset: 0x25D4840
     void CopyTo(UnityEngine::Transform* other, bool copyParent);
@@ -106,6 +98,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(TransformData), 72 + sizeof(UnityEngine::Transform*)> __HoudiniEngineUnity_TransformDataSizeCheck;
   static_assert(sizeof(TransformData) == 0x50);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::TransformData, "HoudiniEngineUnity", "TransformData");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::TransformData::TransformData

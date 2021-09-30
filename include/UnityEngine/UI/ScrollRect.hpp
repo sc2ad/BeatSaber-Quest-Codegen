@@ -29,6 +29,8 @@
 #include "UnityEngine/Bounds.hpp"
 // Including type: UnityEngine.DrivenRectTransformTracker
 #include "UnityEngine/DrivenRectTransformTracker.hpp"
+// Including type: System.Enum
+#include "System/Enum.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"

@@ -77,11 +77,7 @@ namespace Mono::Globalization::Unicode {
       int& dyn_IndexEnd();
       // public System.Void .ctor(System.Int32 start, System.Int32 end, System.Int32 indexStart)
       // Offset: 0x1C31C10
-      TableRange(int start, int end, int indexStart) {
-        static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::CodePointIndexer::TableRange::.ctor");
-        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(end), ::il2cpp_utils::ExtractType(indexStart)})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, start, end, indexStart);
-      }
+      TableRange(int start, int end, int indexStart);
     }; // Mono.Globalization.Unicode.CodePointIndexer/Mono.Globalization.Unicode.TableRange
     #pragma pack(pop)
     static check_size<sizeof(CodePointIndexer::TableRange), 16 + sizeof(int)> __Mono_Globalization_Unicode_CodePointIndexer_TableRangeSizeCheck;

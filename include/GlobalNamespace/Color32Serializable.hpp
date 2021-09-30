@@ -12,10 +12,6 @@
 #include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.Color32
 #include "UnityEngine/Color32.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -67,7 +63,7 @@ namespace GlobalNamespace {
     UnityEngine::Color32& dyn__color();
     // public System.Void .ctor(UnityEngine.Color32 color)
     // Offset: 0x256F12C
-    // ABORTED: conflicts with another method.  Color32Serializable(UnityEngine::Color32 color)
+    // ABORTED: conflicts with another method.  Color32Serializable(UnityEngine::Color32 color);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0x256F134
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -97,6 +93,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(Color32Serializable), 0 + sizeof(UnityEngine::Color32)> __GlobalNamespace_Color32SerializableSizeCheck;
   static_assert(sizeof(Color32Serializable) == 0x4);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Color32Serializable, "", "Color32Serializable");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Color32Serializable::Color32Serializable

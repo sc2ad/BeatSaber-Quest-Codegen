@@ -11,6 +11,8 @@
 #include "System/Nullable_1.hpp"
 // Including type: System.DateTimeOffset
 #include "System/DateTimeOffset.hpp"
+// Including type: System.TimeSpan
+#include "System/TimeSpan.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"

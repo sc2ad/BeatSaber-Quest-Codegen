@@ -3,26 +3,25 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
-// Including type: UnityEngine.Vector2
-#include "UnityEngine/Vector2.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: Vector2
+  struct Vector2;
   // Forward declaring type: Vector3
   struct Vector3;
 }
 // Completed forward declares
+// Begin il2cpp-utils forward declares
+struct Il2CppObject;
+struct Il2CppString;
+// Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -158,17 +157,13 @@ namespace UnityEngine {
     void set_yMax(float value);
     // public System.Void .ctor(System.Single x, System.Single y, System.Single width, System.Single height)
     // Offset: 0x1E011DC
-    // ABORTED: conflicts with another method.  Rect(float x, float y, float width, float height)
+    // ABORTED: conflicts with another method.  Rect(float x, float y, float width, float height);
     // public System.Void .ctor(UnityEngine.Vector2 position, UnityEngine.Vector2 size)
     // Offset: 0x1E011E8
-    Rect(UnityEngine::Vector2 position, UnityEngine::Vector2 size) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rect::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(position), ::il2cpp_utils::ExtractType(size)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, position, size);
-    }
+    Rect(UnityEngine::Vector2 position, UnityEngine::Vector2 size);
     // public System.Void .ctor(UnityEngine.Rect source)
     // Offset: 0x1E011F4
-    // ABORTED: is copy constructor.  Rect(UnityEngine::Rect source)
+    // ABORTED: is copy constructor.  Rect(UnityEngine::Rect source);
     // static public UnityEngine.Rect MinMaxRect(System.Single xmin, System.Single ymin, System.Single xmax, System.Single ymax)
     // Offset: 0x1E01214
     static UnityEngine::Rect MinMaxRect(float xmin, float ymin, float xmax, float ymax);
@@ -216,6 +211,7 @@ namespace UnityEngine {
   // Offset: 0x1E015F0
   bool operator ==(const UnityEngine::Rect& lhs, const UnityEngine::Rect& rhs);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rect, "UnityEngine", "Rect");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rect::get_zero

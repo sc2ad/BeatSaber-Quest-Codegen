@@ -8,10 +8,6 @@
 #include "UnityEngine/ParticleSystem.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -55,7 +51,7 @@ namespace UnityEngine {
     void set_rotation(UnityEngine::Vector3 value);
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
     // Offset: 0x261CAAC
-    // ABORTED: conflicts with another method.  ShapeModule(UnityEngine::ParticleSystem* particleSystem)
+    // ABORTED: conflicts with another method.  ShapeModule(UnityEngine::ParticleSystem* particleSystem);
     // static private System.Void set_position_Injected(ref UnityEngine.ParticleSystem/UnityEngine.ShapeModule _unity_self, ref UnityEngine.Vector3 value)
     // Offset: 0x261D52C
     static void set_position_Injected(ByRef<UnityEngine::ParticleSystem::ShapeModule> _unity_self, ByRef<UnityEngine::Vector3> value);
@@ -67,6 +63,7 @@ namespace UnityEngine {
   static check_size<sizeof(ParticleSystem::ShapeModule), 0 + sizeof(UnityEngine::ParticleSystem*)> __UnityEngine_ParticleSystem_ShapeModuleSizeCheck;
   static_assert(sizeof(ParticleSystem::ShapeModule) == 0x8);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::ShapeModule, "UnityEngine", "ParticleSystem/ShapeModule");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::ShapeModule::set_position

@@ -8,10 +8,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
@@ -56,7 +52,7 @@ namespace System::Security::Cryptography {
     ::Il2CppString* get_Name();
     // public System.Void .ctor(System.String name)
     // Offset: 0x1A773C8
-    // ABORTED: conflicts with another method.  HashAlgorithmName(::Il2CppString* name)
+    // ABORTED: conflicts with another method.  HashAlgorithmName(::Il2CppString* name);
     // public System.Boolean Equals(System.Security.Cryptography.HashAlgorithmName other)
     // Offset: 0x1A774C4
     bool Equals(System::Security::Cryptography::HashAlgorithmName other);
@@ -80,6 +76,7 @@ namespace System::Security::Cryptography {
   static check_size<sizeof(HashAlgorithmName), 0 + sizeof(::Il2CppString*)> __System_Security_Cryptography_HashAlgorithmNameSizeCheck;
   static_assert(sizeof(HashAlgorithmName) == 0x8);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HashAlgorithmName, "System.Security.Cryptography", "HashAlgorithmName");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::HashAlgorithmName::get_SHA256

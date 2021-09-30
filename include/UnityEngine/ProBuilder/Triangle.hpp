@@ -8,10 +8,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -86,7 +82,7 @@ namespace UnityEngine::ProBuilder {
     System::Collections::Generic::IEnumerable_1<int>* get_indices();
     // public System.Void .ctor(System.Int32 a, System.Int32 b, System.Int32 c)
     // Offset: 0x24F1544
-    // ABORTED: conflicts with another method.  Triangle(int a, int b, int c)
+    // ABORTED: conflicts with another method.  Triangle(int a, int b, int c);
     // public System.Boolean Equals(UnityEngine.ProBuilder.Triangle other)
     // Offset: 0x24F1550
     bool Equals(UnityEngine::ProBuilder::Triangle other);
@@ -111,6 +107,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(Triangle), 8 + sizeof(int)> __UnityEngine_ProBuilder_TriangleSizeCheck;
   static_assert(sizeof(Triangle) == 0xC);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Triangle, "UnityEngine.ProBuilder", "Triangle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Triangle::get_a

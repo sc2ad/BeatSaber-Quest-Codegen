@@ -8,10 +8,6 @@
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Hash128
 #include "UnityEngine/Hash128.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
@@ -56,12 +52,13 @@ namespace UnityEngine {
     UnityEngine::Hash128 get_hash();
     // public System.Void .ctor(System.String name, UnityEngine.Hash128 hash)
     // Offset: 0x1CB03F8
-    // ABORTED: conflicts with another method.  CachedAssetBundle(::Il2CppString* name, UnityEngine::Hash128 hash)
+    // ABORTED: conflicts with another method.  CachedAssetBundle(::Il2CppString* name, UnityEngine::Hash128 hash);
   }; // UnityEngine.CachedAssetBundle
   #pragma pack(pop)
   static check_size<sizeof(CachedAssetBundle), 8 + sizeof(UnityEngine::Hash128)> __UnityEngine_CachedAssetBundleSizeCheck;
   static_assert(sizeof(CachedAssetBundle) == 0x18);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CachedAssetBundle, "UnityEngine", "CachedAssetBundle");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::CachedAssetBundle::get_name

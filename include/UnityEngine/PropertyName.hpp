@@ -8,10 +8,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
@@ -51,14 +47,10 @@ namespace UnityEngine {
     int& dyn_id();
     // public System.Void .ctor(System.String name)
     // Offset: 0x1DFEB0C
-    PropertyName(::Il2CppString* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::PropertyName::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, name);
-    }
+    PropertyName(::Il2CppString* name);
     // public System.Void .ctor(UnityEngine.PropertyName other)
     // Offset: 0x1DFEBC4
-    // ABORTED: is copy constructor.  PropertyName(UnityEngine::PropertyName other)
+    // ABORTED: is copy constructor.  PropertyName(UnityEngine::PropertyName other);
     // public System.Boolean Equals(UnityEngine.PropertyName other)
     // Offset: 0x1DFEC68
     bool Equals(UnityEngine::PropertyName other);
@@ -85,6 +77,7 @@ namespace UnityEngine {
   // Offset: 0x1DFEBCC
   bool operator ==(const UnityEngine::PropertyName& lhs, const UnityEngine::PropertyName& rhs);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PropertyName, "UnityEngine", "PropertyName");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::PropertyName::PropertyName

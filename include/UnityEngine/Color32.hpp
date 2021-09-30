@@ -7,10 +7,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -78,7 +74,7 @@ namespace UnityEngine {
     uint8_t& dyn_a();
     // public System.Void .ctor(System.Byte r, System.Byte g, System.Byte b, System.Byte a)
     // Offset: 0x1CB421C
-    // ABORTED: conflicts with another method.  Color32(uint8_t r, uint8_t g, uint8_t b, uint8_t a)
+    // ABORTED: conflicts with another method.  Color32(uint8_t r, uint8_t g, uint8_t b, uint8_t a);
     // static public UnityEngine.Color32 Lerp(UnityEngine.Color32 a, UnityEngine.Color32 b, System.Single t)
     // Offset: 0x1CB455C
     static UnityEngine::Color32 Lerp(UnityEngine::Color32 a, UnityEngine::Color32 b, float t);
@@ -92,6 +88,7 @@ namespace UnityEngine {
   static check_size<sizeof(Color32), 3 + sizeof(uint8_t)> __UnityEngine_Color32SizeCheck;
   static_assert(sizeof(Color32) == 0x4);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Color32, "UnityEngine", "Color32");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Color32::Color32

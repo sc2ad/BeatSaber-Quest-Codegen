@@ -94,7 +94,7 @@ namespace GlobalNamespace {
       void set_playerOverallStatsDataFunc(System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* value);
       // public System.Void .ctor(System.String text, System.Func`1<PlayerAllOverallStatsData/PlayerOverallStatsData> playerOverallStatsDataFunc)
       // Offset: 0x12BBA3C
-      // ABORTED: conflicts with another method.  StatsScopeData(::Il2CppString* text, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc)
+      // ABORTED: conflicts with another method.  StatsScopeData(::Il2CppString* text, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc);
     }; // PlayerStatisticsViewController/StatsScopeData
     #pragma pack(pop)
     static check_size<sizeof(PlayerStatisticsViewController::StatsScopeData), 8 + sizeof(System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>*)> __GlobalNamespace_PlayerStatisticsViewController_StatsScopeDataSizeCheck;

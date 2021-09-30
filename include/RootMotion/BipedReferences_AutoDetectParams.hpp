@@ -9,10 +9,6 @@
 #include "RootMotion/BipedReferences.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: RootMotion
 namespace RootMotion {
@@ -50,12 +46,13 @@ namespace RootMotion {
     static RootMotion::BipedReferences::AutoDetectParams get_Default();
     // public System.Void .ctor(System.Boolean legsParentInSpine, System.Boolean includeEyes)
     // Offset: 0x1EBCF54
-    // ABORTED: conflicts with another method.  AutoDetectParams(bool legsParentInSpine, bool includeEyes)
+    // ABORTED: conflicts with another method.  AutoDetectParams(bool legsParentInSpine, bool includeEyes);
   }; // RootMotion.BipedReferences/RootMotion.AutoDetectParams
   #pragma pack(pop)
   static check_size<sizeof(BipedReferences::AutoDetectParams), 1 + sizeof(bool)> __RootMotion_BipedReferences_AutoDetectParamsSizeCheck;
   static_assert(sizeof(BipedReferences::AutoDetectParams) == 0x2);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedReferences::AutoDetectParams, "RootMotion", "BipedReferences/AutoDetectParams");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::BipedReferences::AutoDetectParams::get_Default

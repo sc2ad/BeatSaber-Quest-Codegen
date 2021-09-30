@@ -111,7 +111,7 @@ namespace VRUIControls {
       UnityEngine::Vector2& dyn_insideRootCanvasPosition();
       // public System.Void .ctor(UnityEngine.UI.Graphic graphic, System.Single distance, UnityEngine.Vector3 position, UnityEngine.Vector2 insideRootCanvasPosition)
       // Offset: 0x25A0678
-      // ABORTED: conflicts with another method.  VRGraphicRaycastResult(UnityEngine::UI::Graphic* graphic, float distance, UnityEngine::Vector3 position, UnityEngine::Vector2 insideRootCanvasPosition)
+      // ABORTED: conflicts with another method.  VRGraphicRaycastResult(UnityEngine::UI::Graphic* graphic, float distance, UnityEngine::Vector3 position, UnityEngine::Vector2 insideRootCanvasPosition);
     }; // VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult
     #pragma pack(pop)
     static check_size<sizeof(VRGraphicRaycaster::VRGraphicRaycastResult), 24 + sizeof(UnityEngine::Vector2)> __VRUIControls_VRGraphicRaycaster_VRGraphicRaycastResultSizeCheck;

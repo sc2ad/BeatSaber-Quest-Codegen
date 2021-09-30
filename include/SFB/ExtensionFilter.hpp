@@ -7,10 +7,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
@@ -48,12 +44,13 @@ namespace SFB {
     ::ArrayWrapper<::Il2CppString*>& dyn__extensions();
     // public System.Void .ctor(System.String filterName, params System.String[] filterExtensions)
     // Offset: 0x11C52AC
-    // ABORTED: conflicts with another method.  ExtensionFilter(::Il2CppString* filterName, ::ArrayWrapper<::Il2CppString*> filterExtensions)
+    // ABORTED: conflicts with another method.  ExtensionFilter(::Il2CppString* filterName, ::ArrayWrapper<::Il2CppString*> filterExtensions);
   }; // SFB.ExtensionFilter
   #pragma pack(pop)
   static check_size<sizeof(ExtensionFilter), 8 + sizeof(::ArrayWrapper<::Il2CppString*>)> __SFB_ExtensionFilterSizeCheck;
   static_assert(sizeof(ExtensionFilter) == 0x10);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(SFB::ExtensionFilter, "SFB", "ExtensionFilter");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: SFB::ExtensionFilter::ExtensionFilter

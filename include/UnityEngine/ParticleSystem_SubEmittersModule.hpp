@@ -8,10 +8,6 @@
 #include "UnityEngine/ParticleSystem.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -45,7 +41,7 @@ namespace UnityEngine {
     int get_subEmittersCount();
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
     // Offset: 0x261CAB8
-    // ABORTED: conflicts with another method.  SubEmittersModule(UnityEngine::ParticleSystem* particleSystem)
+    // ABORTED: conflicts with another method.  SubEmittersModule(UnityEngine::ParticleSystem* particleSystem);
     // public UnityEngine.ParticleSystem GetSubEmitterSystem(System.Int32 index)
     // Offset: 0x261D6A4
     UnityEngine::ParticleSystem* GetSubEmitterSystem(int index);
@@ -60,6 +56,7 @@ namespace UnityEngine {
   static check_size<sizeof(ParticleSystem::SubEmittersModule), 0 + sizeof(UnityEngine::ParticleSystem*)> __UnityEngine_ParticleSystem_SubEmittersModuleSizeCheck;
   static_assert(sizeof(ParticleSystem::SubEmittersModule) == 0x8);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::SubEmittersModule, "UnityEngine", "ParticleSystem/SubEmittersModule");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::SubEmittersModule::get_subEmittersCount

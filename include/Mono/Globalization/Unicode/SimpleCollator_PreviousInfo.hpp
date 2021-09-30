@@ -9,10 +9,6 @@
 #include "Mono/Globalization/Unicode/SimpleCollator.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {
@@ -49,16 +45,13 @@ namespace Mono::Globalization::Unicode {
     uint8_t*& dyn_SortKey();
     // public System.Void .ctor(System.Boolean dummy)
     // Offset: 0x1C378D8
-    PreviousInfo(bool dummy) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::SimpleCollator::PreviousInfo::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dummy)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, dummy);
-    }
+    PreviousInfo(bool dummy);
   }; // Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.PreviousInfo
   #pragma pack(pop)
   static check_size<sizeof(SimpleCollator::PreviousInfo), 8 + sizeof(uint8_t*)> __Mono_Globalization_Unicode_SimpleCollator_PreviousInfoSizeCheck;
   static_assert(sizeof(SimpleCollator::PreviousInfo) == 0x10);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::PreviousInfo, "Mono.Globalization.Unicode", "SimpleCollator/PreviousInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::PreviousInfo::PreviousInfo

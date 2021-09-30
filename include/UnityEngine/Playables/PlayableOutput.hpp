@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
@@ -63,7 +62,7 @@ namespace UnityEngine::Playables {
     static UnityEngine::Playables::PlayableOutput get_Null();
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0x1DFC3D4
-    // ABORTED: conflicts with another method.  PlayableOutput(UnityEngine::Playables::PlayableOutputHandle handle)
+    // ABORTED: conflicts with another method.  PlayableOutput(UnityEngine::Playables::PlayableOutputHandle handle);
     // static private System.Void .cctor()
     // Offset: 0x1DFC504
     static void _cctor();

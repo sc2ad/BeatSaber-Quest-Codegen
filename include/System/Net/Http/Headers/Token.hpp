@@ -9,10 +9,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Http::Headers
@@ -170,7 +166,7 @@ namespace System::Net::Http::Headers {
     System::Net::Http::Headers::Token::Type get_Kind();
     // public System.Void .ctor(System.Net.Http.Headers.Token/System.Net.Http.Headers.Type type, System.Int32 startPosition, System.Int32 endPosition)
     // Offset: 0x174B1C0
-    // ABORTED: conflicts with another method.  Token(System::Net::Http::Headers::Token::Type type, int startPosition, int endPosition)
+    // ABORTED: conflicts with another method.  Token(System::Net::Http::Headers::Token::Type type, int startPosition, int endPosition);
     // static private System.Void .cctor()
     // Offset: 0x1757CE0
     static void _cctor();
@@ -184,6 +180,7 @@ namespace System::Net::Http::Headers {
   static check_size<sizeof(Token), 8 + sizeof(int)> __System_Net_Http_Headers_TokenSizeCheck;
   static_assert(sizeof(Token) == 0xC);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Token, "System.Net.Http.Headers", "Token");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Token::Type, "System.Net.Http.Headers", "Token/Type");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

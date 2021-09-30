@@ -8,10 +8,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.Reflection.CustomAttributeTypedArgument
 #include "System/Reflection/CustomAttributeTypedArgument.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -58,11 +54,7 @@ namespace System::Reflection {
     System::Reflection::MemberInfo*& dyn_memberInfo();
     // public System.Void .ctor(System.Reflection.MemberInfo memberInfo, System.Object value)
     // Offset: 0x1EA4DF4
-    CustomAttributeNamedArgument(System::Reflection::MemberInfo* memberInfo, ::Il2CppObject* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::CustomAttributeNamedArgument::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(memberInfo), ::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, memberInfo, value);
-    }
+    CustomAttributeNamedArgument(System::Reflection::MemberInfo* memberInfo, ::Il2CppObject* value);
     // public override System.String ToString()
     // Offset: 0x1EA412C
     // Implemented from: System.ValueType
@@ -83,6 +75,7 @@ namespace System::Reflection {
   static check_size<sizeof(CustomAttributeNamedArgument), 16 + sizeof(System::Reflection::MemberInfo*)> __System_Reflection_CustomAttributeNamedArgumentSizeCheck;
   static_assert(sizeof(CustomAttributeNamedArgument) == 0x18);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeNamedArgument, "System.Reflection", "CustomAttributeNamedArgument");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::CustomAttributeNamedArgument::CustomAttributeNamedArgument

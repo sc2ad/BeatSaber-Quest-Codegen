@@ -11,10 +11,6 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -161,14 +157,10 @@ namespace UnityEngine {
     static UnityEngine::Vector3 get_positiveInfinity();
     // public System.Void .ctor(System.Single x, System.Single y, System.Single z)
     // Offset: 0x23479C8
-    // ABORTED: conflicts with another method.  Vector3(float x, float y, float z)
+    // ABORTED: conflicts with another method.  Vector3(float x, float y, float z);
     // public System.Void .ctor(System.Single x, System.Single y)
     // Offset: 0x234C04C
-    Vector3(float x, float y) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Vector3::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x), ::il2cpp_utils::ExtractType(y)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, x, y);
-    }
+    Vector3(float x, float y);
     // static private System.Void .cctor()
     // Offset: 0x234D4D0
     static void _cctor();
@@ -300,6 +292,7 @@ namespace UnityEngine {
   // Offset: 0x234D0DC
   bool operator !=(const UnityEngine::Vector3& lhs, const UnityEngine::Vector3& rhs);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector3, "UnityEngine", "Vector3");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Vector3::get_Item

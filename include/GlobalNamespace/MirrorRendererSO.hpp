@@ -105,7 +105,7 @@ namespace GlobalNamespace {
       bool& dyn_stereoEnabled();
       // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, System.Single fov, System.Boolean stereoEnabled)
       // Offset: 0x2588F4C
-      // ABORTED: conflicts with another method.  CameraTransformData(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, float fov, bool stereoEnabled)
+      // ABORTED: conflicts with another method.  CameraTransformData(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, float fov, bool stereoEnabled);
       // public override System.Boolean Equals(System.Object obj)
       // Offset: 0x2589C08
       // Implemented from: System.ValueType

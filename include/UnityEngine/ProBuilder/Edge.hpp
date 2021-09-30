@@ -8,10 +8,6 @@
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -72,7 +68,7 @@ namespace UnityEngine::ProBuilder {
     int& dyn_b();
     // public System.Void .ctor(System.Int32 a, System.Int32 b)
     // Offset: 0x2167F6C
-    // ABORTED: conflicts with another method.  Edge(int a, int b)
+    // ABORTED: conflicts with another method.  Edge(int a, int b);
     // static private System.Void .cctor()
     // Offset: 0x2168960
     static void _cctor();
@@ -141,6 +137,7 @@ namespace UnityEngine::ProBuilder {
   // Offset: 0x2168308
   bool operator !=(const UnityEngine::ProBuilder::Edge& a, const UnityEngine::ProBuilder::Edge& b);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Edge, "UnityEngine.ProBuilder", "Edge");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Edge::Edge

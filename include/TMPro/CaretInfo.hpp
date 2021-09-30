@@ -9,10 +9,6 @@
 #include "System/ValueType.hpp"
 // Including type: TMPro.CaretPosition
 #include "TMPro/CaretPosition.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {
@@ -47,12 +43,13 @@ namespace TMPro {
     TMPro::CaretPosition& dyn_position();
     // public System.Void .ctor(System.Int32 index, TMPro.CaretPosition position)
     // Offset: 0x11E9DE8
-    // ABORTED: conflicts with another method.  CaretInfo(int index, TMPro::CaretPosition position)
+    // ABORTED: conflicts with another method.  CaretInfo(int index, TMPro::CaretPosition position);
   }; // TMPro.CaretInfo
   #pragma pack(pop)
   static check_size<sizeof(CaretInfo), 4 + sizeof(TMPro::CaretPosition)> __TMPro_CaretInfoSizeCheck;
   static_assert(sizeof(CaretInfo) == 0x8);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::CaretInfo, "TMPro", "CaretInfo");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::CaretInfo::CaretInfo

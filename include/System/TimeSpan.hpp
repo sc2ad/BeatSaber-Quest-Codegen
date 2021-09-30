@@ -15,10 +15,6 @@
 #include "System/IComparable.hpp"
 // Including type: System.IFormattable
 #include "System/IFormattable.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -124,21 +120,13 @@ namespace System {
     static bool get_LegacyMode();
     // public System.Void .ctor(System.Int64 ticks)
     // Offset: 0x19C48A0
-    // ABORTED: conflicts with another method.  TimeSpan(int64_t ticks)
+    // ABORTED: conflicts with another method.  TimeSpan(int64_t ticks);
     // public System.Void .ctor(System.Int32 hours, System.Int32 minutes, System.Int32 seconds)
     // Offset: 0x19C48A8
-    TimeSpan(int hours, int minutes, int seconds) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::TimeSpan::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(hours), ::il2cpp_utils::ExtractType(minutes), ::il2cpp_utils::ExtractType(seconds)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, hours, minutes, seconds);
-    }
+    TimeSpan(int hours, int minutes, int seconds);
     // public System.Void .ctor(System.Int32 days, System.Int32 hours, System.Int32 minutes, System.Int32 seconds, System.Int32 milliseconds)
     // Offset: 0x19BEABC
-    TimeSpan(int days, int hours, int minutes, int seconds, int milliseconds) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::TimeSpan::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(days), ::il2cpp_utils::ExtractType(hours), ::il2cpp_utils::ExtractType(minutes), ::il2cpp_utils::ExtractType(seconds), ::il2cpp_utils::ExtractType(milliseconds)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, days, hours, minutes, seconds, milliseconds);
-    }
+    TimeSpan(int days, int hours, int minutes, int seconds, int milliseconds);
     // static private System.Void .cctor()
     // Offset: 0x19C575C
     static void _cctor();
@@ -240,6 +228,7 @@ namespace System {
   // Offset: 0x19C5700
   bool operator >=(const System::TimeSpan& t1, const System::TimeSpan& t2);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TimeSpan, "System", "TimeSpan");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TimeSpan::get_Ticks

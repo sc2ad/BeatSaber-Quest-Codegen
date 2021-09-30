@@ -6,10 +6,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -75,7 +71,7 @@ namespace System::Threading {
     bool get_CanBeCanceled();
     // System.Void .ctor(System.Threading.CancellationTokenSource source)
     // Offset: 0x1A54F54
-    // ABORTED: conflicts with another method.  CancellationToken(System::Threading::CancellationTokenSource* source)
+    // ABORTED: conflicts with another method.  CancellationToken(System::Threading::CancellationTokenSource* source);
     // static private System.Void .cctor()
     // Offset: 0x1A55BC4
     static void _cctor();
@@ -130,6 +126,7 @@ namespace System::Threading {
   // Offset: 0x1A559D4
   bool operator !=(const System::Threading::CancellationToken& left, const System::Threading::CancellationToken& right);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationToken, "System.Threading", "CancellationToken");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::CancellationToken::get_None

@@ -11,10 +11,6 @@
 #include "System/IComparable.hpp"
 // Including type: System.Double
 #include "System/Double.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
@@ -62,38 +58,22 @@ namespace UnityEngine::Timeline {
     static double get_tickValue();
     // public System.Void .ctor(UnityEngine.Timeline.DiscreteTime time)
     // Offset: 0x19FA284
-    // ABORTED: is copy constructor.  DiscreteTime(UnityEngine::Timeline::DiscreteTime time)
+    // ABORTED: is copy constructor.  DiscreteTime(UnityEngine::Timeline::DiscreteTime time);
     // private System.Void .ctor(System.Int64 time)
     // Offset: 0x19FA28C
-    // ABORTED: conflicts with another method.  DiscreteTime(int64_t time)
+    // ABORTED: conflicts with another method.  DiscreteTime(int64_t time);
     // public System.Void .ctor(System.Double time)
     // Offset: 0x19FA294
-    DiscreteTime(double time) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::DiscreteTime::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(time)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, time);
-    }
+    DiscreteTime(double time);
     // public System.Void .ctor(System.Single time)
     // Offset: 0x19FA3DC
-    DiscreteTime(float time) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::DiscreteTime::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(time)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, time);
-    }
+    DiscreteTime(float time);
     // public System.Void .ctor(System.Int32 time)
     // Offset: 0x19FA528
-    DiscreteTime(int time) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::DiscreteTime::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(time)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, time);
-    }
+    DiscreteTime(int time);
     // public System.Void .ctor(System.Int32 frame, System.Double fps)
     // Offset: 0x19FA604
-    DiscreteTime(int frame, double fps) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::DiscreteTime::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(frame), ::il2cpp_utils::ExtractType(fps)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, frame, fps);
-    }
+    DiscreteTime(int frame, double fps);
     // static private System.Void .cctor()
     // Offset: 0x19FAC7C
     static void _cctor();
@@ -207,6 +187,7 @@ namespace UnityEngine::Timeline {
   // Offset: 0x19FA9D0
   UnityEngine::Timeline::DiscreteTime operator-(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::DiscreteTime, "UnityEngine.Timeline", "DiscreteTime");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::DiscreteTime::get_tickValue

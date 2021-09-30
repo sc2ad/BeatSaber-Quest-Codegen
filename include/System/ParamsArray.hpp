@@ -6,10 +6,6 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
@@ -82,32 +78,16 @@ namespace System {
     ::Il2CppObject* get_Item(int index);
     // public System.Void .ctor(System.Object arg0)
     // Offset: 0x1E9F4A4
-    ParamsArray(::Il2CppObject* arg0) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ParamsArray::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg0)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, arg0);
-    }
+    ParamsArray(::Il2CppObject* arg0);
     // public System.Void .ctor(System.Object arg0, System.Object arg1)
     // Offset: 0x1E9F528
-    ParamsArray(::Il2CppObject* arg0, ::Il2CppObject* arg1) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ParamsArray::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg0), ::il2cpp_utils::ExtractType(arg1)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, arg0, arg1);
-    }
+    ParamsArray(::Il2CppObject* arg0, ::Il2CppObject* arg1);
     // public System.Void .ctor(System.Object arg0, System.Object arg1, System.Object arg2)
     // Offset: 0x1E9F5B0
-    ParamsArray(::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ParamsArray::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg0), ::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, arg0, arg1, arg2);
-    }
+    ParamsArray(::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
     // public System.Void .ctor(System.Object[] args)
     // Offset: 0x1E9F644
-    ParamsArray(::ArrayWrapper<::Il2CppObject*> args) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ParamsArray::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(args)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, args);
-    }
+    ParamsArray(::ArrayWrapper<::Il2CppObject*> args);
     // static private System.Void .cctor()
     // Offset: 0x1E9F75C
     static void _cctor();
@@ -119,6 +99,7 @@ namespace System {
   static check_size<sizeof(ParamsArray), 24 + sizeof(::ArrayWrapper<::Il2CppObject*>)> __System_ParamsArraySizeCheck;
   static_assert(sizeof(ParamsArray) == 0x20);
 }
+#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ParamsArray, "System", "ParamsArray");
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ParamsArray::get_Length

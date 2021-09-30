@@ -31,7 +31,8 @@ namespace System {
 namespace System::Runtime::Serialization {
   // Forward declaring type: SerializationInfo
   class SerializationInfo;
-  // Skipping declaration: StreamingContext because it is already included!
+  // Forward declaring type: StreamingContext
+  struct StreamingContext;
 }
 // Completed forward declares
 // Type namespace: System.Reflection
